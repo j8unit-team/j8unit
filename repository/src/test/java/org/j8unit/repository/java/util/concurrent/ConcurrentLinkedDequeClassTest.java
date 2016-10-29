@@ -23,28 +23,6 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedDequeClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ConcurrentLinkedDeque#ConcurrentLinkedDeque() public
-     * java.util.concurrent.ConcurrentLinkedDeque()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ConcurrentLinkedDeque()
-    throws Exception {
-        // create new instance
-        final ConcurrentLinkedDeque sut = new ConcurrentLinkedDeque();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.ConcurrentLinkedDeque#ConcurrentLinkedDeque(java.util.Collection) public
      * java.util.concurrent.ConcurrentLinkedDeque(java.util.Collection<? extends E>)}.
      *
@@ -63,6 +41,28 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedDequeClass
         // create new instance
         @SuppressWarnings("unused")
         final ConcurrentLinkedDeque sut = null; // = new ConcurrentLinkedDeque(java.util.Collection);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#ConcurrentLinkedDeque() public
+     * java.util.concurrent.ConcurrentLinkedDeque()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ConcurrentLinkedDeque()
+    throws Exception {
+        // create new instance
+        final ConcurrentLinkedDeque sut = new ConcurrentLinkedDeque();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentLinkedDeque]

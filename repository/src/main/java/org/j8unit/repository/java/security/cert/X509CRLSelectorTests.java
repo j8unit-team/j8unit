@@ -57,29 +57,6 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CRLSelector#setCertificateChecking(java.security.cert.X509Certificate) public void
-     * java.security.cert.X509CRLSelector.setCertificateChecking(java.security.cert.X509Certificate)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCertificateChecking_X509Certificate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#toString() public
      * java.lang.String java.security.cert.X509CRLSelector.toString()}.
      *
@@ -95,6 +72,29 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#setCertificateChecking(java.security.cert.X509Certificate) public void
+     * java.security.cert.X509CRLSelector.setCertificateChecking(java.security.cert.X509Certificate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCertificateChecking_X509Certificate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,29 +150,6 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CRLSelector#addIssuerName(byte[]) public void
-     * java.security.cert.X509CRLSelector.addIssuerName(byte[]) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addIssuerName_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CRLSelector#addIssuerName(String) public void
      * java.security.cert.X509CRLSelector.addIssuerName(java.lang.String) throws java.io.IOException}.
      *
@@ -187,6 +164,29 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_addIssuerName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRLSelector#addIssuerName(byte[]) public void
+     * java.security.cert.X509CRLSelector.addIssuerName(byte[]) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addIssuerName_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -332,28 +332,6 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getMaxCRL()
-     * public java.math.BigInteger java.security.cert.X509CRLSelector.getMaxCRL()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxCRL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CRLSelector#getCertificateChecking() public java.security.cert.X509Certificate
      * java.security.cert.X509CRLSelector.getCertificateChecking()}.
@@ -369,6 +347,28 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getCertificateChecking()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getMaxCRL()
+     * public java.math.BigInteger java.security.cert.X509CRLSelector.getMaxCRL()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxCRL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -423,8 +423,8 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRLSelector#getIssuers()
-     * public java.util.Collection
-     * <javax.security.auth.x500.X500Principal> java.security.cert.X509CRLSelector.getIssuers()}.
+     * public java.util.Collection<javax.security.auth.x500.X500Principal>
+     * java.security.cert.X509CRLSelector.getIssuers()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

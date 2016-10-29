@@ -21,29 +21,6 @@ implements org.j8unit.repository.java.awt.FrameClassTests<Frame> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Frame#Frame(String, java.awt.GraphicsConfiguration) public
-     * java.awt.Frame(java.lang.String,java.awt.GraphicsConfiguration)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Frame_String_GraphicsConfiguration()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Frame sut = null; // = new Frame(String, java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.awt.Frame#Frame(String) public
      * java.awt.Frame(java.lang.String) throws java.awt.HeadlessException}.
      *
@@ -106,6 +83,29 @@ implements org.j8unit.repository.java.awt.FrameClassTests<Frame> {
     throws Exception {
         // create new instance
         final Frame sut = new Frame();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Frame#Frame(String, java.awt.GraphicsConfiguration) public
+     * java.awt.Frame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Frame_String_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Frame sut = null; // = new Frame(String, java.awt.GraphicsConfiguration);
     }
 
     /**

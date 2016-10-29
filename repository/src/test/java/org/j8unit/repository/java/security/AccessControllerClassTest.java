@@ -24,9 +24,8 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
      * Test method for the hereby targeted method-under-test
      * {@link java.security.AccessController#doPrivilegedWithCombiner(java.security.PrivilegedExceptionAction, java.security.AccessControlContext, java.security.Permission...)
      * public static <T> T
-     * java.security.AccessController.doPrivilegedWithCombiner(java.security.PrivilegedExceptionAction
-     * <T>,java.security.AccessControlContext,java.security.Permission...) throws
-     * java.security.PrivilegedActionException}.
+     * java.security.AccessController.doPrivilegedWithCombiner(java.security.PrivilegedExceptionAction<T>,java.security.AccessControlContext,java.security.Permission...)
+     * throws java.security.PrivilegedActionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -49,8 +48,8 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.AccessController#doPrivilegedWithCombiner(java.security.PrivilegedAction, java.security.AccessControlContext, java.security.Permission...)
-     * public static <T> T java.security.AccessController.doPrivilegedWithCombiner(java.security.PrivilegedAction
-     * <T>,java.security.AccessControlContext,java.security.Permission...)}.
+     * public static <T> T
+     * java.security.AccessController.doPrivilegedWithCombiner(java.security.PrivilegedAction<T>,java.security.AccessControlContext,java.security.Permission...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,8 +94,8 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.AccessController#doPrivilegedWithCombiner(java.security.PrivilegedAction) public static
-     * <T> T java.security.AccessController.doPrivilegedWithCombiner(java.security.PrivilegedAction<T>)}.
+     * {@link java.security.AccessController#doPrivilegedWithCombiner(java.security.PrivilegedAction) public static <T>
+     * T java.security.AccessController.doPrivilegedWithCombiner(java.security.PrivilegedAction<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -118,9 +117,9 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction, java.security.AccessControlContext, java.security.Permission...)
-     * public static <T> T java.security.AccessController.doPrivileged(java.security.PrivilegedExceptionAction
-     * <T>,java.security.AccessControlContext,java.security.Permission...) throws
-     * java.security.PrivilegedActionException}.
+     * public static <T> T
+     * java.security.AccessController.doPrivileged(java.security.PrivilegedExceptionAction<T>,java.security.AccessControlContext,java.security.Permission...)
+     * throws java.security.PrivilegedActionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,9 +141,10 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction) public static native
-     * <T> T java.security.AccessController.doPrivileged(java.security.PrivilegedExceptionAction<T>) throws
-     * java.security.PrivilegedActionException}.
+     * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction, java.security.AccessControlContext)
+     * public static native <T> T
+     * java.security.AccessController.doPrivileged(java.security.PrivilegedExceptionAction<T>,java.security.AccessControlContext)
+     * throws java.security.PrivilegedActionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -156,10 +156,11 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_doPrivileged_PrivilegedExceptionAction()
+    public void test_doPrivileged_PrivilegedExceptionAction_AccessControlContext()
     throws Exception {
         // write some test for {@link
-        // java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction)}
+        // java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction,
+        // java.security.AccessControlContext)}
     }
 
     /**
@@ -186,9 +187,9 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction, java.security.AccessControlContext)
-     * public static native <T> T java.security.AccessController.doPrivileged(java.security.PrivilegedExceptionAction
-     * <T>,java.security.AccessControlContext) throws java.security.PrivilegedActionException}.
+     * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedAction, java.security.AccessControlContext, java.security.Permission...)
+     * public static <T> T
+     * java.security.AccessController.doPrivileged(java.security.PrivilegedAction<T>,java.security.AccessControlContext,java.security.Permission...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,19 +201,18 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_doPrivileged_PrivilegedExceptionAction_AccessControlContext()
+    public void test_doPrivileged_PrivilegedAction_AccessControlContext_PermissionArray()
     throws Exception {
-        // write some test for {@link
-        // java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction,
-        // java.security.AccessControlContext)}
+        // write some test for {@link java.security.AccessController#doPrivileged(java.security.PrivilegedAction,
+        // java.security.AccessControlContext, java.security.Permission...)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedAction, java.security.AccessControlContext)
-     * public static native <T> T java.security.AccessController.doPrivileged(java.security.PrivilegedAction
-     * <T>,java.security.AccessControlContext)}.
+     * public static native <T> T
+     * java.security.AccessController.doPrivileged(java.security.PrivilegedAction<T>,java.security.AccessControlContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -233,9 +233,9 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedAction, java.security.AccessControlContext, java.security.Permission...)
-     * public static <T> T java.security.AccessController.doPrivileged(java.security.PrivilegedAction
-     * <T>,java.security.AccessControlContext,java.security.Permission...)}.
+     * {@link java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction) public static native
+     * <T> T java.security.AccessController.doPrivileged(java.security.PrivilegedExceptionAction<T>) throws
+     * java.security.PrivilegedActionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,10 +247,10 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_doPrivileged_PrivilegedAction_AccessControlContext_PermissionArray()
+    public void test_doPrivileged_PrivilegedExceptionAction()
     throws Exception {
-        // write some test for {@link java.security.AccessController#doPrivileged(java.security.PrivilegedAction,
-        // java.security.AccessControlContext, java.security.Permission...)}
+        // write some test for {@link
+        // java.security.AccessController#doPrivileged(java.security.PrivilegedExceptionAction)}
     }
 
     /**

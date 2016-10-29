@@ -63,8 +63,8 @@ implements org.j8unit.repository.java.util.ServiceLoaderClassTests<ServiceLoader
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.ServiceLoader#load(Class, ClassLoader)
-     * public static <S> java.util.ServiceLoader<S> java.util.ServiceLoader.load(java.lang.Class
-     * <S>,java.lang.ClassLoader)}.
+     * public static <S> java.util.ServiceLoader<S>
+     * java.util.ServiceLoader.load(java.lang.Class<S>,java.lang.ClassLoader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

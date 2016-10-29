@@ -70,21 +70,22 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
 
     @RunWith(J8Unit4.class)
-    public static class TabbedPaneLayoutClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests<TabbedPaneLayout> {
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
 
         @Override
-        public Class<TabbedPaneLayout> createNewSUT() {
-            return TabbedPaneLayout.class;
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout#TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI)
-         * public javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -96,14 +97,15 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_TabbedPaneLayout_BasicTabbedPaneUI()
+        public void create_PropertyChangeHandler_BasicTabbedPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final TabbedPaneLayout sut = null; // = new TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI);
+            final PropertyChangeHandler sut = null; // = new
+                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
 
     }
 
@@ -146,22 +148,21 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
     }
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+    public static class TabbedPaneLayoutClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.TabbedPaneLayoutClassTests<TabbedPaneLayout> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
         @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
+        public Class<TabbedPaneLayout> createNewSUT() {
+            return TabbedPaneLayout.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
-         * public
-         * javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout#TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI)
+         * public javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -173,15 +174,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicTabbedPaneUI()
+        public void create_TabbedPaneLayout_BasicTabbedPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new
-                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
+            final TabbedPaneLayout sut = null; // = new TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
     }
 

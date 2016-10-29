@@ -36,8 +36,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.datatransfer.SystemFlavorMap#getNativesForFlavor(java.awt.datatransfer.DataFlavor) public
-     * synchronized java.util.List
-     * <java.lang.String> java.awt.datatransfer.SystemFlavorMap.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
+     * synchronized java.util.List<java.lang.String>
+     * java.awt.datatransfer.SystemFlavorMap.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,33 +109,9 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.datatransfer.SystemFlavorMap#addFlavorForUnencodedNative(String, java.awt.datatransfer.DataFlavor)
-     * public synchronized void
-     * java.awt.datatransfer.SystemFlavorMap.addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addFlavorForUnencodedNative_String_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNative(String) public synchronized java.util.List
-     * <java.awt.datatransfer.DataFlavor> java.awt.datatransfer.SystemFlavorMap.getFlavorsForNative(java.lang.String)}.
+     * {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNative(String) public synchronized
+     * java.util.List<java.awt.datatransfer.DataFlavor>
+     * java.awt.datatransfer.SystemFlavorMap.getFlavorsForNative(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,6 +125,30 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_getFlavorsForNative_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.datatransfer.SystemFlavorMap#addFlavorForUnencodedNative(String, java.awt.datatransfer.DataFlavor)
+     * public synchronized void
+     * java.awt.datatransfer.SystemFlavorMap.addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addFlavorForUnencodedNative_String_DataFlavor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,8 +209,7 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.datatransfer.SystemFlavorMap#addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor, String)
      * public synchronized void
-     * java.awt.datatransfer.SystemFlavorMap.addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)}
-     * .
+     * java.awt.datatransfer.SystemFlavorMap.addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

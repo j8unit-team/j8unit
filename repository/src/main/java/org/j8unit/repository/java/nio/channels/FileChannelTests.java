@@ -109,30 +109,6 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer) public abstract int
-     * java.nio.channels.FileChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer, long) public abstract int
      * java.nio.channels.FileChannel.write(java.nio.ByteBuffer,long) throws java.io.IOException}.
      *
@@ -155,8 +131,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#lock() public final
-     * java.nio.channels.FileLock java.nio.channels.FileChannel.lock() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#write(java.nio.ByteBuffer) public abstract int
+     * java.nio.channels.FileChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,9 +143,10 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_lock()
+    public default void test_write_ByteBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,8 +178,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#position(long) public
-     * abstract java.nio.channels.FileChannel java.nio.channels.FileChannel.position(long) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#lock() public final
+     * java.nio.channels.FileLock java.nio.channels.FileChannel.lock() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,10 +189,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_position_long()
+    public default void test_lock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -238,6 +215,29 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_position()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.FileChannel#position(long) public
+     * abstract java.nio.channels.FileChannel java.nio.channels.FileChannel.position(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_position_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -384,9 +384,8 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.FileChannel#transferFrom(java.nio.channels.ReadableByteChannel, long, long) public
-     * abstract long java.nio.channels.FileChannel.transferFrom(java.nio.channels.ReadableByteChannel,long,long) throws
-     * java.io.IOException}.
+     * {@link java.nio.channels.FileChannel#read(java.nio.ByteBuffer[]) public final long
+     * java.nio.channels.FileChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -396,9 +395,10 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_transferFrom_ReadableByteChannel_long_long()
+    public default void test_read_ByteBufferArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -423,30 +423,6 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_read_ByteBufferArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.FileChannel#read(java.nio.ByteBuffer[]) public final long
-     * java.nio.channels.FileChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_read_ByteBufferArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -494,6 +470,30 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_read_ByteBuffer_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.FileChannel#transferFrom(java.nio.channels.ReadableByteChannel, long, long) public
+     * abstract long java.nio.channels.FileChannel.transferFrom(java.nio.channels.ReadableByteChannel,long,long) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_transferFrom_ReadableByteChannel_long_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

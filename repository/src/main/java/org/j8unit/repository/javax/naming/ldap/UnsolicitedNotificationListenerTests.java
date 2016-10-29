@@ -37,8 +37,7 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.naming.ldap.UnsolicitedNotificationListener#notificationReceived(javax.naming.ldap.UnsolicitedNotificationEvent)
      * public abstract void
-     * javax.naming.ldap.UnsolicitedNotificationListener.notificationReceived(javax.naming.ldap.UnsolicitedNotificationEvent)}
-     * .
+     * javax.naming.ldap.UnsolicitedNotificationListener.notificationReceived(javax.naming.ldap.UnsolicitedNotificationEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

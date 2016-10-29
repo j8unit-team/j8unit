@@ -22,29 +22,6 @@ implements org.j8unit.repository.java.time.format.DateTimeParseExceptionClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.time.format.DateTimeParseException#DateTimeParseException(String, CharSequence, int) public
-     * java.time.format.DateTimeParseException(java.lang.String,java.lang.CharSequence,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DateTimeParseException_String_CharSequence_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DateTimeParseException sut = null; // = new DateTimeParseException(String, CharSequence, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.time.format.DateTimeParseException#DateTimeParseException(String, CharSequence, int, Throwable)
      * public java.time.format.DateTimeParseException(java.lang.String,java.lang.CharSequence,int,java.lang.Throwable)}.
      *
@@ -63,6 +40,29 @@ implements org.j8unit.repository.java.time.format.DateTimeParseExceptionClassTes
         // create new instance
         @SuppressWarnings("unused")
         final DateTimeParseException sut = null; // = new DateTimeParseException(String, CharSequence, int, Throwable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.time.format.DateTimeParseException#DateTimeParseException(String, CharSequence, int) public
+     * java.time.format.DateTimeParseException(java.lang.String,java.lang.CharSequence,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DateTimeParseException_String_CharSequence_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DateTimeParseException sut = null; // = new DateTimeParseException(String, CharSequence, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeParseException]

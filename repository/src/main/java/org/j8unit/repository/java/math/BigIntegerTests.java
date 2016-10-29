@@ -34,28 +34,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#clearBit(int) public
-     * java.math.BigInteger java.math.BigInteger.clearBit(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clearBit_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#xor(java.math.BigInteger)
      * public java.math.BigInteger java.math.BigInteger.xor(java.math.BigInteger)}.
      *
@@ -92,6 +70,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_divide_BigInteger()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#clearBit(int) public
+     * java.math.BigInteger java.math.BigInteger.clearBit(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clearBit_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,28 +144,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#not() public
-     * java.math.BigInteger java.math.BigInteger.not()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_not()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#shiftLeft(int) public
      * java.math.BigInteger java.math.BigInteger.shiftLeft(int)}.
      *
@@ -180,6 +158,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_shiftLeft_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#not() public
+     * java.math.BigInteger java.math.BigInteger.not()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_not()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -543,28 +543,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#intValueExact() public int
-     * java.math.BigInteger.intValueExact()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intValueExact()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#andNot(java.math.BigInteger)
      * public java.math.BigInteger java.math.BigInteger.andNot(java.math.BigInteger)}.
      *
@@ -579,6 +557,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_andNot_BigInteger()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#intValueExact() public int
+     * java.math.BigInteger.intValueExact()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_intValueExact()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -610,6 +610,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#remainder(java.math.BigInteger)
+     * public java.math.BigInteger java.math.BigInteger.remainder(java.math.BigInteger)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remainder_BigInteger()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.math.BigInteger#modPow(java.math.BigInteger, java.math.BigInteger) public java.math.BigInteger
      * java.math.BigInteger.modPow(java.math.BigInteger,java.math.BigInteger)}.
@@ -625,28 +647,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_modPow_BigInteger_BigInteger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#remainder(java.math.BigInteger)
-     * public java.math.BigInteger java.math.BigInteger.remainder(java.math.BigInteger)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remainder_BigInteger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -789,28 +789,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#isProbablePrime(int) public
-     * boolean java.math.BigInteger.isProbablePrime(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isProbablePrime_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#doubleValue() public double
      * java.math.BigInteger.doubleValue()}.
      *
@@ -826,6 +804,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_doubleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigInteger#isProbablePrime(int) public
+     * boolean java.math.BigInteger.isProbablePrime(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isProbablePrime_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

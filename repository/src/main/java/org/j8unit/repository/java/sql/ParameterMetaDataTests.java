@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getScale(int) public
-     * abstract int java.sql.ParameterMetaData.getScale(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterCount()
+     * public abstract int java.sql.ParameterMetaData.getParameterCount() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScale_int()
+    public default void test_getParameterCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,8 +78,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterCount()
-     * public abstract int java.sql.ParameterMetaData.getParameterCount() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getScale(int) public
+     * abstract int java.sql.ParameterMetaData.getScale(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -91,7 +91,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameterCount()
+    public default void test_getScale_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,29 +122,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterTypeName(int)
-     * public abstract java.lang.String java.sql.ParameterMetaData.getParameterTypeName(int) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameterTypeName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.ParameterMetaData#getParameterClassName(int) public abstract java.lang.String
      * java.sql.ParameterMetaData.getParameterClassName(int) throws java.sql.SQLException}.
@@ -160,6 +137,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getParameterClassName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.ParameterMetaData#getParameterTypeName(int)
+     * public abstract java.lang.String java.sql.ParameterMetaData.getParameterTypeName(int) throws
+     * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameterTypeName_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

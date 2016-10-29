@@ -21,10 +21,8 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.relation.RoleList#RoleList(java.util.List) public
-     * javax.management.relation.RoleList(java.util.List<javax.management.relation.Role>) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.relation.RoleList#RoleList()
+     * public javax.management.relation.RoleList()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,11 +34,10 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_RoleList_List()
+    public void create_RoleList()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final RoleList sut = null; // = new RoleList(java.util.List);
+        final RoleList sut = new RoleList();
     }
 
     /**
@@ -67,8 +64,10 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.management.relation.RoleList#RoleList()
-     * public javax.management.relation.RoleList()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.relation.RoleList#RoleList(java.util.List) public
+     * javax.management.relation.RoleList(java.util.List<javax.management.relation.Role>) throws
+     * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,10 +79,11 @@ implements org.j8unit.repository.javax.management.relation.RoleListClassTests<Ro
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_RoleList()
+    public void create_RoleList_List()
     throws Exception {
         // create new instance
-        final RoleList sut = new RoleList();
+        @SuppressWarnings("unused")
+        final RoleList sut = null; // = new RoleList(java.util.List);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleList]

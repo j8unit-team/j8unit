@@ -21,6 +21,27 @@ implements org.j8unit.repository.java.util.SplittableRandomClassTests<Splittable
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.SplittableRandom#SplittableRandom()
+     * public java.util.SplittableRandom()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SplittableRandom()
+    throws Exception {
+        // create new instance
+        final SplittableRandom sut = new SplittableRandom();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.util.SplittableRandom#SplittableRandom(long) public java.util.SplittableRandom(long)}.
      *
@@ -39,27 +60,6 @@ implements org.j8unit.repository.java.util.SplittableRandomClassTests<Splittable
         // create new instance
         @SuppressWarnings("unused")
         final SplittableRandom sut = null; // = new SplittableRandom(long);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.SplittableRandom#SplittableRandom()
-     * public java.util.SplittableRandom()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_SplittableRandom()
-    throws Exception {
-        // create new instance
-        final SplittableRandom sut = new SplittableRandom();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.SplittableRandom]

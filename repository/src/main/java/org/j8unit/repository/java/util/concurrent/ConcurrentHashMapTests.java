@@ -37,30 +37,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#reduceValues(long, java.util.function.BiFunction) public V
-     * java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.BiFunction<? super V, ? super V, ?
-     * extends V>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reduceValues_long_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#reduceValues(long, java.util.function.Function, java.util.function.BiFunction)
      * public <U> U java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.Function<? super V, ?
      * extends U>,java.util.function.BiFunction<? super U, ? super U, ? extends U>)}.
@@ -76,6 +52,30 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_reduceValues_long_Function_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceValues(long, java.util.function.BiFunction) public V
+     * java.util.concurrent.ConcurrentHashMap.reduceValues(long,java.util.function.BiFunction<? super V, ? super V, ?
+     * extends V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reduceValues_long_BiFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -252,31 +252,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntries(long, java.util.function.BiFunction) public
-     * java.util.Map.java.util.Map$Entry<K, V>
-     * java.util.concurrent.ConcurrentHashMap.reduceEntries(long,java.util.function.BiFunction<java.util.Map.java.util.Map$Entry<K,
-     * V>, java.util.Map.java.util.Map$Entry<K, V>, ? extends java.util.Map.java.util.Map$Entry<K, V>>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reduceEntries_long_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#reduceEntries(long, java.util.function.Function, java.util.function.BiFunction)
      * public <U> U
      * java.util.concurrent.ConcurrentHashMap.reduceEntries(long,java.util.function.Function<java.util.Map.java.util.Map$Entry<K,
@@ -293,6 +268,31 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_reduceEntries_long_Function_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceEntries(long, java.util.function.BiFunction) public
+     * java.util.Map.java.util.Map$Entry<K, V>
+     * java.util.concurrent.ConcurrentHashMap.reduceEntries(long,java.util.function.BiFunction<java.util.Map.java.util.Map$Entry<K,
+     * V>, java.util.Map.java.util.Map$Entry<K, V>, ? extends java.util.Map.java.util.Map$Entry<K, V>>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reduceEntries_long_BiFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -325,30 +325,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#replace(Object, Object, Object) public boolean
-     * java.util.concurrent.ConcurrentHashMap.replace(K,V,V)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_replace_Object_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#replace(Object, Object) public V
      * java.util.concurrent.ConcurrentHashMap.replace(K,V)}.
      *
@@ -364,6 +340,30 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_replace_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#replace(Object, Object, Object) public boolean
+     * java.util.concurrent.ConcurrentHashMap.replace(K,V,V)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_replace_Object_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -637,30 +637,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#forEach(java.util.function.BiConsumer) public void
-     * java.util.concurrent.ConcurrentHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_forEach_BiConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#forEach(long, java.util.function.BiFunction, java.util.function.Consumer)
      * public <U> void java.util.concurrent.ConcurrentHashMap.forEach(long,java.util.function.BiFunction<? super K, ?
      * super V, ? extends U>,java.util.function.Consumer<? super U>)}.
@@ -676,6 +652,30 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_forEach_long_BiFunction_Consumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEach(java.util.function.BiConsumer) public void
+     * java.util.concurrent.ConcurrentHashMap.forEach(java.util.function.BiConsumer<? super K, ? super V>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_forEach_BiConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -757,29 +757,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#forEachKey(long, java.util.function.Consumer) public void
-     * java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Consumer<? super K>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_forEachKey_long_Consumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#forEachKey(long, java.util.function.Function, java.util.function.Consumer)
      * public <U> void java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Function<? super K, ?
      * extends U>,java.util.function.Consumer<? super U>)}.
@@ -795,6 +772,29 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_forEachKey_long_Function_Consumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#forEachKey(long, java.util.function.Consumer) public void
+     * java.util.concurrent.ConcurrentHashMap.forEachKey(long,java.util.function.Consumer<? super K>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_forEachKey_long_Consumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1066,30 +1066,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#remove(Object, Object) public boolean
-     * java.util.concurrent.ConcurrentHashMap.remove(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#remove(Object) public V
      * java.util.concurrent.ConcurrentHashMap.remove(java.lang.Object)}.
      *
@@ -1105,6 +1081,30 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#remove(Object, Object) public boolean
+     * java.util.concurrent.ConcurrentHashMap.remove(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1305,30 +1305,6 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeysToLong(long, java.util.function.ToLongFunction, long, java.util.function.LongBinaryOperator)
-     * public long java.util.concurrent.ConcurrentHashMap.reduceKeysToLong(long,java.util.function.ToLongFunction<?
-     * super K>,long,java.util.function.LongBinaryOperator)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reduceKeysToLong_long_ToLongFunction_long_LongBinaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentHashMap#reduceKeysToInt(long, java.util.function.ToIntFunction, int, java.util.function.IntBinaryOperator)
      * public int java.util.concurrent.ConcurrentHashMap.reduceKeysToInt(long,java.util.function.ToIntFunction<? super
      * K>,int,java.util.function.IntBinaryOperator)}.
@@ -1344,6 +1320,30 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_reduceKeysToInt_long_ToIntFunction_int_IntBinaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentHashMap#reduceKeysToLong(long, java.util.function.ToLongFunction, long, java.util.function.LongBinaryOperator)
+     * public long java.util.concurrent.ConcurrentHashMap.reduceKeysToLong(long,java.util.function.ToLongFunction<?
+     * super K>,long,java.util.function.LongBinaryOperator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reduceKeysToLong_long_ToLongFunction_long_LongBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1570,8 +1570,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#spliterator() public java.util.Spliterator
-         * <K> java.util.concurrent.ConcurrentHashMap$KeySetView.spliterator()}.
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#spliterator() public java.util.Spliterator<K>
+         * java.util.concurrent.ConcurrentHashMap$KeySetView.spliterator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1690,8 +1690,8 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#iterator() public java.util.Iterator
-         * <K> java.util.concurrent.ConcurrentHashMap$KeySetView.iterator()}.
+         * {@link java.util.concurrent.ConcurrentHashMap.KeySetView#iterator() public java.util.Iterator<K>
+         * java.util.concurrent.ConcurrentHashMap$KeySetView.iterator()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

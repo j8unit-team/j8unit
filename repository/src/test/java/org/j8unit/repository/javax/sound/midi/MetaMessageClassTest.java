@@ -21,6 +21,27 @@ implements org.j8unit.repository.javax.sound.midi.MetaMessageClassTests<MetaMess
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.sound.midi.MetaMessage#MetaMessage()
+     * public javax.sound.midi.MetaMessage()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MetaMessage()
+    throws Exception {
+        // create new instance
+        final MetaMessage sut = new MetaMessage();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.sound.midi.MetaMessage#MetaMessage(int, byte[], int) public
      * javax.sound.midi.MetaMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
@@ -40,27 +61,6 @@ implements org.j8unit.repository.javax.sound.midi.MetaMessageClassTests<MetaMess
         // create new instance
         @SuppressWarnings("unused")
         final MetaMessage sut = null; // = new MetaMessage(int, byte[], int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.sound.midi.MetaMessage#MetaMessage()
-     * public javax.sound.midi.MetaMessage()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MetaMessage()
-    throws Exception {
-        // create new instance
-        final MetaMessage sut = new MetaMessage();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MetaMessage]

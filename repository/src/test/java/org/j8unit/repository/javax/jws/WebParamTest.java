@@ -3,11 +3,14 @@ package org.j8unit.repository.javax.jws;
 import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import javax.jws.WebParam;
 import javax.jws.WebParam.Mode;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class WebParamTest
@@ -22,7 +25,8 @@ implements org.j8unit.repository.javax.jws.WebParamTests<WebParam> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.WebParam]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModeTest
     implements org.j8unit.repository.javax.jws.WebParamTests.ModeTests<Mode> {
 

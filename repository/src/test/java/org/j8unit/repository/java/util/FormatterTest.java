@@ -7,7 +7,6 @@ import java.util.Formatter.BigDecimalLayoutForm;
 import java.util.concurrent.Callable;
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
-import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
@@ -36,7 +35,8 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BigDecimalLayoutFormTest
     implements org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests<BigDecimalLayoutForm> {
 

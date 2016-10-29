@@ -71,9 +71,9 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.ArrayType#getPrimitiveArrayType(Class) public static
-     * <T> javax.management.openmbean.ArrayType
-     * <T> javax.management.openmbean.ArrayType.getPrimitiveArrayType(java.lang.Class<T>)}.
+     * {@link javax.management.openmbean.ArrayType#getPrimitiveArrayType(Class) public static <T>
+     * javax.management.openmbean.ArrayType<T>
+     * javax.management.openmbean.ArrayType.getPrimitiveArrayType(java.lang.Class<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -93,9 +93,9 @@ implements org.j8unit.repository.javax.management.openmbean.ArrayTypeClassTests<
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.ArrayType#getArrayType(javax.management.openmbean.OpenType) public static
-     * <E> javax.management.openmbean.ArrayType
-     * <E[]> javax.management.openmbean.ArrayType.getArrayType(javax.management.openmbean.OpenType<E>) throws
+     * {@link javax.management.openmbean.ArrayType#getArrayType(javax.management.openmbean.OpenType) public static <E>
+     * javax.management.openmbean.ArrayType<E[]>
+     * javax.management.openmbean.ArrayType.getArrayType(javax.management.openmbean.OpenType<E>) throws
      * javax.management.openmbean.OpenDataException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

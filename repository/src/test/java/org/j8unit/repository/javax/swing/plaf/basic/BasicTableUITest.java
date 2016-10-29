@@ -39,21 +39,6 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, org.j8unit.repository.javax.swi
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI]
 
     @RunWith(J8Unit4.class)
-    public static class KeyHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests<KeyHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
-
-        @Override
-        public KeyHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTableUI.KeyHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.FocusHandlerTests<FocusHandler> {
 
@@ -80,6 +65,21 @@ implements FactoryBasedJ8UnitTest<BasicTableUI>, org.j8unit.repository.javax.swi
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class KeyHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUITests.KeyHandlerTests<KeyHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
+
+        @Override
+        public KeyHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTableUI.KeyHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
 
     }
 

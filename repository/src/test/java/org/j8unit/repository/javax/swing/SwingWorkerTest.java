@@ -3,11 +3,14 @@ package org.j8unit.repository.javax.swing;
 import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import javax.swing.SwingWorker;
 import javax.swing.SwingWorker.StateValue;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class SwingWorkerTest<T, V>
@@ -22,7 +25,8 @@ implements org.j8unit.repository.javax.swing.SwingWorkerTests<SwingWorker<T, V>,
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingWorker]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateValueTest
     implements org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests<StateValue> {
 

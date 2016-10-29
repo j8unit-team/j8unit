@@ -35,8 +35,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.stream.MemoryCacheImageInputStream#flushBefore(long) public void
-     * javax.imageio.stream.MemoryCacheImageInputStream.flushBefore(long) throws java.io.IOException}.
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#read() public int
+     * javax.imageio.stream.MemoryCacheImageInputStream.read() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -49,7 +49,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_flushBefore_long()
+    public default void test_read()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,8 +83,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.stream.MemoryCacheImageInputStream#read() public int
-     * javax.imageio.stream.MemoryCacheImageInputStream.read() throws java.io.IOException}.
+     * {@link javax.imageio.stream.MemoryCacheImageInputStream#flushBefore(long) public void
+     * javax.imageio.stream.MemoryCacheImageInputStream.flushBefore(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,7 +97,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_read()
+    public default void test_flushBefore_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

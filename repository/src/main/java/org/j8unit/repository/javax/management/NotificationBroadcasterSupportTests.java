@@ -136,8 +136,7 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.NotificationBroadcasterSupport#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
      * public void
-     * javax.management.NotificationBroadcasterSupport.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
-     * .
+     * javax.management.NotificationBroadcasterSupport.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

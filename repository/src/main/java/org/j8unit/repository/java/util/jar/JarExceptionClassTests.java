@@ -3,7 +3,7 @@ package org.j8unit.repository.java.util.jar;
 import static org.junit.Assert.assertTrue;
 import java.util.jar.JarException;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.util.zip.ZipExceptionClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

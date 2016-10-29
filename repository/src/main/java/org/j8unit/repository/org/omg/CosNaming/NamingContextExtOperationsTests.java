@@ -61,8 +61,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming.NamingContextExtOperations#resolve_str(String) public abstract org.omg.CORBA.Object
      * org.omg.CosNaming.NamingContextExtOperations.resolve_str(java.lang.String) throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
-     * .
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

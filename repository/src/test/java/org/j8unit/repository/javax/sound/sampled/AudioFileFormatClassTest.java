@@ -23,6 +23,31 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioFormat, int)
+     * public
+     * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AudioFileFormat_Type_AudioFormat_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final AudioFileFormat sut = null; // = new AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,
+                                          // javax.sound.sampled.AudioFormat, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioFormat, int, java.util.Map)
      * public
      * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int,java.util.Map<java.lang.String,
@@ -44,32 +69,6 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
         @SuppressWarnings("unused")
         final AudioFileFormat sut = null; // = new AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,
                                           // javax.sound.sampled.AudioFormat, int, java.util.Map);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type, javax.sound.sampled.AudioFormat, int)
-     * public
-     * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_AudioFileFormat_Type_AudioFormat_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final AudioFileFormat sut = null; // = new AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,
-                                          // javax.sound.sampled.AudioFormat, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFileFormat]

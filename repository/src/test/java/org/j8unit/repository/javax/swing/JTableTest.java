@@ -39,6 +39,22 @@ implements FactoryBasedJ8UnitTest<JTable>, org.j8unit.repository.javax.swing.JTa
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable]
 
     @RunWith(J8Unit4.class)
+    public static class DropLocationTest
+    implements org.j8unit.repository.javax.swing.JTableTests.DropLocationTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$DropLocation]
+
+        @Override
+        public DropLocation createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JTable.DropLocation], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$DropLocation]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class PrintModeTest
     implements org.j8unit.repository.javax.swing.JTableTests.PrintModeTests<PrintMode> {
 
@@ -58,21 +74,6 @@ implements FactoryBasedJ8UnitTest<JTable>, org.j8unit.repository.javax.swing.JTa
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$PrintMode]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationTest
-    implements org.j8unit.repository.javax.swing.JTableTests.DropLocationTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$DropLocation]
-
-        @Override
-        public DropLocation createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JTable.DropLocation], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$DropLocation]
 
     }
 

@@ -150,30 +150,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.ContentHandler#startPrefixMapping(String, String) public abstract void
-     * org.xml.sax.ContentHandler.startPrefixMapping(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_startPrefixMapping_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.ContentHandler#endElement(String, String, String) public abstract void
      * org.xml.sax.ContentHandler.endElement(java.lang.String,java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
@@ -189,6 +165,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_endElement_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ContentHandler#startPrefixMapping(String, String) public abstract void
+     * org.xml.sax.ContentHandler.startPrefixMapping(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_startPrefixMapping_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

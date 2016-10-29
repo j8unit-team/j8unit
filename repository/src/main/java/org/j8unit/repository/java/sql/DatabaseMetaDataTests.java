@@ -56,6 +56,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#insertsAreDetected(int)
+     * public abstract boolean java.sql.DatabaseMetaData.insertsAreDetected(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertsAreDetected_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsMixedCaseIdentifiers() public abstract boolean
      * java.sql.DatabaseMetaData.supportsMixedCaseIdentifiers() throws java.sql.SQLException}.
@@ -71,28 +93,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsMixedCaseIdentifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#insertsAreDetected(int)
-     * public abstract boolean java.sql.DatabaseMetaData.insertsAreDetected(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertsAreDetected_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,28 +192,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsSelectForUpdate()
-     * public abstract boolean java.sql.DatabaseMetaData.supportsSelectForUpdate() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsSelectForUpdate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#getUDTs(String, String, String, int[]) public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getUDTs(java.lang.String,java.lang.String,java.lang.String,int[]) throws
@@ -230,6 +208,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getUDTs_String_String_String_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsSelectForUpdate()
+     * public abstract boolean java.sql.DatabaseMetaData.supportsSelectForUpdate() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsSelectForUpdate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -694,29 +694,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsExtendedSQLGrammar() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsExtendedSQLGrammar() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsExtendedSQLGrammar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#getTablePrivileges(String, String, String) public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getTablePrivileges(java.lang.String,java.lang.String,java.lang.String) throws
      * java.sql.SQLException}.
@@ -740,8 +717,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsConvert(int, int)
-     * public abstract boolean java.sql.DatabaseMetaData.supportsConvert(int,int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#supportsExtendedSQLGrammar() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsExtendedSQLGrammar() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -753,7 +731,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_supportsConvert_int_int()
+    public default void test_supportsExtendedSQLGrammar()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -776,6 +754,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsConvert()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsConvert(int, int)
+     * public abstract boolean java.sql.DatabaseMetaData.supportsConvert(int,int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsConvert_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -829,6 +829,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxSchemaNameLength()
+     * public abstract int java.sql.DatabaseMetaData.getMaxSchemaNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxSchemaNameLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsIntegrityEnhancementFacility() public abstract boolean
      * java.sql.DatabaseMetaData.supportsIntegrityEnhancementFacility() throws java.sql.SQLException}.
@@ -844,28 +866,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsIntegrityEnhancementFacility()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxSchemaNameLength()
-     * public abstract int java.sql.DatabaseMetaData.getMaxSchemaNameLength() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxSchemaNameLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1031,8 +1031,10 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#nullsAreSortedAtStart()
-     * public abstract boolean java.sql.DatabaseMetaData.nullsAreSortedAtStart() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#getImportedKeys(String, String, String) public abstract java.sql.ResultSet
+     * java.sql.DatabaseMetaData.getImportedKeys(java.lang.String,java.lang.String,java.lang.String) throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1044,7 +1046,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nullsAreSortedAtStart()
+    public default void test_getImportedKeys_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1075,10 +1077,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#getImportedKeys(String, String, String) public abstract java.sql.ResultSet
-     * java.sql.DatabaseMetaData.getImportedKeys(java.lang.String,java.lang.String,java.lang.String) throws
-     * java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#nullsAreSortedAtStart()
+     * public abstract boolean java.sql.DatabaseMetaData.nullsAreSortedAtStart() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1090,7 +1090,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImportedKeys_String_String_String()
+    public default void test_nullsAreSortedAtStart()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1166,6 +1166,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getRowIdLifetime() public
+     * abstract java.sql.RowIdLifetime java.sql.DatabaseMetaData.getRowIdLifetime() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowIdLifetime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsResultSetHoldability(int) public abstract boolean
      * java.sql.DatabaseMetaData.supportsResultSetHoldability(int) throws java.sql.SQLException}.
@@ -1181,28 +1203,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsResultSetHoldability_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getRowIdLifetime() public
-     * abstract java.sql.RowIdLifetime java.sql.DatabaseMetaData.getRowIdLifetime() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowIdLifetime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1368,28 +1368,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsFullOuterJoins()
-     * public abstract boolean java.sql.DatabaseMetaData.supportsFullOuterJoins() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsFullOuterJoins()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#getDefaultTransactionIsolation() public abstract int
      * java.sql.DatabaseMetaData.getDefaultTransactionIsolation() throws java.sql.SQLException}.
@@ -1405,6 +1383,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDefaultTransactionIsolation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsFullOuterJoins()
+     * public abstract boolean java.sql.DatabaseMetaData.supportsFullOuterJoins() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsFullOuterJoins()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1527,28 +1527,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxStatementLength()
-     * public abstract int java.sql.DatabaseMetaData.getMaxStatementLength() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxStatementLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#getAttributes(String, String, String, String) public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getAttributes(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
@@ -1565,6 +1543,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttributes_String_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxStatementLength()
+     * public abstract int java.sql.DatabaseMetaData.getMaxStatementLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxStatementLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1885,6 +1885,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#ownUpdatesAreVisible(int)
+     * public abstract boolean java.sql.DatabaseMetaData.ownUpdatesAreVisible(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ownUpdatesAreVisible_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsOpenCursorsAcrossCommit() public abstract boolean
      * java.sql.DatabaseMetaData.supportsOpenCursorsAcrossCommit() throws java.sql.SQLException}.
@@ -1908,8 +1930,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#ownUpdatesAreVisible(int)
-     * public abstract boolean java.sql.DatabaseMetaData.ownUpdatesAreVisible(int) throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getNumericFunctions()
+     * public abstract java.lang.String java.sql.DatabaseMetaData.getNumericFunctions() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1921,7 +1943,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ownUpdatesAreVisible_int()
+    public default void test_getNumericFunctions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1944,28 +1966,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_nullsAreSortedAtEnd()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getNumericFunctions()
-     * public abstract java.lang.String java.sql.DatabaseMetaData.getNumericFunctions() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNumericFunctions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2044,6 +2044,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#generatedKeyAlwaysReturned() public abstract boolean
+     * java.sql.DatabaseMetaData.generatedKeyAlwaysReturned() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generatedKeyAlwaysReturned()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsUnionAll() public
      * abstract boolean java.sql.DatabaseMetaData.supportsUnionAll() throws java.sql.SQLException}.
      *
@@ -2058,29 +2081,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsUnionAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsAlterTableWithAddColumn() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsAlterTableWithAddColumn() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsAlterTableWithAddColumn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2112,8 +2112,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#generatedKeyAlwaysReturned() public abstract boolean
-     * java.sql.DatabaseMetaData.generatedKeyAlwaysReturned() throws java.sql.SQLException}.
+     * {@link java.sql.DatabaseMetaData#supportsAlterTableWithAddColumn() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsAlterTableWithAddColumn() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2125,29 +2125,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_generatedKeyAlwaysReturned()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsCoreSQLGrammar()
-     * public abstract boolean java.sql.DatabaseMetaData.supportsCoreSQLGrammar() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsCoreSQLGrammar()
+    public default void test_supportsAlterTableWithAddColumn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2171,6 +2149,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_othersDeletesAreVisible_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsCoreSQLGrammar()
+     * public abstract boolean java.sql.DatabaseMetaData.supportsCoreSQLGrammar() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsCoreSQLGrammar()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2224,29 +2224,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsSubqueriesInExists() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsSubqueriesInExists() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsSubqueriesInExists()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxUserNameLength()
      * public abstract int java.sql.DatabaseMetaData.getMaxUserNameLength() throws java.sql.SQLException}.
      *
@@ -2269,8 +2246,9 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsSavepoints()
-     * public abstract boolean java.sql.DatabaseMetaData.supportsSavepoints() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#supportsSubqueriesInExists() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsSubqueriesInExists() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2282,7 +2260,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_supportsSavepoints()
+    public default void test_supportsSubqueriesInExists()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2307,6 +2285,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSuperTables_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#supportsSavepoints()
+     * public abstract boolean java.sql.DatabaseMetaData.supportsSavepoints() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsSavepoints()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2406,29 +2406,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsMixedCaseQuotedIdentifiers() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsMixedCaseQuotedIdentifiers() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsMixedCaseQuotedIdentifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsGroupByBeyondSelect() public abstract boolean
      * java.sql.DatabaseMetaData.supportsGroupByBeyondSelect() throws java.sql.SQLException}.
      *
@@ -2451,9 +2428,32 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#supportsMixedCaseQuotedIdentifiers() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsMixedCaseQuotedIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsMixedCaseQuotedIdentifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getDatabaseProductName()
-     * public abstract java.lang.String java.sql.DatabaseMetaData.getDatabaseProductName() throws java.sql.SQLException}
-     * .
+     * public abstract java.lang.String java.sql.DatabaseMetaData.getDatabaseProductName() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -2541,28 +2541,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#nullsAreSortedLow() public
-     * abstract boolean java.sql.DatabaseMetaData.nullsAreSortedLow() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nullsAreSortedLow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#getTables(String, String, String, String[]) public abstract java.sql.ResultSet
      * java.sql.DatabaseMetaData.getTables(java.lang.String,java.lang.String,java.lang.String,java.lang.String[]) throws
@@ -2579,6 +2557,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTables_String_String_String_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#nullsAreSortedLow() public
+     * abstract boolean java.sql.DatabaseMetaData.nullsAreSortedLow() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nullsAreSortedLow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2768,6 +2768,54 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#getExportedKeys(String, String, String) public abstract java.sql.ResultSet
+     * java.sql.DatabaseMetaData.getExportedKeys(java.lang.String,java.lang.String,java.lang.String) throws
+     * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getExportedKeys_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#getPrimaryKeys(String, String, String) public abstract java.sql.ResultSet
+     * java.sql.DatabaseMetaData.getPrimaryKeys(java.lang.String,java.lang.String,java.lang.String) throws
+     * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryKeys_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsSchemasInTableDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInTableDefinitions() throws java.sql.SQLException}.
      *
@@ -2805,54 +2853,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_storesUpperCaseQuotedIdentifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#getPrimaryKeys(String, String, String) public abstract java.sql.ResultSet
-     * java.sql.DatabaseMetaData.getPrimaryKeys(java.lang.String,java.lang.String,java.lang.String) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimaryKeys_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#getExportedKeys(String, String, String) public abstract java.sql.ResultSet
-     * java.sql.DatabaseMetaData.getExportedKeys(java.lang.String,java.lang.String,java.lang.String) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getExportedKeys_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3025,29 +3025,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsMultipleTransactions() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsMultipleTransactions() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsMultipleTransactions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsCatalogsInTableDefinitions() public abstract boolean
      * java.sql.DatabaseMetaData.supportsCatalogsInTableDefinitions() throws java.sql.SQLException}.
      *
@@ -3062,6 +3039,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsCatalogsInTableDefinitions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#supportsMultipleTransactions() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsMultipleTransactions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsMultipleTransactions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3139,6 +3139,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#autoCommitFailureClosesAllResultSets() public abstract boolean
+     * java.sql.DatabaseMetaData.autoCommitFailureClosesAllResultSets() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_autoCommitFailureClosesAllResultSets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxColumnsInOrderBy()
      * public abstract int java.sql.DatabaseMetaData.getMaxColumnsInOrderBy() throws java.sql.SQLException}.
      *
@@ -3161,9 +3184,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#autoCommitFailureClosesAllResultSets() public abstract boolean
-     * java.sql.DatabaseMetaData.autoCommitFailureClosesAllResultSets() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#deletesAreDetected(int)
+     * public abstract boolean java.sql.DatabaseMetaData.deletesAreDetected(int) throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3175,7 +3197,30 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_autoCommitFailureClosesAllResultSets()
+    public default void test_deletesAreDetected_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#supportsDataManipulationTransactionsOnly() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsDataManipulationTransactionsOnly() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsDataManipulationTransactionsOnly()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3230,51 +3275,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsDataManipulationTransactionsOnly() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsDataManipulationTransactionsOnly() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsDataManipulationTransactionsOnly()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#deletesAreDetected(int)
-     * public abstract boolean java.sql.DatabaseMetaData.deletesAreDetected(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deletesAreDetected_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#supportsSchemasInDataManipulation() public abstract boolean
      * java.sql.DatabaseMetaData.supportsSchemasInDataManipulation() throws java.sql.SQLException}.
      *
@@ -3320,28 +3320,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxCursorNameLength()
-     * public abstract int java.sql.DatabaseMetaData.getMaxCursorNameLength() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxCursorNameLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getUserName() public
      * abstract java.lang.String java.sql.DatabaseMetaData.getUserName() throws java.sql.SQLException}.
      *
@@ -3356,6 +3334,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getUserName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxCursorNameLength()
+     * public abstract int java.sql.DatabaseMetaData.getMaxCursorNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxCursorNameLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3409,29 +3409,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#storesMixedCaseQuotedIdentifiers() public abstract boolean
-     * java.sql.DatabaseMetaData.storesMixedCaseQuotedIdentifiers() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_storesMixedCaseQuotedIdentifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#othersInsertsAreVisible(int) public abstract boolean
      * java.sql.DatabaseMetaData.othersInsertsAreVisible(int) throws java.sql.SQLException}.
      *
@@ -3454,6 +3431,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#storesMixedCaseQuotedIdentifiers() public abstract boolean
+     * java.sql.DatabaseMetaData.storesMixedCaseQuotedIdentifiers() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_storesMixedCaseQuotedIdentifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#usesLocalFiles() public
      * abstract boolean java.sql.DatabaseMetaData.usesLocalFiles() throws java.sql.SQLException}.
      *
@@ -3468,29 +3468,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_usesLocalFiles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.sql.DatabaseMetaData#supportsSchemasInIndexDefinitions() public abstract boolean
-     * java.sql.DatabaseMetaData.supportsSchemasInIndexDefinitions() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsSchemasInIndexDefinitions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3536,6 +3513,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSchemas()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.sql.DatabaseMetaData#supportsSchemasInIndexDefinitions() public abstract boolean
+     * java.sql.DatabaseMetaData.supportsSchemasInIndexDefinitions() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsSchemasInIndexDefinitions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3635,28 +3635,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxTableNameLength()
-     * public abstract int java.sql.DatabaseMetaData.getMaxTableNameLength() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxTableNameLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.sql.DatabaseMetaData#getColumnPrivileges(String, String, String, String) public abstract
      * java.sql.ResultSet
@@ -3674,6 +3652,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getColumnPrivileges_String_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getMaxTableNameLength()
+     * public abstract int java.sql.DatabaseMetaData.getMaxTableNameLength() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxTableNameLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3750,8 +3750,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#nullsAreSortedHigh()
-     * public abstract boolean java.sql.DatabaseMetaData.nullsAreSortedHigh() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getJDBCMinorVersion()
+     * public abstract int java.sql.DatabaseMetaData.getJDBCMinorVersion() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3763,29 +3763,7 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nullsAreSortedHigh()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getTimeDateFunctions()
-     * public abstract java.lang.String java.sql.DatabaseMetaData.getTimeDateFunctions() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTimeDateFunctions()
+    public default void test_getJDBCMinorVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3816,8 +3794,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getJDBCMinorVersion()
-     * public abstract int java.sql.DatabaseMetaData.getJDBCMinorVersion() throws java.sql.SQLException}.
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getTimeDateFunctions()
+     * public abstract java.lang.String java.sql.DatabaseMetaData.getTimeDateFunctions() throws java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3829,7 +3807,29 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getJDBCMinorVersion()
+    public default void test_getTimeDateFunctions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#nullsAreSortedHigh()
+     * public abstract boolean java.sql.DatabaseMetaData.nullsAreSortedHigh() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nullsAreSortedHigh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3861,8 +3861,8 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getExtraNameCharacters()
-     * public abstract java.lang.String java.sql.DatabaseMetaData.getExtraNameCharacters() throws java.sql.SQLException}
-     * .
+     * public abstract java.lang.String java.sql.DatabaseMetaData.getExtraNameCharacters() throws
+     * java.sql.SQLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -3875,6 +3875,28 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getExtraNameCharacters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getURL() public abstract
+     * java.lang.String java.sql.DatabaseMetaData.getURL() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3898,28 +3920,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_supportsDifferentTableCorrelationNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.sql.DatabaseMetaData#getURL() public abstract
-     * java.lang.String java.sql.DatabaseMetaData.getURL() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

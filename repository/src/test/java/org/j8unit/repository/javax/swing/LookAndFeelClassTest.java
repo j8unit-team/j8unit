@@ -45,8 +45,7 @@ implements org.j8unit.repository.javax.swing.LookAndFeelClassTests<LookAndFeel> 
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.LookAndFeel#installColorsAndFont(javax.swing.JComponent, String, String, String) public static
      * void
-     * javax.swing.LookAndFeel.installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)}
-     * .
+     * javax.swing.LookAndFeel.installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

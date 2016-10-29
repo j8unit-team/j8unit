@@ -158,9 +158,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.JapaneseChronology#localDateTime(java.time.temporal.TemporalAccessor) public
-     * java.time.chrono.ChronoLocalDateTime<java.time.chrono.JapaneseDate>
-     * java.time.chrono.JapaneseChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
+     * {@link java.time.chrono.JapaneseChronology#date(java.time.chrono.Era, int, int, int) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.chrono.Era,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -173,7 +172,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_localDateTime_TemporalAccessor()
+    public default void test_date_Era_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,30 +206,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.JapaneseChronology#date(java.time.chrono.Era, int, int, int) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.chrono.Era,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_date_Era_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.JapaneseChronology#date(java.time.temporal.TemporalAccessor) public
      * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.temporal.TemporalAccessor)}.
      *
@@ -246,6 +221,55 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_date_TemporalAccessor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.JapaneseChronology#localDateTime(java.time.temporal.TemporalAccessor) public
+     * java.time.chrono.ChronoLocalDateTime<java.time.chrono.JapaneseDate>
+     * java.time.chrono.JapaneseChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_localDateTime_TemporalAccessor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.JapaneseChronology#getCalendarType() public java.lang.String
+     * java.time.chrono.JapaneseChronology.getCalendarType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getCalendarType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -302,9 +326,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.JapaneseChronology#getCalendarType() public java.lang.String
-     * java.time.chrono.JapaneseChronology.getCalendarType()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseChronology#dateNow() public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateNow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,7 +340,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getCalendarType()
+    public default void test_dateNow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -342,29 +365,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_dateNow_ZoneId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseChronology#dateNow() public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateNow()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_dateNow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -420,29 +420,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseChronology#isLeapYear(long)
-     * public boolean java.time.chrono.JapaneseChronology.isLeapYear(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isLeapYear_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.JapaneseChronology#range(java.time.temporal.ChronoField) public
      * java.time.temporal.ValueRange java.time.chrono.JapaneseChronology.range(java.time.temporal.ChronoField)}.
@@ -467,9 +444,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.JapaneseChronology#dateEpochDay(long) public java.time.chrono.JapaneseDate
-     * java.time.chrono.JapaneseChronology.dateEpochDay(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.JapaneseChronology#isLeapYear(long)
+     * public boolean java.time.chrono.JapaneseChronology.isLeapYear(long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -482,7 +458,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_dateEpochDay_long()
+    public default void test_isLeapYear_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -506,6 +482,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.JapaneseChronology#dateEpochDay(long) public java.time.chrono.JapaneseDate
+     * java.time.chrono.JapaneseChronology.dateEpochDay(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dateEpochDay_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

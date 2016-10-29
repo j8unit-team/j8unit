@@ -44,27 +44,6 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHelperClassTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CosNaming.NameComponentHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.CosNaming.NameComponent org.omg.CosNaming.NameComponentHelper.read(org.omg.CORBA.portable.InputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_read_InputStream()
-    throws Exception {
-        // write some test for {@link org.omg.CosNaming.NameComponentHelper#read(org.omg.CORBA.portable.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming.NameComponentHelper#extract(org.omg.CORBA.Any) public static
      * org.omg.CosNaming.NameComponent org.omg.CosNaming.NameComponentHelper.extract(org.omg.CORBA.Any)}.
      *
@@ -81,6 +60,27 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHelperClassTests
     public void test_extract_Any()
     throws Exception {
         // write some test for {@link org.omg.CosNaming.NameComponentHelper#extract(org.omg.CORBA.Any)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming.NameComponentHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.CosNaming.NameComponent org.omg.CosNaming.NameComponentHelper.read(org.omg.CORBA.portable.InputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_read_InputStream()
+    throws Exception {
+        // write some test for {@link org.omg.CosNaming.NameComponentHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
     /**
@@ -130,8 +130,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHelperClassTests
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming.NameComponentHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.CosNaming.NameComponent)
      * public static void
-     * org.omg.CosNaming.NameComponentHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NameComponent)}
-     * .
+     * org.omg.CosNaming.NameComponentHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NameComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

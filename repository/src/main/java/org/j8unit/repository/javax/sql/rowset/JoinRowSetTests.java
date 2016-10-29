@@ -100,28 +100,6 @@ extends org.j8unit.repository.javax.sql.rowset.WebRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JoinRowSet#supportsInnerJoin()
-     * public abstract boolean javax.sql.rowset.JoinRowSet.supportsInnerJoin()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsInnerJoin()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JoinRowSet#setJoinType(int) public
      * abstract void javax.sql.rowset.JoinRowSet.setJoinType(int) throws java.sql.SQLException}.
      *
@@ -136,6 +114,28 @@ extends org.j8unit.repository.javax.sql.rowset.WebRowSetTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setJoinType_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JoinRowSet#supportsInnerJoin()
+     * public abstract boolean javax.sql.rowset.JoinRowSet.supportsInnerJoin()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsInnerJoin()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,29 +166,6 @@ extends org.j8unit.repository.javax.sql.rowset.WebRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JoinRowSet#toCachedRowSet() public
-     * abstract javax.sql.rowset.CachedRowSet javax.sql.rowset.JoinRowSet.toCachedRowSet() throws java.sql.SQLException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toCachedRowSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JoinRowSet#getWhereClause() public
      * abstract java.lang.String javax.sql.rowset.JoinRowSet.getWhereClause() throws java.sql.SQLException}.
      *
@@ -203,6 +180,29 @@ extends org.j8unit.repository.javax.sql.rowset.WebRowSetTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getWhereClause()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.JoinRowSet#toCachedRowSet() public
+     * abstract javax.sql.rowset.CachedRowSet javax.sql.rowset.JoinRowSet.toCachedRowSet() throws
+     * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toCachedRowSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

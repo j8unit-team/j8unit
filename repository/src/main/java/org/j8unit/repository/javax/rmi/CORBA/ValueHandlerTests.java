@@ -82,29 +82,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.rmi.CORBA.ValueHandler#writeValue(org.omg.CORBA.portable.OutputStream, java.io.Serializable) public
-     * abstract void javax.rmi.CORBA.ValueHandler.writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeValue_OutputStream_Serializable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.rmi.CORBA.ValueHandler#writeReplace(java.io.Serializable) public abstract java.io.Serializable
      * javax.rmi.CORBA.ValueHandler.writeReplace(java.io.Serializable)}.
      *
@@ -119,6 +96,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeReplace_Serializable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.rmi.CORBA.ValueHandler#writeValue(org.omg.CORBA.portable.OutputStream, java.io.Serializable) public
+     * abstract void javax.rmi.CORBA.ValueHandler.writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeValue_OutputStream_Serializable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,8 +152,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.rmi.CORBA.ValueHandler#readValue(org.omg.CORBA.portable.InputStream, int, Class, String, org.omg.SendingContext.RunTime)
      * public abstract java.io.Serializable
-     * javax.rmi.CORBA.ValueHandler.readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)}
-     * .
+     * javax.rmi.CORBA.ValueHandler.readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

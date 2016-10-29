@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.util.ScannerClassTests<Scanner> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.Scanner#Scanner(String) public
-     * java.util.Scanner(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Scanner#Scanner(java.io.InputStream)
+     * public java.util.Scanner(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,56 +34,11 @@ implements org.j8unit.repository.java.util.ScannerClassTests<Scanner> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Scanner_String()
+    public void create_Scanner_InputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Scanner sut = null; // = new Scanner(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.Scanner#Scanner(java.io.InputStream, String) public
-     * java.util.Scanner(java.io.InputStream,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Scanner_InputStream_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Scanner sut = null; // = new Scanner(java.io.InputStream, String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.Scanner#Scanner(java.nio.file.Path)
-     * public java.util.Scanner(java.nio.file.Path) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Scanner_Path()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Scanner sut = null; // = new Scanner(java.nio.file.Path);
+        final Scanner sut = null; // = new Scanner(java.io.InputStream);
     }
 
     /**
@@ -129,6 +84,28 @@ implements org.j8unit.repository.java.util.ScannerClassTests<Scanner> {
         // create new instance
         @SuppressWarnings("unused")
         final Scanner sut = null; // = new Scanner(java.nio.file.Path, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Scanner#Scanner(java.nio.file.Path)
+     * public java.util.Scanner(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Scanner_Path()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Scanner sut = null; // = new Scanner(java.nio.file.Path);
     }
 
     /**
@@ -200,28 +177,6 @@ implements org.j8unit.repository.java.util.ScannerClassTests<Scanner> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.Scanner#Scanner(java.io.InputStream)
-     * public java.util.Scanner(java.io.InputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Scanner_InputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Scanner sut = null; // = new Scanner(java.io.InputStream);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.util.Scanner#Scanner(java.nio.channels.ReadableByteChannel) public
      * java.util.Scanner(java.nio.channels.ReadableByteChannel)}.
@@ -241,6 +196,51 @@ implements org.j8unit.repository.java.util.ScannerClassTests<Scanner> {
         // create new instance
         @SuppressWarnings("unused")
         final Scanner sut = null; // = new Scanner(java.nio.channels.ReadableByteChannel);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Scanner#Scanner(String) public
+     * java.util.Scanner(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Scanner_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Scanner sut = null; // = new Scanner(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Scanner#Scanner(java.io.InputStream, String) public
+     * java.util.Scanner(java.io.InputStream,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Scanner_InputStream_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Scanner sut = null; // = new Scanner(java.io.InputStream, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Scanner]

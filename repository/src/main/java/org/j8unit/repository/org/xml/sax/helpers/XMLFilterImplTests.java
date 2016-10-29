@@ -375,8 +375,9 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.XMLFilterImpl#setErrorHandler(org.xml.sax.ErrorHandler) public void
-     * org.xml.sax.helpers.XMLFilterImpl.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setProperty(String, Object) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setProperty(java.lang.String,java.lang.Object) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -389,7 +390,7 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_setErrorHandler_ErrorHandler()
+    public default void test_setProperty_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -423,9 +424,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.XMLFilterImpl#setProperty(String, Object) public void
-     * org.xml.sax.helpers.XMLFilterImpl.setProperty(java.lang.String,java.lang.Object) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setErrorHandler(org.xml.sax.ErrorHandler) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -438,7 +438,7 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_setProperty_String_Object()
+    public default void test_setErrorHandler_ErrorHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -593,30 +593,6 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.XMLFilterImpl#setDocumentLocator(org.xml.sax.Locator) public void
-     * org.xml.sax.helpers.XMLFilterImpl.setDocumentLocator(org.xml.sax.Locator)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setDocumentLocator_Locator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.XMLFilterImpl#setParent(org.xml.sax.XMLReader) public void
      * org.xml.sax.helpers.XMLFilterImpl.setParent(org.xml.sax.XMLReader)}.
      *
@@ -632,6 +608,30 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_setParent_XMLReader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#setDocumentLocator(org.xml.sax.Locator) public void
+     * org.xml.sax.helpers.XMLFilterImpl.setDocumentLocator(org.xml.sax.Locator)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setDocumentLocator_Locator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -712,31 +712,6 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.XMLFilterImpl#startPrefixMapping(String, String) public void
-     * org.xml.sax.helpers.XMLFilterImpl.startPrefixMapping(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_startPrefixMapping_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.XMLFilterImpl#endElement(String, String, String) public void
      * org.xml.sax.helpers.XMLFilterImpl.endElement(java.lang.String,java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException}.
@@ -753,6 +728,31 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_endElement_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.XMLFilterImpl#startPrefixMapping(String, String) public void
+     * org.xml.sax.helpers.XMLFilterImpl.startPrefixMapping(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_startPrefixMapping_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

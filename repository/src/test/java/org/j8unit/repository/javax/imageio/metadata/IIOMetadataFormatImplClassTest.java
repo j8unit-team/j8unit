@@ -24,27 +24,6 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int) public
-     * javax.imageio.metadata.IIOMetadataFormatImpl(java.lang.String,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("Cannot construct an abstract class!")
-    @Test
-    @Category(Draft.class)
-    public void create_IIOMetadataFormatImpl_String_int()
-    throws Exception {
-        fail("Cannot construct an abstract class!");
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link javax.imageio.metadata.IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int, int) public
      * javax.imageio.metadata.IIOMetadataFormatImpl(java.lang.String,int,int)}.
      *
@@ -59,6 +38,27 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
     @Test
     @Category(Draft.class)
     public void create_IIOMetadataFormatImpl_String_int_int()
+    throws Exception {
+        fail("Cannot construct an abstract class!");
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormatImpl#IIOMetadataFormatImpl(String, int) public
+     * javax.imageio.metadata.IIOMetadataFormatImpl(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("Cannot construct an abstract class!")
+    @Test
+    @Category(Draft.class)
+    public void create_IIOMetadataFormatImpl_String_int()
     throws Exception {
         Assert.fail("Cannot construct an abstract class!");
     }

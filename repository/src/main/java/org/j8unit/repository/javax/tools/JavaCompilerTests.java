@@ -64,8 +64,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
      * {@link javax.tools.JavaCompiler#getTask(java.io.Writer, javax.tools.JavaFileManager, javax.tools.DiagnosticListener, Iterable, Iterable, Iterable)
      * public abstract javax.tools.JavaCompiler$CompilationTask
      * javax.tools.JavaCompiler.getTask(java.io.Writer,javax.tools.JavaFileManager,javax.tools.DiagnosticListener<?
-     * super javax.tools.JavaFileObject>,java.lang.Iterable<java.lang.String>,java.lang.Iterable
-     * <java.lang.String>,java.lang.Iterable<? extends javax.tools.JavaFileObject>)}.
+     * super
+     * javax.tools.JavaFileObject>,java.lang.Iterable<java.lang.String>,java.lang.Iterable<java.lang.String>,java.lang.Iterable<?
+     * extends javax.tools.JavaFileObject>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

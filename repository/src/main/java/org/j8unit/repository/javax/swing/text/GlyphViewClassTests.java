@@ -5,7 +5,7 @@ import javax.swing.text.GlyphView;
 import javax.swing.text.GlyphView.GlyphPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -60,7 +60,7 @@ org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -123,7 +123,7 @@ org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance

@@ -36,9 +36,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.function.Function#andThen(java.util.function.Function) public default
-     * <V> java.util.function.Function<T, V> java.util.function.Function.andThen(java.util.function.Function<? super R,
-     * ? extends V>)}.
+     * {@link java.util.function.Function#andThen(java.util.function.Function) public default <V>
+     * java.util.function.Function<T, V> java.util.function.Function.andThen(java.util.function.Function<? super R, ?
+     * extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,30 +51,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_andThen_Function()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.function.Function#compose(java.util.function.Function) public default
-     * <V> java.util.function.Function<V, R> java.util.function.Function.compose(java.util.function.Function<? super V,
-     * ? extends T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compose_Function()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,6 +73,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_apply_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.function.Function#compose(java.util.function.Function) public default <V>
+     * java.util.function.Function<V, R> java.util.function.Function.compose(java.util.function.Function<? super V, ?
+     * extends T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compose_Function()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

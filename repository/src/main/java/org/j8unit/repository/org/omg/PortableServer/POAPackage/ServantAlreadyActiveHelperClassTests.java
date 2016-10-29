@@ -2,7 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer.POAPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
 
@@ -10,8 +10,8 @@ import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
  * <p>
  * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
  * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link ServantAlreadyActiveHelper public abstract class org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper}
- * .
+ * {@link ServantAlreadyActiveHelper public abstract class
+ * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper}.
  *
  * (In addition, the runtime type of this j8unit test interface's generic type is verified by
  * {@link #verifyGenericType()}).
@@ -58,7 +58,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

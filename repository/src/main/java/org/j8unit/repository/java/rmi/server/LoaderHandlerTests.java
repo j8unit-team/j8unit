@@ -36,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.LoaderHandler#loadClass(java.net.URL, String) public abstract java.lang.Class
-     * <?> java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
+     * {@link java.rmi.server.LoaderHandler#loadClass(java.net.URL, String) public abstract java.lang.Class<?>
+     * java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

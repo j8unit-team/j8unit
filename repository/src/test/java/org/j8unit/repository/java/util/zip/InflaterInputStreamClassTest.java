@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream, java.util.zip.Inflater) public
-     * java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater)}.
+     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream) public
+     * java.util.zip.InflaterInputStream(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,11 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InflaterInputStream_InputStream_Inflater()
+    public void create_InflaterInputStream_InputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream, java.util.zip.Inflater);
+        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream);
     }
 
     /**
@@ -69,8 +69,8 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream) public
-     * java.util.zip.InflaterInputStream(java.io.InputStream)}.
+     * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream, java.util.zip.Inflater) public
+     * java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,11 +82,11 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InflaterInputStream_InputStream()
+    public void create_InflaterInputStream_InputStream_Inflater()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream);
+        final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream, java.util.zip.Inflater);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.InflaterInputStream]

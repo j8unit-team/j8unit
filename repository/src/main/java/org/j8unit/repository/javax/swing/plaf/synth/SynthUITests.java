@@ -37,8 +37,7 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthConstantsTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.synth.SynthUI#paintBorder(javax.swing.plaf.synth.SynthContext, java.awt.Graphics, int, int, int, int)
      * public abstract void
-     * javax.swing.plaf.synth.SynthUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
-     * .
+     * javax.swing.plaf.synth.SynthUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

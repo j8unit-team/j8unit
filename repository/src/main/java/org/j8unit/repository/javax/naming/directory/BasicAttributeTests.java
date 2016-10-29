@@ -127,29 +127,6 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#get(int)
-     * public java.lang.Object javax.naming.directory.BasicAttribute.get(int) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#get() public
      * java.lang.Object javax.naming.directory.BasicAttribute.get() throws javax.naming.NamingException}.
      *
@@ -173,6 +150,29 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#get(int)
+     * public java.lang.Object javax.naming.directory.BasicAttribute.get(int) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#clone() public
      * java.lang.Object javax.naming.directory.BasicAttribute.clone()}.
      *
@@ -188,6 +188,53 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#toString()
+     * public java.lang.String javax.naming.directory.BasicAttribute.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#getAttributeDefinition() public javax.naming.directory.DirContext
+     * javax.naming.directory.BasicAttribute.getAttributeDefinition() throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeDefinition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -221,53 +268,6 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.directory.BasicAttribute#getAttributeDefinition() public javax.naming.directory.DirContext
-     * javax.naming.directory.BasicAttribute.getAttributeDefinition() throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeDefinition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#toString()
-     * public java.lang.String javax.naming.directory.BasicAttribute.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#isOrdered()
      * public boolean javax.naming.directory.BasicAttribute.isOrdered()}.
      *
@@ -283,6 +283,29 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_isOrdered()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#add(Object)
+     * public boolean javax.naming.directory.BasicAttribute.add(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -315,8 +338,9 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#add(Object)
-     * public boolean javax.naming.directory.BasicAttribute.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.directory.BasicAttribute#set(int, Object) public java.lang.Object
+     * javax.naming.directory.BasicAttribute.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -329,7 +353,7 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_add_Object()
+    public default void test_set_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -354,30 +378,6 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.directory.BasicAttribute#set(int, Object) public java.lang.Object
-     * javax.naming.directory.BasicAttribute.set(int,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -432,29 +432,6 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#remove(int)
-     * public java.lang.Object javax.naming.directory.BasicAttribute.remove(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#remove(Object)
      * public boolean javax.naming.directory.BasicAttribute.remove(java.lang.Object)}.
      *
@@ -470,6 +447,29 @@ extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.directory.BasicAttribute#remove(int)
+     * public java.lang.Object javax.naming.directory.BasicAttribute.remove(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

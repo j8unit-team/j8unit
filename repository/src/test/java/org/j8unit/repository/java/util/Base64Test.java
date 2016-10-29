@@ -21,21 +21,6 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64]
 
     @RunWith(J8Unit4.class)
-    public static class DecoderTest
-    implements org.j8unit.repository.java.util.Base64Tests.DecoderTests<Decoder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
-
-        @Override
-        public Decoder createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Base64.Decoder], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class EncoderTest
     implements org.j8unit.repository.java.util.Base64Tests.EncoderTests<Encoder> {
 
@@ -47,6 +32,21 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Encoder]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DecoderTest
+    implements org.j8unit.repository.java.util.Base64Tests.DecoderTests<Decoder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
+
+        @Override
+        public Decoder createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Base64.Decoder], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
 
     }
 

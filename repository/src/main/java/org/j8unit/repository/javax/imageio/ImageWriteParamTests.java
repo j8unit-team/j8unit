@@ -370,29 +370,6 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageWriteParam#isCompressionLossless() public boolean
-     * javax.imageio.ImageWriteParam.isCompressionLossless()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCompressionLossless()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageWriteParam#getCompressionQuality() public float
      * javax.imageio.ImageWriteParam.getCompressionQuality()}.
      *
@@ -407,6 +384,29 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCompressionQuality()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageWriteParam#isCompressionLossless() public boolean
+     * javax.imageio.ImageWriteParam.isCompressionLossless()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCompressionLossless()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -460,6 +460,28 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#getProgressiveMode()
+     * public int javax.imageio.ImageWriteParam.getProgressiveMode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProgressiveMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#unsetTiling() public
      * void javax.imageio.ImageWriteParam.unsetTiling()}.
      *
@@ -482,8 +504,8 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#getProgressiveMode()
-     * public int javax.imageio.ImageWriteParam.getProgressiveMode()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#getLocale() public
+     * java.util.Locale javax.imageio.ImageWriteParam.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -495,7 +517,7 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProgressiveMode()
+    public default void test_getLocale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -519,28 +541,6 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setCompressionType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#getLocale() public
-     * java.util.Locale javax.imageio.ImageWriteParam.getLocale()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -616,6 +616,28 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#getCompressionType()
+     * public java.lang.String javax.imageio.ImageWriteParam.getCompressionType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCompressionType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageWriteParam#setCompressionMode(int) public void
      * javax.imageio.ImageWriteParam.setCompressionMode(int)}.
@@ -631,28 +653,6 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setCompressionMode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageWriteParam#getCompressionType()
-     * public java.lang.String javax.imageio.ImageWriteParam.getCompressionType()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCompressionType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

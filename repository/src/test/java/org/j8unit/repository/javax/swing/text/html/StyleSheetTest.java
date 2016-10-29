@@ -38,21 +38,6 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
 
     @RunWith(J8Unit4.class)
-    public static class ListPainterTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests<ListPainter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-        @Override
-        public ListPainter createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.ListPainter], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class BoxPainterTest
     implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests<BoxPainter> {
 
@@ -64,6 +49,21 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ListPainterTest
+    implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests<ListPainter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        @Override
+        public ListPainter createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.ListPainter], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
 
     }
 

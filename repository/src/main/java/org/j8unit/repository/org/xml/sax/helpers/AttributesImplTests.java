@@ -34,29 +34,6 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getIndex(String)
-     * public int org.xml.sax.helpers.AttributesImpl.getIndex(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndex_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.AttributesImpl#getIndex(String, String) public int
      * org.xml.sax.helpers.AttributesImpl.getIndex(java.lang.String,java.lang.String)}.
@@ -81,9 +58,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.AttributesImpl#setURI(int, String) public void
-     * org.xml.sax.helpers.AttributesImpl.setURI(int,java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getIndex(String)
+     * public int org.xml.sax.helpers.AttributesImpl.getIndex(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -93,9 +69,10 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setURI_int_String()
+    public default void test_getIndex_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,6 +95,29 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setURI(int, String) public void
+     * org.xml.sax.helpers.AttributesImpl.setURI(int,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setURI_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -172,29 +172,6 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getValue(int)
-     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getValue(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getValue_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.AttributesImpl#getValue(String, String) public java.lang.String
      * org.xml.sax.helpers.AttributesImpl.getValue(java.lang.String,java.lang.String)}.
@@ -211,6 +188,29 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getValue_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getValue(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getValue(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getValue_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -244,8 +244,7 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.AttributesImpl#setAttribute(int, String, String, String, String, String) public void
-     * org.xml.sax.helpers.AttributesImpl.setAttribute(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
-     * .
+     * org.xml.sax.helpers.AttributesImpl.setAttribute(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -314,8 +313,7 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.AttributesImpl#addAttribute(String, String, String, String, String) public void
-     * org.xml.sax.helpers.AttributesImpl.addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
-     * .
+     * org.xml.sax.helpers.AttributesImpl.addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -336,8 +334,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getType(int)
-     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getType(int)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getType(String)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -350,7 +348,7 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getType_int()
+    public default void test_getType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -383,8 +381,8 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getType(String)
-     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getType(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.AttributesImpl#getType(int)
+     * public java.lang.String org.xml.sax.helpers.AttributesImpl.getType(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -397,7 +395,7 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getType_String()
+    public default void test_getType_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -453,29 +451,6 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.AttributesImpl#setLocalName(int, String) public void
-     * org.xml.sax.helpers.AttributesImpl.setLocalName(int,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLocalName_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.AttributesImpl#removeAttribute(int) public void
      * org.xml.sax.helpers.AttributesImpl.removeAttribute(int)}.
      *
@@ -513,6 +488,29 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getQName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.AttributesImpl#setLocalName(int, String) public void
+     * org.xml.sax.helpers.AttributesImpl.setLocalName(int,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLocalName_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

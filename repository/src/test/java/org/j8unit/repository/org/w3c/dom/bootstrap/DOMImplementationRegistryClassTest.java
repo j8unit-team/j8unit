@@ -25,8 +25,7 @@ implements org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistry
      * {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#newInstance() public static
      * org.w3c.dom.bootstrap.DOMImplementationRegistry org.w3c.dom.bootstrap.DOMImplementationRegistry.newInstance()
      * throws
-     * java.lang.ClassNotFoundException,java.lang.InstantiationException,java.lang.IllegalAccessException,java.lang.ClassCastException}
-     * .
+     * java.lang.ClassNotFoundException,java.lang.InstantiationException,java.lang.IllegalAccessException,java.lang.ClassCastException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

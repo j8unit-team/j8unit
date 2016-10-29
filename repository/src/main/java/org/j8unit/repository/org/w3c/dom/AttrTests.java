@@ -78,28 +78,6 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getOwnerElement() public abstract
-     * org.w3c.dom.Element org.w3c.dom.Attr.getOwnerElement()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOwnerElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#setValue(String) public abstract
      * void org.w3c.dom.Attr.setValue(java.lang.String) throws org.w3c.dom.DOMException}.
      *
@@ -122,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getSpecified() public abstract
-     * boolean org.w3c.dom.Attr.getSpecified()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getOwnerElement() public abstract
+     * org.w3c.dom.Element org.w3c.dom.Attr.getOwnerElement()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +113,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSpecified()
+    public default void test_getOwnerElement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,6 +136,28 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Attr#getSpecified() public abstract
+     * boolean org.w3c.dom.Attr.getSpecified()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSpecified()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

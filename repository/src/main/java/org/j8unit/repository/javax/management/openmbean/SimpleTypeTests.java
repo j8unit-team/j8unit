@@ -81,8 +81,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.SimpleType#readResolve()
-     * public java.lang.Object javax.management.openmbean.SimpleType.readResolve() throws java.io.ObjectStreamException}
-     * .
+     * public java.lang.Object javax.management.openmbean.SimpleType.readResolve() throws
+     * java.io.ObjectStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -239,6 +239,29 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#filter(java.util.function.LongPredicate) public abstract
+     * java.util.stream.LongStream java.util.stream.LongStream.filter(java.util.function.LongPredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_filter_LongPredicate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.LongStream#flatMap(java.util.function.LongFunction) public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.flatMap(java.util.function.LongFunction<? extends
      * java.util.stream.LongStream>)}.
@@ -254,29 +277,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     @Test
     @Category(Draft.class)
     public default void test_flatMap_LongFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.LongStream#filter(java.util.function.LongPredicate) public abstract
-     * java.util.stream.LongStream java.util.stream.LongStream.filter(java.util.function.LongPredicate)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_filter_LongPredicate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -332,8 +332,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.LongStream#collect(java.util.function.Supplier, java.util.function.ObjLongConsumer, java.util.function.BiConsumer)
-     * public abstract <R> R java.util.stream.LongStream.collect(java.util.function.Supplier
-     * <R>,java.util.function.ObjLongConsumer<R>,java.util.function.BiConsumer<R, R>)}.
+     * public abstract <R> R
+     * java.util.stream.LongStream.collect(java.util.function.Supplier<R>,java.util.function.ObjLongConsumer<R>,java.util.function.BiConsumer<R,
+     * R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -399,28 +400,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#findFirst() public
-     * abstract java.util.OptionalLong java.util.stream.LongStream.findFirst()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findFirst()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#sum() public abstract
      * long java.util.stream.LongStream.sum()}.
      *
@@ -465,6 +444,28 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#findFirst() public
+     * abstract java.util.OptionalLong java.util.stream.LongStream.findFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findFirst()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#distinct() public
      * abstract java.util.stream.LongStream java.util.stream.LongStream.distinct()}.
      *
@@ -488,9 +489,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.LongStream#mapToObj(java.util.function.LongFunction) public abstract
-     * <U> java.util.stream.Stream<U> java.util.stream.LongStream.mapToObj(java.util.function.LongFunction<? extends
-     * U>)}.
+     * {@link java.util.stream.LongStream#mapToObj(java.util.function.LongFunction) public abstract <U>
+     * java.util.stream.Stream<U> java.util.stream.LongStream.mapToObj(java.util.function.LongFunction<? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -534,28 +534,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#asDoubleStream() public
-     * abstract java.util.stream.DoubleStream java.util.stream.LongStream.asDoubleStream()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asDoubleStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#min() public abstract
      * java.util.OptionalLong java.util.stream.LongStream.min()}.
      *
@@ -570,6 +548,28 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     @Test
     @Category(Draft.class)
     public default void test_min()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.LongStream#asDoubleStream() public
+     * abstract java.util.stream.DoubleStream java.util.stream.LongStream.asDoubleStream()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_asDoubleStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -760,29 +760,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.LongStream#anyMatch(java.util.function.LongPredicate) public abstract boolean
-     * java.util.stream.LongStream.anyMatch(java.util.function.LongPredicate)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_anyMatch_LongPredicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.LongStream#map(java.util.function.LongUnaryOperator) public abstract
      * java.util.stream.LongStream java.util.stream.LongStream.map(java.util.function.LongUnaryOperator)}.
      *
@@ -797,6 +774,29 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Long, LongSt
     @Test
     @Category(Draft.class)
     public default void test_map_LongUnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.LongStream#anyMatch(java.util.function.LongPredicate) public abstract boolean
+     * java.util.stream.LongStream.anyMatch(java.util.function.LongPredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_anyMatch_LongPredicate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

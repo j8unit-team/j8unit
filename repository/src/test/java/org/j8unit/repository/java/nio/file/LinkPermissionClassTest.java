@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.nio.file.LinkPermissionClassTests<LinkPerm
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.nio.file.LinkPermission#LinkPermission(String) public java.nio.file.LinkPermission(java.lang.String)}
-     * .
+     * {@link java.nio.file.LinkPermission#LinkPermission(String) public
+     * java.nio.file.LinkPermission(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

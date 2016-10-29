@@ -44,28 +44,6 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.math.BigInteger#BigInteger(int, java.util.Random) public java.math.BigInteger(int,java.util.Random)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BigInteger_int_Random()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BigInteger sut = null; // = new BigInteger(int, java.util.Random);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.math.BigInteger#BigInteger(int, int, java.util.Random) public
      * java.math.BigInteger(int,int,java.util.Random)}.
      *
@@ -88,8 +66,8 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.math.BigInteger#BigInteger(byte[]) public
-     * java.math.BigInteger(byte[])}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigInteger#BigInteger(int, java.util.Random) public java.math.BigInteger(int,java.util.Random)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,11 +79,11 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BigInteger_byteArray()
+    public void create_BigInteger_int_Random()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BigInteger sut = null; // = new BigInteger(byte[]);
+        final BigInteger sut = null; // = new BigInteger(int, java.util.Random);
     }
 
     /**
@@ -150,6 +128,28 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
         // create new instance
         @SuppressWarnings("unused")
         final BigInteger sut = null; // = new BigInteger(String, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigInteger#BigInteger(byte[]) public
+     * java.math.BigInteger(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BigInteger_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BigInteger sut = null; // = new BigInteger(byte[]);
     }
 
     /**

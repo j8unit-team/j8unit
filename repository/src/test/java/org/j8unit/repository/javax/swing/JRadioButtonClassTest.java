@@ -21,51 +21,6 @@ implements org.j8unit.repository.javax.swing.JRadioButtonClassTests<JRadioButton
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JRadioButton#JRadioButton(String)
-     * public javax.swing.JRadioButton(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JRadioButton_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JRadioButton sut = null; // = new JRadioButton(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JRadioButton#JRadioButton(String, boolean) public
-     * javax.swing.JRadioButton(java.lang.String,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JRadioButton_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JRadioButton sut = null; // = new JRadioButton(String, boolean);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JRadioButton#JRadioButton(String, javax.swing.Icon) public
      * javax.swing.JRadioButton(java.lang.String,javax.swing.Icon)}.
@@ -134,8 +89,8 @@ implements org.j8unit.repository.javax.swing.JRadioButtonClassTests<JRadioButton
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Icon) public javax.swing.JRadioButton(javax.swing.Icon)}
-     * .
+     * {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Icon) public
+     * javax.swing.JRadioButton(javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,6 +153,51 @@ implements org.j8unit.repository.javax.swing.JRadioButtonClassTests<JRadioButton
         // create new instance
         @SuppressWarnings("unused")
         final JRadioButton sut = null; // = new JRadioButton(javax.swing.Icon, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JRadioButton#JRadioButton(String, boolean) public
+     * javax.swing.JRadioButton(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JRadioButton_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JRadioButton sut = null; // = new JRadioButton(String, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JRadioButton#JRadioButton(String)
+     * public javax.swing.JRadioButton(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JRadioButton_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JRadioButton sut = null; // = new JRadioButton(String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JRadioButton]

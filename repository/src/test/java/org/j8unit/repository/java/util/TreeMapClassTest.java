@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap(java.util.SortedMap)
-     * public java.util.TreeMap(java.util.SortedMap<K, ? extends V>)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap() public
+     * java.util.TreeMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,10 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TreeMap_SortedMap()
+    public void create_TreeMap()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final TreeMap sut = null; // = new TreeMap(java.util.SortedMap);
+        final TreeMap sut = new TreeMap();
     }
 
     /**
@@ -88,8 +87,8 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap() public
-     * java.util.TreeMap()}.
+     * Test method for the hereby targeted constructor-under-test {@link java.util.TreeMap#TreeMap(java.util.SortedMap)
+     * public java.util.TreeMap(java.util.SortedMap<K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,10 +100,11 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TreeMap()
+    public void create_TreeMap_SortedMap()
     throws Exception {
         // create new instance
-        final TreeMap sut = new TreeMap();
+        @SuppressWarnings("unused")
+        final TreeMap sut = null; // = new TreeMap(java.util.SortedMap);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TreeMap]

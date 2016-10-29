@@ -169,28 +169,6 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#getImplementation() public
-     * abstract org.w3c.dom.DOMImplementation org.w3c.dom.Document.getImplementation()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplementation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#setXmlStandalone(boolean)
      * public abstract void org.w3c.dom.Document.setXmlStandalone(boolean) throws org.w3c.dom.DOMException}.
      *
@@ -205,6 +183,28 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setXmlStandalone_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#getImplementation() public
+     * abstract org.w3c.dom.DOMImplementation org.w3c.dom.Document.getImplementation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplementation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -235,8 +235,9 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#getElementById(String) public
-     * abstract org.w3c.dom.Element org.w3c.dom.Document.getElementById(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#createEntityReference(String)
+     * public abstract org.w3c.dom.EntityReference org.w3c.dom.Document.createEntityReference(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -248,7 +249,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElementById_String()
+    public default void test_createEntityReference_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -279,9 +280,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#createEntityReference(String)
-     * public abstract org.w3c.dom.EntityReference org.w3c.dom.Document.createEntityReference(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#getElementById(String) public
+     * abstract org.w3c.dom.Element org.w3c.dom.Document.getElementById(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -293,7 +293,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createEntityReference_String()
+    public default void test_getElementById_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -436,8 +436,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#createAttribute(String) public
-     * abstract org.w3c.dom.Attr org.w3c.dom.Document.createAttribute(java.lang.String) throws org.w3c.dom.DOMException}
-     * .
+     * abstract org.w3c.dom.Attr org.w3c.dom.Document.createAttribute(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -640,28 +640,6 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#getInputEncoding() public
-     * abstract java.lang.String org.w3c.dom.Document.getInputEncoding()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputEncoding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#createElement(String) public
      * abstract org.w3c.dom.Element org.w3c.dom.Document.createElement(java.lang.String) throws
      * org.w3c.dom.DOMException}.
@@ -685,9 +663,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#createCDATASection(String)
-     * public abstract org.w3c.dom.CDATASection org.w3c.dom.Document.createCDATASection(java.lang.String) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#getInputEncoding() public
+     * abstract java.lang.String org.w3c.dom.Document.getInputEncoding()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -699,7 +676,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createCDATASection_String()
+    public default void test_getInputEncoding()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -722,6 +699,29 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDocumentElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.Document#createCDATASection(String)
+     * public abstract org.w3c.dom.CDATASection org.w3c.dom.Document.createCDATASection(java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCDATASection_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

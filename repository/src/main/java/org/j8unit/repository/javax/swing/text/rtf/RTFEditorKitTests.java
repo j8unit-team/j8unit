@@ -58,31 +58,6 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public
-     * void javax.swing.text.rtf.RTFEditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_Document_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.Writer, javax.swing.text.Document, int, int) public void
      * javax.swing.text.rtf.RTFEditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
@@ -108,8 +83,8 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.Reader, javax.swing.text.Document, int) public void
-     * javax.swing.text.rtf.RTFEditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
+     * {@link javax.swing.text.rtf.RTFEditorKit#write(java.io.OutputStream, javax.swing.text.Document, int, int) public
+     * void javax.swing.text.rtf.RTFEditorKit.write(java.io.OutputStream,javax.swing.text.Document,int,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -123,7 +98,7 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_read_Reader_Document_int()
+    public default void test_write_OutputStream_Document_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -149,6 +124,31 @@ extends org.j8unit.repository.javax.swing.text.StyledEditorKitTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_InputStream_Document_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.rtf.RTFEditorKit#read(java.io.Reader, javax.swing.text.Document, int) public void
+     * javax.swing.text.rtf.RTFEditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
+     * java.io.IOException,javax.swing.text.BadLocationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_read_Reader_Document_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

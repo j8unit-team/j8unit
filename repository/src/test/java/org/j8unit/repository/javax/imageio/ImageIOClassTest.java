@@ -112,27 +112,6 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#getImageReadersBySuffix(String) public static java.util.Iterator
-     * <javax.imageio.ImageReader> javax.imageio.ImageIO.getImageReadersBySuffix(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getImageReadersBySuffix_String()
-    throws Exception {
-        // write some test for {@link javax.imageio.ImageIO#getImageReadersBySuffix(String)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#getUseCache() public static
      * boolean javax.imageio.ImageIO.getUseCache()}.
      *
@@ -149,6 +128,27 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     public void test_getUseCache()
     throws Exception {
         // write some test for {@link javax.imageio.ImageIO#getUseCache()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageIO#getImageReadersBySuffix(String) public static
+     * java.util.Iterator<javax.imageio.ImageReader> javax.imageio.ImageIO.getImageReadersBySuffix(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getImageReadersBySuffix_String()
+    throws Exception {
+        // write some test for {@link javax.imageio.ImageIO#getImageReadersBySuffix(String)}
     }
 
     /**
@@ -196,8 +196,8 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#getImageReadersByMIMEType(String) public static java.util.Iterator
-     * <javax.imageio.ImageReader> javax.imageio.ImageIO.getImageReadersByMIMEType(java.lang.String)}.
+     * {@link javax.imageio.ImageIO#getImageReadersByMIMEType(String) public static
+     * java.util.Iterator<javax.imageio.ImageReader> javax.imageio.ImageIO.getImageReadersByMIMEType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,8 +258,9 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#getImageWritersByFormatName(String) public static java.util.Iterator
-     * <javax.imageio.ImageWriter> javax.imageio.ImageIO.getImageWritersByFormatName(java.lang.String)}.
+     * {@link javax.imageio.ImageIO#getImageWritersByFormatName(String) public static
+     * java.util.Iterator<javax.imageio.ImageWriter>
+     * javax.imageio.ImageIO.getImageWritersByFormatName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -422,8 +423,30 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#getImageReadersByFormatName(String) public static java.util.Iterator
-     * <javax.imageio.ImageReader> javax.imageio.ImageIO.getImageReadersByFormatName(java.lang.String)}.
+     * {@link javax.imageio.ImageIO#setCacheDirectory(java.io.File) public static void
+     * javax.imageio.ImageIO.setCacheDirectory(java.io.File)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_setCacheDirectory_File()
+    throws Exception {
+        // write some test for {@link javax.imageio.ImageIO#setCacheDirectory(java.io.File)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageIO#getImageReadersByFormatName(String) public static
+     * java.util.Iterator<javax.imageio.ImageReader>
+     * javax.imageio.ImageIO.getImageReadersByFormatName(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -463,29 +486,8 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#setCacheDirectory(java.io.File) public static void
-     * javax.imageio.ImageIO.setCacheDirectory(java.io.File)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_setCacheDirectory_File()
-    throws Exception {
-        // write some test for {@link javax.imageio.ImageIO#setCacheDirectory(java.io.File)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#getImageWritersByMIMEType(String) public static java.util.Iterator
-     * <javax.imageio.ImageWriter> javax.imageio.ImageIO.getImageWritersByMIMEType(java.lang.String)}.
+     * {@link javax.imageio.ImageIO#getImageWritersByMIMEType(String) public static
+     * java.util.Iterator<javax.imageio.ImageWriter> javax.imageio.ImageIO.getImageWritersByMIMEType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -524,6 +526,27 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#read(java.io.InputStream)
+     * public static java.awt.image.BufferedImage javax.imageio.ImageIO.read(java.io.InputStream) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_read_InputStream()
+    throws Exception {
+        // write some test for {@link javax.imageio.ImageIO#read(java.io.InputStream)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#read(java.io.File) public
      * static java.awt.image.BufferedImage javax.imageio.ImageIO.read(java.io.File) throws java.io.IOException}.
      *
@@ -540,6 +563,26 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     public void test_read_File()
     throws Exception {
         // write some test for {@link javax.imageio.ImageIO#read(java.io.File)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#read(java.net.URL) public
+     * static java.awt.image.BufferedImage javax.imageio.ImageIO.read(java.net.URL) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_read_URL()
+    throws Exception {
+        // write some test for {@link javax.imageio.ImageIO#read(java.net.URL)}
     }
 
     /**
@@ -566,47 +609,6 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#read(java.io.InputStream)
-     * public static java.awt.image.BufferedImage javax.imageio.ImageIO.read(java.io.InputStream) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_read_InputStream()
-    throws Exception {
-        // write some test for {@link javax.imageio.ImageIO#read(java.io.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#read(java.net.URL) public
-     * static java.awt.image.BufferedImage javax.imageio.ImageIO.read(java.net.URL) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_read_URL()
-    throws Exception {
-        // write some test for {@link javax.imageio.ImageIO#read(java.net.URL)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageIO#getWriterFormatNames() public
      * static java.lang.String[] javax.imageio.ImageIO.getWriterFormatNames()}.
      *
@@ -628,6 +630,27 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageIO#getImageWritersBySuffix(String) public static
+     * java.util.Iterator<javax.imageio.ImageWriter> javax.imageio.ImageIO.getImageWritersBySuffix(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getImageWritersBySuffix_String()
+    throws Exception {
+        // write some test for {@link javax.imageio.ImageIO#getImageWritersBySuffix(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageIO#getImageReader(javax.imageio.ImageWriter) public static javax.imageio.ImageReader
      * javax.imageio.ImageIO.getImageReader(javax.imageio.ImageWriter)}.
      *
@@ -644,27 +667,6 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
     public void test_getImageReader_ImageWriter()
     throws Exception {
         // write some test for {@link javax.imageio.ImageIO#getImageReader(javax.imageio.ImageWriter)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageIO#getImageWritersBySuffix(String) public static java.util.Iterator
-     * <javax.imageio.ImageWriter> javax.imageio.ImageIO.getImageWritersBySuffix(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getImageWritersBySuffix_String()
-    throws Exception {
-        // write some test for {@link javax.imageio.ImageIO#getImageWritersBySuffix(String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageIO]

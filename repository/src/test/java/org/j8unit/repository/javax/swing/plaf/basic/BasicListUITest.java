@@ -41,17 +41,32 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, org.j8unit.repository.javax.swin
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI]
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+    public static class ListDataHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests<ListDataHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
 
         @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        public ListDataHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicListUI.ListDataHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ListSelectionHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests<ListSelectionHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
+
+        @Override
+        public ListSelectionHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicListUI.ListSelectionHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
 
     }
 
@@ -86,32 +101,17 @@ implements FactoryBasedJ8UnitTest<BasicListUI>, org.j8unit.repository.javax.swin
     }
 
     @RunWith(J8Unit4.class)
-    public static class ListSelectionHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests<ListSelectionHandler> {
+    public static class PropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
-
-        @Override
-        public ListSelectionHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicListUI.ListSelectionHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ListDataHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests<ListDataHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
 
         @Override
-        public ListDataHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicListUI.ListDataHandler], j8unit does not support a generic way to provide instances.");
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicListUI$PropertyChangeHandler]
 
     }
 

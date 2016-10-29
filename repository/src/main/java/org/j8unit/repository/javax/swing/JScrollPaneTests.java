@@ -58,29 +58,6 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JScrollPane#setUI(javax.swing.plaf.ScrollPaneUI) public void
-     * javax.swing.JScrollPane.setUI(javax.swing.plaf.ScrollPaneUI)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_ScrollPaneUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JScrollPane#setViewportView(java.awt.Component) public void
      * javax.swing.JScrollPane.setViewportView(java.awt.Component)}.
      *
@@ -117,6 +94,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getViewport()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JScrollPane#setUI(javax.swing.plaf.ScrollPaneUI) public void
+     * javax.swing.JScrollPane.setUI(javax.swing.plaf.ScrollPaneUI)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_ScrollPaneUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -623,29 +623,6 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JScrollPane#setVerticalScrollBarPolicy(int) public void
-     * javax.swing.JScrollPane.setVerticalScrollBarPolicy(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setVerticalScrollBarPolicy_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JScrollPane#setColumnHeader(javax.swing.JViewport) public void
      * javax.swing.JScrollPane.setColumnHeader(javax.swing.JViewport)}.
      *
@@ -660,6 +637,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setColumnHeader_JViewport()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JScrollPane#setVerticalScrollBarPolicy(int) public void
+     * javax.swing.JScrollPane.setVerticalScrollBarPolicy(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setVerticalScrollBarPolicy_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

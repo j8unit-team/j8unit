@@ -38,8 +38,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.RejectedExecutionHandler#rejectedExecution(Runnable, java.util.concurrent.ThreadPoolExecutor)
      * public abstract void
-     * java.util.concurrent.RejectedExecutionHandler.rejectedExecution(java.lang.Runnable,java.util.concurrent.ThreadPoolExecutor)}
-     * .
+     * java.util.concurrent.RejectedExecutionHandler.rejectedExecution(java.lang.Runnable,java.util.concurrent.ThreadPoolExecutor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

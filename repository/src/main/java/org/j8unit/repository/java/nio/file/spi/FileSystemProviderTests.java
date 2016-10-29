@@ -84,8 +84,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#createSymbolicLink(java.nio.file.Path, java.nio.file.Path, java.nio.file.attribute.FileAttribute...)
      * public void
-     * java.nio.file.spi.FileSystemProvider.createSymbolicLink(java.nio.file.Path,java.nio.file.Path,java.nio.file.attribute.FileAttribute
-     * <?>...) throws java.io.IOException}.
+     * java.nio.file.spi.FileSystemProvider.createSymbolicLink(java.nio.file.Path,java.nio.file.Path,java.nio.file.attribute.FileAttribute<?>...)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,8 +135,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#getFileAttributeView(java.nio.file.Path, Class, java.nio.file.LinkOption...)
      * public abstract <V> V
-     * java.nio.file.spi.FileSystemProvider.getFileAttributeView(java.nio.file.Path,java.lang.Class
-     * <V>,java.nio.file.LinkOption...)}.
+     * java.nio.file.spi.FileSystemProvider.getFileAttributeView(java.nio.file.Path,java.lang.Class<V>,java.nio.file.LinkOption...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,6 +148,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFileAttributeView_Path_Class_LinkOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#isSameFile(java.nio.file.Path, java.nio.file.Path) public abstract
+     * boolean java.nio.file.spi.FileSystemProvider.isSameFile(java.nio.file.Path,java.nio.file.Path) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSameFile_Path_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,30 +230,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#isSameFile(java.nio.file.Path, java.nio.file.Path) public abstract
-     * boolean java.nio.file.spi.FileSystemProvider.isSameFile(java.nio.file.Path,java.nio.file.Path) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSameFile_Path_Path()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#getPath(java.net.URI) public abstract java.nio.file.Path
      * java.nio.file.spi.FileSystemProvider.getPath(java.net.URI)}.
      *
@@ -256,8 +255,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#createDirectory(java.nio.file.Path, java.nio.file.attribute.FileAttribute...)
      * public abstract void
-     * java.nio.file.spi.FileSystemProvider.createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute
-     * <?>...) throws java.io.IOException}.
+     * java.nio.file.spi.FileSystemProvider.createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute<?>...)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -379,30 +378,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path, Class, java.nio.file.LinkOption...)
-     * public abstract <A> A java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.Class
-     * <A>,java.nio.file.LinkOption...) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readAttributes_Path_Class_LinkOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path, String, java.nio.file.LinkOption...)
      * public abstract java.util.Map<java.lang.String, java.lang.Object>
      * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
@@ -419,6 +394,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_readAttributes_Path_String_LinkOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path, Class, java.nio.file.LinkOption...)
+     * public abstract <A> A
+     * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.Class<A>,java.nio.file.LinkOption...)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readAttributes_Path_Class_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -477,29 +477,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#readSymbolicLink(java.nio.file.Path) public java.nio.file.Path
-     * java.nio.file.spi.FileSystemProvider.readSymbolicLink(java.nio.file.Path) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readSymbolicLink_Path()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#isHidden(java.nio.file.Path) public abstract boolean
      * java.nio.file.spi.FileSystemProvider.isHidden(java.nio.file.Path) throws java.io.IOException}.
      *
@@ -514,6 +491,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isHidden_Path()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#readSymbolicLink(java.nio.file.Path) public java.nio.file.Path
+     * java.nio.file.spi.FileSystemProvider.readSymbolicLink(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readSymbolicLink_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -571,31 +571,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.nio.file.Path, java.util.Map) public
-     * java.nio.file.FileSystem
-     * java.nio.file.spi.FileSystemProvider.newFileSystem(java.nio.file.Path,java.util.Map<java.lang.String, ?>) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newFileSystem_Path_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.net.URI, java.util.Map) public abstract
      * java.nio.file.FileSystem
      * java.nio.file.spi.FileSystemProvider.newFileSystem(java.net.URI,java.util.Map<java.lang.String, ?>) throws
@@ -612,6 +587,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newFileSystem_URI_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.nio.file.Path, java.util.Map) public
+     * java.nio.file.FileSystem
+     * java.nio.file.spi.FileSystemProvider.newFileSystem(java.nio.file.Path,java.util.Map<java.lang.String, ?>) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newFileSystem_Path_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

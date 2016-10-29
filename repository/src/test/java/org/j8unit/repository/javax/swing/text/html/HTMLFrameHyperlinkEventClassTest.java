@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, javax.swing.text.Element, java.awt.event.InputEvent, String)
      * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent,java.lang.String)}
-     * .
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,8 +50,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, javax.swing.text.Element, String)
      * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.lang.String)}
-     * .
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +76,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, javax.swing.text.Element, String)
      * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,javax.swing.text.Element,java.lang.String)}
-     * .
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,javax.swing.text.Element,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +102,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String, String)
      * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,java.lang.String)}
-     * .
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -132,8 +128,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(Object, javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String)
      * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
-     * .
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -57,8 +57,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_hash(int) public abstract int
-     * org.omg.CORBA.Object._hash(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
+     * public abstract org.omg.CORBA.Request
+     * org.omg.CORBA.Object._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -70,7 +72,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test__hash_int()
+    public default void test__create_request_Context_String_NVList_NamedValue_ExceptionList_ContextList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,8 +84,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
      * public abstract org.omg.CORBA.Request
-     * org.omg.CORBA.Object._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}
-     * .
+     * org.omg.CORBA.Object._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,11 +105,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.Object#_create_request(org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
-     * public abstract org.omg.CORBA.Request
-     * org.omg.CORBA.Object._create_request(org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}
-     * .
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_hash(int) public abstract int
+     * org.omg.CORBA.Object._hash(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,7 +118,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test__create_request_Context_String_NVList_NamedValue_ExceptionList_ContextList()
+    public default void test__hash_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,6 +218,28 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_get_domain_managers() public
+     * abstract org.omg.CORBA.DomainManager[] org.omg.CORBA.Object._get_domain_managers()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__get_domain_managers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_request(String) public
      * abstract org.omg.CORBA.Request org.omg.CORBA.Object._request(java.lang.String)}.
      *
@@ -256,28 +276,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test__non_existent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.Object#_get_domain_managers() public
-     * abstract org.omg.CORBA.DomainManager[] org.omg.CORBA.Object._get_domain_managers()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__get_domain_managers()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

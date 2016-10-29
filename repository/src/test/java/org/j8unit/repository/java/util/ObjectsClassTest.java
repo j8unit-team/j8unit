@@ -122,9 +122,8 @@ implements org.j8unit.repository.java.util.ObjectsClassTests<Objects> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Objects#requireNonNull(Object, java.util.function.Supplier) public static <T> T
-     * java.util.Objects.requireNonNull(T,java.util.function.Supplier<java.lang.String>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Objects#requireNonNull(Object) public
+     * static <T> T java.util.Objects.requireNonNull(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,9 +135,9 @@ implements org.j8unit.repository.java.util.ObjectsClassTests<Objects> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_requireNonNull_Object_Supplier()
+    public void test_requireNonNull_Object()
     throws Exception {
-        // write some test for {@link java.util.Objects#requireNonNull(Object, java.util.function.Supplier)}
+        // write some test for {@link java.util.Objects#requireNonNull(Object)}
     }
 
     /**
@@ -163,8 +162,9 @@ implements org.j8unit.repository.java.util.ObjectsClassTests<Objects> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Objects#requireNonNull(Object) public
-     * static <T> T java.util.Objects.requireNonNull(T)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Objects#requireNonNull(Object, java.util.function.Supplier) public static <T> T
+     * java.util.Objects.requireNonNull(T,java.util.function.Supplier<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -176,9 +176,9 @@ implements org.j8unit.repository.java.util.ObjectsClassTests<Objects> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_requireNonNull_Object()
+    public void test_requireNonNull_Object_Supplier()
     throws Exception {
-        // write some test for {@link java.util.Objects#requireNonNull(Object)}
+        // write some test for {@link java.util.Objects#requireNonNull(Object, java.util.function.Supplier)}
     }
 
     /**

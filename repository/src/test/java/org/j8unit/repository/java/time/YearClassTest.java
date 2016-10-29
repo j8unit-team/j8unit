@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#of(int) public static java.time.Year
-     * java.time.Year.of(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#now() public static java.time.Year
+     * java.time.Year.now()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,29 +34,9 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_of_int()
+    public void test_now()
     throws Exception {
-        // write some test for {@link java.time.Year#of(int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#now(java.time.Clock) public static
-     * java.time.Year java.time.Year.now(java.time.Clock)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_now_Clock()
-    throws Exception {
-        // write some test for {@link java.time.Year#now(java.time.Clock)}
+        // write some test for {@link java.time.Year#now()}
     }
 
     /**
@@ -81,8 +61,8 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#now() public static java.time.Year
-     * java.time.Year.now()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#now(java.time.Clock) public static
+     * java.time.Year java.time.Year.now(java.time.Clock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,9 +74,9 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now()
+    public void test_now_Clock()
     throws Exception {
-        // write some test for {@link java.time.Year#now()}
+        // write some test for {@link java.time.Year#now(java.time.Clock)}
     }
 
     /**
@@ -121,8 +101,8 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#parse(CharSequence) public static
-     * java.time.Year java.time.Year.parse(java.lang.CharSequence)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#of(int) public static java.time.Year
+     * java.time.Year.of(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,9 +114,9 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_parse_CharSequence()
+    public void test_of_int()
     throws Exception {
-        // write some test for {@link java.time.Year#parse(CharSequence)}
+        // write some test for {@link java.time.Year#of(int)}
     }
 
     /**
@@ -158,6 +138,26 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     public void test_parse_CharSequence_DateTimeFormatter()
     throws Exception {
         // write some test for {@link java.time.Year#parse(CharSequence, java.time.format.DateTimeFormatter)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#parse(CharSequence) public static
+     * java.time.Year java.time.Year.parse(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parse_CharSequence()
+    throws Exception {
+        // write some test for {@link java.time.Year#parse(CharSequence)}
     }
 
     /**

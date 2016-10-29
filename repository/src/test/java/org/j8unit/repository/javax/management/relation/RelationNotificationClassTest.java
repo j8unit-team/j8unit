@@ -24,8 +24,8 @@ implements org.j8unit.repository.javax.management.relation.RelationNotificationC
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.relation.RelationNotification#RelationNotification(String, Object, long, long, String, String, String, javax.management.ObjectName, java.util.List)
      * public
-     * javax.management.relation.RelationNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,javax.management.ObjectName,java.util.List
-     * <javax.management.ObjectName>) throws java.lang.IllegalArgumentException}.
+     * javax.management.relation.RelationNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,javax.management.ObjectName,java.util.List<javax.management.ObjectName>)
+     * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -50,9 +50,8 @@ implements org.j8unit.repository.javax.management.relation.RelationNotificationC
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.relation.RelationNotification#RelationNotification(String, Object, long, long, String, String, String, javax.management.ObjectName, String, java.util.List, java.util.List)
      * public
-     * javax.management.relation.RelationNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,javax.management.ObjectName,java.lang.String,java.util.List
-     * <javax.management.ObjectName>,java.util.List<javax.management.ObjectName>) throws
-     * java.lang.IllegalArgumentException}.
+     * javax.management.relation.RelationNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.String,java.lang.String,javax.management.ObjectName,java.lang.String,java.util.List<javax.management.ObjectName>,java.util.List<javax.management.ObjectName>)
+     * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

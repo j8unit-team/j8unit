@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.management.relation.RoleResultClassTests<
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.relation.RoleResult#RoleResult(javax.management.relation.RoleList, javax.management.relation.RoleUnresolvedList)
      * public
-     * javax.management.relation.RoleResult(javax.management.relation.RoleList,javax.management.relation.RoleUnresolvedList)}
-     * .
+     * javax.management.relation.RoleResult(javax.management.relation.RoleList,javax.management.relation.RoleUnresolvedList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

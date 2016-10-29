@@ -20,8 +20,8 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], int, int, String) public
-     * java.lang.String(byte[],int,int,java.lang.String) throws java.io.UnsupportedEncodingException}.
+     * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], java.nio.charset.Charset)
+     * public java.lang.String(byte[],java.nio.charset.Charset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -33,11 +33,11 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_String_byteArray_int_int_String()
+    public void create_String_byteArray_Charset()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final String sut = null; // = new String(byte[], int, int, String);
+        final String sut = null; // = new String(byte[], java.nio.charset.Charset);
     }
 
     /**
@@ -60,28 +60,6 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
         // create new instance
         @SuppressWarnings("unused")
         final String sut = null; // = new String(byte[], int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], java.nio.charset.Charset)
-     * public java.lang.String(byte[],java.nio.charset.Charset)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_String_byteArray_Charset()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final String sut = null; // = new String(byte[], java.nio.charset.Charset);
     }
 
     /**
@@ -131,6 +109,28 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], int, int, String) public
+     * java.lang.String(byte[],int,int,java.lang.String) throws java.io.UnsupportedEncodingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_String_byteArray_int_int_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final String sut = null; // = new String(byte[], int, int, String);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test {@link String#String(StringBuilder) public
      * java.lang.String(java.lang.StringBuilder)}.
      *
@@ -175,6 +175,28 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], int) public
+     * java.lang.String(byte[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_String_byteArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final String sut = null; // = new String(byte[], int);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test {@link String#String(byte[]) public
      * java.lang.String(byte[])}.
      *
@@ -193,28 +215,6 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
         // create new instance
         @SuppressWarnings("unused")
         final String sut = null; // = new String(byte[]);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link String#String(String) public
-     * java.lang.String(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final String sut = null; // = new String(String);
     }
 
     /**
@@ -241,26 +241,6 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link String#String() public java.lang.String()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_String()
-    throws Exception {
-        // create new instance
-        final String sut = new String();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], int, int, int) public
      * java.lang.String(byte[],int,int,int)}.
      *
@@ -283,8 +263,7 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link String#String(char[], int, int) public
-     * java.lang.String(char[],int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link String#String() public java.lang.String()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -296,17 +275,16 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_String_charArray_int_int()
+    public void create_String()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final String sut = null; // = new String(char[], int, int);
+        final String sut = new String();
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link String#String(byte[], int) public
-     * java.lang.String(byte[],int)}.
+     * Test method for the hereby targeted constructor-under-test {@link String#String(String) public
+     * java.lang.String(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -318,11 +296,11 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_String_byteArray_int()
+    public void create_String_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final String sut = null; // = new String(byte[], int);
+        final String sut = null; // = new String(String);
     }
 
     /**
@@ -345,6 +323,28 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
         // create new instance
         @SuppressWarnings("unused")
         final String sut = null; // = new String(char[]);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link String#String(char[], int, int) public
+     * java.lang.String(char[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_String_charArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final String sut = null; // = new String(char[], int, int);
     }
 
     /**
@@ -390,26 +390,6 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link String#copyValueOf(char[]) public static
-     * java.lang.String java.lang.String.copyValueOf(char[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copyValueOf_charArray()
-    throws Exception {
-        // write some test for {@link String#copyValueOf(char[])}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link String#copyValueOf(char[], int, int) public static
      * java.lang.String java.lang.String.copyValueOf(char[],int,int)}.
      *
@@ -426,6 +406,26 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     public void test_copyValueOf_charArray_int_int()
     throws Exception {
         // write some test for {@link String#copyValueOf(char[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#copyValueOf(char[]) public static
+     * java.lang.String java.lang.String.copyValueOf(char[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copyValueOf_charArray()
+    throws Exception {
+        // write some test for {@link String#copyValueOf(char[])}
     }
 
     /**
@@ -470,8 +470,8 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(int) public static java.lang.String
-     * java.lang.String.valueOf(int)}.
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(char) public static java.lang.String
+     * java.lang.String.valueOf(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -483,109 +483,9 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_valueOf_int()
+    public void test_valueOf_char()
     throws Exception {
-        // write some test for {@link String#valueOf(int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(long) public static java.lang.String
-     * java.lang.String.valueOf(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_long()
-    throws Exception {
-        // write some test for {@link String#valueOf(long)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(float) public static java.lang.String
-     * java.lang.String.valueOf(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_float()
-    throws Exception {
-        // write some test for {@link String#valueOf(float)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(boolean) public static
-     * java.lang.String java.lang.String.valueOf(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_boolean()
-    throws Exception {
-        // write some test for {@link String#valueOf(boolean)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(char[]) public static
-     * java.lang.String java.lang.String.valueOf(char[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_charArray()
-    throws Exception {
-        // write some test for {@link String#valueOf(char[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(char[], int, int) public static
-     * java.lang.String java.lang.String.valueOf(char[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_charArray_int_int()
-    throws Exception {
-        // write some test for {@link String#valueOf(char[], int, int)}
+        // write some test for {@link String#valueOf(char)}
     }
 
     /**
@@ -610,8 +510,8 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link String#valueOf(char) public static java.lang.String
-     * java.lang.String.valueOf(char)}.
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(boolean) public static
+     * java.lang.String java.lang.String.valueOf(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -623,9 +523,49 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_valueOf_char()
+    public void test_valueOf_boolean()
     throws Exception {
-        // write some test for {@link String#valueOf(char)}
+        // write some test for {@link String#valueOf(boolean)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(char[], int, int) public static
+     * java.lang.String java.lang.String.valueOf(char[],int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_charArray_int_int()
+    throws Exception {
+        // write some test for {@link String#valueOf(char[], int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(char[]) public static
+     * java.lang.String java.lang.String.valueOf(char[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_charArray()
+    throws Exception {
+        // write some test for {@link String#valueOf(char[])}
     }
 
     /**
@@ -646,6 +586,66 @@ implements org.j8unit.repository.java.lang.StringClassTests<String> {
     public void test_valueOf_double()
     throws Exception {
         // write some test for {@link String#valueOf(double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(float) public static java.lang.String
+     * java.lang.String.valueOf(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_float()
+    throws Exception {
+        // write some test for {@link String#valueOf(float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(long) public static java.lang.String
+     * java.lang.String.valueOf(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_long()
+    throws Exception {
+        // write some test for {@link String#valueOf(long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link String#valueOf(int) public static java.lang.String
+     * java.lang.String.valueOf(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_int()
+    throws Exception {
+        // write some test for {@link String#valueOf(int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.String]

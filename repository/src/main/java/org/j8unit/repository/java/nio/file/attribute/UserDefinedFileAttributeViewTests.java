@@ -106,8 +106,9 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#list() public abstract java.util.List
-     * <java.lang.String> java.nio.file.attribute.UserDefinedFileAttributeView.list() throws java.io.IOException}.
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#list() public abstract
+     * java.util.List<java.lang.String> java.nio.file.attribute.UserDefinedFileAttributeView.list() throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

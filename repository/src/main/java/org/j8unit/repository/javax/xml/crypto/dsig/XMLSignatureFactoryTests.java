@@ -35,35 +35,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newXMLSignature(javax.xml.crypto.dsig.SignedInfo, javax.xml.crypto.dsig.keyinfo.KeyInfo)
-     * public abstract javax.xml.crypto.dsig.XMLSignature
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newXMLSignature(javax.xml.crypto.dsig.SignedInfo,javax.xml.crypto.dsig.keyinfo.KeyInfo)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newXMLSignature_SignedInfo_KeyInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newXMLSignature(javax.xml.crypto.dsig.SignedInfo, javax.xml.crypto.dsig.keyinfo.KeyInfo, java.util.List, String, String)
      * public abstract javax.xml.crypto.dsig.XMLSignature
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newXMLSignature(javax.xml.crypto.dsig.SignedInfo,javax.xml.crypto.dsig.keyinfo.KeyInfo,java.util.List,java.lang.String,java.lang.String)}
-     * .
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newXMLSignature(javax.xml.crypto.dsig.SignedInfo,javax.xml.crypto.dsig.keyinfo.KeyInfo,java.util.List,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,6 +50,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newXMLSignature_SignedInfo_KeyInfo_List_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newXMLSignature(javax.xml.crypto.dsig.SignedInfo, javax.xml.crypto.dsig.keyinfo.KeyInfo)
+     * public abstract javax.xml.crypto.dsig.XMLSignature
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newXMLSignature(javax.xml.crypto.dsig.SignedInfo,javax.xml.crypto.dsig.keyinfo.KeyInfo)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newXMLSignature_SignedInfo_KeyInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,35 +106,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod, javax.xml.crypto.dsig.SignatureMethod, java.util.List, String)
-     * public abstract javax.xml.crypto.dsig.SignedInfo
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod,javax.xml.crypto.dsig.SignatureMethod,java.util.List,java.lang.String)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newSignedInfo_CanonicalizationMethod_SignatureMethod_List_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod, javax.xml.crypto.dsig.SignatureMethod, java.util.List)
      * public abstract javax.xml.crypto.dsig.SignedInfo
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod,javax.xml.crypto.dsig.SignatureMethod,java.util.List)}
-     * .
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod,javax.xml.crypto.dsig.SignatureMethod,java.util.List)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,10 +130,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod, javax.xml.crypto.dsig.SignatureMethod, java.util.List, String)
+     * public abstract javax.xml.crypto.dsig.SignedInfo
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignedInfo(javax.xml.crypto.dsig.CanonicalizationMethod,javax.xml.crypto.dsig.SignatureMethod,java.util.List,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newSignedInfo_CanonicalizationMethod_SignatureMethod_List_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newSignatureProperty(java.util.List, String, String) public
      * abstract javax.xml.crypto.dsig.SignatureProperty
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignatureProperty(java.util.List,java.lang.String,java.lang.String)}
-     * .
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignatureProperty(java.util.List,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -206,31 +201,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newTransform(String, javax.xml.crypto.XMLStructure) public
-     * abstract javax.xml.crypto.dsig.Transform
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newTransform(java.lang.String,javax.xml.crypto.XMLStructure) throws
-     * java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newTransform_String_XMLStructure()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newTransform(String, javax.xml.crypto.dsig.spec.TransformParameterSpec)
      * public abstract javax.xml.crypto.dsig.Transform
      * javax.xml.crypto.dsig.XMLSignatureFactory.newTransform(java.lang.String,javax.xml.crypto.dsig.spec.TransformParameterSpec)
@@ -256,10 +226,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newReference(String, javax.xml.crypto.dsig.DigestMethod, java.util.List, String, String)
-     * public abstract javax.xml.crypto.dsig.Reference
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newReference(java.lang.String,javax.xml.crypto.dsig.DigestMethod,java.util.List,java.lang.String,java.lang.String)}
-     * .
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newTransform(String, javax.xml.crypto.XMLStructure) public
+     * abstract javax.xml.crypto.dsig.Transform
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newTransform(java.lang.String,javax.xml.crypto.XMLStructure) throws
+     * java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,7 +241,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newReference_String_DigestMethod_List_String_String()
+    public default void test_newTransform_String_XMLStructure()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newReference(String, javax.xml.crypto.dsig.DigestMethod, java.util.List, javax.xml.crypto.Data, java.util.List, String, String)
+     * public abstract javax.xml.crypto.dsig.Reference
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newReference(java.lang.String,javax.xml.crypto.dsig.DigestMethod,java.util.List,javax.xml.crypto.Data,java.util.List,java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newReference_String_DigestMethod_List_Data_List_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -305,35 +299,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newReference(String, javax.xml.crypto.dsig.DigestMethod, java.util.List, javax.xml.crypto.Data, java.util.List, String, String)
-     * public abstract javax.xml.crypto.dsig.Reference
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newReference(java.lang.String,javax.xml.crypto.dsig.DigestMethod,java.util.List,javax.xml.crypto.Data,java.util.List,java.lang.String,java.lang.String)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newReference_String_DigestMethod_List_Data_List_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newReference(String, javax.xml.crypto.dsig.DigestMethod, java.util.List, String, String, byte[])
      * public abstract javax.xml.crypto.dsig.Reference
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newReference(java.lang.String,javax.xml.crypto.dsig.DigestMethod,java.util.List,java.lang.String,java.lang.String,byte[])}
-     * .
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newReference(java.lang.String,javax.xml.crypto.dsig.DigestMethod,java.util.List,java.lang.String,java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -355,10 +323,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newReference(String, javax.xml.crypto.dsig.DigestMethod, java.util.List, String, String)
+     * public abstract javax.xml.crypto.dsig.Reference
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newReference(java.lang.String,javax.xml.crypto.dsig.DigestMethod,java.util.List,java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newReference_String_DigestMethod_List_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newXMLObject(java.util.List, String, String, String) public
      * abstract javax.xml.crypto.dsig.XMLObject
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newXMLObject(java.util.List,java.lang.String,java.lang.String,java.lang.String)}
-     * .
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newXMLObject(java.util.List,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,6 +362,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newXMLObject_List_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newManifest(java.util.List) public abstract
+     * javax.xml.crypto.dsig.Manifest javax.xml.crypto.dsig.XMLSignatureFactory.newManifest(java.util.List)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newManifest_List()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -395,29 +409,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newManifest_List_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newManifest(java.util.List) public abstract
-     * javax.xml.crypto.dsig.Manifest javax.xml.crypto.dsig.XMLSignatureFactory.newManifest(java.util.List)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newManifest_List()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -527,29 +518,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getURIDereferencer() public abstract
-     * javax.xml.crypto.URIDereferencer javax.xml.crypto.dsig.XMLSignatureFactory.getURIDereferencer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURIDereferencer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getProvider() public final java.security.Provider
      * javax.xml.crypto.dsig.XMLSignatureFactory.getProvider()}.
      *
@@ -573,9 +541,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newSignatureProperties(java.util.List, String) public abstract
-     * javax.xml.crypto.dsig.SignatureProperties
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignatureProperties(java.util.List,java.lang.String)}.
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#getURIDereferencer() public abstract
+     * javax.xml.crypto.URIDereferencer javax.xml.crypto.dsig.XMLSignatureFactory.getURIDereferencer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -587,7 +554,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newSignatureProperties_List_String()
+    public default void test_getURIDereferencer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newCanonicalizationMethod(String, javax.xml.crypto.XMLStructure)
+     * public abstract javax.xml.crypto.dsig.CanonicalizationMethod
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newCanonicalizationMethod(java.lang.String,javax.xml.crypto.XMLStructure)
+     * throws java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newCanonicalizationMethod_String_XMLStructure()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -622,10 +614,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newCanonicalizationMethod(String, javax.xml.crypto.XMLStructure)
-     * public abstract javax.xml.crypto.dsig.CanonicalizationMethod
-     * javax.xml.crypto.dsig.XMLSignatureFactory.newCanonicalizationMethod(java.lang.String,javax.xml.crypto.XMLStructure)
-     * throws java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
+     * {@link javax.xml.crypto.dsig.XMLSignatureFactory#newSignatureProperties(java.util.List, String) public abstract
+     * javax.xml.crypto.dsig.SignatureProperties
+     * javax.xml.crypto.dsig.XMLSignatureFactory.newSignatureProperties(java.util.List,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -637,7 +628,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newCanonicalizationMethod_String_XMLStructure()
+    public default void test_newSignatureProperties_List_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

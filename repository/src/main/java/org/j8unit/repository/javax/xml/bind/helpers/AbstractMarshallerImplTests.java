@@ -59,30 +59,6 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#setSchema(javax.xml.validation.Schema) public void
-     * javax.xml.bind.helpers.AbstractMarshallerImpl.setSchema(javax.xml.validation.Schema)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setSchema_Schema()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#getAdapter(Class) public <A> A
      * javax.xml.bind.helpers.AbstractMarshallerImpl.getAdapter(java.lang.Class<A>)}.
      *
@@ -232,8 +208,7 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#setAttachmentMarshaller(javax.xml.bind.attachment.AttachmentMarshaller)
      * public void
-     * javax.xml.bind.helpers.AbstractMarshallerImpl.setAttachmentMarshaller(javax.xml.bind.attachment.AttachmentMarshaller)}
-     * .
+     * javax.xml.bind.helpers.AbstractMarshallerImpl.setAttachmentMarshaller(javax.xml.bind.attachment.AttachmentMarshaller)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,6 +222,30 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_setAttachmentMarshaller_AttachmentMarshaller()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#getNode(Object) public org.w3c.dom.Node
+     * javax.xml.bind.helpers.AbstractMarshallerImpl.getNode(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNode_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -281,30 +280,6 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#getNode(Object) public org.w3c.dom.Node
-     * javax.xml.bind.helpers.AbstractMarshallerImpl.getNode(java.lang.Object) throws javax.xml.bind.JAXBException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNode_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#getListener() public javax.xml.bind.Marshaller$Listener
      * javax.xml.bind.helpers.AbstractMarshallerImpl.getListener()}.
      *
@@ -320,6 +295,55 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_getListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#setProperty(String, Object) public void
+     * javax.xml.bind.helpers.AbstractMarshallerImpl.setProperty(java.lang.String,java.lang.Object) throws
+     * javax.xml.bind.PropertyException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperty_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#setSchema(javax.xml.validation.Schema) public void
+     * javax.xml.bind.helpers.AbstractMarshallerImpl.setSchema(javax.xml.validation.Schema)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setSchema_Schema()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -354,9 +378,9 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, org.xml.sax.ContentHandler) public final
-     * void javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,org.xml.sax.ContentHandler) throws
-     * javax.xml.bind.JAXBException}.
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, javax.xml.stream.XMLStreamWriter) public
+     * void javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,javax.xml.stream.XMLStreamWriter)
+     * throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,7 +393,7 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_marshal_Object_ContentHandler()
+    public default void test_marshal_Object_XMLStreamWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -404,6 +428,31 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, org.xml.sax.ContentHandler) public final
+     * void javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,org.xml.sax.ContentHandler) throws
+     * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_ContentHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, javax.xml.stream.XMLEventWriter) public void
      * javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,javax.xml.stream.XMLEventWriter) throws
      * javax.xml.bind.JAXBException}.
@@ -429,9 +478,9 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, javax.xml.stream.XMLStreamWriter) public
-     * void javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,javax.xml.stream.XMLStreamWriter)
-     * throws javax.xml.bind.JAXBException}.
+     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, java.io.OutputStream) public final void
+     * javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,java.io.OutputStream) throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -444,7 +493,7 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_marshal_Object_XMLStreamWriter()
+    public default void test_marshal_Object_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -495,56 +544,6 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_marshal_Object_Writer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#marshal(Object, java.io.OutputStream) public final void
-     * javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(java.lang.Object,java.io.OutputStream) throws
-     * javax.xml.bind.JAXBException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractMarshallerImpl#setProperty(String, Object) public void
-     * javax.xml.bind.helpers.AbstractMarshallerImpl.setProperty(java.lang.String,java.lang.Object) throws
-     * javax.xml.bind.PropertyException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setProperty_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

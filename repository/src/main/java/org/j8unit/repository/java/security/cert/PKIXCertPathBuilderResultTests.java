@@ -87,8 +87,8 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.security.cert.CertPathBuilderResult#clone() interface java.security.cert.CertPathBuilderResult}
-     * </li>
+     * <li>{@link java.security.cert.CertPathBuilderResult#clone() interface
+     * java.security.cert.CertPathBuilderResult}</li>
      * <li>{@link java.security.cert.PKIXCertPathValidatorResult#clone() class
      * java.security.cert.PKIXCertPathValidatorResult}</li>
      * </ul>

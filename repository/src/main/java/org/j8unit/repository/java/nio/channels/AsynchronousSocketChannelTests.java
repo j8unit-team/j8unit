@@ -62,8 +62,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousSocketChannel#connect(java.net.SocketAddress) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Void> java.nio.channels.AsynchronousSocketChannel.connect(java.net.SocketAddress)}.
+     * java.util.concurrent.Future<java.lang.Void>
+     * java.nio.channels.AsynchronousSocketChannel.connect(java.net.SocketAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,6 +76,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_connect_SocketAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer, long, java.util.concurrent.TimeUnit, Object, java.nio.channels.CompletionHandler)
+     * public abstract <A> void
+     * java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer,long,java.util.concurrent.TimeUnit,A,java.nio.channels.CompletionHandler<java.lang.Integer,
+     * ? super A>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_ByteBuffer_long_TimeUnit_Object_CompletionHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,8 +136,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Integer> java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer)}.
+     * java.util.concurrent.Future<java.lang.Integer>
+     * java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,31 +151,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.AsynchronousSocketChannel#write(java.nio.ByteBuffer, long, java.util.concurrent.TimeUnit, Object, java.nio.channels.CompletionHandler)
-     * public abstract <A> void
-     * java.nio.channels.AsynchronousSocketChannel.write(java.nio.ByteBuffer,long,java.util.concurrent.TimeUnit,A,java.nio.channels.CompletionHandler<java.lang.Integer,
-     * ? super A>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_ByteBuffer_long_TimeUnit_Object_CompletionHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -258,30 +258,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.AsynchronousSocketChannel#getLocalAddress() public abstract java.net.SocketAddress
-     * java.nio.channels.AsynchronousSocketChannel.getLocalAddress() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousSocketChannel#shutdownOutput() public abstract
      * java.nio.channels.AsynchronousSocketChannel java.nio.channels.AsynchronousSocketChannel.shutdownOutput() throws
      * java.io.IOException}.
@@ -297,6 +273,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_shutdownOutput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousSocketChannel#getLocalAddress() public abstract java.net.SocketAddress
+     * java.nio.channels.AsynchronousSocketChannel.getLocalAddress() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -355,8 +355,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousSocketChannel#read(java.nio.ByteBuffer) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Integer> java.nio.channels.AsynchronousSocketChannel.read(java.nio.ByteBuffer)}.
+     * java.util.concurrent.Future<java.lang.Integer>
+     * java.nio.channels.AsynchronousSocketChannel.read(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -430,8 +430,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.AsynchronousSocketChannel#setOption(java.net.SocketOption, Object) public abstract
-     * <T> java.nio.channels.AsynchronousSocketChannel
+     * {@link java.nio.channels.AsynchronousSocketChannel#setOption(java.net.SocketOption, Object) public abstract <T>
+     * java.nio.channels.AsynchronousSocketChannel
      * java.nio.channels.AsynchronousSocketChannel.setOption(java.net.SocketOption<T>,T) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

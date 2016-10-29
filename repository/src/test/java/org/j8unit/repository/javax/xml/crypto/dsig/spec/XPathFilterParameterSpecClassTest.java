@@ -22,29 +22,6 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameter
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#XPathFilterParameterSpec(String) public
-     * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_XPathFilterParameterSpec_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final XPathFilterParameterSpec sut = null; // = new XPathFilterParameterSpec(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#XPathFilterParameterSpec(String, java.util.Map) public
      * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec(java.lang.String,java.util.Map)}.
      *
@@ -63,6 +40,29 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameter
         // create new instance
         @SuppressWarnings("unused")
         final XPathFilterParameterSpec sut = null; // = new XPathFilterParameterSpec(String, java.util.Map);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.spec.XPathFilterParameterSpec#XPathFilterParameterSpec(String) public
+     * javax.xml.crypto.dsig.spec.XPathFilterParameterSpec(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_XPathFilterParameterSpec_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final XPathFilterParameterSpec sut = null; // = new XPathFilterParameterSpec(String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilterParameterSpec]

@@ -24,8 +24,7 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevoke
      * Test method for the hereby targeted constructor-under-test
      * {@link java.beans.beancontext.BeanContextServiceRevokedEvent#BeanContextServiceRevokedEvent(java.beans.beancontext.BeanContextServices, Class, boolean)
      * public
-     * java.beans.beancontext.BeanContextServiceRevokedEvent(java.beans.beancontext.BeanContextServices,java.lang.Class,boolean)}
-     * .
+     * java.beans.beancontext.BeanContextServiceRevokedEvent(java.beans.beancontext.BeanContextServices,java.lang.Class,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

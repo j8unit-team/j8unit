@@ -21,9 +21,8 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field, int) public
-     * java.text.FieldPosition(java.text.Format$Field,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.text.FieldPosition#FieldPosition(int)
+     * public java.text.FieldPosition(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,11 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_FieldPosition_Field_int()
+    public void create_FieldPosition_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field, int);
+        final FieldPosition sut = null; // = new FieldPosition(int);
     }
 
     /**
@@ -67,8 +66,9 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.text.FieldPosition#FieldPosition(int)
-     * public java.text.FieldPosition(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field, int) public
+     * java.text.FieldPosition(java.text.Format$Field,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,11 +80,11 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_FieldPosition_int()
+    public void create_FieldPosition_Field_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FieldPosition sut = null; // = new FieldPosition(int);
+        final FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.FieldPosition]

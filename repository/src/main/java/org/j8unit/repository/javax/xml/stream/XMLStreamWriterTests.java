@@ -36,9 +36,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamWriter#writeAttribute(String, String, String, String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-     * throws javax.xml.stream.XMLStreamException}.
+     * {@link javax.xml.stream.XMLStreamWriter#writeAttribute(String, String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeAttribute(java.lang.String,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -50,7 +50,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeAttribute_String_String_String_String()
+    public default void test_writeAttribute_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -84,9 +84,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamWriter#writeAttribute(String, String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeAttribute(java.lang.String,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
+     * {@link javax.xml.stream.XMLStreamWriter#writeAttribute(String, String, String, String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +98,29 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeAttribute_String_String()
+    public default void test_writeAttribute_String_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamWriter#close() public
+     * abstract void javax.xml.stream.XMLStreamWriter.close() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,28 +144,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeEndElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamWriter#close() public
-     * abstract void javax.xml.stream.XMLStreamWriter.close() throws javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -317,30 +317,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamWriter#writeStartDocument(String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeStartDocument(java.lang.String) throws javax.xml.stream.XMLStreamException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartDocument_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamWriter#writeStartDocument() public abstract void
      * javax.xml.stream.XMLStreamWriter.writeStartDocument() throws javax.xml.stream.XMLStreamException}.
      *
@@ -355,6 +331,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeStartDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLStreamWriter#writeStartDocument(String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeStartDocument(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartDocument_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -411,6 +411,30 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLStreamWriter#writeStartElement(String, String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartElement_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamWriter#writeStartElement(String, String, String) public abstract void
      * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
@@ -449,30 +473,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeStartElement_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamWriter#writeStartElement(String, String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartElement_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -553,29 +553,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamWriter#writeCharacters(char[], int, int) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeCharacters(char[],int,int) throws javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeCharacters_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamWriter#writeCharacters(String) public abstract void
      * javax.xml.stream.XMLStreamWriter.writeCharacters(java.lang.String) throws javax.xml.stream.XMLStreamException}.
      *
@@ -590,6 +567,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeCharacters_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLStreamWriter#writeCharacters(char[], int, int) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeCharacters(char[],int,int) throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeCharacters_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -621,29 +621,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamWriter#getPrefix(String)
-     * public abstract java.lang.String javax.xml.stream.XMLStreamWriter.getPrefix(java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamWriter#getProperty(String)
      * public abstract java.lang.Object javax.xml.stream.XMLStreamWriter.getProperty(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
@@ -659,6 +636,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getProperty_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamWriter#getPrefix(String)
+     * public abstract java.lang.String javax.xml.stream.XMLStreamWriter.getPrefix(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

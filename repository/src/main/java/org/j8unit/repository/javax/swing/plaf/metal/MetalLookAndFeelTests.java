@@ -106,6 +106,29 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalLookAndFeel#getID()
+     * public java.lang.String javax.swing.plaf.metal.MetalLookAndFeel.getID()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#getDisabledIcon(javax.swing.JComponent, javax.swing.Icon) public
      * javax.swing.Icon
@@ -155,29 +178,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalLookAndFeel#getID()
-     * public java.lang.String javax.swing.plaf.metal.MetalLookAndFeel.getID()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#provideErrorFeedback(java.awt.Component) public void
      * javax.swing.plaf.metal.MetalLookAndFeel.provideErrorFeedback(java.awt.Component)}.
@@ -194,30 +194,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_provideErrorFeedback_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#isSupportedLookAndFeel() public boolean
-     * javax.swing.plaf.metal.MetalLookAndFeel.isSupportedLookAndFeel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isSupportedLookAndFeel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -251,9 +227,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getDisabledSelectedIcon(javax.swing.JComponent, javax.swing.Icon)
-     * public javax.swing.Icon
-     * javax.swing.plaf.metal.MetalLookAndFeel.getDisabledSelectedIcon(javax.swing.JComponent,javax.swing.Icon)}.
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#isSupportedLookAndFeel() public boolean
+     * javax.swing.plaf.metal.MetalLookAndFeel.isSupportedLookAndFeel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -266,7 +241,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getDisabledSelectedIcon_JComponent_Icon()
+    public default void test_isSupportedLookAndFeel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -290,6 +265,31 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getDisabledSelectedIcon(javax.swing.JComponent, javax.swing.Icon)
+     * public javax.swing.Icon
+     * javax.swing.plaf.metal.MetalLookAndFeel.getDisabledSelectedIcon(javax.swing.JComponent,javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisabledSelectedIcon_JComponent_Icon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

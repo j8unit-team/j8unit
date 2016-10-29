@@ -91,8 +91,7 @@ implements org.j8unit.repository.javax.swing.SizeRequirementsClassTests<SizeRequ
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SizeRequirements#calculateTiledPositions(int, javax.swing.SizeRequirements, javax.swing.SizeRequirements[], int[], int[], boolean)
      * public static void
-     * javax.swing.SizeRequirements.calculateTiledPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[],boolean)}
-     * .
+     * javax.swing.SizeRequirements.calculateTiledPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -115,8 +114,7 @@ implements org.j8unit.repository.javax.swing.SizeRequirementsClassTests<SizeRequ
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SizeRequirements#calculateTiledPositions(int, javax.swing.SizeRequirements, javax.swing.SizeRequirements[], int[], int[])
      * public static void
-     * javax.swing.SizeRequirements.calculateTiledPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[])}
-     * .
+     * javax.swing.SizeRequirements.calculateTiledPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,8 +181,7 @@ implements org.j8unit.repository.javax.swing.SizeRequirementsClassTests<SizeRequ
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SizeRequirements#calculateAlignedPositions(int, javax.swing.SizeRequirements, javax.swing.SizeRequirements[], int[], int[])
      * public static void
-     * javax.swing.SizeRequirements.calculateAlignedPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[])}
-     * .
+     * javax.swing.SizeRequirements.calculateAlignedPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -207,8 +204,7 @@ implements org.j8unit.repository.javax.swing.SizeRequirementsClassTests<SizeRequ
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SizeRequirements#calculateAlignedPositions(int, javax.swing.SizeRequirements, javax.swing.SizeRequirements[], int[], int[], boolean)
      * public static void
-     * javax.swing.SizeRequirements.calculateAlignedPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[],boolean)}
-     * .
+     * javax.swing.SizeRequirements.calculateAlignedPositions(int,javax.swing.SizeRequirements,javax.swing.SizeRequirements[],int[],int[],boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

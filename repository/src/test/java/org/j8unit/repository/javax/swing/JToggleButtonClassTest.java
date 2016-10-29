@@ -22,9 +22,8 @@ implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButt
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JToggleButton#JToggleButton(String, boolean) public
-     * javax.swing.JToggleButton(java.lang.String,boolean)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToggleButton#JToggleButton()
+     * public javax.swing.JToggleButton()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,57 +35,10 @@ implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButt
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JToggleButton_String_boolean()
+    public void create_JToggleButton()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final JToggleButton sut = null; // = new JToggleButton(String, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Action) public
-     * javax.swing.JToggleButton(javax.swing.Action)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JToggleButton_Action()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JToggleButton sut = null; // = new JToggleButton(javax.swing.Action);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JToggleButton#JToggleButton(String, javax.swing.Icon) public
-     * javax.swing.JToggleButton(java.lang.String,javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JToggleButton_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JToggleButton sut = null; // = new JToggleButton(String, javax.swing.Icon);
+        final JToggleButton sut = new JToggleButton();
     }
 
     /**
@@ -114,8 +66,9 @@ implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButt
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JToggleButton#JToggleButton()
-     * public javax.swing.JToggleButton()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JToggleButton#JToggleButton(String, javax.swing.Icon) public
+     * javax.swing.JToggleButton(java.lang.String,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,10 +80,11 @@ implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButt
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JToggleButton()
+    public void create_JToggleButton_String_Icon()
     throws Exception {
         // create new instance
-        final JToggleButton sut = new JToggleButton();
+        @SuppressWarnings("unused")
+        final JToggleButton sut = null; // = new JToggleButton(String, javax.swing.Icon);
     }
 
     /**
@@ -199,6 +153,52 @@ implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButt
         // create new instance
         @SuppressWarnings("unused")
         final JToggleButton sut = null; // = new JToggleButton(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JToggleButton#JToggleButton(String, boolean) public
+     * javax.swing.JToggleButton(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JToggleButton_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JToggleButton sut = null; // = new JToggleButton(String, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Action) public
+     * javax.swing.JToggleButton(javax.swing.Action)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JToggleButton_Action()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JToggleButton sut = null; // = new JToggleButton(javax.swing.Action);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JToggleButton]

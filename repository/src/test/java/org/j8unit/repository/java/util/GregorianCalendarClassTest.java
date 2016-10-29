@@ -90,30 +90,9 @@ implements org.j8unit.repository.java.util.GregorianCalendarClassTests<Gregorian
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.GregorianCalendar#GregorianCalendar()
-     * public java.util.GregorianCalendar()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_GregorianCalendar()
-    throws Exception {
-        // create new instance
-        final GregorianCalendar sut = new GregorianCalendar();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.GregorianCalendar#GregorianCalendar(java.util.TimeZone) public
-     * java.util.GregorianCalendar(java.util.TimeZone)}.
+     * {@link java.util.GregorianCalendar#GregorianCalendar(java.util.TimeZone, java.util.Locale) public
+     * java.util.GregorianCalendar(java.util.TimeZone,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -125,11 +104,11 @@ implements org.j8unit.repository.java.util.GregorianCalendarClassTests<Gregorian
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_GregorianCalendar_TimeZone()
+    public void create_GregorianCalendar_TimeZone_Locale()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GregorianCalendar sut = null; // = new GregorianCalendar(java.util.TimeZone);
+        final GregorianCalendar sut = null; // = new GregorianCalendar(java.util.TimeZone, java.util.Locale);
     }
 
     /**
@@ -158,8 +137,8 @@ implements org.j8unit.repository.java.util.GregorianCalendarClassTests<Gregorian
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.GregorianCalendar#GregorianCalendar(java.util.TimeZone, java.util.Locale) public
-     * java.util.GregorianCalendar(java.util.TimeZone,java.util.Locale)}.
+     * {@link java.util.GregorianCalendar#GregorianCalendar(java.util.TimeZone) public
+     * java.util.GregorianCalendar(java.util.TimeZone)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,11 +150,32 @@ implements org.j8unit.repository.java.util.GregorianCalendarClassTests<Gregorian
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_GregorianCalendar_TimeZone_Locale()
+    public void create_GregorianCalendar_TimeZone()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GregorianCalendar sut = null; // = new GregorianCalendar(java.util.TimeZone, java.util.Locale);
+        final GregorianCalendar sut = null; // = new GregorianCalendar(java.util.TimeZone);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.GregorianCalendar#GregorianCalendar()
+     * public java.util.GregorianCalendar()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GregorianCalendar()
+    throws Exception {
+        // create new instance
+        final GregorianCalendar sut = new GregorianCalendar();
     }
 
     /**

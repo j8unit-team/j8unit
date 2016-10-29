@@ -46,8 +46,8 @@ implements org.j8unit.repository.java.lang.management.MonitorInfoClassTests<Moni
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.management.MonitorInfo#from(javax.management.openmbean.CompositeData) public static
-     * java.lang.management.MonitorInfo java.lang.management.MonitorInfo.from(javax.management.openmbean.CompositeData)}
-     * .
+     * java.lang.management.MonitorInfo
+     * java.lang.management.MonitorInfo.from(javax.management.openmbean.CompositeData)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

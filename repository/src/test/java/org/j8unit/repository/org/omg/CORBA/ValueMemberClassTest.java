@@ -45,8 +45,7 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests<ValueMember
      * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.CORBA.ValueMember#ValueMember(String, String, String, String, org.omg.CORBA.TypeCode, org.omg.CORBA.IDLType, short)
      * public
-     * org.omg.CORBA.ValueMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.IDLType,short)}
-     * .
+     * org.omg.CORBA.ValueMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.omg.CORBA.TypeCode,org.omg.CORBA.IDLType,short)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

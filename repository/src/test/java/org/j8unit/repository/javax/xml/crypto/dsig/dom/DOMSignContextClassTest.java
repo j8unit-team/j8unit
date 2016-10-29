@@ -46,6 +46,29 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMSignContextClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(java.security.Key, org.w3c.dom.Node) public
+     * javax.xml.crypto.dsig.dom.DOMSignContext(java.security.Key,org.w3c.dom.Node)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DOMSignContext_Key_Node()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DOMSignContext sut = null; // = new DOMSignContext(java.security.Key, org.w3c.dom.Node);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(javax.xml.crypto.KeySelector, org.w3c.dom.Node)
      * public javax.xml.crypto.dsig.dom.DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)}.
      *
@@ -87,29 +110,6 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMSignContextClassTe
         // create new instance
         @SuppressWarnings("unused")
         final DOMSignContext sut = null; // = new DOMSignContext(java.security.Key, org.w3c.dom.Node, org.w3c.dom.Node);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(java.security.Key, org.w3c.dom.Node) public
-     * javax.xml.crypto.dsig.dom.DOMSignContext(java.security.Key,org.w3c.dom.Node)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DOMSignContext_Key_Node()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DOMSignContext sut = null; // = new DOMSignContext(java.security.Key, org.w3c.dom.Node);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMSignContext]

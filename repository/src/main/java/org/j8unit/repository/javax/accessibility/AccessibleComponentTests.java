@@ -512,29 +512,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.accessibility.AccessibleComponent#setBackground(java.awt.Color) public abstract void
-     * javax.accessibility.AccessibleComponent.setBackground(java.awt.Color)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBackground_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.accessibility.AccessibleComponent#getAccessibleAt(java.awt.Point) public abstract
      * javax.accessibility.Accessible javax.accessibility.AccessibleComponent.getAccessibleAt(java.awt.Point)}.
      *
@@ -558,8 +535,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.accessibility.AccessibleComponent#requestFocus() public abstract void
-     * javax.accessibility.AccessibleComponent.requestFocus()}.
+     * {@link javax.accessibility.AccessibleComponent#setBackground(java.awt.Color) public abstract void
+     * javax.accessibility.AccessibleComponent.setBackground(java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -571,7 +548,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_requestFocus()
+    public default void test_setBackground_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -595,6 +572,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleComponent#requestFocus() public abstract void
+     * javax.accessibility.AccessibleComponent.requestFocus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_requestFocus()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

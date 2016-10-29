@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap(java.io.InputStream) public
-     * javax.activation.MimetypesFileTypeMap(java.io.InputStream)}.
+     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap() public
+     * javax.activation.MimetypesFileTypeMap()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,10 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MimetypesFileTypeMap_InputStream()
+    public void create_MimetypesFileTypeMap()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap(java.io.InputStream);
+        final MimetypesFileTypeMap sut = new MimetypesFileTypeMap();
     }
 
     /**
@@ -68,8 +67,8 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap() public
-     * javax.activation.MimetypesFileTypeMap()}.
+     * {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap(java.io.InputStream) public
+     * javax.activation.MimetypesFileTypeMap(java.io.InputStream)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,10 +80,11 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MimetypesFileTypeMap()
+    public void create_MimetypesFileTypeMap_InputStream()
     throws Exception {
         // create new instance
-        final MimetypesFileTypeMap sut = new MimetypesFileTypeMap();
+        @SuppressWarnings("unused")
+        final MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap(java.io.InputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MimetypesFileTypeMap]

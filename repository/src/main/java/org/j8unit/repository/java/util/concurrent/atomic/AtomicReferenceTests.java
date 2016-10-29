@@ -36,8 +36,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.atomic.AtomicReference#accumulateAndGet(Object, java.util.function.BinaryOperator)
-     * public final V java.util.concurrent.atomic.AtomicReference.accumulateAndGet(V,java.util.function.BinaryOperator
-     * <V>)}.
+     * public final V
+     * java.util.concurrent.atomic.AtomicReference.accumulateAndGet(V,java.util.function.BinaryOperator<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +60,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.atomic.AtomicReference#getAndAccumulate(Object, java.util.function.BinaryOperator)
-     * public final V java.util.concurrent.atomic.AtomicReference.getAndAccumulate(V,java.util.function.BinaryOperator
-     * <V>)}.
+     * public final V
+     * java.util.concurrent.atomic.AtomicReference.getAndAccumulate(V,java.util.function.BinaryOperator<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -57,9 +57,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key, java.security.Provider) public
-     * java.security.spec.PKCS8EncodedKeySpec
-     * javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key,java.security.Provider) throws
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key) public
+     * java.security.spec.PKCS8EncodedKeySpec javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key) throws
      * java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -72,7 +71,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeySpec_Key_Provider()
+    public default void test_getKeySpec_Key()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,8 +106,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key) public
-     * java.security.spec.PKCS8EncodedKeySpec javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key) throws
+     * {@link javax.crypto.EncryptedPrivateKeyInfo#getKeySpec(java.security.Key, java.security.Provider) public
+     * java.security.spec.PKCS8EncodedKeySpec
+     * javax.crypto.EncryptedPrivateKeyInfo.getKeySpec(java.security.Key,java.security.Provider) throws
      * java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeySpec_Key()
+    public default void test_getKeySpec_Key_Provider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

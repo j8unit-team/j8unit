@@ -49,8 +49,7 @@ implements org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImpl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.bind.helpers.PrintConversionEventImpl#PrintConversionEventImpl(int, String, javax.xml.bind.ValidationEventLocator, Throwable)
      * public
-     * javax.xml.bind.helpers.PrintConversionEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator,java.lang.Throwable)}
-     * .
+     * javax.xml.bind.helpers.PrintConversionEventImpl(int,java.lang.String,javax.xml.bind.ValidationEventLocator,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,8 +21,9 @@ implements org.j8unit.repository.javax.swing.SpinnerListModelClassTests<SpinnerL
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.SpinnerListModel#SpinnerListModel()
-     * public javax.swing.SpinnerListModel()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.SpinnerListModel#SpinnerListModel(java.util.List) public
+     * javax.swing.SpinnerListModel(java.util.List<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,10 +35,11 @@ implements org.j8unit.repository.javax.swing.SpinnerListModelClassTests<SpinnerL
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SpinnerListModel()
+    public void create_SpinnerListModel_List()
     throws Exception {
         // create new instance
-        final SpinnerListModel sut = new SpinnerListModel();
+        @SuppressWarnings("unused")
+        final SpinnerListModel sut = null; // = new SpinnerListModel(java.util.List);
     }
 
     /**
@@ -65,9 +67,8 @@ implements org.j8unit.repository.javax.swing.SpinnerListModelClassTests<SpinnerL
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.SpinnerListModel#SpinnerListModel(java.util.List) public
-     * javax.swing.SpinnerListModel(java.util.List<?>)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.SpinnerListModel#SpinnerListModel()
+     * public javax.swing.SpinnerListModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,11 +80,10 @@ implements org.j8unit.repository.javax.swing.SpinnerListModelClassTests<SpinnerL
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SpinnerListModel_List()
+    public void create_SpinnerListModel()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final SpinnerListModel sut = null; // = new SpinnerListModel(java.util.List);
+        final SpinnerListModel sut = new SpinnerListModel();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpinnerListModel]

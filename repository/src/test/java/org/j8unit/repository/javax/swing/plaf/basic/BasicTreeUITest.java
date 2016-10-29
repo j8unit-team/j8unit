@@ -54,17 +54,47 @@ implements FactoryBasedJ8UnitTest<BasicTreeUI>, org.j8unit.repository.javax.swin
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI]
 
     @RunWith(J8Unit4.class)
-    public static class MouseHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests<MouseHandler> {
+    public static class TreeIncrementActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests<TreeIncrementAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
 
         @Override
-        public MouseHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.MouseHandler], j8unit does not support a generic way to provide instances.");
+        public TreeIncrementAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class KeyHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests<KeyHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$KeyHandler]
+
+        @Override
+        public KeyHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.KeyHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$KeyHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class FocusHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests<FocusHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
+
+        @Override
+        public FocusHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.FocusHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
 
     }
 
@@ -84,17 +114,17 @@ implements FactoryBasedJ8UnitTest<BasicTreeUI>, org.j8unit.repository.javax.swin
     }
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+    public static class TreeCancelEditingActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests<TreeCancelEditingAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction]
 
         @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        public TreeCancelEditingAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction]
 
     }
 
@@ -129,62 +159,32 @@ implements FactoryBasedJ8UnitTest<BasicTreeUI>, org.j8unit.repository.javax.swin
     }
 
     @RunWith(J8Unit4.class)
-    public static class SelectionModelPropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests<SelectionModelPropertyChangeHandler> {
+    public static class TreeHomeActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests<TreeHomeAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
 
         @Override
-        public SelectionModelPropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        public TreeHomeAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class MouseInputHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests<MouseInputHandler> {
+    public static class MouseHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests<MouseHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
-
-        @Override
-        public MouseInputHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class CellEditorHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests<CellEditorHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseHandler]
 
         @Override
-        public CellEditorHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler], j8unit does not support a generic way to provide instances.");
+        public MouseHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.MouseHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests<KeyHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$KeyHandler]
-
-        @Override
-        public KeyHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.KeyHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$KeyHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseHandler]
 
     }
 
@@ -204,77 +204,47 @@ implements FactoryBasedJ8UnitTest<BasicTreeUI>, org.j8unit.repository.javax.swin
     }
 
     @RunWith(J8Unit4.class)
-    public static class TreeHomeActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests<TreeHomeAction> {
+    public static class SelectionModelPropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests<SelectionModelPropertyChangeHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler]
 
         @Override
-        public TreeHomeAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction], j8unit does not support a generic way to provide instances.");
+        public SelectionModelPropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeHomeAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$SelectionModelPropertyChangeHandler]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class TreeToggleActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests<TreeToggleAction> {
+    public static class CellEditorHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests<CellEditorHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
 
         @Override
-        public TreeToggleAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction], j8unit does not support a generic way to provide instances.");
+        public CellEditorHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$CellEditorHandler]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class ComponentHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests<ComponentHandler> {
+    public static class MouseInputHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests<MouseInputHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
-
-        @Override
-        public ComponentHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.ComponentHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
 
         @Override
-        public FocusHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.FocusHandler], j8unit does not support a generic way to provide instances.");
+        public MouseInputHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$FocusHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeCancelEditingActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests<TreeCancelEditingAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction]
-
-        @Override
-        public TreeCancelEditingAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeCancelEditingAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$MouseInputHandler]
 
     }
 
@@ -294,17 +264,32 @@ implements FactoryBasedJ8UnitTest<BasicTreeUI>, org.j8unit.repository.javax.swin
     }
 
     @RunWith(J8Unit4.class)
-    public static class TreeIncrementActionTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests<TreeIncrementAction> {
+    public static class TreeToggleActionTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests<TreeToggleAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction]
 
         @Override
-        public TreeIncrementAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction], j8unit does not support a generic way to provide instances.");
+        public TreeToggleAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeIncrementAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreeToggleAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
+
+        @Override
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$PropertyChangeHandler]
 
     }
 
@@ -320,6 +305,21 @@ implements FactoryBasedJ8UnitTest<BasicTreeUI>, org.j8unit.repository.javax.swin
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$TreePageAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ComponentHandlerTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests<ComponentHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
+
+        @Override
+        public ComponentHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicTreeUI.ComponentHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTreeUI$ComponentHandler]
 
     }
 

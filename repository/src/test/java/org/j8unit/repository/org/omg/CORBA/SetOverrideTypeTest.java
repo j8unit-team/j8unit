@@ -1,13 +1,16 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
-import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.J8Parameterized;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.CORBA.SetOverrideType;
 
-@RunWith(J8Unit4.class)
+@RunWith(J8Parameterized.class)
+@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SetOverrideTypeTest
 implements org.j8unit.repository.org.omg.CORBA.SetOverrideTypeTests<SetOverrideType> {
 

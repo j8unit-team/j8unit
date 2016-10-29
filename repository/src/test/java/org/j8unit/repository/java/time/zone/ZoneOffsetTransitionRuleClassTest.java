@@ -25,8 +25,7 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
      * Test method for the hereby targeted method-under-test
      * {@link java.time.zone.ZoneOffsetTransitionRule#of(java.time.Month, int, java.time.DayOfWeek, java.time.LocalTime, boolean, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition, java.time.ZoneOffset, java.time.ZoneOffset, java.time.ZoneOffset)
      * public static java.time.zone.ZoneOffsetTransitionRule
-     * java.time.zone.ZoneOffsetTransitionRule.of(java.time.Month,int,java.time.DayOfWeek,java.time.LocalTime,boolean,java.time.zone.ZoneOffsetTransitionRule$TimeDefinition,java.time.ZoneOffset,java.time.ZoneOffset,java.time.ZoneOffset)}
-     * .
+     * java.time.zone.ZoneOffsetTransitionRule.of(java.time.Month,int,java.time.DayOfWeek,java.time.LocalTime,boolean,java.time.zone.ZoneOffsetTransitionRule$TimeDefinition,java.time.ZoneOffset,java.time.ZoneOffset,java.time.ZoneOffset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

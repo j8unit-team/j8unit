@@ -22,10 +22,7 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator, int, int, java.text.AttributedCharacterIterator.Attribute[])
-     * public
-     * java.text.AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator$Attribute[])}
-     * .
+     * {@link java.text.AttributedString#AttributedString(String) public java.text.AttributedString(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,12 +34,35 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_AttributedString_AttributedCharacterIterator_int_int_AttributeArray()
+    public void create_AttributedString_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator, int, int,
-                                           // java.text.AttributedCharacterIterator.Attribute[]);
+        final AttributedString sut = null; // = new AttributedString(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.text.AttributedString#AttributedString(String, java.util.Map) public
+     * java.text.AttributedString(java.lang.String,java.util.Map<? extends
+     * java.text.AttributedCharacterIterator$Attribute, ?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AttributedString_String_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final AttributedString sut = null; // = new AttributedString(String, java.util.Map);
     }
 
     /**
@@ -94,7 +114,9 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.text.AttributedString#AttributedString(String) public java.text.AttributedString(java.lang.String)}.
+     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator, int, int, java.text.AttributedCharacterIterator.Attribute[])
+     * public
+     * java.text.AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator$Attribute[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,35 +128,12 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_AttributedString_String()
+    public void create_AttributedString_AttributedCharacterIterator_int_int_AttributeArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.text.AttributedString#AttributedString(String, java.util.Map) public
-     * java.text.AttributedString(java.lang.String,java.util.Map<? extends
-     * java.text.AttributedCharacterIterator$Attribute, ?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_AttributedString_String_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final AttributedString sut = null; // = new AttributedString(String, java.util.Map);
+        final AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator, int, int,
+                                           // java.text.AttributedCharacterIterator.Attribute[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedString]

@@ -63,27 +63,6 @@ implements org.j8unit.repository.java.rmi.NamingClassTests<Naming> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.rmi.Naming#rebind(String, java.rmi.Remote)
-     * public static void java.rmi.Naming.rebind(java.lang.String,java.rmi.Remote) throws
-     * java.rmi.RemoteException,java.net.MalformedURLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_rebind_String_Remote()
-    throws Exception {
-        // write some test for {@link java.rmi.Naming#rebind(String, java.rmi.Remote)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.rmi.Naming#unbind(String) public static void
      * java.rmi.Naming.unbind(java.lang.String) throws
      * java.rmi.RemoteException,java.rmi.NotBoundException,java.net.MalformedURLException}.
@@ -101,6 +80,27 @@ implements org.j8unit.repository.java.rmi.NamingClassTests<Naming> {
     public void test_unbind_String()
     throws Exception {
         // write some test for {@link java.rmi.Naming#unbind(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.rmi.Naming#rebind(String, java.rmi.Remote)
+     * public static void java.rmi.Naming.rebind(java.lang.String,java.rmi.Remote) throws
+     * java.rmi.RemoteException,java.net.MalformedURLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_rebind_String_Remote()
+    throws Exception {
+        // write some test for {@link java.rmi.Naming#rebind(String, java.rmi.Remote)}
     }
 
     /**

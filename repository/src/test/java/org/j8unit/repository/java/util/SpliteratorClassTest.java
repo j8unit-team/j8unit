@@ -39,17 +39,17 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class OfDoubleClassTest
-    implements org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<OfDouble> {
+    public static class OfLongClassTest
+    implements org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<OfLong> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfLong]
 
         @Override
-        public Class<OfDouble> createNewSUT() {
-            return OfDouble.class;
+        public Class<OfLong> createNewSUT() {
+            return OfLong.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfLong]
 
     }
 
@@ -69,17 +69,17 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class OfLongClassTest
-    implements org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<OfLong> {
+    public static class OfDoubleClassTest
+    implements org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<OfDouble> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterator$OfDouble]
 
         @Override
-        public Class<OfLong> createNewSUT() {
-            return OfLong.class;
+        public Class<OfDouble> createNewSUT() {
+            return OfDouble.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfDouble]
 
     }
 

@@ -83,30 +83,6 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#setDescriptor(javax.management.Descriptor) public void
-     * javax.management.modelmbean.ModelMBeanOperationInfo.setDescriptor(javax.management.Descriptor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setDescriptor_Descriptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.ModelMBeanOperationInfo#clone() public java.lang.Object
      * javax.management.modelmbean.ModelMBeanOperationInfo.clone()}.
      *
@@ -122,6 +98,30 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#setDescriptor(javax.management.Descriptor) public void
+     * javax.management.modelmbean.ModelMBeanOperationInfo.setDescriptor(javax.management.Descriptor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setDescriptor_Descriptor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

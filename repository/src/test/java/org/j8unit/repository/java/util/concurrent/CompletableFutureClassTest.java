@@ -46,10 +46,31 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier) public static <U>
+     * java.util.concurrent.CompletableFuture<U>
+     * java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier<U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_supplyAsync_Supplier()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier, java.util.concurrent.Executor)
-     * public static <U> java.util.concurrent.CompletableFuture
-     * <U> java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier
-     * <U>,java.util.concurrent.Executor)}.
+     * public static <U> java.util.concurrent.CompletableFuture<U>
+     * java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier<U>,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -70,31 +91,9 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier) public static
-     * <U> java.util.concurrent.CompletableFuture
-     * <U> java.util.concurrent.CompletableFuture.supplyAsync(java.util.function.Supplier<U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_supplyAsync_Supplier()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.CompletableFuture#supplyAsync(java.util.function.Supplier)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletableFuture#anyOf(java.util.concurrent.CompletableFuture...) public static
-     * java.util.concurrent.CompletableFuture
-     * <java.lang.Object> java.util.concurrent.CompletableFuture.anyOf(java.util.concurrent.CompletableFuture<?>...)}.
+     * java.util.concurrent.CompletableFuture<java.lang.Object>
+     * java.util.concurrent.CompletableFuture.anyOf(java.util.concurrent.CompletableFuture<?>...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -139,8 +138,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletableFuture#runAsync(Runnable) public static
-     * java.util.concurrent.CompletableFuture
-     * <java.lang.Void> java.util.concurrent.CompletableFuture.runAsync(java.lang.Runnable)}.
+     * java.util.concurrent.CompletableFuture<java.lang.Void>
+     * java.util.concurrent.CompletableFuture.runAsync(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,8 +159,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletableFuture#completedFuture(Object) public static
-     * <U> java.util.concurrent.CompletableFuture<U> java.util.concurrent.CompletableFuture.completedFuture(U)}.
+     * {@link java.util.concurrent.CompletableFuture#completedFuture(Object) public static <U>
+     * java.util.concurrent.CompletableFuture<U> java.util.concurrent.CompletableFuture.completedFuture(U)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -182,8 +181,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletableFuture#allOf(java.util.concurrent.CompletableFuture...) public static
-     * java.util.concurrent.CompletableFuture
-     * <java.lang.Void> java.util.concurrent.CompletableFuture.allOf(java.util.concurrent.CompletableFuture<?>...)}.
+     * java.util.concurrent.CompletableFuture<java.lang.Void>
+     * java.util.concurrent.CompletableFuture.allOf(java.util.concurrent.CompletableFuture<?>...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -35,28 +35,6 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getObjects()
-     * public abstract java.util.List javax.xml.crypto.dsig.XMLSignature.getObjects()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getObjects()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.XMLSignature#validate(javax.xml.crypto.dsig.XMLValidateContext) public abstract
      * boolean javax.xml.crypto.dsig.XMLSignature.validate(javax.xml.crypto.dsig.XMLValidateContext) throws
@@ -81,8 +59,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getKeyInfo()
-     * public abstract javax.xml.crypto.dsig.keyinfo.KeyInfo javax.xml.crypto.dsig.XMLSignature.getKeyInfo()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getObjects()
+     * public abstract java.util.List javax.xml.crypto.dsig.XMLSignature.getObjects()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,7 +72,7 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeyInfo()
+    public default void test_getObjects()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -117,6 +95,28 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.crypto.dsig.XMLSignature#getKeyInfo()
+     * public abstract javax.xml.crypto.dsig.keyinfo.KeyInfo javax.xml.crypto.dsig.XMLSignature.getKeyInfo()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeyInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

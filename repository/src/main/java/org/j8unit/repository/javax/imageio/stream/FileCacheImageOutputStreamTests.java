@@ -83,30 +83,6 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.stream.FileCacheImageOutputStream#flushBefore(long) public void
-     * javax.imageio.stream.FileCacheImageOutputStream.flushBefore(long) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_flushBefore_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.stream.FileCacheImageOutputStream#read() public int
      * javax.imageio.stream.FileCacheImageOutputStream.read() throws java.io.IOException}.
      *
@@ -155,8 +131,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.stream.FileCacheImageOutputStream#seek(long) public void
-     * javax.imageio.stream.FileCacheImageOutputStream.seek(long) throws java.io.IOException}.
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#flushBefore(long) public void
+     * javax.imageio.stream.FileCacheImageOutputStream.flushBefore(long) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -169,7 +145,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_seek_long()
+    public default void test_flushBefore_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,6 +218,30 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
     @Test
     @Category(Draft.class)
     public default void test_write_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.FileCacheImageOutputStream#seek(long) public void
+     * javax.imageio.stream.FileCacheImageOutputStream.seek(long) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_seek_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

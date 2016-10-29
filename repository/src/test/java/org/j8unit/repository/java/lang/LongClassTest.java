@@ -83,26 +83,6 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Long#parseUnsignedLong(String) public static long
-     * java.lang.Long.parseUnsignedLong(java.lang.String) throws java.lang.NumberFormatException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parseUnsignedLong_String()
-    throws Exception {
-        // write some test for {@link Long#parseUnsignedLong(String)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Long#parseUnsignedLong(String, int) public static
      * long java.lang.Long.parseUnsignedLong(java.lang.String,int) throws java.lang.NumberFormatException}.
      *
@@ -119,6 +99,26 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
     public void test_parseUnsignedLong_String_int()
     throws Exception {
         // write some test for {@link Long#parseUnsignedLong(String, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Long#parseUnsignedLong(String) public static long
+     * java.lang.Long.parseUnsignedLong(java.lang.String) throws java.lang.NumberFormatException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parseUnsignedLong_String()
+    throws Exception {
+        // write some test for {@link Long#parseUnsignedLong(String)}
     }
 
     /**
@@ -543,26 +543,6 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Long#toUnsignedString(long) public static
-     * java.lang.String java.lang.Long.toUnsignedString(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_toUnsignedString_long()
-    throws Exception {
-        // write some test for {@link Long#toUnsignedString(long)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Long#toUnsignedString(long, int) public static
      * java.lang.String java.lang.Long.toUnsignedString(long,int)}.
      *
@@ -579,6 +559,26 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
     public void test_toUnsignedString_long_int()
     throws Exception {
         // write some test for {@link Long#toUnsignedString(long, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Long#toUnsignedString(long) public static
+     * java.lang.String java.lang.Long.toUnsignedString(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_toUnsignedString_long()
+    throws Exception {
+        // write some test for {@link Long#toUnsignedString(long)}
     }
 
     /**
@@ -643,26 +643,6 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Long#valueOf(long) public static java.lang.Long
-     * java.lang.Long.valueOf(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_long()
-    throws Exception {
-        // write some test for {@link Long#valueOf(long)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Long#valueOf(String, int) public static
      * java.lang.Long java.lang.Long.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
      *
@@ -679,6 +659,26 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
     public void test_valueOf_String_int()
     throws Exception {
         // write some test for {@link Long#valueOf(String, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Long#valueOf(long) public static java.lang.Long
+     * java.lang.Long.valueOf(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_long()
+    throws Exception {
+        // write some test for {@link Long#valueOf(long)}
     }
 
     /**

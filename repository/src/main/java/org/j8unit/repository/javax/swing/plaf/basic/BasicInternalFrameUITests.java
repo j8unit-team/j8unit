@@ -374,8 +374,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
      * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests}
-     * ).
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests}).
      * </p>
      *
      * @param SUT
@@ -495,8 +494,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#addLayoutComponent(String, java.awt.Component)
          * public void
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -532,8 +530,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
      * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests}
-     * ).
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFramePropertyChangeListenerClassTests}).
      * </p>
      *
      * @param SUT
@@ -553,8 +550,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener#propertyChange(java.beans.PropertyChangeEvent)
          * public void
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener.propertyChange(java.beans.PropertyChangeEvent)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener.propertyChange(java.beans.PropertyChangeEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

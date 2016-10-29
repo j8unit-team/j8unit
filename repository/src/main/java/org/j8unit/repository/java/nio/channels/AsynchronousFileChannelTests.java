@@ -57,29 +57,6 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.channels.AsynchronousFileChannel#lock()
-     * public final java.util.concurrent.Future
-     * <java.nio.channels.FileLock> java.nio.channels.AsynchronousFileChannel.lock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousFileChannel#lock(long, long, boolean, Object, java.nio.channels.CompletionHandler)
      * public abstract <A> void
@@ -97,6 +74,30 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     @Test
     @Category(Draft.class)
     public default void test_lock_long_long_boolean_Object_CompletionHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#lock(long, long, boolean) public abstract
+     * java.util.concurrent.Future<java.nio.channels.FileLock>
+     * java.nio.channels.AsynchronousFileChannel.lock(long,long,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lock_long_long_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -130,10 +131,9 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.AsynchronousFileChannel#lock(long, long, boolean) public abstract
-     * java.util.concurrent.Future
-     * <java.nio.channels.FileLock> java.nio.channels.AsynchronousFileChannel.lock(long,long,boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.channels.AsynchronousFileChannel#lock()
+     * public final java.util.concurrent.Future<java.nio.channels.FileLock>
+     * java.nio.channels.AsynchronousFileChannel.lock()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,31 +145,7 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lock_long_long_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.AsynchronousFileChannel#tryLock(long, long, boolean) public abstract
-     * java.nio.channels.FileLock java.nio.channels.AsynchronousFileChannel.tryLock(long,long,boolean) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tryLock_long_long_boolean()
+    public default void test_lock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -202,9 +178,33 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.nio.channels.AsynchronousFileChannel#tryLock(long, long, boolean) public abstract
+     * java.nio.channels.FileLock java.nio.channels.AsynchronousFileChannel.tryLock(long,long,boolean) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tryLock_long_long_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousFileChannel#write(java.nio.ByteBuffer, long) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Integer> java.nio.channels.AsynchronousFileChannel.write(java.nio.ByteBuffer,long)}.
+     * java.util.concurrent.Future<java.lang.Integer>
+     * java.nio.channels.AsynchronousFileChannel.write(java.nio.ByteBuffer,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -252,8 +252,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousFileChannel#read(java.nio.ByteBuffer, long) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Integer> java.nio.channels.AsynchronousFileChannel.read(java.nio.ByteBuffer,long)}.
+     * java.util.concurrent.Future<java.lang.Integer>
+     * java.nio.channels.AsynchronousFileChannel.read(java.nio.ByteBuffer,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

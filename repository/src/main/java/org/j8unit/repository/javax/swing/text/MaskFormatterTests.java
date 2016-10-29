@@ -149,6 +149,28 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getPlaceholder()
+     * public java.lang.String javax.swing.text.MaskFormatter.getPlaceholder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPlaceholder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#setMask(String)
      * public void javax.swing.text.MaskFormatter.setMask(java.lang.String) throws java.text.ParseException}.
      *
@@ -171,8 +193,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getPlaceholder()
-     * public java.lang.String javax.swing.text.MaskFormatter.getPlaceholder()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getMask() public
+     * java.lang.String javax.swing.text.MaskFormatter.getMask()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,7 +206,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPlaceholder()
+    public default void test_getMask()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,28 +230,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValueContainsLiteralCharacters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.MaskFormatter#getMask() public
-     * java.lang.String javax.swing.text.MaskFormatter.getMask()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMask()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -308,29 +308,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.MaskFormatter#setPlaceholder(String) public void
-     * javax.swing.text.MaskFormatter.setPlaceholder(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPlaceholder_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.MaskFormatter#install(javax.swing.JFormattedTextField) public void
      * javax.swing.text.MaskFormatter.install(javax.swing.JFormattedTextField)}.
      *
@@ -346,6 +323,29 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_install_JFormattedTextField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.MaskFormatter#setPlaceholder(String) public void
+     * javax.swing.text.MaskFormatter.setPlaceholder(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPlaceholder_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

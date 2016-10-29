@@ -84,8 +84,7 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.StringValueExp#apply(javax.management.ObjectName) public javax.management.ValueExp
      * javax.management.StringValueExp.apply(javax.management.ObjectName) throws
-     * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
-     * .
+     * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

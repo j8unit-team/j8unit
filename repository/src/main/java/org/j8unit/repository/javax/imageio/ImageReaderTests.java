@@ -234,8 +234,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#getNumThumbnails(int)
-     * public int javax.imageio.ImageReader.getNumThumbnails(int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#getLocale() public
+     * java.util.Locale javax.imageio.ImageReader.getLocale()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -247,7 +247,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNumThumbnails_int()
+    public default void test_getLocale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -279,8 +279,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#getLocale() public
-     * java.util.Locale javax.imageio.ImageReader.getLocale()}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#getNumThumbnails(int)
+     * public int javax.imageio.ImageReader.getNumThumbnails(int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -292,7 +292,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocale()
+    public default void test_getNumThumbnails_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -391,9 +391,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageReader#readAll(java.util.Iterator) public java.util.Iterator
-     * <javax.imageio.IIOImage> javax.imageio.ImageReader.readAll(java.util.Iterator<? extends
-     * javax.imageio.ImageReadParam>) throws java.io.IOException}.
+     * {@link javax.imageio.ImageReader#readAll(java.util.Iterator) public java.util.Iterator<javax.imageio.IIOImage>
+     * javax.imageio.ImageReader.readAll(java.util.Iterator<? extends javax.imageio.ImageReadParam>) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -481,28 +481,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#isSeekForwardOnly() public
-     * boolean javax.imageio.ImageReader.isSeekForwardOnly()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSeekForwardOnly()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#hasThumbnails(int) public
      * boolean javax.imageio.ImageReader.hasThumbnails(int) throws java.io.IOException}.
      *
@@ -517,6 +495,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hasThumbnails_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#isSeekForwardOnly() public
+     * boolean javax.imageio.ImageReader.isSeekForwardOnly()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSeekForwardOnly()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -686,8 +686,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageReader#getStreamMetadata(String, java.util.Set) public
-     * javax.imageio.metadata.IIOMetadata javax.imageio.ImageReader.getStreamMetadata(java.lang.String,java.util.Set
-     * <java.lang.String>) throws java.io.IOException}.
+     * javax.imageio.metadata.IIOMetadata
+     * javax.imageio.ImageReader.getStreamMetadata(java.lang.String,java.util.Set<java.lang.String>) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -754,28 +755,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#setInput(Object) public
-     * void javax.imageio.ImageReader.setInput(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInput_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#setInput(Object, boolean)
      * public void javax.imageio.ImageReader.setInput(java.lang.Object,boolean)}.
      *
@@ -798,10 +777,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#setInput(Object) public
+     * void javax.imageio.ImageReader.setInput(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setInput_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageReader#removeIIOReadProgressListener(javax.imageio.event.IIOReadProgressListener)
-     * public void javax.imageio.ImageReader.removeIIOReadProgressListener(javax.imageio.event.IIOReadProgressListener)}
-     * .
+     * public void
+     * javax.imageio.ImageReader.removeIIOReadProgressListener(javax.imageio.event.IIOReadProgressListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1023,30 +1024,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageReader#getImageMetadata(int, String, java.util.Set) public
-     * javax.imageio.metadata.IIOMetadata javax.imageio.ImageReader.getImageMetadata(int,java.lang.String,java.util.Set
-     * <java.lang.String>) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImageMetadata_int_String_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.ImageReader#getImageMetadata(int)
      * public abstract javax.imageio.metadata.IIOMetadata javax.imageio.ImageReader.getImageMetadata(int) throws
      * java.io.IOException}.
@@ -1062,6 +1039,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getImageMetadata_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageReader#getImageMetadata(int, String, java.util.Set) public
+     * javax.imageio.metadata.IIOMetadata
+     * javax.imageio.ImageReader.getImageMetadata(int,java.lang.String,java.util.Set<java.lang.String>) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImageMetadata_int_String_Set()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

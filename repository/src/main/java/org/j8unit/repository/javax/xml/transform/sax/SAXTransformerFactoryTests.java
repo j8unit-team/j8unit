@@ -35,6 +35,30 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newTransformerHandler() public abstract
+     * javax.xml.transform.sax.TransformerHandler javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler()
+     * throws javax.xml.transform.TransformerConfigurationException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newTransformerHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.transform.sax.SAXTransformerFactory#newTransformerHandler(javax.xml.transform.Source) public
      * abstract javax.xml.transform.sax.TransformerHandler
      * javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler(javax.xml.transform.Source) throws
@@ -85,8 +109,8 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.transform.sax.SAXTransformerFactory#newTransformerHandler() public abstract
-     * javax.xml.transform.sax.TransformerHandler javax.xml.transform.sax.SAXTransformerFactory.newTransformerHandler()
+     * {@link javax.xml.transform.sax.SAXTransformerFactory#newXMLFilter(javax.xml.transform.Templates) public abstract
+     * org.xml.sax.XMLFilter javax.xml.transform.sax.SAXTransformerFactory.newXMLFilter(javax.xml.transform.Templates)
      * throws javax.xml.transform.TransformerConfigurationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -99,7 +123,7 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newTransformerHandler()
+    public default void test_newXMLFilter_Templates()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,30 +148,6 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newXMLFilter_Source()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.transform.sax.SAXTransformerFactory#newXMLFilter(javax.xml.transform.Templates) public abstract
-     * org.xml.sax.XMLFilter javax.xml.transform.sax.SAXTransformerFactory.newXMLFilter(javax.xml.transform.Templates)
-     * throws javax.xml.transform.TransformerConfigurationException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newXMLFilter_Templates()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

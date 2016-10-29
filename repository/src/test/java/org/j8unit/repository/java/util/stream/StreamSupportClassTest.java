@@ -22,27 +22,6 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.StreamSupport#longStream(java.util.Spliterator.OfLong, boolean) public static
-     * java.util.stream.LongStream java.util.stream.StreamSupport.longStream(java.util.Spliterator$OfLong,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_longStream_OfLong_boolean()
-    throws Exception {
-        // write some test for {@link java.util.stream.StreamSupport#longStream(java.util.Spliterator.OfLong, boolean)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.StreamSupport#longStream(java.util.function.Supplier, int, boolean) public static
      * java.util.stream.LongStream java.util.stream.StreamSupport.longStream(java.util.function.Supplier<? extends
      * java.util.Spliterator$OfLong>,int,boolean)}.
@@ -66,9 +45,8 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.StreamSupport#doubleStream(java.util.function.Supplier, int, boolean) public static
-     * java.util.stream.DoubleStream java.util.stream.StreamSupport.doubleStream(java.util.function.Supplier<? extends
-     * java.util.Spliterator$OfDouble>,int,boolean)}.
+     * {@link java.util.stream.StreamSupport#longStream(java.util.Spliterator.OfLong, boolean) public static
+     * java.util.stream.LongStream java.util.stream.StreamSupport.longStream(java.util.Spliterator$OfLong,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,10 +58,9 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_doubleStream_Supplier_int_boolean()
+    public void test_longStream_OfLong_boolean()
     throws Exception {
-        // write some test for {@link java.util.stream.StreamSupport#doubleStream(java.util.function.Supplier, int,
-        // boolean)}
+        // write some test for {@link java.util.stream.StreamSupport#longStream(java.util.Spliterator.OfLong, boolean)}
     }
 
     /**
@@ -106,6 +83,29 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
     public void test_doubleStream_OfDouble_boolean()
     throws Exception {
         // write some test for {@link java.util.stream.StreamSupport#doubleStream(java.util.Spliterator.OfDouble,
+        // boolean)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.StreamSupport#doubleStream(java.util.function.Supplier, int, boolean) public static
+     * java.util.stream.DoubleStream java.util.stream.StreamSupport.doubleStream(java.util.function.Supplier<? extends
+     * java.util.Spliterator$OfDouble>,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_doubleStream_Supplier_int_boolean()
+    throws Exception {
+        // write some test for {@link java.util.stream.StreamSupport#doubleStream(java.util.function.Supplier, int,
         // boolean)}
     }
 
@@ -156,8 +156,8 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.StreamSupport#stream(java.util.function.Supplier, int, boolean) public static
-     * <T> java.util.stream.Stream<T> java.util.stream.StreamSupport.stream(java.util.function.Supplier<? extends
+     * {@link java.util.stream.StreamSupport#stream(java.util.function.Supplier, int, boolean) public static <T>
+     * java.util.stream.Stream<T> java.util.stream.StreamSupport.stream(java.util.function.Supplier<? extends
      * java.util.Spliterator<T>>,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -178,8 +178,8 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.StreamSupport#stream(java.util.Spliterator, boolean) public static
-     * <T> java.util.stream.Stream<T> java.util.stream.StreamSupport.stream(java.util.Spliterator<T>,boolean)}.
+     * {@link java.util.stream.StreamSupport#stream(java.util.Spliterator, boolean) public static <T>
+     * java.util.stream.Stream<T> java.util.stream.StreamSupport.stream(java.util.Spliterator<T>,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

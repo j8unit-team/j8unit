@@ -43,8 +43,8 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#of(Object) public static
-     * <T> java.util.stream.Stream<T> java.util.stream.Stream.of(T)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#of(Object) public static <T>
+     * java.util.stream.Stream<T> java.util.stream.Stream.of(T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +64,8 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Stream#concat(java.util.stream.Stream, java.util.stream.Stream) public static
-     * <T> java.util.stream.Stream<T> java.util.stream.Stream.concat(java.util.stream.Stream<? extends
+     * {@link java.util.stream.Stream#concat(java.util.stream.Stream, java.util.stream.Stream) public static <T>
+     * java.util.stream.Stream<T> java.util.stream.Stream.concat(java.util.stream.Stream<? extends
      * T>,java.util.stream.Stream<? extends T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -85,8 +85,8 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#builder() public static
-     * <T> java.util.stream.Stream.java.util.stream.Stream$Builder<T> java.util.stream.Stream.builder()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#builder() public static <T>
+     * java.util.stream.Stream.java.util.stream.Stream$Builder<T> java.util.stream.Stream.builder()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,29 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#empty() public static
-     * <T> java.util.stream.Stream<T> java.util.stream.Stream.empty()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Stream#iterate(Object, java.util.function.UnaryOperator) public static <T>
+     * java.util.stream.Stream<T> java.util.stream.Stream.iterate(T,java.util.function.UnaryOperator<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_iterate_Object_UnaryOperator()
+    throws Exception {
+        // write some test for {@link java.util.stream.Stream#iterate(Object, java.util.function.UnaryOperator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#empty() public static <T>
+     * java.util.stream.Stream<T> java.util.stream.Stream.empty()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,29 +147,8 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Stream#iterate(Object, java.util.function.UnaryOperator) public static
-     * <T> java.util.stream.Stream<T> java.util.stream.Stream.iterate(T,java.util.function.UnaryOperator<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_iterate_Object_UnaryOperator()
-    throws Exception {
-        // write some test for {@link java.util.stream.Stream#iterate(Object, java.util.function.UnaryOperator)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Stream#generate(java.util.function.Supplier) public static <T> java.util.stream.Stream
-     * <T> java.util.stream.Stream.generate(java.util.function.Supplier<T>)}.
+     * {@link java.util.stream.Stream#generate(java.util.function.Supplier) public static <T> java.util.stream.Stream<T>
+     * java.util.stream.Stream.generate(java.util.function.Supplier<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

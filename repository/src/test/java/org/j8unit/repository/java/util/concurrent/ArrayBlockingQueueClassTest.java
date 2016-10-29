@@ -23,29 +23,6 @@ implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int, boolean) public
-     * java.util.concurrent.ArrayBlockingQueue(int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ArrayBlockingQueue_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ArrayBlockingQueue sut = null; // = new ArrayBlockingQueue(int, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int, boolean, java.util.Collection) public
      * java.util.concurrent.ArrayBlockingQueue(int,boolean,java.util.Collection<? extends E>)}.
      *
@@ -64,6 +41,29 @@ implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTes
         // create new instance
         @SuppressWarnings("unused")
         final ArrayBlockingQueue sut = null; // = new ArrayBlockingQueue(int, boolean, java.util.Collection);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int, boolean) public
+     * java.util.concurrent.ArrayBlockingQueue(int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ArrayBlockingQueue_int_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ArrayBlockingQueue sut = null; // = new ArrayBlockingQueue(int, boolean);
     }
 
     /**

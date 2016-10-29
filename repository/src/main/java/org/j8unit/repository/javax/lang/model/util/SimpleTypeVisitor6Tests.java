@@ -107,30 +107,6 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType, Object) public R
-     * javax.lang.model.util.SimpleTypeVisitor6.visitNoType(javax.lang.model.type.NoType,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_visitNoType_NoType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.SimpleTypeVisitor6#visitArray(javax.lang.model.type.ArrayType, Object) public R
      * javax.lang.model.util.SimpleTypeVisitor6.visitArray(javax.lang.model.type.ArrayType,P)}.
      *
@@ -146,6 +122,30 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     @Test
     @Category(Draft.class)
     public default void test_visitArray_ArrayType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType, Object) public R
+     * javax.lang.model.util.SimpleTypeVisitor6.visitNoType(javax.lang.model.type.NoType,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_visitNoType_NoType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

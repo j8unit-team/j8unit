@@ -22,8 +22,9 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.NumberFormat#getAvailableLocales() public
-     * static java.util.Locale[] java.text.NumberFormat.getAvailableLocales()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.NumberFormat#getNumberInstance(java.util.Locale) public static java.text.NumberFormat
+     * java.text.NumberFormat.getNumberInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,9 +36,9 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getAvailableLocales()
+    public void test_getNumberInstance_Locale()
     throws Exception {
-        // write some test for {@link java.text.NumberFormat#getAvailableLocales()}
+        // write some test for {@link java.text.NumberFormat#getNumberInstance(java.util.Locale)}
     }
 
     /**
@@ -62,9 +63,8 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.text.NumberFormat#getNumberInstance(java.util.Locale) public static java.text.NumberFormat
-     * java.text.NumberFormat.getNumberInstance(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link java.text.NumberFormat#getAvailableLocales() public
+     * static java.util.Locale[] java.text.NumberFormat.getAvailableLocales()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -76,30 +76,9 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getNumberInstance_Locale()
+    public void test_getAvailableLocales()
     throws Exception {
-        // write some test for {@link java.text.NumberFormat#getNumberInstance(java.util.Locale)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.text.NumberFormat#getCurrencyInstance(java.util.Locale) public static java.text.NumberFormat
-     * java.text.NumberFormat.getCurrencyInstance(java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getCurrencyInstance_Locale()
-    throws Exception {
-        // write some test for {@link java.text.NumberFormat#getCurrencyInstance(java.util.Locale)}
+        // write some test for {@link java.text.NumberFormat#getAvailableLocales()}
     }
 
     /**
@@ -125,8 +104,8 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.text.NumberFormat#getPercentInstance(java.util.Locale) public static java.text.NumberFormat
-     * java.text.NumberFormat.getPercentInstance(java.util.Locale)}.
+     * {@link java.text.NumberFormat#getCurrencyInstance(java.util.Locale) public static java.text.NumberFormat
+     * java.text.NumberFormat.getCurrencyInstance(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -138,9 +117,9 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getPercentInstance_Locale()
+    public void test_getCurrencyInstance_Locale()
     throws Exception {
-        // write some test for {@link java.text.NumberFormat#getPercentInstance(java.util.Locale)}
+        // write some test for {@link java.text.NumberFormat#getCurrencyInstance(java.util.Locale)}
     }
 
     /**
@@ -161,6 +140,27 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
     public void test_getPercentInstance()
     throws Exception {
         // write some test for {@link java.text.NumberFormat#getPercentInstance()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.NumberFormat#getPercentInstance(java.util.Locale) public static java.text.NumberFormat
+     * java.text.NumberFormat.getPercentInstance(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getPercentInstance_Locale()
+    throws Exception {
+        // write some test for {@link java.text.NumberFormat#getPercentInstance(java.util.Locale)}
     }
 
     /**
@@ -205,26 +205,6 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.NumberFormat#getIntegerInstance() public
-     * static final java.text.NumberFormat java.text.NumberFormat.getIntegerInstance()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getIntegerInstance()
-    throws Exception {
-        // write some test for {@link java.text.NumberFormat#getIntegerInstance()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.text.NumberFormat#getIntegerInstance(java.util.Locale) public static java.text.NumberFormat
      * java.text.NumberFormat.getIntegerInstance(java.util.Locale)}.
@@ -242,6 +222,26 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
     public void test_getIntegerInstance_Locale()
     throws Exception {
         // write some test for {@link java.text.NumberFormat#getIntegerInstance(java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.NumberFormat#getIntegerInstance() public
+     * static final java.text.NumberFormat java.text.NumberFormat.getIntegerInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getIntegerInstance()
+    throws Exception {
+        // write some test for {@link java.text.NumberFormat#getIntegerInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.NumberFormat]

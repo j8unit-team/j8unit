@@ -22,26 +22,6 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#empty() public static
-     * java.util.stream.DoubleStream java.util.stream.DoubleStream.empty()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_empty()
-    throws Exception {
-        // write some test for {@link java.util.stream.DoubleStream#empty()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.DoubleStream#iterate(double, java.util.function.DoubleUnaryOperator) public static
      * java.util.stream.DoubleStream
@@ -61,6 +41,26 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     throws Exception {
         // write some test for {@link java.util.stream.DoubleStream#iterate(double,
         // java.util.function.DoubleUnaryOperator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#empty() public static
+     * java.util.stream.DoubleStream java.util.stream.DoubleStream.empty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_empty()
+    throws Exception {
+        // write some test for {@link java.util.stream.DoubleStream#empty()}
     }
 
     /**

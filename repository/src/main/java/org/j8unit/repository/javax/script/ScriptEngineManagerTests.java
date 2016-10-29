@@ -103,30 +103,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.script.ScriptEngineManager#registerEngineExtension(String, javax.script.ScriptEngineFactory) public
-     * void javax.script.ScriptEngineManager.registerEngineExtension(java.lang.String,javax.script.ScriptEngineFactory)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_registerEngineExtension_String_ScriptEngineFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.script.ScriptEngineManager#put(String, Object)
      * public void javax.script.ScriptEngineManager.put(java.lang.String,java.lang.Object)}.
      *
@@ -141,6 +117,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_put_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.ScriptEngineManager#registerEngineExtension(String, javax.script.ScriptEngineFactory) public
+     * void
+     * javax.script.ScriptEngineManager.registerEngineExtension(java.lang.String,javax.script.ScriptEngineFactory)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerEngineExtension_String_ScriptEngineFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -218,8 +218,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptEngineManager#getBindings()
-     * public javax.script.Bindings javax.script.ScriptEngineManager.getBindings()}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptEngineManager#get(String) public
+     * java.lang.Object javax.script.ScriptEngineManager.get(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -231,7 +231,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBindings()
+    public default void test_get_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -241,8 +241,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.script.ScriptEngineManager#getEngineFactories() public java.util.List
-     * <javax.script.ScriptEngineFactory> javax.script.ScriptEngineManager.getEngineFactories()}.
+     * {@link javax.script.ScriptEngineManager#getEngineFactories() public
+     * java.util.List<javax.script.ScriptEngineFactory> javax.script.ScriptEngineManager.getEngineFactories()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,8 +263,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptEngineManager#get(String) public
-     * java.lang.Object javax.script.ScriptEngineManager.get(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.script.ScriptEngineManager#getBindings()
+     * public javax.script.Bindings javax.script.ScriptEngineManager.getBindings()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -276,7 +276,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_String()
+    public default void test_getBindings()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -11,8 +11,8 @@ import org.junit.experimental.categories.Category;
  * <p>
  * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
  * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link AbstractAnnotationValueVisitor6 public abstract class javax.lang.model.util.AbstractAnnotationValueVisitor6
- * <R,P>}.
+ * {@link AbstractAnnotationValueVisitor6 public abstract class
+ * javax.lang.model.util.AbstractAnnotationValueVisitor6<R,P>}.
  * </p>
  *
  * <p>

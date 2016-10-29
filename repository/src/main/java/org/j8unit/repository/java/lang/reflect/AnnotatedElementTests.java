@@ -104,6 +104,29 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Class) public default <T> T[]
+     * java.lang.reflect.AnnotatedElement.getDeclaredAnnotationsByType(java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDeclaredAnnotationsByType_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.lang.reflect.AnnotatedElement#isAnnotationPresent(Class) public default boolean
      * java.lang.reflect.AnnotatedElement.isAnnotationPresent(java.lang.Class<? extends
      * java.lang.annotation.Annotation>)}.
@@ -119,29 +142,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isAnnotationPresent_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Class) public default <T> T[]
-     * java.lang.reflect.AnnotatedElement.getDeclaredAnnotationsByType(java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDeclaredAnnotationsByType_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

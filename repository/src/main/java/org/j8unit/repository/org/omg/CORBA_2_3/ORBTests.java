@@ -34,9 +34,8 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA_2_3.ORB#unregister_value_factory(String) public void
-     * org.omg.CORBA_2_3.ORB.unregister_value_factory(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA_2_3.ORB#get_value_def(String) public
+     * org.omg.CORBA.Object org.omg.CORBA_2_3.ORB.get_value_def(java.lang.String) throws org.omg.CORBA.BAD_PARAM}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -48,7 +47,7 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unregister_value_factory_String()
+    public default void test_get_value_def_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,8 +78,9 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA_2_3.ORB#get_value_def(String) public
-     * org.omg.CORBA.Object org.omg.CORBA_2_3.ORB.get_value_def(java.lang.String) throws org.omg.CORBA.BAD_PARAM}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA_2_3.ORB#unregister_value_factory(String) public void
+     * org.omg.CORBA_2_3.ORB.unregister_value_factory(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,7 +92,7 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_value_def_String()
+    public default void test_unregister_value_factory_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

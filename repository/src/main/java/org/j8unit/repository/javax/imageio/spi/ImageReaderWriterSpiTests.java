@@ -81,8 +81,9 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ImageReaderWriterSpi#isStandardStreamMetadataFormatSupported() public boolean
-     * javax.imageio.spi.ImageReaderWriterSpi.isStandardStreamMetadataFormatSupported()}.
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#getStreamMetadataFormat(String) public
+     * javax.imageio.metadata.IIOMetadataFormat
+     * javax.imageio.spi.ImageReaderWriterSpi.getStreamMetadataFormat(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,7 +95,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isStandardStreamMetadataFormatSupported()
+    public default void test_getStreamMetadataFormat_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,9 +128,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ImageReaderWriterSpi#getStreamMetadataFormat(String) public
-     * javax.imageio.metadata.IIOMetadataFormat
-     * javax.imageio.spi.ImageReaderWriterSpi.getStreamMetadataFormat(java.lang.String)}.
+     * {@link javax.imageio.spi.ImageReaderWriterSpi#isStandardStreamMetadataFormatSupported() public boolean
+     * javax.imageio.spi.ImageReaderWriterSpi.isStandardStreamMetadataFormatSupported()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,7 +141,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStreamMetadataFormat_String()
+    public default void test_isStandardStreamMetadataFormatSupported()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

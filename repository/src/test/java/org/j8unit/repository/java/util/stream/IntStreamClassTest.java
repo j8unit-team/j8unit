@@ -42,26 +42,6 @@ implements org.j8unit.repository.java.util.stream.IntStreamClassTests<IntStream>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#of(int) public static
-     * java.util.stream.IntStream java.util.stream.IntStream.of(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_of_int()
-    throws Exception {
-        // write some test for {@link java.util.stream.IntStream#of(int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#of(int...) public static
      * java.util.stream.IntStream java.util.stream.IntStream.of(int...)}.
      *
@@ -78,6 +58,26 @@ implements org.j8unit.repository.java.util.stream.IntStreamClassTests<IntStream>
     public void test_of_intArray()
     throws Exception {
         // write some test for {@link java.util.stream.IntStream#of(int...)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#of(int) public static
+     * java.util.stream.IntStream java.util.stream.IntStream.of(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_of_int()
+    throws Exception {
+        // write some test for {@link java.util.stream.IntStream#of(int)}
     }
 
     /**
@@ -166,26 +166,6 @@ implements org.j8unit.repository.java.util.stream.IntStreamClassTests<IntStream>
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#empty() public static
-     * java.util.stream.IntStream java.util.stream.IntStream.empty()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_empty()
-    throws Exception {
-        // write some test for {@link java.util.stream.IntStream#empty()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.IntStream#iterate(int, java.util.function.IntUnaryOperator) public static
      * java.util.stream.IntStream java.util.stream.IntStream.iterate(int,java.util.function.IntUnaryOperator)}.
@@ -203,6 +183,26 @@ implements org.j8unit.repository.java.util.stream.IntStreamClassTests<IntStream>
     public void test_iterate_int_IntUnaryOperator()
     throws Exception {
         // write some test for {@link java.util.stream.IntStream#iterate(int, java.util.function.IntUnaryOperator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.IntStream#empty() public static
+     * java.util.stream.IntStream java.util.stream.IntStream.empty()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_empty()
+    throws Exception {
+        // write some test for {@link java.util.stream.IntStream#empty()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.IntStream]

@@ -110,9 +110,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanInfo#getDescription() interface
      * javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getDescription() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -129,8 +129,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getDescription();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getDescription();
+        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getDescription();
     }
 
     /**
@@ -139,9 +139,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanInfo#getNotifications() interface
      * javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getNotifications() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -158,8 +158,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getNotifications()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getNotifications();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getNotifications();
+        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getNotifications();
     }
 
     /**
@@ -168,9 +168,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanInfo#getAttributes() interface
      * javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getAttributes() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -187,8 +187,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getAttributes()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getAttributes();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getAttributes();
+        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getAttributes();
     }
 
     /**
@@ -197,9 +197,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanInfo#getOperations() interface
      * javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getOperations() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -216,8 +216,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getOperations()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getOperations();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getOperations();
+        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getOperations();
     }
 
     /**
@@ -226,9 +226,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanInfo#getClassName() interface
      * javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getClassName() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -245,8 +245,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getClassName()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getClassName();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getClassName();
+        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getClassName();
     }
 
     /**
@@ -255,9 +255,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanInfo#getConstructors() interface
      * javax.management.openmbean.OpenMBeanInfo}</li>
+     * <li>{@link javax.management.MBeanInfo#getConstructors() class javax.management.MBeanInfo}</li>
      * </ul>
      *
      * <p>
@@ -274,8 +274,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getConstructors()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getConstructors();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getConstructors();
+        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getConstructors();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanInfoSupport]

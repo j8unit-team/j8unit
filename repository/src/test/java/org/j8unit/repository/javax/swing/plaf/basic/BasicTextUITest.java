@@ -31,30 +31,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class BasicHighlighterTest
-    implements FactoryBasedJ8UnitTest<BasicHighlighter>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests<BasicHighlighter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOf(BasicHighlighter::new);
-        }
-
-        @Parameter(0)
-        public Callable<BasicHighlighter> sutFactory;
-
-        @Override
-        public Callable<BasicHighlighter> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicCaretTest
     implements FactoryBasedJ8UnitTest<BasicCaret>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests<BasicCaret> {
 
@@ -62,7 +38,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(BasicCaret::new);
+            return testParametersOf(BasicCaret::new);
         }
 
         @Parameter(0)
@@ -74,6 +50,30 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class BasicHighlighterTest
+    implements FactoryBasedJ8UnitTest<BasicHighlighter>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests<BasicHighlighter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(BasicHighlighter::new);
+        }
+
+        @Parameter(0)
+        public Callable<BasicHighlighter> sutFactory;
+
+        @Override
+        public Callable<BasicHighlighter> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
 
     }
 

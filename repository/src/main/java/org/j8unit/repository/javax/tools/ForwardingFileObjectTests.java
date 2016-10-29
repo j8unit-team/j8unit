@@ -151,29 +151,6 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingFileObject#openWriter() public
-     * java.io.Writer javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_openWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingFileObject#toUri() public
      * java.net.URI javax.tools.ForwardingFileObject.toUri()}.
      *
@@ -197,8 +174,8 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingFileObject#getLastModified()
-     * public long javax.tools.ForwardingFileObject.getLastModified()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingFileObject#openWriter() public
+     * java.io.Writer javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -211,7 +188,7 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getLastModified()
+    public default void test_openWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -235,6 +212,29 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingFileObject#getLastModified()
+     * public long javax.tools.ForwardingFileObject.getLastModified()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLastModified()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

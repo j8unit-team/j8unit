@@ -46,8 +46,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
      * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.CosNaming.NamingContextPackage.NotFound#NotFound(org.omg.CosNaming.NamingContextPackage.NotFoundReason, org.omg.CosNaming.NameComponent[])
      * public
-     * org.omg.CosNaming.NamingContextPackage.NotFound(org.omg.CosNaming.NamingContextPackage.NotFoundReason,org.omg.CosNaming.NameComponent[])}
-     * .
+     * org.omg.CosNaming.NamingContextPackage.NotFound(org.omg.CosNaming.NamingContextPackage.NotFoundReason,org.omg.CosNaming.NameComponent[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -72,8 +71,7 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
      * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.CosNaming.NamingContextPackage.NotFound#NotFound(String, org.omg.CosNaming.NamingContextPackage.NotFoundReason, org.omg.CosNaming.NameComponent[])
      * public
-     * org.omg.CosNaming.NamingContextPackage.NotFound(java.lang.String,org.omg.CosNaming.NamingContextPackage.NotFoundReason,org.omg.CosNaming.NameComponent[])}
-     * .
+     * org.omg.CosNaming.NamingContextPackage.NotFound(java.lang.String,org.omg.CosNaming.NamingContextPackage.NotFoundReason,org.omg.CosNaming.NameComponent[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

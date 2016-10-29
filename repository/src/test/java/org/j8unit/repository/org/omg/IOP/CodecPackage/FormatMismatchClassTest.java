@@ -22,8 +22,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.IOP.CodecPackage.FormatMismatch#FormatMismatch() public org.omg.IOP.CodecPackage.FormatMismatch()}
-     * .
+     * {@link org.omg.IOP.CodecPackage.FormatMismatch#FormatMismatch() public
+     * org.omg.IOP.CodecPackage.FormatMismatch()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

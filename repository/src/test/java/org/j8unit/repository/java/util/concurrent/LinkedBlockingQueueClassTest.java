@@ -23,29 +23,6 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue(int) public
-     * java.util.concurrent.LinkedBlockingQueue(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_LinkedBlockingQueue_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final LinkedBlockingQueue sut = null; // = new LinkedBlockingQueue(int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue() public
      * java.util.concurrent.LinkedBlockingQueue()}.
      *
@@ -86,6 +63,29 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingQueueClassTe
         // create new instance
         @SuppressWarnings("unused")
         final LinkedBlockingQueue sut = null; // = new LinkedBlockingQueue(java.util.Collection);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.LinkedBlockingQueue#LinkedBlockingQueue(int) public
+     * java.util.concurrent.LinkedBlockingQueue(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LinkedBlockingQueue_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LinkedBlockingQueue sut = null; // = new LinkedBlockingQueue(int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.LinkedBlockingQueue]

@@ -22,10 +22,32 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, java.lang.reflect.Method) public
+     * javax.management.MBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MBeanOperationInfo_String_Method()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, java.lang.reflect.Method);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, String, javax.management.MBeanParameterInfo[], String, int, javax.management.Descriptor)
      * public
-     * javax.management.MBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}
-     * .
+     * javax.management.MBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,8 +73,7 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, String, javax.management.MBeanParameterInfo[], String, int)
      * public
-     * javax.management.MBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}
-     * .
+     * javax.management.MBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -70,29 +91,6 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
         @SuppressWarnings("unused")
         final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, String,
                                              // javax.management.MBeanParameterInfo[], String, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.MBeanOperationInfo#MBeanOperationInfo(String, java.lang.reflect.Method) public
-     * javax.management.MBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MBeanOperationInfo_String_Method()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MBeanOperationInfo sut = null; // = new MBeanOperationInfo(String, java.lang.reflect.Method);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanOperationInfo]

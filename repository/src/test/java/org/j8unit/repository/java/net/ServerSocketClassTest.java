@@ -21,9 +21,8 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.net.ServerSocket#ServerSocket(int, int, java.net.InetAddress) public
-     * java.net.ServerSocket(int,int,java.net.InetAddress) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket() public
+     * java.net.ServerSocket() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,33 +34,10 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ServerSocket_int_int_InetAddress()
+    public void create_ServerSocket()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final ServerSocket sut = null; // = new ServerSocket(int, int, java.net.InetAddress);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket(int, int)
-     * public java.net.ServerSocket(int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ServerSocket_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ServerSocket sut = null; // = new ServerSocket(int, int);
+        final ServerSocket sut = new ServerSocket();
     }
 
     /**
@@ -88,8 +64,8 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket() public
-     * java.net.ServerSocket() throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.ServerSocket#ServerSocket(int, int)
+     * public java.net.ServerSocket(int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,10 +77,34 @@ implements org.j8unit.repository.java.net.ServerSocketClassTests<ServerSocket> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ServerSocket()
+    public void create_ServerSocket_int_int()
     throws Exception {
         // create new instance
-        final ServerSocket sut = new ServerSocket();
+        @SuppressWarnings("unused")
+        final ServerSocket sut = null; // = new ServerSocket(int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.ServerSocket#ServerSocket(int, int, java.net.InetAddress) public
+     * java.net.ServerSocket(int,int,java.net.InetAddress) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ServerSocket_int_int_InetAddress()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ServerSocket sut = null; // = new ServerSocket(int, int, java.net.InetAddress);
     }
 
     /**

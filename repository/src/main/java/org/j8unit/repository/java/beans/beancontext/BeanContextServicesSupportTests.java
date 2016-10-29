@@ -69,8 +69,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
      * public void
-     * java.beans.beancontext.BeanContextServicesSupport.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
-     * .
+     * java.beans.beancontext.BeanContextServicesSupport.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,8 +94,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
      * public void
-     * java.beans.beancontext.BeanContextServicesSupport.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}
-     * .
+     * java.beans.beancontext.BeanContextServicesSupport.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -168,8 +166,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#releaseService(java.beans.beancontext.BeanContextChild, Object, Object)
      * public void
-     * java.beans.beancontext.BeanContextServicesSupport.releaseService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Object)}
-     * .
+     * java.beans.beancontext.BeanContextServicesSupport.releaseService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,8 +191,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)
      * public void
-     * java.beans.beancontext.BeanContextServicesSupport.serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)}
-     * .
+     * java.beans.beancontext.BeanContextServicesSupport.serviceRevoked(java.beans.beancontext.BeanContextServiceRevokedEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,8 +240,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
      * public void
-     * java.beans.beancontext.BeanContextServicesSupport.removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
-     * .
+     * java.beans.beancontext.BeanContextServicesSupport.removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -270,8 +265,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#addService(Class, java.beans.beancontext.BeanContextServiceProvider)
      * public boolean
-     * java.beans.beancontext.BeanContextServicesSupport.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}
-     * .
+     * java.beans.beancontext.BeanContextServicesSupport.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -285,32 +279,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     @Test
     @Category(Draft.class)
     public default void test_addService_Class_BeanContextServiceProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextServicesSupport#revokeService(Class, java.beans.beancontext.BeanContextServiceProvider, boolean)
-     * public void
-     * java.beans.beancontext.BeanContextServicesSupport.revokeService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider,boolean)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_revokeService_Class_BeanContextServiceProvider_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -344,9 +312,34 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextServicesSupport#revokeService(Class, java.beans.beancontext.BeanContextServiceProvider, boolean)
+     * public void
+     * java.beans.beancontext.BeanContextServicesSupport.revokeService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_revokeService_Class_BeanContextServiceProvider_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesSupport#getCurrentServiceSelectors(Class) public
-     * java.util.Iterator java.beans.beancontext.BeanContextServicesSupport.getCurrentServiceSelectors(java.lang.Class)}
-     * .
+     * java.util.Iterator
+     * java.beans.beancontext.BeanContextServicesSupport.getCurrentServiceSelectors(java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

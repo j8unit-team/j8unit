@@ -37,8 +37,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedLi
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServicesListener#serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)
      * public abstract void
-     * java.beans.beancontext.BeanContextServicesListener.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}
-     * .
+     * java.beans.beancontext.BeanContextServicesListener.serviceAvailable(java.beans.beancontext.BeanContextServiceAvailableEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

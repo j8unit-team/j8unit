@@ -57,8 +57,8 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.SpringLayout.Constraints#Constraints(java.awt.Component) public
-         * javax.swing.SpringLayout$Constraints(java.awt.Component)}.
+         * {@link javax.swing.SpringLayout.Constraints#Constraints(javax.swing.Spring, javax.swing.Spring) public
+         * javax.swing.SpringLayout$Constraints(javax.swing.Spring,javax.swing.Spring)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -70,11 +70,11 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_Constraints_Component()
+        public void create_Constraints_Spring_Spring()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Constraints sut = null; // = new Constraints(java.awt.Component);
+            final Constraints sut = null; // = new Constraints(javax.swing.Spring, javax.swing.Spring);
         }
 
         /**
@@ -82,8 +82,7 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.SpringLayout.Constraints#Constraints(javax.swing.Spring, javax.swing.Spring, javax.swing.Spring, javax.swing.Spring)
          * public
-         * javax.swing.SpringLayout$Constraints(javax.swing.Spring,javax.swing.Spring,javax.swing.Spring,javax.swing.Spring)}
-         * .
+         * javax.swing.SpringLayout$Constraints(javax.swing.Spring,javax.swing.Spring,javax.swing.Spring,javax.swing.Spring)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -106,8 +105,8 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.SpringLayout.Constraints#Constraints(javax.swing.Spring, javax.swing.Spring) public
-         * javax.swing.SpringLayout$Constraints(javax.swing.Spring,javax.swing.Spring)}.
+         * {@link javax.swing.SpringLayout.Constraints#Constraints(java.awt.Component) public
+         * javax.swing.SpringLayout$Constraints(java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -119,11 +118,11 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_Constraints_Spring_Spring()
+        public void create_Constraints_Component()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final Constraints sut = null; // = new Constraints(javax.swing.Spring, javax.swing.Spring);
+            final Constraints sut = null; // = new Constraints(java.awt.Component);
         }
 
         /**

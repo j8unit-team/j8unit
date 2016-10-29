@@ -61,8 +61,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailPassComplete(javax.imageio.ImageReader, java.awt.image.BufferedImage)
      * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)}
-     * .
+     * javax.imageio.event.IIOReadUpdateListener.thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,8 +85,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.event.IIOReadUpdateListener#imageUpdate(javax.imageio.ImageReader, java.awt.image.BufferedImage, int, int, int, int, int, int, int[])
      * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.imageUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}
-     * .
+     * javax.imageio.event.IIOReadUpdateListener.imageUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,8 +109,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailUpdate(javax.imageio.ImageReader, java.awt.image.BufferedImage, int, int, int, int, int, int, int[])
      * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}
-     * .
+     * javax.imageio.event.IIOReadUpdateListener.thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,8 +133,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.event.IIOReadUpdateListener#passStarted(javax.imageio.ImageReader, java.awt.image.BufferedImage, int, int, int, int, int, int, int, int[])
      * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.passStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,int[])}
-     * .
+     * javax.imageio.event.IIOReadUpdateListener.passStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -161,8 +157,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailPassStarted(javax.imageio.ImageReader, java.awt.image.BufferedImage, int, int, int, int, int, int, int, int[])
      * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.thumbnailPassStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,int[])}
-     * .
+     * javax.imageio.event.IIOReadUpdateListener.thumbnailPassStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,int[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

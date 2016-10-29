@@ -64,26 +64,6 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<For
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinTask#getPool() public
-     * static java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinTask.getPool()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getPool()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#getPool()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinTask#inForkJoinPool()
      * public static boolean java.util.concurrent.ForkJoinTask.inForkJoinPool()}.
      *
@@ -104,9 +84,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<For
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object) public static
-     * <T> java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable,T)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinTask#getPool() public
+     * static java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinTask.getPool()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -118,37 +97,17 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<For
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_adapt_Runnable_Object()
+    public void test_getPool()
     throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinTask#adapt(Runnable)
-     * public static java.util.concurrent.ForkJoinTask<?> java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_adapt_Runnable()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(Runnable)}
+        // write some test for {@link java.util.concurrent.ForkJoinTask#getPool()}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinTask#adapt(java.util.concurrent.Callable) public static
-     * <T> java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinTask.adapt(java.util.concurrent.Callable<?
-     * extends T>)}.
+     * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask, java.util.concurrent.ForkJoinTask)
+     * public static void
+     * java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask<?>,java.util.concurrent.ForkJoinTask<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,30 +119,10 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<For
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_adapt_Callable()
+    public void test_invokeAll_ForkJoinTask_ForkJoinTask()
     throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(java.util.concurrent.Callable)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.Collection) public static <T> java.util.Collection
-     * <T> java.util.concurrent.ForkJoinTask.invokeAll(java.util.Collection<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_invokeAll_Collection()
-    throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.Collection)}
+        // write some test for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask,
+        // java.util.concurrent.ForkJoinTask)}
     }
 
     /**
@@ -210,9 +149,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<For
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask, java.util.concurrent.ForkJoinTask)
-     * public static void java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask
-     * <?>,java.util.concurrent.ForkJoinTask<?>)}.
+     * {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.Collection) public static <T>
+     * java.util.Collection<T> java.util.concurrent.ForkJoinTask.invokeAll(java.util.Collection<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -224,10 +162,72 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<For
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_invokeAll_ForkJoinTask_ForkJoinTask()
+    public void test_invokeAll_Collection()
     throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask,
-        // java.util.concurrent.ForkJoinTask)}
+        // write some test for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.Collection)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object) public static <T>
+     * java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable,T)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_adapt_Runnable_Object()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(Runnable, Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinTask#adapt(java.util.concurrent.Callable) public static <T>
+     * java.util.concurrent.ForkJoinTask<T> java.util.concurrent.ForkJoinTask.adapt(java.util.concurrent.Callable<?
+     * extends T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_adapt_Callable()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(java.util.concurrent.Callable)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ForkJoinTask#adapt(Runnable)
+     * public static java.util.concurrent.ForkJoinTask<?> java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_adapt_Runnable()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.ForkJoinTask#adapt(Runnable)}
     }
 
     /**

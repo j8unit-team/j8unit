@@ -59,29 +59,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ComponentSampleModel#getOffset(int, int, int) public int
-     * java.awt.image.ComponentSampleModel.getOffset(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffset_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.ComponentSampleModel#getOffset(int, int) public int
      * java.awt.image.ComponentSampleModel.getOffset(int,int)}.
      *
@@ -96,6 +73,29 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOffset_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getOffset(int, int, int) public int
+     * java.awt.image.ComponentSampleModel.getOffset(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -315,6 +315,29 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#hashCode()
+     * public int java.awt.image.ComponentSampleModel.hashCode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.ComponentSampleModel#getPixels(int, int, int, int, int[], java.awt.image.DataBuffer) public
      * int[] java.awt.image.ComponentSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
@@ -355,29 +378,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createCompatibleSampleModel_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#hashCode()
-     * public int java.awt.image.ComponentSampleModel.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -458,8 +458,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.ComponentSampleModel#getSamples(int, int, int, int, int, int[], java.awt.image.DataBuffer)
-     * public int[] java.awt.image.ComponentSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}
-     * .
+     * public int[]
+     * java.awt.image.ComponentSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -529,29 +529,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ComponentSampleModel#getScanlineStride() public final int
-     * java.awt.image.ComponentSampleModel.getScanlineStride()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScanlineStride()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.ComponentSampleModel#equals(Object)
      * public boolean java.awt.image.ComponentSampleModel.equals(java.lang.Object)}.
      *
@@ -567,6 +544,29 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#getScanlineStride() public final int
+     * java.awt.image.ComponentSampleModel.getScanlineStride()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScanlineStride()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -624,30 +624,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ComponentSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public void
-     * java.awt.image.ComponentSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setSample_int_int_int_int_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.ComponentSampleModel#setSample(int, int, int, float, java.awt.image.DataBuffer) public void
      * java.awt.image.ComponentSampleModel.setSample(int,int,int,float,java.awt.image.DataBuffer)}.
      *
@@ -663,6 +639,30 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setSample_int_int_int_float_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ComponentSampleModel#setSample(int, int, int, int, java.awt.image.DataBuffer) public void
+     * java.awt.image.ComponentSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setSample_int_int_int_int_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

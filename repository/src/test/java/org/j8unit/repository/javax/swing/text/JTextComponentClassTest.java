@@ -48,8 +48,7 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<JText
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.JTextComponent#loadKeymap(javax.swing.text.Keymap, javax.swing.text.JTextComponent.KeyBinding[], javax.swing.Action[])
      * public static void
-     * javax.swing.text.JTextComponent.loadKeymap(javax.swing.text.Keymap,javax.swing.text.JTextComponent$KeyBinding[],javax.swing.Action[])}
-     * .
+     * javax.swing.text.JTextComponent.loadKeymap(javax.swing.text.Keymap,javax.swing.text.JTextComponent$KeyBinding[],javax.swing.Action[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

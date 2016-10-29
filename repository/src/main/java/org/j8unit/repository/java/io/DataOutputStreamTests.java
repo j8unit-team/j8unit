@@ -148,29 +148,6 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.DataOutputStream#write(byte[], int, int)
-     * public synchronized void java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_write_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.io.DataOutputStream#write(int) public
      * synchronized void java.io.DataOutputStream.write(int) throws java.io.IOException}.
      *
@@ -186,6 +163,29 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
     @Test
     @Category(Draft.class)
     public default void test_write_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.DataOutputStream#write(byte[], int, int)
+     * public synchronized void java.io.DataOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_write_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -382,8 +382,8 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.io.DataOutput#write(byte[]) interface java.io.DataOutput}</li>
      * <li>{@link java.io.FilterOutputStream#write(byte[]) class java.io.FilterOutputStream}</li>
+     * <li>{@link java.io.DataOutput#write(byte[]) interface java.io.DataOutput}</li>
      * </ul>
      *
      * <p>
@@ -400,8 +400,8 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
     @Category(Draft.class)
     public default void test_write_byteArray()
     throws Exception {
-        org.j8unit.repository.java.io.DataOutputTests.super.test_write_byteArray();
         org.j8unit.repository.java.io.FilterOutputStreamTests.super.test_write_byteArray();
+        org.j8unit.repository.java.io.DataOutputTests.super.test_write_byteArray();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataOutputStream]

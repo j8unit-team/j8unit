@@ -57,28 +57,6 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getRdn(int) public
-     * javax.naming.ldap.Rdn javax.naming.ldap.LdapName.getRdn(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRdn_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#remove(int) public
      * java.lang.Object javax.naming.ldap.LdapName.remove(int) throws javax.naming.InvalidNameException}.
      *
@@ -94,6 +72,28 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_remove_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#getRdn(int) public
+     * javax.naming.ldap.Rdn javax.naming.ldap.LdapName.getRdn(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRdn_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -217,29 +217,6 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#add(int, String) public
-     * javax.naming.Name javax.naming.ldap.LdapName.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_add_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.naming.ldap.LdapName#add(int, javax.naming.ldap.Rdn) public javax.naming.Name
      * javax.naming.ldap.LdapName.add(int,javax.naming.ldap.Rdn)}.
@@ -278,6 +255,29 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_add_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#add(int, String) public
+     * javax.naming.Name javax.naming.ldap.LdapName.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -516,28 +516,6 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#endsWith(java.util.List)
-     * public boolean javax.naming.ldap.LdapName.endsWith(java.util.List<javax.naming.ldap.Rdn>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endsWith_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.naming.ldap.LdapName#endsWith(javax.naming.Name) public boolean
      * javax.naming.ldap.LdapName.endsWith(javax.naming.Name)}.
@@ -554,6 +532,28 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_endsWith_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.ldap.LdapName#endsWith(java.util.List)
+     * public boolean javax.naming.ldap.LdapName.endsWith(java.util.List<javax.naming.ldap.Rdn>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endsWith_List()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

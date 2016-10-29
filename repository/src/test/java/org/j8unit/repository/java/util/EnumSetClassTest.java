@@ -62,8 +62,8 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#noneOf(Class) public static
-     * <E> java.util.EnumSet<E> java.util.EnumSet.noneOf(java.lang.Class<E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#noneOf(Class) public static <E>
+     * java.util.EnumSet<E> java.util.EnumSet.noneOf(java.lang.Class<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,26 +102,6 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum, Enum, Enum, Enum)
-     * public static <E> java.util.EnumSet<E> java.util.EnumSet.of(E,E,E,E,E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_of_Enum_Enum_Enum_Enum_Enum()
-    throws Exception {
-        // write some test for {@link java.util.EnumSet#of(Enum, Enum, Enum, Enum, Enum)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum...) public static
      * <E> java.util.EnumSet<E> java.util.EnumSet.of(E,E...)}.
      *
@@ -142,8 +122,8 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum) public static
-     * <E> java.util.EnumSet<E> java.util.EnumSet.of(E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum, Enum, Enum, Enum)
+     * public static <E> java.util.EnumSet<E> java.util.EnumSet.of(E,E,E,E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,15 +135,15 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_of_Enum()
+    public void test_of_Enum_Enum_Enum_Enum_Enum()
     throws Exception {
-        // write some test for {@link java.util.EnumSet#of(Enum)}
+        // write some test for {@link java.util.EnumSet#of(Enum, Enum, Enum, Enum, Enum)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum) public static
-     * <E> java.util.EnumSet<E> java.util.EnumSet.of(E,E)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum) public static <E>
+     * java.util.EnumSet<E> java.util.EnumSet.of(E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,26 +158,6 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
     public void test_of_Enum_Enum()
     throws Exception {
         // write some test for {@link java.util.EnumSet#of(Enum, Enum)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum, Enum) public static
-     * <E> java.util.EnumSet<E> java.util.EnumSet.of(E,E,E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_of_Enum_Enum_Enum()
-    throws Exception {
-        // write some test for {@link java.util.EnumSet#of(Enum, Enum, Enum)}
     }
 
     /**
@@ -222,6 +182,46 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum, Enum, Enum) public static
+     * <E> java.util.EnumSet<E> java.util.EnumSet.of(E,E,E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_of_Enum_Enum_Enum()
+    throws Exception {
+        // write some test for {@link java.util.EnumSet#of(Enum, Enum, Enum)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#of(Enum) public static <E>
+     * java.util.EnumSet<E> java.util.EnumSet.of(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_of_Enum()
+    throws Exception {
+        // write some test for {@link java.util.EnumSet#of(Enum)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#complementOf(java.util.EnumSet)
      * public static <E> java.util.EnumSet<E> java.util.EnumSet.complementOf(java.util.EnumSet<E>)}.
      *
@@ -242,8 +242,8 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#allOf(Class) public static
-     * <E> java.util.EnumSet<E> java.util.EnumSet.allOf(java.lang.Class<E>)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#allOf(Class) public static <E>
+     * java.util.EnumSet<E> java.util.EnumSet.allOf(java.lang.Class<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

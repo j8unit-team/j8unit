@@ -42,9 +42,8 @@ implements org.j8unit.repository.java.time.OffsetTimeClassTests<OffsetTime> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.OffsetTime#of(java.time.LocalTime, java.time.ZoneOffset) public static java.time.OffsetTime
-     * java.time.OffsetTime.of(java.time.LocalTime,java.time.ZoneOffset)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetTime#now() public static
+     * java.time.OffsetTime java.time.OffsetTime.now()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -56,9 +55,49 @@ implements org.j8unit.repository.java.time.OffsetTimeClassTests<OffsetTime> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_of_LocalTime_ZoneOffset()
+    public void test_now()
     throws Exception {
-        // write some test for {@link java.time.OffsetTime#of(java.time.LocalTime, java.time.ZoneOffset)}
+        // write some test for {@link java.time.OffsetTime#now()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetTime#now(java.time.ZoneId) public
+     * static java.time.OffsetTime java.time.OffsetTime.now(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_now_ZoneId()
+    throws Exception {
+        // write some test for {@link java.time.OffsetTime#now(java.time.ZoneId)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetTime#now(java.time.Clock) public
+     * static java.time.OffsetTime java.time.OffsetTime.now(java.time.Clock)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_now_Clock()
+    throws Exception {
+        // write some test for {@link java.time.OffsetTime#now(java.time.Clock)}
     }
 
     /**
@@ -84,8 +123,9 @@ implements org.j8unit.repository.java.time.OffsetTimeClassTests<OffsetTime> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetTime#now(java.time.Clock) public
-     * static java.time.OffsetTime java.time.OffsetTime.now(java.time.Clock)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.OffsetTime#of(java.time.LocalTime, java.time.ZoneOffset) public static java.time.OffsetTime
+     * java.time.OffsetTime.of(java.time.LocalTime,java.time.ZoneOffset)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -97,49 +137,9 @@ implements org.j8unit.repository.java.time.OffsetTimeClassTests<OffsetTime> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now_Clock()
+    public void test_of_LocalTime_ZoneOffset()
     throws Exception {
-        // write some test for {@link java.time.OffsetTime#now(java.time.Clock)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetTime#now(java.time.ZoneId) public
-     * static java.time.OffsetTime java.time.OffsetTime.now(java.time.ZoneId)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_now_ZoneId()
-    throws Exception {
-        // write some test for {@link java.time.OffsetTime#now(java.time.ZoneId)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetTime#now() public static
-     * java.time.OffsetTime java.time.OffsetTime.now()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_now()
-    throws Exception {
-        // write some test for {@link java.time.OffsetTime#now()}
+        // write some test for {@link java.time.OffsetTime#of(java.time.LocalTime, java.time.ZoneOffset)}
     }
 
     /**

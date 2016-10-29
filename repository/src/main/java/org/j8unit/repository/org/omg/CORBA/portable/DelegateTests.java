@@ -58,10 +58,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.Delegate#set_policy_override(org.omg.CORBA.Object, org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
-     * public org.omg.CORBA.Object
-     * org.omg.CORBA.portable.Delegate.set_policy_override(org.omg.CORBA.Object,org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)}
-     * .
+     * {@link org.omg.CORBA.portable.Delegate#hash(org.omg.CORBA.Object, int) public abstract int
+     * org.omg.CORBA.portable.Delegate.hash(org.omg.CORBA.Object,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -73,7 +71,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_policy_override_Object_PolicyArray_SetOverrideType()
+    public default void test_hash_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,8 +104,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.Delegate#hash(org.omg.CORBA.Object, int) public abstract int
-     * org.omg.CORBA.portable.Delegate.hash(org.omg.CORBA.Object,int)}.
+     * {@link org.omg.CORBA.portable.Delegate#set_policy_override(org.omg.CORBA.Object, org.omg.CORBA.Policy[], org.omg.CORBA.SetOverrideType)
+     * public org.omg.CORBA.Object
+     * org.omg.CORBA.portable.Delegate.set_policy_override(org.omg.CORBA.Object,org.omg.CORBA.Policy[],org.omg.CORBA.SetOverrideType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -119,7 +118,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hash_Object_int()
+    public default void test_set_policy_override_Object_PolicyArray_SetOverrideType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -315,6 +314,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.Delegate#invoke(org.omg.CORBA.Object, org.omg.CORBA.portable.OutputStream) public
+     * org.omg.CORBA.portable.InputStream
+     * org.omg.CORBA.portable.Delegate.invoke(org.omg.CORBA.Object,org.omg.CORBA.portable.OutputStream) throws
+     * org.omg.CORBA.portable.ApplicationException,org.omg.CORBA.portable.RemarshalException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invoke_Object_OutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.Delegate#non_existent(org.omg.CORBA.Object) public abstract boolean
      * org.omg.CORBA.portable.Delegate.non_existent(org.omg.CORBA.Object)}.
      *
@@ -361,10 +385,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.Delegate#invoke(org.omg.CORBA.Object, org.omg.CORBA.portable.OutputStream) public
-     * org.omg.CORBA.portable.InputStream
-     * org.omg.CORBA.portable.Delegate.invoke(org.omg.CORBA.Object,org.omg.CORBA.portable.OutputStream) throws
-     * org.omg.CORBA.portable.ApplicationException,org.omg.CORBA.portable.RemarshalException}.
+     * {@link org.omg.CORBA.portable.Delegate#duplicate(org.omg.CORBA.Object) public abstract org.omg.CORBA.Object
+     * org.omg.CORBA.portable.Delegate.duplicate(org.omg.CORBA.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,7 +398,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invoke_Object_OutputStream()
+    public default void test_duplicate_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -410,29 +432,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.Delegate#duplicate(org.omg.CORBA.Object) public abstract org.omg.CORBA.Object
-     * org.omg.CORBA.portable.Delegate.duplicate(org.omg.CORBA.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_duplicate_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.Delegate#get_policy(org.omg.CORBA.Object, int) public org.omg.CORBA.Policy
      * org.omg.CORBA.portable.Delegate.get_policy(org.omg.CORBA.Object,int)}.
      *
@@ -456,35 +455,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.Delegate#create_request(org.omg.CORBA.Object, org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
-     * public abstract org.omg.CORBA.Request
-     * org.omg.CORBA.portable.Delegate.create_request(org.omg.CORBA.Object,org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_request_Object_Context_String_NVList_NamedValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.Delegate#create_request(org.omg.CORBA.Object, org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue, org.omg.CORBA.ExceptionList, org.omg.CORBA.ContextList)
      * public abstract org.omg.CORBA.Request
-     * org.omg.CORBA.portable.Delegate.create_request(org.omg.CORBA.Object,org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}
-     * .
+     * org.omg.CORBA.portable.Delegate.create_request(org.omg.CORBA.Object,org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue,org.omg.CORBA.ExceptionList,org.omg.CORBA.ContextList)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -497,6 +470,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_create_request_Object_Context_String_NVList_NamedValue_ExceptionList_ContextList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.Delegate#create_request(org.omg.CORBA.Object, org.omg.CORBA.Context, String, org.omg.CORBA.NVList, org.omg.CORBA.NamedValue)
+     * public abstract org.omg.CORBA.Request
+     * org.omg.CORBA.portable.Delegate.create_request(org.omg.CORBA.Object,org.omg.CORBA.Context,java.lang.String,org.omg.CORBA.NVList,org.omg.CORBA.NamedValue)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_request_Object_Context_String_NVList_NamedValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -101,9 +101,8 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.PixelGrabber#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
-     * public void java.awt.image.PixelGrabber.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#abortGrabbing() public
+     * synchronized void java.awt.image.PixelGrabber.abortGrabbing()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,10 +112,9 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setPixels_int_int_int_int_ColorModel_byteArray_int_int()
+    public default void test_abortGrabbing()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -149,8 +147,9 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#abortGrabbing() public
-     * synchronized void java.awt.image.PixelGrabber.abortGrabbing()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.PixelGrabber#setPixels(int, int, int, int, java.awt.image.ColorModel, byte[], int, int)
+     * public void java.awt.image.PixelGrabber.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -160,9 +159,34 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_abortGrabbing()
+    public default void test_setPixels_int_int_int_int_ColorModel_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.PixelGrabber#setProperties(java.util.Hashtable) public void
+     * java.awt.image.PixelGrabber.setProperties(java.util.Hashtable<?, ?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperties_Hashtable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,30 +231,6 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_grabPixels()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.PixelGrabber#setProperties(java.util.Hashtable) public void
-     * java.awt.image.PixelGrabber.setProperties(java.util.Hashtable<?, ?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setProperties_Hashtable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

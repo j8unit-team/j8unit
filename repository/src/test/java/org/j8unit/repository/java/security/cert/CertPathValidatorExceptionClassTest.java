@@ -26,8 +26,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
      * Test method for the hereby targeted constructor-under-test
      * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable, java.security.cert.CertPath, int, java.security.cert.CertPathValidatorException.Reason)
      * public
-     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException$Reason)}
-     * .
+     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException$Reason)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -53,8 +52,7 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
      * Test method for the hereby targeted constructor-under-test
      * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable, java.security.cert.CertPath, int)
      * public
-     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)}
-     * .
+     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -72,29 +70,6 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         @SuppressWarnings("unused")
         final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable,
                                                      // java.security.cert.CertPath, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable) public
-     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_CertPathValidatorException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable);
     }
 
     /**
@@ -163,6 +138,29 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         // create new instance
         @SuppressWarnings("unused")
         final CertPathValidatorException sut = null; // = new CertPathValidatorException(Throwable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(String, Throwable) public
+     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_CertPathValidatorException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException]

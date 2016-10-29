@@ -21,8 +21,9 @@ implements org.j8unit.repository.java.io.PipedInputStreamClassTests<PipedInputSt
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.io.PipedInputStream#PipedInputStream(int)
-     * public java.io.PipedInputStream(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.io.PipedInputStream#PipedInputStream(java.io.PipedOutputStream) public
+     * java.io.PipedInputStream(java.io.PipedOutputStream) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,11 +35,11 @@ implements org.j8unit.repository.java.io.PipedInputStreamClassTests<PipedInputSt
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_PipedInputStream_int()
+    public void create_PipedInputStream_PipedOutputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PipedInputStream sut = null; // = new PipedInputStream(int);
+        final PipedInputStream sut = null; // = new PipedInputStream(java.io.PipedOutputStream);
     }
 
     /**
@@ -64,6 +65,28 @@ implements org.j8unit.repository.java.io.PipedInputStreamClassTests<PipedInputSt
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.io.PipedInputStream#PipedInputStream(int)
+     * public java.io.PipedInputStream(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_PipedInputStream_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final PipedInputStream sut = null; // = new PipedInputStream(int);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.io.PipedInputStream#PipedInputStream(java.io.PipedOutputStream, int) public
      * java.io.PipedInputStream(java.io.PipedOutputStream,int) throws java.io.IOException}.
@@ -83,29 +106,6 @@ implements org.j8unit.repository.java.io.PipedInputStreamClassTests<PipedInputSt
         // create new instance
         @SuppressWarnings("unused")
         final PipedInputStream sut = null; // = new PipedInputStream(java.io.PipedOutputStream, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.io.PipedInputStream#PipedInputStream(java.io.PipedOutputStream) public
-     * java.io.PipedInputStream(java.io.PipedOutputStream) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_PipedInputStream_PipedOutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final PipedInputStream sut = null; // = new PipedInputStream(java.io.PipedOutputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PipedInputStream]

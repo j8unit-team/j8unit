@@ -63,28 +63,6 @@ implements org.j8unit.repository.java.nio.file.FileSystemsClassTests<FileSystems
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.FileSystems#newFileSystem(java.nio.file.Path, ClassLoader) public static
-     * java.nio.file.FileSystem java.nio.file.FileSystems.newFileSystem(java.nio.file.Path,java.lang.ClassLoader) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_newFileSystem_Path_ClassLoader()
-    throws Exception {
-        // write some test for {@link java.nio.file.FileSystems#newFileSystem(java.nio.file.Path, ClassLoader)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.FileSystems#newFileSystem(java.net.URI, java.util.Map, ClassLoader) public static
      * java.nio.file.FileSystem java.nio.file.FileSystems.newFileSystem(java.net.URI,java.util.Map<java.lang.String,
      * ?>,java.lang.ClassLoader) throws java.io.IOException}.
@@ -102,6 +80,28 @@ implements org.j8unit.repository.java.nio.file.FileSystemsClassTests<FileSystems
     public void test_newFileSystem_URI_Map_ClassLoader()
     throws Exception {
         // write some test for {@link java.nio.file.FileSystems#newFileSystem(java.net.URI, java.util.Map, ClassLoader)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.FileSystems#newFileSystem(java.nio.file.Path, ClassLoader) public static
+     * java.nio.file.FileSystem java.nio.file.FileSystems.newFileSystem(java.nio.file.Path,java.lang.ClassLoader) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_newFileSystem_Path_ClassLoader()
+    throws Exception {
+        // write some test for {@link java.nio.file.FileSystems#newFileSystem(java.nio.file.Path, ClassLoader)}
     }
 
     /**

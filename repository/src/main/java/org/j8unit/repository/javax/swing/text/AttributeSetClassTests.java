@@ -9,7 +9,7 @@ import javax.swing.text.AttributeSet.ParagraphAttribute;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -62,7 +62,7 @@ extends RepositoryClassTests<SUT> {
      *
      * @since 0.9.2
      */
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -78,7 +78,7 @@ extends RepositoryClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ColorAttribute public abstract static interface javax.swing.text.AttributeSet$ColorAttribute}.
+     * {@link CharacterAttribute public abstract static interface javax.swing.text.AttributeSet$CharacterAttribute}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -86,7 +86,7 @@ extends RepositoryClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests}.
+     * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests}.
      * </p>
      *
      * <p>
@@ -114,27 +114,27 @@ extends RepositoryClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ColorAttributeClassTests<SUT extends ColorAttribute>
+    public static abstract interface CharacterAttributeClassTests<SUT extends CharacterAttribute>
     extends RepositoryClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ColorAttribute.class!",
-                              ColorAttribute.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CharacterAttribute.class!",
+                              CharacterAttribute.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
     }
 
@@ -188,7 +188,7 @@ extends RepositoryClassTests<SUT> {
          *
          * @since 0.9.2
          */
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -252,7 +252,7 @@ extends RepositoryClassTests<SUT> {
          *
          * @since 0.9.2
          */
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -270,7 +270,7 @@ extends RepositoryClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link CharacterAttribute public abstract static interface javax.swing.text.AttributeSet$CharacterAttribute}.
+     * {@link ColorAttribute public abstract static interface javax.swing.text.AttributeSet$ColorAttribute}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -278,7 +278,7 @@ extends RepositoryClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests}.
+     * {@link org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests}.
      * </p>
      *
      * <p>
@@ -306,27 +306,27 @@ extends RepositoryClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CharacterAttributeClassTests<SUT extends CharacterAttribute>
+    public static abstract interface ColorAttributeClassTests<SUT extends ColorAttribute>
     extends RepositoryClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CharacterAttribute.class!",
-                              CharacterAttribute.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ColorAttribute.class!",
+                              ColorAttribute.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
     }
 

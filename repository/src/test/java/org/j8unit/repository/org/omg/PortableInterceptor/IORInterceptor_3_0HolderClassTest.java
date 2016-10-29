@@ -22,28 +22,6 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#IORInterceptor_3_0Holder() public
-     * org.omg.PortableInterceptor.IORInterceptor_3_0Holder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_IORInterceptor_3_0Holder()
-    throws Exception {
-        // create new instance
-        final IORInterceptor_3_0Holder sut = new IORInterceptor_3_0Holder();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0)
      * public org.omg.PortableInterceptor.IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0)}.
      *
@@ -63,6 +41,28 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
         @SuppressWarnings("unused")
         final IORInterceptor_3_0Holder sut = null; // = new
                                                    // IORInterceptor_3_0Holder(org.omg.PortableInterceptor.IORInterceptor_3_0);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#IORInterceptor_3_0Holder() public
+     * org.omg.PortableInterceptor.IORInterceptor_3_0Holder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_IORInterceptor_3_0Holder()
+    throws Exception {
+        // create new instance
+        final IORInterceptor_3_0Holder sut = new IORInterceptor_3_0Holder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]

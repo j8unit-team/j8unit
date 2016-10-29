@@ -35,31 +35,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStoreSpi#engineSetKeyEntry(String, byte[], java.security.cert.Certificate[]) public
-     * abstract void
-     * java.security.KeyStoreSpi.engineSetKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
-     * java.security.KeyStoreException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_engineSetKeyEntry_String_byteArray_CertificateArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.KeyStoreSpi#engineSetKeyEntry(String, java.security.Key, char[], java.security.cert.Certificate[])
      * public abstract void
      * java.security.KeyStoreSpi.engineSetKeyEntry(java.lang.String,java.security.Key,char[],java.security.cert.Certificate[])
@@ -76,6 +51,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_engineSetKeyEntry_String_Key_charArray_CertificateArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineSetKeyEntry(String, byte[], java.security.cert.Certificate[]) public
+     * abstract void
+     * java.security.KeyStoreSpi.engineSetKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
+     * java.security.KeyStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_engineSetKeyEntry_String_byteArray_CertificateArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,6 +107,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetCertificate(String) public abstract java.security.cert.Certificate
+     * java.security.KeyStoreSpi.engineGetCertificate(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_engineGetCertificate_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.security.KeyStoreSpi#engineGetCertificateChain(String) public abstract
      * java.security.cert.Certificate[] java.security.KeyStoreSpi.engineGetCertificateChain(java.lang.String)}.
      *
@@ -129,9 +152,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStoreSpi#engineGetCertificate(String) public abstract java.security.cert.Certificate
-     * java.security.KeyStoreSpi.engineGetCertificate(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.security.KeyStoreSpi#engineDeleteEntry(String)
+     * public abstract void java.security.KeyStoreSpi.engineDeleteEntry(java.lang.String) throws
+     * java.security.KeyStoreException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -143,7 +166,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_engineGetCertificate_String()
+    public default void test_engineDeleteEntry_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -177,33 +200,11 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.KeyStoreSpi#engineDeleteEntry(String)
-     * public abstract void java.security.KeyStoreSpi.engineDeleteEntry(java.lang.String) throws
-     * java.security.KeyStoreException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_engineDeleteEntry_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStoreSpi#engineStore(java.security.KeyStore.LoadStoreParameter) public void
-     * java.security.KeyStoreSpi.engineStore(java.security.KeyStore$LoadStoreParameter) throws
-     * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
+     * {@link java.security.KeyStoreSpi#engineGetEntry(String, java.security.KeyStore.ProtectionParameter) public
+     * java.security.KeyStore$Entry
+     * java.security.KeyStoreSpi.engineGetEntry(java.lang.String,java.security.KeyStore$ProtectionParameter) throws
+     * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableEntryException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -215,7 +216,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_engineStore_LoadStoreParameter()
+    public default void test_engineGetEntry_String_ProtectionParameter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -249,11 +250,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStoreSpi#engineGetEntry(String, java.security.KeyStore.ProtectionParameter) public
-     * java.security.KeyStore$Entry
-     * java.security.KeyStoreSpi.engineGetEntry(java.lang.String,java.security.KeyStore$ProtectionParameter) throws
-     * java.security.KeyStoreException,java.security.NoSuchAlgorithmException,java.security.UnrecoverableEntryException}
-     * .
+     * {@link java.security.KeyStoreSpi#engineStore(java.security.KeyStore.LoadStoreParameter) public void
+     * java.security.KeyStoreSpi.engineStore(java.security.KeyStore$LoadStoreParameter) throws
+     * java.io.IOException,java.security.NoSuchAlgorithmException,java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -265,7 +264,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_engineGetEntry_String_ProtectionParameter()
+    public default void test_engineStore_LoadStoreParameter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -415,6 +414,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStoreSpi#engineGetCreationDate(String) public abstract java.util.Date
+     * java.security.KeyStoreSpi.engineGetCreationDate(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_engineGetCreationDate_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.security.KeyStoreSpi#engineGetKey(String, char[]) public abstract java.security.Key
      * java.security.KeyStoreSpi.engineGetKey(java.lang.String,char[]) throws
      * java.security.NoSuchAlgorithmException,java.security.UnrecoverableKeyException}.
@@ -430,29 +452,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_engineGetKey_String_charArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStoreSpi#engineGetCreationDate(String) public abstract java.util.Date
-     * java.security.KeyStoreSpi.engineGetCreationDate(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_engineGetCreationDate_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

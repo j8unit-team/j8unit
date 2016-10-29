@@ -21,10 +21,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.table.TableColumn#TableColumn(int, int, javax.swing.table.TableCellRenderer, javax.swing.table.TableCellEditor)
-     * public
-     * javax.swing.table.TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn()
+     * public javax.swing.table.TableColumn()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,34 +34,10 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TableColumn_int_int_TableCellRenderer_TableCellEditor()
+    public void create_TableColumn()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final TableColumn sut = null; // = new TableColumn(int, int, javax.swing.table.TableCellRenderer,
-                                      // javax.swing.table.TableCellEditor);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.table.TableColumn#TableColumn(int, int) public javax.swing.table.TableColumn(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TableColumn_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TableColumn sut = null; // = new TableColumn(int, int);
+        final TableColumn sut = new TableColumn();
     }
 
     /**
@@ -90,8 +64,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn()
-     * public javax.swing.table.TableColumn()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.table.TableColumn#TableColumn(int, int) public javax.swing.table.TableColumn(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,10 +77,36 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TableColumn()
+    public void create_TableColumn_int_int()
     throws Exception {
         // create new instance
-        final TableColumn sut = new TableColumn();
+        @SuppressWarnings("unused")
+        final TableColumn sut = null; // = new TableColumn(int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.table.TableColumn#TableColumn(int, int, javax.swing.table.TableCellRenderer, javax.swing.table.TableCellEditor)
+     * public
+     * javax.swing.table.TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TableColumn_int_int_TableCellRenderer_TableCellEditor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TableColumn sut = null; // = new TableColumn(int, int, javax.swing.table.TableCellRenderer,
+                                      // javax.swing.table.TableCellEditor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableColumn]

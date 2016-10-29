@@ -135,8 +135,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.invoke.MethodHandles#throwException(Class, Class) public static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.throwException(java.lang.Class<?>,java.lang.Class<? extends java.lang.Throwable>)}
-     * .
+     * java.lang.invoke.MethodHandles.throwException(java.lang.Class<?>,java.lang.Class<? extends
+     * java.lang.Throwable>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,8 +179,7 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.invoke.MethodHandles#filterArguments(java.lang.invoke.MethodHandle, int, java.lang.invoke.MethodHandle...)
      * public static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.filterArguments(java.lang.invoke.MethodHandle,int,java.lang.invoke.MethodHandle...)}
-     * .
+     * java.lang.invoke.MethodHandles.filterArguments(java.lang.invoke.MethodHandle,int,java.lang.invoke.MethodHandle...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,9 +262,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodHandles#dropArguments(java.lang.invoke.MethodHandle, int, Class...) public static
-     * java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.dropArguments(java.lang.invoke.MethodHandle,int,java.lang.Class<?>...)}.
+     * {@link java.lang.invoke.MethodHandles#arrayElementSetter(Class) public static java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandles.arrayElementSetter(java.lang.Class<?>) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,10 +275,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_dropArguments_MethodHandle_int_ClassArray()
+    public void test_arrayElementSetter_Class()
     throws Exception {
-        // write some test for {@link java.lang.invoke.MethodHandles#dropArguments(java.lang.invoke.MethodHandle, int,
-        // Class...)}
+        // write some test for {@link java.lang.invoke.MethodHandles#arrayElementSetter(Class)}
     }
 
     /**
@@ -288,8 +285,7 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.invoke.MethodHandles#dropArguments(java.lang.invoke.MethodHandle, int, java.util.List) public
      * static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.dropArguments(java.lang.invoke.MethodHandle,int,java.util.List<java.lang.Class
-     * <?>>)}.
+     * java.lang.invoke.MethodHandles.dropArguments(java.lang.invoke.MethodHandle,int,java.util.List<java.lang.Class<?>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -310,8 +306,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodHandles#arrayElementSetter(Class) public static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.arrayElementSetter(java.lang.Class<?>) throws java.lang.IllegalArgumentException}.
+     * {@link java.lang.invoke.MethodHandles#dropArguments(java.lang.invoke.MethodHandle, int, Class...) public static
+     * java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandles.dropArguments(java.lang.invoke.MethodHandle,int,java.lang.Class<?>...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -323,9 +320,10 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_arrayElementSetter_Class()
+    public void test_dropArguments_MethodHandle_int_ClassArray()
     throws Exception {
-        // write some test for {@link java.lang.invoke.MethodHandles#arrayElementSetter(Class)}
+        // write some test for {@link java.lang.invoke.MethodHandles#dropArguments(java.lang.invoke.MethodHandle, int,
+        // Class...)}
     }
 
     /**
@@ -374,30 +372,6 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodHandles#collectArguments(java.lang.invoke.MethodHandle, int, java.lang.invoke.MethodHandle)
-     * public static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.collectArguments(java.lang.invoke.MethodHandle,int,java.lang.invoke.MethodHandle)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_collectArguments_MethodHandle_int_MethodHandle()
-    throws Exception {
-        // write some test for {@link java.lang.invoke.MethodHandles#collectArguments(java.lang.invoke.MethodHandle,
-        // int, java.lang.invoke.MethodHandle)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodHandles#publicLookup() public
      * static java.lang.invoke.MethodHandles$Lookup java.lang.invoke.MethodHandles.publicLookup()}.
      *
@@ -419,10 +393,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodHandles#guardWithTest(java.lang.invoke.MethodHandle, java.lang.invoke.MethodHandle, java.lang.invoke.MethodHandle)
+     * {@link java.lang.invoke.MethodHandles#collectArguments(java.lang.invoke.MethodHandle, int, java.lang.invoke.MethodHandle)
      * public static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.guardWithTest(java.lang.invoke.MethodHandle,java.lang.invoke.MethodHandle,java.lang.invoke.MethodHandle)}
-     * .
+     * java.lang.invoke.MethodHandles.collectArguments(java.lang.invoke.MethodHandle,int,java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -434,10 +407,10 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_guardWithTest_MethodHandle_MethodHandle_MethodHandle()
+    public void test_collectArguments_MethodHandle_int_MethodHandle()
     throws Exception {
-        // write some test for {@link java.lang.invoke.MethodHandles#guardWithTest(java.lang.invoke.MethodHandle,
-        // java.lang.invoke.MethodHandle, java.lang.invoke.MethodHandle)}
+        // write some test for {@link java.lang.invoke.MethodHandles#collectArguments(java.lang.invoke.MethodHandle,
+        // int, java.lang.invoke.MethodHandle)}
     }
 
     /**
@@ -464,10 +437,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodHandles#permuteArguments(java.lang.invoke.MethodHandle, java.lang.invoke.MethodType, int...)
+     * {@link java.lang.invoke.MethodHandles#guardWithTest(java.lang.invoke.MethodHandle, java.lang.invoke.MethodHandle, java.lang.invoke.MethodHandle)
      * public static java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandles.permuteArguments(java.lang.invoke.MethodHandle,java.lang.invoke.MethodType,int...)}
-     * .
+     * java.lang.invoke.MethodHandles.guardWithTest(java.lang.invoke.MethodHandle,java.lang.invoke.MethodHandle,java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -479,10 +451,10 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_permuteArguments_MethodHandle_MethodType_intArray()
+    public void test_guardWithTest_MethodHandle_MethodHandle_MethodHandle()
     throws Exception {
-        // write some test for {@link java.lang.invoke.MethodHandles#permuteArguments(java.lang.invoke.MethodHandle,
-        // java.lang.invoke.MethodType, int...)}
+        // write some test for {@link java.lang.invoke.MethodHandles#guardWithTest(java.lang.invoke.MethodHandle,
+        // java.lang.invoke.MethodHandle, java.lang.invoke.MethodHandle)}
     }
 
     /**
@@ -507,6 +479,29 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
         // write some test for {@link
         // java.lang.invoke.MethodHandles#explicitCastArguments(java.lang.invoke.MethodHandle,
         // java.lang.invoke.MethodType)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodHandles#permuteArguments(java.lang.invoke.MethodHandle, java.lang.invoke.MethodType, int...)
+     * public static java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandles.permuteArguments(java.lang.invoke.MethodHandle,java.lang.invoke.MethodType,int...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_permuteArguments_MethodHandle_MethodType_intArray()
+    throws Exception {
+        // write some test for {@link java.lang.invoke.MethodHandles#permuteArguments(java.lang.invoke.MethodHandle,
+        // java.lang.invoke.MethodType, int...)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandles]

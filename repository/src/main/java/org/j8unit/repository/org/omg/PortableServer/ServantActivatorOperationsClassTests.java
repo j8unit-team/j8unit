@@ -2,7 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ServantActivatorOperations;
 
@@ -57,7 +57,7 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsCla
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

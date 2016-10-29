@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferUShortClassTests<DataB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][], int, int[]) public
-     * java.awt.image.DataBufferUShort(short[][],int,int[])}.
+     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[], int) public
+     * java.awt.image.DataBufferUShort(short[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,57 +35,11 @@ implements org.j8unit.repository.java.awt.image.DataBufferUShortClassTests<DataB
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DataBufferUShort_shortArrayArray_int_intArray()
+    public void create_DataBufferUShort_shortArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DataBufferUShort sut = null; // = new DataBufferUShort(short[][], int, int[]);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][], int) public
-     * java.awt.image.DataBufferUShort(short[][],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DataBufferUShort_shortArrayArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DataBufferUShort sut = null; // = new DataBufferUShort(short[][], int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[], int, int) public
-     * java.awt.image.DataBufferUShort(short[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DataBufferUShort_shortArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DataBufferUShort sut = null; // = new DataBufferUShort(short[], int, int);
+        final DataBufferUShort sut = null; // = new DataBufferUShort(short[], int);
     }
 
     /**
@@ -136,8 +90,8 @@ implements org.j8unit.repository.java.awt.image.DataBufferUShortClassTests<DataB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[], int) public
-     * java.awt.image.DataBufferUShort(short[],int)}.
+     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[], int, int) public
+     * java.awt.image.DataBufferUShort(short[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -149,11 +103,57 @@ implements org.j8unit.repository.java.awt.image.DataBufferUShortClassTests<DataB
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DataBufferUShort_shortArray_int()
+    public void create_DataBufferUShort_shortArray_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DataBufferUShort sut = null; // = new DataBufferUShort(short[], int);
+        final DataBufferUShort sut = null; // = new DataBufferUShort(short[], int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][], int) public
+     * java.awt.image.DataBufferUShort(short[][],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DataBufferUShort_shortArrayArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DataBufferUShort sut = null; // = new DataBufferUShort(short[][], int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][], int, int[]) public
+     * java.awt.image.DataBufferUShort(short[][],int,int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DataBufferUShort_shortArrayArray_int_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DataBufferUShort sut = null; // = new DataBufferUShort(short[][], int, int[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.DataBufferUShort]

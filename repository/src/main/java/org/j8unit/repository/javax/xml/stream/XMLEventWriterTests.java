@@ -58,6 +58,31 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLEventWriter#add(javax.xml.stream.events.XMLEvent) public abstract void
+     * javax.xml.stream.XMLEventWriter.add(javax.xml.stream.events.XMLEvent) throws
+     * javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_XMLEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLEventWriter#add(javax.xml.stream.XMLEventReader) public abstract void
      * javax.xml.stream.XMLEventWriter.add(javax.xml.stream.XMLEventReader) throws javax.xml.stream.XMLStreamException}.
      *
@@ -81,34 +106,9 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLEventWriter#add(javax.xml.stream.events.XMLEvent) public abstract void
-     * javax.xml.stream.XMLEventWriter.add(javax.xml.stream.events.XMLEvent) throws javax.xml.stream.XMLStreamException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_add_XMLEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLEventWriter#setDefaultNamespace(String) public abstract void
-     * javax.xml.stream.XMLEventWriter.setDefaultNamespace(java.lang.String) throws javax.xml.stream.XMLStreamException}
-     * .
+     * javax.xml.stream.XMLEventWriter.setDefaultNamespace(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,6 +121,28 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDefaultNamespace_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLEventWriter#flush() public
+     * abstract void javax.xml.stream.XMLEventWriter.flush() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,28 +167,6 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setNamespaceContext_NamespaceContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLEventWriter#flush() public
-     * abstract void javax.xml.stream.XMLEventWriter.flush() throws javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

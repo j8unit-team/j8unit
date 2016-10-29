@@ -23,21 +23,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<StyleConst
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants]
 
     @RunWith(J8Unit4.class)
-    public static class ParagraphConstantsTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests<ParagraphConstants> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
-
-        @Override
-        public ParagraphConstants createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.ParagraphConstants], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class CharacterConstantsTest
     implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests<CharacterConstants> {
 
@@ -79,6 +64,21 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<StyleConst
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ParagraphConstantsTest
+    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests<ParagraphConstants> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+        @Override
+        public ParagraphConstants createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.ParagraphConstants], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
 
     }
 

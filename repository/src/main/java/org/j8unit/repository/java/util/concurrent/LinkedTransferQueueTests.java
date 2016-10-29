@@ -108,8 +108,8 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.LinkedTransferQueue#spliterator() public java.util.Spliterator
-     * <E> java.util.concurrent.LinkedTransferQueue.spliterator()}.
+     * {@link java.util.concurrent.LinkedTransferQueue#spliterator() public java.util.Spliterator<E>
+     * java.util.concurrent.LinkedTransferQueue.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -202,6 +202,29 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#peek()
+     * public E java.util.concurrent.LinkedTransferQueue.peek()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_peek()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.LinkedTransferQueue#hasWaitingConsumer() public boolean
      * java.util.concurrent.LinkedTransferQueue.hasWaitingConsumer()}.
@@ -218,29 +241,6 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_hasWaitingConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.LinkedTransferQueue#peek()
-     * public E java.util.concurrent.LinkedTransferQueue.peek()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_peek()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -297,30 +297,6 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.LinkedTransferQueue#drainTo(java.util.Collection, int) public int
-     * java.util.concurrent.LinkedTransferQueue.drainTo(java.util.Collection<? super E>,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_drainTo_Collection_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.LinkedTransferQueue#drainTo(java.util.Collection) public int
      * java.util.concurrent.LinkedTransferQueue.drainTo(java.util.Collection<? super E>)}.
      *
@@ -336,6 +312,30 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_drainTo_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#drainTo(java.util.Collection, int) public int
+     * java.util.concurrent.LinkedTransferQueue.drainTo(java.util.Collection<? super E>,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_drainTo_Collection_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -439,30 +439,6 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.LinkedTransferQueue#offer(Object) public boolean
-     * java.util.concurrent.LinkedTransferQueue.offer(E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_offer_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.LinkedTransferQueue#offer(Object, long, java.util.concurrent.TimeUnit) public boolean
      * java.util.concurrent.LinkedTransferQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
      *
@@ -478,6 +454,30 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_offer_Object_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.LinkedTransferQueue#offer(Object) public boolean
+     * java.util.concurrent.LinkedTransferQueue.offer(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_offer_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -21,6 +21,28 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, int, int) public
+     * java.awt.Color(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Color_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Color sut = null; // = new Color(int, int, int);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.Color#Color(float, float, float, float) public java.awt.Color(float,float,float,float)}.
      *
@@ -39,50 +61,6 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
         // create new instance
         @SuppressWarnings("unused")
         final Color sut = null; // = new Color(float, float, float, float);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int) public
-     * java.awt.Color(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Color_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Color sut = null; // = new Color(int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, boolean) public
-     * java.awt.Color(int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Color_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Color sut = null; // = new Color(int, boolean);
     }
 
     /**
@@ -109,8 +87,8 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, int, int) public
-     * java.awt.Color(int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int, boolean) public
+     * java.awt.Color(int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,11 +100,11 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Color_int_int_int()
+    public void create_Color_int_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Color sut = null; // = new Color(int, int, int);
+        final Color sut = null; // = new Color(int, boolean);
     }
 
     /**
@@ -176,6 +154,48 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Color#Color(int) public
+     * java.awt.Color(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Color_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Color sut = null; // = new Color(int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColor(String) public static
+     * java.awt.Color java.awt.Color.getColor(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getColor_String()
+    throws Exception {
+        // write some test for {@link java.awt.Color#getColor(String)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColor(String, int) public static
      * java.awt.Color java.awt.Color.getColor(java.lang.String,int)}.
      *
@@ -212,26 +232,6 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
     public void test_getColor_String_Color()
     throws Exception {
         // write some test for {@link java.awt.Color#getColor(String, java.awt.Color)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Color#getColor(String) public static
-     * java.awt.Color java.awt.Color.getColor(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getColor_String()
-    throws Exception {
-        // write some test for {@link java.awt.Color#getColor(String)}
     }
 
     /**

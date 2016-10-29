@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMValidateContextCla
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#DOMValidateContext(java.security.Key, org.w3c.dom.Node)
+     * public javax.xml.crypto.dsig.dom.DOMValidateContext(java.security.Key,org.w3c.dom.Node)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DOMValidateContext_Key_Node()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DOMValidateContext sut = null; // = new DOMValidateContext(java.security.Key, org.w3c.dom.Node);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#DOMValidateContext(javax.xml.crypto.KeySelector, org.w3c.dom.Node)
      * public javax.xml.crypto.dsig.dom.DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)}.
      *
@@ -41,29 +64,6 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMValidateContextCla
         @SuppressWarnings("unused")
         final DOMValidateContext sut = null; // = new DOMValidateContext(javax.xml.crypto.KeySelector,
                                              // org.w3c.dom.Node);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#DOMValidateContext(java.security.Key, org.w3c.dom.Node)
-     * public javax.xml.crypto.dsig.dom.DOMValidateContext(java.security.Key,org.w3c.dom.Node)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DOMValidateContext_Key_Node()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DOMValidateContext sut = null; // = new DOMValidateContext(java.security.Key, org.w3c.dom.Node);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMValidateContext]

@@ -316,8 +316,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link Object#hashCode() class java.lang.Object}</li>
      * <li>{@link java.util.Map#hashCode() interface java.util.Map} (via parent node(s) {@link Bindings Bindings})</li>
+     * <li>{@link Object#hashCode() class java.lang.Object}</li>
      * </ul>
      *
      * <p>
@@ -334,8 +334,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
     @Category(Draft.class)
     public default void test_hashCode()
     throws Exception {
-        org.j8unit.repository.java.lang.ObjectTests.super.test_hashCode();
         org.j8unit.repository.javax.script.BindingsTests.super.test_hashCode();
+        org.j8unit.repository.java.lang.ObjectTests.super.test_hashCode();
     }
 
     /**
@@ -344,9 +344,9 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link java.util.Map#equals(Object) interface java.util.Map} (via parent node(s) {@link Bindings
+     * Bindings})</li>
      * <li>{@link Object#equals(Object) class java.lang.Object}</li>
-     * <li>{@link java.util.Map#equals(Object) interface java.util.Map} (via parent node(s) {@link Bindings Bindings})
-     * </li>
      * </ul>
      *
      * <p>
@@ -363,8 +363,8 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
     @Category(Draft.class)
     public default void test_equals_Object()
     throws Exception {
-        org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
         org.j8unit.repository.javax.script.BindingsTests.super.test_equals_Object();
+        org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleBindings]

@@ -61,29 +61,6 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#preDeregister() public
-     * void javax.management.loading.MLet.preDeregister() throws java.lang.Exception}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#postDeregister()
      * public void javax.management.loading.MLet.postDeregister()}.
      *
@@ -107,9 +84,32 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#preDeregister() public
+     * void javax.management.loading.MLet.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_preDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.loading.MLet#getMBeansFromURL(String) public java.util.Set
-     * <java.lang.Object> javax.management.loading.MLet.getMBeansFromURL(java.lang.String) throws
+     * {@link javax.management.loading.MLet#getMBeansFromURL(String) public java.util.Set<java.lang.Object>
+     * javax.management.loading.MLet.getMBeansFromURL(java.lang.String) throws
      * javax.management.ServiceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -133,9 +133,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.loading.MLet#getMBeansFromURL(java.net.URL) public java.util.Set
-     * <java.lang.Object> javax.management.loading.MLet.getMBeansFromURL(java.net.URL) throws
-     * javax.management.ServiceNotFoundException}.
+     * {@link javax.management.loading.MLet#getMBeansFromURL(java.net.URL) public java.util.Set<java.lang.Object>
+     * javax.management.loading.MLet.getMBeansFromURL(java.net.URL) throws javax.management.ServiceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -159,9 +158,9 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.loading.MLet#loadClass(String, javax.management.loading.ClassLoaderRepository) public
-     * synchronized java.lang.Class
-     * <?> javax.management.loading.MLet.loadClass(java.lang.String,javax.management.loading.ClassLoaderRepository)
-     * throws java.lang.ClassNotFoundException}.
+     * synchronized java.lang.Class<?>
+     * javax.management.loading.MLet.loadClass(java.lang.String,javax.management.loading.ClassLoaderRepository) throws
+     * java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -229,6 +228,52 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#addURL(String) public
+     * void javax.management.loading.MLet.addURL(java.lang.String) throws javax.management.ServiceNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addURL_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#addURL(java.net.URL)
+     * public void javax.management.loading.MLet.addURL(java.net.URL)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addURL_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#getLibraryDirectory()
      * public synchronized java.lang.String javax.management.loading.MLet.getLibraryDirectory()}.
      *
@@ -269,52 +314,6 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_readExternal_ObjectInput()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#addURL(String) public
-     * void javax.management.loading.MLet.addURL(java.lang.String) throws javax.management.ServiceNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addURL_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.loading.MLet#addURL(java.net.URL)
-     * public void javax.management.loading.MLet.addURL(java.net.URL)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addURL_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -376,10 +375,10 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.loading.MLetMBean#getResources(String) interface
+     * javax.management.loading.MLetMBean}</li>
      * <li>{@link ClassLoader#getResources(String) class java.lang.ClassLoader} (via parent node(s)
      * {@link URLClassLoader URLClassLoader})</li>
-     * <li>{@link javax.management.loading.MLetMBean#getResources(String) interface javax.management.loading.MLetMBean}
-     * </li>
      * </ul>
      *
      * <p>
@@ -396,8 +395,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResources_String()
     throws Exception {
-        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResources_String();
         org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResources_String();
+        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResources_String();
     }
 
     /**
@@ -406,9 +405,9 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.net.URLClassLoader#getResourceAsStream(String) class java.net.URLClassLoader}</li>
      * <li>{@link javax.management.loading.MLetMBean#getResourceAsStream(String) interface
      * javax.management.loading.MLetMBean}</li>
+     * <li>{@link java.net.URLClassLoader#getResourceAsStream(String) class java.net.URLClassLoader}</li>
      * </ul>
      *
      * <p>
@@ -425,8 +424,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResourceAsStream_String()
     throws Exception {
-        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResourceAsStream_String();
         org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResourceAsStream_String();
+        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResourceAsStream_String();
     }
 
     /**
@@ -435,10 +434,10 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.loading.MLetMBean#getResource(String) interface
+     * javax.management.loading.MLetMBean}</li>
      * <li>{@link ClassLoader#getResource(String) class java.lang.ClassLoader} (via parent node(s) {@link URLClassLoader
      * URLClassLoader})</li>
-     * <li>{@link javax.management.loading.MLetMBean#getResource(String) interface javax.management.loading.MLetMBean}
-     * </li>
      * </ul>
      *
      * <p>
@@ -455,8 +454,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResource_String()
     throws Exception {
-        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResource_String();
         org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResource_String();
+        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResource_String();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.MLet]

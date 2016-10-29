@@ -21,21 +21,6 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<Def
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
     @RunWith(J8Unit4.class)
-    public static class EditorContainerTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests<EditorContainer> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
-
-        @Override
-        public EditorContainer createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.tree.DefaultTreeCellEditor.EditorContainer], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class DefaultTextFieldTest
     implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests<DefaultTextField> {
 
@@ -47,6 +32,21 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<Def
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class EditorContainerTest
+    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests<EditorContainer> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
+
+        @Override
+        public EditorContainer createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.tree.DefaultTreeCellEditor.EditorContainer], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
 
     }
 

@@ -44,10 +44,32 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.net.Authenticator#requestPasswordAuthentication(java.net.InetAddress, int, String, String, String)
+     * public static java.net.PasswordAuthentication
+     * java.net.Authenticator.requestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_requestPasswordAuthentication_InetAddress_int_String_String_String()
+    throws Exception {
+        // write some test for {@link java.net.Authenticator#requestPasswordAuthentication(java.net.InetAddress, int,
+        // String, String, String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.net.Authenticator#requestPasswordAuthentication(String, java.net.InetAddress, int, String, String, String)
      * public static java.net.PasswordAuthentication
-     * java.net.Authenticator.requestPasswordAuthentication(java.lang.String,java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)}
-     * .
+     * java.net.Authenticator.requestPasswordAuthentication(java.lang.String,java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -70,8 +92,7 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator>
      * Test method for the hereby targeted method-under-test
      * {@link java.net.Authenticator#requestPasswordAuthentication(String, java.net.InetAddress, int, String, String, String, java.net.URL, java.net.Authenticator.RequestorType)
      * public static java.net.PasswordAuthentication
-     * java.net.Authenticator.requestPasswordAuthentication(java.lang.String,java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String,java.net.URL,java.net.Authenticator$RequestorType)}
-     * .
+     * java.net.Authenticator.requestPasswordAuthentication(java.lang.String,java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String,java.net.URL,java.net.Authenticator$RequestorType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,30 +108,6 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator>
     throws Exception {
         // write some test for {@link java.net.Authenticator#requestPasswordAuthentication(String, java.net.InetAddress,
         // int, String, String, String, java.net.URL, java.net.Authenticator.RequestorType)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.net.Authenticator#requestPasswordAuthentication(java.net.InetAddress, int, String, String, String)
-     * public static java.net.PasswordAuthentication
-     * java.net.Authenticator.requestPasswordAuthentication(java.net.InetAddress,int,java.lang.String,java.lang.String,java.lang.String)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_requestPasswordAuthentication_InetAddress_int_String_String_String()
-    throws Exception {
-        // write some test for {@link java.net.Authenticator#requestPasswordAuthentication(java.net.InetAddress, int,
-        // String, String, String)}
     }
 
     /**

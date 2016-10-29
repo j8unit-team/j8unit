@@ -21,6 +21,49 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton(javax.swing.Icon)
+     * public javax.swing.JButton(javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JButton_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JButton sut = null; // = new JButton(javax.swing.Icon);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton() public
+     * javax.swing.JButton()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JButton()
+    throws Exception {
+        // create new instance
+        final JButton sut = new JButton();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JButton#JButton(String, javax.swing.Icon) public
      * javax.swing.JButton(java.lang.String,javax.swing.Icon)}.
@@ -84,49 +127,6 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
         // create new instance
         @SuppressWarnings("unused")
         final JButton sut = null; // = new JButton(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton(javax.swing.Icon)
-     * public javax.swing.JButton(javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JButton_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JButton sut = null; // = new JButton(javax.swing.Icon);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JButton#JButton() public
-     * javax.swing.JButton()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JButton()
-    throws Exception {
-        // create new instance
-        final JButton sut = new JButton();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JButton]

@@ -132,8 +132,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.PKIXCertPathChecker#check(java.security.cert.Certificate, java.util.Collection) public
-     * abstract void java.security.cert.PKIXCertPathChecker.check(java.security.cert.Certificate,java.util.Collection
-     * <java.lang.String>) throws java.security.cert.CertPathValidatorException}.
+     * abstract void
+     * java.security.cert.PKIXCertPathChecker.check(java.security.cert.Certificate,java.util.Collection<java.lang.String>)
+     * throws java.security.cert.CertPathValidatorException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -155,8 +156,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.PKIXCertPathChecker#getSupportedExtensions() public abstract java.util.Set
-     * <java.lang.String> java.security.cert.PKIXCertPathChecker.getSupportedExtensions()}.
+     * {@link java.security.cert.PKIXCertPathChecker#getSupportedExtensions() public abstract
+     * java.util.Set<java.lang.String> java.security.cert.PKIXCertPathChecker.getSupportedExtensions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

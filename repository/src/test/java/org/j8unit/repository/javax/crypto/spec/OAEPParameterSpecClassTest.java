@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecClassTests<O
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.crypto.spec.OAEPParameterSpec#OAEPParameterSpec(String, String, java.security.spec.AlgorithmParameterSpec, javax.crypto.spec.PSource)
      * public
-     * javax.crypto.spec.OAEPParameterSpec(java.lang.String,java.lang.String,java.security.spec.AlgorithmParameterSpec,javax.crypto.spec.PSource)}
-     * .
+     * javax.crypto.spec.OAEPParameterSpec(java.lang.String,java.lang.String,java.security.spec.AlgorithmParameterSpec,javax.crypto.spec.PSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

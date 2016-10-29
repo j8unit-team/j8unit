@@ -106,8 +106,8 @@ implements org.j8unit.repository.java.time.zone.ZoneRulesProviderClassTests<Zone
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.zone.ZoneRulesProvider#getAvailableZoneIds() public static java.util.Set
-     * <java.lang.String> java.time.zone.ZoneRulesProvider.getAvailableZoneIds()}.
+     * {@link java.time.zone.ZoneRulesProvider#getAvailableZoneIds() public static java.util.Set<java.lang.String>
+     * java.time.zone.ZoneRulesProvider.getAvailableZoneIds()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -21,27 +21,6 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests<Princip
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.PrincipalHolder#PrincipalHolder()
-     * public org.omg.CORBA.PrincipalHolder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_PrincipalHolder()
-    throws Exception {
-        // create new instance
-        final PrincipalHolder sut = new PrincipalHolder();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.CORBA.PrincipalHolder#PrincipalHolder(org.omg.CORBA.Principal) public
      * org.omg.CORBA.PrincipalHolder(org.omg.CORBA.Principal)}.
@@ -61,6 +40,27 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests<Princip
         // create new instance
         @SuppressWarnings("unused")
         final PrincipalHolder sut = null; // = new PrincipalHolder(org.omg.CORBA.Principal);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link org.omg.CORBA.PrincipalHolder#PrincipalHolder()
+     * public org.omg.CORBA.PrincipalHolder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_PrincipalHolder()
+    throws Exception {
+        // create new instance
+        final PrincipalHolder sut = new PrincipalHolder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PrincipalHolder]

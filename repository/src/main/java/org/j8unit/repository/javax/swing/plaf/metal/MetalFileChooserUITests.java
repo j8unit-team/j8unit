@@ -61,8 +61,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalFileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser, java.io.File)
-     * public void javax.swing.plaf.metal.MetalFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}
-     * .
+     * public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -432,8 +432,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
      * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests}
-     * ).
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests}).
      * </p>
      *
      * @param SUT
@@ -453,8 +452,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer#getListCellRendererComponent(javax.swing.JList, Object, int, boolean, boolean)
          * public java.awt.Component
-         * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
-         * .
+         * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

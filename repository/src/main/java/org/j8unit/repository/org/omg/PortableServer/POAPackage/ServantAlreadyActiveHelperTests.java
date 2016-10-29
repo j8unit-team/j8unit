@@ -8,8 +8,8 @@ import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
  * <p>
  * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
  * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link ServantAlreadyActiveHelper public abstract class org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper}
- * .
+ * {@link ServantAlreadyActiveHelper public abstract class
+ * org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper}.
  * </p>
  *
  * <p>

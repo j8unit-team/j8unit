@@ -3,7 +3,7 @@ package org.j8unit.repository.javax.management.modelmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.modelmbean.RequiredModelMBean;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -58,7 +58,7 @@ org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

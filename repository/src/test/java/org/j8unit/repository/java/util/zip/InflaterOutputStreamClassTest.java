@@ -46,29 +46,6 @@ implements org.j8unit.repository.java.util.zip.InflaterOutputStreamClassTests<In
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.InflaterOutputStream#InflaterOutputStream(java.io.OutputStream) public
-     * java.util.zip.InflaterOutputStream(java.io.OutputStream)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_InflaterOutputStream_OutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final InflaterOutputStream sut = null; // = new InflaterOutputStream(java.io.OutputStream);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.zip.InflaterOutputStream#InflaterOutputStream(java.io.OutputStream, java.util.zip.Inflater)
      * public java.util.zip.InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater)}.
      *
@@ -88,6 +65,29 @@ implements org.j8unit.repository.java.util.zip.InflaterOutputStreamClassTests<In
         @SuppressWarnings("unused")
         final InflaterOutputStream sut = null; // = new InflaterOutputStream(java.io.OutputStream,
                                                // java.util.zip.Inflater);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.InflaterOutputStream#InflaterOutputStream(java.io.OutputStream) public
+     * java.util.zip.InflaterOutputStream(java.io.OutputStream)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InflaterOutputStream_OutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final InflaterOutputStream sut = null; // = new InflaterOutputStream(java.io.OutputStream);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.InflaterOutputStream]

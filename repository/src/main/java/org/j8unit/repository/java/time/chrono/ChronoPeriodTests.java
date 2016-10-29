@@ -101,6 +101,28 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoPeriod#isZero() public
+     * default boolean java.time.chrono.ChronoPeriod.isZero()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isZero()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.ChronoPeriod#addTo(java.time.temporal.Temporal) public abstract
      * java.time.temporal.Temporal java.time.chrono.ChronoPeriod.addTo(java.time.temporal.Temporal)}.
@@ -125,8 +147,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoPeriod#isZero() public
-     * default boolean java.time.chrono.ChronoPeriod.isZero()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoPeriod#hashCode() public
+     * abstract int java.time.chrono.ChronoPeriod.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -138,7 +160,7 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isZero()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,28 +185,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_subtractFrom_Temporal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ChronoPeriod#hashCode() public
-     * abstract int java.time.chrono.ChronoPeriod.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

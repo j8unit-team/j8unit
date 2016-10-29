@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.xml.transform.TransformerConfigurationExc
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.transform.TransformerConfigurationException#TransformerConfigurationException(String, javax.xml.transform.SourceLocator, Throwable)
      * public
-     * javax.xml.transform.TransformerConfigurationException(java.lang.String,javax.xml.transform.SourceLocator,java.lang.Throwable)}
-     * .
+     * javax.xml.transform.TransformerConfigurationException(java.lang.String,javax.xml.transform.SourceLocator,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -49,8 +48,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerConfigurationExc
      * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.transform.TransformerConfigurationException#TransformerConfigurationException(String, javax.xml.transform.SourceLocator)
-     * public javax.xml.transform.TransformerConfigurationException(java.lang.String,javax.xml.transform.SourceLocator)}
-     * .
+     * public
+     * javax.xml.transform.TransformerConfigurationException(java.lang.String,javax.xml.transform.SourceLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

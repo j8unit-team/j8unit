@@ -177,6 +177,69 @@ implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<StyleCo
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleContext]
 
     @RunWith(J8Unit4.class)
+    public static class SmallAttributeSetClassTest
+    implements org.j8unit.repository.javax.swing.text.StyleContextClassTests.SmallAttributeSetClassTests<SmallAttributeSet> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleContext$SmallAttributeSet]
+
+        @Override
+        public Class<SmallAttributeSet> createNewSUT() {
+            return SmallAttributeSet.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext, javax.swing.text.AttributeSet)
+         * public
+         * javax.swing.text.StyleContext$SmallAttributeSet(javax.swing.text.StyleContext,javax.swing.text.AttributeSet)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_SmallAttributeSet_StyleContext_AttributeSet()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final SmallAttributeSet sut = null; // = new SmallAttributeSet(javax.swing.text.StyleContext,
+                                                // javax.swing.text.AttributeSet);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext, Object[])
+         * public javax.swing.text.StyleContext$SmallAttributeSet(javax.swing.text.StyleContext,java.lang.Object[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_SmallAttributeSet_StyleContext_ObjectArray()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final SmallAttributeSet sut = null; // = new SmallAttributeSet(javax.swing.text.StyleContext, Object[]);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleContext$SmallAttributeSet]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class NamedStyleClassTest
     implements org.j8unit.repository.javax.swing.text.StyleContextClassTests.NamedStyleClassTests<NamedStyle> {
 
@@ -238,8 +301,7 @@ implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<StyleCo
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.text.StyleContext.NamedStyle#NamedStyle(javax.swing.text.StyleContext, String, javax.swing.text.Style)
          * public
-         * javax.swing.text.StyleContext$NamedStyle(javax.swing.text.StyleContext,java.lang.String,javax.swing.text.Style)}
-         * .
+         * javax.swing.text.StyleContext$NamedStyle(javax.swing.text.StyleContext,java.lang.String,javax.swing.text.Style)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -260,70 +322,6 @@ implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<StyleCo
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleContext$NamedStyle]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class SmallAttributeSetClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextClassTests.SmallAttributeSetClassTests<SmallAttributeSet> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleContext$SmallAttributeSet]
-
-        @Override
-        public Class<SmallAttributeSet> createNewSUT() {
-            return SmallAttributeSet.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext, Object[])
-         * public javax.swing.text.StyleContext$SmallAttributeSet(javax.swing.text.StyleContext,java.lang.Object[])}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_SmallAttributeSet_StyleContext_ObjectArray()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final SmallAttributeSet sut = null; // = new SmallAttributeSet(javax.swing.text.StyleContext, Object[]);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.StyleContext.SmallAttributeSet#SmallAttributeSet(javax.swing.text.StyleContext, javax.swing.text.AttributeSet)
-         * public
-         * javax.swing.text.StyleContext$SmallAttributeSet(javax.swing.text.StyleContext,javax.swing.text.AttributeSet)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_SmallAttributeSet_StyleContext_AttributeSet()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final SmallAttributeSet sut = null; // = new SmallAttributeSet(javax.swing.text.StyleContext,
-                                                // javax.swing.text.AttributeSet);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleContext$SmallAttributeSet]
 
     }
 

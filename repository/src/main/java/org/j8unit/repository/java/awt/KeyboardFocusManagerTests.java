@@ -127,6 +127,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyboardFocusManager#clearGlobalFocusOwner() public void
+     * java.awt.KeyboardFocusManager.clearGlobalFocusOwner() throws java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clearGlobalFocusOwner()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.KeyboardFocusManager#getFocusOwner() public
      * java.awt.Component java.awt.KeyboardFocusManager.getFocusOwner()}.
      *
@@ -150,8 +173,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#clearGlobalFocusOwner() public void
-     * java.awt.KeyboardFocusManager.clearGlobalFocusOwner() throws java.lang.SecurityException}.
+     * {@link java.awt.KeyboardFocusManager#focusPreviousComponent(java.awt.Component) public abstract void
+     * java.awt.KeyboardFocusManager.focusPreviousComponent(java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -163,7 +186,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clearGlobalFocusOwner()
+    public default void test_focusPreviousComponent_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyboardFocusManager#focusPreviousComponent() public final void
+     * java.awt.KeyboardFocusManager.focusPreviousComponent()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_focusPreviousComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,52 +266,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#focusPreviousComponent() public final void
-     * java.awt.KeyboardFocusManager.focusPreviousComponent()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_focusPreviousComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#focusPreviousComponent(java.awt.Component) public abstract void
-     * java.awt.KeyboardFocusManager.focusPreviousComponent(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_focusPreviousComponent_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.KeyboardFocusManager#dispatchEvent(java.awt.AWTEvent) public abstract boolean
      * java.awt.KeyboardFocusManager.dispatchEvent(java.awt.AWTEvent)}.
      *
@@ -289,29 +289,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#getPropertyChangeListeners(String) public synchronized
-     * java.beans.PropertyChangeListener[] java.awt.KeyboardFocusManager.getPropertyChangeListeners(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyChangeListeners_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.KeyboardFocusManager#getPropertyChangeListeners() public synchronized
      * java.beans.PropertyChangeListener[] java.awt.KeyboardFocusManager.getPropertyChangeListeners()}.
      *
@@ -326,6 +303,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPropertyChangeListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyboardFocusManager#getPropertyChangeListeners(String) public synchronized
+     * java.beans.PropertyChangeListener[] java.awt.KeyboardFocusManager.getPropertyChangeListeners(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropertyChangeListeners_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -381,6 +381,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyboardFocusManager#removePropertyChangeListener(String, java.beans.PropertyChangeListener)
+     * public void
+     * java.awt.KeyboardFocusManager.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.KeyboardFocusManager#removePropertyChangeListener(java.beans.PropertyChangeListener) public void
      * java.awt.KeyboardFocusManager.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
@@ -403,10 +427,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#removePropertyChangeListener(String, java.beans.PropertyChangeListener)
-     * public void
-     * java.awt.KeyboardFocusManager.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.KeyboardFocusManager#getActiveWindow()
+     * public java.awt.Window java.awt.KeyboardFocusManager.getActiveWindow()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -418,7 +440,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
+    public default void test_getActiveWindow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -473,8 +495,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.KeyboardFocusManager#getActiveWindow()
-     * public java.awt.Window java.awt.KeyboardFocusManager.getActiveWindow()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.KeyboardFocusManager#upFocusCycle() public
+     * final void java.awt.KeyboardFocusManager.upFocusCycle()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -486,7 +508,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getActiveWindow()
+    public default void test_upFocusCycle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -510,28 +532,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_upFocusCycle_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.KeyboardFocusManager#upFocusCycle() public
-     * final void java.awt.KeyboardFocusManager.upFocusCycle()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_upFocusCycle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -611,53 +611,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#getDefaultFocusTraversalKeys(int) public java.util.Set
-     * <java.awt.AWTKeyStroke> java.awt.KeyboardFocusManager.getDefaultFocusTraversalKeys(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultFocusTraversalKeys_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#addPropertyChangeListener(String, java.beans.PropertyChangeListener) public
-     * void java.awt.KeyboardFocusManager.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPropertyChangeListener_String_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.KeyboardFocusManager#addPropertyChangeListener(java.beans.PropertyChangeListener) public void
      * java.awt.KeyboardFocusManager.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      *
@@ -681,9 +634,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#addVetoableChangeListener(String, java.beans.VetoableChangeListener) public
-     * void java.awt.KeyboardFocusManager.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
-     * .
+     * {@link java.awt.KeyboardFocusManager#addPropertyChangeListener(String, java.beans.PropertyChangeListener) public
+     * void
+     * java.awt.KeyboardFocusManager.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -695,7 +648,53 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addVetoableChangeListener_String_VetoableChangeListener()
+    public default void test_addPropertyChangeListener_String_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyboardFocusManager#getDefaultFocusTraversalKeys(int) public
+     * java.util.Set<java.awt.AWTKeyStroke> java.awt.KeyboardFocusManager.getDefaultFocusTraversalKeys(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultFocusTraversalKeys_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.KeyboardFocusManager#addKeyEventDispatcher(java.awt.KeyEventDispatcher) public void
+     * java.awt.KeyboardFocusManager.addKeyEventDispatcher(java.awt.KeyEventDispatcher)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addKeyEventDispatcher_KeyEventDispatcher()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -728,8 +727,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.KeyboardFocusManager#addKeyEventDispatcher(java.awt.KeyEventDispatcher) public void
-     * java.awt.KeyboardFocusManager.addKeyEventDispatcher(java.awt.KeyEventDispatcher)}.
+     * {@link java.awt.KeyboardFocusManager#addVetoableChangeListener(String, java.beans.VetoableChangeListener) public
+     * void
+     * java.awt.KeyboardFocusManager.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -741,7 +741,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addKeyEventDispatcher_KeyEventDispatcher()
+    public default void test_addVetoableChangeListener_String_VetoableChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -102,8 +102,8 @@ extends org.j8unit.repository.java.net.CacheResponseTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.net.SecureCacheResponse#getServerCertificateChain() public abstract java.util.List
-     * <java.security.cert.Certificate> java.net.SecureCacheResponse.getServerCertificateChain() throws
+     * {@link java.net.SecureCacheResponse#getServerCertificateChain() public abstract
+     * java.util.List<java.security.cert.Certificate> java.net.SecureCacheResponse.getServerCertificateChain() throws
      * javax.net.ssl.SSLPeerUnverifiedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.net.CacheResponseTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.net.SecureCacheResponse#getLocalCertificateChain() public abstract java.util.List
-     * <java.security.cert.Certificate> java.net.SecureCacheResponse.getLocalCertificateChain()}.
+     * {@link java.net.SecureCacheResponse#getLocalCertificateChain() public abstract
+     * java.util.List<java.security.cert.Certificate> java.net.SecureCacheResponse.getLocalCertificateChain()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

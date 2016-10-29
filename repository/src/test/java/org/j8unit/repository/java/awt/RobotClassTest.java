@@ -21,27 +21,6 @@ implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Robot#Robot() public java.awt.Robot()
-     * throws java.awt.AWTException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Robot()
-    throws Exception {
-        // create new instance
-        final Robot sut = new Robot();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.awt.Robot#Robot(java.awt.GraphicsDevice)
      * public java.awt.Robot(java.awt.GraphicsDevice) throws java.awt.AWTException}.
      *
@@ -60,6 +39,27 @@ implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
         // create new instance
         @SuppressWarnings("unused")
         final Robot sut = null; // = new Robot(java.awt.GraphicsDevice);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Robot#Robot() public java.awt.Robot()
+     * throws java.awt.AWTException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Robot()
+    throws Exception {
+        // create new instance
+        final Robot sut = new Robot();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Robot]

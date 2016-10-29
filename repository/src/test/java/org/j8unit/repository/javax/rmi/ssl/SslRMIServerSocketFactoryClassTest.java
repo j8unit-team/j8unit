@@ -22,10 +22,8 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory(javax.net.ssl.SSLContext, String[], String[], boolean)
-     * public
-     * javax.rmi.ssl.SslRMIServerSocketFactory(javax.net.ssl.SSLContext,java.lang.String[],java.lang.String[],boolean)
-     * throws java.lang.IllegalArgumentException}.
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory() public
+     * javax.rmi.ssl.SslRMIServerSocketFactory()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,12 +35,10 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SslRMIServerSocketFactory_SSLContext_StringArray_StringArray_boolean()
+    public void create_SslRMIServerSocketFactory()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final SslRMIServerSocketFactory sut = null; // = new SslRMIServerSocketFactory(javax.net.ssl.SSLContext,
-                                                    // String[], String[], boolean);
+        final SslRMIServerSocketFactory sut = new SslRMIServerSocketFactory();
     }
 
     /**
@@ -72,8 +68,10 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory() public
-     * javax.rmi.ssl.SslRMIServerSocketFactory()}.
+     * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory(javax.net.ssl.SSLContext, String[], String[], boolean)
+     * public
+     * javax.rmi.ssl.SslRMIServerSocketFactory(javax.net.ssl.SSLContext,java.lang.String[],java.lang.String[],boolean)
+     * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,10 +83,12 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SslRMIServerSocketFactory()
+    public void create_SslRMIServerSocketFactory_SSLContext_StringArray_StringArray_boolean()
     throws Exception {
         // create new instance
-        final SslRMIServerSocketFactory sut = new SslRMIServerSocketFactory();
+        @SuppressWarnings("unused")
+        final SslRMIServerSocketFactory sut = null; // = new SslRMIServerSocketFactory(javax.net.ssl.SSLContext,
+                                                    // String[], String[], boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]

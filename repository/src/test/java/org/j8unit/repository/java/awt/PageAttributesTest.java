@@ -10,7 +10,6 @@ import java.awt.PageAttributes.PrintQualityType;
 import java.util.concurrent.Callable;
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
-import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.j8unit.util.TestParametersUtil;
 import org.junit.runner.RunWith;
@@ -40,31 +39,8 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes]
 
-    @RunWith(J8Unit4.class)
-    public static class OriginTypeTest
-    implements org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests<OriginType> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(OriginType.PHYSICAL, //
-                                                       OriginType.PRINTABLE);
-        }
-
-        @Parameter(0)
-        public OriginType sut;
-
-        @Override
-        public OriginType createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
-
-    }
-
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class PrintQualityTypeTest
     implements org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests<PrintQualityType> {
 
@@ -89,7 +65,8 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ColorTypeTest
     implements org.j8unit.repository.java.awt.PageAttributesTests.ColorTypeTests<ColorType> {
 
@@ -113,7 +90,33 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class OriginTypeTest
+    implements org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests<OriginType> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(OriginType.PHYSICAL, //
+                                                       OriginType.PRINTABLE);
+        }
+
+        @Parameter(0)
+        public OriginType sut;
+
+        @Override
+        public OriginType createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MediaTypeTest
     implements org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests<MediaType> {
 
@@ -282,7 +285,8 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class OrientationRequestedTypeTest
     implements org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests<OrientationRequestedType> {
 

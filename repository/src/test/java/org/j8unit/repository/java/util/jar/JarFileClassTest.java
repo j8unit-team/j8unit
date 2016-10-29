@@ -22,29 +22,6 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.jar.JarFile#JarFile(java.io.File, boolean, int) public
-     * java.util.jar.JarFile(java.io.File,boolean,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JarFile_File_boolean_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JarFile sut = null; // = new JarFile(java.io.File, boolean, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.jar.JarFile#JarFile(java.io.File, boolean) public java.util.jar.JarFile(java.io.File,boolean)
      * throws java.io.IOException}.
      *
@@ -129,6 +106,29 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
         // create new instance
         @SuppressWarnings("unused")
         final JarFile sut = null; // = new JarFile(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.JarFile#JarFile(java.io.File, boolean, int) public
+     * java.util.jar.JarFile(java.io.File,boolean,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JarFile_File_boolean_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JarFile sut = null; // = new JarFile(java.io.File, boolean, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarFile]

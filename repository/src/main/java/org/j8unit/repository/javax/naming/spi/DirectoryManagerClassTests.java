@@ -3,7 +3,7 @@ package org.j8unit.repository.javax.naming.spi;
 import static org.junit.Assert.assertTrue;
 import javax.naming.spi.DirectoryManager;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

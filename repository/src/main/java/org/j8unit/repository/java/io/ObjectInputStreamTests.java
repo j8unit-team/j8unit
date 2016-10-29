@@ -151,8 +151,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnshared() public
-     * java.lang.Object java.io.ObjectInputStream.readUnshared() throws
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readObject() public final
+     * java.lang.Object java.io.ObjectInputStream.readObject() throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -163,9 +163,10 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_readUnshared()
+    public default void test_readObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -197,8 +198,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readObject() public final
-     * java.lang.Object java.io.ObjectInputStream.readObject() throws
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnshared() public
+     * java.lang.Object java.io.ObjectInputStream.readUnshared() throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -209,33 +210,9 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_readObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#read(byte[], int, int)
-     * public int java.io.ObjectInputStream.read(byte[],int,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_read_byteArray_int_int()
+    public default void test_readUnshared()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,6 +236,29 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#read(byte[], int, int)
+     * public int java.io.ObjectInputStream.read(byte[],int,int) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_read_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -313,29 +313,6 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readByte() public byte
-     * java.io.ObjectInputStream.readByte() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readByte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readInt() public int
      * java.io.ObjectInputStream.readInt() throws java.io.IOException}.
      *
@@ -359,8 +336,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnsignedByte() public
-     * int java.io.ObjectInputStream.readUnsignedByte() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readByte() public byte
+     * java.io.ObjectInputStream.readByte() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -373,7 +350,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_readUnsignedByte()
+    public default void test_readByte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -397,6 +374,29 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUnsignedByte() public
+     * int java.io.ObjectInputStream.readUnsignedByte() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readUnsignedByte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -451,29 +451,6 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readLong() public long
-     * java.io.ObjectInputStream.readLong() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readLong()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readUTF() public
      * java.lang.String java.io.ObjectInputStream.readUTF() throws java.io.IOException}.
      *
@@ -497,6 +474,29 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readLong() public long
+     * java.io.ObjectInputStream.readLong() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readLong()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readShort() public short
      * java.io.ObjectInputStream.readShort() throws java.io.IOException}.
      *
@@ -512,29 +512,6 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_readShort()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readDouble() public double
-     * java.io.ObjectInputStream.readDouble() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readDouble()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -582,6 +559,29 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_readFully_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.ObjectInputStream#readDouble() public double
+     * java.io.ObjectInputStream.readDouble() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readDouble()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -720,29 +720,6 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.io.ObjectInputStream.GetField#defaulted(String) public abstract boolean
-         * java.io.ObjectInputStream$GetField.defaulted(java.lang.String) throws java.io.IOException}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_defaulted_String()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link java.io.ObjectInputStream.GetField#get(String, char) public abstract char
          * java.io.ObjectInputStream$GetField.get(java.lang.String,char) throws java.io.IOException}.
          *
@@ -835,8 +812,8 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.io.ObjectInputStream.GetField#get(String, float) public abstract float
-         * java.io.ObjectInputStream$GetField.get(java.lang.String,float) throws java.io.IOException}.
+         * {@link java.io.ObjectInputStream.GetField#get(String, int) public abstract int
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,int) throws java.io.IOException}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -848,7 +825,7 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_get_String_float()
+        public default void test_get_String_int()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -881,29 +858,6 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.io.ObjectInputStream.GetField#get(String, int) public abstract int
-         * java.io.ObjectInputStream$GetField.get(java.lang.String,int) throws java.io.IOException}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_get_String_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link java.io.ObjectInputStream.GetField#get(String, long) public abstract long
          * java.io.ObjectInputStream$GetField.get(java.lang.String,long) throws java.io.IOException}.
          *
@@ -918,6 +872,52 @@ org.j8unit.repository.java.io.InputStreamTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_get_String_long()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#get(String, float) public abstract float
+         * java.io.ObjectInputStream$GetField.get(java.lang.String,float) throws java.io.IOException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_get_String_float()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.io.ObjectInputStream.GetField#defaulted(String) public abstract boolean
+         * java.io.ObjectInputStream$GetField.defaulted(java.lang.String) throws java.io.IOException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_defaulted_String()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

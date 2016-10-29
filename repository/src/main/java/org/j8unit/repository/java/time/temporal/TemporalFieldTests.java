@@ -58,9 +58,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.temporal.TemporalField#rangeRefinedBy(java.time.temporal.TemporalAccessor) public abstract
-     * java.time.temporal.ValueRange
-     * java.time.temporal.TemporalField.rangeRefinedBy(java.time.temporal.TemporalAccessor)}.
+     * {@link java.time.temporal.TemporalField#getDisplayName(java.util.Locale) public default java.lang.String
+     * java.time.temporal.TemporalField.getDisplayName(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -72,7 +71,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_rangeRefinedBy_TemporalAccessor()
+    public default void test_getDisplayName_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,8 +103,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.temporal.TemporalField#getDisplayName(java.util.Locale) public default java.lang.String
-     * java.time.temporal.TemporalField.getDisplayName(java.util.Locale)}.
+     * {@link java.time.temporal.TemporalField#rangeRefinedBy(java.time.temporal.TemporalAccessor) public abstract
+     * java.time.temporal.ValueRange
+     * java.time.temporal.TemporalField.rangeRefinedBy(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,7 +117,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDisplayName_Locale()
+    public default void test_rangeRefinedBy_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -219,28 +219,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.temporal.TemporalField#getRangeUnit()
-     * public abstract java.time.temporal.TemporalUnit java.time.temporal.TemporalField.getRangeUnit()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRangeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.temporal.TemporalField#toString() public
      * abstract java.lang.String java.time.temporal.TemporalField.toString()}.
      *
@@ -255,6 +233,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.temporal.TemporalField#getRangeUnit()
+     * public abstract java.time.temporal.TemporalUnit java.time.temporal.TemporalField.getRangeUnit()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRangeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

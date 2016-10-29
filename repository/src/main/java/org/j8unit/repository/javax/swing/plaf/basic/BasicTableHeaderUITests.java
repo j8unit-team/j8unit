@@ -257,31 +257,6 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseExited(java.awt.event.MouseEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseExited(java.awt.event.MouseEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_mouseExited_MouseEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseDragged(java.awt.event.MouseEvent)
          * public void
          * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseDragged(java.awt.event.MouseEvent)}.
@@ -298,6 +273,31 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_mouseDragged_MouseEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseExited(java.awt.event.MouseEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseExited(java.awt.event.MouseEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_mouseExited_MouseEvent()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

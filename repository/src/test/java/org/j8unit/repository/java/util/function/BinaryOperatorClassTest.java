@@ -23,9 +23,8 @@ implements org.j8unit.repository.java.util.function.BinaryOperatorClassTests<Bin
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.function.BinaryOperator#minBy(java.util.Comparator) public static
-     * <T> java.util.function.BinaryOperator<T> java.util.function.BinaryOperator.minBy(java.util.Comparator<? super
-     * T>)}.
+     * {@link java.util.function.BinaryOperator#minBy(java.util.Comparator) public static <T>
+     * java.util.function.BinaryOperator<T> java.util.function.BinaryOperator.minBy(java.util.Comparator<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,9 +44,8 @@ implements org.j8unit.repository.java.util.function.BinaryOperatorClassTests<Bin
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.function.BinaryOperator#maxBy(java.util.Comparator) public static
-     * <T> java.util.function.BinaryOperator<T> java.util.function.BinaryOperator.maxBy(java.util.Comparator<? super
-     * T>)}.
+     * {@link java.util.function.BinaryOperator#maxBy(java.util.Comparator) public static <T>
+     * java.util.function.BinaryOperator<T> java.util.function.BinaryOperator.maxBy(java.util.Comparator<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

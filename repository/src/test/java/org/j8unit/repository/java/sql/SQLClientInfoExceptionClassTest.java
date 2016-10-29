@@ -22,32 +22,8 @@ implements org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests<SQLCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(String, java.util.Map, Throwable) public
-     * java.sql.SQLClientInfoException(java.lang.String,java.util.Map<java.lang.String,
-     * java.sql.ClientInfoStatus>,java.lang.Throwable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_SQLClientInfoException_String_Map_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, java.util.Map, Throwable);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(String, String, java.util.Map) public
-     * java.sql.SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map<java.lang.String,
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(String, String, int, java.util.Map) public
+     * java.sql.SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map<java.lang.String,
      * java.sql.ClientInfoStatus>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -60,11 +36,11 @@ implements org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests<SQLCl
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SQLClientInfoException_String_String_Map()
+    public void create_SQLClientInfoException_String_String_int_Map()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, String, java.util.Map);
+        final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, String, int, java.util.Map);
     }
 
     /**
@@ -95,8 +71,8 @@ implements org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests<SQLCl
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(String, String, int, java.util.Map) public
-     * java.sql.SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map<java.lang.String,
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(String, String, java.util.Map) public
+     * java.sql.SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map<java.lang.String,
      * java.sql.ClientInfoStatus>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -109,11 +85,11 @@ implements org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests<SQLCl
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SQLClientInfoException_String_String_int_Map()
+    public void create_SQLClientInfoException_String_String_Map()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, String, int, java.util.Map);
+        final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, String, java.util.Map);
     }
 
     /**
@@ -229,6 +205,30 @@ implements org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests<SQLCl
         // create new instance
         @SuppressWarnings("unused")
         final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, java.util.Map);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(String, java.util.Map, Throwable) public
+     * java.sql.SQLClientInfoException(java.lang.String,java.util.Map<java.lang.String,
+     * java.sql.ClientInfoStatus>,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_SQLClientInfoException_String_Map_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, java.util.Map, Throwable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLClientInfoException]

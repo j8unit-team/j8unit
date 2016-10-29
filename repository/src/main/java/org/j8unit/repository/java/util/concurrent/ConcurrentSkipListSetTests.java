@@ -247,8 +247,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#spliterator() public java.util.Spliterator
-     * <E> java.util.concurrent.ConcurrentSkipListSet.spliterator()}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#spliterator() public java.util.Spliterator<E>
+     * java.util.concurrent.ConcurrentSkipListSet.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,8 +295,32 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#tailSet(Object) public java.util.NavigableSet
-     * <E> java.util.concurrent.ConcurrentSkipListSet.tailSet(E)}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#add(Object) public boolean
+     * java.util.concurrent.ConcurrentSkipListSet.add(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentSkipListSet#tailSet(Object) public java.util.NavigableSet<E>
+     * java.util.concurrent.ConcurrentSkipListSet.tailSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -319,8 +343,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#tailSet(Object, boolean) public java.util.NavigableSet
-     * <E> java.util.concurrent.ConcurrentSkipListSet.tailSet(E,boolean)}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#tailSet(Object, boolean) public java.util.NavigableSet<E>
+     * java.util.concurrent.ConcurrentSkipListSet.tailSet(E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -334,30 +358,6 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     @Test
     @Category(Draft.class)
     public default void test_tailSet_Object_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#add(Object) public boolean
-     * java.util.concurrent.ConcurrentSkipListSet.add(E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_add_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -461,8 +461,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#iterator() public java.util.Iterator
-     * <E> java.util.concurrent.ConcurrentSkipListSet.iterator()}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#iterator() public java.util.Iterator<E>
+     * java.util.concurrent.ConcurrentSkipListSet.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -533,8 +533,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#subSet(Object, Object) public java.util.NavigableSet
-     * <E> java.util.concurrent.ConcurrentSkipListSet.subSet(E,E)}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#subSet(Object, Object) public java.util.NavigableSet<E>
+     * java.util.concurrent.ConcurrentSkipListSet.subSet(E,E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -557,8 +557,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#headSet(Object) public java.util.NavigableSet
-     * <E> java.util.concurrent.ConcurrentSkipListSet.headSet(E)}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#headSet(Object) public java.util.NavigableSet<E>
+     * java.util.concurrent.ConcurrentSkipListSet.headSet(E)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -581,8 +581,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#headSet(Object, boolean) public java.util.NavigableSet
-     * <E> java.util.concurrent.ConcurrentSkipListSet.headSet(E,boolean)}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#headSet(Object, boolean) public java.util.NavigableSet<E>
+     * java.util.concurrent.ConcurrentSkipListSet.headSet(E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -653,8 +653,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#descendingIterator() public java.util.Iterator
-     * <E> java.util.concurrent.ConcurrentSkipListSet.descendingIterator()}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#descendingIterator() public java.util.Iterator<E>
+     * java.util.concurrent.ConcurrentSkipListSet.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -677,8 +677,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#descendingSet() public java.util.NavigableSet
-     * <E> java.util.concurrent.ConcurrentSkipListSet.descendingSet()}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#descendingSet() public java.util.NavigableSet<E>
+     * java.util.concurrent.ConcurrentSkipListSet.descendingSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

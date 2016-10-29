@@ -36,30 +36,6 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.tools.ForwardingJavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject) public
-     * boolean javax.tools.ForwardingJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isSameFile_FileObject_FileObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.tools.ForwardingJavaFileManager#getJavaFileForOutput(javax.tools.JavaFileManager.Location, String, javax.tools.JavaFileObject.Kind, javax.tools.FileObject)
      * public javax.tools.JavaFileObject
      * javax.tools.ForwardingJavaFileManager.getJavaFileForOutput(javax.tools.JavaFileManager$Location,java.lang.String,javax.tools.JavaFileObject$Kind,javax.tools.FileObject)
@@ -77,6 +53,30 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getJavaFileForOutput_Location_String_Kind_FileObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.tools.ForwardingJavaFileManager#isSameFile(javax.tools.FileObject, javax.tools.FileObject) public
+     * boolean javax.tools.ForwardingJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isSameFile_FileObject_FileObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,8 +163,7 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
      * Test method for the hereby targeted method-under-test
      * {@link javax.tools.ForwardingJavaFileManager#inferBinaryName(javax.tools.JavaFileManager.Location, javax.tools.JavaFileObject)
      * public java.lang.String
-     * javax.tools.ForwardingJavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}
-     * .
+     * javax.tools.ForwardingJavaFileManager.inferBinaryName(javax.tools.JavaFileManager$Location,javax.tools.JavaFileObject)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +213,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.tools.ForwardingJavaFileManager#getClassLoader(javax.tools.JavaFileManager.Location) public
-     * java.lang.ClassLoader javax.tools.ForwardingJavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}
-     * .
+     * java.lang.ClassLoader
+     * javax.tools.ForwardingJavaFileManager.getClassLoader(javax.tools.JavaFileManager$Location)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -264,8 +263,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
      * Test method for the hereby targeted method-under-test
      * {@link javax.tools.ForwardingJavaFileManager#list(javax.tools.JavaFileManager.Location, String, java.util.Set, boolean)
      * public java.lang.Iterable<javax.tools.JavaFileObject>
-     * javax.tools.ForwardingJavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set
-     * <javax.tools.JavaFileObject$Kind>,boolean) throws java.io.IOException}.
+     * javax.tools.ForwardingJavaFileManager.list(javax.tools.JavaFileManager$Location,java.lang.String,java.util.Set<javax.tools.JavaFileObject$Kind>,boolean)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,6 +278,29 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_list_Location_String_Set_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingJavaFileManager#close() public
+     * void javax.tools.ForwardingJavaFileManager.close() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -327,29 +349,6 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_handleOption_String_Iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.ForwardingJavaFileManager#close() public
-     * void javax.tools.ForwardingJavaFileManager.close() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

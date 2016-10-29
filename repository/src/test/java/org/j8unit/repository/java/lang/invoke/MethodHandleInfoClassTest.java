@@ -23,8 +23,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests<Met
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.invoke.MethodHandleInfo#toString(int, Class, String, java.lang.invoke.MethodType) public static
-     * java.lang.String java.lang.invoke.MethodHandleInfo.toString(int,java.lang.Class
-     * <?>,java.lang.String,java.lang.invoke.MethodType)}.
+     * java.lang.String
+     * java.lang.invoke.MethodHandleInfo.toString(int,java.lang.Class<?>,java.lang.String,java.lang.invoke.MethodType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

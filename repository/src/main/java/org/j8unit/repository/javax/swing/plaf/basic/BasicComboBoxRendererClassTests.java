@@ -5,7 +5,7 @@ import javax.swing.plaf.basic.BasicComboBoxRenderer;
 import javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -123,7 +123,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance

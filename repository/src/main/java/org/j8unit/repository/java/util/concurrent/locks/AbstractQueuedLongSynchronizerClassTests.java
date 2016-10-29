@@ -5,7 +5,7 @@ import java.util.concurrent.locks.AbstractQueuedLongSynchronizer;
 import java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -60,7 +60,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -84,8 +84,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests.ConditionObjectTests}
-     * .
+     * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests.ConditionObjectTests}.
      * </p>
      *
      * <p>
@@ -125,7 +124,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance

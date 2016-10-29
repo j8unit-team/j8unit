@@ -65,6 +65,127 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfLong
+     * public abstract static interface java.util.PrimitiveIterator$OfLong}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface OfLongTests<SUT extends OfLong>
+    extends org.j8unit.repository.java.util.PrimitiveIteratorTests<SUT, Long, LongConsumer> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfLong#next() public
+         * default java.lang.Long java.util.PrimitiveIterator$OfLong.next()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_next()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfLong#nextLong()
+         * public abstract long java.util.PrimitiveIterator$OfLong.nextLong()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_nextLong()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.Consumer) public default void
+         * java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.Consumer<? super java.lang.Long>)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_forEachRemaining_Consumer()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.LongConsumer) public default
+         * void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_forEachRemaining_LongConsumer()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfDouble
      * public abstract static interface java.util.PrimitiveIterator$OfDouble}.
      * </p>
@@ -114,8 +235,8 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
          * <p>
          * Test method for the hereby targeted method-under-test
          * {@link java.util.PrimitiveIterator.OfDouble#forEachRemaining(java.util.function.Consumer) public default void
-         * java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.Consumer<? super java.lang.Double>)}
-         * .
+         * java.util.PrimitiveIterator$OfDouble.forEachRemaining(java.util.function.Consumer<? super
+         * java.lang.Double>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -303,127 +424,6 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfLong
-     * public abstract static interface java.util.PrimitiveIterator$OfLong}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface OfLongTests<SUT extends OfLong>
-    extends org.j8unit.repository.java.util.PrimitiveIteratorTests<SUT, Long, LongConsumer> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfLong#next() public
-         * default java.lang.Long java.util.PrimitiveIterator$OfLong.next()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_next()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.util.PrimitiveIterator.OfLong#nextLong()
-         * public abstract long java.util.PrimitiveIterator$OfLong.nextLong()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_nextLong()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.LongConsumer) public default
-         * void java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_forEachRemaining_LongConsumer()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.PrimitiveIterator.OfLong#forEachRemaining(java.util.function.Consumer) public default void
-         * java.util.PrimitiveIterator$OfLong.forEachRemaining(java.util.function.Consumer<? super java.lang.Long>)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_forEachRemaining_Consumer()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
 
     }
 

@@ -21,9 +21,8 @@ implements org.j8unit.repository.javax.swing.JFrameClassTests<JFrame> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JFrame#JFrame(String, java.awt.GraphicsConfiguration) public
-     * javax.swing.JFrame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JFrame#JFrame() public
+     * javax.swing.JFrame() throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,33 +34,10 @@ implements org.j8unit.repository.javax.swing.JFrameClassTests<JFrame> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JFrame_String_GraphicsConfiguration()
+    public void create_JFrame()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final JFrame sut = null; // = new JFrame(String, java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JFrame#JFrame(String) public
-     * javax.swing.JFrame(java.lang.String) throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JFrame_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JFrame sut = null; // = new JFrame(String);
+        final JFrame sut = new JFrame();
     }
 
     /**
@@ -89,8 +65,8 @@ implements org.j8unit.repository.javax.swing.JFrameClassTests<JFrame> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JFrame#JFrame() public
-     * javax.swing.JFrame() throws java.awt.HeadlessException}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JFrame#JFrame(String) public
+     * javax.swing.JFrame(java.lang.String) throws java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,10 +78,34 @@ implements org.j8unit.repository.javax.swing.JFrameClassTests<JFrame> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JFrame()
+    public void create_JFrame_String()
     throws Exception {
         // create new instance
-        final JFrame sut = new JFrame();
+        @SuppressWarnings("unused")
+        final JFrame sut = null; // = new JFrame(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JFrame#JFrame(String, java.awt.GraphicsConfiguration) public
+     * javax.swing.JFrame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JFrame_String_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JFrame sut = null; // = new JFrame(String, java.awt.GraphicsConfiguration);
     }
 
     /**

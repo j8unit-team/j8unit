@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanOperation
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(String, java.lang.reflect.Method)
+     * public javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ModelMBeanOperationInfo_String_Method()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ModelMBeanOperationInfo sut = null; // = new ModelMBeanOperationInfo(String, java.lang.reflect.Method);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(javax.management.modelmbean.ModelMBeanOperationInfo)
      * public javax.management.modelmbean.ModelMBeanOperationInfo(javax.management.modelmbean.ModelMBeanOperationInfo)}.
      *
@@ -48,8 +71,7 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanOperation
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(String, String, javax.management.MBeanParameterInfo[], String, int, javax.management.Descriptor)
      * public
-     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}
-     * .
+     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -75,8 +97,7 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanOperation
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(String, String, javax.management.MBeanParameterInfo[], String, int)
      * public
-     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}
-     * .
+     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +122,7 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanOperation
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(String, java.lang.reflect.Method, javax.management.Descriptor)
      * public
-     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method,javax.management.Descriptor)}
-     * .
+     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method,javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,29 +140,6 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanOperation
         @SuppressWarnings("unused")
         final ModelMBeanOperationInfo sut = null; // = new ModelMBeanOperationInfo(String, java.lang.reflect.Method,
                                                   // javax.management.Descriptor);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(String, java.lang.reflect.Method)
-     * public javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ModelMBeanOperationInfo_String_Method()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ModelMBeanOperationInfo sut = null; // = new ModelMBeanOperationInfo(String, java.lang.reflect.Method);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanOperationInfo]

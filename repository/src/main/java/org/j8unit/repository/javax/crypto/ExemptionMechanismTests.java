@@ -79,10 +79,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.AlgorithmParameters) public final
-     * void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.AlgorithmParameters) throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}
-     * .
+     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key) public final void
+     * javax.crypto.ExemptionMechanism.init(java.security.Key) throws
+     * java.security.InvalidKeyException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,7 +93,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_init_Key_AlgorithmParameters()
+    public default void test_init_Key()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,8 +106,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.spec.AlgorithmParameterSpec) public
      * final void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.spec.AlgorithmParameterSpec)
      * throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}
-     * .
+     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,9 +128,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key) public final void
-     * javax.crypto.ExemptionMechanism.init(java.security.Key) throws
-     * java.security.InvalidKeyException,javax.crypto.ExemptionMechanismException}.
+     * {@link javax.crypto.ExemptionMechanism#init(java.security.Key, java.security.AlgorithmParameters) public final
+     * void javax.crypto.ExemptionMechanism.init(java.security.Key,java.security.AlgorithmParameters) throws
+     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -144,7 +142,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_init_Key()
+    public default void test_init_Key_AlgorithmParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

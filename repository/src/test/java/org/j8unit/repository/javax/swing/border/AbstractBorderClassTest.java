@@ -45,8 +45,7 @@ implements org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<Abs
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.border.AbstractBorder#getInteriorRectangle(java.awt.Component, javax.swing.border.Border, int, int, int, int)
      * public static java.awt.Rectangle
-     * javax.swing.border.AbstractBorder.getInteriorRectangle(java.awt.Component,javax.swing.border.Border,int,int,int,int)}
-     * .
+     * javax.swing.border.AbstractBorder.getInteriorRectangle(java.awt.Component,javax.swing.border.Border,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -24,8 +24,7 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageProduc
      * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.image.renderable.RenderableImageProducer#RenderableImageProducer(java.awt.image.renderable.RenderableImage, java.awt.image.renderable.RenderContext)
      * public
-     * java.awt.image.renderable.RenderableImageProducer(java.awt.image.renderable.RenderableImage,java.awt.image.renderable.RenderContext)}
-     * .
+     * java.awt.image.renderable.RenderableImageProducer(java.awt.image.renderable.RenderableImage,java.awt.image.renderable.RenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

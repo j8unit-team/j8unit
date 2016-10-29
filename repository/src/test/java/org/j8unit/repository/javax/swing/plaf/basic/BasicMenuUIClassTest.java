@@ -80,8 +80,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicMenuUI.ChangeHandler#ChangeHandler(javax.swing.plaf.basic.BasicMenuUI, javax.swing.JMenu, javax.swing.plaf.basic.BasicMenuUI)
          * public
-         * javax.swing.plaf.basic.BasicMenuUI$ChangeHandler(javax.swing.plaf.basic.BasicMenuUI,javax.swing.JMenu,javax.swing.plaf.basic.BasicMenuUI)}
-         * .
+         * javax.swing.plaf.basic.BasicMenuUI$ChangeHandler(javax.swing.plaf.basic.BasicMenuUI,javax.swing.JMenu,javax.swing.plaf.basic.BasicMenuUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

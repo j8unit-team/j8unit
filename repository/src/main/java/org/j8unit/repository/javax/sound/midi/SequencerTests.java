@@ -104,28 +104,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setTempoInBPM(float)
-     * public abstract void javax.sound.midi.Sequencer.setTempoInBPM(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTempoInBPM_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.Sequencer#setMasterSyncMode(javax.sound.midi.Sequencer.SyncMode) public abstract void
      * javax.sound.midi.Sequencer.setMasterSyncMode(javax.sound.midi.Sequencer$SyncMode)}.
@@ -141,6 +119,28 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMasterSyncMode_SyncMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setTempoInBPM(float)
+     * public abstract void javax.sound.midi.Sequencer.setTempoInBPM(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTempoInBPM_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -172,30 +172,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.Sequencer#setSequence(javax.sound.midi.Sequence) public abstract void
-     * javax.sound.midi.Sequencer.setSequence(javax.sound.midi.Sequence) throws
-     * javax.sound.midi.InvalidMidiDataException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSequence_Sequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.Sequencer#setSequence(java.io.InputStream) public abstract void
      * javax.sound.midi.Sequencer.setSequence(java.io.InputStream) throws
      * java.io.IOException,javax.sound.midi.InvalidMidiDataException}.
@@ -211,6 +187,30 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setSequence_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.Sequencer#setSequence(javax.sound.midi.Sequence) public abstract void
+     * javax.sound.midi.Sequencer.setSequence(javax.sound.midi.Sequence) throws
+     * javax.sound.midi.InvalidMidiDataException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSequence_Sequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -419,6 +419,28 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getLoopCount() public
+     * abstract int javax.sound.midi.Sequencer.getLoopCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLoopCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#setLoopCount(int) public
      * abstract void javax.sound.midi.Sequencer.setLoopCount(int)}.
      *
@@ -477,28 +499,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMasterSyncModes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#getLoopCount() public
-     * abstract int javax.sound.midi.Sequencer.getLoopCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLoopCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -798,28 +798,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#startRecording() public
-     * abstract void javax.sound.midi.Sequencer.startRecording()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_startRecording()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.Sequencer#setSlaveSyncMode(javax.sound.midi.Sequencer.SyncMode) public abstract void
      * javax.sound.midi.Sequencer.setSlaveSyncMode(javax.sound.midi.Sequencer$SyncMode)}.
@@ -835,6 +813,28 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setSlaveSyncMode_SyncMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Sequencer#startRecording() public
+     * abstract void javax.sound.midi.Sequencer.startRecording()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_startRecording()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

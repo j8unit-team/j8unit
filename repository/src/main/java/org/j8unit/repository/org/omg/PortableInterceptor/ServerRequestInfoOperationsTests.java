@@ -11,8 +11,8 @@ import org.omg.PortableInterceptor.ServerRequestInfoOperations;
  * <p>
  * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
  * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link ServerRequestInfoOperations public abstract interface org.omg.PortableInterceptor.ServerRequestInfoOperations}
- * .
+ * {@link ServerRequestInfoOperations public abstract interface
+ * org.omg.PortableInterceptor.ServerRequestInfoOperations}.
  * </p>
  *
  * <p>
@@ -246,8 +246,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ServerRequestInfoOperations#add_reply_service_context(org.omg.IOP.ServiceContext, boolean)
      * public abstract void
-     * org.omg.PortableInterceptor.ServerRequestInfoOperations.add_reply_service_context(org.omg.IOP.ServiceContext,boolean)}
-     * .
+     * org.omg.PortableInterceptor.ServerRequestInfoOperations.add_reply_service_context(org.omg.IOP.ServiceContext,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

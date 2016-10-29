@@ -35,29 +35,6 @@ extends org.j8unit.repository.java.awt.image.RenderedImageTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRenderedImage#isTileWritable(int, int) public abstract boolean
-     * java.awt.image.WritableRenderedImage.isTileWritable(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTileWritable_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.WritableRenderedImage#hasTileWriters() public abstract boolean
      * java.awt.image.WritableRenderedImage.hasTileWriters()}.
      *
@@ -72,6 +49,29 @@ extends org.j8unit.repository.java.awt.image.RenderedImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hasTileWriters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.WritableRenderedImage#isTileWritable(int, int) public abstract boolean
+     * java.awt.image.WritableRenderedImage.isTileWritable(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTileWritable_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

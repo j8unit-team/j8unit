@@ -196,8 +196,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.DoubleStream#collect(java.util.function.Supplier, java.util.function.ObjDoubleConsumer, java.util.function.BiConsumer)
-     * public abstract <R> R java.util.stream.DoubleStream.collect(java.util.function.Supplier
-     * <R>,java.util.function.ObjDoubleConsumer<R>,java.util.function.BiConsumer<R, R>)}.
+     * public abstract <R> R
+     * java.util.stream.DoubleStream.collect(java.util.function.Supplier<R>,java.util.function.ObjDoubleConsumer<R>,java.util.function.BiConsumer<R,
+     * R>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -308,6 +309,29 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.DoubleStream#filter(java.util.function.DoublePredicate) public abstract
+     * java.util.stream.DoubleStream java.util.stream.DoubleStream.filter(java.util.function.DoublePredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_filter_DoublePredicate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.DoubleStream#flatMap(java.util.function.DoubleFunction) public abstract
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.flatMap(java.util.function.DoubleFunction<? extends
      * java.util.stream.DoubleStream>)}.
@@ -332,31 +356,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.DoubleStream#filter(java.util.function.DoublePredicate) public abstract
-     * java.util.stream.DoubleStream java.util.stream.DoubleStream.filter(java.util.function.DoublePredicate)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_filter_DoublePredicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.DoubleStream#mapToObj(java.util.function.DoubleFunction) public abstract
-     * <U> java.util.stream.Stream<U> java.util.stream.DoubleStream.mapToObj(java.util.function.DoubleFunction<? extends
+     * {@link java.util.stream.DoubleStream#mapToObj(java.util.function.DoubleFunction) public abstract <U>
+     * java.util.stream.Stream<U> java.util.stream.DoubleStream.mapToObj(java.util.function.DoubleFunction<? extends
      * U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -401,28 +402,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#findFirst() public
-     * abstract java.util.OptionalDouble java.util.stream.DoubleStream.findFirst()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findFirst()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#sum() public abstract
      * double java.util.stream.DoubleStream.sum()}.
      *
@@ -459,6 +438,28 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     @Test
     @Category(Draft.class)
     public default void test_skip_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#findFirst() public
+     * abstract java.util.OptionalDouble java.util.stream.DoubleStream.findFirst()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findFirst()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -535,29 +536,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.DoubleStream#anyMatch(java.util.function.DoublePredicate) public abstract boolean
-     * java.util.stream.DoubleStream.anyMatch(java.util.function.DoublePredicate)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_anyMatch_DoublePredicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.DoubleStream#map(java.util.function.DoubleUnaryOperator) public abstract
      * java.util.stream.DoubleStream java.util.stream.DoubleStream.map(java.util.function.DoubleUnaryOperator)}.
      *
@@ -572,6 +550,29 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     @Test
     @Category(Draft.class)
     public default void test_map_DoubleUnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.DoubleStream#anyMatch(java.util.function.DoublePredicate) public abstract boolean
+     * java.util.stream.DoubleStream.anyMatch(java.util.function.DoublePredicate)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_anyMatch_DoublePredicate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -692,29 +693,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.DoubleStream#mapToLong(java.util.function.DoubleToLongFunction) public abstract
-     * java.util.stream.LongStream java.util.stream.DoubleStream.mapToLong(java.util.function.DoubleToLongFunction)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mapToLong_DoubleToLongFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.stream.DoubleStream#parallel() public
      * abstract java.util.stream.DoubleStream java.util.stream.DoubleStream.parallel()}.
      *
@@ -730,6 +708,29 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     @Test
     @Category(Draft.class)
     public default void test_parallel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.DoubleStream#mapToLong(java.util.function.DoubleToLongFunction) public abstract
+     * java.util.stream.LongStream java.util.stream.DoubleStream.mapToLong(java.util.function.DoubleToLongFunction)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mapToLong_DoubleToLongFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

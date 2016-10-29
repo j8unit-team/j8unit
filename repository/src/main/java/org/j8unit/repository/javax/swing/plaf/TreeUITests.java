@@ -126,29 +126,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.TreeUI#getPathBounds(javax.swing.JTree, javax.swing.tree.TreePath) public abstract
-     * java.awt.Rectangle javax.swing.plaf.TreeUI.getPathBounds(javax.swing.JTree,javax.swing.tree.TreePath)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPathBounds_JTree_TreePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.TreeUI#getRowCount(javax.swing.JTree) public abstract int
      * javax.swing.plaf.TreeUI.getRowCount(javax.swing.JTree)}.
      *
@@ -163,6 +140,29 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRowCount_JTree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.TreeUI#getPathBounds(javax.swing.JTree, javax.swing.tree.TreePath) public abstract
+     * java.awt.Rectangle javax.swing.plaf.TreeUI.getPathBounds(javax.swing.JTree,javax.swing.tree.TreePath)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPathBounds_JTree_TreePath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -2,7 +2,7 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.LocatorImpl;
 
@@ -57,7 +57,7 @@ extends org.j8unit.repository.org.xml.sax.LocatorClassTests<SUT>, org.j8unit.rep
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

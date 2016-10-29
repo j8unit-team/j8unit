@@ -2,7 +2,7 @@ package org.j8unit.repository.org.omg.stub.java.rmi;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.stub.java.rmi._Remote_Stub;
 
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT>, org.j8unit.reposit
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

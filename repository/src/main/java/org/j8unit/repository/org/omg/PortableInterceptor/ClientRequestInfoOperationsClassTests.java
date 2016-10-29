@@ -2,7 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ClientRequestInfoOperations;
 
@@ -10,8 +10,8 @@ import org.omg.PortableInterceptor.ClientRequestInfoOperations;
  * <p>
  * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
  * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link ClientRequestInfoOperations public abstract interface org.omg.PortableInterceptor.ClientRequestInfoOperations}
- * .
+ * {@link ClientRequestInfoOperations public abstract interface
+ * org.omg.PortableInterceptor.ClientRequestInfoOperations}.
  *
  * (In addition, the runtime type of this j8unit test interface's generic type is verified by
  * {@link #verifyGenericType()}).
@@ -58,7 +58,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsC
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

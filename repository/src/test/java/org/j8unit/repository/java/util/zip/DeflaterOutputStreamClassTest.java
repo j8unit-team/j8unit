@@ -22,6 +22,30 @@ implements org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<De
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream, java.util.zip.Deflater, int, boolean)
+     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DeflaterOutputStream_OutputStream_Deflater_int_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DeflaterOutputStream sut = null; // = new DeflaterOutputStream(java.io.OutputStream,
+                                               // java.util.zip.Deflater, int, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream) public
      * java.util.zip.DeflaterOutputStream(java.io.OutputStream)}.
      *
@@ -92,8 +116,8 @@ implements org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<De
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream, java.util.zip.Deflater, int, boolean)
-     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean)}.
+     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream, java.util.zip.Deflater, boolean)
+     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,12 +129,12 @@ implements org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<De
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DeflaterOutputStream_OutputStream_Deflater_int_boolean()
+    public void create_DeflaterOutputStream_OutputStream_Deflater_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final DeflaterOutputStream sut = null; // = new DeflaterOutputStream(java.io.OutputStream,
-                                               // java.util.zip.Deflater, int, boolean);
+                                               // java.util.zip.Deflater, boolean);
     }
 
     /**
@@ -135,30 +159,6 @@ implements org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<De
         @SuppressWarnings("unused")
         final DeflaterOutputStream sut = null; // = new DeflaterOutputStream(java.io.OutputStream,
                                                // java.util.zip.Deflater, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream, java.util.zip.Deflater, boolean)
-     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DeflaterOutputStream_OutputStream_Deflater_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DeflaterOutputStream sut = null; // = new DeflaterOutputStream(java.io.OutputStream,
-                                               // java.util.zip.Deflater, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.DeflaterOutputStream]

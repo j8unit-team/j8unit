@@ -23,8 +23,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleProxiesClassTests<
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.invoke.MethodHandleProxies#asInterfaceInstance(Class, java.lang.invoke.MethodHandle) public
-     * static <T> T java.lang.invoke.MethodHandleProxies.asInterfaceInstance(java.lang.Class
-     * <T>,java.lang.invoke.MethodHandle)}.
+     * static <T> T
+     * java.lang.invoke.MethodHandleProxies.asInterfaceInstance(java.lang.Class<T>,java.lang.invoke.MethodHandle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +87,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleProxiesClassTests<
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodHandleProxies#wrapperInstanceType(Object) public static java.lang.Class
-     * <?> java.lang.invoke.MethodHandleProxies.wrapperInstanceType(java.lang.Object)}.
+     * {@link java.lang.invoke.MethodHandleProxies#wrapperInstanceType(Object) public static java.lang.Class<?>
+     * java.lang.invoke.MethodHandleProxies.wrapperInstanceType(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

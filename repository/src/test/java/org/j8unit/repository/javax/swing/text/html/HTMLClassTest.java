@@ -108,8 +108,7 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.html.HTML#getIntegerAttributeValue(javax.swing.text.AttributeSet, javax.swing.text.html.HTML.Attribute, int)
      * public static int
-     * javax.swing.text.html.HTML.getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML$Attribute,int)}
-     * .
+     * javax.swing.text.html.HTML.getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML$Attribute,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

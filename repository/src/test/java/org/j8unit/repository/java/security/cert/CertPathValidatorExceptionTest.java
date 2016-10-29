@@ -54,7 +54,8 @@ org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPat
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicReasonTest
     implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests<BasicReason> {
 

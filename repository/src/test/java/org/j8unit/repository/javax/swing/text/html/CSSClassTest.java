@@ -44,8 +44,8 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.CSS#getAttribute(String)
-     * public static final javax.swing.text.html.CSS$Attribute javax.swing.text.html.CSS.getAttribute(java.lang.String)}
-     * .
+     * public static final javax.swing.text.html.CSS$Attribute
+     * javax.swing.text.html.CSS.getAttribute(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

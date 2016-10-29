@@ -34,6 +34,28 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountedCompleter#nextComplete()
+     * public final java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.nextComplete()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextComplete()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CountedCompleter#setPendingCount(int) public final void
      * java.util.concurrent.CountedCompleter.setPendingCount(int)}.
@@ -49,28 +71,6 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
     @Test
     @Category(Draft.class)
     public default void test_setPendingCount_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountedCompleter#nextComplete()
-     * public final java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.nextComplete()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextComplete()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,6 +192,28 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountedCompleter#getRoot()
+     * public final java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.getRoot()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoot()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CountedCompleter#complete(Object) public void
      * java.util.concurrent.CountedCompleter.complete(T)}.
@@ -208,28 +230,6 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
     @Test
     @Category(Draft.class)
     public default void test_complete_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.CountedCompleter#getRoot()
-     * public final java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.getRoot()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoot()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -285,8 +285,8 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CountedCompleter#firstComplete() public final java.util.concurrent.CountedCompleter
-     * <?> java.util.concurrent.CountedCompleter.firstComplete()}.
+     * {@link java.util.concurrent.CountedCompleter#firstComplete() public final
+     * java.util.concurrent.CountedCompleter<?> java.util.concurrent.CountedCompleter.firstComplete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -377,31 +377,6 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CountedCompleter#onExceptionalCompletion(Throwable, java.util.concurrent.CountedCompleter)
-     * public boolean
-     * java.util.concurrent.CountedCompleter.onExceptionalCompletion(java.lang.Throwable,java.util.concurrent.CountedCompleter
-     * <?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_onExceptionalCompletion_Throwable_CountedCompleter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CountedCompleter#decrementPendingCountUnlessZero() public final int
      * java.util.concurrent.CountedCompleter.decrementPendingCountUnlessZero()}.
      *
@@ -416,6 +391,30 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
     @Test
     @Category(Draft.class)
     public default void test_decrementPendingCountUnlessZero()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CountedCompleter#onExceptionalCompletion(Throwable, java.util.concurrent.CountedCompleter)
+     * public boolean
+     * java.util.concurrent.CountedCompleter.onExceptionalCompletion(java.lang.Throwable,java.util.concurrent.CountedCompleter<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_onExceptionalCompletion_Throwable_CountedCompleter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

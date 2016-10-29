@@ -35,10 +35,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.io.InputStream) public abstract
-     * javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.InputStream) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.io.File) public abstract
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.File)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -50,7 +49,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAudioInputStream_InputStream()
+    public default void test_getAudioInputStream_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -84,9 +83,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.io.File) public abstract
-     * javax.sound.sampled.AudioInputStream javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.File)
-     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * {@link javax.sound.sampled.spi.AudioFileReader#getAudioInputStream(java.io.InputStream) public abstract
+     * javax.sound.sampled.AudioInputStream
+     * javax.sound.sampled.spi.AudioFileReader.getAudioInputStream(java.io.InputStream) throws
+     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +98,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAudioInputStream_File()
+    public default void test_getAudioInputStream_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

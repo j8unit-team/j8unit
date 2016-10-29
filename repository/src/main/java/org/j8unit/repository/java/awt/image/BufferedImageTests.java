@@ -128,8 +128,8 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getColorModel() public
-     * java.awt.image.ColorModel java.awt.image.BufferedImage.getColorModel()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getProperty(String)
+     * public java.lang.Object java.awt.image.BufferedImage.getProperty(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,7 +142,7 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getColorModel()
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,8 +175,8 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getProperty(String)
-     * public java.lang.Object java.awt.image.BufferedImage.getProperty(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getColorModel() public
+     * java.awt.image.ColorModel java.awt.image.BufferedImage.getColorModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +189,7 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getProperty_String()
+    public default void test_getColorModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -567,28 +567,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#setRGB(int, int, int)
-     * public synchronized void java.awt.image.BufferedImage.setRGB(int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRGB_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#setRGB(int, int, int, int, int[], int, int) public void
      * java.awt.image.BufferedImage.setRGB(int,int,int,int,int[],int,int)}.
@@ -604,6 +582,28 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setRGB_int_int_int_int_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#setRGB(int, int, int)
+     * public synchronized void java.awt.image.BufferedImage.setRGB(int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRGB_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -938,28 +938,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getRGB(int, int) public
-     * int java.awt.image.BufferedImage.getRGB(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRGB_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#getRGB(int, int, int, int, int[], int, int) public int[]
      * java.awt.image.BufferedImage.getRGB(int,int,int,int,int[],int,int)}.
@@ -975,6 +953,28 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRGB_int_int_int_int_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getRGB(int, int) public
+     * int java.awt.image.BufferedImage.getRGB(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRGB_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

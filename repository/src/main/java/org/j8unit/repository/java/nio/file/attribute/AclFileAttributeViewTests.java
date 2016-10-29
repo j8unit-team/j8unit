@@ -82,8 +82,8 @@ extends org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.attribute.AclFileAttributeView#getAcl() public abstract java.util.List
-     * <java.nio.file.attribute.AclEntry> java.nio.file.attribute.AclFileAttributeView.getAcl() throws
+     * {@link java.nio.file.attribute.AclFileAttributeView#getAcl() public abstract
+     * java.util.List<java.nio.file.attribute.AclEntry> java.nio.file.attribute.AclFileAttributeView.getAcl() throws
      * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

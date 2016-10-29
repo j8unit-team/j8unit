@@ -21,8 +21,8 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link org.xml.sax.InputSource#InputSource(java.io.Reader) public org.xml.sax.InputSource(java.io.Reader)}.
+     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.InputSource#InputSource() public
+     * org.xml.sax.InputSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,11 +34,32 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InputSource_Reader()
+    public void create_InputSource()
+    throws Exception {
+        // create new instance
+        final InputSource sut = new InputSource();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.InputSource#InputSource(String)
+     * public org.xml.sax.InputSource(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InputSource_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputSource sut = null; // = new InputSource(java.io.Reader);
+        final InputSource sut = null; // = new InputSource(String);
     }
 
     /**
@@ -66,8 +87,8 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.InputSource#InputSource(String)
-     * public org.xml.sax.InputSource(java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.xml.sax.InputSource#InputSource(java.io.Reader) public org.xml.sax.InputSource(java.io.Reader)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,32 +100,11 @@ implements org.j8unit.repository.org.xml.sax.InputSourceClassTests<InputSource> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InputSource_String()
+    public void create_InputSource_Reader()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InputSource sut = null; // = new InputSource(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link org.xml.sax.InputSource#InputSource() public
-     * org.xml.sax.InputSource()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_InputSource()
-    throws Exception {
-        // create new instance
-        final InputSource sut = new InputSource();
+        final InputSource sut = null; // = new InputSource(java.io.Reader);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.InputSource]

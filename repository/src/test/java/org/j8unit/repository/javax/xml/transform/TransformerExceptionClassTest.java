@@ -22,10 +22,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.transform.TransformerException#TransformerException(String, javax.xml.transform.SourceLocator, Throwable)
-     * public
-     * javax.xml.transform.TransformerException(java.lang.String,javax.xml.transform.SourceLocator,java.lang.Throwable)}
-     * .
+     * {@link javax.xml.transform.TransformerException#TransformerException(String, Throwable) public
+     * javax.xml.transform.TransformerException(java.lang.String,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,12 +35,11 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TransformerException_String_SourceLocator_Throwable()
+    public void create_TransformerException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TransformerException sut = null; // = new TransformerException(String, javax.xml.transform.SourceLocator,
-                                               // Throwable);
+        final TransformerException sut = null; // = new TransformerException(String, Throwable);
     }
 
     /**
@@ -71,8 +68,9 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.transform.TransformerException#TransformerException(String) public
-     * javax.xml.transform.TransformerException(java.lang.String)}.
+     * {@link javax.xml.transform.TransformerException#TransformerException(String, javax.xml.transform.SourceLocator, Throwable)
+     * public
+     * javax.xml.transform.TransformerException(java.lang.String,javax.xml.transform.SourceLocator,java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,11 +82,12 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TransformerException_String()
+    public void create_TransformerException_String_SourceLocator_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TransformerException sut = null; // = new TransformerException(String);
+        final TransformerException sut = null; // = new TransformerException(String, javax.xml.transform.SourceLocator,
+                                               // Throwable);
     }
 
     /**
@@ -117,8 +116,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.transform.TransformerException#TransformerException(String, Throwable) public
-     * javax.xml.transform.TransformerException(java.lang.String,java.lang.Throwable)}.
+     * {@link javax.xml.transform.TransformerException#TransformerException(String) public
+     * javax.xml.transform.TransformerException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -130,11 +129,11 @@ implements org.j8unit.repository.javax.xml.transform.TransformerExceptionClassTe
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TransformerException_String_Throwable()
+    public void create_TransformerException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TransformerException sut = null; // = new TransformerException(String, Throwable);
+        final TransformerException sut = null; // = new TransformerException(String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.TransformerException]

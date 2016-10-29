@@ -130,29 +130,6 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#preDeregister()
-     * public void javax.management.monitor.Monitor.preDeregister() throws java.lang.Exception}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#postDeregister()
      * public void javax.management.monitor.Monitor.postDeregister()}.
      *
@@ -168,6 +145,29 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_postDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#preDeregister()
+     * public void javax.management.monitor.Monitor.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_preDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,30 +200,6 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.monitor.Monitor#removeObservedObject(javax.management.ObjectName) public synchronized
-     * void javax.management.monitor.Monitor.removeObservedObject(javax.management.ObjectName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeObservedObject_ObjectName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.Monitor#containsObservedObject(javax.management.ObjectName) public synchronized
      * boolean javax.management.monitor.Monitor.containsObservedObject(javax.management.ObjectName)}.
      *
@@ -239,6 +215,30 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_containsObservedObject_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#removeObservedObject(javax.management.ObjectName) public synchronized
+     * void javax.management.monitor.Monitor.removeObservedObject(javax.management.ObjectName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeObservedObject_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

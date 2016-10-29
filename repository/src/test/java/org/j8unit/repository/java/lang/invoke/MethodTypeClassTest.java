@@ -21,10 +21,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodTyp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodType#methodType(Class, java.lang.invoke.MethodType) public static
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class
-     * <?>,java.lang.invoke.MethodType)}.
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#methodType(Class) public
+     * static java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,51 +34,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodTyp
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_methodType_Class_MethodType()
+    public void test_methodType_Class()
     throws Exception {
-        // write some test for {@link java.lang.invoke.MethodType#methodType(Class, java.lang.invoke.MethodType)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#methodType(Class, Class)
-     * public static java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class
-     * <?>,java.lang.Class<?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_methodType_Class_Class()
-    throws Exception {
-        // write some test for {@link java.lang.invoke.MethodType#methodType(Class, Class)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.lang.invoke.MethodType#methodType(Class, java.util.List) public static java.lang.invoke.MethodType
-     * java.lang.invoke.MethodType.methodType(java.lang.Class<?>,java.util.List<java.lang.Class<?>>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_methodType_Class_List()
-    throws Exception {
-        // write some test for {@link java.lang.invoke.MethodType#methodType(Class, java.util.List)}
+        // write some test for {@link java.lang.invoke.MethodType#methodType(Class)}
     }
 
     /**
@@ -107,6 +63,27 @@ implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodTyp
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#methodType(Class, java.util.List) public static java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.methodType(java.lang.Class<?>,java.util.List<java.lang.Class<?>>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_methodType_Class_List()
+    throws Exception {
+        // write some test for {@link java.lang.invoke.MethodType#methodType(Class, java.util.List)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.lang.invoke.MethodType#methodType(Class, Class[]) public static java.lang.invoke.MethodType
      * java.lang.invoke.MethodType.methodType(java.lang.Class<?>,java.lang.Class<?>[])}.
      *
@@ -127,8 +104,10 @@ implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodTyp
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#methodType(Class) public
-     * static java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class<?>)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.invoke.MethodType#methodType(Class, java.lang.invoke.MethodType) public static
+     * java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.methodType(java.lang.Class<?>,java.lang.invoke.MethodType)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -140,9 +119,30 @@ implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodTyp
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_methodType_Class()
+    public void test_methodType_Class_MethodType()
     throws Exception {
-        // write some test for {@link java.lang.invoke.MethodType#methodType(Class)}
+        // write some test for {@link java.lang.invoke.MethodType#methodType(Class, java.lang.invoke.MethodType)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.lang.invoke.MethodType#methodType(Class, Class)
+     * public static java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.methodType(java.lang.Class<?>,java.lang.Class<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_methodType_Class_Class()
+    throws Exception {
+        // write some test for {@link java.lang.invoke.MethodType#methodType(Class, Class)}
     }
 
     /**

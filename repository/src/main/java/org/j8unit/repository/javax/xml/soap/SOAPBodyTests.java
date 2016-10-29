@@ -34,6 +34,28 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPBody#addFault() public abstract
+     * javax.xml.soap.SOAPFault javax.xml.soap.SOAPBody.addFault() throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addFault()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.soap.SOAPBody#addFault(javax.xml.soap.Name, String, java.util.Locale) public abstract
      * javax.xml.soap.SOAPFault javax.xml.soap.SOAPBody.addFault(javax.xml.soap.Name,java.lang.String,java.util.Locale)
@@ -98,28 +120,6 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addFault_Name_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPBody#addFault() public abstract
-     * javax.xml.soap.SOAPFault javax.xml.soap.SOAPBody.addFault() throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addFault()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,28 +222,6 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPBody#hasFault() public abstract
-     * boolean javax.xml.soap.SOAPBody.hasFault()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasFault()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPBody#getFault() public abstract
      * javax.xml.soap.SOAPFault javax.xml.soap.SOAPBody.getFault()}.
      *
@@ -281,6 +259,28 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_extractContentAsDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPBody#hasFault() public abstract
+     * boolean javax.xml.soap.SOAPBody.hasFault()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasFault()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

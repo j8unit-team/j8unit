@@ -34,8 +34,8 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#getEnclosingClass() public java.lang.Class
-     * <?> java.lang.Class.getEnclosingClass() throws java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test {@link Class#getEnclosingClass() public java.lang.Class<?>
+     * java.lang.Class.getEnclosingClass() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,8 +101,8 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#getDeclaredClasses() public java.lang.Class
-     * <?>[] java.lang.Class.getDeclaredClasses() throws java.lang.SecurityException}.
+     * Test method for the hereby targeted method-under-test {@link Class#getDeclaredClasses() public
+     * java.lang.Class<?>[] java.lang.Class.getDeclaredClasses() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,8 +145,8 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#getDeclaredAnnotationsByType(Class) public
-     * <A> A[] java.lang.Class.getDeclaredAnnotationsByType(java.lang.Class<A>)}.
+     * Test method for the hereby targeted method-under-test {@link Class#getDeclaredAnnotationsByType(Class) public <A>
+     * A[] java.lang.Class.getDeclaredAnnotationsByType(java.lang.Class<A>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,29 +258,6 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#getConstructor(Class...) public
-     * java.lang.reflect.Constructor<T> java.lang.Class.getConstructor(java.lang.Class<?>...) throws
-     * java.lang.NoSuchMethodException,java.lang.SecurityException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConstructor_ClassArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Class#getAnnotations() public
      * java.lang.annotation.Annotation[] java.lang.Class.getAnnotations()}.
      *
@@ -296,6 +273,29 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getAnnotations()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Class#getConstructor(Class...) public
+     * java.lang.reflect.Constructor<T> java.lang.Class.getConstructor(java.lang.Class<?>...) throws
+     * java.lang.NoSuchMethodException,java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConstructor_ClassArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -460,28 +460,6 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#getDeclaringClass() public java.lang.Class
-     * <?> java.lang.Class.getDeclaringClass() throws java.lang.SecurityException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDeclaringClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Class#getDeclaredMethods() public
      * java.lang.reflect.Method[] java.lang.Class.getDeclaredMethods() throws java.lang.SecurityException}.
      *
@@ -504,8 +482,8 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#toGenericString() public java.lang.String
-     * java.lang.Class.toGenericString()}.
+     * Test method for the hereby targeted method-under-test {@link Class#getDeclaringClass() public java.lang.Class<?>
+     * java.lang.Class.getDeclaringClass() throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -517,7 +495,7 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toGenericString()
+    public default void test_getDeclaringClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -540,6 +518,28 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getAnnotatedSuperclass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Class#toGenericString() public java.lang.String
+     * java.lang.Class.toGenericString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toGenericString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -993,28 +993,6 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#getInterfaces() public java.lang.Class<?>[]
-     * java.lang.Class.getInterfaces()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInterfaces()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Class#getField(String) public
      * java.lang.reflect.Field java.lang.Class.getField(java.lang.String) throws
      * java.lang.NoSuchFieldException,java.lang.SecurityException}.
@@ -1030,6 +1008,28 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getField_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Class#getInterfaces() public java.lang.Class<?>[]
+     * java.lang.Class.getInterfaces()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInterfaces()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1149,8 +1149,8 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#isMemberClass() public boolean
-     * java.lang.Class.isMemberClass()}.
+     * Test method for the hereby targeted method-under-test {@link Class#cast(Object) public T
+     * java.lang.Class.cast(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1162,7 +1162,7 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMemberClass()
+    public default void test_cast_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1193,8 +1193,8 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#cast(Object) public T
-     * java.lang.Class.cast(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link Class#isMemberClass() public boolean
+     * java.lang.Class.isMemberClass()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1206,7 +1206,7 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_cast_Object()
+    public default void test_isMemberClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1304,28 +1304,6 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Class#isSynthetic() public boolean
-     * java.lang.Class.isSynthetic()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSynthetic()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Class#getCanonicalName() public java.lang.String
      * java.lang.Class.getCanonicalName()}.
      *
@@ -1340,6 +1318,28 @@ org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getCanonicalName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Class#isSynthetic() public boolean
+     * java.lang.Class.isSynthetic()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSynthetic()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

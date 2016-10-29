@@ -22,29 +22,6 @@ implements org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<EmptyB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.EmptyBorder#EmptyBorder(int, int, int, int) public
-     * javax.swing.border.EmptyBorder(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_EmptyBorder_int_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final EmptyBorder sut = null; // = new EmptyBorder(int, int, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.border.EmptyBorder#EmptyBorder(java.awt.Insets) public
      * javax.swing.border.EmptyBorder(java.awt.Insets)}.
      *
@@ -63,6 +40,29 @@ implements org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<EmptyB
         // create new instance
         @SuppressWarnings("unused")
         final EmptyBorder sut = null; // = new EmptyBorder(java.awt.Insets);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.EmptyBorder#EmptyBorder(int, int, int, int) public
+     * javax.swing.border.EmptyBorder(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_EmptyBorder_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final EmptyBorder sut = null; // = new EmptyBorder(int, int, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.EmptyBorder]

@@ -176,6 +176,29 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.CounterMonitor#start()
+     * public synchronized void javax.management.monitor.CounterMonitor.start()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_start()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.CounterMonitor#setInitThreshold(Number) public synchronized void
      * javax.management.monitor.CounterMonitor.setInitThreshold(java.lang.Number) throws
@@ -201,33 +224,10 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.CounterMonitor#start()
-     * public synchronized void javax.management.monitor.CounterMonitor.start()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_start()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.CounterMonitor#setThreshold(Number) public synchronized void
-     * javax.management.monitor.CounterMonitor.setThreshold(java.lang.Number) throws java.lang.IllegalArgumentException}
-     * .
+     * javax.management.monitor.CounterMonitor.setThreshold(java.lang.Number) throws
+     * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -320,30 +320,6 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.monitor.CounterMonitor#setModulus(Number) public synchronized void
-     * javax.management.monitor.CounterMonitor.setModulus(java.lang.Number) throws java.lang.IllegalArgumentException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setModulus_Number()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.CounterMonitor#setDifferenceMode(boolean) public synchronized void
      * javax.management.monitor.CounterMonitor.setDifferenceMode(boolean)}.
      *
@@ -368,8 +344,8 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.monitor.CounterMonitor#getDerivedGaugeTimeStamp() public synchronized long
-     * javax.management.monitor.CounterMonitor.getDerivedGaugeTimeStamp()}.
+     * {@link javax.management.monitor.CounterMonitor#setModulus(Number) public synchronized void
+     * javax.management.monitor.CounterMonitor.setModulus(java.lang.Number) throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -382,7 +358,7 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getDerivedGaugeTimeStamp()
+    public default void test_setModulus_Number()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -407,6 +383,30 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
     @Test
     @Category(Draft.class)
     public default void test_getDerivedGaugeTimeStamp_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitor#getDerivedGaugeTimeStamp() public synchronized long
+     * javax.management.monitor.CounterMonitor.getDerivedGaugeTimeStamp()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDerivedGaugeTimeStamp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

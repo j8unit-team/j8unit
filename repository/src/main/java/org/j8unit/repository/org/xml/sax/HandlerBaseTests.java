@@ -180,8 +180,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.HandlerBase#startElement(String, org.xml.sax.AttributeList) public void
-     * org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws org.xml.sax.SAXException}
-     * .
+     * org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -277,8 +277,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.HandlerBase#processingInstruction(String, String) public void
-     * org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}
-     * .
+     * org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

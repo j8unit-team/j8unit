@@ -38,8 +38,7 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming.BindingIteratorPOA#_invoke(String, org.omg.CORBA.portable.InputStream, org.omg.CORBA.portable.ResponseHandler)
      * public org.omg.CORBA.portable.OutputStream
-     * org.omg.CosNaming.BindingIteratorPOA._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)}
-     * .
+     * org.omg.CosNaming.BindingIteratorPOA._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -85,6 +84,28 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.BindingIteratorPOA#_this() public
+     * org.omg.CosNaming.BindingIterator org.omg.CosNaming.BindingIteratorPOA._this()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__this()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming.BindingIteratorPOA#_this(org.omg.CORBA.ORB) public org.omg.CosNaming.BindingIterator
      * org.omg.CosNaming.BindingIteratorPOA._this(org.omg.CORBA.ORB)}.
@@ -100,28 +121,6 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test__this_ORB()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming.BindingIteratorPOA#_this() public
-     * org.omg.CosNaming.BindingIterator org.omg.CosNaming.BindingIteratorPOA._this()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__this()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

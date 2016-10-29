@@ -446,28 +446,6 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.OutputStream#write_char(char)
-     * public abstract void org.omg.CORBA.portable.OutputStream.write_char(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_char_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.OutputStream#write_Context(org.omg.CORBA.Context, org.omg.CORBA.ContextList) public
      * void org.omg.CORBA.portable.OutputStream.write_Context(org.omg.CORBA.Context,org.omg.CORBA.ContextList)}.
@@ -483,6 +461,28 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_Context_Context_ContextList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.OutputStream#write_char(char)
+     * public abstract void org.omg.CORBA.portable.OutputStream.write_char(char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_char_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -515,6 +515,29 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.OutputStream#write_any(org.omg.CORBA.Any) public abstract void
+     * org.omg.CORBA.portable.OutputStream.write_any(org.omg.CORBA.Any)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_any_Any()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.OutputStream#write_longlong_array(long[], int, int) public abstract void
      * org.omg.CORBA.portable.OutputStream.write_longlong_array(long[],int,int)}.
      *
@@ -538,8 +561,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.OutputStream#write_any(org.omg.CORBA.Any) public abstract void
-     * org.omg.CORBA.portable.OutputStream.write_any(org.omg.CORBA.Any)}.
+     * {@link org.omg.CORBA.portable.OutputStream#write_float(float) public abstract void
+     * org.omg.CORBA.portable.OutputStream.write_float(float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -551,7 +574,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_any_Any()
+    public default void test_write_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -574,29 +597,6 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_ulong_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.OutputStream#write_float(float) public abstract void
-     * org.omg.CORBA.portable.OutputStream.write_float(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -652,29 +652,6 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.OutputStream#write_ushort_array(short[], int, int) public abstract void
-     * org.omg.CORBA.portable.OutputStream.write_ushort_array(short[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_ushort_array_shortArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.OutputStream#write_ulonglong_array(long[], int, int) public abstract void
      * org.omg.CORBA.portable.OutputStream.write_ulonglong_array(long[],int,int)}.
      *
@@ -698,8 +675,8 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CORBA.portable.OutputStream#write_ulonglong(long) public abstract void
-     * org.omg.CORBA.portable.OutputStream.write_ulonglong(long)}.
+     * {@link org.omg.CORBA.portable.OutputStream#write_ushort_array(short[], int, int) public abstract void
+     * org.omg.CORBA.portable.OutputStream.write_ushort_array(short[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -711,7 +688,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_ulonglong_long()
+    public default void test_write_ushort_array_shortArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -758,6 +735,29 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_boolean_array_booleanArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CORBA.portable.OutputStream#write_ulonglong(long) public abstract void
+     * org.omg.CORBA.portable.OutputStream.write_ulonglong(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_ulonglong_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

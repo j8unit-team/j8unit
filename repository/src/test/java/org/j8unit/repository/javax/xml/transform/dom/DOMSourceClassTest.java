@@ -21,9 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.transform.dom.DOMSource#DOMSource(org.w3c.dom.Node, String) public
-     * javax.xml.transform.dom.DOMSource(org.w3c.dom.Node,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.dom.DOMSource#DOMSource()
+     * public javax.xml.transform.dom.DOMSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,10 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DOMSource_Node_String()
+    public void create_DOMSource()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node, String);
+        final DOMSource sut = new DOMSource();
     }
 
     /**
@@ -67,8 +65,9 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.dom.DOMSource#DOMSource()
-     * public javax.xml.transform.dom.DOMSource()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.dom.DOMSource#DOMSource(org.w3c.dom.Node, String) public
+     * javax.xml.transform.dom.DOMSource(org.w3c.dom.Node,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,10 +79,11 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DOMSource()
+    public void create_DOMSource_Node_String()
     throws Exception {
         // create new instance
-        final DOMSource sut = new DOMSource();
+        @SuppressWarnings("unused")
+        final DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.dom.DOMSource]

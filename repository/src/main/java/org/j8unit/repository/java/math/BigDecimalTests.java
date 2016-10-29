@@ -278,6 +278,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#add(java.math.BigDecimal)
+     * public java.math.BigDecimal java.math.BigDecimal.add(java.math.BigDecimal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_BigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.math.BigDecimal#add(java.math.BigDecimal, java.math.MathContext) public java.math.BigDecimal
      * java.math.BigDecimal.add(java.math.BigDecimal,java.math.MathContext)}.
@@ -293,28 +315,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_add_BigDecimal_MathContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#add(java.math.BigDecimal)
-     * public java.math.BigDecimal java.math.BigDecimal.add(java.math.BigDecimal)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_BigDecimal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -615,28 +615,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#scaleByPowerOfTen(int) public
-     * java.math.BigDecimal java.math.BigDecimal.scaleByPowerOfTen(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_scaleByPowerOfTen_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#hashCode() public int
      * java.math.BigDecimal.hashCode()}.
      *
@@ -652,6 +630,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#scaleByPowerOfTen(int) public
+     * java.math.BigDecimal java.math.BigDecimal.scaleByPowerOfTen(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_scaleByPowerOfTen_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -704,6 +704,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#divide(java.math.BigDecimal)
+     * public java.math.BigDecimal java.math.BigDecimal.divide(java.math.BigDecimal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_divide_BigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.math.BigDecimal#divide(java.math.BigDecimal, int) public java.math.BigDecimal
      * java.math.BigDecimal.divide(java.math.BigDecimal,int)}.
@@ -719,6 +741,52 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_divide_BigDecimal_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.math.BigDecimal#divide(java.math.BigDecimal, java.math.RoundingMode) public java.math.BigDecimal
+     * java.math.BigDecimal.divide(java.math.BigDecimal,java.math.RoundingMode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_divide_BigDecimal_RoundingMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.math.BigDecimal#divide(java.math.BigDecimal, int, java.math.RoundingMode) public java.math.BigDecimal
+     * java.math.BigDecimal.divide(java.math.BigDecimal,int,java.math.RoundingMode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_divide_BigDecimal_int_RoundingMode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -751,51 +819,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.math.BigDecimal#divide(java.math.BigDecimal, java.math.RoundingMode) public java.math.BigDecimal
-     * java.math.BigDecimal.divide(java.math.BigDecimal,java.math.RoundingMode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_divide_BigDecimal_RoundingMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#divide(java.math.BigDecimal)
-     * public java.math.BigDecimal java.math.BigDecimal.divide(java.math.BigDecimal)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_divide_BigDecimal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.math.BigDecimal#divide(java.math.BigDecimal, java.math.MathContext) public java.math.BigDecimal
      * java.math.BigDecimal.divide(java.math.BigDecimal,java.math.MathContext)}.
      *
@@ -810,51 +833,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_divide_BigDecimal_MathContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.math.BigDecimal#divide(java.math.BigDecimal, int, java.math.RoundingMode) public java.math.BigDecimal
-     * java.math.BigDecimal.divide(java.math.BigDecimal,int,java.math.RoundingMode)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_divide_BigDecimal_int_RoundingMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#multiply(java.math.BigDecimal)
-     * public java.math.BigDecimal java.math.BigDecimal.multiply(java.math.BigDecimal)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_multiply_BigDecimal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -886,6 +864,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#multiply(java.math.BigDecimal)
+     * public java.math.BigDecimal java.math.BigDecimal.multiply(java.math.BigDecimal)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_multiply_BigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#longValueExact() public long
      * java.math.BigDecimal.longValueExact()}.
      *
@@ -908,28 +908,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#toBigInteger() public
-     * java.math.BigInteger java.math.BigDecimal.toBigInteger()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toBigInteger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#scale() public int
      * java.math.BigDecimal.scale()}.
      *
@@ -944,6 +922,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_scale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#toBigInteger() public
+     * java.math.BigInteger java.math.BigDecimal.toBigInteger()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toBigInteger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1019,28 +1019,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#abs() public
-     * java.math.BigDecimal java.math.BigDecimal.abs()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_abs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#abs(java.math.MathContext)
      * public java.math.BigDecimal java.math.BigDecimal.abs(java.math.MathContext)}.
      *
@@ -1063,6 +1041,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#abs() public
+     * java.math.BigDecimal java.math.BigDecimal.abs()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_abs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#round(java.math.MathContext)
      * public java.math.BigDecimal java.math.BigDecimal.round(java.math.MathContext)}.
      *
@@ -1077,28 +1077,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_round_MathContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#movePointRight(int) public
-     * java.math.BigDecimal java.math.BigDecimal.movePointRight(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_movePointRight_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1130,8 +1108,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#negate(java.math.MathContext)
-     * public java.math.BigDecimal java.math.BigDecimal.negate(java.math.MathContext)}.
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#movePointRight(int) public
+     * java.math.BigDecimal java.math.BigDecimal.movePointRight(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1143,7 +1121,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_negate_MathContext()
+    public default void test_movePointRight_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1166,6 +1144,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_negate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.math.BigDecimal#negate(java.math.MathContext)
+     * public java.math.BigDecimal java.math.BigDecimal.negate(java.math.MathContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_negate_MathContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

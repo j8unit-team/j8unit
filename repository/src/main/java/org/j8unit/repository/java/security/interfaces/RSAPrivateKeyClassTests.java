@@ -3,7 +3,7 @@ package org.j8unit.repository.java.security.interfaces;
 import static org.junit.Assert.assertTrue;
 import java.security.interfaces.RSAPrivateKey;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.security.PrivateKeyClassTests<SUT>, org.j8uni
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

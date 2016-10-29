@@ -38,8 +38,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextChild#removeVetoableChangeListener(String, java.beans.VetoableChangeListener)
      * public abstract void
-     * java.beans.beancontext.BeanContextChild.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
-     * .
+     * java.beans.beancontext.BeanContextChild.removeVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,8 +86,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextChild#removePropertyChangeListener(String, java.beans.PropertyChangeListener)
      * public abstract void
-     * java.beans.beancontext.BeanContextChild.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
-     * .
+     * java.beans.beancontext.BeanContextChild.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -112,8 +110,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextChild#addPropertyChangeListener(String, java.beans.PropertyChangeListener)
      * public abstract void
-     * java.beans.beancontext.BeanContextChild.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
-     * .
+     * java.beans.beancontext.BeanContextChild.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,8 +134,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextChild#addVetoableChangeListener(String, java.beans.VetoableChangeListener)
      * public abstract void
-     * java.beans.beancontext.BeanContextChild.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}
-     * .
+     * java.beans.beancontext.BeanContextChild.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

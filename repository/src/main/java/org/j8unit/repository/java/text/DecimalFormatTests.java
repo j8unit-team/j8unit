@@ -108,30 +108,6 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.text.DecimalFormat#setMinimumFractionDigits(int) public void
-     * java.text.DecimalFormat.setMinimumFractionDigits(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setMinimumFractionDigits_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.text.DecimalFormat#parse(String, java.text.ParsePosition) public java.lang.Number
      * java.text.DecimalFormat.parse(java.lang.String,java.text.ParsePosition)}.
      *
@@ -147,6 +123,30 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_parse_String_ParsePosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.DecimalFormat#setMinimumFractionDigits(int) public void
+     * java.text.DecimalFormat.setMinimumFractionDigits(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setMinimumFractionDigits_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -497,29 +497,6 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMaximumFractionDigits()
-     * public int java.text.DecimalFormat.getMaximumFractionDigits()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximumFractionDigits()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#equals(Object) public
      * boolean java.text.DecimalFormat.equals(java.lang.Object)}.
      *
@@ -535,6 +512,29 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMaximumFractionDigits()
+     * public int java.text.DecimalFormat.getMaximumFractionDigits()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximumFractionDigits()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -656,6 +656,28 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setGroupingSize(int) public
+     * void java.text.DecimalFormat.setGroupingSize(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGroupingSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.text.DecimalFormat#formatToCharacterIterator(Object) public java.text.AttributedCharacterIterator
      * java.text.DecimalFormat.formatToCharacterIterator(java.lang.Object)}.
@@ -672,28 +694,6 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_formatToCharacterIterator_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#setGroupingSize(int) public
-     * void java.text.DecimalFormat.setGroupingSize(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setGroupingSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -791,28 +791,6 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#applyPattern(String) public
-     * void java.text.DecimalFormat.applyPattern(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_applyPattern_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getMultiplier() public int
      * java.text.DecimalFormat.getMultiplier()}.
      *
@@ -827,6 +805,28 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMultiplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#applyPattern(String) public
+     * void java.text.DecimalFormat.applyPattern(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_applyPattern_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -902,6 +902,28 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getDecimalFormatSymbols()
+     * public java.text.DecimalFormatSymbols java.text.DecimalFormat.getDecimalFormatSymbols()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDecimalFormatSymbols()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getRoundingMode() public
      * java.math.RoundingMode java.text.DecimalFormat.getRoundingMode()}.
      *
@@ -917,28 +939,6 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRoundingMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#getDecimalFormatSymbols()
-     * public java.text.DecimalFormatSymbols java.text.DecimalFormat.getDecimalFormatSymbols()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDecimalFormatSymbols()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -970,6 +970,28 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#isParseBigDecimal() public
+     * boolean java.text.DecimalFormat.isParseBigDecimal()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isParseBigDecimal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.text.DecimalFormat#setDecimalSeparatorAlwaysShown(boolean) public void
      * java.text.DecimalFormat.setDecimalSeparatorAlwaysShown(boolean)}.
@@ -985,28 +1007,6 @@ extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDecimalSeparatorAlwaysShown_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.DecimalFormat#isParseBigDecimal() public
-     * boolean java.text.DecimalFormat.isParseBigDecimal()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isParseBigDecimal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

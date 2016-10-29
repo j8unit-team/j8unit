@@ -2,7 +2,7 @@ package org.j8unit.repository.org.omg.IOP;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.Codec;
 
@@ -58,7 +58,7 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

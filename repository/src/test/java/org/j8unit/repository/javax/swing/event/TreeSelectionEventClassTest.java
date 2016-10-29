@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.swing.event.TreeSelectionEventClassTests<
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(Object, javax.swing.tree.TreePath[], boolean[], javax.swing.tree.TreePath, javax.swing.tree.TreePath)
      * public
-     * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
-     * .
+     * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -50,8 +49,7 @@ implements org.j8unit.repository.javax.swing.event.TreeSelectionEventClassTests<
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(Object, javax.swing.tree.TreePath, boolean, javax.swing.tree.TreePath, javax.swing.tree.TreePath)
      * public
-     * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath,boolean,javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
-     * .
+     * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath,boolean,javax.swing.tree.TreePath,javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

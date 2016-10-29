@@ -37,8 +37,7 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests<SUT>, o
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer._ServantLocatorStub#postinvoke(byte[], org.omg.PortableServer.POA, String, Object, org.omg.PortableServer.Servant)
      * public void
-     * org.omg.PortableServer._ServantLocatorStub.postinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,java.lang.Object,org.omg.PortableServer.Servant)}
-     * .
+     * org.omg.PortableServer._ServantLocatorStub.postinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,java.lang.Object,org.omg.PortableServer.Servant)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

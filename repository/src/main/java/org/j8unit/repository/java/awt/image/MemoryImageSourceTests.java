@@ -131,52 +131,6 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.MemoryImageSource#newPixels(int, int, int, int, boolean) public synchronized void
-     * java.awt.image.MemoryImageSource.newPixels(int,int,int,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newPixels_int_int_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.MemoryImageSource#newPixels(int[], java.awt.image.ColorModel, int, int) public synchronized
-     * void java.awt.image.MemoryImageSource.newPixels(int[],java.awt.image.ColorModel,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newPixels_intArray_ColorModel_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.MemoryImageSource#newPixels(byte[], java.awt.image.ColorModel, int, int) public
      * synchronized void java.awt.image.MemoryImageSource.newPixels(byte[],java.awt.image.ColorModel,int,int)}.
      *
@@ -200,6 +154,29 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.MemoryImageSource#newPixels(int, int, int, int, boolean) public synchronized void
+     * java.awt.image.MemoryImageSource.newPixels(int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newPixels_int_int_int_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.MemoryImageSource#newPixels(int, int, int, int) public synchronized void
      * java.awt.image.MemoryImageSource.newPixels(int,int,int,int)}.
      *
@@ -214,6 +191,29 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_newPixels_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.MemoryImageSource#newPixels(int[], java.awt.image.ColorModel, int, int) public synchronized
+     * void java.awt.image.MemoryImageSource.newPixels(int[],java.awt.image.ColorModel,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newPixels_intArray_ColorModel_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

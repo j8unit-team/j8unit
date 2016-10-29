@@ -105,29 +105,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.DelayQueue#offer(java.util.concurrent.Delayed, long, java.util.concurrent.TimeUnit)
-     * public boolean java.util.concurrent.DelayQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_offer_Delayed_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.DelayQueue#offer(java.util.concurrent.Delayed) public boolean
      * java.util.concurrent.DelayQueue.offer(E)}.
      *
@@ -142,6 +119,29 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Test
     @Category(Draft.class)
     public default void test_offer_Delayed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.DelayQueue#offer(java.util.concurrent.Delayed, long, java.util.concurrent.TimeUnit)
+     * public boolean java.util.concurrent.DelayQueue.offer(E,long,java.util.concurrent.TimeUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_offer_Delayed_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,29 +242,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#poll() public E
-     * java.util.concurrent.DelayQueue.poll()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_poll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.DelayQueue#poll(long, java.util.concurrent.TimeUnit) public E
      * java.util.concurrent.DelayQueue.poll(long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException}.
@@ -281,6 +258,29 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Test
     @Category(Draft.class)
     public default void test_poll_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.DelayQueue#poll() public E
+     * java.util.concurrent.DelayQueue.poll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_poll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -433,8 +433,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.util.AbstractQueue#contains(Object) class java.util.AbstractQueue}</li>
      * <li>{@link java.util.concurrent.BlockingQueue#contains(Object) interface java.util.concurrent.BlockingQueue}</li>
+     * <li>{@link java.util.AbstractQueue#contains(Object) class java.util.AbstractQueue}</li>
      * </ul>
      *
      * <p>
@@ -451,8 +451,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Category(Draft.class)
     public default void test_contains_Object()
     throws Exception {
-        org.j8unit.repository.java.util.AbstractQueueTests.super.test_contains_Object();
         org.j8unit.repository.java.util.concurrent.BlockingQueueTests.super.test_contains_Object();
+        org.j8unit.repository.java.util.AbstractQueueTests.super.test_contains_Object();
     }
 
     /**
@@ -461,8 +461,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.util.AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
      * <li>{@link java.util.concurrent.BlockingQueue#add(Object) interface java.util.concurrent.BlockingQueue}</li>
+     * <li>{@link java.util.AbstractQueue#add(Object) class java.util.AbstractQueue}</li>
      * </ul>
      *
      * <p>
@@ -479,8 +479,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Category(Draft.class)
     public default void test_add_Object()
     throws Exception {
-        org.j8unit.repository.java.util.AbstractQueueTests.super.test_add_Object();
         org.j8unit.repository.java.util.concurrent.BlockingQueueTests.super.test_add_Object();
+        org.j8unit.repository.java.util.AbstractQueueTests.super.test_add_Object();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.DelayQueue]

@@ -36,8 +36,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.annotation.processing.Processor#getSupportedOptions() public abstract java.util.Set
-     * <java.lang.String> javax.annotation.processing.Processor.getSupportedOptions()}.
+     * {@link javax.annotation.processing.Processor#getSupportedOptions() public abstract
+     * java.util.Set<java.lang.String> javax.annotation.processing.Processor.getSupportedOptions()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,8 +82,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.annotation.processing.Processor#getSupportedAnnotationTypes() public abstract java.util.Set
-     * <java.lang.String> javax.annotation.processing.Processor.getSupportedAnnotationTypes()}.
+     * {@link javax.annotation.processing.Processor#getSupportedAnnotationTypes() public abstract
+     * java.util.Set<java.lang.String> javax.annotation.processing.Processor.getSupportedAnnotationTypes()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,8 +107,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.annotation.processing.Processor#getCompletions(javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror, javax.lang.model.element.ExecutableElement, String)
      * public abstract java.lang.Iterable<? extends javax.annotation.processing.Completion>
-     * javax.annotation.processing.Processor.getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)}
-     * .
+     * javax.annotation.processing.Processor.getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

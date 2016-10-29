@@ -38,10 +38,10 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.print.attribute.PrintJobAttributeSet#add(javax.print.attribute.Attribute) interface
-     * javax.print.attribute.PrintJobAttributeSet}</li>
      * <li>{@link javax.print.attribute.HashAttributeSet#add(javax.print.attribute.Attribute) class
      * javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.PrintJobAttributeSet#add(javax.print.attribute.Attribute) interface
+     * javax.print.attribute.PrintJobAttributeSet}</li>
      * </ul>
      *
      * <p>
@@ -58,8 +58,8 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
     @Category(Draft.class)
     public default void test_add_Attribute()
     throws Exception {
-        org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests.super.test_add_Attribute();
         org.j8unit.repository.javax.print.attribute.HashAttributeSetTests.super.test_add_Attribute();
+        org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests.super.test_add_Attribute();
     }
 
     /**
@@ -68,10 +68,10 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.print.attribute.PrintJobAttributeSet#addAll(javax.print.attribute.AttributeSet) interface
-     * javax.print.attribute.PrintJobAttributeSet}</li>
      * <li>{@link javax.print.attribute.HashAttributeSet#addAll(javax.print.attribute.AttributeSet) class
      * javax.print.attribute.HashAttributeSet}</li>
+     * <li>{@link javax.print.attribute.PrintJobAttributeSet#addAll(javax.print.attribute.AttributeSet) interface
+     * javax.print.attribute.PrintJobAttributeSet}</li>
      * </ul>
      *
      * <p>
@@ -88,8 +88,8 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
     @Category(Draft.class)
     public default void test_addAll_AttributeSet()
     throws Exception {
-        org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests.super.test_addAll_AttributeSet();
         org.j8unit.repository.javax.print.attribute.HashAttributeSetTests.super.test_addAll_AttributeSet();
+        org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests.super.test_addAll_AttributeSet();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintJobAttributeSet]

@@ -22,6 +22,21 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorTests<PrimitiveItera
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator]
 
     @RunWith(J8Unit4.class)
+    public static class OfLongTest
+    implements org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests<OfLong> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+
+        @Override
+        public OfLong createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.PrimitiveIterator.OfLong], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class OfDoubleTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorTests.OfDoubleTests<OfDouble> {
 
@@ -48,21 +63,6 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorTests<PrimitiveItera
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class OfLongTest
-    implements org.j8unit.repository.java.util.PrimitiveIteratorTests.OfLongTests<OfLong> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
-
-        @Override
-        public OfLong createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.PrimitiveIterator.OfLong], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
 
     }
 

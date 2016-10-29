@@ -45,8 +45,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.bind.JAXBException#JAXBException(String, Throwable) public
-     * javax.xml.bind.JAXBException(java.lang.String,java.lang.Throwable)}.
+     * {@link javax.xml.bind.JAXBException#JAXBException(String) public javax.xml.bind.JAXBException(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,34 +57,11 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JAXBException_String_Throwable()
+    public void create_JAXBException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBException sut = null; // = new JAXBException(String, Throwable);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.bind.JAXBException#JAXBException(Throwable) public
-     * javax.xml.bind.JAXBException(java.lang.Throwable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JAXBException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JAXBException sut = null; // = new JAXBException(Throwable);
+        final JAXBException sut = null; // = new JAXBException(String);
     }
 
     /**
@@ -114,7 +90,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.bind.JAXBException#JAXBException(String) public javax.xml.bind.JAXBException(java.lang.String)}.
+     * {@link javax.xml.bind.JAXBException#JAXBException(Throwable) public
+     * javax.xml.bind.JAXBException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -126,11 +103,34 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JAXBException_String()
+    public void create_JAXBException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JAXBException sut = null; // = new JAXBException(String);
+        final JAXBException sut = null; // = new JAXBException(Throwable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.JAXBException#JAXBException(String, Throwable) public
+     * javax.xml.bind.JAXBException(java.lang.String,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JAXBException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JAXBException sut = null; // = new JAXBException(String, Throwable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBException]

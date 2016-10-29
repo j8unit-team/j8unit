@@ -22,28 +22,6 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.IOP.MultipleComponentProfileHolder#MultipleComponentProfileHolder() public
-     * org.omg.IOP.MultipleComponentProfileHolder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MultipleComponentProfileHolder()
-    throws Exception {
-        // create new instance
-        final MultipleComponentProfileHolder sut = new MultipleComponentProfileHolder();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.IOP.MultipleComponentProfileHolder#MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[])
      * public org.omg.IOP.MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[])}.
      *
@@ -63,6 +41,28 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClass
         @SuppressWarnings("unused")
         final MultipleComponentProfileHolder sut = null; // = new
                                                          // MultipleComponentProfileHolder(org.omg.IOP.TaggedComponent[]);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.MultipleComponentProfileHolder#MultipleComponentProfileHolder() public
+     * org.omg.IOP.MultipleComponentProfileHolder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MultipleComponentProfileHolder()
+    throws Exception {
+        // create new instance
+        final MultipleComponentProfileHolder sut = new MultipleComponentProfileHolder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHolder]

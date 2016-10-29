@@ -179,30 +179,6 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeRef(java.sql.Ref) public void
-     * javax.sql.rowset.serial.SQLOutputImpl.writeRef(java.sql.Ref) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_writeRef_Ref()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.serial.SQLOutputImpl#writeNString(String) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeNString(java.lang.String) throws java.sql.SQLException}.
      *
@@ -218,6 +194,30 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
     @Test
     @Category(Draft.class)
     public default void test_writeNString_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sql.rowset.serial.SQLOutputImpl#writeRef(java.sql.Ref) public void
+     * javax.sql.rowset.serial.SQLOutputImpl.writeRef(java.sql.Ref) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_writeRef_Ref()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -514,6 +514,29 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLOutputImpl#writeInt(int)
+     * public void javax.sql.rowset.serial.SQLOutputImpl.writeInt(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_writeInt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.serial.SQLOutputImpl#writeURL(java.net.URL) public void
      * javax.sql.rowset.serial.SQLOutputImpl.writeURL(java.net.URL) throws java.sql.SQLException}.
@@ -530,29 +553,6 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
     @Test
     @Category(Draft.class)
     public default void test_writeURL_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLOutputImpl#writeInt(int)
-     * public void javax.sql.rowset.serial.SQLOutputImpl.writeInt(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_writeInt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

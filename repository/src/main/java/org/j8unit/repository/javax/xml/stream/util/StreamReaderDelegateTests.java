@@ -34,6 +34,29 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#next()
+     * public int javax.xml.stream.util.StreamReaderDelegate.next() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_next()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeType(int) public java.lang.String
      * javax.xml.stream.util.StreamReaderDelegate.getAttributeType(int)}.
@@ -58,8 +81,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#next()
-     * public int javax.xml.stream.util.StreamReaderDelegate.next() throws javax.xml.stream.XMLStreamException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getLocation() public javax.xml.stream.Location
+     * javax.xml.stream.util.StreamReaderDelegate.getLocation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -72,7 +96,7 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_next()
+    public default void test_getLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,9 +152,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.util.StreamReaderDelegate#getLocation() public javax.xml.stream.Location
-     * javax.xml.stream.util.StreamReaderDelegate.getLocation()}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#getName()
+     * public javax.xml.namespace.QName javax.xml.stream.util.StreamReaderDelegate.getName()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -143,31 +166,7 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getLocation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeValue(String, String) public java.lang.String
-     * javax.xml.stream.util.StreamReaderDelegate.getAttributeValue(java.lang.String,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeValue_String_String()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,8 +199,9 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#getName()
-     * public javax.xml.namespace.QName javax.xml.stream.util.StreamReaderDelegate.getName()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getAttributeValue(String, String) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getAttributeValue(java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,7 +214,7 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getAttributeValue_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -582,30 +582,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.util.StreamReaderDelegate#getPrefix() public java.lang.String
-     * javax.xml.stream.util.StreamReaderDelegate.getPrefix()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.util.StreamReaderDelegate#getProperty(String) public java.lang.Object
      * javax.xml.stream.util.StreamReaderDelegate.getProperty(java.lang.String)}.
      *
@@ -621,6 +597,30 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getProperty_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getPrefix() public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getPrefix()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -700,6 +700,29 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#hasNext()
+     * public boolean javax.xml.stream.util.StreamReaderDelegate.hasNext() throws javax.xml.stream.XMLStreamException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hasNext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.util.StreamReaderDelegate#require(int, String, String) public void
      * javax.xml.stream.util.StreamReaderDelegate.require(int,java.lang.String,java.lang.String) throws
@@ -717,29 +740,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_require_int_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.util.StreamReaderDelegate#hasNext()
-     * public boolean javax.xml.stream.util.StreamReaderDelegate.hasNext() throws javax.xml.stream.XMLStreamException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hasNext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -987,30 +987,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceURI(String) public java.lang.String
-     * javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceURI(int) public java.lang.String
      * javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(int)}.
      *
@@ -1050,6 +1026,30 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getNamespaceURI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.util.StreamReaderDelegate#getNamespaceURI(String) public java.lang.String
+     * javax.xml.stream.util.StreamReaderDelegate.getNamespaceURI(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

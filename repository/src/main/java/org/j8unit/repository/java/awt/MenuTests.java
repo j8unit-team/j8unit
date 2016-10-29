@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getItem(int) public java.awt.MenuItem
-     * java.awt.Menu.getItem(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#insert(String, int) public void
+     * java.awt.Menu.insert(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -70,7 +70,7 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getItem_int()
+    public default void test_insert_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,8 +101,8 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#insert(String, int) public void
-     * java.awt.Menu.insert(java.lang.String,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getItem(int) public java.awt.MenuItem
+     * java.awt.Menu.getItem(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_String_int()
+    public default void test_getItem_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -235,28 +235,6 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getItemCount() public int
-     * java.awt.Menu.getItemCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getItemCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Menu#countItems() public int
      * java.awt.Menu.countItems()}.
      *
@@ -271,6 +249,28 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_countItems()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Menu#getItemCount() public int
+     * java.awt.Menu.getItemCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getItemCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

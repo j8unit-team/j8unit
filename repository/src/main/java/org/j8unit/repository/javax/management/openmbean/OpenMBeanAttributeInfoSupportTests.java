@@ -37,8 +37,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getMinValue() public java.lang.Comparable
-     * <?> javax.management.openmbean.OpenMBeanAttributeInfoSupport.getMinValue()}.
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getMinValue() public java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.getMinValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -133,30 +133,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getMaxValue() public java.lang.Comparable
-     * <?> javax.management.openmbean.OpenMBeanAttributeInfoSupport.getMaxValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#hashCode() public int
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport.hashCode()}.
      *
@@ -181,8 +157,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#hasMaxValue() public boolean
-     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.hasMaxValue()}.
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getMaxValue() public java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.getMaxValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -195,7 +171,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_hasMaxValue()
+    public default void test_getMaxValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,8 +205,32 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getLegalValues() public java.util.Set
-     * <?> javax.management.openmbean.OpenMBeanAttributeInfoSupport.getLegalValues()}.
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#hasMaxValue() public boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.hasMaxValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hasMaxValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getLegalValues() public java.util.Set<?>
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.getLegalValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -352,9 +352,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanAttributeInfo#isWritable() class javax.management.MBeanAttributeInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanAttributeInfo#isWritable() interface
      * javax.management.openmbean.OpenMBeanAttributeInfo}</li>
+     * <li>{@link javax.management.MBeanAttributeInfo#isWritable() class javax.management.MBeanAttributeInfo}</li>
      * </ul>
      *
      * <p>
@@ -371,8 +371,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_isWritable()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isWritable();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_isWritable();
+        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isWritable();
     }
 
     /**
@@ -381,9 +381,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanAttributeInfo#isIs() class javax.management.MBeanAttributeInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanAttributeInfo#isIs() interface
      * javax.management.openmbean.OpenMBeanAttributeInfo}</li>
+     * <li>{@link javax.management.MBeanAttributeInfo#isIs() class javax.management.MBeanAttributeInfo}</li>
      * </ul>
      *
      * <p>
@@ -400,8 +400,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_isIs()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isIs();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_isIs();
+        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isIs();
     }
 
     /**
@@ -441,9 +441,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanAttributeInfo#isReadable() class javax.management.MBeanAttributeInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanAttributeInfo#isReadable() interface
      * javax.management.openmbean.OpenMBeanAttributeInfo}</li>
+     * <li>{@link javax.management.MBeanAttributeInfo#isReadable() class javax.management.MBeanAttributeInfo}</li>
      * </ul>
      *
      * <p>
@@ -460,8 +460,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_isReadable()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isReadable();
         org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_isReadable();
+        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isReadable();
     }
 
     /**

@@ -22,7 +22,8 @@ implements org.j8unit.repository.javax.swing.SpinnerNumberModelClassTests<Spinne
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel() public javax.swing.SpinnerNumberModel()}.
+     * {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(int, int, int, int) public
+     * javax.swing.SpinnerNumberModel(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,10 +35,11 @@ implements org.j8unit.repository.javax.swing.SpinnerNumberModelClassTests<Spinne
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SpinnerNumberModel()
+    public void create_SpinnerNumberModel_int_int_int_int()
     throws Exception {
         // create new instance
-        final SpinnerNumberModel sut = new SpinnerNumberModel();
+        @SuppressWarnings("unused")
+        final SpinnerNumberModel sut = null; // = new SpinnerNumberModel(int, int, int, int);
     }
 
     /**
@@ -66,8 +68,7 @@ implements org.j8unit.repository.javax.swing.SpinnerNumberModelClassTests<Spinne
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel(int, int, int, int) public
-     * javax.swing.SpinnerNumberModel(int,int,int,int)}.
+     * {@link javax.swing.SpinnerNumberModel#SpinnerNumberModel() public javax.swing.SpinnerNumberModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,11 +80,10 @@ implements org.j8unit.repository.javax.swing.SpinnerNumberModelClassTests<Spinne
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SpinnerNumberModel_int_int_int_int()
+    public void create_SpinnerNumberModel()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final SpinnerNumberModel sut = null; // = new SpinnerNumberModel(int, int, int, int);
+        final SpinnerNumberModel sut = new SpinnerNumberModel();
     }
 
     /**

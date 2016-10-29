@@ -39,8 +39,7 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
      * public java.lang.Object
      * javax.management.remote.rmi._RMIConnection_Stub.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject)
      * throws
-     * javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException}
-     * .
+     * javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +66,7 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
      * public void
      * javax.management.remote.rmi._RMIConnection_Stub.setAttribute(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
      * throws
-     * javax.management.InstanceNotFoundException,javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException,java.io.IOException}
-     * .
+     * javax.management.InstanceNotFoundException,javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,30 +164,6 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.rmi._RMIConnection_Stub#getConnectionId() public java.lang.String
-     * javax.management.remote.rmi._RMIConnection_Stub.getConnectionId() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getConnectionId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.rmi._RMIConnection_Stub#close() public void
      * javax.management.remote.rmi._RMIConnection_Stub.close() throws java.io.IOException}.
      *
@@ -214,11 +188,35 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnection_Stub#getConnectionId() public java.lang.String
+     * javax.management.remote.rmi._RMIConnection_Stub.getConnectionId() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getConnectionId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.rmi._RMIConnection_Stub#removeNotificationListeners(javax.management.ObjectName, Integer[], javax.security.auth.Subject)
      * public void
      * javax.management.remote.rmi._RMIConnection_Stub.removeNotificationListeners(javax.management.ObjectName,java.lang.Integer[],javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
-     * .
+     * throws
+     * javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -298,8 +296,7 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
      * public java.lang.Object
      * javax.management.remote.rmi._RMIConnection_Stub.invoke(javax.management.ObjectName,java.lang.String,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
      * throws
-     * javax.management.InstanceNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,java.io.IOException}
-     * .
+     * javax.management.InstanceNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -378,8 +375,7 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
      * public javax.management.MBeanInfo
      * javax.management.remote.rmi._RMIConnection_Stub.getMBeanInfo(javax.management.ObjectName,javax.security.auth.Subject)
      * throws
-     * javax.management.InstanceNotFoundException,javax.management.IntrospectionException,javax.management.ReflectionException,java.io.IOException}
-     * .
+     * javax.management.InstanceNotFoundException,javax.management.IntrospectionException,javax.management.ReflectionException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -402,38 +398,11 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.rmi._RMIConnection_Stub#removeNotificationListener(javax.management.ObjectName, javax.management.ObjectName, javax.security.auth.Subject)
-     * public void
-     * javax.management.remote.rmi._RMIConnection_Stub.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNotificationListener_ObjectName_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.rmi._RMIConnection_Stub#removeNotificationListener(javax.management.ObjectName, javax.management.ObjectName, java.rmi.MarshalledObject, java.rmi.MarshalledObject, javax.security.auth.Subject)
      * public void
      * javax.management.remote.rmi._RMIConnection_Stub.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
-     * .
+     * throws
+     * javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -447,6 +416,33 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_removeNotificationListener_ObjectName_ObjectName_MarshalledObject_MarshalledObject_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnection_Stub#removeNotificationListener(javax.management.ObjectName, javax.management.ObjectName, javax.security.auth.Subject)
+     * public void
+     * javax.management.remote.rmi._RMIConnection_Stub.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
+     * throws
+     * javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotificationListener_ObjectName_ObjectName_Subject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -508,12 +504,38 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnection_Stub#createMBean(String, javax.management.ObjectName, javax.security.auth.Subject)
+     * public javax.management.ObjectInstance
+     * javax.management.remote.rmi._RMIConnection_Stub.createMBean(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
+     * throws
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_createMBean_String_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.rmi._RMIConnection_Stub#createMBean(String, javax.management.ObjectName, javax.management.ObjectName, javax.security.auth.Subject)
      * public javax.management.ObjectInstance
      * javax.management.remote.rmi._RMIConnection_Stub.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
      * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}
-     * .
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -540,8 +562,7 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
      * public javax.management.ObjectInstance
      * javax.management.remote.rmi._RMIConnection_Stub.createMBean(java.lang.String,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
      * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}
-     * .
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -564,40 +585,11 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.rmi._RMIConnection_Stub#createMBean(String, javax.management.ObjectName, javax.security.auth.Subject)
-     * public javax.management.ObjectInstance
-     * javax.management.remote.rmi._RMIConnection_Stub.createMBean(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
-     * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_createMBean_String_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.rmi._RMIConnection_Stub#createMBean(String, javax.management.ObjectName, javax.management.ObjectName, java.rmi.MarshalledObject, String[], javax.security.auth.Subject)
      * public javax.management.ObjectInstance
      * javax.management.remote.rmi._RMIConnection_Stub.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
      * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}
-     * .
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -611,6 +603,31 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_createMBean_String_ObjectName_ObjectName_MarshalledObject_StringArray_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.rmi._RMIConnection_Stub#getDefaultDomain(javax.security.auth.Subject) public
+     * java.lang.String javax.management.remote.rmi._RMIConnection_Stub.getDefaultDomain(javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultDomain_Subject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -637,31 +654,6 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_getObjectInstance_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.rmi._RMIConnection_Stub#getDefaultDomain(javax.security.auth.Subject) public
-     * java.lang.String javax.management.remote.rmi._RMIConnection_Stub.getDefaultDomain(javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultDomain_Subject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

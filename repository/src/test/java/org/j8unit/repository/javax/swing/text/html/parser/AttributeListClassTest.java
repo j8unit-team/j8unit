@@ -22,31 +22,6 @@ implements org.j8unit.repository.javax.swing.text.html.parser.AttributeListClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.text.html.parser.AttributeList#AttributeList(String, int, int, String, java.util.Vector, javax.swing.text.html.parser.AttributeList)
-     * public javax.swing.text.html.parser.AttributeList(java.lang.String,int,int,java.lang.String,java.util.Vector
-     * <?>,javax.swing.text.html.parser.AttributeList)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_AttributeList_String_int_int_String_Vector_AttributeList()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final AttributeList sut = null; // = new AttributeList(String, int, int, String, java.util.Vector,
-                                        // javax.swing.text.html.parser.AttributeList);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.text.html.parser.AttributeList#AttributeList(String) public
      * javax.swing.text.html.parser.AttributeList(java.lang.String)}.
      *
@@ -65,6 +40,31 @@ implements org.j8unit.repository.javax.swing.text.html.parser.AttributeListClass
         // create new instance
         @SuppressWarnings("unused")
         final AttributeList sut = null; // = new AttributeList(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.html.parser.AttributeList#AttributeList(String, int, int, String, java.util.Vector, javax.swing.text.html.parser.AttributeList)
+     * public
+     * javax.swing.text.html.parser.AttributeList(java.lang.String,int,int,java.lang.String,java.util.Vector<?>,javax.swing.text.html.parser.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_AttributeList_String_int_int_String_Vector_AttributeList()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final AttributeList sut = null; // = new AttributeList(String, int, int, String, java.util.Vector,
+                                        // javax.swing.text.html.parser.AttributeList);
     }
 
     /**

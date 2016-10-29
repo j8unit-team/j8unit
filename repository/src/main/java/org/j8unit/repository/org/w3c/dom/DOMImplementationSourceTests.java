@@ -60,8 +60,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.DOMImplementationSource#getDOMImplementationList(String) public abstract
-     * org.w3c.dom.DOMImplementationList org.w3c.dom.DOMImplementationSource.getDOMImplementationList(java.lang.String)}
-     * .
+     * org.w3c.dom.DOMImplementationList
+     * org.w3c.dom.DOMImplementationSource.getDOMImplementationList(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

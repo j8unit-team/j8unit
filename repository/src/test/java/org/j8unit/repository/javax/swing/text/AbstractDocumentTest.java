@@ -26,6 +26,21 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests<Abstract
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument]
 
     @RunWith(J8Unit4.class)
+    public static class ElementEditTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests<ElementEdit> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$ElementEdit]
+
+        @Override
+        public ElementEdit createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AbstractDocument.ElementEdit], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$ElementEdit]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class LeafElementTest
     implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.LeafElementTests<LeafElement> {
 
@@ -37,6 +52,36 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests<Abstract
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$LeafElement]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultDocumentEventTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests<DefaultDocumentEvent> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
+
+        @Override
+        public DefaultDocumentEvent createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AbstractDocument.DefaultDocumentEvent], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class BranchElementTest
+    implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests<BranchElement> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$BranchElement]
+
+        @Override
+        public BranchElement createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AbstractDocument.BranchElement], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$BranchElement]
 
     }
 
@@ -71,36 +116,6 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests<Abstract
     }
 
     @RunWith(J8Unit4.class)
-    public static class BranchElementTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.BranchElementTests<BranchElement> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$BranchElement]
-
-        @Override
-        public BranchElement createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AbstractDocument.BranchElement], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$BranchElement]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ElementEditTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.ElementEditTests<ElementEdit> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$ElementEdit]
-
-        @Override
-        public ElementEdit createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AbstractDocument.ElementEdit], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$ElementEdit]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class AbstractElementTest
     implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests<AbstractElement> {
 
@@ -112,21 +127,6 @@ implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests<Abstract
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$AbstractElement]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultDocumentEventTest
-    implements org.j8unit.repository.javax.swing.text.AbstractDocumentTests.DefaultDocumentEventTests<DefaultDocumentEvent> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
-
-        @Override
-        public DefaultDocumentEvent createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AbstractDocument.DefaultDocumentEvent], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AbstractDocument$DefaultDocumentEvent]
 
     }
 

@@ -36,30 +36,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.TabularDataSupport#putAll(java.util.Map) public void
-     * javax.management.openmbean.TabularDataSupport.putAll(java.util.Map<?, ?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_putAll_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.TabularDataSupport#putAll(javax.management.openmbean.CompositeData[]) public
      * void javax.management.openmbean.TabularDataSupport.putAll(javax.management.openmbean.CompositeData[])}.
      *
@@ -75,6 +51,30 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Test
     @Category(Draft.class)
     public default void test_putAll_CompositeDataArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#putAll(java.util.Map) public void
+     * javax.management.openmbean.TabularDataSupport.putAll(java.util.Map<?, ?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_putAll_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,30 +108,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.TabularDataSupport#get(Object) public java.lang.Object
-     * javax.management.openmbean.TabularDataSupport.get(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.TabularDataSupport#get(Object[]) public
      * javax.management.openmbean.CompositeData javax.management.openmbean.TabularDataSupport.get(java.lang.Object[])}.
      *
@@ -147,6 +123,30 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Test
     @Category(Draft.class)
     public default void test_get_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#get(Object) public java.lang.Object
+     * javax.management.openmbean.TabularDataSupport.get(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -228,6 +228,30 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#keySet() public java.util.Set<java.lang.Object>
+     * javax.management.openmbean.TabularDataSupport.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_keySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.TabularDataSupport#getTabularType() public
      * javax.management.openmbean.TabularType javax.management.openmbean.TabularDataSupport.getTabularType()}.
      *
@@ -243,30 +267,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Test
     @Category(Draft.class)
     public default void test_getTabularType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.TabularDataSupport#keySet() public java.util.Set
-     * <java.lang.Object> javax.management.openmbean.TabularDataSupport.keySet()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_keySet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -323,8 +323,8 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.TabularDataSupport#values() public java.util.Collection
-     * <java.lang.Object> javax.management.openmbean.TabularDataSupport.values()}.
+     * {@link javax.management.openmbean.TabularDataSupport#values() public java.util.Collection<java.lang.Object>
+     * javax.management.openmbean.TabularDataSupport.values()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -338,30 +338,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Test
     @Category(Draft.class)
     public default void test_values()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.TabularDataSupport#containsKey(Object[]) public boolean
-     * javax.management.openmbean.TabularDataSupport.containsKey(java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsKey_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -386,6 +362,30 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Test
     @Category(Draft.class)
     public default void test_containsKey_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#containsKey(Object[]) public boolean
+     * javax.management.openmbean.TabularDataSupport.containsKey(java.lang.Object[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_containsKey_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -420,6 +420,30 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.TabularDataSupport#containsValue(Object) public boolean
+     * javax.management.openmbean.TabularDataSupport.containsValue(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_containsValue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.TabularDataSupport#containsValue(javax.management.openmbean.CompositeData)
      * public boolean
      * javax.management.openmbean.TabularDataSupport.containsValue(javax.management.openmbean.CompositeData)}.
@@ -436,30 +460,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Test
     @Category(Draft.class)
     public default void test_containsValue_CompositeData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.TabularDataSupport#containsValue(Object) public boolean
-     * javax.management.openmbean.TabularDataSupport.containsValue(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_containsValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

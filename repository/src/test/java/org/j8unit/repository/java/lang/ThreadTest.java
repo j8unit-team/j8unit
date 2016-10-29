@@ -38,6 +38,22 @@ implements FactoryBasedJ8UnitTest<Thread>, org.j8unit.repository.java.lang.Threa
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread]
 
     @RunWith(J8Unit4.class)
+    public static class UncaughtExceptionHandlerTest
+    implements org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests<UncaughtExceptionHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
+
+        @Override
+        public UncaughtExceptionHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.lang.Thread.UncaughtExceptionHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateTest
     implements org.j8unit.repository.java.lang.ThreadTests.StateTests<State> {
 
@@ -57,21 +73,6 @@ implements FactoryBasedJ8UnitTest<Thread>, org.j8unit.repository.java.lang.Threa
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$State]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class UncaughtExceptionHandlerTest
-    implements org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests<UncaughtExceptionHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
-
-        @Override
-        public UncaughtExceptionHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.lang.Thread.UncaughtExceptionHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
 
     }
 

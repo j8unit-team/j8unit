@@ -59,9 +59,8 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultCaret#deinstall(javax.swing.text.JTextComponent) public void
-     * javax.swing.text.DefaultCaret.deinstall(javax.swing.text.JTextComponent)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultCaret#toString() public
+     * java.lang.String javax.swing.text.DefaultCaret.toString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -74,7 +73,7 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_deinstall_JTextComponent()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,8 +105,9 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultCaret#toString() public
-     * java.lang.String javax.swing.text.DefaultCaret.toString()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultCaret#deinstall(javax.swing.text.JTextComponent) public void
+     * javax.swing.text.DefaultCaret.deinstall(javax.swing.text.JTextComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -120,7 +120,7 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_toString()
+    public default void test_deinstall_JTextComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,6 +153,29 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultCaret#equals(Object) public
+     * boolean javax.swing.text.DefaultCaret.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.DefaultCaret#mouseClicked(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseClicked(java.awt.event.MouseEvent)}.
@@ -169,29 +192,6 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_mouseClicked_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultCaret#equals(Object) public
-     * boolean javax.swing.text.DefaultCaret.equals(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -736,29 +736,6 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultCaret#setDot(int, javax.swing.text.Position.Bias) public void
-     * javax.swing.text.DefaultCaret.setDot(int,javax.swing.text.Position$Bias)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDot_int_Bias()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.DefaultCaret#setDot(int) public
      * void javax.swing.text.DefaultCaret.setDot(int)}.
      *
@@ -774,6 +751,29 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDot_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultCaret#setDot(int, javax.swing.text.Position.Bias) public void
+     * javax.swing.text.DefaultCaret.setDot(int,javax.swing.text.Position$Bias)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDot_int_Bias()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -805,30 +805,6 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultCaret#mouseExited(java.awt.event.MouseEvent) public void
-     * javax.swing.text.DefaultCaret.mouseExited(java.awt.event.MouseEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseExited_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.DefaultCaret#mouseDragged(java.awt.event.MouseEvent) public void
      * javax.swing.text.DefaultCaret.mouseDragged(java.awt.event.MouseEvent)}.
      *
@@ -844,6 +820,30 @@ org.j8unit.repository.java.awt.RectangleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_mouseDragged_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultCaret#mouseExited(java.awt.event.MouseEvent) public void
+     * javax.swing.text.DefaultCaret.mouseExited(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseExited_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -238,8 +238,8 @@ extends org.j8unit.repository.java.net.SocketTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.net.ssl.SSLSocket#removeHandshakeCompletedListener(javax.net.ssl.HandshakeCompletedListener) public
-     * abstract void javax.net.ssl.SSLSocket.removeHandshakeCompletedListener(javax.net.ssl.HandshakeCompletedListener)}
-     * .
+     * abstract void
+     * javax.net.ssl.SSLSocket.removeHandshakeCompletedListener(javax.net.ssl.HandshakeCompletedListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -327,28 +327,6 @@ extends org.j8unit.repository.java.net.SocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSocket#getNeedClientAuth() public
-     * abstract boolean javax.net.ssl.SSLSocket.getNeedClientAuth()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNeedClientAuth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSocket#getEnableSessionCreation()
      * public abstract boolean javax.net.ssl.SSLSocket.getEnableSessionCreation()}.
      *
@@ -363,6 +341,28 @@ extends org.j8unit.repository.java.net.SocketTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getEnableSessionCreation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLSocket#getNeedClientAuth() public
+     * abstract boolean javax.net.ssl.SSLSocket.getNeedClientAuth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNeedClientAuth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -61,30 +61,6 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseExited(java.awt.event.MouseEvent) public void
-     * javax.swing.plaf.basic.BasicButtonListener.mouseExited(java.awt.event.MouseEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseExited_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicButtonListener#mouseDragged(java.awt.event.MouseEvent) public void
      * javax.swing.plaf.basic.BasicButtonListener.mouseDragged(java.awt.event.MouseEvent)}.
      *
@@ -100,6 +76,30 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_mouseDragged_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#mouseExited(java.awt.event.MouseEvent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.mouseExited(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseExited_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -300,29 +300,6 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicButtonListener#installKeyboardActions(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicButtonListener.installKeyboardActions(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_installKeyboardActions_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicButtonListener#propertyChange(java.beans.PropertyChangeEvent) public void
      * javax.swing.plaf.basic.BasicButtonListener.propertyChange(java.beans.PropertyChangeEvent)}.
      *
@@ -338,6 +315,29 @@ org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicButtonListener#installKeyboardActions(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicButtonListener.installKeyboardActions(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_installKeyboardActions_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

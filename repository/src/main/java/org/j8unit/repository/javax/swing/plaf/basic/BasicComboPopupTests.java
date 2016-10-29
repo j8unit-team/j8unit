@@ -61,30 +61,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicComboPopup#getMouseListener() public java.awt.event.MouseListener
-     * javax.swing.plaf.basic.BasicComboPopup.getMouseListener()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMouseListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicComboPopup#isFocusTraversable() public boolean
      * javax.swing.plaf.basic.BasicComboPopup.isFocusTraversable()}.
      *
@@ -100,6 +76,30 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_isFocusTraversable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicComboPopup#getMouseListener() public java.awt.event.MouseListener
+     * javax.swing.plaf.basic.BasicComboPopup.getMouseListener()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMouseListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -253,8 +253,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.swing.plaf.basic.ComboPopup#isVisible() interface javax.swing.plaf.basic.ComboPopup}</li>
      * <li>{@link javax.swing.JPopupMenu#isVisible() class javax.swing.JPopupMenu}</li>
+     * <li>{@link javax.swing.plaf.basic.ComboPopup#isVisible() interface javax.swing.plaf.basic.ComboPopup}</li>
      * </ul>
      *
      * <p>
@@ -271,8 +271,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
     @Category(Draft.class)
     public default void test_isVisible()
     throws Exception {
-        org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests.super.test_isVisible();
         org.j8unit.repository.javax.swing.JPopupMenuTests.super.test_isVisible();
+        org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests.super.test_isVisible();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboPopup]
@@ -411,8 +411,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
          * <p>
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler#keyReleased(java.awt.event.KeyEvent)
-         * public void javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}
-         * .
+         * public void
+         * javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler.keyReleased(java.awt.event.KeyEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

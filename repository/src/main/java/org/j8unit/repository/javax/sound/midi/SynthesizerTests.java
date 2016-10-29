@@ -80,28 +80,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Synthesizer#getDefaultSoundbank()
-     * public abstract javax.sound.midi.Soundbank javax.sound.midi.Synthesizer.getDefaultSoundbank()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultSoundbank()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.Synthesizer#getAvailableInstruments() public abstract javax.sound.midi.Instrument[]
      * javax.sound.midi.Synthesizer.getAvailableInstruments()}.
@@ -117,6 +95,28 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAvailableInstruments()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Synthesizer#getDefaultSoundbank()
+     * public abstract javax.sound.midi.Soundbank javax.sound.midi.Synthesizer.getDefaultSoundbank()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultSoundbank()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -217,28 +217,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Synthesizer#getMaxPolyphony()
-     * public abstract int javax.sound.midi.Synthesizer.getMaxPolyphony()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxPolyphony()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Synthesizer#getLatency() public
      * abstract long javax.sound.midi.Synthesizer.getLatency()}.
      *
@@ -253,6 +231,28 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLatency()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.Synthesizer#getMaxPolyphony()
+     * public abstract int javax.sound.midi.Synthesizer.getMaxPolyphony()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxPolyphony()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

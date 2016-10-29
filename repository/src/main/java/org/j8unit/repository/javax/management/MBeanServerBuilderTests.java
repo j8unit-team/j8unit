@@ -60,8 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServerBuilder#newMBeanServer(String, javax.management.MBeanServer, javax.management.MBeanServerDelegate)
      * public javax.management.MBeanServer
-     * javax.management.MBeanServerBuilder.newMBeanServer(java.lang.String,javax.management.MBeanServer,javax.management.MBeanServerDelegate)}
-     * .
+     * javax.management.MBeanServerBuilder.newMBeanServer(java.lang.String,javax.management.MBeanServer,javax.management.MBeanServerDelegate)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

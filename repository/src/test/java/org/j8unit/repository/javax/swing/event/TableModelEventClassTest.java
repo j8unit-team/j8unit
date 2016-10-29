@@ -45,8 +45,8 @@ implements org.j8unit.repository.javax.swing.event.TableModelEventClassTests<Tab
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.event.TableModelEvent#TableModelEvent(javax.swing.table.TableModel, int, int, int) public
-     * javax.swing.event.TableModelEvent(javax.swing.table.TableModel,int,int,int)}.
+     * {@link javax.swing.event.TableModelEvent#TableModelEvent(javax.swing.table.TableModel) public
+     * javax.swing.event.TableModelEvent(javax.swing.table.TableModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -58,34 +58,11 @@ implements org.j8unit.repository.javax.swing.event.TableModelEventClassTests<Tab
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TableModelEvent_TableModel_int_int_int()
+    public void create_TableModelEvent_TableModel()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel, int, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.event.TableModelEvent#TableModelEvent(javax.swing.table.TableModel, int, int) public
-     * javax.swing.event.TableModelEvent(javax.swing.table.TableModel,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TableModelEvent_TableModel_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel, int, int);
+        final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel);
     }
 
     /**
@@ -114,8 +91,8 @@ implements org.j8unit.repository.javax.swing.event.TableModelEventClassTests<Tab
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.event.TableModelEvent#TableModelEvent(javax.swing.table.TableModel) public
-     * javax.swing.event.TableModelEvent(javax.swing.table.TableModel)}.
+     * {@link javax.swing.event.TableModelEvent#TableModelEvent(javax.swing.table.TableModel, int, int) public
+     * javax.swing.event.TableModelEvent(javax.swing.table.TableModel,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,11 +104,34 @@ implements org.j8unit.repository.javax.swing.event.TableModelEventClassTests<Tab
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TableModelEvent_TableModel()
+    public void create_TableModelEvent_TableModel_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel);
+        final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel, int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.event.TableModelEvent#TableModelEvent(javax.swing.table.TableModel, int, int, int) public
+     * javax.swing.event.TableModelEvent(javax.swing.table.TableModel,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TableModelEvent_TableModel_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel, int, int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TableModelEvent]

@@ -22,6 +22,28 @@ implements org.j8unit.repository.java.awt.image.renderable.ParameterBlockClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.renderable.ParameterBlock#ParameterBlock() public
+     * java.awt.image.renderable.ParameterBlock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ParameterBlock()
+    throws Exception {
+        // create new instance
+        final ParameterBlock sut = new ParameterBlock();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.image.renderable.ParameterBlock#ParameterBlock(java.util.Vector, java.util.Vector) public
      * java.awt.image.renderable.ParameterBlock(java.util.Vector<java.lang.Object>,java.util.Vector<java.lang.Object>)}.
      *
@@ -63,28 +85,6 @@ implements org.j8unit.repository.java.awt.image.renderable.ParameterBlockClassTe
         // create new instance
         @SuppressWarnings("unused")
         final ParameterBlock sut = null; // = new ParameterBlock(java.util.Vector);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.renderable.ParameterBlock#ParameterBlock() public
-     * java.awt.image.renderable.ParameterBlock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ParameterBlock()
-    throws Exception {
-        // create new instance
-        final ParameterBlock sut = new ParameterBlock();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.ParameterBlock]

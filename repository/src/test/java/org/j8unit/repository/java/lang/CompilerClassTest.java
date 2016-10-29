@@ -40,26 +40,6 @@ implements org.j8unit.repository.java.lang.CompilerClassTests<Compiler> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Compiler#disable() public static native void
-     * java.lang.Compiler.disable()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_disable()
-    throws Exception {
-        // write some test for {@link Compiler#disable()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Compiler#enable() public static native void
      * java.lang.Compiler.enable()}.
      *
@@ -76,6 +56,26 @@ implements org.j8unit.repository.java.lang.CompilerClassTests<Compiler> {
     public void test_enable()
     throws Exception {
         // write some test for {@link Compiler#enable()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Compiler#disable() public static native void
+     * java.lang.Compiler.disable()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_disable()
+    throws Exception {
+        // write some test for {@link Compiler#disable()}
     }
 
     /**

@@ -10,7 +10,7 @@ import javax.swing.text.html.HTMLEditorKit.Parser;
 import javax.swing.text.html.HTMLEditorKit.ParserCallback;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -64,7 +64,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -80,7 +80,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link InsertHTMLTextAction public static class javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}.
+     * {@link ParserCallback public static class javax.swing.text.html.HTMLEditorKit$ParserCallback}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -88,7 +88,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}.
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests}.
      * </p>
      *
      * <p>
@@ -116,10 +116,10 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface InsertHTMLTextActionClassTests<SUT extends InsertHTMLTextAction>
-    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
+    public static abstract interface ParserCallbackClassTests<SUT extends ParserCallback>
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -127,17 +127,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to InsertHTMLTextAction.class!",
-                              InsertHTMLTextAction.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ParserCallback.class!",
+                              ParserCallback.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
     }
 
@@ -192,7 +192,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -210,7 +210,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link HTMLTextAction public abstract static class javax.swing.text.html.HTMLEditorKit$HTMLTextAction}.
+     * {@link InsertHTMLTextAction public static class javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -218,7 +218,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests}.
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}.
      * </p>
      *
      * <p>
@@ -246,10 +246,10 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface HTMLTextActionClassTests<SUT extends HTMLTextAction>
-    extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
+    public static abstract interface InsertHTMLTextActionClassTests<SUT extends InsertHTMLTextAction>
+    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -257,17 +257,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to HTMLTextAction.class!",
-                              HTMLTextAction.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to InsertHTMLTextAction.class!",
+                              InsertHTMLTextAction.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
     }
 
@@ -322,7 +322,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -387,7 +387,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -405,7 +405,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ParserCallback public static class javax.swing.text.html.HTMLEditorKit$ParserCallback}.
+     * {@link HTMLTextAction public abstract static class javax.swing.text.html.HTMLEditorKit$HTMLTextAction}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -413,7 +413,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests}.
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests}.
      * </p>
      *
      * <p>
@@ -441,10 +441,10 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ParserCallbackClassTests<SUT extends ParserCallback>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface HTMLTextActionClassTests<SUT extends HTMLTextAction>
+    extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -452,17 +452,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ParserCallback.class!",
-                              ParserCallback.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to HTMLTextAction.class!",
+                              HTMLTextAction.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
     }
 

@@ -22,27 +22,6 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHolderClassTests<Tagge
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.IOP.TaggedProfileHolder#TaggedProfileHolder() public org.omg.IOP.TaggedProfileHolder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TaggedProfileHolder()
-    throws Exception {
-        // create new instance
-        final TaggedProfileHolder sut = new TaggedProfileHolder();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.IOP.TaggedProfileHolder#TaggedProfileHolder(org.omg.IOP.TaggedProfile) public
      * org.omg.IOP.TaggedProfileHolder(org.omg.IOP.TaggedProfile)}.
      *
@@ -61,6 +40,27 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHolderClassTests<Tagge
         // create new instance
         @SuppressWarnings("unused")
         final TaggedProfileHolder sut = null; // = new TaggedProfileHolder(org.omg.IOP.TaggedProfile);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.TaggedProfileHolder#TaggedProfileHolder() public org.omg.IOP.TaggedProfileHolder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TaggedProfileHolder()
+    throws Exception {
+        // create new instance
+        final TaggedProfileHolder sut = new TaggedProfileHolder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfileHolder]

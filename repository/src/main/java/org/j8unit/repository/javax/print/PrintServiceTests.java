@@ -152,8 +152,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.print.PrintService#isAttributeValueSupported(javax.print.attribute.Attribute, javax.print.DocFlavor, javax.print.attribute.AttributeSet)
      * public abstract boolean
-     * javax.print.PrintService.isAttributeValueSupported(javax.print.attribute.Attribute,javax.print.DocFlavor,javax.print.attribute.AttributeSet)}
-     * .
+     * javax.print.PrintService.isAttributeValueSupported(javax.print.attribute.Attribute,javax.print.DocFlavor,javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -356,10 +355,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.print.PrintService#removePrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)
-     * public abstract void
-     * javax.print.PrintService.removePrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)}.
+     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#hashCode() public abstract
+     * int javax.print.PrintService.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,7 +368,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePrintServiceAttributeListener_PrintServiceAttributeListener()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -403,8 +400,10 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.print.PrintService#hashCode() public abstract
-     * int javax.print.PrintService.hashCode()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.PrintService#removePrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)
+     * public abstract void
+     * javax.print.PrintService.removePrintServiceAttributeListener(javax.print.event.PrintServiceAttributeListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -416,7 +415,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_removePrintServiceAttributeListener_PrintServiceAttributeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

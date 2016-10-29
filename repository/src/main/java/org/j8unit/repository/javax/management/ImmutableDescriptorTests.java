@@ -34,6 +34,29 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#equals(Object)
+     * public boolean javax.management.ImmutableDescriptor.equals(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#isValid()
      * public boolean javax.management.ImmutableDescriptor.isValid()}.
      *
@@ -57,8 +80,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#equals(Object)
-     * public boolean javax.management.ImmutableDescriptor.equals(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#hashCode()
+     * public int javax.management.ImmutableDescriptor.hashCode()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -71,7 +94,7 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_equals_Object()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,29 +119,6 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getFieldValue_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#hashCode()
-     * public int javax.management.ImmutableDescriptor.hashCode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -269,6 +269,29 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#toString()
+     * public java.lang.String javax.management.ImmutableDescriptor.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.ImmutableDescriptor#setFields(String[], Object[]) public final void
      * javax.management.ImmutableDescriptor.setFields(java.lang.String[],java.lang.Object[]) throws
@@ -286,29 +309,6 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_setFields_StringArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.ImmutableDescriptor#toString()
-     * public java.lang.String javax.management.ImmutableDescriptor.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

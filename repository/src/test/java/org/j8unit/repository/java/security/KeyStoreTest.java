@@ -29,81 +29,6 @@ implements org.j8unit.repository.java.security.KeyStoreTests<KeyStore> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore]
 
     @RunWith(J8Unit4.class)
-    public static class LoadStoreParameterTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests<LoadStoreParameter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
-
-        @Override
-        public LoadStoreParameter createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyStore.LoadStoreParameter], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class SecretKeyEntryTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests<SecretKeyEntry> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
-
-        @Override
-        public SecretKeyEntry createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.SecretKeyEntry], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TrustedCertificateEntryTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests<TrustedCertificateEntry> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
-
-        @Override
-        public TrustedCertificateEntry createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.TrustedCertificateEntry], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ProtectionParameterTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests<ProtectionParameter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
-
-        @Override
-        public ProtectionParameter createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyStore.ProtectionParameter], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PasswordProtectionTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests<PasswordProtection> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
-
-        @Override
-        public PasswordProtection createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.PasswordProtection], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class PrivateKeyEntryTest
     implements org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests<PrivateKeyEntry> {
 
@@ -119,17 +44,17 @@ implements org.j8unit.repository.java.security.KeyStoreTests<KeyStore> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class CallbackHandlerProtectionTest
-    implements org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests<CallbackHandlerProtection> {
+    public static class SecretKeyEntryTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests<SecretKeyEntry> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
 
         @Override
-        public CallbackHandlerProtection createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.CallbackHandlerProtection], j8unit does not support a generic way to provide instances.");
+        public SecretKeyEntry createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.SecretKeyEntry], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
 
     }
 
@@ -175,6 +100,81 @@ implements org.j8unit.repository.java.security.KeyStoreTests<KeyStore> {
             // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$Entry$Attribute]
 
         }
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TrustedCertificateEntryTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests<TrustedCertificateEntry> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
+
+        @Override
+        public TrustedCertificateEntry createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.TrustedCertificateEntry], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PasswordProtectionTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests<PasswordProtection> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
+
+        @Override
+        public PasswordProtection createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.PasswordProtection], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class LoadStoreParameterTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests<LoadStoreParameter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
+
+        @Override
+        public LoadStoreParameter createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyStore.LoadStoreParameter], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ProtectionParameterTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests<ProtectionParameter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
+
+        @Override
+        public ProtectionParameter createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyStore.ProtectionParameter], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CallbackHandlerProtectionTest
+    implements org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests<CallbackHandlerProtection> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
+
+        @Override
+        public CallbackHandlerProtection createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.KeyStore.CallbackHandlerProtection], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
 
     }
 

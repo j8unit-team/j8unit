@@ -80,8 +80,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicToolBarUI.DockingListener#DockingListener(javax.swing.plaf.basic.BasicToolBarUI, javax.swing.JToolBar)
          * public
-         * javax.swing.plaf.basic.BasicToolBarUI$DockingListener(javax.swing.plaf.basic.BasicToolBarUI,javax.swing.JToolBar)}
-         * .
+         * javax.swing.plaf.basic.BasicToolBarUI$DockingListener(javax.swing.plaf.basic.BasicToolBarUI,javax.swing.JToolBar)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

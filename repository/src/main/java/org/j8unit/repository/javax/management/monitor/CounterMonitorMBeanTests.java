@@ -152,29 +152,6 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGauge(javax.management.ObjectName) public abstract
-     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDerivedGauge_ObjectName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGauge() public abstract java.lang.Number
      * javax.management.monitor.CounterMonitorMBean.getDerivedGauge()}.
      *
@@ -189,6 +166,29 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDerivedGauge()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGauge(javax.management.ObjectName) public abstract
+     * java.lang.Number javax.management.monitor.CounterMonitorMBean.getDerivedGauge(javax.management.ObjectName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDerivedGauge_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -338,8 +338,8 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.CounterMonitorMBean#getDerivedGaugeTimeStamp(javax.management.ObjectName) public
-     * abstract long javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}
-     * .
+     * abstract long
+     * javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp(javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -384,6 +384,29 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.CounterMonitorMBean#setDifferenceMode(boolean) public abstract void
+     * javax.management.monitor.CounterMonitorMBean.setDifferenceMode(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDifferenceMode_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.monitor.CounterMonitorMBean#setModulus(Number) public abstract void
      * javax.management.monitor.CounterMonitorMBean.setModulus(java.lang.Number) throws
      * java.lang.IllegalArgumentException}.
@@ -399,29 +422,6 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setModulus_Number()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.monitor.CounterMonitorMBean#setDifferenceMode(boolean) public abstract void
-     * javax.management.monitor.CounterMonitorMBean.setDifferenceMode(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDifferenceMode_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

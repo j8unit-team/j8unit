@@ -38,8 +38,8 @@ implements org.j8unit.repository.java.util.MapClassTests<Map> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Map.Entry#comparingByKey(java.util.Comparator) public static
-         * <K,V> java.util.Comparator<java.util.Map.java.util.Map$Entry<K, V>>
+         * {@link java.util.Map.Entry#comparingByKey(java.util.Comparator) public static <K,V>
+         * java.util.Comparator<java.util.Map.java.util.Map$Entry<K, V>>
          * java.util.Map$Entry.comparingByKey(java.util.Comparator<? super K>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
@@ -102,8 +102,8 @@ implements org.j8unit.repository.java.util.MapClassTests<Map> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Map.Entry#comparingByValue(java.util.Comparator) public static
-         * <K,V> java.util.Comparator<java.util.Map.java.util.Map$Entry<K, V>>
+         * {@link java.util.Map.Entry#comparingByValue(java.util.Comparator) public static <K,V>
+         * java.util.Comparator<java.util.Map.java.util.Map$Entry<K, V>>
          * java.util.Map$Entry.comparingByValue(java.util.Comparator<? super V>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at

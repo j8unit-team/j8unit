@@ -123,6 +123,50 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRL#getEncoded() public
+     * abstract byte[] java.security.cert.X509CRL.getEncoded() throws java.security.cert.CRLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRL#getIssuerDN() public
+     * abstract java.security.Principal java.security.cert.X509CRL.getIssuerDN()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIssuerDN()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CRL#getRevokedCertificate(java.math.BigInteger) public abstract
      * java.security.cert.X509CRLEntry java.security.cert.X509CRL.getRevokedCertificate(java.math.BigInteger)}.
@@ -192,50 +236,6 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRL#getIssuerDN() public
-     * abstract java.security.Principal java.security.cert.X509CRL.getIssuerDN()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIssuerDN()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRL#getEncoded() public
-     * abstract byte[] java.security.cert.X509CRL.getEncoded() throws java.security.cert.CRLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CRL#getTBSCertList() public
      * abstract byte[] java.security.cert.X509CRL.getTBSCertList() throws java.security.cert.CRLException}.
      *
@@ -261,8 +261,7 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
      * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CRL#verify(java.security.PublicKey, String) public abstract void
      * java.security.cert.X509CRL.verify(java.security.PublicKey,java.lang.String) throws
-     * java.security.cert.CRLException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}
-     * .
+     * java.security.cert.CRLException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -284,35 +283,9 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CRL#verify(java.security.PublicKey, java.security.Provider) public void
-     * java.security.cert.X509CRL.verify(java.security.PublicKey,java.security.Provider) throws
-     * java.security.cert.CRLException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.SignatureException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_verify_PublicKey_Provider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CRL#verify(java.security.PublicKey) public abstract void
      * java.security.cert.X509CRL.verify(java.security.PublicKey) throws
-     * java.security.cert.CRLException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}
-     * .
+     * java.security.cert.CRLException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -325,6 +298,30 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_verify_PublicKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CRL#verify(java.security.PublicKey, java.security.Provider) public void
+     * java.security.cert.X509CRL.verify(java.security.PublicKey,java.security.Provider) throws
+     * java.security.cert.CRLException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.SignatureException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_verify_PublicKey_Provider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

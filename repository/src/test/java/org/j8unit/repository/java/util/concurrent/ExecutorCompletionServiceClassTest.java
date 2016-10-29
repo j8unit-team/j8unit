@@ -25,8 +25,7 @@ implements org.j8unit.repository.java.util.concurrent.ExecutorCompletionServiceC
      * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.ExecutorCompletionService#ExecutorCompletionService(java.util.concurrent.Executor, java.util.concurrent.BlockingQueue)
      * public
-     * java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue<java.util.concurrent.Future
-     * <V>>)}.
+     * java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue<java.util.concurrent.Future<V>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

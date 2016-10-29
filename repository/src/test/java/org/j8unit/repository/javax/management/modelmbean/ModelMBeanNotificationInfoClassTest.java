@@ -22,9 +22,9 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo)
+     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String)
      * public
-     * javax.management.modelmbean.ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo)}.
+     * javax.management.modelmbean.ModelMBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +36,11 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ModelMBeanNotificationInfo_ModelMBeanNotificationInfo()
+    public void create_ModelMBeanNotificationInfo_StringArray_String_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ModelMBeanNotificationInfo sut = null; // = new
-                                                     // ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo);
+        final ModelMBeanNotificationInfo sut = null; // = new ModelMBeanNotificationInfo(String[], String, String);
     }
 
     /**
@@ -49,8 +48,7 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String, javax.management.Descriptor)
      * public
-     * javax.management.modelmbean.ModelMBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String,javax.management.Descriptor)}
-     * .
+     * javax.management.modelmbean.ModelMBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String,javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -73,9 +71,9 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(String[], String, String)
+     * {@link javax.management.modelmbean.ModelMBeanNotificationInfo#ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo)
      * public
-     * javax.management.modelmbean.ModelMBeanNotificationInfo(java.lang.String[],java.lang.String,java.lang.String)}.
+     * javax.management.modelmbean.ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -87,11 +85,12 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificat
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ModelMBeanNotificationInfo_StringArray_String_String()
+    public void create_ModelMBeanNotificationInfo_ModelMBeanNotificationInfo()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final ModelMBeanNotificationInfo sut = null; // = new ModelMBeanNotificationInfo(String[], String, String);
+        final ModelMBeanNotificationInfo sut = null; // = new
+                                                     // ModelMBeanNotificationInfo(javax.management.modelmbean.ModelMBeanNotificationInfo);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationInfo]

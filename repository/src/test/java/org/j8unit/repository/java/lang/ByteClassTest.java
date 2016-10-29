@@ -83,26 +83,6 @@ implements org.j8unit.repository.java.lang.ByteClassTests<Byte> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Byte#parseByte(String) public static byte
-     * java.lang.Byte.parseByte(java.lang.String) throws java.lang.NumberFormatException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parseByte_String()
-    throws Exception {
-        // write some test for {@link Byte#parseByte(String)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Byte#parseByte(String, int) public static byte
      * java.lang.Byte.parseByte(java.lang.String,int) throws java.lang.NumberFormatException}.
      *
@@ -119,6 +99,26 @@ implements org.j8unit.repository.java.lang.ByteClassTests<Byte> {
     public void test_parseByte_String_int()
     throws Exception {
         // write some test for {@link Byte#parseByte(String, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Byte#parseByte(String) public static byte
+     * java.lang.Byte.parseByte(java.lang.String) throws java.lang.NumberFormatException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parseByte_String()
+    throws Exception {
+        // write some test for {@link Byte#parseByte(String)}
     }
 
     /**
@@ -203,26 +203,6 @@ implements org.j8unit.repository.java.lang.ByteClassTests<Byte> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Byte#valueOf(String) public static java.lang.Byte
-     * java.lang.Byte.valueOf(java.lang.String) throws java.lang.NumberFormatException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_String()
-    throws Exception {
-        // write some test for {@link Byte#valueOf(String)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Byte#valueOf(byte) public static java.lang.Byte
      * java.lang.Byte.valueOf(byte)}.
      *
@@ -239,6 +219,26 @@ implements org.j8unit.repository.java.lang.ByteClassTests<Byte> {
     public void test_valueOf_byte()
     throws Exception {
         // write some test for {@link Byte#valueOf(byte)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Byte#valueOf(String) public static java.lang.Byte
+     * java.lang.Byte.valueOf(java.lang.String) throws java.lang.NumberFormatException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_String()
+    throws Exception {
+        // write some test for {@link Byte#valueOf(String)}
     }
 
     /**

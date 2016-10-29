@@ -4,12 +4,15 @@ import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import java.awt.MultipleGradientPaint;
 import java.awt.MultipleGradientPaint.ColorSpaceType;
 import java.awt.MultipleGradientPaint.CycleMethod;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.j8unit.util.TestParametersUtil;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class MultipleGradientPaintTest
@@ -24,7 +27,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ColorSpaceTypeTest
     implements org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests<ColorSpaceType> {
 
@@ -47,7 +51,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CycleMethodTest
     implements org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests<CycleMethod> {
 

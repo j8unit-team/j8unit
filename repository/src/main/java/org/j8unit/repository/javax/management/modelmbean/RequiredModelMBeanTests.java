@@ -36,30 +36,6 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#preDeregister() public void
-     * javax.management.modelmbean.RequiredModelMBean.preDeregister() throws java.lang.Exception}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#postDeregister() public void
      * javax.management.modelmbean.RequiredModelMBean.postDeregister()}.
      *
@@ -75,6 +51,30 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_postDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#preDeregister() public void
+     * javax.management.modelmbean.RequiredModelMBean.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_preDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,8 +110,7 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#setManagedResource(Object, String) public void
      * javax.management.modelmbean.RequiredModelMBean.setManagedResource(java.lang.Object,java.lang.String) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -214,8 +213,7 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
      * public void
      * javax.management.modelmbean.RequiredModelMBean.removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
      * throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.ListenerNotFoundException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.ListenerNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,6 +253,56 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_addNotificationListener_NotificationListener_NotificationFilter_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#store() public void
+     * javax.management.modelmbean.RequiredModelMBean.store() throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_store()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#setAttributes(javax.management.AttributeList) public
+     * javax.management.AttributeList
+     * javax.management.modelmbean.RequiredModelMBean.setAttributes(javax.management.AttributeList)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setAttributes_AttributeList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -314,57 +362,6 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#setAttributes(javax.management.AttributeList) public
-     * javax.management.AttributeList
-     * javax.management.modelmbean.RequiredModelMBean.setAttributes(javax.management.AttributeList)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setAttributes_AttributeList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#store() public void
-     * javax.management.modelmbean.RequiredModelMBean.store() throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_store()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#invoke(String, Object[], String[]) public java.lang.Object
      * javax.management.modelmbean.RequiredModelMBean.invoke(java.lang.String,java.lang.Object[],java.lang.String[])
      * throws javax.management.MBeanException,javax.management.ReflectionException}.
@@ -392,8 +389,7 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#load() public void
      * javax.management.modelmbean.RequiredModelMBean.load() throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -407,6 +403,31 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_load()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#getAttribute(String) public java.lang.Object
+     * javax.management.modelmbean.RequiredModelMBean.getAttribute(java.lang.String) throws
+     * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttribute_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -442,36 +463,9 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#getAttribute(String) public java.lang.Object
-     * javax.management.modelmbean.RequiredModelMBean.getAttribute(java.lang.String) throws
-     * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttribute_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#setAttribute(javax.management.Attribute) public void
      * javax.management.modelmbean.RequiredModelMBean.setAttribute(javax.management.Attribute) throws
-     * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}
-     * .
+     * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

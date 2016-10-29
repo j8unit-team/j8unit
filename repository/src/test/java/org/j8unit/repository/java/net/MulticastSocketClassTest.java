@@ -21,9 +21,8 @@ implements org.j8unit.repository.java.net.MulticastSocketClassTests<MulticastSoc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.net.MulticastSocket#MulticastSocket(java.net.SocketAddress) public
-     * java.net.MulticastSocket(java.net.SocketAddress) throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.MulticastSocket#MulticastSocket()
+     * public java.net.MulticastSocket() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,10 @@ implements org.j8unit.repository.java.net.MulticastSocketClassTests<MulticastSoc
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MulticastSocket_SocketAddress()
+    public void create_MulticastSocket()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final MulticastSocket sut = null; // = new MulticastSocket(java.net.SocketAddress);
+        final MulticastSocket sut = new MulticastSocket();
     }
 
     /**
@@ -66,8 +64,9 @@ implements org.j8unit.repository.java.net.MulticastSocketClassTests<MulticastSoc
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.net.MulticastSocket#MulticastSocket()
-     * public java.net.MulticastSocket() throws java.io.IOException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.MulticastSocket#MulticastSocket(java.net.SocketAddress) public
+     * java.net.MulticastSocket(java.net.SocketAddress) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,10 +78,11 @@ implements org.j8unit.repository.java.net.MulticastSocketClassTests<MulticastSoc
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MulticastSocket()
+    public void create_MulticastSocket_SocketAddress()
     throws Exception {
         // create new instance
-        final MulticastSocket sut = new MulticastSocket();
+        @SuppressWarnings("unused")
+        final MulticastSocket sut = null; // = new MulticastSocket(java.net.SocketAddress);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.MulticastSocket]

@@ -23,9 +23,9 @@ implements org.j8unit.repository.java.security.cert.PKIXBuilderParametersClassTe
      * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.security.cert.PKIXBuilderParameters#PKIXBuilderParameters(java.util.Set, java.security.cert.CertSelector)
-     * public java.security.cert.PKIXBuilderParameters(java.util.Set
-     * <java.security.cert.TrustAnchor>,java.security.cert.CertSelector) throws
-     * java.security.InvalidAlgorithmParameterException}.
+     * public
+     * java.security.cert.PKIXBuilderParameters(java.util.Set<java.security.cert.TrustAnchor>,java.security.cert.CertSelector)
+     * throws java.security.InvalidAlgorithmParameterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

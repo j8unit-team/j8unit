@@ -22,32 +22,9 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder#InvalidAddressHolder() public
-     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_InvalidAddressHolder()
-    throws Exception {
-        // create new instance
-        final InvalidAddressHolder sut = new InvalidAddressHolder();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder#InvalidAddressHolder(org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)
      * public
-     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder(org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)}
-     * .
+     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder(org.omg.CosNaming.NamingContextExtPackage.InvalidAddress)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,6 +42,28 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
         @SuppressWarnings("unused")
         final InvalidAddressHolder sut = null; // = new
                                                // InvalidAddressHolder(org.omg.CosNaming.NamingContextExtPackage.InvalidAddress);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder#InvalidAddressHolder() public
+     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InvalidAddressHolder()
+    throws Exception {
+        // create new instance
+        final InvalidAddressHolder sut = new InvalidAddressHolder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder]

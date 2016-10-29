@@ -86,8 +86,8 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.attribute.PosixFileAttributeView#setPermissions(java.util.Set) public abstract void
-     * java.nio.file.attribute.PosixFileAttributeView.setPermissions(java.util.Set
-     * <java.nio.file.attribute.PosixFilePermission>) throws java.io.IOException}.
+     * java.nio.file.attribute.PosixFileAttributeView.setPermissions(java.util.Set<java.nio.file.attribute.PosixFilePermission>)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

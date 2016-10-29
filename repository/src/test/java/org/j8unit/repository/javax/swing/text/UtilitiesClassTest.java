@@ -68,8 +68,7 @@ implements org.j8unit.repository.javax.swing.text.UtilitiesClassTests<Utilities>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.Utilities#drawTabbedText(javax.swing.text.Segment, int, int, java.awt.Graphics, javax.swing.text.TabExpander, int)
      * public static final int
-     * javax.swing.text.Utilities.drawTabbedText(javax.swing.text.Segment,int,int,java.awt.Graphics,javax.swing.text.TabExpander,int)}
-     * .
+     * javax.swing.text.Utilities.drawTabbedText(javax.swing.text.Segment,int,int,java.awt.Graphics,javax.swing.text.TabExpander,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,8 +135,7 @@ implements org.j8unit.repository.javax.swing.text.UtilitiesClassTests<Utilities>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.Utilities#getTabbedTextWidth(javax.swing.text.Segment, java.awt.FontMetrics, int, javax.swing.text.TabExpander, int)
      * public static final int
-     * javax.swing.text.Utilities.getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)}
-     * .
+     * javax.swing.text.Utilities.getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,34 +156,9 @@ implements org.j8unit.repository.javax.swing.text.UtilitiesClassTests<Utilities>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.Utilities#getTabbedTextOffset(javax.swing.text.Segment, java.awt.FontMetrics, int, int, javax.swing.text.TabExpander, int)
-     * public static final int
-     * javax.swing.text.Utilities.getTabbedTextOffset(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getTabbedTextOffset_Segment_FontMetrics_int_int_TabExpander_int()
-    throws Exception {
-        // write some test for {@link javax.swing.text.Utilities#getTabbedTextOffset(javax.swing.text.Segment,
-        // java.awt.FontMetrics, int, int, javax.swing.text.TabExpander, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.Utilities#getTabbedTextOffset(javax.swing.text.Segment, java.awt.FontMetrics, int, int, javax.swing.text.TabExpander, int, boolean)
      * public static final int
-     * javax.swing.text.Utilities.getTabbedTextOffset(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int,boolean)}
-     * .
+     * javax.swing.text.Utilities.getTabbedTextOffset(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -206,10 +179,32 @@ implements org.j8unit.repository.javax.swing.text.UtilitiesClassTests<Utilities>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.Utilities#getTabbedTextOffset(javax.swing.text.Segment, java.awt.FontMetrics, int, int, javax.swing.text.TabExpander, int)
+     * public static final int
+     * javax.swing.text.Utilities.getTabbedTextOffset(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getTabbedTextOffset_Segment_FontMetrics_int_int_TabExpander_int()
+    throws Exception {
+        // write some test for {@link javax.swing.text.Utilities#getTabbedTextOffset(javax.swing.text.Segment,
+        // java.awt.FontMetrics, int, int, javax.swing.text.TabExpander, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.Utilities#getBreakLocation(javax.swing.text.Segment, java.awt.FontMetrics, int, int, javax.swing.text.TabExpander, int)
      * public static final int
-     * javax.swing.text.Utilities.getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)}
-     * .
+     * javax.swing.text.Utilities.getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

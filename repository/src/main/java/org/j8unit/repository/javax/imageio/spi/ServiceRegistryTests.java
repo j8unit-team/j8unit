@@ -36,6 +36,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.ServiceRegistry#deregisterAll()
+     * public void javax.imageio.spi.ServiceRegistry.deregisterAll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deregisterAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.spi.ServiceRegistry#deregisterAll(Class) public void
      * javax.imageio.spi.ServiceRegistry.deregisterAll(java.lang.Class<?>)}.
@@ -51,28 +73,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_deregisterAll_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.ServiceRegistry#deregisterAll()
-     * public void javax.imageio.spi.ServiceRegistry.deregisterAll()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deregisterAll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,29 +105,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ServiceRegistry#deregisterServiceProvider(Object, Class) public <T> boolean
-     * javax.imageio.spi.ServiceRegistry.deregisterServiceProvider(T,java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deregisterServiceProvider_Object_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.spi.ServiceRegistry#deregisterServiceProvider(Object) public void
      * javax.imageio.spi.ServiceRegistry.deregisterServiceProvider(java.lang.Object)}.
      *
@@ -151,9 +128,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ServiceRegistry#deregisterServiceProvider(Object, Class) public <T> boolean
+     * javax.imageio.spi.ServiceRegistry.deregisterServiceProvider(T,java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deregisterServiceProvider_Object_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.spi.ServiceRegistry#getServiceProviders(Class, javax.imageio.spi.ServiceRegistry.Filter, boolean)
-     * public <T> java.util.Iterator<T> javax.imageio.spi.ServiceRegistry.getServiceProviders(java.lang.Class
-     * <T>,javax.imageio.spi.ServiceRegistry$Filter,boolean)}.
+     * public <T> java.util.Iterator<T>
+     * javax.imageio.spi.ServiceRegistry.getServiceProviders(java.lang.Class<T>,javax.imageio.spi.ServiceRegistry$Filter,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,8 +175,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ServiceRegistry#getServiceProviders(Class, boolean) public <T> java.util.Iterator
-     * <T> javax.imageio.spi.ServiceRegistry.getServiceProviders(java.lang.Class<T>,boolean)}.
+     * {@link javax.imageio.spi.ServiceRegistry#getServiceProviders(Class, boolean) public <T> java.util.Iterator<T>
+     * javax.imageio.spi.ServiceRegistry.getServiceProviders(java.lang.Class<T>,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,29 +220,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ServiceRegistry#setOrdering(Class, Object, Object) public <T> boolean
-     * javax.imageio.spi.ServiceRegistry.setOrdering(java.lang.Class<T>,T,T)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOrdering_Class_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.ServiceRegistry#contains(Object)
      * public boolean javax.imageio.spi.ServiceRegistry.contains(java.lang.Object)}.
      *
@@ -266,8 +243,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ServiceRegistry#registerServiceProvider(Object) public void
-     * javax.imageio.spi.ServiceRegistry.registerServiceProvider(java.lang.Object)}.
+     * {@link javax.imageio.spi.ServiceRegistry#setOrdering(Class, Object, Object) public <T> boolean
+     * javax.imageio.spi.ServiceRegistry.setOrdering(java.lang.Class<T>,T,T)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -279,7 +256,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_registerServiceProvider_Object()
+    public default void test_setOrdering_Class_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -303,6 +280,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_registerServiceProvider_Object_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ServiceRegistry#registerServiceProvider(Object) public void
+     * javax.imageio.spi.ServiceRegistry.registerServiceProvider(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerServiceProvider_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

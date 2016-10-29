@@ -370,8 +370,8 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Path#register(java.nio.file.WatchService, java.nio.file.WatchEvent.Kind...) public abstract
      * java.nio.file.WatchKey
-     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind
-     * <?>...) throws java.io.IOException}.
+     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind<?>...)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -396,8 +396,8 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Path#register(java.nio.file.WatchService, java.nio.file.WatchEvent.Kind[], java.nio.file.WatchEvent.Modifier...)
      * public abstract java.nio.file.WatchKey
-     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind
-     * <?>[],java.nio.file.WatchEvent$Modifier...) throws java.io.IOException}.
+     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind<?>[],java.nio.file.WatchEvent$Modifier...)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -441,6 +441,28 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.Path#toFile() public abstract
+     * java.io.File java.nio.file.Path.toFile()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toFile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Path#toRealPath(java.nio.file.LinkOption...) public abstract java.nio.file.Path
      * java.nio.file.Path.toRealPath(java.nio.file.LinkOption...) throws java.io.IOException}.
@@ -464,8 +486,8 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.file.Path#toFile() public abstract
-     * java.io.File java.nio.file.Path.toFile()}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.Path#endsWith(java.nio.file.Path)
+     * public abstract boolean java.nio.file.Path.endsWith(java.nio.file.Path)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -477,7 +499,7 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toFile()
+    public default void test_endsWith_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -500,28 +522,6 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_endsWith_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.file.Path#endsWith(java.nio.file.Path)
-     * public abstract boolean java.nio.file.Path.endsWith(java.nio.file.Path)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endsWith_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

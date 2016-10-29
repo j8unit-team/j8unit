@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable, Runnable, boolean) public
-     * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)}.
+     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable) public
+     * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,11 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InvocationEvent_Object_Runnable_Runnable_boolean()
+    public void create_InvocationEvent_Object_Runnable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InvocationEvent sut = null; // = new InvocationEvent(Object, Runnable, Runnable, boolean);
+        final InvocationEvent sut = null; // = new InvocationEvent(Object, Runnable);
     }
 
     /**
@@ -68,8 +68,8 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable) public
-     * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable)}.
+     * {@link java.awt.event.InvocationEvent#InvocationEvent(Object, Runnable, Runnable, boolean) public
+     * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,11 +81,11 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InvocationEvent_Object_Runnable()
+    public void create_InvocationEvent_Object_Runnable_Runnable_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InvocationEvent sut = null; // = new InvocationEvent(Object, Runnable);
+        final InvocationEvent sut = null; // = new InvocationEvent(Object, Runnable, Runnable, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.InvocationEvent]

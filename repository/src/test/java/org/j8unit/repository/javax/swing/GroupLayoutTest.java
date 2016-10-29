@@ -6,11 +6,14 @@ import javax.swing.GroupLayout.Alignment;
 import javax.swing.GroupLayout.Group;
 import javax.swing.GroupLayout.ParallelGroup;
 import javax.swing.GroupLayout.SequentialGroup;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class GroupLayoutTest
@@ -26,25 +29,17 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<GroupLayout> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout]
 
     @RunWith(J8Unit4.class)
-    public static class AlignmentTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests<Alignment> {
+    public static class GroupTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests<Group> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Alignment]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(Alignment.class);
-        }
-
-        @Parameter(0)
-        public Alignment sut;
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Group]
 
         @Override
-        public Alignment createNewSUT() {
-            return this.sut;
+        public Group createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.GroupLayout.Group], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Alignment]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Group]
 
     }
 
@@ -78,18 +73,27 @@ implements org.j8unit.repository.javax.swing.GroupLayoutTests<GroupLayout> {
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class GroupTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests<Group> {
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class AlignmentTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests<Alignment> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Group]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Alignment]
 
-        @Override
-        public Group createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.GroupLayout.Group], j8unit does not support a generic way to provide instances.");
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return testParametersOfEnumClass(Alignment.class);
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Group]
+        @Parameter(0)
+        public Alignment sut;
+
+        @Override
+        public Alignment createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.GroupLayout$Alignment]
 
     }
 

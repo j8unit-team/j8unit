@@ -56,28 +56,6 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getXOnScreen() public int
-     * java.awt.event.MouseEvent.getXOnScreen()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getXOnScreen()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getModifiersEx() public
      * int java.awt.event.MouseEvent.getModifiersEx()}.
      *
@@ -93,6 +71,28 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getModifiersEx()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getXOnScreen() public int
+     * java.awt.event.MouseEvent.getXOnScreen()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXOnScreen()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,8 +211,8 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getPoint() public
-     * java.awt.Point java.awt.event.MouseEvent.getPoint()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#paramString() public
+     * java.lang.String java.awt.event.MouseEvent.paramString()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -222,9 +222,10 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getPoint()
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -277,8 +278,8 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#paramString() public
-     * java.lang.String java.awt.event.MouseEvent.paramString()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.event.MouseEvent#getPoint() public
+     * java.awt.Point java.awt.event.MouseEvent.getPoint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -288,10 +289,9 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_paramString()
+    public default void test_getPoint()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

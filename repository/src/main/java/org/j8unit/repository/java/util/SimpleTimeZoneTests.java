@@ -104,6 +104,29 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#toString() public
+     * java.lang.String java.util.SimpleTimeZone.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.SimpleTimeZone#hasSameRules(java.util.TimeZone) public boolean
      * java.util.SimpleTimeZone.hasSameRules(java.util.TimeZone)}.
@@ -120,29 +143,6 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hasSameRules_TimeZone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#toString() public
-     * java.lang.String java.util.SimpleTimeZone.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -219,29 +219,6 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#setRawOffset(int) public
-     * void java.util.SimpleTimeZone.setRawOffset(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setRawOffset_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#equals(Object) public
      * boolean java.util.SimpleTimeZone.equals(java.lang.Object)}.
      *
@@ -257,6 +234,29 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#setRawOffset(int) public
+     * void java.util.SimpleTimeZone.setRawOffset(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setRawOffset_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -334,29 +334,6 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.SimpleTimeZone#setStartRule(int, int, int, int, boolean) public void
-     * java.util.SimpleTimeZone.setStartRule(int,int,int,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setStartRule_int_int_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#setStartRule(int, int, int)
      * public void java.util.SimpleTimeZone.setStartRule(int,int,int)}.
      *
@@ -380,8 +357,8 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.SimpleTimeZone#setEndRule(int, int, int, int, boolean) public void
-     * java.util.SimpleTimeZone.setEndRule(int,int,int,int,boolean)}.
+     * {@link java.util.SimpleTimeZone#setStartRule(int, int, int, int, boolean) public void
+     * java.util.SimpleTimeZone.setStartRule(int,int,int,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -393,7 +370,7 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEndRule_int_int_int_int_boolean()
+    public default void test_setStartRule_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -417,6 +394,29 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setEndRule_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.SimpleTimeZone#setEndRule(int, int, int, int, boolean) public void
+     * java.util.SimpleTimeZone.setEndRule(int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEndRule_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -469,29 +469,6 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#getOffset(long) public int
-     * java.util.SimpleTimeZone.getOffset(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffset_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.SimpleTimeZone#getOffset(int, int, int, int, int, int) public int
      * java.util.SimpleTimeZone.getOffset(int,int,int,int,int,int)}.
@@ -508,6 +485,29 @@ extends org.j8unit.repository.java.util.TimeZoneTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOffset_int_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.SimpleTimeZone#getOffset(long) public int
+     * java.util.SimpleTimeZone.getOffset(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

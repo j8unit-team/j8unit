@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.time.chrono.HijrahDateClassTests<HijrahDat
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahDate#of(int, int, int) public
-     * static java.time.chrono.HijrahDate java.time.chrono.HijrahDate.of(int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahDate#now() public static
+     * java.time.chrono.HijrahDate java.time.chrono.HijrahDate.now()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,9 +34,9 @@ implements org.j8unit.repository.java.time.chrono.HijrahDateClassTests<HijrahDat
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_of_int_int_int()
+    public void test_now()
     throws Exception {
-        // write some test for {@link java.time.chrono.HijrahDate#of(int, int, int)}
+        // write some test for {@link java.time.chrono.HijrahDate#now()}
     }
 
     /**
@@ -81,8 +81,8 @@ implements org.j8unit.repository.java.time.chrono.HijrahDateClassTests<HijrahDat
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahDate#now() public static
-     * java.time.chrono.HijrahDate java.time.chrono.HijrahDate.now()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.HijrahDate#of(int, int, int) public
+     * static java.time.chrono.HijrahDate java.time.chrono.HijrahDate.of(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,9 +94,9 @@ implements org.j8unit.repository.java.time.chrono.HijrahDateClassTests<HijrahDat
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now()
+    public void test_of_int_int_int()
     throws Exception {
-        // write some test for {@link java.time.chrono.HijrahDate#now()}
+        // write some test for {@link java.time.chrono.HijrahDate#of(int, int, int)}
     }
 
     /**

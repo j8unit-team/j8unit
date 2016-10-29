@@ -11,8 +11,8 @@ import org.omg.PortableInterceptor.ClientRequestInfoOperations;
  * <p>
  * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
  * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link ClientRequestInfoOperations public abstract interface org.omg.PortableInterceptor.ClientRequestInfoOperations}
- * .
+ * {@link ClientRequestInfoOperations public abstract interface
+ * org.omg.PortableInterceptor.ClientRequestInfoOperations}.
  * </p>
  *
  * <p>
@@ -32,29 +32,6 @@ public abstract interface ClientRequestInfoOperationsTests<SUT extends ClientReq
 extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ClientRequestInfoOperations]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception() public abstract
-     * org.omg.CORBA.Any org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_received_exception()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -82,8 +59,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception_id() public abstract
-     * java.lang.String org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception_id()}.
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception() public abstract
+     * org.omg.CORBA.Any org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,7 +72,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_received_exception_id()
+    public default void test_received_exception()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,6 +106,29 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception_id() public abstract
+     * java.lang.String org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception_id()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_received_exception_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#effective_profile() public abstract
      * org.omg.IOP.TaggedProfile org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_profile()}.
      *
@@ -153,8 +153,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#get_effective_component(int) public abstract
-     * org.omg.IOP.TaggedComponent org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_component(int)}
-     * .
+     * org.omg.IOP.TaggedComponent
+     * org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_component(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -178,8 +178,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#add_request_service_context(org.omg.IOP.ServiceContext, boolean)
      * public abstract void
-     * org.omg.PortableInterceptor.ClientRequestInfoOperations.add_request_service_context(org.omg.IOP.ServiceContext,boolean)}
-     * .
+     * org.omg.PortableInterceptor.ClientRequestInfoOperations.add_request_service_context(org.omg.IOP.ServiceContext,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

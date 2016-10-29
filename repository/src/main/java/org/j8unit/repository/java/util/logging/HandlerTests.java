@@ -212,29 +212,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.logging.Handler#setFormatter(java.util.logging.Formatter) public synchronized void
-     * java.util.logging.Handler.setFormatter(java.util.logging.Formatter) throws java.lang.SecurityException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFormatter_Formatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.logging.Handler#getErrorManager() public
      * java.util.logging.ErrorManager java.util.logging.Handler.getErrorManager()}.
      *
@@ -258,8 +235,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.logging.Handler#setFilter(java.util.logging.Filter) public synchronized void
-     * java.util.logging.Handler.setFilter(java.util.logging.Filter) throws java.lang.SecurityException}.
+     * {@link java.util.logging.Handler#setFormatter(java.util.logging.Formatter) public synchronized void
+     * java.util.logging.Handler.setFormatter(java.util.logging.Formatter) throws java.lang.SecurityException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,7 +248,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFilter_Filter()
+    public default void test_setFormatter_Formatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -295,6 +272,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLevel_Level()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.logging.Handler#setFilter(java.util.logging.Filter) public synchronized void
+     * java.util.logging.Handler.setFilter(java.util.logging.Filter) throws java.lang.SecurityException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFilter_Filter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

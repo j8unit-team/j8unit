@@ -35,8 +35,8 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#clone() public java.util.EnumSet
-     * <E> java.util.EnumSet.clone()}.
+     * Test method for the hereby targeted method-under-test {@link java.util.EnumSet#clone() public
+     * java.util.EnumSet<E> java.util.EnumSet.clone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

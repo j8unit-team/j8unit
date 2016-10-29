@@ -44,8 +44,8 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.format.DateTimeFormatter#parsedExcessDays() public static final java.time.temporal.TemporalQuery
-     * <java.time.Period> java.time.format.DateTimeFormatter.parsedExcessDays()}.
+     * {@link java.time.format.DateTimeFormatter#parsedExcessDays() public static final
+     * java.time.temporal.TemporalQuery<java.time.Period> java.time.format.DateTimeFormatter.parsedExcessDays()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,8 +65,8 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.format.DateTimeFormatter#parsedLeapSecond() public static final java.time.temporal.TemporalQuery
-     * <java.lang.Boolean> java.time.format.DateTimeFormatter.parsedLeapSecond()}.
+     * {@link java.time.format.DateTimeFormatter#parsedLeapSecond() public static final
+     * java.time.temporal.TemporalQuery<java.lang.Boolean> java.time.format.DateTimeFormatter.parsedLeapSecond()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -88,8 +88,7 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
      * Test method for the hereby targeted method-under-test
      * {@link java.time.format.DateTimeFormatter#ofLocalizedDateTime(java.time.format.FormatStyle, java.time.format.FormatStyle)
      * public static java.time.format.DateTimeFormatter
-     * java.time.format.DateTimeFormatter.ofLocalizedDateTime(java.time.format.FormatStyle,java.time.format.FormatStyle)}
-     * .
+     * java.time.format.DateTimeFormatter.ofLocalizedDateTime(java.time.format.FormatStyle,java.time.format.FormatStyle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

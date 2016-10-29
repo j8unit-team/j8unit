@@ -81,8 +81,8 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.net.ssl.ExtendedSSLSession#getRequestedServerNames() public java.util.List
-     * <javax.net.ssl.SNIServerName> javax.net.ssl.ExtendedSSLSession.getRequestedServerNames()}.
+     * {@link javax.net.ssl.ExtendedSSLSession#getRequestedServerNames() public
+     * java.util.List<javax.net.ssl.SNIServerName> javax.net.ssl.ExtendedSSLSession.getRequestedServerNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

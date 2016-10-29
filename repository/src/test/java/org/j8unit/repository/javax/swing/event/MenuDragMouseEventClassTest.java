@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests<
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.event.MenuDragMouseEvent#MenuDragMouseEvent(java.awt.Component, int, long, int, int, int, int, boolean, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public
-     * javax.swing.event.MenuDragMouseEvent(java.awt.Component,int,long,int,int,int,int,boolean,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
+     * javax.swing.event.MenuDragMouseEvent(java.awt.Component,int,long,int,int,int,int,boolean,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,8 +50,7 @@ implements org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests<
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.event.MenuDragMouseEvent#MenuDragMouseEvent(java.awt.Component, int, long, int, int, int, int, int, int, boolean, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public
-     * javax.swing.event.MenuDragMouseEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
+     * javax.swing.event.MenuDragMouseEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

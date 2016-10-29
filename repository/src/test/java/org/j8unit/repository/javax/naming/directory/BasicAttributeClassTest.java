@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributeClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.naming.directory.BasicAttribute#BasicAttribute(String, boolean) public
-     * javax.naming.directory.BasicAttribute(java.lang.String,boolean)}.
+     * {@link javax.naming.directory.BasicAttribute#BasicAttribute(String, Object, boolean) public
+     * javax.naming.directory.BasicAttribute(java.lang.String,java.lang.Object,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,11 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributeClassTests
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BasicAttribute_String_boolean()
+    public void create_BasicAttribute_String_Object_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicAttribute sut = null; // = new BasicAttribute(String, boolean);
+        final BasicAttribute sut = null; // = new BasicAttribute(String, Object, boolean);
     }
 
     /**
@@ -68,8 +68,8 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributeClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.naming.directory.BasicAttribute#BasicAttribute(String, Object, boolean) public
-     * javax.naming.directory.BasicAttribute(java.lang.String,java.lang.Object,boolean)}.
+     * {@link javax.naming.directory.BasicAttribute#BasicAttribute(String, boolean) public
+     * javax.naming.directory.BasicAttribute(java.lang.String,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,11 +81,11 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributeClassTests
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BasicAttribute_String_Object_boolean()
+    public void create_BasicAttribute_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BasicAttribute sut = null; // = new BasicAttribute(String, Object, boolean);
+        final BasicAttribute sut = null; // = new BasicAttribute(String, boolean);
     }
 
     /**

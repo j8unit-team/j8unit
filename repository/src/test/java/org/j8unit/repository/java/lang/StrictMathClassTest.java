@@ -80,26 +80,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#nextUp(float) public static float
-     * java.lang.StrictMath.nextUp(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_nextUp_float()
-    throws Exception {
-        // write some test for {@link StrictMath#nextUp(float)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#nextUp(double) public static double
      * java.lang.StrictMath.nextUp(double)}.
      *
@@ -116,6 +96,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_nextUp_double()
     throws Exception {
         // write some test for {@link StrictMath#nextUp(double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#nextUp(float) public static float
+     * java.lang.StrictMath.nextUp(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_nextUp_float()
+    throws Exception {
+        // write some test for {@link StrictMath#nextUp(float)}
     }
 
     /**
@@ -160,26 +160,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#copySign(float, float) public static
-     * float java.lang.StrictMath.copySign(float,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copySign_float_float()
-    throws Exception {
-        // write some test for {@link StrictMath#copySign(float, float)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#copySign(double, double) public static
      * double java.lang.StrictMath.copySign(double,double)}.
      *
@@ -196,6 +176,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_copySign_double_double()
     throws Exception {
         // write some test for {@link StrictMath#copySign(double, double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#copySign(float, float) public static
+     * float java.lang.StrictMath.copySign(float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copySign_float_float()
+    throws Exception {
+        // write some test for {@link StrictMath#copySign(float, float)}
     }
 
     /**
@@ -260,26 +260,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#ulp(double) public static double
-     * java.lang.StrictMath.ulp(double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_ulp_double()
-    throws Exception {
-        // write some test for {@link StrictMath#ulp(double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#ulp(float) public static float
      * java.lang.StrictMath.ulp(float)}.
      *
@@ -296,6 +276,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_ulp_float()
     throws Exception {
         // write some test for {@link StrictMath#ulp(float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#ulp(double) public static double
+     * java.lang.StrictMath.ulp(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_ulp_double()
+    throws Exception {
+        // write some test for {@link StrictMath#ulp(double)}
     }
 
     /**
@@ -480,26 +480,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#signum(double) public static double
-     * java.lang.StrictMath.signum(double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_signum_double()
-    throws Exception {
-        // write some test for {@link StrictMath#signum(double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#signum(float) public static float
      * java.lang.StrictMath.signum(float)}.
      *
@@ -516,6 +496,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_signum_float()
     throws Exception {
         // write some test for {@link StrictMath#signum(float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#signum(double) public static double
+     * java.lang.StrictMath.signum(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_signum_double()
+    throws Exception {
+        // write some test for {@link StrictMath#signum(double)}
     }
 
     /**
@@ -640,26 +640,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#min(int, int) public static int
-     * java.lang.StrictMath.min(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_min_int_int()
-    throws Exception {
-        // write some test for {@link StrictMath#min(int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#min(double, double) public static double
      * java.lang.StrictMath.min(double,double)}.
      *
@@ -696,6 +676,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_min_float_float()
     throws Exception {
         // write some test for {@link StrictMath#min(float, float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#min(int, int) public static int
+     * java.lang.StrictMath.min(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_min_int_int()
+    throws Exception {
+        // write some test for {@link StrictMath#min(int, int)}
     }
 
     /**
@@ -740,26 +740,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#nextAfter(float, double) public static
-     * float java.lang.StrictMath.nextAfter(float,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_nextAfter_float_double()
-    throws Exception {
-        // write some test for {@link StrictMath#nextAfter(float, double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#nextAfter(double, double) public static
      * double java.lang.StrictMath.nextAfter(double,double)}.
      *
@@ -780,8 +760,8 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#multiplyExact(long, long) public static
-     * long java.lang.StrictMath.multiplyExact(long,long)}.
+     * Test method for the hereby targeted method-under-test {@link StrictMath#nextAfter(float, double) public static
+     * float java.lang.StrictMath.nextAfter(float,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -793,9 +773,9 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_multiplyExact_long_long()
+    public void test_nextAfter_float_double()
     throws Exception {
-        // write some test for {@link StrictMath#multiplyExact(long, long)}
+        // write some test for {@link StrictMath#nextAfter(float, double)}
     }
 
     /**
@@ -820,6 +800,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#multiplyExact(long, long) public static
+     * long java.lang.StrictMath.multiplyExact(long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_multiplyExact_long_long()
+    throws Exception {
+        // write some test for {@link StrictMath#multiplyExact(long, long)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#log(double) public static native double
      * java.lang.StrictMath.log(double)}.
      *
@@ -840,26 +840,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#floorMod(long, long) public static long
-     * java.lang.StrictMath.floorMod(long,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_floorMod_long_long()
-    throws Exception {
-        // write some test for {@link StrictMath#floorMod(long, long)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#floorMod(int, int) public static int
      * java.lang.StrictMath.floorMod(int,int)}.
      *
@@ -876,6 +856,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_floorMod_int_int()
     throws Exception {
         // write some test for {@link StrictMath#floorMod(int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#floorMod(long, long) public static long
+     * java.lang.StrictMath.floorMod(long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_floorMod_long_long()
+    throws Exception {
+        // write some test for {@link StrictMath#floorMod(long, long)}
     }
 
     /**
@@ -960,26 +960,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#round(double) public static long
-     * java.lang.StrictMath.round(double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_round_double()
-    throws Exception {
-        // write some test for {@link StrictMath#round(double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#round(float) public static int
      * java.lang.StrictMath.round(float)}.
      *
@@ -996,6 +976,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_round_float()
     throws Exception {
         // write some test for {@link StrictMath#round(float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#round(double) public static long
+     * java.lang.StrictMath.round(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_round_double()
+    throws Exception {
+        // write some test for {@link StrictMath#round(double)}
     }
 
     /**
@@ -1220,26 +1220,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#max(int, int) public static int
-     * java.lang.StrictMath.max(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_max_int_int()
-    throws Exception {
-        // write some test for {@link StrictMath#max(int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#max(long, long) public static long
      * java.lang.StrictMath.max(long,long)}.
      *
@@ -1256,6 +1236,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_max_long_long()
     throws Exception {
         // write some test for {@link StrictMath#max(long, long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#max(int, int) public static int
+     * java.lang.StrictMath.max(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_max_int_int()
+    throws Exception {
+        // write some test for {@link StrictMath#max(int, int)}
     }
 
     /**
@@ -1320,26 +1320,6 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link StrictMath#subtractExact(int, int) public static int
-     * java.lang.StrictMath.subtractExact(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_subtractExact_int_int()
-    throws Exception {
-        // write some test for {@link StrictMath#subtractExact(int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link StrictMath#subtractExact(long, long) public static
      * long java.lang.StrictMath.subtractExact(long,long)}.
      *
@@ -1356,6 +1336,26 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
     public void test_subtractExact_long_long()
     throws Exception {
         // write some test for {@link StrictMath#subtractExact(long, long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link StrictMath#subtractExact(int, int) public static int
+     * java.lang.StrictMath.subtractExact(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_subtractExact_int_int()
+    throws Exception {
+        // write some test for {@link StrictMath#subtractExact(int, int)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.StrictMath]

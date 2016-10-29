@@ -82,31 +82,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(String, org.omg.CORBA.Object)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.Object)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_register_initial_reference_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
      * public abstract void
      * org.omg.PortableInterceptor.ORBInitInfoOperations.add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
@@ -123,6 +98,31 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_add_client_request_interceptor_ClientRequestInterceptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(String, org.omg.CORBA.Object)
+     * public abstract void
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.Object)
+     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_register_initial_reference_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -157,31 +157,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_ior_interceptor_IORInterceptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#resolve_initial_references(String) public abstract
      * org.omg.CORBA.Object
      * org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
@@ -198,6 +173,31 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_resolve_initial_references_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
+     * public abstract void
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_ior_interceptor(org.omg.PortableInterceptor.IORInterceptor)
+     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_ior_interceptor_IORInterceptor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -255,8 +255,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_policy_factory(int, org.omg.PortableInterceptor.PolicyFactory)
      * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)}
-     * .
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

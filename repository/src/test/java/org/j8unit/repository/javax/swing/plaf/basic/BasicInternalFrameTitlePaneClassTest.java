@@ -54,127 +54,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane]
 
     @RunWith(J8Unit4.class)
-    public static class CloseActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.CloseActionClassTests<CloseAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction]
-
-        @Override
-        public Class<CloseAction> createNewSUT() {
-            return CloseAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
-         * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_CloseAction_BasicInternalFrameTitlePane()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final CloseAction sut = null; // = new CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class MaximizeActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.MaximizeActionClassTests<MaximizeAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
-
-        @Override
-        public Class<MaximizeAction> createNewSUT() {
-            return MaximizeAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
-         * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MaximizeAction_BasicInternalFrameTitlePane()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final MaximizeAction sut = null; // = new
-                                             // MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class RestoreActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.RestoreActionClassTests<RestoreAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
-
-        @Override
-        public Class<RestoreAction> createNewSUT() {
-            return RestoreAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
-         * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_RestoreAction_BasicInternalFrameTitlePane()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final RestoreAction sut = null; // = new RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class SystemMenuBarClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.SystemMenuBarClassTests<SystemMenuBar> {
 
@@ -190,8 +69,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar#SystemMenuBar(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SystemMenuBar(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -215,47 +93,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
     }
 
     @RunWith(J8Unit4.class)
-    public static class TitlePaneLayoutClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.TitlePaneLayoutClassTests<TitlePaneLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
-
-        @Override
-        public Class<TitlePaneLayout> createNewSUT() {
-            return TitlePaneLayout.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
-         * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TitlePaneLayout_BasicInternalFrameTitlePane()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TitlePaneLayout sut = null; // = new
-                                              // TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class IconifyActionClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.IconifyActionClassTests<IconifyAction> {
 
@@ -271,8 +108,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction#IconifyAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$IconifyAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -296,46 +132,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
     }
 
     @RunWith(J8Unit4.class)
-    public static class MoveActionClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.MoveActionClassTests<MoveAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction]
-
-        @Override
-        public Class<MoveAction> createNewSUT() {
-            return MoveAction.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
-         * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MoveAction_BasicInternalFrameTitlePane()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final MoveAction sut = null; // = new MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
 
@@ -351,8 +147,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$PropertyChangeHandler(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -392,8 +187,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction#SizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
          * public
-         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -413,6 +207,203 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitleP
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$SizeAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CloseActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.CloseActionClassTests<CloseAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction]
+
+        @Override
+        public Class<CloseAction> createNewSUT() {
+            return CloseAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction#CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
+         * public
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_CloseAction_BasicInternalFrameTitlePane()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final CloseAction sut = null; // = new CloseAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$CloseAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MoveActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.MoveActionClassTests<MoveAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction]
+
+        @Override
+        public Class<MoveAction> createNewSUT() {
+            return MoveAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction#MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
+         * public
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MoveAction_BasicInternalFrameTitlePane()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final MoveAction sut = null; // = new MoveAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MoveAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class RestoreActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.RestoreActionClassTests<RestoreAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
+
+        @Override
+        public Class<RestoreAction> createNewSUT() {
+            return RestoreAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction#RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
+         * public
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_RestoreAction_BasicInternalFrameTitlePane()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final RestoreAction sut = null; // = new RestoreAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$RestoreAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class MaximizeActionClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.MaximizeActionClassTests<MaximizeAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
+
+        @Override
+        public Class<MaximizeAction> createNewSUT() {
+            return MaximizeAction.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction#MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
+         * public
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MaximizeAction_BasicInternalFrameTitlePane()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final MaximizeAction sut = null; // = new
+                                             // MaximizeAction(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$MaximizeAction]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TitlePaneLayoutClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests.TitlePaneLayoutClassTests<TitlePaneLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
+
+        @Override
+        public Class<TitlePaneLayout> createNewSUT() {
+            return TitlePaneLayout.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout#TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane)
+         * public
+         * javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TitlePaneLayout_BasicInternalFrameTitlePane()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TitlePaneLayout sut = null; // = new
+                                              // TitlePaneLayout(javax.swing.plaf.basic.BasicInternalFrameTitlePane);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameTitlePane$TitlePaneLayout]
 
     }
 

@@ -81,30 +81,6 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.security.auth.kerberos.KerberosKey#getAlgorithm() public final java.lang.String
-     * javax.security.auth.kerberos.KerberosKey.getAlgorithm()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlgorithm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.security.auth.kerberos.KerberosKey#isDestroyed() public boolean
      * javax.security.auth.kerberos.KerberosKey.isDestroyed()}.
      *
@@ -144,6 +120,30 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.kerberos.KerberosKey#getAlgorithm() public final java.lang.String
+     * javax.security.auth.kerberos.KerberosKey.getAlgorithm()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlgorithm()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,29 +222,6 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#getFormat()
-     * public final java.lang.String javax.security.auth.kerberos.KerberosKey.getFormat()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#toString()
      * public java.lang.String javax.security.auth.kerberos.KerberosKey.toString()}.
      *
@@ -268,9 +245,32 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#getFormat()
+     * public final java.lang.String javax.security.auth.kerberos.KerberosKey.getFormat()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.security.auth.kerberos.KerberosKey#destroy()
-     * public void javax.security.auth.kerberos.KerberosKey.destroy() throws javax.security.auth.DestroyFailedException}
-     * .
+     * public void javax.security.auth.kerberos.KerberosKey.destroy() throws
+     * javax.security.auth.DestroyFailedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

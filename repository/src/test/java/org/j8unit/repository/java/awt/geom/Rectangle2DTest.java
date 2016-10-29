@@ -31,30 +31,6 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DTests<Rectangle2D> {
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class DoubleTest
-    implements FactoryBasedJ8UnitTest<Double>, org.j8unit.repository.java.awt.geom.Rectangle2DTests.DoubleTests<Double> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Double]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOf(Double::new);
-        }
-
-        @Parameter(0)
-        public Callable<Double> sutFactory;
-
-        @Override
-        public Callable<Double> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Double]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FloatTest
     implements FactoryBasedJ8UnitTest<Float>, org.j8unit.repository.java.awt.geom.Rectangle2DTests.FloatTests<Float> {
 
@@ -62,7 +38,7 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DTests<Rectangle2D> {
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(Float::new);
+            return testParametersOf(Float::new);
         }
 
         @Parameter(0)
@@ -74,6 +50,30 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DTests<Rectangle2D> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Float]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class DoubleTest
+    implements FactoryBasedJ8UnitTest<Double>, org.j8unit.repository.java.awt.geom.Rectangle2DTests.DoubleTests<Double> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Double]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(Double::new);
+        }
+
+        @Parameter(0)
+        public Callable<Double> sutFactory;
+
+        @Override
+        public Callable<Double> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D$Double]
 
     }
 

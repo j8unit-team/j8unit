@@ -153,8 +153,7 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer.ServantLocatorHelper#write(org.omg.CORBA.portable.OutputStream, org.omg.PortableServer.ServantLocator)
      * public static void
-     * org.omg.PortableServer.ServantLocatorHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantLocator)}
-     * .
+     * org.omg.PortableServer.ServantLocatorHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantLocator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -171,6 +170,27 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
         // write some test for {@link
         // org.omg.PortableServer.ServantLocatorHelper#write(org.omg.CORBA.portable.OutputStream,
         // org.omg.PortableServer.ServantLocator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.ServantLocatorHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.PortableServer.ServantLocator org.omg.PortableServer.ServantLocatorHelper.extract(org.omg.CORBA.Any)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_extract_Any()
+    throws Exception {
+        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#extract(org.omg.CORBA.Any)}
     }
 
     /**
@@ -194,27 +214,6 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
     throws Exception {
         // write some test for {@link
         // org.omg.PortableServer.ServantLocatorHelper#read(org.omg.CORBA.portable.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableServer.ServantLocatorHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.PortableServer.ServantLocator org.omg.PortableServer.ServantLocatorHelper.extract(org.omg.CORBA.Any)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_extract_Any()
-    throws Exception {
-        // write some test for {@link org.omg.PortableServer.ServantLocatorHelper#extract(org.omg.CORBA.Any)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantLocatorHelper]

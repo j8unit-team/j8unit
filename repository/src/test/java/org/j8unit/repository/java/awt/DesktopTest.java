@@ -3,11 +3,14 @@ package org.j8unit.repository.java.awt;
 import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import java.awt.Desktop;
 import java.awt.Desktop.Action;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class DesktopTest
@@ -22,7 +25,8 @@ implements org.j8unit.repository.java.awt.DesktopTests<Desktop> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Desktop]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ActionTest
     implements org.j8unit.repository.java.awt.DesktopTests.ActionTests<Action> {
 

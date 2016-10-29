@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationIn
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#OpenMBeanOperationInfoSupport(String, String, javax.management.openmbean.OpenMBeanParameterInfo[], javax.management.openmbean.OpenType, int)
      * public
-     * javax.management.openmbean.OpenMBeanOperationInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.openmbean.OpenType
-     * <?>,int)}.
+     * javax.management.openmbean.OpenMBeanOperationInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.openmbean.OpenType<?>,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,8 +50,7 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationIn
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.openmbean.OpenMBeanOperationInfoSupport#OpenMBeanOperationInfoSupport(String, String, javax.management.openmbean.OpenMBeanParameterInfo[], javax.management.openmbean.OpenType, int, javax.management.Descriptor)
      * public
-     * javax.management.openmbean.OpenMBeanOperationInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.openmbean.OpenType
-     * <?>,int,javax.management.Descriptor)}.
+     * javax.management.openmbean.OpenMBeanOperationInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenMBeanParameterInfo[],javax.management.openmbean.OpenType<?>,int,javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

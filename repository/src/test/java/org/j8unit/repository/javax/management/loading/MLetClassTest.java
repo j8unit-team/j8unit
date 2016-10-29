@@ -22,6 +22,30 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean)
+     * public
+     * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MLet_URLArray_ClassLoader_URLStreamHandlerFactory_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory) public
      * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
      *
@@ -91,51 +115,6 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.loading.MLet#MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean)
-     * public
-     * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MLet_URLArray_ClassLoader_URLStreamHandlerFactory_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader, java.net.URLStreamHandlerFactory, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.management.loading.MLet#MLet() public
-     * javax.management.loading.MLet()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MLet()
-    throws Exception {
-        // create new instance
-        final MLet sut = new MLet();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.loading.MLet#MLet(java.net.URL[]) public javax.management.loading.MLet(java.net.URL[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -176,6 +155,27 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
         // create new instance
         @SuppressWarnings("unused")
         final MLet sut = null; // = new MLet(java.net.URL[], ClassLoader);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.management.loading.MLet#MLet() public
+     * javax.management.loading.MLet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MLet()
+    throws Exception {
+        // create new instance
+        final MLet sut = new MLet();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLet]

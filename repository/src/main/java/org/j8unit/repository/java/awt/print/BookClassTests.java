@@ -3,7 +3,7 @@ package org.j8unit.repository.java.awt.print;
 import static org.junit.Assert.assertTrue;
 import java.awt.print.Book;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.java.awt.print.PageableClassTests<SUT>, org.j8unit
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

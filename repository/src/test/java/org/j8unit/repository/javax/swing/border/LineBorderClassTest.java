@@ -22,29 +22,6 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color, int, boolean) public
-     * javax.swing.border.LineBorder(java.awt.Color,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_LineBorder_Color_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final LineBorder sut = null; // = new LineBorder(java.awt.Color, int, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color) public
      * javax.swing.border.LineBorder(java.awt.Color)}.
      *
@@ -63,6 +40,29 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
         // create new instance
         @SuppressWarnings("unused")
         final LineBorder sut = null; // = new LineBorder(java.awt.Color);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color, int, boolean) public
+     * javax.swing.border.LineBorder(java.awt.Color,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LineBorder_Color_int_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LineBorder sut = null; // = new LineBorder(java.awt.Color, int, boolean);
     }
 
     /**

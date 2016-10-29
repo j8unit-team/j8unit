@@ -23,9 +23,8 @@ implements org.j8unit.repository.java.lang.invoke.SerializedLambdaClassTests<Ser
      * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.lang.invoke.SerializedLambda#SerializedLambda(Class, String, String, String, int, String, String, String, String, Object[])
-     * public java.lang.invoke.SerializedLambda(java.lang.Class<?>
-     * ,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object[])}
-     * .
+     * public
+     * java.lang.invoke.SerializedLambda(java.lang.Class<?>,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

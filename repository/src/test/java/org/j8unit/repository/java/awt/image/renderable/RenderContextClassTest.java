@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderContextClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform, java.awt.Shape)
-     * public java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform,java.awt.Shape)}.
+     * {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform) public
+     * java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,11 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderContextClassTes
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_RenderContext_AffineTransform_Shape()
+    public void create_RenderContext_AffineTransform()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RenderContext sut = null; // = new RenderContext(java.awt.geom.AffineTransform, java.awt.Shape);
+        final RenderContext sut = null; // = new RenderContext(java.awt.geom.AffineTransform);
     }
 
     /**
@@ -68,8 +68,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderContextClassTes
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform) public
-     * java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform)}.
+     * {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform, java.awt.Shape)
+     * public java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform,java.awt.Shape)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,11 +81,11 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderContextClassTes
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_RenderContext_AffineTransform()
+    public void create_RenderContext_AffineTransform_Shape()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final RenderContext sut = null; // = new RenderContext(java.awt.geom.AffineTransform);
+        final RenderContext sut = null; // = new RenderContext(java.awt.geom.AffineTransform, java.awt.Shape);
     }
 
     /**

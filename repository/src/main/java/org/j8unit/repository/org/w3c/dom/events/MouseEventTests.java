@@ -34,28 +34,6 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getScreenX() public
-     * abstract int org.w3c.dom.events.MouseEvent.getScreenX()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScreenX()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getMetaKey() public
      * abstract boolean org.w3c.dom.events.MouseEvent.getMetaKey()}.
      *
@@ -92,6 +70,28 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAltKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.events.MouseEvent#getScreenX() public
+     * abstract int org.w3c.dom.events.MouseEvent.getScreenX()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScreenX()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,8 +147,7 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.events.MouseEvent#initMouseEvent(String, boolean, boolean, org.w3c.dom.views.AbstractView, int, int, int, int, int, boolean, boolean, boolean, boolean, short, org.w3c.dom.events.EventTarget)
      * public abstract void
-     * org.w3c.dom.events.MouseEvent.initMouseEvent(java.lang.String,boolean,boolean,org.w3c.dom.views.AbstractView,int,int,int,int,int,boolean,boolean,boolean,boolean,short,org.w3c.dom.events.EventTarget)}
-     * .
+     * org.w3c.dom.events.MouseEvent.initMouseEvent(java.lang.String,boolean,boolean,org.w3c.dom.views.AbstractView,int,int,int,int,int,boolean,boolean,boolean,boolean,short,org.w3c.dom.events.EventTarget)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

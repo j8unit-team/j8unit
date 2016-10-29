@@ -61,29 +61,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.JMXConnectorServerMBean#getConnectionIds() public abstract java.lang.String[]
-     * javax.management.remote.JMXConnectorServerMBean.getConnectionIds()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConnectionIds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.JMXConnectorServerMBean#isActive() public abstract boolean
      * javax.management.remote.JMXConnectorServerMBean.isActive()}.
      *
@@ -98,6 +75,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#getConnectionIds() public abstract java.lang.String[]
+     * javax.management.remote.JMXConnectorServerMBean.getConnectionIds()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConnectionIds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,31 +176,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.JMXConnectorServerMBean#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
-     * public abstract void
-     * javax.management.remote.JMXConnectorServerMBean.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMBeanServerForwarder_MBeanServerForwarder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.JMXConnectorServerMBean#getAttributes() public abstract
      * java.util.Map<java.lang.String, ?> javax.management.remote.JMXConnectorServerMBean.getAttributes()}.
      *
@@ -215,6 +190,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServerMBean#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
+     * public abstract void
+     * javax.management.remote.JMXConnectorServerMBean.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMBeanServerForwarder_MBeanServerForwarder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

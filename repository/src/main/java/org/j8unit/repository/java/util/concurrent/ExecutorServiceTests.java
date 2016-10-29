@@ -174,33 +174,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection, long, java.util.concurrent.TimeUnit)
-     * public abstract <T> java.util.List<java.util.concurrent.Future<T>>
-     * java.util.concurrent.ExecutorService.invokeAll(java.util.Collection<? extends java.util.concurrent.Callable
-     * <T>>,long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeAll_Collection_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection) public abstract
-     * <T> java.util.List<java.util.concurrent.Future<T>>
+     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection) public abstract <T>
+     * java.util.List<java.util.concurrent.Future<T>>
      * java.util.concurrent.ExecutorService.invokeAll(java.util.Collection<? extends java.util.concurrent.Callable<T>>)
      * throws java.lang.InterruptedException}.
      *
@@ -224,9 +199,10 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ExecutorService#submit(java.util.concurrent.Callable) public abstract
-     * <T> java.util.concurrent.Future<T> java.util.concurrent.ExecutorService.submit(java.util.concurrent.Callable<T>)}
-     * .
+     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection, long, java.util.concurrent.TimeUnit)
+     * public abstract <T> java.util.List<java.util.concurrent.Future<T>>
+     * java.util.concurrent.ExecutorService.invokeAll(java.util.Collection<? extends
+     * java.util.concurrent.Callable<T>>,long,java.util.concurrent.TimeUnit) throws java.lang.InterruptedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,7 +214,7 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_submit_Callable()
+    public default void test_invokeAll_Collection_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -248,8 +224,31 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ExecutorService#submit(Runnable) public abstract java.util.concurrent.Future
-     * <?> java.util.concurrent.ExecutorService.submit(java.lang.Runnable)}.
+     * {@link java.util.concurrent.ExecutorService#submit(Runnable, Object) public abstract <T>
+     * java.util.concurrent.Future<T> java.util.concurrent.ExecutorService.submit(java.lang.Runnable,T)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_submit_Runnable_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ExecutorService#submit(Runnable) public abstract java.util.concurrent.Future<?>
+     * java.util.concurrent.ExecutorService.submit(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -271,8 +270,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ExecutorService#submit(Runnable, Object) public abstract
-     * <T> java.util.concurrent.Future<T> java.util.concurrent.ExecutorService.submit(java.lang.Runnable,T)}.
+     * {@link java.util.concurrent.ExecutorService#submit(java.util.concurrent.Callable) public abstract <T>
+     * java.util.concurrent.Future<T> java.util.concurrent.ExecutorService.submit(java.util.concurrent.Callable<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -284,7 +283,7 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_submit_Runnable_Object()
+    public default void test_submit_Callable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

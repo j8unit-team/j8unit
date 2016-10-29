@@ -6,7 +6,6 @@ import javax.swing.text.html.CSS;
 import javax.swing.text.html.CSS.Attribute;
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
-import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.j8unit.util.TestParametersUtil;
 import org.junit.runner.RunWith;
@@ -36,7 +35,8 @@ implements FactoryBasedJ8UnitTest<CSS>, org.j8unit.repository.javax.swing.text.h
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AttributeTest
     implements org.j8unit.repository.javax.swing.text.html.CSSTests.AttributeTests<Attribute> {
 

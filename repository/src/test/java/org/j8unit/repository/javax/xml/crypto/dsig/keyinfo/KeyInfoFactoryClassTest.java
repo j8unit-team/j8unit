@@ -22,27 +22,6 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance() public static
-     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance()
-    throws Exception {
-        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String, String) public static
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
      * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance(java.lang.String,java.lang.String) throws
@@ -61,6 +40,28 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     public void test_getInstance_String_String()
     throws Exception {
         // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String, String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String) public static
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_String()
+    throws Exception {
+        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String)}
     }
 
     /**
@@ -89,9 +90,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String) public static
-     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory
-     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance(java.lang.String)}.
+     * {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance() public static
+     * javax.xml.crypto.dsig.keyinfo.KeyInfoFactory javax.xml.crypto.dsig.keyinfo.KeyInfoFactory.getInstance()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -103,9 +103,9 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoFactoryCla
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getInstance_String()
+    public void test_getInstance()
     throws Exception {
-        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance(String)}
+        // write some test for {@link javax.xml.crypto.dsig.keyinfo.KeyInfoFactory#getInstance()}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.KeyInfoFactory]

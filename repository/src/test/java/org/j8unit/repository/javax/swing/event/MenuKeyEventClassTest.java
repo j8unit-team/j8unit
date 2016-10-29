@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.swing.event.MenuKeyEventClassTests<MenuKe
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.event.MenuKeyEvent#MenuKeyEvent(java.awt.Component, int, long, int, int, char, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public
-     * javax.swing.event.MenuKeyEvent(java.awt.Component,int,long,int,int,char,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
+     * javax.swing.event.MenuKeyEvent(java.awt.Component,int,long,int,int,char,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

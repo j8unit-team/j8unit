@@ -61,8 +61,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Integer> java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer)}.
+     * java.util.concurrent.Future<java.lang.Integer>
+     * java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -110,8 +110,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.channels.AsynchronousByteChannel#read(java.nio.ByteBuffer) public abstract
-     * java.util.concurrent.Future
-     * <java.lang.Integer> java.nio.channels.AsynchronousByteChannel.read(java.nio.ByteBuffer)}.
+     * java.util.concurrent.Future<java.lang.Integer>
+     * java.nio.channels.AsynchronousByteChannel.read(java.nio.ByteBuffer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

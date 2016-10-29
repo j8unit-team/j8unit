@@ -7,7 +7,7 @@ import javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup;
 import javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -61,7 +61,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -77,8 +77,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MetalComboBoxLayoutManager public class javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager}
-     * .
+     * {@link MetalPropertyChangeListener public class
+     * javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -86,7 +86,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests}.
      * </p>
      *
      * <p>
@@ -114,10 +114,10 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends MetalComboBoxLayoutManager>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests<SUT> {
+    public static abstract interface MetalPropertyChangeListenerClassTests<SUT extends MetalPropertyChangeListener>
+    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -125,17 +125,17 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalComboBoxLayoutManager.class!",
-                              MetalComboBoxLayoutManager.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalPropertyChangeListener.class!",
+                              MetalPropertyChangeListener.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
 
     }
 
@@ -190,7 +190,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -208,8 +208,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link MetalPropertyChangeListener public class
-     * javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener}.
+     * {@link MetalComboBoxLayoutManager public class
+     * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -217,7 +217,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests}.
      * </p>
      *
      * <p>
@@ -245,10 +245,10 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface MetalPropertyChangeListenerClassTests<SUT extends MetalPropertyChangeListener>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<SUT> {
+    public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends MetalComboBoxLayoutManager>
+    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -256,17 +256,17 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalPropertyChangeListener.class!",
-                              MetalPropertyChangeListener.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MetalComboBoxLayoutManager.class!",
+                              MetalComboBoxLayoutManager.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 
     }
 

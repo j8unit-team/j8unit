@@ -113,8 +113,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#send_reply(org.omg.PortableInterceptor.ServerRequestInfo)
      * public abstract void
-     * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_reply(org.omg.PortableInterceptor.ServerRequestInfo)}
-     * .
+     * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_reply(org.omg.PortableInterceptor.ServerRequestInfo)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

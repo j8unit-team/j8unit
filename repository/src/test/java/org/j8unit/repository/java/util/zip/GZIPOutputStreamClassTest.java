@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, boolean) public
-     * java.util.zip.GZIPOutputStream(java.io.OutputStream,boolean) throws java.io.IOException}.
+     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, int) public
+     * java.util.zip.GZIPOutputStream(java.io.OutputStream,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,11 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_GZIPOutputStream_OutputStream_boolean()
+    public void create_GZIPOutputStream_OutputStream_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, boolean);
+        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, int);
     }
 
     /**
@@ -68,6 +68,29 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, boolean) public
+     * java.util.zip.GZIPOutputStream(java.io.OutputStream,boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GZIPOutputStream_OutputStream_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, int, boolean) public
      * java.util.zip.GZIPOutputStream(java.io.OutputStream,int,boolean) throws java.io.IOException}.
      *
@@ -86,29 +109,6 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
         // create new instance
         @SuppressWarnings("unused")
         final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, int, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream, int) public
-     * java.util.zip.GZIPOutputStream(java.io.OutputStream,int) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_GZIPOutputStream_OutputStream_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.GZIPOutputStream]

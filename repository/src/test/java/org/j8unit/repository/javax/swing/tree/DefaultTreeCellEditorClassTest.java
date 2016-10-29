@@ -50,8 +50,7 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree, javax.swing.tree.DefaultTreeCellRenderer, javax.swing.tree.TreeCellEditor)
      * public
-     * javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)}
-     * .
+     * javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -73,6 +72,46 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor]
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultTextFieldClassTest
+    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests<DefaultTextField> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
+        @Override
+        public Class<DefaultTextField> createNewSUT() {
+            return DefaultTextField.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#DefaultTextField(javax.swing.tree.DefaultTreeCellEditor, javax.swing.border.Border)
+         * public
+         * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_DefaultTextField_DefaultTreeCellEditor_Border()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final DefaultTextField sut = null; // = new DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,
+                                               // javax.swing.border.Border);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class EditorContainerClassTest
@@ -109,47 +148,6 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultTextFieldClassTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests<DefaultTextField> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
-
-        @Override
-        public Class<DefaultTextField> createNewSUT() {
-            return DefaultTextField.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#DefaultTextField(javax.swing.tree.DefaultTreeCellEditor, javax.swing.border.Border)
-         * public
-         * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_DefaultTextField_DefaultTreeCellEditor_Border()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final DefaultTextField sut = null; // = new DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,
-                                               // javax.swing.border.Border);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
 
     }
 

@@ -54,7 +54,8 @@ implements FactoryBasedJ8UnitTest<HTML>, org.j8unit.repository.javax.swing.text.
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TagTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests<Tag> {
 
@@ -152,7 +153,8 @@ implements FactoryBasedJ8UnitTest<HTML>, org.j8unit.repository.javax.swing.text.
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AttributeTest
     implements org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests<Attribute> {
 

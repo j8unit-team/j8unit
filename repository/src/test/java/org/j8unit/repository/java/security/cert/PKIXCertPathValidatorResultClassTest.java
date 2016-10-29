@@ -24,8 +24,7 @@ implements org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultC
      * Test method for the hereby targeted constructor-under-test
      * {@link java.security.cert.PKIXCertPathValidatorResult#PKIXCertPathValidatorResult(java.security.cert.TrustAnchor, java.security.cert.PolicyNode, java.security.PublicKey)
      * public
-     * java.security.cert.PKIXCertPathValidatorResult(java.security.cert.TrustAnchor,java.security.cert.PolicyNode,java.security.PublicKey)}
-     * .
+     * java.security.cert.PKIXCertPathValidatorResult(java.security.cert.TrustAnchor,java.security.cert.PolicyNode,java.security.PublicKey)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

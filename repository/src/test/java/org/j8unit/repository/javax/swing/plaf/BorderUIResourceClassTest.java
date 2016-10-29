@@ -136,154 +136,6 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<Bor
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource]
 
     @RunWith(J8Unit4.class)
-    public static class EtchedBorderUIResourceClassTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.EtchedBorderUIResourceClassTests<EtchedBorderUIResource> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
-
-        @Override
-        public Class<EtchedBorderUIResource> createNewSUT() {
-            return EtchedBorderUIResource.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource(int, java.awt.Color, java.awt.Color)
-         * public javax.swing.plaf.BorderUIResource$EtchedBorderUIResource(int,java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_EtchedBorderUIResource_int_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final EtchedBorderUIResource sut = null; // = new EtchedBorderUIResource(int, java.awt.Color,
-                                                     // java.awt.Color);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource(java.awt.Color, java.awt.Color)
-         * public javax.swing.plaf.BorderUIResource$EtchedBorderUIResource(java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_EtchedBorderUIResource_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final EtchedBorderUIResource sut = null; // = new EtchedBorderUIResource(java.awt.Color, java.awt.Color);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource(int) public
-         * javax.swing.plaf.BorderUIResource$EtchedBorderUIResource(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_EtchedBorderUIResource_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final EtchedBorderUIResource sut = null; // = new EtchedBorderUIResource(int);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource() public
-         * javax.swing.plaf.BorderUIResource$EtchedBorderUIResource()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_EtchedBorderUIResource()
-        throws Exception {
-            // create new instance
-            final EtchedBorderUIResource sut = new EtchedBorderUIResource();
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class CompoundBorderUIResourceClassTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.CompoundBorderUIResourceClassTests<CompoundBorderUIResource> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
-
-        @Override
-        public Class<CompoundBorderUIResource> createNewSUT() {
-            return CompoundBorderUIResource.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.CompoundBorderUIResource#CompoundBorderUIResource(javax.swing.border.Border, javax.swing.border.Border)
-         * public
-         * javax.swing.plaf.BorderUIResource$CompoundBorderUIResource(javax.swing.border.Border,javax.swing.border.Border)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_CompoundBorderUIResource_Border_Border()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final CompoundBorderUIResource sut = null; // = new CompoundBorderUIResource(javax.swing.border.Border,
-                                                       // javax.swing.border.Border);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class MatteBorderUIResourceClassTest
     implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.MatteBorderUIResourceClassTests<MatteBorderUIResource> {
 
@@ -491,6 +343,239 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<Bor
     }
 
     @RunWith(J8Unit4.class)
+    public static class BevelBorderUIResourceClassTest
+    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.BevelBorderUIResourceClassTests<BevelBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
+
+        @Override
+        public Class<BevelBorderUIResource> createNewSUT() {
+            return BevelBorderUIResource.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.BevelBorderUIResource#BevelBorderUIResource(int) public
+         * javax.swing.plaf.BorderUIResource$BevelBorderUIResource(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_BevelBorderUIResource_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final BevelBorderUIResource sut = null; // = new BevelBorderUIResource(int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.BevelBorderUIResource#BevelBorderUIResource(int, java.awt.Color, java.awt.Color)
+         * public javax.swing.plaf.BorderUIResource$BevelBorderUIResource(int,java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_BevelBorderUIResource_int_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final BevelBorderUIResource sut = null; // = new BevelBorderUIResource(int, java.awt.Color, java.awt.Color);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.BevelBorderUIResource#BevelBorderUIResource(int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
+         * public
+         * javax.swing.plaf.BorderUIResource$BevelBorderUIResource(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_BevelBorderUIResource_int_Color_Color_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final BevelBorderUIResource sut = null; // = new BevelBorderUIResource(int, java.awt.Color, java.awt.Color,
+                                                    // java.awt.Color, java.awt.Color);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CompoundBorderUIResourceClassTest
+    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.CompoundBorderUIResourceClassTests<CompoundBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+
+        @Override
+        public Class<CompoundBorderUIResource> createNewSUT() {
+            return CompoundBorderUIResource.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.CompoundBorderUIResource#CompoundBorderUIResource(javax.swing.border.Border, javax.swing.border.Border)
+         * public
+         * javax.swing.plaf.BorderUIResource$CompoundBorderUIResource(javax.swing.border.Border,javax.swing.border.Border)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_CompoundBorderUIResource_Border_Border()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final CompoundBorderUIResource sut = null; // = new CompoundBorderUIResource(javax.swing.border.Border,
+                                                       // javax.swing.border.Border);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class EtchedBorderUIResourceClassTest
+    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.EtchedBorderUIResourceClassTests<EtchedBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
+
+        @Override
+        public Class<EtchedBorderUIResource> createNewSUT() {
+            return EtchedBorderUIResource.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource(int, java.awt.Color, java.awt.Color)
+         * public javax.swing.plaf.BorderUIResource$EtchedBorderUIResource(int,java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_EtchedBorderUIResource_int_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final EtchedBorderUIResource sut = null; // = new EtchedBorderUIResource(int, java.awt.Color,
+                                                     // java.awt.Color);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource(java.awt.Color, java.awt.Color)
+         * public javax.swing.plaf.BorderUIResource$EtchedBorderUIResource(java.awt.Color,java.awt.Color)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_EtchedBorderUIResource_Color_Color()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final EtchedBorderUIResource sut = null; // = new EtchedBorderUIResource(java.awt.Color, java.awt.Color);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource(int) public
+         * javax.swing.plaf.BorderUIResource$EtchedBorderUIResource(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_EtchedBorderUIResource_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final EtchedBorderUIResource sut = null; // = new EtchedBorderUIResource(int);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.BorderUIResource.EtchedBorderUIResource#EtchedBorderUIResource() public
+         * javax.swing.plaf.BorderUIResource$EtchedBorderUIResource()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_EtchedBorderUIResource()
+        throws Exception {
+            // create new instance
+            final EtchedBorderUIResource sut = new EtchedBorderUIResource();
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class TitledBorderUIResourceClassTest
     implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.TitledBorderUIResourceClassTests<TitledBorderUIResource> {
 
@@ -506,8 +591,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<Bor
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.BorderUIResource.TitledBorderUIResource#TitledBorderUIResource(javax.swing.border.Border, String, int, int, java.awt.Font, java.awt.Color)
          * public
-         * javax.swing.plaf.BorderUIResource$TitledBorderUIResource(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
-         * .
+         * javax.swing.plaf.BorderUIResource$TitledBorderUIResource(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -532,8 +616,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<Bor
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.BorderUIResource.TitledBorderUIResource#TitledBorderUIResource(javax.swing.border.Border, String, int, int, java.awt.Font)
          * public
-         * javax.swing.plaf.BorderUIResource$TitledBorderUIResource(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}
-         * .
+         * javax.swing.plaf.BorderUIResource$TitledBorderUIResource(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -558,8 +641,7 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<Bor
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.BorderUIResource.TitledBorderUIResource#TitledBorderUIResource(javax.swing.border.Border, String, int, int)
          * public
-         * javax.swing.plaf.BorderUIResource$TitledBorderUIResource(javax.swing.border.Border,java.lang.String,int,int)}
-         * .
+         * javax.swing.plaf.BorderUIResource$TitledBorderUIResource(javax.swing.border.Border,java.lang.String,int,int)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -649,93 +731,6 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests<Bor
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class BevelBorderUIResourceClassTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceClassTests.BevelBorderUIResourceClassTests<BevelBorderUIResource> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
-
-        @Override
-        public Class<BevelBorderUIResource> createNewSUT() {
-            return BevelBorderUIResource.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.BevelBorderUIResource#BevelBorderUIResource(int) public
-         * javax.swing.plaf.BorderUIResource$BevelBorderUIResource(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_BevelBorderUIResource_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final BevelBorderUIResource sut = null; // = new BevelBorderUIResource(int);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.BevelBorderUIResource#BevelBorderUIResource(int, java.awt.Color, java.awt.Color)
-         * public javax.swing.plaf.BorderUIResource$BevelBorderUIResource(int,java.awt.Color,java.awt.Color)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_BevelBorderUIResource_int_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final BevelBorderUIResource sut = null; // = new BevelBorderUIResource(int, java.awt.Color, java.awt.Color);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.BorderUIResource.BevelBorderUIResource#BevelBorderUIResource(int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
-         * public
-         * javax.swing.plaf.BorderUIResource$BevelBorderUIResource(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_BevelBorderUIResource_int_Color_Color_Color_Color()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final BevelBorderUIResource sut = null; // = new BevelBorderUIResource(int, java.awt.Color, java.awt.Color,
-                                                    // java.awt.Color, java.awt.Color);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
 
     }
 

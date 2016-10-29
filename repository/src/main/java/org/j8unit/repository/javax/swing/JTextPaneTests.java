@@ -102,29 +102,6 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTextPane#setStyledDocument(javax.swing.text.StyledDocument) public void
-     * javax.swing.JTextPane.setStyledDocument(javax.swing.text.StyledDocument)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setStyledDocument_StyledDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTextPane#addStyle(String, javax.swing.text.Style) public javax.swing.text.Style
      * javax.swing.JTextPane.addStyle(java.lang.String,javax.swing.text.Style)}.
      *
@@ -148,6 +125,29 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTextPane#setStyledDocument(javax.swing.text.StyledDocument) public void
+     * javax.swing.JTextPane.setStyledDocument(javax.swing.text.StyledDocument)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setStyledDocument_StyledDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTextPane#setCharacterAttributes(javax.swing.text.AttributeSet, boolean) public void
      * javax.swing.JTextPane.setCharacterAttributes(javax.swing.text.AttributeSet,boolean)}.
      *
@@ -162,6 +162,28 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setCharacterAttributes_AttributeSet_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextPane#getParagraphAttributes()
+     * public javax.swing.text.AttributeSet javax.swing.JTextPane.getParagraphAttributes()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParagraphAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,28 +229,6 @@ extends org.j8unit.repository.javax.swing.JEditorPaneTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getStyledDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTextPane#getParagraphAttributes()
-     * public javax.swing.text.AttributeSet javax.swing.JTextPane.getParagraphAttributes()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParagraphAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

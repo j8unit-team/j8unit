@@ -60,6 +60,31 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServer#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
+     * public synchronized javax.management.ObjectName
+     * javax.management.remote.JMXConnectorServer.preRegister(javax.management.MBeanServer,javax.management.ObjectName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_preRegister_MBeanServer_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.JMXConnectorServer#getNotificationInfo() public
      * javax.management.MBeanNotificationInfo[] javax.management.remote.JMXConnectorServer.getNotificationInfo()}.
      *
@@ -101,32 +126,6 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_toJMXConnector_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.JMXConnectorServer#preRegister(javax.management.MBeanServer, javax.management.ObjectName)
-     * public synchronized javax.management.ObjectName
-     * javax.management.remote.JMXConnectorServer.preRegister(javax.management.MBeanServer,javax.management.ObjectName)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_preRegister_MBeanServer_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,30 +182,6 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.remote.JMXConnectorServer#preDeregister() public synchronized void
-     * javax.management.remote.JMXConnectorServer.preDeregister() throws java.lang.Exception}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.JMXConnectorServer#postDeregister() public void
      * javax.management.remote.JMXConnectorServer.postDeregister()}.
      *
@@ -231,10 +206,33 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.remote.JMXConnectorServer#preDeregister() public synchronized void
+     * javax.management.remote.JMXConnectorServer.preDeregister() throws java.lang.Exception}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_preDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.remote.JMXConnectorServer#setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)
      * public synchronized void
-     * javax.management.remote.JMXConnectorServer.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}
-     * .
+     * javax.management.remote.JMXConnectorServer.setMBeanServerForwarder(javax.management.remote.MBeanServerForwarder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -260,10 +258,10 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.remote.JMXAddressable#getAddress() interface
+     * javax.management.remote.JMXAddressable}</li>
      * <li>{@link javax.management.remote.JMXConnectorServerMBean#getAddress() interface
      * javax.management.remote.JMXConnectorServerMBean}</li>
-     * <li>{@link javax.management.remote.JMXAddressable#getAddress() interface javax.management.remote.JMXAddressable}
-     * </li>
      * </ul>
      *
      * <p>
@@ -280,8 +278,8 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
     @Category(Draft.class)
     public default void test_getAddress()
     throws Exception {
-        org.j8unit.repository.javax.management.remote.JMXConnectorServerMBeanTests.super.test_getAddress();
         org.j8unit.repository.javax.management.remote.JMXAddressableTests.super.test_getAddress();
+        org.j8unit.repository.javax.management.remote.JMXConnectorServerMBeanTests.super.test_getAddress();
     }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorServer]

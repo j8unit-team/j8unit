@@ -80,29 +80,6 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2Impl#isDeclared(String)
-     * public boolean org.xml.sax.ext.Attributes2Impl.isDeclared(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isDeclared_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.ext.Attributes2Impl#isDeclared(String, String) public boolean
      * org.xml.sax.ext.Attributes2Impl.isDeclared(java.lang.String,java.lang.String)}.
@@ -150,10 +127,32 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2Impl#isDeclared(String)
+     * public boolean org.xml.sax.ext.Attributes2Impl.isDeclared(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isDeclared_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.ext.Attributes2Impl#addAttribute(String, String, String, String, String) public void
-     * org.xml.sax.ext.Attributes2Impl.addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}
-     * .
+     * org.xml.sax.ext.Attributes2Impl.addAttribute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,29 +244,6 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2Impl#isSpecified(String)
-     * public boolean org.xml.sax.ext.Attributes2Impl.isSpecified(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isSpecified_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.ext.Attributes2Impl#isSpecified(String, String) public boolean
      * org.xml.sax.ext.Attributes2Impl.isSpecified(java.lang.String,java.lang.String)}.
@@ -284,6 +260,29 @@ extends org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_isSpecified_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.Attributes2Impl#isSpecified(String)
+     * public boolean org.xml.sax.ext.Attributes2Impl.isSpecified(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isSpecified_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

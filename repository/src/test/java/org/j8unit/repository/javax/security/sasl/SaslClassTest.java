@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.security.sasl.SaslClassTests<Sasl> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link javax.security.sasl.Sasl#getSaslClientFactories()
-     * public static java.util.Enumeration
-     * <javax.security.sasl.SaslClientFactory> javax.security.sasl.Sasl.getSaslClientFactories()}.
+     * public static java.util.Enumeration<javax.security.sasl.SaslClientFactory>
+     * javax.security.sasl.Sasl.getSaslClientFactories()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -67,8 +67,8 @@ implements org.j8unit.repository.javax.security.sasl.SaslClassTests<Sasl> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test {@link javax.security.sasl.Sasl#getSaslServerFactories()
-     * public static java.util.Enumeration
-     * <javax.security.sasl.SaslServerFactory> javax.security.sasl.Sasl.getSaslServerFactories()}.
+     * public static java.util.Enumeration<javax.security.sasl.SaslServerFactory>
+     * javax.security.sasl.Sasl.getSaslServerFactories()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -65,6 +65,27 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getTextHighlightColor() public static
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalLookAndFeel.getTextHighlightColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getTextHighlightColor()
+    throws Exception {
+        // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getTextHighlightColor()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#getMenuBackground() public static javax.swing.plaf.ColorUIResource
      * javax.swing.plaf.metal.MetalLookAndFeel.getMenuBackground()}.
      *
@@ -102,27 +123,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     public void test_getMenuDisabledForeground()
     throws Exception {
         // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getMenuDisabledForeground()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getTextHighlightColor() public static
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalLookAndFeel.getTextHighlightColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getTextHighlightColor()
-    throws Exception {
-        // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getTextHighlightColor()}
     }
 
     /**
@@ -841,27 +841,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getMenuSelectedForeground() public static
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalLookAndFeel.getMenuSelectedForeground()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getMenuSelectedForeground()
-    throws Exception {
-        // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getMenuSelectedForeground()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#getPrimaryControlShadow() public static
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalLookAndFeel.getPrimaryControlShadow()}.
      *
@@ -878,6 +857,27 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     public void test_getPrimaryControlShadow()
     throws Exception {
         // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getPrimaryControlShadow()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getMenuSelectedForeground() public static
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalLookAndFeel.getMenuSelectedForeground()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getMenuSelectedForeground()
+    throws Exception {
+        // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getMenuSelectedForeground()}
     }
 
     /**

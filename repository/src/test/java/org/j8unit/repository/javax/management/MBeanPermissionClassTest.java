@@ -22,6 +22,30 @@ implements org.j8unit.repository.javax.management.MBeanPermissionClassTests<MBea
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.MBeanPermission#MBeanPermission(String, String, javax.management.ObjectName, String)
+     * public
+     * javax.management.MBeanPermission(java.lang.String,java.lang.String,javax.management.ObjectName,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MBeanPermission_String_String_ObjectName_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MBeanPermission sut = null; // = new MBeanPermission(String, String, javax.management.ObjectName, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.MBeanPermission#MBeanPermission(String, String) public
      * javax.management.MBeanPermission(java.lang.String,java.lang.String)}.
      *
@@ -40,31 +64,6 @@ implements org.j8unit.repository.javax.management.MBeanPermissionClassTests<MBea
         // create new instance
         @SuppressWarnings("unused")
         final MBeanPermission sut = null; // = new MBeanPermission(String, String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.MBeanPermission#MBeanPermission(String, String, javax.management.ObjectName, String)
-     * public
-     * javax.management.MBeanPermission(java.lang.String,java.lang.String,javax.management.ObjectName,java.lang.String)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MBeanPermission_String_String_ObjectName_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MBeanPermission sut = null; // = new MBeanPermission(String, String, javax.management.ObjectName, String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanPermission]

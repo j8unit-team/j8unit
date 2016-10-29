@@ -220,34 +220,6 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.util.Set#toArray(Object[]) interface java.util.Set}</li>
-     * <li>{@link java.util.AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
-     * </ul>
-     *
-     * <p>
-     * In result, there are duplicated according test methods within the parent test classes. To solve this
-     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
-     * soon and, thus, overriding becomes unnecessary.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray_ObjectArray()
-    throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_toArray_ObjectArray();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray_ObjectArray();
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test:
-     * </p>
-     * <ul>
      * <li>{@link java.util.Set#toArray() interface java.util.Set}</li>
      * <li>{@link java.util.AbstractCollection#toArray() class java.util.AbstractCollection}</li>
      * </ul>
@@ -268,6 +240,34 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     throws Exception {
         org.j8unit.repository.java.util.SetTests.super.test_toArray();
         org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray();
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test:
+     * </p>
+     * <ul>
+     * <li>{@link java.util.Set#toArray(Object[]) interface java.util.Set}</li>
+     * <li>{@link java.util.AbstractCollection#toArray(Object[]) class java.util.AbstractCollection}</li>
+     * </ul>
+     *
+     * <p>
+     * In result, there are duplicated according test methods within the parent test classes. To solve this
+     * compiler-error situation, this method must be overridden. Dont't worry, there will be meaningful test methods
+     * soon and, thus, overriding becomes unnecessary.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray_ObjectArray()
+    throws Exception {
+        org.j8unit.repository.java.util.SetTests.super.test_toArray_ObjectArray();
+        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray_ObjectArray();
     }
 
     /**
@@ -333,8 +333,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
      * </p>
      * <ul>
      * <li>{@link java.util.Set#containsAll(java.util.Collection) interface java.util.Set}</li>
-     * <li>{@link java.util.AbstractCollection#containsAll(java.util.Collection) class java.util.AbstractCollection}
-     * </li>
+     * <li>{@link java.util.AbstractCollection#containsAll(java.util.Collection) class
+     * java.util.AbstractCollection}</li>
      * </ul>
      *
      * <p>

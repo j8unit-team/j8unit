@@ -84,28 +84,6 @@ implements org.j8unit.repository.java.security.PolicyClassTests<Policy> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.Policy#getInstance(String, java.security.Policy.Parameters) public static
-     * java.security.Policy java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters) throws
-     * java.security.NoSuchAlgorithmException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance_String_Parameters()
-    throws Exception {
-        // write some test for {@link java.security.Policy#getInstance(String, java.security.Policy.Parameters)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.Policy#getInstance(String, java.security.Policy.Parameters, String) public static
      * java.security.Policy
      * java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters,java.lang.String) throws
@@ -124,6 +102,28 @@ implements org.j8unit.repository.java.security.PolicyClassTests<Policy> {
     public void test_getInstance_String_Parameters_String()
     throws Exception {
         // write some test for {@link java.security.Policy#getInstance(String, java.security.Policy.Parameters, String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.Policy#getInstance(String, java.security.Policy.Parameters) public static
+     * java.security.Policy java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters) throws
+     * java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_String_Parameters()
+    throws Exception {
+        // write some test for {@link java.security.Policy#getInstance(String, java.security.Policy.Parameters)}
     }
 
     /**

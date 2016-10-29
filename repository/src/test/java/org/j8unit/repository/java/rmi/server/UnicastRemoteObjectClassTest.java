@@ -44,10 +44,8 @@ implements org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<U
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote, int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)
-     * public static java.rmi.Remote
-     * java.rmi.server.UnicastRemoteObject.exportObject(java.rmi.Remote,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
-     * throws java.rmi.RemoteException}.
+     * {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote) public static java.rmi.server.RemoteStub
+     * java.rmi.server.UnicastRemoteObject.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,10 +57,9 @@ implements org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<U
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_exportObject_Remote_int_RMIClientSocketFactory_RMIServerSocketFactory()
+    public void test_exportObject_Remote()
     throws Exception {
-        // write some test for {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote, int,
-        // java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)}
+        // write some test for {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote)}
     }
 
     /**
@@ -89,8 +86,10 @@ implements org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<U
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote) public static java.rmi.server.RemoteStub
-     * java.rmi.server.UnicastRemoteObject.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
+     * {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote, int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)
+     * public static java.rmi.Remote
+     * java.rmi.server.UnicastRemoteObject.exportObject(java.rmi.Remote,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
+     * throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +101,10 @@ implements org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<U
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_exportObject_Remote()
+    public void test_exportObject_Remote_int_RMIClientSocketFactory_RMIServerSocketFactory()
     throws Exception {
-        // write some test for {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote)}
+        // write some test for {@link java.rmi.server.UnicastRemoteObject#exportObject(java.rmi.Remote, int,
+        // java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.UnicastRemoteObject]

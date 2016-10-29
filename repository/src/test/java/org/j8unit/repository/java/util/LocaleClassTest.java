@@ -111,9 +111,9 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Locale#filter(java.util.List, java.util.Collection) public static java.util.List
-     * <java.util.Locale> java.util.Locale.filter(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection
-     * <java.util.Locale>)}.
+     * {@link java.util.Locale#filter(java.util.List, java.util.Collection) public static
+     * java.util.List<java.util.Locale>
+     * java.util.Locale.filter(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection<java.util.Locale>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,8 +134,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Locale#filter(java.util.List, java.util.Collection, java.util.Locale.FilteringMode) public
-     * static java.util.List<java.util.Locale> java.util.Locale.filter(java.util.List
-     * <java.util.Locale$LanguageRange>,java.util.Collection<java.util.Locale>,java.util.Locale$FilteringMode)}.
+     * static java.util.List<java.util.Locale>
+     * java.util.Locale.filter(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection<java.util.Locale>,java.util.Locale$FilteringMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -157,8 +157,7 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Locale#lookupTag(java.util.List, java.util.Collection) public static java.lang.String
-     * java.util.Locale.lookupTag(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection
-     * <java.lang.String>)}.
+     * java.util.Locale.lookupTag(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,9 +197,9 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Locale#filterTags(java.util.List, java.util.Collection) public static java.util.List
-     * <java.lang.String> java.util.Locale.filterTags(java.util.List
-     * <java.util.Locale$LanguageRange>,java.util.Collection<java.lang.String>)}.
+     * {@link java.util.Locale#filterTags(java.util.List, java.util.Collection) public static
+     * java.util.List<java.lang.String>
+     * java.util.Locale.filterTags(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection<java.lang.String>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -221,8 +220,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Locale#filterTags(java.util.List, java.util.Collection, java.util.Locale.FilteringMode) public
-     * static java.util.List<java.lang.String> java.util.Locale.filterTags(java.util.List
-     * <java.util.Locale$LanguageRange>,java.util.Collection<java.lang.String>,java.util.Locale$FilteringMode)}.
+     * static java.util.List<java.lang.String>
+     * java.util.Locale.filterTags(java.util.List<java.util.Locale$LanguageRange>,java.util.Collection<java.lang.String>,java.util.Locale$FilteringMode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -303,26 +302,6 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Locale#setDefault(java.util.Locale) public
-     * static synchronized void java.util.Locale.setDefault(java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_setDefault_Locale()
-    throws Exception {
-        // write some test for {@link java.util.Locale#setDefault(java.util.Locale)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Locale#setDefault(java.util.Locale.Category, java.util.Locale) public static synchronized void
      * java.util.Locale.setDefault(java.util.Locale$Category,java.util.Locale)}.
@@ -340,6 +319,26 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
     public void test_setDefault_Category_Locale()
     throws Exception {
         // write some test for {@link java.util.Locale#setDefault(java.util.Locale.Category, java.util.Locale)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Locale#setDefault(java.util.Locale) public
+     * static synchronized void java.util.Locale.setDefault(java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_setDefault_Locale()
+    throws Exception {
+        // write some test for {@link java.util.Locale#setDefault(java.util.Locale)}
     }
 
     /**
@@ -384,6 +383,134 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale]
+
+    @RunWith(J8Unit4.class)
+    public static class LanguageRangeClassTest
+    implements org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests<LanguageRange> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$LanguageRange]
+
+        @Override
+        public Class<LanguageRange> createNewSUT() {
+            return LanguageRange.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.util.Locale.LanguageRange#LanguageRange(String, double) public
+         * java.util.Locale$LanguageRange(java.lang.String,double)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_LanguageRange_String_double()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final LanguageRange sut = null; // = new LanguageRange(String, double);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link java.util.Locale.LanguageRange#LanguageRange(String) public
+         * java.util.Locale$LanguageRange(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_LanguageRange_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final LanguageRange sut = null; // = new LanguageRange(String);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.LanguageRange#mapEquivalents(java.util.List, java.util.Map) public static
+         * java.util.List<java.util.Locale$LanguageRange>
+         * java.util.Locale$LanguageRange.mapEquivalents(java.util.List<java.util.Locale$LanguageRange>,java.util.Map<java.lang.String,
+         * java.util.List<java.lang.String>>)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_mapEquivalents_List_Map()
+        throws Exception {
+            // write some test for {@link java.util.Locale.LanguageRange#mapEquivalents(java.util.List, java.util.Map)}
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.util.Locale.LanguageRange#parse(String)
+         * public static java.util.List<java.util.Locale$LanguageRange>
+         * java.util.Locale$LanguageRange.parse(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_parse_String()
+        throws Exception {
+            // write some test for {@link java.util.Locale.LanguageRange#parse(String)}
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Locale.LanguageRange#parse(String, java.util.Map) public static
+         * java.util.List<java.util.Locale$LanguageRange>
+         * java.util.Locale$LanguageRange.parse(java.lang.String,java.util.Map<java.lang.String,
+         * java.util.List<java.lang.String>>)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_parse_String_Map()
+        throws Exception {
+            // write some test for {@link java.util.Locale.LanguageRange#parse(String, java.util.Map)}
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$LanguageRange]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class CategoryClassTest
@@ -437,133 +564,6 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$Category]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class LanguageRangeClassTest
-    implements org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests<LanguageRange> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$LanguageRange]
-
-        @Override
-        public Class<LanguageRange> createNewSUT() {
-            return LanguageRange.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link java.util.Locale.LanguageRange#LanguageRange(String) public
-         * java.util.Locale$LanguageRange(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_LanguageRange_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final LanguageRange sut = null; // = new LanguageRange(String);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link java.util.Locale.LanguageRange#LanguageRange(String, double) public
-         * java.util.Locale$LanguageRange(java.lang.String,double)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_LanguageRange_String_double()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final LanguageRange sut = null; // = new LanguageRange(String, double);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.Locale.LanguageRange#mapEquivalents(java.util.List, java.util.Map) public static
-         * java.util.List<java.util.Locale$LanguageRange> java.util.Locale$LanguageRange.mapEquivalents(java.util.List
-         * <java.util.Locale$LanguageRange>,java.util.Map<java.lang.String, java.util.List<java.lang.String>>)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_mapEquivalents_List_Map()
-        throws Exception {
-            // write some test for {@link java.util.Locale.LanguageRange#mapEquivalents(java.util.List, java.util.Map)}
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.util.Locale.LanguageRange#parse(String)
-         * public static java.util.List
-         * <java.util.Locale$LanguageRange> java.util.Locale$LanguageRange.parse(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_parse_String()
-        throws Exception {
-            // write some test for {@link java.util.Locale.LanguageRange#parse(String)}
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.Locale.LanguageRange#parse(String, java.util.Map) public static java.util.List
-         * <java.util.Locale$LanguageRange>
-         * java.util.Locale$LanguageRange.parse(java.lang.String,java.util.Map<java.lang.String, java.util.List
-         * <java.lang.String>>)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_parse_String_Map()
-        throws Exception {
-            // write some test for {@link java.util.Locale.LanguageRange#parse(String, java.util.Map)}
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$LanguageRange]
 
     }
 

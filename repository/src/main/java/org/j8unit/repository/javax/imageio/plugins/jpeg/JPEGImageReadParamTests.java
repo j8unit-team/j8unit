@@ -82,8 +82,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#getACHuffmanTables() public
-     * javax.imageio.plugins.jpeg.JPEGHuffmanTable[] javax.imageio.plugins.jpeg.JPEGImageReadParam.getACHuffmanTables()}
-     * .
+     * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
+     * javax.imageio.plugins.jpeg.JPEGImageReadParam.getACHuffmanTables()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -106,8 +106,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#getDCHuffmanTables() public
-     * javax.imageio.plugins.jpeg.JPEGHuffmanTable[] javax.imageio.plugins.jpeg.JPEGImageReadParam.getDCHuffmanTables()}
-     * .
+     * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
+     * javax.imageio.plugins.jpeg.JPEGImageReadParam.getDCHuffmanTables()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,8 +154,7 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.plugins.jpeg.JPEGImageReadParam#setDecodeTables(javax.imageio.plugins.jpeg.JPEGQTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[])
      * public void
-     * javax.imageio.plugins.jpeg.JPEGImageReadParam.setDecodeTables(javax.imageio.plugins.jpeg.JPEGQTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[])}
-     * .
+     * javax.imageio.plugins.jpeg.JPEGImageReadParam.setDecodeTables(javax.imageio.plugins.jpeg.JPEGQTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[],javax.imageio.plugins.jpeg.JPEGHuffmanTable[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

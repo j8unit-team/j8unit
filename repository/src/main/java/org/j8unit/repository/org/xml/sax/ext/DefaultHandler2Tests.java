@@ -204,8 +204,10 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.DefaultHandler2#endCDATA() public
-     * void org.xml.sax.ext.DefaultHandler2.endCDATA() throws org.xml.sax.SAXException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String) public org.xml.sax.InputSource
+     * org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -218,7 +220,7 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_endCDATA()
+    public default void test_resolveEntity_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -253,10 +255,8 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.ext.DefaultHandler2#resolveEntity(String, String) public org.xml.sax.InputSource
-     * org.xml.sax.ext.DefaultHandler2.resolveEntity(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.ext.DefaultHandler2#endCDATA() public
+     * void org.xml.sax.ext.DefaultHandler2.endCDATA() throws org.xml.sax.SAXException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -269,7 +269,7 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_resolveEntity_String_String()
+    public default void test_endCDATA()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

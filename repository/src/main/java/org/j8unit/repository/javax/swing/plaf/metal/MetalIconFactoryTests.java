@@ -44,13 +44,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link TreeLeafIcon public static class javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon}.
+     * {@link TreeControlIcon public static class javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeLeafIconClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeControlIconClassTests}).
      * </p>
      *
      * @param SUT
@@ -60,16 +60,17 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TreeLeafIconTests<SUT extends TreeLeafIcon>
-    extends org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FileIcon16Tests<SUT> {
+    public static abstract interface TreeControlIconTests<SUT extends TreeControlIcon>
+    extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+    org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon#getAdditionalHeight() public int
-         * javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon.getAdditionalHeight()}.
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#getIconHeight() public int
+         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.getIconHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -82,7 +83,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getAdditionalHeight()
+        public default void test_getIconHeight()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -92,8 +93,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon#getShift() public int
-         * javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon.getShift()}.
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#getIconWidth() public int
+         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.getIconWidth()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -106,14 +107,63 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getShift()
+        public default void test_getIconWidth()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#paintMe(java.awt.Component, java.awt.Graphics, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.paintMe(java.awt.Component,java.awt.Graphics,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_paintMe_Component_Graphics_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintIcon_Component_Graphics_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
 
     }
 
@@ -191,6 +241,258 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link FolderIcon16 public static class javax.swing.plaf.metal.MetalIconFactory$FolderIcon16}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FolderIcon16ClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface FolderIcon16Tests<SUT extends FolderIcon16>
+    extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+    org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getIconWidth() public int
+         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getIconWidth()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getIconWidth()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getIconHeight() public int
+         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getIconHeight()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getIconHeight()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getAdditionalHeight() public int
+         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getAdditionalHeight()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getAdditionalHeight()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#paintIcon(java.awt.Component, java.awt.Graphics, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintIcon_Component_Graphics_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getShift() public int
+         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getShift()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getShift()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link PaletteCloseIcon public static class javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.PaletteCloseIconClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface PaletteCloseIconTests<SUT extends PaletteCloseIcon>
+    extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>,
+    org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int)
+         * public void
+         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_paintIcon_Component_Graphics_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#getIconWidth() public int
+         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon.getIconWidth()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getIconWidth()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#getIconHeight() public int
+         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon.getIconHeight()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getIconHeight()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
 
     }
 
@@ -347,13 +649,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link PaletteCloseIcon public static class javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon}.
+     * {@link TreeLeafIcon public static class javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.PaletteCloseIconClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeLeafIconClassTests}).
      * </p>
      *
      * @param SUT
@@ -363,19 +665,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PaletteCloseIconTests<SUT extends PaletteCloseIcon>
-    extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>,
-    org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface TreeLeafIconTests<SUT extends TreeLeafIcon>
+    extends org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FileIcon16Tests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}
-         * .
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon#getAdditionalHeight() public int
+         * javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon.getAdditionalHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -386,284 +685,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintIcon_Component_Graphics_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#getIconWidth() public int
-         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon.getIconWidth()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getIconWidth()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#getIconHeight() public int
-         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon.getIconHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getIconHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link TreeControlIcon public static class javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeControlIconClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface TreeControlIconTests<SUT extends TreeControlIcon>
-    extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#getIconHeight() public int
-         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.getIconHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getIconHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#getIconWidth() public int
-         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.getIconWidth()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getIconWidth()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#paintMe(java.awt.Component, java.awt.Graphics, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.paintMe(java.awt.Component,java.awt.Graphics,int,int)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_paintMe_Component_Graphics_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon#paintIcon(java.awt.Component, java.awt.Graphics, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_paintIcon_Component_Graphics_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link FolderIcon16 public static class javax.swing.plaf.metal.MetalIconFactory$FolderIcon16}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FolderIcon16ClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface FolderIcon16Tests<SUT extends FolderIcon16>
-    extends org.j8unit.repository.javax.swing.IconTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getIconWidth() public int
-         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getIconWidth()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getIconWidth()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getIconHeight() public int
-         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getIconHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getIconHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getAdditionalHeight() public int
-         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getAdditionalHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         public default void test_getAdditionalHeight()
@@ -676,10 +697,8 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#paintIcon(java.awt.Component, java.awt.Graphics, int, int)
-         * public void
-         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}
-         * .
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon#getShift() public int
+         * javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon.getShift()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -692,29 +711,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_paintIcon_Component_Graphics_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.FolderIcon16#getShift() public int
-         * javax.swing.plaf.metal.MetalIconFactory$FolderIcon16.getShift()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
         public default void test_getShift()
         throws Exception {
             // query fresh subject-under-test
@@ -722,7 +718,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
 
     }
 

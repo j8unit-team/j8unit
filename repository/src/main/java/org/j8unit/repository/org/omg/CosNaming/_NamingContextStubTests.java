@@ -37,8 +37,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming._NamingContextStub#list(int, org.omg.CosNaming.BindingListHolder, org.omg.CosNaming.BindingIteratorHolder)
      * public void
-     * org.omg.CosNaming._NamingContextStub.list(int,org.omg.CosNaming.BindingListHolder,org.omg.CosNaming.BindingIteratorHolder)}
-     * .
+     * org.omg.CosNaming._NamingContextStub.list(int,org.omg.CosNaming.BindingListHolder,org.omg.CosNaming.BindingIteratorHolder)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +63,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * {@link org.omg.CosNaming._NamingContextStub#bind_new_context(org.omg.CosNaming.NameComponent[]) public
      * org.omg.CosNaming.NamingContext
      * org.omg.CosNaming._NamingContextStub.bind_new_context(org.omg.CosNaming.NameComponent[]) throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.AlreadyBound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
-     * .
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.AlreadyBound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -111,6 +109,57 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming._NamingContextStub#rebind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object)
+     * public void org.omg.CosNaming._NamingContextStub.rebind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object)
+     * throws
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_rebind_NameComponentArray_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.CosNaming._NamingContextStub#unbind(org.omg.CosNaming.NameComponent[]) public void
+     * org.omg.CosNaming._NamingContextStub.unbind(org.omg.CosNaming.NameComponent[]) throws
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_unbind_NameComponentArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.CosNaming._NamingContextStub#_ids() public
      * java.lang.String[] org.omg.CosNaming._NamingContextStub._ids()}.
      *
@@ -135,10 +184,9 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CosNaming._NamingContextStub#unbind(org.omg.CosNaming.NameComponent[]) public void
-     * org.omg.CosNaming._NamingContextStub.unbind(org.omg.CosNaming.NameComponent[]) throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
-     * .
+     * {@link org.omg.CosNaming._NamingContextStub#resolve(org.omg.CosNaming.NameComponent[]) public
+     * org.omg.CORBA.Object org.omg.CosNaming._NamingContextStub.resolve(org.omg.CosNaming.NameComponent[]) throws
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -151,62 +199,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_unbind_NameComponentArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CosNaming._NamingContextStub#rebind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object)
-     * public void org.omg.CosNaming._NamingContextStub.rebind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object)
-     * throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_rebind_NameComponentArray_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CosNaming._NamingContextStub#rebind_context(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.NamingContext)
-     * public void
-     * org.omg.CosNaming._NamingContextStub.rebind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
-     * throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_rebind_context_NameComponentArray_NamingContext()
+    public default void test_resolve_NameComponentArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -239,10 +232,11 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.CosNaming._NamingContextStub#resolve(org.omg.CosNaming.NameComponent[]) public
-     * org.omg.CORBA.Object org.omg.CosNaming._NamingContextStub.resolve(org.omg.CosNaming.NameComponent[]) throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
-     * .
+     * {@link org.omg.CosNaming._NamingContextStub#rebind_context(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.NamingContext)
+     * public void
+     * org.omg.CosNaming._NamingContextStub.rebind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
+     * throws
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -255,7 +249,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_resolve_NameComponentArray()
+    public default void test_rebind_context_NameComponentArray_NamingContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -267,8 +261,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CosNaming._NamingContextStub#bind(org.omg.CosNaming.NameComponent[], org.omg.CORBA.Object) public
      * void org.omg.CosNaming._NamingContextStub.bind(org.omg.CosNaming.NameComponent[],org.omg.CORBA.Object) throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName,org.omg.CosNaming.NamingContextPackage.AlreadyBound}
-     * .
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName,org.omg.CosNaming.NamingContextPackage.AlreadyBound}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -295,8 +288,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>, org.j8u
      * public void
      * org.omg.CosNaming._NamingContextStub.bind_context(org.omg.CosNaming.NameComponent[],org.omg.CosNaming.NamingContext)
      * throws
-     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName,org.omg.CosNaming.NamingContextPackage.AlreadyBound}
-     * .
+     * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName,org.omg.CosNaming.NamingContextPackage.AlreadyBound}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

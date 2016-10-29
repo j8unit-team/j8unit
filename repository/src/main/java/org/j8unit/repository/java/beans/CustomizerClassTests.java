@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 import java.beans.Customizer;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -57,7 +57,7 @@ extends RepositoryClassTests<SUT> {
      *
      * @since 0.9.2
      */
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

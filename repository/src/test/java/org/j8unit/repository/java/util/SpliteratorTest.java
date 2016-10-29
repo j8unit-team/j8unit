@@ -38,17 +38,17 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class OfDoubleTest
-    implements org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests<OfDouble> {
+    public static class OfLongTest
+    implements org.j8unit.repository.java.util.SpliteratorTests.OfLongTests<OfLong> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
         @Override
-        public OfDouble createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfDouble], j8unit does not support a generic way to provide instances.");
+        public OfLong createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfLong], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
     }
 
@@ -68,17 +68,17 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
     }
 
     @RunWith(J8Unit4.class)
-    public static class OfLongTest
-    implements org.j8unit.repository.java.util.SpliteratorTests.OfLongTests<OfLong> {
+    public static class OfDoubleTest
+    implements org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests<OfDouble> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
         @Override
-        public OfLong createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfLong], j8unit does not support a generic way to provide instances.");
+        public OfDouble createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfDouble], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
     }
 

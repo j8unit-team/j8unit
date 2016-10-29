@@ -34,29 +34,6 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readURL()
-     * public java.net.URL javax.sql.rowset.serial.SQLInputImpl.readURL() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readURL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readInt()
      * public int javax.sql.rowset.serial.SQLInputImpl.readInt() throws java.sql.SQLException}.
      *
@@ -72,6 +49,29 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_readInt()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readURL()
+     * public java.net.URL javax.sql.rowset.serial.SQLInputImpl.readURL() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -241,29 +241,6 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readNString()
-     * public java.lang.String javax.sql.rowset.serial.SQLInputImpl.readNString() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readNString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readByte()
      * public byte javax.sql.rowset.serial.SQLInputImpl.readByte() throws java.sql.SQLException}.
      *
@@ -279,6 +256,29 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_readByte()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readNString()
+     * public java.lang.String javax.sql.rowset.serial.SQLInputImpl.readNString() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readNString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -520,29 +520,6 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readSQLXML()
-     * public java.sql.SQLXML javax.sql.rowset.serial.SQLInputImpl.readSQLXML() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readSQLXML()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readObject()
      * public java.lang.Object javax.sql.rowset.serial.SQLInputImpl.readObject() throws java.sql.SQLException}.
      *
@@ -558,6 +535,29 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_readObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readSQLXML()
+     * public java.sql.SQLXML javax.sql.rowset.serial.SQLInputImpl.readSQLXML() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readSQLXML()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

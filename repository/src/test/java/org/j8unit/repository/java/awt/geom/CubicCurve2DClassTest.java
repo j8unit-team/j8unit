@@ -65,10 +65,30 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#subdivide(double[], int, double[], int, double[], int) public static void
+     * java.awt.geom.CubicCurve2D.subdivide(double[],int,double[],int,double[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_subdivide_doubleArray_int_doubleArray_int_doubleArray_int()
+    throws Exception {
+        // write some test for {@link java.awt.geom.CubicCurve2D#subdivide(double[], int, double[], int, double[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.CubicCurve2D#subdivide(java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D)
      * public static void
-     * java.awt.geom.CubicCurve2D.subdivide(java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D)}
-     * .
+     * java.awt.geom.CubicCurve2D.subdivide(java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -89,8 +109,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.CubicCurve2D#subdivide(double[], int, double[], int, double[], int) public static void
-     * java.awt.geom.CubicCurve2D.subdivide(double[],int,double[],int,double[],int)}.
+     * {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double[], int) public static double
+     * java.awt.geom.CubicCurve2D.getFlatnessSq(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,9 +122,9 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_subdivide_doubleArray_int_doubleArray_int_doubleArray_int()
+    public void test_getFlatnessSq_doubleArray_int()
     throws Exception {
-        // write some test for {@link java.awt.geom.CubicCurve2D#subdivide(double[], int, double[], int, double[], int)}
+        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double[], int)}
     }
 
     /**
@@ -128,27 +148,6 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     throws Exception {
         // write some test for {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double, double, double, double, double,
         // double, double, double)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double[], int) public static double
-     * java.awt.geom.CubicCurve2D.getFlatnessSq(double[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getFlatnessSq_doubleArray_int()
-    throws Exception {
-        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatnessSq(double[], int)}
     }
 
     /**

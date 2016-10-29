@@ -23,8 +23,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet(java.util.SortedSet) public
-     * java.util.concurrent.ConcurrentSkipListSet(java.util.SortedSet<E>)}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet() public
+     * java.util.concurrent.ConcurrentSkipListSet()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,11 +36,10 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClass
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ConcurrentSkipListSet_SortedSet()
+    public void create_ConcurrentSkipListSet()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final ConcurrentSkipListSet sut = null; // = new ConcurrentSkipListSet(java.util.SortedSet);
+        final ConcurrentSkipListSet sut = new ConcurrentSkipListSet();
     }
 
     /**
@@ -92,8 +91,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet() public
-     * java.util.concurrent.ConcurrentSkipListSet()}.
+     * {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet(java.util.SortedSet) public
+     * java.util.concurrent.ConcurrentSkipListSet(java.util.SortedSet<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,10 +104,11 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClass
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_ConcurrentSkipListSet()
+    public void create_ConcurrentSkipListSet_SortedSet()
     throws Exception {
         // create new instance
-        final ConcurrentSkipListSet sut = new ConcurrentSkipListSet();
+        @SuppressWarnings("unused")
+        final ConcurrentSkipListSet sut = null; // = new ConcurrentSkipListSet(java.util.SortedSet);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentSkipListSet]

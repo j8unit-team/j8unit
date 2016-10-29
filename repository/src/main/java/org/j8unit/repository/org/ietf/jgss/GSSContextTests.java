@@ -57,28 +57,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getConfState() public
-     * abstract boolean org.ietf.jgss.GSSContext.getConfState()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConfState()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#export() public abstract
      * byte[] org.ietf.jgss.GSSContext.export() throws org.ietf.jgss.GSSException}.
      *
@@ -101,9 +79,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSContext#initSecContext(byte[], int, int) public abstract byte[]
-     * org.ietf.jgss.GSSContext.initSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getConfState() public
+     * abstract boolean org.ietf.jgss.GSSContext.getConfState()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -115,7 +92,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_initSecContext_byteArray_int_int()
+    public default void test_getConfState()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -148,6 +125,29 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#initSecContext(byte[], int, int) public abstract byte[]
+     * org.ietf.jgss.GSSContext.initSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_initSecContext_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getAnonymityState() public
      * abstract boolean org.ietf.jgss.GSSContext.getAnonymityState()}.
      *
@@ -162,29 +162,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAnonymityState()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSContext#getMIC(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
-     * org.ietf.jgss.GSSContext.getMIC(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMIC_byteArray_int_int_MessageProp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -210,6 +187,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMIC_InputStream_OutputStream_MessageProp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#getMIC(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
+     * org.ietf.jgss.GSSContext.getMIC(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMIC_byteArray_int_int_MessageProp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -263,29 +263,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSContext#unwrap(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
-     * org.ietf.jgss.GSSContext.unwrap(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unwrap_byteArray_int_int_MessageProp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.ietf.jgss.GSSContext#unwrap(java.io.InputStream, java.io.OutputStream, org.ietf.jgss.MessageProp)
      * public abstract void
      * org.ietf.jgss.GSSContext.unwrap(java.io.InputStream,java.io.OutputStream,org.ietf.jgss.MessageProp) throws
@@ -302,6 +279,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unwrap_InputStream_OutputStream_MessageProp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#unwrap(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
+     * org.ietf.jgss.GSSContext.unwrap(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unwrap_byteArray_int_int_MessageProp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -399,6 +399,29 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#acceptSecContext(byte[], int, int) public abstract byte[]
+     * org.ietf.jgss.GSSContext.acceptSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_acceptSecContext_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.ietf.jgss.GSSContext#acceptSecContext(java.io.InputStream, java.io.OutputStream) public abstract void
      * org.ietf.jgss.GSSContext.acceptSecContext(java.io.InputStream,java.io.OutputStream) throws
      * org.ietf.jgss.GSSException}.
@@ -414,29 +437,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_acceptSecContext_InputStream_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSContext#acceptSecContext(byte[], int, int) public abstract byte[]
-     * org.ietf.jgss.GSSContext.acceptSecContext(byte[],int,int) throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acceptSecContext_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -490,6 +490,29 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSContext#wrap(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
+     * org.ietf.jgss.GSSContext.wrap(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_byteArray_int_int_MessageProp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.ietf.jgss.GSSContext#wrap(java.io.InputStream, java.io.OutputStream, org.ietf.jgss.MessageProp) public
      * abstract void org.ietf.jgss.GSSContext.wrap(java.io.InputStream,java.io.OutputStream,org.ietf.jgss.MessageProp)
      * throws org.ietf.jgss.GSSException}.
@@ -505,29 +528,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_wrap_InputStream_OutputStream_MessageProp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSContext#wrap(byte[], int, int, org.ietf.jgss.MessageProp) public abstract byte[]
-     * org.ietf.jgss.GSSContext.wrap(byte[],int,int,org.ietf.jgss.MessageProp) throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wrap_byteArray_int_int_MessageProp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -558,28 +558,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestInteg(boolean)
-     * public abstract void org.ietf.jgss.GSSContext.requestInteg(boolean) throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_requestInteg_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getReplayDetState() public
      * abstract boolean org.ietf.jgss.GSSContext.getReplayDetState()}.
      *
@@ -594,6 +572,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getReplayDetState()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#requestInteg(boolean)
+     * public abstract void org.ietf.jgss.GSSContext.requestInteg(boolean) throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_requestInteg_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -802,6 +802,28 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getLifetime() public
+     * abstract int org.ietf.jgss.GSSContext.getLifetime()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLifetime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.ietf.jgss.GSSContext#verifyMIC(java.io.InputStream, java.io.InputStream, org.ietf.jgss.MessageProp)
      * public abstract void
@@ -843,28 +865,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_verifyMIC_byteArray_int_int_byteArray_int_int_MessageProp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSContext#getLifetime() public
-     * abstract int org.ietf.jgss.GSSContext.getLifetime()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLifetime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

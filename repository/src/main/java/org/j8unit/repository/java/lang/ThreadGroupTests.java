@@ -187,8 +187,8 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadGroup#suspend() public final void
-     * java.lang.ThreadGroup.suspend()}.
+     * Test method for the hereby targeted method-under-test {@link ThreadGroup#activeCount() public int
+     * java.lang.ThreadGroup.activeCount()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,7 +200,7 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_suspend()
+    public default void test_activeCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,8 +231,8 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadGroup#activeCount() public int
-     * java.lang.ThreadGroup.activeCount()}.
+     * Test method for the hereby targeted method-under-test {@link ThreadGroup#suspend() public final void
+     * java.lang.ThreadGroup.suspend()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,7 +244,7 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_activeCount()
+    public default void test_suspend()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -267,6 +267,28 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
     @Test
     @Category(Draft.class)
     public default void test_isDestroyed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link ThreadGroup#enumerate(ThreadGroup[]) public int
+     * java.lang.ThreadGroup.enumerate(java.lang.ThreadGroup[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_enumerate_ThreadGroupArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -333,28 +355,6 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
     @Test
     @Category(Draft.class)
     public default void test_enumerate_ThreadGroupArray_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link ThreadGroup#enumerate(ThreadGroup[]) public int
-     * java.lang.ThreadGroup.enumerate(java.lang.ThreadGroup[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_enumerate_ThreadGroupArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

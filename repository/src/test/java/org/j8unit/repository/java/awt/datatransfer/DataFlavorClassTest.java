@@ -21,27 +21,6 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.datatransfer.DataFlavor#DataFlavor()
-     * public java.awt.datatransfer.DataFlavor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DataFlavor()
-    throws Exception {
-        // create new instance
-        final DataFlavor sut = new DataFlavor();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.datatransfer.DataFlavor#DataFlavor(String) public
      * java.awt.datatransfer.DataFlavor(java.lang.String) throws java.lang.ClassNotFoundException}.
@@ -61,29 +40,6 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
         // create new instance
         @SuppressWarnings("unused")
         final DataFlavor sut = null; // = new DataFlavor(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.datatransfer.DataFlavor#DataFlavor(Class, String) public
-     * java.awt.datatransfer.DataFlavor(java.lang.Class<?>,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DataFlavor_Class_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DataFlavor sut = null; // = new DataFlavor(Class, String);
     }
 
     /**
@@ -131,6 +87,50 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<Data
         // create new instance
         @SuppressWarnings("unused")
         final DataFlavor sut = null; // = new DataFlavor(String, String, ClassLoader);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.datatransfer.DataFlavor#DataFlavor(Class, String) public
+     * java.awt.datatransfer.DataFlavor(java.lang.Class<?>,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DataFlavor_Class_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DataFlavor sut = null; // = new DataFlavor(Class, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.datatransfer.DataFlavor#DataFlavor()
+     * public java.awt.datatransfer.DataFlavor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DataFlavor()
+    throws Exception {
+        // create new instance
+        final DataFlavor sut = new DataFlavor();
     }
 
     /**

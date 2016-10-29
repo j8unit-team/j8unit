@@ -37,8 +37,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenCombine(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
-     * public abstract <U,V> java.util.concurrent.CompletionStage
-     * <V> java.util.concurrent.CompletionStage.thenCombine(java.util.concurrent.CompletionStage<? extends
+     * public abstract <U,V> java.util.concurrent.CompletionStage<V>
+     * java.util.concurrent.CompletionStage.thenCombine(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -84,58 +84,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function, java.util.concurrent.Executor)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super T, ? extends
-     * U>,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenApplyAsync_Function_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function) public abstract
-     * <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super T, ? extends U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenApplyAsync_Function()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer) public abstract
-     * java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super T>)}.
+     * java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,8 +109,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenAcceptAsync(java.util.function.Consumer, java.util.concurrent.Executor)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenAcceptAsync(java.util.function.Consumer<? super
      * T>,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -182,9 +133,58 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function) public abstract <U>
+     * java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super T, ? extends U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenApplyAsync_Function()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenApplyAsync(java.util.function.Function, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.thenApplyAsync(java.util.function.Function<? super T, ? extends
+     * U>,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenApplyAsync_Function_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer) public abstract
-     * java.util.concurrent.CompletionStage
-     * <T> java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
+     * java.util.concurrent.CompletionStage<T>
+     * java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -208,8 +208,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#whenCompleteAsync(java.util.function.BiConsumer, java.util.concurrent.Executor)
-     * public abstract java.util.concurrent.CompletionStage
-     * <T> java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
+     * public abstract java.util.concurrent.CompletionStage<T>
+     * java.util.concurrent.CompletionStage.whenCompleteAsync(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -233,8 +233,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenRun(Runnable) public abstract
-     * java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenRun(java.lang.Runnable)}.
+     * java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenRun(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -257,8 +257,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenAccept(java.util.function.Consumer) public abstract
-     * java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenAccept(java.util.function.Consumer<? super T>)}.
+     * java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenAccept(java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -280,59 +280,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction) public abstract
-     * <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction<? super T,
-     * java.lang.Throwable, ? extends U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_handleAsync_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction, java.util.concurrent.Executor)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction<? super T,
-     * java.lang.Throwable, ? extends U>,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_handleAsync_BiFunction_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#handle(java.util.function.BiFunction) public abstract
-     * <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.handle(java.util.function.BiFunction<? super T, java.lang.Throwable, ?
+     * {@link java.util.concurrent.CompletionStage#handle(java.util.function.BiFunction) public abstract <U>
+     * java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.handle(java.util.function.BiFunction<? super T, java.lang.Throwable, ?
      * extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -355,9 +305,59 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction<? super T, java.lang.Throwable, ?
+     * extends U>,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_handleAsync_BiFunction_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#handleAsync(java.util.function.BiFunction) public abstract <U>
+     * java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.handleAsync(java.util.function.BiFunction<? super T, java.lang.Throwable, ?
+     * extends U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_handleAsync_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#exceptionally(java.util.function.Function) public abstract
-     * java.util.concurrent.CompletionStage
-     * <T> java.util.concurrent.CompletionStage.exceptionally(java.util.function.Function<java.lang.Throwable, ? extends
+     * java.util.concurrent.CompletionStage<T>
+     * java.util.concurrent.CompletionStage.exceptionally(java.util.function.Function<java.lang.Throwable, ? extends
      * T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -381,9 +381,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#runAfterBoth(java.util.concurrent.CompletionStage, Runnable) public
-     * abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterBoth(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable)}.
+     * abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.runAfterBoth(java.util.concurrent.CompletionStage<?>,java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -406,8 +405,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#whenComplete(java.util.function.BiConsumer) public abstract
-     * java.util.concurrent.CompletionStage
-     * <T> java.util.concurrent.CompletionStage.whenComplete(java.util.function.BiConsumer<? super T, ? super
+     * java.util.concurrent.CompletionStage<T>
+     * java.util.concurrent.CompletionStage.whenComplete(java.util.function.BiConsumer<? super T, ? super
      * java.lang.Throwable>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -430,9 +429,59 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
+     * public abstract <U> java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage<? extends
+     * U>,java.util.function.BiConsumer<? super T, ? super U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenAcceptBothAsync_CompletionStage_BiConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage<? extends
+     * U>,java.util.function.BiConsumer<? super T, ? super U>,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenAcceptBothAsync_CompletionStage_BiConsumer_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction)
-     * public abstract <U,V> java.util.concurrent.CompletionStage
-     * <V> java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
+     * public abstract <U,V> java.util.concurrent.CompletionStage<V>
+     * java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -456,8 +505,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenCombineAsync(java.util.concurrent.CompletionStage, java.util.function.BiFunction, java.util.concurrent.Executor)
-     * public abstract <U,V> java.util.concurrent.CompletionStage
-     * <V> java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
+     * public abstract <U,V> java.util.concurrent.CompletionStage<V>
+     * java.util.concurrent.CompletionStage.thenCombineAsync(java.util.concurrent.CompletionStage<? extends
      * U>,java.util.function.BiFunction<? super T, ? super U, ? extends V>,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -480,59 +529,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer, java.util.concurrent.Executor)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage<?
-     * extends U>,java.util.function.BiConsumer<? super T, ? super U>,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenAcceptBothAsync_CompletionStage_BiConsumer_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenAcceptBothAsync(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptBothAsync(java.util.concurrent.CompletionStage<?
-     * extends U>,java.util.function.BiConsumer<? super T, ? super U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenAcceptBothAsync_CompletionStage_BiConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenCompose(java.util.function.Function) public abstract
-     * <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.thenCompose(java.util.function.Function<? super T, ? extends
+     * {@link java.util.concurrent.CompletionStage#thenCompose(java.util.function.Function) public abstract <U>
+     * java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.thenCompose(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -556,8 +555,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#acceptEither(java.util.concurrent.CompletionStage, java.util.function.Consumer)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.acceptEither(java.util.concurrent.CompletionStage<? extends
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.acceptEither(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -581,9 +580,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable,java.util.concurrent.Executor)}.
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage<?>,java.lang.Runnable,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -606,9 +604,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#runAfterEitherAsync(java.util.concurrent.CompletionStage, Runnable)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable)}.
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.runAfterEitherAsync(java.util.concurrent.CompletionStage<?>,java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -630,35 +627,10 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer, java.util.concurrent.Executor)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage<?
-     * extends T>,java.util.function.Consumer<? super T>,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acceptEitherAsync_CompletionStage_Consumer_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage<?
-     * extends T>,java.util.function.Consumer<? super T>)}.
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage<? extends
+     * T>,java.util.function.Consumer<? super T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -680,10 +652,10 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function, java.util.concurrent.Executor)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
-     * T>,java.util.function.Function<? super T, U>,java.util.concurrent.Executor)}.
+     * {@link java.util.concurrent.CompletionStage#acceptEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Consumer, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.acceptEitherAsync(java.util.concurrent.CompletionStage<? extends
+     * T>,java.util.function.Consumer<? super T>,java.util.concurrent.Executor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -695,7 +667,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_applyToEitherAsync_CompletionStage_Function_Executor()
+    public default void test_acceptEitherAsync_CompletionStage_Consumer_Executor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -706,8 +678,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
+     * public abstract <U> java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -730,10 +702,35 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#applyToEitherAsync(java.util.concurrent.CompletionStage, java.util.function.Function, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.applyToEitherAsync(java.util.concurrent.CompletionStage<? extends
+     * T>,java.util.function.Function<? super T, U>,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_applyToEitherAsync_CompletionStage_Function_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#thenAcceptBoth(java.util.concurrent.CompletionStage, java.util.function.BiConsumer)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenAcceptBoth(java.util.concurrent.CompletionStage<?
-     * extends U>,java.util.function.BiConsumer<? super T, ? super U>)}.
+     * public abstract <U> java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenAcceptBoth(java.util.concurrent.CompletionStage<? extends
+     * U>,java.util.function.BiConsumer<? super T, ? super U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -755,34 +752,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function, java.util.concurrent.Executor)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function<? super T, ? extends
-     * java.util.concurrent.CompletionStage<U>>,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenComposeAsync_Function_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function) public abstract
-     * <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function<? super T, ? extends
+     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function) public abstract <U>
+     * java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function<? super T, ? extends
      * java.util.concurrent.CompletionStage<U>>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -805,9 +777,34 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenApply(java.util.function.Function) public abstract
-     * <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.thenApply(java.util.function.Function<? super T, ? extends U>)}.
+     * {@link java.util.concurrent.CompletionStage#thenComposeAsync(java.util.function.Function, java.util.concurrent.Executor)
+     * public abstract <U> java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.thenComposeAsync(java.util.function.Function<? super T, ? extends
+     * java.util.concurrent.CompletionStage<U>>,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenComposeAsync_Function_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenApply(java.util.function.Function) public abstract <U>
+     * java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.thenApply(java.util.function.Function<? super T, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -830,9 +827,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#runAfterEither(java.util.concurrent.CompletionStage, Runnable) public
-     * abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterEither(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable)}.
+     * abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.runAfterEither(java.util.concurrent.CompletionStage<?>,java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -855,8 +851,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.CompletionStage#applyToEither(java.util.concurrent.CompletionStage, java.util.function.Function)
-     * public abstract <U> java.util.concurrent.CompletionStage
-     * <U> java.util.concurrent.CompletionStage.applyToEither(java.util.concurrent.CompletionStage<? extends
+     * public abstract <U> java.util.concurrent.CompletionStage<U>
+     * java.util.concurrent.CompletionStage.applyToEither(java.util.concurrent.CompletionStage<? extends
      * T>,java.util.function.Function<? super T, U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -870,6 +866,78 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_applyToEither_CompletionStage_Function()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage<?>,java.lang.Runnable,java.util.concurrent.Executor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_runAfterBothAsync_CompletionStage_Runnable_Executor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable)
+     * public abstract java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage<?>,java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_runAfterBothAsync_CompletionStage_Runnable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.CompletionStage#thenRunAsync(Runnable) public abstract
+     * java.util.concurrent.CompletionStage<java.lang.Void>
+     * java.util.concurrent.CompletionStage.thenRunAsync(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenRunAsync_Runnable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -894,80 +962,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_thenRunAsync_Runnable_Executor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#thenRunAsync(Runnable) public abstract
-     * java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.thenRunAsync(java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenRunAsync_Runnable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_runAfterBothAsync_CompletionStage_Runnable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.CompletionStage#runAfterBothAsync(java.util.concurrent.CompletionStage, Runnable, java.util.concurrent.Executor)
-     * public abstract java.util.concurrent.CompletionStage
-     * <java.lang.Void> java.util.concurrent.CompletionStage.runAfterBothAsync(java.util.concurrent.CompletionStage
-     * <?>,java.lang.Runnable,java.util.concurrent.Executor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_runAfterBothAsync_CompletionStage_Runnable_Executor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

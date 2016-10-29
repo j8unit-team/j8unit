@@ -26,8 +26,7 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel, javax.swing.table.TableColumnModel, javax.swing.ListSelectionModel)
      * public
-     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)}
-     * .
+     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -71,29 +70,6 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JTable#JTable(java.util.Vector, java.util.Vector) public
-     * javax.swing.JTable(java.util.Vector,java.util.Vector)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JTable_Vector_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JTable sut = null; // = new JTable(java.util.Vector, java.util.Vector);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTable#JTable(Object[][], Object[])
      * public javax.swing.JTable(java.lang.Object[][],java.lang.Object[])}.
      *
@@ -133,6 +109,29 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     throws Exception {
         // create new instance
         final JTable sut = new JTable();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTable#JTable(java.util.Vector, java.util.Vector) public
+     * javax.swing.JTable(java.util.Vector,java.util.Vector)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JTable_Vector_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JTable sut = null; // = new JTable(java.util.Vector, java.util.Vector);
     }
 
     /**
@@ -205,6 +204,21 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable]
 
     @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$DropLocation]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class PrintModeClassTest
     implements org.j8unit.repository.javax.swing.JTableClassTests.PrintModeClassTests<PrintMode> {
 
@@ -256,21 +270,6 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$PrintMode]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$DropLocation]
-
-        @Override
-        public Class<DropLocation> createNewSUT() {
-            return DropLocation.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$DropLocation]
 
     }
 

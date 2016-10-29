@@ -35,29 +35,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#decrementAndGet(Object) public long
-     * java.util.concurrent.atomic.AtomicLongFieldUpdater.decrementAndGet(T)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decrementAndGet_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#updateAndGet(Object, java.util.function.LongUnaryOperator)
      * public final long
      * java.util.concurrent.atomic.AtomicLongFieldUpdater.updateAndGet(T,java.util.function.LongUnaryOperator)}.
@@ -73,6 +50,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_updateAndGet_Object_LongUnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#decrementAndGet(Object) public long
+     * java.util.concurrent.atomic.AtomicLongFieldUpdater.decrementAndGet(T)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_decrementAndGet_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -292,8 +292,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#getAndAccumulate(Object, long, java.util.function.LongBinaryOperator)
      * public final long
-     * java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndAccumulate(T,long,java.util.function.LongBinaryOperator)}
-     * .
+     * java.util.concurrent.atomic.AtomicLongFieldUpdater.getAndAccumulate(T,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,8 +316,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#accumulateAndGet(Object, long, java.util.function.LongBinaryOperator)
      * public final long
-     * java.util.concurrent.atomic.AtomicLongFieldUpdater.accumulateAndGet(T,long,java.util.function.LongBinaryOperator)}
-     * .
+     * java.util.concurrent.atomic.AtomicLongFieldUpdater.accumulateAndGet(T,long,java.util.function.LongBinaryOperator)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

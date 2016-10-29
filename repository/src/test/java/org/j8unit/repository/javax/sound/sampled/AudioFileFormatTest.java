@@ -3,11 +3,14 @@ package org.j8unit.repository.javax.sound.sampled;
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFileFormat.Type;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class AudioFileFormatTest
@@ -22,7 +25,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatTests<AudioF
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.AudioFileFormat]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TypeTest
     implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatTests.TypeTests<Type> {
 

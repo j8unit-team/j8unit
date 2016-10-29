@@ -3,7 +3,7 @@ package org.j8unit.repository.javax.management.relation;
 import static org.junit.Assert.assertTrue;
 import javax.management.relation.MBeanServerNotificationFilter;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -57,7 +57,7 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportClassTes
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

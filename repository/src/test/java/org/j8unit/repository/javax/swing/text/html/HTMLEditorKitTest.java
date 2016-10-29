@@ -42,18 +42,27 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, org.j8unit.repository.javax.sw
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit]
 
-    @RunWith(J8Unit4.class)
-    public static class InsertHTMLTextActionTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests<InsertHTMLTextAction> {
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class ParserCallbackTest
+    implements FactoryBasedJ8UnitTest<ParserCallback>, org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests<ParserCallback> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
-        @Override
-        public InsertHTMLTextAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction], j8unit does not support a generic way to provide instances.");
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(ParserCallback::new);
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        @Parameter(0)
+        public Callable<ParserCallback> sutFactory;
+
+        @Override
+        public Callable<ParserCallback> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
     }
 
@@ -73,17 +82,17 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, org.j8unit.repository.javax.sw
     }
 
     @RunWith(J8Unit4.class)
-    public static class HTMLTextActionTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests<HTMLTextAction> {
+    public static class InsertHTMLTextActionTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests<InsertHTMLTextAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
         @Override
-        public HTMLTextAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.html.HTMLEditorKit.HTMLTextAction], j8unit does not support a generic way to provide instances.");
+        public InsertHTMLTextAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
     }
 
@@ -135,27 +144,18 @@ implements FactoryBasedJ8UnitTest<HTMLEditorKit>, org.j8unit.repository.javax.sw
 
     }
 
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class ParserCallbackTest
-    implements FactoryBasedJ8UnitTest<ParserCallback>, org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests<ParserCallback> {
+    @RunWith(J8Unit4.class)
+    public static class HTMLTextActionTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests<HTMLTextAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(ParserCallback::new);
-        }
-
-        @Parameter(0)
-        public Callable<ParserCallback> sutFactory;
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
         @Override
-        public Callable<ParserCallback> getSUTFactory() {
-            return this.sutFactory;
+        public HTMLTextAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.html.HTMLEditorKit.HTMLTextAction], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
     }
 

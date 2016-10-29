@@ -86,27 +86,6 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.management.ManagementFactory#getMemoryPoolMXBeans() public static java.util.List
-     * <java.lang.management.MemoryPoolMXBean> java.lang.management.ManagementFactory.getMemoryPoolMXBeans()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getMemoryPoolMXBeans()
-    throws Exception {
-        // write some test for {@link java.lang.management.ManagementFactory#getMemoryPoolMXBeans()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.lang.management.ManagementFactory#getThreadMXBean() public static java.lang.management.ThreadMXBean
      * java.lang.management.ManagementFactory.getThreadMXBean()}.
      *
@@ -128,8 +107,30 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.management.ManagementFactory#getGarbageCollectorMXBeans() public static java.util.List
-     * <java.lang.management.GarbageCollectorMXBean>
+     * {@link java.lang.management.ManagementFactory#getMemoryPoolMXBeans() public static
+     * java.util.List<java.lang.management.MemoryPoolMXBean>
+     * java.lang.management.ManagementFactory.getMemoryPoolMXBeans()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getMemoryPoolMXBeans()
+    throws Exception {
+        // write some test for {@link java.lang.management.ManagementFactory#getMemoryPoolMXBeans()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ManagementFactory#getGarbageCollectorMXBeans() public static
+     * java.util.List<java.lang.management.GarbageCollectorMXBean>
      * java.lang.management.ManagementFactory.getGarbageCollectorMXBeans()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -145,6 +146,30 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
     public void test_getGarbageCollectorMXBeans()
     throws Exception {
         // write some test for {@link java.lang.management.ManagementFactory#getGarbageCollectorMXBeans()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ManagementFactory#getPlatformMXBean(javax.management.MBeanServerConnection, Class)
+     * public static <T> T
+     * java.lang.management.ManagementFactory.getPlatformMXBean(javax.management.MBeanServerConnection,java.lang.Class<T>)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getPlatformMXBean_MBeanServerConnection_Class()
+    throws Exception {
+        // write some test for {@link
+        // java.lang.management.ManagementFactory#getPlatformMXBean(javax.management.MBeanServerConnection, Class)}
     }
 
     /**
@@ -166,30 +191,6 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
     public void test_getPlatformMXBean_Class()
     throws Exception {
         // write some test for {@link java.lang.management.ManagementFactory#getPlatformMXBean(Class)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.lang.management.ManagementFactory#getPlatformMXBean(javax.management.MBeanServerConnection, Class)
-     * public static <T> T
-     * java.lang.management.ManagementFactory.getPlatformMXBean(javax.management.MBeanServerConnection,java.lang.Class
-     * <T>) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getPlatformMXBean_MBeanServerConnection_Class()
-    throws Exception {
-        // write some test for {@link
-        // java.lang.management.ManagementFactory#getPlatformMXBean(javax.management.MBeanServerConnection, Class)}
     }
 
     /**
@@ -239,8 +240,8 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.management.ManagementFactory#newPlatformMXBeanProxy(javax.management.MBeanServerConnection, String, Class)
      * public static <T> T
-     * java.lang.management.ManagementFactory.newPlatformMXBeanProxy(javax.management.MBeanServerConnection,java.lang.String,java.lang.Class
-     * <T>) throws java.io.IOException}.
+     * java.lang.management.ManagementFactory.newPlatformMXBeanProxy(javax.management.MBeanServerConnection,java.lang.String,java.lang.Class<T>)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,31 +263,10 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.management.ManagementFactory#getPlatformMXBeans(Class) public static <T> java.util.List
-     * <T> java.lang.management.ManagementFactory.getPlatformMXBeans(java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getPlatformMXBeans_Class()
-    throws Exception {
-        // write some test for {@link java.lang.management.ManagementFactory#getPlatformMXBeans(Class)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.lang.management.ManagementFactory#getPlatformMXBeans(javax.management.MBeanServerConnection, Class)
      * public static <T> java.util.List<T>
-     * java.lang.management.ManagementFactory.getPlatformMXBeans(javax.management.MBeanServerConnection,java.lang.Class
-     * <T>) throws java.io.IOException}.
+     * java.lang.management.ManagementFactory.getPlatformMXBeans(javax.management.MBeanServerConnection,java.lang.Class<T>)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -307,8 +287,30 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.management.ManagementFactory#getMemoryManagerMXBeans() public static java.util.List
-     * <java.lang.management.MemoryManagerMXBean> java.lang.management.ManagementFactory.getMemoryManagerMXBeans()}.
+     * {@link java.lang.management.ManagementFactory#getPlatformMXBeans(Class) public static <T> java.util.List<T>
+     * java.lang.management.ManagementFactory.getPlatformMXBeans(java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getPlatformMXBeans_Class()
+    throws Exception {
+        // write some test for {@link java.lang.management.ManagementFactory#getPlatformMXBeans(Class)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.lang.management.ManagementFactory#getMemoryManagerMXBeans() public static
+     * java.util.List<java.lang.management.MemoryManagerMXBean>
+     * java.lang.management.ManagementFactory.getMemoryManagerMXBeans()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

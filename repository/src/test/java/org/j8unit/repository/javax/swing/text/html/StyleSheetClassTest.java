@@ -66,21 +66,6 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<Styl
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet]
 
     @RunWith(J8Unit4.class)
-    public static class ListPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests<ListPainter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-        @Override
-        public Class<ListPainter> createNewSUT() {
-            return ListPainter.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class BoxPainterClassTest
     implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests<BoxPainter> {
 
@@ -92,6 +77,21 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<Styl
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ListPainterClassTest
+    implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests<ListPainter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        @Override
+        public Class<ListPainter> createNewSUT() {
+            return ListPainter.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
 
     }
 

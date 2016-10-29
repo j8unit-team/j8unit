@@ -35,29 +35,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.Line#addLineListener(javax.sound.sampled.LineListener) public abstract void
-     * javax.sound.sampled.Line.addLineListener(javax.sound.sampled.LineListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addLineListener_LineListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#close() public abstract
      * void javax.sound.sampled.Line.close()}.
      *
@@ -82,8 +59,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.sampled.Line#isControlSupported(javax.sound.sampled.Control.Type) public abstract boolean
-     * javax.sound.sampled.Line.isControlSupported(javax.sound.sampled.Control$Type)}.
+     * {@link javax.sound.sampled.Line#addLineListener(javax.sound.sampled.LineListener) public abstract void
+     * javax.sound.sampled.Line.addLineListener(javax.sound.sampled.LineListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,7 +72,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isControlSupported_Type()
+    public default void test_addLineListener_LineListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,6 +95,29 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_open()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.sampled.Line#isControlSupported(javax.sound.sampled.Control.Type) public abstract boolean
+     * javax.sound.sampled.Line.isControlSupported(javax.sound.sampled.Control$Type)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isControlSupported_Type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -171,8 +171,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#getControls() public
-     * abstract javax.sound.sampled.Control[] javax.sound.sampled.Line.getControls()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#isOpen() public abstract
+     * boolean javax.sound.sampled.Line.isOpen()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,7 +184,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getControls()
+    public default void test_isOpen()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,8 +216,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#isOpen() public abstract
-     * boolean javax.sound.sampled.Line.isOpen()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#getControls() public
+     * abstract javax.sound.sampled.Control[] javax.sound.sampled.Line.getControls()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -229,7 +229,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isOpen()
+    public default void test_getControls()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

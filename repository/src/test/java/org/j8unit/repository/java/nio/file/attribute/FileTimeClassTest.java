@@ -22,27 +22,6 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.attribute.FileTime#from(java.time.Instant) public static java.nio.file.attribute.FileTime
-     * java.nio.file.attribute.FileTime.from(java.time.Instant)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_from_Instant()
-    throws Exception {
-        // write some test for {@link java.nio.file.attribute.FileTime#from(java.time.Instant)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.attribute.FileTime#from(long, java.util.concurrent.TimeUnit) public static
      * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(long,java.util.concurrent.TimeUnit)}.
      *
@@ -59,6 +38,27 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
     public void test_from_long_TimeUnit()
     throws Exception {
         // write some test for {@link java.nio.file.attribute.FileTime#from(long, java.util.concurrent.TimeUnit)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.attribute.FileTime#from(java.time.Instant) public static java.nio.file.attribute.FileTime
+     * java.nio.file.attribute.FileTime.from(java.time.Instant)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_from_Instant()
+    throws Exception {
+        // write some test for {@link java.nio.file.attribute.FileTime#from(java.time.Instant)}
     }
 
     /**

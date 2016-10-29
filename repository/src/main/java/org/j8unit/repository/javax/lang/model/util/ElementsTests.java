@@ -38,8 +38,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.Elements#overrides(javax.lang.model.element.ExecutableElement, javax.lang.model.element.ExecutableElement, javax.lang.model.element.TypeElement)
      * public abstract boolean
-     * javax.lang.model.util.Elements.overrides(javax.lang.model.element.ExecutableElement,javax.lang.model.element.ExecutableElement,javax.lang.model.element.TypeElement)}
-     * .
+     * javax.lang.model.util.Elements.overrides(javax.lang.model.element.ExecutableElement,javax.lang.model.element.ExecutableElement,javax.lang.model.element.TypeElement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -134,8 +133,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.Elements#getBinaryName(javax.lang.model.element.TypeElement) public abstract
-     * javax.lang.model.element.Name javax.lang.model.util.Elements.getBinaryName(javax.lang.model.element.TypeElement)}
-     * .
+     * javax.lang.model.element.Name
+     * javax.lang.model.util.Elements.getBinaryName(javax.lang.model.element.TypeElement)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -179,6 +178,28 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.lang.model.util.Elements#getName(CharSequence)
+     * public abstract javax.lang.model.element.Name javax.lang.model.util.Elements.getName(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.Elements#printElements(java.io.Writer, javax.lang.model.element.Element...) public
      * abstract void javax.lang.model.util.Elements.printElements(java.io.Writer,javax.lang.model.element.Element...)}.
@@ -194,28 +215,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_printElements_Writer_ElementArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.lang.model.util.Elements#getName(CharSequence)
-     * public abstract javax.lang.model.element.Name javax.lang.model.util.Elements.getName(java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -343,30 +342,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.lang.model.util.Elements#getPackageElement(CharSequence) public abstract
-     * javax.lang.model.element.PackageElement javax.lang.model.util.Elements.getPackageElement(java.lang.CharSequence)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPackageElement_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.Elements#getDocComment(javax.lang.model.element.Element) public abstract
      * java.lang.String javax.lang.model.util.Elements.getDocComment(javax.lang.model.element.Element)}.
      *
@@ -381,6 +356,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDocComment_Element()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.Elements#getPackageElement(CharSequence) public abstract
+     * javax.lang.model.element.PackageElement
+     * javax.lang.model.util.Elements.getPackageElement(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPackageElement_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

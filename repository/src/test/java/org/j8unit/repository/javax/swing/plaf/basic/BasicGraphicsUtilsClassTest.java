@@ -46,8 +46,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassT
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawLoweredBezel(java.awt.Graphics, int, int, int, int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
      * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawLoweredBezel(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-     * .
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawLoweredBezel(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,8 +68,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassT
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawString(java.awt.Graphics, String, int, int, int) public
-     * static void javax.swing.plaf.basic.BasicGraphicsUtils.drawString(java.awt.Graphics,java.lang.String,int,int,int)}
-     * .
+     * static void
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawString(java.awt.Graphics,java.lang.String,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -93,8 +92,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassT
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawEtchedRect(java.awt.Graphics, int, int, int, int, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
      * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawEtchedRect(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-     * .
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawEtchedRect(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,8 +115,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassT
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawGroove(java.awt.Graphics, int, int, int, int, java.awt.Color, java.awt.Color)
      * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)}
-     * .
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,8 +159,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassT
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawBezel(java.awt.Graphics, int, int, int, int, boolean, boolean, java.awt.Color, java.awt.Color, java.awt.Color, java.awt.Color)
      * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawBezel(java.awt.Graphics,int,int,int,int,boolean,boolean,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-     * .
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawBezel(java.awt.Graphics,int,int,int,int,boolean,boolean,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -186,8 +182,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsClassT
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawStringUnderlineCharAt(java.awt.Graphics, String, int, int, int)
      * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawStringUnderlineCharAt(java.awt.Graphics,java.lang.String,int,int,int)}
-     * .
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawStringUnderlineCharAt(java.awt.Graphics,java.lang.String,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

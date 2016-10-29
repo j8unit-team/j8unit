@@ -40,21 +40,6 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, org.j8unit.repository.javax.swing
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults]
 
     @RunWith(J8Unit4.class)
-    public static class ProxyLazyValueTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsTests.ProxyLazyValueTests<ProxyLazyValue> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
-
-        @Override
-        public ProxyLazyValue createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.ProxyLazyValue], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ActiveValueTest
     implements org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests<ActiveValue> {
 
@@ -66,6 +51,21 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, org.j8unit.repository.javax.swing
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ProxyLazyValueTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsTests.ProxyLazyValueTests<ProxyLazyValue> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
+
+        @Override
+        public ProxyLazyValue createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.ProxyLazyValue], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
 
     }
 

@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.print.event.PrintServiceAttributeEventCla
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.print.event.PrintServiceAttributeEvent#PrintServiceAttributeEvent(javax.print.PrintService, javax.print.attribute.PrintServiceAttributeSet)
      * public
-     * javax.print.event.PrintServiceAttributeEvent(javax.print.PrintService,javax.print.attribute.PrintServiceAttributeSet)}
-     * .
+     * javax.print.event.PrintServiceAttributeEvent(javax.print.PrintService,javax.print.attribute.PrintServiceAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

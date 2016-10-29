@@ -36,29 +36,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.IORInfoOperations#add_ior_component(org.omg.IOP.TaggedComponent) public
-     * abstract void org.omg.PortableInterceptor.IORInfoOperations.add_ior_component(org.omg.IOP.TaggedComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_ior_component_TaggedComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.IORInfoOperations#state() public abstract short
      * org.omg.PortableInterceptor.IORInfoOperations.state()}.
      *
@@ -73,6 +50,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_state()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#add_ior_component(org.omg.IOP.TaggedComponent) public
+     * abstract void org.omg.PortableInterceptor.IORInfoOperations.add_ior_component(org.omg.IOP.TaggedComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_ior_component_TaggedComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,33 +153,9 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.IORInfoOperations#get_effective_policy(int) public abstract
-     * org.omg.CORBA.Policy org.omg.PortableInterceptor.IORInfoOperations.get_effective_policy(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_effective_policy_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.IORInfoOperations#current_factory(org.omg.PortableInterceptor.ObjectReferenceFactory)
      * public abstract void
-     * org.omg.PortableInterceptor.IORInfoOperations.current_factory(org.omg.PortableInterceptor.ObjectReferenceFactory)}
-     * .
+     * org.omg.PortableInterceptor.IORInfoOperations.current_factory(org.omg.PortableInterceptor.ObjectReferenceFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -216,6 +192,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_current_factory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#get_effective_policy(int) public abstract
+     * org.omg.CORBA.Policy org.omg.PortableInterceptor.IORInfoOperations.get_effective_policy(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_effective_policy_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

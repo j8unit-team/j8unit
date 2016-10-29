@@ -82,9 +82,8 @@ implements org.j8unit.repository.java.awt.EventQueueClassTests<EventQueue> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#invokeAndWait(Runnable) public
-     * static void java.awt.EventQueue.invokeAndWait(java.lang.Runnable) throws
-     * java.lang.InterruptedException,java.lang.reflect.InvocationTargetException}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#isDispatchThread() public static
+     * boolean java.awt.EventQueue.isDispatchThread()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -96,9 +95,9 @@ implements org.j8unit.repository.java.awt.EventQueueClassTests<EventQueue> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_invokeAndWait_Runnable()
+    public void test_isDispatchThread()
     throws Exception {
-        // write some test for {@link java.awt.EventQueue#invokeAndWait(Runnable)}
+        // write some test for {@link java.awt.EventQueue#isDispatchThread()}
     }
 
     /**
@@ -123,8 +122,9 @@ implements org.j8unit.repository.java.awt.EventQueueClassTests<EventQueue> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#isDispatchThread() public static
-     * boolean java.awt.EventQueue.isDispatchThread()}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.EventQueue#invokeAndWait(Runnable) public
+     * static void java.awt.EventQueue.invokeAndWait(java.lang.Runnable) throws
+     * java.lang.InterruptedException,java.lang.reflect.InvocationTargetException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,9 +136,9 @@ implements org.j8unit.repository.java.awt.EventQueueClassTests<EventQueue> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_isDispatchThread()
+    public void test_invokeAndWait_Runnable()
     throws Exception {
-        // write some test for {@link java.awt.EventQueue#isDispatchThread()}
+        // write some test for {@link java.awt.EventQueue#invokeAndWait(Runnable)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.EventQueue]

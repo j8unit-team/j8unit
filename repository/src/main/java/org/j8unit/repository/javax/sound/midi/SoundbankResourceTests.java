@@ -56,8 +56,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.SoundbankResource#getSoundbank()
-     * public javax.sound.midi.Soundbank javax.sound.midi.SoundbankResource.getSoundbank()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.SoundbankResource#getData() public
+     * abstract java.lang.Object javax.sound.midi.SoundbankResource.getData()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -69,7 +69,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSoundbank()
+    public default void test_getData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,8 +100,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.SoundbankResource#getData() public
-     * abstract java.lang.Object javax.sound.midi.SoundbankResource.getData()}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.SoundbankResource#getSoundbank()
+     * public javax.sound.midi.Soundbank javax.sound.midi.SoundbankResource.getSoundbank()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -113,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getData()
+    public default void test_getSoundbank()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

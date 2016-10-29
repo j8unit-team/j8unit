@@ -35,30 +35,6 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.relation.RoleList#addAll(int, javax.management.relation.RoleList) public boolean
-     * javax.management.relation.RoleList.addAll(int,javax.management.relation.RoleList) throws
-     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_int_RoleList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.RoleList#addAll(javax.management.relation.RoleList) public boolean
      * javax.management.relation.RoleList.addAll(javax.management.relation.RoleList) throws
      * java.lang.IndexOutOfBoundsException}.
@@ -74,6 +50,30 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
     @Test
     @Category(Draft.class)
     public default void test_addAll_RoleList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#addAll(int, javax.management.relation.RoleList) public boolean
+     * javax.management.relation.RoleList.addAll(int,javax.management.relation.RoleList) throws
+     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAll_int_RoleList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,9 +131,56 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.relation.RoleList#add(int, javax.management.relation.Role) public void
+     * javax.management.relation.RoleList.add(int,javax.management.relation.Role) throws
+     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_int_Role()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#add(Object)
+     * public boolean javax.management.relation.RoleList.add(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.RoleList#add(javax.management.relation.Role) public void
-     * javax.management.relation.RoleList.add(javax.management.relation.Role) throws java.lang.IllegalArgumentException}
-     * .
+     * javax.management.relation.RoleList.add(javax.management.relation.Role) throws
+     * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -177,8 +224,8 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#add(Object)
-     * public boolean javax.management.relation.RoleList.add(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#set(int, Object)
+     * public java.lang.Object javax.management.relation.RoleList.set(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -191,31 +238,7 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_add_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.relation.RoleList#add(int, javax.management.relation.Role) public void
-     * javax.management.relation.RoleList.add(int,javax.management.relation.Role) throws
-     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_int_Role()
+    public default void test_set_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -240,29 +263,6 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
     @Test
     @Category(Draft.class)
     public default void test_set_int_Role()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.relation.RoleList#set(int, Object)
-     * public java.lang.Object javax.management.relation.RoleList.set(int,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -3,7 +3,7 @@ package org.j8unit.repository.java.beans.beancontext;
 import static org.junit.Assert.assertTrue;
 import java.beans.beancontext.BeanContext;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -58,7 +58,7 @@ org.j8unit.repository.java.beans.DesignModeClassTests<SUT>, org.j8unit.repositor
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

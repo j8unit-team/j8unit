@@ -27,8 +27,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.print.attribute.standard.MediaSize#MediaSize(int, int, int, javax.print.attribute.standard.MediaSizeName)
-     * public javax.print.attribute.standard.MediaSize(int,int,int,javax.print.attribute.standard.MediaSizeName)}.
+     * {@link javax.print.attribute.standard.MediaSize#MediaSize(float, float, int) public
+     * javax.print.attribute.standard.MediaSize(float,float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -40,34 +40,11 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MediaSize_int_int_int_MediaSizeName()
+    public void create_MediaSize_float_float_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MediaSize sut = null; // = new MediaSize(int, int, int, javax.print.attribute.standard.MediaSizeName);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.print.attribute.standard.MediaSize#MediaSize(float, float, int, javax.print.attribute.standard.MediaSizeName)
-     * public javax.print.attribute.standard.MediaSize(float,float,int,javax.print.attribute.standard.MediaSizeName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MediaSize_float_float_int_MediaSizeName()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MediaSize sut = null; // = new MediaSize(float, float, int, javax.print.attribute.standard.MediaSizeName);
+        final MediaSize sut = null; // = new MediaSize(float, float, int);
     }
 
     /**
@@ -96,8 +73,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.print.attribute.standard.MediaSize#MediaSize(float, float, int) public
-     * javax.print.attribute.standard.MediaSize(float,float,int)}.
+     * {@link javax.print.attribute.standard.MediaSize#MediaSize(float, float, int, javax.print.attribute.standard.MediaSizeName)
+     * public javax.print.attribute.standard.MediaSize(float,float,int,javax.print.attribute.standard.MediaSizeName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -109,11 +86,34 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MediaSize_float_float_int()
+    public void create_MediaSize_float_float_int_MediaSizeName()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MediaSize sut = null; // = new MediaSize(float, float, int);
+        final MediaSize sut = null; // = new MediaSize(float, float, int, javax.print.attribute.standard.MediaSizeName);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.print.attribute.standard.MediaSize#MediaSize(int, int, int, javax.print.attribute.standard.MediaSizeName)
+     * public javax.print.attribute.standard.MediaSize(int,int,int,javax.print.attribute.standard.MediaSizeName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MediaSize_int_int_int_MediaSizeName()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MediaSize sut = null; // = new MediaSize(int, int, int, javax.print.attribute.standard.MediaSizeName);
     }
 
     /**
@@ -143,8 +143,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.print.attribute.standard.MediaSize#findMedia(float, float, int) public static
-     * javax.print.attribute.standard.MediaSizeName javax.print.attribute.standard.MediaSize.findMedia(float,float,int)}
-     * .
+     * javax.print.attribute.standard.MediaSizeName
+     * javax.print.attribute.standard.MediaSize.findMedia(float,float,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -162,36 +162,6 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize]
-
-    @RunWith(J8Unit4.class)
-    public static class OtherClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests<Other> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
-
-        @Override
-        public Class<Other> createNewSUT() {
-            return Other.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class NAClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests<NA> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
-
-        @Override
-        public Class<NA> createNewSUT() {
-            return NA.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class JISClassTest
@@ -224,6 +194,21 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
     }
 
     @RunWith(J8Unit4.class)
+    public static class OtherClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests<Other> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+        @Override
+        public Class<Other> createNewSUT() {
+            return Other.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class ISOClassTest
     implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.ISOClassTests<ISO> {
 
@@ -235,6 +220,21 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$ISO]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class NAClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests<NA> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
+
+        @Override
+        public Class<NA> createNewSUT() {
+            return NA.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
 
     }
 

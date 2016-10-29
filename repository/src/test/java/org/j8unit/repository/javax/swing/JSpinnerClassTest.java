@@ -25,6 +25,27 @@ implements org.j8unit.repository.javax.swing.JSpinnerClassTests<JSpinner> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSpinner#JSpinner() public
+     * javax.swing.JSpinner()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JSpinner()
+    throws Exception {
+        // create new instance
+        final JSpinner sut = new JSpinner();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JSpinner#JSpinner(javax.swing.SpinnerModel) public
      * javax.swing.JSpinner(javax.swing.SpinnerModel)}.
@@ -46,28 +67,106 @@ implements org.j8unit.repository.javax.swing.JSpinnerClassTests<JSpinner> {
         final JSpinner sut = null; // = new JSpinner(javax.swing.SpinnerModel);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSpinner#JSpinner() public
-     * javax.swing.JSpinner()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JSpinner()
-    throws Exception {
-        // create new instance
-        final JSpinner sut = new JSpinner();
+    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner]
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultEditorClassTest
+    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<DefaultEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
+
+        @Override
+        public Class<DefaultEditor> createNewSUT() {
+            return DefaultEditor.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JSpinner.DefaultEditor#DefaultEditor(javax.swing.JSpinner) public
+         * javax.swing.JSpinner$DefaultEditor(javax.swing.JSpinner)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_DefaultEditor_JSpinner()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final DefaultEditor sut = null; // = new DefaultEditor(javax.swing.JSpinner);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
+
     }
 
-    // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner]
+    @RunWith(J8Unit4.class)
+    public static class DateEditorClassTest
+    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests<DateEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DateEditor]
+
+        @Override
+        public Class<DateEditor> createNewSUT() {
+            return DateEditor.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JSpinner.DateEditor#DateEditor(javax.swing.JSpinner, String) public
+         * javax.swing.JSpinner$DateEditor(javax.swing.JSpinner,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_DateEditor_JSpinner_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final DateEditor sut = null; // = new DateEditor(javax.swing.JSpinner, String);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.JSpinner.DateEditor#DateEditor(javax.swing.JSpinner) public
+         * javax.swing.JSpinner$DateEditor(javax.swing.JSpinner)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_DateEditor_JSpinner()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final DateEditor sut = null; // = new DateEditor(javax.swing.JSpinner);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$DateEditor]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class ListEditorClassTest
@@ -165,105 +264,6 @@ implements org.j8unit.repository.javax.swing.JSpinnerClassTests<JSpinner> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$NumberEditor]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DateEditorClassTest
-    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests<DateEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DateEditor]
-
-        @Override
-        public Class<DateEditor> createNewSUT() {
-            return DateEditor.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.JSpinner.DateEditor#DateEditor(javax.swing.JSpinner, String) public
-         * javax.swing.JSpinner$DateEditor(javax.swing.JSpinner,java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_DateEditor_JSpinner_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final DateEditor sut = null; // = new DateEditor(javax.swing.JSpinner, String);
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.JSpinner.DateEditor#DateEditor(javax.swing.JSpinner) public
-         * javax.swing.JSpinner$DateEditor(javax.swing.JSpinner)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_DateEditor_JSpinner()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final DateEditor sut = null; // = new DateEditor(javax.swing.JSpinner);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$DateEditor]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DefaultEditorClassTest
-    implements org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<DefaultEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
-
-        @Override
-        public Class<DefaultEditor> createNewSUT() {
-            return DefaultEditor.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.JSpinner.DefaultEditor#DefaultEditor(javax.swing.JSpinner) public
-         * javax.swing.JSpinner$DefaultEditor(javax.swing.JSpinner)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_DefaultEditor_JSpinner()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final DefaultEditor sut = null; // = new DefaultEditor(javax.swing.JSpinner);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSpinner$DefaultEditor]
 
     }
 

@@ -177,8 +177,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentLinkedDeque#spliterator() public java.util.Spliterator
-     * <E> java.util.concurrent.ConcurrentLinkedDeque.spliterator()}.
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#spliterator() public java.util.Spliterator<E>
+     * java.util.concurrent.ConcurrentLinkedDeque.spliterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -439,30 +439,6 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentLinkedDeque#removeLast() public E
-     * java.util.concurrent.ConcurrentLinkedDeque.removeLast()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeLast()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentLinkedDeque#pollLast() public E
      * java.util.concurrent.ConcurrentLinkedDeque.pollLast()}.
      *
@@ -478,6 +454,30 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_pollLast()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#removeLast() public E
+     * java.util.concurrent.ConcurrentLinkedDeque.removeLast()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeLast()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -533,8 +533,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentLinkedDeque#descendingIterator() public java.util.Iterator
-     * <E> java.util.concurrent.ConcurrentLinkedDeque.descendingIterator()}.
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#descendingIterator() public java.util.Iterator<E>
+     * java.util.concurrent.ConcurrentLinkedDeque.descendingIterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -627,6 +627,29 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#toArray()
+     * public java.lang.Object[] java.util.concurrent.ConcurrentLinkedDeque.toArray()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ConcurrentLinkedDeque#toArray(Object[]) public <T> T[]
      * java.util.concurrent.ConcurrentLinkedDeque.toArray(T[])}.
@@ -643,29 +666,6 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_toArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#toArray()
-     * public java.lang.Object[] java.util.concurrent.ConcurrentLinkedDeque.toArray()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -723,8 +723,8 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ConcurrentLinkedDeque#iterator() public java.util.Iterator
-     * <E> java.util.concurrent.ConcurrentLinkedDeque.iterator()}.
+     * {@link java.util.concurrent.ConcurrentLinkedDeque#iterator() public java.util.Iterator<E>
+     * java.util.concurrent.ConcurrentLinkedDeque.iterator()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -738,6 +738,29 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#pop()
+     * public E java.util.concurrent.ConcurrentLinkedDeque.pop()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_pop()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -762,29 +785,6 @@ org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_offer_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.ConcurrentLinkedDeque#pop()
-     * public E java.util.concurrent.ConcurrentLinkedDeque.pop()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_pop()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

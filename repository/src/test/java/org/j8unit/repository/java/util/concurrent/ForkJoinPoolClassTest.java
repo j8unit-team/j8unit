@@ -45,33 +45,6 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.ForkJoinPool#ForkJoinPool(int, java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory, Thread.UncaughtExceptionHandler, boolean)
-     * public
-     * java.util.concurrent.ForkJoinPool(int,java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory,java.lang.Thread$UncaughtExceptionHandler,boolean)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ForkJoinPool_int_ForkJoinWorkerThreadFactory_UncaughtExceptionHandler_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ForkJoinPool sut = null; // = new ForkJoinPool(int,
-                                       // java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory,
-                                       // Thread.UncaughtExceptionHandler, boolean);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.ForkJoinPool#ForkJoinPool(int) public java.util.concurrent.ForkJoinPool(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -93,9 +66,10 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ForkJoinPool#getCommonPoolParallelism() public static int
-     * java.util.concurrent.ForkJoinPool.getCommonPoolParallelism()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.ForkJoinPool#ForkJoinPool(int, java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory, Thread.UncaughtExceptionHandler, boolean)
+     * public
+     * java.util.concurrent.ForkJoinPool(int,java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory,java.lang.Thread$UncaughtExceptionHandler,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,9 +81,13 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getCommonPoolParallelism()
+    public void create_ForkJoinPool_int_ForkJoinWorkerThreadFactory_UncaughtExceptionHandler_boolean()
     throws Exception {
-        // write some test for {@link java.util.concurrent.ForkJoinPool#getCommonPoolParallelism()}
+        // create new instance
+        @SuppressWarnings("unused")
+        final ForkJoinPool sut = null; // = new ForkJoinPool(int,
+                                       // java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory,
+                                       // Thread.UncaughtExceptionHandler, boolean);
     }
 
     /**
@@ -133,6 +111,27 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
     throws Exception {
         // write some test for {@link
         // java.util.concurrent.ForkJoinPool#managedBlock(java.util.concurrent.ForkJoinPool.ManagedBlocker)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ForkJoinPool#getCommonPoolParallelism() public static int
+     * java.util.concurrent.ForkJoinPool.getCommonPoolParallelism()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getCommonPoolParallelism()
+    throws Exception {
+        // write some test for {@link java.util.concurrent.ForkJoinPool#getCommonPoolParallelism()}
     }
 
     /**

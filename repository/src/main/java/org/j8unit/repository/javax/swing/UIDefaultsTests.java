@@ -84,28 +84,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getInsets(Object) public
-     * java.awt.Insets javax.swing.UIDefaults.getInsets(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInsets_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.UIDefaults#getInsets(Object, java.util.Locale) public java.awt.Insets
      * javax.swing.UIDefaults.getInsets(java.lang.Object,java.util.Locale)}.
@@ -129,8 +107,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getString(Object) public
-     * java.lang.String javax.swing.UIDefaults.getString(java.lang.Object)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getInsets(Object) public
+     * java.awt.Insets javax.swing.UIDefaults.getInsets(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,7 +120,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getString_Object()
+    public default void test_getInsets_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,6 +144,28 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Test
     @Category(Draft.class)
     public default void test_getString_Object_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getString(Object) public
+     * java.lang.String javax.swing.UIDefaults.getString(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getString_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -376,28 +376,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getUI(javax.swing.JComponent)
-     * public javax.swing.plaf.ComponentUI javax.swing.UIDefaults.getUI(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getInt(Object) public int
      * javax.swing.UIDefaults.getInt(java.lang.Object)}.
      *
@@ -435,6 +413,28 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Test
     @Category(Draft.class)
     public default void test_getInt_Object_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getUI(javax.swing.JComponent)
+     * public javax.swing.plaf.ComponentUI javax.swing.UIDefaults.getUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -533,28 +533,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getDimension(Object) public
-     * java.awt.Dimension javax.swing.UIDefaults.getDimension(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDimension_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.UIDefaults#getDimension(Object, java.util.Locale) public java.awt.Dimension
      * javax.swing.UIDefaults.getDimension(java.lang.Object,java.util.Locale)}.
@@ -578,9 +556,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.UIDefaults#getBoolean(Object, java.util.Locale) public boolean
-     * javax.swing.UIDefaults.getBoolean(java.lang.Object,java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getDimension(Object) public
+     * java.awt.Dimension javax.swing.UIDefaults.getDimension(java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -592,7 +569,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBoolean_Object_Locale()
+    public default void test_getDimension_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -615,6 +592,29 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Test
     @Category(Draft.class)
     public default void test_getBoolean_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.UIDefaults#getBoolean(Object, java.util.Locale) public boolean
+     * javax.swing.UIDefaults.getBoolean(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBoolean_Object_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -761,6 +761,58 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ActiveValue
+     * public abstract static interface javax.swing.UIDefaults$ActiveValue}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ActiveValueTests<SUT extends ActiveValue>
+    extends RepositoryTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.UIDefaults.ActiveValue#createValue(javax.swing.UIDefaults) public abstract
+         * java.lang.Object javax.swing.UIDefaults$ActiveValue.createValue(javax.swing.UIDefaults)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_createValue_UIDefaults()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
      * {@link ProxyLazyValue public static class javax.swing.UIDefaults$ProxyLazyValue}.
      * </p>
@@ -808,58 +860,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
         }
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ActiveValue
-     * public abstract static interface javax.swing.UIDefaults$ActiveValue}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ActiveValueTests<SUT extends ActiveValue>
-    extends RepositoryTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.UIDefaults.ActiveValue#createValue(javax.swing.UIDefaults) public abstract
-         * java.lang.Object javax.swing.UIDefaults$ActiveValue.createValue(javax.swing.UIDefaults)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_createValue_UIDefaults()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
 
     }
 

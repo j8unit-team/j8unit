@@ -86,28 +86,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Spliterator#hasCharacteristics(int) public
-     * default boolean java.util.Spliterator.hasCharacteristics(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasCharacteristics_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Spliterator#forEachRemaining(java.util.function.Consumer) public default void
      * java.util.Spliterator.forEachRemaining(java.util.function.Consumer<? super T>)}.
@@ -123,6 +101,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_forEachRemaining_Consumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Spliterator#hasCharacteristics(int) public
+     * default boolean java.util.Spliterator.hasCharacteristics(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasCharacteristics_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -321,14 +321,14 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfDouble
-     * public abstract static interface java.util.Spliterator$OfDouble}.
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfLong
+     * public abstract static interface java.util.Spliterator$OfLong}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests}).
+     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests}).
      * </p>
      *
      * @param SUT
@@ -338,16 +338,39 @@ extends RepositoryTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfDoubleTests<SUT extends OfDouble>
-    extends org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests<SUT, Double, DoubleConsumer, OfDouble> {
+    public static abstract interface OfLongTests<SUT extends OfLong>
+    extends org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests<SUT, Long, LongConsumer, OfLong> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfDouble#forEachRemaining(java.util.function.Consumer) public default void
-         * java.util.Spliterator$OfDouble.forEachRemaining(java.util.function.Consumer<? super java.lang.Double>)}.
+         * {@link java.util.Spliterator.OfLong#tryAdvance(java.util.function.LongConsumer) public abstract boolean
+         * java.util.Spliterator$OfLong.tryAdvance(java.util.function.LongConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_tryAdvance_LongConsumer()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterator.OfLong#tryAdvance(java.util.function.Consumer) public default boolean
+         * java.util.Spliterator$OfLong.tryAdvance(java.util.function.Consumer<? super java.lang.Long>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -360,7 +383,7 @@ extends RepositoryTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_forEachRemaining_Consumer()
+        public default void test_tryAdvance_Consumer()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -369,31 +392,8 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfDouble#forEachRemaining(java.util.function.DoubleConsumer) public default void
-         * java.util.Spliterator$OfDouble.forEachRemaining(java.util.function.DoubleConsumer)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_forEachRemaining_DoubleConsumer()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.util.Spliterator.OfDouble#trySplit() public
-         * abstract java.util.Spliterator$OfDouble java.util.Spliterator$OfDouble.trySplit()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Spliterator.OfLong#trySplit() public
+         * abstract java.util.Spliterator$OfLong java.util.Spliterator$OfLong.trySplit()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -416,8 +416,8 @@ extends RepositoryTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfDouble#tryAdvance(java.util.function.DoubleConsumer) public abstract boolean
-         * java.util.Spliterator$OfDouble.tryAdvance(java.util.function.DoubleConsumer)}.
+         * {@link java.util.Spliterator.OfLong#forEachRemaining(java.util.function.LongConsumer) public default void
+         * java.util.Spliterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -429,7 +429,7 @@ extends RepositoryTests<SUT> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_tryAdvance_DoubleConsumer()
+        public default void test_forEachRemaining_LongConsumer()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -439,8 +439,8 @@ extends RepositoryTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfDouble#tryAdvance(java.util.function.Consumer) public default boolean
-         * java.util.Spliterator$OfDouble.tryAdvance(java.util.function.Consumer<? super java.lang.Double>)}.
+         * {@link java.util.Spliterator.OfLong#forEachRemaining(java.util.function.Consumer) public default void
+         * java.util.Spliterator$OfLong.forEachRemaining(java.util.function.Consumer<? super java.lang.Long>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -453,14 +453,14 @@ extends RepositoryTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_tryAdvance_Consumer()
+        public default void test_forEachRemaining_Consumer()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
     }
 
@@ -562,6 +562,29 @@ extends RepositoryTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterator.OfInt#forEachRemaining(java.util.function.IntConsumer) public default void
+         * java.util.Spliterator$OfInt.forEachRemaining(java.util.function.IntConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_forEachRemaining_IntConsumer()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link java.util.Spliterator.OfInt#forEachRemaining(java.util.function.Consumer) public default void
          * java.util.Spliterator$OfInt.forEachRemaining(java.util.function.Consumer<? super java.lang.Integer>)}.
          *
@@ -583,29 +606,6 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfInt#forEachRemaining(java.util.function.IntConsumer) public default void
-         * java.util.Spliterator$OfInt.forEachRemaining(java.util.function.IntConsumer)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_forEachRemaining_IntConsumer()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfInt]
 
     }
@@ -613,14 +613,14 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfLong
-     * public abstract static interface java.util.Spliterator$OfLong}.
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link OfDouble
+     * public abstract static interface java.util.Spliterator$OfDouble}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests}).
+     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests}).
      * </p>
      *
      * @param SUT
@@ -630,16 +630,16 @@ extends RepositoryTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface OfLongTests<SUT extends OfLong>
-    extends org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests<SUT, Long, LongConsumer, OfLong> {
+    public static abstract interface OfDoubleTests<SUT extends OfDouble>
+    extends org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests<SUT, Double, DoubleConsumer, OfDouble> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfLong#tryAdvance(java.util.function.LongConsumer) public abstract boolean
-         * java.util.Spliterator$OfLong.tryAdvance(java.util.function.LongConsumer)}.
+         * {@link java.util.Spliterator.OfDouble#forEachRemaining(java.util.function.DoubleConsumer) public default void
+         * java.util.Spliterator$OfDouble.forEachRemaining(java.util.function.DoubleConsumer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -651,7 +651,7 @@ extends RepositoryTests<SUT> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_tryAdvance_LongConsumer()
+        public default void test_forEachRemaining_DoubleConsumer()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -661,8 +661,8 @@ extends RepositoryTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfLong#tryAdvance(java.util.function.Consumer) public default boolean
-         * java.util.Spliterator$OfLong.tryAdvance(java.util.function.Consumer<? super java.lang.Long>)}.
+         * {@link java.util.Spliterator.OfDouble#forEachRemaining(java.util.function.Consumer) public default void
+         * java.util.Spliterator$OfDouble.forEachRemaining(java.util.function.Consumer<? super java.lang.Double>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -675,7 +675,7 @@ extends RepositoryTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_tryAdvance_Consumer()
+        public default void test_forEachRemaining_Consumer()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -684,8 +684,8 @@ extends RepositoryTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.util.Spliterator.OfLong#trySplit() public
-         * abstract java.util.Spliterator$OfLong java.util.Spliterator$OfLong.trySplit()}.
+         * Test method for the hereby targeted method-under-test {@link java.util.Spliterator.OfDouble#trySplit() public
+         * abstract java.util.Spliterator$OfDouble java.util.Spliterator$OfDouble.trySplit()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -708,8 +708,31 @@ extends RepositoryTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfLong#forEachRemaining(java.util.function.Consumer) public default void
-         * java.util.Spliterator$OfLong.forEachRemaining(java.util.function.Consumer<? super java.lang.Long>)}.
+         * {@link java.util.Spliterator.OfDouble#tryAdvance(java.util.function.DoubleConsumer) public abstract boolean
+         * java.util.Spliterator$OfDouble.tryAdvance(java.util.function.DoubleConsumer)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_tryAdvance_DoubleConsumer()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.Spliterator.OfDouble#tryAdvance(java.util.function.Consumer) public default boolean
+         * java.util.Spliterator$OfDouble.tryAdvance(java.util.function.Consumer<? super java.lang.Double>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -722,37 +745,14 @@ extends RepositoryTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_forEachRemaining_Consumer()
+        public default void test_tryAdvance_Consumer()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.Spliterator.OfLong#forEachRemaining(java.util.function.LongConsumer) public default void
-         * java.util.Spliterator$OfLong.forEachRemaining(java.util.function.LongConsumer)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_forEachRemaining_LongConsumer()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
     }
 

@@ -84,33 +84,9 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiFileChooserUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiFileChooserUI.installUI(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiFileChooserUI#getFileView(javax.swing.JFileChooser) public
-     * javax.swing.filechooser.FileView javax.swing.plaf.multi.MultiFileChooserUI.getFileView(javax.swing.JFileChooser)}
-     * .
+     * javax.swing.filechooser.FileView
+     * javax.swing.plaf.multi.MultiFileChooserUI.getFileView(javax.swing.JFileChooser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -148,6 +124,30 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getApproveButtonText_JFileChooser()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,8 +206,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiFileChooserUI#ensureFileIsVisible(javax.swing.JFileChooser, java.io.File)
-     * public void javax.swing.plaf.multi.MultiFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}
-     * .
+     * public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.ensureFileIsVisible(javax.swing.JFileChooser,java.io.File)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -372,6 +372,30 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiFileChooserUI#update(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_update_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiFileChooserUI#getAcceptAllFileFilter(javax.swing.JFileChooser) public
      * javax.swing.filechooser.FileFilter
      * javax.swing.plaf.multi.MultiFileChooserUI.getAcceptAllFileFilter(javax.swing.JFileChooser)}.
@@ -412,30 +436,6 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiFileChooserUI#update(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiFileChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

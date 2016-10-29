@@ -21,28 +21,6 @@ implements org.j8unit.repository.java.awt.DimensionClassTests<Dimension> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Dimension#Dimension(java.awt.Dimension) public java.awt.Dimension(java.awt.Dimension)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Dimension_Dimension()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Dimension sut = null; // = new Dimension(java.awt.Dimension);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.awt.Dimension#Dimension() public
      * java.awt.Dimension()}.
      *
@@ -82,6 +60,28 @@ implements org.j8unit.repository.java.awt.DimensionClassTests<Dimension> {
         // create new instance
         @SuppressWarnings("unused")
         final Dimension sut = null; // = new Dimension(int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Dimension#Dimension(java.awt.Dimension) public java.awt.Dimension(java.awt.Dimension)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Dimension_Dimension()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Dimension sut = null; // = new Dimension(java.awt.Dimension);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Dimension]

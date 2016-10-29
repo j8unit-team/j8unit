@@ -21,21 +21,6 @@ implements org.j8unit.repository.java.nio.file.WatchEventTests<WatchEvent<T>, T>
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent]
 
     @RunWith(J8Unit4.class)
-    public static class KindTest<T>
-    implements org.j8unit.repository.java.nio.file.WatchEventTests.KindTests<Kind<T>, T> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
-
-        @Override
-        public Kind<T> createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.file.WatchEvent.Kind], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class ModifierTest
     implements org.j8unit.repository.java.nio.file.WatchEventTests.ModifierTests<Modifier> {
 
@@ -47,6 +32,21 @@ implements org.j8unit.repository.java.nio.file.WatchEventTests<WatchEvent<T>, T>
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class KindTest<T>
+    implements org.j8unit.repository.java.nio.file.WatchEventTests.KindTests<Kind<T>, T> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
+
+        @Override
+        public Kind<T> createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.file.WatchEvent.Kind], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
 
     }
 

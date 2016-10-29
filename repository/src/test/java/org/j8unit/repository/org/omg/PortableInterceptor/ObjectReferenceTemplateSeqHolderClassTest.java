@@ -22,32 +22,9 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder() public
-     * org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ObjectReferenceTemplateSeqHolder()
-    throws Exception {
-        // create new instance
-        final ObjectReferenceTemplateSeqHolder sut = new ObjectReferenceTemplateSeqHolder();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[])
      * public
-     * org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[])}
-     * .
+     * org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -65,6 +42,28 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
         @SuppressWarnings("unused")
         final ObjectReferenceTemplateSeqHolder sut = null; // = new
                                                            // ObjectReferenceTemplateSeqHolder(org.omg.PortableInterceptor.ObjectReferenceTemplate[]);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder#ObjectReferenceTemplateSeqHolder() public
+     * org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ObjectReferenceTemplateSeqHolder()
+    throws Exception {
+        // create new instance
+        final ObjectReferenceTemplateSeqHolder sut = new ObjectReferenceTemplateSeqHolder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder]

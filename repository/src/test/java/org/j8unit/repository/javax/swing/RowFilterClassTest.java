@@ -175,42 +175,6 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowFilter]
 
-    @SuppressWarnings("rawtypes")
-    @RunWith(J8Unit4.class)
-    public static class EntryClassTest
-    implements org.j8unit.repository.javax.swing.RowFilterClassTests.EntryClassTests<Entry> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.RowFilter$Entry]
-
-        @Override
-        public Class<Entry> createNewSUT() {
-            return Entry.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link javax.swing.RowFilter.Entry#Entry() public
-         * javax.swing.RowFilter$Entry()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("Cannot construct an abstract class!")
-        @Test
-        @Category(Draft.class)
-        public void create_Entry()
-        throws Exception {
-            Assert.fail("Cannot construct an abstract class!");
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowFilter$Entry]
-
-    }
-
     @RunWith(J8Unit4.class)
     public static class ComparisonTypeClassTest
     implements org.j8unit.repository.javax.swing.RowFilterClassTests.ComparisonTypeClassTests<ComparisonType> {
@@ -264,6 +228,42 @@ implements org.j8unit.repository.javax.swing.RowFilterClassTests<RowFilter> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowFilter$ComparisonType]
+
+    }
+
+    @SuppressWarnings("rawtypes")
+    @RunWith(J8Unit4.class)
+    public static class EntryClassTest
+    implements org.j8unit.repository.javax.swing.RowFilterClassTests.EntryClassTests<Entry> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.RowFilter$Entry]
+
+        @Override
+        public Class<Entry> createNewSUT() {
+            return Entry.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link javax.swing.RowFilter.Entry#Entry() public
+         * javax.swing.RowFilter$Entry()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("Cannot construct an abstract class!")
+        @Test
+        @Category(Draft.class)
+        public void create_Entry()
+        throws Exception {
+            Assert.fail("Cannot construct an abstract class!");
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowFilter$Entry]
 
     }
 

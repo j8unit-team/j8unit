@@ -23,8 +23,9 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests<Audio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.sound.sampled.AudioFormat#AudioFormat(float, int, int, boolean, boolean) public
-     * javax.sound.sampled.AudioFormat(float,int,int,boolean,boolean)}.
+     * {@link javax.sound.sampled.AudioFormat#AudioFormat(javax.sound.sampled.AudioFormat.Encoding, float, int, int, int, float, boolean)
+     * public
+     * javax.sound.sampled.AudioFormat(javax.sound.sampled.AudioFormat$Encoding,float,int,int,int,float,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,11 +37,12 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests<Audio
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_AudioFormat_float_int_int_boolean_boolean()
+    public void create_AudioFormat_Encoding_float_int_int_int_float_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AudioFormat sut = null; // = new AudioFormat(float, int, int, boolean, boolean);
+        final AudioFormat sut = null; // = new AudioFormat(javax.sound.sampled.AudioFormat.Encoding, float, int, int,
+                                      // int, float, boolean);
     }
 
     /**
@@ -72,9 +74,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests<Audio
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.sound.sampled.AudioFormat#AudioFormat(javax.sound.sampled.AudioFormat.Encoding, float, int, int, int, float, boolean)
-     * public javax.sound.sampled.AudioFormat(javax.sound.sampled.AudioFormat$Encoding,float,int,int,int,float,boolean)}
-     * .
+     * {@link javax.sound.sampled.AudioFormat#AudioFormat(float, int, int, boolean, boolean) public
+     * javax.sound.sampled.AudioFormat(float,int,int,boolean,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -86,12 +87,11 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests<Audio
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_AudioFormat_Encoding_float_int_int_int_float_boolean()
+    public void create_AudioFormat_float_int_int_boolean_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final AudioFormat sut = null; // = new AudioFormat(javax.sound.sampled.AudioFormat.Encoding, float, int, int,
-                                      // int, float, boolean);
+        final AudioFormat sut = null; // = new AudioFormat(float, int, int, boolean, boolean);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFormat]

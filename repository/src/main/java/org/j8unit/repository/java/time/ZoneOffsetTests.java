@@ -35,29 +35,6 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#getRules() public
-     * java.time.zone.ZoneRules java.time.ZoneOffset.getRules()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getRules()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.ZoneOffset#isSupported(java.time.temporal.TemporalField) public boolean
      * java.time.ZoneOffset.isSupported(java.time.temporal.TemporalField)}.
@@ -96,6 +73,29 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     public default void test_compareTo_ZoneOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.ZoneOffset#getRules() public
+     * java.time.zone.ZoneRules java.time.ZoneOffset.getRules()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getRules()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

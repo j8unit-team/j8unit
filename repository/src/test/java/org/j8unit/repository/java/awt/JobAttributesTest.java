@@ -10,7 +10,6 @@ import java.awt.JobAttributes.SidesType;
 import java.util.concurrent.Callable;
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
-import org.j8unit.runners.J8Unit4;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.j8unit.util.TestParametersUtil;
 import org.junit.runner.RunWith;
@@ -40,7 +39,8 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes]
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class SidesTypeTest
     implements org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests<SidesType> {
 
@@ -65,31 +65,34 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class MultipleDocumentHandlingTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests<MultipleDocumentHandlingType> {
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class DialogTypeTest
+    implements org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests<DialogType> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_COLLATED_COPIES, //
-                                                       MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_UNCOLLATED_COPIES);
+            return TestParametersUtil.testParametersOf(DialogType.NATIVE, //
+                                                       DialogType.COMMON, //
+                                                       DialogType.NONE);
         }
 
         @Parameter(0)
-        public MultipleDocumentHandlingType sut;
+        public DialogType sut;
 
         @Override
-        public MultipleDocumentHandlingType createNewSUT() {
+        public DialogType createNewSUT() {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DestinationTypeTest
     implements org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests<DestinationType> {
 
@@ -113,7 +116,33 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     }
 
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class MultipleDocumentHandlingTypeTest
+    implements org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests<MultipleDocumentHandlingType> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_COLLATED_COPIES, //
+                                                       MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_UNCOLLATED_COPIES);
+        }
+
+        @Parameter(0)
+        public MultipleDocumentHandlingType sut;
+
+        @Override
+        public MultipleDocumentHandlingType createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DefaultSelectionTypeTest
     implements org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests<DefaultSelectionType> {
 
@@ -135,31 +164,6 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DialogTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests<DialogType> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(DialogType.NATIVE, //
-                                                       DialogType.COMMON, //
-                                                       DialogType.NONE);
-        }
-
-        @Parameter(0)
-        public DialogType sut;
-
-        @Override
-        public DialogType createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
     }
 

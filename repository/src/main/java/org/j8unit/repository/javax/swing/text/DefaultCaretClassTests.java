@@ -3,7 +3,7 @@ package org.j8unit.repository.javax.swing.text;
 import static org.junit.Assert.assertTrue;
 import javax.swing.text.DefaultCaret;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -59,7 +59,7 @@ org.j8unit.repository.java.awt.RectangleClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

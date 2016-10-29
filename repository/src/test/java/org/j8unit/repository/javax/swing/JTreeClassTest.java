@@ -23,8 +23,8 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JTree#JTree(javax.swing.tree.TreeModel) public javax.swing.JTree(javax.swing.tree.TreeModel)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTree#JTree() public
+     * javax.swing.JTree()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,33 +36,10 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JTree_TreeModel()
+    public void create_JTree()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final JTree sut = null; // = new JTree(javax.swing.tree.TreeModel);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTree#JTree(java.util.Hashtable)
-     * public javax.swing.JTree(java.util.Hashtable<?, ?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JTree_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JTree sut = null; // = new JTree(java.util.Hashtable);
+        final JTree sut = new JTree();
     }
 
     /**
@@ -112,6 +89,50 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTree#JTree(javax.swing.tree.TreeModel) public javax.swing.JTree(javax.swing.tree.TreeModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JTree_TreeModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JTree sut = null; // = new JTree(javax.swing.tree.TreeModel);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTree#JTree(java.util.Hashtable)
+     * public javax.swing.JTree(java.util.Hashtable<?, ?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JTree_Hashtable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JTree sut = null; // = new JTree(java.util.Hashtable);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTree#JTree(Object[]) public
      * javax.swing.JTree(java.lang.Object[])}.
      *
@@ -130,27 +151,6 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
         // create new instance
         @SuppressWarnings("unused")
         final JTree sut = null; // = new JTree(Object[]);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTree#JTree() public
-     * javax.swing.JTree()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JTree()
-    throws Exception {
-        // create new instance
-        final JTree sut = new JTree();
     }
 
     /**
@@ -176,21 +176,6 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTree]
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.JTreeClassTests.DropLocationClassTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTree$DropLocation]
-
-        @Override
-        public Class<DropLocation> createNewSUT() {
-            return DropLocation.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTree$DropLocation]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class DynamicUtilTreeNodeClassTest
@@ -231,8 +216,7 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.JTree.DynamicUtilTreeNode#createChildren(javax.swing.tree.DefaultMutableTreeNode, Object)
          * public static void
-         * javax.swing.JTree$DynamicUtilTreeNode.createChildren(javax.swing.tree.DefaultMutableTreeNode,java.lang.Object)}
-         * .
+         * javax.swing.JTree$DynamicUtilTreeNode.createChildren(javax.swing.tree.DefaultMutableTreeNode,java.lang.Object)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -251,6 +235,21 @@ implements org.j8unit.repository.javax.swing.JTreeClassTests<JTree> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTree$DynamicUtilTreeNode]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.JTreeClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTree$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTree$DropLocation]
 
     }
 

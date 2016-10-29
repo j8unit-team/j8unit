@@ -107,8 +107,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.net.URL) public abstract javax.sound.midi.Sequence
-     * javax.sound.midi.spi.MidiFileReader.getSequence(java.net.URL) throws
+     * {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.io.File) public abstract javax.sound.midi.Sequence
+     * javax.sound.midi.spi.MidiFileReader.getSequence(java.io.File) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -121,7 +121,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSequence_URL()
+    public default void test_getSequence_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,8 +155,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.io.File) public abstract javax.sound.midi.Sequence
-     * javax.sound.midi.spi.MidiFileReader.getSequence(java.io.File) throws
+     * {@link javax.sound.midi.spi.MidiFileReader#getSequence(java.net.URL) public abstract javax.sound.midi.Sequence
+     * javax.sound.midi.spi.MidiFileReader.getSequence(java.net.URL) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -169,7 +169,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSequence_File()
+    public default void test_getSequence_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

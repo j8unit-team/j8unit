@@ -128,27 +128,6 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SwingUtilities#getWindowAncestor(java.awt.Component) public static java.awt.Window
-     * javax.swing.SwingUtilities.getWindowAncestor(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getWindowAncestor_Component()
-    throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#getWindowAncestor(java.awt.Component)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#calculateInnerArea(javax.swing.JComponent, java.awt.Rectangle) public static
      * java.awt.Rectangle javax.swing.SwingUtilities.calculateInnerArea(javax.swing.JComponent,java.awt.Rectangle)}.
      *
@@ -166,6 +145,27 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     throws Exception {
         // write some test for {@link javax.swing.SwingUtilities#calculateInnerArea(javax.swing.JComponent,
         // java.awt.Rectangle)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SwingUtilities#getWindowAncestor(java.awt.Component) public static java.awt.Window
+     * javax.swing.SwingUtilities.getWindowAncestor(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getWindowAncestor_Component()
+    throws Exception {
+        // write some test for {@link javax.swing.SwingUtilities#getWindowAncestor(java.awt.Component)}
     }
 
     /**
@@ -300,27 +300,6 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SwingUtilities#getAccessibleStateSet(java.awt.Component) public static
-     * javax.accessibility.AccessibleStateSet javax.swing.SwingUtilities.getAccessibleStateSet(java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getAccessibleStateSet_Component()
-    throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#getAccessibleStateSet(java.awt.Component)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#getUIInputMap(javax.swing.JComponent, int) public static javax.swing.InputMap
      * javax.swing.SwingUtilities.getUIInputMap(javax.swing.JComponent,int)}.
      *
@@ -337,6 +316,27 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     public void test_getUIInputMap_JComponent_int()
     throws Exception {
         // write some test for {@link javax.swing.SwingUtilities#getUIInputMap(javax.swing.JComponent, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SwingUtilities#getAccessibleStateSet(java.awt.Component) public static
+     * javax.accessibility.AccessibleStateSet javax.swing.SwingUtilities.getAccessibleStateSet(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAccessibleStateSet_Component()
+    throws Exception {
+        // write some test for {@link javax.swing.SwingUtilities#getAccessibleStateSet(java.awt.Component)}
     }
 
     /**
@@ -450,6 +450,26 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SwingUtilities#invokeLater(Runnable)
+     * public static void javax.swing.SwingUtilities.invokeLater(java.lang.Runnable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_invokeLater_Runnable()
+    throws Exception {
+        // write some test for {@link javax.swing.SwingUtilities#invokeLater(Runnable)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.SwingUtilities#invokeAndWait(Runnable)
      * public static void javax.swing.SwingUtilities.invokeAndWait(java.lang.Runnable) throws
      * java.lang.InterruptedException,java.lang.reflect.InvocationTargetException}.
@@ -467,26 +487,6 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     public void test_invokeAndWait_Runnable()
     throws Exception {
         // write some test for {@link javax.swing.SwingUtilities#invokeAndWait(Runnable)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.SwingUtilities#invokeLater(Runnable)
-     * public static void javax.swing.SwingUtilities.invokeLater(java.lang.Runnable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_invokeLater_Runnable()
-    throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#invokeLater(Runnable)}
     }
 
     /**
@@ -558,8 +558,7 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#layoutCompoundLabel(java.awt.FontMetrics, String, javax.swing.Icon, int, int, int, int, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle, int)
      * public static java.lang.String
-     * javax.swing.SwingUtilities.layoutCompoundLabel(java.awt.FontMetrics,java.lang.String,javax.swing.Icon,int,int,int,int,java.awt.Rectangle,java.awt.Rectangle,java.awt.Rectangle,int)}
-     * .
+     * javax.swing.SwingUtilities.layoutCompoundLabel(java.awt.FontMetrics,java.lang.String,javax.swing.Icon,int,int,int,int,java.awt.Rectangle,java.awt.Rectangle,java.awt.Rectangle,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -582,8 +581,7 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#layoutCompoundLabel(javax.swing.JComponent, java.awt.FontMetrics, String, javax.swing.Icon, int, int, int, int, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle, int)
      * public static java.lang.String
-     * javax.swing.SwingUtilities.layoutCompoundLabel(javax.swing.JComponent,java.awt.FontMetrics,java.lang.String,javax.swing.Icon,int,int,int,int,java.awt.Rectangle,java.awt.Rectangle,java.awt.Rectangle,int)}
-     * .
+     * javax.swing.SwingUtilities.layoutCompoundLabel(javax.swing.JComponent,java.awt.FontMetrics,java.lang.String,javax.swing.Icon,int,int,int,int,java.awt.Rectangle,java.awt.Rectangle,java.awt.Rectangle,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -690,28 +688,6 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SwingUtilities#convertPoint(java.awt.Component, int, int, java.awt.Component) public static
-     * java.awt.Point javax.swing.SwingUtilities.convertPoint(java.awt.Component,int,int,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_convertPoint_Component_int_int_Component()
-    throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#convertPoint(java.awt.Component, int, int,
-        // java.awt.Component)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#convertPoint(java.awt.Component, java.awt.Point, java.awt.Component) public
      * static java.awt.Point
      * javax.swing.SwingUtilities.convertPoint(java.awt.Component,java.awt.Point,java.awt.Component)}.
@@ -734,29 +710,9 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.SwingUtilities#isEventDispatchThread()
-     * public static boolean javax.swing.SwingUtilities.isEventDispatchThread()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_isEventDispatchThread()
-    throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#isEventDispatchThread()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SwingUtilities#getAccessibleIndexInParent(java.awt.Component) public static int
-     * javax.swing.SwingUtilities.getAccessibleIndexInParent(java.awt.Component)}.
+     * {@link javax.swing.SwingUtilities#convertPoint(java.awt.Component, int, int, java.awt.Component) public static
+     * java.awt.Point javax.swing.SwingUtilities.convertPoint(java.awt.Component,int,int,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -768,9 +724,10 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getAccessibleIndexInParent_Component()
+    public void test_convertPoint_Component_int_int_Component()
     throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#getAccessibleIndexInParent(java.awt.Component)}
+        // write some test for {@link javax.swing.SwingUtilities#convertPoint(java.awt.Component, int, int,
+        // java.awt.Component)}
     }
 
     /**
@@ -797,6 +754,47 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SwingUtilities#getAccessibleIndexInParent(java.awt.Component) public static int
+     * javax.swing.SwingUtilities.getAccessibleIndexInParent(java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAccessibleIndexInParent_Component()
+    throws Exception {
+        // write some test for {@link javax.swing.SwingUtilities#getAccessibleIndexInParent(java.awt.Component)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SwingUtilities#isEventDispatchThread()
+     * public static boolean javax.swing.SwingUtilities.isEventDispatchThread()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isEventDispatchThread()
+    throws Exception {
+        // write some test for {@link javax.swing.SwingUtilities#isEventDispatchThread()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#getDeepestComponentAt(java.awt.Component, int, int) public static
      * java.awt.Component javax.swing.SwingUtilities.getDeepestComponentAt(java.awt.Component,int,int)}.
      *
@@ -813,30 +811,6 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     public void test_getDeepestComponentAt_Component_int_int()
     throws Exception {
         // write some test for {@link javax.swing.SwingUtilities#getDeepestComponentAt(java.awt.Component, int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SwingUtilities#notifyAction(javax.swing.Action, javax.swing.KeyStroke, java.awt.event.KeyEvent, Object, int)
-     * public static boolean
-     * javax.swing.SwingUtilities.notifyAction(javax.swing.Action,javax.swing.KeyStroke,java.awt.event.KeyEvent,java.lang.Object,int)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_notifyAction_Action_KeyStroke_KeyEvent_Object_int()
-    throws Exception {
-        // write some test for {@link javax.swing.SwingUtilities#notifyAction(javax.swing.Action, javax.swing.KeyStroke,
-        // java.awt.event.KeyEvent, Object, int)}
     }
 
     /**
@@ -865,10 +839,32 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SwingUtilities#notifyAction(javax.swing.Action, javax.swing.KeyStroke, java.awt.event.KeyEvent, Object, int)
+     * public static boolean
+     * javax.swing.SwingUtilities.notifyAction(javax.swing.Action,javax.swing.KeyStroke,java.awt.event.KeyEvent,java.lang.Object,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_notifyAction_Action_KeyStroke_KeyEvent_Object_int()
+    throws Exception {
+        // write some test for {@link javax.swing.SwingUtilities#notifyAction(javax.swing.Action, javax.swing.KeyStroke,
+        // java.awt.event.KeyEvent, Object, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, int, int, int, int)
      * public static void
-     * javax.swing.SwingUtilities.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int)}
-     * .
+     * javax.swing.SwingUtilities.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -891,8 +887,7 @@ implements org.j8unit.repository.javax.swing.SwingUtilitiesClassTests<SwingUtili
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SwingUtilities#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, java.awt.Rectangle)
      * public static void
-     * javax.swing.SwingUtilities.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,java.awt.Rectangle)}
-     * .
+     * javax.swing.SwingUtilities.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,java.awt.Rectangle)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

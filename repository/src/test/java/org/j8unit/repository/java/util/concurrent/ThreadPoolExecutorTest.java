@@ -33,6 +33,30 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class DiscardPolicyTest
+    implements FactoryBasedJ8UnitTest<DiscardPolicy>, org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests<DiscardPolicy> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return testParametersOf(DiscardPolicy::new);
+        }
+
+        @Parameter(0)
+        public Callable<DiscardPolicy> sutFactory;
+
+        @Override
+        public Callable<DiscardPolicy> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AbortPolicyTest
     implements FactoryBasedJ8UnitTest<AbortPolicy>, org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests<AbortPolicy> {
 
@@ -40,7 +64,7 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return testParametersOf(AbortPolicy::new);
+            return TestParametersUtil.testParametersOf(AbortPolicy::new);
         }
 
         @Parameter(0)
@@ -102,30 +126,6 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class DiscardPolicyTest
-    implements FactoryBasedJ8UnitTest<DiscardPolicy>, org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests<DiscardPolicy> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(DiscardPolicy::new);
-        }
-
-        @Parameter(0)
-        public Callable<DiscardPolicy> sutFactory;
-
-        @Override
-        public Callable<DiscardPolicy> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
     }
 

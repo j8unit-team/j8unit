@@ -100,6 +100,28 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#tailSet(Object, boolean)
+     * public abstract java.util.NavigableSet<E> java.util.NavigableSet.tailSet(E,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tailSet_Object_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#tailSet(Object) public
      * abstract java.util.SortedSet<E> java.util.NavigableSet.tailSet(E)}.
      *
@@ -115,28 +137,6 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_tailSet_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#tailSet(Object, boolean)
-     * public abstract java.util.NavigableSet<E> java.util.NavigableSet.tailSet(E,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tailSet_Object_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -189,28 +189,6 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#headSet(Object, boolean)
-     * public abstract java.util.NavigableSet<E> java.util.NavigableSet.headSet(E,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_headSet_Object_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#headSet(Object) public
      * abstract java.util.SortedSet<E> java.util.NavigableSet.headSet(E)}.
      *
@@ -226,6 +204,28 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_headSet_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.NavigableSet#headSet(Object, boolean)
+     * public abstract java.util.NavigableSet<E> java.util.NavigableSet.headSet(E,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_headSet_Object_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -280,8 +280,8 @@ extends org.j8unit.repository.java.util.SortedSetTests<SUT, E> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.NavigableSet#subSet(Object, boolean, Object, boolean) public abstract java.util.NavigableSet
-     * <E> java.util.NavigableSet.subSet(E,boolean,E,boolean)}.
+     * {@link java.util.NavigableSet#subSet(Object, boolean, Object, boolean) public abstract java.util.NavigableSet<E>
+     * java.util.NavigableSet.subSet(E,boolean,E,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

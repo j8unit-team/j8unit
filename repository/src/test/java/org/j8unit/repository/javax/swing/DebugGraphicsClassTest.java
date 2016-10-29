@@ -44,6 +44,27 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.DebugGraphics#DebugGraphics()
+     * public javax.swing.DebugGraphics()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DebugGraphics()
+    throws Exception {
+        // create new instance
+        final DebugGraphics sut = new DebugGraphics();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.DebugGraphics#DebugGraphics(java.awt.Graphics, javax.swing.JComponent) public
      * javax.swing.DebugGraphics(java.awt.Graphics,javax.swing.JComponent)}.
@@ -63,27 +84,6 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
         // create new instance
         @SuppressWarnings("unused")
         final DebugGraphics sut = null; // = new DebugGraphics(java.awt.Graphics, javax.swing.JComponent);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.DebugGraphics#DebugGraphics()
-     * public javax.swing.DebugGraphics()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DebugGraphics()
-    throws Exception {
-        // create new instance
-        final DebugGraphics sut = new DebugGraphics();
     }
 
     /**
@@ -129,26 +129,6 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#flashCount() public static
-     * int javax.swing.DebugGraphics.flashCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_flashCount()
-    throws Exception {
-        // write some test for {@link javax.swing.DebugGraphics#flashCount()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#flashTime() public static
      * int javax.swing.DebugGraphics.flashTime()}.
      *
@@ -165,6 +145,26 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
     public void test_flashTime()
     throws Exception {
         // write some test for {@link javax.swing.DebugGraphics#flashTime()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DebugGraphics#flashCount() public static
+     * int javax.swing.DebugGraphics.flashCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_flashCount()
+    throws Exception {
+        // write some test for {@link javax.swing.DebugGraphics#flashCount()}
     }
 
     /**

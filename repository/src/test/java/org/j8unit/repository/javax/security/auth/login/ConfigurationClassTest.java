@@ -45,30 +45,6 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.security.auth.login.Configuration#getInstance(String, javax.security.auth.login.Configuration.Parameters, String)
-     * public static javax.security.auth.login.Configuration
-     * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.lang.String)
-     * throws java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance_String_Parameters_String()
-    throws Exception {
-        // write some test for {@link javax.security.auth.login.Configuration#getInstance(String,
-        // javax.security.auth.login.Configuration.Parameters, String)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.security.auth.login.Configuration#getInstance(String, javax.security.auth.login.Configuration.Parameters)
      * public static javax.security.auth.login.Configuration
      * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters)
@@ -112,6 +88,30 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
     throws Exception {
         // write some test for {@link javax.security.auth.login.Configuration#getInstance(String,
         // javax.security.auth.login.Configuration.Parameters, java.security.Provider)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.login.Configuration#getInstance(String, javax.security.auth.login.Configuration.Parameters, String)
+     * public static javax.security.auth.login.Configuration
+     * javax.security.auth.login.Configuration.getInstance(java.lang.String,javax.security.auth.login.Configuration$Parameters,java.lang.String)
+     * throws java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_String_Parameters_String()
+    throws Exception {
+        // write some test for {@link javax.security.auth.login.Configuration#getInstance(String,
+        // javax.security.auth.login.Configuration.Parameters, String)}
     }
 
     /**

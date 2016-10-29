@@ -21,6 +21,28 @@ implements org.j8unit.repository.org.ietf.jgss.GSSExceptionClassTests<GSSExcepti
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.GSSException#GSSException(int)
+     * public org.ietf.jgss.GSSException(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_GSSException_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final GSSException sut = null; // = new GSSException(int);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link org.ietf.jgss.GSSException#GSSException(int, int, String) public
      * org.ietf.jgss.GSSException(int,int,java.lang.String)}.
@@ -40,28 +62,6 @@ implements org.j8unit.repository.org.ietf.jgss.GSSExceptionClassTests<GSSExcepti
         // create new instance
         @SuppressWarnings("unused")
         final GSSException sut = null; // = new GSSException(int, int, String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link org.ietf.jgss.GSSException#GSSException(int)
-     * public org.ietf.jgss.GSSException(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_GSSException_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final GSSException sut = null; // = new GSSException(int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSException]

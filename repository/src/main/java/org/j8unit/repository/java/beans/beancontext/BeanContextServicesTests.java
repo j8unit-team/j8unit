@@ -91,8 +91,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServices#addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
      * public abstract void
-     * java.beans.beancontext.BeanContextServices.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
-     * .
+     * java.beans.beancontext.BeanContextServices.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -116,8 +115,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServices#releaseService(java.beans.beancontext.BeanContextChild, Object, Object)
      * public abstract void
-     * java.beans.beancontext.BeanContextServices.releaseService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Object)}
-     * .
+     * java.beans.beancontext.BeanContextServices.releaseService(java.beans.beancontext.BeanContextChild,java.lang.Object,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -141,8 +139,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServices#removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
      * public abstract void
-     * java.beans.beancontext.BeanContextServices.removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
-     * .
+     * java.beans.beancontext.BeanContextServices.removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,8 +163,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextServices#addService(Class, java.beans.beancontext.BeanContextServiceProvider)
      * public abstract boolean
-     * java.beans.beancontext.BeanContextServices.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}
-     * .
+     * java.beans.beancontext.BeanContextServices.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -180,31 +176,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
     @Test
     @Category(Draft.class)
     public default void test_addService_Class_BeanContextServiceProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextServices#revokeService(Class, java.beans.beancontext.BeanContextServiceProvider, boolean)
-     * public abstract void
-     * java.beans.beancontext.BeanContextServices.revokeService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider,boolean)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_revokeService_Class_BeanContextServiceProvider_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -228,6 +199,30 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
     @Test
     @Category(Draft.class)
     public default void test_getCurrentServiceClasses()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextServices#revokeService(Class, java.beans.beancontext.BeanContextServiceProvider, boolean)
+     * public abstract void
+     * java.beans.beancontext.BeanContextServices.revokeService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_revokeService_Class_BeanContextServiceProvider_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

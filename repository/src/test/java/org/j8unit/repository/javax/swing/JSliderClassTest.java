@@ -21,9 +21,8 @@ implements org.j8unit.repository.javax.swing.JSliderClassTests<JSlider> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JSlider#JSlider(javax.swing.BoundedRangeModel) public
-     * javax.swing.JSlider(javax.swing.BoundedRangeModel)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSlider#JSlider(int, int, int, int)
+     * public javax.swing.JSlider(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,11 @@ implements org.j8unit.repository.javax.swing.JSliderClassTests<JSlider> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JSlider_BoundedRangeModel()
+    public void create_JSlider_int_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JSlider sut = null; // = new JSlider(javax.swing.BoundedRangeModel);
+        final JSlider sut = null; // = new JSlider(int, int, int, int);
     }
 
     /**
@@ -88,8 +87,8 @@ implements org.j8unit.repository.javax.swing.JSliderClassTests<JSlider> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSlider#JSlider(int, int, int, int)
-     * public javax.swing.JSlider(int,int,int,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSlider#JSlider(int) public
+     * javax.swing.JSlider(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,11 +100,34 @@ implements org.j8unit.repository.javax.swing.JSliderClassTests<JSlider> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JSlider_int_int_int_int()
+    public void create_JSlider_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JSlider sut = null; // = new JSlider(int, int, int, int);
+        final JSlider sut = null; // = new JSlider(int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JSlider#JSlider(javax.swing.BoundedRangeModel) public
+     * javax.swing.JSlider(javax.swing.BoundedRangeModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JSlider_BoundedRangeModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JSlider sut = null; // = new JSlider(javax.swing.BoundedRangeModel);
     }
 
     /**
@@ -127,28 +149,6 @@ implements org.j8unit.repository.javax.swing.JSliderClassTests<JSlider> {
     throws Exception {
         // create new instance
         final JSlider sut = new JSlider();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JSlider#JSlider(int) public
-     * javax.swing.JSlider(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JSlider_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JSlider sut = null; // = new JSlider(int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSlider]

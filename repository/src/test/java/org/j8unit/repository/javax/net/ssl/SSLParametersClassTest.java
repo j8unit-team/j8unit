@@ -21,9 +21,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.net.ssl.SSLParameters#SSLParameters(String[], String[]) public
-     * javax.net.ssl.SSLParameters(java.lang.String[],java.lang.String[])}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.net.ssl.SSLParameters#SSLParameters()
+     * public javax.net.ssl.SSLParameters()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,10 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SSLParameters_StringArray_StringArray()
+    public void create_SSLParameters()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final SSLParameters sut = null; // = new SSLParameters(String[], String[]);
+        final SSLParameters sut = new SSLParameters();
     }
 
     /**
@@ -67,8 +65,9 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.net.ssl.SSLParameters#SSLParameters()
-     * public javax.net.ssl.SSLParameters()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.net.ssl.SSLParameters#SSLParameters(String[], String[]) public
+     * javax.net.ssl.SSLParameters(java.lang.String[],java.lang.String[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,10 +79,11 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SSLParameters()
+    public void create_SSLParameters_StringArray_StringArray()
     throws Exception {
         // create new instance
-        final SSLParameters sut = new SSLParameters();
+        @SuppressWarnings("unused")
+        final SSLParameters sut = null; // = new SSLParameters(String[], String[]);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLParameters]

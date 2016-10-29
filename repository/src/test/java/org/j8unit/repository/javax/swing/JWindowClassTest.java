@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JWindow#JWindow(java.awt.Window, java.awt.GraphicsConfiguration) public
-     * javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)}.
+     * {@link javax.swing.JWindow#JWindow(java.awt.GraphicsConfiguration) public
+     * javax.swing.JWindow(java.awt.GraphicsConfiguration)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,33 +35,11 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JWindow_Window_GraphicsConfiguration()
+    public void create_JWindow_GraphicsConfiguration()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(java.awt.Window, java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JWindow#JWindow(java.awt.Window)
-     * public javax.swing.JWindow(java.awt.Window)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JWindow_Window()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(java.awt.Window);
+        final JWindow sut = null; // = new JWindow(java.awt.GraphicsConfiguration);
     }
 
     /**
@@ -88,9 +66,8 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JWindow#JWindow(java.awt.GraphicsConfiguration) public
-     * javax.swing.JWindow(java.awt.GraphicsConfiguration)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JWindow#JWindow(java.awt.Window)
+     * public javax.swing.JWindow(java.awt.Window)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -102,11 +79,11 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JWindow_GraphicsConfiguration()
+    public void create_JWindow_Window()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JWindow sut = null; // = new JWindow(java.awt.GraphicsConfiguration);
+        final JWindow sut = null; // = new JWindow(java.awt.Window);
     }
 
     /**
@@ -128,6 +105,29 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
     throws Exception {
         // create new instance
         final JWindow sut = new JWindow();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JWindow#JWindow(java.awt.Window, java.awt.GraphicsConfiguration) public
+     * javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JWindow_Window_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JWindow sut = null; // = new JWindow(java.awt.Window, java.awt.GraphicsConfiguration);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JWindow]

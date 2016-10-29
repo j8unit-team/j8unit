@@ -59,8 +59,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.rmi.server.RMIClassLoaderSpi#loadProxyClass(String, String[], ClassLoader) public abstract
-     * java.lang.Class
-     * <?> java.rmi.server.RMIClassLoaderSpi.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
+     * java.lang.Class<?>
+     * java.rmi.server.RMIClassLoaderSpi.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
      * throws java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -106,8 +106,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.RMIClassLoaderSpi#loadClass(String, String, ClassLoader) public abstract java.lang.Class
-     * <?> java.rmi.server.RMIClassLoaderSpi.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
+     * {@link java.rmi.server.RMIClassLoaderSpi#loadClass(String, String, ClassLoader) public abstract
+     * java.lang.Class<?>
+     * java.rmi.server.RMIClassLoaderSpi.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at

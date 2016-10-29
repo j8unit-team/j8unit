@@ -508,28 +508,6 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isClosable() public
-     * boolean javax.swing.JInternalFrame.isClosable()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isClosable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JInternalFrame#restoreSubcomponentFocus() public void
      * javax.swing.JInternalFrame.restoreSubcomponentFocus()}.
@@ -545,6 +523,28 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_restoreSubcomponentFocus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isClosable() public
+     * boolean javax.swing.JInternalFrame.isClosable()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isClosable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -736,28 +736,6 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getFocusOwner() public
-     * java.awt.Component javax.swing.JInternalFrame.getFocusOwner()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFocusOwner()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JInternalFrame#getFocusCycleRootAncestor() public final java.awt.Container
      * javax.swing.JInternalFrame.getFocusCycleRootAncestor()}.
@@ -774,6 +752,28 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_getFocusCycleRootAncestor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getFocusOwner() public
+     * java.awt.Component javax.swing.JInternalFrame.getFocusOwner()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFocusOwner()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1121,28 +1121,6 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setIconifiable(boolean)
-     * public void javax.swing.JInternalFrame.setIconifiable(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIconifiable_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#isIconifiable() public
      * boolean javax.swing.JInternalFrame.isIconifiable()}.
      *
@@ -1157,6 +1135,28 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_isIconifiable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#setIconifiable(boolean)
+     * public void javax.swing.JInternalFrame.setIconifiable(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIconifiable_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1233,28 +1233,6 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getMostRecentFocusOwner()
-     * public java.awt.Component javax.swing.JInternalFrame.getMostRecentFocusOwner()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMostRecentFocusOwner()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getGlassPane() public
      * java.awt.Component javax.swing.JInternalFrame.getGlassPane()}.
      *
@@ -1270,6 +1248,28 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_getGlassPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JInternalFrame#getMostRecentFocusOwner()
+     * public java.awt.Component javax.swing.JInternalFrame.getMostRecentFocusOwner()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMostRecentFocusOwner()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

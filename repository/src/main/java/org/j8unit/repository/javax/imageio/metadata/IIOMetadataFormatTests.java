@@ -153,8 +153,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataFormat#getObjectMinValue(String) public abstract java.lang.Comparable
-     * <?> javax.imageio.metadata.IIOMetadataFormat.getObjectMinValue(java.lang.String)}.
+     * {@link javax.imageio.metadata.IIOMetadataFormat#getObjectMinValue(String) public abstract java.lang.Comparable<?>
+     * javax.imageio.metadata.IIOMetadataFormat.getObjectMinValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -317,8 +317,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataFormat#getObjectClass(String) public abstract java.lang.Class
-     * <?> javax.imageio.metadata.IIOMetadataFormat.getObjectClass(java.lang.String)}.
+     * {@link javax.imageio.metadata.IIOMetadataFormat#getObjectClass(String) public abstract java.lang.Class<?>
+     * javax.imageio.metadata.IIOMetadataFormat.getObjectClass(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -331,29 +331,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getObjectClass_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataFormat#getRootName() public abstract java.lang.String
-     * javax.imageio.metadata.IIOMetadataFormat.getRootName()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRootName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -386,10 +363,32 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.metadata.IIOMetadataFormat#getRootName() public abstract java.lang.String
+     * javax.imageio.metadata.IIOMetadataFormat.getRootName()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRootName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.metadata.IIOMetadataFormat#getAttributeDescription(String, String, java.util.Locale) public
      * abstract java.lang.String
-     * javax.imageio.metadata.IIOMetadataFormat.getAttributeDescription(java.lang.String,java.lang.String,java.util.Locale)}
-     * .
+     * javax.imageio.metadata.IIOMetadataFormat.getAttributeDescription(java.lang.String,java.lang.String,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -619,8 +618,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.metadata.IIOMetadataFormat#getObjectMaxValue(String) public abstract java.lang.Comparable
-     * <?> javax.imageio.metadata.IIOMetadataFormat.getObjectMaxValue(java.lang.String)}.
+     * {@link javax.imageio.metadata.IIOMetadataFormat#getObjectMaxValue(String) public abstract java.lang.Comparable<?>
+     * javax.imageio.metadata.IIOMetadataFormat.getObjectMaxValue(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

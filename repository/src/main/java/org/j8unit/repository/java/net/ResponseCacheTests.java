@@ -36,8 +36,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.net.ResponseCache#get(java.net.URI, String, java.util.Map) public abstract java.net.CacheResponse
-     * java.net.ResponseCache.get(java.net.URI,java.lang.String,java.util.Map<java.lang.String, java.util.List
-     * <java.lang.String>>) throws java.io.IOException}.
+     * java.net.ResponseCache.get(java.net.URI,java.lang.String,java.util.Map<java.lang.String,
+     * java.util.List<java.lang.String>>) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

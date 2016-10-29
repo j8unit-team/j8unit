@@ -132,8 +132,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getMinValue() public java.lang.Comparable
-     * <?> javax.management.openmbean.OpenMBeanParameterInfoSupport.getMinValue()}.
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getMinValue() public java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.getMinValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -228,30 +228,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getMaxValue() public java.lang.Comparable
-     * <?> javax.management.openmbean.OpenMBeanParameterInfoSupport.getMaxValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hashCode() public int
      * javax.management.openmbean.OpenMBeanParameterInfoSupport.hashCode()}.
      *
@@ -276,8 +252,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasMaxValue() public boolean
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasMaxValue()}.
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getMaxValue() public java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.getMaxValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -290,7 +266,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_hasMaxValue()
+    public default void test_getMaxValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -324,8 +300,32 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getLegalValues() public java.util.Set
-     * <?> javax.management.openmbean.OpenMBeanParameterInfoSupport.getLegalValues()}.
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasMaxValue() public boolean
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasMaxValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hasMaxValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getLegalValues() public java.util.Set<?>
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.getLegalValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

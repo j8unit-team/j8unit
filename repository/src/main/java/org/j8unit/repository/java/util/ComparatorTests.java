@@ -58,8 +58,31 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Comparator#thenComparing(java.util.function.Function, java.util.Comparator) public default
-     * <U> java.util.Comparator<T> java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends
+     * {@link java.util.Comparator#thenComparing(java.util.Comparator) public default java.util.Comparator<T>
+     * java.util.Comparator.thenComparing(java.util.Comparator<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thenComparing_Comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Comparator#thenComparing(java.util.function.Function, java.util.Comparator) public default <U>
+     * java.util.Comparator<T> java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends
      * U>,java.util.Comparator<? super U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -82,31 +105,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Comparator#thenComparing(java.util.Comparator) public default java.util.Comparator
-     * <T> java.util.Comparator.thenComparing(java.util.Comparator<? super T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thenComparing_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Comparator#thenComparing(java.util.function.Function) public default <U> java.util.Comparator
-     * <T> java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends U>)}.
+     * {@link java.util.Comparator#thenComparing(java.util.function.Function) public default <U> java.util.Comparator<T>
+     * java.util.Comparator.thenComparing(java.util.function.Function<? super T, ? extends U>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -129,8 +129,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Comparator#thenComparingDouble(java.util.function.ToDoubleFunction) public default
-     * java.util.Comparator<T> java.util.Comparator.thenComparingDouble(java.util.function.ToDoubleFunction<? super T>)}
-     * .
+     * java.util.Comparator<T> java.util.Comparator.thenComparingDouble(java.util.function.ToDoubleFunction<? super
+     * T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

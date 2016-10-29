@@ -58,8 +58,8 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.spi.IIOServiceProvider#onDeregistration(javax.imageio.spi.ServiceRegistry, Class) public
-     * void javax.imageio.spi.IIOServiceProvider.onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}
-     * .
+     * void
+     * javax.imageio.spi.IIOServiceProvider.onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

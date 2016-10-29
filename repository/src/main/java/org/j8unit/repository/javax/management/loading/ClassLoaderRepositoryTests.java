@@ -37,8 +37,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.loading.ClassLoaderRepository#loadClassBefore(ClassLoader, String) public abstract
-     * java.lang.Class
-     * <?> javax.management.loading.ClassLoaderRepository.loadClassBefore(java.lang.ClassLoader,java.lang.String) throws
+     * java.lang.Class<?>
+     * javax.management.loading.ClassLoaderRepository.loadClassBefore(java.lang.ClassLoader,java.lang.String) throws
      * java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -61,8 +61,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.loading.ClassLoaderRepository#loadClass(String) public abstract java.lang.Class
-     * <?> javax.management.loading.ClassLoaderRepository.loadClass(java.lang.String) throws
+     * {@link javax.management.loading.ClassLoaderRepository#loadClass(String) public abstract java.lang.Class<?>
+     * javax.management.loading.ClassLoaderRepository.loadClass(java.lang.String) throws
      * java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -86,9 +86,9 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.loading.ClassLoaderRepository#loadClassWithout(ClassLoader, String) public abstract
-     * java.lang.Class
-     * <?> javax.management.loading.ClassLoaderRepository.loadClassWithout(java.lang.ClassLoader,java.lang.String)
-     * throws java.lang.ClassNotFoundException}.
+     * java.lang.Class<?>
+     * javax.management.loading.ClassLoaderRepository.loadClassWithout(java.lang.ClassLoader,java.lang.String) throws
+     * java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

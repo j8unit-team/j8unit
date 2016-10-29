@@ -58,53 +58,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.namespace.QName, Class) public abstract <T> T
-     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPort_QName_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.namespace.QName, Class, javax.xml.ws.WebServiceFeature...)
-     * public abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class
-     * <T>,javax.xml.ws.WebServiceFeature...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPort_QName_Class_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.ws.spi.ServiceDelegate#getPort(Class, javax.xml.ws.WebServiceFeature...) public abstract <T> T
      * javax.xml.ws.spi.ServiceDelegate.getPort(java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
      *
@@ -150,9 +103,56 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.namespace.QName, Class, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> T
+     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPort_QName_Class_WebServiceFeatureArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.namespace.QName, Class) public abstract <T> T
+     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.namespace.QName,java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPort_QName_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.ws.spi.ServiceDelegate#getPort(javax.xml.ws.EndpointReference, Class, javax.xml.ws.WebServiceFeature...)
-     * public abstract <T> T javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.ws.EndpointReference,java.lang.Class
-     * <T>,javax.xml.ws.WebServiceFeature...)}.
+     * public abstract <T> T
+     * javax.xml.ws.spi.ServiceDelegate.getPort(javax.xml.ws.EndpointReference,java.lang.Class<T>,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -333,9 +333,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode)
-     * public abstract <T> javax.xml.ws.Dispatch
-     * <T> javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,java.lang.Class
-     * <T>,javax.xml.ws.Service$Mode)}.
+     * public abstract <T> javax.xml.ws.Dispatch<T>
+     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,java.lang.Class<T>,javax.xml.ws.Service$Mode)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -357,85 +356,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
-     * public abstract <T> javax.xml.ws.Dispatch
-     * <T> javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,java.lang.Class
-     * <T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDispatch_QName_Class_Mode_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.ws.EndpointReference, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
-     * public abstract <T> javax.xml.ws.Dispatch
-     * <T> javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.ws.EndpointReference,java.lang.Class
-     * <T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDispatch_EndpointReference_Class_Mode_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode)
-     * public abstract javax.xml.ws.Dispatch<java.lang.Object>
-     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDispatch_QName_JAXBContext_Mode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.ws.EndpointReference, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
      * public abstract javax.xml.ws.Dispatch<java.lang.Object>
-     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.ws.EndpointReference,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}
-     * .
+     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.ws.EndpointReference,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -459,8 +382,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
      * public abstract javax.xml.ws.Dispatch<java.lang.Object>
-     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}
-     * .
+     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -473,6 +395,78 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createDispatch_QName_JAXBContext_Mode_WebServiceFeatureArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, javax.xml.bind.JAXBContext, javax.xml.ws.Service.Mode)
+     * public abstract javax.xml.ws.Dispatch<java.lang.Object>
+     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,javax.xml.bind.JAXBContext,javax.xml.ws.Service$Mode)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDispatch_QName_JAXBContext_Mode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.namespace.QName, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> javax.xml.ws.Dispatch<T>
+     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.namespace.QName,java.lang.Class<T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDispatch_QName_Class_Mode_WebServiceFeatureArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.ws.spi.ServiceDelegate#createDispatch(javax.xml.ws.EndpointReference, Class, javax.xml.ws.Service.Mode, javax.xml.ws.WebServiceFeature...)
+     * public abstract <T> javax.xml.ws.Dispatch<T>
+     * javax.xml.ws.spi.ServiceDelegate.createDispatch(javax.xml.ws.EndpointReference,java.lang.Class<T>,javax.xml.ws.Service$Mode,javax.xml.ws.WebServiceFeature...)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDispatch_EndpointReference_Class_Mode_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

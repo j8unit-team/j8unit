@@ -82,6 +82,29 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#sync() public
+     * void java.util.prefs.AbstractPreferences.sync() throws java.util.prefs.BackingStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_sync()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.prefs.AbstractPreferences#removePreferenceChangeListener(java.util.prefs.PreferenceChangeListener)
      * public void
@@ -131,29 +154,6 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#sync() public
-     * void java.util.prefs.AbstractPreferences.sync() throws java.util.prefs.BackingStoreException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_sync()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#clear() public
      * void java.util.prefs.AbstractPreferences.clear() throws java.util.prefs.BackingStoreException}.
      *
@@ -169,29 +169,6 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#isUserNode()
-     * public boolean java.util.prefs.AbstractPreferences.isUserNode()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isUserNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,6 +193,29 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_putInt_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#isUserNode()
+     * public boolean java.util.prefs.AbstractPreferences.isUserNode()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isUserNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -297,9 +297,8 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.prefs.AbstractPreferences#getByteArray(String, byte[]) public byte[]
-     * java.util.prefs.AbstractPreferences.getByteArray(java.lang.String,byte[])}.
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#name() public
+     * java.lang.String java.util.prefs.AbstractPreferences.name()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -312,7 +311,7 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getByteArray_String_byteArray()
+    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -345,32 +344,9 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#name() public
-     * java.lang.String java.util.prefs.AbstractPreferences.name()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.prefs.AbstractPreferences#removeNodeChangeListener(java.util.prefs.NodeChangeListener) public
-     * void java.util.prefs.AbstractPreferences.removeNodeChangeListener(java.util.prefs.NodeChangeListener)}.
+     * {@link java.util.prefs.AbstractPreferences#getByteArray(String, byte[]) public byte[]
+     * java.util.prefs.AbstractPreferences.getByteArray(java.lang.String,byte[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -383,30 +359,7 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_removeNodeChangeListener_NodeChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#node(String)
-     * public java.util.prefs.Preferences java.util.prefs.AbstractPreferences.node(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_node_String()
+    public default void test_getByteArray_String_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -455,6 +408,53 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInt_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.AbstractPreferences#removeNodeChangeListener(java.util.prefs.NodeChangeListener) public
+     * void java.util.prefs.AbstractPreferences.removeNodeChangeListener(java.util.prefs.NodeChangeListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNodeChangeListener_NodeChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.prefs.AbstractPreferences#node(String)
+     * public java.util.prefs.Preferences java.util.prefs.AbstractPreferences.node(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_node_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -535,6 +535,30 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.prefs.AbstractPreferences#putLong(String, long) public void
+     * java.util.prefs.AbstractPreferences.putLong(java.lang.String,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_putLong_String_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.prefs.AbstractPreferences#exportSubtree(java.io.OutputStream) public void
      * java.util.prefs.AbstractPreferences.exportSubtree(java.io.OutputStream) throws
      * java.io.IOException,java.util.prefs.BackingStoreException}.
@@ -551,30 +575,6 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_exportSubtree_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.prefs.AbstractPreferences#putLong(String, long) public void
-     * java.util.prefs.AbstractPreferences.putLong(java.lang.String,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_putLong_String_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

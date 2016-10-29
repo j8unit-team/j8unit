@@ -61,8 +61,7 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.GlyphView#insertUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
-     * javax.swing.text.GlyphView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * javax.swing.text.GlyphView.insertUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,6 +174,28 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.GlyphView#isSubscript() public
+     * boolean javax.swing.text.GlyphView.isSubscript()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSubscript()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.GlyphView#getMinimumSpan(int)
      * public float javax.swing.text.GlyphView.getMinimumSpan(int)}.
      *
@@ -190,28 +211,6 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMinimumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.GlyphView#isSubscript() public
-     * boolean javax.swing.text.GlyphView.isSubscript()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSubscript()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -312,10 +311,8 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.GlyphView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.GlyphView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * {@link javax.swing.text.GlyphView#getTabbedSpan(float, javax.swing.text.TabExpander) public float
+     * javax.swing.text.GlyphView.getTabbedSpan(float,javax.swing.text.TabExpander)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -328,7 +325,7 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
+    public default void test_getTabbedSpan_float_TabExpander()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -361,8 +358,9 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.GlyphView#getTabbedSpan(float, javax.swing.text.TabExpander) public float
-     * javax.swing.text.GlyphView.getTabbedSpan(float,javax.swing.text.TabExpander)}.
+     * {@link javax.swing.text.GlyphView#removeUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.GlyphView.removeUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -375,7 +373,7 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getTabbedSpan_float_TabExpander()
+    public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -433,8 +431,7 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.GlyphView#changedUpdate(javax.swing.event.DocumentEvent, java.awt.Shape, javax.swing.text.ViewFactory)
      * public void
-     * javax.swing.text.GlyphView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * javax.swing.text.GlyphView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -554,6 +551,30 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.GlyphView#paint(java.awt.Graphics, java.awt.Shape) public void
+     * javax.swing.text.GlyphView.paint(java.awt.Graphics,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_paint_Graphics_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.GlyphView#isSuperscript() public
      * boolean javax.swing.text.GlyphView.isSuperscript()}.
      *
@@ -590,30 +611,6 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getGlyphPainter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.GlyphView#paint(java.awt.Graphics, java.awt.Shape) public void
-     * javax.swing.text.GlyphView.paint(java.awt.Graphics,java.awt.Shape)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_paint_Graphics_Shape()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -742,6 +739,30 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.GlyphView.GlyphPainter#paint(javax.swing.text.GlyphView, java.awt.Graphics, java.awt.Shape, int, int)
+         * public abstract void
+         * javax.swing.text.GlyphView$GlyphPainter.paint(javax.swing.text.GlyphView,java.awt.Graphics,java.awt.Shape,int,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_paint_GlyphView_Graphics_Shape_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.GlyphView.GlyphPainter#getBoundedPosition(javax.swing.text.GlyphView, int, float, float)
          * public abstract int
          * javax.swing.text.GlyphView$GlyphPainter.getBoundedPosition(javax.swing.text.GlyphView,int,float,float)}.
@@ -757,31 +778,6 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getBoundedPosition_GlyphView_int_float_float()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.GlyphView.GlyphPainter#paint(javax.swing.text.GlyphView, java.awt.Graphics, java.awt.Shape, int, int)
-         * public abstract void
-         * javax.swing.text.GlyphView$GlyphPainter.paint(javax.swing.text.GlyphView,java.awt.Graphics,java.awt.Shape,int,int)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_paint_GlyphView_Graphics_Shape_int_int()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -863,31 +859,6 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.GlyphView.GlyphPainter#viewToModel(javax.swing.text.GlyphView, float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
-         * public abstract int
-         * javax.swing.text.GlyphView$GlyphPainter.viewToModel(javax.swing.text.GlyphView,float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_viewToModel_GlyphView_float_float_Shape_BiasArray()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.GlyphView.GlyphPainter#getHeight(javax.swing.text.GlyphView) public abstract float
          * javax.swing.text.GlyphView$GlyphPainter.getHeight(javax.swing.text.GlyphView)}.
          *
@@ -902,6 +873,30 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getHeight_GlyphView()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.GlyphView.GlyphPainter#viewToModel(javax.swing.text.GlyphView, float, float, java.awt.Shape, javax.swing.text.Position.Bias[])
+         * public abstract int
+         * javax.swing.text.GlyphView$GlyphPainter.viewToModel(javax.swing.text.GlyphView,float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_viewToModel_GlyphView_float_float_Shape_BiasArray()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -936,8 +931,7 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.GlyphView.GlyphPainter#getSpan(javax.swing.text.GlyphView, int, int, javax.swing.text.TabExpander, float)
          * public abstract float
-         * javax.swing.text.GlyphView$GlyphPainter.getSpan(javax.swing.text.GlyphView,int,int,javax.swing.text.TabExpander,float)}
-         * .
+         * javax.swing.text.GlyphView$GlyphPainter.getSpan(javax.swing.text.GlyphView,int,int,javax.swing.text.TabExpander,float)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

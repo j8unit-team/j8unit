@@ -224,26 +224,6 @@ implements org.j8unit.repository.java.lang.BooleanClassTests<Boolean> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Boolean#valueOf(boolean) public static
-     * java.lang.Boolean java.lang.Boolean.valueOf(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_boolean()
-    throws Exception {
-        // write some test for {@link Boolean#valueOf(boolean)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Boolean#valueOf(String) public static
      * java.lang.Boolean java.lang.Boolean.valueOf(java.lang.String)}.
      *
@@ -260,6 +240,26 @@ implements org.j8unit.repository.java.lang.BooleanClassTests<Boolean> {
     public void test_valueOf_String()
     throws Exception {
         // write some test for {@link Boolean#valueOf(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Boolean#valueOf(boolean) public static
+     * java.lang.Boolean java.lang.Boolean.valueOf(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_boolean()
+    throws Exception {
+        // write some test for {@link Boolean#valueOf(boolean)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Boolean]

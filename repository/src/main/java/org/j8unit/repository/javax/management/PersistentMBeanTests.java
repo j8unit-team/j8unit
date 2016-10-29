@@ -37,8 +37,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.PersistentMBean#load() public
      * abstract void javax.management.PersistentMBean.load() throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -61,8 +60,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.PersistentMBean#store() public
      * abstract void javax.management.PersistentMBean.store() throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

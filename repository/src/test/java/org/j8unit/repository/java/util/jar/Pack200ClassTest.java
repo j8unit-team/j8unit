@@ -64,21 +64,6 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200]
 
     @RunWith(J8Unit4.class)
-    public static class UnpackerClassTest
-    implements org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests<Unpacker> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.Pack200$Unpacker]
-
-        @Override
-        public Class<Unpacker> createNewSUT() {
-            return Unpacker.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Unpacker]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class PackerClassTest
     implements org.j8unit.repository.java.util.jar.Pack200ClassTests.PackerClassTests<Packer> {
 
@@ -90,6 +75,21 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Packer]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class UnpackerClassTest
+    implements org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests<Unpacker> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.Pack200$Unpacker]
+
+        @Override
+        public Class<Unpacker> createNewSUT() {
+            return Unpacker.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Unpacker]
 
     }
 

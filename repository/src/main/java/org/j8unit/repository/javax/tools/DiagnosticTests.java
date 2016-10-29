@@ -168,8 +168,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getColumnNumber() public
-     * abstract long javax.tools.Diagnostic.getColumnNumber()}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getMessage(java.util.Locale)
+     * public abstract java.lang.String javax.tools.Diagnostic.getMessage(java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -181,7 +181,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColumnNumber()
+    public default void test_getMessage_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -212,8 +212,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getMessage(java.util.Locale)
-     * public abstract java.lang.String javax.tools.Diagnostic.getMessage(java.util.Locale)}.
+     * Test method for the hereby targeted method-under-test {@link javax.tools.Diagnostic#getColumnNumber() public
+     * abstract long javax.tools.Diagnostic.getColumnNumber()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -225,7 +225,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMessage_Locale()
+    public default void test_getColumnNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

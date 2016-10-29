@@ -164,26 +164,6 @@ implements org.j8unit.repository.java.lang.IntegerClassTests<Integer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Integer#getInteger(String, Integer) public static
-     * java.lang.Integer java.lang.Integer.getInteger(java.lang.String,java.lang.Integer)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInteger_String_Integer()
-    throws Exception {
-        // write some test for {@link Integer#getInteger(String, Integer)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Integer#getInteger(String, int) public static
      * java.lang.Integer java.lang.Integer.getInteger(java.lang.String,int)}.
      *
@@ -220,6 +200,26 @@ implements org.j8unit.repository.java.lang.IntegerClassTests<Integer> {
     public void test_getInteger_String()
     throws Exception {
         // write some test for {@link Integer#getInteger(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Integer#getInteger(String, Integer) public static
+     * java.lang.Integer java.lang.Integer.getInteger(java.lang.String,java.lang.Integer)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInteger_String_Integer()
+    throws Exception {
+        // write some test for {@link Integer#getInteger(String, Integer)}
     }
 
     /**
@@ -484,26 +484,6 @@ implements org.j8unit.repository.java.lang.IntegerClassTests<Integer> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Integer#valueOf(String, int) public static
-     * java.lang.Integer java.lang.Integer.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_valueOf_String_int()
-    throws Exception {
-        // write some test for {@link Integer#valueOf(String, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Integer#valueOf(int) public static java.lang.Integer
      * java.lang.Integer.valueOf(int)}.
      *
@@ -540,6 +520,26 @@ implements org.j8unit.repository.java.lang.IntegerClassTests<Integer> {
     public void test_valueOf_String()
     throws Exception {
         // write some test for {@link Integer#valueOf(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Integer#valueOf(String, int) public static
+     * java.lang.Integer java.lang.Integer.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_valueOf_String_int()
+    throws Exception {
+        // write some test for {@link Integer#valueOf(String, int)}
     }
 
     /**

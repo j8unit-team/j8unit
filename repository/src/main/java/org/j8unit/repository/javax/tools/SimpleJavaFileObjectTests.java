@@ -34,29 +34,6 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#getLastModified()
-     * public long javax.tools.SimpleJavaFileObject.getLastModified()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getLastModified()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#getName() public
      * java.lang.String javax.tools.SimpleJavaFileObject.getName()}.
      *
@@ -72,6 +49,29 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#getLastModified()
+     * public long javax.tools.SimpleJavaFileObject.getLastModified()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLastModified()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,29 +103,6 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#openWriter() public
-     * java.io.Writer javax.tools.SimpleJavaFileObject.openWriter() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_openWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#toUri() public
      * java.net.URI javax.tools.SimpleJavaFileObject.toUri()}.
      *
@@ -141,6 +118,29 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_toUri()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#openWriter() public
+     * java.io.Writer javax.tools.SimpleJavaFileObject.openWriter() throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_openWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,6 +242,29 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#toString() public
+     * java.lang.String javax.tools.SimpleJavaFileObject.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#openReader(boolean)
      * public java.io.Reader javax.tools.SimpleJavaFileObject.openReader(boolean) throws java.io.IOException}.
      *
@@ -280,29 +303,6 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_openOutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.tools.SimpleJavaFileObject#toString() public
-     * java.lang.String javax.tools.SimpleJavaFileObject.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

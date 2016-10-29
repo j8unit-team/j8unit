@@ -22,29 +22,6 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.image.BufferedImage#BufferedImage(int, int, int, java.awt.image.IndexColorModel) public
-     * java.awt.image.BufferedImage(int,int,int,java.awt.image.IndexColorModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BufferedImage_int_int_int_IndexColorModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BufferedImage sut = null; // = new BufferedImage(int, int, int, java.awt.image.IndexColorModel);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.image.BufferedImage#BufferedImage(int, int, int) public
      * java.awt.image.BufferedImage(int,int,int)}.
      *
@@ -89,6 +66,29 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
         @SuppressWarnings("unused")
         final BufferedImage sut = null; // = new BufferedImage(java.awt.image.ColorModel, java.awt.image.WritableRaster,
                                         // boolean, java.util.Hashtable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.image.BufferedImage#BufferedImage(int, int, int, java.awt.image.IndexColorModel) public
+     * java.awt.image.BufferedImage(int,int,int,java.awt.image.IndexColorModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BufferedImage_int_int_int_IndexColorModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BufferedImage sut = null; // = new BufferedImage(int, int, int, java.awt.image.IndexColorModel);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImage]

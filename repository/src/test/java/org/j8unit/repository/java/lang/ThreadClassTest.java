@@ -338,26 +338,6 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Thread#activeCount() public static int
-     * java.lang.Thread.activeCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_activeCount()
-    throws Exception {
-        // write some test for {@link Thread#activeCount()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Thread#sleep(long, int) public static void
      * java.lang.Thread.sleep(long,int) throws java.lang.InterruptedException}.
      *
@@ -394,6 +374,26 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
     public void test_sleep_long()
     throws Exception {
         // write some test for {@link Thread#sleep(long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Thread#activeCount() public static int
+     * java.lang.Thread.activeCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_activeCount()
+    throws Exception {
+        // write some test for {@link Thread#activeCount()}
     }
 
     /**
@@ -437,6 +437,21 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread]
+
+    @RunWith(J8Unit4.class)
+    public static class UncaughtExceptionHandlerClassTest
+    implements org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests<UncaughtExceptionHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
+
+        @Override
+        public Class<UncaughtExceptionHandler> createNewSUT() {
+            return UncaughtExceptionHandler.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class StateClassTest
@@ -490,21 +505,6 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$State]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class UncaughtExceptionHandlerClassTest
-    implements org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests<UncaughtExceptionHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
-
-        @Override
-        public Class<UncaughtExceptionHandler> createNewSUT() {
-            return UncaughtExceptionHandler.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
 
     }
 

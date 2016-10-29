@@ -60,30 +60,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.ThaiBuddhistDate#plus(java.time.temporal.TemporalAmount) public
-     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.plus(java.time.temporal.TemporalAmount)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_plus_TemporalAmount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.ThaiBuddhistDate#plus(long, java.time.temporal.TemporalUnit) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.plus(long,java.time.temporal.TemporalUnit)}.
      *
@@ -99,6 +75,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_plus_long_TemporalUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ThaiBuddhistDate#plus(java.time.temporal.TemporalAmount) public
+     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.plus(java.time.temporal.TemporalAmount)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_plus_TemporalAmount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -226,30 +226,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.ThaiBuddhistDate#with(java.time.temporal.TemporalField, long) public
-     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.with(java.time.temporal.TemporalField,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_with_TemporalField_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.ThaiBuddhistDate#with(java.time.temporal.TemporalAdjuster) public
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.with(java.time.temporal.TemporalAdjuster)}.
      *
@@ -274,9 +250,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.ThaiBuddhistDate#atTime(java.time.LocalTime) public final
-     * java.time.chrono.ChronoLocalDateTime
-     * <java.time.chrono.ThaiBuddhistDate> java.time.chrono.ThaiBuddhistDate.atTime(java.time.LocalTime)}.
+     * {@link java.time.chrono.ThaiBuddhistDate#with(java.time.temporal.TemporalField, long) public
+     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.with(java.time.temporal.TemporalField,long)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,7 +264,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_atTime_LocalTime()
+    public default void test_with_TemporalField_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -314,6 +289,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLong_TemporalField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ThaiBuddhistDate#atTime(java.time.LocalTime) public final
+     * java.time.chrono.ChronoLocalDateTime<java.time.chrono.ThaiBuddhistDate>
+     * java.time.chrono.ThaiBuddhistDate.atTime(java.time.LocalTime)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_atTime_LocalTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -368,29 +368,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistDate#getEra() public
-     * java.time.chrono.ThaiBuddhistEra java.time.chrono.ThaiBuddhistDate.getEra()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getEra()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistDate#hashCode() public
      * int java.time.chrono.ThaiBuddhistDate.hashCode()}.
      *
@@ -406,6 +383,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.ThaiBuddhistDate#getEra() public
+     * java.time.chrono.ThaiBuddhistEra java.time.chrono.ThaiBuddhistDate.getEra()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getEra()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

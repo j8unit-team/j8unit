@@ -22,6 +22,31 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(String, Throwable, javax.xml.crypto.URIReference)
+     * public
+     * javax.xml.crypto.URIReferenceException(java.lang.String,java.lang.Throwable,javax.xml.crypto.URIReference)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_URIReferenceException_String_Throwable_URIReference()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final URIReferenceException sut = null; // = new URIReferenceException(String, Throwable,
+                                                // javax.xml.crypto.URIReference);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(Throwable) public
      * javax.xml.crypto.URIReferenceException(java.lang.Throwable)}.
      *
@@ -45,9 +70,8 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(String, Throwable, javax.xml.crypto.URIReference)
-     * public
-     * javax.xml.crypto.URIReferenceException(java.lang.String,java.lang.Throwable,javax.xml.crypto.URIReference)}.
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException() public
+     * javax.xml.crypto.URIReferenceException()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,12 +83,10 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_URIReferenceException_String_Throwable_URIReference()
+    public void create_URIReferenceException()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final URIReferenceException sut = null; // = new URIReferenceException(String, Throwable,
-                                                // javax.xml.crypto.URIReference);
+        final URIReferenceException sut = new URIReferenceException();
     }
 
     /**
@@ -111,28 +133,6 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionClassTest
         // create new instance
         @SuppressWarnings("unused")
         final URIReferenceException sut = null; // = new URIReferenceException(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException() public
-     * javax.xml.crypto.URIReferenceException()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_URIReferenceException()
-    throws Exception {
-        // create new instance
-        final URIReferenceException sut = new URIReferenceException();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.URIReferenceException]

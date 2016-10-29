@@ -22,6 +22,29 @@ implements org.j8unit.repository.java.security.cert.LDAPCertStoreParametersClass
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.security.cert.LDAPCertStoreParameters#LDAPCertStoreParameters(String, int) public
+     * java.security.cert.LDAPCertStoreParameters(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LDAPCertStoreParameters_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LDAPCertStoreParameters sut = null; // = new LDAPCertStoreParameters(String, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.security.cert.LDAPCertStoreParameters#LDAPCertStoreParameters() public
      * java.security.cert.LDAPCertStoreParameters()}.
      *
@@ -62,29 +85,6 @@ implements org.j8unit.repository.java.security.cert.LDAPCertStoreParametersClass
         // create new instance
         @SuppressWarnings("unused")
         final LDAPCertStoreParameters sut = null; // = new LDAPCertStoreParameters(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.security.cert.LDAPCertStoreParameters#LDAPCertStoreParameters(String, int) public
-     * java.security.cert.LDAPCertStoreParameters(java.lang.String,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_LDAPCertStoreParameters_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final LDAPCertStoreParameters sut = null; // = new LDAPCertStoreParameters(String, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.LDAPCertStoreParameters]

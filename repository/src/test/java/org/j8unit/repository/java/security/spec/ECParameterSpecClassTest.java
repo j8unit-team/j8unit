@@ -24,8 +24,7 @@ implements org.j8unit.repository.java.security.spec.ECParameterSpecClassTests<EC
      * Test method for the hereby targeted constructor-under-test
      * {@link java.security.spec.ECParameterSpec#ECParameterSpec(java.security.spec.EllipticCurve, java.security.spec.ECPoint, java.math.BigInteger, int)
      * public
-     * java.security.spec.ECParameterSpec(java.security.spec.EllipticCurve,java.security.spec.ECPoint,java.math.BigInteger,int)}
-     * .
+     * java.security.spec.ECParameterSpec(java.security.spec.EllipticCurve,java.security.spec.ECPoint,java.math.BigInteger,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

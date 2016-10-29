@@ -36,8 +36,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.MBeanServerNotificationFilter#getDisabledObjectNames() public synchronized
-     * java.util.Vector
-     * <javax.management.ObjectName> javax.management.relation.MBeanServerNotificationFilter.getDisabledObjectNames()}.
+     * java.util.Vector<javax.management.ObjectName>
+     * javax.management.relation.MBeanServerNotificationFilter.getDisabledObjectNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -60,8 +60,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.relation.MBeanServerNotificationFilter#getEnabledObjectNames() public synchronized
-     * java.util.Vector
-     * <javax.management.ObjectName> javax.management.relation.MBeanServerNotificationFilter.getEnabledObjectNames()}.
+     * java.util.Vector<javax.management.ObjectName>
+     * javax.management.relation.MBeanServerNotificationFilter.getEnabledObjectNames()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -22,8 +22,8 @@ implements org.j8unit.repository.java.nio.file.spi.FileSystemProviderClassTests<
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.spi.FileSystemProvider#installedProviders() public static java.util.List
-     * <java.nio.file.spi.FileSystemProvider> java.nio.file.spi.FileSystemProvider.installedProviders()}.
+     * {@link java.nio.file.spi.FileSystemProvider#installedProviders() public static
+     * java.util.List<java.nio.file.spi.FileSystemProvider> java.nio.file.spi.FileSystemProvider.installedProviders()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

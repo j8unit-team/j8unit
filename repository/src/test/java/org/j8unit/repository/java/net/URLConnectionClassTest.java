@@ -85,27 +85,6 @@ implements org.j8unit.repository.java.net.URLConnectionClassTests<URLConnection>
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.net.URLConnection#guessContentTypeFromStream(java.io.InputStream) public static java.lang.String
-     * java.net.URLConnection.guessContentTypeFromStream(java.io.InputStream) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_guessContentTypeFromStream_InputStream()
-    throws Exception {
-        // write some test for {@link java.net.URLConnection#guessContentTypeFromStream(java.io.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.net.URLConnection#setContentHandlerFactory(java.net.ContentHandlerFactory) public static synchronized
      * void java.net.URLConnection.setContentHandlerFactory(java.net.ContentHandlerFactory)}.
      *
@@ -122,6 +101,27 @@ implements org.j8unit.repository.java.net.URLConnectionClassTests<URLConnection>
     public void test_setContentHandlerFactory_ContentHandlerFactory()
     throws Exception {
         // write some test for {@link java.net.URLConnection#setContentHandlerFactory(java.net.ContentHandlerFactory)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.URLConnection#guessContentTypeFromStream(java.io.InputStream) public static java.lang.String
+     * java.net.URLConnection.guessContentTypeFromStream(java.io.InputStream) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_guessContentTypeFromStream_InputStream()
+    throws Exception {
+        // write some test for {@link java.net.URLConnection#guessContentTypeFromStream(java.io.InputStream)}
     }
 
     /**

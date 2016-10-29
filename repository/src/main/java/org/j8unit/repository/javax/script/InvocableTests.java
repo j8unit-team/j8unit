@@ -80,30 +80,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.script.Invocable#invokeMethod(Object, String, Object...) public abstract java.lang.Object
-     * javax.script.Invocable.invokeMethod(java.lang.Object,java.lang.String,java.lang.Object...) throws
-     * javax.script.ScriptException,java.lang.NoSuchMethodException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeMethod_Object_String_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.script.Invocable#invokeFunction(String, Object...) public abstract java.lang.Object
      * javax.script.Invocable.invokeFunction(java.lang.String,java.lang.Object...) throws
      * javax.script.ScriptException,java.lang.NoSuchMethodException}.
@@ -119,6 +95,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_invokeFunction_String_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.script.Invocable#invokeMethod(Object, String, Object...) public abstract java.lang.Object
+     * javax.script.Invocable.invokeMethod(java.lang.Object,java.lang.String,java.lang.Object...) throws
+     * javax.script.ScriptException,java.lang.NoSuchMethodException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invokeMethod_Object_String_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

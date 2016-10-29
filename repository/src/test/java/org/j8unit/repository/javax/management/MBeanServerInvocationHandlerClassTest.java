@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.MBeanServerInvocationHandler#MBeanServerInvocationHandler(javax.management.MBeanServerConnection, javax.management.ObjectName)
      * public
-     * javax.management.MBeanServerInvocationHandler(javax.management.MBeanServerConnection,javax.management.ObjectName)}
-     * .
+     * javax.management.MBeanServerInvocationHandler(javax.management.MBeanServerConnection,javax.management.ObjectName)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -51,8 +50,7 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.MBeanServerInvocationHandler#MBeanServerInvocationHandler(javax.management.MBeanServerConnection, javax.management.ObjectName, boolean)
      * public
-     * javax.management.MBeanServerInvocationHandler(javax.management.MBeanServerConnection,javax.management.ObjectName,boolean)}
-     * .
+     * javax.management.MBeanServerInvocationHandler(javax.management.MBeanServerConnection,javax.management.ObjectName,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -78,8 +76,7 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServerInvocationHandler#newProxyInstance(javax.management.MBeanServerConnection, javax.management.ObjectName, Class, boolean)
      * public static <T> T
-     * javax.management.MBeanServerInvocationHandler.newProxyInstance(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class
-     * <T>,boolean)}.
+     * javax.management.MBeanServerInvocationHandler.newProxyInstance(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class<T>,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

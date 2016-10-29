@@ -22,8 +22,8 @@ implements org.j8unit.repository.javax.swing.DefaultCellEditorClassTests<Default
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JComboBox) public
-     * javax.swing.DefaultCellEditor(javax.swing.JComboBox)}.
+     * {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JTextField) public
+     * javax.swing.DefaultCellEditor(javax.swing.JTextField)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +35,11 @@ implements org.j8unit.repository.javax.swing.DefaultCellEditorClassTests<Default
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DefaultCellEditor_JComboBox()
+    public void create_DefaultCellEditor_JTextField()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JComboBox);
+        final DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JTextField);
     }
 
     /**
@@ -68,8 +68,8 @@ implements org.j8unit.repository.javax.swing.DefaultCellEditorClassTests<Default
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JTextField) public
-     * javax.swing.DefaultCellEditor(javax.swing.JTextField)}.
+     * {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JComboBox) public
+     * javax.swing.DefaultCellEditor(javax.swing.JComboBox)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,11 +81,11 @@ implements org.j8unit.repository.javax.swing.DefaultCellEditorClassTests<Default
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DefaultCellEditor_JTextField()
+    public void create_DefaultCellEditor_JComboBox()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JTextField);
+        final DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JComboBox);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultCellEditor]

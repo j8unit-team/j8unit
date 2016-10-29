@@ -67,52 +67,6 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.DocAttributeSet) public
-     * static javax.print.attribute.DocAttributeSet
-     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.DocAttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_synchronizedView_DocAttributeSet()
-    throws Exception {
-        // write some test for {@link
-        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.DocAttributeSet)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet) public
-     * static javax.print.attribute.AttributeSet
-     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_synchronizedView_AttributeSet()
-    throws Exception {
-        // write some test for {@link
-        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintJobAttributeSet)
      * public static javax.print.attribute.PrintJobAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintJobAttributeSet)}.
@@ -159,9 +113,55 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.DocAttributeSet) public
+     * static javax.print.attribute.DocAttributeSet
+     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.DocAttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_synchronizedView_DocAttributeSet()
+    throws Exception {
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.DocAttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet) public
+     * static javax.print.attribute.AttributeSet
+     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_synchronizedView_AttributeSet()
+    throws Exception {
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.print.attribute.AttributeSetUtilities#verifyCategoryForValue(Class, javax.print.attribute.Attribute)
-     * public static void javax.print.attribute.AttributeSetUtilities.verifyCategoryForValue(java.lang.Class
-     * <?>,javax.print.attribute.Attribute)}.
+     * public static void
+     * javax.print.attribute.AttributeSetUtilities.verifyCategoryForValue(java.lang.Class<?>,javax.print.attribute.Attribute)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,8 +183,8 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeCategory(Object, Class) public static
-     * java.lang.Class
-     * <?> javax.print.attribute.AttributeSetUtilities.verifyAttributeCategory(java.lang.Object,java.lang.Class<?>)}.
+     * java.lang.Class<?>
+     * javax.print.attribute.AttributeSetUtilities.verifyAttributeCategory(java.lang.Object,java.lang.Class<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -205,9 +205,9 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet) public
-     * static javax.print.attribute.AttributeSet
-     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.AttributeSet)}.
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)
+     * public static javax.print.attribute.PrintServiceAttributeSet
+     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -219,33 +219,10 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_unmodifiableView_AttributeSet()
+    public void test_unmodifiableView_PrintServiceAttributeSet()
     throws Exception {
         // write some test for {@link
-        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.DocAttributeSet) public
-     * static javax.print.attribute.DocAttributeSet
-     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.DocAttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_unmodifiableView_DocAttributeSet()
-    throws Exception {
-        // write some test for {@link
-        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.DocAttributeSet)}
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)}
     }
 
     /**
@@ -274,6 +251,29 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.DocAttributeSet) public
+     * static javax.print.attribute.DocAttributeSet
+     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.DocAttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_unmodifiableView_DocAttributeSet()
+    throws Exception {
+        // write some test for {@link
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.DocAttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintJobAttributeSet)
      * public static javax.print.attribute.PrintJobAttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintJobAttributeSet)}.
@@ -297,9 +297,9 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)
-     * public static javax.print.attribute.PrintServiceAttributeSet
-     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)}.
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet) public
+     * static javax.print.attribute.AttributeSet
+     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -311,10 +311,10 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_unmodifiableView_PrintServiceAttributeSet()
+    public void test_unmodifiableView_AttributeSet()
     throws Exception {
         // write some test for {@link
-        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintServiceAttributeSet)}
+        // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.AttributeSetUtilities]

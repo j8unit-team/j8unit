@@ -38,8 +38,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer.POAOperations#create_implicit_activation_policy(org.omg.PortableServer.ImplicitActivationPolicyValue)
      * public abstract org.omg.PortableServer.ImplicitActivationPolicy
-     * org.omg.PortableServer.POAOperations.create_implicit_activation_policy(org.omg.PortableServer.ImplicitActivationPolicyValue)}
-     * .
+     * org.omg.PortableServer.POAOperations.create_implicit_activation_policy(org.omg.PortableServer.ImplicitActivationPolicyValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -64,8 +63,7 @@ extends RepositoryTests<SUT> {
      * {@link org.omg.PortableServer.POAOperations#reference_to_servant(org.omg.CORBA.Object) public abstract
      * org.omg.PortableServer.Servant org.omg.PortableServer.POAOperations.reference_to_servant(org.omg.CORBA.Object)
      * throws
-     * org.omg.PortableServer.POAPackage.ObjectNotActive,org.omg.PortableServer.POAPackage.WrongPolicy,org.omg.PortableServer.POAPackage.WrongAdapter}
-     * .
+     * org.omg.PortableServer.POAPackage.ObjectNotActive,org.omg.PortableServer.POAPackage.WrongPolicy,org.omg.PortableServer.POAPackage.WrongAdapter}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,8 +135,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer.POAOperations#create_id_uniqueness_policy(org.omg.PortableServer.IdUniquenessPolicyValue)
      * public abstract org.omg.PortableServer.IdUniquenessPolicy
-     * org.omg.PortableServer.POAOperations.create_id_uniqueness_policy(org.omg.PortableServer.IdUniquenessPolicyValue)}
-     * .
+     * org.omg.PortableServer.POAOperations.create_id_uniqueness_policy(org.omg.PortableServer.IdUniquenessPolicyValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -371,28 +368,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.POAOperations#the_children()
-     * public abstract org.omg.PortableServer.POA[] org.omg.PortableServer.POAOperations.the_children()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_the_children()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer.POAOperations#reference_to_id(org.omg.CORBA.Object) public abstract byte[]
      * org.omg.PortableServer.POAOperations.reference_to_id(org.omg.CORBA.Object) throws
@@ -409,6 +384,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_reference_to_id_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.POAOperations#the_children()
+     * public abstract org.omg.PortableServer.POA[] org.omg.PortableServer.POAOperations.the_children()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_the_children()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -585,8 +582,7 @@ extends RepositoryTests<SUT> {
      * {@link org.omg.PortableServer.POAOperations#activate_object_with_id(byte[], org.omg.PortableServer.Servant)
      * public abstract void
      * org.omg.PortableServer.POAOperations.activate_object_with_id(byte[],org.omg.PortableServer.Servant) throws
-     * org.omg.PortableServer.POAPackage.ServantAlreadyActive,org.omg.PortableServer.POAPackage.ObjectAlreadyActive,org.omg.PortableServer.POAPackage.WrongPolicy}
-     * .
+     * org.omg.PortableServer.POAPackage.ServantAlreadyActive,org.omg.PortableServer.POAPackage.ObjectAlreadyActive,org.omg.PortableServer.POAPackage.WrongPolicy}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -599,6 +595,30 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_activate_object_with_id_byteArray_Servant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAOperations#create_id_assignment_policy(org.omg.PortableServer.IdAssignmentPolicyValue)
+     * public abstract org.omg.PortableServer.IdAssignmentPolicy
+     * org.omg.PortableServer.POAOperations.create_id_assignment_policy(org.omg.PortableServer.IdAssignmentPolicyValue)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_id_assignment_policy_IdAssignmentPolicyValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -623,31 +643,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_find_POA_String_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableServer.POAOperations#create_id_assignment_policy(org.omg.PortableServer.IdAssignmentPolicyValue)
-     * public abstract org.omg.PortableServer.IdAssignmentPolicy
-     * org.omg.PortableServer.POAOperations.create_id_assignment_policy(org.omg.PortableServer.IdAssignmentPolicyValue)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_id_assignment_policy_IdAssignmentPolicyValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -682,8 +677,7 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer.POAOperations#create_request_processing_policy(org.omg.PortableServer.RequestProcessingPolicyValue)
      * public abstract org.omg.PortableServer.RequestProcessingPolicy
-     * org.omg.PortableServer.POAOperations.create_request_processing_policy(org.omg.PortableServer.RequestProcessingPolicyValue)}
-     * .
+     * org.omg.PortableServer.POAOperations.create_request_processing_policy(org.omg.PortableServer.RequestProcessingPolicyValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -728,29 +722,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableServer.POAOperations#create_reference_with_id(byte[], String) public abstract
-     * org.omg.CORBA.Object org.omg.PortableServer.POAOperations.create_reference_with_id(byte[],java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_reference_with_id_byteArray_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.PortableServer.POAOperations#id() public
      * abstract byte[] org.omg.PortableServer.POAOperations.id()}.
      *
@@ -774,10 +745,32 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableServer.POAOperations#create_reference_with_id(byte[], String) public abstract
+     * org.omg.CORBA.Object org.omg.PortableServer.POAOperations.create_reference_with_id(byte[],java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_reference_with_id_byteArray_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableServer.POAOperations#create_servant_retention_policy(org.omg.PortableServer.ServantRetentionPolicyValue)
      * public abstract org.omg.PortableServer.ServantRetentionPolicy
-     * org.omg.PortableServer.POAOperations.create_servant_retention_policy(org.omg.PortableServer.ServantRetentionPolicyValue)}
-     * .
+     * org.omg.PortableServer.POAOperations.create_servant_retention_policy(org.omg.PortableServer.ServantRetentionPolicyValue)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

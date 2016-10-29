@@ -22,8 +22,9 @@ implements org.j8unit.repository.java.beans.PropertyDescriptorClassTests<Propert
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.beans.PropertyDescriptor#PropertyDescriptor(String, Class) public
-     * java.beans.PropertyDescriptor(java.lang.String,java.lang.Class<?>) throws java.beans.IntrospectionException}.
+     * {@link java.beans.PropertyDescriptor#PropertyDescriptor(String, java.lang.reflect.Method, java.lang.reflect.Method)
+     * public java.beans.PropertyDescriptor(java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method) throws
+     * java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +36,12 @@ implements org.j8unit.repository.java.beans.PropertyDescriptorClassTests<Propert
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_PropertyDescriptor_String_Class()
+    public void create_PropertyDescriptor_String_Method_Method()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PropertyDescriptor sut = null; // = new PropertyDescriptor(String, Class);
+        final PropertyDescriptor sut = null; // = new PropertyDescriptor(String, java.lang.reflect.Method,
+                                             // java.lang.reflect.Method);
     }
 
     /**
@@ -69,9 +71,8 @@ implements org.j8unit.repository.java.beans.PropertyDescriptorClassTests<Propert
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.beans.PropertyDescriptor#PropertyDescriptor(String, java.lang.reflect.Method, java.lang.reflect.Method)
-     * public java.beans.PropertyDescriptor(java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method) throws
-     * java.beans.IntrospectionException}.
+     * {@link java.beans.PropertyDescriptor#PropertyDescriptor(String, Class) public
+     * java.beans.PropertyDescriptor(java.lang.String,java.lang.Class<?>) throws java.beans.IntrospectionException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -83,12 +84,11 @@ implements org.j8unit.repository.java.beans.PropertyDescriptorClassTests<Propert
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_PropertyDescriptor_String_Method_Method()
+    public void create_PropertyDescriptor_String_Class()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final PropertyDescriptor sut = null; // = new PropertyDescriptor(String, java.lang.reflect.Method,
-                                             // java.lang.reflect.Method);
+        final PropertyDescriptor sut = null; // = new PropertyDescriptor(String, Class);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyDescriptor]

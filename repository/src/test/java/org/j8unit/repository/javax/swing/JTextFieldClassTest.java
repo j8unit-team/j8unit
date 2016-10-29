@@ -21,9 +21,8 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JTextField#JTextField(javax.swing.text.Document, String, int) public
-     * javax.swing.JTextField(javax.swing.text.Document,java.lang.String,int)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(String)
+     * public javax.swing.JTextField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,11 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JTextField_Document_String_int()
+    public void create_JTextField_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTextField sut = null; // = new JTextField(javax.swing.text.Document, String, int);
+        final JTextField sut = null; // = new JTextField(String);
     }
 
     /**
@@ -66,8 +65,9 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(int) public
-     * javax.swing.JTextField(int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JTextField#JTextField(javax.swing.text.Document, String, int) public
+     * javax.swing.JTextField(javax.swing.text.Document,java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -79,33 +79,11 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JTextField_int()
+    public void create_JTextField_Document_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JTextField sut = null; // = new JTextField(int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(String)
-     * public javax.swing.JTextField(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JTextField_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JTextField sut = null; // = new JTextField(String);
+        final JTextField sut = null; // = new JTextField(javax.swing.text.Document, String, int);
     }
 
     /**
@@ -127,6 +105,28 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
     throws Exception {
         // create new instance
         final JTextField sut = new JTextField();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JTextField#JTextField(int) public
+     * javax.swing.JTextField(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JTextField_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JTextField sut = null; // = new JTextField(int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTextField]

@@ -60,30 +60,6 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.renderable.RenderableImageOp#isDynamic() public boolean
-     * java.awt.image.renderable.RenderableImageOp.isDynamic()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isDynamic()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.renderable.RenderableImageOp#getProperty(String) public java.lang.Object
      * java.awt.image.renderable.RenderableImageOp.getProperty(java.lang.String)}.
      *
@@ -108,8 +84,8 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.renderable.RenderableImageOp#getHeight() public float
-     * java.awt.image.renderable.RenderableImageOp.getHeight()}.
+     * {@link java.awt.image.renderable.RenderableImageOp#isDynamic() public boolean
+     * java.awt.image.renderable.RenderableImageOp.isDynamic()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -122,7 +98,7 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getHeight()
+    public default void test_isDynamic()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -180,6 +156,30 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.renderable.RenderableImageOp#getHeight() public float
+     * java.awt.image.renderable.RenderableImageOp.getHeight()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.renderable.RenderableImageOp#getMinY() public float
      * java.awt.image.renderable.RenderableImageOp.getMinY()}.
      *
@@ -228,8 +228,33 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.renderable.RenderableImageOp#getSources() public java.util.Vector
-     * <java.awt.image.renderable.RenderableImage> java.awt.image.renderable.RenderableImageOp.getSources()}.
+     * {@link java.awt.image.renderable.RenderableImageOp#createDefaultRendering() public java.awt.image.RenderedImage
+     * java.awt.image.renderable.RenderableImageOp.createDefaultRendering()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_createDefaultRendering()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.renderable.RenderableImageOp#getSources() public
+     * java.util.Vector<java.awt.image.renderable.RenderableImage>
+     * java.awt.image.renderable.RenderableImageOp.getSources()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -267,30 +292,6 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_getWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.renderable.RenderableImageOp#createDefaultRendering() public java.awt.image.RenderedImage
-     * java.awt.image.renderable.RenderableImageOp.createDefaultRendering()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_createDefaultRendering()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

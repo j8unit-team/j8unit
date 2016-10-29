@@ -126,30 +126,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.w3c.dom.ranges.Range#setEndBefore(org.w3c.dom.Node) public abstract void
-     * org.w3c.dom.ranges.Range.setEndBefore(org.w3c.dom.Node) throws
-     * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEndBefore_Node()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.ranges.Range#insertNode(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.insertNode(org.w3c.dom.Node) throws
      * org.w3c.dom.DOMException,org.w3c.dom.ranges.RangeException}.
@@ -173,9 +149,33 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#setEndBefore(org.w3c.dom.Node) public abstract void
+     * org.w3c.dom.ranges.Range.setEndBefore(org.w3c.dom.Node) throws
+     * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEndBefore_Node()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#extractContents() public
-     * abstract org.w3c.dom.DocumentFragment org.w3c.dom.ranges.Range.extractContents() throws org.w3c.dom.DOMException}
-     * .
+     * abstract org.w3c.dom.DocumentFragment org.w3c.dom.ranges.Range.extractContents() throws
+     * org.w3c.dom.DOMException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -263,6 +263,29 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ranges.Range#compareBoundaryPoints(short, org.w3c.dom.ranges.Range) public abstract short
+     * org.w3c.dom.ranges.Range.compareBoundaryPoints(short,org.w3c.dom.ranges.Range) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareBoundaryPoints_short_Range()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.ranges.Range#setEndAfter(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setEndAfter(org.w3c.dom.Node) throws
      * org.w3c.dom.ranges.RangeException,org.w3c.dom.DOMException}.
@@ -278,29 +301,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setEndAfter_Node()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.w3c.dom.ranges.Range#compareBoundaryPoints(short, org.w3c.dom.ranges.Range) public abstract short
-     * org.w3c.dom.ranges.Range.compareBoundaryPoints(short,org.w3c.dom.ranges.Range) throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareBoundaryPoints_short_Range()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -399,6 +399,28 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#toString() public abstract
+     * java.lang.String org.w3c.dom.ranges.Range.toString() throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.ranges.Range#setStartBefore(org.w3c.dom.Node) public abstract void
      * org.w3c.dom.ranges.Range.setStartBefore(org.w3c.dom.Node) throws
@@ -415,28 +437,6 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setStartBefore_Node()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ranges.Range#toString() public abstract
-     * java.lang.String org.w3c.dom.ranges.Range.toString() throws org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

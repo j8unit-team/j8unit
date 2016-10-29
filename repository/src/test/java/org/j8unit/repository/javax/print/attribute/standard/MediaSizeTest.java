@@ -24,36 +24,6 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<M
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize]
 
     @RunWith(J8Unit4.class)
-    public static class OtherTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests<Other> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
-
-        @Override
-        public Other createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.print.attribute.standard.MediaSize.Other], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class NATest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests<NA> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
-
-        @Override
-        public NA createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.print.attribute.standard.MediaSize.NA], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class JISTest
     implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests<JIS> {
 
@@ -84,6 +54,21 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<M
     }
 
     @RunWith(J8Unit4.class)
+    public static class OtherTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests<Other> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
+
+        @Override
+        public Other createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.print.attribute.standard.MediaSize.Other], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class ISOTest
     implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.ISOTests<ISO> {
 
@@ -95,6 +80,21 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests<M
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$ISO]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class NATest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests<NA> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
+
+        @Override
+        public NA createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.print.attribute.standard.MediaSize.NA], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
 
     }
 

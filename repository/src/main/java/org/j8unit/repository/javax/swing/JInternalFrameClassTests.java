@@ -5,7 +5,7 @@ import javax.swing.JInternalFrame;
 import javax.swing.JInternalFrame.JDesktopIcon;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -60,7 +60,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -123,7 +123,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance

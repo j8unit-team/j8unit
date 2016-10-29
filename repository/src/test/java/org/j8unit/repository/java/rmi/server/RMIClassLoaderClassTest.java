@@ -43,9 +43,10 @@ implements org.j8unit.repository.java.rmi.server.RMIClassLoaderClassTests<RMICla
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.RMIClassLoader#loadProxyClass(String, String[], ClassLoader) public static java.lang.Class
-     * <?> java.rmi.server.RMIClassLoader.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
-     * throws java.lang.ClassNotFoundException,java.net.MalformedURLException}.
+     * {@link java.rmi.server.RMIClassLoader#loadProxyClass(String, String[], ClassLoader) public static
+     * java.lang.Class<?>
+     * java.rmi.server.RMIClassLoader.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader) throws
+     * java.lang.ClassNotFoundException,java.net.MalformedURLException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -150,8 +151,30 @@ implements org.j8unit.repository.java.rmi.server.RMIClassLoaderClassTests<RMICla
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.RMIClassLoader#loadClass(String, String, ClassLoader) public static java.lang.Class
-     * <?> java.rmi.server.RMIClassLoader.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
+     * {@link java.rmi.server.RMIClassLoader#loadClass(java.net.URL, String) public static java.lang.Class<?>
+     * java.rmi.server.RMIClassLoader.loadClass(java.net.URL,java.lang.String) throws
+     * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_loadClass_URL_String()
+    throws Exception {
+        // write some test for {@link java.rmi.server.RMIClassLoader#loadClass(java.net.URL, String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RMIClassLoader#loadClass(String, String, ClassLoader) public static java.lang.Class<?>
+     * java.rmi.server.RMIClassLoader.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -172,8 +195,8 @@ implements org.j8unit.repository.java.rmi.server.RMIClassLoaderClassTests<RMICla
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.RMIClassLoader#loadClass(String, String) public static java.lang.Class
-     * <?> java.rmi.server.RMIClassLoader.loadClass(java.lang.String,java.lang.String) throws
+     * {@link java.rmi.server.RMIClassLoader#loadClass(String, String) public static java.lang.Class<?>
+     * java.rmi.server.RMIClassLoader.loadClass(java.lang.String,java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -189,28 +212,6 @@ implements org.j8unit.repository.java.rmi.server.RMIClassLoaderClassTests<RMICla
     public void test_loadClass_String_String()
     throws Exception {
         // write some test for {@link java.rmi.server.RMIClassLoader#loadClass(String, String)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.RMIClassLoader#loadClass(java.net.URL, String) public static java.lang.Class
-     * <?> java.rmi.server.RMIClassLoader.loadClass(java.net.URL,java.lang.String) throws
-     * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_loadClass_URL_String()
-    throws Exception {
-        // write some test for {@link java.rmi.server.RMIClassLoader#loadClass(java.net.URL, String)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIClassLoader]

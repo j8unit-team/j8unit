@@ -63,8 +63,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#unmodifiableSortedSet(java.util.SortedSet) public static <T> java.util.SortedSet
-     * <T> java.util.Collections.unmodifiableSortedSet(java.util.SortedSet<T>)}.
+     * {@link java.util.Collections#unmodifiableSortedSet(java.util.SortedSet) public static <T> java.util.SortedSet<T>
+     * java.util.Collections.unmodifiableSortedSet(java.util.SortedSet<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -104,8 +104,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedQueue(java.util.Queue, Class) public static <E> java.util.Queue
-     * <E> java.util.Collections.checkedQueue(java.util.Queue<E>,java.lang.Class<E>)}.
+     * {@link java.util.Collections#checkedQueue(java.util.Queue, Class) public static <E> java.util.Queue<E>
+     * java.util.Collections.checkedQueue(java.util.Queue<E>,java.lang.Class<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,9 +166,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#unmodifiableSortedMap(java.util.SortedMap) public static
-     * <K,V> java.util.SortedMap<K, V> java.util.Collections.unmodifiableSortedMap(java.util.SortedMap<K, ? extends V>)}
-     * .
+     * {@link java.util.Collections#unmodifiableSortedMap(java.util.SortedMap) public static <K,V>
+     * java.util.SortedMap<K, V> java.util.Collections.unmodifiableSortedMap(java.util.SortedMap<K, ? extends V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,8 +187,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedList(java.util.List, Class) public static <E> java.util.List
-     * <E> java.util.Collections.checkedList(java.util.List<E>,java.lang.Class<E>)}.
+     * {@link java.util.Collections#checkedList(java.util.List, Class) public static <E> java.util.List<E>
+     * java.util.Collections.checkedList(java.util.List<E>,java.lang.Class<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -330,9 +329,9 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#unmodifiableNavigableMap(java.util.NavigableMap) public static
-     * <K,V> java.util.NavigableMap<K, V> java.util.Collections.unmodifiableNavigableMap(java.util.NavigableMap<K, ?
-     * extends V>)}.
+     * {@link java.util.Collections#unmodifiableNavigableMap(java.util.NavigableMap) public static <K,V>
+     * java.util.NavigableMap<K, V> java.util.Collections.unmodifiableNavigableMap(java.util.NavigableMap<K, ? extends
+     * V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -412,8 +411,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedSet(java.util.Set, Class) public static <E> java.util.Set
-     * <E> java.util.Collections.checkedSet(java.util.Set<E>,java.lang.Class<E>)}.
+     * {@link java.util.Collections#checkedSet(java.util.Set, Class) public static <E> java.util.Set<E>
+     * java.util.Collections.checkedSet(java.util.Set<E>,java.lang.Class<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -474,8 +473,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#synchronizedList(java.util.List) public static <T> java.util.List
-     * <T> java.util.Collections.synchronizedList(java.util.List<T>)}.
+     * {@link java.util.Collections#synchronizedList(java.util.List) public static <T> java.util.List<T>
+     * java.util.Collections.synchronizedList(java.util.List<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -660,8 +659,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#synchronizedCollection(java.util.Collection) public static <T> java.util.Collection
-     * <T> java.util.Collections.synchronizedCollection(java.util.Collection<T>)}.
+     * {@link java.util.Collections#synchronizedCollection(java.util.Collection) public static <T>
+     * java.util.Collection<T> java.util.Collections.synchronizedCollection(java.util.Collection<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -701,8 +700,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#reverseOrder(java.util.Comparator) public static <T> java.util.Comparator
-     * <T> java.util.Collections.reverseOrder(java.util.Comparator<T>)}.
+     * {@link java.util.Collections#reverseOrder(java.util.Comparator) public static <T> java.util.Comparator<T>
+     * java.util.Collections.reverseOrder(java.util.Comparator<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -742,8 +741,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#synchronizedSortedMap(java.util.SortedMap) public static
-     * <K,V> java.util.SortedMap<K, V> java.util.Collections.synchronizedSortedMap(java.util.SortedMap<K, V>)}.
+     * {@link java.util.Collections#synchronizedSortedMap(java.util.SortedMap) public static <K,V>
+     * java.util.SortedMap<K, V> java.util.Collections.synchronizedSortedMap(java.util.SortedMap<K, V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -804,8 +803,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#unmodifiableList(java.util.List) public static <T> java.util.List
-     * <T> java.util.Collections.unmodifiableList(java.util.List<? extends T>)}.
+     * {@link java.util.Collections#unmodifiableList(java.util.List) public static <T> java.util.List<T>
+     * java.util.Collections.unmodifiableList(java.util.List<? extends T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -865,8 +864,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#synchronizedNavigableSet(java.util.NavigableSet) public static
-     * <T> java.util.NavigableSet<T> java.util.Collections.synchronizedNavigableSet(java.util.NavigableSet<T>)}.
+     * {@link java.util.Collections#synchronizedNavigableSet(java.util.NavigableSet) public static <T>
+     * java.util.NavigableSet<T> java.util.Collections.synchronizedNavigableSet(java.util.NavigableSet<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -947,27 +946,6 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedCollection(java.util.Collection, Class) public static
-     * <E> java.util.Collection<E> java.util.Collections.checkedCollection(java.util.Collection<E>,java.lang.Class<E>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_checkedCollection_Collection_Class()
-    throws Exception {
-        // write some test for {@link java.util.Collections#checkedCollection(java.util.Collection, Class)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Collections#swap(java.util.List, int, int)
      * public static void java.util.Collections.swap(java.util.List<?>,int,int)}.
      *
@@ -989,8 +967,29 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#synchronizedSortedSet(java.util.SortedSet) public static <T> java.util.SortedSet
-     * <T> java.util.Collections.synchronizedSortedSet(java.util.SortedSet<T>)}.
+     * {@link java.util.Collections#checkedCollection(java.util.Collection, Class) public static <E>
+     * java.util.Collection<E> java.util.Collections.checkedCollection(java.util.Collection<E>,java.lang.Class<E>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_checkedCollection_Collection_Class()
+    throws Exception {
+        // write some test for {@link java.util.Collections#checkedCollection(java.util.Collection, Class)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Collections#synchronizedSortedSet(java.util.SortedSet) public static <T> java.util.SortedSet<T>
+     * java.util.Collections.synchronizedSortedSet(java.util.SortedSet<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1030,8 +1029,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#synchronizedNavigableMap(java.util.NavigableMap) public static
-     * <K,V> java.util.NavigableMap<K, V> java.util.Collections.synchronizedNavigableMap(java.util.NavigableMap<K, V>)}.
+     * {@link java.util.Collections#synchronizedNavigableMap(java.util.NavigableMap) public static <K,V>
+     * java.util.NavigableMap<K, V> java.util.Collections.synchronizedNavigableMap(java.util.NavigableMap<K, V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1051,8 +1050,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#enumeration(java.util.Collection) public static <T> java.util.Enumeration
-     * <T> java.util.Collections.enumeration(java.util.Collection<T>)}.
+     * {@link java.util.Collections#enumeration(java.util.Collection) public static <T> java.util.Enumeration<T>
+     * java.util.Collections.enumeration(java.util.Collection<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1092,8 +1091,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#unmodifiableNavigableSet(java.util.NavigableSet) public static
-     * <T> java.util.NavigableSet<T> java.util.Collections.unmodifiableNavigableSet(java.util.NavigableSet<T>)}.
+     * {@link java.util.Collections#unmodifiableNavigableSet(java.util.NavigableSet) public static <T>
+     * java.util.NavigableSet<T> java.util.Collections.unmodifiableNavigableSet(java.util.NavigableSet<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1113,8 +1112,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedSortedSet(java.util.SortedSet, Class) public static <E> java.util.SortedSet
-     * <E> java.util.Collections.checkedSortedSet(java.util.SortedSet<E>,java.lang.Class<E>)}.
+     * {@link java.util.Collections#checkedSortedSet(java.util.SortedSet, Class) public static <E>
+     * java.util.SortedSet<E> java.util.Collections.checkedSortedSet(java.util.SortedSet<E>,java.lang.Class<E>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1134,8 +1133,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedNavigableMap(java.util.NavigableMap, Class, Class) public static
-     * <K,V> java.util.NavigableMap<K, V> java.util.Collections.checkedNavigableMap(java.util.NavigableMap<K,
+     * {@link java.util.Collections#checkedNavigableMap(java.util.NavigableMap, Class, Class) public static <K,V>
+     * java.util.NavigableMap<K, V> java.util.Collections.checkedNavigableMap(java.util.NavigableMap<K,
      * V>,java.lang.Class<K>,java.lang.Class<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -1151,27 +1150,6 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     public void test_checkedNavigableMap_NavigableMap_Class_Class()
     throws Exception {
         // write some test for {@link java.util.Collections#checkedNavigableMap(java.util.NavigableMap, Class, Class)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#disjoint(java.util.Collection, java.util.Collection) public static boolean
-     * java.util.Collections.disjoint(java.util.Collection<?>,java.util.Collection<?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_disjoint_Collection_Collection()
-    throws Exception {
-        // write some test for {@link java.util.Collections#disjoint(java.util.Collection, java.util.Collection)}
     }
 
     /**
@@ -1197,9 +1175,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedNavigableSet(java.util.NavigableSet, Class) public static
-     * <E> java.util.NavigableSet<E> java.util.Collections.checkedNavigableSet(java.util.NavigableSet<E>,java.lang.Class
-     * <E>)}.
+     * {@link java.util.Collections#disjoint(java.util.Collection, java.util.Collection) public static boolean
+     * java.util.Collections.disjoint(java.util.Collection<?>,java.util.Collection<?>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1211,16 +1188,16 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_checkedNavigableSet_NavigableSet_Class()
+    public void test_disjoint_Collection_Collection()
     throws Exception {
-        // write some test for {@link java.util.Collections#checkedNavigableSet(java.util.NavigableSet, Class)}
+        // write some test for {@link java.util.Collections#disjoint(java.util.Collection, java.util.Collection)}
     }
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#unmodifiableCollection(java.util.Collection) public static <T> java.util.Collection
-     * <T> java.util.Collections.unmodifiableCollection(java.util.Collection<? extends T>)}.
+     * {@link java.util.Collections#unmodifiableCollection(java.util.Collection) public static <T>
+     * java.util.Collection<T> java.util.Collections.unmodifiableCollection(java.util.Collection<? extends T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1240,9 +1217,31 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.Collections#checkedSortedMap(java.util.SortedMap, Class, Class) public static
-     * <K,V> java.util.SortedMap<K, V> java.util.Collections.checkedSortedMap(java.util.SortedMap<K, V>,java.lang.Class
-     * <K>,java.lang.Class<V>)}.
+     * {@link java.util.Collections#checkedNavigableSet(java.util.NavigableSet, Class) public static <E>
+     * java.util.NavigableSet<E>
+     * java.util.Collections.checkedNavigableSet(java.util.NavigableSet<E>,java.lang.Class<E>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_checkedNavigableSet_NavigableSet_Class()
+    throws Exception {
+        // write some test for {@link java.util.Collections#checkedNavigableSet(java.util.NavigableSet, Class)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.Collections#checkedSortedMap(java.util.SortedMap, Class, Class) public static <K,V>
+     * java.util.SortedMap<K, V> java.util.Collections.checkedSortedMap(java.util.SortedMap<K,
+     * V>,java.lang.Class<K>,java.lang.Class<V>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

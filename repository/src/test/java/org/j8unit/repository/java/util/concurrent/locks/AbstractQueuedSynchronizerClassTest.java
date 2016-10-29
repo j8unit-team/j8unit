@@ -38,8 +38,7 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedSynchr
          * Test method for the hereby targeted constructor-under-test
          * {@link java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject#ConditionObject(java.util.concurrent.locks.AbstractQueuedSynchronizer)
          * public
-         * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject(java.util.concurrent.locks.AbstractQueuedSynchronizer)}
-         * .
+         * java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject(java.util.concurrent.locks.AbstractQueuedSynchronizer)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

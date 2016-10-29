@@ -23,8 +23,8 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageInputStreamClassT
      * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.imageio.stream.FileImageInputStream#FileImageInputStream(java.io.File) public
-     * javax.imageio.stream.FileImageInputStream(java.io.File) throws java.io.FileNotFoundException,java.io.IOException}
-     * .
+     * javax.imageio.stream.FileImageInputStream(java.io.File) throws
+     * java.io.FileNotFoundException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

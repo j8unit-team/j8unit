@@ -3,7 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicButtonListener;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -59,7 +59,7 @@ org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8un
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

@@ -164,21 +164,6 @@ implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64]
 
     @RunWith(J8Unit4.class)
-    public static class DecoderClassTest
-    implements org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests<Decoder> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Base64$Decoder]
-
-        @Override
-        public Class<Decoder> createNewSUT() {
-            return Decoder.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64$Decoder]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class EncoderClassTest
     implements org.j8unit.repository.java.util.Base64ClassTests.EncoderClassTests<Encoder> {
 
@@ -190,6 +175,21 @@ implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64$Encoder]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DecoderClassTest
+    implements org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests<Decoder> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Base64$Decoder]
+
+        @Override
+        public Class<Decoder> createNewSUT() {
+            return Decoder.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64$Decoder]
 
     }
 

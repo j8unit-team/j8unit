@@ -320,28 +320,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putInt(int) public abstract
-     * java.nio.ByteBuffer java.nio.ByteBuffer.putInt(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putInt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putInt(int, int) public abstract
      * java.nio.ByteBuffer java.nio.ByteBuffer.putInt(int,int)}.
      *
@@ -356,6 +334,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_putInt_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putInt(int) public abstract
+     * java.nio.ByteBuffer java.nio.ByteBuffer.putInt(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putInt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -474,28 +474,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getInt() public abstract int
-     * java.nio.ByteBuffer.getInt()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInt()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getInt(int) public abstract int
      * java.nio.ByteBuffer.getInt(int)}.
      *
@@ -510,6 +488,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getInt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getInt() public abstract int
+     * java.nio.ByteBuffer.getInt()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInt()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -672,28 +672,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putDouble(int, double) public
-     * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putDouble(int,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putDouble_int_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putDouble(double) public
      * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putDouble(double)}.
      *
@@ -716,8 +694,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getDouble(int) public abstract
-     * double java.nio.ByteBuffer.getDouble(int)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putDouble(int, double) public
+     * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putDouble(int,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -729,7 +707,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDouble_int()
+    public default void test_putDouble_int_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -760,8 +738,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putShort(int, short) public
-     * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putShort(int,short)}.
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getDouble(int) public abstract
+     * double java.nio.ByteBuffer.getDouble(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -773,7 +751,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_putShort_int_short()
+    public default void test_getDouble_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -796,6 +774,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_putShort_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putShort(int, short) public
+     * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putShort(int,short)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putShort_int_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -983,28 +983,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putChar(int, char) public
-     * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putChar(int,char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putChar_int_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putChar(char) public abstract
      * java.nio.ByteBuffer java.nio.ByteBuffer.putChar(char)}.
      *
@@ -1019,6 +997,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_putChar_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#putChar(int, char) public
+     * abstract java.nio.ByteBuffer java.nio.ByteBuffer.putChar(int,char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putChar_int_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1163,28 +1163,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getLong(int) public abstract
-     * long java.nio.ByteBuffer.getLong(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLong_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getLong() public abstract long
      * java.nio.ByteBuffer.getLong()}.
      *
@@ -1199,6 +1177,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getLong()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.ByteBuffer#getLong(int) public abstract
+     * long java.nio.ByteBuffer.getLong(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLong_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

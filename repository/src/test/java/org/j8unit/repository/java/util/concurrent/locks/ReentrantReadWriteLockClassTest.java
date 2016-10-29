@@ -24,28 +24,6 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#ReentrantReadWriteLock() public
-     * java.util.concurrent.locks.ReentrantReadWriteLock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ReentrantReadWriteLock()
-    throws Exception {
-        // create new instance
-        final ReentrantReadWriteLock sut = new ReentrantReadWriteLock();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.locks.ReentrantReadWriteLock#ReentrantReadWriteLock(boolean) public
      * java.util.concurrent.locks.ReentrantReadWriteLock(boolean)}.
      *
@@ -64,6 +42,28 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
         // create new instance
         @SuppressWarnings("unused")
         final ReentrantReadWriteLock sut = null; // = new ReentrantReadWriteLock(boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#ReentrantReadWriteLock() public
+     * java.util.concurrent.locks.ReentrantReadWriteLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ReentrantReadWriteLock()
+    throws Exception {
+        // create new instance
+        final ReentrantReadWriteLock sut = new ReentrantReadWriteLock();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]

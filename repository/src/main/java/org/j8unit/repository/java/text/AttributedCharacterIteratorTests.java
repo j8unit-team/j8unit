@@ -36,30 +36,6 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.text.AttributedCharacterIterator#getAttribute(java.text.AttributedCharacterIterator.Attribute) public
-     * abstract java.lang.Object
-     * java.text.AttributedCharacterIterator.getAttribute(java.text.AttributedCharacterIterator$Attribute)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttribute_Attribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.text.AttributedCharacterIterator#getAttributes() public abstract
      * java.util.Map<java.text.AttributedCharacterIterator$Attribute, java.lang.Object>
      * java.text.AttributedCharacterIterator.getAttributes()}.
@@ -84,8 +60,33 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.text.AttributedCharacterIterator#getAllAttributeKeys() public abstract java.util.Set
-     * <java.text.AttributedCharacterIterator$Attribute> java.text.AttributedCharacterIterator.getAllAttributeKeys()}.
+     * {@link java.text.AttributedCharacterIterator#getAttribute(java.text.AttributedCharacterIterator.Attribute) public
+     * abstract java.lang.Object
+     * java.text.AttributedCharacterIterator.getAttribute(java.text.AttributedCharacterIterator$Attribute)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttribute_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.AttributedCharacterIterator#getAllAttributeKeys() public abstract
+     * java.util.Set<java.text.AttributedCharacterIterator$Attribute>
+     * java.text.AttributedCharacterIterator.getAllAttributeKeys()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,30 +99,6 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAllAttributeKeys()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.text.AttributedCharacterIterator#getRunLimit(java.util.Set) public abstract int
-     * java.text.AttributedCharacterIterator.getRunLimit(java.util.Set<? extends
-     * java.text.AttributedCharacterIterator$Attribute>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRunLimit_Set()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,8 +153,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.text.AttributedCharacterIterator#getRunStart(java.util.Set) public abstract int
-     * java.text.AttributedCharacterIterator.getRunStart(java.util.Set<? extends
+     * {@link java.text.AttributedCharacterIterator#getRunLimit(java.util.Set) public abstract int
+     * java.text.AttributedCharacterIterator.getRunLimit(java.util.Set<? extends
      * java.text.AttributedCharacterIterator$Attribute>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -190,7 +167,29 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRunStart_Set()
+    public default void test_getRunLimit_Set()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.AttributedCharacterIterator#getRunStart()
+     * public abstract int java.text.AttributedCharacterIterator.getRunStart()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRunStart()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,8 +221,10 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.AttributedCharacterIterator#getRunStart()
-     * public abstract int java.text.AttributedCharacterIterator.getRunStart()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.text.AttributedCharacterIterator#getRunStart(java.util.Set) public abstract int
+     * java.text.AttributedCharacterIterator.getRunStart(java.util.Set<? extends
+     * java.text.AttributedCharacterIterator$Attribute>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,7 +236,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRunStart()
+    public default void test_getRunStart_Set()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

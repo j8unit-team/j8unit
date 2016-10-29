@@ -252,30 +252,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_short() public
-     * short org.omg.DynamicAny._DynUnionStub.get_short() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_get_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_longlong()
      * public long org.omg.DynamicAny._DynUnionStub.get_longlong() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
@@ -292,6 +268,30 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_get_longlong()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_short() public
+     * short org.omg.DynamicAny._DynUnionStub.get_short() throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -761,6 +761,29 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#destroy() public
+     * void org.omg.DynamicAny._DynUnionStub.destroy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_destroy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_reference()
      * public org.omg.CORBA.Object org.omg.DynamicAny._DynUnionStub.get_reference() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
@@ -777,29 +800,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_get_reference()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#destroy() public
-     * void org.omg.DynamicAny._DynUnionStub.destroy()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_destroy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -927,31 +927,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.omg.DynamicAny._DynUnionStub#insert_string(String) public void
-     * org.omg.DynamicAny._DynUnionStub.insert_string(java.lang.String) throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_string_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#member() public
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny._DynUnionStub.member() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
@@ -976,8 +951,10 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#component_count()
-     * public int org.omg.DynamicAny._DynUnionStub.component_count()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.omg.DynamicAny._DynUnionStub#insert_string(String) public void
+     * org.omg.DynamicAny._DynUnionStub.insert_string(java.lang.String) throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -990,7 +967,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_component_count()
+    public default void test_insert_string_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1022,9 +999,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_string() public
-     * java.lang.String org.omg.DynamicAny._DynUnionStub.get_string() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#component_count()
+     * public int org.omg.DynamicAny._DynUnionStub.component_count()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1037,7 +1013,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_get_string()
+    public default void test_component_count()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1061,6 +1037,30 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynUnionTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_next()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynUnionStub#get_string() public
+     * java.lang.String org.omg.DynamicAny._DynUnionStub.get_string() throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_get_string()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

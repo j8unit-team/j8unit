@@ -59,31 +59,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.w3c.dom.DOMImplementation#createDocumentType(String, String, String) public abstract
-     * org.w3c.dom.DocumentType
-     * org.w3c.dom.DOMImplementation.createDocumentType(java.lang.String,java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDocumentType_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.w3c.dom.DOMImplementation#createDocument(String, String, org.w3c.dom.DocumentType) public abstract
      * org.w3c.dom.Document
      * org.w3c.dom.DOMImplementation.createDocument(java.lang.String,java.lang.String,org.w3c.dom.DocumentType) throws
@@ -100,6 +75,31 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createDocument_String_String_DocumentType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.DOMImplementation#createDocumentType(String, String, String) public abstract
+     * org.w3c.dom.DocumentType
+     * org.w3c.dom.DOMImplementation.createDocumentType(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDocumentType_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

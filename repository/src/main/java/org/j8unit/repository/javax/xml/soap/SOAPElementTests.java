@@ -123,29 +123,6 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPElement#removeAttribute(javax.xml.namespace.QName) public abstract boolean
-     * javax.xml.soap.SOAPElement.removeAttribute(javax.xml.namespace.QName)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAttribute_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.soap.SOAPElement#removeAttribute(javax.xml.soap.Name) public abstract boolean
      * javax.xml.soap.SOAPElement.removeAttribute(javax.xml.soap.Name)}.
      *
@@ -160,6 +137,29 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_removeAttribute_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPElement#removeAttribute(javax.xml.namespace.QName) public abstract boolean
+     * javax.xml.soap.SOAPElement.removeAttribute(javax.xml.namespace.QName)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAttribute_QName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -328,30 +328,6 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPElement#addAttribute(javax.xml.soap.Name, String) public abstract
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addAttribute(javax.xml.soap.Name,java.lang.String) throws
-     * javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAttribute_Name_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.soap.SOAPElement#addAttribute(javax.xml.namespace.QName, String) public abstract
      * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addAttribute(javax.xml.namespace.QName,java.lang.String)
      * throws javax.xml.soap.SOAPException}.
@@ -367,6 +343,30 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_addAttribute_QName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPElement#addAttribute(javax.xml.soap.Name, String) public abstract
+     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addAttribute(javax.xml.soap.Name,java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAttribute_Name_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -559,30 +559,6 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPElement#addChildElement(javax.xml.namespace.QName) public abstract
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addChildElement(javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addChildElement_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.xml.soap.SOAPElement#addChildElement(String)
      * public abstract javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addChildElement(java.lang.String) throws
      * javax.xml.soap.SOAPException}.
@@ -607,8 +583,8 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPElement#addChildElement(javax.xml.soap.SOAPElement) public abstract
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addChildElement(javax.xml.soap.SOAPElement) throws
+     * {@link javax.xml.soap.SOAPElement#addChildElement(javax.xml.namespace.QName) public abstract
+     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addChildElement(javax.xml.namespace.QName) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -621,7 +597,54 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addChildElement_SOAPElement()
+    public default void test_addChildElement_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPElement#addChildElement(javax.xml.soap.Name) public abstract javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPElement.addChildElement(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addChildElement_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPElement#addChildElement(String, String) public abstract javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPElement.addChildElement(java.lang.String,java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addChildElement_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -656,8 +679,8 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPElement#addChildElement(String, String) public abstract javax.xml.soap.SOAPElement
-     * javax.xml.soap.SOAPElement.addChildElement(java.lang.String,java.lang.String) throws
+     * {@link javax.xml.soap.SOAPElement#addChildElement(javax.xml.soap.SOAPElement) public abstract
+     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPElement.addChildElement(javax.xml.soap.SOAPElement) throws
      * javax.xml.soap.SOAPException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -670,30 +693,7 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addChildElement_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPElement#addChildElement(javax.xml.soap.Name) public abstract javax.xml.soap.SOAPElement
-     * javax.xml.soap.SOAPElement.addChildElement(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addChildElement_Name()
+    public default void test_addChildElement_SOAPElement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

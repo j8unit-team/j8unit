@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String) public
+     * javax.xml.bind.TypeConstraintException(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TypeConstraintException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TypeConstraintException sut = null; // = new TypeConstraintException(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String, String, Throwable) public
      * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      *
@@ -40,52 +63,6 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
         // create new instance
         @SuppressWarnings("unused")
         final TypeConstraintException sut = null; // = new TypeConstraintException(String, String, Throwable);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String, Throwable) public
-     * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.Throwable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TypeConstraintException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TypeConstraintException sut = null; // = new TypeConstraintException(String, Throwable);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(Throwable) public
-     * javax.xml.bind.TypeConstraintException(java.lang.Throwable)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TypeConstraintException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TypeConstraintException sut = null; // = new TypeConstraintException(Throwable);
     }
 
     /**
@@ -114,8 +91,8 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String) public
-     * javax.xml.bind.TypeConstraintException(java.lang.String)}.
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(Throwable) public
+     * javax.xml.bind.TypeConstraintException(java.lang.Throwable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -127,11 +104,34 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TypeConstraintException_String()
+    public void create_TypeConstraintException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TypeConstraintException sut = null; // = new TypeConstraintException(String);
+        final TypeConstraintException sut = null; // = new TypeConstraintException(Throwable);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(String, Throwable) public
+     * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.Throwable)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TypeConstraintException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TypeConstraintException sut = null; // = new TypeConstraintException(String, Throwable);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.TypeConstraintException]

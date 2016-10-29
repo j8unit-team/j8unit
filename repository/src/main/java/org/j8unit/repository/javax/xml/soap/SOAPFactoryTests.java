@@ -174,6 +174,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.soap.SOAPFactory#createElement(javax.xml.soap.Name) public abstract javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPFactory.createElement(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createElement_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.soap.SOAPFactory#createElement(String, String, String) public abstract
      * javax.xml.soap.SOAPElement
      * javax.xml.soap.SOAPFactory.createElement(java.lang.String,java.lang.String,java.lang.String) throws
@@ -190,29 +213,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createElement_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.soap.SOAPFactory#createElement(javax.xml.soap.Name) public abstract javax.xml.soap.SOAPElement
-     * javax.xml.soap.SOAPFactory.createElement(javax.xml.soap.Name) throws javax.xml.soap.SOAPException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createElement_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

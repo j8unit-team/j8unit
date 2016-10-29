@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.management.timer.TimerNotificationClassTe
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.timer.TimerNotification#TimerNotification(String, Object, long, long, String, Integer)
      * public
-     * javax.management.timer.TimerNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.Integer)}
-     * .
+     * javax.management.timer.TimerNotification(java.lang.String,java.lang.Object,long,long,java.lang.String,java.lang.Integer)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

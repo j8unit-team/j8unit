@@ -22,28 +22,6 @@ implements org.j8unit.repository.java.beans.DefaultPersistenceDelegateClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.beans.DefaultPersistenceDelegate#DefaultPersistenceDelegate() public
-     * java.beans.DefaultPersistenceDelegate()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DefaultPersistenceDelegate()
-    throws Exception {
-        // create new instance
-        final DefaultPersistenceDelegate sut = new DefaultPersistenceDelegate();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.beans.DefaultPersistenceDelegate#DefaultPersistenceDelegate(String[]) public
      * java.beans.DefaultPersistenceDelegate(java.lang.String[])}.
      *
@@ -62,6 +40,28 @@ implements org.j8unit.repository.java.beans.DefaultPersistenceDelegateClassTests
         // create new instance
         @SuppressWarnings("unused")
         final DefaultPersistenceDelegate sut = null; // = new DefaultPersistenceDelegate(String[]);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.beans.DefaultPersistenceDelegate#DefaultPersistenceDelegate() public
+     * java.beans.DefaultPersistenceDelegate()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DefaultPersistenceDelegate()
+    throws Exception {
+        // create new instance
+        final DefaultPersistenceDelegate sut = new DefaultPersistenceDelegate();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.DefaultPersistenceDelegate]

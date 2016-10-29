@@ -130,8 +130,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.CompositeType#getType(String) public javax.management.openmbean.OpenType
-     * <?> javax.management.openmbean.CompositeType.getType(java.lang.String)}.
+     * {@link javax.management.openmbean.CompositeType#getType(String) public javax.management.openmbean.OpenType<?>
+     * javax.management.openmbean.CompositeType.getType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -175,6 +175,28 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.CompositeType#keySet()
+     * public java.util.Set<java.lang.String> javax.management.openmbean.CompositeType.keySet()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_keySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.CompositeType#getDescription(String) public java.lang.String
      * javax.management.openmbean.CompositeType.getDescription(java.lang.String)}.
@@ -190,28 +212,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Comp
     @Test
     @Category(Draft.class)
     public default void test_getDescription_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.openmbean.CompositeType#keySet()
-     * public java.util.Set<java.lang.String> javax.management.openmbean.CompositeType.keySet()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_keySet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

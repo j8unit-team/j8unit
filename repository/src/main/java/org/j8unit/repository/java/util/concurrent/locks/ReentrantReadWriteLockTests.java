@@ -204,6 +204,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#toString() public java.lang.String
+     * java.util.concurrent.locks.ReentrantReadWriteLock.toString()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.locks.ReentrantReadWriteLock#hasWaiters(java.util.concurrent.locks.Condition) public
      * boolean java.util.concurrent.locks.ReentrantReadWriteLock.hasWaiters(java.util.concurrent.locks.Condition)}.
      *
@@ -241,30 +265,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hasQueuedThreads()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.locks.ReentrantReadWriteLock#toString() public java.lang.String
-     * java.util.concurrent.locks.ReentrantReadWriteLock.toString()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -375,8 +375,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests}
-     * ).
+     * (see
+     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests}).
      * </p>
      *
      * @param SUT
@@ -469,30 +469,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#tryLock() public boolean
-         * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.tryLock()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_tryLock()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#tryLock(long, java.util.concurrent.TimeUnit)
          * public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.tryLock(long,java.util.concurrent.TimeUnit) throws
@@ -510,6 +486,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_tryLock_long_TimeUnit()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock#tryLock() public boolean
+         * java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock.tryLock()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_tryLock()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -621,30 +621,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#tryLock() public boolean
-         * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.tryLock()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_tryLock()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#tryLock(long, java.util.concurrent.TimeUnit)
          * public boolean
          * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.tryLock(long,java.util.concurrent.TimeUnit)
@@ -671,8 +647,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#isHeldByCurrentThread() public boolean
-         * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.isHeldByCurrentThread()}.
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#tryLock() public boolean
+         * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.tryLock()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -682,9 +658,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
-        public default void test_isHeldByCurrentThread()
+        public default void test_tryLock()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -709,6 +686,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_lock()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock#isHeldByCurrentThread() public boolean
+         * java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.isHeldByCurrentThread()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_isHeldByCurrentThread()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

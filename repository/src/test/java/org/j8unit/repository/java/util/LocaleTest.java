@@ -19,7 +19,8 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
-@RunWith(J8Unit4.class)
+@RunWith(J8Parameterized.class)
+@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LocaleTest
 implements org.j8unit.repository.java.util.LocaleTests<Locale> {
 
@@ -62,6 +63,22 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale]
 
     @RunWith(J8Unit4.class)
+    public static class LanguageRangeTest
+    implements org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests<LanguageRange> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$LanguageRange]
+
+        @Override
+        public LanguageRange createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Locale.LanguageRange], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$LanguageRange]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CategoryTest
     implements org.j8unit.repository.java.util.LocaleTests.CategoryTests<Category> {
 
@@ -84,22 +101,8 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class LanguageRangeTest
-    implements org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests<LanguageRange> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$LanguageRange]
-
-        @Override
-        public LanguageRange createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Locale.LanguageRange], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$LanguageRange]
-
-    }
-
-    @RunWith(J8Unit4.class)
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FilteringModeTest
     implements org.j8unit.repository.java.util.LocaleTests.FilteringModeTests<FilteringMode> {
 

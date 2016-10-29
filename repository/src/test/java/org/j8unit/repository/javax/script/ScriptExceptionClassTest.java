@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.script.ScriptException#ScriptException(String) public
+     * javax.script.ScriptException(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ScriptException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final ScriptException sut = null; // = new ScriptException(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.script.ScriptException#ScriptException(String, String, int, int) public
      * javax.script.ScriptException(java.lang.String,java.lang.String,int,int)}.
      *
@@ -86,29 +109,6 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
         // create new instance
         @SuppressWarnings("unused")
         final ScriptException sut = null; // = new ScriptException(Exception);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.script.ScriptException#ScriptException(String) public
-     * javax.script.ScriptException(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ScriptException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final ScriptException sut = null; // = new ScriptException(String);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptException]

@@ -22,6 +22,28 @@ implements org.j8unit.repository.java.util.IllformedLocaleExceptionClassTests<Il
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.IllformedLocaleException#IllformedLocaleException() public
+     * java.util.IllformedLocaleException()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_IllformedLocaleException()
+    throws Exception {
+        // create new instance
+        final IllformedLocaleException sut = new IllformedLocaleException();
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.IllformedLocaleException#IllformedLocaleException(String, int) public
      * java.util.IllformedLocaleException(java.lang.String,int)}.
      *
@@ -63,28 +85,6 @@ implements org.j8unit.repository.java.util.IllformedLocaleExceptionClassTests<Il
         // create new instance
         @SuppressWarnings("unused")
         final IllformedLocaleException sut = null; // = new IllformedLocaleException(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.IllformedLocaleException#IllformedLocaleException() public java.util.IllformedLocaleException()}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_IllformedLocaleException()
-    throws Exception {
-        // create new instance
-        final IllformedLocaleException sut = new IllformedLocaleException();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllformedLocaleException]

@@ -37,8 +37,7 @@ extends org.j8unit.repository.javax.lang.model.util.ElementKindVisitor6Tests<SUT
      * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.ElementKindVisitor7#visitVariableAsResourceVariable(javax.lang.model.element.VariableElement, Object)
      * public R
-     * javax.lang.model.util.ElementKindVisitor7.visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,P)}
-     * .
+     * javax.lang.model.util.ElementKindVisitor7.visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,P)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

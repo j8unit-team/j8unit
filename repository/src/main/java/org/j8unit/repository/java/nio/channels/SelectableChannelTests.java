@@ -124,9 +124,9 @@ extends org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannel
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.SelectableChannel#configureBlocking(boolean) public abstract
-     * java.nio.channels.SelectableChannel java.nio.channels.SelectableChannel.configureBlocking(boolean) throws
-     * java.io.IOException}.
+     * {@link java.nio.channels.SelectableChannel#register(java.nio.channels.Selector, int) public final
+     * java.nio.channels.SelectionKey java.nio.channels.SelectableChannel.register(java.nio.channels.Selector,int)
+     * throws java.nio.channels.ClosedChannelException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -138,7 +138,7 @@ extends org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannel
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_configureBlocking_boolean()
+    public default void test_register_Selector_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -173,9 +173,9 @@ extends org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannel
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.channels.SelectableChannel#register(java.nio.channels.Selector, int) public final
-     * java.nio.channels.SelectionKey java.nio.channels.SelectableChannel.register(java.nio.channels.Selector,int)
-     * throws java.nio.channels.ClosedChannelException}.
+     * {@link java.nio.channels.SelectableChannel#configureBlocking(boolean) public abstract
+     * java.nio.channels.SelectableChannel java.nio.channels.SelectableChannel.configureBlocking(boolean) throws
+     * java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -187,7 +187,7 @@ extends org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannel
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_register_Selector_int()
+    public default void test_configureBlocking_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

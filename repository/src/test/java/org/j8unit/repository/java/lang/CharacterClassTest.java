@@ -85,26 +85,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#codePointBefore(char[], int, int) public
-     * static int java.lang.Character.codePointBefore(char[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_codePointBefore_charArray_int_int()
-    throws Exception {
-        // write some test for {@link Character#codePointBefore(char[], int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#codePointBefore(char[], int) public static
      * int java.lang.Character.codePointBefore(char[],int)}.
      *
@@ -145,8 +125,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#digit(int, int) public static int
-     * java.lang.Character.digit(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#codePointBefore(char[], int, int) public
+     * static int java.lang.Character.codePointBefore(char[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,9 +138,9 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_digit_int_int()
+    public void test_codePointBefore_charArray_int_int()
     throws Exception {
-        // write some test for {@link Character#digit(int, int)}
+        // write some test for {@link Character#codePointBefore(char[], int, int)}
     }
 
     /**
@@ -185,8 +165,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#toUpperCase(int) public static int
-     * java.lang.Character.toUpperCase(int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#digit(int, int) public static int
+     * java.lang.Character.digit(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -198,9 +178,9 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_toUpperCase_int()
+    public void test_digit_int_int()
     throws Exception {
-        // write some test for {@link Character#toUpperCase(int)}
+        // write some test for {@link Character#digit(int, int)}
     }
 
     /**
@@ -225,8 +205,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#isIdentifierIgnorable(int) public static
-     * boolean java.lang.Character.isIdentifierIgnorable(int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#toUpperCase(int) public static int
+     * java.lang.Character.toUpperCase(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -238,9 +218,9 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_isIdentifierIgnorable_int()
+    public void test_toUpperCase_int()
     throws Exception {
-        // write some test for {@link Character#isIdentifierIgnorable(int)}
+        // write some test for {@link Character#toUpperCase(int)}
     }
 
     /**
@@ -265,8 +245,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#codePointAt(CharSequence, int) public
-     * static int java.lang.Character.codePointAt(java.lang.CharSequence,int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#isIdentifierIgnorable(int) public static
+     * boolean java.lang.Character.isIdentifierIgnorable(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -278,9 +258,29 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_codePointAt_CharSequence_int()
+    public void test_isIdentifierIgnorable_int()
     throws Exception {
-        // write some test for {@link Character#codePointAt(CharSequence, int)}
+        // write some test for {@link Character#isIdentifierIgnorable(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#codePointAt(char[], int) public static int
+     * java.lang.Character.codePointAt(char[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_codePointAt_charArray_int()
+    throws Exception {
+        // write some test for {@link Character#codePointAt(char[], int)}
     }
 
     /**
@@ -305,8 +305,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#codePointAt(char[], int) public static int
-     * java.lang.Character.codePointAt(char[],int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#codePointAt(CharSequence, int) public
+     * static int java.lang.Character.codePointAt(java.lang.CharSequence,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -318,9 +318,9 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_codePointAt_charArray_int()
+    public void test_codePointAt_CharSequence_int()
     throws Exception {
-        // write some test for {@link Character#codePointAt(char[], int)}
+        // write some test for {@link Character#codePointAt(CharSequence, int)}
     }
 
     /**
@@ -525,26 +525,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#toChars(int) public static char[]
-     * java.lang.Character.toChars(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_toChars_int()
-    throws Exception {
-        // write some test for {@link Character#toChars(int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#toChars(int, char[], int) public static
      * int java.lang.Character.toChars(int,char[],int)}.
      *
@@ -561,6 +541,26 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     public void test_toChars_int_charArray_int()
     throws Exception {
         // write some test for {@link Character#toChars(int, char[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#toChars(int) public static char[]
+     * java.lang.Character.toChars(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_toChars_int()
+    throws Exception {
+        // write some test for {@link Character#toChars(int)}
     }
 
     /**
@@ -625,26 +625,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#isUnicodeIdentifierPart(char) public
-     * static boolean java.lang.Character.isUnicodeIdentifierPart(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_isUnicodeIdentifierPart_char()
-    throws Exception {
-        // write some test for {@link Character#isUnicodeIdentifierPart(char)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#isUnicodeIdentifierPart(int) public static
      * boolean java.lang.Character.isUnicodeIdentifierPart(int)}.
      *
@@ -661,6 +641,26 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     public void test_isUnicodeIdentifierPart_int()
     throws Exception {
         // write some test for {@link Character#isUnicodeIdentifierPart(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#isUnicodeIdentifierPart(char) public
+     * static boolean java.lang.Character.isUnicodeIdentifierPart(char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isUnicodeIdentifierPart_char()
+    throws Exception {
+        // write some test for {@link Character#isUnicodeIdentifierPart(char)}
     }
 
     /**
@@ -885,26 +885,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#codePointCount(CharSequence, int, int)
-     * public static int java.lang.Character.codePointCount(java.lang.CharSequence,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_codePointCount_CharSequence_int_int()
-    throws Exception {
-        // write some test for {@link Character#codePointCount(CharSequence, int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#codePointCount(char[], int, int) public
      * static int java.lang.Character.codePointCount(char[],int,int)}.
      *
@@ -925,8 +905,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#getDirectionality(int) public static byte
-     * java.lang.Character.getDirectionality(int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#codePointCount(CharSequence, int, int)
+     * public static int java.lang.Character.codePointCount(java.lang.CharSequence,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -938,15 +918,15 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getDirectionality_int()
+    public void test_codePointCount_CharSequence_int_int()
     throws Exception {
-        // write some test for {@link Character#getDirectionality(int)}
+        // write some test for {@link Character#codePointCount(CharSequence, int, int)}
     }
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#getDirectionality(char) public static byte
-     * java.lang.Character.getDirectionality(char)}.
+     * Test method for the hereby targeted method-under-test {@link Character#isUnicodeIdentifierStart(int) public
+     * static boolean java.lang.Character.isUnicodeIdentifierStart(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -958,9 +938,9 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getDirectionality_char()
+    public void test_isUnicodeIdentifierStart_int()
     throws Exception {
-        // write some test for {@link Character#getDirectionality(char)}
+        // write some test for {@link Character#isUnicodeIdentifierStart(int)}
     }
 
     /**
@@ -985,8 +965,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#isUnicodeIdentifierStart(int) public
-     * static boolean java.lang.Character.isUnicodeIdentifierStart(int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#getDirectionality(char) public static byte
+     * java.lang.Character.getDirectionality(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -998,9 +978,29 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_isUnicodeIdentifierStart_int()
+    public void test_getDirectionality_char()
     throws Exception {
-        // write some test for {@link Character#isUnicodeIdentifierStart(int)}
+        // write some test for {@link Character#getDirectionality(char)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#getDirectionality(int) public static byte
+     * java.lang.Character.getDirectionality(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getDirectionality_int()
+    throws Exception {
+        // write some test for {@link Character#getDirectionality(int)}
     }
 
     /**
@@ -1045,26 +1045,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#getNumericValue(char) public static int
-     * java.lang.Character.getNumericValue(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getNumericValue_char()
-    throws Exception {
-        // write some test for {@link Character#getNumericValue(char)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#getNumericValue(int) public static int
      * java.lang.Character.getNumericValue(int)}.
      *
@@ -1085,8 +1065,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#isISOControl(int) public static boolean
-     * java.lang.Character.isISOControl(int)}.
+     * Test method for the hereby targeted method-under-test {@link Character#getNumericValue(char) public static int
+     * java.lang.Character.getNumericValue(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1098,9 +1078,9 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_isISOControl_int()
+    public void test_getNumericValue_char()
     throws Exception {
-        // write some test for {@link Character#isISOControl(int)}
+        // write some test for {@link Character#getNumericValue(char)}
     }
 
     /**
@@ -1121,6 +1101,26 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     public void test_isISOControl_char()
     throws Exception {
         // write some test for {@link Character#isISOControl(char)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#isISOControl(int) public static boolean
+     * java.lang.Character.isISOControl(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isISOControl_int()
+    throws Exception {
+        // write some test for {@link Character#isISOControl(int)}
     }
 
     /**
@@ -1265,26 +1265,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#isDefined(int) public static boolean
-     * java.lang.Character.isDefined(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_isDefined_int()
-    throws Exception {
-        // write some test for {@link Character#isDefined(int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#isDefined(char) public static boolean
      * java.lang.Character.isDefined(char)}.
      *
@@ -1301,6 +1281,26 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     public void test_isDefined_char()
     throws Exception {
         // write some test for {@link Character#isDefined(char)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#isDefined(int) public static boolean
+     * java.lang.Character.isDefined(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isDefined_int()
+    throws Exception {
+        // write some test for {@link Character#isDefined(int)}
     }
 
     /**
@@ -1446,26 +1446,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#toTitleCase(char) public static char
-     * java.lang.Character.toTitleCase(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_toTitleCase_char()
-    throws Exception {
-        // write some test for {@link Character#toTitleCase(char)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#toTitleCase(int) public static int
      * java.lang.Character.toTitleCase(int)}.
      *
@@ -1482,6 +1462,26 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     public void test_toTitleCase_int()
     throws Exception {
         // write some test for {@link Character#toTitleCase(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#toTitleCase(char) public static char
+     * java.lang.Character.toTitleCase(char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_toTitleCase_char()
+    throws Exception {
+        // write some test for {@link Character#toTitleCase(char)}
     }
 
     /**
@@ -1566,26 +1566,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Character#isMirrored(char) public static boolean
-     * java.lang.Character.isMirrored(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_isMirrored_char()
-    throws Exception {
-        // write some test for {@link Character#isMirrored(char)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Character#isMirrored(int) public static boolean
      * java.lang.Character.isMirrored(int)}.
      *
@@ -1602,6 +1582,26 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     public void test_isMirrored_int()
     throws Exception {
         // write some test for {@link Character#isMirrored(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Character#isMirrored(char) public static boolean
+     * java.lang.Character.isMirrored(char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isMirrored_char()
+    throws Exception {
+        // write some test for {@link Character#isMirrored(char)}
     }
 
     /**
@@ -1665,81 +1665,6 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character]
-
-    @RunWith(J8Unit4.class)
-    public static class UnicodeBlockClassTest
-    implements org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests<UnicodeBlock> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeBlock]
-
-        @Override
-        public Class<UnicodeBlock> createNewSUT() {
-            return UnicodeBlock.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#forName(String) public
-         * static final java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.forName(java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_forName_String()
-        throws Exception {
-            // write some test for {@link Character.UnicodeBlock#forName(String)}
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#of(int) public static
-         * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.of(int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_of_int()
-        throws Exception {
-            // write some test for {@link Character.UnicodeBlock#of(int)}
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#of(char) public static
-         * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.of(char)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void test_of_char()
-        throws Exception {
-            // write some test for {@link Character.UnicodeBlock#of(char)}
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeBlock]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class UnicodeScriptClassTest
@@ -1848,6 +1773,81 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$Subset]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class UnicodeBlockClassTest
+    implements org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests<UnicodeBlock> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeBlock]
+
+        @Override
+        public Class<UnicodeBlock> createNewSUT() {
+            return UnicodeBlock.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#forName(String) public
+         * static final java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.forName(java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_forName_String()
+        throws Exception {
+            // write some test for {@link Character.UnicodeBlock#forName(String)}
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#of(int) public static
+         * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.of(int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_of_int()
+        throws Exception {
+            // write some test for {@link Character.UnicodeBlock#of(int)}
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link Character.UnicodeBlock#of(char) public static
+         * java.lang.Character$UnicodeBlock java.lang.Character$UnicodeBlock.of(char)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void test_of_char()
+        throws Exception {
+            // write some test for {@link Character.UnicodeBlock#of(char)}
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeBlock]
 
     }
 

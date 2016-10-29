@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#whitespaceChars(int, int)
-     * public void java.io.StreamTokenizer.whitespaceChars(int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#lineno() public int
+     * java.io.StreamTokenizer.lineno()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,7 +92,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_whitespaceChars_int_int()
+    public default void test_lineno()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,8 +145,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#lineno() public int
-     * java.io.StreamTokenizer.lineno()}.
+     * Test method for the hereby targeted method-under-test {@link java.io.StreamTokenizer#whitespaceChars(int, int)
+     * public void java.io.StreamTokenizer.whitespaceChars(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -158,7 +158,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lineno()
+    public default void test_whitespaceChars_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

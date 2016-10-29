@@ -37,8 +37,7 @@ extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.table.TableCellEditor#getTableCellEditorComponent(javax.swing.JTable, Object, boolean, int, int)
      * public abstract java.awt.Component
-     * javax.swing.table.TableCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)}
-     * .
+     * javax.swing.table.TableCellEditor.getTableCellEditorComponent(javax.swing.JTable,java.lang.Object,boolean,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

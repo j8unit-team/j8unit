@@ -155,6 +155,31 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getAccessibleChild(javax.swing.JComponent, int) public
+     * javax.accessibility.Accessible
+     * javax.swing.plaf.multi.MultiSplitPaneUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleChild_JComponent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiSplitPaneUI#setDividerLocation(javax.swing.JSplitPane, int) public void
      * javax.swing.plaf.multi.MultiSplitPaneUI.setDividerLocation(javax.swing.JSplitPane,int)}.
      *
@@ -179,9 +204,8 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getAccessibleChild(javax.swing.JComponent, int) public
-     * javax.accessibility.Accessible
-     * javax.swing.plaf.multi.MultiSplitPaneUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
+     * javax.swing.plaf.multi.MultiSplitPaneUI.getMinimumSize(javax.swing.JComponent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -194,7 +218,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleChild_JComponent_int()
+    public default void test_getMinimumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,30 +253,6 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
-     * javax.swing.plaf.multi.MultiSplitPaneUI.getMinimumSize(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiSplitPaneUI#contains(javax.swing.JComponent, int, int) public boolean
      * javax.swing.plaf.multi.MultiSplitPaneUI.contains(javax.swing.JComponent,int,int)}.
      *
@@ -277,30 +277,6 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiSplitPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiSplitPaneUI#update(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiSplitPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      *
@@ -316,6 +292,30 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_update_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiSplitPaneUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiSplitPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_paint_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

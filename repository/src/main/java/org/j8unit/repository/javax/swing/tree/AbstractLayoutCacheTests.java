@@ -540,8 +540,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.AbstractLayoutCache#getVisiblePathsFrom(javax.swing.tree.TreePath) public abstract
-     * java.util.Enumeration
-     * <javax.swing.tree.TreePath> javax.swing.tree.AbstractLayoutCache.getVisiblePathsFrom(javax.swing.tree.TreePath)}.
+     * java.util.Enumeration<javax.swing.tree.TreePath>
+     * javax.swing.tree.AbstractLayoutCache.getVisiblePathsFrom(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -732,8 +732,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.tree.AbstractLayoutCache.NodeDimensions#getNodeDimensions(Object, int, int, boolean, java.awt.Rectangle)
          * public abstract java.awt.Rectangle
-         * javax.swing.tree.AbstractLayoutCache$NodeDimensions.getNodeDimensions(java.lang.Object,int,int,boolean,java.awt.Rectangle)}
-         * .
+         * javax.swing.tree.AbstractLayoutCache$NodeDimensions.getNodeDimensions(java.lang.Object,int,int,boolean,java.awt.Rectangle)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

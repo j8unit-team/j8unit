@@ -43,28 +43,6 @@ implements org.j8unit.repository.javax.security.cert.X509CertificateClassTests<X
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.security.cert.X509Certificate#getInstance(java.io.InputStream) public static final
-     * javax.security.cert.X509Certificate javax.security.cert.X509Certificate.getInstance(java.io.InputStream) throws
-     * javax.security.cert.CertificateException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getInstance_InputStream()
-    throws Exception {
-        // write some test for {@link javax.security.cert.X509Certificate#getInstance(java.io.InputStream)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.security.cert.X509Certificate#getInstance(byte[]) public static final
      * javax.security.cert.X509Certificate javax.security.cert.X509Certificate.getInstance(byte[]) throws
      * javax.security.cert.CertificateException}.
@@ -82,6 +60,28 @@ implements org.j8unit.repository.javax.security.cert.X509CertificateClassTests<X
     public void test_getInstance_byteArray()
     throws Exception {
         // write some test for {@link javax.security.cert.X509Certificate#getInstance(byte[])}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.cert.X509Certificate#getInstance(java.io.InputStream) public static final
+     * javax.security.cert.X509Certificate javax.security.cert.X509Certificate.getInstance(java.io.InputStream) throws
+     * javax.security.cert.CertificateException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getInstance_InputStream()
+    throws Exception {
+        // write some test for {@link javax.security.cert.X509Certificate#getInstance(java.io.InputStream)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.X509Certificate]

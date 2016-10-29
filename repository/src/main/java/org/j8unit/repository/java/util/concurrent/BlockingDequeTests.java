@@ -171,29 +171,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#offerLast(Object)
-     * public abstract boolean java.util.concurrent.BlockingDeque.offerLast(E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_offerLast_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.BlockingDeque#offerLast(Object, long, java.util.concurrent.TimeUnit) public abstract
      * boolean java.util.concurrent.BlockingDeque.offerLast(E,long,java.util.concurrent.TimeUnit) throws
@@ -210,6 +187,29 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Test
     @Category(Draft.class)
     public default void test_offerLast_Object_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#offerLast(Object)
+     * public abstract boolean java.util.concurrent.BlockingDeque.offerLast(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_offerLast_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -381,29 +381,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#remove(Object)
-     * public abstract boolean java.util.concurrent.BlockingDeque.remove(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#remove() public
      * abstract E java.util.concurrent.BlockingDeque.remove()}.
      *
@@ -419,6 +396,29 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Test
     @Category(Draft.class)
     public default void test_remove()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#remove(Object)
+     * public abstract boolean java.util.concurrent.BlockingDeque.remove(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -475,29 +475,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#poll() public
-     * abstract E java.util.concurrent.BlockingDeque.poll()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_poll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.BlockingDeque#poll(long, java.util.concurrent.TimeUnit) public abstract E
      * java.util.concurrent.BlockingDeque.poll(long,java.util.concurrent.TimeUnit) throws
@@ -515,6 +492,29 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Test
     @Category(Draft.class)
     public default void test_poll_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#poll() public
+     * abstract E java.util.concurrent.BlockingDeque.poll()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_poll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -546,6 +546,29 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#offer(Object)
+     * public abstract boolean java.util.concurrent.BlockingDeque.offer(E)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_offer_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.BlockingDeque#offer(Object, long, java.util.concurrent.TimeUnit) public abstract
      * boolean java.util.concurrent.BlockingDeque.offer(E,long,java.util.concurrent.TimeUnit) throws
@@ -563,29 +586,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Test
     @Category(Draft.class)
     public default void test_offer_Object_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.concurrent.BlockingDeque#offer(Object)
-     * public abstract boolean java.util.concurrent.BlockingDeque.offer(E)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_offer_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

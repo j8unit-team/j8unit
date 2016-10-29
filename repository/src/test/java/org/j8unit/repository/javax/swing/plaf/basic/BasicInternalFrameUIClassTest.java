@@ -83,8 +83,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout#InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI)
          * public
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -125,8 +124,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
          * Test method for the hereby targeted constructor-under-test
          * {@link javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener#InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI)
          * public
-         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI)}
-         * .
+         * javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

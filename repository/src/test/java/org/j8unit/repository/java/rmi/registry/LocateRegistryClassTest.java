@@ -21,48 +21,6 @@ implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<Loca
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.rmi.registry.LocateRegistry#getRegistry(String)
-     * public static java.rmi.registry.Registry java.rmi.registry.LocateRegistry.getRegistry(java.lang.String) throws
-     * java.rmi.RemoteException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getRegistry_String()
-    throws Exception {
-        // write some test for {@link java.rmi.registry.LocateRegistry#getRegistry(String)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.registry.LocateRegistry#getRegistry(String, int) public static java.rmi.registry.Registry
-     * java.rmi.registry.LocateRegistry.getRegistry(java.lang.String,int) throws java.rmi.RemoteException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getRegistry_String_int()
-    throws Exception {
-        // write some test for {@link java.rmi.registry.LocateRegistry#getRegistry(String, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.rmi.registry.LocateRegistry#getRegistry(String, int, java.rmi.server.RMIClientSocketFactory) public
      * static java.rmi.registry.Registry
@@ -83,6 +41,27 @@ implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<Loca
     throws Exception {
         // write some test for {@link java.rmi.registry.LocateRegistry#getRegistry(String, int,
         // java.rmi.server.RMIClientSocketFactory)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.rmi.registry.LocateRegistry#getRegistry(String)
+     * public static java.rmi.registry.Registry java.rmi.registry.LocateRegistry.getRegistry(java.lang.String) throws
+     * java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getRegistry_String()
+    throws Exception {
+        // write some test for {@link java.rmi.registry.LocateRegistry#getRegistry(String)}
     }
 
     /**
@@ -130,10 +109,8 @@ implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<Loca
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.registry.LocateRegistry#createRegistry(int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)
-     * public static java.rmi.registry.Registry
-     * java.rmi.registry.LocateRegistry.createRegistry(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
-     * throws java.rmi.RemoteException}.
+     * {@link java.rmi.registry.LocateRegistry#getRegistry(String, int) public static java.rmi.registry.Registry
+     * java.rmi.registry.LocateRegistry.getRegistry(java.lang.String,int) throws java.rmi.RemoteException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,10 +122,9 @@ implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<Loca
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_createRegistry_int_RMIClientSocketFactory_RMIServerSocketFactory()
+    public void test_getRegistry_String_int()
     throws Exception {
-        // write some test for {@link java.rmi.registry.LocateRegistry#createRegistry(int,
-        // java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)}
+        // write some test for {@link java.rmi.registry.LocateRegistry#getRegistry(String, int)}
     }
 
     /**
@@ -170,6 +146,30 @@ implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<Loca
     public void test_createRegistry_int()
     throws Exception {
         // write some test for {@link java.rmi.registry.LocateRegistry#createRegistry(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.registry.LocateRegistry#createRegistry(int, java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)
+     * public static java.rmi.registry.Registry
+     * java.rmi.registry.LocateRegistry.createRegistry(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
+     * throws java.rmi.RemoteException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_createRegistry_int_RMIClientSocketFactory_RMIServerSocketFactory()
+    throws Exception {
+        // write some test for {@link java.rmi.registry.LocateRegistry#createRegistry(int,
+        // java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.registry.LocateRegistry]

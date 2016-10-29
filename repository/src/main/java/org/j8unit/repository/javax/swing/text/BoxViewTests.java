@@ -57,6 +57,29 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#setSize(float, float)
+     * public void javax.swing.text.BoxView.setSize(float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setSize_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#layoutChanged(int) public
      * void javax.swing.text.BoxView.layoutChanged(int)}.
      *
@@ -79,8 +102,8 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#setSize(float, float)
-     * public void javax.swing.text.BoxView.setSize(float,float)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getHeight() public int
+     * javax.swing.text.BoxView.getHeight()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -90,10 +113,9 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_setSize_float_float()
+    public default void test_getHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,28 +140,6 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_viewToModel_float_float_Shape_BiasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.BoxView#getHeight() public int
-     * javax.swing.text.BoxView.getHeight()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -238,30 +238,6 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.BoxView#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
-     * javax.swing.text.BoxView.getChildAllocation(int,java.awt.Shape)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getChildAllocation_int_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.BoxView#paint(java.awt.Graphics, java.awt.Shape) public void
      * javax.swing.text.BoxView.paint(java.awt.Graphics,java.awt.Shape)}.
      *
@@ -277,6 +253,30 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_paint_Graphics_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.BoxView#getChildAllocation(int, java.awt.Shape) public java.awt.Shape
+     * javax.swing.text.BoxView.getChildAllocation(int,java.awt.Shape)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getChildAllocation_int_Shape()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

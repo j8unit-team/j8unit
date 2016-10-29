@@ -22,27 +22,6 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentHolderClassTests<Tag
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link org.omg.IOP.TaggedComponentHolder#TaggedComponentHolder() public org.omg.IOP.TaggedComponentHolder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TaggedComponentHolder()
-    throws Exception {
-        // create new instance
-        final TaggedComponentHolder sut = new TaggedComponentHolder();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link org.omg.IOP.TaggedComponentHolder#TaggedComponentHolder(org.omg.IOP.TaggedComponent) public
      * org.omg.IOP.TaggedComponentHolder(org.omg.IOP.TaggedComponent)}.
      *
@@ -61,6 +40,27 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentHolderClassTests<Tag
         // create new instance
         @SuppressWarnings("unused")
         final TaggedComponentHolder sut = null; // = new TaggedComponentHolder(org.omg.IOP.TaggedComponent);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link org.omg.IOP.TaggedComponentHolder#TaggedComponentHolder() public org.omg.IOP.TaggedComponentHolder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TaggedComponentHolder()
+    throws Exception {
+        // create new instance
+        final TaggedComponentHolder sut = new TaggedComponentHolder();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedComponentHolder]

@@ -3,15 +3,15 @@ package org.j8unit.repository.javax.lang.model.util;
 import static org.junit.Assert.assertTrue;
 import javax.lang.model.util.AbstractAnnotationValueVisitor8;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
  * <p>
  * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime constraints
  * and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link AbstractAnnotationValueVisitor8 public abstract class javax.lang.model.util.AbstractAnnotationValueVisitor8
- * <R,P>}.
+ * {@link AbstractAnnotationValueVisitor8 public abstract class
+ * javax.lang.model.util.AbstractAnnotationValueVisitor8<R,P>}.
  *
  * (In addition, the runtime type of this j8unit test interface's generic type is verified by
  * {@link #verifyGenericType()}).
@@ -58,7 +58,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

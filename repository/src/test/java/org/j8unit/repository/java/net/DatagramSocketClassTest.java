@@ -21,9 +21,8 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.net.DatagramSocket#DatagramSocket(int, java.net.InetAddress) public
-     * java.net.DatagramSocket(int,java.net.InetAddress) throws java.net.SocketException}.
+     * Test method for the hereby targeted constructor-under-test {@link java.net.DatagramSocket#DatagramSocket(int)
+     * public java.net.DatagramSocket(int) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,11 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DatagramSocket_int_InetAddress()
+    public void create_DatagramSocket_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramSocket sut = null; // = new DatagramSocket(int, java.net.InetAddress);
+        final DatagramSocket sut = null; // = new DatagramSocket(int);
     }
 
     /**
@@ -88,8 +87,9 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.net.DatagramSocket#DatagramSocket(int)
-     * public java.net.DatagramSocket(int) throws java.net.SocketException}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.net.DatagramSocket#DatagramSocket(int, java.net.InetAddress) public
+     * java.net.DatagramSocket(int,java.net.InetAddress) throws java.net.SocketException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,11 +101,11 @@ implements org.j8unit.repository.java.net.DatagramSocketClassTests<DatagramSocke
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DatagramSocket_int()
+    public void create_DatagramSocket_int_InetAddress()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DatagramSocket sut = null; // = new DatagramSocket(int);
+        final DatagramSocket sut = null; // = new DatagramSocket(int, java.net.InetAddress);
     }
 
     /**

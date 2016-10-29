@@ -57,8 +57,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getSubElements() public
-     * javax.swing.MenuElement[] javax.swing.JMenuItem.getSubElements()}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#setEnabled(boolean) public
+     * void javax.swing.JMenuItem.setEnabled(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -71,7 +71,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getSubElements()
+    public default void test_setEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,8 +103,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#setEnabled(boolean) public
-     * void javax.swing.JMenuItem.setEnabled(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getSubElements() public
+     * javax.swing.MenuElement[] javax.swing.JMenuItem.getSubElements()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,7 +117,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_setEnabled_boolean()
+    public default void test_getSubElements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,6 +242,31 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
+     * public void
+     * javax.swing.JMenuItem.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_processMouseEvent_MouseEvent_MenuElementArray_MenuSelectionManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JMenuItem#getComponent() public
      * java.awt.Component javax.swing.JMenuItem.getComponent()}.
      *
@@ -257,32 +282,6 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JMenuItem#processMouseEvent(java.awt.event.MouseEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
-     * public void
-     * javax.swing.JMenuItem.processMouseEvent(java.awt.event.MouseEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_processMouseEvent_MouseEvent_MenuElementArray_MenuSelectionManager()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -361,8 +360,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JMenuItem#processKeyEvent(java.awt.event.KeyEvent, javax.swing.MenuElement[], javax.swing.MenuSelectionManager)
      * public void
-     * javax.swing.JMenuItem.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
+     * javax.swing.JMenuItem.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -376,29 +374,6 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_processKeyEvent_KeyEvent_MenuElementArray_MenuSelectionManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JMenuItem#removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener) public void
-     * javax.swing.JMenuItem.removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeMenuDragMouseListener_MenuDragMouseListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -431,8 +406,8 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JMenuItem#setAccelerator(javax.swing.KeyStroke) public void
-     * javax.swing.JMenuItem.setAccelerator(javax.swing.KeyStroke)}.
+     * {@link javax.swing.JMenuItem#removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener) public void
+     * javax.swing.JMenuItem.removeMenuDragMouseListener(javax.swing.event.MenuDragMouseListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -444,7 +419,7 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAccelerator_KeyStroke()
+    public default void test_removeMenuDragMouseListener_MenuDragMouseListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -467,6 +442,29 @@ org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMenuDragMouseListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JMenuItem#setAccelerator(javax.swing.KeyStroke) public void
+     * javax.swing.JMenuItem.setAccelerator(javax.swing.KeyStroke)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccelerator_KeyStroke()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

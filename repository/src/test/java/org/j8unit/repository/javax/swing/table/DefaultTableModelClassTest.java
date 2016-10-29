@@ -68,8 +68,8 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableModelClassTests<D
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.table.DefaultTableModel#DefaultTableModel(java.util.Vector, java.util.Vector) public
-     * javax.swing.table.DefaultTableModel(java.util.Vector,java.util.Vector)}.
+     * {@link javax.swing.table.DefaultTableModel#DefaultTableModel(int, int) public
+     * javax.swing.table.DefaultTableModel(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,11 +81,11 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableModelClassTests<D
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_DefaultTableModel_Vector_Vector()
+    public void create_DefaultTableModel_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final DefaultTableModel sut = null; // = new DefaultTableModel(java.util.Vector, java.util.Vector);
+        final DefaultTableModel sut = null; // = new DefaultTableModel(int, int);
     }
 
     /**
@@ -114,6 +114,29 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableModelClassTests<D
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.table.DefaultTableModel#DefaultTableModel(java.util.Vector, java.util.Vector) public
+     * javax.swing.table.DefaultTableModel(java.util.Vector,java.util.Vector)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DefaultTableModel_Vector_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final DefaultTableModel sut = null; // = new DefaultTableModel(java.util.Vector, java.util.Vector);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.table.DefaultTableModel#DefaultTableModel() public javax.swing.table.DefaultTableModel()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -130,29 +153,6 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableModelClassTests<D
     throws Exception {
         // create new instance
         final DefaultTableModel sut = new DefaultTableModel();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.table.DefaultTableModel#DefaultTableModel(int, int) public
-     * javax.swing.table.DefaultTableModel(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DefaultTableModel_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final DefaultTableModel sut = null; // = new DefaultTableModel(int, int);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableModel]

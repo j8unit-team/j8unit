@@ -24,8 +24,7 @@ implements org.j8unit.repository.javax.naming.event.NamingEventClassTests<Naming
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.naming.event.NamingEvent#NamingEvent(javax.naming.event.EventContext, int, javax.naming.Binding, javax.naming.Binding, Object)
      * public
-     * javax.naming.event.NamingEvent(javax.naming.event.EventContext,int,javax.naming.Binding,javax.naming.Binding,java.lang.Object)}
-     * .
+     * javax.naming.event.NamingEvent(javax.naming.event.EventContext,int,javax.naming.Binding,javax.naming.Binding,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

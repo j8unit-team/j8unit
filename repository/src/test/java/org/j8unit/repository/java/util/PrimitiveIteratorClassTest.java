@@ -22,6 +22,21 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator]
 
     @RunWith(J8Unit4.class)
+    public static class OfLongClassTest
+    implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests<OfLong> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
+
+        @Override
+        public Class<OfLong> createNewSUT() {
+            return OfLong.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
+
+    }
+
+    @RunWith(J8Unit4.class)
     public static class OfDoubleClassTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests<OfDouble> {
 
@@ -48,21 +63,6 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfInt]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class OfLongClassTest
-    implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests<OfLong> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
-
-        @Override
-        public Class<OfLong> createNewSUT() {
-            return OfLong.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
 
     }
 

@@ -35,29 +35,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.w3c.dom.ls.DOMImplementationLS#createLSSerializer() public abstract org.w3c.dom.ls.LSSerializer
-     * org.w3c.dom.ls.DOMImplementationLS.createLSSerializer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createLSSerializer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link org.w3c.dom.ls.DOMImplementationLS#createLSInput()
      * public abstract org.w3c.dom.ls.LSInput org.w3c.dom.ls.DOMImplementationLS.createLSInput()}.
      *
@@ -81,8 +58,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.w3c.dom.ls.DOMImplementationLS#createLSParser(short, String) public abstract org.w3c.dom.ls.LSParser
-     * org.w3c.dom.ls.DOMImplementationLS.createLSParser(short,java.lang.String) throws org.w3c.dom.DOMException}.
+     * {@link org.w3c.dom.ls.DOMImplementationLS#createLSSerializer() public abstract org.w3c.dom.ls.LSSerializer
+     * org.w3c.dom.ls.DOMImplementationLS.createLSSerializer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,7 +71,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createLSParser_short_String()
+    public default void test_createLSSerializer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -117,6 +94,29 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createLSOutput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.w3c.dom.ls.DOMImplementationLS#createLSParser(short, String) public abstract org.w3c.dom.ls.LSParser
+     * org.w3c.dom.ls.DOMImplementationLS.createLSParser(short,java.lang.String) throws org.w3c.dom.DOMException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createLSParser_short_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

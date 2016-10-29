@@ -37,8 +37,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.AlgorithmConstraints#permits(java.util.Set, String, java.security.Key, java.security.AlgorithmParameters)
-     * public abstract boolean java.security.AlgorithmConstraints.permits(java.util.Set
-     * <java.security.CryptoPrimitive>,java.lang.String,java.security.Key,java.security.AlgorithmParameters)}.
+     * public abstract boolean
+     * java.security.AlgorithmConstraints.permits(java.util.Set<java.security.CryptoPrimitive>,java.lang.String,java.security.Key,java.security.AlgorithmParameters)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -84,8 +84,8 @@ extends RepositoryTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.AlgorithmConstraints#permits(java.util.Set, String, java.security.AlgorithmParameters)
-     * public abstract boolean java.security.AlgorithmConstraints.permits(java.util.Set
-     * <java.security.CryptoPrimitive>,java.lang.String,java.security.AlgorithmParameters)}.
+     * public abstract boolean
+     * java.security.AlgorithmConstraints.permits(java.util.Set<java.security.CryptoPrimitive>,java.lang.String,java.security.AlgorithmParameters)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

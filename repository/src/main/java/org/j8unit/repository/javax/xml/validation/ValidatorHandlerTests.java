@@ -82,6 +82,30 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.ValidatorHandler#setProperty(String, Object) public void
+     * javax.xml.validation.ValidatorHandler.setProperty(java.lang.String,java.lang.Object) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperty_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.validation.ValidatorHandler#setErrorHandler(org.xml.sax.ErrorHandler) public abstract void
      * javax.xml.validation.ValidatorHandler.setErrorHandler(org.xml.sax.ErrorHandler)}.
      *
@@ -119,53 +143,6 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getContentHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.ValidatorHandler#setProperty(String, Object) public void
-     * javax.xml.validation.ValidatorHandler.setProperty(java.lang.String,java.lang.Object) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setProperty_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.ValidatorHandler#getTypeInfoProvider() public abstract
-     * javax.xml.validation.TypeInfoProvider javax.xml.validation.ValidatorHandler.getTypeInfoProvider()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTypeInfoProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,8 +199,8 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.ValidatorHandler#setResourceResolver(org.w3c.dom.ls.LSResourceResolver) public
-     * abstract void javax.xml.validation.ValidatorHandler.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     * {@link javax.xml.validation.ValidatorHandler#getTypeInfoProvider() public abstract
+     * javax.xml.validation.TypeInfoProvider javax.xml.validation.ValidatorHandler.getTypeInfoProvider()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,7 +212,7 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT>, org.j8unit.r
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setResourceResolver_LSResourceResolver()
+    public default void test_getTypeInfoProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,6 +236,29 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getResourceResolver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.ValidatorHandler#setResourceResolver(org.w3c.dom.ls.LSResourceResolver) public
+     * abstract void javax.xml.validation.ValidatorHandler.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResourceResolver_LSResourceResolver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

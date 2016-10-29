@@ -21,27 +21,6 @@ implements org.j8unit.repository.javax.swing.JColorChooserClassTests<JColorChoos
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JColorChooser#JColorChooser()
-     * public javax.swing.JColorChooser()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JColorChooser()
-    throws Exception {
-        // create new instance
-        final JColorChooser sut = new JColorChooser();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JColorChooser#JColorChooser(javax.swing.colorchooser.ColorSelectionModel) public
      * javax.swing.JColorChooser(javax.swing.colorchooser.ColorSelectionModel)}.
@@ -83,6 +62,27 @@ implements org.j8unit.repository.javax.swing.JColorChooserClassTests<JColorChoos
         // create new instance
         @SuppressWarnings("unused")
         final JColorChooser sut = null; // = new JColorChooser(java.awt.Color);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JColorChooser#JColorChooser()
+     * public javax.swing.JColorChooser()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JColorChooser()
+    throws Exception {
+        // create new instance
+        final JColorChooser sut = new JColorChooser();
     }
 
     /**

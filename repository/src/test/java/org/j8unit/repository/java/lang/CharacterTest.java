@@ -5,11 +5,14 @@ import static org.j8unit.util.TestParametersUtil.testParametersOfEnumClass;
 import java.lang.Character.Subset;
 import java.lang.Character.UnicodeBlock;
 import java.lang.Character.UnicodeScript;
+import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.J8Unit4;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
 @RunWith(J8Unit4.class)
 public class CharacterTest
@@ -24,7 +27,47 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character]
 
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class UnicodeScriptTest
+    implements org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests<UnicodeScript> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return testParametersOfEnumClass(UnicodeScript.class);
+        }
+
+        @Parameter(0)
+        public UnicodeScript sut;
+
+        @Override
+        public UnicodeScript createNewSUT() {
+            return this.sut;
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
+
+    }
+
     @RunWith(J8Unit4.class)
+    public static class SubsetTest
+    implements org.j8unit.repository.java.lang.CharacterTests.SubsetTests<Subset> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
+
+        @Override
+        public Subset createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.Character.Subset], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UnicodeBlockTest
     implements org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests<UnicodeBlock> {
 
@@ -264,44 +307,6 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class UnicodeScriptTest
-    implements org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests<UnicodeScript> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(UnicodeScript.class);
-        }
-
-        @Parameter(0)
-        public UnicodeScript sut;
-
-        @Override
-        public UnicodeScript createNewSUT() {
-            return this.sut;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class SubsetTest
-    implements org.j8unit.repository.java.lang.CharacterTests.SubsetTests<Subset> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
-
-        @Override
-        public Subset createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.Character.Subset], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
 
     }
 

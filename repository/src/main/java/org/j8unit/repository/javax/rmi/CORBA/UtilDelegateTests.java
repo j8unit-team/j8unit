@@ -173,28 +173,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.UtilDelegate#createValueHandler()
-     * public abstract javax.rmi.CORBA.ValueHandler javax.rmi.CORBA.UtilDelegate.createValueHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createValueHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.rmi.CORBA.UtilDelegate#loadClass(String, String, ClassLoader) public abstract java.lang.Class
      * javax.rmi.CORBA.UtilDelegate.loadClass(java.lang.String,java.lang.String,java.lang.ClassLoader) throws
@@ -211,6 +189,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_loadClass_String_String_ClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.UtilDelegate#createValueHandler()
+     * public abstract javax.rmi.CORBA.ValueHandler javax.rmi.CORBA.UtilDelegate.createValueHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createValueHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

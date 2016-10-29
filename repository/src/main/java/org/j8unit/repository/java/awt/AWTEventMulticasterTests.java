@@ -91,30 +91,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#windowDeiconified(java.awt.event.WindowEvent) public void
-     * java.awt.AWTEventMulticaster.windowDeiconified(java.awt.event.WindowEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_windowDeiconified_WindowEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTEventMulticaster#mouseWheelMoved(java.awt.event.MouseWheelEvent) public void
      * java.awt.AWTEventMulticaster.mouseWheelMoved(java.awt.event.MouseWheelEvent)}.
      *
@@ -130,6 +106,30 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_mouseWheelMoved_MouseWheelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.AWTEventMulticaster#windowDeiconified(java.awt.event.WindowEvent) public void
+     * java.awt.AWTEventMulticaster.windowDeiconified(java.awt.event.WindowEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_windowDeiconified_WindowEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,30 +211,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#itemStateChanged(java.awt.event.ItemEvent) public void
-     * java.awt.AWTEventMulticaster.itemStateChanged(java.awt.event.ItemEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_itemStateChanged_ItemEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTEventMulticaster#focusGained(java.awt.event.FocusEvent) public void
      * java.awt.AWTEventMulticaster.focusGained(java.awt.event.FocusEvent)}.
      *
@@ -259,8 +235,8 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#textValueChanged(java.awt.event.TextEvent) public void
-     * java.awt.AWTEventMulticaster.textValueChanged(java.awt.event.TextEvent)}.
+     * {@link java.awt.AWTEventMulticaster#itemStateChanged(java.awt.event.ItemEvent) public void
+     * java.awt.AWTEventMulticaster.itemStateChanged(java.awt.event.ItemEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -273,7 +249,7 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_textValueChanged_TextEvent()
+    public default void test_itemStateChanged_ItemEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -322,6 +298,30 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_componentHidden_ComponentEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.AWTEventMulticaster#textValueChanged(java.awt.event.TextEvent) public void
+     * java.awt.AWTEventMulticaster.textValueChanged(java.awt.event.TextEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_textValueChanged_TextEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -499,30 +499,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#windowLostFocus(java.awt.event.WindowEvent) public void
-     * java.awt.AWTEventMulticaster.windowLostFocus(java.awt.event.WindowEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_windowLostFocus_WindowEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTEventMulticaster#actionPerformed(java.awt.event.ActionEvent) public void
      * java.awt.AWTEventMulticaster.actionPerformed(java.awt.event.ActionEvent)}.
      *
@@ -538,6 +514,30 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_actionPerformed_ActionEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.AWTEventMulticaster#windowLostFocus(java.awt.event.WindowEvent) public void
+     * java.awt.AWTEventMulticaster.windowLostFocus(java.awt.event.WindowEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_windowLostFocus_WindowEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -595,30 +595,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#windowClosing(java.awt.event.WindowEvent) public void
-     * java.awt.AWTEventMulticaster.windowClosing(java.awt.event.WindowEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_windowClosing_WindowEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTEventMulticaster#mouseEntered(java.awt.event.MouseEvent) public void
      * java.awt.AWTEventMulticaster.mouseEntered(java.awt.event.MouseEvent)}.
      *
@@ -634,6 +610,30 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_mouseEntered_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.AWTEventMulticaster#windowClosing(java.awt.event.WindowEvent) public void
+     * java.awt.AWTEventMulticaster.windowClosing(java.awt.event.WindowEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_windowClosing_WindowEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -715,30 +715,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#hierarchyChanged(java.awt.event.HierarchyEvent) public void
-     * java.awt.AWTEventMulticaster.hierarchyChanged(java.awt.event.HierarchyEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hierarchyChanged_HierarchyEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTEventMulticaster#ancestorResized(java.awt.event.HierarchyEvent) public void
      * java.awt.AWTEventMulticaster.ancestorResized(java.awt.event.HierarchyEvent)}.
      *
@@ -778,6 +754,30 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_ancestorMoved_HierarchyEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.AWTEventMulticaster#hierarchyChanged(java.awt.event.HierarchyEvent) public void
+     * java.awt.AWTEventMulticaster.hierarchyChanged(java.awt.event.HierarchyEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_hierarchyChanged_HierarchyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -835,30 +835,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.AWTEventMulticaster#mouseExited(java.awt.event.MouseEvent) public void
-     * java.awt.AWTEventMulticaster.mouseExited(java.awt.event.MouseEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseExited_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTEventMulticaster#mouseDragged(java.awt.event.MouseEvent) public void
      * java.awt.AWTEventMulticaster.mouseDragged(java.awt.event.MouseEvent)}.
      *
@@ -874,6 +850,30 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_mouseDragged_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.AWTEventMulticaster#mouseExited(java.awt.event.MouseEvent) public void
+     * java.awt.AWTEventMulticaster.mouseExited(java.awt.event.MouseEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseExited_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,28 +24,6 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator, java.awt.geom.Rectangle2D) public static
-     * boolean java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,java.awt.geom.Rectangle2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_intersects_PathIterator_Rectangle2D()
-    throws Exception {
-        // write some test for {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator,
-        // java.awt.geom.Rectangle2D)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator, double, double, double, double) public static
      * boolean java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,double,double,double,double)}.
      *
@@ -68,8 +46,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double, double, double) public static
-     * boolean java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,double,double,double,double)}.
+     * {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator, java.awt.geom.Rectangle2D) public static
+     * boolean java.awt.geom.Path2D.intersects(java.awt.geom.PathIterator,java.awt.geom.Rectangle2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,10 +59,10 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_contains_PathIterator_double_double_double_double()
+    public void test_intersects_PathIterator_Rectangle2D()
     throws Exception {
-        // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double, double,
-        // double)}
+        // write some test for {@link java.awt.geom.Path2D#intersects(java.awt.geom.PathIterator,
+        // java.awt.geom.Rectangle2D)}
     }
 
     /**
@@ -151,6 +129,28 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, java.awt.geom.Point2D)}
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double, double, double) public static
+     * boolean java.awt.geom.Path2D.contains(java.awt.geom.PathIterator,double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_contains_PathIterator_double_double_double_double()
+    throws Exception {
+        // write some test for {@link java.awt.geom.Path2D#contains(java.awt.geom.PathIterator, double, double, double,
+        // double)}
+    }
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D]
 
     @RunWith(J8Unit4.class)
@@ -190,8 +190,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link java.awt.geom.Path2D.Double#Double(java.awt.Shape) public java.awt.geom.Path2D$Double(java.awt.Shape)}
-         * .
+         * {@link java.awt.geom.Path2D.Double#Double(java.awt.Shape) public
+         * java.awt.geom.Path2D$Double(java.awt.Shape)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

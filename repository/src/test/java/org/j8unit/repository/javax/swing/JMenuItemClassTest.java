@@ -21,51 +21,6 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenuItem#JMenuItem(String, int)
-     * public javax.swing.JMenuItem(java.lang.String,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JMenuItem_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JMenuItem sut = null; // = new JMenuItem(String, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JMenuItem#JMenuItem(String, javax.swing.Icon) public
-     * javax.swing.JMenuItem(java.lang.String,javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JMenuItem_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JMenuItem sut = null; // = new JMenuItem(String, javax.swing.Icon);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JMenuItem#JMenuItem(javax.swing.Action) public javax.swing.JMenuItem(javax.swing.Action)}.
      *
@@ -149,6 +104,51 @@ implements org.j8unit.repository.javax.swing.JMenuItemClassTests<JMenuItem> {
         // create new instance
         @SuppressWarnings("unused")
         final JMenuItem sut = null; // = new JMenuItem(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JMenuItem#JMenuItem(String, int)
+     * public javax.swing.JMenuItem(java.lang.String,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JMenuItem_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JMenuItem sut = null; // = new JMenuItem(String, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.JMenuItem#JMenuItem(String, javax.swing.Icon) public
+     * javax.swing.JMenuItem(java.lang.String,javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JMenuItem_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JMenuItem sut = null; // = new JMenuItem(String, javax.swing.Icon);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JMenuItem]

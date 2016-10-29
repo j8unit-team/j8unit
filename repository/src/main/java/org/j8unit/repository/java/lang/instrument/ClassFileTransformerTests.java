@@ -38,8 +38,8 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.instrument.ClassFileTransformer#transform(ClassLoader, String, Class, java.security.ProtectionDomain, byte[])
      * public abstract byte[]
-     * java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class
-     * <?>,java.security.ProtectionDomain,byte[]) throws java.lang.instrument.IllegalClassFormatException}.
+     * java.lang.instrument.ClassFileTransformer.transform(java.lang.ClassLoader,java.lang.String,java.lang.Class<?>,java.security.ProtectionDomain,byte[])
+     * throws java.lang.instrument.IllegalClassFormatException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

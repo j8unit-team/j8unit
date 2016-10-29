@@ -22,29 +22,6 @@ implements org.j8unit.repository.java.util.jar.JarOutputStreamClassTests<JarOutp
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.jar.JarOutputStream#JarOutputStream(java.io.OutputStream, java.util.jar.Manifest) public
-     * java.util.jar.JarOutputStream(java.io.OutputStream,java.util.jar.Manifest) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JarOutputStream_OutputStream_Manifest()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final JarOutputStream sut = null; // = new JarOutputStream(java.io.OutputStream, java.util.jar.Manifest);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.jar.JarOutputStream#JarOutputStream(java.io.OutputStream) public
      * java.util.jar.JarOutputStream(java.io.OutputStream) throws java.io.IOException}.
      *
@@ -63,6 +40,29 @@ implements org.j8unit.repository.java.util.jar.JarOutputStreamClassTests<JarOutp
         // create new instance
         @SuppressWarnings("unused")
         final JarOutputStream sut = null; // = new JarOutputStream(java.io.OutputStream);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.jar.JarOutputStream#JarOutputStream(java.io.OutputStream, java.util.jar.Manifest) public
+     * java.util.jar.JarOutputStream(java.io.OutputStream,java.util.jar.Manifest) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JarOutputStream_OutputStream_Manifest()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final JarOutputStream sut = null; // = new JarOutputStream(java.io.OutputStream, java.util.jar.Manifest);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarOutputStream]

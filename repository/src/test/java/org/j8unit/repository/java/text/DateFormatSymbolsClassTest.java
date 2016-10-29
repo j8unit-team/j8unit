@@ -21,27 +21,6 @@ implements org.j8unit.repository.java.text.DateFormatSymbolsClassTests<DateForma
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.text.DateFormatSymbols#DateFormatSymbols()
-     * public java.text.DateFormatSymbols()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_DateFormatSymbols()
-    throws Exception {
-        // create new instance
-        final DateFormatSymbols sut = new DateFormatSymbols();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.text.DateFormatSymbols#DateFormatSymbols(java.util.Locale) public
      * java.text.DateFormatSymbols(java.util.Locale)}.
@@ -61,6 +40,27 @@ implements org.j8unit.repository.java.text.DateFormatSymbolsClassTests<DateForma
         // create new instance
         @SuppressWarnings("unused")
         final DateFormatSymbols sut = null; // = new DateFormatSymbols(java.util.Locale);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.text.DateFormatSymbols#DateFormatSymbols()
+     * public java.text.DateFormatSymbols()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_DateFormatSymbols()
+    throws Exception {
+        // create new instance
+        final DateFormatSymbols sut = new DateFormatSymbols();
     }
 
     /**

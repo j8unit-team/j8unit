@@ -8,8 +8,8 @@ import org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper;
  * <p>
  * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
  * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
- * {@link AdapterAlreadyExistsHelper public abstract class org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper}
- * .
+ * {@link AdapterAlreadyExistsHelper public abstract class
+ * org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper}.
  * </p>
  *
  * <p>

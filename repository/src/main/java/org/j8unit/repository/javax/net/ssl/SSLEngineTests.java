@@ -35,6 +35,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[]) public
+     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[]) throws
+     * javax.net.ssl.SSLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unwrap_ByteBuffer_ByteBufferArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[], int, int) public abstract
      * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[],int,int)
      * throws javax.net.ssl.SSLException}.
@@ -74,30 +98,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unwrap_ByteBuffer_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.net.ssl.SSLEngine#unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[]) public
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.unwrap(java.nio.ByteBuffer,java.nio.ByteBuffer[]) throws
-     * javax.net.ssl.SSLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unwrap_ByteBuffer_ByteBufferArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -418,28 +418,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#isInboundDone() public
-     * abstract boolean javax.net.ssl.SSLEngine.isInboundDone()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isInboundDone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#getEnabledProtocols() public
      * abstract java.lang.String[] javax.net.ssl.SSLEngine.getEnabledProtocols()}.
      *
@@ -462,8 +440,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#getNeedClientAuth() public
-     * abstract boolean javax.net.ssl.SSLEngine.getNeedClientAuth()}.
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#isInboundDone() public
+     * abstract boolean javax.net.ssl.SSLEngine.isInboundDone()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -475,7 +453,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNeedClientAuth()
+    public default void test_isInboundDone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -506,6 +484,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#getNeedClientAuth() public
+     * abstract boolean javax.net.ssl.SSLEngine.getNeedClientAuth()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNeedClientAuth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#getSupportedProtocols()
      * public abstract java.lang.String[] javax.net.ssl.SSLEngine.getSupportedProtocols()}.
      *
@@ -520,52 +520,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSupportedProtocols()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#getSession() public abstract
-     * javax.net.ssl.SSLSession javax.net.ssl.SSLEngine.getSession()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSession()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], int, int, java.nio.ByteBuffer) public abstract
-     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],int,int,java.nio.ByteBuffer)
-     * throws javax.net.ssl.SSLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wrap_ByteBufferArray_int_int_ByteBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -614,6 +568,52 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_wrap_ByteBufferArray_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.net.ssl.SSLEngine#wrap(java.nio.ByteBuffer[], int, int, java.nio.ByteBuffer) public abstract
+     * javax.net.ssl.SSLEngineResult javax.net.ssl.SSLEngine.wrap(java.nio.ByteBuffer[],int,int,java.nio.ByteBuffer)
+     * throws javax.net.ssl.SSLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_ByteBufferArray_int_int_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.net.ssl.SSLEngine#getSession() public abstract
+     * javax.net.ssl.SSLSession javax.net.ssl.SSLEngine.getSession()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSession()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

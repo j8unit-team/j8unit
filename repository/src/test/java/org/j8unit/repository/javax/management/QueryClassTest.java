@@ -123,86 +123,6 @@ implements org.j8unit.repository.javax.management.QueryClassTests<Query> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(long) public static
-     * javax.management.ValueExp javax.management.Query.value(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_value_long()
-    throws Exception {
-        // write some test for {@link javax.management.Query#value(long)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(int) public static
-     * javax.management.ValueExp javax.management.Query.value(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_value_int()
-    throws Exception {
-        // write some test for {@link javax.management.Query#value(int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(Number) public static
-     * javax.management.ValueExp javax.management.Query.value(java.lang.Number)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_value_Number()
-    throws Exception {
-        // write some test for {@link javax.management.Query#value(Number)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(String) public static
-     * javax.management.StringValueExp javax.management.Query.value(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_value_String()
-    throws Exception {
-        // write some test for {@link javax.management.Query#value(String)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(float) public static
      * javax.management.ValueExp javax.management.Query.value(float)}.
      *
@@ -259,6 +179,86 @@ implements org.j8unit.repository.javax.management.QueryClassTests<Query> {
     public void test_value_boolean()
     throws Exception {
         // write some test for {@link javax.management.Query#value(boolean)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(String) public static
+     * javax.management.StringValueExp javax.management.Query.value(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_value_String()
+    throws Exception {
+        // write some test for {@link javax.management.Query#value(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(Number) public static
+     * javax.management.ValueExp javax.management.Query.value(java.lang.Number)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_value_Number()
+    throws Exception {
+        // write some test for {@link javax.management.Query#value(Number)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(int) public static
+     * javax.management.ValueExp javax.management.Query.value(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_value_int()
+    throws Exception {
+        // write some test for {@link javax.management.Query#value(int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.Query#value(long) public static
+     * javax.management.ValueExp javax.management.Query.value(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_value_long()
+    throws Exception {
+        // write some test for {@link javax.management.Query#value(long)}
     }
 
     /**
@@ -587,29 +587,6 @@ implements org.j8unit.repository.javax.management.QueryClassTests<Query> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.Query#anySubString(javax.management.AttributeValueExp, javax.management.StringValueExp)
-     * public static javax.management.QueryExp
-     * javax.management.Query.anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_anySubString_AttributeValueExp_StringValueExp()
-    throws Exception {
-        // write some test for {@link javax.management.Query#anySubString(javax.management.AttributeValueExp,
-        // javax.management.StringValueExp)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.Query#initialSubString(javax.management.AttributeValueExp, javax.management.StringValueExp)
      * public static javax.management.QueryExp
      * javax.management.Query.initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
@@ -627,6 +604,29 @@ implements org.j8unit.repository.javax.management.QueryClassTests<Query> {
     public void test_initialSubString_AttributeValueExp_StringValueExp()
     throws Exception {
         // write some test for {@link javax.management.Query#initialSubString(javax.management.AttributeValueExp,
+        // javax.management.StringValueExp)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.Query#anySubString(javax.management.AttributeValueExp, javax.management.StringValueExp)
+     * public static javax.management.QueryExp
+     * javax.management.Query.anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_anySubString_AttributeValueExp_StringValueExp()
+    throws Exception {
+        // write some test for {@link javax.management.Query#anySubString(javax.management.AttributeValueExp,
         // javax.management.StringValueExp)}
     }
 

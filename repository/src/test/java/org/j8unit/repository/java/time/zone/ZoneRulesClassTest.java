@@ -24,9 +24,7 @@ implements org.j8unit.repository.java.time.zone.ZoneRulesClassTests<ZoneRules> {
      * Test method for the hereby targeted method-under-test
      * {@link java.time.zone.ZoneRules#of(java.time.ZoneOffset, java.time.ZoneOffset, java.util.List, java.util.List, java.util.List)
      * public static java.time.zone.ZoneRules
-     * java.time.zone.ZoneRules.of(java.time.ZoneOffset,java.time.ZoneOffset,java.util.List
-     * <java.time.zone.ZoneOffsetTransition>,java.util.List<java.time.zone.ZoneOffsetTransition>,java.util.List
-     * <java.time.zone.ZoneOffsetTransitionRule>)}.
+     * java.time.zone.ZoneRules.of(java.time.ZoneOffset,java.time.ZoneOffset,java.util.List<java.time.zone.ZoneOffsetTransition>,java.util.List<java.time.zone.ZoneOffsetTransition>,java.util.List<java.time.zone.ZoneOffsetTransitionRule>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

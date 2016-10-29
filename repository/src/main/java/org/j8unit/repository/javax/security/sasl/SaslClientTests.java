@@ -124,8 +124,9 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslClient#isComplete() public
-     * abstract boolean javax.security.sasl.SaslClient.isComplete()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.security.sasl.SaslClient#unwrap(byte[], int, int) public abstract byte[]
+     * javax.security.sasl.SaslClient.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,7 +138,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isComplete()
+    public default void test_unwrap_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,9 +170,8 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.security.sasl.SaslClient#unwrap(byte[], int, int) public abstract byte[]
-     * javax.security.sasl.SaslClient.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
+     * Test method for the hereby targeted method-under-test {@link javax.security.sasl.SaslClient#isComplete() public
+     * abstract boolean javax.security.sasl.SaslClient.isComplete()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -183,7 +183,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unwrap_byteArray_int_int()
+    public default void test_isComplete()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

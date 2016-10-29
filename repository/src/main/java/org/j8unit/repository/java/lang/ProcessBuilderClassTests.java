@@ -5,7 +5,7 @@ import java.lang.ProcessBuilder.Redirect;
 import java.lang.ProcessBuilder.Redirect.Type;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Assert;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -59,7 +59,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance
@@ -122,7 +122,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
          * @since 0.9.2
          */
         @Override
-        @BeforeClass
+        @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
@@ -179,13 +179,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ProcessBuilder$Redirect$Type]
             /**
-             * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class
-             *      <?>) (the hereby targeted method-under-test)
+             * @see Class#isAssignableFrom(Class) public native boolean
+             *      java.lang.Class.isAssignableFrom(java.lang.Class<?>) (the hereby targeted method-under-test)
              *
              * @since 0.9.2
              */
             @Override
-            @BeforeClass
+            @Test
             public default void verifyGenericType()
             throws Exception {
                 // create new instance

@@ -71,8 +71,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextSupport#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
      * public void
-     * java.beans.beancontext.BeanContextSupport.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
-     * .
+     * java.beans.beancontext.BeanContextSupport.removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -142,30 +141,6 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#setDesignTime(boolean) public synchronized void
-     * java.beans.beancontext.BeanContextSupport.setDesignTime(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setDesignTime_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextSupport#remove(Object) public boolean
      * java.beans.beancontext.BeanContextSupport.remove(java.lang.Object)}.
      *
@@ -181,6 +156,30 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#setDesignTime(boolean) public synchronized void
+     * java.beans.beancontext.BeanContextSupport.setDesignTime(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setDesignTime_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,30 +258,6 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#toArray(Object[]) public java.lang.Object[]
-     * java.beans.beancontext.BeanContextSupport.toArray(java.lang.Object[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.beans.beancontext.BeanContextSupport#toArray()
      * public java.lang.Object[] java.beans.beancontext.BeanContextSupport.toArray()}.
      *
@@ -307,8 +282,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#dontUseGui() public synchronized void
-     * java.beans.beancontext.BeanContextSupport.dontUseGui()}.
+     * {@link java.beans.beancontext.BeanContextSupport#toArray(Object[]) public java.lang.Object[]
+     * java.beans.beancontext.BeanContextSupport.toArray(java.lang.Object[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -321,7 +296,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_dontUseGui()
+    public default void test_toArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -346,6 +321,30 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#dontUseGui() public synchronized void
+     * java.beans.beancontext.BeanContextSupport.dontUseGui()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_dontUseGui()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -452,8 +451,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextSupport#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
      * public void
-     * java.beans.beancontext.BeanContextSupport.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
-     * .
+     * java.beans.beancontext.BeanContextSupport.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -502,8 +500,7 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
      * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextSupport#getResourceAsStream(String, java.beans.beancontext.BeanContextChild)
      * public java.io.InputStream
-     * java.beans.beancontext.BeanContextSupport.getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)}
-     * .
+     * java.beans.beancontext.BeanContextSupport.getResourceAsStream(java.lang.String,java.beans.beancontext.BeanContextChild)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -761,6 +758,30 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.beans.beancontext.BeanContextSupport#retainAll(java.util.Collection) public boolean
+     * java.beans.beancontext.BeanContextSupport.retainAll(java.util.Collection)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_retainAll_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.beans.beancontext.BeanContextSupport#vetoableChange(java.beans.PropertyChangeEvent) public void
      * java.beans.beancontext.BeanContextSupport.vetoableChange(java.beans.PropertyChangeEvent) throws
      * java.beans.PropertyVetoException}.
@@ -777,30 +798,6 @@ org.j8unit.repository.java.beans.VetoableChangeListenerTests, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_vetoableChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.beans.beancontext.BeanContextSupport#retainAll(java.util.Collection) public boolean
-     * java.beans.beancontext.BeanContextSupport.retainAll(java.util.Collection)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_retainAll_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

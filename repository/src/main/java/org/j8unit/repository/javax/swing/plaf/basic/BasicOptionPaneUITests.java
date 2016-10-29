@@ -245,8 +245,8 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests}
-     * ).
+     * (see
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests}).
      * </p>
      *
      * @param SUT
@@ -289,8 +289,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#addLayoutComponent(String, java.awt.Component)
          * public void
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.addLayoutComponent(java.lang.String,java.awt.Component)}
-         * .
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -408,29 +407,6 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean) public void
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setSyncAllWidths(boolean)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setSyncAllWidths_boolean()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#preferredLayoutSize(java.awt.Container)
          * public java.awt.Dimension
          * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.preferredLayoutSize(java.awt.Container)}.
@@ -447,6 +423,29 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_preferredLayoutSize_Container()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#setSyncAllWidths(boolean) public void
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.setSyncAllWidths(boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setSyncAllWidths_boolean()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -479,29 +478,6 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding() public int
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getPadding()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getPadding()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#minimumLayoutSize(java.awt.Container) public
          * java.awt.Dimension
          * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.minimumLayoutSize(java.awt.Container)}.
@@ -524,6 +500,29 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#getPadding() public int
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout.getPadding()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getPadding()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
 
     }
@@ -539,8 +538,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
      * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests}
-     * ).
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests}).
      * </p>
      *
      * @param SUT
@@ -560,8 +558,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler#propertyChange(java.beans.PropertyChangeEvent)
          * public void
-         * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}
-         * .
+         * javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler.propertyChange(java.beans.PropertyChangeEvent)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful

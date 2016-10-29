@@ -44,21 +44,6 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe]
 
     @RunWith(J8Unit4.class)
-    public static class SinkChannelClassTest
-    implements org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests<SinkChannel> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
-
-        @Override
-        public Class<SinkChannel> createNewSUT() {
-            return SinkChannel.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class SourceChannelClassTest
     implements org.j8unit.repository.java.nio.channels.PipeClassTests.SourceChannelClassTests<SourceChannel> {
 
@@ -70,6 +55,21 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SinkChannelClassTest
+    implements org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests<SinkChannel> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
+
+        @Override
+        public Class<SinkChannel> createNewSUT() {
+            return SinkChannel.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
 
     }
 

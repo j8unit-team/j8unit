@@ -36,8 +36,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.datatransfer.FlavorTable#getNativesForFlavor(java.awt.datatransfer.DataFlavor) public abstract
-     * java.util.List
-     * <java.lang.String> java.awt.datatransfer.FlavorTable.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
+     * java.util.List<java.lang.String>
+     * java.awt.datatransfer.FlavorTable.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -59,8 +59,9 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.datatransfer.FlavorTable#getFlavorsForNative(String) public abstract java.util.List
-     * <java.awt.datatransfer.DataFlavor> java.awt.datatransfer.FlavorTable.getFlavorsForNative(java.lang.String)}.
+     * {@link java.awt.datatransfer.FlavorTable#getFlavorsForNative(String) public abstract
+     * java.util.List<java.awt.datatransfer.DataFlavor>
+     * java.awt.datatransfer.FlavorTable.getFlavorsForNative(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

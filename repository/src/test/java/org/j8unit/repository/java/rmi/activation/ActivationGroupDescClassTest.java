@@ -25,8 +25,7 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
      * Test method for the hereby targeted constructor-under-test
      * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(java.util.Properties, java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
      * public
-     * java.rmi.activation.ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}
-     * .
+     * java.rmi.activation.ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -50,8 +49,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
      * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(String, String, java.rmi.MarshalledObject, java.util.Properties, java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
-     * public java.rmi.activation.ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject
-     * <?>,java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}.
+     * public
+     * java.rmi.activation.ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject<?>,java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

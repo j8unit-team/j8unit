@@ -23,21 +23,6 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators]
 
     @RunWith(J8Unit4.class)
-    public static class AbstractSpliteratorTest<T>
-    implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests<AbstractSpliterator<T>, T> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractSpliterator]
-
-        @Override
-        public AbstractSpliterator<T> createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterators.AbstractSpliterator], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractSpliterator]
-
-    }
-
-    @RunWith(J8Unit4.class)
     public static class AbstractDoubleSpliteratorTest
     implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests<AbstractDoubleSpliterator> {
 
@@ -49,6 +34,21 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
         }
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractDoubleSpliterator]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AbstractSpliteratorTest<T>
+    implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests<AbstractSpliterator<T>, T> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractSpliterator]
+
+        @Override
+        public AbstractSpliterator<T> createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterators.AbstractSpliterator], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractSpliterator]
 
     }
 

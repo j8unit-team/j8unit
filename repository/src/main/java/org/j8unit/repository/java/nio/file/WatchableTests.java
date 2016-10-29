@@ -38,8 +38,8 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Watchable#register(java.nio.file.WatchService, java.nio.file.WatchEvent.Kind...) public
      * abstract java.nio.file.WatchKey
-     * java.nio.file.Watchable.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind
-     * <?>...) throws java.io.IOException}.
+     * java.nio.file.Watchable.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind<?>...)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -63,8 +63,8 @@ extends RepositoryTests<SUT> {
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Watchable#register(java.nio.file.WatchService, java.nio.file.WatchEvent.Kind[], java.nio.file.WatchEvent.Modifier...)
      * public abstract java.nio.file.WatchKey
-     * java.nio.file.Watchable.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind
-     * <?>[],java.nio.file.WatchEvent$Modifier...) throws java.io.IOException}.
+     * java.nio.file.Watchable.register(java.nio.file.WatchService,java.nio.file.WatchEvent.java.nio.file.WatchEvent$Kind<?>[],java.nio.file.WatchEvent$Modifier...)
+     * throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

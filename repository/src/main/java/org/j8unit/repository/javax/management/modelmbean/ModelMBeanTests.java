@@ -38,8 +38,7 @@ org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcas
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.ModelMBean#setManagedResource(Object, String) public abstract void
      * javax.management.modelmbean.ModelMBean.setManagedResource(java.lang.Object,java.lang.String) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

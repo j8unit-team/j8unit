@@ -22,28 +22,6 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantLockClassTe
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.concurrent.locks.ReentrantLock#ReentrantLock() public
-     * java.util.concurrent.locks.ReentrantLock()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_ReentrantLock()
-    throws Exception {
-        // create new instance
-        final ReentrantLock sut = new ReentrantLock();
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.util.concurrent.locks.ReentrantLock#ReentrantLock(boolean) public
      * java.util.concurrent.locks.ReentrantLock(boolean)}.
      *
@@ -62,6 +40,28 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantLockClassTe
         // create new instance
         @SuppressWarnings("unused")
         final ReentrantLock sut = null; // = new ReentrantLock(boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.concurrent.locks.ReentrantLock#ReentrantLock() public
+     * java.util.concurrent.locks.ReentrantLock()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_ReentrantLock()
+    throws Exception {
+        // create new instance
+        final ReentrantLock sut = new ReentrantLock();
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantLock]

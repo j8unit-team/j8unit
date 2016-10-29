@@ -60,8 +60,7 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellRenderer#getTreeCellRendererComponent(javax.swing.JTree, Object, boolean, boolean, boolean, int, boolean)
      * public java.awt.Component
-     * javax.swing.tree.DefaultTreeCellRenderer.getTreeCellRendererComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int,boolean)}
-     * .
+     * javax.swing.tree.DefaultTreeCellRenderer.getTreeCellRendererComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -432,30 +431,6 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#repaint(java.awt.Rectangle) public void
-     * javax.swing.tree.DefaultTreeCellRenderer.repaint(java.awt.Rectangle)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_repaint_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellRenderer#repaint(long, int, int, int, int) public void
      * javax.swing.tree.DefaultTreeCellRenderer.repaint(long,int,int,int,int)}.
      *
@@ -471,6 +446,30 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_repaint_long_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#repaint(java.awt.Rectangle) public void
+     * javax.swing.tree.DefaultTreeCellRenderer.repaint(java.awt.Rectangle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_repaint_Rectangle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -666,29 +665,6 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#getBackgroundSelectionColor() public java.awt.Color
-     * javax.swing.tree.DefaultTreeCellRenderer.getBackgroundSelectionColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackgroundSelectionColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellRenderer#invalidate() public void
      * javax.swing.tree.DefaultTreeCellRenderer.invalidate()}.
      *
@@ -704,6 +680,29 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_invalidate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#getBackgroundSelectionColor() public java.awt.Color
+     * javax.swing.tree.DefaultTreeCellRenderer.getBackgroundSelectionColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBackgroundSelectionColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -782,8 +781,8 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, byte, byte) public void
-     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,byte,byte)}.
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, float, float) public void
+     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,float,float)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -796,55 +795,7 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_firePropertyChange_String_byte_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, boolean, boolean) public void
-     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,boolean,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, char, char) public void
-     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,char,char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_char_char()
+    public default void test_firePropertyChange_String_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -878,54 +829,6 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, long, long) public void
-     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,long,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, float, float) public void
-     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,float,float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_float_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, int, int) public void
      * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,int,int)}.
      *
@@ -950,6 +853,78 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, long, long) public void
+     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, char, char) public void
+     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,char,char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_char_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, boolean, boolean) public void
+     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,boolean,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, double, double) public void
      * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,double,double)}.
      *
@@ -965,6 +940,30 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_firePropertyChange_String_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellRenderer#firePropertyChange(String, byte, byte) public void
+     * javax.swing.tree.DefaultTreeCellRenderer.firePropertyChange(java.lang.String,byte,byte)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_byte_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

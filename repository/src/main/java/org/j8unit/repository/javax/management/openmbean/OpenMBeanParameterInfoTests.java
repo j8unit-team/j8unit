@@ -59,8 +59,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getMinValue() public abstract java.lang.Comparable
-     * <?> javax.management.openmbean.OpenMBeanParameterInfo.getMinValue()}.
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getMinValue() public abstract java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanParameterInfo.getMinValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -105,8 +105,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getLegalValues() public abstract java.util.Set
-     * <?> javax.management.openmbean.OpenMBeanParameterInfo.getLegalValues()}.
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getLegalValues() public abstract java.util.Set<?>
+     * javax.management.openmbean.OpenMBeanParameterInfo.getLegalValues()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -289,8 +289,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getMaxValue() public abstract java.lang.Comparable
-     * <?> javax.management.openmbean.OpenMBeanParameterInfo.getMaxValue()}.
+     * {@link javax.management.openmbean.OpenMBeanParameterInfo#getMaxValue() public abstract java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanParameterInfo.getMaxValue()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

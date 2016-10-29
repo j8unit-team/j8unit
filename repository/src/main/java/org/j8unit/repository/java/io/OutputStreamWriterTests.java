@@ -57,8 +57,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.OutputStreamWriter#write(String, int, int)
-     * public void java.io.OutputStreamWriter.write(java.lang.String,int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.OutputStreamWriter#write(char[], int, int)
+     * public void java.io.OutputStreamWriter.write(char[],int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -71,7 +71,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_write_String_int_int()
+    public default void test_write_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,8 +103,8 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.OutputStreamWriter#write(char[], int, int)
-     * public void java.io.OutputStreamWriter.write(char[],int,int) throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link java.io.OutputStreamWriter#write(String, int, int)
+     * public void java.io.OutputStreamWriter.write(java.lang.String,int,int) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -117,7 +117,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_write_charArray_int_int()
+    public default void test_write_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

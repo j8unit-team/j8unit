@@ -62,6 +62,46 @@ implements org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<AWTKeyStroke> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getAWTKeyStroke(String) public
+     * static java.awt.AWTKeyStroke java.awt.AWTKeyStroke.getAWTKeyStroke(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAWTKeyStroke_String()
+    throws Exception {
+        // write some test for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getAWTKeyStroke(char) public
+     * static java.awt.AWTKeyStroke java.awt.AWTKeyStroke.getAWTKeyStroke(char)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getAWTKeyStroke_char()
+    throws Exception {
+        // write some test for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(char)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.AWTKeyStroke#getAWTKeyStroke(Character, int) public static java.awt.AWTKeyStroke
      * java.awt.AWTKeyStroke.getAWTKeyStroke(java.lang.Character,int)}.
@@ -100,46 +140,6 @@ implements org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<AWTKeyStroke> {
     public void test_getAWTKeyStroke_int_int_boolean()
     throws Exception {
         // write some test for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(int, int, boolean)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getAWTKeyStroke(String) public
-     * static java.awt.AWTKeyStroke java.awt.AWTKeyStroke.getAWTKeyStroke(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getAWTKeyStroke_String()
-    throws Exception {
-        // write some test for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(String)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.AWTKeyStroke#getAWTKeyStroke(char) public
-     * static java.awt.AWTKeyStroke java.awt.AWTKeyStroke.getAWTKeyStroke(char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getAWTKeyStroke_char()
-    throws Exception {
-        // write some test for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(char)}
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTKeyStroke]

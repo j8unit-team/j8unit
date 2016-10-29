@@ -35,29 +35,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#setSubjectPublicKey(java.security.PublicKey) public void
-     * java.security.cert.X509CertSelector.setSubjectPublicKey(java.security.PublicKey)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSubjectPublicKey_PublicKey()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#setSubjectPublicKey(byte[]) public void
      * java.security.cert.X509CertSelector.setSubjectPublicKey(byte[]) throws java.io.IOException}.
      *
@@ -72,6 +49,29 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_setSubjectPublicKey_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#setSubjectPublicKey(java.security.PublicKey) public void
+     * java.security.cert.X509CertSelector.setSubjectPublicKey(java.security.PublicKey)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSubjectPublicKey_PublicKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -195,6 +195,28 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CertSelector#getPolicy()
+     * public java.util.Set<java.lang.String> java.security.cert.X509CertSelector.getPolicy()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPolicy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#setBasicConstraints(int) public void
      * java.security.cert.X509CertSelector.setBasicConstraints(int)}.
@@ -218,8 +240,9 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.cert.X509CertSelector#getPolicy()
-     * public java.util.Set<java.lang.String> java.security.cert.X509CertSelector.getPolicy()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#getExtendedKeyUsage() public java.util.Set<java.lang.String>
+     * java.security.cert.X509CertSelector.getExtendedKeyUsage()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -231,7 +254,7 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPolicy()
+    public default void test_getExtendedKeyUsage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -256,29 +279,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_setExtendedKeyUsage_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#getExtendedKeyUsage() public java.util.Set
-     * <java.lang.String> java.security.cert.X509CertSelector.getExtendedKeyUsage()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getExtendedKeyUsage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -335,29 +335,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#setIssuer(String) public void
-     * java.security.cert.X509CertSelector.setIssuer(java.lang.String) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIssuer_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#setIssuer(byte[]) public void
      * java.security.cert.X509CertSelector.setIssuer(byte[]) throws java.io.IOException}.
      *
@@ -372,6 +349,29 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_setIssuer_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#setIssuer(String) public void
+     * java.security.cert.X509CertSelector.setIssuer(java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIssuer_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -427,29 +427,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#setPrivateKeyValid(java.util.Date) public void
-     * java.security.cert.X509CertSelector.setPrivateKeyValid(java.util.Date)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPrivateKeyValid_Date()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#getSubjectAsString() public java.lang.String
      * java.security.cert.X509CertSelector.getSubjectAsString()}.
      *
@@ -464,6 +441,29 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_getSubjectAsString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#setPrivateKeyValid(java.util.Date) public void
+     * java.security.cert.X509CertSelector.setPrivateKeyValid(java.util.Date)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrivateKeyValid_Date()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -818,29 +818,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#addSubjectAlternativeName(int, String) public void
-     * java.security.cert.X509CertSelector.addSubjectAlternativeName(int,java.lang.String) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addSubjectAlternativeName_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#addSubjectAlternativeName(int, byte[]) public void
      * java.security.cert.X509CertSelector.addSubjectAlternativeName(int,byte[]) throws java.io.IOException}.
      *
@@ -855,6 +832,29 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_addSubjectAlternativeName_int_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#addSubjectAlternativeName(int, String) public void
+     * java.security.cert.X509CertSelector.addSubjectAlternativeName(int,java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addSubjectAlternativeName_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -956,29 +956,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#addPathToName(int, String) public void
-     * java.security.cert.X509CertSelector.addPathToName(int,java.lang.String) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPathToName_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#addPathToName(int, byte[]) public void
      * java.security.cert.X509CertSelector.addPathToName(int,byte[]) throws java.io.IOException}.
      *
@@ -993,6 +970,29 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_addPathToName_int_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#addPathToName(int, String) public void
+     * java.security.cert.X509CertSelector.addPathToName(int,java.lang.String) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addPathToName_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1071,29 +1071,6 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.X509CertSelector#setCertificateValid(java.util.Date) public void
-     * java.security.cert.X509CertSelector.setCertificateValid(java.util.Date)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCertificateValid_Date()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.cert.X509CertSelector#getSubjectKeyIdentifier() public byte[]
      * java.security.cert.X509CertSelector.getSubjectKeyIdentifier()}.
      *
@@ -1108,6 +1085,29 @@ extends org.j8unit.repository.java.security.cert.CertSelectorTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_getSubjectKeyIdentifier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.cert.X509CertSelector#setCertificateValid(java.util.Date) public void
+     * java.security.cert.X509CertSelector.setCertificateValid(java.util.Date)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCertificateValid_Date()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

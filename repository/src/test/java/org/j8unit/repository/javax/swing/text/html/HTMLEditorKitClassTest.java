@@ -51,23 +51,21 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit]
 
     @RunWith(J8Unit4.class)
-    public static class InsertHTMLTextActionClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests<InsertHTMLTextAction> {
+    public static class ParserCallbackClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests<ParserCallback> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
         @Override
-        public Class<InsertHTMLTextAction> createNewSUT() {
-            return InsertHTMLTextAction.class;
+        public Class<ParserCallback> createNewSUT() {
+            return ParserCallback.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(String, String, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag)
-         * public
-         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}
-         * .
+         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#ParserCallback() public
+         * javax.swing.text.html.HTMLEditorKit$ParserCallback()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -79,42 +77,13 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_InsertHTMLTextAction_String_String_Tag_Tag_Tag_Tag()
+        public void create_ParserCallback()
         throws Exception {
             // create new instance
-            @SuppressWarnings("unused")
-            final InsertHTMLTextAction sut = null; // = new InsertHTMLTextAction(String, String,
-                                                   // javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag,
-                                                   // javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag);
+            final ParserCallback sut = new ParserCallback();
         }
 
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(String, String, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag)
-         * public
-         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}
-         * .
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_InsertHTMLTextAction_String_String_Tag_Tag()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final InsertHTMLTextAction sut = null; // = new InsertHTMLTextAction(String, String,
-                                                   // javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
 
     }
 
@@ -155,21 +124,22 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
     }
 
     @RunWith(J8Unit4.class)
-    public static class HTMLTextActionClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<HTMLTextAction> {
+    public static class InsertHTMLTextActionClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests<InsertHTMLTextAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
         @Override
-        public Class<HTMLTextAction> createNewSUT() {
-            return HTMLTextAction.class;
+        public Class<InsertHTMLTextAction> createNewSUT() {
+            return InsertHTMLTextAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.HTMLTextAction#HTMLTextAction(String) public
-         * javax.swing.text.html.HTMLEditorKit$HTMLTextAction(java.lang.String)}.
+         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(String, String, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag)
+         * public
+         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -178,15 +148,44 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
          *
          * @since 0.9.0
          */
-        @Ignore("Cannot construct an abstract class!")
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_HTMLTextAction_String()
+        public void create_InsertHTMLTextAction_String_String_Tag_Tag()
         throws Exception {
-            Assert.fail("Cannot construct an abstract class!");
+            // create new instance
+            @SuppressWarnings("unused")
+            final InsertHTMLTextAction sut = null; // = new InsertHTMLTextAction(String, String,
+                                                   // javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(String, String, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag)
+         * public
+         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_InsertHTMLTextAction_String_String_Tag_Tag_Tag_Tag()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final InsertHTMLTextAction sut = null; // = new InsertHTMLTextAction(String, String,
+                                                   // javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag,
+                                                   // javax.swing.text.html.HTML.Tag, javax.swing.text.html.HTML.Tag);
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
     }
 
@@ -265,21 +264,21 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
     }
 
     @RunWith(J8Unit4.class)
-    public static class ParserCallbackClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests<ParserCallback> {
+    public static class HTMLTextActionClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<HTMLTextAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
         @Override
-        public Class<ParserCallback> createNewSUT() {
-            return ParserCallback.class;
+        public Class<HTMLTextAction> createNewSUT() {
+            return HTMLTextAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#ParserCallback() public
-         * javax.swing.text.html.HTMLEditorKit$ParserCallback()}.
+         * {@link javax.swing.text.html.HTMLEditorKit.HTMLTextAction#HTMLTextAction(String) public
+         * javax.swing.text.html.HTMLEditorKit$HTMLTextAction(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -288,16 +287,15 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
          *
          * @since 0.9.0
          */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Ignore("Cannot construct an abstract class!")
         @Test
         @Category(Draft.class)
-        public void create_ParserCallback()
+        public void create_HTMLTextAction_String()
         throws Exception {
-            // create new instance
-            final ParserCallback sut = new ParserCallback();
+            Assert.fail("Cannot construct an abstract class!");
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
     }
 

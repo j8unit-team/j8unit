@@ -34,6 +34,28 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getRowFilter() public
+     * javax.swing.RowFilter<? super M, ? super I> javax.swing.DefaultRowSorter.getRowFilter()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.DefaultRowSorter#setRowFilter(javax.swing.RowFilter) public void
      * javax.swing.DefaultRowSorter.setRowFilter(javax.swing.RowFilter<? super M, ? super I>)}.
@@ -49,28 +71,6 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
     @Test
     @Category(Draft.class)
     public default void test_setRowFilter_RowFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getRowFilter() public
-     * javax.swing.RowFilter<? super M, ? super I> javax.swing.DefaultRowSorter.getRowFilter()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowFilter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -170,6 +170,28 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getComparator(int)
+     * public java.util.Comparator<?> javax.swing.DefaultRowSorter.getComparator(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComparator_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getViewRowCount()
      * public int javax.swing.DefaultRowSorter.getViewRowCount()}.
      *
@@ -185,28 +207,6 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
     @Test
     @Category(Draft.class)
     public default void test_getViewRowCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getComparator(int)
-     * public java.util.Comparator<?> javax.swing.DefaultRowSorter.getComparator(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComparator_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -354,6 +354,28 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#sort() public void
+     * javax.swing.DefaultRowSorter.sort()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getSortKeys() public
      * java.util.List<? extends javax.swing.RowSorter$SortKey> javax.swing.DefaultRowSorter.getSortKeys()}.
      *
@@ -369,28 +391,6 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
     @Test
     @Category(Draft.class)
     public default void test_getSortKeys()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#sort() public void
-     * javax.swing.DefaultRowSorter.sort()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -421,29 +421,6 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getModelRowCount()
-     * public int javax.swing.DefaultRowSorter.getModelRowCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getModelRowCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#allRowsChanged() public
      * void javax.swing.DefaultRowSorter.allRowsChanged()}.
      *
@@ -459,6 +436,29 @@ extends org.j8unit.repository.javax.swing.RowSorterTests<SUT, M> {
     @Test
     @Category(Draft.class)
     public default void test_allRowsChanged()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultRowSorter#getModelRowCount()
+     * public int javax.swing.DefaultRowSorter.getModelRowCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getModelRowCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

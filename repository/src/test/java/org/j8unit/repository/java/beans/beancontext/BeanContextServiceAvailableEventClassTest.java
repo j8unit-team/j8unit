@@ -24,8 +24,7 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceAvaila
      * Test method for the hereby targeted constructor-under-test
      * {@link java.beans.beancontext.BeanContextServiceAvailableEvent#BeanContextServiceAvailableEvent(java.beans.beancontext.BeanContextServices, Class)
      * public
-     * java.beans.beancontext.BeanContextServiceAvailableEvent(java.beans.beancontext.BeanContextServices,java.lang.Class)}
-     * .
+     * java.beans.beancontext.BeanContextServiceAvailableEvent(java.beans.beancontext.BeanContextServices,java.lang.Class)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

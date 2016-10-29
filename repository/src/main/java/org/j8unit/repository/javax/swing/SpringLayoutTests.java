@@ -204,35 +204,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SpringLayout#putConstraint(String, java.awt.Component, javax.swing.Spring, String, java.awt.Component)
-     * public void
-     * javax.swing.SpringLayout.putConstraint(java.lang.String,java.awt.Component,javax.swing.Spring,java.lang.String,java.awt.Component)}
-     * .
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putConstraint_String_Component_Spring_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SpringLayout#putConstraint(String, java.awt.Component, int, String, java.awt.Component) public
      * void
-     * javax.swing.SpringLayout.putConstraint(java.lang.String,java.awt.Component,int,java.lang.String,java.awt.Component)}
-     * .
+     * javax.swing.SpringLayout.putConstraint(java.lang.String,java.awt.Component,int,java.lang.String,java.awt.Component)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -245,6 +219,30 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_putConstraint_String_Component_int_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SpringLayout#putConstraint(String, java.awt.Component, javax.swing.Spring, String, java.awt.Component)
+     * public void
+     * javax.swing.SpringLayout.putConstraint(java.lang.String,java.awt.Component,javax.swing.Spring,java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putConstraint_String_Component_Spring_String_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -325,29 +323,6 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.SpringLayout#getConstraint(String, java.awt.Component) public javax.swing.Spring
-     * javax.swing.SpringLayout.getConstraint(java.lang.String,java.awt.Component)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConstraint_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.SpringLayout#getLayoutAlignmentX(java.awt.Container) public float
      * javax.swing.SpringLayout.getLayoutAlignmentX(java.awt.Container)}.
      *
@@ -363,6 +338,29 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_getLayoutAlignmentX_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.SpringLayout#getConstraint(String, java.awt.Component) public javax.swing.Spring
+     * javax.swing.SpringLayout.getConstraint(java.lang.String,java.awt.Component)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConstraint_String_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -421,6 +419,29 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.SpringLayout.Constraints#setHeight(javax.swing.Spring) public void
+         * javax.swing.SpringLayout$Constraints.setHeight(javax.swing.Spring)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setHeight_Spring()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.SpringLayout.Constraints#setWidth(javax.swing.Spring) public void
          * javax.swing.SpringLayout$Constraints.setWidth(javax.swing.Spring)}.
          *
@@ -443,9 +464,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.SpringLayout.Constraints#setHeight(javax.swing.Spring) public void
-         * javax.swing.SpringLayout$Constraints.setHeight(javax.swing.Spring)}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.SpringLayout.Constraints#getHeight()
+         * public javax.swing.Spring javax.swing.SpringLayout$Constraints.getHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -457,7 +477,29 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_setHeight_Spring()
+        public default void test_getHeight()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.SpringLayout.Constraints#getX()
+         * public javax.swing.Spring javax.swing.SpringLayout$Constraints.getX()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getX()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -489,8 +531,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.swing.SpringLayout.Constraints#getX()
-         * public javax.swing.Spring javax.swing.SpringLayout$Constraints.getX()}.
+         * Test method for the hereby targeted method-under-test {@link javax.swing.SpringLayout.Constraints#getY()
+         * public javax.swing.Spring javax.swing.SpringLayout$Constraints.getY()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -502,52 +544,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getX()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.swing.SpringLayout.Constraints#getHeight()
-         * public javax.swing.Spring javax.swing.SpringLayout$Constraints.getHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.SpringLayout.Constraints#setX(javax.swing.Spring) public void
-         * javax.swing.SpringLayout$Constraints.setX(javax.swing.Spring)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setX_Spring()
+        public default void test_getY()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -579,8 +576,9 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.swing.SpringLayout.Constraints#getY()
-         * public javax.swing.Spring javax.swing.SpringLayout$Constraints.getY()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.SpringLayout.Constraints#setX(javax.swing.Spring) public void
+         * javax.swing.SpringLayout$Constraints.setX(javax.swing.Spring)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -592,7 +590,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repo
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getY()
+        public default void test_setX_Spring()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

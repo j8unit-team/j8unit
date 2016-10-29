@@ -48,8 +48,7 @@ implements org.j8unit.repository.java.awt.font.LineBreakMeasurerClassTests<LineB
      * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.font.LineBreakMeasurer#LineBreakMeasurer(java.text.AttributedCharacterIterator, java.text.BreakIterator, java.awt.font.FontRenderContext)
      * public
-     * java.awt.font.LineBreakMeasurer(java.text.AttributedCharacterIterator,java.text.BreakIterator,java.awt.font.FontRenderContext)}
-     * .
+     * java.awt.font.LineBreakMeasurer(java.text.AttributedCharacterIterator,java.text.BreakIterator,java.awt.font.FontRenderContext)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test

@@ -20,6 +20,21 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent]
 
+    @RunWith(J8Unit4.class)
+    public static class ModifierClassTest
+    implements org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests<Modifier> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
+
+        @Override
+        public Class<Modifier> createNewSUT() {
+            return Modifier.class;
+        }
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
+
+    }
+
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class KindClassTest
@@ -33,21 +48,6 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
         }
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Kind]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ModifierClassTest
-    implements org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests<Modifier> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
-
-        @Override
-        public Class<Modifier> createNewSUT() {
-            return Modifier.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
 
     }
 

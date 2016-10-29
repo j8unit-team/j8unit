@@ -22,8 +22,7 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.net.InetSocketAddress#InetSocketAddress(String, int) public
-     * java.net.InetSocketAddress(java.lang.String,int)}.
+     * {@link java.net.InetSocketAddress#InetSocketAddress(int) public java.net.InetSocketAddress(int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,11 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InetSocketAddress_String_int()
+    public void create_InetSocketAddress_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InetSocketAddress sut = null; // = new InetSocketAddress(String, int);
+        final InetSocketAddress sut = null; // = new InetSocketAddress(int);
     }
 
     /**
@@ -68,7 +67,8 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.net.InetSocketAddress#InetSocketAddress(int) public java.net.InetSocketAddress(int)}.
+     * {@link java.net.InetSocketAddress#InetSocketAddress(String, int) public
+     * java.net.InetSocketAddress(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,11 +80,11 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_InetSocketAddress_int()
+    public void create_InetSocketAddress_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final InetSocketAddress sut = null; // = new InetSocketAddress(int);
+        final InetSocketAddress sut = null; // = new InetSocketAddress(String, int);
     }
 
     /**

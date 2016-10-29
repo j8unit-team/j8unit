@@ -56,31 +56,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeSelectionEvent#isAddedPath()
-     * public boolean javax.swing.event.TreeSelectionEvent.isAddedPath()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAddedPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.event.TreeSelectionEvent#isAddedPath(javax.swing.tree.TreePath) public boolean
-     * javax.swing.event.TreeSelectionEvent.isAddedPath(javax.swing.tree.TreePath)}.
+     * {@link javax.swing.event.TreeSelectionEvent#getNewLeadSelectionPath() public javax.swing.tree.TreePath
+     * javax.swing.event.TreeSelectionEvent.getNewLeadSelectionPath()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,7 +70,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAddedPath_TreePath()
+    public default void test_getNewLeadSelectionPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,8 +103,8 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.event.TreeSelectionEvent#getNewLeadSelectionPath() public javax.swing.tree.TreePath
-     * javax.swing.event.TreeSelectionEvent.getNewLeadSelectionPath()}.
+     * {@link javax.swing.event.TreeSelectionEvent#isAddedPath(javax.swing.tree.TreePath) public boolean
+     * javax.swing.event.TreeSelectionEvent.isAddedPath(javax.swing.tree.TreePath)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -138,7 +116,29 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNewLeadSelectionPath()
+    public default void test_isAddedPath_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.event.TreeSelectionEvent#isAddedPath()
+     * public boolean javax.swing.event.TreeSelectionEvent.isAddedPath()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAddedPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

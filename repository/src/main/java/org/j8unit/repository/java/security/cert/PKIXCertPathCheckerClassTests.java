@@ -3,7 +3,7 @@ package org.j8unit.repository.java.security.cert;
 import static org.junit.Assert.assertTrue;
 import java.security.cert.PKIXCertPathChecker;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.BeforeClass;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -58,7 +58,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.2
      */
     @Override
-    @BeforeClass
+    @Test
     public default void verifyGenericType()
     throws Exception {
         // create new instance

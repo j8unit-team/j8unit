@@ -22,29 +22,6 @@ implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorClassTests<
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.geom.FlatteningPathIterator#FlatteningPathIterator(java.awt.geom.PathIterator, double) public
-     * java.awt.geom.FlatteningPathIterator(java.awt.geom.PathIterator,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_FlatteningPathIterator_PathIterator_double()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(java.awt.geom.PathIterator, double);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.geom.FlatteningPathIterator#FlatteningPathIterator(java.awt.geom.PathIterator, double, int)
      * public java.awt.geom.FlatteningPathIterator(java.awt.geom.PathIterator,double,int)}.
      *
@@ -64,6 +41,29 @@ implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorClassTests<
         @SuppressWarnings("unused")
         final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(java.awt.geom.PathIterator, double,
                                                  // int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.geom.FlatteningPathIterator#FlatteningPathIterator(java.awt.geom.PathIterator, double) public
+     * java.awt.geom.FlatteningPathIterator(java.awt.geom.PathIterator,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_FlatteningPathIterator_PathIterator_double()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(java.awt.geom.PathIterator, double);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.FlatteningPathIterator]

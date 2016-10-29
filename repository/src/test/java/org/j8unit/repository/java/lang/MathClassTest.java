@@ -20,26 +20,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#decrementExact(int) public static int
-     * java.lang.Math.decrementExact(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_decrementExact_int()
-    throws Exception {
-        // write some test for {@link Math#decrementExact(int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#decrementExact(long) public static long
      * java.lang.Math.decrementExact(long)}.
      *
@@ -56,6 +36,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_decrementExact_long()
     throws Exception {
         // write some test for {@link Math#decrementExact(long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#decrementExact(int) public static int
+     * java.lang.Math.decrementExact(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_decrementExact_int()
+    throws Exception {
+        // write some test for {@link Math#decrementExact(int)}
     }
 
     /**
@@ -200,26 +200,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#copySign(double, double) public static double
-     * java.lang.Math.copySign(double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_copySign_double_double()
-    throws Exception {
-        // write some test for {@link Math#copySign(double, double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#copySign(float, float) public static float
      * java.lang.Math.copySign(float,float)}.
      *
@@ -236,6 +216,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_copySign_float_float()
     throws Exception {
         // write some test for {@link Math#copySign(float, float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#copySign(double, double) public static double
+     * java.lang.Math.copySign(double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_copySign_double_double()
+    throws Exception {
+        // write some test for {@link Math#copySign(double, double)}
     }
 
     /**
@@ -300,26 +300,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#ulp(double) public static double
-     * java.lang.Math.ulp(double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_ulp_double()
-    throws Exception {
-        // write some test for {@link Math#ulp(double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#ulp(float) public static float
      * java.lang.Math.ulp(float)}.
      *
@@ -336,6 +316,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_ulp_float()
     throws Exception {
         // write some test for {@link Math#ulp(float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#ulp(double) public static double
+     * java.lang.Math.ulp(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_ulp_double()
+    throws Exception {
+        // write some test for {@link Math#ulp(double)}
     }
 
     /**
@@ -440,26 +440,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#getExponent(float) public static int
-     * java.lang.Math.getExponent(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getExponent_float()
-    throws Exception {
-        // write some test for {@link Math#getExponent(float)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#getExponent(double) public static int
      * java.lang.Math.getExponent(double)}.
      *
@@ -476,6 +456,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_getExponent_double()
     throws Exception {
         // write some test for {@link Math#getExponent(double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#getExponent(float) public static int
+     * java.lang.Math.getExponent(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getExponent_float()
+    throws Exception {
+        // write some test for {@link Math#getExponent(float)}
     }
 
     /**
@@ -740,26 +740,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#negateExact(int) public static int
-     * java.lang.Math.negateExact(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_negateExact_int()
-    throws Exception {
-        // write some test for {@link Math#negateExact(int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#negateExact(long) public static long
      * java.lang.Math.negateExact(long)}.
      *
@@ -776,6 +756,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_negateExact_long()
     throws Exception {
         // write some test for {@link Math#negateExact(long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#negateExact(int) public static int
+     * java.lang.Math.negateExact(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_negateExact_int()
+    throws Exception {
+        // write some test for {@link Math#negateExact(int)}
     }
 
     /**
@@ -800,26 +800,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#nextAfter(float, double) public static float
-     * java.lang.Math.nextAfter(float,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_nextAfter_float_double()
-    throws Exception {
-        // write some test for {@link Math#nextAfter(float, double)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#nextAfter(double, double) public static double
      * java.lang.Math.nextAfter(double,double)}.
      *
@@ -840,8 +820,8 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#multiplyExact(long, long) public static long
-     * java.lang.Math.multiplyExact(long,long)}.
+     * Test method for the hereby targeted method-under-test {@link Math#nextAfter(float, double) public static float
+     * java.lang.Math.nextAfter(float,double)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -853,9 +833,9 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_multiplyExact_long_long()
+    public void test_nextAfter_float_double()
     throws Exception {
-        // write some test for {@link Math#multiplyExact(long, long)}
+        // write some test for {@link Math#nextAfter(float, double)}
     }
 
     /**
@@ -876,6 +856,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_multiplyExact_int_int()
     throws Exception {
         // write some test for {@link Math#multiplyExact(int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#multiplyExact(long, long) public static long
+     * java.lang.Math.multiplyExact(long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_multiplyExact_long_long()
+    throws Exception {
+        // write some test for {@link Math#multiplyExact(long, long)}
     }
 
     /**
@@ -1120,26 +1120,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#round(float) public static int
-     * java.lang.Math.round(float)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_round_float()
-    throws Exception {
-        // write some test for {@link Math#round(float)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#round(double) public static long
      * java.lang.Math.round(double)}.
      *
@@ -1156,6 +1136,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_round_double()
     throws Exception {
         // write some test for {@link Math#round(double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#round(float) public static int
+     * java.lang.Math.round(float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_round_float()
+    throws Exception {
+        // write some test for {@link Math#round(float)}
     }
 
     /**
@@ -1200,26 +1200,6 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link Math#floorDiv(long, long) public static long
-     * java.lang.Math.floorDiv(long,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_floorDiv_long_long()
-    throws Exception {
-        // write some test for {@link Math#floorDiv(long, long)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link Math#floorDiv(int, int) public static int
      * java.lang.Math.floorDiv(int,int)}.
      *
@@ -1236,6 +1216,26 @@ implements org.j8unit.repository.java.lang.MathClassTests<Math> {
     public void test_floorDiv_int_int()
     throws Exception {
         // write some test for {@link Math#floorDiv(int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link Math#floorDiv(long, long) public static long
+     * java.lang.Math.floorDiv(long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_floorDiv_long_long()
+    throws Exception {
+        // write some test for {@link Math#floorDiv(long, long)}
     }
 
     /**

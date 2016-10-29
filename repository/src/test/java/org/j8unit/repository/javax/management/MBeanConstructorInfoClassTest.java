@@ -22,10 +22,32 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.MBeanConstructorInfo#MBeanConstructorInfo(String, java.lang.reflect.Constructor) public
+     * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor<?>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MBeanConstructorInfo_String_Constructor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, java.lang.reflect.Constructor);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.MBeanConstructorInfo#MBeanConstructorInfo(String, String, javax.management.MBeanParameterInfo[], javax.management.Descriptor)
      * public
-     * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)}
-     * .
+     * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -68,29 +90,6 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
         @SuppressWarnings("unused")
         final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, String,
                                                // javax.management.MBeanParameterInfo[]);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.MBeanConstructorInfo#MBeanConstructorInfo(String, java.lang.reflect.Constructor) public
-     * javax.management.MBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor<?>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MBeanConstructorInfo_String_Constructor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MBeanConstructorInfo sut = null; // = new MBeanConstructorInfo(String, java.lang.reflect.Constructor);
     }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanConstructorInfo]

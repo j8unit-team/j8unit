@@ -23,8 +23,9 @@ implements org.j8unit.repository.java.lang.reflect.ProxyClassTests<Proxy> {
      * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.lang.reflect.Proxy#newProxyInstance(ClassLoader, Class[], java.lang.reflect.InvocationHandler) public
-     * static java.lang.Object java.lang.reflect.Proxy.newProxyInstance(java.lang.ClassLoader,java.lang.Class
-     * <?>[],java.lang.reflect.InvocationHandler) throws java.lang.IllegalArgumentException}.
+     * static java.lang.Object
+     * java.lang.reflect.Proxy.newProxyInstance(java.lang.ClassLoader,java.lang.Class<?>[],java.lang.reflect.InvocationHandler)
+     * throws java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -45,8 +46,8 @@ implements org.j8unit.repository.java.lang.reflect.ProxyClassTests<Proxy> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.lang.reflect.Proxy#getProxyClass(ClassLoader, Class...) public static java.lang.Class
-     * <?> java.lang.reflect.Proxy.getProxyClass(java.lang.ClassLoader,java.lang.Class<?>...) throws
+     * {@link java.lang.reflect.Proxy#getProxyClass(ClassLoader, Class...) public static java.lang.Class<?>
+     * java.lang.reflect.Proxy.getProxyClass(java.lang.ClassLoader,java.lang.Class<?>...) throws
      * java.lang.IllegalArgumentException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
