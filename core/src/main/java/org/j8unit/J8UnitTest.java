@@ -117,7 +117,7 @@ public abstract interface J8UnitTest<SUT> {
      */
     @Test
     public default void subjectUnderTestMustBeNotNull() {
-        assertNotNull(this.createNewSUT());
+        assertNotNull("The subject-under-test must be a valid non-null instance!", this.createNewSUT());
     }
 
 }
