@@ -19,6 +19,7 @@ public abstract interface GeneratorMarkers {
 
     public static enum Position {
         BEGIN,
+        MANUAL,
         END;
     }
 

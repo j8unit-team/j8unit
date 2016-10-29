@@ -15,6 +15,7 @@ import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
 import static org.j8unit.generator.api.GeneratorMarkers.Position.BEGIN;
 import static org.j8unit.generator.api.GeneratorMarkers.Position.END;
+import static org.j8unit.generator.api.GeneratorMarkers.Position.MANUAL;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_SYNTHETIC_METHOD;
 import static org.j8unit.generator.api.RepositoryTokens.IGNORE_MESSAGE;
@@ -104,7 +105,7 @@ implements J8UnitCodeGenerator {
                                                                                                     final TargetRenderer complementaryBehaviour,
                                                                                                     final int depth, final StringBuilder sutCreation) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             final ModusOperandi modusOperandi = this.modusOperandi(type);
             final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
@@ -117,28 +118,30 @@ implements J8UnitCodeGenerator {
             // content creation: @SuppressWarnings(...)
             out.append(modusOperandi.renderWarnings(depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
-            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
+            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Unit4.class)));
             // content creation: J8Unit Test Interface Declaration
-            out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
-            out.append(format("%simplements %s%s%n", indent, testClassInterfaceType, testClassInterfaceGenerics));
-            out.append(format("%s{%n", indent));
+            out.append(format("%spublic %s class %s%s%n", indt, optionalModifiers, j8unitName, j8unitGenerics));
+            out.append(format("%simplements %s%s%n", indt, testClassInterfaceType, testClassInterfaceGenerics));
+            out.append(format("%s{%n", indt));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Custom Body Content
             // out.append(modusOperandi.customTestInterfaceBody(depth + 1));
             // content creation: SUT Creation
             out.append(sutCreation);
             // content creation: End Marker
-            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
+            out.append(format("%n"));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
                 out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
                 out.append(format("%n"));
             }
-            out.append(format("%s}%n", indent));
+            out.append(format("%s}%n", indt));
             // finalize content
             return out;
         }
@@ -148,7 +151,7 @@ implements J8UnitCodeGenerator {
                                                                                                     final TargetRenderer complementaryBehaviour,
                                                                                                     final int depth, final StringBuilder sutCreation) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             final ModusOperandi modusOperandi = this.modusOperandi(type);
             final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
@@ -161,47 +164,49 @@ implements J8UnitCodeGenerator {
             // content creation: @SuppressWarnings(...)
             out.append(modusOperandi.renderWarnings(depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
-            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
-            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class), renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
+            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
+            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class), renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
             // content creation: J8Unit Test Interface Declaration
-            out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
-            out.append(format("%simplements %s%s%n", indent, testClassInterfaceType, testClassInterfaceGenerics));
-            out.append(format("%s{%n", indent));
+            out.append(format("%spublic %s class %s%s%n", indt, optionalModifiers, j8unitName, j8unitGenerics));
+            out.append(format("%simplements %s%s%n", indt, testClassInterfaceType, testClassInterfaceGenerics));
+            out.append(format("%s{%n", indt));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Custom Body Content
             // out.append(modusOperandi.customTestInterfaceBody(depth + 1));
             // content creation: SUT Creation
             out.append(sutCreation);
             // content creation: End Marker
-            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
+            out.append(format("%n"));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
                 out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
                 out.append(format("%n"));
             }
-            out.append(format("%s}%n", indent));
+            out.append(format("%s}%n", indt));
             // finalize content
             return out;
         }
 
         private final StringBuilder sutForJ8UnitTest(final Class<?> type, final int depth, final OriginRenderer renderer) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: Current JUnit SUT
-            out.append(format("%s@%s(0)%n", indent, renderer.originCanonicalNameOf(Parameter.class)));
-            out.append(format("%spublic %s sut;%n", indent, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)));
+            out.append(format("%s@%s(0)%n", indt, renderer.originCanonicalNameOf(Parameter.class)));
+            out.append(format("%spublic %s sut;%n", indt, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)));
             out.append(format("%n"));
             // content creation: J8Unit SUT Factory
-            out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
-            out.append(format("%spublic %s %s() {%n", indent, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY));
-            out.append(format("%s%sreturn this.sut;%n", indent, indent()));
-            out.append(format("%s}%n", indent));
+            out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Override.class)));
+            out.append(format("%spublic %s %s() {%n", indt, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY));
+            out.append(format("%s%sreturn this.sut;%n", indt, indent()));
+            out.append(format("%s}%n", indt));
             out.append(format("%n"));
             // finalize content
             return out;
@@ -209,16 +214,16 @@ implements J8UnitCodeGenerator {
 
         private final StringBuilder enumSUTCreation(final Class<? extends Enum<?>> type, final int depth, final OriginRenderer renderer) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
-            out.append(format("%s@%s(name = \"{index}: {0}\")%n", indent, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indent, renderer.originCanonicalNameOf(Iterable.class),
+            out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
+            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
                               renderer.originCanonicalNameOf(Object[].class)));
-            out.append(format("%s%sreturn %s(%s);%n", indent, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF_ENUM_CLASS),
+            out.append(format("%s%sreturn %s(%s);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF_ENUM_CLASS),
                               renderer.originCanonicalClassOf(type)));
-            out.append(format("%s}%n", indent));
+            out.append(format("%s}%n", indt));
             out.append(format("%n"));
             // content creation: SUT provision
             out.append(this.sutForJ8UnitTest(type, depth, renderer));
@@ -229,18 +234,18 @@ implements J8UnitCodeGenerator {
         private final StringBuilder fieldsSUTCreation(final Class<?> type, final Set<? extends Field> instances, final int depth,
                                                       final OriginRenderer renderer) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
-            out.append(format("%s@%s(name = \"{index}: {0}\")%n", indent, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indent, renderer.originCanonicalNameOf(Iterable.class),
+            out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
+            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
                               renderer.originCanonicalNameOf(Object[].class)));
             final String data = instances.stream() //
                                          .map(f -> renderer.originCanonicalNameOf(type) + "." + f.getName()) //
-                                         .collect(joining(format(", //%n%s%s", indent, indent(1 + 6))));
-            out.append(format("%s%sreturn %s(%s);%n", indent, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF), data));
-            out.append(format("%s}%n", indent));
+                                         .collect(joining(format(", //%n%s%s", indt, indent(1 + 6))));
+            out.append(format("%s%sreturn %s(%s);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF), data));
+            out.append(format("%s}%n", indt));
             out.append(format("%n"));
             // content creation: SUT provision
             out.append(this.sutForJ8UnitTest(type, depth, renderer));
@@ -250,14 +255,14 @@ implements J8UnitCodeGenerator {
 
         private final StringBuilder failingSUTCreation(final Class<?> type, final String message, final int depth, final OriginRenderer renderer) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: J8Unit SUT Factory
-            out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
-            out.append(format("%spublic %s %s() {%n", indent, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY));
-            out.append(format("%s%sthrow new %s(\"%s\");%n", indent, indent(), renderer.originCanonicalNameOf(AssumptionViolatedException.class), message));
-            out.append(format("%s}%n", indent));
+            out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Override.class)));
+            out.append(format("%spublic %s %s() {%n", indt, renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY));
+            out.append(format("%s%sthrow new %s(\"%s\");%n", indt, indent(), renderer.originCanonicalNameOf(AssumptionViolatedException.class), message));
+            out.append(format("%s}%n", indt));
             out.append(format("%n"));
             // finalize content
             return out;
@@ -270,7 +275,7 @@ implements J8UnitCodeGenerator {
                                                                                                                 final int depth,
                                                                                                                 final StringBuilder sutCreation) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             final ModusOperandi modusOperandi = this.modusOperandi(type);
             final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
@@ -283,52 +288,54 @@ implements J8UnitCodeGenerator {
             // content creation: @SuppressWarnings(...)
             out.append(modusOperandi.renderWarnings(depth, renderer));
             // content creation: @RunWith(J8Parameterized.class)
-            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
+            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
             // content creation: @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-            out.append(format("%s@%s(%s)%n", indent, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class),
+            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class),
                               renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
             // content creation: J8Unit Test Interface Declaration
-            out.append(format("%spublic %s class %s%s%n", indent, optionalModifiers, j8unitName, j8unitGenerics));
-            out.append(format("%simplements %s, %s%s%n", indent, modusOperandi.getTestClassBaseTypeDefinition(renderer, FactoryBasedJ8UnitTest.class, type),
+            out.append(format("%spublic %s class %s%s%n", indt, optionalModifiers, j8unitName, j8unitGenerics));
+            out.append(format("%simplements %s, %s%s%n", indt, modusOperandi.getTestClassBaseTypeDefinition(renderer, FactoryBasedJ8UnitTest.class, type),
                               testClassInterfaceType, testClassInterfaceGenerics));
-            out.append(format("%s{%n", indent));
+            out.append(format("%s{%n", indt));
             out.append(format("%n"));
             // content creation: Begin Marker
-            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(BEGIN, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Custom Body Content
             out.append(modusOperandi.specificTestInterfaceBody(type, depth + 1, renderer));
             // content creation: Test Data Creation
             out.append(sutCreation);
             // content creation: End Marker
-            out.append(format("%s%s// %s%n", indent, indent(), this.marker(BEGIN, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
+            out.append(format("%n"));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
                 out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
                 out.append(format("%n"));
             }
-            out.append(format("%s}%n", indent));
+            out.append(format("%s}%n", indt));
             // finalize content
             return out;
         }
 
         private final StringBuilder sutForFactoryBasedJ8UnitTest(final Class<?> type, final int depth, final OriginRenderer renderer) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: Current JUnit SUT
-            out.append(format("%s@%s(0)%n", indent, renderer.originCanonicalNameOf(Parameter.class)));
-            out.append(format("%spublic %s<%s> sutFactory;%n", indent, renderer.originCanonicalNameOf(Callable.class),
+            out.append(format("%s@%s(0)%n", indt, renderer.originCanonicalNameOf(Parameter.class)));
+            out.append(format("%spublic %s<%s> sutFactory;%n", indt, renderer.originCanonicalNameOf(Callable.class),
                               renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)));
             out.append(format("%n"));
             // content creation: J8Unit SUT Factory
-            out.append(format("%s@%s%n", indent, renderer.originCanonicalNameOf(Override.class)));
-            out.append(format("%spublic %s<%s> %s() {%n", indent, renderer.originCanonicalNameOf(Callable.class),
+            out.append(format("%s@%s%n", indt, renderer.originCanonicalNameOf(Override.class)));
+            out.append(format("%spublic %s<%s> %s() {%n", indt, renderer.originCanonicalNameOf(Callable.class),
                               renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf), SUT_FACTORY_FACTORY));
-            out.append(format("%s%sreturn this.sutFactory;%n", indent, indent()));
-            out.append(format("%s}%n", indent));
+            out.append(format("%s%sreturn this.sutFactory;%n", indt, indent()));
+            out.append(format("%s}%n", indt));
             out.append(format("%n"));
             // finalize content
             return out;
@@ -336,16 +343,16 @@ implements J8UnitCodeGenerator {
 
         private final StringBuilder constructorSUTFactoryCreation(final Class<?> type, final int depth, final OriginRenderer renderer) {
             // data preparations
-            final String indent = indent(depth);
+            final String indt = indent(depth);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation: JUnit Test Data Iteration
-            out.append(format("%s@%s(name = \"{index}: {0}\")%n", indent, renderer.originCanonicalNameOf(Parameters.class)));
-            out.append(format("%spublic static %s<%s> sutData() {%n", indent, renderer.originCanonicalNameOf(Iterable.class),
+            out.append(format("%s@%s(name = \"{index}: {0}\")%n", indt, renderer.originCanonicalNameOf(Parameters.class)));
+            out.append(format("%spublic static %s<%s> sutData() {%n", indt, renderer.originCanonicalNameOf(Iterable.class),
                               renderer.originCanonicalNameOf(Object[].class)));
-            out.append(format("%s%sreturn %s(%s::new);%n", indent, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF),
+            out.append(format("%s%sreturn %s(%s::new);%n", indt, indent(), renderer.originCanonicalNameOf(TestParametersUtil.class, TEST_PARAMETERS_OF),
                               renderer.originCanonicalNameOf(type)));
-            out.append(format("%s}%n", indent));
+            out.append(format("%s}%n", indt));
             out.append(format("%n"));
             // content creation: SUT provision
             out.append(this.sutForFactoryBasedJ8UnitTest(type, depth, renderer));
@@ -408,6 +415,8 @@ implements J8UnitCodeGenerator {
                 out.append(format("%n"));
             }
             // content creation: End Marker
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
+            out.append(format("%n"));
             out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types

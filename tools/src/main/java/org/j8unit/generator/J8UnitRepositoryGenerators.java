@@ -11,6 +11,7 @@ import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
 import static org.j8unit.generator.api.GeneratorMarkers.Position.BEGIN;
 import static org.j8unit.generator.api.GeneratorMarkers.Position.END;
+import static org.j8unit.generator.api.GeneratorMarkers.Position.MANUAL;
 import static org.j8unit.generator.api.GlobalGeneratorConstants.SUT;
 import static org.j8unit.generator.api.LoggingMessagesKeys.MERGE_METHODS;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
@@ -127,8 +128,9 @@ implements J8UnitCodeGenerator {
                 out.append(format("%n"));
             }
             // content creation: End Marker
-            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
             out.append(format("%n"));
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
                 out.append(this.generateTestContent(enveloped, control, renderer, complementary, depth + 1));
@@ -367,6 +369,8 @@ implements J8UnitCodeGenerator {
             out.append(this.verifyGenericTypeContent(type, depth + 1, renderer));
             out.append(format("%n"));
             // content creation: End Marker
+            out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
+            out.append(format("%n"));
             out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
             out.append(format("%n"));
             // content creation: Enveloped Types
