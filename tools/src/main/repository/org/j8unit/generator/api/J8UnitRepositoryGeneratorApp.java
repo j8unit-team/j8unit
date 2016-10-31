@@ -22,6 +22,7 @@ import static org.j8unit.generator.util.Logger.getLogger;
 import static org.j8unit.generator.util.Logging.configureJavaLogging;
 import java.io.IOException;
 import java.util.List;
+import org.j8unit.generator.GeneratorTokens;
 import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.util.Logger;
 import org.j8unit.generator.util.OptionalString;
@@ -58,6 +59,11 @@ public enum J8UnitRepositoryGeneratorApp {
     public static void main(final String[] args)
     throws Exception {
         configureJavaLogging();
+
+        GeneratorTokens.IGNORE_MESSAGE = RepositoryTokens.IGNORE_MESSAGE;
+        GeneratorTokens.VERSION_REPO_INITIAL = RepositoryTokens.VERSION_REPO_INITIAL;
+        GeneratorTokens.VERSION_REPO_UPDATE = RepositoryTokens.VERSION_REPO_UPDATE;
+
         for (final String root : J8UnitRepositoryGeneratorApp.JAVA8_ROOT_PACKAGES) {
             // Package Info
             final GeneratorSetup packageInfoSetup = similarTo(INSTANCE_TESTS_SETUP).forJavaPackage(root).build();

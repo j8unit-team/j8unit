@@ -12,6 +12,20 @@ public enum GeneratorTokens {
      */
     public static final String ASSERT_TRUE = "assertTrue";
 
+    public static String IGNORE_MESSAGE = "This placeholder test method must be be replaced by meaningful test methods.";
+
+    private static final int INDENT_WITH = 4;
+
+    private static final String INDENT = join("", nCopies(INDENT_WITH, " "));
+
+    public static final String indent() {
+        return indent(1);
+    }
+
+    public static final String indent(final int depth) {
+        return join("", nCopies(max(0, depth), INDENT));
+    }
+
     /**
      * Name of: {@link org.j8unit.J8UnitTest#createNewSUT()}
      */
@@ -32,16 +46,8 @@ public enum GeneratorTokens {
      */
     public static final String TEST_PARAMETERS_OF_ENUM_CLASS = "testParametersOfEnumClass";
 
-    private static final int INDENT_WITH = 4;
+    public static String VERSION_REPO_INITIAL = "0.0.1";
 
-    private static final String INDENT = join("", nCopies(INDENT_WITH, " "));
-
-    public static final String indent(final int depth) {
-        return join("", nCopies(max(0, depth), INDENT));
-    }
-
-    public static final String indent() {
-        return indent(1);
-    }
+    public static String VERSION_REPO_UPDATE = "0.0.2";
 
 }

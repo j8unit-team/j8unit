@@ -5,7 +5,10 @@ import static java.lang.String.join;
 import static java.util.function.UnaryOperator.identity;
 import static java.util.stream.Collectors.toMap;
 import static org.j8unit.generator.GeneratorTokens.ASSERT_TRUE;
+import static org.j8unit.generator.GeneratorTokens.IGNORE_MESSAGE;
 import static org.j8unit.generator.GeneratorTokens.SUT_FACTORY;
+import static org.j8unit.generator.GeneratorTokens.VERSION_REPO_INITIAL;
+import static org.j8unit.generator.GeneratorTokens.VERSION_REPO_UPDATE;
 import static org.j8unit.generator.GeneratorTokens.indent;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
@@ -15,9 +18,6 @@ import static org.j8unit.generator.api.GeneratorMarkers.Position.MANUAL;
 import static org.j8unit.generator.api.GlobalGeneratorConstants.SUT;
 import static org.j8unit.generator.api.LoggingMessagesKeys.MERGE_METHODS;
 import static org.j8unit.generator.api.LoggingMessagesKeys.METHODS_UNDER_TEST;
-import static org.j8unit.generator.api.RepositoryTokens.IGNORE_MESSAGE;
-import static org.j8unit.generator.api.RepositoryTokens.VERSION_REPO_INITIAL;
-import static org.j8unit.generator.api.RepositoryTokens.VERSION_REPO_UPDATE;
 import static org.j8unit.generator.util.Java.ENUMERATION_DELIMITER;
 import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.Suppliers.runtimed;
@@ -49,7 +49,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-
+ 
 public enum J8UnitRepositoryGenerators
 implements J8UnitCodeGenerator {
 
