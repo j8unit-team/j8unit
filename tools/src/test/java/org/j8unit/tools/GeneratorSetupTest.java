@@ -1,13 +1,11 @@
 package org.j8unit.tools;
 
+import static java.lang.String.format;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
 import static org.j8unit.generator.util.BiFunctions.curryFirst;
 import static org.j8unit.generator.util.TypeAnalysis.getInterfaces;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 import java.lang.reflect.Type;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -19,6 +17,7 @@ import java.util.Map.Entry;
 import java.util.Properties;
 import java.util.function.Function;
 import org.j8unit.generator.api.GeneratorSetup;
+import org.junit.Before;
 import org.junit.Test;
 import com.sun.net.httpserver.Headers;
 
@@ -44,6 +43,12 @@ public class GeneratorSetupTest {
     private static final GeneratorSetup JAVA_LANG_INTO_SUBBED = GeneratorSetup.similarTo(JAVA_LANG_INTO) //
                                                                               .asSubPackageOf("foo.bar") //
                                                                               .build();
+    
+    @Before
+    public void testName()
+    throws Exception {
+        JAVA_LANG.resetImportMemory();
+    }
 
     @Test
     public void get_INSTANCE_TestClassSuperTypesMapper()
@@ -60,10 +65,13 @@ public class GeneratorSetupTest {
             assertEquals("java.lang.ComparableTest<SUT, String>", r);
         }
         {
+            JAVA_LANG.resetImportMemory();
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(DayOfWeek.class.getSuperclass(),
                                                                                            DayOfWeek.class.getGenericSuperclass());
             final String r = mapper.apply(e);
-            assertEquals("java.lang.EnumTest<SUT, java.time.DayOfWeek>", r);
+            assertEquals("java.lang.EnumTest<SUT, DayOfWeek>", r);
+            assertEquals(format("import java.time.DayOfWeek;%n"),  JAVA_LANG.renderImport("java.lang"));
+            JAVA_LANG.resetImportMemory();
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(String.class, String.class);
@@ -87,10 +95,12 @@ public class GeneratorSetupTest {
             assertEquals("java.util.HashtableTest<SUT, Object, Object>", r);
         }
         {
-
+            JAVA_LANG.resetImportMemory();
             final Entry<? extends Class<?>, ? extends Type> e = getInterfaces(Headers.class).entrySet().iterator().next();
             final String r = mapper.apply(e);
-            assertEquals("java.util.MapTest<SUT, String, java.util.List<String>>", r);
+            assertEquals("java.util.MapTest<SUT, String, List<String>>", r);
+            assertEquals(format("import java.util.List;%n"),  JAVA_LANG.renderImport("java.lang"));
+            JAVA_LANG.resetImportMemory();
         }
     }
 
