@@ -13,6 +13,6 @@ public enum Consumers {
     /**
      * A <em>no operation</em> (NOOP) consumer that returns immediately, without doing any action.
      */
-    public static final Consumer<? super Object> NOOP = any -> {};
+    public static final Consumer<Object> NOOP = any -> {};
 
 }

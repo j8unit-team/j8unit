@@ -9,10 +9,10 @@ import static java.util.Optional.ofNullable;
 import static java.util.stream.Collectors.toList;
 import static org.j8unit.generator.analysis.TypePosition.TOP_LEVEL;
 import static org.j8unit.generator.util.Java.CLASS_SUFFIX;
-import static org.j8unit.generator.util.Java.EXTENDS;
 import static org.j8unit.generator.util.Java.JAVA_NAMESPACE_DELIMITER;
 import static org.j8unit.generator.util.Java.WILDCARD_TOKEN;
 import static org.j8unit.generator.util.Java.diamond;
+import static org.j8unit.generator.util.Java.extending;
 import static org.j8unit.generator.util.Java.toVarArg;
 import static org.j8unit.generator.util.Lists.convert;
 import static org.j8unit.generator.util.OptionalString.ofEmptyable;
@@ -175,7 +175,7 @@ public abstract interface OriginRenderer {
         return stream(entity.getTypeParameters()).map(var -> {
             final String name = var.getName();
             final String bounds = csv(convert(var.getBounds(), this::originCanonicalDefinitionOf));
-            return name + ofEmptyable(bounds).prepend(EXTENDS).orEmpty();
+            return extending(name, ofEmptyable(bounds));
         }).collect(toList());
     }
 

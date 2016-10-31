@@ -15,9 +15,16 @@ public enum Iterators {
     ;
 
     /**
-     * TODO: JavaDoc!
+     * Starting with a generator {@code seed} value and repetitively using the generator function {@code f}, this method
+     * iterates over these elements until that moment the given validation predicate {@code p} does not hold.
      *
-     * TODO: Is there something similar in the Oracle's Java universe? If yes, use it in preference!
+     * @param seed
+     *            the first value
+     * @param f
+     *            the generator function
+     * @param p
+     *            the validation predicate
+     * @return an {@link Iterator} of {@code seed} and all valid successor values
      */
     public static final <T> Iterator<T> iterate(final T seed, final UnaryOperator<T> f, final Predicate<T> p) {
         return new Iterator<T>() {

@@ -14,6 +14,23 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
+/**
+ * Straight-forward proxy {@link java.util.logging.Logger} providing some additional, missing convenient methods:
+ *
+ * <ul>
+ * <li>{@link #log(Level, Supplier, Object...)}</li>
+ * <li>{@link #severe(Supplier, Object...)}</li>
+ * <li>{@link #warning(Supplier, Object...)}</li>
+ * <li>{@link #info(Supplier, Object...)}</li>
+ * <li>{@link #config(Supplier, Object...)}</li>
+ * <li>{@link #fine(Supplier, Object...)}</li>
+ * <li>{@link #finer(Supplier, Object...)}</li>
+ * <li>{@link #finest(Supplier, Object...)}</li>
+ * <li>{@link #log(Level, CharSequence, Throwable)}</li>
+ * <li>{@link #log(Level, Supplier, Throwable)}</li>
+ * <li>{@link #logp(Level, String, String, Supplier, Object...)}</li>
+ * </ul>
+ */
 public class Logger
 extends java.util.logging.Logger {
 
@@ -30,7 +47,6 @@ extends java.util.logging.Logger {
     private final java.util.logging.Logger origin;
 
     public Logger(final java.util.logging.Logger logger) {
-        // WTF!: There is no (protected) default super constructor!
         super(logger.getName(), logger.getResourceBundle().getBaseBundleName());
         this.origin = logger;
     }
@@ -298,7 +314,7 @@ extends java.util.logging.Logger {
         this.origin.setParent(parent);
     }
 
-    // ADDITIONAL (MISSING) CONVIENENT METHODS
+    // ADDITIONAL (MISSING) CONVENIENT METHODS
 
     public void log(final Level level, final Supplier<String> msg, final Object... args) {
         super.log(level, msg.get(), args);

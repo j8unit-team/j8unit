@@ -8,9 +8,20 @@ import static java.util.logging.Logger.getAnonymousLogger;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * <p>
+ * Utility enum (aka. helper class) providing fancy {@link Logger}/{@link java.util.logging.LogManager} stuff.
+ * </p>
+ */
 public enum Logging {
     ;
 
+    /**
+     * Unless there is an explicit JVM {@code java.util.logging.config.file} property set, this method
+     * {@link java.util.logging.LogManager#readConfiguration(InputStream) initialises} the
+     * {@link java.util.logging.LogManager#getLogManager global log-manager} with the accompanied
+     * {@code logging.properties} data of this project.
+     */
     public static final void configureJavaLogging() {
         // Skip configuring if {@code -Djava.util.logging.config.file=...} is specified.
         if (isNull(getProperty("java.util.logging.config.file"))) {

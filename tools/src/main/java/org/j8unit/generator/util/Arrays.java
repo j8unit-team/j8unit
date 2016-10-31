@@ -4,6 +4,11 @@ import static java.util.Objects.requireNonNull;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.Map.Entry;
 
+/**
+ * <p>
+ * Utility enum (aka. helper class) providing fancy <em>arrays</em> stuff.
+ * </p>
+ */
 public enum Arrays {
     ;
 

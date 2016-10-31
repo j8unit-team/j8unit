@@ -52,7 +52,7 @@ public enum Suppliers {
     public static final <R> R runtimed(final Callable<? extends R> callable)
     throws RuntimeException {
         requireNonNull(callable);
-        return runtimify(requireNonNull(callable)).get();
+        return runtimify(callable).get();
     }
 
 }
