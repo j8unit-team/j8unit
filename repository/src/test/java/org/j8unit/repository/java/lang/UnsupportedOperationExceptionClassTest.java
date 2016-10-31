@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.lang.UnsupportedOperationExceptionClassTes
         final UnsupportedOperationException sut = new UnsupportedOperationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.UnsupportedOperationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.UnsupportedOperationException]
 
 }

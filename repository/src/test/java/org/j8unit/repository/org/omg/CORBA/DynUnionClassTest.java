@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynUnionClassTests<DynUnion> {
         return DynUnion.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynUnion]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynUnion]
 
 }

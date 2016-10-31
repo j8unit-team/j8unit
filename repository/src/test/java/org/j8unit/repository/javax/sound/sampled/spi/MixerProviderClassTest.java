@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sound.sampled.spi.MixerProviderClassTests
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.spi.MixerProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.spi.MixerProvider]
 
 }

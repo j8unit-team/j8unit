@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.naming.event.NamingEventClassTests<Naming
                                       // javax.naming.Binding, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.NamingEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.NamingEvent]
 
 }

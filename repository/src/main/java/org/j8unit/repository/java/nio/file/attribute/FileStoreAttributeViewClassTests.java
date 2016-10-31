@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.file.attribute.AttributeViewClassTests<SU
                    FileStoreAttributeView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.FileStoreAttributeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.FileStoreAttributeView]
 
 }

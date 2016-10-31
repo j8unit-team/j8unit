@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlMimeTypeClassTests
         return XmlMimeType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlMimeType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlMimeType]
 
 }

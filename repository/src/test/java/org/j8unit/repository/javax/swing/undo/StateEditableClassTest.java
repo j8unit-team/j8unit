@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.undo.StateEditableClassTests<StateE
         return StateEditable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.StateEditable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.StateEditable]
 
 }

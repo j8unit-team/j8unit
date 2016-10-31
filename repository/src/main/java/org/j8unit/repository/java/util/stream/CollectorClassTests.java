@@ -69,6 +69,8 @@ extends RepositoryClassTests<SUT> {
                    Collector.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.Collector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Collector]
 
     /**
@@ -131,6 +133,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Characteristics.class!",
                               Characteristics.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.Collector$Characteristics]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Collector$Characteristics]
 

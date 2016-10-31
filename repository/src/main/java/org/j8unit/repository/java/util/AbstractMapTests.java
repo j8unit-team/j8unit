@@ -379,8 +379,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -551,8 +552,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
     }
 
     /**
@@ -720,8 +722,9 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
     }
 
 }

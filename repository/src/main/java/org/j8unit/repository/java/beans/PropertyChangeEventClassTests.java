@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    PropertyChangeEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyChangeEvent]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j
                    MBeanServerDelegate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerDelegate]
 
 }

@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Node.class!", Node.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.Node]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.Node]
 
 }

@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests<Form
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.FormSubmitEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests<Form
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 
     }
 

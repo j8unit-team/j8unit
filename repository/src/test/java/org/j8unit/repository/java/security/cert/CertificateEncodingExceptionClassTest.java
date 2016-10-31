@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.cert.CertificateEncodingException
         final CertificateEncodingException sut = new CertificateEncodingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateEncodingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateEncodingException]
 
 }

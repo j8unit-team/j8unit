@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.LifespanPolicyClassTests
         return LifespanPolicy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.LifespanPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.LifespanPolicy]
 
 }

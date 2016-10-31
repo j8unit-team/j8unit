@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.SQLXMLClassTests<SQLXML> {
         return SQLXML.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLXML]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLXML]
 
 }

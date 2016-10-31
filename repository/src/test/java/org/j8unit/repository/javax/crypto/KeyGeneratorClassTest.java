@@ -84,6 +84,8 @@ implements org.j8unit.repository.javax.crypto.KeyGeneratorClassTests<KeyGenerato
         // write some test for {@link javax.crypto.KeyGenerator#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.KeyGenerator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.KeyGenerator]
 
 }

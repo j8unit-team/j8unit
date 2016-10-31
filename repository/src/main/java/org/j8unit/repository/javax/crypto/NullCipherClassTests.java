@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.crypto.CipherClassTests<SUT> {
                    NullCipher.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.NullCipher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.NullCipher]
 
 }

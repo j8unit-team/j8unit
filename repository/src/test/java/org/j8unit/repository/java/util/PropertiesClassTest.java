@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.util.PropertiesClassTests<Properties> {
         final Properties sut = null; // = new Properties(java.util.Properties);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Properties]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Properties]
 
 }

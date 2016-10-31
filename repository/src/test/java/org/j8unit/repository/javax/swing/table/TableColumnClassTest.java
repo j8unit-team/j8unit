@@ -21,27 +21,6 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn()
-     * public javax.swing.table.TableColumn()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TableColumn()
-    throws Exception {
-        // create new instance
-        final TableColumn sut = new TableColumn();
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn(int)
      * public javax.swing.table.TableColumn(int)}.
      *
@@ -60,6 +39,27 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
         // create new instance
         @SuppressWarnings("unused")
         final TableColumn sut = null; // = new TableColumn(int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.table.TableColumn#TableColumn()
+     * public javax.swing.table.TableColumn()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TableColumn()
+    throws Exception {
+        // create new instance
+        final TableColumn sut = new TableColumn();
     }
 
     /**
@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnClassTests<TableCo
         final TableColumn sut = null; // = new TableColumn(int, int, javax.swing.table.TableCellRenderer,
                                       // javax.swing.table.TableCellEditor);
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableColumn]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableColumn]
 

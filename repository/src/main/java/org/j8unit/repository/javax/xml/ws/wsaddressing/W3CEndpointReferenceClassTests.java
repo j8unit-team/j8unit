@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.ws.EndpointReferenceClassTests<SUT> {
                    W3CEndpointReference.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.wsaddressing.W3CEndpointReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.wsaddressing.W3CEndpointReference]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.DescriptorAccessClassTests<Des
         return DescriptorAccess.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DescriptorAccess]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DescriptorAccess]
 
 }

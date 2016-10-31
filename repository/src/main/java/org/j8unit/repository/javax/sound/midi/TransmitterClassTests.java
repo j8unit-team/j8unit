@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
                    Transmitter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Transmitter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Transmitter]
 
 }

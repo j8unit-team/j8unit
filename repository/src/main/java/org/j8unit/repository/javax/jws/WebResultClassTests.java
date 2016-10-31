@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    WebResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebResult]
 
 }

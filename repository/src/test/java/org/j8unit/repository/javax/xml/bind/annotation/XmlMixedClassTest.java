@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlMixedClassTests<Xm
         return XmlMixed.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlMixed]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlMixed]
 
 }

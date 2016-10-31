@@ -220,6 +220,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorServerMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXConnectorServerMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorServerMBean]
 }

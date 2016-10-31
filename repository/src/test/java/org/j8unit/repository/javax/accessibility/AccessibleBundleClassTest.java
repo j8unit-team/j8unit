@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests<
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleBundle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleBundle]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.net.SocketExceptionClassTests<SocketExcept
         final SocketException sut = new SocketException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketException]
 
 }

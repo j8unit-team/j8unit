@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    NameParser.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NameParser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NameParser]
 
 }

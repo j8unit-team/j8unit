@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.PrivilegedExceptionActionClassTes
         return PrivilegedExceptionAction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.PrivilegedExceptionAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.PrivilegedExceptionAction]
 
 }

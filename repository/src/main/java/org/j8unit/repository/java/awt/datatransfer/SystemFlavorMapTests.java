@@ -228,6 +228,7 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableTests<SUT>, org.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.SystemFlavorMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.datatransfer.SystemFlavorMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.SystemFlavorMap]
 }

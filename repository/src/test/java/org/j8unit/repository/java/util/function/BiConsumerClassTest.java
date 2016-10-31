@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.BiConsumerClassTests<BiConsu
         return BiConsumer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.BiConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.BiConsumer]
 
 }

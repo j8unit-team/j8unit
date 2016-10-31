@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NoPermissionException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NoPermissionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.NoPermissionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.NoPermissionException]
 
 }

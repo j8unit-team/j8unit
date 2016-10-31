@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.management.loading.PrivateClassLoaderTests<S
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.PrivateMLet]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.PrivateMLet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.PrivateMLet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.PrivateMLet]
 }

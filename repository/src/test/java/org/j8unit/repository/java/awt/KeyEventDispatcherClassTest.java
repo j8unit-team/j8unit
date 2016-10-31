@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.KeyEventDispatcherClassTests<KeyEventD
         return KeyEventDispatcher.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.KeyEventDispatcher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyEventDispatcher]
 
 }

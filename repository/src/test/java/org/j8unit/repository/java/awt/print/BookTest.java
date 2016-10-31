@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Book>, org.j8unit.repository.java.awt.print.Bo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.Book]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.print.Book]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.Book]
 
 }

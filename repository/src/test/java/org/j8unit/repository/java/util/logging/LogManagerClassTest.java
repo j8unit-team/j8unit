@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.util.logging.LogManagerClassTests<LogManag
         // write some test for {@link java.util.logging.LogManager#getLoggingMXBean()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.LogManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LogManager]
 
 }

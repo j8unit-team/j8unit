@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyValueC
         // write some test for {@link org.omg.PortableServer.IdUniquenessPolicyValue#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.IdUniquenessPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.IdUniquenessPolicyValue]
 
 }

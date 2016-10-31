@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.ActionListenerClassTests<ActionL
         return ActionListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ActionListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ActionListener]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyException]
 }

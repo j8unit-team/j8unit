@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneDividerCla
         final BasicSplitPaneDivider sut = null; // = new BasicSplitPaneDivider(javax.swing.plaf.basic.BasicSplitPaneUI);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
 
 }

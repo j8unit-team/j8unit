@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RelationServiceMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationServiceMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationServiceMBean]
 
 }

@@ -80,6 +80,8 @@ implements org.j8unit.repository.java.awt.ToolkitClassTests<Toolkit> {
         // write some test for {@link java.awt.Toolkit#getProperty(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Toolkit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Toolkit]
 
 }

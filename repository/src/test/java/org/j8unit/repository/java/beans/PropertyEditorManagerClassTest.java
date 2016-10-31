@@ -123,6 +123,8 @@ implements org.j8unit.repository.java.beans.PropertyEditorManagerClassTests<Prop
         // write some test for {@link java.beans.PropertyEditorManager#registerEditor(Class, Class)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyEditorManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyEditorManager]
 
 }

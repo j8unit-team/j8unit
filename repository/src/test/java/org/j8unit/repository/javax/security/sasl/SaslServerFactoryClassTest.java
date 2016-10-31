@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.security.sasl.SaslServerFactoryClassTests
         return SaslServerFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.SaslServerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.SaslServerFactory]
 
 }

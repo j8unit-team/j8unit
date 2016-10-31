@@ -31,6 +31,8 @@ implements org.j8unit.repository.java.math.BigDecimalTests<BigDecimal> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.BigDecimal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.math.BigDecimal]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.BigDecimal]
 
 }

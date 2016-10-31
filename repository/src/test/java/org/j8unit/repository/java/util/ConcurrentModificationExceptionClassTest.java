@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.util.ConcurrentModificationExceptionClassT
         final ConcurrentModificationException sut = new ConcurrentModificationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ConcurrentModificationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ConcurrentModificationException]
 
 }

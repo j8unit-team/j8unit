@@ -207,6 +207,8 @@ implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionCl
                                                                // String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLInvalidAuthorizationSpecException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLInvalidAuthorizationSpecException]
 
 }

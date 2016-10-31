@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.BasicPermissionTests<BasicPermiss
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.BasicPermission], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.BasicPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.BasicPermission]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.BasicPermission]
 
 }

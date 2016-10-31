@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    Window.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Window]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Window]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Type.class!",
                               Type.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Window$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Window$Type]
 

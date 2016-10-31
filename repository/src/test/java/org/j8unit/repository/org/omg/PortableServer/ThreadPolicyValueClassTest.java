@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ThreadPolicyValueClassTe
         // write some test for {@link org.omg.PortableServer.ThreadPolicyValue#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ThreadPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ThreadPolicyValue]
 
 }

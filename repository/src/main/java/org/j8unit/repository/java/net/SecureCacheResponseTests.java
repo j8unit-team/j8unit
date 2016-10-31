@@ -146,6 +146,7 @@ extends org.j8unit.repository.java.net.CacheResponseTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SecureCacheResponse]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.SecureCacheResponse]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SecureCacheResponse]
 }

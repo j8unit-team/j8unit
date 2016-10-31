@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.AttributeClassTests<Attribute>
         final Attribute sut = null; // = new Attribute(String, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.Attribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.Attribute]
 
 }

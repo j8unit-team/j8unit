@@ -66,6 +66,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
         final ObjectReferenceFactoryHolder sut = new ObjectReferenceFactoryHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHolder]
 
 }

@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<UnknownError>, org.j8unit.repository.java.lang
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnknownError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.UnknownError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnknownError]
 
 }

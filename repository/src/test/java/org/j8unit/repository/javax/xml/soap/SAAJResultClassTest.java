@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.xml.soap.SAAJResultClassTests<SAAJResult>
         final SAAJResult sut = new SAAJResult();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SAAJResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SAAJResult]
 
 }

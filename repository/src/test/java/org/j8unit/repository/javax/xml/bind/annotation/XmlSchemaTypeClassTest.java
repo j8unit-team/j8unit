@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTes
         return XmlSchemaType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType]
 
     @RunWith(J8Unit4.class)
@@ -54,6 +56,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTes
             // create new instance
             final DEFAULT sut = new DEFAULT();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType$DEFAULT]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType$DEFAULT]
 

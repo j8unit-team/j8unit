@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ServerSocketFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ServerSocketFactory]
 
 }

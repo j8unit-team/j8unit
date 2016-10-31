@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
         final AdapterAlreadyExists sut = null; // = new AdapterAlreadyExists(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
 
 }

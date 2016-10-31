@@ -133,6 +133,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<JAXBExce
         final JAXBException sut = null; // = new JAXBException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBException]
 
 }

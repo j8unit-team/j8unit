@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DynamicImplementation>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynamicImplementation]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.DynamicImplementation]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.DynamicImplementation]
 
 }

@@ -410,6 +410,7 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextExtTests<SUT>, org.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
 }

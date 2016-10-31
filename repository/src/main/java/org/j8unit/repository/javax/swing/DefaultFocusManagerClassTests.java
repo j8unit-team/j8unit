@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.FocusManagerClassTests<SUT> {
                    DefaultFocusManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultFocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultFocusManager]
 
 }

@@ -454,8 +454,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -571,8 +572,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
         /**
          * <p>
          * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
@@ -599,8 +601,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
             // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
         }
 
     }

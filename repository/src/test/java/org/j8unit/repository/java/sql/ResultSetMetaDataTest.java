@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.sql.ResultSetMetaDataTests<ResultSetMetaDa
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.sql.ResultSetMetaData], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.ResultSetMetaData]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.ResultSetMetaData]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.ResultSetMetaData]
 
 }

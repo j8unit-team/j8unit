@@ -281,6 +281,8 @@ implements org.j8unit.repository.java.lang.ByteClassTests<Byte> {
         // write some test for {@link Byte#compare(byte, byte)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Byte]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Byte]
 
 }

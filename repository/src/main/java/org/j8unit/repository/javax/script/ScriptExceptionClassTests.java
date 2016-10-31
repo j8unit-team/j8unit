@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    ScriptException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptException]
 
 }

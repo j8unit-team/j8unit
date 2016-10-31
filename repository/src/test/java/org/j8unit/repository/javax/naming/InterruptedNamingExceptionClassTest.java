@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.InterruptedNamingExceptionClassTes
         final InterruptedNamingException sut = new InterruptedNamingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.InterruptedNamingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InterruptedNamingException]
 
 }

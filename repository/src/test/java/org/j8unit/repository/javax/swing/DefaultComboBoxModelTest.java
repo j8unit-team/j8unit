@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultComboBoxModel<E>>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultComboBoxModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultComboBoxModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultComboBoxModel]
 
 }

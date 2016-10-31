@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    ScrollPane.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.ScrollPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ScrollPane]
 
 }

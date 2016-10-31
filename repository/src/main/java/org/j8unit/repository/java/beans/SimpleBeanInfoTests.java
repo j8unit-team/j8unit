@@ -238,6 +238,7 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.SimpleBeanInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.SimpleBeanInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.SimpleBeanInfo]
 }

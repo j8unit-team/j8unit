@@ -32,6 +32,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonMenuItemUITests<Bas
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicRadioButtonMenuItemUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicRadioButtonMenuItemUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicRadioButtonMenuItemUI]
 
 }

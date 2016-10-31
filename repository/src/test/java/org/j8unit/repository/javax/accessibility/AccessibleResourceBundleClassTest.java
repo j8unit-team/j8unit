@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleResourceBundleCla
         final AccessibleResourceBundle sut = new AccessibleResourceBundle();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleResourceBundle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleResourceBundle]
 
 }

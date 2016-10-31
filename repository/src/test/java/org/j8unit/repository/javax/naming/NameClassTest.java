@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.NameClassTests<Name> {
         return Name.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.Name]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Name]
 
 }

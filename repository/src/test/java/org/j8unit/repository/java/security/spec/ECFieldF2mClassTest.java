@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.security.spec.ECFieldF2mClassTests<ECField
         final ECFieldF2m sut = null; // = new ECFieldF2m(int, java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECFieldF2m]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECFieldF2m]
 
 }

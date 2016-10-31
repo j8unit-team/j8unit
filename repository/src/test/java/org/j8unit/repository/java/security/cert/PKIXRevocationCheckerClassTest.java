@@ -20,6 +20,8 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
         return PKIXRevocationChecker.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
         throws Exception {
             // write some test for {@link java.security.cert.PKIXRevocationChecker.Option#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]
 

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.lang.reflect.ReflectPermissionClassTests<R
         final ReflectPermission sut = null; // = new ReflectPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.ReflectPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.ReflectPermission]
 
 }

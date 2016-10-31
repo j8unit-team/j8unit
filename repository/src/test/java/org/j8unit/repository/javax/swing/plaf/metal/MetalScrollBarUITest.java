@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MetalScrollBarUI>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollBarUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollBarUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollBarUI]
 
 }

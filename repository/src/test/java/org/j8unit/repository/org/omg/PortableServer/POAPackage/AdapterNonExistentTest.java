@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AdapterNonExistent>, org.j8unit.repository.org
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterNonExistent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterNonExistent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterNonExistent]
 
 }

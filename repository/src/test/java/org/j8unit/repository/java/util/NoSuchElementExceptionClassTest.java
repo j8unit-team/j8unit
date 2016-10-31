@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.util.NoSuchElementExceptionClassTests<NoSu
         final NoSuchElementException sut = null; // = new NoSuchElementException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.NoSuchElementException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.NoSuchElementException]
 
 }

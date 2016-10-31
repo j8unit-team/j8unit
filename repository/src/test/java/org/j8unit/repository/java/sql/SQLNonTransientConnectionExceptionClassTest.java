@@ -207,6 +207,8 @@ implements org.j8unit.repository.java.sql.SQLNonTransientConnectionExceptionClas
                                                              // int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLNonTransientConnectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLNonTransientConnectionException]
 
 }

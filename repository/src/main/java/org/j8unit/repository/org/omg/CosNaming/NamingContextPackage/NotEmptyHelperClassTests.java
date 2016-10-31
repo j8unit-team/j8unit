@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    NotEmptyHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]
 
 }

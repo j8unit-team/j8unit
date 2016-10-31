@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.FixedHolderClassTests<FixedHolder
         final FixedHolder sut = new FixedHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.FixedHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.FixedHolder]
 
 }

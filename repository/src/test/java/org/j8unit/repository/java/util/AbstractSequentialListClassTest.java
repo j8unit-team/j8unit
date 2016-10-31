@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.AbstractSequentialListClassTests<Abst
         return AbstractSequentialList.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractSequentialList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractSequentialList]
 
 }

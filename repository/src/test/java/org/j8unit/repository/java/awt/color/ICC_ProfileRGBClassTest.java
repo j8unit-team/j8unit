@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.color.ICC_ProfileRGBClassTests<ICC_Pro
         return ICC_ProfileRGB.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ICC_ProfileRGB]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ICC_ProfileRGB]
 
 }

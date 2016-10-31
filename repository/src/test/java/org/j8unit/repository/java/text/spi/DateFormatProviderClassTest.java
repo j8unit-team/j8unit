@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.spi.DateFormatProviderClassTests<Date
         return DateFormatProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.DateFormatProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.DateFormatProvider]
 
 }

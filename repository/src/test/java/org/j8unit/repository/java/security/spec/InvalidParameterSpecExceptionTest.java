@@ -32,6 +32,8 @@ org.j8unit.repository.java.security.spec.InvalidParameterSpecExceptionTests<Inva
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.InvalidParameterSpecException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.spec.InvalidParameterSpecException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.spec.InvalidParameterSpecException]
 
 }

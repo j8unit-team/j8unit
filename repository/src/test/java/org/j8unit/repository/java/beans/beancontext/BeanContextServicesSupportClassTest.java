@@ -144,6 +144,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServicesSuppo
         final BeanContextServicesSupport sut = new BeanContextServicesSupport();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServicesSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServicesSupport]
 
 }

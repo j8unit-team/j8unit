@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ConfirmationCallback.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.ConfirmationCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.ConfirmationCallback]
 
 }

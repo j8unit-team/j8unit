@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ExcC14NParameterSpec>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.CallableStatementClassTests<CallableSt
         return CallableStatement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.CallableStatement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.CallableStatement]
 
 }

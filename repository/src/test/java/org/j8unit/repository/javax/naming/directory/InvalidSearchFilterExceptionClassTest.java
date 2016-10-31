@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.InvalidSearchFilterExcep
         final InvalidSearchFilterException sut = null; // = new InvalidSearchFilterException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.InvalidSearchFilterException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.InvalidSearchFilterException]
 
 }

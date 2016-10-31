@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.KeyboardFocusManagerPeerClassTest
         return KeyboardFocusManagerPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.KeyboardFocusManagerPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.KeyboardFocusManagerPeer]
 
 }

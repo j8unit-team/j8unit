@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Parser.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.Parser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.Parser]
 
 }

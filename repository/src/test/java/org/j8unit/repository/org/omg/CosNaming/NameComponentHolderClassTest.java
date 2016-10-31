@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHolderClassTests
         final NameComponentHolder sut = new NameComponentHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NameComponentHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameComponentHolder]
 
 }

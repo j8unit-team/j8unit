@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    RoleResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleResult]
 
 }

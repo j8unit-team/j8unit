@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.CharSequenceClassTests<CharSequence> 
         return CharSequence.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.CharSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.CharSequence]
 
 }

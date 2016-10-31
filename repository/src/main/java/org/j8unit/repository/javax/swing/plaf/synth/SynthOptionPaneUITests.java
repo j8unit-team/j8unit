@@ -154,6 +154,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthOptionPaneUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.synth.SynthOptionPaneUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthOptionPaneUI]
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AclNotFoundException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.acl.AclNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.acl.AclNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.acl.AclNotFoundException]
 
 }

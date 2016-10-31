@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.naming.ReferenceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.LinkRef]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.LinkRef]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.LinkRef]
 }

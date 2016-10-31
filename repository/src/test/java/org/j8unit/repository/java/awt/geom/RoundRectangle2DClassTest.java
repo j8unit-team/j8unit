@@ -21,6 +21,8 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
         return RoundRectangle2D.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.RoundRectangle2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.RoundRectangle2D]
 
     @RunWith(J8Unit4.class)
@@ -77,6 +79,8 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
             @SuppressWarnings("unused")
             final Float sut = null; // = new Float(float, float, float, float, float, float);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.RoundRectangle2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.RoundRectangle2D$Float]
 
@@ -136,6 +140,8 @@ implements org.j8unit.repository.java.awt.geom.RoundRectangle2DClassTests<RoundR
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double, double, double, double, double);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.RoundRectangle2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.RoundRectangle2D$Double]
 

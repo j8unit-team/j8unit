@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests<DATA_CO
         final DATA_CONVERSION sut = new DATA_CONVERSION();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
 
 }

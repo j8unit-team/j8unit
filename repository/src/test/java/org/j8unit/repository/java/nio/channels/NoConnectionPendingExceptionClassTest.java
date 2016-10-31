@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.NoConnectionPendingExceptionC
         final NoConnectionPendingException sut = new NoConnectionPendingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.NoConnectionPendingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.NoConnectionPendingException]
 
 }

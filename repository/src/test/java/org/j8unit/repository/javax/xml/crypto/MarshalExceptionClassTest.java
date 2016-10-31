@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.xml.crypto.MarshalExceptionClassTests<Mar
         final MarshalException sut = new MarshalException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.MarshalException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.MarshalException]
 
 }

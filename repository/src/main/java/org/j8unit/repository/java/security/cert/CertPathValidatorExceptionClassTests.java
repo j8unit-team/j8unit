@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    CertPathValidatorException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Reason.class!",
                               Reason.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
 
@@ -198,6 +202,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BasicReason.class!",
                               BasicReason.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
 

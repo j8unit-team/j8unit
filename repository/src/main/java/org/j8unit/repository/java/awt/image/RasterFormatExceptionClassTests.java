@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    RasterFormatException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.RasterFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.RasterFormatException]
 
 }

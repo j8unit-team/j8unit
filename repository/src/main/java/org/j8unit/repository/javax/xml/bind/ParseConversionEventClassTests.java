@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventClassTests<SUT> {
                    ParseConversionEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ParseConversionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ParseConversionEvent]
 
 }

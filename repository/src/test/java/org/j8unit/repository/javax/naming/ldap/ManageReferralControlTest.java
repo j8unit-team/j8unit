@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ManageReferralControl>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.ManageReferralControl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.ManageReferralControl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.ManageReferralControl]
 
 }

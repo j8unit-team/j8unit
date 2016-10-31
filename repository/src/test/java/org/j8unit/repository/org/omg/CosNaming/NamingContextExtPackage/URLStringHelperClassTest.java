@@ -173,6 +173,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLSt
         // org.omg.CosNaming.NamingContextExtPackage.URLStringHelper#insert(org.omg.CORBA.Any, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.URLStringHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.URLStringHelper]
 
 }

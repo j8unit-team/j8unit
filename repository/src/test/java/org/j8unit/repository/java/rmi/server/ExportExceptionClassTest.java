@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.server.ExportExceptionClassTests<Expor
         final ExportException sut = null; // = new ExportException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.ExportException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ExportException]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.RMISecurityExceptionClassTests<RMISecu
         final RMISecurityException sut = null; // = new RMISecurityException(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.RMISecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.RMISecurityException]
 
 }

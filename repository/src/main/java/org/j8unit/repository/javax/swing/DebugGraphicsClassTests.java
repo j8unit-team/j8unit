@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
                    DebugGraphics.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DebugGraphics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DebugGraphics]
 
 }

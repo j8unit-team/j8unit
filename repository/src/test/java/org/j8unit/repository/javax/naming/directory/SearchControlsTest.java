@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SearchControls>, org.j8unit.repository.javax.n
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.SearchControls]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.SearchControls]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.SearchControls]
 
 }

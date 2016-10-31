@@ -111,6 +111,8 @@ implements org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests<SAXPars
         final SAXParseException sut = null; // = new SAXParseException(String, String, String, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.SAXParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.SAXParseException]
 
 }

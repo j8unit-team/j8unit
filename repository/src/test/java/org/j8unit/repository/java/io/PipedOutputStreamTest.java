@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PipedOutputStream>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.PipedOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.PipedOutputStream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.PipedOutputStream]
 
 }

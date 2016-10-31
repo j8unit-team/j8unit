@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.BoxLayoutClassTests<BoxLayout> {
         final BoxLayout sut = null; // = new BoxLayout(java.awt.Container, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.BoxLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.BoxLayout]
 
 }

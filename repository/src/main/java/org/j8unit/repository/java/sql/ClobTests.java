@@ -319,6 +319,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Clob]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.Clob]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Clob]
 }

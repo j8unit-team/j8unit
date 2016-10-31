@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RegisterableService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.RegisterableService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.RegisterableService]
 
 }

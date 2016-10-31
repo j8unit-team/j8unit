@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DecimalFormatSymbols.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.DecimalFormatSymbols]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.DecimalFormatSymbols]
 
 }

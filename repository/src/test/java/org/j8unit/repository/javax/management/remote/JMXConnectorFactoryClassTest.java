@@ -92,6 +92,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorFactoryClas
         // java.util.Map)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorFactory]
 
 }

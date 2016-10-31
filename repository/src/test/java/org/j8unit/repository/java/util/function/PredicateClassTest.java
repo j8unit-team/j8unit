@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.function.PredicateClassTests<Predicat
         // write some test for {@link java.util.function.Predicate#isEqual(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.Predicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.Predicate]
 
 }

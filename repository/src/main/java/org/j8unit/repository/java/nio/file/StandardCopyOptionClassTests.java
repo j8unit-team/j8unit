@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>, org.j8uni
                    StandardCopyOption.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.StandardCopyOption]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.StandardCopyOption]
 
 }

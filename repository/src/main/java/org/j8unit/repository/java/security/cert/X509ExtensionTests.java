@@ -125,6 +125,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.X509Extension]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.X509Extension]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.X509Extension]
 }

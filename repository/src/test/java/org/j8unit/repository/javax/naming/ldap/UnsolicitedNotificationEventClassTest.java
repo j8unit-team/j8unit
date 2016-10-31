@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationEventC
                                                        // javax.naming.ldap.UnsolicitedNotification);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationEvent]
 
 }

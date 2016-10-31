@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TransactionService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TransactionService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TransactionService]
 
 }

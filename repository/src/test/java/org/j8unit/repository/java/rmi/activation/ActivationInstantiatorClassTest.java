@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClass
         return ActivationInstantiator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationInstantiator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationInstantiator]
 
 }

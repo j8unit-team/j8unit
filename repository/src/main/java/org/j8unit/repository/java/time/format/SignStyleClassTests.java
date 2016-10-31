@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    SignStyle.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.SignStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.SignStyle]
 
 }

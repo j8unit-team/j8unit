@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    NoSuchPaddingException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.NoSuchPaddingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.NoSuchPaddingException]
 
 }

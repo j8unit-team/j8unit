@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.nio.file.ProviderMismatchExceptionClassTes
         final ProviderMismatchException sut = null; // = new ProviderMismatchException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.ProviderMismatchException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.ProviderMismatchException]
 
 }

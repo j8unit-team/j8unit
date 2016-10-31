@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorClassTests<
                    _ServantActivatorStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer._ServantActivatorStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer._ServantActivatorStub]
 
 }

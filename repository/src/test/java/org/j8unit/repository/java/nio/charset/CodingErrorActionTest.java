@@ -31,6 +31,8 @@ implements org.j8unit.repository.java.nio.charset.CodingErrorActionTests<CodingE
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CodingErrorAction]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.charset.CodingErrorAction]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.CodingErrorAction]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPBodyElement]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPBodyElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SOAPBodyElement]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPBodyElement]
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    Resource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Resource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resource]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AuthenticationType.class!",
                               AuthenticationType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Resource$AuthenticationType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resource$AuthenticationType]
 

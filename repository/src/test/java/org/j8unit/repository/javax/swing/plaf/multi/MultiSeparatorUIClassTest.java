@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.multi.MultiSeparatorUIClassTes
         // write some test for {@link javax.swing.plaf.multi.MultiSeparatorUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiSeparatorUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiSeparatorUI]
 
 }

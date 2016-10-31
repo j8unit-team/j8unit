@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ThreadPolicyClassTests<T
         return ThreadPolicy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ThreadPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ThreadPolicy]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathVariableResolverClassTests
         return XPathVariableResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathVariableResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathVariableResolver]
 
 }

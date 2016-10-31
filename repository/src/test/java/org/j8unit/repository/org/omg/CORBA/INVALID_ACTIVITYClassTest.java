@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.INVALID_ACTIVITYClassTests<INVALI
         final INVALID_ACTIVITY sut = new INVALID_ACTIVITY();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INVALID_ACTIVITY]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INVALID_ACTIVITY]
 
 }

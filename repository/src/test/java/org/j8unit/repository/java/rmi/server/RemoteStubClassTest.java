@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.RemoteStubClassTests<RemoteStub
         return RemoteStub.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RemoteStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteStub]
 
 }

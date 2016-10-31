@@ -31,6 +31,8 @@ implements org.j8unit.repository.java.math.BigIntegerTests<BigInteger> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.BigInteger]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.math.BigInteger]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.BigInteger]
 
 }

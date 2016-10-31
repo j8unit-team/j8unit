@@ -102,6 +102,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorOperations]
 }

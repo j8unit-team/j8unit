@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistry
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [org.w3c.dom.bootstrap.DOMImplementationRegistry], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
 
 }

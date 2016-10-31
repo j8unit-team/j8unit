@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<SUT>
                    SOAPMessageContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.soap.SOAPMessageContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.soap.SOAPMessageContext]
 
 }

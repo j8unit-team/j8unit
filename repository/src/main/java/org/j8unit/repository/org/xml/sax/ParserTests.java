@@ -192,6 +192,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.Parser]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.Parser]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.Parser]
 }

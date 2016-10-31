@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.filechooser.FileViewClassTests<File
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.filechooser.FileView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.filechooser.FileView]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerClassTests<SUT>, org.j
                    PixelGrabber.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.PixelGrabber]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.PixelGrabber]
 
 }

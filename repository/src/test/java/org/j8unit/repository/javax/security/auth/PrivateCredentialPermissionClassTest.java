@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.auth.PrivateCredentialPermission
         final PrivateCredentialPermission sut = null; // = new PrivateCredentialPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.PrivateCredentialPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.PrivateCredentialPermission]
 
 }

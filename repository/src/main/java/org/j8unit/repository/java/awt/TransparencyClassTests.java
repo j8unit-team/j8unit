@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Transparency.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Transparency]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Transparency]
 
 }

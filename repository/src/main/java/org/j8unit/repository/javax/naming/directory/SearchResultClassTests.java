@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.BindingClassTests<SUT> {
                    SearchResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.SearchResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.SearchResult]
 
 }

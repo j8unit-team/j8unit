@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.monitor.MonitorSettingExceptio
         final MonitorSettingException sut = null; // = new MonitorSettingException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.MonitorSettingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.MonitorSettingException]
 
 }

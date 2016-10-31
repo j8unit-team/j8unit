@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.SemaphoreClassTests<Semaph
         final Semaphore sut = null; // = new Semaphore(int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Semaphore]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Semaphore]
 
 }

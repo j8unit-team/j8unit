@@ -306,6 +306,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.TemporalField]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.TemporalField]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.TemporalField]
 }

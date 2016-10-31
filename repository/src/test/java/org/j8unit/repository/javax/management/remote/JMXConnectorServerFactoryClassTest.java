@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerFacto
         // java.util.Map, javax.management.MBeanServer)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorServerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorServerFactory]
 
 }

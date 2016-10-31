@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.TextSyntaxClassTests<SUT> {
                    PrinterName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterName]
 
 }

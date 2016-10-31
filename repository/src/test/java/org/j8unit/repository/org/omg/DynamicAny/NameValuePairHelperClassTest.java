@@ -169,6 +169,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameValuePairHelperClassTest
         // org.omg.DynamicAny.NameValuePair)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.NameValuePairHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameValuePairHelper]
 
 }

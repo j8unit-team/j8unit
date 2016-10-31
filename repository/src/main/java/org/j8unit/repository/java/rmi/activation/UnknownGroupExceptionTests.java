@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.rmi.activation.ActivationExceptionTests<SUT> 
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.UnknownGroupException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.UnknownGroupException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.UnknownGroupException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.UnknownGroupException]
 }

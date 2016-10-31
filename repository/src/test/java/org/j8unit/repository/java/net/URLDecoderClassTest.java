@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.net.URLDecoderClassTests<URLDecoder> {
         // write some test for {@link java.net.URLDecoder#decode(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLDecoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLDecoder]
 
 }

@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.lang.annotation.RetentionPolicyClassTests<
         // write some test for {@link java.lang.annotation.RetentionPolicy#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.RetentionPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.RetentionPolicy]
 
 }

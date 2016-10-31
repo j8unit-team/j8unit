@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.management.monitor.GaugeMonitorClassTests
         final GaugeMonitor sut = new GaugeMonitor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.GaugeMonitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.GaugeMonitor]
 
 }

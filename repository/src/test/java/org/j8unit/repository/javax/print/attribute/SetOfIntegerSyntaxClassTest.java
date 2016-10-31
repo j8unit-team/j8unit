@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTe
         return SetOfIntegerSyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.SetOfIntegerSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.SetOfIntegerSyntax]
 
 }

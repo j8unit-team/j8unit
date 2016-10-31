@@ -169,6 +169,7 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.spec.ECFieldF2m]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.spec.ECFieldF2m]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.spec.ECFieldF2m]
 }

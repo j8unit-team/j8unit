@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.ECKeyClassTests<ECKey>
         return ECKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.ECKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.ECKey]
 
 }

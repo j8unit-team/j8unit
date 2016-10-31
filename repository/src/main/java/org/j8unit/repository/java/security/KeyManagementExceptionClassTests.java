@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.KeyExceptionClassTests<SUT> {
                    KeyManagementException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyManagementException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyManagementException]
 
 }

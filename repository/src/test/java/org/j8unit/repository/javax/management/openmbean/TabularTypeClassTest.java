@@ -45,6 +45,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularTypeClassTest
                                       // String[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.TabularType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularType]
 
 }

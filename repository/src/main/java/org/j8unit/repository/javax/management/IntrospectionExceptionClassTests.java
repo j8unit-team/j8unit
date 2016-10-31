@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.OperationsExceptionClassTests<SUT
                    IntrospectionException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.IntrospectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.IntrospectionException]
 
 }

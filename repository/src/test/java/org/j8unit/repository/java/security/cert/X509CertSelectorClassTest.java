@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.cert.X509CertSelectorClassTests<X
         final X509CertSelector sut = new X509CertSelector();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.X509CertSelector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.X509CertSelector]
 
 }

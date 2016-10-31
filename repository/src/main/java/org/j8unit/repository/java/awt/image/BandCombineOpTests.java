@@ -174,6 +174,7 @@ extends org.j8unit.repository.java.awt.image.RasterOpTests<SUT>, org.j8unit.repo
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.BandCombineOp]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.BandCombineOp]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.BandCombineOp]
 }

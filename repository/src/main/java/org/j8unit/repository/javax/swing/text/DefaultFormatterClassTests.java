@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatte
                    DefaultFormatter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultFormatter]
 
 }

@@ -17,6 +17,8 @@ implements org.j8unit.repository.java.nio.file.DirectoryStreamClassTests<Directo
         return DirectoryStream.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.DirectoryStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.DirectoryStream]
 
     @SuppressWarnings("rawtypes")
@@ -30,6 +32,8 @@ implements org.j8unit.repository.java.nio.file.DirectoryStreamClassTests<Directo
         public Class<Filter> createNewSUT() {
             return Filter.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.DirectoryStream$Filter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.DirectoryStream$Filter]
 

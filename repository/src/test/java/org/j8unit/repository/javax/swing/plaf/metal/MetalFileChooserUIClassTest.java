@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
         // write some test for {@link javax.swing.plaf.metal.MetalFileChooserUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
 
     @RunWith(J8Unit4.class)
@@ -101,6 +103,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
             final FilterComboBoxRenderer sut = null; // = new
                                                      // FilterComboBoxRenderer(javax.swing.plaf.metal.MetalFileChooserUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]
 

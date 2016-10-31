@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
                    IllegalComponentStateException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.IllegalComponentStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.IllegalComponentStateException]
 
 }

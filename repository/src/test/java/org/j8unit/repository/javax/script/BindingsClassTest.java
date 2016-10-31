@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.script.BindingsClassTests<Bindings> {
         return Bindings.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.Bindings]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.Bindings]
 
 }

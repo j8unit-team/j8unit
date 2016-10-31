@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.NoSuchAttributeException
         final NoSuchAttributeException sut = new NoSuchAttributeException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.NoSuchAttributeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.NoSuchAttributeException]
 
 }

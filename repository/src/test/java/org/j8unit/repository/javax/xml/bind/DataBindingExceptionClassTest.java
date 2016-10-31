@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.bind.DataBindingExceptionClassTests<D
         final DataBindingException sut = null; // = new DataBindingException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.DataBindingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.DataBindingException]
 
 }

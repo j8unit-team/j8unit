@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    PKIXReason.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXReason]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXReason]
 
 }

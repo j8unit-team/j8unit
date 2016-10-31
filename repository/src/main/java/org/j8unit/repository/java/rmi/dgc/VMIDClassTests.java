@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to VMID.class!", VMID.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.dgc.VMID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.VMID]
 
 }

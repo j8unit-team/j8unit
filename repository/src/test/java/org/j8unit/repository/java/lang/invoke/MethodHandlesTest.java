@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesTests<MethodHandl
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.invoke.MethodHandles], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.MethodHandles]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.MethodHandles]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MethodHandles]
 
     @RunWith(J8Unit4.class)
     public static class LookupTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesTests<MethodHandl
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.invoke.MethodHandles.Lookup], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.MethodHandles$Lookup]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.MethodHandles$Lookup]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MethodHandles$Lookup]
 
     }
 

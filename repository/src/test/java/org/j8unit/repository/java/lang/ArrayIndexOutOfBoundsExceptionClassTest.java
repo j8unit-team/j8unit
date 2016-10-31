@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.lang.ArrayIndexOutOfBoundsExceptionClassTe
         final ArrayIndexOutOfBoundsException sut = null; // = new ArrayIndexOutOfBoundsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ArrayIndexOutOfBoundsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ArrayIndexOutOfBoundsException]
 
 }

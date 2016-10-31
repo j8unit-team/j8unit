@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.BoundedRangeModelClassTests<Bounded
         return BoundedRangeModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.BoundedRangeModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.BoundedRangeModel]
 
 }

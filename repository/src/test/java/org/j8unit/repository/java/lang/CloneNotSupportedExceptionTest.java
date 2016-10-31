@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<CloneNotSupportedException>, org.j8unit.reposi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.CloneNotSupportedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.CloneNotSupportedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.CloneNotSupportedException]
 
 }

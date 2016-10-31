@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.CheckboxPeerClassTests<CheckboxPe
         return CheckboxPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.CheckboxPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.CheckboxPeer]
 
 }

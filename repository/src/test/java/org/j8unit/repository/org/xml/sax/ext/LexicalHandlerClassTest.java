@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.ext.LexicalHandlerClassTests<Lexica
         return LexicalHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.LexicalHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.LexicalHandler]
 
 }

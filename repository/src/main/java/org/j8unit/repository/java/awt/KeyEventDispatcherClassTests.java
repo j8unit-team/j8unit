@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    KeyEventDispatcher.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.KeyEventDispatcher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyEventDispatcher]
 
 }

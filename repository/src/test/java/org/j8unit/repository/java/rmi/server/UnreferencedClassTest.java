@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.UnreferencedClassTests<Unrefere
         return Unreferenced.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.Unreferenced]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.Unreferenced]
 
 }

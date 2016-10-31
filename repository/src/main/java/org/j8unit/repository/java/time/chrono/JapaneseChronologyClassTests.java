@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    JapaneseChronology.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.JapaneseChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.JapaneseChronology]
 
 }

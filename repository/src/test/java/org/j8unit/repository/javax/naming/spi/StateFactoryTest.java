@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.spi.StateFactoryTests<StateFactory
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.naming.spi.StateFactory], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.spi.StateFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.spi.StateFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.StateFactory]
 
 }

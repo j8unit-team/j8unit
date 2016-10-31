@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.lang.ref.ReferenceTests<SUT, T> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.PhantomReference]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ref.PhantomReference]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.PhantomReference]
 }

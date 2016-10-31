@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.IDLEntity]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.IDLEntity]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.IDLEntity]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.IDLEntity]
 }

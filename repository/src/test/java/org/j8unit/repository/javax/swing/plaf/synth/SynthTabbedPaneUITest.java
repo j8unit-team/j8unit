@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SynthTabbedPaneUI>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
 
 }

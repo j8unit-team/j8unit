@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AnySeqHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.AnySeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.AnySeqHelper]
 
 }

@@ -131,6 +131,7 @@ org.j8unit.repository.java.util.HashMapTests<SUT, PrinterStateReason, Severity> 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
 }

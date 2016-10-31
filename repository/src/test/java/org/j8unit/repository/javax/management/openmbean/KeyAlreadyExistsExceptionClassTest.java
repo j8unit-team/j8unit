@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExce
         final KeyAlreadyExistsException sut = null; // = new KeyAlreadyExistsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.KeyAlreadyExistsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.KeyAlreadyExistsException]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.ChoiceClassTests<Choice> {
         final Choice sut = new Choice();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Choice]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Choice]
 
 }

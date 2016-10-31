@@ -73,6 +73,8 @@ implements org.j8unit.repository.javax.management.MBeanInfoClassTests<MBeanInfo>
                                     // javax.management.MBeanNotificationInfo[], javax.management.Descriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanInfo]
 
 }

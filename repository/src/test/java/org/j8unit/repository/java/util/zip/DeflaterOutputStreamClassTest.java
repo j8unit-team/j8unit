@@ -161,6 +161,8 @@ implements org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<De
                                                // java.util.zip.Deflater, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.DeflaterOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.DeflaterOutputStream]
 
 }

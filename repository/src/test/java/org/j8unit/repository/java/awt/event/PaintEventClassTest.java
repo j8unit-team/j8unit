@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.event.PaintEventClassTests<PaintEvent>
         final PaintEvent sut = null; // = new PaintEvent(java.awt.Component, int, java.awt.Rectangle);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.PaintEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.PaintEvent]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleComponentClassTests<
                    AccessibleExtendedComponent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleExtendedComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleExtendedComponent]
 
 }

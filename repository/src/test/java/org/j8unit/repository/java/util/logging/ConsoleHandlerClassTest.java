@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.logging.ConsoleHandlerClassTests<Cons
         final ConsoleHandler sut = new ConsoleHandler();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.ConsoleHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.ConsoleHandler]
 
 }

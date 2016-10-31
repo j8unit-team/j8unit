@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioPermissionClassTests<A
         final AudioPermission sut = null; // = new AudioPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioPermission]
 
 }

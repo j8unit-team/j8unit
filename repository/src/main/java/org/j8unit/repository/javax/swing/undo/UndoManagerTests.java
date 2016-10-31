@@ -400,6 +400,7 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.undo.UndoManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.undo.UndoManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.undo.UndoManager]
 }

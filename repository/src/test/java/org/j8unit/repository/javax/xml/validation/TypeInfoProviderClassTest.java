@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.validation.TypeInfoProviderClassTests
         return TypeInfoProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.validation.TypeInfoProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.validation.TypeInfoProvider]
 
 }

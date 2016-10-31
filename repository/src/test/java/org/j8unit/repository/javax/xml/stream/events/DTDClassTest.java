@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.events.DTDClassTests<DTD> {
         return DTD.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.DTD]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.DTD]
 
 }

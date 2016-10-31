@@ -32,6 +32,8 @@ org.j8unit.repository.javax.security.auth.login.CredentialExpiredExceptionTests<
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.CredentialExpiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.CredentialExpiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.CredentialExpiredException]
 
 }

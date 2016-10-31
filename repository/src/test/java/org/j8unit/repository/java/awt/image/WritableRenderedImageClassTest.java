@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.WritableRenderedImageClassTests<
         return WritableRenderedImage.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.WritableRenderedImage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.WritableRenderedImage]
 
 }

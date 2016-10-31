@@ -1515,8 +1515,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -1782,8 +1783,9 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
     }
 
 }

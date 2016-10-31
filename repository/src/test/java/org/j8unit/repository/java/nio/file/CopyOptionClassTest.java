@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.CopyOptionClassTests<CopyOption> 
         return CopyOption.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.CopyOption]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.CopyOption]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
                    ToolTipManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ToolTipManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ToolTipManager]
 
 }

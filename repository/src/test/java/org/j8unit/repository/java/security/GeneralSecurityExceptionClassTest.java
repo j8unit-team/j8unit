@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.GeneralSecurityExceptionClassTest
         final GeneralSecurityException sut = new GeneralSecurityException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.GeneralSecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.GeneralSecurityException]
 
 }

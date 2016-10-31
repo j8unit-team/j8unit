@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.ExecutionExceptionClassTes
         final ExecutionException sut = null; // = new ExecutionException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ExecutionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ExecutionException]
 
 }

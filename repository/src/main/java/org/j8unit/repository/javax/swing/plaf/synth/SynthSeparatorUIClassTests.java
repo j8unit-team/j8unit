@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUIClassTests<SUT> {
                    SynthSeparatorUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthSeparatorUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthSeparatorUI]
 
 }

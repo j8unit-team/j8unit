@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
                    SpringLayout.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpringLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpringLayout]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Constraints.class!",
                               Constraints.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpringLayout$Constraints]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpringLayout$Constraints]
 

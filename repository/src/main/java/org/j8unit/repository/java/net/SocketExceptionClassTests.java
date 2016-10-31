@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    SocketException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketException]
 
 }

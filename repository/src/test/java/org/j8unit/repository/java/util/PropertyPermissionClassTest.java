@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.PropertyPermissionClassTests<Property
         final PropertyPermission sut = null; // = new PropertyPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PropertyPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PropertyPermission]
 
 }

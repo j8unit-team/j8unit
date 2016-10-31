@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.VirtualMachineErrorClassTests<SUT> {
                    InternalError.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InternalError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InternalError]
 
 }

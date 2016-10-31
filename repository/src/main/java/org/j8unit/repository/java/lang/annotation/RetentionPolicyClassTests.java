@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    RetentionPolicy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.RetentionPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.RetentionPolicy]
 
 }

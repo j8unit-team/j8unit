@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RowSetFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.RowSetFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.RowSetFactory]
 
 }

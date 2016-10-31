@@ -32,6 +32,8 @@ org.j8unit.repository.java.nio.channels.NonWritableChannelExceptionTests<NonWrit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NonWritableChannelException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.NonWritableChannelException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.NonWritableChannelException]
 
 }

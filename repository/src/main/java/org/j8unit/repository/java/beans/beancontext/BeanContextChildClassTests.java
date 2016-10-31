@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BeanContextChild.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextChild]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextChild]
 
 }

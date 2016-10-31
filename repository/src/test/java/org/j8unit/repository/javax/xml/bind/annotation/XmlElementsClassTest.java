@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementsClassTests
         return XmlElements.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlElements]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElements]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.UnsatisfiedLinkErrorClassTests<Unsati
         final UnsatisfiedLinkError sut = null; // = new UnsatisfiedLinkError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.UnsatisfiedLinkError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.UnsatisfiedLinkError]
 
 }

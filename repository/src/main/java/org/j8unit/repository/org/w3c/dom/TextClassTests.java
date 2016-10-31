@@ -66,6 +66,8 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Text.class!", Text.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.Text]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.Text]
 
 }

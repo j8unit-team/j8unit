@@ -200,8 +200,10 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.TextUI#getToolTipText(javax.swing.text.JTextComponent, java.awt.Point) public
-     * java.lang.String javax.swing.plaf.TextUI.getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)}.
+     * {@link javax.swing.plaf.TextUI#modelToView(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias)
+     * public abstract java.awt.Rectangle
+     * javax.swing.plaf.TextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias) throws
+     * javax.swing.text.BadLocationException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -213,7 +215,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getToolTipText_JTextComponent_Point()
+    public default void test_modelToView_JTextComponent_int_Bias()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -247,10 +249,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.TextUI#modelToView(javax.swing.text.JTextComponent, int, javax.swing.text.Position.Bias)
-     * public abstract java.awt.Rectangle
-     * javax.swing.plaf.TextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position$Bias) throws
-     * javax.swing.text.BadLocationException}.
+     * {@link javax.swing.plaf.TextUI#getToolTipText(javax.swing.text.JTextComponent, java.awt.Point) public
+     * java.lang.String javax.swing.plaf.TextUI.getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -262,13 +262,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_modelToView_JTextComponent_int_Bias()
+    public default void test_getToolTipText_JTextComponent_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.TextUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.TextUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.TextUI]
 }

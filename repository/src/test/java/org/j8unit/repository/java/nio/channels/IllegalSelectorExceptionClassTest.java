@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.IllegalSelectorExceptionClass
         final IllegalSelectorException sut = new IllegalSelectorException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.IllegalSelectorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.IllegalSelectorException]
 
 }

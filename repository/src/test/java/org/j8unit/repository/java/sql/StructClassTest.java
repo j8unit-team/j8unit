@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.StructClassTests<Struct> {
         return Struct.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Struct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Struct]
 
 }

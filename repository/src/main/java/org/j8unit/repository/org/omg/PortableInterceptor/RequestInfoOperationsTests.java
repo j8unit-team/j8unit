@@ -243,29 +243,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.RequestInfoOperations#operation() public abstract java.lang.String
-     * org.omg.PortableInterceptor.RequestInfoOperations.operation()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_operation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.RequestInfoOperations#request_id() public abstract int
      * org.omg.PortableInterceptor.RequestInfoOperations.request_id()}.
      *
@@ -289,8 +266,8 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.omg.PortableInterceptor.RequestInfoOperations#forward_reference() public abstract org.omg.CORBA.Object
-     * org.omg.PortableInterceptor.RequestInfoOperations.forward_reference()}.
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#operation() public abstract java.lang.String
+     * org.omg.PortableInterceptor.RequestInfoOperations.operation()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -302,7 +279,7 @@ extends RepositoryTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_forward_reference()
+    public default void test_operation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -335,6 +312,29 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link org.omg.PortableInterceptor.RequestInfoOperations#forward_reference() public abstract org.omg.CORBA.Object
+     * org.omg.PortableInterceptor.RequestInfoOperations.forward_reference()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_forward_reference()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link org.omg.PortableInterceptor.RequestInfoOperations#arguments() public abstract org.omg.Dynamic.Parameter[]
      * org.omg.PortableInterceptor.RequestInfoOperations.arguments()}.
      *
@@ -355,6 +355,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.RequestInfoOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.RequestInfoOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.RequestInfoOperations]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.DescriptorKeyClassTests<Descri
         return DescriptorKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DescriptorKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DescriptorKey]
 
 }

@@ -106,6 +106,8 @@ implements org.j8unit.repository.javax.xml.namespace.QNameClassTests<QName> {
         // write some test for {@link javax.xml.namespace.QName#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.namespace.QName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.namespace.QName]
 
 }

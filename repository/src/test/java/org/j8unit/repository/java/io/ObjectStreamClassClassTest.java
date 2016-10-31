@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.io.ObjectStreamClassClassTests<ObjectStrea
         // write some test for {@link java.io.ObjectStreamClass#lookup(Class)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectStreamClass]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectStreamClass]
 
 }

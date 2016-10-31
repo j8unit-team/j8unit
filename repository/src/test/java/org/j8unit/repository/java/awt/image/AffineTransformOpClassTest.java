@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.awt.image.AffineTransformOpClassTests<Affi
                                             // java.awt.RenderingHints);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.AffineTransformOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.AffineTransformOp]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<SUT>, org
                    DiagnosticCollector.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DiagnosticCollector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DiagnosticCollector]
 
 }

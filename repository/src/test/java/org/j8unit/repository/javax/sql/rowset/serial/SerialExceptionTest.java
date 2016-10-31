@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SerialException>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
 
 }

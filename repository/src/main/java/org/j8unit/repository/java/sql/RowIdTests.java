@@ -121,6 +121,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.RowId]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.RowId]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.RowId]
 }

@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.security.sasl.SaslClassTests<Sasl> {
         // java.util.Map, javax.security.auth.callback.CallbackHandler)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.Sasl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.Sasl]
 
 }

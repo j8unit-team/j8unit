@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.ContentHandlerFactoryClassTests<Conten
         return ContentHandlerFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ContentHandlerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ContentHandlerFactory]
 
 }

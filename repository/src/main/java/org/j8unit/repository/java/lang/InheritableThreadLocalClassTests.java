@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ThreadLocalClassTests<SUT> {
                    InheritableThreadLocal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InheritableThreadLocal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InheritableThreadLocal]
 
 }

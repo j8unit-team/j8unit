@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.NoSuchFieldErrorClassTests<NoSuchFiel
         final NoSuchFieldError sut = null; // = new NoSuchFieldError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NoSuchFieldError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NoSuchFieldError]
 
 }

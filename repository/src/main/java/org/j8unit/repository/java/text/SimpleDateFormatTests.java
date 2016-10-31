@@ -353,6 +353,7 @@ extends org.j8unit.repository.java.text.DateFormatTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.SimpleDateFormat]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.SimpleDateFormat]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.SimpleDateFormat]
 }

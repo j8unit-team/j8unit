@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.transaction.TransactionRequiredExceptionC
         final TransactionRequiredException sut = null; // = new TransactionRequiredException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.TransactionRequiredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.TransactionRequiredException]
 
 }

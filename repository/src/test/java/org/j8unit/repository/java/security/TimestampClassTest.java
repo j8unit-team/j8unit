@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.TimestampClassTests<Timestamp> {
         final Timestamp sut = null; // = new Timestamp(java.util.Date, java.security.cert.CertPath);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Timestamp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Timestamp]
 
 }

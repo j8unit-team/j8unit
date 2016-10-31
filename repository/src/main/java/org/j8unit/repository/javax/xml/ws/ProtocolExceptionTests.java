@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.ProtocolException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.ProtocolException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.ProtocolException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.ProtocolException]
 }

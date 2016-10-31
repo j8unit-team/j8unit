@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalMenuBarUIClassTests
         // write some test for {@link javax.swing.plaf.metal.MetalMenuBarUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalMenuBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalMenuBarUI]
 
 }

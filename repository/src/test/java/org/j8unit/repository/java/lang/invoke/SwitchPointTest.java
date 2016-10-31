@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SwitchPoint>, org.j8unit.repository.java.lang.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.SwitchPoint]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.SwitchPoint]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.SwitchPoint]
 
 }

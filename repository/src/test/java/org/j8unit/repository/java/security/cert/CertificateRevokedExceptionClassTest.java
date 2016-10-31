@@ -46,6 +46,8 @@ implements org.j8unit.repository.java.security.cert.CertificateRevokedExceptionC
                                                       // javax.security.auth.x500.X500Principal, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateRevokedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateRevokedException]
 
 }

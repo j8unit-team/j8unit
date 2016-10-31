@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ZoneRulesProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneRulesProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneRulesProvider]
 
 }

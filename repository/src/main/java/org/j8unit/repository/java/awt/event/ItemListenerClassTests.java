@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    ItemListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ItemListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ItemListener]
 
 }

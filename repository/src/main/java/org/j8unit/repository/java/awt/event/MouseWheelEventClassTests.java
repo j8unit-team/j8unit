@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.MouseEventClassTests<SUT> {
                    MouseWheelEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.MouseWheelEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.MouseWheelEvent]
 
 }

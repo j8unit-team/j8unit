@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.MemoryManagerMXBeanClassTe
         return MemoryManagerMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.MemoryManagerMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryManagerMXBean]
 
 }

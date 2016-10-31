@@ -79,6 +79,7 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalRadioButtonUITests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalCheckBoxUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalCheckBoxUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalCheckBoxUI]
 }

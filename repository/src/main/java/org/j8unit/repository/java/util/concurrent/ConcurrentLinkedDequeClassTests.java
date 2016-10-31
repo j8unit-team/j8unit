@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT> {
                    ConcurrentLinkedDeque.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentLinkedDeque]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentLinkedDeque]
 
 }

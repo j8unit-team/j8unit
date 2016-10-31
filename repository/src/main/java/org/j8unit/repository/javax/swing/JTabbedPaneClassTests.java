@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                    JTabbedPane.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTabbedPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTabbedPane]
 
 }

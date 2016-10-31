@@ -461,6 +461,8 @@ implements org.j8unit.repository.java.lang.reflect.ArrayClassTests<Array> {
         // write some test for {@link java.lang.reflect.Array#setBoolean(Object, int, boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Array]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Array]
 
 }

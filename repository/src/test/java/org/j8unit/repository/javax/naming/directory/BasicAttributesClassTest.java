@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.naming.directory.BasicAttributesClassTest
         final BasicAttributes sut = null; // = new BasicAttributes(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.BasicAttributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.BasicAttributes]
 
 }

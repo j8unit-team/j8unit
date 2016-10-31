@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.SQLOutputClassTests<SQLOutput> {
         return SQLOutput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLOutput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLOutput]
 
 }

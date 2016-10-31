@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.RowSetWriterClassTests<SUT> {
                    XmlWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.XmlWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.XmlWriter]
 
 }

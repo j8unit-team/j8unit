@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivateFailedExceptionClas
         final ActivateFailedException sut = null; // = new ActivateFailedException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivateFailedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivateFailedException]
 
 }

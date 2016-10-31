@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.TextAreaPeerClassTests<TextAreaPe
         return TextAreaPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.TextAreaPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.TextAreaPeer]
 
 }

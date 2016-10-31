@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.prefs.AbstractPreferencesClassTests<A
         return AbstractPreferences.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.AbstractPreferences]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.AbstractPreferences]
 
 }

@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.beans.MethodDescriptorClassTests<MethodDes
                                            // java.beans.ParameterDescriptor[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.MethodDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.MethodDescriptor]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.transform.OutputKeysTests<OutputKeys>
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.transform.OutputKeys], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.OutputKeys]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.OutputKeys]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.OutputKeys]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Stroke.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Stroke]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Stroke]
 
 }

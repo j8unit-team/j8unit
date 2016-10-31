@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
         // write some test for {@link javax.swing.plaf.basic.BasicTableHeaderUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
 
     @RunWith(J8Unit4.class)
@@ -99,6 +101,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
             @SuppressWarnings("unused")
             final MouseInputHandler sut = null; // = new MouseInputHandler(javax.swing.plaf.basic.BasicTableHeaderUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler]
 

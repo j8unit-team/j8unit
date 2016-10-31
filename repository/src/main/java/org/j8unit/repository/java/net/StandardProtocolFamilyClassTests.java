@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.ProtocolFamilyClassTests<SUT>, org.j8unit
                    StandardProtocolFamily.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.StandardProtocolFamily]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.StandardProtocolFamily]
 
 }

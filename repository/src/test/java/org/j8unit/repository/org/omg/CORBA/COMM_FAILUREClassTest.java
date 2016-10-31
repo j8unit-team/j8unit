@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.COMM_FAILUREClassTests<COMM_FAILU
         final COMM_FAILURE sut = new COMM_FAILURE();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.COMM_FAILURE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.COMM_FAILURE]
 
 }

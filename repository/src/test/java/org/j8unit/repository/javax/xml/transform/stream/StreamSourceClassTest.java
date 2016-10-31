@@ -178,6 +178,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamSourceClassTes
         final StreamSource sut = null; // = new StreamSource(java.io.Reader, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.stream.StreamSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stream.StreamSource]
 
 }

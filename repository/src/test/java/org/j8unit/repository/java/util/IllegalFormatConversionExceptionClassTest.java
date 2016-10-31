@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.IllegalFormatConversionExceptionClass
         final IllegalFormatConversionException sut = null; // = new IllegalFormatConversionException(char, Class);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatConversionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatConversionException]
 
 }

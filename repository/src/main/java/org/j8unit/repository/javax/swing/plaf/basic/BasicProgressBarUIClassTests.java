@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
                    BasicProgressBarUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ChangeHandler.class!",
                               ChangeHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler]
 

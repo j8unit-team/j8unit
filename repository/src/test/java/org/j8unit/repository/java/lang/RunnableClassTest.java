@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.RunnableClassTests<Runnable> {
         return Runnable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Runnable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Runnable]
 
 }

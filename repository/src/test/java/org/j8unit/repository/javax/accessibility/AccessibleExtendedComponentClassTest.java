@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleExtendedComponent
         return AccessibleExtendedComponent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleExtendedComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleExtendedComponent]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.spi.ObjectFactoryClassTests<SUT> {
                    DirObjectFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirObjectFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirObjectFactory]
 
 }

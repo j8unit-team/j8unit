@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
 }

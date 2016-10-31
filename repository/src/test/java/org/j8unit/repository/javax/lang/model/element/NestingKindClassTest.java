@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.lang.model.element.NestingKindClassTests<
         // write some test for {@link javax.lang.model.element.NestingKind#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.NestingKind]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.NestingKind]
 
 }

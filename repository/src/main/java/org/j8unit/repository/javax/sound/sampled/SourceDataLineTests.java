@@ -103,6 +103,7 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.SourceDataLine]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.SourceDataLine]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.SourceDataLine]
 }

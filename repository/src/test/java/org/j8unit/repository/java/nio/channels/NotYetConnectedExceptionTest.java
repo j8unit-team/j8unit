@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NotYetConnectedException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NotYetConnectedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.NotYetConnectedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.NotYetConnectedException]
 
 }

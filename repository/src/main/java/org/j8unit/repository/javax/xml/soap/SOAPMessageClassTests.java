@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SOAPMessage.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPMessage]
 
 }

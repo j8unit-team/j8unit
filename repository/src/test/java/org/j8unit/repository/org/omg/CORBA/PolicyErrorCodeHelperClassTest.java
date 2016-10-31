@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorCodeHelperClassTests<P
         // write some test for {@link org.omg.CORBA.PolicyErrorCodeHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PolicyErrorCodeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyErrorCodeHelper]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewC
         return FileOwnerAttributeView.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.FileOwnerAttributeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.FileOwnerAttributeView]
 
 }

@@ -69,6 +69,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxButtonClass
                                               // javax.swing.CellRendererPane, javax.swing.JList);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxButton]
 
 }

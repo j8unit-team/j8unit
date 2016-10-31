@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingConstants]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SwingConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SwingConstants]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SwingConstants]
 }

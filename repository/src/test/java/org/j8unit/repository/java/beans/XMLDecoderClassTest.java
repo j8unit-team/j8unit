@@ -158,6 +158,8 @@ implements org.j8unit.repository.java.beans.XMLDecoderClassTests<XMLDecoder> {
         // ClassLoader)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.XMLDecoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.XMLDecoder]
 
 }

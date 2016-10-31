@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidMarkException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.InvalidMarkException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.InvalidMarkException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.InvalidMarkException]
 
 }

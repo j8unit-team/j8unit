@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    IIOWriteProgressListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.event.IIOWriteProgressListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.event.IIOWriteProgressListener]
 
 }

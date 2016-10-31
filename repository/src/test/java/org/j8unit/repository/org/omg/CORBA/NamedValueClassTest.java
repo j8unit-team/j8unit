@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA.NamedValueClassTests<NamedValue> 
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NamedValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NamedValue]
 
 }

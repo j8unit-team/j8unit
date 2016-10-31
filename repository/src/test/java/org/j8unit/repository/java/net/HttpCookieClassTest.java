@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.net.HttpCookieClassTests<HttpCookie> {
         // write some test for {@link java.net.HttpCookie#domainMatches(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.HttpCookie]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpCookie]
 
 }

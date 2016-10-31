@@ -69,6 +69,8 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
                    Chromaticity.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Chromaticity]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Chromaticity]
 
 }

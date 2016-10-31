@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<SpringLayout>, org.j8unit.repository.javax.swi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpringLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SpringLayout]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SpringLayout]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<SpringLayout>, org.j8unit.repository.javax.swi
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpringLayout$Constraints]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SpringLayout$Constraints]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SpringLayout$Constraints]
 
     }
 

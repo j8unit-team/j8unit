@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaPrintableAr
         final MediaPrintableArea sut = null; // = new MediaPrintableArea(int, int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaPrintableArea]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaPrintableArea]
 
 }

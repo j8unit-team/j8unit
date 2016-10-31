@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.multi.MultiLabelUIClassTests<M
         // write some test for {@link javax.swing.plaf.multi.MultiLabelUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiLabelUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiLabelUI]
 
 }

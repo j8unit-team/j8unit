@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.spi.DecimalFormatSymbolsProviderClass
         return DecimalFormatSymbolsProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.DecimalFormatSymbolsProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.DecimalFormatSymbolsProvider]
 
 }

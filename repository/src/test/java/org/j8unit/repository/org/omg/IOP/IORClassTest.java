@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.IOP.IORClassTests<IOR> {
         final IOR sut = null; // = new IOR(String, org.omg.IOP.TaggedProfile[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.IOR]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.IOR]
 
 }

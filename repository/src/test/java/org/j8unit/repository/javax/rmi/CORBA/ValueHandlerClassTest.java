@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.ValueHandlerClassTests<ValueHan
         return ValueHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.ValueHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.ValueHandler]
 
 }

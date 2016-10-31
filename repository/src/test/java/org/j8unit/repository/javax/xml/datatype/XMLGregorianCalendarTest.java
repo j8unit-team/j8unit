@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.datatype.XMLGregorianCalendarTests<XM
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.datatype.XMLGregorianCalendar], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.XMLGregorianCalendar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.XMLGregorianCalendar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.XMLGregorianCalendar]
 
 }

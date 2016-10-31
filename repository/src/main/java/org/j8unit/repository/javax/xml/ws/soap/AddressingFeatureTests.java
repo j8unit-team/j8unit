@@ -100,8 +100,9 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -127,8 +128,9 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
     }
 
 }

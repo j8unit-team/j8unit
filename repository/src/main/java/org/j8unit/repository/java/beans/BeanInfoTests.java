@@ -209,6 +209,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.BeanInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.BeanInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.BeanInfo]
 }

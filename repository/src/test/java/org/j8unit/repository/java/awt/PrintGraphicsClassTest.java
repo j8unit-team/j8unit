@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.PrintGraphicsClassTests<PrintGraphics>
         return PrintGraphics.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PrintGraphics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PrintGraphics]
 
 }

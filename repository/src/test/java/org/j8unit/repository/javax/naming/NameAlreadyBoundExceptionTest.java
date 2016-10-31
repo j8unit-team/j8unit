@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NameAlreadyBoundException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NameAlreadyBoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.NameAlreadyBoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.NameAlreadyBoundException]
 
 }

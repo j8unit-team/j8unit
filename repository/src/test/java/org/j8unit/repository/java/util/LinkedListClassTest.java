@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.LinkedListClassTests<LinkedList> {
         final LinkedList sut = null; // = new LinkedList(java.util.Collection);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.LinkedList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.LinkedList]
 
 }

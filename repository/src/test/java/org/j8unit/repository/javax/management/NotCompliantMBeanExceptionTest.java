@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.NotCompliantMBeanExceptionTests<NotCompli
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotCompliantMBeanException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.NotCompliantMBeanException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotCompliantMBeanException]
 
 }

@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.math.MathContextClassTests<MathContext> {
         final MathContext sut = null; // = new MathContext(int, java.math.RoundingMode);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.math.MathContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.math.MathContext]
 
 }

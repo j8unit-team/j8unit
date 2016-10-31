@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.FontFormatExceptionClassTests<FontForm
         final FontFormatException sut = null; // = new FontFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.FontFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.FontFormatException]
 
 }

@@ -330,6 +330,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.MonitorMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.MonitorMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.MonitorMBean]
 }

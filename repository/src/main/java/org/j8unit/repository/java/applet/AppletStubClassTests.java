@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AppletStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.AppletStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.AppletStub]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<SUT> 
                    MetalTreeUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalTreeUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalTreeUI]
 
 }

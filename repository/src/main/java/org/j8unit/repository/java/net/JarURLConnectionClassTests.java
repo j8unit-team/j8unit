@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.URLConnectionClassTests<SUT> {
                    JarURLConnection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.JarURLConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.JarURLConnection]
 
 }

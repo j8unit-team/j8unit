@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClass
         final MetalComboBoxEditor sut = new MetalComboBoxEditor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClass
             // create new instance
             final UIResource sut = new UIResource();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor$UIResource]
 

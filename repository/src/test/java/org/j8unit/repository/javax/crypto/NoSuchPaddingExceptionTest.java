@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NoSuchPaddingException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
 
 }

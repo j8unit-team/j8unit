@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.lang.model.type.IntersectionTypeTests<Int
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.lang.model.type.IntersectionType], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.type.IntersectionType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.type.IntersectionType]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.IntersectionType]
 
 }

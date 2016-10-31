@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.IllegalFormatPrecisionExceptionClassT
         final IllegalFormatPrecisionException sut = null; // = new IllegalFormatPrecisionException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatPrecisionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatPrecisionException]
 
 }

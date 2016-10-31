@@ -64,27 +64,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicHTML#updateRenderer(javax.swing.JComponent, String) public static void
-     * javax.swing.plaf.basic.BasicHTML.updateRenderer(javax.swing.JComponent,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_updateRenderer_JComponent_String()
-    throws Exception {
-        // write some test for {@link javax.swing.plaf.basic.BasicHTML#updateRenderer(javax.swing.JComponent, String)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicHTML#createHTMLView(javax.swing.JComponent, String) public static
      * javax.swing.text.View javax.swing.plaf.basic.BasicHTML.createHTMLView(javax.swing.JComponent,java.lang.String)}.
      *
@@ -101,6 +80,27 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     public void test_createHTMLView_JComponent_String()
     throws Exception {
         // write some test for {@link javax.swing.plaf.basic.BasicHTML#createHTMLView(javax.swing.JComponent, String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicHTML#updateRenderer(javax.swing.JComponent, String) public static void
+     * javax.swing.plaf.basic.BasicHTML.updateRenderer(javax.swing.JComponent,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_updateRenderer_JComponent_String()
+    throws Exception {
+        // write some test for {@link javax.swing.plaf.basic.BasicHTML#updateRenderer(javax.swing.JComponent, String)}
     }
 
     /**
@@ -123,6 +123,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests<Basi
     throws Exception {
         // write some test for {@link javax.swing.plaf.basic.BasicHTML#isHTMLString(String)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicHTML]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicHTML]
 

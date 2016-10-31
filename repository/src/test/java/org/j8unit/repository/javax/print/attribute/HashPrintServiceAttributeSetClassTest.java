@@ -113,6 +113,8 @@ implements org.j8unit.repository.javax.print.attribute.HashPrintServiceAttribute
         final HashPrintServiceAttributeSet sut = new HashPrintServiceAttributeSet();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.HashPrintServiceAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.HashPrintServiceAttributeSet]
 
 }

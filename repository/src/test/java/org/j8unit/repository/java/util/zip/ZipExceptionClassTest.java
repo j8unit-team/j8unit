@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.util.zip.ZipExceptionClassTests<ZipExcepti
         final ZipException sut = null; // = new ZipException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipException]
 
 }

@@ -135,6 +135,8 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
         // write some test for {@link javax.security.auth.login.Configuration#getConfiguration()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.Configuration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.Configuration]
 
     @RunWith(J8Unit4.class)
@@ -147,6 +149,8 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
         public Class<Parameters> createNewSUT() {
             return Parameters.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.Configuration$Parameters]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.Configuration$Parameters]
 

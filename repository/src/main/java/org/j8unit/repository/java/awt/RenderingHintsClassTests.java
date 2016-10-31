@@ -70,6 +70,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    RenderingHints.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.RenderingHints]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.RenderingHints]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Key.class!",
                               Key.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.RenderingHints$Key]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.RenderingHints$Key]
 

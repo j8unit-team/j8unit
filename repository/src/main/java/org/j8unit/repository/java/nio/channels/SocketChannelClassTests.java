@@ -69,6 +69,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<
                    SocketChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.SocketChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.SocketChannel]
 
 }

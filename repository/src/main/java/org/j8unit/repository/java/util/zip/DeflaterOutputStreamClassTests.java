@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
                    DeflaterOutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.DeflaterOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.DeflaterOutputStream]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.ReflectionExceptionClassTests<
         final ReflectionException sut = null; // = new ReflectionException(Exception, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ReflectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ReflectionException]
 
 }

@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView]
 
     @RunWith(J8Unit4.class)
@@ -78,6 +80,8 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
             @SuppressWarnings("unused")
             final TableRow sut = null; // = new TableRow(javax.swing.text.TableView, javax.swing.text.Element);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableRow]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableRow]
 
@@ -116,6 +120,8 @@ implements org.j8unit.repository.javax.swing.text.TableViewClassTests<TableView>
             @SuppressWarnings("unused")
             final TableCell sut = null; // = new TableCell(javax.swing.text.TableView, javax.swing.text.Element);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableCell]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableCell]
 

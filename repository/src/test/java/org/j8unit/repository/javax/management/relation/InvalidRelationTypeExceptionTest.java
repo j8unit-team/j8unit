@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.relation.InvalidRelationTypeExceptionTest
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.InvalidRelationTypeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.InvalidRelationTypeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.InvalidRelationTypeException]
 
 }

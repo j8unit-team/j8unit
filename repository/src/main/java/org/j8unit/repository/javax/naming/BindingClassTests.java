@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NameClassPairClassTests<SUT> {
                    Binding.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.Binding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Binding]
 
 }

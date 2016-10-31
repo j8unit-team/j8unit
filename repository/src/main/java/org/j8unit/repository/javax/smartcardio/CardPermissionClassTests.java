@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.PermissionClassTests<SUT> {
                    CardPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardPermission]
 
 }

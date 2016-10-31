@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.crypto.spec.DHParameterSpecClassTests<DHP
         final DHParameterSpec sut = null; // = new DHParameterSpec(java.math.BigInteger, java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.DHParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DHParameterSpec]
 
 }

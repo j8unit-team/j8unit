@@ -272,6 +272,8 @@ implements org.j8unit.repository.javax.swing.LookAndFeelClassTests<LookAndFeel> 
         // write some test for {@link javax.swing.LookAndFeel#makeInputMap(Object[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LookAndFeel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LookAndFeel]
 
 }

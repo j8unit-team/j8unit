@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.sound.midi.InvalidMidiDataExceptionClassT
         final InvalidMidiDataException sut = null; // = new InvalidMidiDataException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.InvalidMidiDataException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.InvalidMidiDataException]
 
 }

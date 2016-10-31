@@ -101,6 +101,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactory
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
 }

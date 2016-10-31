@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.lang.ThrowableClassTests<Throwable> {
         final Throwable sut = new Throwable();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Throwable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Throwable]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AdapterActivatorOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.AdapterActivatorOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.AdapterActivatorOperations]
 
 }

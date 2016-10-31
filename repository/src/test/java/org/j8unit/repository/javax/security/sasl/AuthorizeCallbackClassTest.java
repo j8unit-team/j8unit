@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.sasl.AuthorizeCallbackClassTests
         final AuthorizeCallback sut = null; // = new AuthorizeCallback(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.AuthorizeCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.AuthorizeCallback]
 
 }

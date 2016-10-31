@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DecimalStyle.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DecimalStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DecimalStyle]
 
 }

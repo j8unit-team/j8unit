@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExceptionTests<
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.KeyAlreadyExistsException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.KeyAlreadyExistsException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.KeyAlreadyExistsException]
 
 }

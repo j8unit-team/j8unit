@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.validation.SchemaClassTests<Schema> {
         return Schema.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.validation.Schema]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.validation.Schema]
 
 }

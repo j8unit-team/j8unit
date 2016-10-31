@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyValueC
         // write some test for {@link org.omg.PortableServer.IdAssignmentPolicyValue#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicyValue]
 
 }

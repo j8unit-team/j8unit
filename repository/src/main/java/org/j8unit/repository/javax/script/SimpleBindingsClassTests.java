@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.script.BindingsClassTests<SUT>, org.j8unit.r
                    SimpleBindings.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.SimpleBindings]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.SimpleBindings]
 
 }

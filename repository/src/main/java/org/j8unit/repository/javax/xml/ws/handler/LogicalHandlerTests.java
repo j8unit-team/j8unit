@@ -30,6 +30,7 @@ extends org.j8unit.repository.javax.xml.ws.handler.HandlerTests<SUT, C> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
 }

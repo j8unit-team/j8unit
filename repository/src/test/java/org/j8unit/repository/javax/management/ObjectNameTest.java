@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.management.ObjectNameTests<ObjectName> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ObjectName]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.ObjectName]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ObjectName]
 
 }

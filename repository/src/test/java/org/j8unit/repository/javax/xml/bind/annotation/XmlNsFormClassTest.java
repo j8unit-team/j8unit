@@ -59,6 +59,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlNsFormClassTests<X
         // write some test for {@link javax.xml.bind.annotation.XmlNsForm#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlNsForm]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlNsForm]
 
 }

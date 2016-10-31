@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinWorkerThreadClassT
         return ForkJoinWorkerThread.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinWorkerThread]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinWorkerThread]
 
 }

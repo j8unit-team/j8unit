@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<FormatterClosedException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.FormatterClosedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.FormatterClosedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.FormatterClosedException]
 
 }

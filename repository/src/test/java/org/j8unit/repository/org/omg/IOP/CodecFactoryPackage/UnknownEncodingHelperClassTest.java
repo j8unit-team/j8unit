@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncoding
         // org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper]
 
 }

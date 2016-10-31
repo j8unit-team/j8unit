@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.NO_MEMORYClassTests<NO_MEMORY> {
         final NO_MEMORY sut = new NO_MEMORY();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NO_MEMORY]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NO_MEMORY]
 
 }

@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultC
                                                       // java.security.cert.PolicyNode, java.security.PublicKey);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXCertPathValidatorResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXCertPathValidatorResult]
 
 }

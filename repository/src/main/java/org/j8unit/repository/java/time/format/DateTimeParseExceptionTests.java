@@ -78,6 +78,7 @@ extends org.j8unit.repository.java.time.DateTimeExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.DateTimeParseException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.format.DateTimeParseException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.DateTimeParseException]
 }

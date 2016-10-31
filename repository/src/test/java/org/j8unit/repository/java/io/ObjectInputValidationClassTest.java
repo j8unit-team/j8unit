@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.ObjectInputValidationClassTests<ObjectI
         return ObjectInputValidation.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectInputValidation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectInputValidation]
 
 }

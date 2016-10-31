@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.lang.StringIndexOutOfBoundsExceptionClassT
         final StringIndexOutOfBoundsException sut = null; // = new StringIndexOutOfBoundsException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.StringIndexOutOfBoundsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.StringIndexOutOfBoundsException]
 
 }

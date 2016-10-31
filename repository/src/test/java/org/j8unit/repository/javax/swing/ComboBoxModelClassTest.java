@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.ComboBoxModelClassTests<ComboBoxMod
         return ComboBoxModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ComboBoxModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ComboBoxModel]
 
 }

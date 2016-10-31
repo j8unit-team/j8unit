@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    InvalidTransactionException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.InvalidTransactionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.InvalidTransactionException]
 
 }

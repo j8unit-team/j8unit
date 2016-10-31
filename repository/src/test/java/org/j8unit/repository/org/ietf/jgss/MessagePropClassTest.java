@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.ietf.jgss.MessagePropClassTests<MessageProp
         final MessageProp sut = null; // = new MessageProp(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.MessageProp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.MessageProp]
 
 }

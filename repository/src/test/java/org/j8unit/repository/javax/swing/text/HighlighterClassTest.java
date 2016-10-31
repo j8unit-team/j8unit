@@ -17,6 +17,8 @@ implements org.j8unit.repository.javax.swing.text.HighlighterClassTests<Highligh
         return Highlighter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Highlighter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Highlighter]
 
     @RunWith(J8Unit4.class)
@@ -29,6 +31,8 @@ implements org.j8unit.repository.javax.swing.text.HighlighterClassTests<Highligh
         public Class<Highlight> createNewSUT() {
             return Highlight.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Highlighter$Highlight]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Highlighter$Highlight]
 
@@ -44,6 +48,8 @@ implements org.j8unit.repository.javax.swing.text.HighlighterClassTests<Highligh
         public Class<HighlightPainter> createNewSUT() {
             return HighlightPainter.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Highlighter$HighlightPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Highlighter$HighlightPainter]
 

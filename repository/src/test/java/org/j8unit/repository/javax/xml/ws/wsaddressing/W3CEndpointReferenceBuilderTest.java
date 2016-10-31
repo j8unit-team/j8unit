@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilderTests
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
 
 }

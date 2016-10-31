@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.HeadlessExceptionClassTests<HeadlessEx
         final HeadlessException sut = null; // = new HeadlessException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.HeadlessException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.HeadlessException]
 
 }

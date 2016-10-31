@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobKOctetsProces
         final JobKOctetsProcessed sut = null; // = new JobKOctetsProcessed(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobKOctetsProcessed]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobKOctetsProcessed]
 
 }

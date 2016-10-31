@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerClassTests<SUT> {
                    DialogPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.DialogPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.DialogPeer]
 
 }

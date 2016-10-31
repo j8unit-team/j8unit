@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    Attributes.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.Attributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.Attributes]
 
 }

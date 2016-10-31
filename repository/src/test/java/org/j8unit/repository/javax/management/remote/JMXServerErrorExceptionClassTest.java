@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.remote.JMXServerErrorException
         final JMXServerErrorException sut = null; // = new JMXServerErrorException(String, Error);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXServerErrorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXServerErrorException]
 
 }

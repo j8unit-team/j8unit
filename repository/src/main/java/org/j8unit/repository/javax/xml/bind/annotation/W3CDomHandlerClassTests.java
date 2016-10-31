@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerClassTests<SUT
                    W3CDomHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.W3CDomHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.W3CDomHandler]
 
 }

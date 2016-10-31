@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.SOAPFaultExceptionClassTests<
         final SOAPFaultException sut = null; // = new SOAPFaultException(javax.xml.soap.SOAPFault);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.SOAPFaultException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.SOAPFaultException]
 
 }

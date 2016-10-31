@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ImageReadParam>, org.j8unit.repository.javax.i
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.ImageReadParam]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.ImageReadParam]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.ImageReadParam]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.time.chrono.ChronoPeriodClassTests<ChronoP
         // java.time.chrono.ChronoLocalDate)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ChronoPeriod]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ChronoPeriod]
 
 }

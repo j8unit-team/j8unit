@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.InstanceAlreadyExistsException
         final InstanceAlreadyExistsException sut = null; // = new InstanceAlreadyExistsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.InstanceAlreadyExistsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.InstanceAlreadyExistsException]
 
 }

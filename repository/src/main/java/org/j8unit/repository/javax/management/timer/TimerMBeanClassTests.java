@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TimerMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.timer.TimerMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.timer.TimerMBean]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.ViewportLayoutClassTests<ViewportLa
         final ViewportLayout sut = new ViewportLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ViewportLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ViewportLayout]
 
 }

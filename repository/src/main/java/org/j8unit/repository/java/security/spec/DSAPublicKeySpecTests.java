@@ -120,6 +120,7 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.spec.DSAPublicKeySpec]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.spec.DSAPublicKeySpec]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.spec.DSAPublicKeySpec]
 }

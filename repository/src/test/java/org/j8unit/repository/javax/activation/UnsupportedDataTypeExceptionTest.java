@@ -32,6 +32,8 @@ org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionTests<Unsuppo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.UnsupportedDataTypeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.UnsupportedDataTypeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.UnsupportedDataTypeException]
 
 }

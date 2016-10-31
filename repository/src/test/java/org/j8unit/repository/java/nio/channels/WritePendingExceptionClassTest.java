@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.WritePendingExceptionClassTes
         final WritePendingException sut = new WritePendingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.WritePendingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.WritePendingException]
 
 }

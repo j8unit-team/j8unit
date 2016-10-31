@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.script.CompilableTests<Compilable> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.script.Compilable], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.Compilable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.Compilable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.Compilable]
 
 }

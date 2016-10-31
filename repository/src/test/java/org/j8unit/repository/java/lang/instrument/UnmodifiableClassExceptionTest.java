@@ -32,6 +32,8 @@ org.j8unit.repository.java.lang.instrument.UnmodifiableClassExceptionTests<Unmod
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.instrument.UnmodifiableClassException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.instrument.UnmodifiableClassException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.instrument.UnmodifiableClassException]
 
 }

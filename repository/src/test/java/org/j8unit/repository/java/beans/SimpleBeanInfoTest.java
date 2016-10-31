@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SimpleBeanInfo>, org.j8unit.repository.java.be
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.SimpleBeanInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.SimpleBeanInfo]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.SimpleBeanInfo]
 
 }

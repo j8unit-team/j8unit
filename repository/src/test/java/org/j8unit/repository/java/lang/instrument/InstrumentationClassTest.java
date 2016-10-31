@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.instrument.InstrumentationClassTests<
         return Instrumentation.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.instrument.Instrumentation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.instrument.Instrumentation]
 
 }

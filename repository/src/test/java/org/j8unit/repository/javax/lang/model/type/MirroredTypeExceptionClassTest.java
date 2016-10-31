@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.lang.model.type.MirroredTypeExceptionClas
         final MirroredTypeException sut = null; // = new MirroredTypeException(javax.lang.model.type.TypeMirror);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.MirroredTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.MirroredTypeException]
 
 }

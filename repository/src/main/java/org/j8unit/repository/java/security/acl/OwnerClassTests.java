@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Owner.class!", Owner.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.Owner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.Owner]
 
 }

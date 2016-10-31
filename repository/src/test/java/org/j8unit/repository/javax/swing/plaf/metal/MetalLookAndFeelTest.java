@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MetalLookAndFeel>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ContentModel>, org.j8unit.repository.javax.swi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
 
 }

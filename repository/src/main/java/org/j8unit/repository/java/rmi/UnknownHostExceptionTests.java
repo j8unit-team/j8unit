@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.UnknownHostException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.UnknownHostException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.UnknownHostException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.UnknownHostException]
 }

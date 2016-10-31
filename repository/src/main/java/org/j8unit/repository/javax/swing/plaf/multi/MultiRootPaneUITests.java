@@ -295,6 +295,7 @@ extends org.j8unit.repository.javax.swing.plaf.RootPaneUITests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.multi.MultiRootPaneUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.multi.MultiRootPaneUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.multi.MultiRootPaneUI]
 }

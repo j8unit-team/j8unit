@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.MenuBarClassTests<MenuBar> {
         final MenuBar sut = new MenuBar();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuBar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuBar]
 
 }

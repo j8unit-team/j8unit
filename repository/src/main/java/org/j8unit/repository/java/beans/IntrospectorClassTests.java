@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Introspector.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Introspector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Introspector]
 
 }

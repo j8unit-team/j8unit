@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Line.class!", Line.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Line]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Line]
 
     /**
@@ -130,6 +132,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Info.class!",
                               Info.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Line$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Line$Info]
 

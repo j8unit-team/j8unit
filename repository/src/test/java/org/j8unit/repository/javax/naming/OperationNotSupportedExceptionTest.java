@@ -32,6 +32,8 @@ org.j8unit.repository.javax.naming.OperationNotSupportedExceptionTests<Operation
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.OperationNotSupportedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.OperationNotSupportedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.OperationNotSupportedException]
 
 }

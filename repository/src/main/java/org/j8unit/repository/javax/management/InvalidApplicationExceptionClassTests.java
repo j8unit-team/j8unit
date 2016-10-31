@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    InvalidApplicationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.InvalidApplicationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.InvalidApplicationException]
 
 }

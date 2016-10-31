@@ -42,6 +42,8 @@ implements org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistry
         // write some test for {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#newInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
 
 }

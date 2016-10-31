@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JButtonClassTests<SUT> {
                    MetalComboBoxButton.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxButton]
 
 }

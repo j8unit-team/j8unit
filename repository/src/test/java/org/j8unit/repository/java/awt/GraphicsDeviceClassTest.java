@@ -20,6 +20,8 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevic
         return GraphicsDevice.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GraphicsDevice]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GraphicsDevice]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevic
         throws Exception {
             // write some test for {@link java.awt.GraphicsDevice.WindowTranslucency#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GraphicsDevice$WindowTranslucency]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GraphicsDevice$WindowTranslucency]
 

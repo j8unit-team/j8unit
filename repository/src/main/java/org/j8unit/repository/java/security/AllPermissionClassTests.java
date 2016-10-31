@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.PermissionClassTests<SUT> {
                    AllPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AllPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AllPermission]
 
 }

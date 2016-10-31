@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.util.TreeMapClassTests<TreeMap> {
         final TreeMap sut = null; // = new TreeMap(java.util.SortedMap);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.TreeMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TreeMap]
 
 }

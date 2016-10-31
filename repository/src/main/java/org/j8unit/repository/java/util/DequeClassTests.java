@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.util.QueueClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Deque.class!", Deque.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Deque]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Deque]
 
 }

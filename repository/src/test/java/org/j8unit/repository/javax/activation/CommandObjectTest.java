@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.activation.CommandObjectTests<CommandObje
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.activation.CommandObject], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.CommandObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.CommandObject]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.CommandObject]
 
 }

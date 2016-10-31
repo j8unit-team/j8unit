@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.print.attribute.UnmodifiableSetExceptionC
         final UnmodifiableSetException sut = null; // = new UnmodifiableSetException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.UnmodifiableSetException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.UnmodifiableSetException]
 
 }

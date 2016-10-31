@@ -189,6 +189,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MethodHandleInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.MethodHandleInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MethodHandleInfo]
 }

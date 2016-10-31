@@ -273,6 +273,7 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.WindowAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.WindowAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.WindowAdapter]
 }

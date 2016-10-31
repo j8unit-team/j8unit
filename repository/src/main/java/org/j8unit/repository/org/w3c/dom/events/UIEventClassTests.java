@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.w3c.dom.events.EventClassTests<SUT> {
                    UIEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.events.UIEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.events.UIEvent]
 
 }

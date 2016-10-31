@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.security.ProviderExceptionClassTests<Provi
         final ProviderException sut = new ProviderException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.ProviderException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.ProviderException]
 
 }

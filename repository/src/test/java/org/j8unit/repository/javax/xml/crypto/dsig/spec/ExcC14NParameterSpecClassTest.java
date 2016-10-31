@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpec
         final ExcC14NParameterSpec sut = new ExcC14NParameterSpec();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 
 }

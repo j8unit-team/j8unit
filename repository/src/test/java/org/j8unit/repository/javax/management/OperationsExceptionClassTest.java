@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.management.OperationsExceptionClassTests<
         final OperationsException sut = null; // = new OperationsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.OperationsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.OperationsException]
 
 }

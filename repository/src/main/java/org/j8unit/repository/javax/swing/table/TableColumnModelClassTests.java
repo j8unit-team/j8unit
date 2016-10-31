@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TableColumnModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableColumnModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableColumnModel]
 
 }

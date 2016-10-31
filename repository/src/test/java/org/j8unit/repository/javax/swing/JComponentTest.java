@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.swing.JComponentTests<JComponent> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.JComponent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComponent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComponent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent]
 
     @RunWith(J8Unit4.class)
     public static class AccessibleJComponentTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.swing.JComponentTests<JComponent> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.JComponent.AccessibleJComponent], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
 
     }
 

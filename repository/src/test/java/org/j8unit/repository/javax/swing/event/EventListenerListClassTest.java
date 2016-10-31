@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.event.EventListenerListClassTests<E
         final EventListenerList sut = new EventListenerList();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.EventListenerList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.EventListenerList]
 
 }

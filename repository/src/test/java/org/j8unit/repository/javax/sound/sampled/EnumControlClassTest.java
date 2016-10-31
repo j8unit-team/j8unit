@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests<EnumC
         return EnumControl.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.EnumControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.EnumControl]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests<EnumC
         public Class<Type> createNewSUT() {
             return Type.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.EnumControl$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.EnumControl$Type]
 

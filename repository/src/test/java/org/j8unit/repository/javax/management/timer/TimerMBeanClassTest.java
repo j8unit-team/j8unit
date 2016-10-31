@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.timer.TimerMBeanClassTests<Tim
         return TimerMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.timer.TimerMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.timer.TimerMBean]
 
 }

@@ -218,8 +218,9 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -314,8 +315,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
     }
 
     /**
@@ -460,8 +462,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfLong]
     }
 
     /**
@@ -606,8 +609,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfInt]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfInt]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfInt]
     }
 
     /**
@@ -752,8 +756,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfDouble]
     }
 
 }

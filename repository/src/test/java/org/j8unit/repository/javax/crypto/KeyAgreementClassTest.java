@@ -84,6 +84,8 @@ implements org.j8unit.repository.javax.crypto.KeyAgreementClassTests<KeyAgreemen
         // write some test for {@link javax.crypto.KeyAgreement#getInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.KeyAgreement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.KeyAgreement]
 
 }

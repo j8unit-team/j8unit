@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.IOP.ComponentIdHelperClassTests<Compone
         // write some test for {@link org.omg.IOP.ComponentIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ComponentIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ComponentIdHelper]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.AdjustmentListenerClassTests<Adj
         return AdjustmentListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.AdjustmentListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.AdjustmentListener]
 
 }

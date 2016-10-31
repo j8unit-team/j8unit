@@ -68,6 +68,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Mixer.class!", Mixer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Mixer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Mixer]
 
     /**
@@ -130,6 +132,8 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Info.class!",
                               Info.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Mixer$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Mixer$Info]
 

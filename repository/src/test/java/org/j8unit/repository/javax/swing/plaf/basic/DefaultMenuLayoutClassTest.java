@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.DefaultMenuLayoutClassTe
         final DefaultMenuLayout sut = null; // = new DefaultMenuLayout(java.awt.Container, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.DefaultMenuLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.DefaultMenuLayout]
 
 }

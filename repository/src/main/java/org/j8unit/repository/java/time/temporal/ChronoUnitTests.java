@@ -219,6 +219,7 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.ChronoUnit]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.ChronoUnit]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.ChronoUnit]
 }

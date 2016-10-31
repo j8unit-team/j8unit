@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.TransparencyClassTests<Transparency> {
         return Transparency.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Transparency]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Transparency]
 
 }

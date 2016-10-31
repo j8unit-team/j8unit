@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.GraphicsClassTests<Graphics> {
         return Graphics.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Graphics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Graphics]
 
 }

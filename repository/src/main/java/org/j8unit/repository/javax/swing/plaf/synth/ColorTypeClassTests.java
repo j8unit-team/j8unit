@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ColorType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.ColorType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.ColorType]
 
 }

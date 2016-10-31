@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.OptionalDataExceptionClassTests<Optiona
         return OptionalDataException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.OptionalDataException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.OptionalDataException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    NodeFilter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.traversal.NodeFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.traversal.NodeFilter]
 
 }

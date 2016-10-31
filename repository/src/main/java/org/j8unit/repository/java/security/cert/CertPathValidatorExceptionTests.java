@@ -103,8 +103,9 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -130,8 +131,9 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
     }
 
     /**
@@ -161,8 +163,9 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
     }
 
 }

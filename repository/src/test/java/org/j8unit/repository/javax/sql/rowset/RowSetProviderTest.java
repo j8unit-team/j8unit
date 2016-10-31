@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetProviderTests<RowSetProv
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.sql.rowset.RowSetProvider], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
 
 }

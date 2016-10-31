@@ -128,6 +128,7 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
 }

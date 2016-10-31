@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    XmlElement.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElement]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DEFAULT.class!",
                               DEFAULT.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlElement$DEFAULT]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElement$DEFAULT]
 

@@ -126,6 +126,8 @@ implements org.j8unit.repository.javax.crypto.CipherClassTests<Cipher> {
         // write some test for {@link javax.crypto.Cipher#getMaxAllowedParameterSpec(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.Cipher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.Cipher]
 
 }

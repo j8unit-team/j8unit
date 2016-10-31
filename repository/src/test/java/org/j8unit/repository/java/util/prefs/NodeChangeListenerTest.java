@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.prefs.NodeChangeListenerTests<NodeCha
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.prefs.NodeChangeListener], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.prefs.NodeChangeListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.prefs.NodeChangeListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.prefs.NodeChangeListener]
 
 }

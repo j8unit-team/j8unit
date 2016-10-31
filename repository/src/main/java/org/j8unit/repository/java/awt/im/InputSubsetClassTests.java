@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<SUT
                    InputSubset.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.InputSubset]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputSubset]
 
 }

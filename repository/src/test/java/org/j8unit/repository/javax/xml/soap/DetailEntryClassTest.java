@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.DetailEntryClassTests<DetailEntr
         return DetailEntry.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.DetailEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.DetailEntry]
 
 }

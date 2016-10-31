@@ -38,6 +38,8 @@ implements org.j8unit.repository.java.lang.ObjectClassTests<Object> {
         final Object sut = new Object();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Object]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Object]
 
 }

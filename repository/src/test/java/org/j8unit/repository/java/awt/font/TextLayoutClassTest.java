@@ -91,6 +91,8 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
         final TextLayout sut = null; // = new TextLayout(String, java.util.Map, java.awt.font.FontRenderContext);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextLayout]
 
     @RunWith(J8Unit4.class)
@@ -124,6 +126,8 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
             // create new instance
             final CaretPolicy sut = new CaretPolicy();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextLayout$CaretPolicy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextLayout$CaretPolicy]
 

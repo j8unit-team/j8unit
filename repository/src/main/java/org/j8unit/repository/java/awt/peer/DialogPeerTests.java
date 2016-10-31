@@ -99,6 +99,7 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.DialogPeer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.peer.DialogPeer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.DialogPeer]
 }

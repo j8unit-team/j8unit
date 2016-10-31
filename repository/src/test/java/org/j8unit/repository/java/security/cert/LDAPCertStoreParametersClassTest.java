@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.security.cert.LDAPCertStoreParametersClass
         final LDAPCertStoreParameters sut = null; // = new LDAPCertStoreParameters(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.LDAPCertStoreParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.LDAPCertStoreParameters]
 
 }

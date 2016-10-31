@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.DescriptorReadClassTests<SUT>, org.j8unit
                    MBeanInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanInfo]
 
 }

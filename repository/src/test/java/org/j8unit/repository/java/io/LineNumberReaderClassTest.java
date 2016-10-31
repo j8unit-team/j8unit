@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.LineNumberReaderClassTests<LineNumberRe
         final LineNumberReader sut = null; // = new LineNumberReader(java.io.Reader, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.LineNumberReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.LineNumberReader]
 
 }

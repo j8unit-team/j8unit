@@ -187,6 +187,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.regex.MatchResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.regex.MatchResult]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.regex.MatchResult]
 }

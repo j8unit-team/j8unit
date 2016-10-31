@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.FieldClassTests<Field> {
         return Field.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Field]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Field]
 
 }

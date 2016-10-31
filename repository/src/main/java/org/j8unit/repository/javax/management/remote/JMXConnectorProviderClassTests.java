@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    JMXConnectorProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorProvider]
 
 }

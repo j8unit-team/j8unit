@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTest
                    RC2ParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.RC2ParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.RC2ParameterSpec]
 
 }

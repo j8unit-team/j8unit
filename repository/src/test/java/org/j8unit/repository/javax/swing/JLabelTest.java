@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JLabel>, org.j8unit.repository.javax.swing.JLa
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JLabel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JLabel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JLabel]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CookieStore.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CookieStore]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieStore]
 
 }

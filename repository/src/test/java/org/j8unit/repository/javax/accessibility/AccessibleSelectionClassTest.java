@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleSelectionClassTes
         return AccessibleSelection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleSelection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleSelection]
 
 }

@@ -70,6 +70,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
                    BasicInternalFrameUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to InternalFrameLayout.class!",
                               InternalFrameLayout.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
@@ -198,6 +202,8 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to InternalFramePropertyChangeListener.class!",
                               InternalFramePropertyChangeListener.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
 

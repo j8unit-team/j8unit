@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LongAdder>, org.j8unit.repository.java.util.co
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
 
 }

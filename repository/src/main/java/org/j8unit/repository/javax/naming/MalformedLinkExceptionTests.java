@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.naming.LinkExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.MalformedLinkException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.MalformedLinkException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.MalformedLinkException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.MalformedLinkException]
 }

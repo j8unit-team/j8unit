@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    UIManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIManager]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LookAndFeelInfo.class!",
                               LookAndFeelInfo.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIManager$LookAndFeelInfo]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIManager$LookAndFeelInfo]
 

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.script.SimpleScriptContextClassTests<Simp
         final SimpleScriptContext sut = new SimpleScriptContext();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.SimpleScriptContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.SimpleScriptContext]
 
 }

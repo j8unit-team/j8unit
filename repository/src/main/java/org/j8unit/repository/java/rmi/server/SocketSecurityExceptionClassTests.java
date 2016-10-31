@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.server.ExportExceptionClassTests<SUT> {
                    SocketSecurityException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.SocketSecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.SocketSecurityException]
 
 }

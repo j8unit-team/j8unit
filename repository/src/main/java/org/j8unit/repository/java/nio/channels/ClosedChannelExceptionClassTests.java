@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    ClosedChannelException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ClosedChannelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ClosedChannelException]
 
 }

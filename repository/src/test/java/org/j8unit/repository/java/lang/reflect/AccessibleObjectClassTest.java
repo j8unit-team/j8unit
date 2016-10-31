@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<Ac
         // java.lang.reflect.AccessibleObject#setAccessible(java.lang.reflect.AccessibleObject[], boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.AccessibleObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AccessibleObject]
 
 }

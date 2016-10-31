@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.tree.TreeCellRendererClassTests<SUT>, 
                    DefaultTreeCellRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.DefaultTreeCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellRenderer]
 
 }

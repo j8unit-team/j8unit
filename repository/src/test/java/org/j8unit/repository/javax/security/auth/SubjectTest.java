@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Subject>, org.j8unit.repository.javax.security
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.Subject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.Subject]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.Subject]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.ClassDescClassTests<ClassDesc> 
         final ClassDesc sut = new ClassDesc();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.ClassDesc]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.ClassDesc]
 
 }

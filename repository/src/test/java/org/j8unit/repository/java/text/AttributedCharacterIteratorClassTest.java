@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests
         return AttributedCharacterIterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.AttributedCharacterIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedCharacterIterator]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests
         public Class<Attribute> createNewSUT() {
             return Attribute.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.AttributedCharacterIterator$Attribute]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedCharacterIterator$Attribute]
 

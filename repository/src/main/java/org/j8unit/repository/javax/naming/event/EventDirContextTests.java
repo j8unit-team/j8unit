@@ -132,6 +132,7 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.event.EventDirContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.event.EventDirContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.event.EventDirContext]
 }

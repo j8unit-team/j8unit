@@ -36,6 +36,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobStateTests<Jo
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.JobState]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.JobState]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobState]
 
 }

@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.io.FileReaderClassTests<FileReader> {
         final FileReader sut = null; // = new FileReader(java.io.FileDescriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileReader]
 
 }

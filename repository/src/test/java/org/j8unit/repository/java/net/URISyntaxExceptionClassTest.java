@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.net.URISyntaxExceptionClassTests<URISyntax
         final URISyntaxException sut = null; // = new URISyntaxException(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URISyntaxException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URISyntaxException]
 
 }

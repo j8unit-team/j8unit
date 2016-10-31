@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.MetaEventListenerClassTests<Me
         return MetaEventListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MetaEventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MetaEventListener]
 
 }

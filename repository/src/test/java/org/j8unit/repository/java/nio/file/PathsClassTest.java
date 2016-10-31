@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.nio.file.PathsClassTests<Paths> {
         // write some test for {@link java.nio.file.Paths#get(java.net.URI)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.Paths]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.Paths]
 
 }

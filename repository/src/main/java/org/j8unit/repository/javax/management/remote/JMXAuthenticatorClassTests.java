@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    JMXAuthenticator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXAuthenticator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXAuthenticator]
 
 }

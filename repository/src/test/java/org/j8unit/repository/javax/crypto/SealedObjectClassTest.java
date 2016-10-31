@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.crypto.SealedObjectClassTests<SealedObjec
         final SealedObject sut = null; // = new SealedObject(java.io.Serializable, javax.crypto.Cipher);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.SealedObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SealedObject]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
                    NetPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.NetPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.NetPermission]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<Abstra
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.AbstractCellEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.AbstractCellEditor]
 
 }

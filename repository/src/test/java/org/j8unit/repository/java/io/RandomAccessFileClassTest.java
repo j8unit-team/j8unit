@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.RandomAccessFileClassTests<RandomAccess
         final RandomAccessFile sut = null; // = new RandomAccessFile(java.io.File, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.RandomAccessFile]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.RandomAccessFile]
 
 }

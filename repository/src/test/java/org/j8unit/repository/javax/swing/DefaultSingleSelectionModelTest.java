@@ -32,6 +32,8 @@ org.j8unit.repository.javax.swing.DefaultSingleSelectionModelTests<DefaultSingle
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultSingleSelectionModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultSingleSelectionModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultSingleSelectionModel]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DataOutput.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.DataOutput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataOutput]
 
 }

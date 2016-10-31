@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.FloatHolderClassTests<FloatHolder
         final FloatHolder sut = new FloatHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.FloatHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.FloatHolder]
 
 }

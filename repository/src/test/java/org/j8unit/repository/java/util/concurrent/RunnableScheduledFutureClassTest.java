@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.RunnableScheduledFutureCla
         return RunnableScheduledFuture.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.RunnableScheduledFuture]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.RunnableScheduledFuture]
 
 }

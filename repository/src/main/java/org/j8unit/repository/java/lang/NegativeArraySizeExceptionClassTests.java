@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    NegativeArraySizeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NegativeArraySizeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NegativeArraySizeException]
 
 }

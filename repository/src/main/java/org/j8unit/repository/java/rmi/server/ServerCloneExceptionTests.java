@@ -78,6 +78,7 @@ extends org.j8unit.repository.java.lang.CloneNotSupportedExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.ServerCloneException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.ServerCloneException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.ServerCloneException]
 }

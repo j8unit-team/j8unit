@@ -82,26 +82,6 @@ implements org.j8unit.repository.java.time.DurationClassTests<Duration> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Duration#ofSeconds(long) public static
-     * java.time.Duration java.time.Duration.ofSeconds(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_ofSeconds_long()
-    throws Exception {
-        // write some test for {@link java.time.Duration#ofSeconds(long)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.Duration#ofSeconds(long, long) public
      * static java.time.Duration java.time.Duration.ofSeconds(long,long)}.
      *
@@ -118,6 +98,26 @@ implements org.j8unit.repository.java.time.DurationClassTests<Duration> {
     public void test_ofSeconds_long_long()
     throws Exception {
         // write some test for {@link java.time.Duration#ofSeconds(long, long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Duration#ofSeconds(long) public static
+     * java.time.Duration java.time.Duration.ofSeconds(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_ofSeconds_long()
+    throws Exception {
+        // write some test for {@link java.time.Duration#ofSeconds(long)}
     }
 
     /**
@@ -242,6 +242,8 @@ implements org.j8unit.repository.java.time.DurationClassTests<Duration> {
     throws Exception {
         // write some test for {@link java.time.Duration#ofDays(long)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Duration]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Duration]
 

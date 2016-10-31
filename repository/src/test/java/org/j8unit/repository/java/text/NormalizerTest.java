@@ -23,7 +23,9 @@ implements org.j8unit.repository.java.text.NormalizerTests<Normalizer> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.text.Normalizer], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Normalizer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.java.text.NormalizerTests<Normalizer> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer$Form]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Normalizer$Form]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer$Form]
 
     }
 

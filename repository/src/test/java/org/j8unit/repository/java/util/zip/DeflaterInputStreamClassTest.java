@@ -89,6 +89,8 @@ implements org.j8unit.repository.java.util.zip.DeflaterInputStreamClassTests<Def
         final DeflaterInputStream sut = null; // = new DeflaterInputStream(java.io.InputStream, java.util.zip.Deflater);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.DeflaterInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.DeflaterInputStream]
 
 }

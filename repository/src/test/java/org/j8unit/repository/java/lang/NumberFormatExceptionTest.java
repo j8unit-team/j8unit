@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<NumberFormatException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NumberFormatException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.NumberFormatException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.NumberFormatException]
 
 }

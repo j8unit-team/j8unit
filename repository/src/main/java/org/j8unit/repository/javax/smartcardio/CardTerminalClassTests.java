@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    CardTerminal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardTerminal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardTerminal]
 
 }

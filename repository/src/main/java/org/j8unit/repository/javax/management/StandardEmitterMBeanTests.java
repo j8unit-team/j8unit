@@ -156,6 +156,7 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.StandardEmitterMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.StandardEmitterMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.StandardEmitterMBean]
 }

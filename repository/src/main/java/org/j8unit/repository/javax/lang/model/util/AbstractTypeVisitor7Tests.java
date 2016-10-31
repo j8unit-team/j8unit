@@ -56,6 +56,7 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor7]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor7]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractTypeVisitor7]
 }

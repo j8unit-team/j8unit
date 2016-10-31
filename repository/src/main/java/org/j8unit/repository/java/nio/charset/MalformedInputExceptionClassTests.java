@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.charset.CharacterCodingExceptionClassTest
                    MalformedInputException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.MalformedInputException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.MalformedInputException]
 
 }

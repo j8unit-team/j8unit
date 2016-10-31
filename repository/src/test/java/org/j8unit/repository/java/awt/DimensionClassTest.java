@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.DimensionClassTests<Dimension> {
         final Dimension sut = null; // = new Dimension(java.awt.Dimension);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Dimension]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Dimension]
 
 }

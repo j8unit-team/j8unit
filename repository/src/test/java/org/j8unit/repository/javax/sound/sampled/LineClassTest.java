@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineClassTests<Line> {
         return Line.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Line]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Line]
 
     @RunWith(J8Unit4.class)
@@ -54,6 +56,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineClassTests<Line> {
             @SuppressWarnings("unused")
             final Info sut = null; // = new Info(Class);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Line$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Line$Info]
 

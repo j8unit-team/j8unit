@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LoggingMXBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.LoggingMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LoggingMXBean]
 
 }

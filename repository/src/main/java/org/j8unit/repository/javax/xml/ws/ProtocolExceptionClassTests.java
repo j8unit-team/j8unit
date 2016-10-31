@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<SUT> {
                    ProtocolException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.ProtocolException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.ProtocolException]
 
 }

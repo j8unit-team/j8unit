@@ -202,6 +202,8 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
         // write some test for {@link javax.swing.Box#createVerticalStrut(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Box]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box]
 
     @RunWith(J8Unit4.class)
@@ -237,6 +239,8 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
             @SuppressWarnings("unused")
             final Filler sut = null; // = new Filler(java.awt.Dimension, java.awt.Dimension, java.awt.Dimension);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Box$Filler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box$Filler]
 

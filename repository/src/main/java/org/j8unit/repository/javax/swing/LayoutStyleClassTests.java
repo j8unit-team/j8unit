@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    LayoutStyle.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LayoutStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutStyle]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ComponentPlacement.class!",
                               ComponentPlacement.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LayoutStyle$ComponentPlacement]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutStyle$ComponentPlacement]
 

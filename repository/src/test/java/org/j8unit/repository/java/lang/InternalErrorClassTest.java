@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.lang.InternalErrorClassTests<InternalError
         final InternalError sut = new InternalError();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InternalError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InternalError]
 
 }

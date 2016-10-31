@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.InterruptedIOExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.SocketTimeoutException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketTimeoutException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.SocketTimeoutException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketTimeoutException]
 }

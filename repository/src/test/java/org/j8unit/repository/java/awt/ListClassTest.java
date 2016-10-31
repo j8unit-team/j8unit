@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.ListClassTests<List> {
         final List sut = new List();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.List]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.List]
 
 }

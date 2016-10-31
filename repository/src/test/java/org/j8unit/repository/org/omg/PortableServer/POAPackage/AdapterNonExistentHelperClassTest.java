@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExi
         // org.omg.PortableServer.POAPackage.AdapterNonExistent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterNonExistentHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterNonExistentHelper]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.PrincipalClassTests<SUT> {
                    UserPrincipal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.UserPrincipal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.UserPrincipal]
 
 }

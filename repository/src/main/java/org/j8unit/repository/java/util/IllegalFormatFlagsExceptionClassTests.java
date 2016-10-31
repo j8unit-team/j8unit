@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {
                    IllegalFormatFlagsException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatFlagsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatFlagsException]
 
 }

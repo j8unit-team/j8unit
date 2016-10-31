@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AbstractUndoableEdit>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.AbstractUndoableEdit]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.undo.AbstractUndoableEdit]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.undo.AbstractUndoableEdit]
 
 }

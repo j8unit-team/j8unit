@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.util.zip.DeflaterClassTests<Deflater> {
         final Deflater sut = null; // = new Deflater(int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.Deflater]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.Deflater]
 
 }

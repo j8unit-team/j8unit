@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationClassTests<Serv
         final ServiceInformation sut = null; // = new ServiceInformation(int[], org.omg.CORBA.ServiceDetail[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ServiceInformation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceInformation]
 
 }

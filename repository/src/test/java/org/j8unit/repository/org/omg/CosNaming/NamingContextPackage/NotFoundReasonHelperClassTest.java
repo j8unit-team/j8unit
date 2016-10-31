@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
         // org.omg.CosNaming.NamingContextPackage.NotFoundReasonHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundReasonHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundReasonHelper]
 
 }

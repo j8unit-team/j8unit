@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<Exception>, org.j8unit.repository.java.lang.Ex
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Exception]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Exception]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Exception]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetAdapterClassTests<DropTa
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DropTargetAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetAdapter]
 
 }

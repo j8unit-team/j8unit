@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<Illeg
         final IllegalStateException sut = new IllegalStateException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalStateException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CompletionHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.CompletionHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.CompletionHandler]
 
 }

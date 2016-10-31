@@ -295,6 +295,8 @@ implements org.j8unit.repository.java.security.AccessControllerClassTests<Access
         // write some test for {@link java.security.AccessController#checkPermission(java.security.Permission)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AccessController]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AccessController]
 
 }

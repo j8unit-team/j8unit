@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.lang.BootstrapMethodErrorClassTests<Bootst
         final BootstrapMethodError sut = new BootstrapMethodError();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.BootstrapMethodError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.BootstrapMethodError]
 
 }

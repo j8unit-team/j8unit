@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.security.AccessControlExceptionClassTests<
         final AccessControlException sut = null; // = new AccessControlException(String, java.security.Permission);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AccessControlException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AccessControlException]
 
 }

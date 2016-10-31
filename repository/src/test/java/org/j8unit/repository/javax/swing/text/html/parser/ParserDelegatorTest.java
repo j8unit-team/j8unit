@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ParserDelegator>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.ParserDelegator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.ParserDelegator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.parser.ParserDelegator]
 
 }

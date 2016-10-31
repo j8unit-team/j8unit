@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    AccessException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.AccessException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.AccessException]
 
 }

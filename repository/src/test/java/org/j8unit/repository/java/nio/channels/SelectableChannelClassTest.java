@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.SelectableChannelClassTests<S
         return SelectableChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.SelectableChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.SelectableChannel]
 
 }

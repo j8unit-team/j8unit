@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT
                    MouseInputAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.MouseInputAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MouseInputAdapter]
 
 }

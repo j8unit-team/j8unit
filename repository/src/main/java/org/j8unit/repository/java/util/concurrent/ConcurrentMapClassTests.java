@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
                    ConcurrentMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentMap]
 
 }

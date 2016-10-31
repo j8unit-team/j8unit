@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorClassTests
         return ServantLocator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantLocator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantLocator]
 
 }

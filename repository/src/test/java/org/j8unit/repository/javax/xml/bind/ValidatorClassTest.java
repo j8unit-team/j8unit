@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.ValidatorClassTests<Validator> {
         return Validator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Validator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Validator]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sql.rowset.BaseRowSetClassTests<BaseRowSe
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.BaseRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.BaseRowSet]
 
 }

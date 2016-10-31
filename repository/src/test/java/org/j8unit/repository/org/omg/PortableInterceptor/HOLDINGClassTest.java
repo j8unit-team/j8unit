@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.HOLDINGClassTests<H
         return HOLDING.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.HOLDING]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.HOLDING]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.tools.DiagnosticCollectorClassTests<Diagn
         final DiagnosticCollector sut = new DiagnosticCollector();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DiagnosticCollector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DiagnosticCollector]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.IntrospectionExceptionClassTes
         final IntrospectionException sut = null; // = new IntrospectionException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.IntrospectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.IntrospectionException]
 
 }

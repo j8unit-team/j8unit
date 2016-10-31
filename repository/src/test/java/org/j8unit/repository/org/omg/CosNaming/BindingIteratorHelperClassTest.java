@@ -213,6 +213,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorHelperClassTes
         // write some test for {@link org.omg.CosNaming.BindingIteratorHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingIteratorHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingIteratorHelper]
 
 }

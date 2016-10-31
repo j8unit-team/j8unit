@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperTests<ServiceCo
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.IOP.ServiceContextHelper], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.ServiceContextHelper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.ServiceContextHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.ServiceContextHelper]
 
 }

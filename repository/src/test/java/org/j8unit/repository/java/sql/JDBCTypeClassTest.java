@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.sql.JDBCTypeClassTests<JDBCType> {
         // write some test for {@link java.sql.JDBCType#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.JDBCType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.JDBCType]
 
 }

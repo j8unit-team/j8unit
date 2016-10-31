@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.CompilationMXBeanClassTest
         return CompilationMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.CompilationMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.CompilationMXBean]
 
 }

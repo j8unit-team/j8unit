@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLPermissionClassTests<SSLPermis
         final SSLPermission sut = null; // = new SSLPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLPermission]
 
 }

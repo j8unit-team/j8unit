@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.rmi.RemoteExceptionClassTests<RemoteExcept
         final RemoteException sut = new RemoteException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.RemoteException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.RemoteException]
 
 }

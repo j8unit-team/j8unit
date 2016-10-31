@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHolderClassTests<Par
         final ParameterModeHolder sut = new ParameterModeHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ParameterModeHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ParameterModeHolder]
 
 }

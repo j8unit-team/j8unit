@@ -69,6 +69,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TabularDataSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.TabularDataSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularDataSupport]
 
 }

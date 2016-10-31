@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.time.format.DateTimeParseExceptionClassTes
         final DateTimeParseException sut = null; // = new DateTimeParseException(String, CharSequence, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DateTimeParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeParseException]
 
 }

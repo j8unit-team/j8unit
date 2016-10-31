@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    IIOException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.IIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.IIOException]
 
 }

@@ -32,6 +32,8 @@ org.j8unit.repository.java.sql.SQLFeatureNotSupportedExceptionTests<SQLFeatureNo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLFeatureNotSupportedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLFeatureNotSupportedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLFeatureNotSupportedException]
 
 }

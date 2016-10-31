@@ -82,6 +82,8 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
         // write some test for {@link javax.swing.text.html.CSS#getAllAttributeKeys()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.CSS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.CSS]
 
     @RunWith(J8Unit4.class)
@@ -94,6 +96,8 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
         public Class<Attribute> createNewSUT() {
             return Attribute.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.CSS$Attribute]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.CSS$Attribute]
 

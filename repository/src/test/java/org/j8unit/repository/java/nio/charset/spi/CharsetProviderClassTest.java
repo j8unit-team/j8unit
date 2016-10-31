@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.charset.spi.CharsetProviderClassTests<
         return CharsetProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.spi.CharsetProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.spi.CharsetProvider]
 
 }

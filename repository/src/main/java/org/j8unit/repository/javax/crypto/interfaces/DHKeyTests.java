@@ -55,6 +55,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.DHKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.interfaces.DHKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.DHKey]
 }

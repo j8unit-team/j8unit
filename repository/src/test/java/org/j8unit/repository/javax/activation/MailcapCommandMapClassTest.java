@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.activation.MailcapCommandMapClassTests<Ma
         final MailcapCommandMap sut = null; // = new MailcapCommandMap(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MailcapCommandMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MailcapCommandMap]
 
 }

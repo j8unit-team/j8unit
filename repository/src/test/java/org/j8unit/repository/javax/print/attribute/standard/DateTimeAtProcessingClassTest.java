@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.DateTimeAtProces
         final DateTimeAtProcessing sut = null; // = new DateTimeAtProcessing(java.util.Date);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.DateTimeAtProcessing]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.DateTimeAtProcessing]
 
 }

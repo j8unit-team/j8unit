@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<Vet
         return VetoableChangeListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.VetoableChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.VetoableChangeListener]
 
 }

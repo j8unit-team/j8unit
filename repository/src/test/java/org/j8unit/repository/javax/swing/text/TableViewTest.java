@@ -18,7 +18,9 @@ implements org.j8unit.repository.javax.swing.text.TableViewTests<TableView> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.TableView], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.TableView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.TableView]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView]
 
     @RunWith(J8Unit4.class)
     public static class TableRowTest
@@ -31,7 +33,9 @@ implements org.j8unit.repository.javax.swing.text.TableViewTests<TableView> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.TableView.TableRow], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.TableView$TableRow]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.TableView$TableRow]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView$TableRow]
 
     }
 
@@ -46,7 +50,9 @@ implements org.j8unit.repository.javax.swing.text.TableViewTests<TableView> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.TableView.TableCell], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.TableView$TableCell]
 
     }
 

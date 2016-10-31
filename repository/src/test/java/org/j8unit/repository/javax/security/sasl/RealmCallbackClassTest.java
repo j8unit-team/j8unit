@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.security.sasl.RealmCallbackClassTests<Rea
         final RealmCallback sut = null; // = new RealmCallback(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.RealmCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.RealmCallback]
 
 }

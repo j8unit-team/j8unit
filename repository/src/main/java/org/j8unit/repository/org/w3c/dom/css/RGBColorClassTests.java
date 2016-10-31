@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RGBColor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.RGBColor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.RGBColor]
 
 }

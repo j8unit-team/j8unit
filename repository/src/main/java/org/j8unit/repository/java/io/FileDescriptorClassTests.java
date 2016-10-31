@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    FileDescriptor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileDescriptor]
 
 }

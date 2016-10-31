@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    UNSUPPORTED_POLICY.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UNSUPPORTED_POLICY]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UNSUPPORTED_POLICY]
 
 }

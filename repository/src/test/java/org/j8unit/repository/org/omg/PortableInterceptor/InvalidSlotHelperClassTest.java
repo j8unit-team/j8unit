@@ -173,6 +173,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotHelperCl
         // org.omg.PortableInterceptor.InvalidSlot)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.InvalidSlotHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.InvalidSlotHelper]
 
 }

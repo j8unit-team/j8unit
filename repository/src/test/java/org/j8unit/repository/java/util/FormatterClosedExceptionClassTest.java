@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.FormatterClosedExceptionClassTests<Fo
         final FormatterClosedException sut = new FormatterClosedException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.FormatterClosedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.FormatterClosedException]
 
 }

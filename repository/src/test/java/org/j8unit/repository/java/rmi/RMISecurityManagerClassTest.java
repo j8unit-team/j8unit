@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.rmi.RMISecurityManagerClassTests<RMISecuri
         final RMISecurityManager sut = new RMISecurityManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.RMISecurityManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.RMISecurityManager]
 
 }

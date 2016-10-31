@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.ComponentUIClassTests<Componen
         // write some test for {@link javax.swing.plaf.ComponentUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.ComponentUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.ComponentUI]
 
 }

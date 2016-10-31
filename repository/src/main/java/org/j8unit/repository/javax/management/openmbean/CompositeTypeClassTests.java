@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT>
                    CompositeType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.CompositeType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeType]
 
 }

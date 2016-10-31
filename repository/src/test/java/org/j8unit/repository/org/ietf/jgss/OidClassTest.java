@@ -85,6 +85,8 @@ implements org.j8unit.repository.org.ietf.jgss.OidClassTests<Oid> {
         final Oid sut = null; // = new Oid(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.Oid]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.Oid]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SplashScreen.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.SplashScreen]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SplashScreen]
 
 }

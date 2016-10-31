@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthTreeUIClassTests<Sy
         // write some test for {@link javax.swing.plaf.synth.SynthTreeUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthTreeUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthTreeUI]
 
 }

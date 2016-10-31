@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    InvalidPreferencesFormatException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.InvalidPreferencesFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.InvalidPreferencesFormatException]
 
 }

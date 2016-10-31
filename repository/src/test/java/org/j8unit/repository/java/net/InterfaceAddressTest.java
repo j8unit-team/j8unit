@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.net.InterfaceAddressTests<InterfaceAddress
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.net.InterfaceAddress], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.InterfaceAddress]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.InterfaceAddress]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.InterfaceAddress]
 
 }

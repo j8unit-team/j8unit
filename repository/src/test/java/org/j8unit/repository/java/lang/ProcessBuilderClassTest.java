@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<ProcessBuild
         final ProcessBuilder sut = null; // = new ProcessBuilder(String...);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ProcessBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ProcessBuilder]
 
     @RunWith(J8Unit4.class)
@@ -137,6 +139,8 @@ implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<ProcessBuild
             // write some test for {@link ProcessBuilder.Redirect#to(java.io.File)}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ProcessBuilder$Redirect]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ProcessBuilder$Redirect]
 
         @RunWith(J8Unit4.class)
@@ -190,6 +194,8 @@ implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<ProcessBuild
             throws Exception {
                 // write some test for {@link ProcessBuilder.Redirect.Type#values()}
             }
+
+            // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ProcessBuilder$Redirect$Type]
 
             // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ProcessBuilder$Redirect$Type]
 

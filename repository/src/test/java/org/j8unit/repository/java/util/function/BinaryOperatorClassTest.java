@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.util.function.BinaryOperatorClassTests<Bin
         // write some test for {@link java.util.function.BinaryOperator#maxBy(java.util.Comparator)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.BinaryOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.BinaryOperator]
 
 }

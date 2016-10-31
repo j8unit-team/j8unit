@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.transform.sax.SAXSourceTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.util.JAXBSource]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.util.JAXBSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.util.JAXBSource]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.util.JAXBSource]
 }

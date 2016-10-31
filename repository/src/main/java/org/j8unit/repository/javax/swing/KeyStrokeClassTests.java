@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
                    KeyStroke.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.KeyStroke]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.KeyStroke]
 
 }

@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<AddressingFeature>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<AddressingFeature>, org.j8unit.repository.java
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
     }
 

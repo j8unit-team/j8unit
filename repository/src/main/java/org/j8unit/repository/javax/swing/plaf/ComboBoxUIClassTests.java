@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUIClassTests<SUT> {
                    ComboBoxUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.ComboBoxUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.ComboBoxUI]
 
 }

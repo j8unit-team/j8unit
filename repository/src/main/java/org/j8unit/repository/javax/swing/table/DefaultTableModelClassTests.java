@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.table.AbstractTableModelClassTests<SUT
                    DefaultTableModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableModel]
 
 }

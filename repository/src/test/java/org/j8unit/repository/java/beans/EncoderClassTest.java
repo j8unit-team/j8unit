@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.beans.EncoderClassTests<Encoder> {
         final Encoder sut = new Encoder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Encoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Encoder]
 
 }

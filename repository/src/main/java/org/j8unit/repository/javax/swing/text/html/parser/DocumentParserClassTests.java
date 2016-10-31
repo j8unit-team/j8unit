@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.ParserClassTests<SUT>
                    DocumentParser.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.DocumentParser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.DocumentParser]
 
 }

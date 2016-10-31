@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Watchable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.Watchable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.Watchable]
 
 }

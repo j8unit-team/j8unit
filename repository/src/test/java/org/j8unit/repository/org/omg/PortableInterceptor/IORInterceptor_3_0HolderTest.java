@@ -32,6 +32,8 @@ org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HolderTests<
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
 
 }

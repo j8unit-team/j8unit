@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    CaretEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.CaretEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.CaretEvent]
 
 }

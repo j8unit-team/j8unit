@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.PlatformLoggingMXBeanClass
         return PlatformLoggingMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.PlatformLoggingMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.PlatformLoggingMXBean]
 
 }

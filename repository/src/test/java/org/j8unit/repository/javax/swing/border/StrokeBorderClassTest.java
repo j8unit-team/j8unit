@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.border.StrokeBorderClassTests<Strok
         final StrokeBorder sut = null; // = new StrokeBorder(java.awt.BasicStroke);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.StrokeBorder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.StrokeBorder]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AclEntry.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AclEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntry]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Builder.class!",
                               Builder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AclEntry$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntry$Builder]
 

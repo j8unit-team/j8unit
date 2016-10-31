@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ActivityRequiredException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityRequiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activity.ActivityRequiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUIClassTests<SUT> {
                    TextUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.TextUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.TextUI]
 
 }

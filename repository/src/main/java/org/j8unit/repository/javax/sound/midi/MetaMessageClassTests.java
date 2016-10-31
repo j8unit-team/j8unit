@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
                    MetaMessage.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MetaMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MetaMessage]
 
 }

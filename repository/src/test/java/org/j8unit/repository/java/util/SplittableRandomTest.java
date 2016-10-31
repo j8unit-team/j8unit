@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SplittableRandom>, org.j8unit.repository.java.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.SplittableRandom]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.SplittableRandom]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.SplittableRandom]
 
 }

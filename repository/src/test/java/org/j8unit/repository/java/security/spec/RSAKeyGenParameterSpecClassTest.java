@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.RSAKeyGenParameterSpecClassT
         final RSAKeyGenParameterSpec sut = null; // = new RSAKeyGenParameterSpec(int, java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.RSAKeyGenParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAKeyGenParameterSpec]
 
 }

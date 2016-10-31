@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests<SUT> {
                    SynthTabbedPaneUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
 
 }

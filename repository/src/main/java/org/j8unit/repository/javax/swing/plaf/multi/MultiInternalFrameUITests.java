@@ -295,6 +295,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.multi.MultiInternalFrameUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.multi.MultiInternalFrameUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.multi.MultiInternalFrameUI]
 }

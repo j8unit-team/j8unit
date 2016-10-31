@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
         // write some test for {@link org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper]
 
 }

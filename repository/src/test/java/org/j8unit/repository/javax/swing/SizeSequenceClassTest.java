@@ -106,6 +106,8 @@ implements org.j8unit.repository.javax.swing.SizeSequenceClassTests<SizeSequence
         final SizeSequence sut = new SizeSequence();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SizeSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SizeSequence]
 
 }

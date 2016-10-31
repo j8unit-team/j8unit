@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.MatteBorder#MatteBorder(int, int, int, int, javax.swing.Icon) public
+     * javax.swing.border.MatteBorder(int,int,int,int,javax.swing.Icon)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MatteBorder_int_int_int_int_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final MatteBorder sut = null; // = new MatteBorder(int, int, int, int, javax.swing.Icon);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.border.MatteBorder#MatteBorder(int, int, int, int, java.awt.Color) public
      * javax.swing.border.MatteBorder(int,int,int,int,java.awt.Color)}.
      *
@@ -68,8 +91,8 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.MatteBorder#MatteBorder(int, int, int, int, javax.swing.Icon) public
-     * javax.swing.border.MatteBorder(int,int,int,int,javax.swing.Icon)}.
+     * {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets, javax.swing.Icon) public
+     * javax.swing.border.MatteBorder(java.awt.Insets,javax.swing.Icon)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -81,11 +104,11 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_MatteBorder_int_int_int_int_Icon()
+    public void create_MatteBorder_Insets_Icon()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(int, int, int, int, javax.swing.Icon);
+        final MatteBorder sut = null; // = new MatteBorder(java.awt.Insets, javax.swing.Icon);
     }
 
     /**
@@ -111,28 +134,7 @@ implements org.j8unit.repository.javax.swing.border.MatteBorderClassTests<MatteB
         final MatteBorder sut = null; // = new MatteBorder(javax.swing.Icon);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets, javax.swing.Icon) public
-     * javax.swing.border.MatteBorder(java.awt.Insets,javax.swing.Icon)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MatteBorder_Insets_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final MatteBorder sut = null; // = new MatteBorder(java.awt.Insets, javax.swing.Icon);
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.MatteBorder]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.MatteBorder]
 

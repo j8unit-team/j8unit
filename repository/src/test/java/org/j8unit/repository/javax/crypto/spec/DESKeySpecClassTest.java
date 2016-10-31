@@ -105,6 +105,8 @@ implements org.j8unit.repository.javax.crypto.spec.DESKeySpecClassTests<DESKeySp
         // write some test for {@link javax.crypto.spec.DESKeySpec#isWeak(byte[], int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.DESKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DESKeySpec]
 
 }

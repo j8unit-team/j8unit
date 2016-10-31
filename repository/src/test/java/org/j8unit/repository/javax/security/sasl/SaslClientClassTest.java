@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.security.sasl.SaslClientClassTests<SaslCl
         return SaslClient.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.SaslClient]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.SaslClient]
 
 }

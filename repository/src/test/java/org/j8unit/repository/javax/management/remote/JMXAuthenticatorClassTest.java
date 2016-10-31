@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.JMXAuthenticatorClassTe
         return JMXAuthenticator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXAuthenticator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXAuthenticator]
 
 }

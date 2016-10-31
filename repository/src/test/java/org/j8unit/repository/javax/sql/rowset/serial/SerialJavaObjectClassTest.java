@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialJavaObjectClassTe
         final SerialJavaObject sut = null; // = new SerialJavaObject(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialJavaObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialJavaObject]
 
 }

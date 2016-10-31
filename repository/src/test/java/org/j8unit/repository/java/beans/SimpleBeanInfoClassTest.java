@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.beans.SimpleBeanInfoClassTests<SimpleBeanI
         final SimpleBeanInfo sut = new SimpleBeanInfo();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.SimpleBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.SimpleBeanInfo]
 
 }

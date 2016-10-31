@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigurationErrorTe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.TransformerFactoryConfigurationError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.TransformerFactoryConfigurationError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.TransformerFactoryConfigurationError]
 
 }

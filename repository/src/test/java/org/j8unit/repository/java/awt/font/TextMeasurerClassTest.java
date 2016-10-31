@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.awt.font.TextMeasurerClassTests<TextMeasur
                                        // java.awt.font.FontRenderContext);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextMeasurer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextMeasurer]
 
 }

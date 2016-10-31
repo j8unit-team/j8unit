@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    FileFilter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileFilter]
 
 }

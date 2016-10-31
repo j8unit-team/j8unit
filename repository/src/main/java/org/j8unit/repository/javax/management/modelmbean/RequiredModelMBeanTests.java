@@ -133,32 +133,6 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_sendAttributeChangeNotification_AttributeChangeNotification()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.Attribute, javax.management.Attribute)
      * public void
      * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
@@ -176,6 +150,32 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_sendAttributeChangeNotification_Attribute_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_sendAttributeChangeNotification_AttributeChangeNotification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,6 +209,32 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * throws java.lang.IllegalArgumentException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addNotificationListener_NotificationListener_NotificationFilter_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#removeAttributeChangeNotificationListener(javax.management.NotificationListener, String)
      * public void
      * javax.management.modelmbean.RequiredModelMBean.removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
@@ -227,32 +253,6 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_removeAttributeChangeNotificationListener_NotificationListener_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#addNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * throws java.lang.IllegalArgumentException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addNotificationListener_NotificationListener_NotificationFilter_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -488,32 +488,6 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.modelmbean.RequiredModelMBean#removeNotificationListener(javax.management.NotificationListener)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.removeNotificationListener(javax.management.NotificationListener)
-     * throws javax.management.ListenerNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNotificationListener_NotificationListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.modelmbean.RequiredModelMBean#removeNotificationListener(javax.management.NotificationListener, javax.management.NotificationFilter, Object)
      * public void
      * javax.management.modelmbean.RequiredModelMBean.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
@@ -531,6 +505,32 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_removeNotificationListener_NotificationListener_NotificationFilter_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.modelmbean.RequiredModelMBean#removeNotificationListener(javax.management.NotificationListener)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.removeNotificationListener(javax.management.NotificationListener)
+     * throws javax.management.ListenerNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotificationListener_NotificationListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -638,6 +638,7 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
 }

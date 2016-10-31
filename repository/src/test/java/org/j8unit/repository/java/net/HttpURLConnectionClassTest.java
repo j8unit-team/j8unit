@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.net.HttpURLConnectionClassTests<HttpURLCon
         // write some test for {@link java.net.HttpURLConnection#setFollowRedirects(boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.HttpURLConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpURLConnection]
 
 }

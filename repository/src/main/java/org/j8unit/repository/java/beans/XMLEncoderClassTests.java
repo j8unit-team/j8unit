@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit
                    XMLEncoder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.XMLEncoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.XMLEncoder]
 
 }

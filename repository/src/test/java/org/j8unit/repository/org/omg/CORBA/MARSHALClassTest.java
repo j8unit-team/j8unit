@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.MARSHALClassTests<MARSHAL> {
         final MARSHAL sut = new MARSHAL();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.MARSHAL]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.MARSHAL]
 
 }

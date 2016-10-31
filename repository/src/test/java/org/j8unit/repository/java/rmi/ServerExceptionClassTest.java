@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.rmi.ServerExceptionClassTests<ServerExcept
         final ServerException sut = null; // = new ServerException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.ServerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.ServerException]
 
 }

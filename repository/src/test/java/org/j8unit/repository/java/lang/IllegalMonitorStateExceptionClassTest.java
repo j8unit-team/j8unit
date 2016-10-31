@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.lang.IllegalMonitorStateExceptionClassTest
         final IllegalMonitorStateException sut = null; // = new IllegalMonitorStateException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalMonitorStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalMonitorStateException]
 
 }

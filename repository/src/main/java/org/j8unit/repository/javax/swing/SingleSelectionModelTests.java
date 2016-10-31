@@ -168,6 +168,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SingleSelectionModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SingleSelectionModel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SingleSelectionModel]
 }

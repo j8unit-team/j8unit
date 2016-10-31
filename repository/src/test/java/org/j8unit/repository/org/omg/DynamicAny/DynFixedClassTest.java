@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynFixedClassTests<DynFixed>
         return DynFixed.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynFixed]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynFixed]
 
 }

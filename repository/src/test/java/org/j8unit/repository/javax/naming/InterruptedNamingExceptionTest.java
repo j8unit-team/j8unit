@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InterruptedNamingException>, org.j8unit.reposi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InterruptedNamingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.InterruptedNamingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.InterruptedNamingException]
 
 }

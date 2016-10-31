@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.security.SignatureExceptionClassTests<Sign
         final SignatureException sut = new SignatureException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SignatureException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SignatureException]
 
 }

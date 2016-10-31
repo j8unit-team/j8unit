@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DoubleAdder>, org.j8unit.repository.java.util.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.DoubleAdder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.atomic.DoubleAdder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.DoubleAdder]
 
 }

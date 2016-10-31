@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.SyncFailedExceptionClassTests<SyncFaile
         final SyncFailedException sut = null; // = new SyncFailedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.SyncFailedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.SyncFailedException]
 
 }

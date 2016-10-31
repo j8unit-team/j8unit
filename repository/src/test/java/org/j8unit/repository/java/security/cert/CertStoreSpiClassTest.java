@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.cert.CertStoreSpiClassTests<CertS
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertStoreSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertStoreSpi]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Socket>, org.j8unit.repository.java.net.Socket
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Socket]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Socket]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Socket]
 
 }

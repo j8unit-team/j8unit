@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.event.InternalFrameAdapterClassTest
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.InternalFrameAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.InternalFrameAdapter]
 
 }

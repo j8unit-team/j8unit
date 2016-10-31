@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.KeyTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.PublicKey]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PublicKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.PublicKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PublicKey]
 }

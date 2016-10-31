@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MBeanServerDelegate>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanServerDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanServerDelegate]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerDelegate]
 
 }

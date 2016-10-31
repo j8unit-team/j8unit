@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EnumerationClassTests<SUT>, org.j8unit.r
                    StringTokenizer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.StringTokenizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.StringTokenizer]
 
 }

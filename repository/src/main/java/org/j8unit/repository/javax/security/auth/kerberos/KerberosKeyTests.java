@@ -290,6 +290,7 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.kerberos.KerberosKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.kerberos.KerberosKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.kerberos.KerberosKey]
 }

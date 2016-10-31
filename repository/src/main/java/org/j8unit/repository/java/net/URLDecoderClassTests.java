@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    URLDecoder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLDecoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLDecoder]
 
 }

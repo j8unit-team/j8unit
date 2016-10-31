@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<S
                    NoSuchMethodException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NoSuchMethodException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NoSuchMethodException]
 
 }

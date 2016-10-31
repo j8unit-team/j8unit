@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.ObjectStreamFieldClassTests<ObjectStrea
         final ObjectStreamField sut = null; // = new ObjectStreamField(String, Class);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectStreamField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectStreamField]
 
 }

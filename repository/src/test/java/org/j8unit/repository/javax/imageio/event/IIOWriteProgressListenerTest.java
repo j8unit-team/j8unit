@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.imageio.event.IIOWriteProgressListenerTes
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.imageio.event.IIOWriteProgressListener], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.event.IIOWriteProgressListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.event.IIOWriteProgressListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.event.IIOWriteProgressListener]
 
 }

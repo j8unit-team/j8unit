@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.SNIMatcherClassTests<SNIMatcher> 
         return SNIMatcher.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SNIMatcher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SNIMatcher]
 
 }

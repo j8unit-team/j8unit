@@ -103,6 +103,8 @@ implements org.j8unit.repository.java.sql.DateClassTests<Date> {
         // write some test for {@link java.sql.Date#valueOf(java.time.LocalDate)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Date]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Date]
 
 }

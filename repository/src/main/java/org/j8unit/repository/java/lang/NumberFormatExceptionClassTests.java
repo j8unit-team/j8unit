@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
                    NumberFormatException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NumberFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NumberFormatException]
 
 }

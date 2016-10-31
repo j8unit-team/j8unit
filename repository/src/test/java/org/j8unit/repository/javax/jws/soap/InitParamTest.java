@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.jws.soap.InitParamTests<InitParam> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.jws.soap.InitParam], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.InitParam]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.InitParam]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.InitParam]
 
 }

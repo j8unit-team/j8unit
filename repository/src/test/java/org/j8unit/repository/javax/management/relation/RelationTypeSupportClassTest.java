@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.management.relation.RelationTypeSupportCl
                                               // javax.management.relation.RoleInfo[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationTypeSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationTypeSupport]
 
 }

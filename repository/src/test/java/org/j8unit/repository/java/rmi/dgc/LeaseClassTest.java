@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.rmi.dgc.LeaseClassTests<Lease> {
         final Lease sut = null; // = new Lease(java.rmi.dgc.VMID, long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.dgc.Lease]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.Lease]
 
 }

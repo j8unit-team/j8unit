@@ -128,6 +128,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.DeclHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.DeclHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.DeclHandler]
 }

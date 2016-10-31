@@ -77,6 +77,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
 }

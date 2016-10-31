@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.ExternalizableClassTests<Externalizable
         return Externalizable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Externalizable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Externalizable]
 
 }

@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.awt.dnd.DragGestureEventClassTests<DragGes
                                            // java.awt.Point, java.util.List);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragGestureEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragGestureEvent]
 
 }

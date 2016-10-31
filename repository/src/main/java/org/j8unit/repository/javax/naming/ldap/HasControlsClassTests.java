@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    HasControls.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.HasControls]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.HasControls]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
                    JPasswordField.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JPasswordField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPasswordField]
 
 }

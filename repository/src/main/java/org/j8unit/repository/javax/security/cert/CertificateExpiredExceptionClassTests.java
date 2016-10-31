@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.security.cert.CertificateExceptionClassTests
                    CertificateExpiredException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.cert.CertificateExpiredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.CertificateExpiredException]
 
 }

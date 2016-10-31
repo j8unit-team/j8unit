@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests<SUT> {
                    BasicDesktopIconUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MouseInputHandler.class!",
                               MouseInputHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler]
 

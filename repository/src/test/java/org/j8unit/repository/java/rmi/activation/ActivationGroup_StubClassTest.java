@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroup_StubClassTe
         final ActivationGroup_Stub sut = null; // = new ActivationGroup_Stub(java.rmi.server.RemoteRef);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
 
 }

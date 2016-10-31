@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.validation.SchemaFactoryConfigurationErrorTests<
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.validation.SchemaFactoryConfigurationError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.validation.SchemaFactoryConfigurationError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.validation.SchemaFactoryConfigurationError]
 
 }

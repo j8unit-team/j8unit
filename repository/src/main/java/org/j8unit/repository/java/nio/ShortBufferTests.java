@@ -523,6 +523,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ShortBuffer>, org.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.ShortBuffer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.ShortBuffer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.ShortBuffer]
 }

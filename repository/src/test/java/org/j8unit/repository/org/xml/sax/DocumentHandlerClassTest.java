@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests<DocumentH
         return DocumentHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.DocumentHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.DocumentHandler]
 
 }

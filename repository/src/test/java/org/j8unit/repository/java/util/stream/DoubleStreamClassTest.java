@@ -167,6 +167,8 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
         // write some test for {@link java.util.stream.DoubleStream#of(double...)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.DoubleStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.DoubleStream]
 
     @RunWith(J8Unit4.class)
@@ -179,6 +181,8 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
         public Class<Builder> createNewSUT() {
             return Builder.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.DoubleStream$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.DoubleStream$Builder]
 

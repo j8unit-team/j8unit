@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLServerSocketClassTests<SSLServ
         return SSLServerSocket.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLServerSocket]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLServerSocket]
 
 }

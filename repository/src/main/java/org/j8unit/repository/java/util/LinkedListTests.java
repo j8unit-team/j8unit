@@ -981,6 +981,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
         org.j8unit.repository.java.util.AbstractSequentialListTests.super.test_iterator();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.LinkedList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.LinkedList]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.LinkedList]
 }

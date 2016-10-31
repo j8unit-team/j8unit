@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Condition.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.Condition]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.Condition]
 
 }

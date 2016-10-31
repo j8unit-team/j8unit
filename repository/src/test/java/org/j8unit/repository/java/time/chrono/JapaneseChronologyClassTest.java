@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.chrono.JapaneseChronologyClassTests<J
         return JapaneseChronology.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.JapaneseChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.JapaneseChronology]
 
 }

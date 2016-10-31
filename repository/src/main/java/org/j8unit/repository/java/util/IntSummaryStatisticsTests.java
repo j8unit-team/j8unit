@@ -103,6 +103,28 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getCount() public
+     * final long java.util.IntSummaryStatistics.getCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getAverage() public
      * final double java.util.IntSummaryStatistics.getAverage()}.
      *
@@ -139,28 +161,6 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getSum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.IntSummaryStatistics#getCount() public
-     * final long java.util.IntSummaryStatistics.getCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,6 +211,7 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IntSummaryStatistics]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.IntSummaryStatistics]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IntSummaryStatistics]
 }

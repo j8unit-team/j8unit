@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetListenerClassTests<SUT>, or
                    DropTargetAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DropTargetAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetAdapter]
 
 }

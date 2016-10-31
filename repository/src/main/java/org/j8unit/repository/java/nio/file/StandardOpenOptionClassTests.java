@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.file.OpenOptionClassTests<SUT>, org.j8uni
                    StandardOpenOption.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.StandardOpenOption]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.StandardOpenOption]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PreferencesFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.PreferencesFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.PreferencesFactory]
 
 }

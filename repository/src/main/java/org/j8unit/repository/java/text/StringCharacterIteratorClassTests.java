@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT>, org.j8
                    StringCharacterIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.StringCharacterIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.StringCharacterIterator]
 
 }

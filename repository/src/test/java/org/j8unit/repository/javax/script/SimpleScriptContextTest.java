@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SimpleScriptContext>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.SimpleScriptContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.SimpleScriptContext]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleScriptContext]
 
 }

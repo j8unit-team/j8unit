@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BasicToolBarSeparatorUI>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarSeparatorUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarSeparatorUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarSeparatorUI]
 
 }

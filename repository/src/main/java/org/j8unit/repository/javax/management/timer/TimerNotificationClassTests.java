@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
                    TimerNotification.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.timer.TimerNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.timer.TimerNotification]
 
 }

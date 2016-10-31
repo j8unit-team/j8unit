@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6ClassTe
         return SimpleTypeVisitor6.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.SimpleTypeVisitor6]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.SimpleTypeVisitor6]
 
 }

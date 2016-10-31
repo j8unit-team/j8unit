@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionC
         final ParserConfigurationException sut = null; // = new ParserConfigurationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.parsers.ParserConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.ParserConfigurationException]
 
 }

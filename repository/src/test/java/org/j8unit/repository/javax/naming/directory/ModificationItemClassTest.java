@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.naming.directory.ModificationItemClassTes
         final ModificationItem sut = null; // = new ModificationItem(int, javax.naming.directory.Attribute);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.ModificationItem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.ModificationItem]
 
 }

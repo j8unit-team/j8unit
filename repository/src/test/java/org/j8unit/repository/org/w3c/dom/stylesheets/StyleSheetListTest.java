@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetListTests<Sty
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.w3c.dom.stylesheets.StyleSheetList], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.stylesheets.StyleSheetList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.stylesheets.StyleSheetList]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.stylesheets.StyleSheetList]
 
 }

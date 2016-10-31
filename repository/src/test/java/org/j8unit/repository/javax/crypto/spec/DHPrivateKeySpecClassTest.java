@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.crypto.spec.DHPrivateKeySpecClassTests<DH
                                            // java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.DHPrivateKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DHPrivateKeySpec]
 
 }

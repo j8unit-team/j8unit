@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    UtilDelegate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.UtilDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.UtilDelegate]
 
 }

@@ -101,6 +101,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.ItemSelectable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.ItemSelectable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.ItemSelectable]
 }

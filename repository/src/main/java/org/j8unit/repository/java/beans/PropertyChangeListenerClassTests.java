@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    PropertyChangeListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyChangeListener]
 
 }

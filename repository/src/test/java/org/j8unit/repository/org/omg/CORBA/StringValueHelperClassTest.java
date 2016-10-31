@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringValueHelperClassTests<Strin
         // write some test for {@link org.omg.CORBA.StringValueHelper#insert(org.omg.CORBA.Any, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.StringValueHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StringValueHelper]
 
 }

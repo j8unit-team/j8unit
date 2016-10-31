@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultButtonModel>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultButtonModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultButtonModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultButtonModel]
 
 }

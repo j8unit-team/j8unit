@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BeanContextChildSupport>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.beancontext.BeanContextChildSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextChildSupport]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextChildSupport]
 
 }

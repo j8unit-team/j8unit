@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.TableColumnModelListenerClass
         return TableColumnModelListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TableColumnModelListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TableColumnModelListener]
 
 }

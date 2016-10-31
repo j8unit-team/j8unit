@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StreamReaderDelegate>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.util.StreamReaderDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.util.StreamReaderDelegate]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.util.StreamReaderDelegate]
 
 }

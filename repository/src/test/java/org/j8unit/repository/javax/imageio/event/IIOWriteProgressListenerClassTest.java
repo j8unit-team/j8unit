@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.event.IIOWriteProgressListenerCla
         return IIOWriteProgressListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.event.IIOWriteProgressListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.event.IIOWriteProgressListener]
 
 }

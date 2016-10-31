@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.io.InputStreamTests<InputStream> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.io.InputStream], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.InputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.InputStream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.InputStream]
 
 }

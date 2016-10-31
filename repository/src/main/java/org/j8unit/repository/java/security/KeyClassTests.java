@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Key.class!", Key.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Key]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Key]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
         final SpringLayout sut = new SpringLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpringLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpringLayout]
 
     @RunWith(J8Unit4.class)
@@ -145,6 +147,8 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
             // create new instance
             final Constraints sut = new Constraints();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpringLayout$Constraints]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpringLayout$Constraints]
 

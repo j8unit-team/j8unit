@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.awt.image.MultiPixelPackedSampleModelClass
         final MultiPixelPackedSampleModel sut = null; // = new MultiPixelPackedSampleModel(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.MultiPixelPackedSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.MultiPixelPackedSampleModel]
 
 }

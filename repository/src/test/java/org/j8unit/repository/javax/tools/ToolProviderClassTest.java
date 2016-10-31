@@ -80,6 +80,8 @@ implements org.j8unit.repository.javax.tools.ToolProviderClassTests<ToolProvider
         // write some test for {@link javax.tools.ToolProvider#getSystemJavaCompiler()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.ToolProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.ToolProvider]
 
 }

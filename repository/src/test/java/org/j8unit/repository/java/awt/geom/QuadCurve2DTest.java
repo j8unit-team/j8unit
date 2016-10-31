@@ -27,7 +27,9 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DTests<QuadCurve2D> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.awt.geom.QuadCurve2D], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.QuadCurve2D]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.QuadCurve2D]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -49,7 +51,9 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DTests<QuadCurve2D> {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Float]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Float]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Float]
 
     }
 
@@ -73,7 +77,9 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DTests<QuadCurve2D> {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Double]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Double]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Double]
 
     }
 

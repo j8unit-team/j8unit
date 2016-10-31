@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLInputClassTests<SUT>, org.j8unit.repos
                    SQLInputImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SQLInputImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SQLInputImpl]
 
 }

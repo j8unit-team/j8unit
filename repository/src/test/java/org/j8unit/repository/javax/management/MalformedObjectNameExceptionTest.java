@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.MalformedObjectNameExceptionTests<Malform
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MalformedObjectNameException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MalformedObjectNameException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MalformedObjectNameException]
 
 }

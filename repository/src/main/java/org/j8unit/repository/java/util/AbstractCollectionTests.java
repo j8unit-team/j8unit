@@ -414,6 +414,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
         org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractCollection]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractCollection]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractCollection]
 }

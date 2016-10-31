@@ -188,6 +188,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.GSSException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSException]
 }

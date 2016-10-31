@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextMembershipLis
         return BeanContextMembershipListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextMembershipListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextMembershipListener]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.ietf.jgss.ChannelBindingClassTests<ChannelB
         final ChannelBinding sut = null; // = new ChannelBinding(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.ChannelBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.ChannelBinding]
 
 }

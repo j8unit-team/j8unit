@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpec
                    ExcC14NParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 
 }

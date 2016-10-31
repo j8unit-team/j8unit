@@ -83,6 +83,8 @@ implements org.j8unit.repository.java.security.IdentityScopeClassTests<IdentityS
         // write some test for {@link java.security.IdentityScope#getSystemScope()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.IdentityScope]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.IdentityScope]
 
 }

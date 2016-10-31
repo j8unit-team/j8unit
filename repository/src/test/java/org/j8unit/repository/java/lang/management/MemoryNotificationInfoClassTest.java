@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.lang.management.MemoryNotificationInfoClas
         // java.lang.management.MemoryNotificationInfo#from(javax.management.openmbean.CompositeData)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.MemoryNotificationInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryNotificationInfo]
 
 }

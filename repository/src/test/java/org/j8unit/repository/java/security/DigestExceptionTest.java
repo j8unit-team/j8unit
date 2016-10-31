@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DigestException>, org.j8unit.repository.java.s
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.DigestException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.DigestException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.DigestException]
 
 }

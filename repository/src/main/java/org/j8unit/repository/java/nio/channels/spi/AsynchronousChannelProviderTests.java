@@ -132,6 +132,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.spi.AsynchronousChannelProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.spi.AsynchronousChannelProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.spi.AsynchronousChannelProvider]
 }

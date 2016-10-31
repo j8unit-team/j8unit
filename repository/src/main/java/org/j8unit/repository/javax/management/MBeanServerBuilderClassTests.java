@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    MBeanServerBuilder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerBuilder]
 
 }

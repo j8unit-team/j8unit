@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.CallableClassTests<Callabl
         return Callable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Callable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Callable]
 
 }

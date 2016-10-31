@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.AccessDeniedExceptionClassTests<A
         final AccessDeniedException sut = null; // = new AccessDeniedException(String, String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.AccessDeniedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.AccessDeniedException]
 
 }

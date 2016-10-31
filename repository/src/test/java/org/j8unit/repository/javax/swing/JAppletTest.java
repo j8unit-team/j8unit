@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JApplet>, org.j8unit.repository.javax.swing.JA
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JApplet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JApplet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JApplet]
 
 }

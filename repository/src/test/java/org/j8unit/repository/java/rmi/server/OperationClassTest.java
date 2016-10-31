@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.rmi.server.OperationClassTests<Operation> 
         final Operation sut = null; // = new Operation(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.Operation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.Operation]
 
 }

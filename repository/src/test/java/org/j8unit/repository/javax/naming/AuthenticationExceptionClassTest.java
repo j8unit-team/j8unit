@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.AuthenticationExceptionClassTests<
         final AuthenticationException sut = new AuthenticationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.AuthenticationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.AuthenticationException]
 
 }

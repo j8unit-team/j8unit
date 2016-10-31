@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SOAPException>, org.j8unit.repository.javax.xm
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SOAPException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPException]
 
 }

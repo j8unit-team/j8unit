@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LSParser.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ls.LSParser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ls.LSParser]
 
 }

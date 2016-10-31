@@ -71,6 +71,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Pack200.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Pack200]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Packer.class!",
                               Packer.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Pack200$Packer]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Packer]
 
@@ -196,6 +200,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Unpacker.class!",
                               Unpacker.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Pack200$Unpacker]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Unpacker]
 

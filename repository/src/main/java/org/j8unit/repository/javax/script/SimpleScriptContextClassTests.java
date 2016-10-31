@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.script.ScriptContextClassTests<SUT>, org.j8u
                    SimpleScriptContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.SimpleScriptContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.SimpleScriptContext]
 
 }

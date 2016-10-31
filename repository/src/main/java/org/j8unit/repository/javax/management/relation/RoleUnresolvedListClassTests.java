@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.ArrayListClassTests<SUT> {
                    RoleUnresolvedList.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleUnresolvedList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleUnresolvedList]
 
 }

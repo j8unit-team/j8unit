@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.LoginExceptionClassTe
         final LoginException sut = null; // = new LoginException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.LoginException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.LoginException]
 
 }

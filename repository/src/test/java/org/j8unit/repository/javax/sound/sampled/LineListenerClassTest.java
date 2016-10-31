@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineListenerClassTests<Line
         return LineListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineListener]
 
 }

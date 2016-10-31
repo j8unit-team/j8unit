@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.util.concurrent.RejectedExecutionException
         final RejectedExecutionException sut = new RejectedExecutionException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.RejectedExecutionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.RejectedExecutionException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.MutableAttributeSetClassTests<
         return MutableAttributeSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.MutableAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.MutableAttributeSet]
 
 }

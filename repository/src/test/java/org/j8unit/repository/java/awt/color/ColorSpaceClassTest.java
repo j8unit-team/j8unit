@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.awt.color.ColorSpaceClassTests<ColorSpace>
         // write some test for {@link java.awt.color.ColorSpace#getInstance(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ColorSpace]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ColorSpace]
 
 }

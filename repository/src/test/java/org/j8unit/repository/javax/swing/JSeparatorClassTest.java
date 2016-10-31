@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.JSeparatorClassTests<JSeparator> {
         final JSeparator sut = null; // = new JSeparator(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSeparator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSeparator]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
                    InvalidPathException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.InvalidPathException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.InvalidPathException]
 
 }

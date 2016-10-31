@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceMotionListenerClassTests
         return DragSourceMotionListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragSourceMotionListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceMotionListener]
 
 }

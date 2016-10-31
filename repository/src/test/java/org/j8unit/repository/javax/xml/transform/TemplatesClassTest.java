@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.TemplatesClassTests<Templat
         return Templates.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.Templates]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.Templates]
 
 }

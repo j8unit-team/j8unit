@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.ParagraphViewClassTests<P
         final ParagraphView sut = null; // = new ParagraphView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.ParagraphView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.ParagraphView]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLCollectionClassTests<HTMLC
         return HTMLCollection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLCollection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLCollection]
 
 }

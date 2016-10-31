@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.util.concurrent.TimeoutExceptionClassTests
         final TimeoutException sut = null; // = new TimeoutException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.TimeoutException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.TimeoutException]
 
 }

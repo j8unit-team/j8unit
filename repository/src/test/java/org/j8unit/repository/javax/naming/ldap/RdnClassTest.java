@@ -148,6 +148,8 @@ implements org.j8unit.repository.javax.naming.ldap.RdnClassTests<Rdn> {
         // write some test for {@link javax.naming.ldap.Rdn#escapeValue(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.Rdn]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.Rdn]
 
 }

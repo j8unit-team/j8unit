@@ -85,6 +85,8 @@ implements org.j8unit.repository.javax.crypto.ExemptionMechanismClassTests<Exemp
         // write some test for {@link javax.crypto.ExemptionMechanism#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.ExemptionMechanism]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.ExemptionMechanism]
 
 }

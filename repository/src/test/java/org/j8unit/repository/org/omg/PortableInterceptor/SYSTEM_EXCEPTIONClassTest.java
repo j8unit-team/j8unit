@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.SYSTEM_EXCEPTIONCla
         return SYSTEM_EXCEPTION.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.SYSTEM_EXCEPTION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.SYSTEM_EXCEPTION]
 
 }

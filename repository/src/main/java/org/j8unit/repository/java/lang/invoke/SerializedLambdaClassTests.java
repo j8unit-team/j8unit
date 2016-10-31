@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    SerializedLambda.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.SerializedLambda]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.SerializedLambda]
 
 }

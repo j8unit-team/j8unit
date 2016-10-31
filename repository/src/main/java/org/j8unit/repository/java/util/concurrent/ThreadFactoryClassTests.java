@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ThreadFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadFactory]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefsClassTe
         return XmlElementRefs.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlElementRefs]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElementRefs]
 
 }

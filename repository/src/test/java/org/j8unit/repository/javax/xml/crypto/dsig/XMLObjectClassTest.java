@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLObjectClassTests<XMLOb
         return XMLObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLObject]
 
 }

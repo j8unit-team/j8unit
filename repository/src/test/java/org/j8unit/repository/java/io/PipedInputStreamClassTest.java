@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.io.PipedInputStreamClassTests<PipedInputSt
         final PipedInputStream sut = null; // = new PipedInputStream(java.io.PipedOutputStream, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PipedInputStream]
 
 }

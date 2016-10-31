@@ -66,6 +66,8 @@ extends org.j8unit.repository.org.omg.CORBA.ORBClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ORB.class!", ORB.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA_2_3.ORB]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA_2_3.ORB]
 
 }

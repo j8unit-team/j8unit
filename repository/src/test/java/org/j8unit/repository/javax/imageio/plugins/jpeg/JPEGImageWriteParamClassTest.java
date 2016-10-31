@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageWriteParamC
         final JPEGImageWriteParam sut = null; // = new JPEGImageWriteParam(java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
 
 }

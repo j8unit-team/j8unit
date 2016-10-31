@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
                    CertPathValidatorResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorResult]
 
 }

@@ -161,50 +161,24 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
         // write some test for {@link javax.print.attribute.standard.MediaSize#findMedia(float, float, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize]
 
     @RunWith(J8Unit4.class)
-    public static class JISClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests<JIS> {
+    public static class NAClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests<NA> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$JIS]
-
-        @Override
-        public Class<JIS> createNewSUT() {
-            return JIS.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$JIS]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class EngineeringClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.EngineeringClassTests<Engineering> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
 
         @Override
-        public Class<Engineering> createNewSUT() {
-            return Engineering.class;
+        public Class<NA> createNewSUT() {
+            return NA.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class OtherClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests<Other> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
-
-        @Override
-        public Class<Other> createNewSUT() {
-            return Other.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
 
     }
 
@@ -219,22 +193,60 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
             return ISO.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$ISO]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$ISO]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class NAClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests<NA> {
+    public static class JISClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests<JIS> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$JIS]
 
         @Override
-        public Class<NA> createNewSUT() {
-            return NA.class;
+        public Class<JIS> createNewSUT() {
+            return JIS.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$JIS]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$JIS]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class OtherClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests<Other> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+        @Override
+        public Class<Other> createNewSUT() {
+            return Other.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class EngineeringClassTest
+    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.EngineeringClassTests<Engineering> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
+
+        @Override
+        public Class<Engineering> createNewSUT() {
+            return Engineering.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
 
     }
 

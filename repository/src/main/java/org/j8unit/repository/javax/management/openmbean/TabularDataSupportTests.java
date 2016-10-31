@@ -611,6 +611,7 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.TabularDataSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.TabularDataSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.TabularDataSupport]
 }

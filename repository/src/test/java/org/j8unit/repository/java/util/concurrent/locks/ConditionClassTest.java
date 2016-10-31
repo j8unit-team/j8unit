@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ConditionClassTests<
         return Condition.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.Condition]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.Condition]
 
 }

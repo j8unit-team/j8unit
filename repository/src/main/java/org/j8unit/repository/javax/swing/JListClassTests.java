@@ -69,6 +69,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to JList.class!", JList.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JList]
 
     /**
@@ -131,6 +133,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DropLocation.class!",
                               DropLocation.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JList$DropLocation]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JList$DropLocation]
 

@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTest
         final ReflectiveOperationException sut = new ReflectiveOperationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ReflectiveOperationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ReflectiveOperationException]
 
 }

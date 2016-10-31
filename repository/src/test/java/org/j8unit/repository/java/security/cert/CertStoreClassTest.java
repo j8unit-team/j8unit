@@ -112,6 +112,8 @@ implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStor
         // java.security.cert.CertStoreParameters, java.security.Provider)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertStore]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertStore]
 
 }

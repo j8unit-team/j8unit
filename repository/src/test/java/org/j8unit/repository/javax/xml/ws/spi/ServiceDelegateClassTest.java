@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.spi.ServiceDelegateClassTests<Serv
         return ServiceDelegate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.spi.ServiceDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.spi.ServiceDelegate]
 
 }

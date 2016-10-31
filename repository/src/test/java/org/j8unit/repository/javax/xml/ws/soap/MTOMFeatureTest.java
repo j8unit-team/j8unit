@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MTOMFeature>, org.j8unit.repository.javax.xml.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
 
 }

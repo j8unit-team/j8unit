@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.PooledConnectionClassTests<PooledConn
         return PooledConnection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.PooledConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.PooledConnection]
 
 }

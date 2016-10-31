@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<VMID>, org.j8unit.repository.java.rmi.dgc.VMID
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.dgc.VMID]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.dgc.VMID]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.dgc.VMID]
 
 }

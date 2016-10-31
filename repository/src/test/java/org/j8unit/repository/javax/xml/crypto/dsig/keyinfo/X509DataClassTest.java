@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.X509DataClassTest
         return X509Data.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.X509Data]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.X509Data]
 
 }

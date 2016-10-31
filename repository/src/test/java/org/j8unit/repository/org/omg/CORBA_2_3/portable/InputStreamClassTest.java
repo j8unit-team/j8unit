@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA_2_3.portable.InputStreamClassTest
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA_2_3.portable.InputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA_2_3.portable.InputStream]
 
 }

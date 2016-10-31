@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.RasterFormatExceptionClassTests<
         final RasterFormatException sut = null; // = new RasterFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.RasterFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.RasterFormatException]
 
 }

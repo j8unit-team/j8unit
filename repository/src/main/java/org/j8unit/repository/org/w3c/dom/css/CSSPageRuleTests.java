@@ -99,6 +99,7 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSPageRule]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.CSSPageRule]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSPageRule]
 }

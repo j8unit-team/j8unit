@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<SUT>,
                    DataHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataHandler]
 
 }

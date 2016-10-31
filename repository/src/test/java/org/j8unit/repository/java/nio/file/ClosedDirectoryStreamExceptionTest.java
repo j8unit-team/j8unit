@@ -32,6 +32,8 @@ org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionTests<ClosedDi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ClosedDirectoryStreamException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.ClosedDirectoryStreamException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.ClosedDirectoryStreamException]
 
 }

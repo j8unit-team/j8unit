@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.DefaultButtonModelClassTests<Defaul
         final DefaultButtonModel sut = new DefaultButtonModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultButtonModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultButtonModel]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.ValidationEventClassTests<Valida
         return ValidationEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ValidationEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ValidationEvent]
 
 }

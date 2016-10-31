@@ -71,6 +71,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Character.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character]
 
     /**
@@ -133,6 +135,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UnicodeScript.class!",
                               UnicodeScript.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$UnicodeScript]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeScript]
 
@@ -199,6 +203,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               Subset.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$Subset]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$Subset]
 
     }
@@ -263,6 +269,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UnicodeBlock.class!",
                               UnicodeBlock.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$UnicodeBlock]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeBlock]
 

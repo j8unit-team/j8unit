@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JTextArea>, org.j8unit.repository.javax.swing.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTextArea]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTextArea]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTextArea]
 
 }

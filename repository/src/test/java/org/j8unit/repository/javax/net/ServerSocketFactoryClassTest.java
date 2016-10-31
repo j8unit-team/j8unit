@@ -39,6 +39,8 @@ implements org.j8unit.repository.javax.net.ServerSocketFactoryClassTests<ServerS
         // write some test for {@link javax.net.ServerSocketFactory#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ServerSocketFactory]
 
 }

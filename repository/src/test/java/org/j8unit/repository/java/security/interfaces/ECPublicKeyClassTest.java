@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.ECPublicKeyClassTests<
         return ECPublicKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.ECPublicKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.ECPublicKey]
 
 }

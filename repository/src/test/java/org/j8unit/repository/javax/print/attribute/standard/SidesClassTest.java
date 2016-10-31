@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.SidesClassTests<
         return Sides.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Sides]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Sides]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.script.ScriptEngineClassTests<ScriptEngin
         return ScriptEngine.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptEngine]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptEngine]
 
 }

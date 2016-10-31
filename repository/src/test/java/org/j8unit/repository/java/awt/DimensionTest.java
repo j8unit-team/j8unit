@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Dimension>, org.j8unit.repository.java.awt.Dim
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dimension]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Dimension]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Dimension]
 
 }

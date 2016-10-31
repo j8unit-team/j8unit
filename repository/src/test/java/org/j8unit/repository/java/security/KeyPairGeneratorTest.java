@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorTests<KeyPairGene
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyPairGenerator], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyPairGenerator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyPairGenerator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyPairGenerator]
 
 }

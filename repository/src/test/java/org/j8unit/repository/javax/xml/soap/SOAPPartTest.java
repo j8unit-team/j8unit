@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPPartTests<SOAPPart> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.soap.SOAPPart], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPPart]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SOAPPart]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPPart]
 
 }

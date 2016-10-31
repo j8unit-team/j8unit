@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.PERSIST_STOREClassTests<PERSIST_S
         final PERSIST_STORE sut = new PERSIST_STORE();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PERSIST_STORE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PERSIST_STORE]
 
 }

@@ -25,7 +25,9 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.Character], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character$UnicodeScript]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$UnicodeScript]
 
     }
 
@@ -62,7 +66,9 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.Character.Subset], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character$Subset]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$Subset]
 
     }
 
@@ -306,7 +312,9 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
 
     }
 

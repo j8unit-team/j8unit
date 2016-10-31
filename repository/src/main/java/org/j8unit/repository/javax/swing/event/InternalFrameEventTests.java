@@ -78,6 +78,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.InternalFrameEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.InternalFrameEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.InternalFrameEvent]
 }

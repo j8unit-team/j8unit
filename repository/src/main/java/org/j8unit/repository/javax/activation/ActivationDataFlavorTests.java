@@ -175,6 +175,7 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.ActivationDataFlavor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.ActivationDataFlavor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.ActivationDataFlavor]
 }

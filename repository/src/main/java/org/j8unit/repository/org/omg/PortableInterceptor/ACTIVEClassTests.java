@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ACTIVE.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ACTIVE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ACTIVE]
 
 }

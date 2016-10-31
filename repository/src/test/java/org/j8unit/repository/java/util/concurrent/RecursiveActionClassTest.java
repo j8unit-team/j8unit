@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.concurrent.RecursiveActionClassTests<
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.RecursiveAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.RecursiveAction]
 
 }

@@ -21,6 +21,8 @@ implements org.j8unit.repository.java.util.MapClassTests<Map> {
         return Map.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Map]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Map]
 
     @SuppressWarnings("rawtypes")
@@ -120,6 +122,8 @@ implements org.j8unit.repository.java.util.MapClassTests<Map> {
         throws Exception {
             // write some test for {@link java.util.Map.Entry#comparingByValue(java.util.Comparator)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Map$Entry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Map$Entry]
 

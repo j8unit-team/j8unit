@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.util.logging.StreamHandlerClassTests<Strea
         final StreamHandler sut = new StreamHandler();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.StreamHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.StreamHandler]
 
 }

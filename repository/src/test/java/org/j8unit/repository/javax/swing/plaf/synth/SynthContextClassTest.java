@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthContextClassTests<S
                                        // javax.swing.plaf.synth.SynthStyle, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthContext]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<SUT
                    MetalSliderUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalSliderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalSliderUI]
 
 }

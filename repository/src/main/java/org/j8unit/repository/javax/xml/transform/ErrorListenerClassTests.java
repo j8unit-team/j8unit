@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ErrorListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.ErrorListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.ErrorListener]
 
 }

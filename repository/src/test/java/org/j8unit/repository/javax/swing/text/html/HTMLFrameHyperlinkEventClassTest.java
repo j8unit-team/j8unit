@@ -148,6 +148,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventCl
                                                   // javax.swing.event.HyperlinkEvent.EventType, java.net.URL, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLFrameHyperlinkEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLFrameHyperlinkEvent]
 
 }

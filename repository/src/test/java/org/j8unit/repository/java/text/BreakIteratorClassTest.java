@@ -144,6 +144,26 @@ implements org.j8unit.repository.java.text.BreakIteratorClassTests<BreakIterator
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#getLineInstance() public
+     * static java.text.BreakIterator java.text.BreakIterator.getLineInstance()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getLineInstance()
+    throws Exception {
+        // write some test for {@link java.text.BreakIterator#getLineInstance()}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.text.BreakIterator#getLineInstance(java.util.Locale) public static java.text.BreakIterator
      * java.text.BreakIterator.getLineInstance(java.util.Locale)}.
@@ -165,26 +185,6 @@ implements org.j8unit.repository.java.text.BreakIteratorClassTests<BreakIterator
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#getLineInstance() public
-     * static java.text.BreakIterator java.text.BreakIterator.getLineInstance()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getLineInstance()
-    throws Exception {
-        // write some test for {@link java.text.BreakIterator#getLineInstance()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.text.BreakIterator#getAvailableLocales() public
      * static synchronized java.util.Locale[] java.text.BreakIterator.getAvailableLocales()}.
      *
@@ -202,6 +202,8 @@ implements org.j8unit.repository.java.text.BreakIteratorClassTests<BreakIterator
     throws Exception {
         // write some test for {@link java.text.BreakIterator#getAvailableLocales()}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.BreakIterator]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.BreakIterator]
 

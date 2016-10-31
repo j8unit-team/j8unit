@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.DatagramSocketImplFactoryClassTests<Da
         return DatagramSocketImplFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.DatagramSocketImplFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramSocketImplFactory]
 
 }

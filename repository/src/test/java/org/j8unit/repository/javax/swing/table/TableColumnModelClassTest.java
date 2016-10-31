@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.table.TableColumnModelClassTests<Ta
         return TableColumnModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableColumnModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableColumnModel]
 
 }

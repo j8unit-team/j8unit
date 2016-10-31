@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    IORInfoOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInfoOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInfoOperations]
 
 }

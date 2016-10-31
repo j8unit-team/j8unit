@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.ContainerClassTests<Container> {
         final Container sut = new Container();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Container]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Container]
 
 }

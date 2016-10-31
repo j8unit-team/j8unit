@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.text.ParsePositionClassTests<ParsePosition
         final ParsePosition sut = null; // = new ParsePosition(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.ParsePosition]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.ParsePosition]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.HierarchyListenerClassTests<Hier
         return HierarchyListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.HierarchyListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.HierarchyListener]
 
 }

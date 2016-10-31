@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<Rectan
         return RectangularShape.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.RectangularShape]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.RectangularShape]
 
 }

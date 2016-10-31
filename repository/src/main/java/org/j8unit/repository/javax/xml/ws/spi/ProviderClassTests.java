@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Provider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.spi.Provider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.spi.Provider]
 
 }

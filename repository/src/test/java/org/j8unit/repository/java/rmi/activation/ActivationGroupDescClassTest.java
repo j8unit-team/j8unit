@@ -71,6 +71,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
                                               // java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationGroupDesc]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroupDesc]
 
     @RunWith(J8Unit4.class)
@@ -106,6 +108,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
             @SuppressWarnings("unused")
             final CommandEnvironment sut = null; // = new CommandEnvironment(String, String[]);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
 

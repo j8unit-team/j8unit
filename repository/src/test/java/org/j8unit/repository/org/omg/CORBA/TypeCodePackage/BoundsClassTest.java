@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BoundsClassTests<
         final Bounds sut = null; // = new Bounds(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TypeCodePackage.Bounds]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TypeCodePackage.Bounds]
 
 }

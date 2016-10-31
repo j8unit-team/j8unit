@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_NamingContextExtStub>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
 
 }

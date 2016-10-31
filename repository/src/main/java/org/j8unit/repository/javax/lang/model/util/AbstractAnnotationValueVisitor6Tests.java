@@ -108,6 +108,7 @@ extends org.j8unit.repository.javax.lang.model.element.AnnotationValueVisitorTes
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractAnnotationValueVisitor6]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.AbstractAnnotationValueVisitor6]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.AbstractAnnotationValueVisitor6]
 }

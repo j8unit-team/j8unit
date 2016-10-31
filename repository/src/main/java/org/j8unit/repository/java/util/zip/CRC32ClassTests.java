@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.util.zip.ChecksumClassTests<SUT>, org.j8unit.
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CRC32.class!", CRC32.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.CRC32]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.CRC32]
 
 }

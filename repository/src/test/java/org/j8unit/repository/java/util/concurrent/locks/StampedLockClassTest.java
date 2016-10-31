@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.StampedLockClassTest
         final StampedLock sut = new StampedLock();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.StampedLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.StampedLock]
 
 }

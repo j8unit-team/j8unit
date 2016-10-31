@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.SortedSetClassTests<SortedSet> {
         return SortedSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.SortedSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.SortedSet]
 
 }

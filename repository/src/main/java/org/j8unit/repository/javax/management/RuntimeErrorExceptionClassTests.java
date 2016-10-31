@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionClassTests<SUT>
                    RuntimeErrorException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.RuntimeErrorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.RuntimeErrorException]
 
 }

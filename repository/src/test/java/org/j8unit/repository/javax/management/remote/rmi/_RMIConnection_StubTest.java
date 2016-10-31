@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_RMIConnection_Stub>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
 
 }

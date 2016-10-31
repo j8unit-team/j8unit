@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.smartcardio.CardNotPresentExceptionClassT
         final CardNotPresentException sut = null; // = new CardNotPresentException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardNotPresentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardNotPresentException]
 
 }

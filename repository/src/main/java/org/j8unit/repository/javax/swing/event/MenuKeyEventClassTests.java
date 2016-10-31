@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.KeyEventClassTests<SUT> {
                    MenuKeyEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.MenuKeyEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuKeyEvent]
 
 }

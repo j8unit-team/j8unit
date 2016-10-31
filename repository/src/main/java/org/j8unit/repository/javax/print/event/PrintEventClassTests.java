@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    PrintEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintEvent]
 
 }

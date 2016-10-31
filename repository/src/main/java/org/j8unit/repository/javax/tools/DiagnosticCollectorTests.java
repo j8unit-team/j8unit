@@ -78,6 +78,7 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerTests<SUT, S>, org.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DiagnosticCollector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.DiagnosticCollector]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DiagnosticCollector]
 }

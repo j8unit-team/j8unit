@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.script.InvocableClassTests<Invocable> {
         return Invocable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.Invocable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.Invocable]
 
 }

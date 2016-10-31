@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.event.PopupMenuEventClassTests<Popu
         final PopupMenuEvent sut = null; // = new PopupMenuEvent(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.PopupMenuEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.PopupMenuEvent]
 
 }

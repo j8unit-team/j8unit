@@ -89,6 +89,8 @@ implements org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<Inf
         final InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream, java.util.zip.Inflater);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.InflaterInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.InflaterInputStream]
 
 }

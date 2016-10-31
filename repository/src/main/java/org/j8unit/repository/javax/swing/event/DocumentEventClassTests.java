@@ -70,6 +70,8 @@ extends RepositoryClassTests<SUT> {
                    DocumentEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent]
 
     /**
@@ -132,6 +134,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to EventType.class!",
                               EventType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentEvent$EventType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$EventType]
 
@@ -196,6 +200,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ElementChange.class!",
                               ElementChange.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
 

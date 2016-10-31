@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.applet.AppletStubTests<AppletStub> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.applet.AppletStub], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.applet.AppletStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.applet.AppletStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.applet.AppletStub]
 
 }

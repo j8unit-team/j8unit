@@ -111,6 +111,8 @@ implements org.j8unit.repository.java.util.zip.GZIPOutputStreamClassTests<GZIPOu
         final GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream, int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.GZIPOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.GZIPOutputStream]
 
 }

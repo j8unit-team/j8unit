@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.naming.ldap.SortControlClassTests<SortCon
         final SortControl sut = null; // = new SortControl(String[], boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.SortControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.SortControl]
 
 }

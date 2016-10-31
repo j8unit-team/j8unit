@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UnionMember]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.UnionMember]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.UnionMember]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.UnionMember]
 }

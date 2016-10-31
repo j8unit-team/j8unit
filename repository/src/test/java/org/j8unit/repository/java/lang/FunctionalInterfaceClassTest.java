@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.FunctionalInterfaceClassTests<Functio
         return FunctionalInterface.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.FunctionalInterface]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.FunctionalInterface]
 
 }

@@ -296,6 +296,7 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RoleUnresolvedList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RoleUnresolvedList]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RoleUnresolvedList]
 }

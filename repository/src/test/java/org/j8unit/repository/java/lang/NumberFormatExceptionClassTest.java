@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.NumberFormatExceptionClassTests<Numbe
         final NumberFormatException sut = null; // = new NumberFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NumberFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NumberFormatException]
 
 }

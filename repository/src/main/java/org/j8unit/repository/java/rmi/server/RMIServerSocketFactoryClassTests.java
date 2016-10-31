@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RMIServerSocketFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIServerSocketFactory]
 
 }

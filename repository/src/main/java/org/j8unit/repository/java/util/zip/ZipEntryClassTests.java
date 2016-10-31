@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    ZipEntry.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipEntry]
 
 }

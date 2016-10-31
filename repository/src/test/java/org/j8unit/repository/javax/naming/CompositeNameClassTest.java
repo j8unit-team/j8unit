@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.CompositeNameClassTests<CompositeN
         final CompositeName sut = null; // = new CompositeName(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.CompositeName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.CompositeName]
 
 }

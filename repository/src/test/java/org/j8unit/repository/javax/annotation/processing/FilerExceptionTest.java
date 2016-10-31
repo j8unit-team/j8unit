@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.annotation.processing.FilerExceptionTests
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.annotation.processing.FilerException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.processing.FilerException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.processing.FilerException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.FilerException]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.imageio.spi.ImageTranscoderSpiTests<Image
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.imageio.spi.ImageTranscoderSpi], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
 
 }

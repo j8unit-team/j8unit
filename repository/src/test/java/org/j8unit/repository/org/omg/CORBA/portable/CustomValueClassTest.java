@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.CustomValueClassTests<Cu
         return CustomValue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.CustomValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.CustomValue]
 
 }

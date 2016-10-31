@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthTextAreaUIClassTest
         // write some test for {@link javax.swing.plaf.synth.SynthTextAreaUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthTextAreaUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthTextAreaUI]
 
 }

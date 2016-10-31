@@ -122,6 +122,8 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistDateClassTests<Tha
         // write some test for {@link java.time.chrono.ThaiBuddhistDate#of(int, int, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ThaiBuddhistDate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ThaiBuddhistDate]
 
 }

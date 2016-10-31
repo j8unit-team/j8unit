@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.print.StreamPrintServiceFactoryClassTests
         // javax.print.StreamPrintServiceFactory#lookupStreamPrintServiceFactories(javax.print.DocFlavor, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.StreamPrintServiceFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.StreamPrintServiceFactory]
 
 }

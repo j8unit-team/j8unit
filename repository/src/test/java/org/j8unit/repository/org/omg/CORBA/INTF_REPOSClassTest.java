@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests<INTF_REPOS> 
         final INTF_REPOS sut = new INTF_REPOS();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INTF_REPOS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INTF_REPOS]
 
 }

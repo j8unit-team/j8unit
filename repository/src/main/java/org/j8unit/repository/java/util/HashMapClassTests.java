@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
                    HashMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.HashMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.HashMap]
 
 }

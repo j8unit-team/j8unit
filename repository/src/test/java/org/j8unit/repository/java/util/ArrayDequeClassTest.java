@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.util.ArrayDequeClassTests<ArrayDeque> {
         final ArrayDeque sut = null; // = new ArrayDeque(java.util.Collection);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ArrayDeque]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ArrayDeque]
 
 }

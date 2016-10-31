@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LexicalHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.LexicalHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.LexicalHandler]
 
 }

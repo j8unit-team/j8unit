@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PrinterStateReasons>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrinterStateReasons]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.ResourcesClassTests<Resources>
         return Resources.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Resources]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resources]
 
 }

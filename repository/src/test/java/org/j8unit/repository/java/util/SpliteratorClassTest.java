@@ -20,6 +20,8 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
         return Spliterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator]
 
     @SuppressWarnings("rawtypes")
@@ -33,6 +35,8 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
         public Class<OfPrimitive> createNewSUT() {
             return OfPrimitive.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfPrimitive]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfPrimitive]
 
@@ -49,6 +53,8 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
             return OfLong.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfLong]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfLong]
 
     }
@@ -64,6 +70,8 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
             return OfInt.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfInt]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfInt]
 
     }
@@ -78,6 +86,8 @@ implements org.j8unit.repository.java.util.SpliteratorClassTests<Spliterator> {
         public Class<OfDouble> createNewSUT() {
             return OfDouble.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfDouble]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfDouble]
 

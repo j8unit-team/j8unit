@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_RMIServer_Stub>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi._RMIServer_Stub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.rmi._RMIServer_Stub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi._RMIServer_Stub]
 
 }

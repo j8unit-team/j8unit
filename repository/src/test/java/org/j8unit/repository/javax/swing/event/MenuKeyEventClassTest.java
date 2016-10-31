@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.swing.event.MenuKeyEventClassTests<MenuKe
                                        // javax.swing.MenuElement[], javax.swing.MenuSelectionManager);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.MenuKeyEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuKeyEvent]
 
 }

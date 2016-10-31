@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<JInternalFrame>, org.j8unit.repository.javax.s
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JInternalFrame]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JInternalFrame]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JInternalFrame]
 
     @RunWith(J8Unit4.class)
     public static class JDesktopIconTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<JInternalFrame>, org.j8unit.repository.javax.s
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JInternalFrame.JDesktopIcon], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JInternalFrame$JDesktopIcon]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JInternalFrame$JDesktopIcon]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JInternalFrame$JDesktopIcon]
 
     }
 

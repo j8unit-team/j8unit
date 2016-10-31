@@ -85,8 +85,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaCompiler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -182,8 +183,9 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
     }
 
 }

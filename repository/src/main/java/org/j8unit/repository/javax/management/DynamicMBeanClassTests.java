@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DynamicMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DynamicMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DynamicMBean]
 
 }

@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLOutputImplClassTests
         final SQLOutputImpl sut = null; // = new SQLOutputImpl(java.util.Vector, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SQLOutputImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SQLOutputImpl]
 
 }

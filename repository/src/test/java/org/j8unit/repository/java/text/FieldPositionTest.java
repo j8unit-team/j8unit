@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.text.FieldPositionTests<FieldPosition> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.text.FieldPosition], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.FieldPosition]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.FieldPosition]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.FieldPosition]
 
 }

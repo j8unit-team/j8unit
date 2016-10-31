@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.lang.invoke.VolatileCallSiteClassTests<Vol
         final VolatileCallSite sut = null; // = new VolatileCallSite(java.lang.invoke.MethodHandle);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.VolatileCallSite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.VolatileCallSite]
 
 }

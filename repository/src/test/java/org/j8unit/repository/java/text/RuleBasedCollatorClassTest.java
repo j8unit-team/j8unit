@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.text.RuleBasedCollatorClassTests<RuleBased
         final RuleBasedCollator sut = null; // = new RuleBasedCollator(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.RuleBasedCollator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.RuleBasedCollator]
 
 }

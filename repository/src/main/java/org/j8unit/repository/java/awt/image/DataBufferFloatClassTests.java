@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
                    DataBufferFloat.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.DataBufferFloat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.DataBufferFloat]
 
 }

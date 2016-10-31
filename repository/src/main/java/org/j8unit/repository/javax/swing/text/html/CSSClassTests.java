@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CSS.class!", CSS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.CSS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.CSS]
 
     /**
@@ -130,6 +132,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Attribute.class!",
                               Attribute.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.CSS$Attribute]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.CSS$Attribute]
 

@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.smartcardio.CardExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardNotPresentException]
 }

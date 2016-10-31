@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.spi.TimeZoneNameProviderClassTests<Ti
         return TimeZoneNameProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.spi.TimeZoneNameProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.spi.TimeZoneNameProvider]
 
 }

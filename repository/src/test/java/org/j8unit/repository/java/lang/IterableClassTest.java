@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.IterableClassTests<Iterable> {
         return Iterable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Iterable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Iterable]
 
 }

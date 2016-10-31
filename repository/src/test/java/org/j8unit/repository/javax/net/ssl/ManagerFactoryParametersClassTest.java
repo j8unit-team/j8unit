@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.ManagerFactoryParametersClassTest
         return ManagerFactoryParameters.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.ManagerFactoryParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.ManagerFactoryParameters]
 
 }

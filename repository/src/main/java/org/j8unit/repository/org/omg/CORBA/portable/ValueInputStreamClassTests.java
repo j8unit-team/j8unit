@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ValueInputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.ValueInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.ValueInputStream]
 
 }

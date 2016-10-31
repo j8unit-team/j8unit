@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.sampled.SourceDataLineClassTests<So
         return SourceDataLine.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.SourceDataLine]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.SourceDataLine]
 
 }

@@ -151,6 +151,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.PortableRemoteObjectDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.CORBA.PortableRemoteObjectDelegate]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.PortableRemoteObjectDelegate]
 }

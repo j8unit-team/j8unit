@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.NoClassDefFoundErrorClassTests<NoClas
         final NoClassDefFoundError sut = null; // = new NoClassDefFoundError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NoClassDefFoundError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NoClassDefFoundError]
 
 }

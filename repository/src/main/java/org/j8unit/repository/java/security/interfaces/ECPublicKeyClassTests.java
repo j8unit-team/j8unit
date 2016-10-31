@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.PublicKeyClassTests<SUT>, org.j8unit
                    ECPublicKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.ECPublicKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.ECPublicKey]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.ja
                    RandomAccessFile.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.RandomAccessFile]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.RandomAccessFile]
 
 }

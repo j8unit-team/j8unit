@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.instrument.ClassFileTransformerClassT
         return ClassFileTransformer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.instrument.ClassFileTransformer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.instrument.ClassFileTransformer]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.beans.ParameterDescriptorClassTests<Parame
         final ParameterDescriptor sut = new ParameterDescriptor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.ParameterDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.ParameterDescriptor]
 
 }

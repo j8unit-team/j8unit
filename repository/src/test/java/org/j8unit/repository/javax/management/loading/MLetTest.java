@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MLet>, org.j8unit.repository.javax.management.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.MLet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.MLet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.MLet]
 
 }

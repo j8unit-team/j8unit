@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.InvalidParameterException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.InvalidParameterException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.InvalidParameterException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.InvalidParameterException]
 }

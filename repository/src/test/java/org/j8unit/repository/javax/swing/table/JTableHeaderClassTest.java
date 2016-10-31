@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.table.JTableHeaderClassTests<JTable
         final JTableHeader sut = null; // = new JTableHeader(javax.swing.table.TableColumnModel);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.JTableHeader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.JTableHeader]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.cert.CertificateExpiredExceptionC
         final CertificateExpiredException sut = null; // = new CertificateExpiredException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateExpiredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateExpiredException]
 
 }

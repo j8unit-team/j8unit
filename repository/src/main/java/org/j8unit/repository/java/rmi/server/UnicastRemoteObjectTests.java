@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.UnicastRemoteObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.UnicastRemoteObject]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.UnicastRemoteObject]
 }

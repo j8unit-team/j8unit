@@ -79,6 +79,7 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.SwingPropertyChangeSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.SwingPropertyChangeSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.SwingPropertyChangeSupport]
 }

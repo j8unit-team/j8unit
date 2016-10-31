@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests<SUT> {
                    XPathFactoryConfigurationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathFactoryConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathFactoryConfigurationException]
 
 }

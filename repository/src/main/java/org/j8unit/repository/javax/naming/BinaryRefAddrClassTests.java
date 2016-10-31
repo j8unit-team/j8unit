@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.RefAddrClassTests<SUT> {
                    BinaryRefAddr.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.BinaryRefAddr]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.BinaryRefAddr]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    TransformAttribute.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TransformAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TransformAttribute]
 
 }

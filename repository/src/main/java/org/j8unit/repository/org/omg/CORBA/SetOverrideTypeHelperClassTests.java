@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SetOverrideTypeHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.SetOverrideTypeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.SetOverrideTypeHelper]
 
 }

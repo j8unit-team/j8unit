@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.DequeClassTests<Deque> {
         return Deque.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Deque]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Deque]
 
 }

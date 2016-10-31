@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.crypto.NoSuchPaddingExceptionClassTests<N
         final NoSuchPaddingException sut = null; // = new NoSuchPaddingException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.NoSuchPaddingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.NoSuchPaddingException]
 
 }

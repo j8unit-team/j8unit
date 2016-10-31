@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    PortableRemoteObject.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.PortableRemoteObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.PortableRemoteObject]
 
 }

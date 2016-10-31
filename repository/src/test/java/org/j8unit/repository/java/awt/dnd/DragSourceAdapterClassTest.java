@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceAdapterClassTests<DragSo
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragSourceAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceAdapter]
 
 }

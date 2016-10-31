@@ -32,6 +32,8 @@ org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolderT
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
 
 }

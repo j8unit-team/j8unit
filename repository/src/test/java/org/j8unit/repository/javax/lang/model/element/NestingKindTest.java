@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.lang.model.element.NestingKindTests<Nesti
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.element.NestingKind]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.NestingKind]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.NestingKind]
 
 }

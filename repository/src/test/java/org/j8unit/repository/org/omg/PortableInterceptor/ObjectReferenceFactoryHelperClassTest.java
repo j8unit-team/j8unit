@@ -176,6 +176,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFact
         // org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHelper]
 
 }

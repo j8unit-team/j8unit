@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.NameValuePairHelperClassTests<Nam
         // org.omg.CORBA.NameValuePair)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NameValuePairHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NameValuePairHelper]
 
 }

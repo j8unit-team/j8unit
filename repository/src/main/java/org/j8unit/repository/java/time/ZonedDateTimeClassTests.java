@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ZonedDateTime.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.ZonedDateTime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.ZonedDateTime]
 
 }

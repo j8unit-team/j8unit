@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<OBJ_ADAPTER>, org.j8unit.repository.org.omg.CO
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OBJ_ADAPTER]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.OBJ_ADAPTER]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.OBJ_ADAPTER]
 
 }

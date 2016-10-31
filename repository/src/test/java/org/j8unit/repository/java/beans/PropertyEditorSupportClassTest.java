@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.beans.PropertyEditorSupportClassTests<Prop
         final PropertyEditorSupport sut = null; // = new PropertyEditorSupport(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyEditorSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyEditorSupport]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.table.TableStringConverterClassTest
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableStringConverter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableStringConverter]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.CommonDataSourceClassTests<CommonData
         return CommonDataSource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.CommonDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.CommonDataSource]
 
 }

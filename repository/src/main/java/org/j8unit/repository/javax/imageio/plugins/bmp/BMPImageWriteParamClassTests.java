@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<SUT> {
                    BMPImageWriteParam.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
 
 }

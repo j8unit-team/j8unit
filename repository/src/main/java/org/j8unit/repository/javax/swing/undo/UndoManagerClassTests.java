@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerClassTests<S
                    UndoManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.UndoManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.UndoManager]
 
 }

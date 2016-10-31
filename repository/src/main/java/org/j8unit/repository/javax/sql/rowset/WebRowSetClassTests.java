@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetClassTests<SUT> {
                    WebRowSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.WebRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.WebRowSet]
 
 }

@@ -56,6 +56,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedLi
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextServicesListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextServicesListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextServicesListener]
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.TabSetClassTests<TabSet> {
         final TabSet sut = null; // = new TabSet(javax.swing.text.TabStop[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TabSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TabSet]
 
 }

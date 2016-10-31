@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ResourceBundle.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ResourceBundle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ResourceBundle]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Control.class!",
                               Control.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ResourceBundle$Control]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ResourceBundle$Control]
 

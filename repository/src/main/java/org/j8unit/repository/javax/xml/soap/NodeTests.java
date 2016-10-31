@@ -165,6 +165,7 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Node]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.Node]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Node]
 }

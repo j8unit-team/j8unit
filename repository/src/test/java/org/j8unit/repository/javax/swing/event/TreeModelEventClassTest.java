@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.swing.event.TreeModelEventClassTests<Tree
         final TreeModelEvent sut = null; // = new TreeModelEvent(Object, javax.swing.tree.TreePath);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TreeModelEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TreeModelEvent]
 
 }

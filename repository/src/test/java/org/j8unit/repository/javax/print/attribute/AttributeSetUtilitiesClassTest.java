@@ -317,6 +317,8 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetUtilitiesClas
         // javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.AttributeSet)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.AttributeSetUtilities]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.AttributeSetUtilities]
 
 }

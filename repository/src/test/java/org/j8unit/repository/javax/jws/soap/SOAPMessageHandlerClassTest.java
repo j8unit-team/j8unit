@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.soap.SOAPMessageHandlerClassTests<SOA
         return SOAPMessageHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPMessageHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPMessageHandler]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.CharArrayReaderClassTests<CharArrayRead
         final CharArrayReader sut = null; // = new CharArrayReader(char[], int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.CharArrayReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.CharArrayReader]
 
 }

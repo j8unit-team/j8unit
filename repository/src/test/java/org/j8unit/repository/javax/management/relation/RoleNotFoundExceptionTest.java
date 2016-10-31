@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RoleNotFoundException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RoleNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RoleNotFoundException]
 
 }

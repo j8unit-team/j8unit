@@ -208,6 +208,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecFactoryHelperClassTests<CodecF
         // write some test for {@link org.omg.IOP.CodecFactoryHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecFactoryHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecFactoryHelper]
 
 }

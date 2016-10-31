@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
                    Graphics2D.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Graphics2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Graphics2D]
 
 }

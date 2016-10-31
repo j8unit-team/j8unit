@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.logging.LogRecordClassTests<LogRecord
         final LogRecord sut = null; // = new LogRecord(java.util.logging.Level, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.LogRecord]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LogRecord]
 
 }

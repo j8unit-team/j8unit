@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<An
         return AnnotatedElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.AnnotatedElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AnnotatedElement]
 
 }

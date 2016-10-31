@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIClientSocketFactoryClassTes
         final SslRMIClientSocketFactory sut = new SslRMIClientSocketFactory();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.ssl.SslRMIClientSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.ssl.SslRMIClientSocketFactory]
 
 }

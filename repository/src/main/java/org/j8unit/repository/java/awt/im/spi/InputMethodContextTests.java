@@ -126,6 +126,7 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.im.spi.InputMethodContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.im.spi.InputMethodContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.im.spi.InputMethodContext]
 }

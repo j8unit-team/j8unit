@@ -102,6 +102,7 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MutableCallSite]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.MutableCallSite]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MutableCallSite]
 }

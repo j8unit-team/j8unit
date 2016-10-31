@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<SecurityException>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.SecurityException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.SecurityException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.SecurityException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PortInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.PortInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.PortInfo]
 
 }

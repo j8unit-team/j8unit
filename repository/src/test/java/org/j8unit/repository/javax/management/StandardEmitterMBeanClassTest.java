@@ -68,6 +68,8 @@ implements org.j8unit.repository.javax.management.StandardEmitterMBeanClassTests
                                                // javax.management.NotificationEmitter);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.StandardEmitterMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.StandardEmitterMBean]
 
 }

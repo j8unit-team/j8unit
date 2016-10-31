@@ -59,30 +59,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.metal.MetalLookAndFeel.getDefaults()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaults()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#isNativeLookAndFeel() public boolean
      * javax.swing.plaf.metal.MetalLookAndFeel.isNativeLookAndFeel()}.
      *
@@ -106,6 +82,30 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.metal.MetalLookAndFeel.getDefaults()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaults()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.plaf.metal.MetalLookAndFeel#getID()
      * public java.lang.String javax.swing.plaf.metal.MetalLookAndFeel.getID()}.
      *
@@ -121,6 +121,30 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_getID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getSupportsWindowDecorations() public boolean
+     * javax.swing.plaf.metal.MetalLookAndFeel.getSupportsWindowDecorations()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSupportsWindowDecorations()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,30 +179,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getSupportsWindowDecorations() public boolean
-     * javax.swing.plaf.metal.MetalLookAndFeel.getSupportsWindowDecorations()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSupportsWindowDecorations()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#provideErrorFeedback(java.awt.Component) public void
      * javax.swing.plaf.metal.MetalLookAndFeel.provideErrorFeedback(java.awt.Component)}.
      *
@@ -203,30 +203,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getLayoutStyle() public javax.swing.LayoutStyle
-     * javax.swing.plaf.metal.MetalLookAndFeel.getLayoutStyle()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayoutStyle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#isSupportedLookAndFeel() public boolean
      * javax.swing.plaf.metal.MetalLookAndFeel.isSupportedLookAndFeel()}.
      *
@@ -242,6 +218,30 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_isSupportedLookAndFeel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getLayoutStyle() public javax.swing.LayoutStyle
+     * javax.swing.plaf.metal.MetalLookAndFeel.getLayoutStyle()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayoutStyle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -296,6 +296,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.DoubleBinaryOperatorClassTes
         return DoubleBinaryOperator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.DoubleBinaryOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoubleBinaryOperator]
 
 }

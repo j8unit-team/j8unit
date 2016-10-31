@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.beans.PropertyChangeSupportClassTests<Prop
         final PropertyChangeSupport sut = null; // = new PropertyChangeSupport(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyChangeSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyChangeSupport]
 
 }

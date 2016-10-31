@@ -263,6 +263,7 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.StringMonitorMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.StringMonitorMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.StringMonitorMBean]
 }

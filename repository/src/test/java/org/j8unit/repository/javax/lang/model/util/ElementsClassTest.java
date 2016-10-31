@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.util.ElementsClassTests<Elemen
         return Elements.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.Elements]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.Elements]
 
 }

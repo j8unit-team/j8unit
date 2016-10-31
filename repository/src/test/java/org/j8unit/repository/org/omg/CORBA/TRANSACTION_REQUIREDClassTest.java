@@ -110,6 +110,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests<TR
         final TRANSACTION_REQUIRED sut = new TRANSACTION_REQUIRED();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TRANSACTION_REQUIRED]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TRANSACTION_REQUIRED]
 
 }

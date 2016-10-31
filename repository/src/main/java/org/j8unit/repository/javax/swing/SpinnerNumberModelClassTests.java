@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelClassTests<SUT> {
                    SpinnerNumberModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpinnerNumberModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpinnerNumberModel]
 
 }

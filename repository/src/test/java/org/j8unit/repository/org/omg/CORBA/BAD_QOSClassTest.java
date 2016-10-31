@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_QOSClassTests<BAD_QOS> {
         final BAD_QOS sut = new BAD_QOS();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_QOS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_QOS]
 
 }

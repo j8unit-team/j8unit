@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DesignMode.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.DesignMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.DesignMode]
 
 }

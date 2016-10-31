@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPConnectionFactoryClassTests<
         // write some test for {@link javax.xml.soap.SOAPConnectionFactory#newInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPConnectionFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPConnectionFactory]
 
 }

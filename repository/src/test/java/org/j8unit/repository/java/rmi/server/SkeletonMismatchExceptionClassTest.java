@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.rmi.server.SkeletonMismatchExceptionClassT
         final SkeletonMismatchException sut = null; // = new SkeletonMismatchException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.SkeletonMismatchException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.SkeletonMismatchException]
 
 }

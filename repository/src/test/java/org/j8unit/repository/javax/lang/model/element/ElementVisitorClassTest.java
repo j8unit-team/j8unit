@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.lang.model.element.ElementVisitorClassTes
         return ElementVisitor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.ElementVisitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.ElementVisitor]
 
 }

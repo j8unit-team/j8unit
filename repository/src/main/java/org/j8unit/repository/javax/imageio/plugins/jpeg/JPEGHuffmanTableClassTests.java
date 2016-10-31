@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    JPEGHuffmanTable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
 
 }

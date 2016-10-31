@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.BadAttributeValueExpExceptionC
         final BadAttributeValueExpException sut = null; // = new BadAttributeValueExpException(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.BadAttributeValueExpException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadAttributeValueExpException]
 
 }

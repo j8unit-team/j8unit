@@ -89,6 +89,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.TransformServiceClassTest
         // write some test for {@link javax.xml.crypto.dsig.TransformService#getInstance(String, String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.TransformService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.TransformService]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Encoding>, org.j8unit.repository.org.omg.IOP.E
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.Encoding]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.Encoding]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.Encoding]
 
 }

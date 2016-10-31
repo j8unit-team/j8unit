@@ -20,6 +20,8 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
         return Component.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Component]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Component]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
         throws Exception {
             // write some test for {@link java.awt.Component.BaselineResizeBehavior#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
 

@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>, or
                    JobMediaSheets.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobMediaSheets]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobMediaSheets]
 
 }

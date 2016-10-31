@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Result.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.Result]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.Result]
 
 }

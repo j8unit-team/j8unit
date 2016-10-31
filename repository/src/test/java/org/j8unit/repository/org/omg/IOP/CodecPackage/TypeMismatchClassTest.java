@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.TypeMismatchClassTests
         final TypeMismatch sut = null; // = new TypeMismatch(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecPackage.TypeMismatch]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecPackage.TypeMismatch]
 
 }

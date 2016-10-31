@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.SocketTimeoutExceptionClassTests<Socke
         final SocketTimeoutException sut = new SocketTimeoutException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketTimeoutException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketTimeoutException]
 
 }

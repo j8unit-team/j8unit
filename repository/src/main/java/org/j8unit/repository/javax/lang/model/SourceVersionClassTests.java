@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    SourceVersion.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.SourceVersion]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.SourceVersion]
 
 }

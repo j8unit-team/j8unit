@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.IconClassTests<Icon> {
         return Icon.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Icon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Icon]
 
 }

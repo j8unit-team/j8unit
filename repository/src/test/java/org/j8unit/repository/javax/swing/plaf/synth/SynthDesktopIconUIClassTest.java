@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthDesktopIconUIClassT
         // write some test for {@link javax.swing.plaf.synth.SynthDesktopIconUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthDesktopIconUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthDesktopIconUI]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.ConfigurationExceptionClassTests<C
         final ConfigurationException sut = new ConfigurationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ConfigurationException]
 
 }

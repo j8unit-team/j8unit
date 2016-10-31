@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.ws.spi.http.HttpContextClassTests<Htt
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.spi.http.HttpContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.spi.http.HttpContext]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BadKindClassTests
         final BadKind sut = null; // = new BadKind(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TypeCodePackage.BadKind]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TypeCodePackage.BadKind]
 
 }

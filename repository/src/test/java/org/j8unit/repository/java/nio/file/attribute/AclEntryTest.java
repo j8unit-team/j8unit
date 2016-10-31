@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryTests<AclEntry>
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.nio.file.attribute.AclEntry], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.attribute.AclEntry]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.AclEntry]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.AclEntry]
 
     @RunWith(J8Unit4.class)
     public static class BuilderTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryTests<AclEntry>
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.nio.file.attribute.AclEntry.Builder], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.attribute.AclEntry$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.AclEntry$Builder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.AclEntry$Builder]
 
     }
 

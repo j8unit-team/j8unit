@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.DoublePredicateClassTests<Do
         return DoublePredicate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.DoublePredicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoublePredicate]
 
 }

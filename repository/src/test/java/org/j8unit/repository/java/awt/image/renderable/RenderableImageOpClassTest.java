@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageOpClas
                                             // java.awt.image.renderable.ParameterBlock);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.RenderableImageOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderableImageOp]
 
 }

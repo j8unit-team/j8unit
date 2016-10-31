@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.nio.LongBufferClassTests<LongBuffer> {
         // write some test for {@link java.nio.LongBuffer#allocate(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.LongBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.LongBuffer]
 
 }

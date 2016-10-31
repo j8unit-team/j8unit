@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.InvalidParameterExceptionClassTes
         final InvalidParameterException sut = null; // = new InvalidParameterException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.InvalidParameterException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.InvalidParameterException]
 
 }

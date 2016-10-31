@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SecretKeyFactorySpi.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.SecretKeyFactorySpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SecretKeyFactorySpi]
 
 }

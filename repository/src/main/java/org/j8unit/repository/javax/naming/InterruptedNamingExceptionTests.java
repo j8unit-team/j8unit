@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InterruptedNamingException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.InterruptedNamingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.InterruptedNamingException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.InterruptedNamingException]
 }

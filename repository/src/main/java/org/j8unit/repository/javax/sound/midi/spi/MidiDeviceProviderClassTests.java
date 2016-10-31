@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    MidiDeviceProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.spi.MidiDeviceProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.spi.MidiDeviceProvider]
 
 }

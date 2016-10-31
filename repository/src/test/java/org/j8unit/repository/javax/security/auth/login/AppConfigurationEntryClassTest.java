@@ -47,6 +47,8 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
                                                 // java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
 
     @RunWith(J8Unit4.class)
@@ -59,6 +61,8 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
         public Class<LoginModuleControlFlag> createNewSUT() {
             return LoginModuleControlFlag.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
 

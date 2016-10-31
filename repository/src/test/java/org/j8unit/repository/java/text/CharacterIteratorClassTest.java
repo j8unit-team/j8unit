@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.CharacterIteratorClassTests<Character
         return CharacterIterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.CharacterIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.CharacterIterator]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.tree.TreeNodeClassTests<TreeNode> {
         return TreeNode.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeNode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeNode]
 
 }

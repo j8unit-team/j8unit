@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.util.jar.JarExceptionClassTests<JarExcepti
         final JarException sut = null; // = new JarException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.JarException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarException]
 
 }

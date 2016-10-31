@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.tools.JavaFileManagerTests<JavaFileManage
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.JavaFileManager], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaFileManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager]
 
     @RunWith(J8Unit4.class)
     public static class LocationTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.tools.JavaFileManagerTests<JavaFileManage
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.JavaFileManager.Location], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
 
     }
 

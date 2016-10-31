@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.sql.DataTruncationClassTests<DataTruncatio
         final DataTruncation sut = null; // = new DataTruncation(int, boolean, boolean, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DataTruncation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DataTruncation]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.IllegalAccessExceptionClassTests<Ille
         final IllegalAccessException sut = null; // = new IllegalAccessException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalAccessException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalAccessException]
 
 }

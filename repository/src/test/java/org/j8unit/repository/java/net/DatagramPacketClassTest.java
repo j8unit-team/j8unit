@@ -155,6 +155,8 @@ implements org.j8unit.repository.java.net.DatagramPacketClassTests<DatagramPacke
         final DatagramPacket sut = null; // = new DatagramPacket(byte[], int, java.net.SocketAddress);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.DatagramPacket]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramPacket]
 
 }

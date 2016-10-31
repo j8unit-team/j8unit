@@ -1380,6 +1380,8 @@ implements org.j8unit.repository.java.util.CollectionsClassTests<Collections> {
         // write some test for {@link java.util.Collections#emptyIterator()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Collections]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Collections]
 
 }

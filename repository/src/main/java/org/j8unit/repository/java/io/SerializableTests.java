@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.Serializable]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.Serializable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.Serializable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.Serializable]
 }

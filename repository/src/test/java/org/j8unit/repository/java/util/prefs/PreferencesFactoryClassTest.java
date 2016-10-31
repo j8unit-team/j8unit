@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.prefs.PreferencesFactoryClassTests<Pr
         return PreferencesFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.PreferencesFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.PreferencesFactory]
 
 }

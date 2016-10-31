@@ -90,6 +90,8 @@ implements org.j8unit.repository.javax.management.loading.PrivateMLetClassTests<
                                       // java.net.URLStreamHandlerFactory, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.PrivateMLet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.PrivateMLet]
 
 }

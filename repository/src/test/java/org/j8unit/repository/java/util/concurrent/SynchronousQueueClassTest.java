@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.SynchronousQueueClassTests
         final SynchronousQueue sut = null; // = new SynchronousQueue(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.SynchronousQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.SynchronousQueue]
 
 }

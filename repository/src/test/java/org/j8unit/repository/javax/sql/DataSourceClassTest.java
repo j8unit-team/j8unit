@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.DataSourceClassTests<DataSource> {
         return DataSource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.DataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.DataSource]
 
 }

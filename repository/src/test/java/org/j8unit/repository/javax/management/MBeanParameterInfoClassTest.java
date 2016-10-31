@@ -67,6 +67,8 @@ implements org.j8unit.repository.javax.management.MBeanParameterInfoClassTests<M
                                              // javax.management.Descriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanParameterInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanParameterInfo]
 
 }

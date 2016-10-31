@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<Chan
         return ChangeListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ChangeListener]
 
 }

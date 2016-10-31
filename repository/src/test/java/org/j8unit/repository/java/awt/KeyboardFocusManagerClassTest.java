@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests<Keyboar
         // java.awt.KeyboardFocusManager#setCurrentKeyboardFocusManager(java.awt.KeyboardFocusManager)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.KeyboardFocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyboardFocusManager]
 
 }

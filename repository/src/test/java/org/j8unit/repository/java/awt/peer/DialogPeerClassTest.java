@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.DialogPeerClassTests<DialogPeer> 
         return DialogPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.DialogPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.DialogPeer]
 
 }

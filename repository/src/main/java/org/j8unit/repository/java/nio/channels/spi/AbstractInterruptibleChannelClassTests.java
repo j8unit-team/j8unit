@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.channels.InterruptibleChannelClassTests<S
                    AbstractInterruptibleChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.spi.AbstractInterruptibleChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.AbstractInterruptibleChannel]
 
 }

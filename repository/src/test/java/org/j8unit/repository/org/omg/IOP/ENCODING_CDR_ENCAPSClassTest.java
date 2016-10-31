@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.ENCODING_CDR_ENCAPSClassTests<ENCOD
         return ENCODING_CDR_ENCAPS.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ENCODING_CDR_ENCAPS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ENCODING_CDR_ENCAPS]
 
 }

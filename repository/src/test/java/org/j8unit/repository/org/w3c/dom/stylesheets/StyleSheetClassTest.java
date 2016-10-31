@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetClassTests<St
         return StyleSheet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.stylesheets.StyleSheet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.stylesheets.StyleSheet]
 
 }

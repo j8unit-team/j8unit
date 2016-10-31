@@ -83,6 +83,8 @@ implements org.j8unit.repository.java.lang.LinkageErrorClassTests<LinkageError> 
         final LinkageError sut = null; // = new LinkageError(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.LinkageError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.LinkageError]
 
 }

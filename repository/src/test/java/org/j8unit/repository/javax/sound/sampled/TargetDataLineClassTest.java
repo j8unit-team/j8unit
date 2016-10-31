@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.sampled.TargetDataLineClassTests<Ta
         return TargetDataLine.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.TargetDataLine]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.TargetDataLine]
 
 }

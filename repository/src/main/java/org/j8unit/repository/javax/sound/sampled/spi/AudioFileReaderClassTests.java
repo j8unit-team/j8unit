@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AudioFileReader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.spi.AudioFileReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.spi.AudioFileReader]
 
 }

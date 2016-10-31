@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
                    Attribute.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.Attribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.Attribute]
 
 }

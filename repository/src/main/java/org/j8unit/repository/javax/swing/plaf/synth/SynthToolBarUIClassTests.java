@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests<SUT> {
                    SynthToolBarUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthToolBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthToolBarUI]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLResolverClassTests<XMLResol
         return XMLResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLResolver]
 
 }

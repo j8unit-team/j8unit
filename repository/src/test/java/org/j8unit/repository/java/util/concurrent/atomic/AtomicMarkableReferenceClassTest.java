@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicMarkableRefer
         final AtomicMarkableReference sut = null; // = new AtomicMarkableReference(Object, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicMarkableReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicMarkableReference]
 
 }

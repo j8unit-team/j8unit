@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<IllegalThreadStateException>, org.j8unit.repos
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IllegalThreadStateException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.IllegalThreadStateException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.IllegalThreadStateException]
 
 }

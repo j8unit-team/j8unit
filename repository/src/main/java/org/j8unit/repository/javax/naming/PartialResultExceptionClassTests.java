@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
                    PartialResultException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.PartialResultException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.PartialResultException]
 
 }

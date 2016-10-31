@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.print.StreamPrintServiceFactoryTests<Stre
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.print.StreamPrintServiceFactory], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.StreamPrintServiceFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.StreamPrintServiceFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.StreamPrintServiceFactory]
 
 }

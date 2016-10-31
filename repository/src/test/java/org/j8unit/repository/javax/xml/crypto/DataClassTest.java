@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.DataClassTests<Data> {
         return Data.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.Data]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.Data]
 
 }

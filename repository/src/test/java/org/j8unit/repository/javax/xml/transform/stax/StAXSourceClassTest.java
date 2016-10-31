@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXSourceClassTests<S
         final StAXSource sut = null; // = new StAXSource(javax.xml.stream.XMLEventReader);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.stax.StAXSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stax.StAXSource]
 
 }

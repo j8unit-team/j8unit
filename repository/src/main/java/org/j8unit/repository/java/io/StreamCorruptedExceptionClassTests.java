@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
                    StreamCorruptedException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.StreamCorruptedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.StreamCorruptedException]
 
 }

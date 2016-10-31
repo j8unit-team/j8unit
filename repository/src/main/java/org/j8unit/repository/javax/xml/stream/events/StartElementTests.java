@@ -168,6 +168,7 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.StartElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.events.StartElement]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.StartElement]
 }

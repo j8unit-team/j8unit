@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.NotSerializableExceptionClassTests<NotS
         final NotSerializableException sut = new NotSerializableException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.NotSerializableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.NotSerializableException]
 
 }

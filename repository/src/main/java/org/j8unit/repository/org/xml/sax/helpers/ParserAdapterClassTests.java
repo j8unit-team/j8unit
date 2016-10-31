@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ParserAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.ParserAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.ParserAdapter]
 
 }

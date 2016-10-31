@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthGraphicsUtilsClassT
         final SynthGraphicsUtils sut = new SynthGraphicsUtils();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthGraphicsUtils]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthGraphicsUtils]
 
 }

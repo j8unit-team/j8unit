@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHolderClassTests<NameHold
         final NameHolder sut = new NameHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NameHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameHolder]
 
 }

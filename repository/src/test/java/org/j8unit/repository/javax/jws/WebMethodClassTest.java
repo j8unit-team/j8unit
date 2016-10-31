@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.WebMethodClassTests<WebMethod> {
         return WebMethod.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebMethod]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebMethod]
 
 }

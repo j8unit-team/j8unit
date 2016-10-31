@@ -182,6 +182,8 @@ implements org.j8unit.repository.java.time.ClockClassTests<Clock> {
         // write some test for {@link java.time.Clock#offset(java.time.Clock, java.time.Duration)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Clock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Clock]
 
 }

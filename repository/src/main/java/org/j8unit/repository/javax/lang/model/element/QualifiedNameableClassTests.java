@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.element.ElementClassTests<SUT> {
                    QualifiedNameable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.QualifiedNameable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.QualifiedNameable]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.tools.OptionCheckerClassTests<OptionCheck
         return OptionChecker.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.OptionChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.OptionChecker]
 
 }

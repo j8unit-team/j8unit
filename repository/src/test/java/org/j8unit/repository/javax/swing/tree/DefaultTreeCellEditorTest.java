@@ -18,22 +18,9 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<Def
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.tree.DefaultTreeCellEditor], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
-    @RunWith(J8Unit4.class)
-    public static class DefaultTextFieldTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests<DefaultTextField> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
-
-        @Override
-        public DefaultTextField createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.tree.DefaultTreeCellEditor.DefaultTextField], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
-
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
     @RunWith(J8Unit4.class)
     public static class EditorContainerTest
@@ -46,7 +33,26 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<Def
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.tree.DefaultTreeCellEditor.EditorContainer], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DefaultTextFieldTest
+    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests<DefaultTextField> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
+        @Override
+        public DefaultTextField createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.tree.DefaultTreeCellEditor.DefaultTextField], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
 
     }
 

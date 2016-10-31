@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
                    BooleanControl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.BooleanControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.BooleanControl]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Type.class!",
                               Type.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.BooleanControl$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.BooleanControl$Type]
 

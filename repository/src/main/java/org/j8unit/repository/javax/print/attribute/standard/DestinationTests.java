@@ -104,6 +104,7 @@ org.j8unit.repository.javax.print.attribute.URISyntaxTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Destination]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Destination]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Destination]
 }

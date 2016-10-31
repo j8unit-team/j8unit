@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.LongAccumulatorClas
         final LongAccumulator sut = null; // = new LongAccumulator(java.util.function.LongBinaryOperator, long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.LongAccumulator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.LongAccumulator]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewC
         return BasicFileAttributeView.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.BasicFileAttributeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.BasicFileAttributeView]
 
 }

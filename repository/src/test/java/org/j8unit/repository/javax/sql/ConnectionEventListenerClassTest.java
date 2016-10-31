@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.ConnectionEventListenerClassTests<Con
         return ConnectionEventListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.ConnectionEventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.ConnectionEventListener]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ElementVisitor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.ElementVisitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.ElementVisitor]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.IIOException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.IIOException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.IIOException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.IIOException]
 }

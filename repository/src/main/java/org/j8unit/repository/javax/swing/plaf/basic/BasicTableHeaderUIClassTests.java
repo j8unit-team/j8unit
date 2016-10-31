@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUIClassTests<SUT> {
                    BasicTableHeaderUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUIClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MouseInputHandler.class!",
                               MouseInputHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler]
 

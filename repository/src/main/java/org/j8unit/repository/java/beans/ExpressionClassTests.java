@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.StatementClassTests<SUT> {
                    Expression.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Expression]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Expression]
 
 }

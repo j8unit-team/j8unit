@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>
                    SwingWorker.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SwingWorker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingWorker]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to StateValue.class!",
                               StateValue.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SwingWorker$StateValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingWorker$StateValue]
 

@@ -22,6 +22,29 @@ implements org.j8unit.repository.java.awt.im.InputMethodHighlightClassTests<Inpu
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.im.InputMethodHighlight#InputMethodHighlight(boolean, int) public
+     * java.awt.im.InputMethodHighlight(boolean,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_InputMethodHighlight_boolean_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final InputMethodHighlight sut = null; // = new InputMethodHighlight(boolean, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.im.InputMethodHighlight#InputMethodHighlight(boolean, int, int, java.util.Map) public
      * java.awt.im.InputMethodHighlight(boolean,int,int,java.util.Map<java.awt.font.TextAttribute, ?>)}.
      *
@@ -65,28 +88,7 @@ implements org.j8unit.repository.java.awt.im.InputMethodHighlightClassTests<Inpu
         final InputMethodHighlight sut = null; // = new InputMethodHighlight(boolean, int, int);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.im.InputMethodHighlight#InputMethodHighlight(boolean, int) public
-     * java.awt.im.InputMethodHighlight(boolean,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_InputMethodHighlight_boolean_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final InputMethodHighlight sut = null; // = new InputMethodHighlight(boolean, int);
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.InputMethodHighlight]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputMethodHighlight]
 

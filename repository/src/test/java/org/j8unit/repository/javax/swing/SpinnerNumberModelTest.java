@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SpinnerNumberModel>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpinnerNumberModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SpinnerNumberModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SpinnerNumberModel]
 
 }

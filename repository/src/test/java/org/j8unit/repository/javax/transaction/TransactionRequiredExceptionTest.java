@@ -32,6 +32,8 @@ org.j8unit.repository.javax.transaction.TransactionRequiredExceptionTests<Transa
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 
 }

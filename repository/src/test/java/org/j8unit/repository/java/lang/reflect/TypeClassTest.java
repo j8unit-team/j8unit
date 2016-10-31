@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.TypeClassTests<Type> {
         return Type.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Type]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Type]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ContextClassTests<SUT> {
                    DirContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.DirContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.DirContext]
 
 }

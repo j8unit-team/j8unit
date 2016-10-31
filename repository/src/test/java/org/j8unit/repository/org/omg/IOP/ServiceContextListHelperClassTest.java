@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextListHelperClassTests<
         // org.omg.IOP.ServiceContext[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ServiceContextListHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceContextListHelper]
 
 }

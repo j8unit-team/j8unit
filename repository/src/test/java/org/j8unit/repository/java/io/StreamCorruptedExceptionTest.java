@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StreamCorruptedException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.StreamCorruptedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.StreamCorruptedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.StreamCorruptedException]
 
 }

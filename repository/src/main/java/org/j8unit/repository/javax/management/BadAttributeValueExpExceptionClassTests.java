@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    BadAttributeValueExpException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.BadAttributeValueExpException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadAttributeValueExpException]
 
 }

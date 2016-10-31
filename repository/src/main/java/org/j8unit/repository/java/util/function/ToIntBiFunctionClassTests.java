@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ToIntBiFunction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.ToIntBiFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.ToIntBiFunction]
 
 }

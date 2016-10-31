@@ -481,6 +481,7 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Choice]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Choice]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Choice]
 }

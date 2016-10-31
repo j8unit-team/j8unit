@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeClassTests<SUT>, org.j8unit.r
                    _IDLTypeStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA._IDLTypeStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA._IDLTypeStub]
 
 }

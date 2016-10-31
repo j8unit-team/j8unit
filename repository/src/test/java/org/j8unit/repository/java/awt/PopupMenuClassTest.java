@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.PopupMenuClassTests<PopupMenu> {
         final PopupMenu sut = null; // = new PopupMenu(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PopupMenu]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PopupMenu]
 
 }

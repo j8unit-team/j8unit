@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    Modifier.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.Modifier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.Modifier]
 
 }

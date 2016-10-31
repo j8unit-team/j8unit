@@ -376,6 +376,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.Month]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.Month]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.Month]
 }

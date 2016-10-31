@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PooledConnection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.PooledConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.PooledConnection]
 
 }

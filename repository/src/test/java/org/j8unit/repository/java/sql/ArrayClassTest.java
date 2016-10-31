@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.ArrayClassTests<Array> {
         return Array.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Array]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Array]
 
 }

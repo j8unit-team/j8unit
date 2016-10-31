@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
         // write some test for {@link org.omg.PortableServer.POAPackage.InvalidPolicyHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.InvalidPolicyHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.InvalidPolicyHelper]
 
 }

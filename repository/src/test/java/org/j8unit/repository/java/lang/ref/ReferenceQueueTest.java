@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ReferenceQueue<T>>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ref.ReferenceQueue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ref.ReferenceQueue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.ReferenceQueue]
 
 }

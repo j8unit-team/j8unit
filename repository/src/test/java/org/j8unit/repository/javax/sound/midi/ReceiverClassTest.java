@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.ReceiverClassTests<Receiver> {
         return Receiver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Receiver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Receiver]
 
 }

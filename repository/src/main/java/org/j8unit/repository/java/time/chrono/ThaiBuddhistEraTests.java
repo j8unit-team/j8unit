@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.ThaiBuddhistEra]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.ThaiBuddhistEra]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.ThaiBuddhistEra]
 }

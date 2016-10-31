@@ -596,6 +596,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ChronoLocalDateTime<?>> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.ChronoLocalDateTime]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.ChronoLocalDateTime]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.ChronoLocalDateTime]
 }

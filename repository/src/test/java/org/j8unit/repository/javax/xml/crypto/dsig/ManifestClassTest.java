@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.ManifestClassTests<Manife
         return Manifest.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.Manifest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.Manifest]
 
 }

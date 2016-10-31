@@ -39,6 +39,8 @@ implements org.j8unit.repository.javax.swing.ToolTipManagerClassTests<ToolTipMan
         // write some test for {@link javax.swing.ToolTipManager#sharedInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ToolTipManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ToolTipManager]
 
 }

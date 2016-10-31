@@ -32,6 +32,8 @@ implements org.j8unit.repository.java.awt.im.InputMethodHighlightTests<InputMeth
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.im.InputMethodHighlight]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.im.InputMethodHighlight]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.im.InputMethodHighlight]
 
 }

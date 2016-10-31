@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.soap.SOAPHandlerClassTests
         return SOAPHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.soap.SOAPHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.soap.SOAPHandler]
 
 }

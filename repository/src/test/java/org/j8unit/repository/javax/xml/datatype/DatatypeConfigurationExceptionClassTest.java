@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExcepti
         final DatatypeConfigurationException sut = new DatatypeConfigurationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConfigurationException]
 
 }

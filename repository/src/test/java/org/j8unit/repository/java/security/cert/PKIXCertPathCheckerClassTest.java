@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTest
         return PKIXCertPathChecker.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXCertPathChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXCertPathChecker]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeClassTests<S
                    RelationTypeSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationTypeSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationTypeSupport]
 
 }

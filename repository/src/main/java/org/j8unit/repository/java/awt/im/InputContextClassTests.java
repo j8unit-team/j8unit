@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    InputContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.InputContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputContext]
 
 }

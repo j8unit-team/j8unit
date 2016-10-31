@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerClass
         return ORBInitializer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBInitializer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitializer]
 
 }

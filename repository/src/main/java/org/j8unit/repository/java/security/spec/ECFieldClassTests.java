@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ECField.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECField]
 
 }

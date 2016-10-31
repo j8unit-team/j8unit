@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyCl
         return ServantRetentionPolicy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicy]
 
 }

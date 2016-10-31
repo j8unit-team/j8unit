@@ -201,6 +201,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
         // write some test for {@link javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable]
 
     @RunWith(J8Unit4.class)
@@ -213,6 +215,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
         public Class<DropLocation> createNewSUT() {
             return DropLocation.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTable$DropLocation]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$DropLocation]
 
@@ -268,6 +272,8 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
         throws Exception {
             // write some test for {@link javax.swing.JTable.PrintMode#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTable$PrintMode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$PrintMode]
 

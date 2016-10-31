@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.event.ItemEventClassTests<ItemEvent> {
         final ItemEvent sut = null; // = new ItemEvent(java.awt.ItemSelectable, int, Object, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ItemEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ItemEvent]
 
 }

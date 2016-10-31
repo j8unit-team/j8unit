@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.text.EditorKitClassTests<EditorKit>
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.EditorKit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.EditorKit]
 
 }

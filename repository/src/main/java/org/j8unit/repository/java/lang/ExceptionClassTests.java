@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ThrowableClassTests<SUT> {
                    Exception.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Exception]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Exception]
 
 }

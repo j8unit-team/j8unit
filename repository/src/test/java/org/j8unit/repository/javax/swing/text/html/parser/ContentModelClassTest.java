@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ContentModelClassT
         final ContentModel sut = null; // = new ContentModel(javax.swing.text.html.parser.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.ContentModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.ContentModel]
 
 }

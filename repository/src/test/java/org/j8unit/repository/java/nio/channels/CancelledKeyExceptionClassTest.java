@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.CancelledKeyExceptionClassTes
         final CancelledKeyException sut = new CancelledKeyException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.CancelledKeyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.CancelledKeyException]
 
 }

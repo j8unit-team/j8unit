@@ -173,6 +173,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.Processor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.processing.Processor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.Processor]
 }

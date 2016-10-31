@@ -68,6 +68,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Box.class!", Box.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Box]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box]
 
     /**
@@ -130,6 +132,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Filler.class!",
                               Filler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Box$Filler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box$Filler]
 

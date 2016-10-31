@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, ClientInfoStatus> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.ClientInfoStatus]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.ClientInfoStatus]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.ClientInfoStatus]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.ClientInfoStatus]
 }

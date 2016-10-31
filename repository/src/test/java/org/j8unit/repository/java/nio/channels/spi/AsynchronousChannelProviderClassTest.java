@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.nio.channels.spi.AsynchronousChannelProvid
         // write some test for {@link java.nio.channels.spi.AsynchronousChannelProvider#provider()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.spi.AsynchronousChannelProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.AsynchronousChannelProvider]
 
 }

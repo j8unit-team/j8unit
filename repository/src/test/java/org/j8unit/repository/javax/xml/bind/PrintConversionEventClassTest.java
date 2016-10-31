@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.PrintConversionEventClassTests<P
         return PrintConversionEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.PrintConversionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.PrintConversionEvent]
 
 }

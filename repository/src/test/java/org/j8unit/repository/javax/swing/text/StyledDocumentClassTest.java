@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<Style
         return StyledDocument.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyledDocument]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyledDocument]
 
 }

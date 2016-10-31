@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.TypeMismatchCl
         final TypeMismatch sut = null; // = new TypeMismatch(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.TypeMismatch]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.TypeMismatch]
 
 }

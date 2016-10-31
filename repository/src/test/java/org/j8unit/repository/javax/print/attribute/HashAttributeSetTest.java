@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<HashAttributeSet>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.HashAttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashAttributeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashAttributeSet]
 
 }

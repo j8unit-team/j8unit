@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLabelUIClassTests<M
         // write some test for {@link javax.swing.plaf.metal.MetalLabelUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalLabelUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalLabelUI]
 
 }

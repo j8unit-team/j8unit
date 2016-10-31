@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    JMXConnectorFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorFactory]
 
 }

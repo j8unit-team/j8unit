@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Container>, org.j8unit.repository.java.awt.Con
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Container]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Container]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Container]
 
 }

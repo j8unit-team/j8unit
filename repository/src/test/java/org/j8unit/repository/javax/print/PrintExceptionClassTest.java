@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.print.PrintExceptionClassTests<PrintExcep
         final PrintException sut = new PrintException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.PrintException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.PrintException]
 
 }

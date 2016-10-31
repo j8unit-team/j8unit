@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationTests<Annotation
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.lang.annotation.Annotation], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.annotation.Annotation]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.annotation.Annotation]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.annotation.Annotation]
 
 }

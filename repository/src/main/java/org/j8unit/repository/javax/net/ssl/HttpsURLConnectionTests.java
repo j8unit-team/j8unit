@@ -237,6 +237,7 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.HttpsURLConnection]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.HttpsURLConnection]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.HttpsURLConnection]
 }

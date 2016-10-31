@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.xml.transform.sax.SAXResultTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.util.JAXBResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.util.JAXBResult]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.util.JAXBResult]
 }

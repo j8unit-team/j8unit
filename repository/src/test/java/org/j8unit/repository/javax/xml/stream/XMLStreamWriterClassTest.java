@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamWriterClassTests<XMLS
         return XMLStreamWriter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLStreamWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLStreamWriter]
 
 }

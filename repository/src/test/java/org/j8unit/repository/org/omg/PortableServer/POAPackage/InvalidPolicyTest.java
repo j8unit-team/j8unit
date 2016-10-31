@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidPolicy>, org.j8unit.repository.org.omg.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
 
 }

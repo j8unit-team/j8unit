@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.ARG_INOUTClassTests<ARG_INOUT> {
         return ARG_INOUT.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ARG_INOUT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ARG_INOUT]
 
 }

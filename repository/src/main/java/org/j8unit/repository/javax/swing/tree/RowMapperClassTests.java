@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RowMapper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.RowMapper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.RowMapper]
 
 }

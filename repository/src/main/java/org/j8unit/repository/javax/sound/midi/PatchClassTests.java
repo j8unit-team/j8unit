@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Patch.class!", Patch.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Patch]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Patch]
 
 }

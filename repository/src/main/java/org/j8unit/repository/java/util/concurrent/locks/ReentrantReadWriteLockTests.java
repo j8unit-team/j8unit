@@ -363,8 +363,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -564,8 +565,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
     }
 
     /**
@@ -813,8 +815,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
     }
 
 }

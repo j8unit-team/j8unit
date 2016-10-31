@@ -72,6 +72,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
                    ThreadPoolExecutor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
 
     /**
@@ -134,6 +136,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DiscardPolicy.class!",
                               DiscardPolicy.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
@@ -200,6 +204,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
                               AbortPolicy.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
     }
@@ -265,6 +271,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
                               CallerRunsPolicy.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
     }
@@ -329,6 +337,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DiscardOldestPolicy.class!",
                               DiscardOldestPolicy.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 

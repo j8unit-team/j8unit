@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.xml.sax.SAXNotSupportedExceptionClassTests<
         final SAXNotSupportedException sut = null; // = new SAXNotSupportedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.SAXNotSupportedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.SAXNotSupportedException]
 
 }

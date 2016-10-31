@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_JAVA_CODEBASEClassTests<TAG_JAV
         return TAG_JAVA_CODEBASE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_JAVA_CODEBASE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_JAVA_CODEBASE]
 
 }

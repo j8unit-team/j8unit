@@ -150,6 +150,7 @@ extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SU
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.PackageElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.PackageElement]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.PackageElement]
 }

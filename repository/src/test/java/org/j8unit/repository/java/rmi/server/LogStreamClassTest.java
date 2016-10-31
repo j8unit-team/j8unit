@@ -100,6 +100,8 @@ implements org.j8unit.repository.java.rmi.server.LogStreamClassTests<LogStream> 
         // write some test for {@link java.rmi.server.LogStream#setDefaultStream(java.io.PrintStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.LogStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.LogStream]
 
 }

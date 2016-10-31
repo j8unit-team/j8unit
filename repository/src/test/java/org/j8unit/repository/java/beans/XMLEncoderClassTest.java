@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.beans.XMLEncoderClassTests<XMLEncoder> {
         final XMLEncoder sut = null; // = new XMLEncoder(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.XMLEncoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.XMLEncoder]
 
 }

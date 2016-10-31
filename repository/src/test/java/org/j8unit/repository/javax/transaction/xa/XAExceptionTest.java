@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<XAException>, org.j8unit.repository.javax.tran
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.xa.XAException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.transaction.xa.XAException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.xa.XAException]
 
 }

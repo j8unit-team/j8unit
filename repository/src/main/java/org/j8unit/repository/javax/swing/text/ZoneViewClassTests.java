@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
                    ZoneView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.ZoneView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ZoneView]
 
 }

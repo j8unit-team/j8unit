@@ -423,6 +423,7 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.DataInputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataInputStream]
 }

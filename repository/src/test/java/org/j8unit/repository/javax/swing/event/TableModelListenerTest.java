@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.event.TableModelListenerTests<Table
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.TableModelListener], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.TableModelListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.TableModelListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.TableModelListener]
 
 }

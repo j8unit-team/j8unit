@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
                    InconsistentTypeCode.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
 
 }

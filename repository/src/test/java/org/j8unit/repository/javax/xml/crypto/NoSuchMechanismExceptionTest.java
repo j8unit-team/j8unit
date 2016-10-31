@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NoSuchMechanismException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.NoSuchMechanismException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.NoSuchMechanismException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.NoSuchMechanismException]
 
 }

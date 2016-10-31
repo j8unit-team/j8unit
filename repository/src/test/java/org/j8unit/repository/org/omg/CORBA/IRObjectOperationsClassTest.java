@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.IRObjectOperationsClassTests<IROb
         return IRObjectOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.IRObjectOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.IRObjectOperations]
 
 }

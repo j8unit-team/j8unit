@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.ThreadLocalClassTests<ThreadLocal> {
         // write some test for {@link ThreadLocal#withInitial(java.util.function.Supplier)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ThreadLocal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ThreadLocal]
 
 }

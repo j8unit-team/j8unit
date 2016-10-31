@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.crypto.CipherTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NullCipher]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NullCipher]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.NullCipher]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NullCipher]
 }

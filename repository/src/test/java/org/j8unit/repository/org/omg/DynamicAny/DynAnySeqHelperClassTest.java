@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnySeqHelperClassTests<Dy
         // write some test for {@link org.omg.DynamicAny.DynAnySeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnySeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnySeqHelper]
 
 }

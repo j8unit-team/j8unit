@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.management.relation.RoleUnresolvedClassTe
         final RoleUnresolved sut = null; // = new RoleUnresolved(String, java.util.List, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleUnresolved]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleUnresolved]
 
 }

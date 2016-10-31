@@ -106,6 +106,8 @@ implements org.j8unit.repository.java.util.TimerClassTests<Timer> {
         final Timer sut = new Timer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Timer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Timer]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHolderClassTe
         final UnknownUserExceptionHolder sut = new UnknownUserExceptionHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UnknownUserExceptionHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnknownUserExceptionHolder]
 
 }

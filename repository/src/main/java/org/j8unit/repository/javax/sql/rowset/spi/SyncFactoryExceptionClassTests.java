@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
                    SyncFactoryException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.SyncFactoryException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.SyncFactoryException]
 
 }

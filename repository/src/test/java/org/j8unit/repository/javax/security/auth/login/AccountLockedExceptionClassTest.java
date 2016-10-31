@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.AccountLockedExceptio
         final AccountLockedException sut = null; // = new AccountLockedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AccountLockedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AccountLockedException]
 
 }

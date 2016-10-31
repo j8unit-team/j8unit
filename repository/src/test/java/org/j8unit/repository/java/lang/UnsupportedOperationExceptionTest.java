@@ -31,6 +31,8 @@ org.j8unit.repository.java.lang.UnsupportedOperationExceptionTests<UnsupportedOp
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnsupportedOperationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.UnsupportedOperationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnsupportedOperationException]
 
 }

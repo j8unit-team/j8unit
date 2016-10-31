@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorSpiCla
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AlgorithmParameterGeneratorSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AlgorithmParameterGeneratorSpi]
 
 }

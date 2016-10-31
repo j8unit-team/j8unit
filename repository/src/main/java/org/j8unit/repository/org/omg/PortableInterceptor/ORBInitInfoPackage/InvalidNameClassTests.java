@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
                    InvalidName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName]
 
 }

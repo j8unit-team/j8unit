@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLInputImplClassTests<
         final SQLInputImpl sut = null; // = new SQLInputImpl(Object[], java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SQLInputImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SQLInputImpl]
 
 }

@@ -443,6 +443,7 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.X509CRLSelector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.X509CRLSelector]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.X509CRLSelector]
 }

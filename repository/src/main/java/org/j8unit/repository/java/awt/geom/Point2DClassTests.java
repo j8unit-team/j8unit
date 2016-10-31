@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    Point2D.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Double.class!",
                               Double.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D$Double]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Float.class!",
                               Float.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D$Float]
 

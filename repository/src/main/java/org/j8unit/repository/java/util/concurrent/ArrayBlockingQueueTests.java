@@ -505,6 +505,7 @@ org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ArrayBlockingQueue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ArrayBlockingQueue]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ArrayBlockingQueue]
 }

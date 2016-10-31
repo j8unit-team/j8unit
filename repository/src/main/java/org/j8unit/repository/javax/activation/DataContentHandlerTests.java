@@ -129,6 +129,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataContentHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.DataContentHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataContentHandler]
 }

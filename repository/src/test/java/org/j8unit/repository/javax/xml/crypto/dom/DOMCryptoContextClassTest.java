@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests
         return DOMCryptoContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dom.DOMCryptoContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dom.DOMCryptoContext]
 
 }

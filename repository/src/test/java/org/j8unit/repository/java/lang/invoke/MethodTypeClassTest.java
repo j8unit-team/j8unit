@@ -209,6 +209,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodTyp
         // write some test for {@link java.lang.invoke.MethodType#genericMethodType(int, boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodType]
 
 }

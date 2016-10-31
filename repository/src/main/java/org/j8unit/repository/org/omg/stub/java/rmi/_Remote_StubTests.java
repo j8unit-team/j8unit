@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT>, org.j8unit.repository.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 }

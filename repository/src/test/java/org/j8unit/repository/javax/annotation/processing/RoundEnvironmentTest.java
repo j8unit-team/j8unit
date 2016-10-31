@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.annotation.processing.RoundEnvironmentTes
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.annotation.processing.RoundEnvironment], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.processing.RoundEnvironment]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.processing.RoundEnvironment]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.RoundEnvironment]
 
 }

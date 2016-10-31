@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.FileLockInterruptionException
         final FileLockInterruptionException sut = new FileLockInterruptionException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileLockInterruptionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileLockInterruptionException]
 
 }

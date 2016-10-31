@@ -21,6 +21,8 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
         return DocumentationTool.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
             // write some test for {@link javax.tools.DocumentationTool.Location#valueOf(String)}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$Location]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$Location]
 
     }
@@ -89,6 +93,8 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
         public Class<DocumentationTask> createNewSUT() {
             return DocumentationTask.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
 

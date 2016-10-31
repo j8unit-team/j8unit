@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.SocketOptionsClassTests<SUT>, org.j8unit.
                    DatagramSocketImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.DatagramSocketImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramSocketImpl]
 
 }

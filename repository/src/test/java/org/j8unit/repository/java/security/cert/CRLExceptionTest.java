@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CRLException>, org.j8unit.repository.java.secu
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CRLException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CRLException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CRLException]
 
 }

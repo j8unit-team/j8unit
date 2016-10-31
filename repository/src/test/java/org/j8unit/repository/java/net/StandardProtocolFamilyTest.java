@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.net.StandardProtocolFamilyTests<StandardPr
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.StandardProtocolFamily]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.StandardProtocolFamily]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.StandardProtocolFamily]
 
 }

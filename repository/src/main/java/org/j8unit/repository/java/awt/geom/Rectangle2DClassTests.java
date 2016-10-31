@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
                    Rectangle2D.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Float.class!",
                               Float.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D$Float]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Double.class!",
                               Double.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D$Double]
 

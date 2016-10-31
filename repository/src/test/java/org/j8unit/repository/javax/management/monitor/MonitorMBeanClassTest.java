@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests
         return MonitorMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.MonitorMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.MonitorMBean]
 
 }

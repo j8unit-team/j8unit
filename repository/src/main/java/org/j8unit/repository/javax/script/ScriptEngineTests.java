@@ -349,6 +349,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.ScriptEngine]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.ScriptEngine]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.ScriptEngine]
 }

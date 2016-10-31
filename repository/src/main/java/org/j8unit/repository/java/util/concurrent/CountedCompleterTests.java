@@ -443,6 +443,7 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, T> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CountedCompleter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.CountedCompleter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CountedCompleter]
 }

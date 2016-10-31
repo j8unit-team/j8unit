@@ -176,6 +176,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotAct
         // org.omg.PortableServer.POAPackage.ServantNotActiveHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActiveHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActiveHelper]
 
 }

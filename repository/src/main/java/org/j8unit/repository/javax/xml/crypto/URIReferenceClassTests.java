@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    URIReference.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.URIReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.URIReference]
 
 }

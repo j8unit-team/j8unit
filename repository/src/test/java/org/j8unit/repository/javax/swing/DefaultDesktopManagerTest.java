@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultDesktopManager>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultDesktopManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultDesktopManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultDesktopManager]
 
 }

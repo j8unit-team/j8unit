@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.DocumentNameClas
         final DocumentName sut = null; // = new DocumentName(String, java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.DocumentName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.DocumentName]
 
 }

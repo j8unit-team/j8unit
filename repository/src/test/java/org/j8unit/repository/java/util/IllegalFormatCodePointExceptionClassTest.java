@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.IllegalFormatCodePointExceptionClassT
         final IllegalFormatCodePointException sut = null; // = new IllegalFormatCodePointException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatCodePointException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatCodePointException]
 
 }

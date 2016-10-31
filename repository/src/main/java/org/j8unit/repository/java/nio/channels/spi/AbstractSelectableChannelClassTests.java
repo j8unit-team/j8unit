@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.channels.SelectableChannelClassTests<SUT>
                    AbstractSelectableChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.spi.AbstractSelectableChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.AbstractSelectableChannel]
 
 }

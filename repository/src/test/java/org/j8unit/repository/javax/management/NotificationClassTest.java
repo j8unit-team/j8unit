@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.management.NotificationClassTests<Notific
         final Notification sut = null; // = new Notification(String, Object, long, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.Notification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.Notification]
 
 }

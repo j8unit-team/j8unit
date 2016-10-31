@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.AlreadyConnectedExceptionClas
         final AlreadyConnectedException sut = new AlreadyConnectedException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AlreadyConnectedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AlreadyConnectedException]
 
 }

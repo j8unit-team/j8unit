@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.EnumerationClassTests<Enumeration> {
         return Enumeration.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Enumeration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Enumeration]
 
 }

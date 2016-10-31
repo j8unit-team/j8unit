@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ValidationEventLocator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ValidationEventLocator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ValidationEventLocator]
 
 }

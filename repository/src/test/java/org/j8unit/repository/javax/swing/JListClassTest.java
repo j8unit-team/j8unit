@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
         final JList sut = new JList();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JList]
 
     @RunWith(J8Unit4.class)
@@ -120,6 +122,8 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
         public Class<DropLocation> createNewSUT() {
             return DropLocation.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JList$DropLocation]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JList$DropLocation]
 

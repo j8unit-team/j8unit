@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AttachmentPart.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.AttachmentPart]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.AttachmentPart]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.LinkPermissionClassTests<LinkPerm
         final LinkPermission sut = null; // = new LinkPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.LinkPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.LinkPermission]
 
 }

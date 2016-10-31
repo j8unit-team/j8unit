@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.InstrumentClassTests<Instrumen
         return Instrument.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Instrument]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Instrument]
 
 }

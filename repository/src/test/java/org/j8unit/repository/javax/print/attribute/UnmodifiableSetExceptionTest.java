@@ -32,6 +32,8 @@ org.j8unit.repository.javax.print.attribute.UnmodifiableSetExceptionTests<Unmodi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
 
 }

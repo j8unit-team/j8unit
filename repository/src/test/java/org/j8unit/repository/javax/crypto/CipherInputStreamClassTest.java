@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.crypto.CipherInputStreamClassTests<Cipher
         final CipherInputStream sut = null; // = new CipherInputStream(java.io.InputStream, javax.crypto.Cipher);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.CipherInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.CipherInputStream]
 
 }

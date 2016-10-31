@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.RGBImageFilterClassTests<SUT> {
                    GrayFilter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GrayFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GrayFilter]
 
 }

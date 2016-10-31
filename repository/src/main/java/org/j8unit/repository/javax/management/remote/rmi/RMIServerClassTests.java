@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
                    RMIServer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIServer]
 
 }

@@ -1358,6 +1358,8 @@ implements org.j8unit.repository.java.lang.StrictMathClassTests<StrictMath> {
         // write some test for {@link StrictMath#subtractExact(int, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.StrictMath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.StrictMath]
 
 }

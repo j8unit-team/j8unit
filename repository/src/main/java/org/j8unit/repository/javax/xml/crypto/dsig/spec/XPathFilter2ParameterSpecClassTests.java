@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecC
                    XPathFilter2ParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilter2ParameterSpec]
 
 }

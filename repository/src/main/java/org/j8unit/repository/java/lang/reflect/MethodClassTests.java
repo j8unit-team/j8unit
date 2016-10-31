@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableClassTests<SUT> {
                    Method.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Method]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Method]
 
 }

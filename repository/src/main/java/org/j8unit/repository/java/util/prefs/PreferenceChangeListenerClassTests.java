@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    PreferenceChangeListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.PreferenceChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.PreferenceChangeListener]
 
 }

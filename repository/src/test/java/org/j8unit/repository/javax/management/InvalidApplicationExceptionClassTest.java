@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.InvalidApplicationExceptionCla
         final InvalidApplicationException sut = null; // = new InvalidApplicationException(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.InvalidApplicationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.InvalidApplicationException]
 
 }

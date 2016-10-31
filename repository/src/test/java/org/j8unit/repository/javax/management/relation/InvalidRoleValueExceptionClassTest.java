@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.InvalidRoleValueExcep
         final InvalidRoleValueException sut = null; // = new InvalidRoleValueException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.InvalidRoleValueException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.InvalidRoleValueException]
 
 }

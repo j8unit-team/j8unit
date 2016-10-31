@@ -104,6 +104,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.DomHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.DomHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.DomHandler]
 }

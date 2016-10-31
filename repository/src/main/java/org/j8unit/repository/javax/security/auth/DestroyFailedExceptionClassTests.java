@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    DestroyFailedException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.DestroyFailedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.DestroyFailedException]
 
 }

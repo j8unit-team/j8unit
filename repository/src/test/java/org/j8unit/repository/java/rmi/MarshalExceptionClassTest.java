@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.rmi.MarshalExceptionClassTests<MarshalExce
         final MarshalException sut = null; // = new MarshalException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.MarshalException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.MarshalException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.ietf.jgss.GSSCredentialClassTests<GSSCreden
         return GSSCredential.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSCredential]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSCredential]
 
 }

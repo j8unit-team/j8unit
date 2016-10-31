@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterStateClas
         return PrinterState.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterState]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterState]
 
 }

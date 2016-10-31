@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IllformedLocaleException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IllformedLocaleException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.IllformedLocaleException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IllformedLocaleException]
 
 }

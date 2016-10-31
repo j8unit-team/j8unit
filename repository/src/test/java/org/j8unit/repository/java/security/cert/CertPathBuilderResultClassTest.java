@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.cert.CertPathBuilderResultClassTe
         return CertPathBuilderResult.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathBuilderResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathBuilderResult]
 
 }

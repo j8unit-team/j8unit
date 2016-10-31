@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CompositeData.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.CompositeData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeData]
 
 }

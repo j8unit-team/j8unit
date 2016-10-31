@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.CookieManagerClassTests<CookieManager>
         final CookieManager sut = new CookieManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CookieManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieManager]
 
 }

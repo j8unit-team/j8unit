@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.nio.file.spi.FileSystemProviderClassTests<
         // write some test for {@link java.nio.file.spi.FileSystemProvider#installedProviders()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.spi.FileSystemProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.spi.FileSystemProvider]
 
 }

@@ -90,6 +90,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceDropEventClassTests<Drag
                                               // int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragSourceDropEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceDropEvent]
 
 }

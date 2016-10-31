@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.RowSetClassTests<SUT> {
                    SyncResolver.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.SyncResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.SyncResolver]
 
 }

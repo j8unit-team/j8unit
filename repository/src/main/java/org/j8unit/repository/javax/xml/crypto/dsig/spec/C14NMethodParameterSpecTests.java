@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecT
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.spec.C14NMethodParameterSpec]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.C14NMethodParameterSpec]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.spec.C14NMethodParameterSpec]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.C14NMethodParameterSpec]
 }

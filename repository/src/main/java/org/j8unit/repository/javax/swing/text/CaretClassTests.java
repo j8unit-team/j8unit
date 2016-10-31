@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Caret.class!", Caret.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Caret]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Caret]
 
 }

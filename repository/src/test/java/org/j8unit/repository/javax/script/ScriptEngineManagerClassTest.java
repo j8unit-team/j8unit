@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.script.ScriptEngineManagerClassTests<Scri
         final ScriptEngineManager sut = new ScriptEngineManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptEngineManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptEngineManager]
 
 }

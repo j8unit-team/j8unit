@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.io.BufferedReaderClassTests<BufferedReader
         final BufferedReader sut = null; // = new BufferedReader(java.io.Reader);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.BufferedReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedReader]
 
 }

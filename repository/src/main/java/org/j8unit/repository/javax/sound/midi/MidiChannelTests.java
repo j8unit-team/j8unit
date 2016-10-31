@@ -606,6 +606,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiChannel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.MidiChannel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiChannel]
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
                    AWTPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTPermission]
 
 }

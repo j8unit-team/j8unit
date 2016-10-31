@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionCla
         final ClosedDirectoryStreamException sut = new ClosedDirectoryStreamException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.ClosedDirectoryStreamException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.ClosedDirectoryStreamException]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.RefreshFailedExceptionClass
         final RefreshFailedException sut = null; // = new RefreshFailedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.RefreshFailedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.RefreshFailedException]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.text.FormatClassTests<Format> {
         return Format.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Format]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Format]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.java.text.FormatClassTests<Format> {
         public Class<Field> createNewSUT() {
             return Field.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Format$Field]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Format$Field]
 

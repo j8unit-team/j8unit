@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Customizer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Customizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Customizer]
 
 }

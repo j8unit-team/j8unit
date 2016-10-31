@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SAAJResult>, org.j8unit.repository.javax.xml.s
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SAAJResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SAAJResult]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SAAJResult]
 
 }

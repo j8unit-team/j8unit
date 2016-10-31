@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.AnnotatedTypeVariableClassTes
         return AnnotatedTypeVariable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.AnnotatedTypeVariable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AnnotatedTypeVariable]
 
 }

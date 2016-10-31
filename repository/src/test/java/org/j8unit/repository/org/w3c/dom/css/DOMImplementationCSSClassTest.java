@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.DOMImplementationCSSClassTests<
         return DOMImplementationCSS.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.DOMImplementationCSS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.DOMImplementationCSS]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ScriptEngineFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptEngineFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptEngineFactory]
 
 }

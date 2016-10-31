@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.DetailClassTests<Detail> {
         return Detail.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.Detail]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.Detail]
 
 }

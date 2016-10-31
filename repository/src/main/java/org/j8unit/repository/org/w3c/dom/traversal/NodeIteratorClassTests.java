@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    NodeIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.traversal.NodeIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.traversal.NodeIterator]
 
 }

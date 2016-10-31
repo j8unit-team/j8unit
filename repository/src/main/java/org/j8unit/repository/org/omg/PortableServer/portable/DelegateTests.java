@@ -217,6 +217,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.portable.Delegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.portable.Delegate]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.portable.Delegate]
 }

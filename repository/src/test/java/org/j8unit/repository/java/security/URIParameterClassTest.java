@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.security.URIParameterClassTests<URIParamet
         final URIParameter sut = null; // = new URIParameter(java.net.URI);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.URIParameter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.URIParameter]
 
 }

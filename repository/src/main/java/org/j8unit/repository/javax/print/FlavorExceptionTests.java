@@ -55,6 +55,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.FlavorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.FlavorException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.FlavorException]
 }

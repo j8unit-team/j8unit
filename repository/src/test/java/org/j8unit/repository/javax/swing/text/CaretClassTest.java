@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.CaretClassTests<Caret> {
         return Caret.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Caret]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Caret]
 
 }

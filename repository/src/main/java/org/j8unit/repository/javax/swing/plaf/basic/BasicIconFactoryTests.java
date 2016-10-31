@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicIconFactory]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicIconFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicIconFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicIconFactory]
 }

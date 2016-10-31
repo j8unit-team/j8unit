@@ -55,6 +55,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RMIFailureHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.RMIFailureHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RMIFailureHandler]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularDataClassTest
         return TabularData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.TabularData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularData]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    RowSetEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetEvent]
 
 }

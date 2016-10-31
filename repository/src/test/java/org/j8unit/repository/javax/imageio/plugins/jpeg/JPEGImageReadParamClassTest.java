@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageReadParamCl
         final JPEGImageReadParam sut = new JPEGImageReadParam();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageReadParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageReadParam]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DescriptorRead.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DescriptorRead]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DescriptorRead]
 
 }

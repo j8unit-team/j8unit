@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiDeviceTransmitterClassTest
         return MidiDeviceTransmitter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiDeviceTransmitter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiDeviceTransmitter]
 
 }

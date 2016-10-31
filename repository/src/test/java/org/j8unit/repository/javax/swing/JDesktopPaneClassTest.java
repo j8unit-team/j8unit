@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.JDesktopPaneClassTests<JDesktopPane
         final JDesktopPane sut = new JDesktopPane();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JDesktopPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JDesktopPane]
 
 }

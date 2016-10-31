@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DatatypeConstants.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConstants]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Field.class!",
                               Field.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeConstants$Field]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConstants$Field]
 

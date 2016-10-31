@@ -129,6 +129,8 @@ implements org.j8unit.repository.java.net.URLClassLoaderClassTests<URLClassLoade
         // write some test for {@link java.net.URLClassLoader#newInstance(java.net.URL[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLClassLoader]
 
 }

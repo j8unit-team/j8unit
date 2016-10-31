@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorClassTests<KeyPai
         // write some test for {@link java.security.KeyPairGenerator#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyPairGenerator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyPairGenerator]
 
 }

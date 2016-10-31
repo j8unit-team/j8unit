@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.text.NumberFormatClassTests<SUT> {
                    ChoiceFormat.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.ChoiceFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.ChoiceFormat]
 
 }

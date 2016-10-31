@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTe
                    PrinterMoreInfoManufacturer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterMoreInfoManufacturer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterMoreInfoManufacturer]
 
 }

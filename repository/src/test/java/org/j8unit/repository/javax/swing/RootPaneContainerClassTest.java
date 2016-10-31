@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.RootPaneContainerClassTests<RootPan
         return RootPaneContainer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.RootPaneContainer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RootPaneContainer]
 
 }

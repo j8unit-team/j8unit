@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.ls.LSInputClassTests<LSInput> {
         return LSInput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ls.LSInput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ls.LSInput]
 
 }

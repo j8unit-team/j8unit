@@ -68,6 +68,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
                    DefaultMutableTreeNode.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.DefaultMutableTreeNode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultMutableTreeNode]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.DriverClassTests<Driver> {
         return Driver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Driver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Driver]
 
 }

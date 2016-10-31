@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JDialog>, org.j8unit.repository.javax.swing.JD
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JDialog]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JDialog]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JDialog]
 
 }

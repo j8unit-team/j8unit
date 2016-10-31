@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.management.remote.NotificationResultClass
                                              // javax.management.remote.TargetedNotification[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.NotificationResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.NotificationResult]
 
 }

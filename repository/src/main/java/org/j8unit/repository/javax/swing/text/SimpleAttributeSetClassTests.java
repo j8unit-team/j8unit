@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
                    SimpleAttributeSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.SimpleAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.SimpleAttributeSet]
 
 }

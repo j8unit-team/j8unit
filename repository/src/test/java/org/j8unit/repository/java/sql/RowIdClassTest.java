@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.RowIdClassTests<RowId> {
         return RowId.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.RowId]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.RowId]
 
 }

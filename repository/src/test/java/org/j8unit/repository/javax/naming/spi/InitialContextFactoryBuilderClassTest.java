@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.spi.InitialContextFactoryBuilderCl
         return InitialContextFactoryBuilder.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.InitialContextFactoryBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.InitialContextFactoryBuilder]
 
 }

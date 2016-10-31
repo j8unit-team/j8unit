@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.tree.MutableTreeNodeClassTests<Muta
         return MutableTreeNode.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.MutableTreeNode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.MutableTreeNode]
 
 }

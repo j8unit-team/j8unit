@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.annotation.Retention]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.annotation.Retention]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.annotation.Retention]
 }

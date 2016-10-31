@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.rmi.dgc.VMIDClassTests<VMID> {
         // write some test for {@link java.rmi.dgc.VMID#isUnique()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.dgc.VMID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.VMID]
 
 }

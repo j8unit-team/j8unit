@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
                    JComponent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComponent]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AccessibleJComponent.class!",
                               AccessibleJComponent.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
 

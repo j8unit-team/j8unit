@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to JMenu.class!", JMenu.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JMenu]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JMenu]
 
 }

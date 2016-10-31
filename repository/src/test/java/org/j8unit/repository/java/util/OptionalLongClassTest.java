@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.util.OptionalLongClassTests<OptionalLong> 
         // write some test for {@link java.util.OptionalLong#empty()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.OptionalLong]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.OptionalLong]
 
 }

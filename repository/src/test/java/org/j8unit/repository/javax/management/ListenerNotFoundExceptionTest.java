@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ListenerNotFoundException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ListenerNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.ListenerNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ListenerNotFoundException]
 
 }

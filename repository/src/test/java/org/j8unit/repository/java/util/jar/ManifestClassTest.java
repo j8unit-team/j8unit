@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.util.jar.ManifestClassTests<Manifest> {
         final Manifest sut = new Manifest();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Manifest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Manifest]
 
 }

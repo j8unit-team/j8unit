@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivatorClassTests<Activat
         return Activator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.Activator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.Activator]
 
 }

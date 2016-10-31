@@ -79,6 +79,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Tool]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.Tool]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Tool]
 }

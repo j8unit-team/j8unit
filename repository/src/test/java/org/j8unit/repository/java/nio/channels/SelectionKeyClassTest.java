@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.SelectionKeyClassTests<Select
         return SelectionKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.SelectionKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.SelectionKey]
 
 }

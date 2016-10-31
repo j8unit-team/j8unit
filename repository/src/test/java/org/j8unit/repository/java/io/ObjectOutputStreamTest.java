@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamTests<ObjectOutputStr
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.io.ObjectOutputStream], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutputStream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream]
 
     @RunWith(J8Unit4.class)
     public static class PutFieldTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamTests<ObjectOutputStr
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.io.ObjectOutputStream.PutField], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
 
     }
 

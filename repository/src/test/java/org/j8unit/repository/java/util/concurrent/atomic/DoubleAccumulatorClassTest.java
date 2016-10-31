@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.DoubleAccumulatorCl
         final DoubleAccumulator sut = null; // = new DoubleAccumulator(java.util.function.DoubleBinaryOperator, double);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.DoubleAccumulator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.DoubleAccumulator]
 
 }

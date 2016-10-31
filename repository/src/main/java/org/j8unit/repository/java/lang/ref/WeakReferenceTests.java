@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ref.ReferenceTests<SUT, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ref.WeakReference]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.WeakReference]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ref.WeakReference]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.WeakReference]
 }

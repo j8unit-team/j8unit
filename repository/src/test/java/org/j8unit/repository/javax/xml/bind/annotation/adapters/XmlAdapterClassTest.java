@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterCl
         return XmlAdapter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlAdapter]
 
 }

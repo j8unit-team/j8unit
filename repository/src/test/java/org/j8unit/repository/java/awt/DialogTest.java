@@ -25,7 +25,9 @@ implements org.j8unit.repository.java.awt.DialogTests<Dialog> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.awt.Dialog], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Dialog]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Dialog]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.java.awt.DialogTests<Dialog> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalExclusionType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Dialog$ModalExclusionType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Dialog$ModalExclusionType]
 
     }
 
@@ -71,7 +75,9 @@ implements org.j8unit.repository.java.awt.DialogTests<Dialog> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalityType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Dialog$ModalityType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Dialog$ModalityType]
 
     }
 

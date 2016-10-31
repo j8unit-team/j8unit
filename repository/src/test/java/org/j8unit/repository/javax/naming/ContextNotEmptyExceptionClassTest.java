@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.ContextNotEmptyExceptionClassTests
         final ContextNotEmptyException sut = new ContextNotEmptyException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ContextNotEmptyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ContextNotEmptyException]
 
 }

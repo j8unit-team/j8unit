@@ -241,6 +241,7 @@ extends org.j8unit.repository.java.util.HashMapTests<SUT, K, V> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.LinkedHashMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.LinkedHashMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.LinkedHashMap]
 }

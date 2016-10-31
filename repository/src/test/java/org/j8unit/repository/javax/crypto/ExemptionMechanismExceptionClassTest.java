@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.crypto.ExemptionMechanismExceptionClassTe
         final ExemptionMechanismException sut = null; // = new ExemptionMechanismException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.ExemptionMechanismException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.ExemptionMechanismException]
 
 }

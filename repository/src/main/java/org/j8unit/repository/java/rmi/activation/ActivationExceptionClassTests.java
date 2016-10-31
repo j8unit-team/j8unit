@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    ActivationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationException]
 
 }

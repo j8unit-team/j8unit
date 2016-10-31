@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Visibility.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Visibility]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Visibility]
 
 }

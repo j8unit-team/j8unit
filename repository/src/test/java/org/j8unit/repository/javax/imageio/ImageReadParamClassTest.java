@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.imageio.ImageReadParamClassTests<ImageRea
         final ImageReadParam sut = new ImageReadParam();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.ImageReadParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageReadParam]
 
 }

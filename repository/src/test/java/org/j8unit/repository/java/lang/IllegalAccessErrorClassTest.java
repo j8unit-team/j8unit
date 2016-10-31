@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.IllegalAccessErrorClassTests<IllegalA
         final IllegalAccessError sut = null; // = new IllegalAccessError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalAccessError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalAccessError]
 
 }

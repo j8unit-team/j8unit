@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Query>, org.j8unit.repository.javax.management
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.Query]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.Query]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.Query]
 
 }

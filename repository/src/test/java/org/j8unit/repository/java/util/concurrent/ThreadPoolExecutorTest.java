@@ -29,7 +29,9 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.concurrent.ThreadPoolExecutor], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -51,7 +53,9 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
     }
 
@@ -75,7 +79,9 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
     }
 
@@ -100,7 +106,9 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
     }
 
@@ -125,7 +133,9 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 
     }
 

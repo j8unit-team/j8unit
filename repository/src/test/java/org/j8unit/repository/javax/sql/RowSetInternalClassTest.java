@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.RowSetInternalClassTests<RowSetIntern
         return RowSetInternal.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetInternal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetInternal]
 
 }

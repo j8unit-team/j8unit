@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
                    TimerTask.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.TimerTask]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TimerTask]
 
 }

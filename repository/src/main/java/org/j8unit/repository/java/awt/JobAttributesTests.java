@@ -795,8 +795,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -822,8 +823,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
     }
 
     /**
@@ -851,8 +853,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
     }
 
     /**
@@ -880,8 +883,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
     }
 
     /**
@@ -910,8 +914,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
     }
 
     /**
@@ -939,8 +944,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
     }
 
 }

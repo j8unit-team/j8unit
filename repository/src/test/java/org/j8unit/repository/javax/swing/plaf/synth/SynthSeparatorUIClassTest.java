@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthSeparatorUIClassTes
         // write some test for {@link javax.swing.plaf.synth.SynthSeparatorUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthSeparatorUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthSeparatorUI]
 
 }

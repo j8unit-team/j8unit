@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.FloatControlClassTests<Floa
         return FloatControl.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.FloatControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.FloatControl]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.sampled.FloatControlClassTests<Floa
         public Class<Type> createNewSUT() {
             return Type.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.FloatControl$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.FloatControl$Type]
 

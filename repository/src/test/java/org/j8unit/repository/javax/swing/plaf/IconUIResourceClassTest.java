@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.IconUIResourceClassTests<IconU
         final IconUIResource sut = null; // = new IconUIResource(javax.swing.Icon);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.IconUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.IconUIResource]
 
 }

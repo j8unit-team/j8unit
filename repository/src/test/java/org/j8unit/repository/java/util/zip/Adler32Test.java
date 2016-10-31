@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Adler32>, org.j8unit.repository.java.util.zip.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Adler32]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.Adler32]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.Adler32]
 
 }

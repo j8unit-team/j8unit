@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynArrayOperationsClassTests
         return DynArrayOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynArrayOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynArrayOperations]
 
 }

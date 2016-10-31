@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterBuilderClassT
         // java.time.format.FormatStyle, java.time.chrono.Chronology, java.util.Locale)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
 
 }

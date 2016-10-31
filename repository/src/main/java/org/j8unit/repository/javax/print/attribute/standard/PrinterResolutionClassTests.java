@@ -69,6 +69,8 @@ org.j8unit.repository.javax.print.attribute.ResolutionSyntaxClassTests<SUT> {
                    PrinterResolution.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterResolution]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterResolution]
 
 }

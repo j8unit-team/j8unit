@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.crypto.spec.GCMParameterSpecClassTests<GC
         final GCMParameterSpec sut = null; // = new GCMParameterSpec(int, byte[], int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.GCMParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.GCMParameterSpec]
 
 }

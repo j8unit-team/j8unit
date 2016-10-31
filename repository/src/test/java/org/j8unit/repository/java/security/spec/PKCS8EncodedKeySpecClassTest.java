@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecClassTest
         final PKCS8EncodedKeySpec sut = null; // = new PKCS8EncodedKeySpec(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.PKCS8EncodedKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.PKCS8EncodedKeySpec]
 
 }

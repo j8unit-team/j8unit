@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    StandardSocketOptions.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.StandardSocketOptions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.StandardSocketOptions]
 
 }

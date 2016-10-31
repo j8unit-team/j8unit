@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests<
                    Monitor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.Monitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.Monitor]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DateFormatSymbols>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DateFormatSymbols]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.DateFormatSymbols]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.DateFormatSymbols]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    XmlJavaTypeAdapters.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters]
 
 }

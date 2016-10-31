@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ActiveEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.ActiveEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ActiveEvent]
 
 }

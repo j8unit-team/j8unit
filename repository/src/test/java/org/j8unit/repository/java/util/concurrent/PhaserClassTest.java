@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.util.concurrent.PhaserClassTests<Phaser> {
         final Phaser sut = null; // = new Phaser(java.util.concurrent.Phaser);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Phaser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Phaser]
 
 }

@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventTests<RowSorter
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.event.RowSorterEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.RowSorterEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.RowSorterEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.RowSorterEvent]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventTests<RowSorter
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.RowSorterEvent$Type]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.RowSorterEvent$Type]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.RowSorterEvent$Type]
 
     }
 

@@ -202,6 +202,7 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.MBeanServerNotificationFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.MBeanServerNotificationFilter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.MBeanServerNotificationFilter]
 }

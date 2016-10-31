@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.security.AlgorithmParameterGeneratorClassT
         // java.security.Provider)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AlgorithmParameterGenerator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AlgorithmParameterGenerator]
 
 }

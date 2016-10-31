@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Timer.class!", Timer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Timer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Timer]
 
 }

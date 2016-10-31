@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.OutputKeysClassTests<Output
         return OutputKeys.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.OutputKeys]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.OutputKeys]
 
 }

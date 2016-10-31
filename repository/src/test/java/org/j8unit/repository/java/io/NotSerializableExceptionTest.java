@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NotSerializableException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.NotSerializableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.NotSerializableException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.NotSerializableException]
 
 }

@@ -106,28 +106,6 @@ extends RepositoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#getAttributeNames()
-     * public abstract java.util.Enumeration<?> javax.swing.text.AttributeSet.getAttributeNames()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.AttributeSet#containsAttributes(javax.swing.text.AttributeSet) public abstract boolean
      * javax.swing.text.AttributeSet.containsAttributes(javax.swing.text.AttributeSet)}.
@@ -143,6 +121,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_containsAttributes_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.AttributeSet#getAttributeNames()
+     * public abstract java.util.Enumeration<?> javax.swing.text.AttributeSet.getAttributeNames()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -238,19 +238,20 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link CharacterAttribute public abstract static interface javax.swing.text.AttributeSet$CharacterAttribute}.
+     * {@link ColorAttribute public abstract static interface javax.swing.text.AttributeSet$ColorAttribute}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests}).
      * </p>
      *
      * @param SUT
@@ -260,13 +261,14 @@ extends RepositoryTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface CharacterAttributeTests<SUT extends CharacterAttribute>
+    public static abstract interface ColorAttributeTests<SUT extends ColorAttribute>
     extends RepositoryTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
     }
 
     /**
@@ -294,8 +296,39 @@ extends RepositoryTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link CharacterAttribute public abstract static interface javax.swing.text.AttributeSet$CharacterAttribute}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface CharacterAttributeTests<SUT extends CharacterAttribute>
+    extends RepositoryTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
     }
 
     /**
@@ -323,37 +356,9 @@ extends RepositoryTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ParagraphAttribute]
 
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$ParagraphAttribute]
+
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$ParagraphAttribute]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ColorAttribute public abstract static interface javax.swing.text.AttributeSet$ColorAttribute}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ColorAttributeTests<SUT extends ColorAttribute>
-    extends RepositoryTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
-
     }
 
 }

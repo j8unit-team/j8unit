@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.type.UnionTypeClassTests<Union
         return UnionType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.UnionType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.UnionType]
 
 }

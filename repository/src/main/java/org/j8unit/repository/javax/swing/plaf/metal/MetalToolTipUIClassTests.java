@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolTipUIClassTests<SU
                    MetalToolTipUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalToolTipUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalToolTipUI]
 
 }

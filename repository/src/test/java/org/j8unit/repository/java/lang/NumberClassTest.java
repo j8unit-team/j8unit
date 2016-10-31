@@ -38,6 +38,8 @@ implements org.j8unit.repository.java.lang.NumberClassTests<Number> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Number]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Number]
 
 }

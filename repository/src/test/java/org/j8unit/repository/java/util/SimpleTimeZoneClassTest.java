@@ -113,6 +113,8 @@ implements org.j8unit.repository.java.util.SimpleTimeZoneClassTests<SimpleTimeZo
                                          // int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.SimpleTimeZone]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.SimpleTimeZone]
 
 }

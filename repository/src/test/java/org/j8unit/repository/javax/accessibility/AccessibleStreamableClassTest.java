@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleStreamableClassTe
         return AccessibleStreamable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleStreamable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleStreamable]
 
 }

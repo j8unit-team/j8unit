@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.WebServiceClassTests<WebService> {
         return WebService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebService]
 
 }

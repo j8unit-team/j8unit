@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementClassTests<SUT> {
                    SOAPBody.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPBody]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPBody]
 
 }

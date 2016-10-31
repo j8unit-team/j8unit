@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.time.format.SignStyleClassTests<SignStyle>
         // write some test for {@link java.time.format.SignStyle#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.SignStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.SignStyle]
 
 }

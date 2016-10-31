@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.AttributesImplClassTests<At
         final AttributesImpl sut = new AttributesImpl();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.AttributesImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.AttributesImpl]
 
 }

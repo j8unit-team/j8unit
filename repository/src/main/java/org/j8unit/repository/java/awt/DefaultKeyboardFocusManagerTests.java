@@ -224,6 +224,7 @@ extends org.j8unit.repository.java.awt.KeyboardFocusManagerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
 }

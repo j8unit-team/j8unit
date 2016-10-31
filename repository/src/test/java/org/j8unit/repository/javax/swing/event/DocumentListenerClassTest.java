@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.DocumentListenerClassTests<Do
         return DocumentListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentListener]
 
 }

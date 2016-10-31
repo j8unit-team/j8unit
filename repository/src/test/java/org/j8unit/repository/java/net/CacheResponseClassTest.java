@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.CacheResponseClassTests<CacheResponse>
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CacheResponse]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CacheResponse]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    KeyRep.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyRep]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyRep]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Type.class!",
                               Type.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyRep$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyRep$Type]
 

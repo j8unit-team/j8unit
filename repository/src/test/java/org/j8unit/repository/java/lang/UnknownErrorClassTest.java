@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.UnknownErrorClassTests<UnknownError> 
         final UnknownError sut = null; // = new UnknownError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.UnknownError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.UnknownError]
 
 }

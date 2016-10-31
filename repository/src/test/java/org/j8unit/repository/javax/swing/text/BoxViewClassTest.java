@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.BoxViewClassTests<BoxView> {
         final BoxView sut = null; // = new BoxView(javax.swing.text.Element, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.BoxView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.BoxView]
 
 }

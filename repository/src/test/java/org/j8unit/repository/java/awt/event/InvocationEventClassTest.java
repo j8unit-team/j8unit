@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.awt.event.InvocationEventClassTests<Invoca
         final InvocationEvent sut = null; // = new InvocationEvent(Object, Runnable, Runnable, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.InvocationEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.InvocationEvent]
 
 }

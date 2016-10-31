@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.activation.FileDataSourceClassTests<FileD
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.activation.FileDataSource#FileDataSource(String) public
+     * javax.activation.FileDataSource(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_FileDataSource_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final FileDataSource sut = null; // = new FileDataSource(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.activation.FileDataSource#FileDataSource(java.io.File) public
      * javax.activation.FileDataSource(java.io.File)}.
      *
@@ -42,28 +65,7 @@ implements org.j8unit.repository.javax.activation.FileDataSourceClassTests<FileD
         final FileDataSource sut = null; // = new FileDataSource(java.io.File);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.activation.FileDataSource#FileDataSource(String) public
-     * javax.activation.FileDataSource(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_FileDataSource_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final FileDataSource sut = null; // = new FileDataSource(String);
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.FileDataSource]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.FileDataSource]
 

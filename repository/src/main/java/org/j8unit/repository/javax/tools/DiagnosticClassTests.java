@@ -69,6 +69,8 @@ extends RepositoryClassTests<SUT> {
                    Diagnostic.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.Diagnostic]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.Diagnostic]
 
     /**
@@ -131,6 +133,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Kind.class!",
                               Kind.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.Diagnostic$Kind]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.Diagnostic$Kind]
 

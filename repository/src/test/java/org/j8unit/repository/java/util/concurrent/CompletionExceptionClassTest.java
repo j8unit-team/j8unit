@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletionExceptionClassTe
         final CompletionException sut = null; // = new CompletionException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CompletionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CompletionException]
 
 }

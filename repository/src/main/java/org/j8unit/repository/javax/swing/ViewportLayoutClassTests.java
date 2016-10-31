@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ViewportLayout.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ViewportLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ViewportLayout]
 
 }

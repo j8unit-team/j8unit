@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.MalformedObjectNameExceptionCl
         final MalformedObjectNameException sut = null; // = new MalformedObjectNameException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MalformedObjectNameException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MalformedObjectNameException]
 
 }

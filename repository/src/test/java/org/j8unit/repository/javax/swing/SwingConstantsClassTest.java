@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.SwingConstantsClassTests<SwingConst
         return SwingConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SwingConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingConstants]
 
 }

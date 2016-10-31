@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.net.HttpRetryExceptionClassTests<HttpRetry
         final HttpRetryException sut = null; // = new HttpRetryException(String, int, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.HttpRetryException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpRetryException]
 
 }

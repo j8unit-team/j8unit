@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.text.TabStopClassTests<TabStop> {
         final TabStop sut = null; // = new TabStop(float, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TabStop]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TabStop]
 
 }

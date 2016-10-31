@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.WriteAbortedExceptionClassTests<WriteAb
         final WriteAbortedException sut = null; // = new WriteAbortedException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.WriteAbortedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.WriteAbortedException]
 
 }

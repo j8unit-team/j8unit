@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    BadLocationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.BadLocationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.BadLocationException]
 
 }

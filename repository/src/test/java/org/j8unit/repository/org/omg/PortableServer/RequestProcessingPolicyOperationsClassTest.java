@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyO
         return RequestProcessingPolicyOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicyOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicyOperations]
 
 }

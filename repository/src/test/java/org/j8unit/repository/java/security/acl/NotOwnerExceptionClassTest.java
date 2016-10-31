@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.acl.NotOwnerExceptionClassTests<N
         final NotOwnerException sut = new NotOwnerException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.NotOwnerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.NotOwnerException]
 
 }

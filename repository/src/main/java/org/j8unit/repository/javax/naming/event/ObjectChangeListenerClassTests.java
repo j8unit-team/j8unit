@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerClassTests<SUT> {
                    ObjectChangeListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.ObjectChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.ObjectChangeListener]
 
 }

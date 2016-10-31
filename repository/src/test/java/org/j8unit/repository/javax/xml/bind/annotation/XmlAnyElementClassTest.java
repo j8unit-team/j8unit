@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlAnyElementClassTes
         return XmlAnyElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlAnyElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlAnyElement]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeClassTests<SUT> {
                    ImageGraphicAttribute.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.ImageGraphicAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.ImageGraphicAttribute]
 
 }

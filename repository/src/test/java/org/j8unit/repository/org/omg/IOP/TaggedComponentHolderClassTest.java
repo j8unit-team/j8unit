@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentHolderClassTests<Tag
         final TaggedComponentHolder sut = new TaggedComponentHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedComponentHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedComponentHolder]
 
 }

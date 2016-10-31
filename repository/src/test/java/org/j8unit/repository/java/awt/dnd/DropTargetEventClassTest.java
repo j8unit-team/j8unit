@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetEventClassTests<DropTarg
         final DropTargetEvent sut = null; // = new DropTargetEvent(java.awt.dnd.DropTargetContext);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DropTargetEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetEvent]
 
 }

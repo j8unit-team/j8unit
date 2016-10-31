@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.tree.FixedHeightLayoutCacheClassTes
         final FixedHeightLayoutCache sut = new FixedHeightLayoutCache();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.FixedHeightLayoutCache]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.FixedHeightLayoutCache]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.PainterClassTests<Painter> {
         return Painter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Painter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Painter]
 
 }

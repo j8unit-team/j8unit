@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.StreamCorruptedExceptionClassTests<Stre
         final StreamCorruptedException sut = new StreamCorruptedException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.StreamCorruptedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.StreamCorruptedException]
 
 }

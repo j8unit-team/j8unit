@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AuthorizeCallback.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.AuthorizeCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.AuthorizeCallback]
 
 }

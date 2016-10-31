@@ -20,20 +20,24 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<StyleConst
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants]
 
     @RunWith(J8Unit4.class)
-    public static class CharacterConstantsTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests<CharacterConstants> {
+    public static class ParagraphConstantsTest
+    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests<ParagraphConstants> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
 
         @Override
-        public CharacterConstants createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.CharacterConstants], j8unit does not support a generic way to provide instances.");
+        public ParagraphConstants createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.ParagraphConstants], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
 
     }
 
@@ -48,7 +52,26 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<StyleConst
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.FontConstants], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$FontConstants]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CharacterConstantsTest
+    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.CharacterConstantsTests<CharacterConstants> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+
+        @Override
+        public CharacterConstants createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.CharacterConstants], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$CharacterConstants]
 
     }
 
@@ -63,22 +86,9 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsTests<StyleConst
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.ColorConstants], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ParagraphConstantsTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsTests.ParagraphConstantsTests<ParagraphConstants> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
-
-        @Override
-        public ParagraphConstants createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleConstants.ParagraphConstants], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleConstants$ParagraphConstants]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleConstants$ColorConstants]
 
     }
 

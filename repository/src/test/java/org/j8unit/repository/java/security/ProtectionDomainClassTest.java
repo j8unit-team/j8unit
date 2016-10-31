@@ -69,6 +69,8 @@ implements org.j8unit.repository.java.security.ProtectionDomainClassTests<Protec
                                            // java.security.Principal[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.ProtectionDomain]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.ProtectionDomain]
 
 }

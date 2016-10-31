@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ImageObserver.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ImageObserver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ImageObserver]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.InvalidPathExceptionClassTests<In
         final InvalidPathException sut = null; // = new InvalidPathException(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.InvalidPathException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.InvalidPathException]
 
 }

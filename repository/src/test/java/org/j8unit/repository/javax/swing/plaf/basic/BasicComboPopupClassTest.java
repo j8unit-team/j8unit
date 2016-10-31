@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTest
         final BasicComboPopup sut = null; // = new BasicComboPopup(javax.swing.JComboBox);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup]
 
     @RunWith(J8Unit4.class)
@@ -79,6 +81,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTest
             @SuppressWarnings("unused")
             final ListDataHandler sut = null; // = new ListDataHandler(javax.swing.plaf.basic.BasicComboPopup);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
 
@@ -118,6 +122,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTest
             final InvocationKeyHandler sut = null; // = new
                                                    // InvocationKeyHandler(javax.swing.plaf.basic.BasicComboPopup);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.HandlerResolverClassTests<
         return HandlerResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.HandlerResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.HandlerResolver]
 
 }

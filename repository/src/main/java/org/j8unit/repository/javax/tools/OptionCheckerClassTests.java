@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    OptionChecker.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.OptionChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.OptionChecker]
 
 }

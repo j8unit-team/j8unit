@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.security.spec.ECParameterSpecClassTests<EC
                                           // java.security.spec.ECPoint, java.math.BigInteger, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECParameterSpec]
 
 }

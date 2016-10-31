@@ -198,6 +198,8 @@ implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
         final SQLWarning sut = null; // = new SQLWarning(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLWarning]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLWarning]
 
 }

@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<SecurityManager>, org.j8unit.repository.java.l
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.SecurityManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.SecurityManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.SecurityManager]
 
 }

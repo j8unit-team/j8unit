@@ -694,6 +694,7 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.ComponentSampleModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.ComponentSampleModel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.ComponentSampleModel]
 }

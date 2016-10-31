@@ -163,6 +163,8 @@ implements org.j8unit.repository.org.omg.IOP.IORHelperClassTests<IORHelper> {
         // write some test for {@link org.omg.IOP.IORHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.IORHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.IORHelper]
 
 }

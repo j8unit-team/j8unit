@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.URIResolverClassTests<URIRe
         return URIResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.URIResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.URIResolver]
 
 }

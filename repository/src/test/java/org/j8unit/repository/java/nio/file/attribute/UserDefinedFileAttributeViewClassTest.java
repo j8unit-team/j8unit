@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.attribute.UserDefinedFileAttribut
         return UserDefinedFileAttributeView.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.UserDefinedFileAttributeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.UserDefinedFileAttributeView]
 
 }

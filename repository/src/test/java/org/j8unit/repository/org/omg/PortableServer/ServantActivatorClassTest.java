@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorClassTes
         return ServantActivator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantActivator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantActivator]
 
 }

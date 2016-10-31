@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TreeCellRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeCellRenderer]
 
 }

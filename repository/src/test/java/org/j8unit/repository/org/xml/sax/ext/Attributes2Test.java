@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<Attributes2> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.xml.sax.ext.Attributes2], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
 
 }

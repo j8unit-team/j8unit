@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.GenericDeclarationClassTests<
         return GenericDeclaration.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.GenericDeclaration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.GenericDeclaration]
 
 }

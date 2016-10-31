@@ -39,29 +39,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.UIDefaults#getColor(Object, java.util.Locale) public java.awt.Color
-     * javax.swing.UIDefaults.getColor(java.lang.Object,java.util.Locale)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColor_Object_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getColor(Object) public
      * java.awt.Color javax.swing.UIDefaults.getColor(java.lang.Object)}.
      *
@@ -85,8 +62,8 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.UIDefaults#getInsets(Object, java.util.Locale) public java.awt.Insets
-     * javax.swing.UIDefaults.getInsets(java.lang.Object,java.util.Locale)}.
+     * {@link javax.swing.UIDefaults#getColor(Object, java.util.Locale) public java.awt.Color
+     * javax.swing.UIDefaults.getColor(java.lang.Object,java.util.Locale)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +75,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInsets_Object_Locale()
+    public default void test_getColor_Object_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,6 +98,29 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Test
     @Category(Draft.class)
     public default void test_getInsets_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.UIDefaults#getInsets(Object, java.util.Locale) public java.awt.Insets
+     * javax.swing.UIDefaults.getInsets(java.lang.Object,java.util.Locale)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInsets_Object_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -331,28 +331,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getFont(Object) public
-     * java.awt.Font javax.swing.UIDefaults.getFont(java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFont_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.UIDefaults#getFont(Object, java.util.Locale) public java.awt.Font
      * javax.swing.UIDefaults.getFont(java.lang.Object,java.util.Locale)}.
@@ -368,6 +346,28 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
     @Test
     @Category(Draft.class)
     public default void test_getFont_Object_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.UIDefaults#getFont(Object) public
+     * java.awt.Font javax.swing.UIDefaults.getFont(java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFont_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -756,19 +756,20 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ActiveValue
-     * public abstract static interface javax.swing.UIDefaults$ActiveValue}.
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link LazyInputMap public static class javax.swing.UIDefaults$LazyInputMap}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests}).
      * </p>
      *
      * @param SUT
@@ -778,16 +779,16 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ActiveValueTests<SUT extends ActiveValue>
-    extends RepositoryTests<SUT> {
+    public static abstract interface LazyInputMapTests<SUT extends LazyInputMap>
+    extends org.j8unit.repository.javax.swing.UIDefaultsTests.LazyValueTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.UIDefaults.ActiveValue#createValue(javax.swing.UIDefaults) public abstract
-         * java.lang.Object javax.swing.UIDefaults$ActiveValue.createValue(javax.swing.UIDefaults)}.
+         * {@link javax.swing.UIDefaults.LazyInputMap#createValue(javax.swing.UIDefaults) public java.lang.Object
+         * javax.swing.UIDefaults$LazyInputMap.createValue(javax.swing.UIDefaults)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -797,6 +798,7 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
          * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
         @Category(Draft.class)
         public default void test_createValue_UIDefaults()
@@ -806,8 +808,9 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
     }
 
     /**
@@ -859,21 +862,22 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
     }
 
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link LazyInputMap public static class javax.swing.UIDefaults$LazyInputMap}.
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ActiveValue
+     * public abstract static interface javax.swing.UIDefaults$ActiveValue}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests}).
+     * (see {@link org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests}).
      * </p>
      *
      * @param SUT
@@ -883,16 +887,16 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LazyInputMapTests<SUT extends LazyInputMap>
-    extends org.j8unit.repository.javax.swing.UIDefaultsTests.LazyValueTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    public static abstract interface ActiveValueTests<SUT extends ActiveValue>
+    extends RepositoryTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
 
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.UIDefaults.LazyInputMap#createValue(javax.swing.UIDefaults) public java.lang.Object
-         * javax.swing.UIDefaults$LazyInputMap.createValue(javax.swing.UIDefaults)}.
+         * {@link javax.swing.UIDefaults.ActiveValue#createValue(javax.swing.UIDefaults) public abstract
+         * java.lang.Object javax.swing.UIDefaults$ActiveValue.createValue(javax.swing.UIDefaults)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -902,7 +906,6 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
          * @since 0.9.0
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
         @Test
         @Category(Draft.class)
         public default void test_createValue_UIDefaults()
@@ -912,8 +915,9 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
     }
 
     /**
@@ -964,8 +968,9 @@ extends org.j8unit.repository.java.util.HashtableTests<SUT, Object, Object> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
     }
 
 }

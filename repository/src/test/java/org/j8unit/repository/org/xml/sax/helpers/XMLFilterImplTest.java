@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<XMLFilterImpl>, org.j8unit.repository.org.xml.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.XMLFilterImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.XMLFilterImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.XMLFilterImpl]
 
 }

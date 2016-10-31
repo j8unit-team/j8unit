@@ -395,6 +395,28 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#addSeparator() public void
+     * javax.swing.JToolBar.addSeparator()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addSeparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JToolBar#addSeparator(java.awt.Dimension) public void
      * javax.swing.JToolBar.addSeparator(java.awt.Dimension)}.
@@ -410,28 +432,6 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addSeparator_Dimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar#addSeparator() public void
-     * javax.swing.JToolBar.addSeparator()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addSeparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -504,8 +504,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolBar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToolBar]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolBar]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -533,29 +534,6 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar.Separator#getMaximumSize()
-         * public java.awt.Dimension javax.swing.JToolBar$Separator.getMaximumSize()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getMaximumSize()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.JToolBar.Separator#setSeparatorSize(java.awt.Dimension) public void
          * javax.swing.JToolBar$Separator.setSeparatorSize(java.awt.Dimension)}.
@@ -571,6 +549,29 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_setSeparatorSize_Dimension()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JToolBar.Separator#getMaximumSize()
+         * public java.awt.Dimension javax.swing.JToolBar$Separator.getMaximumSize()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getMaximumSize()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -670,8 +671,9 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolBar$Separator]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToolBar$Separator]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolBar$Separator]
     }
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DataOutputStreamClassTests<DataOu
         return DataOutputStream.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DataOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DataOutputStream]
 
 }

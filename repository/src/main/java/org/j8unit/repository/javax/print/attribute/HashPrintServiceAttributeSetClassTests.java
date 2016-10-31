@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
                    HashPrintServiceAttributeSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.HashPrintServiceAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.HashPrintServiceAttributeSet]
 
 }

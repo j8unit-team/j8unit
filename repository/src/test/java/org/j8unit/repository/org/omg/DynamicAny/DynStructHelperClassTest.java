@@ -209,6 +209,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynStructHelperClassTests<Dy
         // write some test for {@link org.omg.DynamicAny.DynStructHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynStructHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynStructHelper]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.print.ServiceUIClassTests<ServiceUI> {
         // javax.print.attribute.PrintRequestAttributeSet)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.ServiceUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.ServiceUI]
 
 }

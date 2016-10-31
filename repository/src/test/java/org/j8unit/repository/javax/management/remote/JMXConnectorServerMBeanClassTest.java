@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerMBean
         return JMXConnectorServerMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorServerMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorServerMBean]
 
 }

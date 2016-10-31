@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.UnexpectedExceptionClassTests<Unexpect
         final UnexpectedException sut = null; // = new UnexpectedException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.UnexpectedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.UnexpectedException]
 
 }

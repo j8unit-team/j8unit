@@ -400,6 +400,7 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Set]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Set]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Set]
 }

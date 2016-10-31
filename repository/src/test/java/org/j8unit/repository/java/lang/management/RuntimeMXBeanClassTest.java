@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.RuntimeMXBeanClassTests<Ru
         return RuntimeMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.RuntimeMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.RuntimeMXBean]
 
 }

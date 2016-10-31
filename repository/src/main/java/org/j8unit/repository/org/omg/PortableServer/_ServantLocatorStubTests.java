@@ -106,6 +106,7 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests<SUT>, o
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
 }

@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<U
         // java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.UnicastRemoteObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.UnicastRemoteObject]
 
 }

@@ -122,8 +122,9 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileObject]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileObject]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -149,8 +150,9 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaFileObject$Kind]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileObject$Kind]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileObject$Kind]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileObject$Kind]
     }
 
 }

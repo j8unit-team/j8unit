@@ -30,6 +30,7 @@ org.j8unit.repository.org.omg.PortableServer.ServantManagerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantActivator]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantActivator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.ServantActivator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantActivator]
 }

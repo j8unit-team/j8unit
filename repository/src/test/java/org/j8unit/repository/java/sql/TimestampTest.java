@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.sql.TimestampTests<Timestamp> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.sql.Timestamp], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.Timestamp]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.Timestamp]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Timestamp]
 
 }

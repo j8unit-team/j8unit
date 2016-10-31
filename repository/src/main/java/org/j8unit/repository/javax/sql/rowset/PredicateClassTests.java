@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Predicate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.Predicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.Predicate]
 
 }

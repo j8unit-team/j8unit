@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    WebServiceException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServiceException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServiceException]
 
 }

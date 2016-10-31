@@ -215,6 +215,8 @@ implements org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExcepti
                                                                    // String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLIntegrityConstraintViolationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLIntegrityConstraintViolationException]
 
 }

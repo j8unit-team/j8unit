@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    OBJ_ADAPTER.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.OBJ_ADAPTER]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OBJ_ADAPTER]
 
 }

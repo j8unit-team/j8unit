@@ -17,6 +17,8 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<Docum
         return DocumentEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent]
 
     @RunWith(J8Unit4.class)
@@ -29,6 +31,8 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<Docum
         public Class<EventType> createNewSUT() {
             return EventType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentEvent$EventType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$EventType]
 
@@ -44,6 +48,8 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventClassTests<Docum
         public Class<ElementChange> createNewSUT() {
             return ElementChange.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.DocumentEvent$ElementChange]
 

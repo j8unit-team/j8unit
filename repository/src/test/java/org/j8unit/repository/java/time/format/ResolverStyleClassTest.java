@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.time.format.ResolverStyleClassTests<Resolv
         // write some test for {@link java.time.format.ResolverStyle#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.ResolverStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.ResolverStyle]
 
 }

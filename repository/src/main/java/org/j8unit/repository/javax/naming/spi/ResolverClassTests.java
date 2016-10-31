@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Resolver.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.Resolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.Resolver]
 
 }

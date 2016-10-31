@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<WebSer
         return WebServiceFeature.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServiceFeature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServiceFeature]
 
 }

@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.management.ImmutableDescriptorTests<Immut
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ImmutableDescriptor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.ImmutableDescriptor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ImmutableDescriptor]
 
 }

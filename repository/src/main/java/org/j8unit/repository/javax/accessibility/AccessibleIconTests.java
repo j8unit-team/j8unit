@@ -125,6 +125,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleIcon]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleIcon]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleIcon]
 }

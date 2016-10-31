@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.util.LinkedHashSetClassTests<LinkedHashSet
         final LinkedHashSet sut = null; // = new LinkedHashSet(int, float);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.LinkedHashSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.LinkedHashSet]
 
 }

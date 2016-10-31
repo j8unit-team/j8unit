@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.FileFilterClassTests<FileFilter> {
         return FileFilter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileFilter]
 
 }

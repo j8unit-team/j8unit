@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.lang.management.LockInfoClassTests<LockInf
         // write some test for {@link java.lang.management.LockInfo#from(javax.management.openmbean.CompositeData)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.LockInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.LockInfo]
 
 }

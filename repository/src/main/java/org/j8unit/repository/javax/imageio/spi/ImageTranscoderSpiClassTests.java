@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderClassTests<SUT
                    ImageTranscoderSpi.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.ImageTranscoderSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.ImageTranscoderSpi]
 
 }

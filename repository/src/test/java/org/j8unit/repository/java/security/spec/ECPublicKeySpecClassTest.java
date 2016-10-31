@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.security.spec.ECPublicKeySpecClassTests<EC
                                           // java.security.spec.ECParameterSpec);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECPublicKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECPublicKeySpec]
 
 }

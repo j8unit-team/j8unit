@@ -84,6 +84,8 @@ implements org.j8unit.repository.javax.swing.JTabbedPaneClassTests<JTabbedPane> 
         final JTabbedPane sut = new JTabbedPane();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTabbedPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTabbedPane]
 
 }

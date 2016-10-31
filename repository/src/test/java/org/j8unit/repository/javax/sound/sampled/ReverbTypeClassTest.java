@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.sampled.ReverbTypeClassTests<Reverb
         return ReverbType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.ReverbType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.ReverbType]
 
 }

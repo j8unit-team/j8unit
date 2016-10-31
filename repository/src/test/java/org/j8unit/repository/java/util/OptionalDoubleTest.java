@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.OptionalDoubleTests<OptionalDouble> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.OptionalDouble], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.OptionalDouble]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.OptionalDouble]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.OptionalDouble]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.ButtonPeerClassTests<ButtonPeer> 
         return ButtonPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ButtonPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ButtonPeer]
 
 }

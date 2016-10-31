@@ -25,7 +25,9 @@ implements org.j8unit.repository.java.util.CalendarTests<Calendar> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Calendar], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Calendar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Calendar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Calendar]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.java.util.CalendarTests<Calendar> {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Calendar$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Calendar$Builder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Calendar$Builder]
 
     }
 

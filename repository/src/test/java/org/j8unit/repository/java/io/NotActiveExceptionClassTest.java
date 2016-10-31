@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.NotActiveExceptionClassTests<NotActiveE
         final NotActiveException sut = new NotActiveException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.NotActiveException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.NotActiveException]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.rmi.server.ServerNotActiveExceptionClassTe
         final ServerNotActiveException sut = null; // = new ServerNotActiveException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.ServerNotActiveException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ServerNotActiveException]
 
 }

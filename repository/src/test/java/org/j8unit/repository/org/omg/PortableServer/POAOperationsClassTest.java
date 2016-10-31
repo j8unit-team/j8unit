@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAOperationsClassTests<
         return POAOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAOperations]
 
 }

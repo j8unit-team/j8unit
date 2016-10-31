@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.NumberOfInterven
         final NumberOfInterveningJobs sut = null; // = new NumberOfInterveningJobs(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.NumberOfInterveningJobs]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.NumberOfInterveningJobs]
 
 }

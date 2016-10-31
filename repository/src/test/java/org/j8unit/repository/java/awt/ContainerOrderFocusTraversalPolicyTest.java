@@ -32,6 +32,8 @@ org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyTests<Container
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.ContainerOrderFocusTraversalPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.ContainerOrderFocusTraversalPolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.ContainerOrderFocusTraversalPolicy]
 
 }

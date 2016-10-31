@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidSeqClassTest
         final InvalidSeq sut = null; // = new InvalidSeq(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynAnyPackage.InvalidSeq]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynAnyPackage.InvalidSeq]
 
 }

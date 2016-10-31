@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.BindingTypeClassTests<BindingType>
         return BindingType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.BindingType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.BindingType]
 
 }

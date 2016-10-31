@@ -197,6 +197,8 @@ implements org.j8unit.repository.javax.swing.JCheckBoxClassTests<JCheckBox> {
         final JCheckBox sut = null; // = new JCheckBox(javax.swing.Icon, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JCheckBox]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JCheckBox]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.ApplicationExceptionTest
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [org.omg.CORBA.portable.ApplicationException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ApplicationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.ApplicationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ApplicationException]
 
 }

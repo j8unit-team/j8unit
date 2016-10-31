@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.xml.sax.HandlerBaseClassTests<HandlerBase> 
         final HandlerBase sut = new HandlerBase();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.HandlerBase]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.HandlerBase]
 
 }

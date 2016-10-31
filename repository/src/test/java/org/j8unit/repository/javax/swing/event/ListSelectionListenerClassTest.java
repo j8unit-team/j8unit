@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTes
         return ListSelectionListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ListSelectionListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ListSelectionListener]
 
 }

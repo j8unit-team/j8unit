@@ -87,6 +87,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestClass
         final ForwardRequest sut = null; // = new ForwardRequest(String, org.omg.CORBA.Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequest]
 
 }

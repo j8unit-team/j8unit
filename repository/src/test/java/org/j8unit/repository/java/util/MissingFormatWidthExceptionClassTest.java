@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.MissingFormatWidthExceptionClassTests
         final MissingFormatWidthException sut = null; // = new MissingFormatWidthException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.MissingFormatWidthException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.MissingFormatWidthException]
 
 }

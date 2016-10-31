@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ControlFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.ControlFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.ControlFactory]
 
 }

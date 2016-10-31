@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.cert.PolicyNodeClassTests<PolicyN
         return PolicyNode.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PolicyNode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PolicyNode]
 
 }

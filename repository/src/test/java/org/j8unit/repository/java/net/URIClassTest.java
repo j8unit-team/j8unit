@@ -155,6 +155,8 @@ implements org.j8unit.repository.java.net.URIClassTests<URI> {
         // write some test for {@link java.net.URI#create(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URI]
 
 }

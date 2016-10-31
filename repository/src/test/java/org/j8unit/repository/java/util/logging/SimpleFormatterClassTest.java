@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.logging.SimpleFormatterClassTests<Sim
         final SimpleFormatter sut = new SimpleFormatter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.SimpleFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.SimpleFormatter]
 
 }

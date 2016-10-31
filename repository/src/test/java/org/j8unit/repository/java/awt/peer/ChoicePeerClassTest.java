@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.ChoicePeerClassTests<ChoicePeer> 
         return ChoicePeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ChoicePeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ChoicePeer]
 
 }

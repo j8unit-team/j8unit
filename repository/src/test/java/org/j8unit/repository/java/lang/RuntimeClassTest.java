@@ -58,6 +58,8 @@ implements org.j8unit.repository.java.lang.RuntimeClassTests<Runtime> {
         // write some test for {@link Runtime#runFinalizersOnExit(boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Runtime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Runtime]
 
 }

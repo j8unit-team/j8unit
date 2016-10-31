@@ -19,20 +19,24 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<Attribu
         return AttributeSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet]
 
     @RunWith(J8Unit4.class)
-    public static class CharacterAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<CharacterAttribute> {
+    public static class ColorAttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests<ColorAttribute> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
         @Override
-        public Class<CharacterAttribute> createNewSUT() {
-            return CharacterAttribute.class;
+        public Class<ColorAttribute> createNewSUT() {
+            return ColorAttribute.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
     }
 
@@ -47,7 +51,26 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<Attribu
             return FontAttribute.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$FontAttribute]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$FontAttribute]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CharacterAttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<CharacterAttribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        @Override
+        public Class<CharacterAttribute> createNewSUT() {
+            return CharacterAttribute.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
     }
 
@@ -62,22 +85,9 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<Attribu
             return ParagraphAttribute.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ParagraphAttribute]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ParagraphAttribute]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ColorAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests<ColorAttribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        @Override
-        public Class<ColorAttribute> createNewSUT() {
-            return ColorAttribute.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
     }
 

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sound.midi.spi.SoundbankReaderClassTests<
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.spi.SoundbankReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.spi.SoundbankReader]
 
 }

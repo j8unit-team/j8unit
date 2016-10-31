@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
                    SerialBlob.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialBlob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialBlob]
 
 }

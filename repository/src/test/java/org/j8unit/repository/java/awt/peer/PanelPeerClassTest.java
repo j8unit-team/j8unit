@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.PanelPeerClassTests<PanelPeer> {
         return PanelPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.PanelPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.PanelPeer]
 
 }

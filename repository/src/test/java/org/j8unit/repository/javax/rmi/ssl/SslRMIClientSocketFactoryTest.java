@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SslRMIClientSocketFactory>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.ssl.SslRMIClientSocketFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.ssl.SslRMIClientSocketFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.ssl.SslRMIClientSocketFactory]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    TRANSACTION_UNAVAILABLE.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
 
 }

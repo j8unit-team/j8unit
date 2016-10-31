@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.MissingResourceExceptionTests<Missing
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.MissingResourceException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.MissingResourceException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.MissingResourceException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.MissingResourceException]
 
 }

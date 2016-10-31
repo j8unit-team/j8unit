@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.INV_IDENTClassTests<INV_IDENT> {
         final INV_IDENT sut = new INV_IDENT();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INV_IDENT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INV_IDENT]
 
 }

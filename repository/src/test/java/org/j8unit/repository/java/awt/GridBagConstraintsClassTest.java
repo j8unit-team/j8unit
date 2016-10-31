@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.GridBagConstraintsClassTests<GridBagCo
                                              // java.awt.Insets, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GridBagConstraints]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GridBagConstraints]
 
 }

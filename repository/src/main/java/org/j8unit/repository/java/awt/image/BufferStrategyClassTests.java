@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    BufferStrategy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BufferStrategy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferStrategy]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanServerFactory]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanServerFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerFactory]
 }

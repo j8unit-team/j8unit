@@ -532,6 +532,7 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoTests<SU
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getConstructors();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanInfoSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanInfoSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBeanInfoSupport]
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Struct.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Struct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Struct]
 
 }

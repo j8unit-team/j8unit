@@ -86,6 +86,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ForwardRequestClassTests
         final ForwardRequest sut = null; // = new ForwardRequest(String, org.omg.CORBA.Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ForwardRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ForwardRequest]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.security.IdentityClassTests<Identity> {
         Assert.fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Identity]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Identity]
 
 }

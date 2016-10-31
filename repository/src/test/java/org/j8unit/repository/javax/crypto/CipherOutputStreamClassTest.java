@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.crypto.CipherOutputStreamClassTests<Ciphe
         final CipherOutputStream sut = null; // = new CipherOutputStream(java.io.OutputStream, javax.crypto.Cipher);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.CipherOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.CipherOutputStream]
 
 }

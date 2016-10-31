@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LambdaConversionException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.LambdaConversionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.LambdaConversionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.LambdaConversionException]
 
 }

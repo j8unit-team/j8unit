@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DataContentHandlerFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataContentHandlerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataContentHandlerFactory]
 
 }

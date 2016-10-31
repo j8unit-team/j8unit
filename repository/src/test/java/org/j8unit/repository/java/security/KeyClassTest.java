@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.KeyClassTests<Key> {
         return Key.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Key]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Key]
 
 }

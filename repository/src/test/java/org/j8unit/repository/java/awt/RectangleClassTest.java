@@ -21,50 +21,6 @@ implements org.j8unit.repository.java.awt.RectangleClassTests<Rectangle> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Rectangle#Rectangle(int, int, int, int) public java.awt.Rectangle(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Rectangle_int_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Rectangle sut = null; // = new Rectangle(int, int, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Rectangle#Rectangle(java.awt.Rectangle) public java.awt.Rectangle(java.awt.Rectangle)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Rectangle_Rectangle()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Rectangle sut = null; // = new Rectangle(java.awt.Rectangle);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.awt.Rectangle#Rectangle() public
      * java.awt.Rectangle()}.
      *
@@ -108,8 +64,8 @@ implements org.j8unit.repository.java.awt.RectangleClassTests<Rectangle> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.Rectangle#Rectangle(int, int) public
-     * java.awt.Rectangle(int,int)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Rectangle#Rectangle(java.awt.Dimension) public java.awt.Rectangle(java.awt.Dimension)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,11 +77,11 @@ implements org.j8unit.repository.java.awt.RectangleClassTests<Rectangle> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Rectangle_int_int()
+    public void create_Rectangle_Dimension()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Rectangle sut = null; // = new Rectangle(int, int);
+        final Rectangle sut = null; // = new Rectangle(java.awt.Dimension);
     }
 
     /**
@@ -153,8 +109,8 @@ implements org.j8unit.repository.java.awt.RectangleClassTests<Rectangle> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.Rectangle#Rectangle(java.awt.Dimension) public java.awt.Rectangle(java.awt.Dimension)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.Rectangle#Rectangle(int, int) public
+     * java.awt.Rectangle(int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -166,12 +122,58 @@ implements org.j8unit.repository.java.awt.RectangleClassTests<Rectangle> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_Rectangle_Dimension()
+    public void create_Rectangle_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final Rectangle sut = null; // = new Rectangle(java.awt.Dimension);
+        final Rectangle sut = null; // = new Rectangle(int, int);
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Rectangle#Rectangle(int, int, int, int) public java.awt.Rectangle(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Rectangle_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Rectangle sut = null; // = new Rectangle(int, int, int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.Rectangle#Rectangle(java.awt.Rectangle) public java.awt.Rectangle(java.awt.Rectangle)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Rectangle_Rectangle()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Rectangle sut = null; // = new Rectangle(java.awt.Rectangle);
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Rectangle]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Rectangle]
 

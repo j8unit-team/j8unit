@@ -32,6 +32,8 @@ org.j8unit.repository.javax.security.cert.CertificateEncodingExceptionTests<Cert
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.cert.CertificateEncodingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.cert.CertificateEncodingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.cert.CertificateEncodingException]
 
 }

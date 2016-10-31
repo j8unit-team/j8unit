@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.server.ServerCloneExceptionClassTests<
         final ServerCloneException sut = null; // = new ServerCloneException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.ServerCloneException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ServerCloneException]
 
 }

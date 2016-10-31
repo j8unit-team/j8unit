@@ -166,6 +166,7 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, Object>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.StringTokenizer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.StringTokenizer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.StringTokenizer]
 }

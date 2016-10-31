@@ -66,6 +66,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
         final AlreadyBoundHolder sut = new AlreadyBoundHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
 
 }

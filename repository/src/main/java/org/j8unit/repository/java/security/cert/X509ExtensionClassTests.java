@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    X509Extension.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.X509Extension]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.X509Extension]
 
 }

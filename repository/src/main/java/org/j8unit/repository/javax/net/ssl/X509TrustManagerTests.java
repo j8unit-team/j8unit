@@ -104,6 +104,7 @@ extends org.j8unit.repository.javax.net.ssl.TrustManagerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.X509TrustManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.X509TrustManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.X509TrustManager]
 }

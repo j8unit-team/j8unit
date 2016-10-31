@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.event.EventDirContextClassTests<Ev
         return EventDirContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.EventDirContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.EventDirContext]
 
 }

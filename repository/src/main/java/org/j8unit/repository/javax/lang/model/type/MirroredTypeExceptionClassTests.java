@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.type.MirroredTypesExceptionClassT
                    MirroredTypeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.MirroredTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.MirroredTypeException]
 
 }

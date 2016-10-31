@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserFactoryTests<ParserFa
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [org.xml.sax.helpers.ParserFactory], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.ParserFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.ParserFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.ParserFactory]
 
 }

@@ -18,7 +18,9 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Base64], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64]
 
     @RunWith(J8Unit4.class)
     public static class EncoderTest
@@ -31,7 +33,9 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Base64.Encoder], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Encoder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64$Encoder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64$Encoder]
 
     }
 
@@ -46,7 +50,9 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Base64.Decoder], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Base64$Decoder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64$Decoder]
 
     }
 

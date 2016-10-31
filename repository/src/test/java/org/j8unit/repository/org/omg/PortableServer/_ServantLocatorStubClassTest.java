@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.PortableServer._ServantLocatorStubClass
         final _ServantLocatorStub sut = new _ServantLocatorStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer._ServantLocatorStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer._ServantLocatorStub]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.InetAddressClassTests<SUT> {
                    Inet4Address.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Inet4Address]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Inet4Address]
 
 }

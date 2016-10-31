@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.event.ComponentEventClassTests<Compone
         final ComponentEvent sut = null; // = new ComponentEvent(java.awt.Component, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ComponentEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ComponentEvent]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT> {
                    TemplatesHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.sax.TemplatesHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.sax.TemplatesHandler]
 
 }

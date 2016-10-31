@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.sound.sampled.spi.AudioFileWriterClassTes
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.spi.AudioFileWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.spi.AudioFileWriter]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 }

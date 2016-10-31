@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerArrayC
         final AtomicIntegerArray sut = null; // = new AtomicIntegerArray(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicIntegerArray]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicIntegerArray]
 
 }

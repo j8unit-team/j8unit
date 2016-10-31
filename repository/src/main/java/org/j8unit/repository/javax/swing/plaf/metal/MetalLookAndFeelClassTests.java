@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
                    MetalLookAndFeel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalLookAndFeel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalLookAndFeel]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {
                    WindowEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.WindowEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.WindowEvent]
 
 }

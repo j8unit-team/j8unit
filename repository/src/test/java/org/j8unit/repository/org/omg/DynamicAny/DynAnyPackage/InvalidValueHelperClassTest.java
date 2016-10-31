@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueHe
         // org.omg.DynamicAny.DynAnyPackage.InvalidValue)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.HierarchyBoundsListenerClassTest
         return HierarchyBoundsListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.HierarchyBoundsListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.HierarchyBoundsListener]
 
 }

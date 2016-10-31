@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.naming.BindingClassTests<Binding> {
         final Binding sut = null; // = new Binding(String, Object, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.Binding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Binding]
 
 }

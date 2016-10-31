@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.SocketOptionsClassTests<SocketOptions>
         return SocketOptions.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketOptions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketOptions]
 
 }

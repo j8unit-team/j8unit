@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.AbstractSpinnerModelClassTests<Abst
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.AbstractSpinnerModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.AbstractSpinnerModel]
 
 }

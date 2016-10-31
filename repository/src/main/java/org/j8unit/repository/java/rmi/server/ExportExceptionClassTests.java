@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    ExportException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.ExportException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ExportException]
 
 }

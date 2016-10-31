@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ScrollPaneConstants.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ScrollPaneConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ScrollPaneConstants]
 
 }

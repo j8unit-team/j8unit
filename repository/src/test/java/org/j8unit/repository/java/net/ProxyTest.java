@@ -31,7 +31,9 @@ implements org.j8unit.repository.java.net.ProxyTests<Proxy> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Proxy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Proxy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Proxy]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -53,7 +55,9 @@ implements org.j8unit.repository.java.net.ProxyTests<Proxy> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Proxy$Type]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Proxy$Type]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Proxy$Type]
 
     }
 

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Point>, org.j8unit.repository.java.awt.PointTe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Point]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Point]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Point]
 
 }

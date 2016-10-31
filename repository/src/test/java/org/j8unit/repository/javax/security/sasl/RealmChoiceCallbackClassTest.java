@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.sasl.RealmChoiceCallbackClassTes
         final RealmChoiceCallback sut = null; // = new RealmChoiceCallback(String, String[], int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
 
 }

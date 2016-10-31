@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.FlowLayoutClassTests<FlowLayout> {
         final FlowLayout sut = new FlowLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.FlowLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.FlowLayout]
 
 }

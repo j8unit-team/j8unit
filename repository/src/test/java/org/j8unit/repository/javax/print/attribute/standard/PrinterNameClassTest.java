@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterNameClass
         final PrinterName sut = null; // = new PrinterName(String, java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterName]
 
 }

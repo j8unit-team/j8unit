@@ -81,6 +81,28 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#getName() public
+     * abstract org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName() throws org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.ietf.jgss.GSSCredential#getName(org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
      * org.ietf.jgss.GSSCredential.getName(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
@@ -96,28 +118,6 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getName_Oid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSCredential#getName() public
-     * abstract org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName() throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -302,6 +302,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSCredential]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.GSSCredential]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSCredential]
 }

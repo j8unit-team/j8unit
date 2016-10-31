@@ -374,6 +374,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Synthesizer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.Synthesizer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Synthesizer]
 }

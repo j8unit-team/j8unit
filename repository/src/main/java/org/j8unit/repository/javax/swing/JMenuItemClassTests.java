@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
                    JMenuItem.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JMenuItem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JMenuItem]
 
 }

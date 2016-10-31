@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.XADataSourceClassTests<XADataSource> 
         return XADataSource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.XADataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.XADataSource]
 
 }

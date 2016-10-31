@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.spi.LocaleNameProviderClassTests<Loca
         return LocaleNameProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.spi.LocaleNameProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.spi.LocaleNameProvider]
 
 }

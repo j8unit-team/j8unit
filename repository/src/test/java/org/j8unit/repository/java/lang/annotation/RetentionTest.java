@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.annotation.RetentionTests<Retention> 
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.lang.annotation.Retention], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.annotation.Retention]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.annotation.Retention]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.annotation.Retention]
 
 }

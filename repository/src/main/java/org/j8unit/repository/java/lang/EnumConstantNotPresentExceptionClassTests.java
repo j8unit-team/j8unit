@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    EnumConstantNotPresentException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.EnumConstantNotPresentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.EnumConstantNotPresentException]
 
 }

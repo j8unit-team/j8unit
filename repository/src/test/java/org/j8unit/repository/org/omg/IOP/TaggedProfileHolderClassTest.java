@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHolderClassTests<Tagge
         final TaggedProfileHolder sut = new TaggedProfileHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedProfileHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfileHolder]
 
 }

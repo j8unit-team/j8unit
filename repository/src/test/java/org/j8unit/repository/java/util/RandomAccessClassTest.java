@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.RandomAccessClassTests<RandomAccess> 
         return RandomAccess.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.RandomAccess]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.RandomAccess]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IIOMetadataNode>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataNode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataNode]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataNode]
 
 }

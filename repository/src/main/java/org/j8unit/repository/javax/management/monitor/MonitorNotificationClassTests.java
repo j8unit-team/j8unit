@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
                    MonitorNotification.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.MonitorNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.MonitorNotification]
 
 }

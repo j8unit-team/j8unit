@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.smartcardio.ATRClassTests<ATR> {
         final ATR sut = null; // = new ATR(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.ATR]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.ATR]
 
 }

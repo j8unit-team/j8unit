@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<Interr
         final InterruptedIOException sut = null; // = new InterruptedIOException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.InterruptedIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.InterruptedIOException]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.validation.ValidatorHandlerTests<Vali
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.validation.ValidatorHandler], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.validation.ValidatorHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.validation.ValidatorHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.validation.ValidatorHandler]
 
 }

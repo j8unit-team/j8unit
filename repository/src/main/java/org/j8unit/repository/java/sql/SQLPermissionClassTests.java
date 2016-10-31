@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
                    SQLPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLPermission]
 
 }

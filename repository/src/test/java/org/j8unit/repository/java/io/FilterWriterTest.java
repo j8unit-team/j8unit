@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.io.FilterWriterTests<FilterWriter> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.io.FilterWriter], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.FilterWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.FilterWriter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.FilterWriter]
 
 }

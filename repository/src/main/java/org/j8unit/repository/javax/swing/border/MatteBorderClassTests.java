@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<SUT> {
                    MatteBorder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.MatteBorder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.MatteBorder]
 
 }

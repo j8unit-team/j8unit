@@ -33,8 +33,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -107,8 +108,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
     }
 
 }

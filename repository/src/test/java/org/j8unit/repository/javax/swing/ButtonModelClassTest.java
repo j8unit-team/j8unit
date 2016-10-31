@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.ButtonModelClassTests<ButtonModel> 
         return ButtonModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ButtonModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ButtonModel]
 
 }

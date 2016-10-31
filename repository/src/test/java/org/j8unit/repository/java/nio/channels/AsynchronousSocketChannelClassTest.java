@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousSocketChannelClas
         // write some test for {@link java.nio.channels.AsynchronousSocketChannel#open()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AsynchronousSocketChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousSocketChannel]
 
 }

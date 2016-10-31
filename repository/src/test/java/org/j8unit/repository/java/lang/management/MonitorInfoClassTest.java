@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.management.MonitorInfoClassTests<Moni
         // write some test for {@link java.lang.management.MonitorInfo#from(javax.management.openmbean.CompositeData)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.MonitorInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MonitorInfo]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.SupportedAnnotation
         return SupportedAnnotationTypes.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.SupportedAnnotationTypes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.SupportedAnnotationTypes]
 
 }

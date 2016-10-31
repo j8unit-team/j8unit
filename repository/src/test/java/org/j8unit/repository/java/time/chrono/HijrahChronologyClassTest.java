@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.chrono.HijrahChronologyClassTests<Hij
         return HijrahChronology.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.HijrahChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.HijrahChronology]
 
 }

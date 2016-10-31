@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.nio.file.StandardCopyOptionTests<StandardC
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.StandardCopyOption]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.StandardCopyOption]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.StandardCopyOption]
 
 }

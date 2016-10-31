@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.AbstractLayoutCache]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.AbstractLayoutCache]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<
         throws Exception {
             Assert.fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
 

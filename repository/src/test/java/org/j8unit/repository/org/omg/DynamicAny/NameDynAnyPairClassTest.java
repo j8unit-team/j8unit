@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairClassTests<Nam
         final NameDynAnyPair sut = null; // = new NameDynAnyPair(String, org.omg.DynamicAny.DynAny);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPair]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPair]
 
 }

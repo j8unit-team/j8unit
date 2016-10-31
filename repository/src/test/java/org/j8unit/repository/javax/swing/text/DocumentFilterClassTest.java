@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.DocumentFilterClassTests<Docum
         final DocumentFilter sut = new DocumentFilter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DocumentFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DocumentFilter]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.swing.text.DocumentFilterClassTests<Docum
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DocumentFilter$FilterBypass]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DocumentFilter$FilterBypass]
 

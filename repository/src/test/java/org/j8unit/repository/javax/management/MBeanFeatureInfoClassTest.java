@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.MBeanFeatureInfoClassTests<MBe
         final MBeanFeatureInfo sut = null; // = new MBeanFeatureInfo(String, String, javax.management.Descriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanFeatureInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanFeatureInfo]
 
 }

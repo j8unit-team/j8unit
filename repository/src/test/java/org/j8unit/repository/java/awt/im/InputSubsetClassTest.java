@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.im.InputSubsetClassTests<InputSubset> 
         return InputSubset.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.InputSubset]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputSubset]
 
 }

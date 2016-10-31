@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.TextComponentClassTests<TextComponent>
         return TextComponent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.TextComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.TextComponent]
 
 }

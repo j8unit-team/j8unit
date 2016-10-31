@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ReadOnlyBufferException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.ReadOnlyBufferException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.ReadOnlyBufferException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.ReadOnlyBufferException]
 
 }

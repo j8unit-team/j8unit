@@ -533,30 +533,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStore#setKeyEntry(String, byte[], java.security.cert.Certificate[]) public final void
-     * java.security.KeyStore.setKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
-     * java.security.KeyStoreException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setKeyEntry_String_byteArray_CertificateArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.security.KeyStore#setKeyEntry(String, java.security.Key, char[], java.security.cert.Certificate[])
      * public final void
      * java.security.KeyStore.setKeyEntry(java.lang.String,java.security.Key,char[],java.security.cert.Certificate[])
@@ -579,8 +555,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore]
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#setKeyEntry(String, byte[], java.security.cert.Certificate[]) public final void
+     * java.security.KeyStore.setKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
+     * java.security.KeyStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setKeyEntry_String_byteArray_CertificateArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -724,8 +725,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$PrivateKeyEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$PrivateKeyEntry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$PrivateKeyEntry]
     }
 
     /**
@@ -823,8 +825,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
     }
 
     /**
@@ -900,8 +903,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$Builder]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Builder]
     }
 
     /**
@@ -952,8 +956,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Entry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$Entry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Entry]
         /**
          * <p>
          * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
@@ -1026,8 +1031,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
                 assert sut != null;
             }
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Entry$Attribute]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$Entry$Attribute]
 
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$Entry$Attribute]
         }
 
     }
@@ -1129,8 +1135,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
     }
 
     /**
@@ -1186,6 +1193,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#getPassword() public synchronized char[]
+         * java.security.KeyStore$PasswordProtection.getPassword()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getPassword()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link java.security.KeyStore.PasswordProtection#getProtectionParameters() public
          * java.security.spec.AlgorithmParameterSpec
          * java.security.KeyStore$PasswordProtection.getProtectionParameters()}.
@@ -1201,29 +1231,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getProtectionParameters()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.security.KeyStore.PasswordProtection#getPassword() public synchronized char[]
-         * java.security.KeyStore$PasswordProtection.getPassword()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getPassword()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -1277,8 +1284,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
     }
 
     /**
@@ -1330,8 +1338,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$LoadStoreParameter]
     }
 
     /**
@@ -1359,8 +1368,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$ProtectionParameter]
     }
 
     /**
@@ -1412,8 +1422,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
     }
 
 }

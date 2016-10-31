@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    RangeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ranges.RangeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ranges.RangeException]
 
 }

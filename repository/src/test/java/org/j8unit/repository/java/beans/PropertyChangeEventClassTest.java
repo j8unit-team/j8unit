@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.beans.PropertyChangeEventClassTests<Proper
         final PropertyChangeEvent sut = null; // = new PropertyChangeEvent(Object, String, Object, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyChangeEvent]
 
 }

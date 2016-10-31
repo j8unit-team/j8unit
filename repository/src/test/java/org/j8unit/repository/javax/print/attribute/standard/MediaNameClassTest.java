@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaNameClassTe
         return MediaName.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaName]
 
 }

@@ -504,6 +504,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
         // java.lang.invoke.MethodType, int...)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandles]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandles]
 
     @RunWith(J8Unit4.class)
@@ -516,6 +518,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
         public Class<Lookup> createNewSUT() {
             return Lookup.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandles$Lookup]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandles$Lookup]
 

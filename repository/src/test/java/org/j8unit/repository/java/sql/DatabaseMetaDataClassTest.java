@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.DatabaseMetaDataClassTests<DatabaseMet
         return DatabaseMetaData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DatabaseMetaData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DatabaseMetaData]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.util.InputMismatchExceptionClassTests<Inpu
         final InputMismatchException sut = null; // = new InputMismatchException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.InputMismatchException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.InputMismatchException]
 
 }

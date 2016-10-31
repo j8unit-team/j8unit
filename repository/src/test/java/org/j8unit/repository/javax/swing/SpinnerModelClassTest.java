@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.SpinnerModelClassTests<SpinnerModel
         return SpinnerModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpinnerModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpinnerModel]
 
 }

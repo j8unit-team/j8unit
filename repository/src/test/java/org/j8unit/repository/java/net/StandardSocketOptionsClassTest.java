@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.StandardSocketOptionsClassTests<Standa
         return StandardSocketOptions.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.StandardSocketOptions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.StandardSocketOptions]
 
 }

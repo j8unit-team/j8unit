@@ -46,6 +46,27 @@ implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryClassTests<Ser
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ServiceRegistry#lookupProviders(Class) public static <T> java.util.Iterator<T>
+     * javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_lookupProviders_Class()
+    throws Exception {
+        // write some test for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(Class)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.spi.ServiceRegistry#lookupProviders(Class, ClassLoader) public static <T>
      * java.util.Iterator<T>
      * javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class<T>,java.lang.ClassLoader)}.
@@ -65,26 +86,7 @@ implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryClassTests<Ser
         // write some test for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(Class, ClassLoader)}
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ServiceRegistry#lookupProviders(Class) public static <T> java.util.Iterator<T>
-     * javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_lookupProviders_Class()
-    throws Exception {
-        // write some test for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(Class)}
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.ServiceRegistry]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.ServiceRegistry]
 
@@ -98,6 +100,8 @@ implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryClassTests<Ser
         public Class<Filter> createNewSUT() {
             return Filter.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.ServiceRegistry$Filter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.ServiceRegistry$Filter]
 

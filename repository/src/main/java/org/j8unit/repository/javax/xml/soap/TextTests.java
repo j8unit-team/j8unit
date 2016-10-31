@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.xml.soap.NodeTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Text]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.Text]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Text]
 }

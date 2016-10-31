@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.GeneratedClassTests<Generated>
         return Generated.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Generated]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Generated]
 
 }

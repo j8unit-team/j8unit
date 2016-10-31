@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTests<S
                    SAXTransformerFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.sax.SAXTransformerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.sax.SAXTransformerFactory]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExpressionExceptionClassTe
         final XPathExpressionException sut = null; // = new XPathExpressionException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathExpressionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathExpressionException]
 
 }

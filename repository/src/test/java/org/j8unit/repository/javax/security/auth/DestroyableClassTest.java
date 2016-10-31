@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.security.auth.DestroyableClassTests<Destr
         return Destroyable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.Destroyable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Destroyable]
 
 }

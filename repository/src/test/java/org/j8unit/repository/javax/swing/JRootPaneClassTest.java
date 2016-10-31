@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.JRootPaneClassTests<JRootPane> {
         final JRootPane sut = new JRootPane();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JRootPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JRootPane]
 
 }

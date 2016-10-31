@@ -297,6 +297,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentMap]
 }

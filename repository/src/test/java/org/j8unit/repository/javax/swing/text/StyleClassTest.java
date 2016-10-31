@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.StyleClassTests<Style> {
         return Style.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Style]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Style]
 
 }

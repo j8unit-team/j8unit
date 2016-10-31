@@ -91,6 +91,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousChannelGroupClass
         // java.util.concurrent.ThreadFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AsynchronousChannelGroup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousChannelGroup]
 
 }

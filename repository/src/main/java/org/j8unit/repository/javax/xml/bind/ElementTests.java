@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.Element]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.Element]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.Element]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.Element]
 }

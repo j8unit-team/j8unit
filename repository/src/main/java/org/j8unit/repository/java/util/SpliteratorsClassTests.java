@@ -72,6 +72,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Spliterators.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators]
 
     /**
@@ -134,6 +136,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AbstractDoubleSpliterator.class!",
                               AbstractDoubleSpliterator.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractDoubleSpliterator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractDoubleSpliterator]
 
@@ -200,6 +204,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               AbstractSpliterator.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractSpliterator]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractSpliterator]
 
     }
@@ -265,6 +271,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               AbstractLongSpliterator.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractLongSpliterator]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractLongSpliterator]
 
     }
@@ -329,6 +337,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AbstractIntSpliterator.class!",
                               AbstractIntSpliterator.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractIntSpliterator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractIntSpliterator]
 

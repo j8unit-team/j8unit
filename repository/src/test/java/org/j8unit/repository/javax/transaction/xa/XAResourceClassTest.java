@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.transaction.xa.XAResourceClassTests<XARes
         return XAResource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.xa.XAResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.xa.XAResource]
 
 }

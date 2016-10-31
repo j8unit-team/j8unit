@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
                    ShortBuffer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.ShortBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ShortBuffer]
 
 }

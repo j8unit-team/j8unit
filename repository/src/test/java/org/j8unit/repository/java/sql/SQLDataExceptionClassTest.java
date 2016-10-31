@@ -200,6 +200,8 @@ implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataExce
         final SQLDataException sut = null; // = new SQLDataException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLDataException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLDataException]
 
 }

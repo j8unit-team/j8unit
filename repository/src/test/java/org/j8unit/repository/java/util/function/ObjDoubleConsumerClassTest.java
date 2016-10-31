@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.ObjDoubleConsumerClassTests<
         return ObjDoubleConsumer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.ObjDoubleConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.ObjDoubleConsumer]
 
 }

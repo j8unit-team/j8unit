@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.event.TableColumnModelEventTests<Ta
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.event.TableColumnModelEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.TableColumnModelEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.TableColumnModelEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.TableColumnModelEvent]
 
 }

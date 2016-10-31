@@ -71,13 +71,15 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
                    BasicOptionPaneUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
     /**
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ButtonActionListener public class javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener}.
+     * {@link PropertyChangeHandler public class javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -85,7 +87,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}.
      * </p>
      *
      * <p>
@@ -113,10 +115,10 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ButtonActionListenerClassTests<SUT extends ButtonActionListener>
-    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
+    extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -130,11 +132,13 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ButtonActionListener.class!",
-                              ButtonActionListener.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PropertyChangeHandler.class!",
+                              PropertyChangeHandler.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
 
     }
 
@@ -199,6 +203,8 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
                               ButtonAreaLayout.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
 
     }
@@ -207,7 +213,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link PropertyChangeHandler public class javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler}.
+     * {@link ButtonActionListener public class javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -215,7 +221,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}.
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests}.
      * </p>
      *
      * <p>
@@ -243,10 +249,10 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
-    extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface ButtonActionListenerClassTests<SUT extends ButtonActionListener>
+    extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -260,11 +266,13 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PropertyChangeHandler.class!",
-                              PropertyChangeHandler.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ButtonActionListener.class!",
+                              ButtonActionListener.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
 
     }
 

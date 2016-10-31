@@ -101,6 +101,8 @@ implements org.j8unit.repository.java.awt.color.ICC_ProfileClassTests<ICC_Profil
         // write some test for {@link java.awt.color.ICC_Profile#getInstance(java.io.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ICC_Profile]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ICC_Profile]
 
 }

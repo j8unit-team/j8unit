@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    JFileChooser.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFileChooser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFileChooser]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassT
         // write some test for {@link javax.swing.plaf.basic.BasicFileChooserUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicFileChooserUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicFileChooserUI]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Applet>, org.j8unit.repository.java.applet.App
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.applet.Applet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.applet.Applet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.applet.Applet]
 
 }

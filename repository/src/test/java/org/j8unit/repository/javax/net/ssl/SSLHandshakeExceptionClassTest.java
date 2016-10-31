@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLHandshakeExceptionClassTests<S
         final SSLHandshakeException sut = null; // = new SSLHandshakeException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLHandshakeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLHandshakeException]
 
 }

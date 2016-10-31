@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.beans.IntrospectionExceptionClassTests<Int
         final IntrospectionException sut = null; // = new IntrospectionException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.IntrospectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.IntrospectionException]
 
 }

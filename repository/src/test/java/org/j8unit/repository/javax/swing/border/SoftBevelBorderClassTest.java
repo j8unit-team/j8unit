@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.swing.border.SoftBevelBorderClassTests<So
         final SoftBevelBorder sut = null; // = new SoftBevelBorder(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.SoftBevelBorder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.SoftBevelBorder]
 
 }

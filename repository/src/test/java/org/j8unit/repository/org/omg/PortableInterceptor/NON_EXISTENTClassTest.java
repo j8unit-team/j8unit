@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.NON_EXISTENTClassTe
         return NON_EXISTENT.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.NON_EXISTENT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.NON_EXISTENT]
 
 }

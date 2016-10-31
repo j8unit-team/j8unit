@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<WebS
         final WebServiceException sut = new WebServiceException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServiceException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServiceException]
 
 }

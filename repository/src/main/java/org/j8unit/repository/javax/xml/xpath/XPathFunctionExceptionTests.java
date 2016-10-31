@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.xpath.XPathExpressionExceptionTests<SUT>
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.xpath.XPathFunctionException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.xpath.XPathFunctionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.xpath.XPathFunctionException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.xpath.XPathFunctionException]
 }

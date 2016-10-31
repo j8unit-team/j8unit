@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.ranges.RangeClassTests<Range> {
         return Range.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ranges.Range]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ranges.Range]
 
 }

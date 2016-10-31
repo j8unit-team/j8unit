@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests<SUT> {
                    InternationalFormatter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.InternationalFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.InternationalFormatter]
 
 }

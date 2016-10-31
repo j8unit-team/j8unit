@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.net.HttpRetryExceptionTests<HttpRetryExcep
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.net.HttpRetryException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.HttpRetryException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.HttpRetryException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpRetryException]
 
 }

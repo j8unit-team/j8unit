@@ -194,6 +194,8 @@ implements org.j8unit.repository.java.time.format.DateTimeFormatterClassTests<Da
         // write some test for {@link java.time.format.DateTimeFormatter#ofPattern(String, java.util.Locale)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DateTimeFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeFormatter]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JSeparator>, org.j8unit.repository.javax.swing
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSeparator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSeparator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSeparator]
 
 }

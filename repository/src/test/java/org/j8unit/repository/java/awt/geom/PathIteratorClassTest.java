@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.geom.PathIteratorClassTests<PathIterat
         return PathIterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.PathIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.PathIterator]
 
 }

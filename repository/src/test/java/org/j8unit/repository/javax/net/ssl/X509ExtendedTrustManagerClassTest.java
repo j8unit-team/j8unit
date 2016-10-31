@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.net.ssl.X509ExtendedTrustManagerClassTest
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.X509ExtendedTrustManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.X509ExtendedTrustManager]
 
 }

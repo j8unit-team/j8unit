@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.RendererClassTests<Renderer> {
         return Renderer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Renderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Renderer]
 
 }

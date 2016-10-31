@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMakeAndMo
         final PrinterMakeAndModel sut = null; // = new PrinterMakeAndModel(String, java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterMakeAndModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterMakeAndModel]
 
 }

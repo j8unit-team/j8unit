@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.InputVerifierClassTests<InputVerifi
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.InputVerifier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.InputVerifier]
 
 }

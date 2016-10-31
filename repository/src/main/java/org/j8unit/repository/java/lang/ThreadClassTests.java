@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
                    Thread.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Thread]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UncaughtExceptionHandler.class!",
                               UncaughtExceptionHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
 
@@ -196,6 +200,8 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to State.class!",
                               State.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Thread$State]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$State]
 

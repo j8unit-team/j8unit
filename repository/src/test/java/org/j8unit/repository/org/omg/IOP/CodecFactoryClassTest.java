@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecFactoryClassTests<CodecFactory
         return CodecFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecFactory]
 
 }

@@ -121,6 +121,7 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSStyleSheet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.CSSStyleSheet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSStyleSheet]
 }

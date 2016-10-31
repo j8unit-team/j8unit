@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.io.UnsupportedEncodingExceptionClassTests<
         final UnsupportedEncodingException sut = null; // = new UnsupportedEncodingException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.UnsupportedEncodingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.UnsupportedEncodingException]
 
 }

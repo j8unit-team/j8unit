@@ -192,6 +192,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.ArrayType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.ArrayType]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.ArrayType]
 }

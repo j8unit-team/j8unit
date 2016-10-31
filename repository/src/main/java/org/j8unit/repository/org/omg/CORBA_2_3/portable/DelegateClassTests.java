@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.DelegateClassTests<SUT> {
                    Delegate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA_2_3.portable.Delegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA_2_3.portable.Delegate]
 
 }

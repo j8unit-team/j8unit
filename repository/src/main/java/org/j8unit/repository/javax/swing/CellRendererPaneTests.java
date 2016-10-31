@@ -129,30 +129,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, int, int, int, int, boolean)
-     * public void
-     * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paintComponent_Graphics_Component_Container_int_int_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, java.awt.Rectangle)
      * public void
      * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,java.awt.Rectangle)}.
@@ -198,6 +174,31 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.CellRendererPane]
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics, java.awt.Component, java.awt.Container, int, int, int, int, boolean)
+     * public void
+     * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintComponent_Graphics_Component_Container_int_int_int_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.CellRendererPane]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.CellRendererPane]
 }

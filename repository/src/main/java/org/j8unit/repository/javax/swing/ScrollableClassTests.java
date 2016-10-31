@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Scrollable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Scrollable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Scrollable]
 
 }

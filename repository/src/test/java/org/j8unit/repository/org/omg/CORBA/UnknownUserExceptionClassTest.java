@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionClassTests<Un
         final UnknownUserException sut = null; // = new UnknownUserException(org.omg.CORBA.Any);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UnknownUserException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnknownUserException]
 
 }

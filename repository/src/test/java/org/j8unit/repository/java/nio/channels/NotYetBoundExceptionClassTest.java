@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.NotYetBoundExceptionClassTest
         final NotYetBoundException sut = new NotYetBoundException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.NotYetBoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.NotYetBoundException]
 
 }

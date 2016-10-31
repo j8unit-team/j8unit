@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.im.spi.InputMethodDescriptorClassTests
         return InputMethodDescriptor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.spi.InputMethodDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.spi.InputMethodDescriptor]
 
 }

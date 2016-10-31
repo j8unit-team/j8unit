@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SynthU
         return SynthUI.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthUI]
 
 }

@@ -123,6 +123,7 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.acl.Group]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.acl.Group]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.acl.Group]
 }

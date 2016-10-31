@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<DragSour
         final DragSourceEvent sut = null; // = new DragSourceEvent(java.awt.dnd.DragSourceContext, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragSourceEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceEvent]
 
 }

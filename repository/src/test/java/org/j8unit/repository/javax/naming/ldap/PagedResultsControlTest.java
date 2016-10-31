@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.ldap.PagedResultsControlTests<Page
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.naming.ldap.PagedResultsControl], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
 
 }

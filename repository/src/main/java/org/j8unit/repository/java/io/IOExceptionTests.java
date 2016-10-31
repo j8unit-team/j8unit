@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.IOException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.IOException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.IOException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.IOException]
 }

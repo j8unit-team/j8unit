@@ -149,6 +149,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterIn
                                                         // javax.management.openmbean.OpenType, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]
 
 }

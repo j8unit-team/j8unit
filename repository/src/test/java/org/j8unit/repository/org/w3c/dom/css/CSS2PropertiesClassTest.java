@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.CSS2PropertiesClassTests<CSS2Pr
         return CSS2Properties.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.CSS2Properties]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.CSS2Properties]
 
 }

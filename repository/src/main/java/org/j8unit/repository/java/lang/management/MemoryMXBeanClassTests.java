@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectClassTes
                    MemoryMXBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.MemoryMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryMXBean]
 
 }

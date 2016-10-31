@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Configuration.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.Configuration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.Configuration]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Parameters.class!",
                               Parameters.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.Configuration$Parameters]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.Configuration$Parameters]
 

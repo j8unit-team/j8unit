@@ -650,8 +650,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.QuadCurve2D]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -954,8 +955,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Float]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Float]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Float]
     }
 
     /**
@@ -1237,8 +1239,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Double]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Double]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.QuadCurve2D$Double]
     }
 
 }

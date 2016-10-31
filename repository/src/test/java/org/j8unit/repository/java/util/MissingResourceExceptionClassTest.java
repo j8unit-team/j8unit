@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.MissingResourceExceptionClassTests<Mi
         final MissingResourceException sut = null; // = new MissingResourceException(String, String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.MissingResourceException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.MissingResourceException]
 
 }

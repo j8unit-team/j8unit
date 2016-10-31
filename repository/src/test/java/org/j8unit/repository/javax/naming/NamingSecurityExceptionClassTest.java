@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<
         Assert.fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NamingSecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NamingSecurityException]
 
 }

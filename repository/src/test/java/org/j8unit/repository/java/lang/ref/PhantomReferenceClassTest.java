@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.lang.ref.PhantomReferenceClassTests<Phanto
         final PhantomReference sut = null; // = new PhantomReference(Object, java.lang.ref.ReferenceQueue);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ref.PhantomReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ref.PhantomReference]
 
 }

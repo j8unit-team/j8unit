@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.swing.text.html.MinimalHTMLWriterClassTes
         final MinimalHTMLWriter sut = null; // = new MinimalHTMLWriter(java.io.Writer, javax.swing.text.StyledDocument);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.MinimalHTMLWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.MinimalHTMLWriter]
 
 }

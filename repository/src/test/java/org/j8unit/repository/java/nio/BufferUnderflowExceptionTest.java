@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BufferUnderflowException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.BufferUnderflowException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.BufferUnderflowException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.BufferUnderflowException]
 
 }

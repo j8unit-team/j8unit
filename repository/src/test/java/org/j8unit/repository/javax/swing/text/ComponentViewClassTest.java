@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.ComponentViewClassTests<Compon
         final ComponentView sut = null; // = new ComponentView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.ComponentView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ComponentView]
 
 }

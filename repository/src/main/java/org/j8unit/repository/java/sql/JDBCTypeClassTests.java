@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.reposi
                    JDBCType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.JDBCType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.JDBCType]
 
 }

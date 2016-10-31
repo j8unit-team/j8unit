@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Permission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Permission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Permission]
 
 }

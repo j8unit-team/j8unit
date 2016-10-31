@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActi
         final ObjectNotActive sut = null; // = new ObjectNotActive(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectNotActive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectNotActive]
 
 }

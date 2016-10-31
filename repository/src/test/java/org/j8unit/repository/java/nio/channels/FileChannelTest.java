@@ -23,7 +23,9 @@ implements org.j8unit.repository.java.nio.channels.FileChannelTests<FileChannel>
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.channels.FileChannel], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileChannel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileChannel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.java.nio.channels.FileChannelTests<FileChannel>
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
 
     }
 

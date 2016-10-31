@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.stream.ImageInputStreamClassTests
         return ImageInputStream.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.ImageInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.ImageInputStream]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.NavigableMapClassTests<NavigableMap> 
         return NavigableMap.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.NavigableMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.NavigableMap]
 
 }

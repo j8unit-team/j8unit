@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.RowSorterClassTests<SUT> {
                    DefaultRowSorter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultRowSorter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultRowSorter]
 
 }

@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.management.remote.JMXProviderExceptionCla
         final JMXProviderException sut = new JMXProviderException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXProviderException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXProviderException]
 
 }

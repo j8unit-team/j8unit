@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalFieldClassTests<SUT>, o
                    ChronoField.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.ChronoField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.ChronoField]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.java.beans.beancontext.BeanContextServicesListenerClassTes
                    BeanContextServices.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServices]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServices]
 
 }

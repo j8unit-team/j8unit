@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.TagElementClassTes
         final TagElement sut = null; // = new TagElement(javax.swing.text.html.parser.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.TagElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.TagElement]
 
 }

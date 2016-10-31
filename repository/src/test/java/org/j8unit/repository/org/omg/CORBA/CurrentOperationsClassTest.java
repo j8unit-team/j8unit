@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.CurrentOperationsClassTests<Curre
         return CurrentOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CurrentOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CurrentOperations]
 
 }

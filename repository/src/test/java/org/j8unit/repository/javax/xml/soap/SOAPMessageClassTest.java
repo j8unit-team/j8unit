@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPMessageClassTests<SOAPMessag
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPMessage]
 
 }

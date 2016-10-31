@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.CertificateClassTests<Certificate
         return Certificate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Certificate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Certificate]
 
 }

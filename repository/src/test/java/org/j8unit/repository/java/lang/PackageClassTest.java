@@ -58,6 +58,8 @@ implements org.j8unit.repository.java.lang.PackageClassTests<Package> {
         // write some test for {@link Package#getPackages()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Package]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Package]
 
 }

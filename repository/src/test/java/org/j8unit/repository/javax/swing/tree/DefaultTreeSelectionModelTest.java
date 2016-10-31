@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultTreeSelectionModel>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeSelectionModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.DefaultTreeSelectionModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeSelectionModel]
 
 }

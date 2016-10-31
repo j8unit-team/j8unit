@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.awt.geom.Path2DTests.FloatTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.GeneralPath]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.GeneralPath]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.GeneralPath]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.GeneralPath]
 }

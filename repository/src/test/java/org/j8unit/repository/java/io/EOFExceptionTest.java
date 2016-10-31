@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<EOFException>, org.j8unit.repository.java.io.E
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.EOFException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.EOFException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.EOFException]
 
 }

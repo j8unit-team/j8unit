@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<FlowLayout>, org.j8unit.repository.java.awt.Fl
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.FlowLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.FlowLayout]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.FlowLayout]
 
 }

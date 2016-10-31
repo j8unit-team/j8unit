@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MultiDoc.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.MultiDoc]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.MultiDoc]
 
 }

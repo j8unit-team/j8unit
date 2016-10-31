@@ -71,6 +71,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ReentrantReadWriteLock.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
     /**
@@ -134,6 +136,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ReadLock.class!",
                               ReadLock.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
@@ -200,6 +204,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to WriteLock.class!",
                               WriteLock.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 

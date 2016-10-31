@@ -82,6 +82,8 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
         // write some test for {@link javax.swing.LayoutStyle#setInstance(javax.swing.LayoutStyle)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LayoutStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutStyle]
 
     @RunWith(J8Unit4.class)
@@ -137,6 +139,8 @@ implements org.j8unit.repository.javax.swing.LayoutStyleClassTests<LayoutStyle> 
         throws Exception {
             // write some test for {@link javax.swing.LayoutStyle.ComponentPlacement#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LayoutStyle$ComponentPlacement]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutStyle$ComponentPlacement]
 

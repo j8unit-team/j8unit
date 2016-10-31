@@ -1412,6 +1412,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynSequenceTests<SUT>, org.j8un
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynSequenceStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynSequenceStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynSequenceStub]
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLWarningClassTests<SUT> {
                    DataTruncation.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DataTruncation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DataTruncation]
 
 }

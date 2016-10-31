@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    InterceptorOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.InterceptorOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.InterceptorOperations]
 
 }

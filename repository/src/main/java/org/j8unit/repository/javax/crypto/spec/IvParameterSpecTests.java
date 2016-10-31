@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.IvParameterSpec]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.spec.IvParameterSpec]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.IvParameterSpec]
 }

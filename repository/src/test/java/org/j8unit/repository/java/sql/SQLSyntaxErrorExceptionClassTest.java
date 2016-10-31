@@ -201,6 +201,8 @@ implements org.j8unit.repository.java.sql.SQLSyntaxErrorExceptionClassTests<SQLS
         final SQLSyntaxErrorException sut = null; // = new SQLSyntaxErrorException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLSyntaxErrorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLSyntaxErrorException]
 
 }

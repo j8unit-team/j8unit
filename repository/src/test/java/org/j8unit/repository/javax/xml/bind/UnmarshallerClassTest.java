@@ -21,6 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<Unmarshal
         return Unmarshaller.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Unmarshaller]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Unmarshaller]
 
     @RunWith(J8Unit4.class)
@@ -53,6 +55,8 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<Unmarshal
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Unmarshaller$Listener]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Unmarshaller$Listener]
 

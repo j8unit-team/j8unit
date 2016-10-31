@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.element.VariableElementClassTe
         return VariableElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.VariableElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.VariableElement]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.net.ProtocolExceptionClassTests<ProtocolEx
         final ProtocolException sut = new ProtocolException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ProtocolException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ProtocolException]
 
 }

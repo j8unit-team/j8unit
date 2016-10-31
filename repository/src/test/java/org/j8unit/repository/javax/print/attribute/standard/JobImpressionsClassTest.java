@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobImpressionsCl
         final JobImpressions sut = null; // = new JobImpressions(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobImpressions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobImpressions]
 
 }

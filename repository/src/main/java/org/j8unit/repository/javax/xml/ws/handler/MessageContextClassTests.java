@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
                    MessageContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.MessageContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.MessageContext]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Scope.class!",
                               Scope.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]
 

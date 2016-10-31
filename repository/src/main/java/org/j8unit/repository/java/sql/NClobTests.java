@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.sql.ClobTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.NClob]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.NClob]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.NClob]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.NClob]
 }

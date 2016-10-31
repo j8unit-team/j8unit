@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    XMLOutputFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLOutputFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLOutputFactory]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.MembershipKeyClassTests<Membe
         return MembershipKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.MembershipKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.MembershipKey]
 
 }

@@ -257,6 +257,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Button]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Button]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Button]
 }

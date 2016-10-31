@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynArrayClassTests<DynArray> {
         return DynArray.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynArray]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynArray]
 
 }

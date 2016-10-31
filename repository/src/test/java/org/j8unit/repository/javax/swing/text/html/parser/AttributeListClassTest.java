@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.AttributeListClass
         // write some test for {@link javax.swing.text.html.parser.AttributeList#type2name(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.AttributeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.AttributeList]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.event.NamingListenerClassTests<Nam
         return NamingListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.NamingListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.NamingListener]
 
 }

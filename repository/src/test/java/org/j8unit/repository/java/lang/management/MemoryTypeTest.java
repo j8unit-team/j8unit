@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.lang.management.MemoryTypeTests<MemoryType
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.MemoryType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.MemoryType]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.MemoryType]
 
 }

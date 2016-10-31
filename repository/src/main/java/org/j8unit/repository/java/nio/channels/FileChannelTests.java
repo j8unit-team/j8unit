@@ -500,8 +500,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileChannel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -550,8 +551,9 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
     }
 
 }

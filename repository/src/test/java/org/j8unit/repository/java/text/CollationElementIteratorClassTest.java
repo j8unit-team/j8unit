@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.text.CollationElementIteratorClassTests<Co
         // write some test for {@link java.text.CollationElementIterator#secondaryOrder(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.CollationElementIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.CollationElementIterator]
 
 }

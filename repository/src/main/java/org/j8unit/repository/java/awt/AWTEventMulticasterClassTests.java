@@ -75,6 +75,8 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
                    AWTEventMulticaster.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTEventMulticaster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTEventMulticaster]
 
 }

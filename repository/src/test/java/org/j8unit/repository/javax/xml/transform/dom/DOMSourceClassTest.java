@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests<DOM
         final DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.dom.DOMSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.dom.DOMSource]
 
 }

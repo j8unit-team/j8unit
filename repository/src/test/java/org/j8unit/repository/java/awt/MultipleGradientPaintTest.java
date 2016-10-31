@@ -25,7 +25,9 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.awt.MultipleGradientPaint], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MultipleGradientPaint]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
     }
 
@@ -71,7 +75,9 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
 
     }
 

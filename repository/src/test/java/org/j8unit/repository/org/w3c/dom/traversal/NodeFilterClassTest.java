@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.traversal.NodeFilterClassTests<Node
         return NodeFilter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.traversal.NodeFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.traversal.NodeFilter]
 
 }

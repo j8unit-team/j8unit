@@ -789,6 +789,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.POAOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAOperations]
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.SecureCacheResponseClassTests<SecureCa
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SecureCacheResponse]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SecureCacheResponse]
 
 }

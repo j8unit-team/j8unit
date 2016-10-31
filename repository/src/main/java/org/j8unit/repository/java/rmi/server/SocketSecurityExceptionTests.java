@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.rmi.server.ExportExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.SocketSecurityException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.SocketSecurityException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.SocketSecurityException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.SocketSecurityException]
 }

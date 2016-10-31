@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotAct
         final ServantNotActive sut = null; // = new ServantNotActive(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActive]
 
 }

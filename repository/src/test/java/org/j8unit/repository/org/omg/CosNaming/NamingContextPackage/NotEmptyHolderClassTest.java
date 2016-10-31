@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
         final NotEmptyHolder sut = new NotEmptyHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHolder]
 
 }

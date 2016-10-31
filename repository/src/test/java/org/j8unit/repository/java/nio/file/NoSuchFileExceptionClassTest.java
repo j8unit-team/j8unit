@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.NoSuchFileExceptionClassTests<NoS
         final NoSuchFileException sut = null; // = new NoSuchFileException(String, String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.NoSuchFileException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.NoSuchFileException]
 
 }

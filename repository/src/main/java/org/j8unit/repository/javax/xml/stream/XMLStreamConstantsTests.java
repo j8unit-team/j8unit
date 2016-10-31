@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.XMLStreamConstants]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.XMLStreamConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.XMLStreamConstants]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.XMLStreamConstants]
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AttributeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.AttributeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.AttributeException]
 
 }

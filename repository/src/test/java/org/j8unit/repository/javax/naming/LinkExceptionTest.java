@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LinkException>, org.j8unit.repository.javax.na
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.LinkException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.LinkException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.LinkException]
 
 }

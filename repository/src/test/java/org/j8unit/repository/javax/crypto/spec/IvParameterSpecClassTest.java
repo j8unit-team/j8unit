@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.crypto.spec.IvParameterSpecClassTests<IvP
         final IvParameterSpec sut = null; // = new IvParameterSpec(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.IvParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.IvParameterSpec]
 
 }

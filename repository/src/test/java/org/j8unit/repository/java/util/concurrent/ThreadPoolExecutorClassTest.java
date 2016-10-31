@@ -125,6 +125,8 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
                                              // java.util.concurrent.RejectedExecutionHandler);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
 
     @RunWith(J8Unit4.class)
@@ -159,6 +161,8 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
             // create new instance
             final DiscardPolicy sut = new DiscardPolicy();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
@@ -197,6 +201,8 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
             final AbortPolicy sut = new AbortPolicy();
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
     }
@@ -234,6 +240,8 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
             final CallerRunsPolicy sut = new CallerRunsPolicy();
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
     }
@@ -270,6 +278,8 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
             // create new instance
             final DiscardOldestPolicy sut = new DiscardOldestPolicy();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 

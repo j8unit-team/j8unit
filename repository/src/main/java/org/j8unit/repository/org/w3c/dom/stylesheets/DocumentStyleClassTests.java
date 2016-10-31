@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DocumentStyle.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.stylesheets.DocumentStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.stylesheets.DocumentStyle]
 
 }

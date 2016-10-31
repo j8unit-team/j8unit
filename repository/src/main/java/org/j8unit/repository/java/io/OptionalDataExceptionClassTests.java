@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
                    OptionalDataException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.OptionalDataException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.OptionalDataException]
 
 }

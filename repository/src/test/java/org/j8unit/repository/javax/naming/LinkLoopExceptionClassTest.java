@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.LinkLoopExceptionClassTests<LinkLo
         final LinkLoopException sut = new LinkLoopException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.LinkLoopException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.LinkLoopException]
 
 }

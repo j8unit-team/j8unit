@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.BandCombineOpClassTests<BandComb
         final BandCombineOp sut = null; // = new BandCombineOp(float[][], java.awt.RenderingHints);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BandCombineOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BandCombineOp]
 
 }

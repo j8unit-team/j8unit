@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.InterruptibleChannelClassTest
         return InterruptibleChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.InterruptibleChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.InterruptibleChannel]
 
 }

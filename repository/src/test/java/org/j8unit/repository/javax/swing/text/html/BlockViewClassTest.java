@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.BlockViewClassTests<Block
         final BlockView sut = null; // = new BlockView(javax.swing.text.Element, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.BlockView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.BlockView]
 
 }

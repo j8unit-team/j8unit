@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.CachedRowSetClassTests<CachedR
         return CachedRowSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.CachedRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.CachedRowSet]
 
 }

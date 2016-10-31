@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.tools.FileObjectClassTests<FileObject> {
         return FileObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.FileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.FileObject]
 
 }

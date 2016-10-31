@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.tree.RowMapperClassTests<RowMapper>
         return RowMapper.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.RowMapper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.RowMapper]
 
 }

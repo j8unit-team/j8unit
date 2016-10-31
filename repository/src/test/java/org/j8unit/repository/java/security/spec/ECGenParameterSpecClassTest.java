@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.ECGenParameterSpecClassTests
         final ECGenParameterSpec sut = null; // = new ECGenParameterSpec(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECGenParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECGenParameterSpec]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.RowSetListenerClassTests<RowSetListen
         return RowSetListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetListener]
 
 }

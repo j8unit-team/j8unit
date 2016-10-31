@@ -28,6 +28,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ClassCastException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ClassCastException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ClassCastException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ClassCastException]
 }

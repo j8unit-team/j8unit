@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KerberosPrincipal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.KerberosPrincipal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosPrincipal]
 
 }

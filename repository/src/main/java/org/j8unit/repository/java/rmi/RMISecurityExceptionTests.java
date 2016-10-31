@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.SecurityExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RMISecurityException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.RMISecurityException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.RMISecurityException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.RMISecurityException]
 }

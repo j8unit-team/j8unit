@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MailcapCommandMap>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.MailcapCommandMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.MailcapCommandMap]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MailcapCommandMap]
 
 }

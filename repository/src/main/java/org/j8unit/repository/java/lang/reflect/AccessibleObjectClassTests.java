@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<SUT>,
                    AccessibleObject.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.AccessibleObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AccessibleObject]
 
 }

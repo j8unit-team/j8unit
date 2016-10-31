@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.SocketOptionsClassTests<SUT>, org.j8unit.
                    SocketImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketImpl]
 
 }

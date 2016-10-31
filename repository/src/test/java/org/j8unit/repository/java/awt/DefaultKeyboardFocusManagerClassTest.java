@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerClassTests<
         final DefaultKeyboardFocusManager sut = new DefaultKeyboardFocusManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.DefaultKeyboardFocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.DefaultKeyboardFocusManager]
 
 }

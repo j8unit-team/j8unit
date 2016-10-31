@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AttributeInUseException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.AttributeInUseException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.AttributeInUseException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.AttributeInUseException]
 
 }

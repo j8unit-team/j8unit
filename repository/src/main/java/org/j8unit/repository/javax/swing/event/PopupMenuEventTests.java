@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.PopupMenuEvent]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.PopupMenuEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.PopupMenuEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.PopupMenuEvent]
 }

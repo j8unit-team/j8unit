@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFactoryConfigurationExcept
         final XPathFactoryConfigurationException sut = null; // = new XPathFactoryConfigurationException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathFactoryConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathFactoryConfigurationException]
 
 }

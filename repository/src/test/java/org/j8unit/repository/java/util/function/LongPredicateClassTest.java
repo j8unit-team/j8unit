@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.LongPredicateClassTests<Long
         return LongPredicate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.LongPredicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.LongPredicate]
 
 }

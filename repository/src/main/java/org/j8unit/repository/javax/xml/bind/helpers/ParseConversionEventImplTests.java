@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.bind.ParseConversionEventTests<SUT>, org
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.ParseConversionEventImpl]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.helpers.ParseConversionEventImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.helpers.ParseConversionEventImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.helpers.ParseConversionEventImpl]
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    BadStringOperationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.BadStringOperationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadStringOperationException]
 
 }

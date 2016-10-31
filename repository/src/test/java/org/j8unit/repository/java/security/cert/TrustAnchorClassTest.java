@@ -89,6 +89,8 @@ implements org.j8unit.repository.java.security.cert.TrustAnchorClassTests<TrustA
         final TrustAnchor sut = null; // = new TrustAnchor(java.security.cert.X509Certificate, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.TrustAnchor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.TrustAnchor]
 
 }

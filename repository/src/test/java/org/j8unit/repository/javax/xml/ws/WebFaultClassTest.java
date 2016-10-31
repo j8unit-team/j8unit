@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.WebFaultClassTests<WebFault> {
         return WebFault.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebFault]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebFault]
 
 }

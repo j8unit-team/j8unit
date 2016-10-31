@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ServerNotActiveException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.ServerNotActiveException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.ServerNotActiveException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.ServerNotActiveException]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.lang.UnsupportedClassVersionErrorClassTest
         final UnsupportedClassVersionError sut = null; // = new UnsupportedClassVersionError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.UnsupportedClassVersionError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.UnsupportedClassVersionError]
 
 }

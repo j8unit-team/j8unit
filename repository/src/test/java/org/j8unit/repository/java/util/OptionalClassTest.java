@@ -80,6 +80,8 @@ implements org.j8unit.repository.java.util.OptionalClassTests<Optional> {
         // write some test for {@link java.util.Optional#of(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Optional]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Optional]
 
 }

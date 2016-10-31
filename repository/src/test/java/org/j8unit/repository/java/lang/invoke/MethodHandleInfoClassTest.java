@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests<Met
         // write some test for {@link java.lang.invoke.MethodHandleInfo#referenceKindToString(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandleInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandleInfo]
 
 }

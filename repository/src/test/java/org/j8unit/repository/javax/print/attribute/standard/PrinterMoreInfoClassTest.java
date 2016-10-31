@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMoreInfoC
         final PrinterMoreInfo sut = null; // = new PrinterMoreInfo(java.net.URI);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterMoreInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterMoreInfo]
 
 }

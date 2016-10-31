@@ -68,6 +68,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Map.class!", Map.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Map]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Map]
 
     /**
@@ -129,6 +131,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Entry.class!",
                               Entry.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Map$Entry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Map$Entry]
 

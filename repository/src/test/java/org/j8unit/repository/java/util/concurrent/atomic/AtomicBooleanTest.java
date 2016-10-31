@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AtomicBoolean>, org.j8unit.repository.java.uti
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicBoolean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.atomic.AtomicBoolean]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.AtomicBoolean]
 
 }

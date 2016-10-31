@@ -194,6 +194,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
         // double, double, double)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.CubicCurve2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.CubicCurve2D]
 
     @RunWith(J8Unit4.class)
@@ -250,6 +252,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
             @SuppressWarnings("unused")
             final Float sut = null; // = new Float(float, float, float, float, float, float, float, float);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.CubicCurve2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.CubicCurve2D$Float]
 
@@ -309,6 +313,8 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double, double, double, double, double, double, double);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.CubicCurve2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.CubicCurve2D$Double]
 

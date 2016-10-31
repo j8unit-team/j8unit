@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    BreakIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.BreakIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.BreakIterator]
 
 }

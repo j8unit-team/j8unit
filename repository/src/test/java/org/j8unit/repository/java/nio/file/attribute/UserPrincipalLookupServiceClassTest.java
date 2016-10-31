@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.attribute.UserPrincipalLookupServ
         return UserPrincipalLookupService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.UserPrincipalLookupService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.UserPrincipalLookupService]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    WebServiceContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServiceContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServiceContext]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.naming.ldap.SortResponseControlClassTests
         final SortResponseControl sut = null; // = new SortResponseControl(String, boolean, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.SortResponseControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.SortResponseControl]
 
 }

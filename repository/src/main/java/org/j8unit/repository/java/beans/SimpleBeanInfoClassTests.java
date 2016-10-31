@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.BeanInfoClassTests<SUT>, org.j8unit.rep
                    SimpleBeanInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.SimpleBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.SimpleBeanInfo]
 
 }

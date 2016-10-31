@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.NO_RESOURCESClassTests<NO_RESOURC
         final NO_RESOURCES sut = new NO_RESOURCES();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NO_RESOURCES]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NO_RESOURCES]
 
 }

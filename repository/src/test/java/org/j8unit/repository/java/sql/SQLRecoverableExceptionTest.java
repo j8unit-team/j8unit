@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLRecoverableException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLRecoverableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLRecoverableException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLRecoverableException]
 
 }

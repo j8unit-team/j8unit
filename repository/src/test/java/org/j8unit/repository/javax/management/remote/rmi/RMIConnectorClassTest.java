@@ -69,6 +69,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTe
         final RMIConnector sut = null; // = new RMIConnector(javax.management.remote.rmi.RMIServer, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnector]
 
 }

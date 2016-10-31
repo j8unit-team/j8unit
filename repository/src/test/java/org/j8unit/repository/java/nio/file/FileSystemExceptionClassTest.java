@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests<Fil
         final FileSystemException sut = null; // = new FileSystemException(String, String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.FileSystemException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.FileSystemException]
 
 }

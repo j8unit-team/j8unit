@@ -130,6 +130,8 @@ implements org.j8unit.repository.java.io.FileWriterClassTests<FileWriter> {
         final FileWriter sut = null; // = new FileWriter(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileWriter]
 
 }

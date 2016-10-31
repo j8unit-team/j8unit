@@ -279,6 +279,7 @@ extends org.j8unit.repository.java.lang.NumberTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
 }

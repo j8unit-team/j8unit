@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Doc.class!", Doc.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.Doc]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.Doc]
 
 }

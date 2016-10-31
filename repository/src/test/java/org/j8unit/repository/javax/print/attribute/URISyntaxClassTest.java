@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.URISyntaxClassTests<URISy
         return URISyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.URISyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.URISyntax]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.crypto.interfaces.PBEKeyClassTests<PBEKey
         return PBEKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.interfaces.PBEKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.interfaces.PBEKey]
 
 }

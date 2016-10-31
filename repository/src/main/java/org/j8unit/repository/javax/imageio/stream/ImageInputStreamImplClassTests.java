@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamClassTests<SU
                    ImageInputStreamImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.ImageInputStreamImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.ImageInputStreamImpl]
 
 }

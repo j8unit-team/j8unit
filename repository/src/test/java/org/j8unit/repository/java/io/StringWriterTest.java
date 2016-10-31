@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StringWriter>, org.j8unit.repository.java.io.S
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.StringWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.StringWriter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.StringWriter]
 
 }

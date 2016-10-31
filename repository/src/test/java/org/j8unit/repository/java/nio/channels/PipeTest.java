@@ -18,7 +18,9 @@ implements org.j8unit.repository.java.nio.channels.PipeTests<Pipe> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.channels.Pipe], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Pipe]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe]
 
     @RunWith(J8Unit4.class)
     public static class SourceChannelTest
@@ -31,7 +33,9 @@ implements org.j8unit.repository.java.nio.channels.PipeTests<Pipe> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.channels.Pipe.SourceChannel], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
 
     }
 
@@ -46,7 +50,9 @@ implements org.j8unit.repository.java.nio.channels.PipeTests<Pipe> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.channels.Pipe.SinkChannel], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
 
     }
 

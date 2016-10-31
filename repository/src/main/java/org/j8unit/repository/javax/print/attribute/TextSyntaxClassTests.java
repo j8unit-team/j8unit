@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TextSyntax.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.TextSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.TextSyntax]
 
 }

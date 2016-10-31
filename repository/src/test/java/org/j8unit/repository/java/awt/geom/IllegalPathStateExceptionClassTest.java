@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.geom.IllegalPathStateExceptionClassTes
         final IllegalPathStateException sut = null; // = new IllegalPathStateException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.IllegalPathStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.IllegalPathStateException]
 
 }

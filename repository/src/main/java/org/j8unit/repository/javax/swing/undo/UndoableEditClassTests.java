@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    UndoableEdit.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.UndoableEdit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.UndoableEdit]
 
 }

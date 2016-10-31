@@ -21,6 +21,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         return MultipleGradientPaint.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MultipleGradientPaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         throws Exception {
             // write some test for {@link java.awt.MultipleGradientPaint.ColorSpaceType#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
@@ -134,6 +138,8 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
         throws Exception {
             // write some test for {@link java.awt.MultipleGradientPaint.CycleMethod#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]
 

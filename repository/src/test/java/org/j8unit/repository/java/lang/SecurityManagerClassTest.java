@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.lang.SecurityManagerClassTests<SecurityMan
         final SecurityManager sut = new SecurityManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.SecurityManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.SecurityManager]
 
 }

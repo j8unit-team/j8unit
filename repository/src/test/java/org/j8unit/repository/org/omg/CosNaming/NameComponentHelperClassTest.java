@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentHelperClassTests
         // write some test for {@link org.omg.CosNaming.NameComponentHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NameComponentHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameComponentHelper]
 
 }

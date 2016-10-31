@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.TableModelListenerClassTests<
         return TableModelListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TableModelListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TableModelListener]
 
 }

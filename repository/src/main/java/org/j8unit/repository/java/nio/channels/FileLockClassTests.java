@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit
                    FileLock.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileLock]
 
 }

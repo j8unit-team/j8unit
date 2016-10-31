@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
                    DirStateFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirStateFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirStateFactory]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Result.class!",
                               Result.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]
 

@@ -41,26 +41,6 @@ implements org.j8unit.repository.java.time.MonthDayClassTests<MonthDay> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.MonthDay#now(java.time.Clock) public
-     * static java.time.MonthDay java.time.MonthDay.now(java.time.Clock)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_now_Clock()
-    throws Exception {
-        // write some test for {@link java.time.MonthDay#now(java.time.Clock)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.MonthDay#now(java.time.ZoneId) public
      * static java.time.MonthDay java.time.MonthDay.now(java.time.ZoneId)}.
      *
@@ -81,8 +61,8 @@ implements org.j8unit.repository.java.time.MonthDayClassTests<MonthDay> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.MonthDay#of(java.time.Month, int) public
-     * static java.time.MonthDay java.time.MonthDay.of(java.time.Month,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.MonthDay#now(java.time.Clock) public
+     * static java.time.MonthDay java.time.MonthDay.now(java.time.Clock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,9 +74,9 @@ implements org.j8unit.repository.java.time.MonthDayClassTests<MonthDay> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_of_Month_int()
+    public void test_now_Clock()
     throws Exception {
-        // write some test for {@link java.time.MonthDay#of(java.time.Month, int)}
+        // write some test for {@link java.time.MonthDay#now(java.time.Clock)}
     }
 
     /**
@@ -117,6 +97,26 @@ implements org.j8unit.repository.java.time.MonthDayClassTests<MonthDay> {
     public void test_of_int_int()
     throws Exception {
         // write some test for {@link java.time.MonthDay#of(int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.MonthDay#of(java.time.Month, int) public
+     * static java.time.MonthDay java.time.MonthDay.of(java.time.Month,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_of_Month_int()
+    throws Exception {
+        // write some test for {@link java.time.MonthDay#of(java.time.Month, int)}
     }
 
     /**
@@ -180,6 +180,8 @@ implements org.j8unit.repository.java.time.MonthDayClassTests<MonthDay> {
     throws Exception {
         // write some test for {@link java.time.MonthDay#from(java.time.temporal.TemporalAccessor)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.MonthDay]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.MonthDay]
 

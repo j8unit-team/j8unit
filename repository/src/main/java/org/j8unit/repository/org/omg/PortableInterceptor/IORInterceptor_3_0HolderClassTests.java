@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, 
                    IORInterceptor_3_0Holder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
 
 }

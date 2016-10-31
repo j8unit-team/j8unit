@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.StatementClassTests<Statement> {
         return Statement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Statement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Statement]
 
 }

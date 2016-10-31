@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicBooleanClassT
         final AtomicBoolean sut = new AtomicBoolean();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicBoolean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicBoolean]
 
 }

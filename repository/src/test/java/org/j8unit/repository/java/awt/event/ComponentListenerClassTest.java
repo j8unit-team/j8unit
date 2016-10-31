@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.ComponentListenerClassTests<Comp
         return ComponentListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ComponentListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ComponentListener]
 
 }

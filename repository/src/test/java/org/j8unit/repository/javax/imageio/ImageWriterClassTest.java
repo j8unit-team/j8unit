@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.ImageWriterClassTests<ImageWriter
         return ImageWriter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.ImageWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageWriter]
 
 }

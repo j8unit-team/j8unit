@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.ReadableClassTests<Readable> {
         return Readable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Readable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Readable]
 
 }

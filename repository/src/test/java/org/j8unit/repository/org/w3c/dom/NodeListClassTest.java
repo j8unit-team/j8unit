@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.NodeListClassTests<NodeList> {
         return NodeList.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.NodeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.NodeList]
 
 }

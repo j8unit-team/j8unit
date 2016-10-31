@@ -130,6 +130,8 @@ implements org.j8unit.repository.javax.swing.JWindowClassTests<JWindow> {
         final JWindow sut = null; // = new JWindow(java.awt.Window, java.awt.GraphicsConfiguration);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JWindow]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JWindow]
 
 }

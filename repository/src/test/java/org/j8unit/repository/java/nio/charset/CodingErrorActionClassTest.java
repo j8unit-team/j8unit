@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.charset.CodingErrorActionClassTests<Co
         return CodingErrorAction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.CodingErrorAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.CodingErrorAction]
 
 }

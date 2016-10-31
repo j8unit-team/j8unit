@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.crypto.SecretKeyClassTests<SecretKey> {
         return SecretKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.SecretKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SecretKey]
 
 }

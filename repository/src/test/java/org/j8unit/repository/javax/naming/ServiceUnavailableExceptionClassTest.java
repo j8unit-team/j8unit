@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.ServiceUnavailableExceptionClassTe
         final ServiceUnavailableException sut = new ServiceUnavailableException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ServiceUnavailableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ServiceUnavailableException]
 
 }

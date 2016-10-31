@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<Fla
         return FlavorTable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.FlavorTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.FlavorTable]
 
 }

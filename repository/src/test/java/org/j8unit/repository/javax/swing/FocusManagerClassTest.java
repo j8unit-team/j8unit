@@ -121,6 +121,8 @@ implements org.j8unit.repository.javax.swing.FocusManagerClassTests<FocusManager
         // write some test for {@link javax.swing.FocusManager#disableSwingFocusManager()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.FocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.FocusManager]
 
 }

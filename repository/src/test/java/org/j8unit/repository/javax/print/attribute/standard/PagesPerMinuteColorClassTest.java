@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PagesPerMinuteCo
         final PagesPerMinuteColor sut = null; // = new PagesPerMinuteColor(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PagesPerMinuteColor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PagesPerMinuteColor]
 
 }

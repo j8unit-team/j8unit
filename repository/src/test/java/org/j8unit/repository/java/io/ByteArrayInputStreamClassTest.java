@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.io.ByteArrayInputStreamClassTests<ByteArra
         final ByteArrayInputStream sut = null; // = new ByteArrayInputStream(byte[], int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ByteArrayInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ByteArrayInputStream]
 
 }

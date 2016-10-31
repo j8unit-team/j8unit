@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    XMLCryptoContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.XMLCryptoContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.XMLCryptoContext]
 
 }

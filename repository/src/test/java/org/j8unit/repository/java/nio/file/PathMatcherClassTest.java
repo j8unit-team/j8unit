@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.PathMatcherClassTests<PathMatcher
         return PathMatcher.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.PathMatcher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.PathMatcher]
 
 }

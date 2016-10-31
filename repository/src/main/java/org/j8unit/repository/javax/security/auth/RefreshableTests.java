@@ -77,6 +77,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.Refreshable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.Refreshable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.Refreshable]
 }

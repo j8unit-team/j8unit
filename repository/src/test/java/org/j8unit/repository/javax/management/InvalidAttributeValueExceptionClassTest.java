@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.InvalidAttributeValueException
         final InvalidAttributeValueException sut = null; // = new InvalidAttributeValueException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.InvalidAttributeValueException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.InvalidAttributeValueException]
 
 }

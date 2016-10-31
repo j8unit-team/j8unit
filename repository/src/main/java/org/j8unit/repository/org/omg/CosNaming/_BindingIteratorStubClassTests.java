@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorClassTests<SUT>, 
                    _BindingIteratorStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming._BindingIteratorStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming._BindingIteratorStub]
 
 }

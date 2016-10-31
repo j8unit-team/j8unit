@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPExceptionClassTests<SOAPExce
         final SOAPException sut = new SOAPException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPException]
 
 }

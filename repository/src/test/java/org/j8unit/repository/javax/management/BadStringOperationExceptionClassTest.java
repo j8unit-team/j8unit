@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.BadStringOperationExceptionCla
         final BadStringOperationException sut = null; // = new BadStringOperationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.BadStringOperationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadStringOperationException]
 
 }

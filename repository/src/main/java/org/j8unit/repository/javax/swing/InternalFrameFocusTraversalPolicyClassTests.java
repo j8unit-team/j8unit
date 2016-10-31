@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.FocusTraversalPolicyClassTests<SUT> {
                    InternalFrameFocusTraversalPolicy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.InternalFrameFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.InternalFrameFocusTraversalPolicy]
 
 }

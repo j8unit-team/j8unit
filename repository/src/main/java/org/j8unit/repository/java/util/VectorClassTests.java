@@ -68,6 +68,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
                    Vector.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Vector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Vector]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.MutableComboBoxModelClassTests<Muta
         return MutableComboBoxModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.MutableComboBoxModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.MutableComboBoxModel]
 
 }

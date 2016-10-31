@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionClassTests<Z
         // java.time.ZoneOffset, java.time.ZoneOffset)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneOffsetTransition]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransition]
 
 }

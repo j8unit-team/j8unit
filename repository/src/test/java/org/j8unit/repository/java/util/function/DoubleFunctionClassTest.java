@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.DoubleFunctionClassTests<Dou
         return DoubleFunction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.DoubleFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoubleFunction]
 
 }

@@ -185,6 +185,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.LockSupportClassTest
         // write some test for {@link java.util.concurrent.locks.LockSupport#park(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.LockSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.LockSupport]
 
 }

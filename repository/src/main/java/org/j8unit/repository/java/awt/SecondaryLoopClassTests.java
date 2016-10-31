@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SecondaryLoop.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.SecondaryLoop]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SecondaryLoop]
 
 }

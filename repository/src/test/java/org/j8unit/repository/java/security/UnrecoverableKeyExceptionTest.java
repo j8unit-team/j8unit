@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UnrecoverableKeyException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.UnrecoverableKeyException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.UnrecoverableKeyException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.UnrecoverableKeyException]
 
 }

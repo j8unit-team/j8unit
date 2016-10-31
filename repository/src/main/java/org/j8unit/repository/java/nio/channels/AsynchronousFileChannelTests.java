@@ -343,6 +343,7 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT>, o
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AsynchronousFileChannel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.AsynchronousFileChannel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AsynchronousFileChannel]
 }

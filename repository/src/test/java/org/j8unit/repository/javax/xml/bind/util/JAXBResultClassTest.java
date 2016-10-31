@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBResultClassTests<JAXBRe
         final JAXBResult sut = null; // = new JAXBResult(javax.xml.bind.Unmarshaller);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.util.JAXBResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.JAXBResult]
 
 }

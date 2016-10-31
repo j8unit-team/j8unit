@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<Notif
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotificationBroadcasterSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.NotificationBroadcasterSupport]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationBroadcasterSupport]
 
 }

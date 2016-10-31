@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.DynamicAny._DynValueStubClassTests<_Dyn
         final _DynValueStub sut = new _DynValueStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynValueStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynValueStub]
 
 }

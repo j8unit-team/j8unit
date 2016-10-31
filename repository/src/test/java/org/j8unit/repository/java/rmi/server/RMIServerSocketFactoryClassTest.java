@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTest
         return RMIServerSocketFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIServerSocketFactory]
 
 }

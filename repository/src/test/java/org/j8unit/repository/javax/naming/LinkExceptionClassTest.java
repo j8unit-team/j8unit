@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.naming.LinkExceptionClassTests<LinkExcept
         final LinkException sut = new LinkException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.LinkException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.LinkException]
 
 }

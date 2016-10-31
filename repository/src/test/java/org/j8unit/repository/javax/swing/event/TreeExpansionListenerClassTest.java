@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.TreeExpansionListenerClassTes
         return TreeExpansionListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TreeExpansionListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TreeExpansionListener]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AnnotatedConstruct.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.AnnotatedConstruct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.AnnotatedConstruct]
 
 }

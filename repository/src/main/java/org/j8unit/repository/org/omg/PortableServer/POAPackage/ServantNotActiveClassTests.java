@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
                    ServantNotActive.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActive]
 
 }

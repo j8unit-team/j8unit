@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextClassTests<Be
         return BeanContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContext]
 
 }

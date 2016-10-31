@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.management.relation.RoleResultClassTests<
                                      // javax.management.relation.RoleUnresolvedList);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleResult]
 
 }

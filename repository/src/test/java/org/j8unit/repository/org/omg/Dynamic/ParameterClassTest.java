@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.Dynamic.ParameterClassTests<Parameter> 
         final Parameter sut = null; // = new Parameter(org.omg.CORBA.Any, org.omg.CORBA.ParameterMode);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.Dynamic.Parameter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.Dynamic.Parameter]
 
 }

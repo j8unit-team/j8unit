@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHolderClassTests<UShortS
         final UShortSeqHolder sut = new UShortSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UShortSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UShortSeqHolder]
 
 }

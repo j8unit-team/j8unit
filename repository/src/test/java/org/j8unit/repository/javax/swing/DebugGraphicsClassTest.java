@@ -248,6 +248,8 @@ implements org.j8unit.repository.javax.swing.DebugGraphicsClassTests<DebugGraphi
         // write some test for {@link javax.swing.DebugGraphics#logStream()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DebugGraphics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DebugGraphics]
 
 }

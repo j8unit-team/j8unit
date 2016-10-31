@@ -169,6 +169,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.OutputStreamWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.OutputStreamWriter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.OutputStreamWriter]
 }

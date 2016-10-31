@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeDataInvocat
                                                          // CompositeDataInvocationHandler(javax.management.openmbean.CompositeData);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.CompositeDataInvocationHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeDataInvocationHandler]
 
 }

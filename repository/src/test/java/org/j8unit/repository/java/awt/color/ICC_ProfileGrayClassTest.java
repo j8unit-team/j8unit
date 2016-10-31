@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.color.ICC_ProfileGrayClassTests<ICC_Pr
         return ICC_ProfileGray.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ICC_ProfileGray]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ICC_ProfileGray]
 
 }

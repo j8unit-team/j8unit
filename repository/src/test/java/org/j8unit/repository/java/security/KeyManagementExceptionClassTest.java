@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.KeyManagementExceptionClassTests<
         final KeyManagementException sut = new KeyManagementException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyManagementException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyManagementException]
 
 }

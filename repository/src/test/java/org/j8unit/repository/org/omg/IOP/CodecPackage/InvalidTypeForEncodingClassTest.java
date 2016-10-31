@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncoding
         final InvalidTypeForEncoding sut = null; // = new InvalidTypeForEncoding(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    KeyEventPostProcessor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.KeyEventPostProcessor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyEventPostProcessor]
 
 }

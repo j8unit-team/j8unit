@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.CosNaming._BindingIteratorImplBaseClass
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming._BindingIteratorImplBase]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming._BindingIteratorImplBase]
 
 }

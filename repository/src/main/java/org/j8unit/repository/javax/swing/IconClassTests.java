@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Icon.class!", Icon.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Icon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Icon]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.MalformedURLExceptionClassTests<Malfor
         final MalformedURLException sut = null; // = new MalformedURLException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.MalformedURLException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.MalformedURLException]
 
 }

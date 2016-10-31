@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.GridBagLayoutClassTests<GridBagLayout>
         final GridBagLayout sut = new GridBagLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GridBagLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GridBagLayout]
 
 }

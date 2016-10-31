@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ManagerFactoryParameters.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.ManagerFactoryParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.ManagerFactoryParameters]
 
 }

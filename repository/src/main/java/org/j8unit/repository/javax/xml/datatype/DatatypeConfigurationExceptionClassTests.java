@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    DatatypeConfigurationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConfigurationException]
 
 }

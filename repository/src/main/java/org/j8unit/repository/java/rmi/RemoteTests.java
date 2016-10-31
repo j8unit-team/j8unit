@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.Remote]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.Remote]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.Remote]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.Remote]
 }

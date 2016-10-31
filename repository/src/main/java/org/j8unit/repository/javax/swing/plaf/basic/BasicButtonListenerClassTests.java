@@ -69,6 +69,8 @@ org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8un
                    BasicButtonListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DomainManagerOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DomainManagerOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DomainManagerOperations]
 
 }

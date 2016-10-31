@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.ToolTipManagerTests<ToolTipManager>
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.ToolTipManager], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ToolTipManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ToolTipManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ToolTipManager]
 
 }

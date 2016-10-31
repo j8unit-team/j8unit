@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.CORBA.DoubleSeqHelperTests<DoubleSeqHel
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.CORBA.DoubleSeqHelper], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHelper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHelper]
 
 }

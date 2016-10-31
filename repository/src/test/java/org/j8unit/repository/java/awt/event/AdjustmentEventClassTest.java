@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.event.AdjustmentEventClassTests<Adjust
         final AdjustmentEvent sut = null; // = new AdjustmentEvent(java.awt.Adjustable, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.AdjustmentEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.AdjustmentEvent]
 
 }

@@ -214,6 +214,7 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.LineNumberReader]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.LineNumberReader]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.LineNumberReader]
 }

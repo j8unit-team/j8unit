@@ -69,6 +69,8 @@ extends RepositoryClassTests<SUT> {
                    Position.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Position]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Position]
 
     /**
@@ -131,6 +133,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Bias.class!",
                               Bias.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Position$Bias]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Position$Bias]
 

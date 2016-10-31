@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.X509ExtendedKeyManagerClassTests<
         return X509ExtendedKeyManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.X509ExtendedKeyManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.X509ExtendedKeyManager]
 
 }

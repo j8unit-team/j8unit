@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SAXNotSupportedException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXNotSupportedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.SAXNotSupportedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.SAXNotSupportedException]
 
 }

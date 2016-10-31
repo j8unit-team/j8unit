@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.print.PageFormatClassTests<PageFormat>
         final PageFormat sut = new PageFormat();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.PageFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PageFormat]
 
 }

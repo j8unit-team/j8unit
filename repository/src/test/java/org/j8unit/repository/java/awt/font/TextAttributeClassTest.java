@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.font.TextAttributeClassTests<TextAttri
         return TextAttribute.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextAttribute]
 
 }

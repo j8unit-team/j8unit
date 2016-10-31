@@ -28,6 +28,7 @@ extends org.j8unit.repository.java.lang.IncompatibleClassChangeErrorTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NoSuchFieldError]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.NoSuchFieldError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.NoSuchFieldError]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.NoSuchFieldError]
 }

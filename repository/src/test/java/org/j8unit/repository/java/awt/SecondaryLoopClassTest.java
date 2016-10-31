@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.SecondaryLoopClassTests<SecondaryLoop>
         return SecondaryLoop.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.SecondaryLoop]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SecondaryLoop]
 
 }

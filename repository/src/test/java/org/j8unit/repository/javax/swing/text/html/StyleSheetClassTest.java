@@ -63,22 +63,9 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<Styl
         // write some test for {@link javax.swing.text.html.StyleSheet#getIndexOfSize(float)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.StyleSheet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet]
-
-    @RunWith(J8Unit4.class)
-    public static class BoxPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests<BoxPainter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
-
-        @Override
-        public Class<BoxPainter> createNewSUT() {
-            return BoxPainter.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class ListPainterClassTest
@@ -91,7 +78,26 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<Styl
             return ListPainter.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class BoxPainterClassTest
+    implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests<BoxPainter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+        @Override
+        public Class<BoxPainter> createNewSUT() {
+            return BoxPainter.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
 
     }
 

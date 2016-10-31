@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.ShutdownChannelGroupException
         final ShutdownChannelGroupException sut = new ShutdownChannelGroupException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ShutdownChannelGroupException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ShutdownChannelGroupException]
 
 }

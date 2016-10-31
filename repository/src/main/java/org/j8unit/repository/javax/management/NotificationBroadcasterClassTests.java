@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    NotificationBroadcaster.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationBroadcaster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationBroadcaster]
 
 }

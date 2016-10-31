@@ -99,6 +99,7 @@ extends org.j8unit.repository.javax.sql.RowSetWriterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.TransactionalWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.spi.TransactionalWriter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.TransactionalWriter]
 }

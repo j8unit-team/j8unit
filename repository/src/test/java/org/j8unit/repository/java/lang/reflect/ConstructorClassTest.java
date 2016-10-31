@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.reflect.ConstructorClassTests<Constru
         return Constructor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Constructor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Constructor]
 
 }

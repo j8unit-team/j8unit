@@ -131,6 +131,8 @@ implements org.j8unit.repository.java.util.jar.JarFileClassTests<JarFile> {
         final JarFile sut = null; // = new JarFile(java.io.File, boolean, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.JarFile]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarFile]
 
 }

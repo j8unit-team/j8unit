@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.multi.MultiToolTipUIClassTests
         // write some test for {@link javax.swing.plaf.multi.MultiToolTipUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiToolTipUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiToolTipUI]
 
 }

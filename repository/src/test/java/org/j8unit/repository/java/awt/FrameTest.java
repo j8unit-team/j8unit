@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Frame>, org.j8unit.repository.java.awt.FrameTe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Frame]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Frame]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Frame]
 
 }

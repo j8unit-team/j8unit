@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<T
         return TemporalAdjuster.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalAdjuster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalAdjuster]
 
 }

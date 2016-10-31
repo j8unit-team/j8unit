@@ -67,6 +67,8 @@ implements org.j8unit.repository.java.security.cert.PKIXParametersClassTests<PKI
         final PKIXParameters sut = null; // = new PKIXParameters(java.security.KeyStore);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXParameters]
 
 }

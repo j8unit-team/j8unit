@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.management.MonitorInfoTests<MonitorIn
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.management.MonitorInfo], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.MonitorInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.MonitorInfo]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.MonitorInfo]
 
 }

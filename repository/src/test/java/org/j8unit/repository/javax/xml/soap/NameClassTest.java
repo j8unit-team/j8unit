@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.NameClassTests<Name> {
         return Name.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.Name]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.Name]
 
 }

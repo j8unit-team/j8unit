@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.AttributeSetClassTests<SUT> 
                    PrintJobAttributeSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.PrintJobAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.PrintJobAttributeSet]
 
 }

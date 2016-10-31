@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.event.PrintJobEventClassTests<Print
         final PrintJobEvent sut = null; // = new PrintJobEvent(javax.print.DocPrintJob, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintJobEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintJobEvent]
 
 }

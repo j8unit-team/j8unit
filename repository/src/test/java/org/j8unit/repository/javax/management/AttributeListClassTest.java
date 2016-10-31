@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.management.AttributeListClassTests<Attrib
         final AttributeList sut = null; // = new AttributeList(javax.management.AttributeList);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.AttributeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeList]
 
 }

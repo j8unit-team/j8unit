@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.REBINDClassTests<REBIND> {
         final REBIND sut = new REBIND();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.REBIND]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.REBIND]
 
 }

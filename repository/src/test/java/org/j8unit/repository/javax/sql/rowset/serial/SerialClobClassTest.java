@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialClobClassTests<Se
         final SerialClob sut = null; // = new SerialClob(java.sql.Clob);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialClob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialClob]
 
 }

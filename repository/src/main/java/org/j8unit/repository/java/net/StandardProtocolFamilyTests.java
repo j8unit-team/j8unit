@@ -60,6 +60,7 @@ extends org.j8unit.repository.java.net.ProtocolFamilyTests<SUT>, org.j8unit.repo
         org.j8unit.repository.java.lang.EnumTests.super.test_name();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.StandardProtocolFamily]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.StandardProtocolFamily]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.StandardProtocolFamily]
 }

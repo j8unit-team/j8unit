@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.NumberClassTests<SUT> {
                    LongAccumulator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.LongAccumulator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.LongAccumulator]
 
 }

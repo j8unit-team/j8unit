@@ -21,9 +21,8 @@ implements org.j8unit.repository.java.awt.FileDialogClassTests<FileDialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.FileDialog#FileDialog(java.awt.Frame, String) public
-     * java.awt.FileDialog(java.awt.Frame,java.lang.String)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.FileDialog#FileDialog(java.awt.Dialog)
+     * public java.awt.FileDialog(java.awt.Dialog)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,11 @@ implements org.j8unit.repository.java.awt.FileDialogClassTests<FileDialog> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_FileDialog_Frame_String()
+    public void create_FileDialog_Dialog()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileDialog sut = null; // = new FileDialog(java.awt.Frame, String);
+        final FileDialog sut = null; // = new FileDialog(java.awt.Dialog);
     }
 
     /**
@@ -67,8 +66,8 @@ implements org.j8unit.repository.java.awt.FileDialogClassTests<FileDialog> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.FileDialog#FileDialog(java.awt.Dialog, String) public
-     * java.awt.FileDialog(java.awt.Dialog,java.lang.String)}.
+     * {@link java.awt.FileDialog#FileDialog(java.awt.Frame, String) public
+     * java.awt.FileDialog(java.awt.Frame,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,11 +79,11 @@ implements org.j8unit.repository.java.awt.FileDialogClassTests<FileDialog> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_FileDialog_Dialog_String()
+    public void create_FileDialog_Frame_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final FileDialog sut = null; // = new FileDialog(java.awt.Dialog, String);
+        final FileDialog sut = null; // = new FileDialog(java.awt.Frame, String);
     }
 
     /**
@@ -112,28 +111,6 @@ implements org.j8unit.repository.java.awt.FileDialogClassTests<FileDialog> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.FileDialog#FileDialog(java.awt.Dialog)
-     * public java.awt.FileDialog(java.awt.Dialog)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_FileDialog_Dialog()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final FileDialog sut = null; // = new FileDialog(java.awt.Dialog);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.awt.FileDialog#FileDialog(java.awt.Dialog, String, int) public
      * java.awt.FileDialog(java.awt.Dialog,java.lang.String,int)}.
@@ -154,6 +131,31 @@ implements org.j8unit.repository.java.awt.FileDialogClassTests<FileDialog> {
         @SuppressWarnings("unused")
         final FileDialog sut = null; // = new FileDialog(java.awt.Dialog, String, int);
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.FileDialog#FileDialog(java.awt.Dialog, String) public
+     * java.awt.FileDialog(java.awt.Dialog,java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_FileDialog_Dialog_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final FileDialog sut = null; // = new FileDialog(java.awt.Dialog, String);
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.FileDialog]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.FileDialog]
 

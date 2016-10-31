@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.sql.ClientInfoStatusClassTests<ClientInfoS
         // write some test for {@link java.sql.ClientInfoStatus#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.ClientInfoStatus]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ClientInfoStatus]
 
 }

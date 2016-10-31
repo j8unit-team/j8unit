@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.security.KeyStoreExceptionClassTests<KeySt
         final KeyStoreException sut = new KeyStoreException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStoreException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStoreException]
 
 }

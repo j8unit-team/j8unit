@@ -66,6 +66,8 @@ org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT>, org.j8unit.reposito
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Class.class!", Class.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Class]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Class]
 
 }

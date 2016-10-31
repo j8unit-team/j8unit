@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.peer.DropTargetContextPeerClassTes
         return DropTargetContextPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.peer.DropTargetContextPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.peer.DropTargetContextPeer]
 
 }

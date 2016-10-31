@@ -99,6 +99,8 @@ implements org.j8unit.repository.java.net.IDNClassTests<IDN> {
         // write some test for {@link java.net.IDN#toASCII(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.IDN]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.IDN]
 
 }

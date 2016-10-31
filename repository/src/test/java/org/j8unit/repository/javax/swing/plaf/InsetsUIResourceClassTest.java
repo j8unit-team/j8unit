@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.InsetsUIResourceClassTests<Ins
         final InsetsUIResource sut = null; // = new InsetsUIResource(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.InsetsUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.InsetsUIResource]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    InitialContextFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.InitialContextFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.InitialContextFactory]
 
 }

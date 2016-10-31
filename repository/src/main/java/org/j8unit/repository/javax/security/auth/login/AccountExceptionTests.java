@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.security.auth.login.LoginExceptionTests<SUT>
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.AccountException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.AccountException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.AccountException]
 }

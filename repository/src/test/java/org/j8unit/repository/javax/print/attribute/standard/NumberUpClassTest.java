@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.NumberUpClassTes
         final NumberUp sut = null; // = new NumberUp(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.NumberUp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.NumberUp]
 
 }

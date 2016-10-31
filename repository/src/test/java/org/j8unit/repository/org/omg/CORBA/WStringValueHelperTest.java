@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WStringValueHelper>, org.j8unit.repository.org
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
 
 }

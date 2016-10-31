@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.DialogClassTests<SUT> {
                    JDialog.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JDialog]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JDialog]
 
 }

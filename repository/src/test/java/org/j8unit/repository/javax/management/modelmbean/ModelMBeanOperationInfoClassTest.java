@@ -142,6 +142,8 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanOperation
                                                   // javax.management.Descriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanOperationInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanOperationInfo]
 
 }

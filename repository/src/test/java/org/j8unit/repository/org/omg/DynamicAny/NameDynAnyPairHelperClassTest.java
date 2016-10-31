@@ -170,6 +170,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairHelperClassTes
         // write some test for {@link org.omg.DynamicAny.NameDynAnyPairHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPairHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPairHelper]
 
 }

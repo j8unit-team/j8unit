@@ -367,6 +367,7 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
         org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleBindings]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.SimpleBindings]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleBindings]
 }

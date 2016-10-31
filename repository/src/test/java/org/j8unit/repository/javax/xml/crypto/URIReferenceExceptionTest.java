@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<URIReferenceException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.URIReferenceException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.URIReferenceException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.URIReferenceException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLTableSectionElementClassTe
         return HTMLTableSectionElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLTableSectionElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLTableSectionElement]
 
 }

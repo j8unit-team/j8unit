@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.security.auth.callback.TextInputCallbackTest
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.RealmCallback]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.RealmCallback]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.sasl.RealmCallback]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.RealmCallback]
 }

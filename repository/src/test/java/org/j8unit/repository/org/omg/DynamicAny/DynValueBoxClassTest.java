@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynValueBoxClassTests<DynVal
         return DynValueBox.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynValueBox]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynValueBox]
 
 }

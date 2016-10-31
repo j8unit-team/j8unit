@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleExtendedTextClass
         return AccessibleExtendedText.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleExtendedText]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleExtendedText]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8
                    ChronoZonedDateTime.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ChronoZonedDateTime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ChronoZonedDateTime]
 
 }

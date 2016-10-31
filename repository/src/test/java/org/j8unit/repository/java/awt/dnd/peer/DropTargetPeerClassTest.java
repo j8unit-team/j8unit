@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.peer.DropTargetPeerClassTests<Drop
         return DropTargetPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.peer.DropTargetPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.peer.DropTargetPeer]
 
 }

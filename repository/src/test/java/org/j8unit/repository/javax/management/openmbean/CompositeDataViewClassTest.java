@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeDataViewCla
         return CompositeDataView.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.CompositeDataView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeDataView]
 
 }

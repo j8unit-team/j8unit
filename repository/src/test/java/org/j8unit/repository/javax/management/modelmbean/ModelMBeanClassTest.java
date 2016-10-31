@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanClassTest
         return ModelMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBean]
 
 }

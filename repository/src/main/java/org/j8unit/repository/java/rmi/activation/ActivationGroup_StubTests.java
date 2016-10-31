@@ -58,6 +58,7 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SU
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationGroup_Stub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.ActivationGroup_Stub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationGroup_Stub]
 }

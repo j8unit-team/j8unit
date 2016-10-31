@@ -98,6 +98,7 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.OctetStreamData]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.OctetStreamData]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.OctetStreamData]
 }

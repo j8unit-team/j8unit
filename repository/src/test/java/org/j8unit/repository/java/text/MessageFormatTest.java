@@ -23,7 +23,9 @@ implements org.j8unit.repository.java.text.MessageFormatTests<MessageFormat> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.text.MessageFormat], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.MessageFormat]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.MessageFormat]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.MessageFormat]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.java.text.MessageFormatTests<MessageFormat> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.MessageFormat$Field]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.MessageFormat$Field]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.MessageFormat$Field]
 
     }
 

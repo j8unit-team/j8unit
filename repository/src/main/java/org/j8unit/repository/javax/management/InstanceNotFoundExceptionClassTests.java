@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.OperationsExceptionClassTests<SUT
                    InstanceNotFoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.InstanceNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.InstanceNotFoundException]
 
 }

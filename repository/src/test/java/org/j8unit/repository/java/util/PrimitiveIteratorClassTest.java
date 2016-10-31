@@ -19,6 +19,8 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
         return PrimitiveIterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator]
 
     @RunWith(J8Unit4.class)
@@ -31,6 +33,8 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
         public Class<OfLong> createNewSUT() {
             return OfLong.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
 
@@ -47,6 +51,8 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
             return OfDouble.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator$OfDouble]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfDouble]
 
     }
@@ -61,6 +67,8 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
         public Class<OfInt> createNewSUT() {
             return OfInt.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator$OfInt]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfInt]
 

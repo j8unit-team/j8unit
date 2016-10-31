@@ -123,6 +123,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMSignContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMSignContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMSignContext]
 }

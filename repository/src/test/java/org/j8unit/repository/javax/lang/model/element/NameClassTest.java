@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.element.NameClassTests<Name> {
         return Name.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.Name]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.Name]
 
 }

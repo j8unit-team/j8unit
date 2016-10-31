@@ -82,6 +82,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.DSAKeyPairGenerator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.interfaces.DSAKeyPairGenerator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.DSAKeyPairGenerator]
 }

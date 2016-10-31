@@ -218,6 +218,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperCl
         // org.omg.PortableServer.ServantActivator)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantActivatorHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantActivatorHelper]
 
 }

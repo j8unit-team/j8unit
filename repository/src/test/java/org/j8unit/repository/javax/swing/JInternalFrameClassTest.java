@@ -155,6 +155,8 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
         final JInternalFrame sut = null; // = new JInternalFrame(String, boolean, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JInternalFrame]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JInternalFrame]
 
     @RunWith(J8Unit4.class)
@@ -190,6 +192,8 @@ implements org.j8unit.repository.javax.swing.JInternalFrameClassTests<JInternalF
             @SuppressWarnings("unused")
             final JDesktopIcon sut = null; // = new JDesktopIcon(javax.swing.JInternalFrame);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]
 

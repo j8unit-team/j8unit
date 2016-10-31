@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.sql.SQLPermissionClassTests<SQLPermission>
         final SQLPermission sut = null; // = new SQLPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLPermission]
 
 }

@@ -98,6 +98,7 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpRetryException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.HttpRetryException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpRetryException]
 }

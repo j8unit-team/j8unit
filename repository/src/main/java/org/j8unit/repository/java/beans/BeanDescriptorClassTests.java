@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {
                    BeanDescriptor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.BeanDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.BeanDescriptor]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIServerClassTests
         return RMIServer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIServer]
 
 }

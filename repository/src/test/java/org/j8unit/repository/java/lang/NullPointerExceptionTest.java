@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<NullPointerException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NullPointerException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.NullPointerException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.NullPointerException]
 
 }

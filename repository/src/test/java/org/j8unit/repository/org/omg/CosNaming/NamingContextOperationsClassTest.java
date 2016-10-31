@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsClassT
         return NamingContextOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextOperations]
 
 }

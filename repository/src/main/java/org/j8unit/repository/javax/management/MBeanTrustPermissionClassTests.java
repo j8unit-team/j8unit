@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
                    MBeanTrustPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanTrustPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanTrustPermission]
 
 }

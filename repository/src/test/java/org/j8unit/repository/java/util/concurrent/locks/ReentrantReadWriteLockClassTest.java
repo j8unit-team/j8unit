@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
         final ReentrantReadWriteLock sut = new ReentrantReadWriteLock();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
     @RunWith(J8Unit4.class)
@@ -78,6 +80,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
         public Class<ReadLock> createNewSUT() {
             return ReadLock.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
@@ -93,6 +97,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
         public Class<WriteLock> createNewSUT() {
             return WriteLock.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 

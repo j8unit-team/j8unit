@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.AbstractWriterClassTests<Abstr
         return AbstractWriter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AbstractWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AbstractWriter]
 
 }

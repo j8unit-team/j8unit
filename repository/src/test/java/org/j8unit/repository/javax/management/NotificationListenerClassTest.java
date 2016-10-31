@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.NotificationListenerClassTests
         return NotificationListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationListener]
 
 }

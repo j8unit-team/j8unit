@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CRC32>, org.j8unit.repository.java.util.zip.CR
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.CRC32]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.CRC32]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.CRC32]
 
 }

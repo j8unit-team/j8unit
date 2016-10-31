@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.io.StringWriterClassTests<StringWriter> {
         final StringWriter sut = null; // = new StringWriter(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.StringWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.StringWriter]
 
 }

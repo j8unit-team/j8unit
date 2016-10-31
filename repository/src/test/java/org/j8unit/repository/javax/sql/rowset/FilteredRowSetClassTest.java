@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.FilteredRowSetClassTests<Filte
         return FilteredRowSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.FilteredRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.FilteredRowSet]
 
 }

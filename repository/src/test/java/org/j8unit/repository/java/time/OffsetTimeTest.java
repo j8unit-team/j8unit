@@ -30,6 +30,8 @@ implements org.j8unit.repository.java.time.OffsetTimeTests<OffsetTime> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.OffsetTime]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.OffsetTime]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.OffsetTime]
 
 }

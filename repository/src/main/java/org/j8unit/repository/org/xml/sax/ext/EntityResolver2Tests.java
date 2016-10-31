@@ -81,6 +81,7 @@ extends org.j8unit.repository.org.xml.sax.EntityResolverTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.EntityResolver2]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.EntityResolver2]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.EntityResolver2]
 }

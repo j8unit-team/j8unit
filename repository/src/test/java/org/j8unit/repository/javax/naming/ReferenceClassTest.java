@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.naming.ReferenceClassTests<Reference> {
         final Reference sut = null; // = new Reference(String, javax.naming.RefAddr);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.Reference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Reference]
 
 }

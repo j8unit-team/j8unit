@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.RelationNotFoundExcep
         final RelationNotFoundException sut = null; // = new RelationNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationNotFoundException]
 
 }

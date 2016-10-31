@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.xml.soap.NodeClassTests<SUT>, org.j8unit.rep
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Text.class!", Text.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.Text]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.Text]
 
 }

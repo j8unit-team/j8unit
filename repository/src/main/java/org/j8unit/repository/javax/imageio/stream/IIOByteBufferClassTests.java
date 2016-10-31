@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    IIOByteBuffer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.IIOByteBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.IIOByteBuffer]
 
 }

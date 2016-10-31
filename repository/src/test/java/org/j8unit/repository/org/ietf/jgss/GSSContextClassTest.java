@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.ietf.jgss.GSSContextClassTests<GSSContext> 
         return GSSContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSContext]
 
 }

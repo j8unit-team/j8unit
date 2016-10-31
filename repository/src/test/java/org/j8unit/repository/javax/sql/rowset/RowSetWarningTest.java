@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RowSetWarning>, org.j8unit.repository.javax.sq
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetWarning]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.RowSetWarning]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.RowSetWarning]
 
 }

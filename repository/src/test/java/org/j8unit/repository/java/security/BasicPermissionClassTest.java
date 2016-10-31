@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.security.BasicPermissionClassTests<BasicPe
         Assert.fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.BasicPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.BasicPermission]
 
 }

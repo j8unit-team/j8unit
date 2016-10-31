@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
                    LineBorder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.LineBorder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.LineBorder]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
                    Registry.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.registry.Registry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.registry.Registry]
 
 }

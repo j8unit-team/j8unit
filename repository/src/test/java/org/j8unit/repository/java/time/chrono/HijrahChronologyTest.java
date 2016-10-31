@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.time.chrono.HijrahChronologyTests<HijrahCh
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.HijrahChronology]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.HijrahChronology]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.HijrahChronology]
 
 }

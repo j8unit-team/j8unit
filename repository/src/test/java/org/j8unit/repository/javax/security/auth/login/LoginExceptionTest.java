@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LoginException>, org.j8unit.repository.javax.s
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.LoginException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.LoginException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.LoginException]
 
 }

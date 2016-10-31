@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.acl.AclClassTests<Acl> {
         return Acl.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.Acl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.Acl]
 
 }

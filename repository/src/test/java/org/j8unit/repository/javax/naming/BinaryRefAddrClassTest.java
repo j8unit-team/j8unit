@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.naming.BinaryRefAddrClassTests<BinaryRefA
         final BinaryRefAddr sut = null; // = new BinaryRefAddr(String, byte[], int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.BinaryRefAddr]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.BinaryRefAddr]
 
 }

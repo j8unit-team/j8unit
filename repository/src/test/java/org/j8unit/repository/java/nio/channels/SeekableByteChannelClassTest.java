@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.SeekableByteChannelClassTests
         return SeekableByteChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.SeekableByteChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.SeekableByteChannel]
 
 }

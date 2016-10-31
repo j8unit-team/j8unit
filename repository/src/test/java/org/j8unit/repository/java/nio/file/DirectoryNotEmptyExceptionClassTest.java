@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.file.DirectoryNotEmptyExceptionClassTe
         final DirectoryNotEmptyException sut = null; // = new DirectoryNotEmptyException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.DirectoryNotEmptyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.DirectoryNotEmptyException]
 
 }

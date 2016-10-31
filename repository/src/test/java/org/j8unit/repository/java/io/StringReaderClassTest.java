@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.io.StringReaderClassTests<StringReader> {
         final StringReader sut = null; // = new StringReader(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.StringReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.StringReader]
 
 }

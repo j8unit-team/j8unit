@@ -172,6 +172,7 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTest
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.DosFileAttributeView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.DosFileAttributeView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.DosFileAttributeView]
 }

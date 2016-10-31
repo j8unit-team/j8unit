@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    TimeoutException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.TimeoutException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.TimeoutException]
 
 }

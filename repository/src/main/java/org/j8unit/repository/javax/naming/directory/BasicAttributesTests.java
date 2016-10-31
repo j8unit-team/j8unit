@@ -314,6 +314,7 @@ extends org.j8unit.repository.javax.naming.directory.AttributesTests<SUT>, org.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Keymap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Keymap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Keymap]
 
 }

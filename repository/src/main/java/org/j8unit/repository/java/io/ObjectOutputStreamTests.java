@@ -557,8 +557,9 @@ org.j8unit.repository.java.io.OutputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -814,8 +815,9 @@ org.j8unit.repository.java.io.OutputStreamTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
     }
 
 }

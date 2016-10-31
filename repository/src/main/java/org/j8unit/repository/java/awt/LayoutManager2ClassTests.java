@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT> {
                    LayoutManager2.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.LayoutManager2]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.LayoutManager2]
 
 }

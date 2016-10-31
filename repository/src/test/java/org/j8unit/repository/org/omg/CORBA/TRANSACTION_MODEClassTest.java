@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODEClassTests<TRANSA
         final TRANSACTION_MODE sut = new TRANSACTION_MODE();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TRANSACTION_MODE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TRANSACTION_MODE]
 
 }

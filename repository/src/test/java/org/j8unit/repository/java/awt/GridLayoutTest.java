@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<GridLayout>, org.j8unit.repository.java.awt.Gr
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GridLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GridLayout]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GridLayout]
 
 }

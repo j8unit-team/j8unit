@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {
                    PaintEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.PaintEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.PaintEvent]
 
 }

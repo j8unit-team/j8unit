@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NO_MEMORY>, org.j8unit.repository.org.omg.CORB
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_MEMORY]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.NO_MEMORY]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.NO_MEMORY]
 
 }

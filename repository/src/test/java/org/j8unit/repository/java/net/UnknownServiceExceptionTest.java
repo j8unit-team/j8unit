@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UnknownServiceException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.UnknownServiceException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.UnknownServiceException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.UnknownServiceException]
 
 }

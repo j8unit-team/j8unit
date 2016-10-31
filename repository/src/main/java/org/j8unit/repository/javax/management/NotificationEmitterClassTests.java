@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterClassTests
                    NotificationEmitter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationEmitter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationEmitter]
 
 }

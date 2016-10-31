@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ValueHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.ValueHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.ValueHandler]
 
 }

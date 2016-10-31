@@ -99,6 +99,8 @@ implements org.j8unit.repository.java.awt.font.TextHitInfoClassTests<TextHitInfo
         // write some test for {@link java.awt.font.TextHitInfo#trailing(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextHitInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextHitInfo]
 
 }

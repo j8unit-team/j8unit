@@ -70,6 +70,8 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository
                    Calendar.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Calendar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Calendar]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Builder.class!",
                               Builder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Calendar$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Calendar$Builder]
 

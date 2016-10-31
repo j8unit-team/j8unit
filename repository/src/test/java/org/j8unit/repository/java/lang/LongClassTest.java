@@ -781,6 +781,8 @@ implements org.j8unit.repository.java.lang.LongClassTests<Long> {
         // write some test for {@link Long#divideUnsigned(long, long)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Long]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Long]
 
 }

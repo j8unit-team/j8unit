@@ -32,6 +32,8 @@ org.j8unit.repository.javax.naming.directory.NoSuchAttributeExceptionTests<NoSuc
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.NoSuchAttributeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.NoSuchAttributeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.NoSuchAttributeException]
 
 }

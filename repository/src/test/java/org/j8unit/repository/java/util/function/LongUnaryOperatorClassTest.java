@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.util.function.LongUnaryOperatorClassTests<
         // write some test for {@link java.util.function.LongUnaryOperator#identity()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.LongUnaryOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.LongUnaryOperator]
 
 }

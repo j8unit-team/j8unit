@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.bind.BinderClassTests<Binder> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Binder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Binder]
 
 }

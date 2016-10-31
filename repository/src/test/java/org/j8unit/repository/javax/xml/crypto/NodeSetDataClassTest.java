@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.NodeSetDataClassTests<NodeSetD
         return NodeSetData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.NodeSetData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.NodeSetData]
 
 }

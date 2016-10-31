@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.font.LineMetricsClassTests<LineMetrics
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.LineMetrics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.LineMetrics]
 
 }

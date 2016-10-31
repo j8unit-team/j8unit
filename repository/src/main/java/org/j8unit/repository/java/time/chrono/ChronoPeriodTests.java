@@ -371,6 +371,7 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.ChronoPeriod]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.ChronoPeriod]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.ChronoPeriod]
 }

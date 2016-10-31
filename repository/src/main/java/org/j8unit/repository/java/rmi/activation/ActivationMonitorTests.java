@@ -105,6 +105,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationMonitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.ActivationMonitor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationMonitor]
 }

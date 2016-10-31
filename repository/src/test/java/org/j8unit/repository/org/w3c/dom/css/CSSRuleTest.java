@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<CSSRule> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.w3c.dom.css.CSSRule], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.CSSRule]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.CSSRule]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSRule]
 
 }

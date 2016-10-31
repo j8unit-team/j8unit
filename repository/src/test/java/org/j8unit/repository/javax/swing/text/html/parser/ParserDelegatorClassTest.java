@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ParserDelegatorCla
         final ParserDelegator sut = new ParserDelegator();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.ParserDelegator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.ParserDelegator]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderClassTest
         final ServiceInformationHolder sut = new ServiceInformationHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ServiceInformationHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceInformationHolder]
 
 }

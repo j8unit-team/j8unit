@@ -101,9 +101,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#getFeature(String)
-     * public boolean javax.xml.validation.Validator.getFeature(java.lang.String) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.validation.Validator#validate(javax.xml.transform.Source) public void
+     * javax.xml.validation.Validator.validate(javax.xml.transform.Source) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -115,7 +116,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFeature_String()
+    public default void test_validate_Source()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -148,10 +149,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.validation.Validator#validate(javax.xml.transform.Source) public void
-     * javax.xml.validation.Validator.validate(javax.xml.transform.Source) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.xml.validation.Validator#getFeature(String)
+     * public boolean javax.xml.validation.Validator.getFeature(java.lang.String) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -163,7 +163,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_validate_Source()
+    public default void test_getFeature_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -286,6 +286,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.validation.Validator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.validation.Validator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.validation.Validator]
 }

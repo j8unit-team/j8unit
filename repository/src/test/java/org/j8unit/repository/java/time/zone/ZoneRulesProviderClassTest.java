@@ -22,6 +22,27 @@ implements org.j8unit.repository.java.time.zone.ZoneRulesProviderClassTests<Zone
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.time.zone.ZoneRulesProvider#getRules(String, boolean) public static java.time.zone.ZoneRules
+     * java.time.zone.ZoneRulesProvider.getRules(java.lang.String,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getRules_String_boolean()
+    throws Exception {
+        // write some test for {@link java.time.zone.ZoneRulesProvider#getRules(String, boolean)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.time.zone.ZoneRulesProvider#registerProvider(java.time.zone.ZoneRulesProvider) public static void
      * java.time.zone.ZoneRulesProvider.registerProvider(java.time.zone.ZoneRulesProvider)}.
      *
@@ -39,27 +60,6 @@ implements org.j8unit.repository.java.time.zone.ZoneRulesProviderClassTests<Zone
     throws Exception {
         // write some test for {@link
         // java.time.zone.ZoneRulesProvider#registerProvider(java.time.zone.ZoneRulesProvider)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.zone.ZoneRulesProvider#getRules(String, boolean) public static java.time.zone.ZoneRules
-     * java.time.zone.ZoneRulesProvider.getRules(java.lang.String,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getRules_String_boolean()
-    throws Exception {
-        // write some test for {@link java.time.zone.ZoneRulesProvider#getRules(String, boolean)}
     }
 
     /**
@@ -123,6 +123,8 @@ implements org.j8unit.repository.java.time.zone.ZoneRulesProviderClassTests<Zone
     throws Exception {
         // write some test for {@link java.time.zone.ZoneRulesProvider#getAvailableZoneIds()}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneRulesProvider]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneRulesProvider]
 

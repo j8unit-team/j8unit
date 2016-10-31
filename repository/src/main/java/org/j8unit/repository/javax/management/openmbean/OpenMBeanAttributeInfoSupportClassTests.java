@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<SUT> {
                    OpenMBeanAttributeInfoSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]
 
 }

@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MTOM.class!", MTOM.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.MTOM]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.MTOM]
 
 }

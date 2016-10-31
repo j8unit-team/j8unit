@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.CTX_RESTRICT_SCOPEClassTests<CTX_
         return CTX_RESTRICT_SCOPE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CTX_RESTRICT_SCOPE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CTX_RESTRICT_SCOPE]
 
 }

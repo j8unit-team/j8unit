@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    HyperlinkEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.HyperlinkEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.HyperlinkEvent]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to EventType.class!",
                               EventType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.HyperlinkEvent$EventType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.HyperlinkEvent$EventType]
 

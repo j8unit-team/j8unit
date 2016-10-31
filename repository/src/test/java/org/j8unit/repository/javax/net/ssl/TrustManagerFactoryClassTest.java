@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.net.ssl.TrustManagerFactoryClassTests<Tru
         // write some test for {@link javax.net.ssl.TrustManagerFactory#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.TrustManagerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.TrustManagerFactory]
 
 }

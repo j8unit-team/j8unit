@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.print.PaperClassTests<Paper> {
         final Paper sut = new Paper();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.Paper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.Paper]
 
 }

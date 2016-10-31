@@ -260,6 +260,8 @@ implements org.j8unit.repository.java.util.EnumSetClassTests<EnumSet> {
         // write some test for {@link java.util.EnumSet#allOf(Class)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EnumSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EnumSet]
 
 }

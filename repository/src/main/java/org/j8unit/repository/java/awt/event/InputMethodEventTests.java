@@ -210,6 +210,7 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.InputMethodEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.InputMethodEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.InputMethodEvent]
 }

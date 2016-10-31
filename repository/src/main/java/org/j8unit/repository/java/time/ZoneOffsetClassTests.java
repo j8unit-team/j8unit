@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository
                    ZoneOffset.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.ZoneOffset]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.ZoneOffset]
 
 }

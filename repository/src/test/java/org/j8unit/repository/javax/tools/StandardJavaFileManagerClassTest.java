@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.tools.StandardJavaFileManagerClassTests<S
         return StandardJavaFileManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.StandardJavaFileManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.StandardJavaFileManager]
 
 }

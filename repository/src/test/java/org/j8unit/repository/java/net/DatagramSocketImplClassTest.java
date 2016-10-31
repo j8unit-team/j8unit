@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.DatagramSocketImplClassTests<DatagramS
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.DatagramSocketImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramSocketImpl]
 
 }

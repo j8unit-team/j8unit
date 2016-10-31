@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.RemarshalExceptionClassT
         final RemarshalException sut = new RemarshalException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.RemarshalException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.RemarshalException]
 
 }

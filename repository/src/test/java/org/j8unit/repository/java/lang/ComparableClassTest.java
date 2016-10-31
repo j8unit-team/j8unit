@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.ComparableClassTests<Comparable> {
         return Comparable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Comparable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Comparable]
 
 }

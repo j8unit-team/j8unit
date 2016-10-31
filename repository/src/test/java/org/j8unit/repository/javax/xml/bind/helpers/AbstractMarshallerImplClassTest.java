@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.AbstractMarshallerImplCl
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.AbstractMarshallerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.AbstractMarshallerImpl]
 
 }

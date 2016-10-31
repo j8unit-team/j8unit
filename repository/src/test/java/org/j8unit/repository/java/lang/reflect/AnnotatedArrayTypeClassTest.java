@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.AnnotatedArrayTypeClassTests<
         return AnnotatedArrayType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.AnnotatedArrayType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AnnotatedArrayType]
 
 }

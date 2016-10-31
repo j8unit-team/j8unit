@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    SOAPMessageHandlers.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPMessageHandlers]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPMessageHandlers]
 
 }

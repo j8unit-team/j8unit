@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.swing.SortOrderTests<SortOrder> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SortOrder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SortOrder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SortOrder]
 
 }

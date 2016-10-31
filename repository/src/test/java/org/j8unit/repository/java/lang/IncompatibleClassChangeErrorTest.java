@@ -31,6 +31,8 @@ org.j8unit.repository.java.lang.IncompatibleClassChangeErrorTests<IncompatibleCl
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IncompatibleClassChangeError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.IncompatibleClassChangeError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.IncompatibleClassChangeError]
 
 }

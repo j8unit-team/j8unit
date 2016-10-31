@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.FilterInputStreamClassTests<FilterInput
         return FilterInputStream.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilterInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilterInputStream]
 
 }

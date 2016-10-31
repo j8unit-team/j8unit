@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.DocClassTests<Doc> {
         return Doc.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.Doc]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.Doc]
 
 }

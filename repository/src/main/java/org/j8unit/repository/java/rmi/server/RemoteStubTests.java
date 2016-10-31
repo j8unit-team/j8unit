@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.rmi.server.RemoteObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.RemoteStub]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RemoteStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.RemoteStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RemoteStub]
 }

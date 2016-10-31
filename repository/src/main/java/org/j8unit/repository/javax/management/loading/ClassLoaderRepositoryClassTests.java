@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ClassLoaderRepository.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.ClassLoaderRepository]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.ClassLoaderRepository]
 
 }

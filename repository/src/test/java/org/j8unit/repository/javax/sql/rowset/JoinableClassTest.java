@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.JoinableClassTests<Joinable> {
         return Joinable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.Joinable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.Joinable]
 
 }

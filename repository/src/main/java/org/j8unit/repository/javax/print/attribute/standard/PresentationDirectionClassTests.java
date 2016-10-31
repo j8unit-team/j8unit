@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>
                    PresentationDirection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PresentationDirection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PresentationDirection]
 
 }

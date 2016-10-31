@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.print.MultiDocTests<MultiDoc> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.print.MultiDoc], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.MultiDoc]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.MultiDoc]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.MultiDoc]
 
 }

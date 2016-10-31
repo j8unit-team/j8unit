@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.spec.InvalidKeySpecExceptionClass
         final InvalidKeySpecException sut = new InvalidKeySpecException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.InvalidKeySpecException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.InvalidKeySpecException]
 
 }

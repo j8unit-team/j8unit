@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.NumberUpSupporte
         final NumberUpSupported sut = null; // = new NumberUpSupported(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.NumberUpSupported]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.NumberUpSupported]
 
 }

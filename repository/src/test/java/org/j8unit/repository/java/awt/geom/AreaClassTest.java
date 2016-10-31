@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.geom.AreaClassTests<Area> {
         final Area sut = null; // = new Area(java.awt.Shape);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Area]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Area]
 
 }

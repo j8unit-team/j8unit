@@ -106,6 +106,7 @@ extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.AreaAveragingScaleFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.AreaAveragingScaleFilter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.AreaAveragingScaleFilter]
 }

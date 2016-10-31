@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLNonTransientException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLNonTransientException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLNonTransientException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLNonTransientException]
 
 }

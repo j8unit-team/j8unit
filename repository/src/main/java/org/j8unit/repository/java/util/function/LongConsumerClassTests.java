@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LongConsumer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.LongConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.LongConsumer]
 
 }

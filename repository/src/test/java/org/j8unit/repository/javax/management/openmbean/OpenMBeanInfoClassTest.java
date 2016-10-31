@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoClassTe
         return OpenMBeanInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanInfo]
 
 }

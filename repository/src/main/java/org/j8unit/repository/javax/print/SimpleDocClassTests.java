@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.DocClassTests<SUT>, org.j8unit.reposit
                    SimpleDoc.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.SimpleDoc]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.SimpleDoc]
 
 }

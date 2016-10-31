@@ -32,6 +32,8 @@ org.j8unit.repository.javax.crypto.ExemptionMechanismExceptionTests<ExemptionMec
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ExemptionMechanismException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.ExemptionMechanismException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.ExemptionMechanismException]
 
 }

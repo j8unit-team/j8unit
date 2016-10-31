@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxIconClassTe
         final MetalComboBoxIcon sut = new MetalComboBoxIcon();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxIcon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxIcon]
 
 }

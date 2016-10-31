@@ -200,6 +200,8 @@ implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
         final PrintWriter sut = null; // = new PrintWriter(java.io.Writer, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PrintWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PrintWriter]
 
 }

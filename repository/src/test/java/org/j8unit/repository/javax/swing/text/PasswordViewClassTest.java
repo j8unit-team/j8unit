@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.PasswordViewClassTests<Passwor
         final PasswordView sut = null; // = new PasswordView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.PasswordView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.PasswordView]
 
 }

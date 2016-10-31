@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthInternalFrameUIClas
         // write some test for {@link javax.swing.plaf.synth.SynthInternalFrameUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthInternalFrameUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthInternalFrameUI]
 
 }

@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.INV_OBJREFClassTests<INV_OBJREF> 
         final INV_OBJREF sut = new INV_OBJREF();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INV_OBJREF]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INV_OBJREF]
 
 }

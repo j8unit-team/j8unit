@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChann
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.channels.AsynchronousServerSocketChannel], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AsynchronousServerSocketChannel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.AsynchronousServerSocketChannel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AsynchronousServerSocketChannel]
 
 }

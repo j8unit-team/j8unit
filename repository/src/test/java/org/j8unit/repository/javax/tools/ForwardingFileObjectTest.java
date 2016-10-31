@@ -17,6 +17,8 @@ implements org.j8unit.repository.javax.tools.ForwardingFileObjectTests<Forwardin
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.tools.ForwardingFileObject], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.ForwardingFileObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.ForwardingFileObject]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ForwardingFileObject]
 
 }

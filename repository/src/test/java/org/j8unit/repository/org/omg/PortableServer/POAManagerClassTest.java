@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerClassTests<POA
         return POAManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAManager]
 
 }

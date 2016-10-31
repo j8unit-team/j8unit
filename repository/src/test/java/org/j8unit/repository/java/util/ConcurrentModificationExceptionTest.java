@@ -32,6 +32,8 @@ org.j8unit.repository.java.util.ConcurrentModificationExceptionTests<ConcurrentM
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ConcurrentModificationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ConcurrentModificationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ConcurrentModificationException]
 
 }

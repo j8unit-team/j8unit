@@ -470,6 +470,7 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
         org.j8unit.repository.java.awt.MenuContainerTests.super.test_postEvent_Event();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Menu]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Menu]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Menu]
 }

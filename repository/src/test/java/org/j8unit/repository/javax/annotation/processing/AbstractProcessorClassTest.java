@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.AbstractProcessorCl
         return AbstractProcessor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.AbstractProcessor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.AbstractProcessor]
 
 }

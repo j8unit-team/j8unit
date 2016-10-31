@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.DateTimeAtComple
         final DateTimeAtCompleted sut = null; // = new DateTimeAtCompleted(java.util.Date);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.DateTimeAtCompleted]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.DateTimeAtCompleted]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletionStageClassTests<
         return CompletionStage.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CompletionStage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CompletionStage]
 
 }

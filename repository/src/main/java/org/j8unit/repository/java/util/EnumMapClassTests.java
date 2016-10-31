@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
                    EnumMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EnumMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EnumMap]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.ImageProducerClassTests<SUT>, org.j
                    FilteredImageSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.FilteredImageSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.FilteredImageSource]
 
 }

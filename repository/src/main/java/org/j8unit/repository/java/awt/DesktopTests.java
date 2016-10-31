@@ -188,8 +188,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Desktop]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -215,8 +216,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Desktop$Action]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop$Action]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Desktop$Action]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop$Action]
     }
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests<_R
         final _Remote_Stub sut = new _Remote_Stub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.stub.java.rmi._Remote_Stub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.stub.java.rmi._Remote_Stub]
 
 }

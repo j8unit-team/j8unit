@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeModelClassTests<Def
         final DefaultTreeModel sut = null; // = new DefaultTreeModel(javax.swing.tree.TreeNode);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.DefaultTreeModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeModel]
 
 }

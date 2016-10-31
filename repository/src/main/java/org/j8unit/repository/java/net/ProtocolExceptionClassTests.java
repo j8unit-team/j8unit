@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    ProtocolException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ProtocolException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ProtocolException]
 
 }

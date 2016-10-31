@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyboardFocusManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.KeyboardFocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyboardFocusManager]
 
 }

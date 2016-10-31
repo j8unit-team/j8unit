@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    TooManyListenersException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.TooManyListenersException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TooManyListenersException]
 
 }

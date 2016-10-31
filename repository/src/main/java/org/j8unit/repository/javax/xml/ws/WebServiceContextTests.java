@@ -145,6 +145,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServiceContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.WebServiceContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServiceContext]
 }

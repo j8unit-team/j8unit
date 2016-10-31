@@ -106,6 +106,8 @@ implements org.j8unit.repository.javax.net.ssl.KeyManagerFactoryClassTests<KeyMa
         // write some test for {@link javax.net.ssl.KeyManagerFactory#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.KeyManagerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.KeyManagerFactory]
 
 }

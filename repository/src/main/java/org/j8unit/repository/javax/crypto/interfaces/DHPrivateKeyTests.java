@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.DHPrivateKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.interfaces.DHPrivateKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.DHPrivateKey]
 }

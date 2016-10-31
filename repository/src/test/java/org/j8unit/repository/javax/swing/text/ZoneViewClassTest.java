@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.ZoneViewClassTests<ZoneView> {
         final ZoneView sut = null; // = new ZoneView(javax.swing.text.Element, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.ZoneView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ZoneView]
 
 }

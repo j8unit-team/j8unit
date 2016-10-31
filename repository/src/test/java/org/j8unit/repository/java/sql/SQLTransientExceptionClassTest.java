@@ -201,6 +201,8 @@ implements org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SQLTra
         final SQLTransientException sut = null; // = new SQLTransientException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLTransientException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLTransientException]
 
 }

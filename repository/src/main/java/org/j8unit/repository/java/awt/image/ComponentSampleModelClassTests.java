@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.SampleModelClassTests<SUT> {
                    ComponentSampleModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ComponentSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ComponentSampleModel]
 
 }

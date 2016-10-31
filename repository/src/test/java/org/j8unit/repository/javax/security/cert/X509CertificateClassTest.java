@@ -84,6 +84,8 @@ implements org.j8unit.repository.javax.security.cert.X509CertificateClassTests<X
         // write some test for {@link javax.security.cert.X509Certificate#getInstance(java.io.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.cert.X509Certificate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.X509Certificate]
 
 }

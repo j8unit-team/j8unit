@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PortUnreachableException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.PortUnreachableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.PortUnreachableException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.PortUnreachableException]
 
 }

@@ -122,6 +122,7 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.Locator2Impl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.Locator2Impl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.Locator2Impl]
 }

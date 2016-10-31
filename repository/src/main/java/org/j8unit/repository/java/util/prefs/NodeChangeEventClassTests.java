@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    NodeChangeEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.NodeChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.NodeChangeEvent]
 
 }

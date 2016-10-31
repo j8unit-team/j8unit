@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.xml.stream.util.StreamReaderDelegateClass
         final StreamReaderDelegate sut = null; // = new StreamReaderDelegate(javax.xml.stream.XMLStreamReader);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.util.StreamReaderDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.StreamReaderDelegate]
 
 }

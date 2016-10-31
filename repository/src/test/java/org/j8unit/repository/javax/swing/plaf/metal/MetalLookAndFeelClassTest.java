@@ -568,27 +568,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getFocusColor() public static javax.swing.plaf.ColorUIResource
-     * javax.swing.plaf.metal.MetalLookAndFeel.getFocusColor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getFocusColor()
-    throws Exception {
-        // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getFocusColor()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalLookAndFeel#getSystemTextColor() public static
      * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.MetalLookAndFeel.getSystemTextColor()}.
      *
@@ -605,6 +584,27 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     public void test_getSystemTextColor()
     throws Exception {
         // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getSystemTextColor()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalLookAndFeel#getFocusColor() public static javax.swing.plaf.ColorUIResource
+     * javax.swing.plaf.metal.MetalLookAndFeel.getFocusColor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getFocusColor()
+    throws Exception {
+        // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getFocusColor()}
     }
 
     /**
@@ -962,6 +962,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelClassTes
     throws Exception {
         // write some test for {@link javax.swing.plaf.metal.MetalLookAndFeel#getControl()}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalLookAndFeel]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalLookAndFeel]
 

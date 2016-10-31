@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.util.OptionalIntClassTests<OptionalInt> {
         // write some test for {@link java.util.OptionalInt#of(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.OptionalInt]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.OptionalInt]
 
 }

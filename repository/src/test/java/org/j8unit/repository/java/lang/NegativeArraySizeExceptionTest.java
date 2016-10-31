@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<NegativeArraySizeException>, org.j8unit.reposi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NegativeArraySizeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.NegativeArraySizeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.NegativeArraySizeException]
 
 }

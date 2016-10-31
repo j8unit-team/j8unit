@@ -390,6 +390,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Charset>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.Charset]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.charset.Charset]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.Charset]
 }

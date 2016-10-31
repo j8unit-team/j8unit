@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.PrivateKeyClassTests<SUT>, org.j8uni
                    ECPrivateKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.ECPrivateKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.ECPrivateKey]
 
 }

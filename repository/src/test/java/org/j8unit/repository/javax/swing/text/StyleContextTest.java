@@ -35,22 +35,9 @@ implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext]
 
-    @RunWith(J8Unit4.class)
-    public static class SmallAttributeSetTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests<SmallAttributeSet> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
-
-        @Override
-        public SmallAttributeSet createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.SmallAttributeSet], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
-
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext]
 
     @RunWith(J8Unit4.class)
     public static class NamedStyleTest
@@ -63,7 +50,26 @@ implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swi
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.NamedStyle], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SmallAttributeSetTest
+    implements org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests<SmallAttributeSet> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
+
+        @Override
+        public SmallAttributeSet createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyleContext.SmallAttributeSet], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
 
     }
 

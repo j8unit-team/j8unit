@@ -55,6 +55,7 @@ extends org.j8unit.repository.javax.xml.ws.handler.HandlerTests<SUT, T> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.handler.soap.SOAPHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.handler.soap.SOAPHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.handler.soap.SOAPHandler]
 }

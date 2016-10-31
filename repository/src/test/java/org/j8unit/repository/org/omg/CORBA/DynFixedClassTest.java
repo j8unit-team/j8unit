@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynFixedClassTests<DynFixed> {
         return DynFixed.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynFixed]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynFixed]
 
 }

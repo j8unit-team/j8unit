@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTes
                    RMIConnectorServer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnectorServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnectorServer]
 
 }

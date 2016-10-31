@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.RSAPublicKeySpecClassTests<R
         final RSAPublicKeySpec sut = null; // = new RSAPublicKeySpec(java.math.BigInteger, java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.RSAPublicKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAPublicKeySpec]
 
 }

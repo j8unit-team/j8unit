@@ -174,6 +174,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollButton]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollButton]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollButton]
 }

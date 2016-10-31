@@ -81,6 +81,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPFactoryClassTests<SOAPFactor
         // write some test for {@link javax.xml.soap.SOAPFactory#newInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPFactory]
 
 }

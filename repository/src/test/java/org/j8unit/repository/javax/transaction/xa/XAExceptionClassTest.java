@@ -85,6 +85,8 @@ implements org.j8unit.repository.javax.transaction.xa.XAExceptionClassTests<XAEx
         final XAException sut = null; // = new XAException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.xa.XAException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.xa.XAException]
 
 }

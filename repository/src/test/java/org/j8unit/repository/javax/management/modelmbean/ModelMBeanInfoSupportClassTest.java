@@ -100,6 +100,8 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoSuppo
                                                 // javax.management.modelmbean.ModelMBeanNotificationInfo[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanInfoSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanInfoSupport]
 
 }

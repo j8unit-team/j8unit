@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.security.UnresolvedPermissionClassTests<Un
                                                // java.security.cert.Certificate[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.UnresolvedPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.UnresolvedPermission]
 
 }

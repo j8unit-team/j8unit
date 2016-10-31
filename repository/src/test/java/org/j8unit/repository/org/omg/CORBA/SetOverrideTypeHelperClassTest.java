@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.SetOverrideTypeHelperClassTests<S
         // write some test for {@link org.omg.CORBA.SetOverrideTypeHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.SetOverrideTypeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.SetOverrideTypeHelper]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.AlgorithmConstraintsClassTests<Al
         return AlgorithmConstraints.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AlgorithmConstraints]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AlgorithmConstraints]
 
 }

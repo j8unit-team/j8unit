@@ -124,6 +124,7 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA._PolicyStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA._PolicyStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA._PolicyStub]
 }

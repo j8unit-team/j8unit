@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.lang.RuntimePermissionClassTests<RuntimePe
         final RuntimePermission sut = null; // = new RuntimePermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.RuntimePermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.RuntimePermission]
 
 }

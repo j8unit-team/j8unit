@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MouseInfoPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.MouseInfoPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.MouseInfoPeer]
 
 }

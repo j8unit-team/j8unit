@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.management.monitor.StringMonitorClassTest
         final StringMonitor sut = new StringMonitor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.StringMonitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.StringMonitor]
 
 }

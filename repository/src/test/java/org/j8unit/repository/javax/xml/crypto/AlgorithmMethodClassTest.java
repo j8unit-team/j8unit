@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.AlgorithmMethodClassTests<Algo
         return AlgorithmMethod.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.AlgorithmMethod]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.AlgorithmMethod]
 
 }

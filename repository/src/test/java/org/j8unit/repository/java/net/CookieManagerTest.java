@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CookieManager>, org.j8unit.repository.java.net
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookieManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.CookieManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CookieManager]
 
 }

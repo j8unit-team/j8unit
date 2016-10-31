@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.StubDelegateClassTests<StubDele
         return StubDelegate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.StubDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.StubDelegate]
 
 }

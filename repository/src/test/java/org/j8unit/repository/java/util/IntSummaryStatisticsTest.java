@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IntSummaryStatistics>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IntSummaryStatistics]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.IntSummaryStatistics]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IntSummaryStatistics]
 
 }

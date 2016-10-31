@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultTableColumnModel>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableColumnModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.table.DefaultTableColumnModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.DefaultTableColumnModel]
 
 }

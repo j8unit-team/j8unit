@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncProviderExceptionClass
         final SyncProviderException sut = null; // = new SyncProviderException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.SyncProviderException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.SyncProviderException]
 
 }

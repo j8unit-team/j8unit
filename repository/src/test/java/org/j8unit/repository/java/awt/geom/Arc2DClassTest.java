@@ -21,6 +21,8 @@ implements org.j8unit.repository.java.awt.geom.Arc2DClassTests<Arc2D> {
         return Arc2D.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Arc2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Arc2D]
 
     @RunWith(J8Unit4.class)
@@ -122,6 +124,8 @@ implements org.j8unit.repository.java.awt.geom.Arc2DClassTests<Arc2D> {
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double, double, double, double, double, int);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Arc2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Arc2D$Double]
 
@@ -226,6 +230,8 @@ implements org.j8unit.repository.java.awt.geom.Arc2DClassTests<Arc2D> {
             @SuppressWarnings("unused")
             final Float sut = null; // = new Float(float, float, float, float, float, float, int);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Arc2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Arc2D$Float]
 

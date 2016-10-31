@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.CompositeClassTests<SUT>, org.j8unit.repo
                    AlphaComposite.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AlphaComposite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AlphaComposite]
 
 }

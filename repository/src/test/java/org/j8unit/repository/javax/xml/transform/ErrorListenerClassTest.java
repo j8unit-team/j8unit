@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.ErrorListenerClassTests<Err
         return ErrorListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.ErrorListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.ErrorListener]
 
 }

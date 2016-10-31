@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.ListCellRendererClassTests<ListCell
         return ListCellRenderer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ListCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ListCellRenderer]
 
 }

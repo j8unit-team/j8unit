@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceRefClassTests<WebService
         return WebServiceRef.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServiceRef]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServiceRef]
 
 }

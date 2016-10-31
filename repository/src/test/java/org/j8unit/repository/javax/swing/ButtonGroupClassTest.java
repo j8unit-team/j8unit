@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.ButtonGroupClassTests<ButtonGroup> 
         final ButtonGroup sut = new ButtonGroup();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ButtonGroup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ButtonGroup]
 
 }

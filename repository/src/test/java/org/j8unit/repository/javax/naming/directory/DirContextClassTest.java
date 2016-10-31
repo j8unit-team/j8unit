@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.directory.DirContextClassTests<Dir
         return DirContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.DirContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.DirContext]
 
 }

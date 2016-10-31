@@ -290,8 +290,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.RoundRectangle2D]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.RoundRectangle2D]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.RoundRectangle2D]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -437,29 +438,6 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getHeight()
-         * public double java.awt.geom.RoundRectangle2D$Float.getHeight()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
          * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getX()
          * public double java.awt.geom.RoundRectangle2D$Float.getX()}.
          *
@@ -483,8 +461,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getY()
-         * public double java.awt.geom.RoundRectangle2D$Float.getY()}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getHeight()
+         * public double java.awt.geom.RoundRectangle2D$Float.getHeight()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -497,31 +475,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getY()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.awt.geom.RoundRectangle2D.Float#setRoundRect(java.awt.geom.RoundRectangle2D) public void
-         * java.awt.geom.RoundRectangle2D$Float.setRoundRect(java.awt.geom.RoundRectangle2D)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_setRoundRect_RoundRectangle2D()
+        public default void test_getHeight()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -575,8 +529,56 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.RoundRectangle2D$Float]
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Float#setRoundRect(java.awt.geom.RoundRectangle2D) public void
+         * java.awt.geom.RoundRectangle2D$Float.setRoundRect(java.awt.geom.RoundRectangle2D)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_setRoundRect_RoundRectangle2D()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Float#getY()
+         * public double java.awt.geom.RoundRectangle2D$Float.getY()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getY()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.RoundRectangle2D$Float]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.RoundRectangle2D$Float]
     }
 
     /**
@@ -654,8 +656,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getY()
-         * public double java.awt.geom.RoundRectangle2D$Double.getY()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.RoundRectangle2D.Double#setRoundRect(double, double, double, double, double, double)
+         * public void java.awt.geom.RoundRectangle2D$Double.setRoundRect(double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -668,7 +671,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getY()
+        public default void test_setRoundRect_double_double_double_double_double_double()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -701,9 +704,8 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.awt.geom.RoundRectangle2D.Double#setRoundRect(double, double, double, double, double, double)
-         * public void java.awt.geom.RoundRectangle2D$Double.setRoundRect(double,double,double,double,double,double)}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getY()
+         * public double java.awt.geom.RoundRectangle2D$Double.getY()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -716,7 +718,30 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_setRoundRect_double_double_double_double_double_double()
+        public default void test_getY()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getX()
+         * public double java.awt.geom.RoundRectangle2D$Double.getX()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getX()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -741,29 +766,6 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getHeight()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.RoundRectangle2D.Double#getX()
-         * public double java.awt.geom.RoundRectangle2D$Double.getX()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getX()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -840,8 +842,9 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.RoundRectangle2D$Double]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.RoundRectangle2D$Double]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.RoundRectangle2D$Double]
     }
 
 }

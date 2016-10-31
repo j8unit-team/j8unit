@@ -32,6 +32,8 @@ org.j8unit.repository.javax.print.attribute.HashPrintRequestAttributeSetTests<Ha
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
 
 }

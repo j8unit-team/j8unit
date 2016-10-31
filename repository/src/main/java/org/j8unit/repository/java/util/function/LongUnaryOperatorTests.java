@@ -104,6 +104,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.function.LongUnaryOperator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.function.LongUnaryOperator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.function.LongUnaryOperator]
 }

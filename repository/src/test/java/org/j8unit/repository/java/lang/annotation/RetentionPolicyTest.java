@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.lang.annotation.RetentionPolicyTests<Reten
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.annotation.RetentionPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.annotation.RetentionPolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.annotation.RetentionPolicy]
 
 }

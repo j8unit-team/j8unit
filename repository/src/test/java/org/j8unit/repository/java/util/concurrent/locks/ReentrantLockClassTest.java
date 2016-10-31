@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantLockClassTe
         final ReentrantLock sut = new ReentrantLock();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReentrantLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantLock]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.ByteLookupTableClassTests<ByteLo
         final ByteLookupTable sut = null; // = new ByteLookupTable(int, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ByteLookupTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ByteLookupTable]
 
 }

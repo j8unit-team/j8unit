@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BorderLayout>, org.j8unit.repository.java.awt.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.BorderLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.BorderLayout]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BorderLayout]
 
 }

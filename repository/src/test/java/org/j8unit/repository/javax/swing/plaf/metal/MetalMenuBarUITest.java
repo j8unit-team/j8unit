@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MetalMenuBarUI>, org.j8unit.repository.javax.s
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalMenuBarUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalMenuBarUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalMenuBarUI]
 
 }

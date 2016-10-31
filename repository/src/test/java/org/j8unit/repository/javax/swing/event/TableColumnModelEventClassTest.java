@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.swing.event.TableColumnModelEventClassTes
                                                 // int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TableColumnModelEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TableColumnModelEvent]
 
 }

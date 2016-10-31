@@ -147,6 +147,7 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.SimpleDoc]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.SimpleDoc]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.SimpleDoc]
 }

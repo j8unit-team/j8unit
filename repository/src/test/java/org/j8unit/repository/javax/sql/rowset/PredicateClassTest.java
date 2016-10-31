@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.PredicateClassTests<Predicate>
         return Predicate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.Predicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.Predicate]
 
 }

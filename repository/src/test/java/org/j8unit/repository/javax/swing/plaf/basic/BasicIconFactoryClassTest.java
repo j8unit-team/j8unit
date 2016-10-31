@@ -209,6 +209,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryClassTes
         // write some test for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuArrowIcon()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicIconFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicIconFactory]
 
 }

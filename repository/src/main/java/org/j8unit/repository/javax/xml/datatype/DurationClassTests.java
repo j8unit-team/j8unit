@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Duration.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.Duration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.Duration]
 
 }

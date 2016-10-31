@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    SignatureException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SignatureException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SignatureException]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.DefaultFocusManagerClassTests<Defau
         final DefaultFocusManager sut = new DefaultFocusManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultFocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultFocusManager]
 
 }

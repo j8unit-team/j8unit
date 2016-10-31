@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.IntrospectionException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.IntrospectionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.IntrospectionException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.IntrospectionException]
 }

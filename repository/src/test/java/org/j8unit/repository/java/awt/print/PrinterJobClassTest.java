@@ -101,6 +101,8 @@ implements org.j8unit.repository.java.awt.print.PrinterJobClassTests<PrinterJob>
         // write some test for {@link java.awt.print.PrinterJob#lookupStreamPrintServices(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.PrinterJob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PrinterJob]
 
 }

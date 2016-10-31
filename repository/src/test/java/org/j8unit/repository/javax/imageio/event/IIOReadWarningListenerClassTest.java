@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.event.IIOReadWarningListenerClass
         return IIOReadWarningListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.event.IIOReadWarningListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.event.IIOReadWarningListener]
 
 }

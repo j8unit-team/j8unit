@@ -134,6 +134,8 @@ implements org.j8unit.repository.java.io.FileOutputStreamClassTests<FileOutputSt
         final FileOutputStream sut = null; // = new FileOutputStream(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileOutputStream]
 
 }

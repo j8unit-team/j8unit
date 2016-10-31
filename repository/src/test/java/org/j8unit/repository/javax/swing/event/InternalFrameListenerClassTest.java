@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.InternalFrameListenerClassTes
         return InternalFrameListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.InternalFrameListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.InternalFrameListener]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DecimalFormatSymbols>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DecimalFormatSymbols]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.DecimalFormatSymbols]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.DecimalFormatSymbols]
 
 }

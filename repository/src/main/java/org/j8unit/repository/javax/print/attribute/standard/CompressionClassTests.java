@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeClassTests<SUT>,
                    Compression.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Compression]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Compression]
 
 }

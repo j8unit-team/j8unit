@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT>, org.j
                    NamingContextExtPOA.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPOA]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPOA]
 
 }

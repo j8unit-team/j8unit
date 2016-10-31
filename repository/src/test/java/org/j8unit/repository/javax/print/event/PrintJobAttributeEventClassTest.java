@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.print.event.PrintJobAttributeEventClassTe
                                                  // javax.print.attribute.PrintJobAttributeSet);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintJobAttributeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintJobAttributeEvent]
 
 }

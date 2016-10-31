@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.util.ServiceLoaderClassTests<ServiceLoader
         // write some test for {@link java.util.ServiceLoader#load(Class, ClassLoader)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ServiceLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ServiceLoader]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoClassTes
         return RequestInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.RequestInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.RequestInfo]
 
 }

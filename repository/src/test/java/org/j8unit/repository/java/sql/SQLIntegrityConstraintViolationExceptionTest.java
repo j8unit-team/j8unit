@@ -32,6 +32,8 @@ org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionTests<SQL
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLIntegrityConstraintViolationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLIntegrityConstraintViolationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLIntegrityConstraintViolationException]
 
 }

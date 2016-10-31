@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<S
                    ClassNotFoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassNotFoundException]
 
 }

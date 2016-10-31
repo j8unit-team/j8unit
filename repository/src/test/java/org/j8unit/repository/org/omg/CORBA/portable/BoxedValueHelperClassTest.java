@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTes
         return BoxedValueHelper.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.BoxedValueHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.BoxedValueHelper]
 
 }

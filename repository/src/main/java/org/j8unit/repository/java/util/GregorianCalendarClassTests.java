@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.CalendarClassTests<SUT> {
                    GregorianCalendar.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.GregorianCalendar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.GregorianCalendar]
 
 }

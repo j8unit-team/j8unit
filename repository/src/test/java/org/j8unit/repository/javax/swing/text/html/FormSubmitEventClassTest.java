@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
         return FormSubmitEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.FormSubmitEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormSubmitEvent]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
         throws Exception {
             // write some test for {@link javax.swing.text.html.FormSubmitEvent.MethodType#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 

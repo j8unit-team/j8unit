@@ -131,6 +131,8 @@ implements org.j8unit.repository.java.util.LinkedHashMapClassTests<LinkedHashMap
         final LinkedHashMap sut = new LinkedHashMap();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.LinkedHashMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.LinkedHashMap]
 
 }

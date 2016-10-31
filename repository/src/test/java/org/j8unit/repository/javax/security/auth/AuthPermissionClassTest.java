@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.security.auth.AuthPermissionClassTests<Au
         final AuthPermission sut = null; // = new AuthPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.AuthPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.AuthPermission]
 
 }

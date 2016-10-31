@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.ListResourceBundleClassTests<SUT> {
                    AccessibleResourceBundle.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleResourceBundle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleResourceBundle]
 
 }

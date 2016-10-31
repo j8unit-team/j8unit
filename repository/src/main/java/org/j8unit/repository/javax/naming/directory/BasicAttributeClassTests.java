@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.directory.AttributeClassTests<SUT>, o
                    BasicAttribute.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.BasicAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.BasicAttribute]
 
 }

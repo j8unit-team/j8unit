@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ldap.LdapContextClassTests<LdapCon
         return LdapContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.LdapContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.LdapContext]
 
 }

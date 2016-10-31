@@ -80,6 +80,8 @@ implements org.j8unit.repository.java.time.temporal.ValueRangeClassTests<ValueRa
         // write some test for {@link java.time.temporal.ValueRange#of(long, long, long, long)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.ValueRange]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.ValueRange]
 
 }

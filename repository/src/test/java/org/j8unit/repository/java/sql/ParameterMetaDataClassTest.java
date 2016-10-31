@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.ParameterMetaDataClassTests<ParameterM
         return ParameterMetaData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.ParameterMetaData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ParameterMetaData]
 
 }

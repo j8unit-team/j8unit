@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.xml.soap.MimeHeaderClassTests<MimeHeader>
         final MimeHeader sut = null; // = new MimeHeader(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.MimeHeader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.MimeHeader]
 
 }

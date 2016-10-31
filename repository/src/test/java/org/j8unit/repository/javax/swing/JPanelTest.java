@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JPanel>, org.j8unit.repository.javax.swing.JPa
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JPanel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JPanel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JPanel]
 
 }

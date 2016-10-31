@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationListen
         return UnsolicitedNotificationListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationListener]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.io.PushbackInputStreamTests<PushbackInputS
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.io.PushbackInputStream], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.PushbackInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.PushbackInputStream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.PushbackInputStream]
 
 }

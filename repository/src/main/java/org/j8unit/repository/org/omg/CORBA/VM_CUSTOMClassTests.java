@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    VM_CUSTOM.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.VM_CUSTOM]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.VM_CUSTOM]
 
 }

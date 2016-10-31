@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.zip.ZipEntryClassTests<ZipEntry> {
         final ZipEntry sut = null; // = new ZipEntry(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipEntry]
 
 }

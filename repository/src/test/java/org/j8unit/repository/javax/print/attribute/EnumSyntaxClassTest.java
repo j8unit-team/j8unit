@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<Enum
         return EnumSyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.EnumSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.EnumSyntax]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
                    Closeable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Closeable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Closeable]
 
 }

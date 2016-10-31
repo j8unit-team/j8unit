@@ -30,6 +30,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeTests<BindingType>
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.BindingType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.BindingType]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.BindingType]
 
 }

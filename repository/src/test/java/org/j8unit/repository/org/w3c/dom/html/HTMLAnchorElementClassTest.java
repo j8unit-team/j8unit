@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLAnchorElementClassTests<HT
         return HTMLAnchorElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLAnchorElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLAnchorElement]
 
 }

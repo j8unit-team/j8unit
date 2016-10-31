@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT>, org.j
                    ServantActivatorPOA.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantActivatorPOA]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantActivatorPOA]
 
 }

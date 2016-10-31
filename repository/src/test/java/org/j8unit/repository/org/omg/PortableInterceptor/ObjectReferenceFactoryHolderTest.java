@@ -32,6 +32,8 @@ org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryHolderTe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceFactoryHolder]
 
 }

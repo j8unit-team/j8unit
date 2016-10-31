@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.LightweightPeerClassTests<Lightwe
         return LightweightPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.LightweightPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.LightweightPeer]
 
 }

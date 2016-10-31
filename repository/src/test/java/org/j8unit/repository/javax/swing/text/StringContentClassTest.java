@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.text.StringContentClassTests<String
         final StringContent sut = null; // = new StringContent(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StringContent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StringContent]
 
 }

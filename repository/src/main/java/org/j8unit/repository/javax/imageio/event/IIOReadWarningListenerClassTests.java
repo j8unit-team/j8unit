@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    IIOReadWarningListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.event.IIOReadWarningListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.event.IIOReadWarningListener]
 
 }

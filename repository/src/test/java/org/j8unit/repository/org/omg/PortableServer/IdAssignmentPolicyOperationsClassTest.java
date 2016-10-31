@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyOperat
         return IdAssignmentPolicyOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicyOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicyOperations]
 
 }

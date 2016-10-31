@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.smartcardio.CardClassTests<Card> {
         return Card.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.Card]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.Card]
 
 }

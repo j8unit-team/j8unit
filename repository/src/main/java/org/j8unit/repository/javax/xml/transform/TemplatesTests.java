@@ -78,6 +78,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.Templates]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.Templates]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.Templates]
 }

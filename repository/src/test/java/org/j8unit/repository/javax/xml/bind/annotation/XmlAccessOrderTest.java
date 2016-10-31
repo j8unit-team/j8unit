@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlAccessOrderTests<X
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlAccessOrder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlAccessOrder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlAccessOrder]
 
 }

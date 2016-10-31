@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Xid.class!", Xid.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.xa.Xid]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.xa.Xid]
 
 }

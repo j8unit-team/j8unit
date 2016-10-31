@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA._IDLTypeStubClassTests<_IDLTypeSt
         final _IDLTypeStub sut = null; // = new _IDLTypeStub(org.omg.CORBA.portable.Delegate);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA._IDLTypeStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA._IDLTypeStub]
 
 }

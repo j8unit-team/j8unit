@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.CredentialExpiredExce
         final CredentialExpiredException sut = null; // = new CredentialExpiredException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.CredentialExpiredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.CredentialExpiredException]
 
 }

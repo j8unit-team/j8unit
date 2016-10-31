@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.StatementClassTests<SUT> {
                    PreparedStatement.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.PreparedStatement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.PreparedStatement]
 
 }

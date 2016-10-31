@@ -282,6 +282,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.PushbackInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.PushbackInputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.PushbackInputStream]
 }

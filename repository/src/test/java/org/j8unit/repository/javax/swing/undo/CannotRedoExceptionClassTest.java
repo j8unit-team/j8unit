@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.undo.CannotRedoExceptionClassTests<
         final CannotRedoException sut = new CannotRedoException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.CannotRedoException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.CannotRedoException]
 
 }

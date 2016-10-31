@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PrinterAbortException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PrinterAbortException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.print.PrinterAbortException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 
 }

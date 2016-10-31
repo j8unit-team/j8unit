@@ -213,6 +213,7 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.ZipOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.ZipOutputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.ZipOutputStream]
 }

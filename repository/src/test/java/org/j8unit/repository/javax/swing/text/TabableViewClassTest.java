@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.TabableViewClassTests<TabableV
         return TabableView.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TabableView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TabableView]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.FilerClassTests<Fil
         return Filer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Filer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Filer]
 
 }

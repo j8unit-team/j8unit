@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.monitor.MonitorNotificationCla
         return MonitorNotification.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.MonitorNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.MonitorNotification]
 
 }

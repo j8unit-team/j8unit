@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DateFormatter>, org.j8unit.repository.javax.sw
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DateFormatter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DateFormatter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DateFormatter]
 
 }

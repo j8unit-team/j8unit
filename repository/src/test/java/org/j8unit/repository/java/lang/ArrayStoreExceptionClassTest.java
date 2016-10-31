@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.ArrayStoreExceptionClassTests<ArraySt
         final ArrayStoreException sut = null; // = new ArrayStoreException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ArrayStoreException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ArrayStoreException]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT> {
                    RequestProcessingPolicy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicy]
 
 }

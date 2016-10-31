@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.management.MBeanPermissionClassTests<MBea
         final MBeanPermission sut = null; // = new MBeanPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanPermission]
 
 }

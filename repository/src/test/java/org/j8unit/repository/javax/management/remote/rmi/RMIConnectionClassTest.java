@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectionClassT
         return RMIConnection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnection]
 
 }

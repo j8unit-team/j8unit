@@ -18,7 +18,9 @@ implements org.j8unit.repository.java.util.jar.Pack200Tests<Pack200> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.jar.Pack200], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200]
 
     @RunWith(J8Unit4.class)
     public static class PackerTest
@@ -31,7 +33,9 @@ implements org.j8unit.repository.java.util.jar.Pack200Tests<Pack200> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.jar.Pack200.Packer], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200$Packer]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200$Packer]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Packer]
 
     }
 
@@ -46,7 +50,9 @@ implements org.j8unit.repository.java.util.jar.Pack200Tests<Pack200> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.jar.Pack200.Unpacker], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
 
     }
 

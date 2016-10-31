@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<HexBinaryAdapter>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.HexBinaryAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.adapters.HexBinaryAdapter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.adapters.HexBinaryAdapter]
 
 }

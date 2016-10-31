@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.CompositeContextClassTests<CompositeCo
         return CompositeContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.CompositeContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.CompositeContext]
 
 }

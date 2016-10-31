@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.TRANSPORT_RETRYClas
         return TRANSPORT_RETRY.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.TRANSPORT_RETRY]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.TRANSPORT_RETRY]
 
 }

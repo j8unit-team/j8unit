@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.cert.CollectionCertStoreParameter
         final CollectionCertStoreParameters sut = new CollectionCertStoreParameters();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CollectionCertStoreParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CollectionCertStoreParameters]
 
 }

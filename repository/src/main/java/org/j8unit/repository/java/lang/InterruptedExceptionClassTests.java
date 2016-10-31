@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    InterruptedException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InterruptedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InterruptedException]
 
 }

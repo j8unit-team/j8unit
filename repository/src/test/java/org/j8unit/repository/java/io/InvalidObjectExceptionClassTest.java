@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.InvalidObjectExceptionClassTests<Invali
         final InvalidObjectException sut = null; // = new InvalidObjectException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.InvalidObjectException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.InvalidObjectException]
 
 }

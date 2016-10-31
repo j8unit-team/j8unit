@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.util.concurrent.ThreadLocalRandomClassTest
         // write some test for {@link java.util.concurrent.ThreadLocalRandom#current()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadLocalRandom]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadLocalRandom]
 
 }

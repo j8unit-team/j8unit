@@ -217,6 +217,7 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.acl.Acl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.acl.Acl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.acl.Acl]
 }

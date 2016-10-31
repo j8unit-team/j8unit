@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeC
         return SupportedValuesAttribute.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.SupportedValuesAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.SupportedValuesAttribute]
 
 }

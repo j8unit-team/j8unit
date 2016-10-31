@@ -997,8 +997,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Sequencer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.Sequencer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Sequencer]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -1094,8 +1095,9 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Sequencer$SyncMode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.Sequencer$SyncMode]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Sequencer$SyncMode]
     }
 
 }

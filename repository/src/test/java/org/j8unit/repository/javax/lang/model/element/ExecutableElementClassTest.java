@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.element.ExecutableElementClass
         return ExecutableElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.ExecutableElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.ExecutableElement]
 
 }

@@ -90,6 +90,8 @@ implements org.j8unit.repository.java.util.zip.InflaterOutputStreamClassTests<In
         final InflaterOutputStream sut = null; // = new InflaterOutputStream(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.InflaterOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.InflaterOutputStream]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.plaf.ActionMapUIResourceClassTests<
         final ActionMapUIResource sut = new ActionMapUIResource();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.ActionMapUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.ActionMapUIResource]
 
 }

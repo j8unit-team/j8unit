@@ -68,6 +68,8 @@ org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>, org.j8un
                    BeanContextSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextSupport]
 
 }

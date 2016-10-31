@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.rmi.NamingTests<Naming> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.rmi.Naming], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.Naming]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.Naming]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.Naming]
 
 }

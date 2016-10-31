@@ -25,7 +25,9 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementTests<JAXBElement<T>,
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.bind.JAXBElement], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.JAXBElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.JAXBElement]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXBElement]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementTests<JAXBElement<T>,
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
 
     }
 

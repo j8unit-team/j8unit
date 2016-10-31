@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IdentityHashMap<K, V>>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IdentityHashMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.IdentityHashMap]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IdentityHashMap]
 
 }

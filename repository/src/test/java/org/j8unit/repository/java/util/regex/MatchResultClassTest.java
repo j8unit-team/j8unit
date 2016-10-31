@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.regex.MatchResultClassTests<MatchResu
         return MatchResult.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.regex.MatchResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.regex.MatchResult]
 
 }

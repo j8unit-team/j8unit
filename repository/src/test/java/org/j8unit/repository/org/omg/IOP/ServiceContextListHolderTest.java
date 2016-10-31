@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ServiceContextListHolder>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.ServiceContextListHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.ServiceContextListHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.ServiceContextListHolder]
 
 }

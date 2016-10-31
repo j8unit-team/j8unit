@@ -147,6 +147,7 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.LayoutManager2]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.LayoutManager2]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.LayoutManager2]
 }

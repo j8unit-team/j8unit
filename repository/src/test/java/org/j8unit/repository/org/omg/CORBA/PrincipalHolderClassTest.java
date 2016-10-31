@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalHolderClassTests<Princip
         final PrincipalHolder sut = new PrincipalHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PrincipalHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PrincipalHolder]
 
 }

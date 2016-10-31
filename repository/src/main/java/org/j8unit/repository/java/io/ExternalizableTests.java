@@ -79,6 +79,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.Externalizable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.Externalizable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.Externalizable]
 }

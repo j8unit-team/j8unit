@@ -80,6 +80,7 @@ org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Finishings]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Finishings]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Finishings]
 }

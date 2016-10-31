@@ -116,6 +116,8 @@ implements org.j8unit.repository.javax.naming.directory.SearchResultClassTests<S
                                        // boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.SearchResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.SearchResult]
 
 }

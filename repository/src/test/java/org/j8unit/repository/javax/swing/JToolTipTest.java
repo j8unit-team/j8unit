@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JToolTip>, org.j8unit.repository.javax.swing.J
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolTip]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToolTip]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolTip]
 
 }

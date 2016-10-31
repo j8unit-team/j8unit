@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.xml.ws.RespectBindingFeatureClassTests<Re
         final RespectBindingFeature sut = null; // = new RespectBindingFeature(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.RespectBindingFeature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.RespectBindingFeature]
 
 }

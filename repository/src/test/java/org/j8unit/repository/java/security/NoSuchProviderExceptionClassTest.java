@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.NoSuchProviderExceptionClassTests
         final NoSuchProviderException sut = null; // = new NoSuchProviderException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.NoSuchProviderException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.NoSuchProviderException]
 
 }

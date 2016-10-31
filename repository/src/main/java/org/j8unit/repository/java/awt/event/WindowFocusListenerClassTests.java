@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    WindowFocusListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.WindowFocusListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.WindowFocusListener]
 
 }

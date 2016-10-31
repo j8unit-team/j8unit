@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ObjectName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ObjectName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ObjectName]
 
 }

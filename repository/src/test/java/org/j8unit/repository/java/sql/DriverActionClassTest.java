@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.DriverActionClassTests<DriverAction> {
         return DriverAction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DriverAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DriverAction]
 
 }

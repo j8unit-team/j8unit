@@ -68,6 +68,8 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosKeyClassTe
                                       // String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.KerberosKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosKey]
 
 }

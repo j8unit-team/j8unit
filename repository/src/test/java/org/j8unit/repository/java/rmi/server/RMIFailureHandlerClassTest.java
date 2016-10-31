@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.RMIFailureHandlerClassTests<RMI
         return RMIFailureHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIFailureHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIFailureHandler]
 
 }

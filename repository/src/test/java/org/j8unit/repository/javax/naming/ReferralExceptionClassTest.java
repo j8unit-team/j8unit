@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ReferralExceptionClassTests<Referr
         return ReferralException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ReferralException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ReferralException]
 
 }

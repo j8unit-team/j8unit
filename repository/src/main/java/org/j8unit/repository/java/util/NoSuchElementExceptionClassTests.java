@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    NoSuchElementException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.NoSuchElementException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.NoSuchElementException]
 
 }

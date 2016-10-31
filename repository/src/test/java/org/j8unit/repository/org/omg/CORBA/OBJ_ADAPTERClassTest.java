@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests<OBJ_ADAPTER
         final OBJ_ADAPTER sut = new OBJ_ADAPTER();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.OBJ_ADAPTER]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OBJ_ADAPTER]
 
 }

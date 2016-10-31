@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextClassTests<SUT>, or
                    _NamingContextStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming._NamingContextStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming._NamingContextStub]
 
 }

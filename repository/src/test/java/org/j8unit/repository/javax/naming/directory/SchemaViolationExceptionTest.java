@@ -32,6 +32,8 @@ org.j8unit.repository.javax.naming.directory.SchemaViolationExceptionTests<Schem
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.SchemaViolationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.SchemaViolationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.SchemaViolationException]
 
 }

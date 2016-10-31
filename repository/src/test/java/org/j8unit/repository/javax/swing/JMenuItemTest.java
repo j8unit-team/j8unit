@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JMenuItem>, org.j8unit.repository.javax.swing.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JMenuItem]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JMenuItem]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JMenuItem]
 
 }

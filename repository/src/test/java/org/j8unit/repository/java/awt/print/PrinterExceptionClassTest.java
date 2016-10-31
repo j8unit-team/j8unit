@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.awt.print.PrinterExceptionClassTests<Print
         final PrinterException sut = null; // = new PrinterException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.PrinterException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PrinterException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.JMXAddressableClassTest
         return JMXAddressable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXAddressable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXAddressable]
 
 }

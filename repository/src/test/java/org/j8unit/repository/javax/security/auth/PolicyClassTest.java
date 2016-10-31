@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.security.auth.PolicyClassTests<Policy> {
         // write some test for {@link javax.security.auth.Policy#getPolicy()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.Policy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Policy]
 
 }

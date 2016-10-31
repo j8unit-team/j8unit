@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.FileSystemClassTests<FileSystem> 
         return FileSystem.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.FileSystem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.FileSystem]
 
 }

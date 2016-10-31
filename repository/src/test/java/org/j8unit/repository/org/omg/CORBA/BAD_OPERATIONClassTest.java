@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_OPERATIONClassTests<BAD_OPERA
         final BAD_OPERATION sut = new BAD_OPERATION();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_OPERATION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_OPERATION]
 
 }

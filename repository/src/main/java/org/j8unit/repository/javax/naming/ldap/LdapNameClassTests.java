@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NameClassTests<SUT>, org.j8unit.repos
                    LdapName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.LdapName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.LdapName]
 
 }

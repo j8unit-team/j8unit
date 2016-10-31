@@ -148,6 +148,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.MenuElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.MenuElement]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.MenuElement]
 }

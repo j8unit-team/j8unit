@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.RoundEnvironmentCla
         return RoundEnvironment.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.RoundEnvironment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.RoundEnvironment]
 
 }

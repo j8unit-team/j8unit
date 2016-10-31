@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.TextFieldPeerClassTests<TextField
         return TextFieldPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.TextFieldPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.TextFieldPeer]
 
 }

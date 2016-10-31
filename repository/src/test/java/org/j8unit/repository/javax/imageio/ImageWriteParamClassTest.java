@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<ImageWr
         final ImageWriteParam sut = null; // = new ImageWriteParam(java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.ImageWriteParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageWriteParam]
 
 }

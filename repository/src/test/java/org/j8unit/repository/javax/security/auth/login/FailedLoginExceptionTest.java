@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<FailedLoginException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.FailedLoginException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.FailedLoginException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.FailedLoginException]
 
 }

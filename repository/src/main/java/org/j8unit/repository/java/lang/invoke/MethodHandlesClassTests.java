@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    MethodHandles.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandles]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandles]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Lookup.class!",
                               Lookup.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandles$Lookup]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandles$Lookup]
 

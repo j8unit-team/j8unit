@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
         // write some test for {@link org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
 
 }

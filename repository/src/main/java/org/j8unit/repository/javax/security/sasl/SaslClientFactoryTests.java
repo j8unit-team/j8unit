@@ -81,6 +81,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.SaslClientFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.sasl.SaslClientFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.SaslClientFactory]
 }

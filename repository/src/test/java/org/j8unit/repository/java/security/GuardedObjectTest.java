@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.GuardedObjectTests<GuardedObject>
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.GuardedObject], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.GuardedObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.GuardedObject]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.GuardedObject]
 
 }

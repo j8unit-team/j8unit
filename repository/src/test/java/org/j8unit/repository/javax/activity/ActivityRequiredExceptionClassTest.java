@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTe
         final ActivityRequiredException sut = new ActivityRequiredException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activity.ActivityRequiredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activity.ActivityRequiredException]
 
 }

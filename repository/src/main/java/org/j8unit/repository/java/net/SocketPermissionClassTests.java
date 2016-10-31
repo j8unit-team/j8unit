@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.PermissionClassTests<SUT> {
                    SocketPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketPermission]
 
 }

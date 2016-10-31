@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NotBoundException>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.NotBoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.NotBoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.NotBoundException]
 
 }

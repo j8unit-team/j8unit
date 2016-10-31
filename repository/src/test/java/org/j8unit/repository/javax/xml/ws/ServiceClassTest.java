@@ -107,6 +107,8 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
         // write some test for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Service]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Service]
 
     @RunWith(J8Unit4.class)
@@ -159,6 +161,8 @@ implements org.j8unit.repository.javax.xml.ws.ServiceClassTests<Service> {
         throws Exception {
             // write some test for {@link javax.xml.ws.Service.Mode#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Service$Mode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Service$Mode]
 

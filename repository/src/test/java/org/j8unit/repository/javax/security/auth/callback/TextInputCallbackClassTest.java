@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.security.auth.callback.TextInputCallbackC
         final TextInputCallback sut = null; // = new TextInputCallback(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.TextInputCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.TextInputCallback]
 
 }

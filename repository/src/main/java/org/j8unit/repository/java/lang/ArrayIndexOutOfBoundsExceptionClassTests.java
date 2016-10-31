@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionClassTests<SUT>
                    ArrayIndexOutOfBoundsException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ArrayIndexOutOfBoundsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ArrayIndexOutOfBoundsException]
 
 }

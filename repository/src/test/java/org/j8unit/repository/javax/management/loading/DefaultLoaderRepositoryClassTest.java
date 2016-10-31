@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.management.loading.DefaultLoaderRepositor
         // String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.DefaultLoaderRepository]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.DefaultLoaderRepository]
 
 }

@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.net.InetSocketAddressClassTests<InetSocket
         // write some test for {@link java.net.InetSocketAddress#createUnresolved(String, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.InetSocketAddress]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InetSocketAddress]
 
 }

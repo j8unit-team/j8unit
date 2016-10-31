@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
                    ObjectStreamField.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectStreamField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectStreamField]
 
 }

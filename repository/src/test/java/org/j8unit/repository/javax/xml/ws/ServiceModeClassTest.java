@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.ServiceModeClassTests<ServiceMode>
         return ServiceMode.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.ServiceMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.ServiceMode]
 
 }

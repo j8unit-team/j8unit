@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PrintService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.PrintService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.PrintService]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.color.CMMExceptionClassTests<CMMExcept
         final CMMException sut = null; // = new CMMException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.CMMException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.CMMException]
 
 }

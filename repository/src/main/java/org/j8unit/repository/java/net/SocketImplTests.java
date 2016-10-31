@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.SocketImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketImpl]
 }

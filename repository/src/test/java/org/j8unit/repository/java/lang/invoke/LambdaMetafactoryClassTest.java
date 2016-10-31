@@ -91,6 +91,8 @@ implements org.j8unit.repository.java.lang.invoke.LambdaMetafactoryClassTests<La
         // java.lang.invoke.MethodType, Object...)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.LambdaMetafactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.LambdaMetafactory]
 
 }

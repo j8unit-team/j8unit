@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.ResultSetClassTests<ResultSet> {
         return ResultSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.ResultSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ResultSet]
 
 }

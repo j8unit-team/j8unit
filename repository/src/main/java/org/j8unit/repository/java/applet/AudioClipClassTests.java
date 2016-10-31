@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AudioClip.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.AudioClip]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.AudioClip]
 
 }

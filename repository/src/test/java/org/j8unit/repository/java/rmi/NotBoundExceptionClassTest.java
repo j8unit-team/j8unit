@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.rmi.NotBoundExceptionClassTests<NotBoundEx
         final NotBoundException sut = null; // = new NotBoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.NotBoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.NotBoundException]
 
 }

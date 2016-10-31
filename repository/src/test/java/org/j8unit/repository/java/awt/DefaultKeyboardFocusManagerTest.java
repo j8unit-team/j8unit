@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultKeyboardFocusManager>, org.j8unit.repos
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
 
 }

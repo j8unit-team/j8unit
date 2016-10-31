@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to View.class!", View.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.View]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.View]
 
 }

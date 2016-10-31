@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
 
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, org.j8unit.repository.ja
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
 
     }
 

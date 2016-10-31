@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.script.ScriptContextClassTests<ScriptCont
         return ScriptContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptContext]
 
 }

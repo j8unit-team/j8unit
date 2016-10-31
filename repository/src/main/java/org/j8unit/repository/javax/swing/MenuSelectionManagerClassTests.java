@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    MenuSelectionManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.MenuSelectionManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.MenuSelectionManager]
 
 }

@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicPanelUIClassTests<B
         // write some test for {@link javax.swing.plaf.basic.BasicPanelUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicPanelUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicPanelUI]
 
 }

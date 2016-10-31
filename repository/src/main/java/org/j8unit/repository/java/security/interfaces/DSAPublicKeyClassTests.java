@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.interfaces.DSAKeyClassTests<SUT>, or
                    DSAPublicKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.DSAPublicKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.DSAPublicKey]
 
 }

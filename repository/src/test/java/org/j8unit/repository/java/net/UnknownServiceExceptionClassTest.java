@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.UnknownServiceExceptionClassTests<Unkn
         final UnknownServiceException sut = null; // = new UnknownServiceException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.UnknownServiceException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.UnknownServiceException]
 
 }

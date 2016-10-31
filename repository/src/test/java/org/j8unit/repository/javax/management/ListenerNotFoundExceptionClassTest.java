@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.ListenerNotFoundExceptionClass
         final ListenerNotFoundException sut = null; // = new ListenerNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ListenerNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ListenerNotFoundException]
 
 }

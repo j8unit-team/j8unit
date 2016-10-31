@@ -107,6 +107,8 @@ implements org.j8unit.repository.javax.swing.JPanelClassTests<JPanel> {
         final JPanel sut = null; // = new JPanel(java.awt.LayoutManager);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JPanel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPanel]
 
 }

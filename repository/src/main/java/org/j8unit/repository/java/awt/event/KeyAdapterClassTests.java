@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.KeyListenerClassTests<SUT>, org.j8u
                    KeyAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.KeyAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.KeyAdapter]
 
 }

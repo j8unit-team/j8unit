@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.WrapperClassTests<Wrapper> {
         return Wrapper.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Wrapper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Wrapper]
 
 }

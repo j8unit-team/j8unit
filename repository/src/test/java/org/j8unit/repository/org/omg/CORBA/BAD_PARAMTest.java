@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BAD_PARAM>, org.j8unit.repository.org.omg.CORB
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_PARAM]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.BAD_PARAM]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.BAD_PARAM]
 
 }

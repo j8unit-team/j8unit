@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.AbstractUnmarshallerImpl
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
 
 }

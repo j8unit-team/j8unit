@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.ClosedByInterruptExceptionCla
         final ClosedByInterruptException sut = new ClosedByInterruptException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ClosedByInterruptException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ClosedByInterruptException]
 
 }

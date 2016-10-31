@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.ResponseClassTests<Response> {
         return Response.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Response]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Response]
 
 }

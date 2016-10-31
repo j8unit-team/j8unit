@@ -99,6 +99,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.xa.Xid]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.transaction.xa.Xid]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.xa.Xid]
 }

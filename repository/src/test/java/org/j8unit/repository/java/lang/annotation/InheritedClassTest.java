@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.annotation.InheritedClassTests<Inheri
         return Inherited.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Inherited]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.Inherited]
 
 }

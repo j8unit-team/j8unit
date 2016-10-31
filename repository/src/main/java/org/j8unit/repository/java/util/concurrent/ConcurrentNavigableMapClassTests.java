@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT>,
                    ConcurrentNavigableMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentNavigableMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentNavigableMap]
 
 }

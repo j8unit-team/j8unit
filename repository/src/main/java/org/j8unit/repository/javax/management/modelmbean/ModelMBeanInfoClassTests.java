@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ModelMBeanInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanInfo]
 
 }

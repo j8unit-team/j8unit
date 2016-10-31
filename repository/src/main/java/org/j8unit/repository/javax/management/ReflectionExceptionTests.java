@@ -78,6 +78,7 @@ extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ReflectionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.ReflectionException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ReflectionException]
 }

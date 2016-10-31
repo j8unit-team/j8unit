@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevoke
         return BeanContextServiceRevokedListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServiceRevokedListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServiceRevokedListener]
 
 }

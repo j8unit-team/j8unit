@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleRelationSetClassT
                                                 // AccessibleRelationSet(javax.accessibility.AccessibleRelation[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleRelationSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleRelationSet]
 
 }

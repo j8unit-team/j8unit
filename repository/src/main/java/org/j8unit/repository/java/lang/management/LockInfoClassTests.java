@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    LockInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.LockInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.LockInfo]
 
 }

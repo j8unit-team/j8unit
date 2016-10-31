@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.crypto.CipherSpiClassTests<CipherSpi> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.CipherSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.CipherSpi]
 
 }

@@ -80,6 +80,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.DOMImplementationSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.DOMImplementationSource]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.DOMImplementationSource]
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorPOAClassTe
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantLocatorPOA]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantLocatorPOA]
 
 }

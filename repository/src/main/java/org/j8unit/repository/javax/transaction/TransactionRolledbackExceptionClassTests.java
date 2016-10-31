@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    TransactionRolledbackException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.TransactionRolledbackException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.TransactionRolledbackException]
 
 }

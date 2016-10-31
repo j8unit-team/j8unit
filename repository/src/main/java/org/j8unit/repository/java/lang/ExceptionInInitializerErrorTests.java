@@ -76,6 +76,7 @@ extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ExceptionInInitializerError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ExceptionInInitializerError]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ExceptionInInitializerError]
 }

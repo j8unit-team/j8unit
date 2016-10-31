@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.BandedSampleModelClassTests<Band
         final BandedSampleModel sut = null; // = new BandedSampleModel(int, int, int, int, int[], int[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BandedSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BandedSampleModel]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.FontPeerClassTests<FontPeer> {
         return FontPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.FontPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.FontPeer]
 
 }

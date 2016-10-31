@@ -78,6 +78,7 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.CurrentOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.CurrentOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.CurrentOperations]
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
                    PKIXRevocationChecker.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Option.class!",
                               Option.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]
 

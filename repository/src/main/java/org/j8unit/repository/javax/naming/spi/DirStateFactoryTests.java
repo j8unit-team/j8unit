@@ -58,8 +58,9 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirStateFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.spi.DirStateFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirStateFactory]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -131,8 +132,9 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirStateFactory$Result]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.spi.DirStateFactory$Result]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirStateFactory$Result]
     }
 
 }

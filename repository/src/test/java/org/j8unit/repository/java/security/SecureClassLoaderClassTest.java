@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.SecureClassLoaderClassTests<Secur
         return SecureClassLoader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SecureClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SecureClassLoader]
 
 }

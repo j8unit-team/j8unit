@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NO_RESPONSE>, org.j8unit.repository.org.omg.CO
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_RESPONSE]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.NO_RESPONSE]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.NO_RESPONSE]
 
 }

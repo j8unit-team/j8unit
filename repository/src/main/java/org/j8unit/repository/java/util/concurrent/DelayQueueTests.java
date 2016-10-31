@@ -483,6 +483,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
         org.j8unit.repository.java.util.AbstractQueueTests.super.test_add_Object();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.DelayQueue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.DelayQueue]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.DelayQueue]
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LastOwnerException>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.acl.LastOwnerException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.acl.LastOwnerException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.acl.LastOwnerException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SYNC_WITH_TRANSPORT.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.Messaging.SYNC_WITH_TRANSPORT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.Messaging.SYNC_WITH_TRANSPORT]
 
 }

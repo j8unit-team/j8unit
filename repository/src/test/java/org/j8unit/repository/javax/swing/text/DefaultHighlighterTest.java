@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<DefaultHighlighter>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultHighlighter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultHighlighter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultHighlighter]
 
     @RunWith(J8Unit4.class)
     public static class DefaultHighlightPainterTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<DefaultHighlighter>, org.j8unit.repository.jav
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultHighlighter.DefaultHighlightPainter], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 
     }
 

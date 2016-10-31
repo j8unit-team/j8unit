@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.DimensionUIResourceClassTests<
         final DimensionUIResource sut = null; // = new DimensionUIResource(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.DimensionUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.DimensionUIResource]
 
 }

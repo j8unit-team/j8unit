@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.FilenameFilterClassTests<FilenameFilter
         return FilenameFilter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilenameFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilenameFilter]
 
 }

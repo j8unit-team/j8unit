@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CompositeContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.CompositeContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.CompositeContext]
 
 }

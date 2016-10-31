@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.zip.ChecksumClassTests<SUT>, org.j8unit.
                    Adler32.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.Adler32]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.Adler32]
 
 }

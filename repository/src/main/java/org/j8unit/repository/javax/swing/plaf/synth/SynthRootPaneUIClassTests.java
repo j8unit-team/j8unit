@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SUT>, org
                    SynthRootPaneUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthRootPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthRootPaneUI]
 
 }

@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.awt.SystemTrayClassTests<SystemTray> {
         // write some test for {@link java.awt.SystemTray#isSupported()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.SystemTray]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SystemTray]
 
 }

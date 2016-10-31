@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalScrollButtonClassTe
         final MetalScrollButton sut = null; // = new MetalScrollButton(int, int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalScrollButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalScrollButton]
 
 }

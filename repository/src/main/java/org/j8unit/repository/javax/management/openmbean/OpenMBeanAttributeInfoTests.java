@@ -173,6 +173,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfo]
 }

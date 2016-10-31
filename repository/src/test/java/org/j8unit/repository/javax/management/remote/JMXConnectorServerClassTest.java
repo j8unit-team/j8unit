@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorServerClass
         Assert.fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorServer]
 
 }

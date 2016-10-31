@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorClassTests<
         final FlatteningPathIterator sut = null; // = new FlatteningPathIterator(java.awt.geom.PathIterator, double);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.FlatteningPathIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.FlatteningPathIterator]
 
 }

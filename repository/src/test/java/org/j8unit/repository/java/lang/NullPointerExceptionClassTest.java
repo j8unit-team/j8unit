@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.NullPointerExceptionClassTests<NullPo
         final NullPointerException sut = null; // = new NullPointerException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NullPointerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NullPointerException]
 
 }

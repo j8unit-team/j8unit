@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
                    FilterWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilterWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilterWriter]
 
 }

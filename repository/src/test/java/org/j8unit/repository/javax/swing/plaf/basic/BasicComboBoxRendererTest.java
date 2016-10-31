@@ -45,7 +45,9 @@ implements FactoryBasedJ8UnitTest, org.j8unit.repository.javax.swing.plaf.basic.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
 
     @SuppressWarnings("rawtypes")
     @RunWith(J8Parameterized.class)
@@ -79,7 +81,9 @@ implements FactoryBasedJ8UnitTest, org.j8unit.repository.javax.swing.plaf.basic.
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 
     }
 

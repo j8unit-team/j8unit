@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.StrokeClassTests<Stroke> {
         return Stroke.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Stroke]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Stroke]
 
 }

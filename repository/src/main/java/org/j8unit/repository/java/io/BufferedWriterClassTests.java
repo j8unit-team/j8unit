@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
                    BufferedWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.BufferedWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedWriter]
 
 }

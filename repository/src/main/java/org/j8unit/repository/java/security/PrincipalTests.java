@@ -144,6 +144,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Principal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.Principal]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Principal]
 }

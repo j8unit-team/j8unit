@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.net.ssl.SSLExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLPeerUnverifiedException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLPeerUnverifiedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLPeerUnverifiedException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLPeerUnverifiedException]
 }

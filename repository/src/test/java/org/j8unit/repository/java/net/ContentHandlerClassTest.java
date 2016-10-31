@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.ContentHandlerClassTests<ContentHandle
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ContentHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ContentHandler]
 
 }

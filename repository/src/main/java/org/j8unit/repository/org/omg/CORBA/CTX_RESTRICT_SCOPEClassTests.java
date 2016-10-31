@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CTX_RESTRICT_SCOPE.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CTX_RESTRICT_SCOPE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CTX_RESTRICT_SCOPE]
 
 }

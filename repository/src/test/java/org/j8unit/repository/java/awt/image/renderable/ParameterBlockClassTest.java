@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.awt.image.renderable.ParameterBlockClassTe
         final ParameterBlock sut = null; // = new ParameterBlock(java.util.Vector);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.ParameterBlock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.ParameterBlock]
 
 }

@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.LabelClassTests<Label> {
         final Label sut = null; // = new Label(String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Label]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Label]
 
 }

@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperClassTests<Ser
         // write some test for {@link org.omg.CORBA.ServiceDetailHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ServiceDetailHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceDetailHelper]
 
 }

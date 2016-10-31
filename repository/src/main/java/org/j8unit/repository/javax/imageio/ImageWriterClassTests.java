@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderClassTests<SUT>, org.
                    ImageWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.ImageWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageWriter]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.CountedCompleterClassTests
         return CountedCompleter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CountedCompleter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CountedCompleter]
 
 }

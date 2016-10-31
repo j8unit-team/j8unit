@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    JapaneseEra.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.JapaneseEra]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.JapaneseEra]
 
 }

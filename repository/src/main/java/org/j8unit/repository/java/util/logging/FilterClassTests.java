@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Filter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.Filter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.Filter]
 
 }

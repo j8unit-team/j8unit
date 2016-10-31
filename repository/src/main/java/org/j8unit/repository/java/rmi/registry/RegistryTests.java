@@ -148,6 +148,7 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.registry.Registry]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.registry.Registry]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.registry.Registry]
 }

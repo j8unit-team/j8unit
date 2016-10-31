@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.HyperlinkListenerClassTests<H
         return HyperlinkListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.HyperlinkListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.HyperlinkListener]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.NodeClassTests<Node> {
         return Node.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.Node]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.Node]
 
 }

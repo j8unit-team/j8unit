@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorResultClassTests<Ke
         return KeySelectorResult.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.KeySelectorResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelectorResult]
 
 }

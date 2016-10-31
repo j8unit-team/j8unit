@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ClassLoaderClassTests<SUT> {
                    SecureClassLoader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SecureClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SecureClassLoader]
 
 }

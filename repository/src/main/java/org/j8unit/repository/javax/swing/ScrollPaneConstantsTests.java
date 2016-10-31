@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ScrollPaneConstants]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneConstants]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneConstants]
 }

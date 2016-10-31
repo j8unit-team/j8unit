@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMLocatorClassTests<DO
         return DOMLocator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.dom.DOMLocator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.dom.DOMLocator]
 
 }

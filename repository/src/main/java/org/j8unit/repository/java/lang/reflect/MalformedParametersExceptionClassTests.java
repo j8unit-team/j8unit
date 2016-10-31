@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    MalformedParametersException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.MalformedParametersException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.MalformedParametersException]
 
 }

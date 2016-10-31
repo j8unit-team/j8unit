@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.text.ParseExceptionClassTests<ParseExcepti
         final ParseException sut = null; // = new ParseException(String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.ParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.ParseException]
 
 }

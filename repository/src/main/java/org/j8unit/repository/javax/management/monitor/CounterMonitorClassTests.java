@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.monitor.MonitorClassTests<SUT> {
                    CounterMonitor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.CounterMonitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.CounterMonitor]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.events.EndDocument]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.EndDocument]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.events.EndDocument]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.EndDocument]
 }

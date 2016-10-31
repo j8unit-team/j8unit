@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicy
         return ImplicitActivationPolicy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicy]
 
 }

@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.net.ssl.CertPathTrustManagerParametersCla
                                                          // CertPathTrustManagerParameters(java.security.cert.CertPathParameters);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.CertPathTrustManagerParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.CertPathTrustManagerParameters]
 
 }

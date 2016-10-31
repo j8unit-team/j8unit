@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    JSplitPane.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSplitPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSplitPane]
 
 }

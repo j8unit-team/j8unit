@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.reflect.GenericSignatureFormatErrorCl
         final GenericSignatureFormatError sut = null; // = new GenericSignatureFormatError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.GenericSignatureFormatError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.GenericSignatureFormatError]
 
 }

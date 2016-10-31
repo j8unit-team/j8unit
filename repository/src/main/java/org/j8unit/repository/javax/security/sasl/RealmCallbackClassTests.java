@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.security.auth.callback.TextInputCallbackClas
                    RealmCallback.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.RealmCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.RealmCallback]
 
 }

@@ -134,6 +134,8 @@ implements org.j8unit.repository.javax.xml.bind.MarshalExceptionClassTests<Marsh
         final MarshalException sut = null; // = new MarshalException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.MarshalException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.MarshalException]
 
 }

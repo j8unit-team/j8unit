@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.server.SocketSecurityExceptionClassTes
         final SocketSecurityException sut = null; // = new SocketSecurityException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.SocketSecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.SocketSecurityException]
 
 }

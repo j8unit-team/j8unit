@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.NoSuchMethodExceptionClassTests<NoSuc
         final NoSuchMethodException sut = null; // = new NoSuchMethodException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NoSuchMethodException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NoSuchMethodException]
 
 }

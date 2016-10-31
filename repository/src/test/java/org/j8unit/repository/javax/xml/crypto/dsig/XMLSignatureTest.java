@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests<XMLSign
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.crypto.dsig.XMLSignature], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature]
 
     @RunWith(J8Unit4.class)
     public static class SignatureValueTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests<XMLSign
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.crypto.dsig.XMLSignature.SignatureValue], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
 
     }
 

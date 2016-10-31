@@ -68,6 +68,8 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewClassTests<S
                    PosixFileAttributeView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.PosixFileAttributeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.PosixFileAttributeView]
 
 }

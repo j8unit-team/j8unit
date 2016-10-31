@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.TransferQueueClassTests<Tr
         return TransferQueue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.TransferQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.TransferQueue]
 
 }

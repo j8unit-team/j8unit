@@ -55,6 +55,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpec
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
 }

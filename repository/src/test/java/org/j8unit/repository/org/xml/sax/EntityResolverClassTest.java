@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.EntityResolverClassTests<EntityReso
         return EntityResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.EntityResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.EntityResolver]
 
 }

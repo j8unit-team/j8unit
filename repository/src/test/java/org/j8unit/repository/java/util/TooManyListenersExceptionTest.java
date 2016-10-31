@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<TooManyListenersException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.TooManyListenersException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.TooManyListenersException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.TooManyListenersException]
 
 }

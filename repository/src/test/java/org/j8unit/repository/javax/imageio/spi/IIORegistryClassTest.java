@@ -39,6 +39,8 @@ implements org.j8unit.repository.javax.imageio.spi.IIORegistryClassTests<IIORegi
         // write some test for {@link javax.imageio.spi.IIORegistry#getDefaultInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.IIORegistry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.IIORegistry]
 
 }

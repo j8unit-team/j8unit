@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<X509CertSelector>, org.j8unit.repository.java.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.X509CertSelector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.X509CertSelector]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.X509CertSelector]
 
 }

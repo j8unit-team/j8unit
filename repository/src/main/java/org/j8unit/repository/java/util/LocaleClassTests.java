@@ -72,6 +72,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Locale.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale]
 
     /**
@@ -134,6 +136,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LanguageRange.class!",
                               LanguageRange.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$LanguageRange]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$LanguageRange]
 
@@ -200,6 +204,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               java.util.Locale.Category.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$Category]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$Category]
 
     }
@@ -265,6 +271,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               FilteringMode.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$FilteringMode]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$FilteringMode]
 
     }
@@ -329,6 +337,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Builder.class!",
                               Builder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$Builder]
 

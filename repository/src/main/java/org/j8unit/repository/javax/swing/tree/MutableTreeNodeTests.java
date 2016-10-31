@@ -168,6 +168,7 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.MutableTreeNode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.MutableTreeNode]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.MutableTreeNode]
 }

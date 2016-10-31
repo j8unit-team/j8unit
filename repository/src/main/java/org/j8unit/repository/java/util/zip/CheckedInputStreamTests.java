@@ -124,6 +124,7 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.CheckedInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.CheckedInputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.CheckedInputStream]
 }

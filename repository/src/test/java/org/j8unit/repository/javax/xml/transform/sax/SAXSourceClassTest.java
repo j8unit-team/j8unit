@@ -21,9 +21,8 @@ implements org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests<SAX
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.xml.transform.sax.SAXSource#SAXSource(org.xml.sax.XMLReader, org.xml.sax.InputSource) public
-     * javax.xml.transform.sax.SAXSource(org.xml.sax.XMLReader,org.xml.sax.InputSource)}.
+     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.sax.SAXSource#SAXSource()
+     * public javax.xml.transform.sax.SAXSource()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -35,11 +34,10 @@ implements org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests<SAX
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SAXSource_XMLReader_InputSource()
+    public void create_SAXSource()
     throws Exception {
         // create new instance
-        @SuppressWarnings("unused")
-        final SAXSource sut = null; // = new SAXSource(org.xml.sax.XMLReader, org.xml.sax.InputSource);
+        final SAXSource sut = new SAXSource();
     }
 
     /**
@@ -67,8 +65,9 @@ implements org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests<SAX
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.xml.transform.sax.SAXSource#SAXSource()
-     * public javax.xml.transform.sax.SAXSource()}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.xml.transform.sax.SAXSource#SAXSource(org.xml.sax.XMLReader, org.xml.sax.InputSource) public
+     * javax.xml.transform.sax.SAXSource(org.xml.sax.XMLReader,org.xml.sax.InputSource)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -80,10 +79,11 @@ implements org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests<SAX
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_SAXSource()
+    public void create_SAXSource_XMLReader_InputSource()
     throws Exception {
         // create new instance
-        final SAXSource sut = new SAXSource();
+        @SuppressWarnings("unused")
+        final SAXSource sut = null; // = new SAXSource(org.xml.sax.XMLReader, org.xml.sax.InputSource);
     }
 
     /**
@@ -106,6 +106,8 @@ implements org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests<SAX
     throws Exception {
         // write some test for {@link javax.xml.transform.sax.SAXSource#sourceToInputSource(javax.xml.transform.Source)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.sax.SAXSource]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.sax.SAXSource]
 

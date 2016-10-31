@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
         // write some test for {@link java.security.cert.CertificateFactory#getInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateFactory]
 
 }

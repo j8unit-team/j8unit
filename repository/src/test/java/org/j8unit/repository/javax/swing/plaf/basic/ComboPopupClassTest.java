@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<Com
         return ComboPopup.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.ComboPopup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.ComboPopup]
 
 }

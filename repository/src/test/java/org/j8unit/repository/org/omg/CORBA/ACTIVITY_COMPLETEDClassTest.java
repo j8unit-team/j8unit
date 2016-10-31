@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDClassTests<ACTI
         final ACTIVITY_COMPLETED sut = new ACTIVITY_COMPLETED();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ACTIVITY_COMPLETED]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ACTIVITY_COMPLETED]
 
 }

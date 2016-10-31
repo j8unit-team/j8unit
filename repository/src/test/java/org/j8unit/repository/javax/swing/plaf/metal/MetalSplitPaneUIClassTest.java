@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalSplitPaneUIClassTes
         // write some test for {@link javax.swing.plaf.metal.MetalSplitPaneUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalSplitPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalSplitPaneUI]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
                    Sequencer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Sequencer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Sequencer]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SyncMode.class!",
                               SyncMode.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Sequencer$SyncMode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Sequencer$SyncMode]
 

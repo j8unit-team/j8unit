@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.OptionalDataException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.OptionalDataException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.OptionalDataException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.OptionalDataException]
 }

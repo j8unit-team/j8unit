@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineClassTests<SSLEngine> {
         return SSLEngine.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLEngine]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLEngine]
 
 }

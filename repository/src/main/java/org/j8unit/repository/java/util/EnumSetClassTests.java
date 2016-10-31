@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT> {
                    EnumSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EnumSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EnumSet]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetMetaDataImplClassTests<R
         final RowSetMetaDataImpl sut = new RowSetMetaDataImpl();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.RowSetMetaDataImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.RowSetMetaDataImpl]
 
 }

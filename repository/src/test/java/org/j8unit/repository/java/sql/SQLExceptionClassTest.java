@@ -199,6 +199,8 @@ implements org.j8unit.repository.java.sql.SQLExceptionClassTests<SQLException> {
         final SQLException sut = new SQLException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLException]
 
 }

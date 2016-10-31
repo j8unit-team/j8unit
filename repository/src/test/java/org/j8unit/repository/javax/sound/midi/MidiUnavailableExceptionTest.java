@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MidiUnavailableException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MidiUnavailableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.MidiUnavailableException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiUnavailableException]
 
 }

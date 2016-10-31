@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.SkeletonClassTests<Skeleton> {
         return Skeleton.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.Skeleton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.Skeleton]
 
 }

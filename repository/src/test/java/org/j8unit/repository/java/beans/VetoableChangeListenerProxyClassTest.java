@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.beans.VetoableChangeListenerProxyClassTest
                                                       // java.beans.VetoableChangeListener);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.VetoableChangeListenerProxy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.VetoableChangeListenerProxy]
 
 }

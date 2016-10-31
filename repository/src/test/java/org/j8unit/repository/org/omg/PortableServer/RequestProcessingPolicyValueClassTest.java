@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyV
         // write some test for {@link org.omg.PortableServer.RequestProcessingPolicyValue#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicyValue]
 
 }

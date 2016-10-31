@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<Diagno
         return DiagnosticListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DiagnosticListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DiagnosticListener]
 
 }

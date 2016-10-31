@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncoding
         final UnknownEncoding sut = null; // = new UnknownEncoding(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecFactoryPackage.UnknownEncoding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecFactoryPackage.UnknownEncoding]
 
 }

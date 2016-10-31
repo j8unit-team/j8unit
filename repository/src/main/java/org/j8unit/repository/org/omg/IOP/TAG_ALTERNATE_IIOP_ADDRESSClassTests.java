@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TAG_ALTERNATE_IIOP_ADDRESS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS]
 
 }

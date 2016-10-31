@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<T
         return TemporalAccessor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalAccessor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalAccessor]
 
 }

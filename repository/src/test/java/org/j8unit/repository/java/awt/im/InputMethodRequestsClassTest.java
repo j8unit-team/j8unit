@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.im.InputMethodRequestsClassTests<Input
         return InputMethodRequests.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.InputMethodRequests]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputMethodRequests]
 
 }

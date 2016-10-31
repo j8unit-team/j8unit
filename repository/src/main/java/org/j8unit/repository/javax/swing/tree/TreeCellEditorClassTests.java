@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.CellEditorClassTests<SUT> {
                    TreeCellEditor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeCellEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeCellEditor]
 
 }

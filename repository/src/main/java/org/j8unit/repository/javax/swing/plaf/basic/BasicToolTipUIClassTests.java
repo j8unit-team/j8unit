@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.ToolTipUIClassTests<SUT> {
                    BasicToolTipUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicToolTipUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicToolTipUI]
 
 }

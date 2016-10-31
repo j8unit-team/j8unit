@@ -169,6 +169,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterManagerIdHel
         // org.omg.PortableInterceptor.AdapterManagerIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.AdapterManagerIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.AdapterManagerIdHelper]
 
 }

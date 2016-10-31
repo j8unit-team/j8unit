@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PRIVATE_MEMBER.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PRIVATE_MEMBER]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PRIVATE_MEMBER]
 
 }

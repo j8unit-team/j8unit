@@ -141,6 +141,8 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
         // write some test for {@link java.util.Calendar#getAvailableLocales()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Calendar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Calendar]
 
     @RunWith(J8Unit4.class)
@@ -174,6 +176,8 @@ implements org.j8unit.repository.java.util.CalendarClassTests<Calendar> {
             // create new instance
             final Builder sut = new Builder();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Calendar$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Calendar$Builder]
 

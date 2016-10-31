@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.plaf.TableHeaderUIClassTests<TableH
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.TableHeaderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.TableHeaderUI]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Robot>, org.j8unit.repository.java.awt.RobotTe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Robot]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Robot]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Robot]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.naming.StringRefAddrClassTests<StringRefA
         final StringRefAddr sut = null; // = new StringRefAddr(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.StringRefAddr]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.StringRefAddr]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.spi.CalendarNameProviderClassTests<Ca
         return CalendarNameProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.spi.CalendarNameProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.spi.CalendarNameProvider]
 
 }

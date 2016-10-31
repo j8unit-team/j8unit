@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.InvalidAttributeValueExceptionTests<Inval
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InvalidAttributeValueException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.InvalidAttributeValueException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.InvalidAttributeValueException]
 
 }

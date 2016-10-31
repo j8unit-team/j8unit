@@ -116,6 +116,8 @@ implements org.j8unit.repository.javax.management.relation.RoleInfoClassTests<Ro
         final RoleInfo sut = null; // = new RoleInfo(String, String, boolean, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleInfo]
 
 }

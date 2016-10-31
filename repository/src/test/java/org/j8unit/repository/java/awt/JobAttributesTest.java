@@ -37,7 +37,9 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -61,7 +63,9 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
     }
 
@@ -87,7 +91,9 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
     }
 
@@ -112,7 +118,9 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
     }
 
@@ -137,7 +145,9 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
     }
 
@@ -163,7 +173,9 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 
     }
 

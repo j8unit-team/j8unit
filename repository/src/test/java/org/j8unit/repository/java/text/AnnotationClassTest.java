@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.text.AnnotationClassTests<Annotation> {
         final Annotation sut = null; // = new Annotation(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Annotation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Annotation]
 
 }

@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.sound.midi.ShortMessageClassTests<ShortMe
         final ShortMessage sut = null; // = new ShortMessage(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.ShortMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.ShortMessage]
 
 }

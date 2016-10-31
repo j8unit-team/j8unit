@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.event.HierarchyBoundsAdapterClassTests
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.HierarchyBoundsAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.HierarchyBoundsAdapter]
 
 }

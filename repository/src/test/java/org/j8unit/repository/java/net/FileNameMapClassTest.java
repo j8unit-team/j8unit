@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.FileNameMapClassTests<FileNameMap> {
         return FileNameMap.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.FileNameMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.FileNameMap]
 
 }

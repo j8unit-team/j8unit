@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.RequestWrapperClassTests<RequestWr
         return RequestWrapper.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.RequestWrapper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.RequestWrapper]
 
 }

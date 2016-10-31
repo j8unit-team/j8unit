@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.LimitExceededExceptionClassTests<L
         final LimitExceededException sut = null; // = new LimitExceededException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.LimitExceededException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.LimitExceededException]
 
 }

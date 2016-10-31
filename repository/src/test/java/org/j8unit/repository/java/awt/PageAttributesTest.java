@@ -37,7 +37,9 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -61,7 +63,9 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
 
     }
 
@@ -86,7 +90,9 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
 
     }
 
@@ -111,7 +117,9 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
 
     }
 
@@ -281,7 +289,9 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
 
     }
 
@@ -306,7 +316,9 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
 
     }
 

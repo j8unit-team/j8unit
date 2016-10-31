@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RenderedImageFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.RenderedImageFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderedImageFactory]
 
 }

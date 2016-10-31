@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.ExceptionDetailMessageClassTests<Ex
         return ExceptionDetailMessage.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ExceptionDetailMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ExceptionDetailMessage]
 
 }

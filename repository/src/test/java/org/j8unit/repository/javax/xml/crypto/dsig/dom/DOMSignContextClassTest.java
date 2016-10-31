@@ -112,6 +112,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMSignContextClassTe
         final DOMSignContext sut = null; // = new DOMSignContext(java.security.Key, org.w3c.dom.Node, org.w3c.dom.Node);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMSignContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMSignContext]
 
 }

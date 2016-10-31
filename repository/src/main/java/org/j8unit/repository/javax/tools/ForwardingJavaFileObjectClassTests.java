@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectClassTests<SUT>, org.j8u
                    ForwardingJavaFileObject.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.ForwardingJavaFileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.ForwardingJavaFileObject]
 
 }

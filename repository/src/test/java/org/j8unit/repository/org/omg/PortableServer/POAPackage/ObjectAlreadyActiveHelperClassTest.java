@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlready
         // org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper]
 
 }

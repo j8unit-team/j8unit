@@ -213,6 +213,7 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.Reference]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.Reference]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.Reference]
 }

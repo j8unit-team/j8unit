@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.prefs.NodeChangeListenerClassTests<No
         return NodeChangeListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.NodeChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.NodeChangeListener]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.openmbean.InvalidKeyExceptionC
         final InvalidKeyException sut = null; // = new InvalidKeyException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.InvalidKeyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.InvalidKeyException]
 
 }

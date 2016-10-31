@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.net.SocketExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.BindException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.BindException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.BindException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.BindException]
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BrokenBarrierException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.BrokenBarrierException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.BrokenBarrierException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.BrokenBarrierException]
 
 }

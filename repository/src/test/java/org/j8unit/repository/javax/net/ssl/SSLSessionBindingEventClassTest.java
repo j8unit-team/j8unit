@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLSessionBindingEventClassTests<
         final SSLSessionBindingEvent sut = null; // = new SSLSessionBindingEvent(javax.net.ssl.SSLSession, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSessionBindingEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSessionBindingEvent]
 
 }

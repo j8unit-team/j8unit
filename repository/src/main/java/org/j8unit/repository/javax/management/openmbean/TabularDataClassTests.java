@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TabularData.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.TabularData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularData]
 
 }

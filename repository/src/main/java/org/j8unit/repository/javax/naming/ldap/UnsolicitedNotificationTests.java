@@ -78,6 +78,7 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.UnsolicitedNotification]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.UnsolicitedNotification]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.UnsolicitedNotification]
 }

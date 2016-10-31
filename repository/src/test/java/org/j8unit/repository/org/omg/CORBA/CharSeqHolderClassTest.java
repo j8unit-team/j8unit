@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.CharSeqHolderClassTests<CharSeqHo
         final CharSeqHolder sut = new CharSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CharSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CharSeqHolder]
 
 }

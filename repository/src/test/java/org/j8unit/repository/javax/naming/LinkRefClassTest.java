@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.LinkRefClassTests<LinkRef> {
         final LinkRef sut = null; // = new LinkRef(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.LinkRef]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.LinkRef]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ToolProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.ToolProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.ToolProvider]
 
 }

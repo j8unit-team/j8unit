@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LayoutManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.LayoutManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.LayoutManager]
 
 }

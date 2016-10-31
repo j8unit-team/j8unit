@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DateTimeFormatterBuilder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
 
 }

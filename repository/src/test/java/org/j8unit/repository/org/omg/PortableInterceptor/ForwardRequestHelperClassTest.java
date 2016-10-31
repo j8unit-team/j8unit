@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ForwardRequestHelpe
         // write some test for {@link org.omg.PortableInterceptor.ForwardRequestHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequestHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequestHelper]
 
 }

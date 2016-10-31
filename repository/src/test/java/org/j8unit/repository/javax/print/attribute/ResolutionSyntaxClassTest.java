@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.print.attribute.ResolutionSyntaxClassTest
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.ResolutionSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.ResolutionSyntax]
 
 }

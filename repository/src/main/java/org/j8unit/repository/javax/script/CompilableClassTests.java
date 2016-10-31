@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Compilable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.Compilable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.Compilable]
 
 }

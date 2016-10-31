@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Segment.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Segment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Segment]
 
 }

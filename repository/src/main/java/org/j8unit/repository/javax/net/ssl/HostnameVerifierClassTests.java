@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    HostnameVerifier.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.HostnameVerifier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.HostnameVerifier]
 
 }

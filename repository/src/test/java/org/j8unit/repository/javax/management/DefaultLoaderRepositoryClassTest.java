@@ -85,6 +85,8 @@ implements org.j8unit.repository.javax.management.DefaultLoaderRepositoryClassTe
         // write some test for {@link javax.management.DefaultLoaderRepository#loadClass(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DefaultLoaderRepository]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DefaultLoaderRepository]
 
 }

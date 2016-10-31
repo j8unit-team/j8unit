@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.EntityReferenceClassTests<EntityRef
         return EntityReference.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.EntityReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.EntityReference]
 
 }

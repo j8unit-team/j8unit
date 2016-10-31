@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sql.StatementEventListenerTests<Statement
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.sql.StatementEventListener], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.StatementEventListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.StatementEventListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.StatementEventListener]
 
 }

@@ -101,6 +101,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.spi.MidiDeviceProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.spi.MidiDeviceProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.spi.MidiDeviceProvider]
 }

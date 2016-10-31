@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.URLConnectionClassTests<SUT> {
                    HttpURLConnection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.HttpURLConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpURLConnection]
 
 }

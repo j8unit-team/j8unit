@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.FilterReaderClassTests<FilterReader> {
         return FilterReader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilterReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilterReader]
 
 }

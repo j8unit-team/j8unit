@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MidiChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiChannel]
 
 }

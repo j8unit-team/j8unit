@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<XMLE
         return XMLEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.XMLEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.XMLEvent]
 
 }

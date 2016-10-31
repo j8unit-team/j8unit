@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.NO_PERMISSIONClassTests<NO_PERMIS
         final NO_PERMISSION sut = new NO_PERMISSION();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NO_PERMISSION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NO_PERMISSION]
 
 }

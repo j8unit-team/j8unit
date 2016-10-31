@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.ws.WebServicePermissionClassTests<Web
         final WebServicePermission sut = null; // = new WebServicePermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServicePermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServicePermission]
 
 }

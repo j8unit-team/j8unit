@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleKeyBindingClassTe
         return AccessibleKeyBinding.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleKeyBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleKeyBinding]
 
 }

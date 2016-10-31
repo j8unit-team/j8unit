@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
                    KeyAlreadyExistsException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.KeyAlreadyExistsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.KeyAlreadyExistsException]
 
 }

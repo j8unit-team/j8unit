@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.event.ObjectChangeListenerClassTes
         return ObjectChangeListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.ObjectChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.ObjectChangeListener]
 
 }

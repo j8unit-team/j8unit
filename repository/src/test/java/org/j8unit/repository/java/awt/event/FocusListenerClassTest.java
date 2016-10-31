@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.FocusListenerClassTests<FocusLis
         return FocusListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.FocusListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.FocusListener]
 
 }

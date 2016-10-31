@@ -103,6 +103,7 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Copies]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Copies]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Copies]
 }

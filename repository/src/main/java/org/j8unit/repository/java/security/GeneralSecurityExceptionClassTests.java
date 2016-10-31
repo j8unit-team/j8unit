@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    GeneralSecurityException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.GeneralSecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.GeneralSecurityException]
 
 }

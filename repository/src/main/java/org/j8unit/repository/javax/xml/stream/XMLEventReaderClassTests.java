@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
                    XMLEventReader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLEventReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLEventReader]
 
 }

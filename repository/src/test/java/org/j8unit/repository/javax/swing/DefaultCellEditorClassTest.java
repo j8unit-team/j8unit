@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.swing.DefaultCellEditorClassTests<Default
         final DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JComboBox);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultCellEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultCellEditor]
 
 }

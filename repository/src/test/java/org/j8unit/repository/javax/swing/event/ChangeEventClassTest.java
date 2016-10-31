@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.event.ChangeEventClassTests<ChangeE
         final ChangeEvent sut = null; // = new ChangeEvent(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ChangeEvent]
 
 }

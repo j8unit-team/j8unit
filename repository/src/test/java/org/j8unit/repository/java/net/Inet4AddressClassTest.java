@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.Inet4AddressClassTests<Inet4Address> {
         return Inet4Address.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Inet4Address]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Inet4Address]
 
 }

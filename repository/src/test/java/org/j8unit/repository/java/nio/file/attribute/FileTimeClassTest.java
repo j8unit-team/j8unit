@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<File
         // write some test for {@link java.nio.file.attribute.FileTime#fromMillis(long)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.FileTime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.FileTime]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
                    MTOMFeature.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.MTOMFeature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.MTOMFeature]
 
 }

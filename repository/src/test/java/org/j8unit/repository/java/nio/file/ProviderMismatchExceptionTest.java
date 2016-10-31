@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ProviderMismatchException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ProviderMismatchException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.ProviderMismatchException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.ProviderMismatchException]
 
 }

@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.nio.channels.FileChannelClassTests<FileCha
         // java.nio.file.attribute.FileAttribute...)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileChannel]
 
     @RunWith(J8Unit4.class)
@@ -78,6 +80,8 @@ implements org.j8unit.repository.java.nio.channels.FileChannelClassTests<FileCha
         public Class<MapMode> createNewSUT() {
             return MapMode.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileChannel$MapMode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileChannel$MapMode]
 

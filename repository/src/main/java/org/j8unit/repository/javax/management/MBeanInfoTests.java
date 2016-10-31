@@ -279,6 +279,7 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanInfo]
 }

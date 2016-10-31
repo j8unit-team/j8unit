@@ -113,6 +113,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderContextClassTes
                                         // java.awt.RenderingHints);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.RenderContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderContext]
 
 }

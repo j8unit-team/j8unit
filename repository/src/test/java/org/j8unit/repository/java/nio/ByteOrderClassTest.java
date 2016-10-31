@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.nio.ByteOrderClassTests<ByteOrder> {
         // write some test for {@link java.nio.ByteOrder#nativeOrder()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.ByteOrder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ByteOrder]
 
 }

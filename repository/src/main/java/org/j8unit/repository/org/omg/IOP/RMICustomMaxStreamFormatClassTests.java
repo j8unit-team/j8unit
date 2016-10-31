@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RMICustomMaxStreamFormat.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.RMICustomMaxStreamFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.RMICustomMaxStreamFormat]
 
 }

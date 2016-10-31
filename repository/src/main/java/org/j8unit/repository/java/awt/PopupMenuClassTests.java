@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.MenuClassTests<SUT> {
                    PopupMenu.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PopupMenu]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PopupMenu]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidKeyException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.InvalidKeyException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.InvalidKeyException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.InvalidKeyException]
 
 }

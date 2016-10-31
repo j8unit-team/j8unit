@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.OutOfMemoryErrorClassTests<OutOfMemor
         final OutOfMemoryError sut = null; // = new OutOfMemoryError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.OutOfMemoryError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.OutOfMemoryError]
 
 }

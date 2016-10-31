@@ -420,6 +420,8 @@ implements org.j8unit.repository.java.lang.reflect.ModifierClassTests<Modifier> 
         // write some test for {@link java.lang.reflect.Modifier#isVolatile(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Modifier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Modifier]
 
 }

@@ -141,6 +141,8 @@ implements org.j8unit.repository.java.time.ZoneOffsetClassTests<ZoneOffset> {
         // write some test for {@link java.time.ZoneOffset#ofHours(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.ZoneOffset]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.ZoneOffset]
 
 }

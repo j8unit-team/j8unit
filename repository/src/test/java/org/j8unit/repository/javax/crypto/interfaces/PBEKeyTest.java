@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.crypto.interfaces.PBEKeyTests<PBEKey> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.crypto.interfaces.PBEKey], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.interfaces.PBEKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.interfaces.PBEKey]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.interfaces.PBEKey]
 
 }

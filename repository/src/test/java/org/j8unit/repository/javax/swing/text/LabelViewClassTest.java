@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.LabelViewClassTests<LabelView>
         final LabelView sut = null; // = new LabelView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.LabelView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LabelView]
 
 }

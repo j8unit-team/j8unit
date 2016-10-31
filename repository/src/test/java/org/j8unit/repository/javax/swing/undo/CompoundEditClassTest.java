@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.undo.CompoundEditClassTests<Compoun
         final CompoundEdit sut = new CompoundEdit();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.CompoundEdit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.CompoundEdit]
 
 }

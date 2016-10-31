@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIIIOPServerImplCl
         final RMIIIOPServerImpl sut = null; // = new RMIIIOPServerImpl(java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIIIOPServerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIIIOPServerImpl]
 
 }

@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests<FREE_MEM> {
         final FREE_MEM sut = new FREE_MEM();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.FREE_MEM]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.FREE_MEM]
 
 }

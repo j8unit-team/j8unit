@@ -99,6 +99,7 @@ extends org.j8unit.repository.java.lang.CharSequenceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.Name]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.Name]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.Name]
 }

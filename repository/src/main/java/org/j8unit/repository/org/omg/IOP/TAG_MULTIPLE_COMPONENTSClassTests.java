@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TAG_MULTIPLE_COMPONENTS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_MULTIPLE_COMPONENTS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_MULTIPLE_COMPONENTS]
 
 }

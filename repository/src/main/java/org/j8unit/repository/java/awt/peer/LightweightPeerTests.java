@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.peer.LightweightPeer]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.LightweightPeer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.peer.LightweightPeer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.LightweightPeer]
 }

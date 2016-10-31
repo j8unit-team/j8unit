@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterH
         // write some test for {@link org.omg.PortableServer.POAPackage.WrongAdapterHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongAdapterHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongAdapterHelper]
 
 }

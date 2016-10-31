@@ -68,6 +68,8 @@ implements org.j8unit.repository.java.awt.font.LineBreakMeasurerClassTests<LineB
                                             // java.text.BreakIterator, java.awt.font.FontRenderContext);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.LineBreakMeasurer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.LineBreakMeasurer]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterClass
                    CollapsedStringAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.adapters.CollapsedStringAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.adapters.CollapsedStringAdapter]
 
 }

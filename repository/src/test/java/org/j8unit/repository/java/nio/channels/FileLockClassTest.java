@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.FileLockClassTests<FileLock> 
         return FileLock.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileLock]
 
 }

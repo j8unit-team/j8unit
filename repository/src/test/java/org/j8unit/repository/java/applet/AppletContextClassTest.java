@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.applet.AppletContextClassTests<AppletConte
         return AppletContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.AppletContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.AppletContext]
 
 }

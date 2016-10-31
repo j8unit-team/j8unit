@@ -205,6 +205,8 @@ implements org.j8unit.repository.java.beans.IntrospectorClassTests<Introspector>
         // write some test for {@link java.beans.Introspector#flushCaches()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Introspector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Introspector]
 
 }

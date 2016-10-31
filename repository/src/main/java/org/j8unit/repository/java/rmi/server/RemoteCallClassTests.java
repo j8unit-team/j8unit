@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RemoteCall.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RemoteCall]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteCall]
 
 }

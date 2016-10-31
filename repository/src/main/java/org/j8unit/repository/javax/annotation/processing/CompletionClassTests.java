@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Completion.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Completion]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Completion]
 
 }

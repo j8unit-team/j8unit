@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerHandlerClassTests<Un
         return UnmarshallerHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.UnmarshallerHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.UnmarshallerHandler]
 
 }

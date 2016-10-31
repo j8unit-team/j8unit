@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DateTimeSyntax.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.DateTimeSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.DateTimeSyntax]
 
 }

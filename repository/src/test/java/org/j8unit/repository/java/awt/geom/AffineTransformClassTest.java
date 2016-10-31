@@ -156,27 +156,6 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double, double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double,double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getRotateInstance_double_double_double_double()
-    throws Exception {
-        // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double, double)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.AffineTransform#getRotateInstance(double, double) public static
      * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double)}.
      *
@@ -214,6 +193,27 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     public void test_getRotateInstance_double()
     throws Exception {
         // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double, double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getRotateInstance_double_double_double_double()
+    throws Exception {
+        // write some test for {@link java.awt.geom.AffineTransform#getRotateInstance(double, double, double, double)}
     }
 
     /**
@@ -341,6 +341,8 @@ implements org.j8unit.repository.java.awt.geom.AffineTransformClassTests<AffineT
     throws Exception {
         // write some test for {@link java.awt.geom.AffineTransform#getTranslateInstance(double, double)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.AffineTransform]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.AffineTransform]
 

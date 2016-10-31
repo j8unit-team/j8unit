@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.logging.HandlerClassTests<SUT> {
                    StreamHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.StreamHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.StreamHandler]
 
 }

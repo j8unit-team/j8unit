@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                    JSlider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JSlider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JSlider]
 
 }

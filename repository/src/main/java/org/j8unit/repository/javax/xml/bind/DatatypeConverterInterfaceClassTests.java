@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DatatypeConverterInterface.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.DatatypeConverterInterface]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.DatatypeConverterInterface]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventClassTests<SUT> {
                    DropTargetDropEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DropTargetDropEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetDropEvent]
 
 }

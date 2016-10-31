@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.MessagerClassTests<
         return Messager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Messager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Messager]
 
 }

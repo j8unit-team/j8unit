@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationTests<Co
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.security.auth.login.Configuration], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.Configuration]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.Configuration]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.Configuration]
 
     @RunWith(J8Unit4.class)
     public static class ParametersTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationTests<Co
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.security.auth.login.Configuration.Parameters], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.Configuration$Parameters]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.Configuration$Parameters]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.Configuration$Parameters]
 
     }
 

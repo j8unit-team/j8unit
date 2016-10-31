@@ -68,6 +68,8 @@ org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT> {
                    TransformerHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
 
 }

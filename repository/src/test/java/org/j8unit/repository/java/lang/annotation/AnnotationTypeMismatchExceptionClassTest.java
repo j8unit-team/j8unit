@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationTypeMismatchExce
                                                           // String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.AnnotationTypeMismatchException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.AnnotationTypeMismatchException]
 
 }

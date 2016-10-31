@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.xml.ws.ServiceTests<Service> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.ws.Service], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Service]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Service]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Service]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.javax.xml.ws.ServiceTests<Service> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Service$Mode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Service$Mode]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Service$Mode]
 
     }
 

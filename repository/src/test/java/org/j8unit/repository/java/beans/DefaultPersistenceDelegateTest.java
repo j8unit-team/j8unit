@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultPersistenceDelegate>, org.j8unit.reposi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
 
 }

@@ -92,6 +92,8 @@ implements org.j8unit.repository.java.awt.event.MouseWheelEventClassTests<MouseW
                                           // boolean, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.MouseWheelEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.MouseWheelEvent]
 
 }

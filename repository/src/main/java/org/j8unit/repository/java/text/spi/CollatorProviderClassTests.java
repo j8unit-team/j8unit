@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT>
                    CollatorProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.CollatorProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.CollatorProvider]
 
 }

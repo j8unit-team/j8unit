@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests<BAD_INV_O
         final BAD_INV_ORDER sut = new BAD_INV_ORDER();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_INV_ORDER]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_INV_ORDER]
 
 }

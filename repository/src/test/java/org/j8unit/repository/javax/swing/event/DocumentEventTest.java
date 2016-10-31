@@ -24,7 +24,9 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.DocumentEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -48,7 +50,9 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
 
     }
 
@@ -63,7 +67,9 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.DocumentEvent.ElementChange], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
 
     }
 

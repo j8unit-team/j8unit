@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.SafeVarargsClassTests<SafeVarargs> {
         return SafeVarargs.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.SafeVarargs]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.SafeVarargs]
 
 }

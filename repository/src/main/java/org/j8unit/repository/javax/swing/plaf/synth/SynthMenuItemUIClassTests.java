@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<SUT> {
                    SynthMenuItemUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthMenuItemUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthMenuItemUI]
 
 }

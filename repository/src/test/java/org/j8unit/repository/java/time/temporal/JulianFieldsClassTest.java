@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.temporal.JulianFieldsClassTests<Julia
         return JulianFields.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.JulianFields]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.JulianFields]
 
 }

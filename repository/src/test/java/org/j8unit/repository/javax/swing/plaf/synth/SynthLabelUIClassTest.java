@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthLabelUIClassTests<S
         // write some test for {@link javax.swing.plaf.synth.SynthLabelUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthLabelUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthLabelUI]
 
 }

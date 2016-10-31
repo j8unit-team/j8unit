@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.UnrecoverableEntryExceptionClassT
         final UnrecoverableEntryException sut = null; // = new UnrecoverableEntryException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.UnrecoverableEntryException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.UnrecoverableEntryException]
 
 }

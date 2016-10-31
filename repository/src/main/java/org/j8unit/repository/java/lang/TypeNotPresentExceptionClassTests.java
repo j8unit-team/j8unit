@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    TypeNotPresentException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.TypeNotPresentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.TypeNotPresentException]
 
 }

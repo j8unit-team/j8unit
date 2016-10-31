@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
         // write some test for {@link javax.swing.plaf.metal.MetalTabbedPaneUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
 
     @RunWith(J8Unit4.class)
@@ -98,6 +100,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
             @SuppressWarnings("unused")
             final TabbedPaneLayout sut = null; // = new TabbedPaneLayout(javax.swing.plaf.metal.MetalTabbedPaneUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout]
 

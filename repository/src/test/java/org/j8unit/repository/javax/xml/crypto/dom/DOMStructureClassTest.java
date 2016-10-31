@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.xml.crypto.dom.DOMStructureClassTests<DOM
         final DOMStructure sut = null; // = new DOMStructure(org.w3c.dom.Node);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dom.DOMStructure]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dom.DOMStructure]
 
 }

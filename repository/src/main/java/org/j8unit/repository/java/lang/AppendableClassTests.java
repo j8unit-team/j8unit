@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
                    Appendable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Appendable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Appendable]
 
 }

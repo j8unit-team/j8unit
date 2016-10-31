@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
                    MultiTreeUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiTreeUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiTreeUI]
 
 }

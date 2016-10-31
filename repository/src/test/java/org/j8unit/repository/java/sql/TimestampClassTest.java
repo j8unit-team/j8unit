@@ -124,6 +124,8 @@ implements org.j8unit.repository.java.sql.TimestampClassTests<Timestamp> {
         // write some test for {@link java.sql.Timestamp#from(java.time.Instant)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Timestamp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Timestamp]
 
 }

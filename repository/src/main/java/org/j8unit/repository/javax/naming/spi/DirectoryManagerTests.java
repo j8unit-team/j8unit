@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.spi.DirectoryManager]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirectoryManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.spi.DirectoryManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirectoryManager]
 }

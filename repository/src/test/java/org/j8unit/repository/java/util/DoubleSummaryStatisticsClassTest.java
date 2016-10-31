@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.DoubleSummaryStatisticsClassTests<Dou
         final DoubleSummaryStatistics sut = new DoubleSummaryStatistics();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.DoubleSummaryStatistics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.DoubleSummaryStatistics]
 
 }

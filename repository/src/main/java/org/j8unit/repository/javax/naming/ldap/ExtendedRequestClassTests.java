@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
                    ExtendedRequest.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.ExtendedRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.ExtendedRequest]
 
 }

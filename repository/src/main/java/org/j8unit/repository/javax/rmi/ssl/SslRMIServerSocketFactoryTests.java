@@ -172,6 +172,7 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.ssl.SslRMIServerSocketFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.ssl.SslRMIServerSocketFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.ssl.SslRMIServerSocketFactory]
 }

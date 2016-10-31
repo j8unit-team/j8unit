@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.CheckboxGroupClassTests<CheckboxGroup>
         final CheckboxGroup sut = new CheckboxGroup();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.CheckboxGroup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.CheckboxGroup]
 
 }

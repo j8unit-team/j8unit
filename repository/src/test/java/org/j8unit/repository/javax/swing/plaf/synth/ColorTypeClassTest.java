@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.ColorTypeClassTests<Colo
         return ColorType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.ColorType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.ColorType]
 
 }

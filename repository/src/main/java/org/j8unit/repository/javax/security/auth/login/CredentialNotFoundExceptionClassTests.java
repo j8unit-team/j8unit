@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.security.auth.login.CredentialExceptionClass
                    CredentialNotFoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.CredentialNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.CredentialNotFoundException]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    ConnectException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.ConnectException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.ConnectException]
 
 }

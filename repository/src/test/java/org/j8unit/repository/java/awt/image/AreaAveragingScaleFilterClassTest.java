@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.AreaAveragingScaleFilterClassTes
         final AreaAveragingScaleFilter sut = null; // = new AreaAveragingScaleFilter(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.AreaAveragingScaleFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.AreaAveragingScaleFilter]
 
 }

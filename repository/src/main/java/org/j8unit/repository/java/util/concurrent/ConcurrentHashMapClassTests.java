@@ -70,6 +70,8 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
                    ConcurrentHashMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
 
     /**
@@ -133,6 +135,8 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeySetView.class!",
                               KeySetView.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 

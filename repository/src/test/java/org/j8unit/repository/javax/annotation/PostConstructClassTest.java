@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.PostConstructClassTests<PostCo
         return PostConstruct.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.PostConstruct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.PostConstruct]
 
 }

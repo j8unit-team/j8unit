@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<Datat
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.datatype.DatatypeConstants], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
 
     @RunWith(J8Unit4.class)
     public static class FieldTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<Datat
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.datatype.DatatypeConstants.Field], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
 
     }
 

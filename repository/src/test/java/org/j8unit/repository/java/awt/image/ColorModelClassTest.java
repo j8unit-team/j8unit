@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.awt.image.ColorModelClassTests<ColorModel>
         // write some test for {@link java.awt.image.ColorModel#getRGBdefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ColorModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ColorModel]
 
 }

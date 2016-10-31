@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    StringJoiner.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.StringJoiner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.StringJoiner]
 
 }

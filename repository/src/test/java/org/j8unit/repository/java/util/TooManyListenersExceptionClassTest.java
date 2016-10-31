@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.TooManyListenersExceptionClassTests<T
         final TooManyListenersException sut = null; // = new TooManyListenersException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.TooManyListenersException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TooManyListenersException]
 
 }

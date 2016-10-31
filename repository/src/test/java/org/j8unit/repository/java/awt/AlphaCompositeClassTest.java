@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.awt.AlphaCompositeClassTests<AlphaComposit
         // write some test for {@link java.awt.AlphaComposite#getInstance(int, float)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AlphaComposite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AlphaComposite]
 
 }

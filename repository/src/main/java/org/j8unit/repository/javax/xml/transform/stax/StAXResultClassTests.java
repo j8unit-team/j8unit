@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8u
                    StAXResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.stax.StAXResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stax.StAXResult]
 
 }

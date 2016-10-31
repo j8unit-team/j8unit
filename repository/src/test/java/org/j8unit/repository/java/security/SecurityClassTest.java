@@ -184,27 +184,6 @@ implements org.j8unit.repository.java.security.SecurityClassTests<Security> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.Security#getProviders(java.util.Map)
-     * public static java.security.Provider[] java.security.Security.getProviders(java.util.Map<java.lang.String,
-     * java.lang.String>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getProviders_Map()
-    throws Exception {
-        // write some test for {@link java.security.Security#getProviders(java.util.Map)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.security.Security#getProviders(String) public
      * static java.security.Provider[] java.security.Security.getProviders(java.lang.String)}.
      *
@@ -242,6 +221,29 @@ implements org.j8unit.repository.java.security.SecurityClassTests<Security> {
     throws Exception {
         // write some test for {@link java.security.Security#getProviders()}
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.Security#getProviders(java.util.Map)
+     * public static java.security.Provider[] java.security.Security.getProviders(java.util.Map<java.lang.String,
+     * java.lang.String>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getProviders_Map()
+    throws Exception {
+        // write some test for {@link java.security.Security#getProviders(java.util.Map)}
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Security]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Security]
 

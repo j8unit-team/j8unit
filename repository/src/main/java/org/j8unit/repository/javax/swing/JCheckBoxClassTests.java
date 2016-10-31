@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JToggleButtonClassTests<SUT> {
                    JCheckBox.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JCheckBox]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JCheckBox]
 
 }

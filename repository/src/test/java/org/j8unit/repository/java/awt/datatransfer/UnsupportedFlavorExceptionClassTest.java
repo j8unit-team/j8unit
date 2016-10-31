@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.awt.datatransfer.UnsupportedFlavorExceptio
                                                      // UnsupportedFlavorException(java.awt.datatransfer.DataFlavor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.UnsupportedFlavorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.UnsupportedFlavorException]
 
 }

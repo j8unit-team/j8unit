@@ -79,6 +79,8 @@ implements org.j8unit.repository.javax.tools.StandardLocationClassTests<Standard
         // write some test for {@link javax.tools.StandardLocation#locationFor(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.StandardLocation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.StandardLocation]
 
 }

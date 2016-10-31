@@ -440,6 +440,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         org.j8unit.repository.java.time.chrono.ChronoLocalDateTests.super.test_toString();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.MinguoDate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.MinguoDate]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.MinguoDate]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TransactionServiceClassTests<Transa
         return TransactionService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TransactionService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TransactionService]
 
 }

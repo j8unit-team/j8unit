@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.beans.StatementClassTests<Statement> {
         final Statement sut = null; // = new Statement(Object, String, Object[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Statement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Statement]
 
 }

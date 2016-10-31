@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SecurityManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.SecurityManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.SecurityManager]
 
 }

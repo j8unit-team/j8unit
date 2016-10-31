@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.security.DigestInputStreamClassTests<Diges
                                             // java.security.MessageDigest);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.DigestInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DigestInputStream]
 
 }

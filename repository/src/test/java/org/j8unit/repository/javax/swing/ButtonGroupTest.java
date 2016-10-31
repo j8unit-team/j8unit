@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ButtonGroup>, org.j8unit.repository.javax.swin
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ButtonGroup]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ButtonGroup]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ButtonGroup]
 
 }

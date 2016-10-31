@@ -67,6 +67,8 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to POA.class!", POA.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POA]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POA]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGQTableClassTests
         final JPEGQTable sut = null; // = new JPEGQTable(int[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGQTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGQTable]
 
 }

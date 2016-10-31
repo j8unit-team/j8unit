@@ -32,6 +32,8 @@ org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueTests<PriorityBl
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.PriorityBlockingQueue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.PriorityBlockingQueue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.PriorityBlockingQueue]
 
 }

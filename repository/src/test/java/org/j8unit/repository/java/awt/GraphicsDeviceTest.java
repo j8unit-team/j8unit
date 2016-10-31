@@ -23,7 +23,9 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceTests<GraphicsDevice> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.awt.GraphicsDevice], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GraphicsDevice]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GraphicsDevice]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GraphicsDevice]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceTests<GraphicsDevice> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GraphicsDevice$WindowTranslucency]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GraphicsDevice$WindowTranslucency]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GraphicsDevice$WindowTranslucency]
 
     }
 

@@ -732,8 +732,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -784,8 +785,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
     }
 
     /**
@@ -838,8 +840,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
     }
 
     /**
@@ -892,8 +895,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
     }
 
     /**
@@ -947,8 +951,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
     }
 
 }

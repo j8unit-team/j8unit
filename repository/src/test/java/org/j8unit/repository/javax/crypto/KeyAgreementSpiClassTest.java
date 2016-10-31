@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.crypto.KeyAgreementSpiClassTests<KeyAgree
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.KeyAgreementSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.KeyAgreementSpi]
 
 }

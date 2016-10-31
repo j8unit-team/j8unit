@@ -32,6 +32,8 @@ org.j8unit.repository.javax.naming.directory.InvalidSearchFilterExceptionTests<I
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InvalidSearchFilterException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.InvalidSearchFilterException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.InvalidSearchFilterException]
 
 }

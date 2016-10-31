@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    NoninvertibleTransformException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.NoninvertibleTransformException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.NoninvertibleTransformException]
 
 }

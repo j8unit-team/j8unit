@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.security.CryptoPrimitiveClassTests<CryptoP
         // write some test for {@link java.security.CryptoPrimitive#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.CryptoPrimitive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.CryptoPrimitive]
 
 }

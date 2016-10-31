@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.PortableRemoteObjectDelegateCla
         return PortableRemoteObjectDelegate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.PortableRemoteObjectDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.PortableRemoteObjectDelegate]
 
 }

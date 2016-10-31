@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.NotIdentifiableEventClassTests<N
         return NotIdentifiableEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.NotIdentifiableEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.NotIdentifiableEvent]
 
 }

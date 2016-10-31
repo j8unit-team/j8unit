@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLSocketFactoryClassTests<SSLSoc
         // write some test for {@link javax.net.ssl.SSLSocketFactory#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSocketFactory]
 
 }

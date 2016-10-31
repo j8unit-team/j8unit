@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BatchUpdateException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.BatchUpdateException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.BatchUpdateException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.BatchUpdateException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ScriptContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptContext]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    KeyboardFocusManagerPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.KeyboardFocusManagerPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.KeyboardFocusManagerPeer]
 
 }

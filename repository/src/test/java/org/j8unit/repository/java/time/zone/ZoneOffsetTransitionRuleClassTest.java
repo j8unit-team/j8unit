@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
         // java.time.ZoneOffset, java.time.ZoneOffset, java.time.ZoneOffset)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
 
     @RunWith(J8Unit4.class)
@@ -100,6 +102,8 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
         throws Exception {
             // write some test for {@link java.time.zone.ZoneOffsetTransitionRule.TimeDefinition#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 

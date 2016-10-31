@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor6Class
                    SimpleElementVisitor6.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.SimpleElementVisitor6]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.SimpleElementVisitor6]
 
 }

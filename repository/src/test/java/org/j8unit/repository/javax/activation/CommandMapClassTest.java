@@ -81,6 +81,8 @@ implements org.j8unit.repository.javax.activation.CommandMapClassTests<CommandMa
         // write some test for {@link javax.activation.CommandMap#setDefaultCommandMap(javax.activation.CommandMap)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.CommandMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.CommandMap]
 
 }

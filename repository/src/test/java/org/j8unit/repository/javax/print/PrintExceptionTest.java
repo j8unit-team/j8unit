@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PrintException>, org.j8unit.repository.javax.p
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.PrintException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.PrintException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.PrintException]
 
 }

@@ -20,20 +20,24 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetTests<AttributeSet
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet]
 
     @RunWith(J8Unit4.class)
-    public static class CharacterAttributeTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests<CharacterAttribute> {
+    public static class ColorAttributeTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests<ColorAttribute> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
 
         @Override
-        public CharacterAttribute createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.CharacterAttribute], j8unit does not support a generic way to provide instances.");
+        public ColorAttribute createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.ColorAttribute], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
 
     }
 
@@ -48,7 +52,26 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetTests<AttributeSet
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.FontAttribute], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$FontAttribute]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class CharacterAttributeTest
+    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests<CharacterAttribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        @Override
+        public CharacterAttribute createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.CharacterAttribute], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
     }
 
@@ -63,22 +86,9 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetTests<AttributeSet
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.ParagraphAttribute], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ParagraphAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AttributeSet$ParagraphAttribute]
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ColorAttributeTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests<ColorAttribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        @Override
-        public ColorAttribute createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.AttributeSet.ColorAttribute], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AttributeSet$ColorAttribute]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AttributeSet$ParagraphAttribute]
 
     }
 

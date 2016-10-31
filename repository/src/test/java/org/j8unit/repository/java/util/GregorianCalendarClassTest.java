@@ -199,6 +199,8 @@ implements org.j8unit.repository.java.util.GregorianCalendarClassTests<Gregorian
         // write some test for {@link java.util.GregorianCalendar#from(java.time.ZonedDateTime)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.GregorianCalendar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.GregorianCalendar]
 
 }

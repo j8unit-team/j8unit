@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.NotificationFilter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationFilter]
 }

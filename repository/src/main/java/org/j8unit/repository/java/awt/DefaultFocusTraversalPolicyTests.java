@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyTests<S
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
 }

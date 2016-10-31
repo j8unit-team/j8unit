@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceCla
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.AbstractExecutorService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.AbstractExecutorService]
 
 }

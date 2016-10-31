@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.ScrollableClassTests<Scrollable> {
         return Scrollable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Scrollable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Scrollable]
 
 }

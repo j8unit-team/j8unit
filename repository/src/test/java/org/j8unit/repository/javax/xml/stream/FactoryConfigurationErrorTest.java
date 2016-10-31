@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<FactoryConfigurationError>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.FactoryConfigurationError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.FactoryConfigurationError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.FactoryConfigurationError]
 
 }

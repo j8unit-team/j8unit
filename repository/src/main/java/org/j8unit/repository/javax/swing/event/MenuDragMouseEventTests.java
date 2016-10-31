@@ -77,6 +77,7 @@ extends org.j8unit.repository.java.awt.event.MouseEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.MenuDragMouseEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.MenuDragMouseEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.MenuDragMouseEvent]
 }

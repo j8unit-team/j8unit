@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.net.CookieHandlerClassTests<CookieHandler>
         // write some test for {@link java.net.CookieHandler#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CookieHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieHandler]
 
 }

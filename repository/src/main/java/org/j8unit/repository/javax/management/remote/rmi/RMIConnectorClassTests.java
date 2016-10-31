@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.remote.JMXAddressableClassTests<SUT>, org
                    RMIConnector.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnector]
 
 }

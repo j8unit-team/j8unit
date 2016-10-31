@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.reflect.MalformedParametersExceptionC
         final MalformedParametersException sut = null; // = new MalformedParametersException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.MalformedParametersException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.MalformedParametersException]
 
 }

@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.text.FieldPositionClassTests<FieldPosition
         final FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.FieldPosition]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.FieldPosition]
 
 }

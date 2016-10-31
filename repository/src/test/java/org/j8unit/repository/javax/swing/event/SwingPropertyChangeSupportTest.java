@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportTes
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.event.SwingPropertyChangeSupport], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.SwingPropertyChangeSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.SwingPropertyChangeSupport]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.SwingPropertyChangeSupport]
 
 }

@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.security.CryptoPrimitiveTests<CryptoPrimit
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.CryptoPrimitive]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.CryptoPrimitive]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.CryptoPrimitive]
 
 }

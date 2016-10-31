@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.DescriptorClassTests<Descripto
         return Descriptor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.Descriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.Descriptor]
 
 }

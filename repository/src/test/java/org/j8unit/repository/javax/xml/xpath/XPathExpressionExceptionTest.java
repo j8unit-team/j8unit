@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExpressionExceptionTests<X
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.xpath.XPathExpressionException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.xpath.XPathExpressionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.xpath.XPathExpressionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.xpath.XPathExpressionException]
 
 }

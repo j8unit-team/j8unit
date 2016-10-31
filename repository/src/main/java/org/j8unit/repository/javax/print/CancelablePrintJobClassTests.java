@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.DocPrintJobClassTests<SUT> {
                    CancelablePrintJob.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.CancelablePrintJob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.CancelablePrintJob]
 
 }

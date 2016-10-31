@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceTests<PSource> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.crypto.spec.PSource], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.PSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.spec.PSource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.PSource]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceTests<PSource> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.PSource$PSpecified]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.spec.PSource$PSpecified]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.PSource$PSpecified]
 
     }
 

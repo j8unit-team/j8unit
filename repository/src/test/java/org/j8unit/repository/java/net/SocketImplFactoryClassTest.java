@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.SocketImplFactoryClassTests<SocketImpl
         return SocketImplFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketImplFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketImplFactory]
 
 }

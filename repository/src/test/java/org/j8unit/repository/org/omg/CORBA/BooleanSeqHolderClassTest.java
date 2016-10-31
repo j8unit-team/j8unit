@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.BooleanSeqHolderClassTests<Boolea
         final BooleanSeqHolder sut = new BooleanSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BooleanSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BooleanSeqHolder]
 
 }

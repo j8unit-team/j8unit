@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.tools.JavaCompilerClassTests<JavaCompiler
         return JavaCompiler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaCompiler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaCompiler]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.tools.JavaCompilerClassTests<JavaCompiler
         public Class<CompilationTask> createNewSUT() {
             return CompilationTask.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaCompiler$CompilationTask]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaCompiler$CompilationTask]
 

@@ -68,6 +68,8 @@ org.j8unit.repository.java.beans.DesignModeClassTests<SUT>, org.j8unit.repositor
                    BeanContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContext]
 
 }

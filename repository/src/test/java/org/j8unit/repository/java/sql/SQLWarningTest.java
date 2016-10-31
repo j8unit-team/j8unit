@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLWarning>, org.j8unit.repository.java.sql.SQ
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLWarning]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLWarning]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLWarning]
 
 }

@@ -840,6 +840,7 @@ extends org.j8unit.repository.java.util.prefs.PreferencesTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.prefs.AbstractPreferences]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.prefs.AbstractPreferences]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.prefs.AbstractPreferences]
 }

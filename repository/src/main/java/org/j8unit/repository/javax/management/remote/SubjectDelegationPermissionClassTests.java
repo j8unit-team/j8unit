@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
                    SubjectDelegationPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.SubjectDelegationPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.SubjectDelegationPermission]
 
 }

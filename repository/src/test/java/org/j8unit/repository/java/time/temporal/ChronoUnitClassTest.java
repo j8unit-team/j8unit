@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.time.temporal.ChronoUnitClassTests<ChronoU
         // write some test for {@link java.time.temporal.ChronoUnit#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.ChronoUnit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.ChronoUnit]
 
 }

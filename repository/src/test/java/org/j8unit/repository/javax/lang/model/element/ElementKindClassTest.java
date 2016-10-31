@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.lang.model.element.ElementKindClassTests<
         // write some test for {@link javax.lang.model.element.ElementKind#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.ElementKind]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.ElementKind]
 
 }

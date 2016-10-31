@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.RelationTypeNotFoundE
         final RelationTypeNotFoundException sut = null; // = new RelationTypeNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationTypeNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationTypeNotFoundException]
 
 }

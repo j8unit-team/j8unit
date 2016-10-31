@@ -70,6 +70,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                    JPopupMenu.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JPopupMenu]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPopupMenu]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Separator.class!",
                               Separator.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JPopupMenu$Separator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPopupMenu$Separator]
 

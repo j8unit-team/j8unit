@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultFocusManager>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultFocusManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultFocusManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultFocusManager]
 
 }

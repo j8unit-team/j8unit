@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.RelationExceptionClas
         final RelationException sut = null; // = new RelationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationException]
 
 }

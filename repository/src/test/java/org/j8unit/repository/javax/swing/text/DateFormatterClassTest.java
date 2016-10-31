@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.text.DateFormatterClassTests<DateFo
         final DateFormatter sut = new DateFormatter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DateFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DateFormatter]
 
 }

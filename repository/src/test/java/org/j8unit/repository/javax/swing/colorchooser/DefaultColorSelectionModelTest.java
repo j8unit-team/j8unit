@@ -32,6 +32,8 @@ org.j8unit.repository.javax.swing.colorchooser.DefaultColorSelectionModelTests<D
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.colorchooser.DefaultColorSelectionModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.colorchooser.DefaultColorSelectionModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.colorchooser.DefaultColorSelectionModel]
 
 }

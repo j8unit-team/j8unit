@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.ListClassTests<List> {
         return List.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.List]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.List]
 
 }

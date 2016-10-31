@@ -79,6 +79,7 @@ extends org.j8unit.repository.javax.management.relation.RelationTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationSupportMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationSupportMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationSupportMBean]
 }

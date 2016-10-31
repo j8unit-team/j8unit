@@ -173,6 +173,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperCl
         // org.omg.IOP.CodecPackage.FormatMismatch)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatchHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatchHelper]
 
 }

@@ -89,6 +89,8 @@ implements org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExcepti
                                                             // Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.InvalidPreferencesFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.InvalidPreferencesFormatException]
 
 }

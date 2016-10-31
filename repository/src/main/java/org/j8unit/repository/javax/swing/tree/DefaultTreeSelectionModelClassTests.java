@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.tree.TreeSelectionModelClassTests<SUT>, org.j8
                    DefaultTreeSelectionModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.DefaultTreeSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeSelectionModel]
 
 }

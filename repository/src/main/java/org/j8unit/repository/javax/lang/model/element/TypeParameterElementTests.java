@@ -102,6 +102,7 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.TypeParameterElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.TypeParameterElement]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.TypeParameterElement]
 }

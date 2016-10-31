@@ -1041,6 +1041,7 @@ org.j8unit.repository.javax.management.NotificationListenerTests<SUT>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationService]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationService]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationService]
 }

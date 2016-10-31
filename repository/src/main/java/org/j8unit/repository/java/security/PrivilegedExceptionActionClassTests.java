@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PrivilegedExceptionAction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.PrivilegedExceptionAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.PrivilegedExceptionAction]
 
 }

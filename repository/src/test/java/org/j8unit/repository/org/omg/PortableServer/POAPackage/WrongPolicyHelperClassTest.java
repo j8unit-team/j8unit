@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongPolicyHe
         // org.omg.PortableServer.POAPackage.WrongPolicy)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongPolicyHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongPolicyHelper]
 
 }

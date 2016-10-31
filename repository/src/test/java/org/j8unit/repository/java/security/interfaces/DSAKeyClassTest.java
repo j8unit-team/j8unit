@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.DSAKeyClassTests<DSAKe
         return DSAKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.DSAKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.DSAKey]
 
 }

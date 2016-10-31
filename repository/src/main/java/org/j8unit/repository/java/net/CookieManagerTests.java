@@ -127,6 +127,7 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CookieManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.CookieManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CookieManager]
 }

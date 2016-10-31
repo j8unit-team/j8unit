@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.OperationNotSupportedExceptionClas
         final OperationNotSupportedException sut = null; // = new OperationNotSupportedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.OperationNotSupportedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.OperationNotSupportedException]
 
 }

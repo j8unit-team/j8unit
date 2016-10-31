@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
                    JavaFileObject.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileObject]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Kind.class!",
                               Kind.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileObject$Kind]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileObject$Kind]
 

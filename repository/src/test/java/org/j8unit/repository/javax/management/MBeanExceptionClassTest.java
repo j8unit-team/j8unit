@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.MBeanExceptionClassTests<MBean
         final MBeanException sut = null; // = new MBeanException(Exception, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanException]
 
 }

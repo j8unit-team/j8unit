@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicRootPaneUIClassTest
         // write some test for {@link javax.swing.plaf.basic.BasicRootPaneUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicRootPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicRootPaneUI]
 
 }

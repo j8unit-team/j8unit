@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.ServerRefClassTests<ServerRef> 
         return ServerRef.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.ServerRef]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ServerRef]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.crypto.spec.SecretKeySpecClassTests<Secre
         final SecretKeySpec sut = null; // = new SecretKeySpec(byte[], int, int, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.SecretKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.SecretKeySpec]
 
 }

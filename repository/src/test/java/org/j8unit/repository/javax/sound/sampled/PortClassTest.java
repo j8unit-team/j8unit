@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.sound.sampled.PortClassTests<Port> {
         return Port.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Port]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Port]
 
     @RunWith(J8Unit4.class)
@@ -55,6 +57,8 @@ implements org.j8unit.repository.javax.sound.sampled.PortClassTests<Port> {
             @SuppressWarnings("unused")
             final Info sut = null; // = new Info(Class, String, boolean);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Port$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Port$Info]
 

@@ -93,47 +93,9 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
                                                 // javax.swing.text.StyleContext);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument]
-
-    @RunWith(J8Unit4.class)
-    public static class AttributeUndoableEditClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests<AttributeUndoableEdit> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
-
-        @Override
-        public Class<AttributeUndoableEdit> createNewSUT() {
-            return AttributeUndoableEdit.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit#AttributeUndoableEdit(javax.swing.text.Element, javax.swing.text.AttributeSet, boolean)
-         * public
-         * javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit(javax.swing.text.Element,javax.swing.text.AttributeSet,boolean)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_AttributeUndoableEdit_Element_AttributeSet_boolean()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final AttributeUndoableEdit sut = null; // = new AttributeUndoableEdit(javax.swing.text.Element,
-                                                    // javax.swing.text.AttributeSet, boolean);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class ElementSpecClassTest
@@ -216,6 +178,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
             final ElementSpec sut = null; // = new ElementSpec(javax.swing.text.AttributeSet, short, char[], int, int);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
 
     }
@@ -256,7 +220,51 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
                                             // javax.swing.text.Element);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AttributeUndoableEditClassTest
+    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests<AttributeUndoableEdit> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+
+        @Override
+        public Class<AttributeUndoableEdit> createNewSUT() {
+            return AttributeUndoableEdit.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit#AttributeUndoableEdit(javax.swing.text.Element, javax.swing.text.AttributeSet, boolean)
+         * public
+         * javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit(javax.swing.text.Element,javax.swing.text.AttributeSet,boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_AttributeUndoableEdit_Element_AttributeSet_boolean()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final AttributeUndoableEdit sut = null; // = new AttributeUndoableEdit(javax.swing.text.Element,
+                                                    // javax.swing.text.AttributeSet, boolean);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 
     }
 

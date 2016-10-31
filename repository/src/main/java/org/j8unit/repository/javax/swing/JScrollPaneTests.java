@@ -804,6 +804,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JScrollPane]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JScrollPane]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JScrollPane]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.ls.LSProgressEventClassTests<LSProg
         return LSProgressEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ls.LSProgressEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ls.LSProgressEvent]
 
 }

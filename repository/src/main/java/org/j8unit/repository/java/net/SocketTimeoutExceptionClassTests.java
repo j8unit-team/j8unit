@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<SUT> {
                    SocketTimeoutException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketTimeoutException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketTimeoutException]
 
 }

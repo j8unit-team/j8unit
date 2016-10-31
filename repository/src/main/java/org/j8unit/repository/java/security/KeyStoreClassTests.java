@@ -79,6 +79,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyStore.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore]
 
     /**
@@ -141,6 +143,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PrivateKeyEntry.class!",
                               PrivateKeyEntry.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
 
@@ -207,6 +211,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               SecretKeyEntry.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
 
     }
@@ -272,6 +278,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               Builder.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Builder]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Builder]
 
     }
@@ -336,6 +344,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               Entry.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Entry]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Entry]
 
         /**
@@ -397,6 +407,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                 Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Attribute.class!",
                                   Attribute.class.isAssignableFrom(sut));
             }
+
+            // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Entry$Attribute]
 
             // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Entry$Attribute]
 
@@ -465,6 +477,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               TrustedCertificateEntry.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
 
     }
@@ -531,6 +545,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               PasswordProtection.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$PasswordProtection]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$PasswordProtection]
 
     }
@@ -594,6 +610,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LoadStoreParameter.class!",
                               LoadStoreParameter.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$LoadStoreParameter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$LoadStoreParameter]
 
@@ -659,6 +677,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                               ProtectionParameter.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$ProtectionParameter]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$ProtectionParameter]
 
     }
@@ -723,6 +743,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CallbackHandlerProtection.class!",
                               CallbackHandlerProtection.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
 

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.lang.model.type.UnknownTypeExceptionClass
         final UnknownTypeException sut = null; // = new UnknownTypeException(javax.lang.model.type.TypeMirror, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.UnknownTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.UnknownTypeException]
 
 }

@@ -241,6 +241,7 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ForwardingFileObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.ForwardingFileObject]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ForwardingFileObject]
 }

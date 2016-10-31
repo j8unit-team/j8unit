@@ -145,6 +145,7 @@ extends org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JCheckBoxMenuItem]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JCheckBoxMenuItem]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JCheckBoxMenuItem]
 }

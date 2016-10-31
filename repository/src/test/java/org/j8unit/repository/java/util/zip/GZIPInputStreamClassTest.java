@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.zip.GZIPInputStreamClassTests<GZIPInp
         final GZIPInputStream sut = null; // = new GZIPInputStream(java.io.InputStream, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.GZIPInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.GZIPInputStream]
 
 }

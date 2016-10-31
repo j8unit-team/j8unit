@@ -61,6 +61,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.ParserFactoryClassTests<Par
         // write some test for {@link org.xml.sax.helpers.ParserFactory#makeParser()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.ParserFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.ParserFactory]
 
 }

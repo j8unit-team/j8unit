@@ -56,6 +56,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.PlatformManagedObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.PlatformManagedObject]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.PlatformManagedObject]
 }

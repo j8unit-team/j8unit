@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.MenuElementClassTests<MenuElement> 
         return MenuElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.MenuElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.MenuElement]
 
 }

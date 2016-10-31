@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    IsoFields.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.IsoFields]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.IsoFields]
 
 }

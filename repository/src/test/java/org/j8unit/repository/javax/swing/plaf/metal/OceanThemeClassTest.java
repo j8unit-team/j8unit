@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.OceanThemeClassTests<Oce
         final OceanTheme sut = new OceanTheme();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.OceanTheme]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.OceanTheme]
 
 }

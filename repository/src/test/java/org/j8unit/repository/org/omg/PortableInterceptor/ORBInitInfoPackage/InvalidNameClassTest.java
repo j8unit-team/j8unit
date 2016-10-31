@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
         final InvalidName sut = null; // = new InvalidName(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName]
 
 }

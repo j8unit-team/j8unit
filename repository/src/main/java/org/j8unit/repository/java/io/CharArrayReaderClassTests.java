@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
                    CharArrayReader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.CharArrayReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.CharArrayReader]
 
 }

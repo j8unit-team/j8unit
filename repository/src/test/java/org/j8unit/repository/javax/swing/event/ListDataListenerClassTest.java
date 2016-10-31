@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<Li
         return ListDataListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ListDataListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ListDataListener]
 
 }

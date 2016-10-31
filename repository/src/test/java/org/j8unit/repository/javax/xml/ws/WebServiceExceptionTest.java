@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WebServiceException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.WebServiceException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.WebServiceException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServiceException]
 
 }

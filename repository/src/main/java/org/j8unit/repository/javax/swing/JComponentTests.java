@@ -175,6 +175,29 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getBaseline(int, int) public
+     * int javax.swing.JComponent.getBaseline(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getBaseline_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getComponentPopupMenu()
      * public javax.swing.JPopupMenu javax.swing.JComponent.getComponentPopupMenu()}.
      *
@@ -212,29 +235,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getX()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getBaseline(int, int) public
-     * int javax.swing.JComponent.getBaseline(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getBaseline_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -558,28 +558,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#resetKeyboardActions() public
-     * void javax.swing.JComponent.resetKeyboardActions()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_resetKeyboardActions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JComponent#setMaximumSize(java.awt.Dimension) public void
      * javax.swing.JComponent.setMaximumSize(java.awt.Dimension)}.
@@ -596,6 +574,28 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMaximumSize_Dimension()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#resetKeyboardActions() public
+     * void javax.swing.JComponent.resetKeyboardActions()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resetKeyboardActions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1237,6 +1237,28 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getInsets(java.awt.Insets)
+     * public java.awt.Insets javax.swing.JComponent.getInsets(java.awt.Insets)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInsets_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getInsets() public
      * java.awt.Insets javax.swing.JComponent.getInsets()}.
      *
@@ -1260,8 +1282,8 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getInsets(java.awt.Insets)
-     * public java.awt.Insets javax.swing.JComponent.getInsets(java.awt.Insets)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#hide() public void
+     * javax.swing.JComponent.hide()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1271,9 +1293,10 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getInsets_Insets()
+    public default void test_hide()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1297,29 +1320,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isValidateRoot()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#hide() public void
-     * javax.swing.JComponent.hide()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_hide()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1420,28 +1420,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getToolTipText() public
-     * java.lang.String javax.swing.JComponent.getToolTipText()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getToolTipText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JComponent#getToolTipText(java.awt.event.MouseEvent) public java.lang.String
      * javax.swing.JComponent.getToolTipText(java.awt.event.MouseEvent)}.
@@ -1465,6 +1443,28 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getToolTipText() public
+     * java.lang.String javax.swing.JComponent.getToolTipText()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getToolTipText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JComponent#getConditionForKeyStroke(javax.swing.KeyStroke) public int
      * javax.swing.JComponent.getConditionForKeyStroke(javax.swing.KeyStroke)}.
@@ -1480,6 +1480,29 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getConditionForKeyStroke_KeyStroke()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getListeners(Class) public
+     * <T> T[] javax.swing.JComponent.getListeners(java.lang.Class<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1524,29 +1547,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInputMap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JComponent#getListeners(Class) public
-     * <T> T[] javax.swing.JComponent.getListeners(java.lang.Class<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2512,29 +2512,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JComponent#paintImmediately(int, int, int, int) public void
-     * javax.swing.JComponent.paintImmediately(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paintImmediately_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JComponent#paintImmediately(java.awt.Rectangle) public void
      * javax.swing.JComponent.paintImmediately(java.awt.Rectangle)}.
      *
@@ -2549,6 +2526,29 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_paintImmediately_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JComponent#paintImmediately(int, int, int, int) public void
+     * javax.swing.JComponent.paintImmediately(int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintImmediately_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2668,8 +2668,9 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComponent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -2773,30 +2774,6 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.JComponent.AccessibleJComponent#getToolTipText() public java.lang.String
-         * javax.swing.JComponent$AccessibleJComponent.getToolTipText()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getToolTipText()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.JComponent.AccessibleJComponent#getAccessibleKeyBinding() public
          * javax.accessibility.AccessibleKeyBinding
          * javax.swing.JComponent$AccessibleJComponent.getAccessibleKeyBinding()}.
@@ -2813,6 +2790,30 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getAccessibleKeyBinding()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JComponent.AccessibleJComponent#getToolTipText() public java.lang.String
+         * javax.swing.JComponent$AccessibleJComponent.getToolTipText()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getToolTipText()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -2963,8 +2964,9 @@ extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
     }
 
 }

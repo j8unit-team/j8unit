@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.prefs.PreferenceChangeListenerClassTe
         return PreferenceChangeListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.PreferenceChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.PreferenceChangeListener]
 
 }

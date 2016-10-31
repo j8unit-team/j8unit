@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.lang.management.MemoryTypeClassTests<Memor
         // write some test for {@link java.lang.management.MemoryType#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.MemoryType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryType]
 
 }

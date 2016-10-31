@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.crypto.SecretKeyFactorySpiClassTests<Secr
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.SecretKeyFactorySpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SecretKeyFactorySpi]
 
 }

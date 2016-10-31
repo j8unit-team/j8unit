@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Processor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Processor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Processor]
 
 }

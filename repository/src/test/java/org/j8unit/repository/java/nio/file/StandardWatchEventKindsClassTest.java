@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.StandardWatchEventKindsClassTests
         return StandardWatchEventKinds.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.StandardWatchEventKinds]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.StandardWatchEventKinds]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
         return ObjectReferenceTemplate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
 
 }

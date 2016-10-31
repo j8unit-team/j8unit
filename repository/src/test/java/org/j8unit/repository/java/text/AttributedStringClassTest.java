@@ -136,6 +136,8 @@ implements org.j8unit.repository.java.text.AttributedStringClassTests<Attributed
                                            // java.text.AttributedCharacterIterator.Attribute[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.AttributedString]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedString]
 
 }

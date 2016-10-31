@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sound.midi.ReceiverClassTests<SUT> {
                    MidiDeviceReceiver.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiDeviceReceiver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiDeviceReceiver]
 
 }

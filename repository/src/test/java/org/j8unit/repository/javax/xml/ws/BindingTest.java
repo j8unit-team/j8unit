@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.BindingTests<Binding> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.ws.Binding], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Binding]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Binding]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Binding]
 
 }

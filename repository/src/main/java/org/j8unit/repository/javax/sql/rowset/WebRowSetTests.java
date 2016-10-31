@@ -169,6 +169,7 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.WebRowSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.WebRowSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.WebRowSet]
 }

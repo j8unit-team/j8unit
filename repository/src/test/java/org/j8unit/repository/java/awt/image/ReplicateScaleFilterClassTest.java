@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.ReplicateScaleFilterClassTests<R
         final ReplicateScaleFilter sut = null; // = new ReplicateScaleFilter(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ReplicateScaleFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ReplicateScaleFilter]
 
 }

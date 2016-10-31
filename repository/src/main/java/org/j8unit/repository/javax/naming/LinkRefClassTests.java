@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ReferenceClassTests<SUT> {
                    LinkRef.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.LinkRef]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.LinkRef]
 
 }

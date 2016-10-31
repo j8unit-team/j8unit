@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceB
         final W3CEndpointReferenceBuilder sut = new W3CEndpointReferenceBuilder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
 
 }

@@ -104,6 +104,8 @@ implements org.j8unit.repository.java.security.MessageDigestClassTests<MessageDi
         // write some test for {@link java.security.MessageDigest#getInstance(String, java.security.Provider)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.MessageDigest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.MessageDigest]
 
 }

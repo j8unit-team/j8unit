@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInfoOperationsCl
         return IORInfoOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInfoOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInfoOperations]
 
 }

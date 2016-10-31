@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.sql.DriverPropertyInfoClassTests<DriverPro
         final DriverPropertyInfo sut = null; // = new DriverPropertyInfo(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DriverPropertyInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DriverPropertyInfo]
 
 }

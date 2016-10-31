@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests<Nav
         final NavigationFilter sut = new NavigationFilter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.NavigationFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.NavigationFilter]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests<Nav
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.NavigationFilter$FilterBypass]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.NavigationFilter$FilterBypass]
 

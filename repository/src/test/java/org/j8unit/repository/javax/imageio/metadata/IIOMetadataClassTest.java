@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataClassTests<II
         return IIOMetadata.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.metadata.IIOMetadata]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOMetadata]
 
 }

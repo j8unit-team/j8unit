@@ -106,6 +106,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationBroadcaster]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.NotificationBroadcaster]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.NotificationBroadcaster]
 }

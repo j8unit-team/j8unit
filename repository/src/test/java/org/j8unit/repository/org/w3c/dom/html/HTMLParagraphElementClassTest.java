@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLParagraphElementClassTests
         return HTMLParagraphElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLParagraphElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLParagraphElement]
 
 }

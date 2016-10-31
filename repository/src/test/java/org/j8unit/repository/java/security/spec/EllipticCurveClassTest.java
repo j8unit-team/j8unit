@@ -68,6 +68,8 @@ implements org.j8unit.repository.java.security.spec.EllipticCurveClassTests<Elli
                                         // java.math.BigInteger, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.EllipticCurve]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.EllipticCurve]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    Manifest.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Manifest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Manifest]
 
 }

@@ -67,6 +67,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
         final JAXBElement sut = null; // = new JAXBElement(javax.xml.namespace.QName, Class, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBElement]
 
     @RunWith(J8Unit4.class)
@@ -100,6 +102,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
             // create new instance
             final GlobalScope sut = new GlobalScope();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBElement$GlobalScope]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBElement$GlobalScope]
 

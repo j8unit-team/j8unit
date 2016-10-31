@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.server.SkeletonNotFoundExceptionClassT
         final SkeletonNotFoundException sut = null; // = new SkeletonNotFoundException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.SkeletonNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.SkeletonNotFoundException]
 
 }

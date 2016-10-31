@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.DesktopPeerClassTests<DesktopPeer
         return DesktopPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.DesktopPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.DesktopPeer]
 
 }

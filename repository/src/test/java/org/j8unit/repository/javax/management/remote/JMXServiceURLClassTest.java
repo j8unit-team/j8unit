@@ -90,6 +90,8 @@ implements org.j8unit.repository.javax.management.remote.JMXServiceURLClassTests
         final JMXServiceURL sut = null; // = new JMXServiceURL(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXServiceURL]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXServiceURL]
 
 }

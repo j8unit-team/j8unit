@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.SQLTypeClassTests<SQLType> {
         return SQLType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLType]
 
 }

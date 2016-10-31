@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Renderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Renderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Renderer]
 
 }

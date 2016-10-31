@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.ClassCircularityErrorClassTests<Class
         final ClassCircularityError sut = null; // = new ClassCircularityError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassCircularityError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassCircularityError]
 
 }

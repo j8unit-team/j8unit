@@ -382,6 +382,8 @@ implements org.j8unit.repository.java.lang.DoubleClassTests<Double> {
         // write some test for {@link Double#toString(double)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Double]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Double]
 
 }

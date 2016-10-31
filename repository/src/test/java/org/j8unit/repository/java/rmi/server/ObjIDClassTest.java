@@ -82,6 +82,8 @@ implements org.j8unit.repository.java.rmi.server.ObjIDClassTests<ObjID> {
         // write some test for {@link java.rmi.server.ObjID#read(java.io.ObjectInput)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.ObjID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.ObjID]
 
 }

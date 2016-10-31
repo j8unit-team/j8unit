@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<String>, org.j8unit.repository.java.lang.Strin
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.String]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.String]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.String]
 
 }

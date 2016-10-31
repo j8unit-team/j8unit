@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT>
                    CurrencyNameProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.spi.CurrencyNameProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.spi.CurrencyNameProvider]
 
 }

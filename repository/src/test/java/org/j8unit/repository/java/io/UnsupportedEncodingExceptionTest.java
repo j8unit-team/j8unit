@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UnsupportedEncodingException>, org.j8unit.repo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.UnsupportedEncodingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.UnsupportedEncodingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.UnsupportedEncodingException]
 
 }

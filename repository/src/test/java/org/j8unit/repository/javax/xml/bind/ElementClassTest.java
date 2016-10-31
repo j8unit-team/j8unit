@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.ElementClassTests<Element> {
         return Element.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Element]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Element]
 
 }

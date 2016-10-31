@@ -127,6 +127,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerInvocationHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanServerInvocationHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerInvocationHandler]
 }

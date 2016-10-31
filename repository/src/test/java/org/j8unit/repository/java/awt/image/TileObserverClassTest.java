@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.TileObserverClassTests<TileObser
         return TileObserver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.TileObserver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.TileObserver]
 
 }

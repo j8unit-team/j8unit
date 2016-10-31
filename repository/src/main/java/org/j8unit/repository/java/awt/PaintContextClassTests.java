@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PaintContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PaintContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PaintContext]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorClassTests<SUT> 
                    IORInterceptor_3_0.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0]
 
 }

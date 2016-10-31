@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.security.cert.CRLReasonClassTests<CRLReaso
         // write some test for {@link java.security.cert.CRLReason#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CRLReason]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CRLReason]
 
 }

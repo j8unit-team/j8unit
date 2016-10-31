@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ToDoubleFunction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.ToDoubleFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.ToDoubleFunction]
 
 }

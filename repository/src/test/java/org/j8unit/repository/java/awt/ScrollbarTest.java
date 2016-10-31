@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Scrollbar>, org.j8unit.repository.java.awt.Scr
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Scrollbar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Scrollbar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Scrollbar]
 
 }

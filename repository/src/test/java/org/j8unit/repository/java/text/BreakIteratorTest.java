@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.text.BreakIteratorTests<BreakIterator> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.text.BreakIterator], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.BreakIterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.BreakIterator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.BreakIterator]
 
 }

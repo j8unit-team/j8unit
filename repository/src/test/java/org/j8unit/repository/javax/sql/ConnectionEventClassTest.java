@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.sql.ConnectionEventClassTests<ConnectionE
         final ConnectionEvent sut = null; // = new ConnectionEvent(javax.sql.PooledConnection);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.ConnectionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.ConnectionEvent]
 
 }

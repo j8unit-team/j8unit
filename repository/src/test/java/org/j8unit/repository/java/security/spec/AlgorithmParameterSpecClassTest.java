@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassT
         return AlgorithmParameterSpec.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.AlgorithmParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.AlgorithmParameterSpec]
 
 }

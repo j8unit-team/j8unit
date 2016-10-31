@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<DataLine
         return DataLine.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.DataLine]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.DataLine]
 
     @RunWith(J8Unit4.class)
@@ -101,6 +103,8 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineClassTests<DataLine
             @SuppressWarnings("unused")
             final Info sut = null; // = new Info(Class, javax.sound.sampled.AudioFormat, int);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.DataLine$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.DataLine$Info]
 

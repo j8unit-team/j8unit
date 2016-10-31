@@ -80,6 +80,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalProgressBarUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalProgressBarUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalProgressBarUI]
 }

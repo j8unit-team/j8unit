@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.plaf.nimbus.AbstractRegionPainterCl
         return AbstractRegionPainter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
 
 }

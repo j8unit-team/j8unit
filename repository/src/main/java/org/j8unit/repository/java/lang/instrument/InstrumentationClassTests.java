@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Instrumentation.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.instrument.Instrumentation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.instrument.Instrumentation]
 
 }

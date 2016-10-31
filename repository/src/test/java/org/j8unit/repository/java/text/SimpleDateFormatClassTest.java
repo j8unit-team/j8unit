@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.text.SimpleDateFormatClassTests<SimpleDate
         final SimpleDateFormat sut = null; // = new SimpleDateFormat(String, java.text.DateFormatSymbols);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.SimpleDateFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.SimpleDateFormat]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ReentrantLock>, org.j8unit.repository.java.uti
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantLock]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.locks.ReentrantLock]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantLock]
 
 }

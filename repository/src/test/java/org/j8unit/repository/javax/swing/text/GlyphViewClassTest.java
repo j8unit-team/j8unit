@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView>
         final GlyphView sut = null; // = new GlyphView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.GlyphView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.GlyphView]
 
     @RunWith(J8Unit4.class)
@@ -77,6 +79,8 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView>
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.GlyphView$GlyphPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.GlyphView$GlyphPainter]
 

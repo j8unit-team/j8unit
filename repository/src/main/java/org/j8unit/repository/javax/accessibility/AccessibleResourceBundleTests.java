@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.util.ListResourceBundleTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleResourceBundle]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleResourceBundle]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleResourceBundle]
 }

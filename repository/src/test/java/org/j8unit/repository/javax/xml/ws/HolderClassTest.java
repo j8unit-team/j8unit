@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.xml.ws.HolderClassTests<Holder> {
         final Holder sut = null; // = new Holder(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Holder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Holder]
 
 }

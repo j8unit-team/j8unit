@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.NamingExceptionClassTests<NamingEx
         final NamingException sut = new NamingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NamingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NamingException]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.tools.ForwardingJavaFileObjectClassTests<
         return ForwardingJavaFileObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.ForwardingJavaFileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.ForwardingJavaFileObject]
 
 }

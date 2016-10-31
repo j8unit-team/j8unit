@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.StubClassTests<Stub> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.Stub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.Stub]
 
 }

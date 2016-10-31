@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.LookupTableClassTests<LookupTabl
         return LookupTable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.LookupTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.LookupTable]
 
 }

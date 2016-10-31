@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.MethodClassTests<Method> {
         return Method.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Method]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Method]
 
 }

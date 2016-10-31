@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.IteratorClassTests<Iterator> {
         return Iterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Iterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Iterator]
 
 }

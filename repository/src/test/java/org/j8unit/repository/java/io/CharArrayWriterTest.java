@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CharArrayWriter>, org.j8unit.repository.java.i
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.CharArrayWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.CharArrayWriter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.CharArrayWriter]
 
 }

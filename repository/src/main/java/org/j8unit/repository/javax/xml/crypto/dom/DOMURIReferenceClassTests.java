@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.URIReferenceClassTests<SUT> {
                    DOMURIReference.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dom.DOMURIReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dom.DOMURIReference]
 
 }

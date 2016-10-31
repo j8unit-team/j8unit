@@ -67,6 +67,8 @@ implements org.j8unit.repository.java.awt.event.HierarchyEventClassTests<Hierarc
                                          // java.awt.Container, long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.HierarchyEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.HierarchyEvent]
 
 }

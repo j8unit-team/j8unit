@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorResultClass
         return CertPathValidatorResult.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorResult]
 
 }

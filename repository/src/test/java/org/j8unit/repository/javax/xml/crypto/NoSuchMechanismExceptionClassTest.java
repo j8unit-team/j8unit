@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.xml.crypto.NoSuchMechanismExceptionClassT
         final NoSuchMechanismException sut = new NoSuchMechanismException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.NoSuchMechanismException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.NoSuchMechanismException]
 
 }

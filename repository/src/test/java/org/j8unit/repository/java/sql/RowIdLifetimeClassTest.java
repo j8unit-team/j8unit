@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.sql.RowIdLifetimeClassTests<RowIdLifetime>
         // write some test for {@link java.sql.RowIdLifetime#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.RowIdLifetime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.RowIdLifetime]
 
 }

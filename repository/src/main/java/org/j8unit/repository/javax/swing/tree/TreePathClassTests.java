@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    TreePath.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreePath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreePath]
 
 }

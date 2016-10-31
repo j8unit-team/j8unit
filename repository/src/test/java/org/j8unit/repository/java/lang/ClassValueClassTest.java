@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.ClassValueClassTests<ClassValue> {
         return ClassValue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassValue]
 
 }

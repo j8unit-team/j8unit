@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPConstants]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPConstants]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SOAPConstants]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPConstants]
 }

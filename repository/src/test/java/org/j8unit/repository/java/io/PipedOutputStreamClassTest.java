@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.PipedOutputStreamClassTests<PipedOutput
         final PipedOutputStream sut = new PipedOutputStream();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PipedOutputStream]
 
 }

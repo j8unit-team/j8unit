@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.util.logging.LoggingPermissionClassTests<L
         final LoggingPermission sut = null; // = new LoggingPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.LoggingPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LoggingPermission]
 
 }

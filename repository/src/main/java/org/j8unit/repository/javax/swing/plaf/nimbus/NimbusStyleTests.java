@@ -83,6 +83,30 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
+     * javax.swing.Painter
+     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBackgroundPainter_SynthContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.nimbus.NimbusStyle#getInsets(javax.swing.plaf.synth.SynthContext, java.awt.Insets) public
      * java.awt.Insets
      * javax.swing.plaf.nimbus.NimbusStyle.getInsets(javax.swing.plaf.synth.SynthContext,java.awt.Insets)}.
@@ -99,30 +123,6 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInsets_SynthContext_Insets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackgroundPainter_SynthContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,30 +156,6 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getForegroundPainter_SynthContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.nimbus.NimbusStyle#installDefaults(javax.swing.plaf.synth.SynthContext) public void
      * javax.swing.plaf.nimbus.NimbusStyle.installDefaults(javax.swing.plaf.synth.SynthContext)}.
      *
@@ -195,6 +171,30 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_installDefaults_SynthContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
+     * javax.swing.Painter
+     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getForegroundPainter_SynthContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -225,6 +225,7 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.nimbus.NimbusStyle]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.nimbus.NimbusStyle]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.nimbus.NimbusStyle]
 }

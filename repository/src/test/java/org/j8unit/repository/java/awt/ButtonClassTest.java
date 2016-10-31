@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.ButtonClassTests<Button> {
         final Button sut = null; // = new Button(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Button]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Button]
 
 }

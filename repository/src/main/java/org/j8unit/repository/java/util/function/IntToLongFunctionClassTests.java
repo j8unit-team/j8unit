@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    IntToLongFunction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntToLongFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntToLongFunction]
 
 }

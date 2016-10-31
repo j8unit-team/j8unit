@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.NamingEnumerationClassTests<Naming
         return NamingEnumeration.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NamingEnumeration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NamingEnumeration]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.PortableServer._ServantActivatorStubCla
         final _ServantActivatorStub sut = new _ServantActivatorStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer._ServantActivatorStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer._ServantActivatorStub]
 
 }

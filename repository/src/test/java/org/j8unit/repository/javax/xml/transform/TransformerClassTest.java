@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerClassTests<Trans
         return Transformer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.Transformer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.Transformer]
 
 }

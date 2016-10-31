@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.OverlappingFileLockExceptionC
         final OverlappingFileLockException sut = new OverlappingFileLockException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.OverlappingFileLockException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.OverlappingFileLockException]
 
 }

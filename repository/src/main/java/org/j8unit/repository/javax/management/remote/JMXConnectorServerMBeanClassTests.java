@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    JMXConnectorServerMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorServerMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorServerMBean]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.script.ScriptEngineClassTests<SUT>, org.j8un
                    AbstractScriptEngine.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.AbstractScriptEngine]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.AbstractScriptEngine]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IntrospectionException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.IntrospectionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.IntrospectionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.IntrospectionException]
 
 }

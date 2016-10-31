@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTes
         final InvalidActivityException sut = new InvalidActivityException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activity.InvalidActivityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activity.InvalidActivityException]
 
 }

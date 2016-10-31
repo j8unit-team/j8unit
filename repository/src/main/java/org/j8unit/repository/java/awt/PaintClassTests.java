@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Paint.class!", Paint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Paint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Paint]
 
 }

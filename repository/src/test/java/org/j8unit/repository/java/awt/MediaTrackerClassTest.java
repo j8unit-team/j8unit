@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.MediaTrackerClassTests<MediaTracker> {
         final MediaTracker sut = null; // = new MediaTracker(java.awt.Component);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MediaTracker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MediaTracker]
 
 }

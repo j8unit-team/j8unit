@@ -96,6 +96,8 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
         final PageAttributes sut = new PageAttributes();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes]
 
     @RunWith(J8Unit4.class)
@@ -108,6 +110,8 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
         public Class<PrintQualityType> createNewSUT() {
             return PrintQualityType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$PrintQualityType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$PrintQualityType]
 
@@ -124,6 +128,8 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
             return ColorType.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$ColorType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$ColorType]
 
     }
@@ -138,6 +144,8 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
         public Class<OriginType> createNewSUT() {
             return OriginType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$OriginType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$OriginType]
 
@@ -154,6 +162,8 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
             return MediaType.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$MediaType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$MediaType]
 
     }
@@ -168,6 +178,8 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
         public Class<OrientationRequestedType> createNewSUT() {
             return OrientationRequestedType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$OrientationRequestedType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$OrientationRequestedType]
 

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    ExemptionMechanismException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.ExemptionMechanismException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.ExemptionMechanismException]
 
 }

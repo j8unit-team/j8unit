@@ -66,6 +66,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Inval
         final InvalidAddressHolder sut = new InvalidAddressHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder]
 
 }

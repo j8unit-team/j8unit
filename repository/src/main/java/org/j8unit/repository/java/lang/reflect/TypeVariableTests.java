@@ -122,6 +122,7 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.TypeVariable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.TypeVariable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.TypeVariable]
 }

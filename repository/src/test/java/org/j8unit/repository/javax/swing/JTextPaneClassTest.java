@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.JTextPaneClassTests<JTextPane> {
         final JTextPane sut = new JTextPane();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTextPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTextPane]
 
 }

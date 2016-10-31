@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT>, org.j8unit.re
                    _PolicyStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA._PolicyStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA._PolicyStub]
 
 }

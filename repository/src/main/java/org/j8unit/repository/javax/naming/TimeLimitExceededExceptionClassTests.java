@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.LimitExceededExceptionClassTests<SUT>
                    TimeLimitExceededException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.TimeLimitExceededException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.TimeLimitExceededException]
 
 }

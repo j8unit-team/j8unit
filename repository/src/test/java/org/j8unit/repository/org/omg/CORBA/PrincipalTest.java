@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Principal>, org.j8unit.repository.org.omg.CORB
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.Principal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.Principal]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.Principal]
 
 }

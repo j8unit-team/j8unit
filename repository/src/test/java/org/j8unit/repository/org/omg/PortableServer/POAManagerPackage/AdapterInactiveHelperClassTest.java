@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
         // write some test for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper]
 
 }

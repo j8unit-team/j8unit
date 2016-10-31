@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    Deprecated.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Deprecated]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Deprecated]
 
 }

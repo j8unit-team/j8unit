@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.security.cert.CertificateClassTests<Certi
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.cert.Certificate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.Certificate]
 
 }

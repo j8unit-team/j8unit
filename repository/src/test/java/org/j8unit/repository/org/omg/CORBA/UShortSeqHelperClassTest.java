@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperClassTests<UShortS
         // write some test for {@link org.omg.CORBA.UShortSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UShortSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UShortSeqHelper]
 
 }

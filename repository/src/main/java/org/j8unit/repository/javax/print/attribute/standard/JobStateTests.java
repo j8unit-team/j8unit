@@ -79,6 +79,7 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobState]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.JobState]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobState]
 }

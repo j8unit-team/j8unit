@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.awt.event.InputEventClassTests<InputEvent>
         // write some test for {@link java.awt.event.InputEvent#getMaskForButton(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.InputEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.InputEvent]
 
 }

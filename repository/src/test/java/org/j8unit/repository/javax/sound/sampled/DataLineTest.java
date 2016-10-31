@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineTests<DataLine> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.sound.sampled.DataLine], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.DataLine]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.DataLine]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.DataLine]
 
     @RunWith(J8Unit4.class)
     public static class InfoTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineTests<DataLine> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.sound.sampled.DataLine.Info], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.DataLine$Info]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.DataLine$Info]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.DataLine$Info]
 
     }
 

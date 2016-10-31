@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.ListModelClassTests<ListModel> {
         return ListModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ListModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ListModel]
 
 }

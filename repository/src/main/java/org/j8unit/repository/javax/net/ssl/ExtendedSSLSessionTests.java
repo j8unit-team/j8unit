@@ -101,6 +101,7 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.ExtendedSSLSession]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.ExtendedSSLSession]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.ExtendedSSLSession]
 }

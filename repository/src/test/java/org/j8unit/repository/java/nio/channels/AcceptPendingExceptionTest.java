@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AcceptPendingException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AcceptPendingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.AcceptPendingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AcceptPendingException]
 
 }

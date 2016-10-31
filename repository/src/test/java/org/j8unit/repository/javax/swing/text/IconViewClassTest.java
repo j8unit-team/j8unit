@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.IconViewClassTests<IconView> {
         final IconView sut = null; // = new IconView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.IconView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.IconView]
 
 }

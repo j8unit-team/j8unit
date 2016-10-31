@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.BufferClassTests<Buffer> {
         return Buffer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.Buffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.Buffer]
 
 }

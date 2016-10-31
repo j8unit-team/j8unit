@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Timer>, org.j8unit.repository.java.util.TimerT
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Timer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Timer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Timer]
 
 }

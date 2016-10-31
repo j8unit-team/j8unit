@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    CloneNotSupportedException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.CloneNotSupportedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.CloneNotSupportedException]
 
 }

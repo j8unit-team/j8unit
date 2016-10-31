@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.LayoutManagerClassTests<LayoutManager>
         return LayoutManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.LayoutManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.LayoutManager]
 
 }

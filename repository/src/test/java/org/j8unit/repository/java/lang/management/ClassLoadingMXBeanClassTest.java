@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.ClassLoadingMXBeanClassTes
         return ClassLoadingMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.ClassLoadingMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ClassLoadingMXBean]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanConstructor
         return OpenMBeanConstructorInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanConstructorInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanConstructorInfo]
 
 }

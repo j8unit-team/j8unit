@@ -104,6 +104,8 @@ implements org.j8unit.repository.java.lang.ErrorClassTests<Error> {
         final Error sut = new Error();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Error]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Error]
 
 }

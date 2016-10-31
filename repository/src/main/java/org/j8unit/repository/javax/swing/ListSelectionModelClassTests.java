@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ListSelectionModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ListSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ListSelectionModel]
 
 }

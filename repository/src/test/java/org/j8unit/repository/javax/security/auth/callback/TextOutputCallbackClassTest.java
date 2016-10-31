@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.auth.callback.TextOutputCallback
         final TextOutputCallback sut = null; // = new TextOutputCallback(int, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.TextOutputCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.TextOutputCallback]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.CustomizerClassTests<Customizer> {
         return Customizer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Customizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Customizer]
 
 }

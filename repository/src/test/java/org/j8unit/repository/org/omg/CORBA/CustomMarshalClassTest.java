@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.CustomMarshalClassTests<CustomMar
         return CustomMarshal.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CustomMarshal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CustomMarshal]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLTransientException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLTransientException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLTransientException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLTransientException]
 
 }

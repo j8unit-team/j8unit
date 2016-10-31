@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.SendingContext.RunTimeClassTests<RunTim
         return RunTime.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.SendingContext.RunTime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.SendingContext.RunTime]
 
 }

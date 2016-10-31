@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT>
                    SimpleType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.SimpleType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.SimpleType]
 
 }

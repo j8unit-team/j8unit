@@ -99,6 +99,8 @@ implements org.j8unit.repository.java.lang.ClassLoaderClassTests<ClassLoader> {
         // write some test for {@link ClassLoader#getSystemResources(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassLoader]
 
 }

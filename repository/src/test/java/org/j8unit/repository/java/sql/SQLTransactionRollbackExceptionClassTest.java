@@ -204,6 +204,8 @@ implements org.j8unit.repository.java.sql.SQLTransactionRollbackExceptionClassTe
         final SQLTransactionRollbackException sut = null; // = new SQLTransactionRollbackException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLTransactionRollbackException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLTransactionRollbackException]
 
 }

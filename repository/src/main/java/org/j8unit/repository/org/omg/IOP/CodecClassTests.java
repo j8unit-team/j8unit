@@ -67,6 +67,8 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Codec.class!", Codec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.Codec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.Codec]
 
 }

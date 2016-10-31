@@ -32,6 +32,8 @@ org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionTests<SQLInva
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLInvalidAuthorizationSpecException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLInvalidAuthorizationSpecException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLInvalidAuthorizationSpecException]
 
 }

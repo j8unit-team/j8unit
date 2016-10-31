@@ -154,6 +154,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
         // write some test for {@link java.util.concurrent.ForkJoinPool#commonPool()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinPool]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool]
 
     @RunWith(J8Unit4.class)
@@ -166,6 +168,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
         public Class<ForkJoinWorkerThreadFactory> createNewSUT() {
             return ForkJoinWorkerThreadFactory.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
@@ -181,6 +185,8 @@ implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolClassTests<For
         public Class<ManagedBlocker> createNewSUT() {
             return ManagedBlocker.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 

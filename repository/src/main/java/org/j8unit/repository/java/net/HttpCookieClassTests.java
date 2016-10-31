@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    HttpCookie.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.HttpCookie]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.HttpCookie]
 
 }

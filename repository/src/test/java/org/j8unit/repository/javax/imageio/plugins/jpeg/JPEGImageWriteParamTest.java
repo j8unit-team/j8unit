@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageWriteParamT
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.imageio.plugins.jpeg.JPEGImageWriteParam], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
 
 }

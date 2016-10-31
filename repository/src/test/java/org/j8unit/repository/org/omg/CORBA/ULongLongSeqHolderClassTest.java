@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.ULongLongSeqHolderClassTests<ULon
         final ULongLongSeqHolder sut = new ULongLongSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ULongLongSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ULongLongSeqHolder]
 
 }

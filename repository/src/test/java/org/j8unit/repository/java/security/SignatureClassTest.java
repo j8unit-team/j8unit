@@ -83,6 +83,8 @@ implements org.j8unit.repository.java.security.SignatureClassTests<Signature> {
         // write some test for {@link java.security.Signature#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Signature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Signature]
 
 }

@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.PrivateClassLoader]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.PrivateClassLoader]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.PrivateClassLoader]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.PrivateClassLoader]
 }

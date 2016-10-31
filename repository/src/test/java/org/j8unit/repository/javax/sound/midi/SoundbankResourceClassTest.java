@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.SoundbankResourceClassTests<So
         return SoundbankResource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.SoundbankResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.SoundbankResource]
 
 }

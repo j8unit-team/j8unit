@@ -22,6 +22,28 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(byte[]) public javax.smartcardio.CommandAPDU(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_CommandAPDU_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final CommandAPDU sut = null; // = new CommandAPDU(byte[]);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.smartcardio.CommandAPDU#CommandAPDU(int, int, int, int, byte[], int, int, int) public
      * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int,int)}.
      *
@@ -40,28 +62,6 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
         // create new instance
         @SuppressWarnings("unused")
         final CommandAPDU sut = null; // = new CommandAPDU(int, int, int, int, byte[], int, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.smartcardio.CommandAPDU#CommandAPDU(byte[]) public javax.smartcardio.CommandAPDU(byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_CommandAPDU_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final CommandAPDU sut = null; // = new CommandAPDU(byte[]);
     }
 
     /**
@@ -224,6 +224,8 @@ implements org.j8unit.repository.javax.smartcardio.CommandAPDUClassTests<Command
         @SuppressWarnings("unused")
         final CommandAPDU sut = null; // = new CommandAPDU(int, int, int, int, byte[], int, int);
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CommandAPDU]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CommandAPDU]
 

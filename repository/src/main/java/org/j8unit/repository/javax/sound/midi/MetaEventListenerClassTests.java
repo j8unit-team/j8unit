@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    MetaEventListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MetaEventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MetaEventListener]
 
 }

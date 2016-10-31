@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.midi.SequencerClassTests<Sequencer>
         return Sequencer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Sequencer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Sequencer]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.midi.SequencerClassTests<Sequencer>
         public Class<SyncMode> createNewSUT() {
             return SyncMode.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Sequencer$SyncMode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Sequencer$SyncMode]
 

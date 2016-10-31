@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Array.class!", Array.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Array]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Array]
 
 }

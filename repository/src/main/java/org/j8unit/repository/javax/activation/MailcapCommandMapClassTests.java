@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.activation.CommandMapClassTests<SUT> {
                    MailcapCommandMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MailcapCommandMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MailcapCommandMap]
 
 }

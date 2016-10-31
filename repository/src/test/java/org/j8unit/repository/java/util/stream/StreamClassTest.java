@@ -165,6 +165,8 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
         // write some test for {@link java.util.stream.Stream#generate(java.util.function.Supplier)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.Stream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Stream]
 
     @SuppressWarnings("rawtypes")
@@ -178,6 +180,8 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
         public Class<Builder> createNewSUT() {
             return Builder.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.Stream$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Stream$Builder]
 

@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperClassTests<Par
         // org.omg.CORBA.ParameterMode)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ParameterModeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ParameterModeHelper]
 
 }

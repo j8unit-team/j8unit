@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.dgc.DGCClassTests<DGC> {
         return DGC.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.dgc.DGC]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.DGC]
 
 }

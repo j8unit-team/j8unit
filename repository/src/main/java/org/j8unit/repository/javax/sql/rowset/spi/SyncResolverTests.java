@@ -191,6 +191,7 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.SyncResolver]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.spi.SyncResolver]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.SyncResolver]
 }

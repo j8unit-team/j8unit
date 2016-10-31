@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Delegate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.portable.Delegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.portable.Delegate]
 
 }

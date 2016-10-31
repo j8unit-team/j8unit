@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.ORBPackage.InvalidNameClassTests<
         final InvalidName sut = null; // = new InvalidName(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ORBPackage.InvalidName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ORBPackage.InvalidName]
 
 }

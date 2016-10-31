@@ -56,6 +56,7 @@ extends org.j8unit.repository.javax.xml.ws.EndpointReferenceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReference]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReference]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReference]
 }

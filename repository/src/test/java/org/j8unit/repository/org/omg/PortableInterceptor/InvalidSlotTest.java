@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidSlot>, org.j8unit.repository.org.omg.Po
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.InvalidSlot]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.InvalidSlot]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.InvalidSlot]
 
 }

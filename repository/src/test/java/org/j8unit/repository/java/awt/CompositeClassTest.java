@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.CompositeClassTests<Composite> {
         return Composite.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Composite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Composite]
 
 }

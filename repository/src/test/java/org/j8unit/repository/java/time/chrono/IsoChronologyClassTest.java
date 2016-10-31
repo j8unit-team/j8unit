@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.chrono.IsoChronologyClassTests<IsoChr
         return IsoChronology.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.IsoChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.IsoChronology]
 
 }

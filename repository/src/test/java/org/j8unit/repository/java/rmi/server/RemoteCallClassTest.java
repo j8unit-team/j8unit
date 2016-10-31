@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.server.RemoteCallClassTests<RemoteCall
         return RemoteCall.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RemoteCall]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteCall]
 
 }

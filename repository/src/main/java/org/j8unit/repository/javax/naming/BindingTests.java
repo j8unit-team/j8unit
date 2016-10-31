@@ -122,6 +122,7 @@ extends org.j8unit.repository.javax.naming.NameClassPairTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.Binding]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.Binding]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.Binding]
 }

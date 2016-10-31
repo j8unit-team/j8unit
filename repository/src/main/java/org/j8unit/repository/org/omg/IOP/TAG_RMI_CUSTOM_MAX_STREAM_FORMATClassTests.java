@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TAG_RMI_CUSTOM_MAX_STREAM_FORMAT.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT]
 
 }

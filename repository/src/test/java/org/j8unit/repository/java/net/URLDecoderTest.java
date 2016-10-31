@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<URLDecoder>, org.j8unit.repository.java.net.UR
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.URLDecoder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.URLDecoder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.URLDecoder]
 
 }

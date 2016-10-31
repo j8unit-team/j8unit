@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    StandardMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.StandardMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.StandardMBean]
 
 }

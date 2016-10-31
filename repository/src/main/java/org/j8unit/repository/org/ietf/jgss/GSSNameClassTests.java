@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    GSSName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSName]
 
 }

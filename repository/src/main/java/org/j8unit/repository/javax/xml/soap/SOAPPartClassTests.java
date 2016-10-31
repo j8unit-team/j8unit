@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SOAPPart.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPPart]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPPart]
 
 }

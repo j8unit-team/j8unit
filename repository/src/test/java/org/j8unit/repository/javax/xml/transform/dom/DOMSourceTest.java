@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DOMSource>, org.j8unit.repository.javax.xml.tr
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.dom.DOMSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.dom.DOMSource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.dom.DOMSource]
 
 }

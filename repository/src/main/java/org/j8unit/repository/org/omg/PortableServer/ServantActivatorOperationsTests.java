@@ -81,6 +81,7 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorOperations]
 }

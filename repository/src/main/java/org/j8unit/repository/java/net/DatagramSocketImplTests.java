@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repos
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.DatagramSocketImpl]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.DatagramSocketImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.DatagramSocketImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.DatagramSocketImpl]
 }

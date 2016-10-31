@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
                    Readable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Readable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Readable]
 
 }

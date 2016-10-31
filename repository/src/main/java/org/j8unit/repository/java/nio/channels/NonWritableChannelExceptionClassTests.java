@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
                    NonWritableChannelException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.NonWritableChannelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.NonWritableChannelException]
 
 }

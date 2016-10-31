@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.nio.file.AtomicMoveNotSupportedExceptionCl
                                                           // String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.AtomicMoveNotSupportedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.AtomicMoveNotSupportedException]
 
 }

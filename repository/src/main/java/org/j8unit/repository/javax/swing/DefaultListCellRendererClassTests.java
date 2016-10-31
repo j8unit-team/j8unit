@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j
                    DefaultListCellRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultListCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultListCellRenderer]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UIResource.class!",
                               UIResource.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultListCellRenderer$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultListCellRenderer$UIResource]
 

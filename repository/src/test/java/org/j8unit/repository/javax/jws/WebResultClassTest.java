@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.WebResultClassTests<WebResult> {
         return WebResult.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebResult]
 
 }

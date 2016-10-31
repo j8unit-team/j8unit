@@ -35,7 +35,9 @@ implements FactoryBasedJ8UnitTest<ForkJoinPool>, org.j8unit.repository.java.util
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
 
     @RunWith(J8Unit4.class)
     public static class ForkJoinWorkerThreadFactoryTest
@@ -48,7 +50,9 @@ implements FactoryBasedJ8UnitTest<ForkJoinPool>, org.j8unit.repository.java.util
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
     }
 
@@ -63,7 +67,9 @@ implements FactoryBasedJ8UnitTest<ForkJoinPool>, org.j8unit.repository.java.util
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.concurrent.ForkJoinPool.ManagedBlocker], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 
     }
 

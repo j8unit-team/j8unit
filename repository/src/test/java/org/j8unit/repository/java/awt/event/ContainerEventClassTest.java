@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.event.ContainerEventClassTests<Contain
         final ContainerEvent sut = null; // = new ContainerEvent(java.awt.Component, int, java.awt.Component);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ContainerEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ContainerEvent]
 
 }

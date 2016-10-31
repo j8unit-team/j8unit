@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.CacheRequestClassTests<CacheRequest> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CacheRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CacheRequest]
 
 }

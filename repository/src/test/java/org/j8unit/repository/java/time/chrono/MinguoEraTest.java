@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.time.chrono.MinguoEraTests<MinguoEra> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.MinguoEra]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.MinguoEra]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.MinguoEra]
 
 }

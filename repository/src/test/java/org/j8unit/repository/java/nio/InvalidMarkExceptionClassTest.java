@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.nio.InvalidMarkExceptionClassTests<Invalid
         final InvalidMarkException sut = new InvalidMarkException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.InvalidMarkException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.InvalidMarkException]
 
 }

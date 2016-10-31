@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBIntrospectorClassTests<JAXBI
         // write some test for {@link javax.xml.bind.JAXBIntrospector#getValue(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBIntrospector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBIntrospector]
 
 }

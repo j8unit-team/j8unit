@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    RoleUnresolved.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleUnresolved]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleUnresolved]
 
 }

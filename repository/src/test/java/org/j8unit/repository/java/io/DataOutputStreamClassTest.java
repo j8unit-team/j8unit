@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.DataOutputStreamClassTests<DataOutputSt
         final DataOutputStream sut = null; // = new DataOutputStream(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.DataOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataOutputStream]
 
 }

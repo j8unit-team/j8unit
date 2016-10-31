@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    VoiceStatus.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.VoiceStatus]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.VoiceStatus]
 
 }

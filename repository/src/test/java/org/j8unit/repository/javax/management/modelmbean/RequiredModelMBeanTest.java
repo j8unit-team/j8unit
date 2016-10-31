@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RequiredModelMBean>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
 
 }

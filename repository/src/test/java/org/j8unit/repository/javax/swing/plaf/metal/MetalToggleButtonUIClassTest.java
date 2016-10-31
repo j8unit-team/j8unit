@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalToggleButtonUIClass
         // write some test for {@link javax.swing.plaf.metal.MetalToggleButtonUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalToggleButtonUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalToggleButtonUI]
 
 }

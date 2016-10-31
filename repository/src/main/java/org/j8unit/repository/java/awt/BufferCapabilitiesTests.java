@@ -189,8 +189,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BufferCapabilities]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.BufferCapabilities]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BufferCapabilities]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -216,8 +217,9 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.BufferCapabilities$FlipContents]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BufferCapabilities$FlipContents]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.BufferCapabilities$FlipContents]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BufferCapabilities$FlipContents]
     }
 
 }

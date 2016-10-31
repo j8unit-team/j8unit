@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.table.TableCellRendererClassTests<T
         return TableCellRenderer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableCellRenderer]
 
 }

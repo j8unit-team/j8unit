@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<W3CDomHandler>, org.j8unit.repository.javax.xm
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextContainerProx
         return BeanContextContainerProxy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextContainerProxy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextContainerProxy]
 
 }

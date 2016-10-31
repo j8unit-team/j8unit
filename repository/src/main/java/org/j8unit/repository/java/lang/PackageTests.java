@@ -458,6 +458,7 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Package]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Package]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Package]
 }

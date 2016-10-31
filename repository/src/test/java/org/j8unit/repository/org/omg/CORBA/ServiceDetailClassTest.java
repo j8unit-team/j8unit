@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceDetailClassTests<ServiceDe
         final ServiceDetail sut = null; // = new ServiceDetail(int, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ServiceDetail]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceDetail]
 
 }

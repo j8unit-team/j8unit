@@ -333,6 +333,7 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.TypeKindVisitor6]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.TypeKindVisitor6]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.TypeKindVisitor6]
 }

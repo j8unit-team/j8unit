@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.DateTimeAtCreati
         final DateTimeAtCreation sut = null; // = new DateTimeAtCreation(java.util.Date);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.DateTimeAtCreation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.DateTimeAtCreation]
 
 }

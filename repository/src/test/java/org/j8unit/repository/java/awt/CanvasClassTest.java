@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.awt.CanvasClassTests<Canvas> {
         final Canvas sut = new Canvas();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Canvas]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Canvas]
 
 }

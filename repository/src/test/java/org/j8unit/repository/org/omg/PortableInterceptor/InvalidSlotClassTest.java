@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotClassTes
         final InvalidSlot sut = null; // = new InvalidSlot(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.InvalidSlot]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.InvalidSlot]
 
 }

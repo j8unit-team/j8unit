@@ -257,6 +257,47 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.Spliterators#spliterator(double[], int, int, int) public static java.util.Spliterator$OfDouble
+     * java.util.Spliterators.spliterator(double[],int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_spliterator_doubleArray_int_int_int()
+    throws Exception {
+        // write some test for {@link java.util.Spliterators#spliterator(double[], int, int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Spliterators#spliterator(double[], int)
+     * public static java.util.Spliterator$OfDouble java.util.Spliterators.spliterator(double[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_spliterator_doubleArray_int()
+    throws Exception {
+        // write some test for {@link java.util.Spliterators#spliterator(double[], int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.Spliterators#spliterator(int[], int, int, int) public static java.util.Spliterator$OfInt
      * java.util.Spliterators.spliterator(int[],int,int,int)}.
      *
@@ -318,26 +359,6 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Spliterators#spliterator(Object[], int)
-     * public static <T> java.util.Spliterator<T> java.util.Spliterators.spliterator(java.lang.Object[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_spliterator_ObjectArray_int()
-    throws Exception {
-        // write some test for {@link java.util.Spliterators#spliterator(Object[], int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.Spliterators#spliterator(java.util.Iterator, long, int) public static <T>
      * java.util.Spliterator<T> java.util.Spliterators.spliterator(java.util.Iterator<? extends T>,long,int)}.
@@ -359,9 +380,8 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.Spliterators#spliterator(double[], int, int, int) public static java.util.Spliterator$OfDouble
-     * java.util.Spliterators.spliterator(double[],int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link java.util.Spliterators#spliterator(Object[], int)
+     * public static <T> java.util.Spliterator<T> java.util.Spliterators.spliterator(java.lang.Object[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -373,29 +393,9 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_spliterator_doubleArray_int_int_int()
+    public void test_spliterator_ObjectArray_int()
     throws Exception {
-        // write some test for {@link java.util.Spliterators#spliterator(double[], int, int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Spliterators#spliterator(double[], int)
-     * public static java.util.Spliterator$OfDouble java.util.Spliterators.spliterator(double[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_spliterator_doubleArray_int()
-    throws Exception {
-        // write some test for {@link java.util.Spliterators#spliterator(double[], int)}
+        // write some test for {@link java.util.Spliterators#spliterator(Object[], int)}
     }
 
     /**
@@ -548,6 +548,8 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
         // write some test for {@link java.util.Spliterators#emptyIntSpliterator()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators]
 
     @RunWith(J8Unit4.class)
@@ -560,6 +562,8 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
         public Class<AbstractDoubleSpliterator> createNewSUT() {
             return AbstractDoubleSpliterator.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractDoubleSpliterator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractDoubleSpliterator]
 
@@ -577,6 +581,8 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
             return AbstractSpliterator.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractSpliterator]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractSpliterator]
 
     }
@@ -592,6 +598,8 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
             return AbstractLongSpliterator.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractLongSpliterator]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractLongSpliterator]
 
     }
@@ -606,6 +614,8 @@ implements org.j8unit.repository.java.util.SpliteratorsClassTests<Spliterators> 
         public Class<AbstractIntSpliterator> createNewSUT() {
             return AbstractIntSpliterator.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterators$AbstractIntSpliterator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterators$AbstractIntSpliterator]
 

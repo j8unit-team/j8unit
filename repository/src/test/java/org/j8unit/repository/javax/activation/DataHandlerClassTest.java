@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.activation.DataHandlerClassTests<DataHand
         // javax.activation.DataHandler#setDataContentHandlerFactory(javax.activation.DataContentHandlerFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataHandler]
 
 }

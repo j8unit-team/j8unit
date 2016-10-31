@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.nio.ReadOnlyBufferExceptionClassTests<Read
         final ReadOnlyBufferException sut = new ReadOnlyBufferException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.ReadOnlyBufferException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ReadOnlyBufferException]
 
 }

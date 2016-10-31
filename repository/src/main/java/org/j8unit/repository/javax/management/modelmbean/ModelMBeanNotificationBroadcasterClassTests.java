@@ -68,6 +68,8 @@ extends org.j8unit.repository.javax.management.NotificationBroadcasterClassTests
                    ModelMBeanNotificationBroadcaster.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationBroadcaster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationBroadcaster]
 
 }

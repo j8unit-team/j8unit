@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.io.IOExceptionClassTests<IOException> {
         final IOException sut = new IOException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.IOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.IOException]
 
 }

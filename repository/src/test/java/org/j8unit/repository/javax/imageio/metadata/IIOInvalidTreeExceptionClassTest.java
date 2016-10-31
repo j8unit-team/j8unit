@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOInvalidTreeExceptionC
         final IIOInvalidTreeException sut = null; // = new IIOInvalidTreeException(String, org.w3c.dom.Node);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.metadata.IIOInvalidTreeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOInvalidTreeException]
 
 }

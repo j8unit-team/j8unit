@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NotContextException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NotContextException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.NotContextException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.NotContextException]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioInputStreamTests<Audio
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.sound.sampled.AudioInputStream], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.AudioInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.AudioInputStream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.AudioInputStream]
 
 }

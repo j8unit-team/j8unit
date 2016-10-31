@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WStringSeqHolder>, org.j8unit.repository.org.o
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.WStringSeqHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.WStringSeqHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.WStringSeqHolder]
 
 }

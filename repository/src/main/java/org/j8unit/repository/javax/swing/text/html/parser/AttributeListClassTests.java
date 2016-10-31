@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AttributeList.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.AttributeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.AttributeList]
 
 }

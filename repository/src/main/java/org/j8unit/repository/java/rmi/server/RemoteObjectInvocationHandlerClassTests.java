@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
                    RemoteObjectInvocationHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RemoteObjectInvocationHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteObjectInvocationHandler]
 
 }

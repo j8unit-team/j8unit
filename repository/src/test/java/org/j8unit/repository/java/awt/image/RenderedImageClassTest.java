@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.RenderedImageClassTests<Rendered
         return RenderedImage.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.RenderedImage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.RenderedImage]
 
 }

@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyB
         // write some test for {@link org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelper]
 
 }

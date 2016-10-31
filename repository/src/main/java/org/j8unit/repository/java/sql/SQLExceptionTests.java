@@ -144,6 +144,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, Throwable>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLException]
 }

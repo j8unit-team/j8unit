@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUIClass
         // write some test for {@link javax.swing.plaf.basic.BasicToggleButtonUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicToggleButtonUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicToggleButtonUI]
 
 }

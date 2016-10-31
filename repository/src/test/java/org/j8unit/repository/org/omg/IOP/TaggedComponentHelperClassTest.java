@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentHelperClassTests<Tag
         // write some test for {@link org.omg.IOP.TaggedComponentHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedComponentHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedComponentHelper]
 
 }

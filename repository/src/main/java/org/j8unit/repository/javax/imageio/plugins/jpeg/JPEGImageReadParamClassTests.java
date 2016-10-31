@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.ImageReadParamClassTests<SUT> {
                    JPEGImageReadParam.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageReadParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGImageReadParam]
 
 }

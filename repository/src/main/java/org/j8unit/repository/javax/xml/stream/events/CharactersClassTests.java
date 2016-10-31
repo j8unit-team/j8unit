@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<SUT> {
                    Characters.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.Characters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.Characters]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT>
                    DefaultHighlighter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultHighlighter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultHighlighter]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT>
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DefaultHighlightPainter.class!",
                               DefaultHighlightPainter.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 

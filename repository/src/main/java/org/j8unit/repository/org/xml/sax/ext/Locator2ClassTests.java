@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.xml.sax.LocatorClassTests<SUT> {
                    Locator2.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.Locator2]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.Locator2]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClass
         final BasicComboBoxEditor sut = new BasicComboBoxEditor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxEditor]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClass
             // create new instance
             final UIResource sut = new UIResource();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxEditor$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxEditor$UIResource]
 

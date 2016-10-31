@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.transaction.InvalidTransactionExceptionCl
         final InvalidTransactionException sut = null; // = new InvalidTransactionException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.InvalidTransactionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.InvalidTransactionException]
 
 }

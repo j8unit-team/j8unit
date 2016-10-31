@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<AbstractMethodError>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.AbstractMethodError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.AbstractMethodError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.AbstractMethodError]
 
 }

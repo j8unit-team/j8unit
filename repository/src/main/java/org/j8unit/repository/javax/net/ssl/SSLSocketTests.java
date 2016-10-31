@@ -501,6 +501,7 @@ extends org.j8unit.repository.java.net.SocketTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLSocket]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLSocket]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLSocket]
 }

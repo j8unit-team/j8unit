@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.EmptyStackExceptionClassTests<EmptySt
         final EmptyStackException sut = new EmptyStackException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EmptyStackException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EmptyStackException]
 
 }

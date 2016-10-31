@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, RoundingMode> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.RoundingMode]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.RoundingMode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.math.RoundingMode]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.RoundingMode]
 }

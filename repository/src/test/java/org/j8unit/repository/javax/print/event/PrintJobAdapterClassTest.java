@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.print.event.PrintJobAdapterClassTests<Pri
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintJobAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintJobAdapter]
 
 }

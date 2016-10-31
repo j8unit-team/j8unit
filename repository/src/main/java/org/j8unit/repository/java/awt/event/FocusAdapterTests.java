@@ -80,6 +80,7 @@ extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.FocusAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.FocusAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.FocusAdapter]
 }

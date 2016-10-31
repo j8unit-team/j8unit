@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantClassTests<Servan
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.Servant]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.Servant]
 
 }

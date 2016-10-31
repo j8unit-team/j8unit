@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT
                    StandardEmitterMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.StandardEmitterMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.StandardEmitterMBean]
 
 }

@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.INTERNALClassTests<INTERNAL> {
         final INTERNAL sut = new INTERNAL();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INTERNAL]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INTERNAL]
 
 }

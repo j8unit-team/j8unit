@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.crypto.interfaces.DHKeyClassTests<DHKey> 
         return DHKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.interfaces.DHKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.interfaces.DHKey]
 
 }

@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests<NO_IMPLEME
         final NO_IMPLEMENT sut = new NO_IMPLEMENT();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NO_IMPLEMENT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NO_IMPLEMENT]
 
 }

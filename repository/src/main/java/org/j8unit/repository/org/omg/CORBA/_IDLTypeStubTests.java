@@ -124,6 +124,7 @@ extends org.j8unit.repository.org.omg.CORBA.IDLTypeTests<SUT>, org.j8unit.reposi
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA._IDLTypeStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA._IDLTypeStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA._IDLTypeStub]
 }

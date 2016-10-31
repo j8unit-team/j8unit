@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.rmi.activation.UnknownObjectExceptionClass
         final UnknownObjectException sut = null; // = new UnknownObjectException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.UnknownObjectException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.UnknownObjectException]
 
 }

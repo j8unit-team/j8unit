@@ -79,6 +79,7 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.FileHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.logging.FileHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.FileHandler]
 }

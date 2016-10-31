@@ -193,6 +193,28 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#getControls() public
+     * abstract javax.sound.sampled.Control[] javax.sound.sampled.Line.getControls()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getControls()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sound.sampled.Line#getControl(javax.sound.sampled.Control.Type) public abstract
      * javax.sound.sampled.Control javax.sound.sampled.Line.getControl(javax.sound.sampled.Control$Type)}.
@@ -214,30 +236,9 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.sampled.Line#getControls() public
-     * abstract javax.sound.sampled.Control[] javax.sound.sampled.Line.getControls()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getControls()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Line]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Line]
-
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -331,8 +332,9 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Line$Info]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Line$Info]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Line$Info]
     }
 
 }

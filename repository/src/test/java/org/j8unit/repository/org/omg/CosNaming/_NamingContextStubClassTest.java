@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CosNaming._NamingContextStubClassTests<
         final _NamingContextStub sut = new _NamingContextStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming._NamingContextStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming._NamingContextStub]
 
 }

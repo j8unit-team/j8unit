@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieClassTests<SUT>, org.j8unit.rep
                    _RMIConnectionImpl_Tie.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie]
 
 }

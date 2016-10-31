@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicy
         // write some test for {@link org.omg.PortableServer.ImplicitActivationPolicyValue#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
 
 }

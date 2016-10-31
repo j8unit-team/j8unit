@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.activity.ActivityCompletedExceptionClassT
         final ActivityCompletedException sut = new ActivityCompletedException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activity.ActivityCompletedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activity.ActivityCompletedException]
 
 }

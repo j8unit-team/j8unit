@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.xml.ws.ProtocolExceptionClassTests<Protoc
         final ProtocolException sut = new ProtocolException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.ProtocolException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.ProtocolException]
 
 }

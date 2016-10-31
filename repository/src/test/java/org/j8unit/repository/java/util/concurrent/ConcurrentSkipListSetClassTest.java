@@ -111,6 +111,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClass
         final ConcurrentSkipListSet sut = null; // = new ConcurrentSkipListSet(java.util.SortedSet);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentSkipListSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentSkipListSet]
 
 }

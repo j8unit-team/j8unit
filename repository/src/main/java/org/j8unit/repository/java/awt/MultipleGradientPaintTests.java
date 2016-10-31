@@ -167,8 +167,9 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MultipleGradientPaint]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -194,8 +195,9 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
     }
 
     /**
@@ -223,8 +225,9 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
     }
 
 }

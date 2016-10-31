@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.font.OpenTypeClassTests<OpenType> {
         return OpenType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.OpenType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.OpenType]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.awt.color.ProfileDataExceptionTests<Profil
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.awt.color.ProfileDataException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.color.ProfileDataException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.color.ProfileDataException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.color.ProfileDataException]
 
 }

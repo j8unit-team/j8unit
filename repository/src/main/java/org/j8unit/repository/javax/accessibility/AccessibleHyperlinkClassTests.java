@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionClassTests<SUT
                    AccessibleHyperlink.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleHyperlink]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleHyperlink]
 
 }

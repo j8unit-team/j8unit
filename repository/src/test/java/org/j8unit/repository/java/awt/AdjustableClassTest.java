@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.AdjustableClassTests<Adjustable> {
         return Adjustable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Adjustable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Adjustable]
 
 }

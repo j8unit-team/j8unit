@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.PipedWriterClassTests<PipedWriter> {
         final PipedWriter sut = new PipedWriter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PipedWriter]
 
 }

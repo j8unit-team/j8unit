@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.InsufficientResourcesExceptionClas
         final InsufficientResourcesException sut = new InsufficientResourcesException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.InsufficientResourcesException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InsufficientResourcesException]
 
 }

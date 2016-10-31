@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.rmi.AccessExceptionClassTests<AccessExcept
         final AccessException sut = null; // = new AccessException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.AccessException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.AccessException]
 
 }

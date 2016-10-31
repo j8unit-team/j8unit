@@ -119,6 +119,8 @@ implements org.j8unit.repository.java.nio.CharBufferClassTests<CharBuffer> {
         // write some test for {@link java.nio.CharBuffer#wrap(CharSequence, int, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.CharBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.CharBuffer]
 
 }

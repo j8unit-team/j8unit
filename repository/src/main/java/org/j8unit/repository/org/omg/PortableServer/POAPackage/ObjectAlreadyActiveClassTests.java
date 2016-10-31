@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
                    ObjectAlreadyActive.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectAlreadyActive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectAlreadyActive]
 
 }

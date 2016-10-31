@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.event.TextEventClassTests<TextEvent> {
         final TextEvent sut = null; // = new TextEvent(Object, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.TextEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.TextEvent]
 
 }

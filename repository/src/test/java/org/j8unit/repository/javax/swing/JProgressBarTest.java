@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JProgressBar>, org.j8unit.repository.javax.swi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JProgressBar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JProgressBar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JProgressBar]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.InternationalFormatterClassTests<
                    DateFormatter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DateFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DateFormatter]
 
 }

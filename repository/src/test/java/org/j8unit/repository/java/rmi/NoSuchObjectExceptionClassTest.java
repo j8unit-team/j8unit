@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.rmi.NoSuchObjectExceptionClassTests<NoSuch
         final NoSuchObjectException sut = null; // = new NoSuchObjectException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.NoSuchObjectException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.NoSuchObjectException]
 
 }

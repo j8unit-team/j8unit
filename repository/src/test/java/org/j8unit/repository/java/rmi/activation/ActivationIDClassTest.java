@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationIDClassTests<Acti
         final ActivationID sut = null; // = new ActivationID(java.rmi.activation.Activator);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationID]
 
 }

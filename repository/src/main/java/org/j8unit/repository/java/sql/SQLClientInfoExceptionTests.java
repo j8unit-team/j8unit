@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.sql.SQLExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLClientInfoException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLClientInfoException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLClientInfoException]
 }

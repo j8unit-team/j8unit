@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.PRIVATE_MEMBERClassTests<PRIVATE_
         return PRIVATE_MEMBER.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PRIVATE_MEMBER]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PRIVATE_MEMBER]
 
 }

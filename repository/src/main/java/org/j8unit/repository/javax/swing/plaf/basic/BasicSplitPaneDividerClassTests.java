@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, 
                    BasicSplitPaneDivider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
 
 }

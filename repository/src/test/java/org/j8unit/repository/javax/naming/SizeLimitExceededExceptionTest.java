@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SizeLimitExceededException>, org.j8unit.reposi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.SizeLimitExceededException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.SizeLimitExceededException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.SizeLimitExceededException]
 
 }

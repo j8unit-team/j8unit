@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerFieldU
         // write some test for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#newUpdater(Class, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicIntegerFieldUpdater]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicIntegerFieldUpdater]
 
 }

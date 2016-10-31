@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.charset.IllegalCharsetNameExceptionCla
         final IllegalCharsetNameException sut = null; // = new IllegalCharsetNameException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.IllegalCharsetNameException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.IllegalCharsetNameException]
 
 }

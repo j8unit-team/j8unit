@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ExceptionListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.ExceptionListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.ExceptionListener]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.AttributeNotFoundExceptionClas
         final AttributeNotFoundException sut = null; // = new AttributeNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.AttributeNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeNotFoundException]
 
 }

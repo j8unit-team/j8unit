@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.naming.ldap.InitialLdapContextClassTests<
                                              // javax.naming.ldap.Control[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.InitialLdapContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.InitialLdapContext]
 
 }

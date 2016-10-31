@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AllPermission>, org.j8unit.repository.java.sec
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.AllPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.AllPermission]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.AllPermission]
 
 }

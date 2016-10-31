@@ -147,6 +147,28 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setLineNumber(int)
+     * public void org.xml.sax.helpers.LocatorImpl.setLineNumber(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLineNumber_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#getColumnNumber()
      * public int org.xml.sax.helpers.LocatorImpl.getColumnNumber()}.
      *
@@ -162,28 +184,6 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_getColumnNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.LocatorImpl#setLineNumber(int)
-     * public void org.xml.sax.helpers.LocatorImpl.setLineNumber(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLineNumber_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -212,6 +212,7 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
 }

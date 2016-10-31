@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.NonWritableChannelExceptionCl
         final NonWritableChannelException sut = new NonWritableChannelException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.NonWritableChannelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.NonWritableChannelException]
 
 }

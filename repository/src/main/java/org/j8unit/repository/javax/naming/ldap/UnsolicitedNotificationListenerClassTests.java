@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerClassTests<SUT> {
                    UnsolicitedNotificationListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationListener]
 
 }

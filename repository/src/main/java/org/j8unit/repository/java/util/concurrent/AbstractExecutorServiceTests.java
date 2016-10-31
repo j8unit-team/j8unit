@@ -209,6 +209,7 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.AbstractExecutorService]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.AbstractExecutorService]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.AbstractExecutorService]
 }

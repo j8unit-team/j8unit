@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<UIResourc
         return UIResource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.UIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.UIResource]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RoundEnvironment.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.RoundEnvironment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.RoundEnvironment]
 
 }

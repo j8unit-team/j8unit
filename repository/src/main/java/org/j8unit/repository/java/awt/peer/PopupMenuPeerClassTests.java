@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.peer.MenuPeerClassTests<SUT> {
                    PopupMenuPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.PopupMenuPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.PopupMenuPeer]
 
 }

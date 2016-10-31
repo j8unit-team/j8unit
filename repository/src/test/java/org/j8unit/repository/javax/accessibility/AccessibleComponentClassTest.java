@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleComponentClassTes
         return AccessibleComponent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleComponent]
 
 }

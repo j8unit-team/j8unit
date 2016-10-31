@@ -65,6 +65,8 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Long.class!", Long.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Long]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Long]
 
 }

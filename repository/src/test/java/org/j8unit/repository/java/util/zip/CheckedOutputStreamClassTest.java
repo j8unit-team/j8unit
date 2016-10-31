@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.util.zip.CheckedOutputStreamClassTests<Che
                                               // java.util.zip.Checksum);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.CheckedOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.CheckedOutputStream]
 
 }

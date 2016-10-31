@@ -77,6 +77,7 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.XADataSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.XADataSource]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.XADataSource]
 }

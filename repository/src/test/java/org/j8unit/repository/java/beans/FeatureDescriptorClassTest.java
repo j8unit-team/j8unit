@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.beans.FeatureDescriptorClassTests<FeatureD
         final FeatureDescriptor sut = new FeatureDescriptor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.FeatureDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.FeatureDescriptor]
 
 }

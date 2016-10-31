@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
                    PagedResultsResponseControl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.PagedResultsResponseControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.PagedResultsResponseControl]
 
 }

@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.print.DocPrintJobTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.CancelablePrintJob]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.CancelablePrintJob]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.CancelablePrintJob]
 }

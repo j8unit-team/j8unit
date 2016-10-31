@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
                    SQLRecoverableException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLRecoverableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLRecoverableException]
 
 }

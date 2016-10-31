@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerCl
         return RejectedExecutionHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.RejectedExecutionHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.RejectedExecutionHandler]
 
 }

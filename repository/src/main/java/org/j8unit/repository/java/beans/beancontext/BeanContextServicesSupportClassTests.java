@@ -68,6 +68,8 @@ org.j8unit.repository.java.beans.beancontext.BeanContextSupportClassTests<SUT> {
                    BeanContextServicesSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServicesSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServicesSupport]
 
 }

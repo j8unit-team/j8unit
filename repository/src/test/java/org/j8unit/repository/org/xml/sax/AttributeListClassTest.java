@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.AttributeListClassTests<AttributeLi
         return AttributeList.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.AttributeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.AttributeList]
 
 }

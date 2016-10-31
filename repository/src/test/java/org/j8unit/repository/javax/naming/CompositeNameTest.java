@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CompositeName>, org.j8unit.repository.javax.na
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CompositeName]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.CompositeName]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.CompositeName]
 
 }

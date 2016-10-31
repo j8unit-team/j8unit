@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.OverrideClassTests<Override> {
         return Override.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Override]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Override]
 
 }

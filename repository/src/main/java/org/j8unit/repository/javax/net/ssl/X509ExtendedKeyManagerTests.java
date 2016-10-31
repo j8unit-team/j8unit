@@ -80,6 +80,7 @@ extends org.j8unit.repository.javax.net.ssl.X509KeyManagerTests<SUT>, org.j8unit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.X509ExtendedKeyManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.X509ExtendedKeyManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.X509ExtendedKeyManager]
 }

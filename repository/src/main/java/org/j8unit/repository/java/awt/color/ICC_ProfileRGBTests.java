@@ -120,6 +120,7 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.color.ICC_ProfileRGB]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.color.ICC_ProfileRGB]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.color.ICC_ProfileRGB]
 }

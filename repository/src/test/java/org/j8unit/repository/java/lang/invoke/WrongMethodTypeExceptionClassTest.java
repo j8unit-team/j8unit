@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.invoke.WrongMethodTypeExceptionClassT
         final WrongMethodTypeException sut = new WrongMethodTypeException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.WrongMethodTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.WrongMethodTypeException]
 
 }

@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.management.modelmbean.XMLParseExceptionCl
         final XMLParseException sut = new XMLParseException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.XMLParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.XMLParseException]
 
 }

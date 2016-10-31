@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
                    IllegalCharsetNameException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.IllegalCharsetNameException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.IllegalCharsetNameException]
 
 }

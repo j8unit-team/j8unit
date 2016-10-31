@@ -55,6 +55,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonUITests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicCheckBoxUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicCheckBoxUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicCheckBoxUI]
 }

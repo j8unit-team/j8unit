@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.lang.ref.SoftReferenceClassTests<SoftRefer
         final SoftReference sut = null; // = new SoftReference(Object, java.lang.ref.ReferenceQueue);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ref.SoftReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ref.SoftReference]
 
 }

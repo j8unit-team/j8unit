@@ -239,6 +239,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.BasicFileAttributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.BasicFileAttributes]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.BasicFileAttributes]
 }

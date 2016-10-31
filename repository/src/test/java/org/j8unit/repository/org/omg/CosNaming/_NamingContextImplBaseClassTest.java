@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.CosNaming._NamingContextImplBaseClassTe
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming._NamingContextImplBase]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming._NamingContextImplBase]
 
 }

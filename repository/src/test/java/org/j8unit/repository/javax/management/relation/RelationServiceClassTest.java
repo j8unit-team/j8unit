@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.relation.RelationServiceClassT
         final RelationService sut = null; // = new RelationService(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationService]
 
 }

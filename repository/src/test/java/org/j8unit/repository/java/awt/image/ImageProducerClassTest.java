@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.ImageProducerClassTests<ImagePro
         return ImageProducer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ImageProducer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ImageProducer]
 
 }

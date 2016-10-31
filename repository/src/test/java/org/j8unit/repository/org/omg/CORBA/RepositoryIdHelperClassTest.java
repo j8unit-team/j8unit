@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.RepositoryIdHelperClassTests<Repo
         // String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.RepositoryIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.RepositoryIdHelper]
 
 }

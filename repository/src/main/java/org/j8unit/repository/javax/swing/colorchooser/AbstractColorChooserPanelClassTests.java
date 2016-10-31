@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JPanelClassTests<SUT> {
                    AbstractColorChooserPanel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.colorchooser.AbstractColorChooserPanel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.colorchooser.AbstractColorChooserPanel]
 
 }

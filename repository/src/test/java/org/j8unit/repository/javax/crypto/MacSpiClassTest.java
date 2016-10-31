@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.crypto.MacSpiClassTests<MacSpi> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.MacSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.MacSpi]
 
 }

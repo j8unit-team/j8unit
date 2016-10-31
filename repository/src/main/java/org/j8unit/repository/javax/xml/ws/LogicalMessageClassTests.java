@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LogicalMessage.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.LogicalMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.LogicalMessage]
 
 }

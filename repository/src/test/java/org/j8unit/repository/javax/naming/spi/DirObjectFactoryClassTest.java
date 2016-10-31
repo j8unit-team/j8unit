@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.spi.DirObjectFactoryClassTests<Dir
         return DirObjectFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirObjectFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirObjectFactory]
 
 }

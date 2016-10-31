@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Endpoint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Endpoint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Endpoint]
 
 }

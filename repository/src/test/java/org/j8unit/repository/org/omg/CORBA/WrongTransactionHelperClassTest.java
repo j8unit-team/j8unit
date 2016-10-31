@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.CORBA.WrongTransactionHelperClassTests<
         // write some test for {@link org.omg.CORBA.WrongTransactionHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.WrongTransactionHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WrongTransactionHelper]
 
 }

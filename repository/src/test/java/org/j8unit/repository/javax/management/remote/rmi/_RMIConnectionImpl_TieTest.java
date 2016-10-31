@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.remote.rmi._RMIConnectionImpl_TieTests<_R
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi._RMIConnectionImpl_Tie]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.rmi._RMIConnectionImpl_Tie]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi._RMIConnectionImpl_Tie]
 
 }

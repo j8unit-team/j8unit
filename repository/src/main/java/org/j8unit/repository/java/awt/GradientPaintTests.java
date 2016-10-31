@@ -190,6 +190,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GradientPaint]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.GradientPaint]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.GradientPaint]
 }

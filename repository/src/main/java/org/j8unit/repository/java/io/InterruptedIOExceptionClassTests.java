@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    InterruptedIOException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.InterruptedIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.InterruptedIOException]
 
 }

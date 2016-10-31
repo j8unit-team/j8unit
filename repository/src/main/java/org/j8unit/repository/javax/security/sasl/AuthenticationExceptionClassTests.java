@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.security.sasl.SaslExceptionClassTests<SUT> {
                    AuthenticationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.AuthenticationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.AuthenticationException]
 
 }

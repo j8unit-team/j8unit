@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.crypto.spec.PBEKeySpecClassTests<PBEKeySp
         final PBEKeySpec sut = null; // = new PBEKeySpec(char[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.PBEKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PBEKeySpec]
 
 }

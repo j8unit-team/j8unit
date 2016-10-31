@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.InterruptedExceptionClassTests<Interr
         final InterruptedException sut = null; // = new InterruptedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InterruptedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InterruptedException]
 
 }

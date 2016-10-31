@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ShortBufferException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ShortBufferException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.ShortBufferException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.ShortBufferException]
 
 }

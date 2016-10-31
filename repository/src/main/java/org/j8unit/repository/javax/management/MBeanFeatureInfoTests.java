@@ -146,6 +146,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanFeatureInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanFeatureInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanFeatureInfo]
 }

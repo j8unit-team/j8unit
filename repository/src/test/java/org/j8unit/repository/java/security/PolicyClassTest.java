@@ -150,6 +150,8 @@ implements org.j8unit.repository.java.security.PolicyClassTests<Policy> {
         // java.security.Provider)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Policy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Policy]
 
     @RunWith(J8Unit4.class)
@@ -162,6 +164,8 @@ implements org.j8unit.repository.java.security.PolicyClassTests<Policy> {
         public Class<Parameters> createNewSUT() {
             return Parameters.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Policy$Parameters]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Policy$Parameters]
 

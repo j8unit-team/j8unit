@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.naming.spi.ResolveResultClassTests<Resolv
         final ResolveResult sut = null; // = new ResolveResult(Object, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.ResolveResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.ResolveResult]
 
 }

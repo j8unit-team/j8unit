@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JFrame>, org.j8unit.repository.javax.swing.JFr
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFrame]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFrame]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFrame]
 
 }

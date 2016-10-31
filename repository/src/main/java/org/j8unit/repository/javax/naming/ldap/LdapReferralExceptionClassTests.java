@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ReferralExceptionClassTests<SUT> {
                    LdapReferralException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.LdapReferralException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.LdapReferralException]
 
 }

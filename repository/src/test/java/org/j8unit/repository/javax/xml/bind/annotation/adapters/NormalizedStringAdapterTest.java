@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.bind.annotation.adapters.NormalizedStringAdapter
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.NormalizedStringAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.adapters.NormalizedStringAdapter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.adapters.NormalizedStringAdapter]
 
 }

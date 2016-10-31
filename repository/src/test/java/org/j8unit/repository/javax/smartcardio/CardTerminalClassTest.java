@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalClassTests<CardTe
         return CardTerminal.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardTerminal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardTerminal]
 
 }

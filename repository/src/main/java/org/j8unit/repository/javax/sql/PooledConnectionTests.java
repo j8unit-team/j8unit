@@ -169,6 +169,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.PooledConnection]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.PooledConnection]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.PooledConnection]
 }

@@ -656,8 +656,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -773,8 +774,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$LanguageRange]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$LanguageRange]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$LanguageRange]
     }
 
     /**
@@ -802,8 +804,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$Category]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Category]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$Category]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Category]
     }
 
     /**
@@ -831,8 +834,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$FilteringMode]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$FilteringMode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$FilteringMode]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$FilteringMode]
     }
 
     /**
@@ -1151,8 +1155,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$Builder]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Builder]
     }
 
 }

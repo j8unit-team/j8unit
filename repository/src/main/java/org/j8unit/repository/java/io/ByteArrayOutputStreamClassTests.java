@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
                    ByteArrayOutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ByteArrayOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ByteArrayOutputStream]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.SendingContext.RunTimeOperationsTests<R
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.SendingContext.RunTimeOperations], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
 
 }

@@ -129,6 +129,8 @@ implements org.j8unit.repository.javax.swing.JButtonClassTests<JButton> {
         final JButton sut = null; // = new JButton(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JButton]
 
 }

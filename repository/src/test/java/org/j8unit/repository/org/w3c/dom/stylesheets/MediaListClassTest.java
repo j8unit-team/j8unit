@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.stylesheets.MediaListClassTests<Med
         return MediaList.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.stylesheets.MediaList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.stylesheets.MediaList]
 
 }

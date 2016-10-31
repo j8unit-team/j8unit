@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    ProviderNotFoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.ProviderNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.ProviderNotFoundException]
 
 }

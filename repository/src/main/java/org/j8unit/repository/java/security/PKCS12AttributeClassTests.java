@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.A
                    PKCS12Attribute.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.PKCS12Attribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.PKCS12Attribute]
 
 }

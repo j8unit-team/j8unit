@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    InconsistentTypeCodeHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper]
 
 }

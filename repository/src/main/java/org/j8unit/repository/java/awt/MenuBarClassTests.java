@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.MenuComponentClassTests<SUT> {
                    MenuBar.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuBar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuBar]
 
 }

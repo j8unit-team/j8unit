@@ -103,6 +103,8 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
         // write some test for {@link javax.swing.JComponent#getDefaultLocale()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComponent]
 
     @RunWith(J8Unit4.class)
@@ -115,6 +117,8 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
         public Class<AccessibleJComponent> createNewSUT() {
             return AccessibleJComponent.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
 

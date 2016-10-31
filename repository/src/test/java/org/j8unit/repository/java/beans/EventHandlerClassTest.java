@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.beans.EventHandlerClassTests<EventHandler>
         // write some test for {@link java.beans.EventHandler#create(Class, Object, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.EventHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.EventHandler]
 
 }

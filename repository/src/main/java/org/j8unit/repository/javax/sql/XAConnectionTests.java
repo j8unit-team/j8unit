@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.sql.PooledConnectionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.XAConnection]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.XAConnection]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.XAConnection]
 }

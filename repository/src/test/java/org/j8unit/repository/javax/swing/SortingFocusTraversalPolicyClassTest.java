@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.SortingFocusTraversalPolicyClassTes
         final SortingFocusTraversalPolicy sut = null; // = new SortingFocusTraversalPolicy(java.util.Comparator);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]
 
 }

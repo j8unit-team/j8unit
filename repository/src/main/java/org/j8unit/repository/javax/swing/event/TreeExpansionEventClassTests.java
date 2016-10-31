@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    TreeExpansionEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TreeExpansionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TreeExpansionEvent]
 
 }

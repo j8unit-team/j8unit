@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderClassTests<SUT>, org.j
                    PlainView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.PlainView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.PlainView]
 
 }

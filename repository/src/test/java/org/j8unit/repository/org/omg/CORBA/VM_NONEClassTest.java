@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.VM_NONEClassTests<VM_NONE> {
         return VM_NONE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.VM_NONE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.VM_NONE]
 
 }

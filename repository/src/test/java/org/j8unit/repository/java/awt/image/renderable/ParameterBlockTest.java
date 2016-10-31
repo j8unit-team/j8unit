@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ParameterBlock>, org.j8unit.repository.java.aw
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.renderable.ParameterBlock]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.renderable.ParameterBlock]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.renderable.ParameterBlock]
 
 }

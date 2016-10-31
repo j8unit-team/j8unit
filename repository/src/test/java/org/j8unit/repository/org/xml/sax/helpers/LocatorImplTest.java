@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LocatorImpl>, org.j8unit.repository.org.xml.sa
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
 
 }

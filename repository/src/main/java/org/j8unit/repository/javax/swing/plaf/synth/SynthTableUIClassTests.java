@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<SUT> {
                    SynthTableUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthTableUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthTableUI]
 
 }

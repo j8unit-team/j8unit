@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExcepti
         final UnsupportedAudioFileException sut = null; // = new UnsupportedAudioFileException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.UnsupportedAudioFileException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.UnsupportedAudioFileException]
 
 }

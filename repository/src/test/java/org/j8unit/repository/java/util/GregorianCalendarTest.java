@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<GregorianCalendar>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.GregorianCalendar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.GregorianCalendar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.GregorianCalendar]
 
 }

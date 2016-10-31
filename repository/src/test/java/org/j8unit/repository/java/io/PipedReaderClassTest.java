@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.io.PipedReaderClassTests<PipedReader> {
         final PipedReader sut = new PipedReader();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PipedReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PipedReader]
 
 }

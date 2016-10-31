@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.OptionClassTests<Option> 
         final Option sut = null; // = new Option(javax.swing.text.AttributeSet);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.Option]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.Option]
 
 }

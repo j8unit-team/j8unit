@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.ListSelectionModelClassTests<ListSe
         return ListSelectionModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ListSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ListSelectionModel]
 
 }

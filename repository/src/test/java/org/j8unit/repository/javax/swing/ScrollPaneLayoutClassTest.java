@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests<ScrollPa
         final ScrollPaneLayout sut = new ScrollPaneLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ScrollPaneLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ScrollPaneLayout]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests<ScrollPa
             // create new instance
             final UIResource sut = new UIResource();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ScrollPaneLayout$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ScrollPaneLayout$UIResource]
 

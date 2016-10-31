@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.stream.IIOByteBufferClassTests<II
         final IIOByteBuffer sut = null; // = new IIOByteBuffer(byte[], int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.IIOByteBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.IIOByteBuffer]
 
 }

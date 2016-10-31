@@ -17,6 +17,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.LogicalHandlerTests<Logica
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.ws.handler.LogicalHandler], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.handler.LogicalHandler]
 
 }

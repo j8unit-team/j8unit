@@ -125,8 +125,9 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.ImageWriterSpi#isFormatLossless()
-     * public boolean javax.imageio.spi.ImageWriterSpi.isFormatLossless()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.spi.ImageWriterSpi#createWriterInstance() public javax.imageio.ImageWriter
+     * javax.imageio.spi.ImageWriterSpi.createWriterInstance() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -138,7 +139,7 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isFormatLossless()
+    public default void test_createWriterInstance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -170,9 +171,8 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.spi.ImageWriterSpi#createWriterInstance() public javax.imageio.ImageWriter
-     * javax.imageio.spi.ImageWriterSpi.createWriterInstance() throws java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.imageio.spi.ImageWriterSpi#isFormatLossless()
+     * public boolean javax.imageio.spi.ImageWriterSpi.isFormatLossless()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -184,7 +184,7 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createWriterInstance()
+    public default void test_isFormatLossless()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -214,6 +214,7 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageWriterSpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.spi.ImageWriterSpi]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageWriterSpi]
 }

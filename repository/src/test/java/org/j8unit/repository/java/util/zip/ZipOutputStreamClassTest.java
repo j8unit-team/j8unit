@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.zip.ZipOutputStreamClassTests<ZipOutp
         final ZipOutputStream sut = null; // = new ZipOutputStream(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipOutputStream]
 
 }

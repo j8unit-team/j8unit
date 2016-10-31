@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.swing.plaf.nimbus.NimbusLookAndFeelClassT
         // javax.swing.plaf.synth.Region)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.nimbus.NimbusLookAndFeel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.nimbus.NimbusLookAndFeel]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.swing.text.InternationalFormatterClassTes
         final InternationalFormatter sut = null; // = new InternationalFormatter(java.text.Format);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.InternationalFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.InternationalFormatter]
 
 }

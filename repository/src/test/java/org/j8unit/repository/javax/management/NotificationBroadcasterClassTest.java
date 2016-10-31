@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.NotificationBroadcasterClassTe
         return NotificationBroadcaster.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationBroadcaster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationBroadcaster]
 
 }

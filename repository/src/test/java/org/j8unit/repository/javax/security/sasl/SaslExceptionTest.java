@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SaslException>, org.j8unit.repository.javax.se
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.SaslException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.sasl.SaslException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.SaslException]
 
 }

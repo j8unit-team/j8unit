@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.SecureRandomSpiClassTests<SecureR
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SecureRandomSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SecureRandomSpi]
 
 }

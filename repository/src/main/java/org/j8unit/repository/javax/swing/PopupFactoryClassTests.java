@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    PopupFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.PopupFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.PopupFactory]
 
 }

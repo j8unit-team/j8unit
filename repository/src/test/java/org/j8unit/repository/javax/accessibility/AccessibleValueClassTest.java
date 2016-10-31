@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleValueClassTests<A
         return AccessibleValue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleValue]
 
 }

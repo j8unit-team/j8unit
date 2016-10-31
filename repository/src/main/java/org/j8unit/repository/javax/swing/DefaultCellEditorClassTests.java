@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<SUT> {
                    DefaultCellEditor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultCellEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultCellEditor]
 
 }

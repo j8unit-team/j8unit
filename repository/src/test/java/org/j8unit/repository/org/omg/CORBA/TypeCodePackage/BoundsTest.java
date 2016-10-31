@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Bounds>, org.j8unit.repository.org.omg.CORBA.T
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TypeCodePackage.Bounds]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.TypeCodePackage.Bounds]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.TypeCodePackage.Bounds]
 
 }

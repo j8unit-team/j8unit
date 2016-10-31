@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTest
                    IvParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.IvParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.IvParameterSpec]
 
 }

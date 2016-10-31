@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryFlagClassTests<
         // write some test for {@link java.nio.file.attribute.AclEntryFlag#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AclEntryFlag]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntryFlag]
 
 }

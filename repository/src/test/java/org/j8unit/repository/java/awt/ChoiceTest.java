@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Choice>, org.j8unit.repository.java.awt.Choice
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Choice]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Choice]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Choice]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.security.CodeSourceClassTests<CodeSource> 
         final CodeSource sut = null; // = new CodeSource(java.net.URL, java.security.CodeSigner[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.CodeSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.CodeSource]
 
 }

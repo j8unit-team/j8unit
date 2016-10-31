@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.security.auth.callback.NameCallbackClassT
         final NameCallback sut = null; // = new NameCallback(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.NameCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.NameCallback]
 
 }

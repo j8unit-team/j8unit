@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.util.jar.JarEntryClassTests<JarEntry> {
         final JarEntry sut = null; // = new JarEntry(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.JarEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarEntry]
 
 }

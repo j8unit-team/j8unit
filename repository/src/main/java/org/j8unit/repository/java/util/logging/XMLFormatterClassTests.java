@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.logging.FormatterClassTests<SUT> {
                    XMLFormatter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.XMLFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.XMLFormatter]
 
 }

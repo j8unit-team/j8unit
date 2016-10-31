@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.PortUnreachableExceptionClassTests<Por
         final PortUnreachableException sut = new PortUnreachableException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.PortUnreachableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.PortUnreachableException]
 
 }

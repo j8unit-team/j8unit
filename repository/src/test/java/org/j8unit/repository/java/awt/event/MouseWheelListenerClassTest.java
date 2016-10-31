@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<Mou
         return MouseWheelListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.MouseWheelListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.MouseWheelListener]
 
 }

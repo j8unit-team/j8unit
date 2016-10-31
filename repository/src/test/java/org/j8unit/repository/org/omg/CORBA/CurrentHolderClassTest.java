@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.CurrentHolderClassTests<CurrentHo
         final CurrentHolder sut = new CurrentHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CurrentHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CurrentHolder]
 
 }

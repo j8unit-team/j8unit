@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.DateTimeSyntaxClassTests<SUT> {
                    DateTimeAtProcessing.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.DateTimeAtProcessing]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.DateTimeAtProcessing]
 
 }

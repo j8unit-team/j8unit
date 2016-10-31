@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.font.TransformAttributeClassTests<Tran
         final TransformAttribute sut = null; // = new TransformAttribute(java.awt.geom.AffineTransform);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TransformAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TransformAttribute]
 
 }

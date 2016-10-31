@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.charset.MalformedInputExceptionClassTe
         final MalformedInputException sut = null; // = new MalformedInputException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.MalformedInputException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.MalformedInputException]
 
 }

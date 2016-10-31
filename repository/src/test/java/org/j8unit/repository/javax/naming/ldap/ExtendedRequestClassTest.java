@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ldap.ExtendedRequestClassTests<Ext
         return ExtendedRequest.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.ExtendedRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.ExtendedRequest]
 
 }

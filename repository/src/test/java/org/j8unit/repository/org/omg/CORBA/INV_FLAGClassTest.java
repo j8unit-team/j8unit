@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests<INV_FLAG> {
         final INV_FLAG sut = new INV_FLAG();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INV_FLAG]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INV_FLAG]
 
 }

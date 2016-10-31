@@ -104,6 +104,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
 }

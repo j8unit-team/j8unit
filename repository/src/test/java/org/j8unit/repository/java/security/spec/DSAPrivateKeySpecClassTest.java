@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.security.spec.DSAPrivateKeySpecClassTests<
                                             // java.math.BigInteger, java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.DSAPrivateKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.DSAPrivateKeySpec]
 
 }

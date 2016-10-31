@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    IllegalBlockSizeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.IllegalBlockSizeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.IllegalBlockSizeException]
 
 }

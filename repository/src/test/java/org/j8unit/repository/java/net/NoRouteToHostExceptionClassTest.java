@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.NoRouteToHostExceptionClassTests<NoRou
         final NoRouteToHostException sut = new NoRouteToHostException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.NoRouteToHostException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.NoRouteToHostException]
 
 }

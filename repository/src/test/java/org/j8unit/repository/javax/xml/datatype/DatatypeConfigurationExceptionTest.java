@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExceptionTests<Dat
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConfigurationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.datatype.DatatypeConfigurationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConfigurationException]
 
 }

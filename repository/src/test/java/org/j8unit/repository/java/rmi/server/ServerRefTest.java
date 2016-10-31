@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.rmi.server.ServerRefTests<ServerRef> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.rmi.server.ServerRef], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.ServerRef]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.ServerRef]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.ServerRef]
 
 }

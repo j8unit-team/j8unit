@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLExceptionClassTests<SSLExcepti
         final SSLException sut = null; // = new SSLException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLException]
 
 }

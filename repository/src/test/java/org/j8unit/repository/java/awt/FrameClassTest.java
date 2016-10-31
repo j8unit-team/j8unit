@@ -128,6 +128,8 @@ implements org.j8unit.repository.java.awt.FrameClassTests<Frame> {
         // write some test for {@link java.awt.Frame#getFrames()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Frame]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Frame]
 
 }

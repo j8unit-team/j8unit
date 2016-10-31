@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.math.RoundingModeClassTests<RoundingMode> 
         // write some test for {@link java.math.RoundingMode#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.math.RoundingMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.math.RoundingMode]
 
 }

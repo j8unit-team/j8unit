@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.relation.RoleClassTests<Role> 
         // write some test for {@link javax.management.relation.Role#roleValueToString(java.util.List)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.Role]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.Role]
 
 }

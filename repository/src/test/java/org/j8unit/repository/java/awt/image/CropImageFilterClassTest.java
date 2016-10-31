@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.CropImageFilterClassTests<CropIm
         final CropImageFilter sut = null; // = new CropImageFilter(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.CropImageFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.CropImageFilter]
 
 }

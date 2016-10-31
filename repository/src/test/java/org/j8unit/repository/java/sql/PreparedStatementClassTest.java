@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.PreparedStatementClassTests<PreparedSt
         return PreparedStatement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.PreparedStatement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.PreparedStatement]
 
 }

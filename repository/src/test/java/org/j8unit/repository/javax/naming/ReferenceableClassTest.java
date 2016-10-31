@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ReferenceableClassTests<Referencea
         return Referenceable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.Referenceable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Referenceable]
 
 }

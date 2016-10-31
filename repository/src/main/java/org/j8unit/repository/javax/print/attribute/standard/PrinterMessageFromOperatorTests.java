@@ -105,6 +105,7 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<S
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrinterMessageFromOperator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.PrinterMessageFromOperator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrinterMessageFromOperator]
 }

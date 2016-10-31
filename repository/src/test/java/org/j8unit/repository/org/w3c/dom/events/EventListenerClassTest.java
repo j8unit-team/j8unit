@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.events.EventListenerClassTests<Even
         return EventListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.events.EventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.events.EventListener]
 
 }

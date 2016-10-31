@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.security.AllPermissionClassTests<AllPermis
         final AllPermission sut = null; // = new AllPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AllPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AllPermission]
 
 }

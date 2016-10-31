@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsClassTests<SUT>
                    DynArrayOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynArrayOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynArrayOperations]
 
 }

@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.sql.ClobClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to NClob.class!", NClob.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.NClob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.NClob]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.ConnectionPoolDataSourceClassTests<Co
         return ConnectionPoolDataSource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.ConnectionPoolDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.ConnectionPoolDataSource]
 
 }

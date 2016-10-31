@@ -302,6 +302,8 @@ implements org.j8unit.repository.java.lang.ShortClassTests<Short> {
         // write some test for {@link Short#toUnsignedLong(short)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Short]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Short]
 
 }

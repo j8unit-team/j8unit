@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.DocAttributeClassTests<Do
         return DocAttribute.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.DocAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.DocAttribute]
 
 }

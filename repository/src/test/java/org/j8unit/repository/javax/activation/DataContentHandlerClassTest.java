@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.activation.DataContentHandlerClassTests<D
         return DataContentHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataContentHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataContentHandler]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassTest
                    FileCacheImageInputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.FileCacheImageInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.FileCacheImageInputStream]
 
 }

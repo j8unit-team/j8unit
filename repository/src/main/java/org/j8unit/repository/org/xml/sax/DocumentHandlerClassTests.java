@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DocumentHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.DocumentHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.DocumentHandler]
 
 }

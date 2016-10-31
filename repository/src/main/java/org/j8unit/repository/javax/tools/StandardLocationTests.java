@@ -78,6 +78,7 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests.LocationTests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.StandardLocation]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.StandardLocation]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.StandardLocation]
 }

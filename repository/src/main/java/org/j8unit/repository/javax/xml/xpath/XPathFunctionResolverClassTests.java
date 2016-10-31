@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    XPathFunctionResolver.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathFunctionResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathFunctionResolver]
 
 }

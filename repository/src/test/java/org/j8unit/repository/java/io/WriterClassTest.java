@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.WriterClassTests<Writer> {
         return Writer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Writer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Writer]
 
 }

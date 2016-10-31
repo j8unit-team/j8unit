@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileClassTests<SUT> {
                    ICC_ProfileGray.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ICC_ProfileGray]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ICC_ProfileGray]
 
 }

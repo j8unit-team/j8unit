@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.AbstractSetClassTests<AbstractSet> {
         return AbstractSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractSet]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, o
                    ImplicitActivationPolicyValue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
 
 }

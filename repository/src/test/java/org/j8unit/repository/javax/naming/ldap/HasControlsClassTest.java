@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ldap.HasControlsClassTests<HasCont
         return HasControls.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.HasControls]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.HasControls]
 
 }

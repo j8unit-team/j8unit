@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SAAJMetaFactoryClassTests<SAAJMe
         return SAAJMetaFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SAAJMetaFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SAAJMetaFactory]
 
 }

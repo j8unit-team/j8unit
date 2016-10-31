@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.CORBA.VisibilityHelperClassTests<Visibi
         // write some test for {@link org.omg.CORBA.VisibilityHelper#insert(org.omg.CORBA.Any, short)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.VisibilityHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.VisibilityHelper]
 
 }

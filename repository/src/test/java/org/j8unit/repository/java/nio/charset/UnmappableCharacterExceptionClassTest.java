@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.charset.UnmappableCharacterExceptionCl
         final UnmappableCharacterException sut = null; // = new UnmappableCharacterException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.UnmappableCharacterException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.UnmappableCharacterException]
 
 }

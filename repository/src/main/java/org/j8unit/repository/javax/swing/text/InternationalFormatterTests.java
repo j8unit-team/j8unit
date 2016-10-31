@@ -151,6 +151,28 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.InternationalFormatter#getMaximum()
+     * public java.lang.Comparable javax.swing.text.InternationalFormatter.getMaximum()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.InternationalFormatter#valueToString(Object) public java.lang.String
      * javax.swing.text.InternationalFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
@@ -167,28 +189,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_valueToString_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.InternationalFormatter#getMaximum()
-     * public java.lang.Comparable javax.swing.text.InternationalFormatter.getMaximum()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximum()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -286,6 +286,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.InternationalFormatter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.InternationalFormatter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.InternationalFormatter]
 }

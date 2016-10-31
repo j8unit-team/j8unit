@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBTests<JAXB> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.bind.JAXB], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.JAXB]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.JAXB]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXB]
 
 }

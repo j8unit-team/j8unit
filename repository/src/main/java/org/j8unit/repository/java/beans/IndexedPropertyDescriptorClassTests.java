@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.PropertyDescriptorClassTests<SUT> {
                    IndexedPropertyDescriptor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.IndexedPropertyDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.IndexedPropertyDescriptor]
 
 }

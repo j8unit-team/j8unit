@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyAgreement.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.KeyAgreement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.KeyAgreement]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.chrono.ChronologyClassTests<SUT>, org.j8
                    AbstractChronology.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.AbstractChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.AbstractChronology]
 
 }

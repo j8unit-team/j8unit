@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.security.sasl.SaslExceptionClassTests<Sas
         final SaslException sut = new SaslException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.SaslException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.SaslException]
 
 }

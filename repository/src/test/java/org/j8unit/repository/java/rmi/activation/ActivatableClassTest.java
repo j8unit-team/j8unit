@@ -204,6 +204,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivatableClassTests<Activ
         // write some test for {@link java.rmi.activation.Activatable#unregister(java.rmi.activation.ActivationID)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.Activatable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.Activatable]
 
 }

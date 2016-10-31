@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.renderable.ContextualRenderedIma
         return ContextualRenderedImageFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.ContextualRenderedImageFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.ContextualRenderedImageFactory]
 
 }

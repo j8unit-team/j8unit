@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.GarbageCollectorMXBeanClas
         return GarbageCollectorMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.GarbageCollectorMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.GarbageCollectorMXBean]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.URLStreamHandlerClassTests<URLStreamHa
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLStreamHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLStreamHandler]
 
 }

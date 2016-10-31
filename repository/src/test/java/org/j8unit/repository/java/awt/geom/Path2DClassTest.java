@@ -151,6 +151,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         // double)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Path2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D]
 
     @RunWith(J8Unit4.class)
@@ -274,6 +276,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
             // create new instance
             final Double sut = new Double();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Path2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D$Double]
 
@@ -399,6 +403,8 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
             // create new instance
             final Float sut = new Float();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Path2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D$Float]
 

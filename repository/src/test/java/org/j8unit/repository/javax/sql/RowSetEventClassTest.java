@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.sql.RowSetEventClassTests<RowSetEvent> {
         final RowSetEvent sut = null; // = new RowSetEvent(javax.sql.RowSet);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetEvent]
 
 }

@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.cert.CertStoreExceptionClassTests
         final CertStoreException sut = new CertStoreException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertStoreException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertStoreException]
 
 }

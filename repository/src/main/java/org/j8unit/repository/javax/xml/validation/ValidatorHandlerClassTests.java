@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT>, org.j8u
                    ValidatorHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.validation.ValidatorHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.validation.ValidatorHandler]
 
 }

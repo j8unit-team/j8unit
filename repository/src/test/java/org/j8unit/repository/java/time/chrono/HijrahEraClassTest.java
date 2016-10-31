@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.time.chrono.HijrahEraClassTests<HijrahEra>
         // write some test for {@link java.time.chrono.HijrahEra#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.HijrahEra]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.HijrahEra]
 
 }

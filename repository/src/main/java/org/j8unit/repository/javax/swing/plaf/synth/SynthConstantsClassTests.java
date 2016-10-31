@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SynthConstants.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthConstants]
 
 }

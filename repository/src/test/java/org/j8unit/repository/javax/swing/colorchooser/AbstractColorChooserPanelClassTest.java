@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.colorchooser.AbstractColorChooserPa
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.colorchooser.AbstractColorChooserPanel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.colorchooser.AbstractColorChooserPanel]
 
 }

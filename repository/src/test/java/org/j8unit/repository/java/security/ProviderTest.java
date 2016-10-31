@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.security.ProviderTests<Provider> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.Provider], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Provider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.Provider]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Provider]
 
     @RunWith(J8Unit4.class)
     public static class ServiceTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.security.ProviderTests<Provider> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.Provider.Service], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Provider$Service]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.Provider$Service]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Provider$Service]
 
     }
 

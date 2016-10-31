@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.lang.UnsupportedOperationExceptionTests<SUT> 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.HeadlessException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.HeadlessException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.HeadlessException]
 }

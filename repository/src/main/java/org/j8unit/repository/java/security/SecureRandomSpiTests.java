@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.SecureRandomSpi]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.SecureRandomSpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.SecureRandomSpi]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.SecureRandomSpi]
 }

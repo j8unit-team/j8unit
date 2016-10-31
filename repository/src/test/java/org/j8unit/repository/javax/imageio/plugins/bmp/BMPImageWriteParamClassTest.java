@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamCla
         final BMPImageWriteParam sut = null; // = new BMPImageWriteParam(java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
 
 }

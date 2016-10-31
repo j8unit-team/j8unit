@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.CookieHandlerClassTests<SUT> {
                    CookieManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CookieManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieManager]
 
 }

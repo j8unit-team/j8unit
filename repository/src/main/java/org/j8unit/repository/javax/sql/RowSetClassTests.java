@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.ResultSetClassTests<SUT> {
                    RowSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSet]
 
 }

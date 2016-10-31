@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.StandardConstantsClassTests<Stand
         return StandardConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.StandardConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.StandardConstants]
 
 }

@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.nio.channels.SocketChannelClassTests<Socke
         // write some test for {@link java.nio.channels.SocketChannel#open(java.net.SocketAddress)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.SocketChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.SocketChannel]
 
 }

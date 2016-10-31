@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_TYPECODEClassTests<BAD_TYPECO
         final BAD_TYPECODE sut = new BAD_TYPECODE();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_TYPECODE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_TYPECODE]
 
 }

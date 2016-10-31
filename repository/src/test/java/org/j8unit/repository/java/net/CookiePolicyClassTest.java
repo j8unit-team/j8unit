@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.CookiePolicyClassTests<CookiePolicy> {
         return CookiePolicy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CookiePolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookiePolicy]
 
 }

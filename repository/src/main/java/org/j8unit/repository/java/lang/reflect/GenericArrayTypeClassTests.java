@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT> {
                    GenericArrayType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.GenericArrayType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.GenericArrayType]
 
 }

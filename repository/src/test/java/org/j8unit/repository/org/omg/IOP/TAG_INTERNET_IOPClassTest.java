@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_INTERNET_IOPClassTests<TAG_INTE
         return TAG_INTERNET_IOP.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_INTERNET_IOP]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_INTERNET_IOP]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Checkbox>, org.j8unit.repository.java.awt.Chec
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Checkbox]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Checkbox]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Checkbox]
 
 }

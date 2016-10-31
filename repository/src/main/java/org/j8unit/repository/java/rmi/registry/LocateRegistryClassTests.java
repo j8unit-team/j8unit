@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    LocateRegistry.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.registry.LocateRegistry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.registry.LocateRegistry]
 
 }

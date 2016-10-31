@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Observable>, org.j8unit.repository.java.util.O
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Observable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Observable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Observable]
 
 }

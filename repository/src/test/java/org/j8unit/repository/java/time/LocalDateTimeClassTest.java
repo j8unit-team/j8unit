@@ -104,6 +104,26 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.LocalDateTime#now(java.time.ZoneId) public
+     * static java.time.LocalDateTime java.time.LocalDateTime.now(java.time.ZoneId)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_now_ZoneId()
+    throws Exception {
+        // write some test for {@link java.time.LocalDateTime#now(java.time.ZoneId)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.LocalDateTime#now(java.time.Clock) public
      * static java.time.LocalDateTime java.time.LocalDateTime.now(java.time.Clock)}.
      *
@@ -124,8 +144,9 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.LocalDateTime#now(java.time.ZoneId) public
-     * static java.time.LocalDateTime java.time.LocalDateTime.now(java.time.ZoneId)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.LocalDateTime#of(int, int, int, int, int, int) public static java.time.LocalDateTime
+     * java.time.LocalDateTime.of(int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -137,9 +158,9 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now_ZoneId()
+    public void test_of_int_int_int_int_int_int()
     throws Exception {
-        // write some test for {@link java.time.LocalDateTime#now(java.time.ZoneId)}
+        // write some test for {@link java.time.LocalDateTime#of(int, int, int, int, int, int)}
     }
 
     /**
@@ -187,8 +208,8 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.LocalDateTime#of(int, java.time.Month, int, int, int, int, int) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int,int,int)}.
+     * {@link java.time.LocalDateTime#of(int, int, int, int, int, int, int) public static java.time.LocalDateTime
+     * java.time.LocalDateTime.of(int,int,int,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -200,9 +221,9 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_of_int_Month_int_int_int_int_int()
+    public void test_of_int_int_int_int_int_int_int()
     throws Exception {
-        // write some test for {@link java.time.LocalDateTime#of(int, java.time.Month, int, int, int, int, int)}
+        // write some test for {@link java.time.LocalDateTime#of(int, int, int, int, int, int, int)}
     }
 
     /**
@@ -228,48 +249,6 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.LocalDateTime#of(int, int, int, int, int, int, int) public static java.time.LocalDateTime
-     * java.time.LocalDateTime.of(int,int,int,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_of_int_int_int_int_int_int_int()
-    throws Exception {
-        // write some test for {@link java.time.LocalDateTime#of(int, int, int, int, int, int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.LocalDateTime#of(int, int, int, int, int, int) public static java.time.LocalDateTime
-     * java.time.LocalDateTime.of(int,int,int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_of_int_int_int_int_int_int()
-    throws Exception {
-        // write some test for {@link java.time.LocalDateTime#of(int, int, int, int, int, int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.LocalDateTime#of(int, int, int, int, int)
      * public static java.time.LocalDateTime java.time.LocalDateTime.of(int,int,int,int,int)}.
      *
@@ -286,6 +265,47 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
     public void test_of_int_int_int_int_int()
     throws Exception {
         // write some test for {@link java.time.LocalDateTime#of(int, int, int, int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.LocalDateTime#of(int, java.time.Month, int, int, int, int, int) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_of_int_Month_int_int_int_int_int()
+    throws Exception {
+        // write some test for {@link java.time.LocalDateTime#of(int, java.time.Month, int, int, int, int, int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.LocalDateTime#parse(CharSequence) public
+     * static java.time.LocalDateTime java.time.LocalDateTime.parse(java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_parse_CharSequence()
+    throws Exception {
+        // write some test for {@link java.time.LocalDateTime#parse(CharSequence)}
     }
 
     /**
@@ -310,25 +330,7 @@ implements org.j8unit.repository.java.time.LocalDateTimeClassTests<LocalDateTime
         // write some test for {@link java.time.LocalDateTime#parse(CharSequence, java.time.format.DateTimeFormatter)}
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.LocalDateTime#parse(CharSequence) public
-     * static java.time.LocalDateTime java.time.LocalDateTime.parse(java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_parse_CharSequence()
-    throws Exception {
-        // write some test for {@link java.time.LocalDateTime#parse(CharSequence)}
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.LocalDateTime]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.LocalDateTime]
 

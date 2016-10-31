@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.AttributeModificationExc
         final AttributeModificationException sut = new AttributeModificationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.AttributeModificationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.AttributeModificationException]
 
 }

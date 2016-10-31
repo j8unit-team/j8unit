@@ -77,6 +77,7 @@ extends org.j8unit.repository.org.xml.sax.XMLReaderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.XMLFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.XMLFilter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.XMLFilter]
 }

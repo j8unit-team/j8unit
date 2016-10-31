@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerClassTests<SUT> {
                    WindowPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.WindowPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.WindowPeer]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.text.CompositeViewClassTests<Compos
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.CompositeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.CompositeView]
 
 }

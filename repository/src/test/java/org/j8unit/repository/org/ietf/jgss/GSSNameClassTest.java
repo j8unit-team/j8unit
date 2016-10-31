@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.ietf.jgss.GSSNameClassTests<GSSName> {
         return GSSName.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSName]
 
 }

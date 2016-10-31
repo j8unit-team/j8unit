@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    ArithmeticException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ArithmeticException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ArithmeticException]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.event.ListSelectionEventClassTests<
         final ListSelectionEvent sut = null; // = new ListSelectionEvent(Object, int, int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ListSelectionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ListSelectionEvent]
 
 }

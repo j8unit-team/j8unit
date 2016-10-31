@@ -317,6 +317,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.Relation]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.Relation]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.Relation]
 }

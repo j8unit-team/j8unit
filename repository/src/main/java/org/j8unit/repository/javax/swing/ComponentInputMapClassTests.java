@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.InputMapClassTests<SUT> {
                    ComponentInputMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ComponentInputMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ComponentInputMap]
 
 }

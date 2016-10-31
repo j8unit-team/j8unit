@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.CannotProceedExceptionClassTests<C
         final CannotProceedException sut = null; // = new CannotProceedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.CannotProceedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.CannotProceedException]
 
 }

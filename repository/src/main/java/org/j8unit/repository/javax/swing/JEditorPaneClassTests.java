@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
                    JEditorPane.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JEditorPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JEditorPane]
 
 }

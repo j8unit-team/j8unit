@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.security.PrivateKeyTests<SUT>, org.j8unit.rep
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.ECPrivateKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.interfaces.ECPrivateKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.ECPrivateKey]
 }

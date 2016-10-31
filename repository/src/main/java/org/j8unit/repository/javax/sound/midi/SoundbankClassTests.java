@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Soundbank.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Soundbank]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Soundbank]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
                    Bindings.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.Bindings]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.Bindings]
 
 }

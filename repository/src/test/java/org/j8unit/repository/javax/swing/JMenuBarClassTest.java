@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.JMenuBarClassTests<JMenuBar> {
         final JMenuBar sut = new JMenuBar();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JMenuBar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JMenuBar]
 
 }

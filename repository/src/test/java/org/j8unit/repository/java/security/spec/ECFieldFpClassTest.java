@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.ECFieldFpClassTests<ECFieldF
         final ECFieldFp sut = null; // = new ECFieldFp(java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECFieldFp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECFieldFp]
 
 }

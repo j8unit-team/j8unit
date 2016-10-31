@@ -161,6 +161,7 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContext]
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.IllegalChannelGroupExceptionC
         final IllegalChannelGroupException sut = new IllegalChannelGroupException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.IllegalChannelGroupException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.IllegalChannelGroupException]
 
 }

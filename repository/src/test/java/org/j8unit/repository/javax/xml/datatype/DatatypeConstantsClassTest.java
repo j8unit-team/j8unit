@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests<
         return DatatypeConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConstants]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests<
         public Class<Field> createNewSUT() {
             return Field.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeConstants$Field]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConstants$Field]
 

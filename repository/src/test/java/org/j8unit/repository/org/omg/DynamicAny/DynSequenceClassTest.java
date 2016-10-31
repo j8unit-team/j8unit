@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynSequenceClassTests<DynSeq
         return DynSequence.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynSequence]
 
 }

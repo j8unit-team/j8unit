@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    BadBinaryOpValueExpException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.BadBinaryOpValueExpException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadBinaryOpValueExpException]
 
 }

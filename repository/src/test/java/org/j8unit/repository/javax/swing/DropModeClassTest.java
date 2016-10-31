@@ -59,6 +59,8 @@ implements org.j8unit.repository.javax.swing.DropModeClassTests<DropMode> {
         // write some test for {@link javax.swing.DropMode#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DropMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DropMode]
 
 }

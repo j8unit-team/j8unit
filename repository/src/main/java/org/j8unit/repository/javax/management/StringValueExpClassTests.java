@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.ValueExpClassTests<SUT>, org.j8un
                    StringValueExp.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.StringValueExp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.StringValueExp]
 
 }

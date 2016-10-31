@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
                    AbstractMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap]
 
     /**
@@ -133,6 +135,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SimpleImmutableEntry.class!",
                               SimpleImmutableEntry.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
 
@@ -199,6 +203,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SimpleEntry.class!",
                               SimpleEntry.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
 

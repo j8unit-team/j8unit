@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTest
                    SignatureMethodParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec]
 
 }

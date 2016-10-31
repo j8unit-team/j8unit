@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ldap.StartTlsResponseClassTests<St
         return StartTlsResponse.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.StartTlsResponse]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.StartTlsResponse]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.lang.model.type.MirroredTypeExceptionTest
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.lang.model.type.MirroredTypeException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.type.MirroredTypeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.type.MirroredTypeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.MirroredTypeException]
 
 }

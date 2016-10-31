@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.util.regex.MatcherClassTests<Matcher> {
         // write some test for {@link java.util.regex.Matcher#quoteReplacement(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.regex.Matcher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.regex.Matcher]
 
 }

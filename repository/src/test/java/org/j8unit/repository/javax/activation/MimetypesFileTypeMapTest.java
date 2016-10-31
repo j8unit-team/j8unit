@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MimetypesFileTypeMap>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
 
 }

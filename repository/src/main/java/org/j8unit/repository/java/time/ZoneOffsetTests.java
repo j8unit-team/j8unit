@@ -336,6 +336,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, ZoneOffset>, org.j8unit.rep
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.ZoneOffset]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.ZoneOffset]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.ZoneOffset]
 }

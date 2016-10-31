@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.MBeanServerClassTests<MBeanSer
         return MBeanServer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServer]
 
 }

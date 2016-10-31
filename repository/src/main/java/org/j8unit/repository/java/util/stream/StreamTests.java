@@ -427,6 +427,28 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, T, Stream<T>
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#findAny() public abstract
+     * java.util.Optional<T> java.util.stream.Stream.findAny()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findAny()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.Stream#noneMatch(java.util.function.Predicate) public abstract boolean
      * java.util.stream.Stream.noneMatch(java.util.function.Predicate<? super T>)}.
@@ -442,28 +464,6 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, T, Stream<T>
     @Test
     @Category(Draft.class)
     public default void test_noneMatch_Predicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.stream.Stream#findAny() public abstract
-     * java.util.Optional<T> java.util.stream.Stream.findAny()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findAny()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -766,8 +766,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, T, Stream<T>
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Stream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.Stream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Stream]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -861,8 +862,9 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, T, Stream<T>
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Stream$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.Stream$Builder]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Stream$Builder]
     }
 
 }

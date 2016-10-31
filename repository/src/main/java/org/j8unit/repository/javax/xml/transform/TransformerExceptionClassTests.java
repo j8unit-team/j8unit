@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    TransformerException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.TransformerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.TransformerException]
 
 }

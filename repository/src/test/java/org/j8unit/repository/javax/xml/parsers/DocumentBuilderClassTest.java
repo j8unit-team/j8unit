@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.parsers.DocumentBuilderClassTests<Doc
         return DocumentBuilder.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.parsers.DocumentBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.DocumentBuilder]
 
 }

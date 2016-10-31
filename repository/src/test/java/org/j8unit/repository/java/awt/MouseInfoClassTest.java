@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.awt.MouseInfoClassTests<MouseInfo> {
         // write some test for {@link java.awt.MouseInfo#getPointerInfo()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MouseInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MouseInfo]
 
 }

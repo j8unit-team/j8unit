@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.PlatformManagedObjectClass
         return PlatformManagedObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.PlatformManagedObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.PlatformManagedObject]
 
 }

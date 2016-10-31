@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.events.CommentClassTests<Comme
         return Comment.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.Comment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.Comment]
 
 }

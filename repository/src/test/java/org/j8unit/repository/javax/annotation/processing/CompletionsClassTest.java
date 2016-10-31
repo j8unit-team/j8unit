@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.annotation.processing.CompletionsClassTes
         // write some test for {@link javax.annotation.processing.Completions#of(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Completions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Completions]
 
 }

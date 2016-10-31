@@ -261,6 +261,8 @@ implements org.j8unit.repository.java.util.ObjectsClassTests<Objects> {
         // write some test for {@link java.util.Objects#nonNull(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Objects]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Objects]
 
 }

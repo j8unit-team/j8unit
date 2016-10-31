@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.image.ImageFilterClassTests<ImageFilte
         final ImageFilter sut = new ImageFilter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ImageFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ImageFilter]
 
 }

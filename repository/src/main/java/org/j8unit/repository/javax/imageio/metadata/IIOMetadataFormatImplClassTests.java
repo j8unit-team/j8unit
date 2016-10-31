@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatClassTests
                    IIOMetadataFormatImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.metadata.IIOMetadataFormatImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOMetadataFormatImpl]
 
 }

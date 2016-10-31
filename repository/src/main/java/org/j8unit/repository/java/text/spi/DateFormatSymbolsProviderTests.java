@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.spi.DateFormatSymbolsProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.spi.DateFormatSymbolsProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.spi.DateFormatSymbolsProvider]
 }

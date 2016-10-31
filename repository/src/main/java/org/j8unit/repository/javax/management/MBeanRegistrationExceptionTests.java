@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.management.MBeanExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanRegistrationException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanRegistrationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanRegistrationException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanRegistrationException]
 }

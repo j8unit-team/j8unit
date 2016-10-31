@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.MappedByteBufferClassTests<MappedByteB
         return MappedByteBuffer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.MappedByteBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.MappedByteBuffer]
 
 }

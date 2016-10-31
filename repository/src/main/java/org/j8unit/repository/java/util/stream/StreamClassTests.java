@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
                    Stream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.Stream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Stream]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Builder.class!",
                               Builder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.Stream$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Stream$Builder]
 

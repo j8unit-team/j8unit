@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerTests<Unmarshaller> 
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.bind.Unmarshaller], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.Unmarshaller]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.Unmarshaller]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.Unmarshaller]
 
     @RunWith(J8Unit4.class)
     public static class ListenerTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerTests<Unmarshaller> 
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.bind.Unmarshaller.Listener], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.Unmarshaller$Listener]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.Unmarshaller$Listener]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.Unmarshaller$Listener]
 
     }
 

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyStoreSpi.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStoreSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStoreSpi]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SaslClient.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.SaslClient]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.SaslClient]
 
 }

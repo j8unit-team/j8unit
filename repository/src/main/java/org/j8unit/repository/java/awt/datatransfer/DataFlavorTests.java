@@ -767,6 +767,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
 }

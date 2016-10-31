@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.util.concurrent.FutureTaskClassTests<Futur
         final FutureTask sut = null; // = new FutureTask(Runnable, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.FutureTask]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.FutureTask]
 
 }

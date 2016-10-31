@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.colorchooser.ColorSelectionModelCla
         return ColorSelectionModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.colorchooser.ColorSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.colorchooser.ColorSelectionModel]
 
 }

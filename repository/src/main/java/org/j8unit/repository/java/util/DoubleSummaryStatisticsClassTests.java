@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerClassTests<SUT>, 
                    DoubleSummaryStatistics.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.DoubleSummaryStatistics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.DoubleSummaryStatistics]
 
 }

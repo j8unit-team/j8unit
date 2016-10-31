@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelClassTests<SU
                    AsynchronousFileChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AsynchronousFileChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousFileChannel]
 
 }

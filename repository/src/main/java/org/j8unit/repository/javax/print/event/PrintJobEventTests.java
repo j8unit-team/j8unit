@@ -76,6 +76,7 @@ extends org.j8unit.repository.javax.print.event.PrintEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.event.PrintJobEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.event.PrintJobEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.event.PrintJobEvent]
 }

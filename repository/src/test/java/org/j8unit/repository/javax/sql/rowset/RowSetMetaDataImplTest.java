@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RowSetMetaDataImpl>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetMetaDataImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.RowSetMetaDataImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.RowSetMetaDataImpl]
 
 }

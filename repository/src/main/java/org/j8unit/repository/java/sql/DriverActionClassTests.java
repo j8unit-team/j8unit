@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DriverAction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DriverAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DriverAction]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    WebParam.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebParam]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Mode.class!",
                               Mode.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebParam$Mode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebParam$Mode]
 

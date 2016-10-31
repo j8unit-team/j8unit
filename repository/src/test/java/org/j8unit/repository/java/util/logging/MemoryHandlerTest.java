@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MemoryHandler>, org.j8unit.repository.java.uti
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.MemoryHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.logging.MemoryHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.MemoryHandler]
 
 }

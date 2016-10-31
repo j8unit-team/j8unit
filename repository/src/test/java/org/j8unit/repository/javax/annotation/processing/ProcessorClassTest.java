@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.ProcessorClassTests
         return Processor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Processor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Processor]
 
 }

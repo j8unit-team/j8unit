@@ -101,6 +101,7 @@ extends org.j8unit.repository.javax.naming.ldap.ControlTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.BasicControl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.BasicControl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.BasicControl]
 }

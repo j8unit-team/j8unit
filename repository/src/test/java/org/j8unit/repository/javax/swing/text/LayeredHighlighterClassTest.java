@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<L
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.LayeredHighlighter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LayeredHighlighter]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<L
         throws Exception {
             Assert.fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.LayeredHighlighter$LayerPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LayeredHighlighter$LayerPainter]
 

@@ -176,6 +176,8 @@ implements org.j8unit.repository.java.net.URLClassTests<URL> {
         // write some test for {@link java.net.URL#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URL]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URL]
 
 }

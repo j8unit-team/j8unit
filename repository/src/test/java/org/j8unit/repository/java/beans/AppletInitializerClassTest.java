@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.AppletInitializerClassTests<AppletIn
         return AppletInitializer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.AppletInitializer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.AppletInitializer]
 
 }

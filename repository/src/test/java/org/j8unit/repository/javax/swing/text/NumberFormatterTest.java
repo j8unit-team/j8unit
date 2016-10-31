@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NumberFormatter>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NumberFormatter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.NumberFormatter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.NumberFormatter]
 
 }

@@ -134,6 +134,8 @@ implements org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionClass
         final LambdaConversionException sut = new LambdaConversionException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.LambdaConversionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.LambdaConversionException]
 
 }

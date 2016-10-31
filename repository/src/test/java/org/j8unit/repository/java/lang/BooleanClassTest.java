@@ -262,6 +262,8 @@ implements org.j8unit.repository.java.lang.BooleanClassTests<Boolean> {
         // write some test for {@link Boolean#valueOf(boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Boolean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Boolean]
 
 }

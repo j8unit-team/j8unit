@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.WindowStateListenerClassTests<Wi
         return WindowStateListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.WindowStateListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.WindowStateListener]
 
 }

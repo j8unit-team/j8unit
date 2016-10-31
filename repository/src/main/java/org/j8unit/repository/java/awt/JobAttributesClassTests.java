@@ -73,6 +73,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    JobAttributes.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes]
 
     /**
@@ -135,6 +137,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SidesType.class!",
                               SidesType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$SidesType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$SidesType]
 
@@ -201,6 +205,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                               DialogType.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$DialogType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$DialogType]
 
     }
@@ -265,6 +271,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DestinationType.class!",
                               DestinationType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$DestinationType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$DestinationType]
 
@@ -332,6 +340,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                               MultipleDocumentHandlingType.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
     }
@@ -396,6 +406,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DefaultSelectionType.class!",
                               DefaultSelectionType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
 

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClass
         final DefaultTableCellRenderer sut = new DefaultTableCellRenderer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClass
             // create new instance
             final UIResource sut = new UIResource();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 

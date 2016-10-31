@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderClassTests<
         final WrongTransactionHolder sut = new WrongTransactionHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.WrongTransactionHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WrongTransactionHolder]
 
 }

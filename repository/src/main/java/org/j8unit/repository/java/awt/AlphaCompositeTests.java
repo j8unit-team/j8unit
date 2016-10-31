@@ -191,6 +191,7 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AlphaComposite]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.AlphaComposite]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AlphaComposite]
 }

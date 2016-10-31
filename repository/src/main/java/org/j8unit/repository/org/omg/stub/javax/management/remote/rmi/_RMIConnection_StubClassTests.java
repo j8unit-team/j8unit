@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionClassTest
                    _RMIConnection_Stub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]
 
 }

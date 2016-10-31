@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<I
         return InvocationHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.InvocationHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.InvocationHandler]
 
 }

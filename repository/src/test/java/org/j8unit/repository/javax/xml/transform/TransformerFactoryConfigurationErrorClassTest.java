@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigura
         final TransformerFactoryConfigurationError sut = new TransformerFactoryConfigurationError();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.TransformerFactoryConfigurationError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.TransformerFactoryConfigurationError]
 
 }

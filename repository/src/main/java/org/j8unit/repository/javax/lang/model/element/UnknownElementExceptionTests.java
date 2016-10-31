@@ -78,6 +78,7 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.UnknownElementException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.UnknownElementException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.UnknownElementException]
 }

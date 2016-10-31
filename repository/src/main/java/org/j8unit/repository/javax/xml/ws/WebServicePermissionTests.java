@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.WebServicePermission]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServicePermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.WebServicePermission]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.WebServicePermission]
 }

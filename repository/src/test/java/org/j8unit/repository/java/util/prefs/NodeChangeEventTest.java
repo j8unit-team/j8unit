@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.prefs.NodeChangeEventTests<NodeChange
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.prefs.NodeChangeEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.prefs.NodeChangeEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.prefs.NodeChangeEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.prefs.NodeChangeEvent]
 
 }

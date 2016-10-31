@@ -126,6 +126,7 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.sax.TransformerHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.sax.TransformerHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.sax.TransformerHandler]
 }

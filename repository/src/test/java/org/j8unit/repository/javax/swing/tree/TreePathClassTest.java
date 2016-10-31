@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.tree.TreePathClassTests<TreePath> {
         final TreePath sut = null; // = new TreePath(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreePath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreePath]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
                    ItemEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ItemEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ItemEvent]
 
 }

@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.security.SignedObjectClassTests<SignedObje
                                        // java.security.Signature);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SignedObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SignedObject]
 
 }

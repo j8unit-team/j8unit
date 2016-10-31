@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.charset.CharsetDecoderClassTests<Chars
         return CharsetDecoder.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.CharsetDecoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.CharsetDecoder]
 
 }

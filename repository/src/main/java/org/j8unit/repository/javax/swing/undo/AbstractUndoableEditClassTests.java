@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AbstractUndoableEdit.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.AbstractUndoableEdit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.AbstractUndoableEdit]
 
 }

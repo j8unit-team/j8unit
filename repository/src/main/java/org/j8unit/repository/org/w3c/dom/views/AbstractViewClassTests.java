@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AbstractView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.views.AbstractView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.views.AbstractView]
 
 }

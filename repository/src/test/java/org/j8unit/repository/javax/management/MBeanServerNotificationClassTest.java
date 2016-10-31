@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.management.MBeanServerNotificationClassTe
                                                   // javax.management.ObjectName);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerNotification]
 
 }

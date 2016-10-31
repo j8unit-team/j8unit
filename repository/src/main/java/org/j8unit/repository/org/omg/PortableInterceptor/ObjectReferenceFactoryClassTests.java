@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests<SUT> {
                    ObjectReferenceFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactory]
 
 }

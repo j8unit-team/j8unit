@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.geom.Path2DClassTests.FloatClassTests<SUT
                    GeneralPath.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.GeneralPath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.GeneralPath]
 
 }

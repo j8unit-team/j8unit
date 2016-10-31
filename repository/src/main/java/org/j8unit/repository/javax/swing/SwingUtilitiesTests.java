@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingUtilities]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SwingUtilities]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SwingUtilities]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SwingUtilities]
 }

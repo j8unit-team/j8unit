@@ -72,6 +72,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                    JComboBox.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComboBox]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComboBox]
 
     /**
@@ -133,6 +135,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to KeySelectionManager.class!",
                               KeySelectionManager.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JComboBox$KeySelectionManager]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComboBox$KeySelectionManager]
 

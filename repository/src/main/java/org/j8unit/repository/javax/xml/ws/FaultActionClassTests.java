@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    FaultAction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.FaultAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.FaultAction]
 
 }

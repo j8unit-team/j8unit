@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ContextClassTests<SUT> {
                    EventContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.EventContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.EventContext]
 
 }

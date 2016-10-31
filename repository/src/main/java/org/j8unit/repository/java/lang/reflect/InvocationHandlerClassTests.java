@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    InvocationHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.InvocationHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.InvocationHandler]
 
 }

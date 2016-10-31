@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.ExceptionListenerClassTests<Exceptio
         return ExceptionListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.ExceptionListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.ExceptionListener]
 
 }

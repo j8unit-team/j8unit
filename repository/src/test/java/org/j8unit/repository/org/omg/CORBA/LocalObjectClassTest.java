@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA.LocalObjectClassTests<LocalObject
         final LocalObject sut = new LocalObject();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.LocalObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.LocalObject]
 
 }

@@ -425,8 +425,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -452,8 +453,9 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
     }
 
 }

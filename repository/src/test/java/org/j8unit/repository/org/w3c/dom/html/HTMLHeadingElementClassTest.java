@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLHeadingElementClassTests<H
         return HTMLHeadingElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLHeadingElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLHeadingElement]
 
 }

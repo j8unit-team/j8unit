@@ -56,6 +56,7 @@ extends org.j8unit.repository.java.awt.FocusTraversalPolicyTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.InternalFrameFocusTraversalPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.InternalFrameFocusTraversalPolicy]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.InternalFrameFocusTraversalPolicy]
 }

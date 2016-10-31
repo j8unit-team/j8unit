@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AccessibleTextSequence.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleTextSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleTextSequence]
 
 }

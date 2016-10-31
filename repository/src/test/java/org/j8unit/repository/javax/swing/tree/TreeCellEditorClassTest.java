@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests<TreeC
         return TreeCellEditor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeCellEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeCellEditor]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.TextSyntaxClassTests<Text
         return TextSyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.TextSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.TextSyntax]
 
 }

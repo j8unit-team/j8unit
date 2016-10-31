@@ -69,6 +69,8 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
                    Finishings.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Finishings]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Finishings]
 
 }

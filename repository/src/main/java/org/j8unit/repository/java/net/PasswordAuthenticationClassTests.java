@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    PasswordAuthentication.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.PasswordAuthentication]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.PasswordAuthentication]
 
 }

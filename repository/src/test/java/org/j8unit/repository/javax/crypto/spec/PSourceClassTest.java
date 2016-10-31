@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<PSource> {
         return PSource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.PSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PSource]
 
     @RunWith(J8Unit4.class)
@@ -55,6 +57,8 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<PSource> {
             @SuppressWarnings("unused")
             final PSpecified sut = null; // = new PSpecified(byte[]);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.PSource$PSpecified]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PSource$PSpecified]
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.FlushableClassTests<Flushable> {
         return Flushable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Flushable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Flushable]
 
 }

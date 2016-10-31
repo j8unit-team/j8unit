@@ -70,6 +70,8 @@ extends RepositoryClassTests<SUT> {
                    Highlighter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Highlighter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Highlighter]
 
     /**
@@ -131,6 +133,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Highlight.class!",
                               Highlight.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Highlighter$Highlight]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Highlighter$Highlight]
 
@@ -195,6 +199,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to HighlightPainter.class!",
                               HighlightPainter.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Highlighter$HighlightPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Highlighter$HighlightPainter]
 

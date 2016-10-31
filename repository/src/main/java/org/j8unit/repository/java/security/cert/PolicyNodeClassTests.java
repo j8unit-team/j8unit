@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PolicyNode.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PolicyNode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PolicyNode]
 
 }

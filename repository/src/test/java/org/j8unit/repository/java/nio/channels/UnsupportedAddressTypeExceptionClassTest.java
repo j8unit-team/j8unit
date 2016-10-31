@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.UnsupportedAddressTypeExcepti
         final UnsupportedAddressTypeException sut = new UnsupportedAddressTypeException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.UnsupportedAddressTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.UnsupportedAddressTypeException]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
                    FormSubmitEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.FormSubmitEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormSubmitEvent]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MethodType.class!",
                               MethodType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 

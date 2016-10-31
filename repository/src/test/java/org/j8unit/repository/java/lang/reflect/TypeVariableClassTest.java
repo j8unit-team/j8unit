@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.reflect.TypeVariableClassTests<TypeVa
         return TypeVariable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.TypeVariable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.TypeVariable]
 
 }

@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ServantAlreadyActiveHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
 
 }

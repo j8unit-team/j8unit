@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.MBeanServerConnectionClassTest
         return MBeanServerConnection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerConnection]
 
 }

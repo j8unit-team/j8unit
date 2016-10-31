@@ -487,6 +487,7 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.ElementKindVisitor6]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.ElementKindVisitor6]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.ElementKindVisitor6]
 }

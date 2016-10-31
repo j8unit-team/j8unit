@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.management.MemoryManagerMXBeanClassTests
                    GarbageCollectorMXBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.GarbageCollectorMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.GarbageCollectorMXBean]
 
 }

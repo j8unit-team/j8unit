@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JWindow>, org.j8unit.repository.javax.swing.JW
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JWindow]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JWindow]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JWindow]
 
 }

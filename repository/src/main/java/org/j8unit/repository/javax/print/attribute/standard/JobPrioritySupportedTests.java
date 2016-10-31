@@ -104,6 +104,7 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTest
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobPrioritySupported]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.JobPrioritySupported]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobPrioritySupported]
 }

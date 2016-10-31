@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.jar.JarInputStreamClassTests<JarInput
         final JarInputStream sut = null; // = new JarInputStream(java.io.InputStream, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.JarInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarInputStream]
 
 }

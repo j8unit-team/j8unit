@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidName>, org.j8unit.repository.org.omg.CO
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InvalidName]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InvalidName]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InvalidName]
 
 }

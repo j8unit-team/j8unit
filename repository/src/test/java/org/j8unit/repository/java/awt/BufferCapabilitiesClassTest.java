@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests<BufferCap
                                              // java.awt.ImageCapabilities, java.awt.BufferCapabilities.FlipContents);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.BufferCapabilities]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BufferCapabilities]
 
     @RunWith(J8Unit4.class)
@@ -57,6 +59,8 @@ implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests<BufferCap
         public Class<FlipContents> createNewSUT() {
             return FlipContents.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.BufferCapabilities$FlipContents]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BufferCapabilities$FlipContents]
 

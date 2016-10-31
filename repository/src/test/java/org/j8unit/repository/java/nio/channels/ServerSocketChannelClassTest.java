@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.nio.channels.ServerSocketChannelClassTests
         // write some test for {@link java.nio.channels.ServerSocketChannel#open()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ServerSocketChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ServerSocketChannel]
 
 }

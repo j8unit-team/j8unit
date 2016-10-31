@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.filechooser.FileSystemViewClassTest
         // write some test for {@link javax.swing.filechooser.FileSystemView#getFileSystemView()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.filechooser.FileSystemView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.filechooser.FileSystemView]
 
 }

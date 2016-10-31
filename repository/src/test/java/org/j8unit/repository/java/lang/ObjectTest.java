@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<Object>, org.j8unit.repository.java.lang.Objec
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Object]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Object]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Object]
 
 }

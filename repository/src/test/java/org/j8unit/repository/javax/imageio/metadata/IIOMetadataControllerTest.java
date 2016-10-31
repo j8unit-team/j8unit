@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataControllerTes
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.imageio.metadata.IIOMetadataController], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataController]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataController]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataController]
 
 }

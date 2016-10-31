@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.net.SocketPermissionClassTests<SocketPermi
         final SocketPermission sut = null; // = new SocketPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketPermission]
 
 }

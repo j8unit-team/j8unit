@@ -65,6 +65,8 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Byte.class!", Byte.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Byte]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Byte]
 
 }

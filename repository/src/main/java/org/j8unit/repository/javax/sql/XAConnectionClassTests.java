@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.PooledConnectionClassTests<SUT> {
                    XAConnection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.XAConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.XAConnection]
 
 }

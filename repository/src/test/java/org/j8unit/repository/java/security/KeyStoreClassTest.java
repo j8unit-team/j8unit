@@ -113,6 +113,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         // write some test for {@link java.security.KeyStore#getDefaultType()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore]
 
     @RunWith(J8Unit4.class)
@@ -175,6 +177,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
                                               // java.security.cert.Certificate[], java.util.Set);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
 
     }
@@ -235,6 +239,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
             @SuppressWarnings("unused")
             final SecretKeyEntry sut = null; // = new SecretKeyEntry(javax.crypto.SecretKey, java.util.Set);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
 
@@ -320,6 +326,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
             // java.security.KeyStore.ProtectionParameter)}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Builder]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Builder]
 
     }
@@ -335,6 +343,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
             return Entry.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Entry]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Entry]
 
         @RunWith(J8Unit4.class)
@@ -347,6 +357,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
             public Class<Attribute> createNewSUT() {
                 return Attribute.class;
             }
+
+            // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Entry$Attribute]
 
             // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Entry$Attribute]
 
@@ -413,6 +425,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
                                                       // java.util.Set);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
 
     }
@@ -476,6 +490,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
                                                  // java.security.spec.AlgorithmParameterSpec);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$PasswordProtection]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$PasswordProtection]
 
     }
@@ -491,6 +507,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
             return LoadStoreParameter.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$LoadStoreParameter]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$LoadStoreParameter]
 
     }
@@ -505,6 +523,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         public Class<ProtectionParameter> createNewSUT() {
             return ProtectionParameter.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$ProtectionParameter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$ProtectionParameter]
 
@@ -544,6 +564,8 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
             final CallbackHandlerProtection sut = null; // = new
                                                         // CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.MulticastChannelClassTests<Mu
         return MulticastChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.MulticastChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.MulticastChannel]
 
 }

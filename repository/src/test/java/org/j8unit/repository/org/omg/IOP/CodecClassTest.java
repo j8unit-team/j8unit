@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecClassTests<Codec> {
         return Codec.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.Codec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.Codec]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<SUT> {
                    LifespanPolicyOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.LifespanPolicyOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.LifespanPolicyOperations]
 
 }

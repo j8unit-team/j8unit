@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SimpleFormatter>, org.j8unit.repository.java.u
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.SimpleFormatter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.logging.SimpleFormatter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.SimpleFormatter]
 
 }

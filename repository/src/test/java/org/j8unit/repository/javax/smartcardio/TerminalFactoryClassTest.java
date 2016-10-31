@@ -129,6 +129,8 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactoryClassTests<Ter
         // write some test for {@link javax.smartcardio.TerminalFactory#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.TerminalFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.TerminalFactory]
 
 }

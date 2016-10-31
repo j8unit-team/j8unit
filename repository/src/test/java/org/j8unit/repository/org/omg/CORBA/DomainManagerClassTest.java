@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DomainManagerClassTests<DomainMan
         return DomainManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DomainManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DomainManager]
 
 }

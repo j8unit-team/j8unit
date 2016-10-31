@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SocketTimeoutException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.SocketTimeoutException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.SocketTimeoutException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketTimeoutException]
 
 }

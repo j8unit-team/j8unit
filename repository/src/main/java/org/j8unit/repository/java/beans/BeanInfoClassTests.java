@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BeanInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.BeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.BeanInfo]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT
                    NoPermissionException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NoPermissionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NoPermissionException]
 
 }

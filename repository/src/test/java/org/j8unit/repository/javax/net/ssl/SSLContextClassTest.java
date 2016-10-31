@@ -125,6 +125,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextClassTests<SSLContext> 
         // write some test for {@link javax.net.ssl.SSLContext#setDefault(javax.net.ssl.SSLContext)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLContext]
 
 }

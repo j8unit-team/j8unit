@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ObjectFactoryBuilder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.ObjectFactoryBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.ObjectFactoryBuilder]
 
 }

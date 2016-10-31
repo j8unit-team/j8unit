@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.text.TabExpanderClassTests<TabExpan
         return TabExpander.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TabExpander]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TabExpander]
 
 }

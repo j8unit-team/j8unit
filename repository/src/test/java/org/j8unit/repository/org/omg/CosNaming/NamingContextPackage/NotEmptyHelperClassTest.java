@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmpty
         // org.omg.CosNaming.NamingContextPackage.NotEmptyHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]
 
 }

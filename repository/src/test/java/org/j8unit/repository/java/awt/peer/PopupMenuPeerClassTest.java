@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.PopupMenuPeerClassTests<PopupMenu
         return PopupMenuPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.PopupMenuPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.PopupMenuPeer]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                    JProgressBar.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JProgressBar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JProgressBar]
 
 }

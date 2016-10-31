@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.annotation.RepeatableClassTests<Repea
         return Repeatable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Repeatable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.Repeatable]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.concurrent.ExchangerClassTests<Exchan
         final Exchanger sut = new Exchanger();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Exchanger]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Exchanger]
 
 }

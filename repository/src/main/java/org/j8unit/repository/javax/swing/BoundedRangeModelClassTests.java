@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BoundedRangeModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.BoundedRangeModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.BoundedRangeModel]
 
 }

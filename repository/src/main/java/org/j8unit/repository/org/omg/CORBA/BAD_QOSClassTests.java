@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    BAD_QOS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_QOS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_QOS]
 
 }

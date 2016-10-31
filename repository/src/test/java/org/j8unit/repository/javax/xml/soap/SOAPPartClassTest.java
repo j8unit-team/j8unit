@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPPartClassTests<SOAPPart> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPPart]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPPart]
 
 }

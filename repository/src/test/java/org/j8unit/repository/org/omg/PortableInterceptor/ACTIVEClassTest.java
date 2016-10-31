@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ACTIVEClassTests<AC
         return ACTIVE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ACTIVE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ACTIVE]
 
 }

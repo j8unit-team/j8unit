@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
                    BaseStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.BaseStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.BaseStream]
 
 }

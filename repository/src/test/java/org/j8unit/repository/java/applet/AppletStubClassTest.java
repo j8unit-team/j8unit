@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.applet.AppletStubClassTests<AppletStub> {
         return AppletStub.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.AppletStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.AppletStub]
 
 }

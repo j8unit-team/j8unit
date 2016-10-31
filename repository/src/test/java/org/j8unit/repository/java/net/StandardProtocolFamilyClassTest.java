@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.net.StandardProtocolFamilyClassTests<Stand
         // write some test for {@link java.net.StandardProtocolFamily#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.StandardProtocolFamily]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.StandardProtocolFamily]
 
 }

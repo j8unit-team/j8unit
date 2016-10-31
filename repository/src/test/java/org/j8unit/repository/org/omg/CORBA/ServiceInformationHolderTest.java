@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ServiceInformationHolder>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ServiceInformationHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.ServiceInformationHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.ServiceInformationHolder]
 
 }

@@ -261,6 +261,7 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Date]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.Date]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Date]
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ReadWriteLock.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReadWriteLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReadWriteLock]
 
 }

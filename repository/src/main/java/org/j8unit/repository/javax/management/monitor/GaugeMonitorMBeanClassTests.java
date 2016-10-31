@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests<SU
                    GaugeMonitorMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.GaugeMonitorMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.GaugeMonitorMBean]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.NameNotFoundExceptionClassTests<Na
         final NameNotFoundException sut = new NameNotFoundException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NameNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NameNotFoundException]
 
 }

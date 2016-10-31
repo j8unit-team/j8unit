@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsClas
         return DynValueCommonOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynValueCommonOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynValueCommonOperations]
 
 }

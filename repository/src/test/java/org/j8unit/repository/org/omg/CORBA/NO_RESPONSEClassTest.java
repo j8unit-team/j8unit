@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.NO_RESPONSEClassTests<NO_RESPONSE
         final NO_RESPONSE sut = new NO_RESPONSE();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.NO_RESPONSE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.NO_RESPONSE]
 
 }

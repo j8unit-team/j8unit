@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Size2DSyntax.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.Size2DSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.Size2DSyntax]
 
 }

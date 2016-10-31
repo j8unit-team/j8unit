@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Pipe.class!", Pipe.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Pipe]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SourceChannel.class!",
                               SourceChannel.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
 
@@ -198,6 +202,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SinkChannel.class!",
                               SinkChannel.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
 

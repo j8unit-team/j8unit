@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, XmlNsForm> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlNsForm]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlNsForm]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.XmlNsForm]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.XmlNsForm]
 }

@@ -33,8 +33,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.Port]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Port]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Port]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Port]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -197,8 +198,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Port$Info]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Port$Info]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Port$Info]
     }
 
 }

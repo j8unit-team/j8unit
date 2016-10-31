@@ -382,6 +382,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
         // write some test for {@link java.util.Locale#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale]
 
     @RunWith(J8Unit4.class)
@@ -508,6 +510,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
             // write some test for {@link java.util.Locale.LanguageRange#parse(String, java.util.Map)}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$LanguageRange]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$LanguageRange]
 
     }
@@ -562,6 +566,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
         throws Exception {
             // write some test for {@link java.util.Locale.Category#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$Category]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$Category]
 
@@ -618,6 +624,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
             // write some test for {@link java.util.Locale.FilteringMode#values()}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$FilteringMode]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$FilteringMode]
 
     }
@@ -653,6 +661,8 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
             // create new instance
             final Builder sut = new Builder();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Locale$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$Builder]
 

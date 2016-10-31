@@ -106,6 +106,8 @@ implements org.j8unit.repository.java.lang.RuntimeExceptionClassTests<RuntimeExc
         final RuntimeException sut = new RuntimeException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.RuntimeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.RuntimeException]
 
 }

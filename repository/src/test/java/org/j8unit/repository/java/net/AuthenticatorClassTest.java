@@ -131,6 +131,8 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator>
         // write some test for {@link java.net.Authenticator#setDefault(java.net.Authenticator)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Authenticator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Authenticator]
 
     @RunWith(J8Unit4.class)
@@ -184,6 +186,8 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator>
         throws Exception {
             // write some test for {@link java.net.Authenticator.RequestorType#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Authenticator$RequestorType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Authenticator$RequestorType]
 

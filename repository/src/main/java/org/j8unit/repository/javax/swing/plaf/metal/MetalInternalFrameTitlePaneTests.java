@@ -126,6 +126,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
 }

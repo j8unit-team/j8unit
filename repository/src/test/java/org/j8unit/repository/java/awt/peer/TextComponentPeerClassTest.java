@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.TextComponentPeerClassTests<TextC
         return TextComponentPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.TextComponentPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.TextComponentPeer]
 
 }

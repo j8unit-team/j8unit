@@ -71,6 +71,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
                    FileChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileChannel]
 
     /**
@@ -133,6 +135,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MapMode.class!",
                               MapMode.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileChannel$MapMode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileChannel$MapMode]
 

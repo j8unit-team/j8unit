@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedQueueClass
         final ConcurrentLinkedQueue sut = null; // = new ConcurrentLinkedQueue(java.util.Collection);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentLinkedQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentLinkedQueue]
 
 }

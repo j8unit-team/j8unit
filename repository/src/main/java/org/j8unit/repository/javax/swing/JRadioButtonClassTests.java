@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JToggleButtonClassTests<SUT> {
                    JRadioButton.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JRadioButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JRadioButton]
 
 }

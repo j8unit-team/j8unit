@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    GSSException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSException]
 
 }

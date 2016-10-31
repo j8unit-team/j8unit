@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Paper>, org.j8unit.repository.java.awt.print.P
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.Paper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.print.Paper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.Paper]
 
 }

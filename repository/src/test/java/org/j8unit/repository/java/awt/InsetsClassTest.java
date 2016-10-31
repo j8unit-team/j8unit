@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.InsetsClassTests<Insets> {
         final Insets sut = null; // = new Insets(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Insets]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Insets]
 
 }

@@ -178,6 +178,8 @@ implements org.j8unit.repository.javax.management.loading.MLetClassTests<MLet> {
         final MLet sut = new MLet();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.MLet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLet]
 
 }

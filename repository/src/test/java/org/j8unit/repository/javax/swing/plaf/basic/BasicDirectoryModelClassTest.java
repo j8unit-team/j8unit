@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicDirectoryModelClass
         final BasicDirectoryModel sut = null; // = new BasicDirectoryModel(javax.swing.JFileChooser);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicDirectoryModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicDirectoryModel]
 
 }

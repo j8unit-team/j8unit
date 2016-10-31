@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    IncompleteAnnotationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.IncompleteAnnotationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.IncompleteAnnotationException]
 
 }

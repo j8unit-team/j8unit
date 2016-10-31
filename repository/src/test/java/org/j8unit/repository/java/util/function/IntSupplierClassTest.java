@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.IntSupplierClassTests<IntSup
         return IntSupplier.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntSupplier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntSupplier]
 
 }

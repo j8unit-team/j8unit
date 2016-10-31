@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineEventClassTests<LineEve
                                     // long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineEvent]
 
     @RunWith(J8Unit4.class)
@@ -56,6 +58,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineEventClassTests<LineEve
         public Class<Type> createNewSUT() {
             return Type.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineEvent$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineEvent$Type]
 

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.AcceptPendingExceptionClassTe
         final AcceptPendingException sut = new AcceptPendingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AcceptPendingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AcceptPendingException]
 
 }

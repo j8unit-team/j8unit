@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.ReferenceUriSche
         return ReferenceUriSchemesSupported.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.ReferenceUriSchemesSupported]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.ReferenceUriSchemesSupported]
 
 }

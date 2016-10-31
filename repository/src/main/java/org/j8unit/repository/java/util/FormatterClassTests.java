@@ -70,6 +70,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Formatter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Formatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Formatter]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BigDecimalLayoutForm.class!",
                               BigDecimalLayoutForm.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Formatter$BigDecimalLayoutForm]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Formatter$BigDecimalLayoutForm]
 

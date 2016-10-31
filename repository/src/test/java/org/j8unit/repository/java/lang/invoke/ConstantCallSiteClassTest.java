@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.lang.invoke.ConstantCallSiteClassTests<Con
         final ConstantCallSite sut = null; // = new ConstantCallSite(java.lang.invoke.MethodHandle);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.ConstantCallSite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.ConstantCallSite]
 
 }

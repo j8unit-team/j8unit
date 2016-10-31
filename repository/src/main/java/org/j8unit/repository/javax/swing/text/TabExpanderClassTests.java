@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TabExpander.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TabExpander]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TabExpander]
 
 }

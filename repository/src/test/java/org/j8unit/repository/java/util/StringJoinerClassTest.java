@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.StringJoinerClassTests<StringJoiner> 
         final StringJoiner sut = null; // = new StringJoiner(CharSequence, CharSequence, CharSequence);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.StringJoiner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.StringJoiner]
 
 }

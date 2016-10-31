@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.security.auth.callback.LanguageCallbackCl
         final LanguageCallback sut = new LanguageCallback();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.LanguageCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.LanguageCallback]
 
 }

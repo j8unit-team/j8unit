@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.event.EventContextClassTests<Event
         return EventContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.EventContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.EventContext]
 
 }

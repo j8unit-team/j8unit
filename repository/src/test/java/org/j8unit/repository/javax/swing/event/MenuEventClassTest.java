@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.event.MenuEventClassTests<MenuEvent
         final MenuEvent sut = null; // = new MenuEvent(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.MenuEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuEvent]
 
 }

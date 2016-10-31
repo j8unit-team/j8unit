@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.util.concurrent.TimeUnitClassTests<TimeUni
         // write some test for {@link java.util.concurrent.TimeUnit#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.TimeUnit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.TimeUnit]
 
 }

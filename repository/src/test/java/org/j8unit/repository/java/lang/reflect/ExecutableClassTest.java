@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.ExecutableClassTests<Executab
         return Executable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Executable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Executable]
 
 }

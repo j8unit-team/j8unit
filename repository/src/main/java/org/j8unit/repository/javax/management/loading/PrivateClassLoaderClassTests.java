@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PrivateClassLoader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.PrivateClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.PrivateClassLoader]
 
 }

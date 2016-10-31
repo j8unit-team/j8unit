@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorClassTests<SU
                    _ServantLocatorStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer._ServantLocatorStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer._ServantLocatorStub]
 
 }

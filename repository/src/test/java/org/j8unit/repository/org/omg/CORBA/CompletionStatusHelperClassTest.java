@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.CORBA.CompletionStatusHelperClassTests<
         // write some test for {@link org.omg.CORBA.CompletionStatusHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CompletionStatusHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CompletionStatusHelper]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.StateC
         // write some test for {@link org.omg.PortableServer.POAManagerPackage.State#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.State]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.State]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.SequenceInputStreamClassTests<SequenceI
         final SequenceInputStream sut = null; // = new SequenceInputStream(java.io.InputStream, java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.SequenceInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.SequenceInputStream]
 
 }

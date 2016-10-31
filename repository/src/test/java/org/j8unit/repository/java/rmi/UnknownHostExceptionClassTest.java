@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.UnknownHostExceptionClassTests<Unknown
         final UnknownHostException sut = null; // = new UnknownHostException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.UnknownHostException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.UnknownHostException]
 
 }

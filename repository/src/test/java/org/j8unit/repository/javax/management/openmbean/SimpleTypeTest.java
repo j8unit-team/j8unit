@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.openmbean.SimpleTypeTests<Simp
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.SimpleType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.SimpleType]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.SimpleType]
 
 }

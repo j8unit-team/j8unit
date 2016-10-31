@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_DynEnumStub>, org.j8unit.repository.org.omg.D
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
 
 }

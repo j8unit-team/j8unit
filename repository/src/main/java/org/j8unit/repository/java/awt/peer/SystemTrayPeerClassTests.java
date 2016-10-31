@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SystemTrayPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.SystemTrayPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.SystemTrayPeer]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StringValueExp>, org.j8unit.repository.javax.m
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.StringValueExp]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.StringValueExp]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.StringValueExp]
 
 }

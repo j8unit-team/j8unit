@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.DynamicAny._DynFixedStubClassTests<_Dyn
         final _DynFixedStub sut = new _DynFixedStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynFixedStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynFixedStub]
 
 }

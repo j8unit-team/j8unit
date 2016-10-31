@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.management.AttributeChangeNotificationFil
         final AttributeChangeNotificationFilter sut = new AttributeChangeNotificationFilter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.AttributeChangeNotificationFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeChangeNotificationFilter]
 
 }

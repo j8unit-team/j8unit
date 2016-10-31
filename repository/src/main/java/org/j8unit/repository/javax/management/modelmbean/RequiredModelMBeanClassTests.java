@@ -68,6 +68,8 @@ org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j
                    RequiredModelMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]
 
 }

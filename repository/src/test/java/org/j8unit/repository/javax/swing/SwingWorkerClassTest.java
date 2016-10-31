@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.SwingWorkerClassTests<SwingWorker> 
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SwingWorker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingWorker]
 
     @RunWith(J8Unit4.class)
@@ -95,6 +97,8 @@ implements org.j8unit.repository.javax.swing.SwingWorkerClassTests<SwingWorker> 
         throws Exception {
             // write some test for {@link javax.swing.SwingWorker.StateValue#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SwingWorker$StateValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingWorker$StateValue]
 

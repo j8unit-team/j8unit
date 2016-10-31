@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<INVALID_TRANSACTION>, org.j8unit.repository.or
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INVALID_TRANSACTION]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.INVALID_TRANSACTION]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.INVALID_TRANSACTION]
 
 }

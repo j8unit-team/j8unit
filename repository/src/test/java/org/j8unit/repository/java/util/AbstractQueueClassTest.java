@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.AbstractQueueClassTests<AbstractQueue
         return AbstractQueue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractQueue]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CommandObject.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.CommandObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.CommandObject]
 
 }

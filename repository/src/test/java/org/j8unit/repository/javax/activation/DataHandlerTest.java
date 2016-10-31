@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.activation.DataHandlerTests<DataHandler> 
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.activation.DataHandler], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.DataHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.DataHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataHandler]
 
 }

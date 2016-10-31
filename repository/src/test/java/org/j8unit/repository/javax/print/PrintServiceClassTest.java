@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.PrintServiceClassTests<PrintService
         return PrintService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.PrintService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.PrintService]
 
 }

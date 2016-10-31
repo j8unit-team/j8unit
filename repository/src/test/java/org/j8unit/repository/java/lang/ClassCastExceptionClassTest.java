@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.ClassCastExceptionClassTests<ClassCas
         final ClassCastException sut = null; // = new ClassCastException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassCastException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassCastException]
 
 }

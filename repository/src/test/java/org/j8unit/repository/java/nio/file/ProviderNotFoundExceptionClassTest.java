@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.nio.file.ProviderNotFoundExceptionClassTes
         final ProviderNotFoundException sut = null; // = new ProviderNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.ProviderNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.ProviderNotFoundException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.relation.RelationSupportMBeanC
         return RelationSupportMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationSupportMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationSupportMBean]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_DynAnyStub>, org.j8unit.repository.org.omg.Dy
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynAnyStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynAnyStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynAnyStub]
 
 }

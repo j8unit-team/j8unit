@@ -144,8 +144,9 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Collector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.Collector]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Collector]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -171,8 +172,9 @@ extends RepositoryTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.Collector$Characteristics]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Collector$Characteristics]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.Collector$Characteristics]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Collector$Characteristics]
     }
 
 }

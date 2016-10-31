@@ -39,6 +39,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLServerSocketFactoryClassTests<
         // write some test for {@link javax.net.ssl.SSLServerSocketFactory#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLServerSocketFactory]
 
 }

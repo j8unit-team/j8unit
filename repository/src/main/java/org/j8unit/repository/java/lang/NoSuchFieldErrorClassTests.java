@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.IncompatibleClassChangeErrorClassTests<S
                    NoSuchFieldError.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NoSuchFieldError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NoSuchFieldError]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NameDynAnyPair>, org.j8unit.repository.org.omg
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.NameDynAnyPair]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.NameDynAnyPair]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.NameDynAnyPair]
 
 }

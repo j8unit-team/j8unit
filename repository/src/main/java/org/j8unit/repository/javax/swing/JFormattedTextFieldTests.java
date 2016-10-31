@@ -307,8 +307,9 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFormattedTextField]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -359,8 +360,9 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
     }
 
     /**
@@ -482,8 +484,9 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JFormattedTextField$AbstractFormatter]
     }
 
 }

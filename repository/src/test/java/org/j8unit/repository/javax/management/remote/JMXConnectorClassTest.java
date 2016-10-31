@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorClassTests<
         return JMXConnector.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnector]
 
 }

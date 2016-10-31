@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.datatransfer.ClipboardClassTests<Clipb
         final Clipboard sut = null; // = new Clipboard(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.Clipboard]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.Clipboard]
 
 }

@@ -1478,6 +1478,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynValueTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynValueStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynValueStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynValueStub]
 }

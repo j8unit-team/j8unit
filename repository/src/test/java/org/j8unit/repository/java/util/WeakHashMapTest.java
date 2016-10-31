@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WeakHashMap<K, V>>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.WeakHashMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.WeakHashMap]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.WeakHashMap]
 
 }

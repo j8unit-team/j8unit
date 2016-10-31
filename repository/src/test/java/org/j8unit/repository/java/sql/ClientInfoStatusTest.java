@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.sql.ClientInfoStatusTests<ClientInfoStatus
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.ClientInfoStatus]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.ClientInfoStatus]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.ClientInfoStatus]
 
 }

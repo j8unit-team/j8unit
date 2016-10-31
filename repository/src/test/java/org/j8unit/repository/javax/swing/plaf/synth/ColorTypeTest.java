@@ -33,6 +33,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.ColorTypeTests<ColorType
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.ColorType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.synth.ColorType]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.ColorType]
 
 }

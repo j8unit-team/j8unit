@@ -68,6 +68,8 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests<SUT>
                    SynthInternalFrameUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthInternalFrameUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthInternalFrameUI]
 
 }

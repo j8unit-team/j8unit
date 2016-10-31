@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MenuContainer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuContainer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuContainer]
 
 }

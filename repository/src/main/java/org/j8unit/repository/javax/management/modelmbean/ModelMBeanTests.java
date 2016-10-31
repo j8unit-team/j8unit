@@ -82,6 +82,7 @@ org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcas
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.ModelMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.ModelMBean]
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.naming.ldap.PagedResultsResponseControlCl
         final PagedResultsResponseControl sut = null; // = new PagedResultsResponseControl(String, boolean, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.PagedResultsResponseControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.PagedResultsResponseControl]
 
 }

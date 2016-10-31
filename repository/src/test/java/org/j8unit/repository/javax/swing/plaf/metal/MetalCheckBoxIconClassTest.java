@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalCheckBoxIconClassTe
         final MetalCheckBoxIcon sut = new MetalCheckBoxIcon();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalCheckBoxIcon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalCheckBoxIcon]
 
 }

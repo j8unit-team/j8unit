@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.DataInputClassTests<DataInput> {
         return DataInput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.DataInput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataInput]
 
 }

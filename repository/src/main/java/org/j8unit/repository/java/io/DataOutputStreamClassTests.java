@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.DataOutputClassTests<SUT>, org.j8unit.repo
                    DataOutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.DataOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataOutputStream]
 
 }

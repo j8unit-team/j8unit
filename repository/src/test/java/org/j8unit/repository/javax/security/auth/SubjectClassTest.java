@@ -114,6 +114,28 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject, java.security.PrivilegedAction) public
+     * static <T> T javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedAction<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_doAs_Subject_PrivilegedAction()
+    throws Exception {
+        // write some test for {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,
+        // java.security.PrivilegedAction)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject, java.security.PrivilegedExceptionAction)
      * public static <T> T
      * javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedExceptionAction<T>) throws
@@ -138,28 +160,6 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject, java.security.PrivilegedAction) public
-     * static <T> T javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedAction<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_doAs_Subject_PrivilegedAction()
-    throws Exception {
-        // write some test for {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,
-        // java.security.PrivilegedAction)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.security.auth.Subject#getSubject(java.security.AccessControlContext) public static
      * javax.security.auth.Subject javax.security.auth.Subject.getSubject(java.security.AccessControlContext)}.
      *
@@ -177,6 +177,8 @@ implements org.j8unit.repository.javax.security.auth.SubjectClassTests<Subject> 
     throws Exception {
         // write some test for {@link javax.security.auth.Subject#getSubject(java.security.AccessControlContext)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.Subject]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Subject]
 

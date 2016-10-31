@@ -55,6 +55,7 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.UnmarshallerHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.UnmarshallerHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.UnmarshallerHandler]
 }

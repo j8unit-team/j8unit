@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ContextClassTests<SUT>, org.j8unit.re
                    InitialContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.InitialContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InitialContext]
 
 }

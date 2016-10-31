@@ -107,6 +107,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.ClassLoaderRepository]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.ClassLoaderRepository]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.ClassLoaderRepository]
 }

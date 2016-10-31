@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.BadBinaryOpValueExpExceptionCl
         final BadBinaryOpValueExpException sut = null; // = new BadBinaryOpValueExpException(javax.management.ValueExp);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.BadBinaryOpValueExpException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.BadBinaryOpValueExpException]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.RelationServiceNotReg
         final RelationServiceNotRegisteredException sut = null; // = new RelationServiceNotRegisteredException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationServiceNotRegisteredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationServiceNotRegisteredException]
 
 }

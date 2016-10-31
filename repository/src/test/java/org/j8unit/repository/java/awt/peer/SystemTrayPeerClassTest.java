@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.SystemTrayPeerClassTests<SystemTr
         return SystemTrayPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.SystemTrayPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.SystemTrayPeer]
 
 }

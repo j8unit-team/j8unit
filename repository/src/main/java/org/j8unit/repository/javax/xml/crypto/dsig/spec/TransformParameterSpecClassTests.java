@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTest
                    TransformParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.TransformParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.TransformParameterSpec]
 
 }

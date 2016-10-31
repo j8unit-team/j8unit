@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT> {
                    ButtonModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ButtonModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ButtonModel]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.InvalidAttributesExcepti
         final InvalidAttributesException sut = new InvalidAttributesException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.InvalidAttributesException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.InvalidAttributesException]
 
 }

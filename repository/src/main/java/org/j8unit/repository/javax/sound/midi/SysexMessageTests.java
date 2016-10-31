@@ -123,6 +123,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.SysexMessage]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.SysexMessage]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.SysexMessage]
 }

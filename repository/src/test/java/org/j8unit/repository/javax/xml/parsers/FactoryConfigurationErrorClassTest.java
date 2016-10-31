@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorClas
         final FactoryConfigurationError sut = new FactoryConfigurationError();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.parsers.FactoryConfigurationError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.FactoryConfigurationError]
 
 }

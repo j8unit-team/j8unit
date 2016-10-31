@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.acl.LastOwnerExceptionClassTests<
         final LastOwnerException sut = new LastOwnerException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.LastOwnerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.LastOwnerException]
 
 }

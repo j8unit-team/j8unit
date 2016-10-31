@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.GuardedObjectClassTests<GuardedOb
         final GuardedObject sut = null; // = new GuardedObject(Object, java.security.Guard);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.GuardedObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.GuardedObject]
 
 }

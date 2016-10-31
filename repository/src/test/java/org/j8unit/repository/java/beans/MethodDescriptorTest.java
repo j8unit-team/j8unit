@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.beans.MethodDescriptorTests<MethodDescript
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.beans.MethodDescriptor], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.MethodDescriptor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.MethodDescriptor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.MethodDescriptor]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.DragGestureListenerClassTests<Drag
         return DragGestureListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragGestureListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragGestureListener]
 
 }

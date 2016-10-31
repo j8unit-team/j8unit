@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    XMLReporter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLReporter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLReporter]
 
 }

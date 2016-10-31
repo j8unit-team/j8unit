@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, MemoryType> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.MemoryType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.MemoryType]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.MemoryType]
 }

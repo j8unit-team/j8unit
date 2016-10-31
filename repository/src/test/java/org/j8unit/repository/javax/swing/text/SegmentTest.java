@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Segment>, org.j8unit.repository.javax.swing.te
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.Segment]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.Segment]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.Segment]
 
 }

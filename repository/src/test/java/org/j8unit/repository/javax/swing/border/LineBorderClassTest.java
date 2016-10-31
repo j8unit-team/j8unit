@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color, int) public
+     * javax.swing.border.LineBorder(java.awt.Color,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_LineBorder_Color_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final LineBorder sut = null; // = new LineBorder(java.awt.Color, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color) public
      * javax.swing.border.LineBorder(java.awt.Color)}.
      *
@@ -67,29 +90,6 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color, int) public
-     * javax.swing.border.LineBorder(java.awt.Color,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_LineBorder_Color_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final LineBorder sut = null; // = new LineBorder(java.awt.Color, int);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.border.LineBorder#createGrayLineBorder()
      * public static javax.swing.border.Border javax.swing.border.LineBorder.createGrayLineBorder()}.
      *
@@ -128,6 +128,8 @@ implements org.j8unit.repository.javax.swing.border.LineBorderClassTests<LineBor
     throws Exception {
         // write some test for {@link javax.swing.border.LineBorder#createBlackLineBorder()}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.LineBorder]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.LineBorder]
 

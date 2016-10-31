@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.PropertyResourceBundleClassTests<Prop
         final PropertyResourceBundle sut = null; // = new PropertyResourceBundle(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PropertyResourceBundle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PropertyResourceBundle]
 
 }

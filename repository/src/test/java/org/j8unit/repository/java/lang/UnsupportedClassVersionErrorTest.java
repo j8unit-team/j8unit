@@ -31,6 +31,8 @@ org.j8unit.repository.java.lang.UnsupportedClassVersionErrorTests<UnsupportedCla
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
 
 }

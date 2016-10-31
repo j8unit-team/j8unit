@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ParameterDescriptor>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.ParameterDescriptor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.ParameterDescriptor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.ParameterDescriptor]
 
 }

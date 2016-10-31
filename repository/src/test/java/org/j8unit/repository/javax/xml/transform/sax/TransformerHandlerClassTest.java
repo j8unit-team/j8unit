@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerClass
         return TransformerHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
 
 }

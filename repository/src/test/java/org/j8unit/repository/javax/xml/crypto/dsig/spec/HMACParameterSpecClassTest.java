@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.HMACParameterSpecCla
         final HMACParameterSpec sut = null; // = new HMACParameterSpec(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.HMACParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.HMACParameterSpec]
 
 }

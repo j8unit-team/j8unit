@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<FixedHeightLayoutCache>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.FixedHeightLayoutCache]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.FixedHeightLayoutCache]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.FixedHeightLayoutCache]
 
 }

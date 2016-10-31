@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.InterruptedByTimeoutException
         final InterruptedByTimeoutException sut = new InterruptedByTimeoutException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.InterruptedByTimeoutException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.InterruptedByTimeoutException]
 
 }

@@ -66,6 +66,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Tie.class!", Tie.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.Tie]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.Tie]
 
 }

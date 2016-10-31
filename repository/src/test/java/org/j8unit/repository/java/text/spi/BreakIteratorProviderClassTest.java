@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.spi.BreakIteratorProviderClassTests<B
         return BreakIteratorProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.BreakIteratorProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.BreakIteratorProvider]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
                    AttributedCharacterIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.AttributedCharacterIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedCharacterIterator]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Attribute.class!",
                               Attribute.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.AttributedCharacterIterator$Attribute]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.AttributedCharacterIterator$Attribute]
 

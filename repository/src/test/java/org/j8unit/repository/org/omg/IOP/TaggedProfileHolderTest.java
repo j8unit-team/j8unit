@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<TaggedProfileHolder>, org.j8unit.repository.or
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TaggedProfileHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.TaggedProfileHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.TaggedProfileHolder]
 
 }

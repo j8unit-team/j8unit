@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.WCharSeqHolderClassTests<WCharSeq
         final WCharSeqHolder sut = new WCharSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.WCharSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WCharSeqHolder]
 
 }

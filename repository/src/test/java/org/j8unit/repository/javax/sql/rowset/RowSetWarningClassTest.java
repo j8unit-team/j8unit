@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.sql.rowset.RowSetWarningClassTests<RowSet
         final RowSetWarning sut = new RowSetWarning();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.RowSetWarning]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.RowSetWarning]
 
 }

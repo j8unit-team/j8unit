@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.net.ssl.KeyStoreBuilderParametersClassTes
         final KeyStoreBuilderParameters sut = null; // = new KeyStoreBuilderParameters(java.util.List);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.KeyStoreBuilderParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.KeyStoreBuilderParameters]
 
 }

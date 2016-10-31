@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidKeySpecException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.InvalidKeySpecException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.spec.InvalidKeySpecException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.spec.InvalidKeySpecException]
 
 }

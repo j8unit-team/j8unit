@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_CONTEXTClassTests<BAD_CONTEXT
         final BAD_CONTEXT sut = new BAD_CONTEXT();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_CONTEXT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_CONTEXT]
 
 }

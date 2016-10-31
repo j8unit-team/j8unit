@@ -101,6 +101,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SOAPException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SOAPException]
 }

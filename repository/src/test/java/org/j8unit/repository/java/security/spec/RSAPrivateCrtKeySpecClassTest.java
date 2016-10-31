@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecClassTes
                                                // java.math.BigInteger, java.math.BigInteger, java.math.BigInteger);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.RSAPrivateCrtKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAPrivateCrtKeySpec]
 
 }

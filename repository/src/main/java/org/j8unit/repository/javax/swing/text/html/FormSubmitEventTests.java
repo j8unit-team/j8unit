@@ -77,8 +77,9 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -104,8 +105,9 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
     }
 
 }

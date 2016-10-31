@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.KeyEventPostProcessorClassTests<KeyEve
         return KeyEventPostProcessor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.KeyEventPostProcessor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.KeyEventPostProcessor]
 
 }

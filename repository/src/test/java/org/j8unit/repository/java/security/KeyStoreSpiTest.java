@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.KeyStoreSpiTests<KeyStoreSpi> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyStoreSpi], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStoreSpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStoreSpi]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStoreSpi]
 
 }

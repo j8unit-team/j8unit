@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBIdHelperClassTes
         // write some test for {@link org.omg.PortableInterceptor.ORBIdHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBIdHelper]
 
 }

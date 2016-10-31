@@ -32,6 +32,8 @@ implements FactoryBasedJ8UnitTest<JLayer<V>>, org.j8unit.repository.javax.swing.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JLayer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JLayer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JLayer]
 
 }

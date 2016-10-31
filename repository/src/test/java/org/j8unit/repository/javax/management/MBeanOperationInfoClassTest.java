@@ -93,6 +93,8 @@ implements org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<M
                                              // javax.management.MBeanParameterInfo[], String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanOperationInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanOperationInfo]
 
 }

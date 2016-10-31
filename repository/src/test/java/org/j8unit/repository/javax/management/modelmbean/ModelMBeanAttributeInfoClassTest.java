@@ -146,6 +146,8 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanAttribute
                                                   // boolean, boolean, javax.management.Descriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.filechooser.FileNameExtensionFilter
         final FileNameExtensionFilter sut = null; // = new FileNameExtensionFilter(String, String...);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.filechooser.FileNameExtensionFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.filechooser.FileNameExtensionFilter]
 
 }

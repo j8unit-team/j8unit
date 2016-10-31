@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WCharSeqHolder>, org.j8unit.repository.org.omg
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.WCharSeqHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.WCharSeqHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.WCharSeqHolder]
 
 }

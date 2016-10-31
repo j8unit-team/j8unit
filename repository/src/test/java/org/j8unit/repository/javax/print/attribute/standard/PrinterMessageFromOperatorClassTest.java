@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterMessageFr
         final PrinterMessageFromOperator sut = null; // = new PrinterMessageFromOperator(String, java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterMessageFromOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterMessageFromOperator]
 
 }

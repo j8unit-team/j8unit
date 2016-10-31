@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.CharConversionExceptionClassTests<CharC
         final CharConversionException sut = null; // = new CharConversionException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.CharConversionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.CharConversionException]
 
 }

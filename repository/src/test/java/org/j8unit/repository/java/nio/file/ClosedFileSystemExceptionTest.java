@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ClosedFileSystemException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ClosedFileSystemException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.ClosedFileSystemException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.ClosedFileSystemException]
 
 }

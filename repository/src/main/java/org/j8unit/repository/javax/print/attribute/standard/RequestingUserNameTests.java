@@ -104,6 +104,7 @@ extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<S
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.RequestingUserName]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.RequestingUserName]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.RequestingUserName]
 }

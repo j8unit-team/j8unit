@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.QueueClassTests<SUT> {
                    BlockingQueue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.BlockingQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.BlockingQueue]
 
 }

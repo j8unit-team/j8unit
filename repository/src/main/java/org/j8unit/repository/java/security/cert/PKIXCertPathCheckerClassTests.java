@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    PKIXCertPathChecker.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXCertPathChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXCertPathChecker]
 
 }

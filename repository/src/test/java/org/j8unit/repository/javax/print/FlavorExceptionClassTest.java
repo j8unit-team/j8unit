@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.FlavorExceptionClassTests<FlavorExc
         return FlavorException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.FlavorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.FlavorException]
 
 }

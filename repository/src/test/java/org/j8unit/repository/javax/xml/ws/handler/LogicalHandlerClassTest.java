@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.LogicalHandlerClassTests<L
         return LogicalHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.LogicalHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.LogicalHandler]
 
 }

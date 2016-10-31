@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AccessibleTableModelChange.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleTableModelChange]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleTableModelChange]
 
 }

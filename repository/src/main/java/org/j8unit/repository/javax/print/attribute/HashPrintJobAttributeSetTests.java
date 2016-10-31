@@ -92,6 +92,7 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests<SU
         org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetTests.super.test_addAll_AttributeSet();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintJobAttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashPrintJobAttributeSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintJobAttributeSet]
 }

@@ -83,6 +83,8 @@ implements org.j8unit.repository.javax.crypto.MacClassTests<Mac> {
         // write some test for {@link javax.crypto.Mac#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.Mac]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.Mac]
 
 }

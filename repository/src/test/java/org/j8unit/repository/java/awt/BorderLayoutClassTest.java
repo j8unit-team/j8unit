@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.BorderLayoutClassTests<BorderLayout> {
         final BorderLayout sut = null; // = new BorderLayout(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.BorderLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BorderLayout]
 
 }

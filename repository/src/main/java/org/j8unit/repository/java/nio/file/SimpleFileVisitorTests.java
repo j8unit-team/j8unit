@@ -134,6 +134,7 @@ extends org.j8unit.repository.java.nio.file.FileVisitorTests<SUT, T>, org.j8unit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.SimpleFileVisitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.SimpleFileVisitor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.SimpleFileVisitor]
 }

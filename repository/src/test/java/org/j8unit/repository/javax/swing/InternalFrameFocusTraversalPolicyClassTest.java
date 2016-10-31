@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyCl
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.InternalFrameFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.InternalFrameFocusTraversalPolicy]
 
 }

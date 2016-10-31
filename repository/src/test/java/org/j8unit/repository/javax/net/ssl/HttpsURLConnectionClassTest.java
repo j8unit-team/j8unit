@@ -105,6 +105,8 @@ implements org.j8unit.repository.javax.net.ssl.HttpsURLConnectionClassTests<Http
         // write some test for {@link javax.net.ssl.HttpsURLConnection#getDefaultHostnameVerifier()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.HttpsURLConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.HttpsURLConnection]
 
 }

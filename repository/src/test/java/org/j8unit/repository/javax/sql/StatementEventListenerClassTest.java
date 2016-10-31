@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.StatementEventListenerClassTests<Stat
         return StatementEventListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.StatementEventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.StatementEventListener]
 
 }

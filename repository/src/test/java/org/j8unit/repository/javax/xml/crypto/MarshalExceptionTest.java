@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MarshalException>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.MarshalException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.MarshalException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.MarshalException]
 
 }

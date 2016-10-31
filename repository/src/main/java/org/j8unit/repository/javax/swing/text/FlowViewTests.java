@@ -198,8 +198,9 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.FlowView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.FlowView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.FlowView]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -320,8 +321,9 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
     }
 
 }

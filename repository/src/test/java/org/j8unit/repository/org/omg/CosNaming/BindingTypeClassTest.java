@@ -39,6 +39,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeClassTests<Binding
         // write some test for {@link org.omg.CosNaming.BindingType#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingType]
 
 }

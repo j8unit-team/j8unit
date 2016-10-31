@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedClassTests<SUT>, org.j8
                    _DynFixedStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynFixedStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynFixedStub]
 
 }

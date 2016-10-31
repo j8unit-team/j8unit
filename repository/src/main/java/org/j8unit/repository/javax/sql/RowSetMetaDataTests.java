@@ -410,6 +410,7 @@ extends org.j8unit.repository.java.sql.ResultSetMetaDataTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.RowSetMetaData]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.RowSetMetaData]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.RowSetMetaData]
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.MGF1ParameterSpecClassTests<
         final MGF1ParameterSpec sut = null; // = new MGF1ParameterSpec(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.MGF1ParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.MGF1ParameterSpec]
 
 }

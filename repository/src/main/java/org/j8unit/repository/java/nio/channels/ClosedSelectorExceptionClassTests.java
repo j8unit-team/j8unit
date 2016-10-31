@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
                    ClosedSelectorException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ClosedSelectorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ClosedSelectorException]
 
 }

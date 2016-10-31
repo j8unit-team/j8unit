@@ -78,6 +78,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLSessionBindingListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLSessionBindingListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLSessionBindingListener]
 }

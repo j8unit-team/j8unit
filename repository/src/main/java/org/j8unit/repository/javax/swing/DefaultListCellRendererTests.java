@@ -60,8 +60,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, long, long) public void
-     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,long,long)}.
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, char, char) public void
+     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,char,char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -74,31 +74,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_firePropertyChange_String_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, int, int) public void
-     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_int_int()
+    public default void test_firePropertyChange_String_char_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -132,8 +108,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, float, float) public void
-     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,float,float)}.
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, int, int) public void
+     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -146,7 +122,31 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_firePropertyChange_String_float_float()
+    public default void test_firePropertyChange_String_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, long, long) public void
+     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_long_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -180,6 +180,30 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, float, float) public void
+     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,float,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, byte, byte) public void
      * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,byte,byte)}.
      *
@@ -195,30 +219,6 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     @Test
     @Category(Draft.class)
     public default void test_firePropertyChange_String_byte_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.DefaultListCellRenderer#firePropertyChange(String, char, char) public void
-     * javax.swing.DefaultListCellRenderer.firePropertyChange(java.lang.String,char,char)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_char_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -344,9 +344,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.DefaultListCellRenderer#repaint(long, int, int, int, int) public void
-     * javax.swing.DefaultListCellRenderer.repaint(long,int,int,int,int)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#repaint() public
+     * void javax.swing.DefaultListCellRenderer.repaint()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -359,7 +358,7 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_repaint_long_int_int_int_int()
+    public default void test_repaint()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -392,8 +391,9 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.DefaultListCellRenderer#repaint() public
-     * void javax.swing.DefaultListCellRenderer.repaint()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.DefaultListCellRenderer#repaint(long, int, int, int, int) public void
+     * javax.swing.DefaultListCellRenderer.repaint(long,int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -406,15 +406,16 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_repaint()
+    public default void test_repaint_long_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -440,8 +441,9 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT, Object>, or
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
     }
 
 }

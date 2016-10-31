@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.tools.StandardLocationTests<StandardLocat
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.StandardLocation]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.StandardLocation]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.StandardLocation]
 
 }

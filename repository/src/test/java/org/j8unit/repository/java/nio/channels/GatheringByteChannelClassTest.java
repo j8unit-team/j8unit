@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTest
         return GatheringByteChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.GatheringByteChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.GatheringByteChannel]
 
 }

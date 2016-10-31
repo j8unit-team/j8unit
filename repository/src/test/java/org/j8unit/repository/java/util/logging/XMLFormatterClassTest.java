@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.logging.XMLFormatterClassTests<XMLFor
         final XMLFormatter sut = new XMLFormatter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.XMLFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.XMLFormatter]
 
 }

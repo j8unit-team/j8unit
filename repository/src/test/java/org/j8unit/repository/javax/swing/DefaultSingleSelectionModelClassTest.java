@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.DefaultSingleSelectionModelClassTes
         final DefaultSingleSelectionModel sut = new DefaultSingleSelectionModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultSingleSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultSingleSelectionModel]
 
 }

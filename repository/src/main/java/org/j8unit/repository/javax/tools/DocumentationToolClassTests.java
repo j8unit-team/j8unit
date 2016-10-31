@@ -70,6 +70,8 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
                    DocumentationTool.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Location.class!",
                               Location.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$Location]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$Location]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DocumentationTask.class!",
                               DocumentationTask.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
 

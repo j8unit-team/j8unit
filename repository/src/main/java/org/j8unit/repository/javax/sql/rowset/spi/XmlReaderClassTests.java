@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.RowSetReaderClassTests<SUT> {
                    XmlReader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.XmlReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.XmlReader]
 
 }

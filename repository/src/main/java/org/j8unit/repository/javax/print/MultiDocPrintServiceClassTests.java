@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.PrintServiceClassTests<SUT> {
                    MultiDocPrintService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.MultiDocPrintService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.MultiDocPrintService]
 
 }

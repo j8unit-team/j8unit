@@ -134,6 +134,8 @@ implements org.j8unit.repository.javax.xml.bind.ValidationExceptionClassTests<Va
         final ValidationException sut = null; // = new ValidationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ValidationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ValidationException]
 
 }

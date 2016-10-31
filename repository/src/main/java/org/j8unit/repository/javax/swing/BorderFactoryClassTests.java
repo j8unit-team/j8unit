@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    BorderFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.BorderFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.BorderFactory]
 
 }

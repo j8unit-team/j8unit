@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.OverrideTests<Override> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.lang.Override], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Override]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Override]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Override]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.RuntimeMBeanExceptionClassTest
         final RuntimeMBeanException sut = null; // = new RuntimeMBeanException(RuntimeException, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.RuntimeMBeanException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.RuntimeMBeanException]
 
 }

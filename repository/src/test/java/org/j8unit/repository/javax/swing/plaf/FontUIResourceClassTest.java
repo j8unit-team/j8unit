@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.plaf.FontUIResourceClassTests<FontU
         final FontUIResource sut = null; // = new FontUIResource(java.awt.Font);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.FontUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.FontUIResource]
 
 }

@@ -166,6 +166,7 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Action]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.Action]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Action]
 }

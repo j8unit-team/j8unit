@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.RuntimeOperationsExceptionClas
         final RuntimeOperationsException sut = null; // = new RuntimeOperationsException(RuntimeException, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.RuntimeOperationsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.RuntimeOperationsException]
 
 }

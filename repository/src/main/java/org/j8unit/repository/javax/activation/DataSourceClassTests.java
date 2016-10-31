@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DataSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataSource]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    UndoableEditEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.UndoableEditEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.UndoableEditEvent]
 
 }

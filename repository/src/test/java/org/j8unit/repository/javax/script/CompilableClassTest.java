@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.script.CompilableClassTests<Compilable> {
         return Compilable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.Compilable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.Compilable]
 
 }

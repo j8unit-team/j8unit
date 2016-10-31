@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInterc
         return ClientRequestInterceptorOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ClientRequestInterceptorOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ClientRequestInterceptorOperations]
 
 }

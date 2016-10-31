@@ -122,8 +122,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.LineEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.LineEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.LineEvent]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -219,8 +220,9 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.LineEvent$Type]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.LineEvent$Type]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.LineEvent$Type]
     }
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.DSAParamsClassTests<DS
         return DSAParams.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.DSAParams]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.DSAParams]
 
 }

@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.beans.BeanInfoClassTests<SUT> {
                    BeanContextServiceProviderBeanInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServiceProviderBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServiceProviderBeanInfo]
 
 }

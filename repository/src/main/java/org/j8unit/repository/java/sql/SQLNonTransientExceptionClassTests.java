@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
                    SQLNonTransientException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLNonTransientException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLNonTransientException]
 
 }

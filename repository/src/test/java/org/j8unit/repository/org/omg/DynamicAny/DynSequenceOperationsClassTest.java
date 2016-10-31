@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynSequenceOperationsClassTe
         return DynSequenceOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynSequenceOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynSequenceOperations]
 
 }

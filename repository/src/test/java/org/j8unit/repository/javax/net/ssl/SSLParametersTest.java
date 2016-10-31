@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SSLParameters>, org.j8unit.repository.javax.ne
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLParameters]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.SSLParameters]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLParameters]
 
 }

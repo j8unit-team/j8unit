@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.zip.ZipErrorClassTests<ZipError> {
         final ZipError sut = null; // = new ZipError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipError]
 
 }

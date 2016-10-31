@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.SocketAddressClassTests<SUT> {
                    InetSocketAddress.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.InetSocketAddress]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InetSocketAddress]
 
 }

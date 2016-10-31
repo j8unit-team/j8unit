@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.DigestMethodClassTests<Di
         return DigestMethod.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.DigestMethod]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.DigestMethod]
 
 }

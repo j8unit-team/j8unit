@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.DefaultFocusTraversalPolicyClassTests<
         final DefaultFocusTraversalPolicy sut = new DefaultFocusTraversalPolicy();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.DefaultFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.DefaultFocusTraversalPolicy]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.transaction.TransactionRolledbackExceptio
         final TransactionRolledbackException sut = null; // = new TransactionRolledbackException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.TransactionRolledbackException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.TransactionRolledbackException]
 
 }

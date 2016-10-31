@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.net.BindExceptionClassTests<BindException>
         final BindException sut = new BindException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.BindException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.BindException]
 
 }

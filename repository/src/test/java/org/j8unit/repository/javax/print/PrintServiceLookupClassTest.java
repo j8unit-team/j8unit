@@ -151,6 +151,8 @@ implements org.j8unit.repository.javax.print.PrintServiceLookupClassTests<PrintS
         // javax.print.attribute.AttributeSet)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.PrintServiceLookup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.PrintServiceLookup]
 
 }

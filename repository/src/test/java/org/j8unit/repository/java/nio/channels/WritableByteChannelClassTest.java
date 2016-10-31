@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.WritableByteChannelClassTests
         return WritableByteChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.WritableByteChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.WritableByteChannel]
 
 }

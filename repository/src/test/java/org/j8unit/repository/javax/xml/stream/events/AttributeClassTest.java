@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.events.AttributeClassTests<Att
         return Attribute.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.Attribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.Attribute]
 
 }

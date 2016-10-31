@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ScriptEngineManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptEngineManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptEngineManager]
 
 }

@@ -79,6 +79,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.AppletInitializer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.AppletInitializer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.AppletInitializer]
 }

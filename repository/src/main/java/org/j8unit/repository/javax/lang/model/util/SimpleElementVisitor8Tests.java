@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor7Tests<S
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.SimpleElementVisitor8]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.SimpleElementVisitor8]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.SimpleElementVisitor8]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.SimpleElementVisitor8]
 }

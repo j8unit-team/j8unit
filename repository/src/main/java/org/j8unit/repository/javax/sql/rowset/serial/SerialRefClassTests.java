@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
                    SerialRef.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialRef]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialRef]
 
 }

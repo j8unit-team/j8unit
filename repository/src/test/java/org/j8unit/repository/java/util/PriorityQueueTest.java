@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PriorityQueue<E>>, org.j8unit.repository.java.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PriorityQueue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PriorityQueue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PriorityQueue]
 
 }

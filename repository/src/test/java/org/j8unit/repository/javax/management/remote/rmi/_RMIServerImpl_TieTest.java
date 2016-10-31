@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_RMIServerImpl_Tie>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi._RMIServerImpl_Tie]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.rmi._RMIServerImpl_Tie]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.rmi._RMIServerImpl_Tie]
 
 }

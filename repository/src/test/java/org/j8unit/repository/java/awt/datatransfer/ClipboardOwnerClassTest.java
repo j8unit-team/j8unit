@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.datatransfer.ClipboardOwnerClassTests<
         return ClipboardOwner.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.ClipboardOwner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.ClipboardOwner]
 
 }

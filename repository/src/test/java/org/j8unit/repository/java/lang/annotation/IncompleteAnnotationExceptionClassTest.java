@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.lang.annotation.IncompleteAnnotationExcept
         final IncompleteAnnotationException sut = null; // = new IncompleteAnnotationException(Class, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.IncompleteAnnotationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.IncompleteAnnotationException]
 
 }

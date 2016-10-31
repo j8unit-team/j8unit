@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    XMLStreamWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLStreamWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLStreamWriter]
 
 }

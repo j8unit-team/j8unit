@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    BaseRowSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.BaseRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.BaseRowSet]
 
 }

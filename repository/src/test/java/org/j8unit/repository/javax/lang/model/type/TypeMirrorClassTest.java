@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.type.TypeMirrorClassTests<Type
         return TypeMirror.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.TypeMirror]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.TypeMirror]
 
 }

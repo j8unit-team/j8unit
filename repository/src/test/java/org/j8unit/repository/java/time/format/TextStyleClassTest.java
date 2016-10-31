@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.time.format.TextStyleClassTests<TextStyle>
         // write some test for {@link java.time.format.TextStyle#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.TextStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.TextStyle]
 
 }

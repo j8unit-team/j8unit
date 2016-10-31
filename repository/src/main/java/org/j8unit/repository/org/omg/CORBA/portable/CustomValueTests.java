@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT>, org.j8
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.CustomValue]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.CustomValue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.CustomValue]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.CustomValue]
 }

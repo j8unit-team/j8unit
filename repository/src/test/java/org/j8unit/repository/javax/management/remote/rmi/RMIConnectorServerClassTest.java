@@ -98,6 +98,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectorServerC
                                              // java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnectorServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnectorServer]
 
 }

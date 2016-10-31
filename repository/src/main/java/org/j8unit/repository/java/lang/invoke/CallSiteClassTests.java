@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    CallSite.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.CallSite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.CallSite]
 
 }

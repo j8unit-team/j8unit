@@ -107,6 +107,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.MTOMFeatureClassTests<MTOMFea
         final MTOMFeature sut = null; // = new MTOMFeature(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.MTOMFeature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.MTOMFeature]
 
 }

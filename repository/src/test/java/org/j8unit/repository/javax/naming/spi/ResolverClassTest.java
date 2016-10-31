@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.spi.ResolverClassTests<Resolver> {
         return Resolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.Resolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.Resolver]
 
 }

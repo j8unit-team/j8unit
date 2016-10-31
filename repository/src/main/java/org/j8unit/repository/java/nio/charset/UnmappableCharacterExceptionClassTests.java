@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.charset.CharacterCodingExceptionClassTest
                    UnmappableCharacterException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.UnmappableCharacterException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.UnmappableCharacterException]
 
 }

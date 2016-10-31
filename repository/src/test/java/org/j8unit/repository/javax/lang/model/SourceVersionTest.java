@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.lang.model.SourceVersionTests<SourceVersi
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.SourceVersion]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.SourceVersion]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.SourceVersion]
 
 }

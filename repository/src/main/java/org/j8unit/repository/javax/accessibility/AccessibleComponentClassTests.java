@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AccessibleComponent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleComponent]
 
 }

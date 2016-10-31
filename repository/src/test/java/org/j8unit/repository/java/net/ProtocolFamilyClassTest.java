@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.ProtocolFamilyClassTests<ProtocolFamil
         return ProtocolFamily.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ProtocolFamily]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ProtocolFamily]
 
 }

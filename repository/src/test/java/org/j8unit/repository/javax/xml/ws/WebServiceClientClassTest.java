@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.WebServiceClientClassTests<WebServ
         return WebServiceClient.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebServiceClient]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebServiceClient]
 
 }

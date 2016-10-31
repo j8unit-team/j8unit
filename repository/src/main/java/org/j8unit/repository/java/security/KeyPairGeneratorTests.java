@@ -217,6 +217,7 @@ extends org.j8unit.repository.java.security.KeyPairGeneratorSpiTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyPairGenerator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyPairGenerator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyPairGenerator]
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.UnsupportedOperationExceptionTests<SUT> 
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ReadOnlyFileSystemException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.ReadOnlyFileSystemException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.ReadOnlyFileSystemException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.ReadOnlyFileSystemException]
 }

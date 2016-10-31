@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.GuardClassTests<Guard> {
         return Guard.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Guard]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Guard]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PersistentMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.PersistentMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.PersistentMBean]
 
 }

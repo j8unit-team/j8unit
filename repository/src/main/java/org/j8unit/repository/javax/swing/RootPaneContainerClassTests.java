@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RootPaneContainer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.RootPaneContainer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RootPaneContainer]
 
 }

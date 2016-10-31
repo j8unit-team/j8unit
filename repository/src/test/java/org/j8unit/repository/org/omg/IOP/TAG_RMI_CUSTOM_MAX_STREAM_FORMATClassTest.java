@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMATCla
         return TAG_RMI_CUSTOM_MAX_STREAM_FORMAT.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_RMI_CUSTOM_MAX_STREAM_FORMAT]
 
 }

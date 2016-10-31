@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.CharHolderClassTests<CharHolder> 
         final CharHolder sut = new CharHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CharHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CharHolder]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.tree.TreeModelClassTests<TreeModel>
         return TreeModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeModel]
 
 }

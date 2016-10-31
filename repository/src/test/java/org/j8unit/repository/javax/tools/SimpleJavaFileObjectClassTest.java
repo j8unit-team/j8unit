@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.tools.SimpleJavaFileObjectClassTests<Simp
         return SimpleJavaFileObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.SimpleJavaFileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.SimpleJavaFileObject]
 
 }

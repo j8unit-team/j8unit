@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MLetMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.MLetMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLetMBean]
 
 }

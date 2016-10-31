@@ -173,6 +173,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Addre
         // org.omg.CosNaming.NamingContextExtPackage.AddressHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.AddressHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.AddressHelper]
 
 }

@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.lang.management.ManagementPermissionClassT
         final ManagementPermission sut = null; // = new ManagementPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.ManagementPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ManagementPermission]
 
 }

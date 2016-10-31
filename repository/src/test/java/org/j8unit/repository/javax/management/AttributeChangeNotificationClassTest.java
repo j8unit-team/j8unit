@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.management.AttributeChangeNotificationCla
                                                       // String, String, Object, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.AttributeChangeNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeChangeNotification]
 
 }

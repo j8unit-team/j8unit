@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Guard.class!", Guard.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Guard]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Guard]
 
 }

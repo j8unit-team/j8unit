@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.management.QueryEvalClassTests<QueryEval>
         // write some test for {@link javax.management.QueryEval#getMBeanServer()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.QueryEval]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.QueryEval]
 
 }

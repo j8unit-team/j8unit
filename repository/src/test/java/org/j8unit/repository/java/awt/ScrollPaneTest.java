@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ScrollPane>, org.j8unit.repository.java.awt.Sc
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.ScrollPane]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.ScrollPane]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.ScrollPane]
 
 }

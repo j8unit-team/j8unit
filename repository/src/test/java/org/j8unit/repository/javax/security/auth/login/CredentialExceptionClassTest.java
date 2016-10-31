@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.CredentialExceptionCl
         final CredentialException sut = null; // = new CredentialException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.CredentialException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.CredentialException]
 
 }

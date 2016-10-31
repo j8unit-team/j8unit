@@ -19,7 +19,9 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorTests<PrimitiveItera
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.PrimitiveIterator], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator]
 
     @RunWith(J8Unit4.class)
     public static class OfLongTest
@@ -32,7 +34,9 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorTests<PrimitiveItera
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.PrimitiveIterator.OfLong], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
 
     }
 
@@ -47,7 +51,9 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorTests<PrimitiveItera
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.PrimitiveIterator.OfDouble], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
 
     }
 
@@ -62,7 +68,9 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorTests<PrimitiveItera
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.PrimitiveIterator.OfInt], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
 
     }
 

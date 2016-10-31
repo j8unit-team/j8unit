@@ -66,6 +66,8 @@ extends org.j8unit.repository.org.w3c.dom.NodeClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Node.class!", Node.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.Node]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.Node]
 
 }

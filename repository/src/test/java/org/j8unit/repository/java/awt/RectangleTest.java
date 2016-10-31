@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Rectangle>, org.j8unit.repository.java.awt.Rec
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Rectangle]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Rectangle]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Rectangle]
 
 }

@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to RowId.class!", RowId.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.RowId]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.RowId]
 
 }

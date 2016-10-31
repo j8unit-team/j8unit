@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.naming.ldap.StartTlsRequestClassTests<Sta
         final StartTlsRequest sut = new StartTlsRequest();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.StartTlsRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.StartTlsRequest]
 
 }

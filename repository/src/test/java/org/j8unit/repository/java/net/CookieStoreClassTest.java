@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.CookieStoreClassTests<CookieStore> {
         return CookieStore.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.CookieStore]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.CookieStore]
 
 }

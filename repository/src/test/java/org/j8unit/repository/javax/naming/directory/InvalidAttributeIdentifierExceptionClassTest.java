@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.InvalidAttributeIdentifi
         final InvalidAttributeIdentifierException sut = new InvalidAttributeIdentifierException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.InvalidAttributeIdentifierException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.InvalidAttributeIdentifierException]
 
 }

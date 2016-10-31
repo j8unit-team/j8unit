@@ -70,6 +70,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
                    TableView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to TableRow.class!",
                               TableRow.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableRow]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableRow]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to TableCell.class!",
                               TableCell.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TableView$TableCell]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TableView$TableCell]
 

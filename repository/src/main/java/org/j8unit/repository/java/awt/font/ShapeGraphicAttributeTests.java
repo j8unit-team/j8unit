@@ -241,6 +241,7 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.ShapeGraphicAttribute]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.ShapeGraphicAttribute]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.ShapeGraphicAttribute]
 }

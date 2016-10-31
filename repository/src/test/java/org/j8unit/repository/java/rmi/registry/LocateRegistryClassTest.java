@@ -172,6 +172,8 @@ implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<Loca
         // java.rmi.server.RMIClientSocketFactory, java.rmi.server.RMIServerSocketFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.registry.LocateRegistry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.registry.LocateRegistry]
 
 }

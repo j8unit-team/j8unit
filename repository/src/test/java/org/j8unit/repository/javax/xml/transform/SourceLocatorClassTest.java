@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.SourceLocatorClassTests<Sou
         return SourceLocator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.SourceLocator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.SourceLocator]
 
 }

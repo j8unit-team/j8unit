@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.time.chrono.IsoEraClassTests<IsoEra> {
         // write some test for {@link java.time.chrono.IsoEra#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.IsoEra]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.IsoEra]
 
 }

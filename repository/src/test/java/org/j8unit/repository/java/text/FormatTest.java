@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.text.FormatTests<Format> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.text.Format], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Format]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Format]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Format]
 
     @RunWith(J8Unit4.class)
     public static class FieldTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.text.FormatTests<Format> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.text.Format.Field], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Format$Field]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Format$Field]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Format$Field]
 
     }
 

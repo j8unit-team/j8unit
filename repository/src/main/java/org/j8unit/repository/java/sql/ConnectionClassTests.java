@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.WrapperClassTests<SUT>, org.j8unit.reposi
                    Connection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Connection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Connection]
 
 }

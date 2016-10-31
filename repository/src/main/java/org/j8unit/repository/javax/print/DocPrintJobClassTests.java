@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DocPrintJob.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.DocPrintJob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocPrintJob]
 
 }

@@ -57,6 +57,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.RejectedExecutionHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.RejectedExecutionHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.RejectedExecutionHandler]
 }

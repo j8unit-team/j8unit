@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynStructOperationsTests<SUT>, 
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
 }

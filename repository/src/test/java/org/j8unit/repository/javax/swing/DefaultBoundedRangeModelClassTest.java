@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.swing.DefaultBoundedRangeModelClassTests<
         final DefaultBoundedRangeModel sut = null; // = new DefaultBoundedRangeModel(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultBoundedRangeModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultBoundedRangeModel]
 
 }

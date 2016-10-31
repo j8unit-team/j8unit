@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT> {
                    ChronoLocalDateTime.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ChronoLocalDateTime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ChronoLocalDateTime]
 
 }

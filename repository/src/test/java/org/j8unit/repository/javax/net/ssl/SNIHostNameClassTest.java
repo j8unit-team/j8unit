@@ -83,6 +83,8 @@ implements org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests<SNIHostName
         // write some test for {@link javax.net.ssl.SNIHostName#createSNIMatcher(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SNIHostName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SNIHostName]
 
 }

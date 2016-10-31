@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.FaultActionClassTests<FaultAction>
         return FaultAction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.FaultAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.FaultAction]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.SupportedSourceVers
         return SupportedSourceVersion.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.SupportedSourceVersion]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.SupportedSourceVersion]
 
 }

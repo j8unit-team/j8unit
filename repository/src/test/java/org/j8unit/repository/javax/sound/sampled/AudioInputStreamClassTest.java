@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioInputStreamClassTests<
         final AudioInputStream sut = null; // = new AudioInputStream(javax.sound.sampled.TargetDataLine);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioInputStream]
 
 }

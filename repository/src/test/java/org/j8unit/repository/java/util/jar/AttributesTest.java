@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<Attributes>, org.j8unit.repository.java.util.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Attributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Attributes]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Attributes]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -71,7 +73,9 @@ implements FactoryBasedJ8UnitTest<Attributes>, org.j8unit.repository.java.util.j
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Attributes$Name]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Attributes$Name]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Attributes$Name]
 
     }
 

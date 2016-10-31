@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.security.DomainLoadStoreParameterClassTest
         final DomainLoadStoreParameter sut = null; // = new DomainLoadStoreParameter(java.net.URI, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.DomainLoadStoreParameter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DomainLoadStoreParameter]
 
 }

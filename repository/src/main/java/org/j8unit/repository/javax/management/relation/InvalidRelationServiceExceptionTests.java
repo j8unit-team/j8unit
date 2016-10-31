@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.management.relation.RelationExceptionTests<S
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.InvalidRelationServiceException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.InvalidRelationServiceException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.InvalidRelationServiceException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.InvalidRelationServiceException]
 }

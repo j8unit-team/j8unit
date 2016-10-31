@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.time.format.TextStyleTests<TextStyle> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.TextStyle]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.format.TextStyle]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.TextStyle]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.EventObjectClassTests<EventObject> {
         final EventObject sut = null; // = new EventObject(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EventObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EventObject]
 
 }

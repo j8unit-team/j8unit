@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RMIFailureHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIFailureHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIFailureHandler]
 
 }

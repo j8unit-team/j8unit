@@ -122,6 +122,7 @@ extends org.j8unit.repository.java.beans.StatementTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Expression]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.Expression]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Expression]
 }

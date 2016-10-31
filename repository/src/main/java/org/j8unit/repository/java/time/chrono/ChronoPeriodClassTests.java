@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT> {
                    ChronoPeriod.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ChronoPeriod]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ChronoPeriod]
 
 }

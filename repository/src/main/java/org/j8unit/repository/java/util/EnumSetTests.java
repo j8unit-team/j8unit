@@ -55,6 +55,7 @@ org.j8unit.repository.java.util.AbstractSetTests<SUT, E> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.EnumSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.EnumSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.EnumSet]
 }

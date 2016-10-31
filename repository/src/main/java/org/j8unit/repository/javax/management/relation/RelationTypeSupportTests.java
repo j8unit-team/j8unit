@@ -105,6 +105,7 @@ extends org.j8unit.repository.javax.management.relation.RelationTypeTests<SUT>, 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationTypeSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationTypeSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationTypeSupport]
 }

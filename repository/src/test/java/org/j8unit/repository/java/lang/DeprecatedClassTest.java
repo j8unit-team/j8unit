@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.DeprecatedClassTests<Deprecated> {
         return Deprecated.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Deprecated]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Deprecated]
 
 }

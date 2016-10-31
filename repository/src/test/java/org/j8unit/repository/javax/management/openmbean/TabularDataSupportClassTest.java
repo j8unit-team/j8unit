@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.management.openmbean.TabularDataSupportCl
                                              // float);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.TabularDataSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.TabularDataSupport]
 
 }

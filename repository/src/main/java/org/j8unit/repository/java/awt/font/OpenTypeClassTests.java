@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    OpenType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.OpenType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.OpenType]
 
 }

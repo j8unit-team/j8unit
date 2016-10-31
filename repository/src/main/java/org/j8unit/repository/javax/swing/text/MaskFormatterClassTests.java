@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests<SUT> {
                    MaskFormatter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.MaskFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.MaskFormatter]
 
 }

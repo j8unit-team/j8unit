@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionCl
         final UnsupportedDataTypeException sut = null; // = new UnsupportedDataTypeException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.UnsupportedDataTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.UnsupportedDataTypeException]
 
 }

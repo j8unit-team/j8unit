@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.IntSummaryStatisticsClassTests<IntSum
         final IntSummaryStatistics sut = new IntSummaryStatistics();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IntSummaryStatistics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IntSummaryStatistics]
 
 }

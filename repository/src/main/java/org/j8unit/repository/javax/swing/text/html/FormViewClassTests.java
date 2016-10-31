@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.
                    FormView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.FormView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormView]
 
 }

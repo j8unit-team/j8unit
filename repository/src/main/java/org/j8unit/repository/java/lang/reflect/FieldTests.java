@@ -786,6 +786,7 @@ extends org.j8unit.repository.java.lang.reflect.MemberTests<SUT>, org.j8unit.rep
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Field]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.Field]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Field]
 }

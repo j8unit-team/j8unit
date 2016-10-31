@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTests<
                    UnknownGroupException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.UnknownGroupException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.UnknownGroupException]
 
 }

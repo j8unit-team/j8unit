@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    FileObject.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.FileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.FileObject]
 
 }

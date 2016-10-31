@@ -76,6 +76,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.MissingResourceException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.MissingResourceException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.MissingResourceException]
 }

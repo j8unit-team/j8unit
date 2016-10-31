@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.ActivityRequiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 }

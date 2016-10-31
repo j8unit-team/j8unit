@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.PortableServer.LifespanPolicyValueClass
         // write some test for {@link org.omg.PortableServer.LifespanPolicyValue#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.LifespanPolicyValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.LifespanPolicyValue]
 
 }

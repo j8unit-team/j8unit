@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.ProgressMonitorClassTests<ProgressM
         final ProgressMonitor sut = null; // = new ProgressMonitor(java.awt.Component, Object, String, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ProgressMonitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ProgressMonitor]
 
 }

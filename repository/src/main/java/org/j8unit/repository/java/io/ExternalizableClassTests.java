@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
                    Externalizable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Externalizable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Externalizable]
 
 }

@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.management.relation.RoleStatusClassTests<
         // write some test for {@link javax.management.relation.RoleStatus#isRoleStatus(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleStatus]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleStatus]
 
 }

@@ -278,6 +278,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
         org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getConstructors();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanInfoSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanInfoSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanInfoSupport]
 }

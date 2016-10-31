@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ContextClassTests<Context> {
         return Context.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.Context]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.Context]
 
 }

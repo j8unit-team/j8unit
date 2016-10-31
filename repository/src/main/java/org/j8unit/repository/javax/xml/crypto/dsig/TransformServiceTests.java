@@ -175,6 +175,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.TransformService]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.TransformService]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.TransformService]
 }

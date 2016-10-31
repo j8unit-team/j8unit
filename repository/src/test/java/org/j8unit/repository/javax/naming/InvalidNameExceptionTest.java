@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidNameException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InvalidNameException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.InvalidNameException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.InvalidNameException]
 
 }

@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.swing.plaf.ColorUIResourceClassTests<Colo
         final ColorUIResource sut = null; // = new ColorUIResource(int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.ColorUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.ColorUIResource]
 
 }

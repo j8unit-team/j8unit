@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.util.CurrencyClassTests<Currency> {
         // write some test for {@link java.util.Currency#getAvailableCurrencies()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Currency]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Currency]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.events.EndElementClassTests<En
         return EndElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.EndElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.EndElement]
 
 }

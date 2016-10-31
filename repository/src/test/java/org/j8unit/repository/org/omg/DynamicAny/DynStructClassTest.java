@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynStructClassTests<DynStruc
         return DynStruct.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynStruct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynStruct]
 
 }

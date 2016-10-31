@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sound.midi.VoiceStatusClassTests<VoiceSta
         final VoiceStatus sut = new VoiceStatus();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.VoiceStatus]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.VoiceStatus]
 
 }

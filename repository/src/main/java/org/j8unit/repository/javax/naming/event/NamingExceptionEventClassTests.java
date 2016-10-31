@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    NamingExceptionEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.NamingExceptionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.NamingExceptionEvent]
 
 }

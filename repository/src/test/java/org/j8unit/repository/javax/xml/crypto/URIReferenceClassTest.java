@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.URIReferenceClassTests<URIRefe
         return URIReference.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.URIReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.URIReference]
 
 }

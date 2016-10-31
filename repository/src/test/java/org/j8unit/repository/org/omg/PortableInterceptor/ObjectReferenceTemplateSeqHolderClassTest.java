@@ -66,6 +66,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemp
         final ObjectReferenceTemplateSeqHolder sut = new ObjectReferenceTemplateSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ManagementFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.ManagementFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ManagementFactory]
 
 }

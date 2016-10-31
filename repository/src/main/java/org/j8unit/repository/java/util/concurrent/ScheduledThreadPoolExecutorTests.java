@@ -372,31 +372,6 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#schedule(Runnable, long, java.util.concurrent.TimeUnit)
-     * public java.util.concurrent.ScheduledFuture<?>
-     * java.util.concurrent.ScheduledThreadPoolExecutor.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_schedule_Runnable_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.concurrent.ScheduledThreadPoolExecutor#schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
      * public <V> java.util.concurrent.ScheduledFuture<V>
      * java.util.concurrent.ScheduledThreadPoolExecutor.schedule(java.util.concurrent.Callable<V>,long,java.util.concurrent.TimeUnit)}.
@@ -413,6 +388,31 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
     @Test
     @Category(Draft.class)
     public default void test_schedule_Callable_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#schedule(Runnable, long, java.util.concurrent.TimeUnit)
+     * public java.util.concurrent.ScheduledFuture<?>
+     * java.util.concurrent.ScheduledThreadPoolExecutor.schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_schedule_Runnable_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -444,6 +444,7 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ScheduledThreadPoolExecutor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ScheduledThreadPoolExecutor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ScheduledThreadPoolExecutor]
 }

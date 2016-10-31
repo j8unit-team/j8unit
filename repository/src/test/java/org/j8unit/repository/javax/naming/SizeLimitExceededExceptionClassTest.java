@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.SizeLimitExceededExceptionClassTes
         final SizeLimitExceededException sut = null; // = new SizeLimitExceededException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.SizeLimitExceededException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.SizeLimitExceededException]
 
 }

@@ -128,6 +128,7 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetListenerTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DropTargetAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DropTargetAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DropTargetAdapter]
 }

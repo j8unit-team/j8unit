@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.imageio.IIOExceptionClassTests<IIOExcepti
         final IIOException sut = null; // = new IIOException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.IIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.IIOException]
 
 }

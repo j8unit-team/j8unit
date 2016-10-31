@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.MXBeanClassTests<MXBean> {
         return MXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MXBean]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.undo.StateEditTests<StateEdit> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.undo.StateEdit], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.StateEdit]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.undo.StateEdit]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.undo.StateEdit]
 
 }

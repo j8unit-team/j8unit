@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Transformer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.Transformer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.Transformer]
 
 }

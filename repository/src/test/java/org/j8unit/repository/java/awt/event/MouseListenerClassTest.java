@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.MouseListenerClassTests<MouseLis
         return MouseListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.MouseListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.MouseListener]
 
 }

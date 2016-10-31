@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionClassTests
         final KeySelectorException sut = new KeySelectorException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.KeySelectorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelectorException]
 
 }

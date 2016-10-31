@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<TreeSet<E>>, org.j8unit.repository.java.util.T
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.TreeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.TreeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.TreeSet]
 
 }

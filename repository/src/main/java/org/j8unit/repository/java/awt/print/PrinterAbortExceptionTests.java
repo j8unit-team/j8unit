@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.awt.print.PrinterExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.PrinterAbortException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 }

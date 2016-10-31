@@ -102,6 +102,8 @@ implements org.j8unit.repository.java.lang.VirtualMachineErrorClassTests<Virtual
         Assert.fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.VirtualMachineError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.VirtualMachineError]
 
 }

@@ -102,6 +102,8 @@ implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronolog
         // write some test for {@link java.time.chrono.Chronology#ofLocale(java.util.Locale)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.Chronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.Chronology]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.MemberClassTests<Member> {
         return Member.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Member]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Member]
 
 }

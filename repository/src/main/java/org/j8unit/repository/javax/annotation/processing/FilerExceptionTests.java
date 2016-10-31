@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.processing.FilerException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.FilerException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.processing.FilerException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.FilerException]
 }

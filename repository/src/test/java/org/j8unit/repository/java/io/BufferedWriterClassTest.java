@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.io.BufferedWriterClassTests<BufferedWriter
         final BufferedWriter sut = null; // = new BufferedWriter(java.io.Writer, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.BufferedWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedWriter]
 
 }

@@ -169,28 +169,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#isCharacters()
-     * public abstract boolean javax.xml.stream.XMLStreamReader.isCharacters()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCharacters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getElementText()
      * public abstract java.lang.String javax.xml.stream.XMLStreamReader.getElementText() throws
      * javax.xml.stream.XMLStreamException}.
@@ -206,6 +184,28 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getElementText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#isCharacters()
+     * public abstract boolean javax.xml.stream.XMLStreamReader.isCharacters()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCharacters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -416,28 +416,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getPIData() public
-     * abstract java.lang.String javax.xml.stream.XMLStreamReader.getPIData()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPIData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#hasName() public
      * abstract boolean javax.xml.stream.XMLStreamReader.hasName()}.
      *
@@ -452,6 +430,28 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hasName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getPIData() public
+     * abstract java.lang.String javax.xml.stream.XMLStreamReader.getPIData()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPIData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -548,6 +548,28 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getTextLength()
+     * public abstract int javax.xml.stream.XMLStreamReader.getTextLength()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTextLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamReader#getCharacterEncodingScheme() public abstract java.lang.String
      * javax.xml.stream.XMLStreamReader.getCharacterEncodingScheme()}.
@@ -585,28 +607,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getEventType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getTextLength()
-     * public abstract int javax.xml.stream.XMLStreamReader.getTextLength()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -729,29 +729,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamReader#getNamespaceURI(String) public abstract java.lang.String
-     * javax.xml.stream.XMLStreamReader.getNamespaceURI(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamReader#getNamespaceURI(int) public abstract java.lang.String
      * javax.xml.stream.XMLStreamReader.getNamespaceURI(int)}.
      *
@@ -788,6 +765,29 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNamespaceURI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLStreamReader#getNamespaceURI(String) public abstract java.lang.String
+     * javax.xml.stream.XMLStreamReader.getNamespaceURI(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1041,6 +1041,7 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.XMLStreamReader]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.XMLStreamReader]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.XMLStreamReader]
 }

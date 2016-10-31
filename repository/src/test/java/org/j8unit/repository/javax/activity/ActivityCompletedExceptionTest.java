@@ -32,6 +32,8 @@ org.j8unit.repository.javax.activity.ActivityCompletedExceptionTests<ActivityCom
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityCompletedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activity.ActivityCompletedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.ActivityCompletedException]
 
 }

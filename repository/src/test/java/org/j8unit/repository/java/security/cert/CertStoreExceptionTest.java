@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CertStoreException>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertStoreException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertStoreException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertStoreException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CodecOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecOperations]
 
 }

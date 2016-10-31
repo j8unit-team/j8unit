@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.crypto.spec.PBEParameterSpecClassTests<PB
         final PBEParameterSpec sut = null; // = new PBEParameterSpec(byte[], int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.PBEParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PBEParameterSpec]
 
 }

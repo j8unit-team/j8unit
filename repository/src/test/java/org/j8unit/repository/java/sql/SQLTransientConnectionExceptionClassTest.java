@@ -204,6 +204,8 @@ implements org.j8unit.repository.java.sql.SQLTransientConnectionExceptionClassTe
         final SQLTransientConnectionException sut = null; // = new SQLTransientConnectionException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLTransientConnectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLTransientConnectionException]
 
 }

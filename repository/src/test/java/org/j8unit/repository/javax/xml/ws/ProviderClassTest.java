@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.ProviderClassTests<Provider> {
         return Provider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Provider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Provider]
 
 }

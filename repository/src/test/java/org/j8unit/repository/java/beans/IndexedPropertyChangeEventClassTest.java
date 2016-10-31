@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.beans.IndexedPropertyChangeEventClassTests
                                                      // int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.IndexedPropertyChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.IndexedPropertyChangeEvent]
 
 }

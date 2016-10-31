@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.remote.JMXPrincipalClassTests<
         final JMXPrincipal sut = null; // = new JMXPrincipal(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXPrincipal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXPrincipal]
 
 }

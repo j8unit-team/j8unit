@@ -69,6 +69,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests<
                    RelationService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationService]
 
 }

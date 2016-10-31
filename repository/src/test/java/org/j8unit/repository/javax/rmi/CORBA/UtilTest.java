@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.UtilTests<Util> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.rmi.CORBA.Util], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.CORBA.Util]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.CORBA.Util]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.Util]
 
 }

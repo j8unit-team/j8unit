@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidActivityException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.InvalidActivityException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activity.InvalidActivityException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activity.InvalidActivityException]
 
 }

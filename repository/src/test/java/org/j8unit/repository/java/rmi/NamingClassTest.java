@@ -124,6 +124,8 @@ implements org.j8unit.repository.java.rmi.NamingClassTests<Naming> {
         // write some test for {@link java.rmi.Naming#list(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.Naming]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.Naming]
 
 }

@@ -231,6 +231,8 @@ implements org.j8unit.repository.java.sql.SQLClientInfoExceptionClassTests<SQLCl
         final SQLClientInfoException sut = null; // = new SQLClientInfoException(String, java.util.Map, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLClientInfoException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLClientInfoException]
 
 }

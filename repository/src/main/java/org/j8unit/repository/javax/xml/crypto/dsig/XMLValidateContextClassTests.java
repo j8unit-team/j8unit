@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests<SUT> {
                    XMLValidateContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLValidateContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLValidateContext]
 
 }

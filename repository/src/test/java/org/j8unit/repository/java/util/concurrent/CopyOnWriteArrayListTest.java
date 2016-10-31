@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CopyOnWriteArrayList<E>>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CopyOnWriteArrayList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.CopyOnWriteArrayList]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CopyOnWriteArrayList]
 
 }

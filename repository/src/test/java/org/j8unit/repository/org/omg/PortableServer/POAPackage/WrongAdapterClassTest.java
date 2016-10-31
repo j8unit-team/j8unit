@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterC
         final WrongAdapter sut = null; // = new WrongAdapter(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongAdapter]
 
 }

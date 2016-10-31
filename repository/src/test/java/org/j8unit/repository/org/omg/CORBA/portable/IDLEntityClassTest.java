@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<IDLE
         return IDLEntity.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.IDLEntity]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.IDLEntity]
 
 }

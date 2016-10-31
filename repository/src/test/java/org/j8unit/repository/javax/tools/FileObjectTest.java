@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.tools.FileObjectTests<FileObject> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.FileObject], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.FileObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.FileObject]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.FileObject]
 
 }

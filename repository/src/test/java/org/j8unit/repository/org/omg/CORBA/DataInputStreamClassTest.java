@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DataInputStreamClassTests<DataInp
         return DataInputStream.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DataInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DataInputStream]
 
 }

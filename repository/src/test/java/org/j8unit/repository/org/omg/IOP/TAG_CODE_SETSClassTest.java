@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_CODE_SETSClassTests<TAG_CODE_SE
         return TAG_CODE_SETS.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_CODE_SETS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_CODE_SETS]
 
 }

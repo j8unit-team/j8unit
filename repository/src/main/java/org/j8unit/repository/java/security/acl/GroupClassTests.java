@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.security.PrincipalClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Group.class!", Group.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.Group]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.Group]
 
 }

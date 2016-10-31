@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.ServiceModeTests<ServiceMode> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.ws.ServiceMode], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.ServiceMode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.ServiceMode]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.ServiceMode]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionClassTests<SUT>, org.j8uni
                    ExtendedSSLSession.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.ExtendedSSLSession]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.ExtendedSSLSession]
 
 }

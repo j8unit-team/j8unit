@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorTests<KeySelector> 
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.crypto.KeySelector], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.KeySelector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.KeySelector]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.KeySelector]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -48,7 +50,9 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorTests<KeySelector> 
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.KeySelector$Purpose]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.KeySelector$Purpose]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.KeySelector$Purpose]
 
     }
 

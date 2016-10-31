@@ -201,6 +201,8 @@ implements org.j8unit.repository.java.sql.SQLTimeoutExceptionClassTests<SQLTimeo
         final SQLTimeoutException sut = null; // = new SQLTimeoutException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLTimeoutException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLTimeoutException]
 
 }

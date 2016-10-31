@@ -80,6 +80,7 @@ extends org.j8unit.repository.java.awt.event.ContainerListenerTests<SUT>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.ContainerAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.ContainerAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.ContainerAdapter]
 }

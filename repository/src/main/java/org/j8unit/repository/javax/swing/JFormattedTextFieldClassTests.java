@@ -70,6 +70,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
                    JFormattedTextField.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField]
 
     /**
@@ -133,6 +135,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AbstractFormatterFactory.class!",
                               AbstractFormatterFactory.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
@@ -198,6 +202,8 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to AbstractFormatter.class!",
                               AbstractFormatter.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
 

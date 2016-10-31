@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.util.zip.InflaterClassTests<Inflater> {
         final Inflater sut = new Inflater();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.Inflater]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.Inflater]
 
 }

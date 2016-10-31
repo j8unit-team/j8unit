@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SimpleAttributeSet>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
 
 }

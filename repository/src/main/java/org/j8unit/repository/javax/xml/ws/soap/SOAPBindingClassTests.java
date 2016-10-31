@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.ws.BindingClassTests<SUT> {
                    SOAPBinding.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.SOAPBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.SOAPBinding]
 
 }

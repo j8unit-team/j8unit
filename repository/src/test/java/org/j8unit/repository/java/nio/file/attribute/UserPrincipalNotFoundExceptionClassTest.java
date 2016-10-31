@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.file.attribute.UserPrincipalNotFoundEx
         final UserPrincipalNotFoundException sut = null; // = new UserPrincipalNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.UserPrincipalNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.UserPrincipalNotFoundException]
 
 }

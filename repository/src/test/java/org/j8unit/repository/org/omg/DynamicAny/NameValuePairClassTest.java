@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameValuePairClassTests<Name
         final NameValuePair sut = null; // = new NameValuePair(String, org.omg.CORBA.Any);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.NameValuePair]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameValuePair]
 
 }

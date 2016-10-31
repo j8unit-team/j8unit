@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IterableClassTests<SUT>, org.j8unit.repo
                    SQLException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLException]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.spec.InvalidParameterSpecExceptio
         final InvalidParameterSpecException sut = null; // = new InvalidParameterSpecException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.InvalidParameterSpecException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.InvalidParameterSpecException]
 
 }

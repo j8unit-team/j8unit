@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueCl
         final InvalidValue sut = null; // = new InvalidValue(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.InvalidValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.InvalidValue]
 
 }

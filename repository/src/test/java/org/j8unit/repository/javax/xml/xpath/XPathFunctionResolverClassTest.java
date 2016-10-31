@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFunctionResolverClassTests
         return XPathFunctionResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathFunctionResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathFunctionResolver]
 
 }

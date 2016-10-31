@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.directory.SearchControlsClassTests
         final SearchControls sut = new SearchControls();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.SearchControls]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.SearchControls]
 
 }

@@ -218,6 +218,7 @@ extends org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LabelView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.LabelView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LabelView]
 }

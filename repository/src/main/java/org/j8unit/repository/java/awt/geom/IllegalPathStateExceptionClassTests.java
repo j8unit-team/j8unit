@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    IllegalPathStateException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.IllegalPathStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.IllegalPathStateException]
 
 }

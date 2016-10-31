@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectorProviderCla
         return JMXConnectorProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectorProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectorProvider]
 
 }

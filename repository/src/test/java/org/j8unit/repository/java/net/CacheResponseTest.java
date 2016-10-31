@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.net.CacheResponseTests<CacheResponse> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.net.CacheResponse], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CacheResponse]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.CacheResponse]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CacheResponse]
 
 }

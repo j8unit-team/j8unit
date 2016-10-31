@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.security.KeyExceptionClassTests<KeyExcepti
         final KeyException sut = new KeyException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyException]
 
 }

@@ -67,6 +67,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Boolean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Boolean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Boolean]
 
 }

@@ -32,6 +32,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGQTableTests<JPEG
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGQTable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGQTable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGQTable]
 
 }

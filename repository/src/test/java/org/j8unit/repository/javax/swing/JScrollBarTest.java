@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JScrollBar>, org.j8unit.repository.javax.swing
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JScrollBar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JScrollBar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JScrollBar]
 
 }

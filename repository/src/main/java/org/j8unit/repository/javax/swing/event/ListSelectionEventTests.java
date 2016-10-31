@@ -122,6 +122,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.ListSelectionEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.ListSelectionEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.ListSelectionEvent]
 }

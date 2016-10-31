@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    RowSorter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.RowSorter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowSorter]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SortKey.class!",
                               SortKey.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.RowSorter$SortKey]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowSorter$SortKey]
 

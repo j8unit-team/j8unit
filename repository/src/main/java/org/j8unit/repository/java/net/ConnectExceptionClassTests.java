@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
                    ConnectException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ConnectException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ConnectException]
 
 }

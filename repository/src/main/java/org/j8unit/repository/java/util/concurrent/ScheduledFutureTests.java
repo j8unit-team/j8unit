@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.util.concurrent.DelayedTests<SUT>, org.j8unit
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ScheduledFuture]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ScheduledFuture]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ScheduledFuture]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ScheduledFuture]
 }

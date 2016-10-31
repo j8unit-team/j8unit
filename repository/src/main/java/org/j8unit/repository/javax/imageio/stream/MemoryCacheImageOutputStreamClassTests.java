@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplClassTes
                    MemoryCacheImageOutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.MemoryCacheImageOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.MemoryCacheImageOutputStream]
 
 }

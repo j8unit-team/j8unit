@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.zip.CheckedInputStreamClassTests<Chec
         final CheckedInputStream sut = null; // = new CheckedInputStream(java.io.InputStream, java.util.zip.Checksum);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.CheckedInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.CheckedInputStream]
 
 }

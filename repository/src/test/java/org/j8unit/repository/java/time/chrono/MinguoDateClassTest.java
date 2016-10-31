@@ -120,6 +120,8 @@ implements org.j8unit.repository.java.time.chrono.MinguoDateClassTests<MinguoDat
         // write some test for {@link java.time.chrono.MinguoDate#from(java.time.temporal.TemporalAccessor)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.MinguoDate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.MinguoDate]
 
 }

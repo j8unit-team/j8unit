@@ -42,6 +42,8 @@ implements org.j8unit.repository.org.w3c.dom.ls.LSExceptionClassTests<LSExceptio
         final LSException sut = null; // = new LSException(short, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ls.LSException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ls.LSException]
 
 }

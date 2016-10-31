@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.AWTPermission]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AWTPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.AWTPermission]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AWTPermission]
 }

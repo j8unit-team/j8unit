@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.MenuComponentClassTests<MenuComponent>
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuComponent]
 
 }

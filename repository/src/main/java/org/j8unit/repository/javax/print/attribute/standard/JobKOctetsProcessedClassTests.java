@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<
                    JobKOctetsProcessed.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobKOctetsProcessed]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobKOctetsProcessed]
 
 }

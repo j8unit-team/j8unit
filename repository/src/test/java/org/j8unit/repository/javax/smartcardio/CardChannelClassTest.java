@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.smartcardio.CardChannelClassTests<CardCha
         return CardChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardChannel]
 
 }

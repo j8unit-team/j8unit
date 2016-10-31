@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TAG_CODE_SETS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_CODE_SETS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_CODE_SETS]
 
 }

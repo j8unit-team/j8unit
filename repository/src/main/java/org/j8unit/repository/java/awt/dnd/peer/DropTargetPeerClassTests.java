@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DropTargetPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.peer.DropTargetPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.peer.DropTargetPeer]
 
 }

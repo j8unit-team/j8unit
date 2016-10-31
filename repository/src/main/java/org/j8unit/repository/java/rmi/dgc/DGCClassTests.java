@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DGC.class!", DGC.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.dgc.DGC]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.dgc.DGC]
 
 }

@@ -34,8 +34,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.crypto.Cipher#doFinal() public final byte[]
-     * javax.crypto.Cipher.doFinal() throws javax.crypto.IllegalBlockSizeException,javax.crypto.BadPaddingException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.Cipher#doFinal(byte[]) public final
+     * byte[] javax.crypto.Cipher.doFinal(byte[]) throws
+     * javax.crypto.IllegalBlockSizeException,javax.crypto.BadPaddingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +48,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doFinal()
+    public default void test_doFinal_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,29 +80,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.crypto.Cipher#doFinal(byte[]) public final
-     * byte[] javax.crypto.Cipher.doFinal(byte[]) throws
-     * javax.crypto.IllegalBlockSizeException,javax.crypto.BadPaddingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doFinal_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.crypto.Cipher#doFinal(byte[], int) public
      * final int javax.crypto.Cipher.doFinal(byte[],int) throws
      * javax.crypto.IllegalBlockSizeException,javax.crypto.ShortBufferException,javax.crypto.BadPaddingException}.
@@ -117,6 +95,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_doFinal_byteArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.Cipher#doFinal() public final byte[]
+     * javax.crypto.Cipher.doFinal() throws javax.crypto.IllegalBlockSizeException,javax.crypto.BadPaddingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_doFinal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -509,6 +509,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.Cipher#init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec) public final
+     * void javax.crypto.Cipher.init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec) throws
+     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_init_int_Key_AlgorithmParameterSpec()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.crypto.Cipher#init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)
      * public final void
      * javax.crypto.Cipher.init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec,java.security.SecureRandom)
@@ -525,30 +549,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_init_int_Key_AlgorithmParameterSpec_SecureRandom()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.crypto.Cipher#init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec) public final
-     * void javax.crypto.Cipher.init(int,java.security.Key,java.security.spec.AlgorithmParameterSpec) throws
-     * java.security.InvalidKeyException,java.security.InvalidAlgorithmParameterException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_init_int_Key_AlgorithmParameterSpec()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -764,6 +764,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.Cipher]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.Cipher]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.Cipher]
 }

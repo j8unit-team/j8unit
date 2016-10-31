@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MimeTypeParseException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.MimeTypeParseException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.datatransfer.MimeTypeParseException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.MimeTypeParseException]
 
 }

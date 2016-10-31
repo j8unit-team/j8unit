@@ -100,6 +100,7 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.PaintEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.PaintEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.PaintEvent]
 }

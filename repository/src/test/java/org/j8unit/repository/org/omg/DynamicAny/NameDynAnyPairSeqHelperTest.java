@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairSeqHelperTests
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.DynamicAny.NameDynAnyPairSeqHelper], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.NameDynAnyPairSeqHelper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.NameDynAnyPairSeqHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.NameDynAnyPairSeqHelper]
 
 }

@@ -48,6 +48,8 @@ implements org.j8unit.repository.java.security.spec.RSAMultiPrimePrivateCrtKeySp
                                                          // java.security.spec.RSAOtherPrimeInfo[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.RSAMultiPrimePrivateCrtKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.RSAMultiPrimePrivateCrtKeySpec]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.SecurityManagerClassTests<SUT> {
                    RMISecurityManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.RMISecurityManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.RMISecurityManager]
 
 }

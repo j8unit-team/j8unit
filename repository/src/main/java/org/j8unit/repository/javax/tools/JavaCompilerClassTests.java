@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
                    JavaCompiler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaCompiler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaCompiler]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CompilationTask.class!",
                               CompilationTask.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaCompiler$CompilationTask]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaCompiler$CompilationTask]
 

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.print.ServiceUIFactoryClassTests<ServiceU
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.ServiceUIFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.ServiceUIFactory]
 
 }

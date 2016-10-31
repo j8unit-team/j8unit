@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.lang.ClassClassTests<Class> {
         // write some test for {@link Class#forName(String, boolean, ClassLoader)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Class]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Class]
 
 }

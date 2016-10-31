@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileId
         // write some test for {@link org.omg.IOP.ProfileIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ProfileIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ProfileIdHelper]
 
 }

@@ -218,6 +218,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.AbstractAction]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.AbstractAction]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.AbstractAction]
 }

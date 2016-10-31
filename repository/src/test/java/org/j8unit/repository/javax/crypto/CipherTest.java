@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.crypto.CipherTests<Cipher> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.crypto.Cipher], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.Cipher]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.Cipher]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.Cipher]
 
 }

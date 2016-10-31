@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.activation.CommandInfoClassTests<CommandI
         final CommandInfo sut = null; // = new CommandInfo(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.CommandInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.CommandInfo]
 
 }

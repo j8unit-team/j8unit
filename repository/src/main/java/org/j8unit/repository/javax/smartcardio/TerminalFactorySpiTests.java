@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.smartcardio.TerminalFactorySpi]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.TerminalFactorySpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.smartcardio.TerminalFactorySpi]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.TerminalFactorySpi]
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<GeneralSecurityException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.GeneralSecurityException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.GeneralSecurityException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.GeneralSecurityException]
 
 }

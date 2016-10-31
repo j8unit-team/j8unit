@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLContextSpiClassTests<SSLContex
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLContextSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLContextSpi]
 
 }

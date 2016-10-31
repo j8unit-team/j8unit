@@ -706,6 +706,7 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.BlockingDeque]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.BlockingDeque]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.BlockingDeque]
 }

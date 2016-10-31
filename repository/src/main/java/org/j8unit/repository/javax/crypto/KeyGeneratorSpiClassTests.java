@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyGeneratorSpi.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.KeyGeneratorSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.KeyGeneratorSpi]
 
 }

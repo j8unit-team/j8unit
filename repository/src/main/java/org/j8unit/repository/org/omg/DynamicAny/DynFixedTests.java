@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynFixedOperationsTests<SUT>, o
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynFixed]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynFixed]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynFixed]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynFixed]
 }

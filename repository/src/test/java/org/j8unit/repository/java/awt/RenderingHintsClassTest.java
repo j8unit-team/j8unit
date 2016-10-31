@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.awt.RenderingHintsClassTests<RenderingHint
         final RenderingHints sut = null; // = new RenderingHints(java.awt.RenderingHints.Key, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.RenderingHints]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.RenderingHints]
 
     @RunWith(J8Unit4.class)
@@ -78,6 +80,8 @@ implements org.j8unit.repository.java.awt.RenderingHintsClassTests<RenderingHint
         public Class<Key> createNewSUT() {
             return Key.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.RenderingHints$Key]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.RenderingHints$Key]
 

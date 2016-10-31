@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerClassTest
         return XMLEventConsumer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.util.XMLEventConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.XMLEventConsumer]
 
 }

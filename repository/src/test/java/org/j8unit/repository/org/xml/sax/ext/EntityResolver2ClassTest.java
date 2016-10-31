@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.ext.EntityResolver2ClassTests<Entit
         return EntityResolver2.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.EntityResolver2]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.EntityResolver2]
 
 }

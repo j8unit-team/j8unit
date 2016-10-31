@@ -214,6 +214,8 @@ implements org.j8unit.repository.java.rmi.server.RMIClassLoaderClassTests<RMICla
         // write some test for {@link java.rmi.server.RMIClassLoader#loadClass(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIClassLoader]
 
 }

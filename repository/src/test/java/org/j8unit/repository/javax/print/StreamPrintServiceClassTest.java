@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.StreamPrintServiceClassTests<Stream
         return StreamPrintService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.StreamPrintService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.StreamPrintService]
 
 }

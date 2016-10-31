@@ -169,6 +169,7 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.FileDataSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.FileDataSource]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.FileDataSource]
 }

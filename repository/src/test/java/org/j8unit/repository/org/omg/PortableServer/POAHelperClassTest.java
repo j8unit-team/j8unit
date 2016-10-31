@@ -188,6 +188,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAHelperClassTests<POAH
         // write some test for {@link org.omg.PortableServer.POAHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAHelper]
 
 }

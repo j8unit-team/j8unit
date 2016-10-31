@@ -35,6 +35,8 @@ implements org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<DataFlavo
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.DataFlavor]
 
 }

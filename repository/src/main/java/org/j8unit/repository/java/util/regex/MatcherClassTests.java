@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.regex.MatchResultClassTests<SUT>, org.j8
                    Matcher.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.regex.Matcher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.regex.Matcher]
 
 }

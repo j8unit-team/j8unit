@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.lang.invoke.MutableCallSiteClassTests<Muta
         // write some test for {@link java.lang.invoke.MutableCallSite#syncAll(java.lang.invoke.MutableCallSite[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MutableCallSite]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MutableCallSite]
 
 }

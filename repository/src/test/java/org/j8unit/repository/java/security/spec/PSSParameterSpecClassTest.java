@@ -67,6 +67,8 @@ implements org.j8unit.repository.java.security.spec.PSSParameterSpecClassTests<P
         final PSSParameterSpec sut = null; // = new PSSParameterSpec(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.PSSParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.PSSParameterSpec]
 
 }

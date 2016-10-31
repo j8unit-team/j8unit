@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    FlavorException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.FlavorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.FlavorException]
 
 }

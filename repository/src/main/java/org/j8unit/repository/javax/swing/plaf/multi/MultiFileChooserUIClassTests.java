@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUIClassTests<SUT> {
                    MultiFileChooserUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiFileChooserUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiFileChooserUI]
 
 }

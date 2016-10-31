@@ -42,6 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.IndirectionExceptionClas
         final IndirectionException sut = null; // = new IndirectionException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.IndirectionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.IndirectionException]
 
 }

@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<NavigationFilter>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NavigationFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.NavigationFilter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.NavigationFilter]
 
     @RunWith(J8Unit4.class)
     public static class FilterBypassTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<NavigationFilter>, org.j8unit.repository.javax
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.NavigationFilter.FilterBypass], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NavigationFilter$FilterBypass]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.NavigationFilter$FilterBypass]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.NavigationFilter$FilterBypass]
 
     }
 

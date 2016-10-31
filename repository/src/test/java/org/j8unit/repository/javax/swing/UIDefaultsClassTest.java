@@ -88,20 +88,47 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         final UIDefaults sut = null; // = new UIDefaults(Object[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults]
 
     @RunWith(J8Unit4.class)
-    public static class ActiveValueClassTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests<ActiveValue> {
+    public static class LazyInputMapClassTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests<LazyInputMap> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
 
         @Override
-        public Class<ActiveValue> createNewSUT() {
-            return ActiveValue.class;
+        public Class<LazyInputMap> createNewSUT() {
+            return LazyInputMap.class;
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.UIDefaults.LazyInputMap#LazyInputMap(Object[]) public
+         * javax.swing.UIDefaults$LazyInputMap(java.lang.Object[])}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_LazyInputMap_ObjectArray()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final LazyInputMap sut = null; // = new LazyInputMap(Object[]);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
 
     }
 
@@ -208,45 +235,26 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
             final ProxyLazyValue sut = null; // = new ProxyLazyValue(String, String, Object[]);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class LazyInputMapClassTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyInputMapClassTests<LazyInputMap> {
+    public static class ActiveValueClassTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsClassTests.ActiveValueClassTests<ActiveValue> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
 
         @Override
-        public Class<LazyInputMap> createNewSUT() {
-            return LazyInputMap.class;
+        public Class<ActiveValue> createNewSUT() {
+            return ActiveValue.class;
         }
 
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.UIDefaults.LazyInputMap#LazyInputMap(Object[]) public
-         * javax.swing.UIDefaults$LazyInputMap(java.lang.Object[])}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_LazyInputMap_ObjectArray()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final LazyInputMap sut = null; // = new LazyInputMap(Object[]);
-        }
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
 
     }
 
@@ -260,6 +268,8 @@ implements org.j8unit.repository.javax.swing.UIDefaultsClassTests<UIDefaults> {
         public Class<LazyValue> createNewSUT() {
             return LazyValue.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 

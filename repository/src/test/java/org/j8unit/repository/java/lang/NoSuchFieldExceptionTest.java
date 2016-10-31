@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<NoSuchFieldException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NoSuchFieldException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.NoSuchFieldException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.NoSuchFieldException]
 
 }

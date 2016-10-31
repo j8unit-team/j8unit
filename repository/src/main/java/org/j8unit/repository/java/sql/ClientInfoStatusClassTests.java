@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    ClientInfoStatus.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.ClientInfoStatus]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ClientInfoStatus]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.spi.XmlReaderClassTests<XmlRea
         return XmlReader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.XmlReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.XmlReader]
 
 }

@@ -680,8 +680,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -733,8 +734,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
     }
 
     /**
@@ -808,8 +810,9 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
     }
 
 }

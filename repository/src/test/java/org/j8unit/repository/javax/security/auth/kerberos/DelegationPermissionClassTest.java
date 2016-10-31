@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.security.auth.kerberos.DelegationPermissi
         final DelegationPermission sut = null; // = new DelegationPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.DelegationPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.DelegationPermission]
 
 }

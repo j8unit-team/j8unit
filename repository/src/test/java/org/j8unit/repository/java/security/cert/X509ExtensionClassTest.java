@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.cert.X509ExtensionClassTests<X509
         return X509Extension.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.X509Extension]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.X509Extension]
 
 }

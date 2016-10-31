@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.BindingClassTests<Binding> {
         return Binding.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Binding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Binding]
 
 }

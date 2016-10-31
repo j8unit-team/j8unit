@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyNameClassTests
         return KeyName.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.KeyName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.KeyName]
 
 }

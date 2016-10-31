@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBPermissionClassTests<JAXBPer
         final JAXBPermission sut = null; // = new JAXBPermission(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBPermission]
 
 }

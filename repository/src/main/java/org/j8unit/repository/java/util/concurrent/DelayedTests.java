@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Delayed> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.Delayed]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.Delayed]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.Delayed]
 }

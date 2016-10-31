@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    GlyphMetrics.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.GlyphMetrics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.GlyphMetrics]
 
 }

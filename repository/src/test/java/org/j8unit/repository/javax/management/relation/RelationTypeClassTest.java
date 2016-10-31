@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.relation.RelationTypeClassTest
         return RelationType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationType]
 
 }

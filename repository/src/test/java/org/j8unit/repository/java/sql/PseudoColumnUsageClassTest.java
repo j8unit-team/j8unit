@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.sql.PseudoColumnUsageClassTests<PseudoColu
         // write some test for {@link java.sql.PseudoColumnUsage#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.PseudoColumnUsage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.PseudoColumnUsage]
 
 }

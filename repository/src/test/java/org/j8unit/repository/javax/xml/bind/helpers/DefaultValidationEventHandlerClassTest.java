@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.DefaultValidationEventHa
         final DefaultValidationEventHandler sut = new DefaultValidationEventHandler();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.DefaultValidationEventHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.DefaultValidationEventHandler]
 
 }

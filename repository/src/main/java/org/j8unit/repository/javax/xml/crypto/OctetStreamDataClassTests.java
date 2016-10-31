@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.DataClassTests<SUT>, org.j8unit.r
                    OctetStreamData.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.OctetStreamData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.OctetStreamData]
 
 }

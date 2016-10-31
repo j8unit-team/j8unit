@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.time.DateTimeExceptionClassTests<DateTimeE
         final DateTimeException sut = null; // = new DateTimeException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.DateTimeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.DateTimeException]
 
 }

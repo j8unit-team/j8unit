@@ -128,6 +128,8 @@ implements org.j8unit.repository.java.text.BidiClassTests<Bidi> {
         // write some test for {@link java.text.Bidi#requiresBidi(char[], int, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Bidi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Bidi]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<SUT> {
                    StartDocument.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.StartDocument]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.StartDocument]
 
 }

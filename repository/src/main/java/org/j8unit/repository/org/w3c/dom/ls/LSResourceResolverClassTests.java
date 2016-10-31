@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LSResourceResolver.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ls.LSResourceResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ls.LSResourceResolver]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> 
                    InvalidOpenTypeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.InvalidOpenTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.InvalidOpenTypeException]
 
 }

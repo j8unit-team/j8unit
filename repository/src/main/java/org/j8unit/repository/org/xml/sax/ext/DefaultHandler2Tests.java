@@ -325,31 +325,6 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.ext.DefaultHandler2#startDTD(String, String, String) public void
-     * org.xml.sax.ext.DefaultHandler2.startDTD(java.lang.String,java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_startDTD_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.ext.DefaultHandler2#getExternalSubset(String, String) public org.xml.sax.InputSource
      * org.xml.sax.ext.DefaultHandler2.getExternalSubset(java.lang.String,java.lang.String) throws
      * org.xml.sax.SAXException,java.io.IOException}.
@@ -372,6 +347,32 @@ org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests<SUT>, org.j8unit.repo
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.DefaultHandler2]
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.ext.DefaultHandler2#startDTD(String, String, String) public void
+     * org.xml.sax.ext.DefaultHandler2.startDTD(java.lang.String,java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_startDTD_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.DefaultHandler2]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.DefaultHandler2]
 }

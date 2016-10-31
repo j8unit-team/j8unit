@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    ReflectiveOperationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ReflectiveOperationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ReflectiveOperationException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    NON_EXISTENT.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.NON_EXISTENT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.NON_EXISTENT]
 
 }

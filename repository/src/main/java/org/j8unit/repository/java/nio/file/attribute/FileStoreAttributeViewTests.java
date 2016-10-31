@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.nio.file.attribute.AttributeViewTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.attribute.FileStoreAttributeView]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.FileStoreAttributeView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.FileStoreAttributeView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.FileStoreAttributeView]
 }

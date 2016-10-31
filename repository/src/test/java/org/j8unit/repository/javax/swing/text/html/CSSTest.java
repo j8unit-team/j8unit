@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<CSS>, org.j8unit.repository.javax.swing.text.h
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.CSS]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -115,7 +117,9 @@ implements FactoryBasedJ8UnitTest<CSS>, org.j8unit.repository.javax.swing.text.h
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS$Attribute]
 
     }
 

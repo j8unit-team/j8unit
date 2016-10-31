@@ -259,28 +259,6 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#getResponseCode() public
-     * int java.net.HttpURLConnection.getResponseCode() throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResponseCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.net.HttpURLConnection#getHeaderFieldDate(String, long) public long
      * java.net.HttpURLConnection.getHeaderFieldDate(java.lang.String,long)}.
@@ -305,9 +283,8 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.net.HttpURLConnection#setFixedLengthStreamingMode(long) public void
-     * java.net.HttpURLConnection.setFixedLengthStreamingMode(long)}.
+     * Test method for the hereby targeted method-under-test {@link java.net.HttpURLConnection#getResponseCode() public
+     * int java.net.HttpURLConnection.getResponseCode() throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -319,7 +296,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFixedLengthStreamingMode_long()
+    public default void test_getResponseCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -343,6 +320,29 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setFixedLengthStreamingMode_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.net.HttpURLConnection#setFixedLengthStreamingMode(long) public void
+     * java.net.HttpURLConnection.setFixedLengthStreamingMode(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFixedLengthStreamingMode_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -394,6 +394,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpURLConnection]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.HttpURLConnection]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.HttpURLConnection]
 }

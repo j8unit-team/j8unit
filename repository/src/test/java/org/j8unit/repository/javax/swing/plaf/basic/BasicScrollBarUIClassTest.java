@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
         // write some test for {@link javax.swing.plaf.basic.BasicScrollBarUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI]
 
     @RunWith(J8Unit4.class)
@@ -100,6 +102,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTes
             final PropertyChangeHandler sut = null; // = new
                                                     // PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollBarUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
 

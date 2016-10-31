@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.DnDConstantsClassTests<DnDConstant
         return DnDConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DnDConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DnDConstants]
 
 }

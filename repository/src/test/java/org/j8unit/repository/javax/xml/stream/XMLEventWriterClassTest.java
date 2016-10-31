@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLEventWriterClassTests<XMLEv
         return XMLEventWriter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLEventWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLEventWriter]
 
 }

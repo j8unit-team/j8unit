@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.UnknownFormatFlagsExceptionClassTests
         final UnknownFormatFlagsException sut = null; // = new UnknownFormatFlagsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.UnknownFormatFlagsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.UnknownFormatFlagsException]
 
 }

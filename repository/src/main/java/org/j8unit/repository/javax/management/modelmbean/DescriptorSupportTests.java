@@ -346,6 +346,7 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.DescriptorSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.DescriptorSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.DescriptorSupport]
 }

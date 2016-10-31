@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.ControlClassTests<Control> 
         return Control.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Control]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Control]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.sampled.ControlClassTests<Control> 
         public Class<Type> createNewSUT() {
             return Type.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Control$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Control$Type]
 

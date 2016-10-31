@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
         final Proxy sut = null; // = new Proxy(java.net.Proxy.Type, java.net.SocketAddress);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Proxy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Proxy]
 
     @RunWith(J8Unit4.class)
@@ -95,6 +97,8 @@ implements org.j8unit.repository.java.net.ProxyClassTests<Proxy> {
         throws Exception {
             // write some test for {@link java.net.Proxy.Type#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Proxy$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Proxy$Type]
 

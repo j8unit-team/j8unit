@@ -67,25 +67,26 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
         // write some test for {@link javax.swing.plaf.basic.BasicTabbedPaneUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI]
 
     @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+    public static class FocusHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.FocusHandlerClassTests<FocusHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
 
         @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
+        public Class<FocusHandler> createNewSUT() {
+            return FocusHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
-         * public
-         * javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
+         * public javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -97,15 +98,16 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicTabbedPaneUI()
+        public void create_FocusHandler_BasicTabbedPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new
-                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
+            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
 
     }
 
@@ -143,7 +145,51 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
             final MouseHandler sut = null; // = new MouseHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$MouseHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
+        @Override
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PropertyChangeHandler_BasicTabbedPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final PropertyChangeHandler sut = null; // = new
+                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$PropertyChangeHandler]
 
     }
 
@@ -180,6 +226,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
             @SuppressWarnings("unused")
             final TabbedPaneLayout sut = null; // = new TabbedPaneLayout(javax.swing.plaf.basic.BasicTabbedPaneUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabbedPaneLayout]
 
@@ -221,45 +269,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTe
                                                   // TabSelectionHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$TabSelectionHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests.FocusHandlerClassTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
-
-        @Override
-        public Class<FocusHandler> createNewSUT() {
-            return FocusHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTabbedPaneUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)
-         * public javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler(javax.swing.plaf.basic.BasicTabbedPaneUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_FocusHandler_BasicTabbedPaneUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicTabbedPaneUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTabbedPaneUI$FocusHandler]
 
     }
 

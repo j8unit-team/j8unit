@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StringMonitor>, org.j8unit.repository.javax.ma
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.StringMonitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.StringMonitor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.StringMonitor]
 
 }

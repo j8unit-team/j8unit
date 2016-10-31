@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.LogicalMessageClassTests<LogicalMe
         return LogicalMessage.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.LogicalMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.LogicalMessage]
 
 }

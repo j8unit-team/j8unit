@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CellRendererPane>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.CellRendererPane]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.CellRendererPane]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.CellRendererPane]
 
 }

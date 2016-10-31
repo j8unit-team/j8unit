@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.DomHandlerClassTests<
         return DomHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.DomHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.DomHandler]
 
 }

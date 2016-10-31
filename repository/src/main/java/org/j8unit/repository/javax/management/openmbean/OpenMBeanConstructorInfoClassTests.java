@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    OpenMBeanConstructorInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanConstructorInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanConstructorInfo]
 
 }

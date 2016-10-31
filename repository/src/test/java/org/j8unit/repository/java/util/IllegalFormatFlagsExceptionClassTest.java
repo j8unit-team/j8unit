@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.IllegalFormatFlagsExceptionClassTests
         final IllegalFormatFlagsException sut = null; // = new IllegalFormatFlagsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatFlagsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatFlagsException]
 
 }

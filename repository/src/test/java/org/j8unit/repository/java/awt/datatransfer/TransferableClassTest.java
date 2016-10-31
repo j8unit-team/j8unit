@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<Tr
         return Transferable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.Transferable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.Transferable]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.KeyManagerClassTests<KeyManager> 
         return KeyManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.KeyManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.KeyManager]
 
 }

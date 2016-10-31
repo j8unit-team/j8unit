@@ -106,6 +106,8 @@ implements org.j8unit.repository.java.lang.reflect.ProxyClassTests<Proxy> {
         // write some test for {@link java.lang.reflect.Proxy#getInvocationHandler(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Proxy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Proxy]
 
 }

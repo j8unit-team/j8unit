@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.IntToLongFunctionClassTests<
         return IntToLongFunction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntToLongFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntToLongFunction]
 
 }

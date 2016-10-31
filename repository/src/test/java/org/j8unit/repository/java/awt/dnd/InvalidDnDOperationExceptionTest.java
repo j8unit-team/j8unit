@@ -32,6 +32,8 @@ org.j8unit.repository.java.awt.dnd.InvalidDnDOperationExceptionTests<InvalidDnDO
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.InvalidDnDOperationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.InvalidDnDOperationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.InvalidDnDOperationException]
 
 }

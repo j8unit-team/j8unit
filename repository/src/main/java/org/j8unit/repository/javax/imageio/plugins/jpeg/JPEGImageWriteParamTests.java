@@ -106,29 +106,6 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getOptimizeHuffmanTables() public boolean
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getOptimizeHuffmanTables()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOptimizeHuffmanTables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetCompression() public void
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetCompression()}.
      *
@@ -144,6 +121,29 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unsetCompression()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getOptimizeHuffmanTables() public boolean
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getOptimizeHuffmanTables()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOptimizeHuffmanTables()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -224,29 +224,6 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getQTables() public javax.imageio.plugins.jpeg.JPEGQTable[]
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getQTables()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getQTables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getCompressionQualityValues() public float[]
      * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getCompressionQualityValues()}.
      *
@@ -262,6 +239,29 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCompressionQualityValues()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getQTables() public javax.imageio.plugins.jpeg.JPEGQTable[]
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getQTables()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getQTables()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -315,6 +315,7 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageWriteParam]
 }

@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.util.concurrent.LinkedBlockingDequeClassTe
         final LinkedBlockingDeque sut = null; // = new LinkedBlockingDeque(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.LinkedBlockingDeque]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.LinkedBlockingDeque]
 
 }

@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.AbstractMethodErrorClassTests<Abstrac
         final AbstractMethodError sut = null; // = new AbstractMethodError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.AbstractMethodError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.AbstractMethodError]
 
 }

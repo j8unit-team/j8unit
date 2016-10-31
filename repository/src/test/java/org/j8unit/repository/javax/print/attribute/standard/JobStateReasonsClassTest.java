@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsC
         final JobStateReasons sut = null; // = new JobStateReasons(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobStateReasons]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobStateReasons]
 
 }

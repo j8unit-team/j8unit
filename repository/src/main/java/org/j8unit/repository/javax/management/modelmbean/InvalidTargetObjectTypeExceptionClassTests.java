@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    InvalidTargetObjectTypeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.InvalidTargetObjectTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.InvalidTargetObjectTypeException]
 
 }

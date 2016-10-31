@@ -55,6 +55,7 @@ extends org.j8unit.repository.javax.xml.transform.SourceLocatorTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.dom.DOMLocator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.dom.DOMLocator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.dom.DOMLocator]
 }

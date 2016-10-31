@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.annotation.ResourceTests<Resource> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.annotation.Resource], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.Resource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.Resource]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.javax.annotation.ResourceTests<Resource> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
 
     }
 

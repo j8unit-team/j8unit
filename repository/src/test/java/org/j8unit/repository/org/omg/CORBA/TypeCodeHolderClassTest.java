@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.TypeCodeHolderClassTests<TypeCode
         final TypeCodeHolder sut = new TypeCodeHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TypeCodeHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TypeCodeHolder]
 
 }

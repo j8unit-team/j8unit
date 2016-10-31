@@ -277,6 +277,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
         org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getImpact();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
 }

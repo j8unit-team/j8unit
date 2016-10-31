@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialRefClassTests<Ser
         final SerialRef sut = null; // = new SerialRef(java.sql.Ref);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialRef]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialRef]
 
 }

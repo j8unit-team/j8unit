@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.SerializableClassTests<Serializable> {
         return Serializable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Serializable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Serializable]
 
 }

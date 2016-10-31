@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.security.AlgorithmParametersClassTests<Alg
         // write some test for {@link java.security.AlgorithmParameters#getInstance(String, java.security.Provider)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AlgorithmParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AlgorithmParameters]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.IntToDoubleFunctionClassTest
         return IntToDoubleFunction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntToDoubleFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntToDoubleFunction]
 
 }

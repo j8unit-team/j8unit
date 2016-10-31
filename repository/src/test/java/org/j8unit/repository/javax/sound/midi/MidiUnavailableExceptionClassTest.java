@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiUnavailableExceptionClassT
         final MidiUnavailableException sut = null; // = new MidiUnavailableException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiUnavailableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiUnavailableException]
 
 }

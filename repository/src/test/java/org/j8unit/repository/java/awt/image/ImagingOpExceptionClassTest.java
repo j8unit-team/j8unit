@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.ImagingOpExceptionClassTests<Ima
         final ImagingOpException sut = null; // = new ImagingOpException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ImagingOpException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ImagingOpException]
 
 }

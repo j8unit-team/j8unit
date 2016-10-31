@@ -282,6 +282,7 @@ org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8un
         org.j8unit.repository.javax.management.remote.JMXConnectorServerMBeanTests.super.test_getAddress();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorServer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXConnectorServer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorServer]
 }

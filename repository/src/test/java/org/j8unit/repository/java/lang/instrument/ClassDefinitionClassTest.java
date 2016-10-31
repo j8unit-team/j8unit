@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.lang.instrument.ClassDefinitionClassTests<
         final ClassDefinition sut = null; // = new ClassDefinition(Class, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.instrument.ClassDefinition]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.instrument.ClassDefinition]
 
 }

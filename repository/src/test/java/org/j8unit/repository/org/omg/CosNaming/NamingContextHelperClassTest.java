@@ -210,6 +210,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextHelperClassTests
         // write some test for {@link org.omg.CosNaming.NamingContextHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextHelper]
 
 }

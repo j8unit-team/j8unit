@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<Str
         return Streamable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.Streamable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.Streamable]
 
 }

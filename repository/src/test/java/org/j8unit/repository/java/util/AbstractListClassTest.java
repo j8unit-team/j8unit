@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.AbstractListClassTests<AbstractList> 
         return AbstractList.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractList]
 
 }

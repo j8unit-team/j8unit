@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.management.remote.rmi._RMIServerImpl_TieC
         final _RMIServerImpl_Tie sut = new _RMIServerImpl_Tie();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi._RMIServerImpl_Tie]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi._RMIServerImpl_Tie]
 
 }

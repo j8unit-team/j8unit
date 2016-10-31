@@ -23,7 +23,9 @@ implements org.j8unit.repository.java.net.AuthenticatorTests<Authenticator> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.net.Authenticator], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Authenticator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Authenticator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Authenticator]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.java.net.AuthenticatorTests<Authenticator> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Authenticator$RequestorType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.Authenticator$RequestorType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Authenticator$RequestorType]
 
     }
 

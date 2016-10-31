@@ -59,6 +59,8 @@ implements org.j8unit.repository.javax.lang.model.type.TypeKindClassTests<TypeKi
         // write some test for {@link javax.lang.model.type.TypeKind#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.TypeKind]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.TypeKind]
 
 }

@@ -69,6 +69,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.NotIdentifiableEventImpl
                                                    // javax.xml.bind.ValidationEventLocator, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.NotIdentifiableEventImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.NotIdentifiableEventImpl]
 
 }

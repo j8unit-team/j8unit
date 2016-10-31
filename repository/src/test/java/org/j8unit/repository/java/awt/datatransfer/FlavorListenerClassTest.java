@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.datatransfer.FlavorListenerClassTests<
         return FlavorListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.FlavorListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.FlavorListener]
 
 }

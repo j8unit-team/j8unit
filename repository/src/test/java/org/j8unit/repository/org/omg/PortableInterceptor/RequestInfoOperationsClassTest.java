@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperatio
         return RequestInfoOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.RequestInfoOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.RequestInfoOperations]
 
 }

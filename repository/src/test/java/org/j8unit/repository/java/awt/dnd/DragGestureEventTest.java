@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.awt.dnd.DragGestureEventTests<DragGestureE
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.awt.dnd.DragGestureEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DragGestureEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DragGestureEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DragGestureEvent]
 
 }

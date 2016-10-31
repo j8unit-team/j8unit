@@ -171,6 +171,8 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClass
         // org.omg.IOP.MultipleComponentProfileHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHelper]
 
 }

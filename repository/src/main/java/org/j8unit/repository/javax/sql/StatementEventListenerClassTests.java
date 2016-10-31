@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    StatementEventListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.StatementEventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.StatementEventListener]
 
 }

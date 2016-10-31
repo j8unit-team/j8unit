@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.beans.TransientTests<Transient> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.beans.Transient], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.Transient]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.Transient]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Transient]
 
 }

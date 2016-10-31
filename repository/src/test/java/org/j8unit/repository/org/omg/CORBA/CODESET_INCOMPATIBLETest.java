@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CODESET_INCOMPATIBLE>, org.j8unit.repository.o
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CODESET_INCOMPATIBLE]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.CODESET_INCOMPATIBLE]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.CODESET_INCOMPATIBLE]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.PrintJobClassTests<PrintJob> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PrintJob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PrintJob]
 
 }

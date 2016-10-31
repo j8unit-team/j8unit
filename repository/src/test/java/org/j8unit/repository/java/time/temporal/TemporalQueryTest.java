@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.time.temporal.TemporalQueryTests<TemporalQ
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.time.temporal.TemporalQuery], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.TemporalQuery]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.TemporalQuery]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.TemporalQuery]
 
 }

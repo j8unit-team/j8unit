@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ObjectHolder>, org.j8unit.repository.org.omg.C
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ObjectHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.ObjectHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.ObjectHolder]
 
 }

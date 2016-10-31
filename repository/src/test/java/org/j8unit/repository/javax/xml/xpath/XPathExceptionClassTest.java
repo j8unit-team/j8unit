@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathExceptionClassTests<XPathE
         final XPathException sut = null; // = new XPathException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathException]
 
 }

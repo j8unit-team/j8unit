@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.text.AttributedCharacterIteratorTests.Attribu
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.TextAttribute]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TextAttribute]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.TextAttribute]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TextAttribute]
 }

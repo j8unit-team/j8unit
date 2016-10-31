@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.OutputStreamWriterClassTests<SUT> {
                    FileWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileWriter]
 
 }

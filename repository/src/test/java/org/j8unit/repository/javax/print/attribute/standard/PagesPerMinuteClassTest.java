@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PagesPerMinuteCl
         final PagesPerMinute sut = null; // = new PagesPerMinute(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PagesPerMinute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PagesPerMinute]
 
 }

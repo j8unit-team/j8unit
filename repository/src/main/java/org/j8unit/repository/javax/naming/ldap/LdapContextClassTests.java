@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.directory.DirContextClassTests<SUT> {
                    LdapContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.LdapContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.LdapContext]
 
 }

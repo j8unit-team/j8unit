@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
                    Control.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.Control]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.Control]
 
 }

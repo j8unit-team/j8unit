@@ -589,8 +589,9 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Map]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -726,8 +727,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map$Entry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Map$Entry]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map$Entry]
     }
 
 }

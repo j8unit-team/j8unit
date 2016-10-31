@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    BeanContextServiceRevokedListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServiceRevokedListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServiceRevokedListener]
 
 }

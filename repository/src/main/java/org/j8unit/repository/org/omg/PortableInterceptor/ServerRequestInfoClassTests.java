@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoClassTests<SUT> {
                    ServerRequestInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInfo]
 
 }

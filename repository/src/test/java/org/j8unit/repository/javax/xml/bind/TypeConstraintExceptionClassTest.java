@@ -134,6 +134,8 @@ implements org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionClassTest
         final TypeConstraintException sut = null; // = new TypeConstraintException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.TypeConstraintException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.TypeConstraintException]
 
 }

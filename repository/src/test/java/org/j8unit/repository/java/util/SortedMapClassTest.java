@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.SortedMapClassTests<SortedMap> {
         return SortedMap.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.SortedMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.SortedMap]
 
 }

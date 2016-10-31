@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.print.PrinterAbortExceptionClassTests<
         final PrinterAbortException sut = null; // = new PrinterAbortException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.PrinterAbortException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PrinterAbortException]
 
 }

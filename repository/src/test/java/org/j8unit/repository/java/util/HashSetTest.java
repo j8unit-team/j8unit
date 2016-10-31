@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<HashSet<E>>, org.j8unit.repository.java.util.H
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.HashSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.HashSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.HashSet]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CommonDataSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.CommonDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.CommonDataSource]
 
 }

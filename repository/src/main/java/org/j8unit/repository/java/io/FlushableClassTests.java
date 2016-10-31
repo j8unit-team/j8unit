@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Flushable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Flushable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Flushable]
 
 }

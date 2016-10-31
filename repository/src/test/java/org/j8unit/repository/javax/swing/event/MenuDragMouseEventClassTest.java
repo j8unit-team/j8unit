@@ -71,6 +71,8 @@ implements org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests<
                                              // javax.swing.MenuSelectionManager);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.MenuDragMouseEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuDragMouseEvent]
 
 }

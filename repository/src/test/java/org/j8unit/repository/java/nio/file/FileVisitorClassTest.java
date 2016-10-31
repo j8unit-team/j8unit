@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.file.FileVisitorClassTests<FileVisitor
         return FileVisitor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.FileVisitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.FileVisitor]
 
 }

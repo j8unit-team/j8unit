@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests<SUT>, or
                    EventReaderDelegate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.util.EventReaderDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.EventReaderDelegate]
 
 }

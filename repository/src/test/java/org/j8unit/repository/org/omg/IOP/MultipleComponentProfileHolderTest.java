@@ -32,6 +32,8 @@ org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderTests<MultipleCo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.MultipleComponentProfileHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.MultipleComponentProfileHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.MultipleComponentProfileHolder]
 
 }

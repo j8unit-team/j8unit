@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.Messaging.SyncScopeHelperClassTests<Syn
         // short)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.Messaging.SyncScopeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.Messaging.SyncScopeHelper]
 
 }

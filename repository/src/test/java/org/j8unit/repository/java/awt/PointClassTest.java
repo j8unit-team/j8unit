@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.PointClassTests<Point> {
         final Point sut = new Point();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Point]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Point]
 
 }

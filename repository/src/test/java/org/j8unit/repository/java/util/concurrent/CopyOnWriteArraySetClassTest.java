@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.CopyOnWriteArraySetClassTe
         final CopyOnWriteArraySet sut = null; // = new CopyOnWriteArraySet(java.util.Collection);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CopyOnWriteArraySet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CopyOnWriteArraySet]
 
 }

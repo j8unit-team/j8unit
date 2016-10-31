@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<DTDHandler> {
         return DTDHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.DTDHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.DTDHandler]
 
 }

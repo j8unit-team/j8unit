@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.AttributeChangeNotificationFilterTests<At
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeChangeNotificationFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.AttributeChangeNotificationFilter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.AttributeChangeNotificationFilter]
 
 }

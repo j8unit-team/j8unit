@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.AttributeNotFoundExceptionTests<Attribute
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.AttributeNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.AttributeNotFoundException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLLinkElementClassTests<HTML
         return HTMLLinkElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLLinkElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLLinkElement]
 
 }

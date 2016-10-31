@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NoSuchProviderException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.NoSuchProviderException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.NoSuchProviderException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.NoSuchProviderException]
 
 }

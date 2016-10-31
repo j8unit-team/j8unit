@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.soap.SOAPMessageContextCla
         return SOAPMessageContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.soap.SOAPMessageContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.soap.SOAPMessageContext]
 
 }

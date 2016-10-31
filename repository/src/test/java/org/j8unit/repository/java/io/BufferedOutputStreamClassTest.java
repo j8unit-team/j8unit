@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.BufferedOutputStreamClassTests<Buffered
         final BufferedOutputStream sut = null; // = new BufferedOutputStream(java.io.OutputStream, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.BufferedOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedOutputStream]
 
 }

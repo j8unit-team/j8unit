@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.XMLConstantsClassTests<XMLConstants> 
         return XMLConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.XMLConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.XMLConstants]
 
 }

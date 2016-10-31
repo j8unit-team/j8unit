@@ -70,6 +70,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextMembershipEve
                                                      // Object[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextMembershipEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextMembershipEvent]
 
 }

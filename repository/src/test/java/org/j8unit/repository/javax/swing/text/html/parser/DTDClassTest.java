@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DTDClassTests<DTD>
         // write some test for {@link javax.swing.text.html.parser.DTD#getDTD(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.DTD]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.DTD]
 
 }

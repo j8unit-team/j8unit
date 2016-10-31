@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sound.midi.spi.MidiFileReaderClassTests<M
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.spi.MidiFileReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.spi.MidiFileReader]
 
 }

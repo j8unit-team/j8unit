@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.activation.MimetypesFileTypeMapClassTests
         final MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MimetypesFileTypeMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MimetypesFileTypeMap]
 
 }

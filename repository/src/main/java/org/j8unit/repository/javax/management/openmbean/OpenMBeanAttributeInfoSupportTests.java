@@ -37,30 +37,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getMinValue() public java.lang.Comparable<?>
-     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.getMinValue()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#isValue(Object) public boolean
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport.isValue(java.lang.Object)}.
      *
@@ -76,6 +52,30 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Test
     @Category(Draft.class)
     public default void test_isValue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#getMinValue() public java.lang.Comparable<?>
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport.getMinValue()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -410,11 +410,11 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
+     * node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanParameterInfo#getName() interface
      * javax.management.openmbean.OpenMBeanParameterInfo} (via parent node(s) {@link OpenMBeanAttributeInfo
      * OpenMBeanAttributeInfo})</li>
-     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
-     * node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * </ul>
      *
      * <p>
@@ -431,8 +431,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_getName()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_getName();
         org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_getName();
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_getName();
     }
 
     /**
@@ -470,11 +470,11 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
+     * parent node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanParameterInfo#getDescription() interface
      * javax.management.openmbean.OpenMBeanParameterInfo} (via parent node(s) {@link OpenMBeanAttributeInfo
      * OpenMBeanAttributeInfo})</li>
-     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
-     * parent node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * </ul>
      *
      * <p>
@@ -491,10 +491,11 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_getDescription();
         org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_getDescription();
+        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_getDescription();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]
 }

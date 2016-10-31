@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.USER_EXCEPTIONClass
         return USER_EXCEPTION.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.USER_EXCEPTION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.USER_EXCEPTION]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.QueuedJobCountCl
         final QueuedJobCount sut = null; // = new QueuedJobCount(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.QueuedJobCount]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.QueuedJobCount]
 
 }

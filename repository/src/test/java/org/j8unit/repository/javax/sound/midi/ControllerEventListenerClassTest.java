@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.ControllerEventListenerClassTe
         return ControllerEventListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.ControllerEventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.ControllerEventListener]
 
 }

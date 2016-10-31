@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.time.DurationTests<Duration> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.Duration]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.Duration]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.Duration]
 
 }

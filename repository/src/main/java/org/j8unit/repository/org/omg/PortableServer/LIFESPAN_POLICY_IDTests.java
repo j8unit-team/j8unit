@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.LIFESPAN_POLICY_ID]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.LIFESPAN_POLICY_ID]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.LIFESPAN_POLICY_ID]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.LIFESPAN_POLICY_ID]
 }

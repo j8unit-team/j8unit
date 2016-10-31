@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.MixerClassTests<Mixer> {
         return Mixer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Mixer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Mixer]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.sampled.MixerClassTests<Mixer> {
         public Class<Info> createNewSUT() {
             return Info.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Mixer$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Mixer$Info]
 

@@ -132,6 +132,8 @@ implements org.j8unit.repository.javax.xml.transform.stream.StreamResultClassTes
         final StreamResult sut = null; // = new StreamResult(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.stream.StreamResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stream.StreamResult]
 
 }

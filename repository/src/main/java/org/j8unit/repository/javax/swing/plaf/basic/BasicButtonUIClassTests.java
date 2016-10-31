@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUIClassTests<SUT> {
                    BasicButtonUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicButtonUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicButtonUI]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFound
         final NotFoundHolder sut = new NotFoundHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundHolder]
 
 }

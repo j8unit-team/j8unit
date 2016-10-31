@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ECPoint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECPoint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECPoint]
 
 }

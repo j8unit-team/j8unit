@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.EventFilterClassTests<EventFil
         return EventFilter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.EventFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.EventFilter]
 
 }

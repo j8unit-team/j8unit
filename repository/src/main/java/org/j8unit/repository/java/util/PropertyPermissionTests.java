@@ -149,6 +149,7 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PropertyPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PropertyPermission]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PropertyPermission]
 }

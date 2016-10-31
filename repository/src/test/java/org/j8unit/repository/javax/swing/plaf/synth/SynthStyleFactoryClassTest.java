@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthStyleFactoryClassTe
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthStyleFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthStyleFactory]
 
 }

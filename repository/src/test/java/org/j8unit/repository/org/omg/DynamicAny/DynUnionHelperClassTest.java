@@ -209,6 +209,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynUnionHelperClassTests<Dyn
         // write some test for {@link org.omg.DynamicAny.DynUnionHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynUnionHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynUnionHelper]
 
 }

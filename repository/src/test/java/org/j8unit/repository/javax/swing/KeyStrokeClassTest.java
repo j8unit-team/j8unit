@@ -42,6 +42,26 @@ implements org.j8unit.repository.javax.swing.KeyStrokeClassTests<KeyStroke> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.KeyStroke#getKeyStroke(char, boolean)
+     * public static javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStroke(char,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getKeyStroke_char_boolean()
+    throws Exception {
+        // write some test for {@link javax.swing.KeyStroke#getKeyStroke(char, boolean)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.KeyStroke#getKeyStroke(String) public
      * static javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStroke(java.lang.String)}.
      *
@@ -141,25 +161,7 @@ implements org.j8unit.repository.javax.swing.KeyStrokeClassTests<KeyStroke> {
         // write some test for {@link javax.swing.KeyStroke#getKeyStroke(char)}
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.KeyStroke#getKeyStroke(char, boolean)
-     * public static javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStroke(char,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getKeyStroke_char_boolean()
-    throws Exception {
-        // write some test for {@link javax.swing.KeyStroke#getKeyStroke(char, boolean)}
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.KeyStroke]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.KeyStroke]
 

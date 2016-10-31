@@ -90,6 +90,8 @@ implements org.j8unit.repository.javax.crypto.EncryptedPrivateKeyInfoClassTests<
                                                   // byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.EncryptedPrivateKeyInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.EncryptedPrivateKeyInfo]
 
 }

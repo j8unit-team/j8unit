@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.net.Inet6AddressClassTests<Inet6Address> {
         // write some test for {@link java.net.Inet6Address#getByAddress(String, byte[], java.net.NetworkInterface)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Inet6Address]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Inet6Address]
 
 }

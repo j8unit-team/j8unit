@@ -69,6 +69,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    HandlerBase.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.HandlerBase]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.HandlerBase]
 
 }

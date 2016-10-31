@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ElementClassTests<
         // write some test for {@link javax.swing.text.html.parser.Element#name2type(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.Element]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.Element]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests
         // write some test for {@link javax.swing.plaf.basic.BasicToolBarUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI]
 
     @RunWith(J8Unit4.class)
@@ -99,6 +101,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests
             final DockingListener sut = null; // = new DockingListener(javax.swing.plaf.basic.BasicToolBarUI,
                                               // javax.swing.JToolBar);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
 

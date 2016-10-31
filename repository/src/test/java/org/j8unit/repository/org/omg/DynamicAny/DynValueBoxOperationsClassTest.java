@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynValueBoxOperationsClassTe
         return DynValueBoxOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynValueBoxOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynValueBoxOperations]
 
 }

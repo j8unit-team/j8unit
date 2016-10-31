@@ -100,6 +100,7 @@ extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Detail]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.Detail]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Detail]
 }

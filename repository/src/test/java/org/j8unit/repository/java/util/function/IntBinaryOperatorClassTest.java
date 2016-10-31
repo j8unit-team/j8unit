@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.IntBinaryOperatorClassTests<
         return IntBinaryOperator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntBinaryOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntBinaryOperator]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.IllegalThreadStateExceptionClassTests
         final IllegalThreadStateException sut = null; // = new IllegalThreadStateException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalThreadStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalThreadStateException]
 
 }

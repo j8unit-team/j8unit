@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncFactoryExceptionClassT
         final SyncFactoryException sut = null; // = new SyncFactoryException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.SyncFactoryException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.SyncFactoryException]
 
 }

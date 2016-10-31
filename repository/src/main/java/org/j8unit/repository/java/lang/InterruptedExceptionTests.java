@@ -28,6 +28,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InterruptedException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.InterruptedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.InterruptedException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.InterruptedException]
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.UnknownExceptionClassTes
         final UnknownException sut = null; // = new UnknownException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.UnknownException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.UnknownException]
 
 }

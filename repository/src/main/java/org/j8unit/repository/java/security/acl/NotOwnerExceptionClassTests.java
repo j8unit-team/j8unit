@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    NotOwnerException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.NotOwnerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.NotOwnerException]
 
 }

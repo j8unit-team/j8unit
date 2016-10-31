@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {
                    DateTimeParseException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DateTimeParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DateTimeParseException]
 
 }

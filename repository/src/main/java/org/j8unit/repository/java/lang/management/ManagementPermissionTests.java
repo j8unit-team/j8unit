@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.ManagementPermission]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.ManagementPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.ManagementPermission]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.ManagementPermission]
 }

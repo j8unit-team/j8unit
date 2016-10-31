@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupClassTests<A
         // write some test for {@link java.rmi.activation.ActivationGroup#currentGroupID()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationGroup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroup]
 
 }

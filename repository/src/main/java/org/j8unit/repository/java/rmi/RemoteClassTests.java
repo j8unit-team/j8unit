@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Remote.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.Remote]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.Remote]
 
 }

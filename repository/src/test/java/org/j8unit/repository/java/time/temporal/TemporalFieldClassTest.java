@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.temporal.TemporalFieldClassTests<Temp
         return TemporalField.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalField]
 
 }

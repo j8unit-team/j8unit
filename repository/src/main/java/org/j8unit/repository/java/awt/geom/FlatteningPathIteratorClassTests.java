@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.geom.PathIteratorClassTests<SUT>, org.j8u
                    FlatteningPathIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.FlatteningPathIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.FlatteningPathIterator]
 
 }

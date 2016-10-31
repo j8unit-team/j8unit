@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.PropertyEditorClassTests<PropertyEdi
         return PropertyEditor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyEditor]
 
 }

@@ -225,6 +225,7 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.MouseAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.MouseAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.MouseAdapter]
 }

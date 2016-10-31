@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
                    InterruptedNamingException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.InterruptedNamingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InterruptedNamingException]
 
 }

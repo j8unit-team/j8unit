@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    POAManagerOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAManagerOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAManagerOperations]
 
 }

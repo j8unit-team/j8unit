@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.cert.CertSelectorClassTests<SUT>, or
                    X509CertSelector.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.X509CertSelector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.X509CertSelector]
 
 }

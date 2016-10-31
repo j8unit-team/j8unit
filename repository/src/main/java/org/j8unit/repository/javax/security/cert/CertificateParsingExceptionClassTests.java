@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.security.cert.CertificateExceptionClassTests
                    CertificateParsingException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.cert.CertificateParsingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.CertificateParsingException]
 
 }

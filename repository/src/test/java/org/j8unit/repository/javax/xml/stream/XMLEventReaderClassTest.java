@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests<XMLEv
         return XMLEventReader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLEventReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLEventReader]
 
 }

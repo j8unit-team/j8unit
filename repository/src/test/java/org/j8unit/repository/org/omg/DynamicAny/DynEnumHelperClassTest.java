@@ -209,6 +209,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynE
         // write some test for {@link org.omg.DynamicAny.DynEnumHelper#narrow(org.omg.CORBA.Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynEnumHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynEnumHelper]
 
 }

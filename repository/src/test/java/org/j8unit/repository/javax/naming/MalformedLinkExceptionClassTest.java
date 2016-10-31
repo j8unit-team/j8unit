@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.MalformedLinkExceptionClassTests<M
         final MalformedLinkException sut = new MalformedLinkException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.MalformedLinkException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.MalformedLinkException]
 
 }

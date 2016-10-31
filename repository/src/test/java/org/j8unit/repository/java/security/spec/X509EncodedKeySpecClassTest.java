@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.spec.X509EncodedKeySpecClassTests
         final X509EncodedKeySpec sut = null; // = new X509EncodedKeySpec(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.X509EncodedKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.X509EncodedKeySpec]
 
 }

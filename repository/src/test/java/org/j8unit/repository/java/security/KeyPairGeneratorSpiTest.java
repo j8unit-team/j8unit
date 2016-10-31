@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorSpiTests<KeyPairG
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.KeyPairGeneratorSpi], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyPairGeneratorSpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyPairGeneratorSpi]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyPairGeneratorSpi]
 
 }

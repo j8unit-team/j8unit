@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.crypto.BadPaddingExceptionClassTests<BadP
         final BadPaddingException sut = null; // = new BadPaddingException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.BadPaddingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.BadPaddingException]
 
 }

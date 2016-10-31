@@ -336,6 +336,7 @@ extends org.j8unit.repository.java.time.temporal.TemporalFieldTests<SUT>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.ChronoField]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.ChronoField]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.ChronoField]
 }

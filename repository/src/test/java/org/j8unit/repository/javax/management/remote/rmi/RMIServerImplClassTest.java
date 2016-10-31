@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIServerImplClassT
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIServerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIServerImpl]
 
 }

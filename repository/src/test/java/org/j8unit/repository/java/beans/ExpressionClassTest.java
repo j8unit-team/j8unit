@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.beans.ExpressionClassTests<Expression> {
         final Expression sut = null; // = new Expression(Object, Object, String, Object[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Expression]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Expression]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.remote.MBeanServerForwarderCla
         return MBeanServerForwarder.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.MBeanServerForwarder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.MBeanServerForwarder]
 
 }

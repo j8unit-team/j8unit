@@ -240,6 +240,8 @@ implements org.j8unit.repository.javax.lang.model.util.ElementFilterClassTests<E
         // write some test for {@link javax.lang.model.util.ElementFilter#methodsIn(java.util.Set)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.ElementFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.ElementFilter]
 
 }

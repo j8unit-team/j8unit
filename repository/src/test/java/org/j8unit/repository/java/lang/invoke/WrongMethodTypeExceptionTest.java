@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WrongMethodTypeException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.WrongMethodTypeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.WrongMethodTypeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.WrongMethodTypeException]
 
 }

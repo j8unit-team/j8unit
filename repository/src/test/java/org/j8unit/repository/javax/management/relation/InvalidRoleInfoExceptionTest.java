@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.relation.InvalidRoleInfoExceptionTests<In
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.InvalidRoleInfoException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.InvalidRoleInfoException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.InvalidRoleInfoException]
 
 }

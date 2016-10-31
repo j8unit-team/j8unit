@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    IIOImage.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.IIOImage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.IIOImage]
 
 }

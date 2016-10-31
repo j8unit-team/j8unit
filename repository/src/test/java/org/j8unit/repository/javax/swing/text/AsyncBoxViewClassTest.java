@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
         final AsyncBoxView sut = null; // = new AsyncBoxView(javax.swing.text.Element, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView]
 
     @RunWith(J8Unit4.class)
@@ -79,6 +81,8 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
             @SuppressWarnings("unused")
             final ChildState sut = null; // = new ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
 
@@ -117,6 +121,8 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
             @SuppressWarnings("unused")
             final ChildLocator sut = null; // = new ChildLocator(javax.swing.text.AsyncBoxView);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
 

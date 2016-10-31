@@ -113,6 +113,8 @@ implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStre
         final OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.OutputStreamWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.OutputStreamWriter]
 
 }

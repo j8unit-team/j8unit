@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Function.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.Function]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.Function]
 
 }

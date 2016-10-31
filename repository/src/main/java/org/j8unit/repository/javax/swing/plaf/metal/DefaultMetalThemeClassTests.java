@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalThemeClassTests<SUT> {
                    DefaultMetalTheme.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.DefaultMetalTheme]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.DefaultMetalTheme]
 
 }

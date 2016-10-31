@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
                    InputStreamReader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.InputStreamReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.InputStreamReader]
 
 }

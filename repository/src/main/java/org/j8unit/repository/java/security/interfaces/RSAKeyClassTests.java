@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RSAKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.RSAKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.RSAKey]
 
 }

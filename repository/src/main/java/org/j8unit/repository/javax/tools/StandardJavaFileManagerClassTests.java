@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests<SUT> {
                    StandardJavaFileManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.StandardJavaFileManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.StandardJavaFileManager]
 
 }

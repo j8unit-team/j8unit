@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.WStringSeqHolderClassTests<WStrin
         final WStringSeqHolder sut = new WStringSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.WStringSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WStringSeqHolder]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.NoPermissionExceptionClassTests<No
         final NoPermissionException sut = new NoPermissionException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NoPermissionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NoPermissionException]
 
 }

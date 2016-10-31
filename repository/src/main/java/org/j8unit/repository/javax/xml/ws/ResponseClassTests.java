@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT> {
                    Response.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.Response]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.Response]
 
 }

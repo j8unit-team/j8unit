@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    IllegalArgumentException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalArgumentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalArgumentException]
 
 }

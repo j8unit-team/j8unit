@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.UnknownFormatConversionExceptionClass
         final UnknownFormatConversionException sut = null; // = new UnknownFormatConversionException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.UnknownFormatConversionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.UnknownFormatConversionException]
 
 }

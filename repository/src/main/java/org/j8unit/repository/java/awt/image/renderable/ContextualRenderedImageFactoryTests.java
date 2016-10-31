@@ -175,6 +175,7 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.renderable.ContextualRenderedImageFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.renderable.ContextualRenderedImageFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.renderable.ContextualRenderedImageFactory]
 }

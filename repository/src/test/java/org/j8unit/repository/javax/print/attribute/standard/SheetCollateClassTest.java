@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.SheetCollateClas
         return SheetCollate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.SheetCollate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.SheetCollate]
 
 }

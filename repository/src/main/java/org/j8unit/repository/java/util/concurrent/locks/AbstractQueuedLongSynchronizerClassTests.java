@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
                    AbstractQueuedLongSynchronizer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
 
     /**
@@ -133,6 +135,8 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ConditionObject.class!",
                               ConditionObject.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]
 

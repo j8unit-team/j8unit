@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UNKNOWN>, org.j8unit.repository.org.omg.CORBA.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UNKNOWN]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.UNKNOWN]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.UNKNOWN]
 
 }

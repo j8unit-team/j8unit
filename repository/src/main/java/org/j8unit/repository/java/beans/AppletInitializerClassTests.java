@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AppletInitializer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.AppletInitializer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.AppletInitializer]
 
 }

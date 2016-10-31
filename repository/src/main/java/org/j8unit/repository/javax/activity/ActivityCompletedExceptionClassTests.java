@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    ActivityCompletedException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activity.ActivityCompletedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activity.ActivityCompletedException]
 
 }

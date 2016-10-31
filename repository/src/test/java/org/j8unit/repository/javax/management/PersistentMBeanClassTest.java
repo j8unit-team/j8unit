@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.PersistentMBeanClassTests<Pers
         return PersistentMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.PersistentMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.PersistentMBean]
 
 }

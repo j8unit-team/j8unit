@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<SUT> {
                    ScheduledThreadPoolExecutor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ScheduledThreadPoolExecutor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ScheduledThreadPoolExecutor]
 
 }

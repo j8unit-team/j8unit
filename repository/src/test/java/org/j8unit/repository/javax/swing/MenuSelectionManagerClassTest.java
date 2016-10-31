@@ -60,6 +60,8 @@ implements org.j8unit.repository.javax.swing.MenuSelectionManagerClassTests<Menu
         // write some test for {@link javax.swing.MenuSelectionManager#defaultManager()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.MenuSelectionManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.MenuSelectionManager]
 
 }

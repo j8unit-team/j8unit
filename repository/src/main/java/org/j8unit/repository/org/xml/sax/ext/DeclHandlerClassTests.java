@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DeclHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.DeclHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.DeclHandler]
 
 }

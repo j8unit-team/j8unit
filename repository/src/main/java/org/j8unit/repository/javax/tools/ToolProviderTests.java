@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.ToolProvider]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ToolProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.ToolProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ToolProvider]
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.FunctionTests<Function<T, R>
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.function.Function], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.function.Function]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.function.Function]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.function.Function]
 
 }

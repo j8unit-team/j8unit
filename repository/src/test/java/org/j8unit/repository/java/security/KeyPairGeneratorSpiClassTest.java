@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.KeyPairGeneratorSpiClassTests<Key
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyPairGeneratorSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyPairGeneratorSpi]
 
 }

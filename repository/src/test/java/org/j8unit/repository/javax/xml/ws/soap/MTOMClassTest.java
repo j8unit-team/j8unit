@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.MTOMClassTests<MTOM> {
         return MTOM.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.MTOM]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.MTOM]
 
 }

@@ -266,6 +266,7 @@ org.j8unit.repository.java.lang.EnumTests<SUT, DayOfWeek> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.DayOfWeek]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.DayOfWeek]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.DayOfWeek]
 }

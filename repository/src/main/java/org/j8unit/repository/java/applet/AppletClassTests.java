@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.PanelClassTests<SUT> {
                    Applet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.Applet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.Applet]
 
 }

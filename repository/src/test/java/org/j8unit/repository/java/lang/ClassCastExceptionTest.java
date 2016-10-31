@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<ClassCastException>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ClassCastException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ClassCastException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ClassCastException]
 
 }

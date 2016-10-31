@@ -322,8 +322,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -394,8 +395,9 @@ org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaFileManager$Location]
     }
 
 }

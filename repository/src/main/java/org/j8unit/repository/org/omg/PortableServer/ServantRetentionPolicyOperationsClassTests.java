@@ -68,6 +68,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<SUT> {
                    ServantRetentionPolicyOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicyOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicyOperations]
 
 }

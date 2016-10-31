@@ -70,238 +70,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
         // write some test for {@link javax.swing.plaf.basic.BasicSliderUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI]
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.FocusHandlerClassTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
-
-        @Override
-        public Class<FocusHandler> createNewSUT() {
-            return FocusHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$FocusHandler(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_FocusHandler_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
-
-        @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new
-                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ActionScrollerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ActionScrollerClassTests<ActionScroller> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
-
-        @Override
-        public Class<ActionScroller> createNewSUT() {
-            return ActionScroller.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.ActionScroller#ActionScroller(javax.swing.plaf.basic.BasicSliderUI, javax.swing.JSlider, int, boolean)
-         * public
-         * javax.swing.plaf.basic.BasicSliderUI$ActionScroller(javax.swing.plaf.basic.BasicSliderUI,javax.swing.JSlider,int,boolean)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ActionScroller_BasicSliderUI_JSlider_int_boolean()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ActionScroller sut = null; // = new ActionScroller(javax.swing.plaf.basic.BasicSliderUI,
-                                             // javax.swing.JSlider, int, boolean);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ComponentHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ComponentHandlerClassTests<ComponentHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-        @Override
-        public Class<ComponentHandler> createNewSUT() {
-            return ComponentHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ComponentHandler_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ComponentHandler sut = null; // = new ComponentHandler(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ChangeHandlerClassTests<ChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
-
-        @Override
-        public Class<ChangeHandler> createNewSUT() {
-            return ChangeHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.ChangeHandler#ChangeHandler(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$ChangeHandler(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ChangeHandler_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ChangeHandler sut = null; // = new ChangeHandler(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TrackListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.TrackListenerClassTests<TrackListener> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
-
-        @Override
-        public Class<TrackListener> createNewSUT() {
-            return TrackListener.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.TrackListener#TrackListener(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$TrackListener(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TrackListener_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TrackListener sut = null; // = new TrackListener(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class ScrollListenerClassTest
@@ -362,7 +133,252 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
             final ScrollListener sut = null; // = new ScrollListener(javax.swing.plaf.basic.BasicSliderUI);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+
+        @Override
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PropertyChangeHandler_BasicSliderUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final PropertyChangeHandler sut = null; // = new
+                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ChangeHandlerClassTests<ChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
+
+        @Override
+        public Class<ChangeHandler> createNewSUT() {
+            return ChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.ChangeHandler#ChangeHandler(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$ChangeHandler(javax.swing.plaf.basic.BasicSliderUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ChangeHandler_BasicSliderUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ChangeHandler sut = null; // = new ChangeHandler(javax.swing.plaf.basic.BasicSliderUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ComponentHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ComponentHandlerClassTests<ComponentHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
+
+        @Override
+        public Class<ComponentHandler> createNewSUT() {
+            return ComponentHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ComponentHandler_BasicSliderUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ComponentHandler sut = null; // = new ComponentHandler(javax.swing.plaf.basic.BasicSliderUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class FocusHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.FocusHandlerClassTests<FocusHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
+
+        @Override
+        public Class<FocusHandler> createNewSUT() {
+            return FocusHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$FocusHandler(javax.swing.plaf.basic.BasicSliderUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_FocusHandler_BasicSliderUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicSliderUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$FocusHandler]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ActionScrollerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ActionScrollerClassTests<ActionScroller> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+
+        @Override
+        public Class<ActionScroller> createNewSUT() {
+            return ActionScroller.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.ActionScroller#ActionScroller(javax.swing.plaf.basic.BasicSliderUI, javax.swing.JSlider, int, boolean)
+         * public
+         * javax.swing.plaf.basic.BasicSliderUI$ActionScroller(javax.swing.plaf.basic.BasicSliderUI,javax.swing.JSlider,int,boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ActionScroller_BasicSliderUI_JSlider_int_boolean()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ActionScroller sut = null; // = new ActionScroller(javax.swing.plaf.basic.BasicSliderUI,
+                                             // javax.swing.JSlider, int, boolean);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class TrackListenerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.TrackListenerClassTests<TrackListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+
+        @Override
+        public Class<TrackListener> createNewSUT() {
+            return TrackListener.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.TrackListener#TrackListener(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$TrackListener(javax.swing.plaf.basic.BasicSliderUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TrackListener_BasicSliderUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final TrackListener sut = null; // = new TrackListener(javax.swing.plaf.basic.BasicSliderUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
 
     }
 

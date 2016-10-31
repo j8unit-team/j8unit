@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.ServiceConfigurationErrorClassTests<S
         final ServiceConfigurationError sut = null; // = new ServiceConfigurationError(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ServiceConfigurationError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ServiceConfigurationError]
 
 }

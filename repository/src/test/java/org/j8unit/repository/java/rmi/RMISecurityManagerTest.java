@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RMISecurityManager>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RMISecurityManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.RMISecurityManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.RMISecurityManager]
 
 }

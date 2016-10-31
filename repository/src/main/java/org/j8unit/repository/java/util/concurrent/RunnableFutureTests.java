@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.RunnableFuture]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.RunnableFuture]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.RunnableFuture]
 }

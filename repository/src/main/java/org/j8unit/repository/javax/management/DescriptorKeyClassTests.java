@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    DescriptorKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DescriptorKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DescriptorKey]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
                    RowSetWarning.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.RowSetWarning]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.RowSetWarning]
 
 }

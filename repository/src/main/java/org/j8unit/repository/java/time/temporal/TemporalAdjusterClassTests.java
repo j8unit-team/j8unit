@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TemporalAdjuster.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalAdjuster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalAdjuster]
 
 }

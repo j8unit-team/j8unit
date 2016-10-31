@@ -18,7 +18,9 @@ implements org.j8unit.repository.java.util.AbstractMapTests<AbstractMap<K, V>, K
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.AbstractMap], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractMap]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap]
 
     @RunWith(J8Unit4.class)
     public static class SimpleImmutableEntryTest<K, V>
@@ -31,7 +33,9 @@ implements org.j8unit.repository.java.util.AbstractMapTests<AbstractMap<K, V>, K
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.AbstractMap.SimpleImmutableEntry], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
 
     }
 
@@ -46,7 +50,9 @@ implements org.j8unit.repository.java.util.AbstractMapTests<AbstractMap<K, V>, K
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.AbstractMap.SimpleEntry], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
 
     }
 

@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.lang.ExceptionInInitializerErrorClassTests
         final ExceptionInInitializerError sut = new ExceptionInInitializerError();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ExceptionInInitializerError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ExceptionInInitializerError]
 
 }

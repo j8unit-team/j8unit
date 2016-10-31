@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.beans.VetoableChangeSupportClassTests<Veto
         final VetoableChangeSupport sut = null; // = new VetoableChangeSupport(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.VetoableChangeSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.VetoableChangeSupport]
 
 }

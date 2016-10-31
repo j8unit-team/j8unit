@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.DataOutputClassTests<DataOutput> {
         return DataOutput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.DataOutput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataOutput]
 
 }

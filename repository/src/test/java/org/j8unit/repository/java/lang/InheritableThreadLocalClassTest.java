@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.lang.InheritableThreadLocalClassTests<Inhe
         final InheritableThreadLocal sut = new InheritableThreadLocal();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InheritableThreadLocal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InheritableThreadLocal]
 
 }

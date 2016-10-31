@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sql.rowset.JoinRowSetTests<JoinRowSet> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.sql.rowset.JoinRowSet], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.JoinRowSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.JoinRowSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.JoinRowSet]
 
 }

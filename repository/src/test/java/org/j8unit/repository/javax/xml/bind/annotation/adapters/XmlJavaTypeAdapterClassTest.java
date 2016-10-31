@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeA
         return XmlJavaTypeAdapter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter]
 
     @RunWith(J8Unit4.class)
@@ -54,6 +56,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeA
             // create new instance
             final DEFAULT sut = new DEFAULT();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT]
 

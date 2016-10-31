@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.sql.SQLExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLRecoverableException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLRecoverableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLRecoverableException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLRecoverableException]
 }

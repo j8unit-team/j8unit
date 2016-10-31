@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTest
         // write some test for {@link javax.xml.transform.TransformerFactory#newInstance(String, ClassLoader)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.TransformerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.TransformerFactory]
 
 }

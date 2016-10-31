@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RunTimeOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.SendingContext.RunTimeOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.SendingContext.RunTimeOperations]
 
 }

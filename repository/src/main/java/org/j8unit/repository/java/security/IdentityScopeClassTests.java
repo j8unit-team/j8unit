@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
                    IdentityScope.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.IdentityScope]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.IdentityScope]
 
 }

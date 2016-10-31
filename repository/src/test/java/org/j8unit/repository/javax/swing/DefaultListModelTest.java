@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultListModel<E>>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultListModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListModel]
 
 }

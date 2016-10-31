@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.CellRendererPaneClassTests<CellRend
         final CellRendererPane sut = new CellRendererPane();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.CellRendererPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.CellRendererPane]
 
 }

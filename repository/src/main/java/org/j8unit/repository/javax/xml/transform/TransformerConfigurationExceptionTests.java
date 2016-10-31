@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.transform.TransformerExceptionTests<SUT>
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.TransformerConfigurationException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.TransformerConfigurationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.TransformerConfigurationException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.TransformerConfigurationException]
 }

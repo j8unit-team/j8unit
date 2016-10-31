@@ -57,6 +57,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.ClipboardOwner]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.datatransfer.ClipboardOwner]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.datatransfer.ClipboardOwner]
 }

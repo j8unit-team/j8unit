@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Destroyable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.Destroyable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Destroyable]
 
 }

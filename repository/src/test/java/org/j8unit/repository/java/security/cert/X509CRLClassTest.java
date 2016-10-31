@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.cert.X509CRLClassTests<X509CRL> {
         return X509CRL.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.X509CRL]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.X509CRL]
 
 }

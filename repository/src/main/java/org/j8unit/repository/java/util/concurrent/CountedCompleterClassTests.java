@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<SUT> {
                    CountedCompleter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CountedCompleter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CountedCompleter]
 
 }

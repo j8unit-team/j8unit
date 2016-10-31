@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.security.cert.PKIXReasonClassTests<PKIXRea
         // write some test for {@link java.security.cert.PKIXReason#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PKIXReason]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXReason]
 
 }

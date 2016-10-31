@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.charset.StandardCharsetsClassTests<Sta
         return StandardCharsets.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.StandardCharsets]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.StandardCharsets]
 
 }

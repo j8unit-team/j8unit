@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLOutputClassTests<SUT>, org.j8unit.repo
                    SQLOutputImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SQLOutputImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SQLOutputImpl]
 
 }

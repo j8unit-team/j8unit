@@ -141,8 +141,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.html.HTMLDocument#setParser(javax.swing.text.html.HTMLEditorKit.Parser) public void
-     * javax.swing.text.html.HTMLDocument.setParser(javax.swing.text.html.HTMLEditorKit$Parser)}.
+     * {@link javax.swing.text.html.HTMLDocument#getElement(String) public javax.swing.text.Element
+     * javax.swing.text.html.HTMLDocument.getElement(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -154,7 +154,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setParser_Parser()
+    public default void test_getElement_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -188,8 +188,8 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.html.HTMLDocument#getElement(String) public javax.swing.text.Element
-     * javax.swing.text.html.HTMLDocument.getElement(java.lang.String)}.
+     * {@link javax.swing.text.html.HTMLDocument#setParser(javax.swing.text.html.HTMLEditorKit.Parser) public void
+     * javax.swing.text.html.HTMLDocument.setParser(javax.swing.text.html.HTMLEditorKit$Parser)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -201,7 +201,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElement_String()
+    public default void test_setParser_Parser()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -352,28 +352,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTMLDocument#getReader(int)
-     * public javax.swing.text.html.HTMLEditorKit$ParserCallback javax.swing.text.html.HTMLDocument.getReader(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReader_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.html.HTMLDocument#getReader(int, int, int, javax.swing.text.html.HTML.Tag) public
      * javax.swing.text.html.HTMLEditorKit$ParserCallback
@@ -390,6 +368,28 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getReader_int_int_int_Tag()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.text.html.HTMLDocument#getReader(int)
+     * public javax.swing.text.html.HTMLEditorKit$ParserCallback javax.swing.text.html.HTMLDocument.getReader(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReader_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -559,8 +559,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -634,175 +635,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
             assert sut != null;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
+
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
-
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Iterator
-     * public abstract static class javax.swing.text.html.HTMLDocument$Iterator}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.IteratorClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface IteratorTests<SUT extends Iterator>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLDocument.Iterator#getTag() public abstract javax.swing.text.html.HTML$Tag
-         * javax.swing.text.html.HTMLDocument$Iterator.getTag()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getTag()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLDocument.Iterator#getEndOffset() public abstract int
-         * javax.swing.text.html.HTMLDocument$Iterator.getEndOffset()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getEndOffset()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLDocument.Iterator#next() public abstract void
-         * javax.swing.text.html.HTMLDocument$Iterator.next()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_next()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLDocument.Iterator#getAttributes() public abstract
-         * javax.swing.text.AttributeSet javax.swing.text.html.HTMLDocument$Iterator.getAttributes()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getAttributes()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLDocument.Iterator#getStartOffset() public abstract int
-         * javax.swing.text.html.HTMLDocument$Iterator.getStartOffset()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getStartOffset()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.html.HTMLDocument.Iterator#isValid() public abstract boolean
-         * javax.swing.text.html.HTMLDocument$Iterator.isValid()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_isValid()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
-
     }
 
     /**
@@ -1000,20 +835,21 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader]
         /**
          * <p>
          * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
          * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-         * {@link BlockAction public class javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}.
+         * {@link PreAction public class javax.swing.text.html.HTMLDocument$HTMLReader$PreAction}.
          * </p>
          *
          * <p>
          * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
          * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
          * relevant aspects (see
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests}).
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.PreActionClassTests}).
          * </p>
          *
          * @param SUT
@@ -1023,17 +859,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
 
         @FunctionalInterface
         @Category(J8UnitRepository.class)
-        public static abstract interface BlockActionTests<SUT extends BlockAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<SUT> {
+        public static abstract interface PreActionTests<SUT extends PreAction>
+        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests<SUT> {
 
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
 
             /**
              * <p>
              * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#end(javax.swing.text.html.HTML.Tag)
-             * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction.end(javax.swing.text.html.HTML$Tag)}.
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#end(javax.swing.text.html.HTML.Tag) public
+             * void javax.swing.text.html.HTMLDocument$HTMLReader$PreAction.end(javax.swing.text.html.HTML$Tag)}.
              *
              * Up to now, there is no real implementation of this test method. But with your help at
              * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
@@ -1056,9 +891,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
             /**
              * <p>
              * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
              * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
+             * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
              *
              * Up to now, there is no real implementation of this test method. But with your help at
              * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
@@ -1078,22 +913,23 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
                 assert sut != null;
             }
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
 
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
         }
 
         /**
          * <p>
          * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
          * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-         * {@link TagAction public class javax.swing.text.html.HTMLDocument$HTMLReader$TagAction}.
+         * {@link IsindexAction public class javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}.
          * </p>
          *
          * <p>
          * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
          * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
          * relevant aspects (see
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests}).
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.IsindexActionClassTests}).
          * </p>
          *
          * @param SUT
@@ -1103,17 +939,17 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
 
         @FunctionalInterface
         @Category(J8UnitRepository.class)
-        public static abstract interface TagActionTests<SUT extends TagAction>
-        extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+        public static abstract interface IsindexActionTests<SUT extends IsindexAction>
+        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<SUT> {
 
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
 
             /**
              * <p>
              * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
              * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
+             * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
              *
              * Up to now, there is no real implementation of this test method. But with your help at
              * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
@@ -1123,6 +959,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
              * @since 0.9.0
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Override
             @Test
             @Category(Draft.class)
             public default void test_start_Tag_MutableAttributeSet()
@@ -1132,31 +969,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
                 assert sut != null;
             }
 
-            /**
-             * <p>
-             * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#end(javax.swing.text.html.HTML.Tag) public
-             * void javax.swing.text.html.HTMLDocument$HTMLReader$TagAction.end(javax.swing.text.html.HTML$Tag)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void test_end_Tag()
-            throws Exception {
-                // query fresh subject-under-test
-                final SUT sut = this.createNewSUT();
-                assert sut != null;
-            }
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
-
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
         }
 
         /**
@@ -1235,222 +1050,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
                 assert sut != null;
             }
 
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+
             // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
-
-        }
-
-        /**
-         * <p>
-         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
-         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-         * {@link IsindexAction public class javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}.
-         * </p>
-         *
-         * <p>
-         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
-         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
-         * relevant aspects (see
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.IsindexActionClassTests}).
-         * </p>
-         *
-         * @param SUT
-         *            the type of the subject-under-test
-         * @since 0.9.0
-         */
-
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface IsindexActionTests<SUT extends IsindexAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<SUT> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-            /**
-             * <p>
-             * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
-             * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Override
-            @Test
-            @Category(Draft.class)
-            public default void test_start_Tag_MutableAttributeSet()
-            throws Exception {
-                // query fresh subject-under-test
-                final SUT sut = this.createNewSUT();
-                assert sut != null;
-            }
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-        }
-
-        /**
-         * <p>
-         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
-         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-         * {@link CharacterAction public class javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction}.
-         * </p>
-         *
-         * <p>
-         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
-         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
-         * relevant aspects (see
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.CharacterActionClassTests}).
-         * </p>
-         *
-         * @param SUT
-         *            the type of the subject-under-test
-         * @since 0.9.0
-         */
-
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface CharacterActionTests<SUT extends CharacterAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<SUT> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
-
-            /**
-             * <p>
-             * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#end(javax.swing.text.html.HTML.Tag)
-             * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction.end(javax.swing.text.html.HTML$Tag)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Override
-            @Test
-            @Category(Draft.class)
-            public default void test_end_Tag()
-            throws Exception {
-                // query fresh subject-under-test
-                final SUT sut = this.createNewSUT();
-                assert sut != null;
-            }
-
-            /**
-             * <p>
-             * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
-             * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Override
-            @Test
-            @Category(Draft.class)
-            public default void test_start_Tag_MutableAttributeSet()
-            throws Exception {
-                // query fresh subject-under-test
-                final SUT sut = this.createNewSUT();
-                assert sut != null;
-            }
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
-
-        }
-
-        /**
-         * <p>
-         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
-         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-         * {@link PreAction public class javax.swing.text.html.HTMLDocument$HTMLReader$PreAction}.
-         * </p>
-         *
-         * <p>
-         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
-         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
-         * relevant aspects (see
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.PreActionClassTests}).
-         * </p>
-         *
-         * @param SUT
-         *            the type of the subject-under-test
-         * @since 0.9.0
-         */
-
-        @FunctionalInterface
-        @Category(J8UnitRepository.class)
-        public static abstract interface PreActionTests<SUT extends PreAction>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests<SUT> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
-            /**
-             * <p>
-             * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#end(javax.swing.text.html.HTML.Tag) public
-             * void javax.swing.text.html.HTMLDocument$HTMLReader$PreAction.end(javax.swing.text.html.HTML$Tag)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Override
-            @Test
-            @Category(Draft.class)
-            public default void test_end_Tag()
-            throws Exception {
-                // query fresh subject-under-test
-                final SUT sut = this.createNewSUT();
-                assert sut != null;
-            }
-
-            /**
-             * <p>
-             * Test method for the hereby targeted method-under-test
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.PreAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
-             * public void
-             * javax.swing.text.html.HTMLDocument$HTMLReader$PreAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
-             *
-             * Up to now, there is no real implementation of this test method. But with your help at
-             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
-             * meaningful test methods soon.
-             * </p>
-             *
-             * @since 0.9.0
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Override
-            @Test
-            @Category(Draft.class)
-            public default void test_start_Tag_MutableAttributeSet()
-            throws Exception {
-                // query fresh subject-under-test
-                final SUT sut = this.createNewSUT();
-                assert sut != null;
-            }
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
         }
 
         /**
@@ -1529,8 +1131,168 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
                 assert sut != null;
             }
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
 
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
+         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+         * {@link TagAction public class javax.swing.text.html.HTMLDocument$HTMLReader$TagAction}.
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
+         * relevant aspects (see
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests}).
+         * </p>
+         *
+         * @param SUT
+         *            the type of the subject-under-test
+         * @since 0.9.0
+         */
+
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface TagActionTests<SUT extends TagAction>
+        extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+
+            /**
+             * <p>
+             * Test method for the hereby targeted method-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
+             * public void
+             * javax.swing.text.html.HTMLDocument$HTMLReader$TagAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public default void test_start_Tag_MutableAttributeSet()
+            throws Exception {
+                // query fresh subject-under-test
+                final SUT sut = this.createNewSUT();
+                assert sut != null;
+            }
+
+            /**
+             * <p>
+             * Test method for the hereby targeted method-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.TagAction#end(javax.swing.text.html.HTML.Tag) public
+             * void javax.swing.text.html.HTMLDocument$HTMLReader$TagAction.end(javax.swing.text.html.HTML$Tag)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public default void test_end_Tag()
+            throws Exception {
+                // query fresh subject-under-test
+                final SUT sut = this.createNewSUT();
+                assert sut != null;
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+        }
+
+        /**
+         * <p>
+         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
+         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+         * {@link CharacterAction public class javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction}.
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
+         * relevant aspects (see
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.CharacterActionClassTests}).
+         * </p>
+         *
+         * @param SUT
+         *            the type of the subject-under-test
+         * @since 0.9.0
+         */
+
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface CharacterActionTests<SUT extends CharacterAction>
+        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<SUT> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
+            /**
+             * <p>
+             * Test method for the hereby targeted method-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#end(javax.swing.text.html.HTML.Tag)
+             * public void
+             * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction.end(javax.swing.text.html.HTML$Tag)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Override
+            @Test
+            @Category(Draft.class)
+            public default void test_end_Tag()
+            throws Exception {
+                // query fresh subject-under-test
+                final SUT sut = this.createNewSUT();
+                assert sut != null;
+            }
+
+            /**
+             * <p>
+             * Test method for the hereby targeted method-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
+             * public void
+             * javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Override
+            @Test
+            @Category(Draft.class)
+            public default void test_start_Tag_MutableAttributeSet()
+            throws Exception {
+                // query fresh subject-under-test
+                final SUT sut = this.createNewSUT();
+                assert sut != null;
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
         }
 
         /**
@@ -1584,8 +1346,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
                 assert sut != null;
             }
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
 
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
         }
 
         /**
@@ -1664,10 +1427,260 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
                 assert sut != null;
             }
 
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
 
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
         }
 
+        /**
+         * <p>
+         * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test
+         * methods targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+         * {@link BlockAction public class javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}.
+         * </p>
+         *
+         * <p>
+         * j8unit strongly encourages you to not only test the instances behaviour but also to test the type
+         * constraints. For this purpose, j8unit also provides a complementary test interface containing the class/type
+         * relevant aspects (see
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests}).
+         * </p>
+         *
+         * @param SUT
+         *            the type of the subject-under-test
+         * @since 0.9.0
+         */
+
+        @FunctionalInterface
+        @Category(J8UnitRepository.class)
+        public static abstract interface BlockActionTests<SUT extends BlockAction>
+        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<SUT> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+
+            /**
+             * <p>
+             * Test method for the hereby targeted method-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#end(javax.swing.text.html.HTML.Tag)
+             * public void
+             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction.end(javax.swing.text.html.HTML$Tag)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Override
+            @Test
+            @Category(Draft.class)
+            public default void test_end_Tag()
+            throws Exception {
+                // query fresh subject-under-test
+                final SUT sut = this.createNewSUT();
+                assert sut != null;
+            }
+
+            /**
+             * <p>
+             * Test method for the hereby targeted method-under-test
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#start(javax.swing.text.html.HTML.Tag, javax.swing.text.MutableAttributeSet)
+             * public void
+             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction.start(javax.swing.text.html.HTML$Tag,javax.swing.text.MutableAttributeSet)}.
+             *
+             * Up to now, there is no real implementation of this test method. But with your help at
+             * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by
+             * meaningful test methods soon.
+             * </p>
+             *
+             * @since 0.9.0
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Override
+            @Test
+            @Category(Draft.class)
+            public default void test_start_Tag_MutableAttributeSet()
+            throws Exception {
+                // query fresh subject-under-test
+                final SUT sut = this.createNewSUT();
+                assert sut != null;
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
+        }
+
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Iterator
+     * public abstract static class javax.swing.text.html.HTMLDocument$Iterator}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.IteratorClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface IteratorTests<SUT extends Iterator>
+    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#getTag() public abstract javax.swing.text.html.HTML$Tag
+         * javax.swing.text.html.HTMLDocument$Iterator.getTag()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getTag()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#getEndOffset() public abstract int
+         * javax.swing.text.html.HTMLDocument$Iterator.getEndOffset()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getEndOffset()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#next() public abstract void
+         * javax.swing.text.html.HTMLDocument$Iterator.next()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_next()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#getAttributes() public abstract
+         * javax.swing.text.AttributeSet javax.swing.text.html.HTMLDocument$Iterator.getAttributes()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getAttributes()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#getStartOffset() public abstract int
+         * javax.swing.text.html.HTMLDocument$Iterator.getStartOffset()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getStartOffset()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.html.HTMLDocument.Iterator#isValid() public abstract boolean
+         * javax.swing.text.html.HTMLDocument$Iterator.isValid()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_isValid()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
     }
 
     /**
@@ -1743,8 +1756,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
     }
 
 }

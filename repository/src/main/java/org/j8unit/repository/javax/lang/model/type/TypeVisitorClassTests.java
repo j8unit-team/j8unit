@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TypeVisitor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.TypeVisitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.TypeVisitor]
 
 }

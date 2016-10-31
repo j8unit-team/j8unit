@@ -637,6 +637,7 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
 }

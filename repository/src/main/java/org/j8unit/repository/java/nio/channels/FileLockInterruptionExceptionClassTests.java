@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    FileLockInterruptionException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.FileLockInterruptionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileLockInterruptionException]
 
 }

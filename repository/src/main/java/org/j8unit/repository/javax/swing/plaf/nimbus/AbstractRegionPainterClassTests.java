@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.PainterClassTests<SUT>, org.j8unit.rep
                    AbstractRegionPainter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
 
 }

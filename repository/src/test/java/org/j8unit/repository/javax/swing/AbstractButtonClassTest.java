@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.AbstractButtonClassTests<AbstractBu
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.AbstractButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.AbstractButton]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.NegativeArraySizeExceptionClassTests<
         final NegativeArraySizeException sut = null; // = new NegativeArraySizeException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.NegativeArraySizeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.NegativeArraySizeException]
 
 }

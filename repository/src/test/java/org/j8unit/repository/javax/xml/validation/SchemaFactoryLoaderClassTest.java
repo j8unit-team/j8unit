@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.validation.SchemaFactoryLoaderClassTe
         return SchemaFactoryLoader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.validation.SchemaFactoryLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.validation.SchemaFactoryLoader]
 
 }

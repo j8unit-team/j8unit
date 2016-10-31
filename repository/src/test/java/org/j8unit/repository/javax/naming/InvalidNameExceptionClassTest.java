@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.InvalidNameExceptionClassTests<Inv
         final InvalidNameException sut = new InvalidNameException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.InvalidNameException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InvalidNameException]
 
 }

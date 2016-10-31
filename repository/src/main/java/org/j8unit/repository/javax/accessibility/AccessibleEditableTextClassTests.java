@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT> 
                    AccessibleEditableText.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleEditableText]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleEditableText]
 
 }

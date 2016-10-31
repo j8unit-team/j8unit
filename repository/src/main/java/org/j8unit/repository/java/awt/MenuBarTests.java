@@ -402,6 +402,7 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
         org.j8unit.repository.java.awt.MenuContainerTests.super.test_postEvent_Event();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MenuBar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MenuBar]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MenuBar]
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.font.ImageGraphicAttributeClassTests<I
         final ImageGraphicAttribute sut = null; // = new ImageGraphicAttribute(java.awt.Image, int, float, float);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.ImageGraphicAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.ImageGraphicAttribute]
 
 }

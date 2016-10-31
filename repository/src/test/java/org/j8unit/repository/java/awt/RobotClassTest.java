@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.RobotClassTests<Robot> {
         final Robot sut = new Robot();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Robot]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Robot]
 
 }

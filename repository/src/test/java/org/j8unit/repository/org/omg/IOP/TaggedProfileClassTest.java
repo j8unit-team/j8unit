@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileClassTests<TaggedProfi
         final TaggedProfile sut = null; // = new TaggedProfile(int, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedProfile]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfile]
 
 }

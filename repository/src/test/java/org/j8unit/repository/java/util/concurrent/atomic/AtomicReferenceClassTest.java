@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceClas
         final AtomicReference sut = new AtomicReference();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicReference]
 
 }

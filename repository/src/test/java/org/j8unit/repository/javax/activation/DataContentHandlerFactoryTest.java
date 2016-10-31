@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.activation.DataContentHandlerFactoryTests
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.activation.DataContentHandlerFactory], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.DataContentHandlerFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.DataContentHandlerFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataContentHandlerFactory]
 
 }

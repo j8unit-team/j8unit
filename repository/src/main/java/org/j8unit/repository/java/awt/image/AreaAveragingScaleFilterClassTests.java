@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.ReplicateScaleFilterClassTests<SUT>
                    AreaAveragingScaleFilter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.AreaAveragingScaleFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.AreaAveragingScaleFilter]
 
 }

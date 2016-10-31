@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.nio.file.StandardCopyOptionClassTests<Stan
         // write some test for {@link java.nio.file.StandardCopyOption#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.StandardCopyOption]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.StandardCopyOption]
 
 }

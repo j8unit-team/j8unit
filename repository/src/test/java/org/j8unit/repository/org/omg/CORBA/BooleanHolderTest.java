@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BooleanHolder>, org.j8unit.repository.org.omg.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BooleanHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.BooleanHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.BooleanHolder]
 
 }

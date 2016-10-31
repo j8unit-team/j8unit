@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
                    ServiceUnavailableException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ServiceUnavailableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ServiceUnavailableException]
 
 }

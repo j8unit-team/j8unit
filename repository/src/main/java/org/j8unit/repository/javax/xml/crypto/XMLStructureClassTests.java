@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    XMLStructure.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.XMLStructure]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.XMLStructure]
 
 }

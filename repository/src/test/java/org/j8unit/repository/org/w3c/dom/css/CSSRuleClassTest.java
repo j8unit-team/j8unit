@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<CSSRule> {
         return CSSRule.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.CSSRule]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.CSSRule]
 
 }

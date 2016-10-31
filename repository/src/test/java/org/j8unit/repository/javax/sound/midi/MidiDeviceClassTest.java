@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<MidiDevic
         return MidiDevice.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiDevice]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiDevice]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<MidiDevic
         public Class<Info> createNewSUT() {
             return Info.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiDevice$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiDevice$Info]
 

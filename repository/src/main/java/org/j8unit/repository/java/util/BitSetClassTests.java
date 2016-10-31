@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    BitSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.BitSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.BitSet]
 
 }

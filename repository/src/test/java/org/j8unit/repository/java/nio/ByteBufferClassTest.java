@@ -99,6 +99,8 @@ implements org.j8unit.repository.java.nio.ByteBufferClassTests<ByteBuffer> {
         // write some test for {@link java.nio.ByteBuffer#allocateDirect(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.ByteBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ByteBuffer]
 
 }

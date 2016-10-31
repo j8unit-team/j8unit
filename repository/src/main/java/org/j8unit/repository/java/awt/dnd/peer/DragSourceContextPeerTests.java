@@ -127,6 +127,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.peer.DragSourceContextPeer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.peer.DragSourceContextPeer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.peer.DragSourceContextPeer]
 }

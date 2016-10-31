@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.events.EventException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.events.EventException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.events.EventException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.events.EventException]
 }

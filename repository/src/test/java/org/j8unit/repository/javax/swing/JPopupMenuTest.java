@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<JPopupMenu>, org.j8unit.repository.javax.swing
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JPopupMenu]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JPopupMenu]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JPopupMenu]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<JPopupMenu>, org.j8unit.repository.javax.swing
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JPopupMenu$Separator]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JPopupMenu$Separator]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JPopupMenu$Separator]
 
     }
 

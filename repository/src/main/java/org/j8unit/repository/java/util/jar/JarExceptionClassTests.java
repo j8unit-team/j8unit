@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.zip.ZipExceptionClassTests<SUT> {
                    JarException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.JarException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarException]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT> {
                    HashSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.HashSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.HashSet]
 
 }

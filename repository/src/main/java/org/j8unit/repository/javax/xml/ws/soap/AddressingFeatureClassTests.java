@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
                    AddressingFeature.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Responses.class!",
                               Responses.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]
 

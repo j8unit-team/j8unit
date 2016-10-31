@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JarException>, org.j8unit.repository.java.util
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.JarException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.JarException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.JarException]
 
 }

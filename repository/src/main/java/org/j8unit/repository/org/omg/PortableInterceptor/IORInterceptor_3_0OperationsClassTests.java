@@ -68,6 +68,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
                    IORInterceptor_3_0Operations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Operations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Operations]
 
 }

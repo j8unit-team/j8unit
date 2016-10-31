@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.ShortLookupTableClassTests<Short
         final ShortLookupTable sut = null; // = new ShortLookupTable(int, short[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ShortLookupTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ShortLookupTable]
 
 }

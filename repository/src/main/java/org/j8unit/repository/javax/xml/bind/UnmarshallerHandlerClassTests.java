@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT> {
                    UnmarshallerHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.UnmarshallerHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.UnmarshallerHandler]
 
 }

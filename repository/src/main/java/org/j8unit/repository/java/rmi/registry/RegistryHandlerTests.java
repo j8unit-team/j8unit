@@ -80,6 +80,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.registry.RegistryHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.registry.RegistryHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.registry.RegistryHandler]
 }

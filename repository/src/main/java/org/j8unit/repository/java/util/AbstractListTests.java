@@ -659,6 +659,7 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
         org.j8unit.repository.java.util.AbstractCollectionTests.super.test_remove_Object();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractList]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractList]
 }

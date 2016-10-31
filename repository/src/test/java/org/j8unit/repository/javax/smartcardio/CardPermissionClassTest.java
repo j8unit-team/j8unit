@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.smartcardio.CardPermissionClassTests<Card
         final CardPermission sut = null; // = new CardPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardPermission]
 
 }

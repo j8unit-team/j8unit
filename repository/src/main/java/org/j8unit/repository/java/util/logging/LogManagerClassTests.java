@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    LogManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.LogManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.LogManager]
 
 }

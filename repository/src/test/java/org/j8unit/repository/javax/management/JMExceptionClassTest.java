@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.management.JMExceptionClassTests<JMExcept
         final JMException sut = null; // = new JMException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.JMException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.JMException]
 
 }

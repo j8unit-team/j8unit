@@ -57,8 +57,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.DirectoryStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -107,8 +108,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream$Filter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.DirectoryStream$Filter]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream$Filter]
     }
 
 }

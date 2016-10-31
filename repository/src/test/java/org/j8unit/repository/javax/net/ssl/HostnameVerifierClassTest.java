@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.HostnameVerifierClassTests<Hostna
         return HostnameVerifier.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.HostnameVerifier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.HostnameVerifier]
 
 }

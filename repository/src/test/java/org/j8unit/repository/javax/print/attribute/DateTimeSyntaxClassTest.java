@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.DateTimeSyntaxClassTests<
         return DateTimeSyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.DateTimeSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.DateTimeSyntax]
 
 }

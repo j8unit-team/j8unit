@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests<C
         return CompoundControl.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.CompoundControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.CompoundControl]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests<C
         public Class<Type> createNewSUT() {
             return Type.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.CompoundControl$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.CompoundControl$Type]
 

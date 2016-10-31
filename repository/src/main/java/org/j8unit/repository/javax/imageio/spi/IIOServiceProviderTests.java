@@ -148,6 +148,7 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.IIOServiceProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.spi.IIOServiceProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.IIOServiceProvider]
 }

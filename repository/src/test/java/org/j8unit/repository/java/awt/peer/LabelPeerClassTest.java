@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.LabelPeerClassTests<LabelPeer> {
         return LabelPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.LabelPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.LabelPeer]
 
 }

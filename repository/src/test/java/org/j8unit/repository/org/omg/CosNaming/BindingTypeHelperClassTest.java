@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingTypeHelperClassTests<B
         // org.omg.CosNaming.BindingType)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingTypeHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingTypeHelper]
 
 }

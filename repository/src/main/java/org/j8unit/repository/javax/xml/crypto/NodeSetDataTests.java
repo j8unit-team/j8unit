@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.NodeSetData]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.NodeSetData]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.NodeSetData]
 }

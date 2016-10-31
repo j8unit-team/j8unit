@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.LongSummaryStatisticsClassTests<LongS
         final LongSummaryStatistics sut = new LongSummaryStatistics();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.LongSummaryStatistics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.LongSummaryStatistics]
 
 }

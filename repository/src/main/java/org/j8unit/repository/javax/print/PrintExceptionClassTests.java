@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    PrintException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.PrintException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.PrintException]
 
 }

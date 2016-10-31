@@ -106,6 +106,7 @@ extends org.j8unit.repository.javax.naming.ReferralExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.LdapReferralException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.LdapReferralException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.LdapReferralException]
 }

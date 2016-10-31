@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AttributeList>, org.j8unit.repository.javax.ma
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.AttributeList]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.AttributeList]
 
 }

@@ -209,6 +209,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynValueHelperClassTests<Dyn
         // org.omg.DynamicAny.DynValue)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynValueHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynValueHelper]
 
 }

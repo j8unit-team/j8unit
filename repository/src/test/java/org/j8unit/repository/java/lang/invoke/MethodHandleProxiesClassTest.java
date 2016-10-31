@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleProxiesClassTests<
         // write some test for {@link java.lang.invoke.MethodHandleProxies#wrapperInstanceType(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandleProxies]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandleProxies]
 
 }

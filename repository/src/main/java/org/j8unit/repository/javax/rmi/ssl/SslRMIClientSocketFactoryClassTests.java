@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    SslRMIClientSocketFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.ssl.SslRMIClientSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.ssl.SslRMIClientSocketFactory]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedComponentClassTests<TaggedCom
         final TaggedComponent sut = null; // = new TaggedComponent(int, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedComponent]
 
 }

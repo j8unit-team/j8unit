@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<Bl
         return BlockingQueue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.BlockingQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.BlockingQueue]
 
 }

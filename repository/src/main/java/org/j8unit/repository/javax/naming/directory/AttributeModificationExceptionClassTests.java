@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
                    AttributeModificationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.AttributeModificationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.AttributeModificationException]
 
 }

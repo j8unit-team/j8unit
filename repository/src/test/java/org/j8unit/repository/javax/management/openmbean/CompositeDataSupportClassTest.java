@@ -71,6 +71,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeDataSupport
                                                // java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.CompositeDataSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeDataSupport]
 
 }

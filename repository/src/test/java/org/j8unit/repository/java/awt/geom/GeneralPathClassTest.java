@@ -106,6 +106,8 @@ implements org.j8unit.repository.java.awt.geom.GeneralPathClassTests<GeneralPath
         final GeneralPath sut = new GeneralPath();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.GeneralPath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.GeneralPath]
 
 }

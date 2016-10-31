@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.EncodedKeySpecClassTests<SUT> {
                    X509EncodedKeySpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.X509EncodedKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.X509EncodedKeySpec]
 
 }

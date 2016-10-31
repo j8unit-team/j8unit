@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.DomainCombinerClassTests<DomainCo
         return DomainCombiner.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.DomainCombiner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DomainCombiner]
 
 }

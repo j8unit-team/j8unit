@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.xml.validation.SchemaFactoryClassTests<Sc
         // write some test for {@link javax.xml.validation.SchemaFactory#newInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.validation.SchemaFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.validation.SchemaFactory]
 
 }

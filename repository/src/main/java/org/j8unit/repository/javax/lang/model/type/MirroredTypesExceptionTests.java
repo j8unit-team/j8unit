@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.MirroredTypesException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.type.MirroredTypesException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.MirroredTypesException]
 }

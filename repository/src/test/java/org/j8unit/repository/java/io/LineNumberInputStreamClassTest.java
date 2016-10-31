@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.LineNumberInputStreamClassTests<LineNum
         final LineNumberInputStream sut = null; // = new LineNumberInputStream(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.LineNumberInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.LineNumberInputStream]
 
 }

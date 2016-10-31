@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
                    MalformedLinkException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.MalformedLinkException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.MalformedLinkException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Relation.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.Relation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.Relation]
 
 }

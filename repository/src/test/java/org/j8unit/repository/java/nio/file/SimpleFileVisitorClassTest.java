@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.file.SimpleFileVisitorClassTests<Simpl
         return SimpleFileVisitor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.SimpleFileVisitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.SimpleFileVisitor]
 
 }

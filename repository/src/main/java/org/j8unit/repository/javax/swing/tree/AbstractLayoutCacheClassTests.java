@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
                    AbstractLayoutCache.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.AbstractLayoutCache]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.AbstractLayoutCache]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to NodeDimensions.class!",
                               NodeDimensions.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
 

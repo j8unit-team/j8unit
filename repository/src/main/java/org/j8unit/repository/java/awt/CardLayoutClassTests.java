@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    CardLayout.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.CardLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.CardLayout]
 
 }

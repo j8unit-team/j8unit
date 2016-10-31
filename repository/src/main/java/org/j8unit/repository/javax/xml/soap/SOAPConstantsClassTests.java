@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SOAPConstants.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPConstants]
 
 }

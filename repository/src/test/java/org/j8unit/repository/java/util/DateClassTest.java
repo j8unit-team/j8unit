@@ -209,6 +209,8 @@ implements org.j8unit.repository.java.util.DateClassTests<Date> {
         // write some test for {@link java.util.Date#parse(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Date]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Date]
 
 }

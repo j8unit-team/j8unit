@@ -35,22 +35,9 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
 
-    @RunWith(J8Unit4.class)
-    public static class BoxPainterTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests<BoxPainter> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
-
-        @Override
-        public BoxPainter createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.BoxPainter], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
-
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
 
     @RunWith(J8Unit4.class)
     public static class ListPainterTest
@@ -63,7 +50,26 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.ListPainter], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class BoxPainterTest
+    implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests<BoxPainter> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+        @Override
+        public BoxPainter createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.StyleSheet.BoxPainter], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
 
     }
 

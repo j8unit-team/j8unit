@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectAlready
         final ObjectAlreadyActive sut = null; // = new ObjectAlreadyActive(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectAlreadyActive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectAlreadyActive]
 
 }

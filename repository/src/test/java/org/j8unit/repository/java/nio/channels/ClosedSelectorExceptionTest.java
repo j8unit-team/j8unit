@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ClosedSelectorException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.ClosedSelectorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.ClosedSelectorException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.ClosedSelectorException]
 
 }

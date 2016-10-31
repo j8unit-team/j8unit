@@ -22,6 +22,8 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
         return AbstractMap.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap]
 
     @SuppressWarnings("rawtypes")
@@ -81,6 +83,8 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
             @SuppressWarnings("unused")
             final SimpleImmutableEntry sut = null; // = new SimpleImmutableEntry(java.util.Map.Entry);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
 
@@ -143,6 +147,8 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
             @SuppressWarnings("unused")
             final SimpleEntry sut = null; // = new SimpleEntry(java.util.Map.Entry);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
 

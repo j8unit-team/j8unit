@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    FREE_MEM.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.FREE_MEM]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.FREE_MEM]
 
 }

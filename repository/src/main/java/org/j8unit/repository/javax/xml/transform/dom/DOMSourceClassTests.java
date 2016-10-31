@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8u
                    DOMSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.dom.DOMSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.dom.DOMSource]
 
 }

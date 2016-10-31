@@ -104,6 +104,7 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Operations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Operations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Operations]
 }

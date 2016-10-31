@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.WebEndpointClassTests<WebEndpoint>
         return WebEndpoint.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.WebEndpoint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.WebEndpoint]
 
 }

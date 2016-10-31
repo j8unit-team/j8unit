@@ -68,6 +68,8 @@ org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests<SUT> {
                    DOMValidateContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
 
 }

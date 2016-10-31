@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
                    ReferenceUriSchemesSupported.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.ReferenceUriSchemesSupported]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.ReferenceUriSchemesSupported]
 
 }

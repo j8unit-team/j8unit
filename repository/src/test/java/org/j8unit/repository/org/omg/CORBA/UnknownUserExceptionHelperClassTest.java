@@ -171,6 +171,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionHelperClassTe
         // org.omg.CORBA.UnknownUserException)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UnknownUserExceptionHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnknownUserExceptionHelper]
 
 }

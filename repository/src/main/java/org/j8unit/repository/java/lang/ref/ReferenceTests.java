@@ -120,6 +120,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.Reference]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ref.Reference]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ref.Reference]
 }

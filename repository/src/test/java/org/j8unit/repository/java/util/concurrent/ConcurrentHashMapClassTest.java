@@ -178,6 +178,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
         // write some test for {@link java.util.concurrent.ConcurrentHashMap#newKeySet(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
 
     @SuppressWarnings("rawtypes")
@@ -191,6 +193,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
         public Class<KeySetView> createNewSUT() {
             return KeySetView.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 

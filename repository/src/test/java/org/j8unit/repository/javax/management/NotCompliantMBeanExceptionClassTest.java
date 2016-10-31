@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.NotCompliantMBeanExceptionClas
         final NotCompliantMBeanException sut = null; // = new NotCompliantMBeanException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotCompliantMBeanException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotCompliantMBeanException]
 
 }

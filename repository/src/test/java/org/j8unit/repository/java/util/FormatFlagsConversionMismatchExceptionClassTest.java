@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.util.FormatFlagsConversionMismatchExceptio
                                                                  // char);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.FormatFlagsConversionMismatchException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.FormatFlagsConversionMismatchException]
 
 }

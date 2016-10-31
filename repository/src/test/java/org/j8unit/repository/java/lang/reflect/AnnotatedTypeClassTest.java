@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.AnnotatedTypeClassTests<Annot
         return AnnotatedType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.AnnotatedType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.AnnotatedType]
 
 }

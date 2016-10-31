@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UTFDataFormatException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.UTFDataFormatException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.UTFDataFormatException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.UTFDataFormatException]
 
 }

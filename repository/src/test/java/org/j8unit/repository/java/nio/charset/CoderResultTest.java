@@ -30,6 +30,8 @@ implements org.j8unit.repository.java.nio.charset.CoderResultTests<CoderResult> 
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CoderResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.charset.CoderResult]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.CoderResult]
 
 }

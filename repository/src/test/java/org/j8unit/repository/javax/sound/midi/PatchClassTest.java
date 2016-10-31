@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.sound.midi.PatchClassTests<Patch> {
         final Patch sut = null; // = new Patch(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Patch]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Patch]
 
 }

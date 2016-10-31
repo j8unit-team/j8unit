@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.rmi.server.RMIClassLoaderSpiClassTests<RMI
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIClassLoaderSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIClassLoaderSpi]
 
 }

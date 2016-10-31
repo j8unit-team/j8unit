@@ -109,6 +109,8 @@ implements org.j8unit.repository.javax.swing.SpinnerNumberModelClassTests<Spinne
         final SpinnerNumberModel sut = null; // = new SpinnerNumberModel(Number, Comparable, Comparable, Number);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpinnerNumberModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpinnerNumberModel]
 
 }

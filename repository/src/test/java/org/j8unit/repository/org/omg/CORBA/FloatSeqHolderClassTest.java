@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.FloatSeqHolderClassTests<FloatSeq
         final FloatSeqHolder sut = new FloatSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.FloatSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.FloatSeqHolder]
 
 }

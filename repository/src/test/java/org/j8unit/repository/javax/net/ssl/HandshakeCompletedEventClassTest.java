@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.net.ssl.HandshakeCompletedEventClassTests
                                                   // javax.net.ssl.SSLSession);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.HandshakeCompletedEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.HandshakeCompletedEvent]
 
 }

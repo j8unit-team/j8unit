@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.SQLInputClassTests<SQLInput> {
         return SQLInput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLInput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLInput]
 
 }

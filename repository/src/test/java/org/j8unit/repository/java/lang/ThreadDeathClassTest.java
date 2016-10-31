@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.lang.ThreadDeathClassTests<ThreadDeath> {
         final ThreadDeath sut = new ThreadDeath();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ThreadDeath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ThreadDeath]
 
 }

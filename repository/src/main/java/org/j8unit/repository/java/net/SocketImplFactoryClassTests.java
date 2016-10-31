@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SocketImplFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketImplFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketImplFactory]
 
 }

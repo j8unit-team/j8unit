@@ -72,6 +72,8 @@ extends RepositoryClassTests<SUT> {
                    Spliterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator]
 
     /**
@@ -134,6 +136,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OfPrimitive.class!",
                               OfPrimitive.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfPrimitive]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfPrimitive]
 
@@ -200,6 +204,8 @@ extends RepositoryClassTests<SUT> {
                               OfLong.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfLong]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfLong]
 
     }
@@ -265,6 +271,8 @@ extends RepositoryClassTests<SUT> {
                               OfInt.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfInt]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfInt]
 
     }
@@ -329,6 +337,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OfDouble.class!",
                               OfDouble.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Spliterator$OfDouble]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Spliterator$OfDouble]
 

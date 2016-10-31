@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MetaMessage>, org.j8unit.repository.javax.soun
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MetaMessage]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.MetaMessage]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MetaMessage]
 
 }

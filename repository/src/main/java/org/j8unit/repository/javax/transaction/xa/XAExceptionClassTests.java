@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    XAException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.xa.XAException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.xa.XAException]
 
 }

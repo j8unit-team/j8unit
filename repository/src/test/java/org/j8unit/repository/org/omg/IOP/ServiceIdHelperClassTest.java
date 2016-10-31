@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceId
         // write some test for {@link org.omg.IOP.ServiceIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ServiceIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceIdHelper]
 
 }

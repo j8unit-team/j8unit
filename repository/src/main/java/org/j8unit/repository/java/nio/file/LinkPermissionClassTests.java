@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
                    LinkPermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.LinkPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.LinkPermission]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyClas
         final ContainerOrderFocusTraversalPolicy sut = new ContainerOrderFocusTraversalPolicy();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.ContainerOrderFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ContainerOrderFocusTraversalPolicy]
 
 }

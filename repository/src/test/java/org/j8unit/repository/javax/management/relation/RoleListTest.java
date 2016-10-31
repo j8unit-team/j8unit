@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RoleList>, org.j8unit.repository.javax.managem
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RoleList]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RoleList]
 
 }

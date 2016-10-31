@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<OBJECT_NOT_EXIST>, org.j8unit.repository.org.o
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OBJECT_NOT_EXIST]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.OBJECT_NOT_EXIST]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.OBJECT_NOT_EXIST]
 
 }

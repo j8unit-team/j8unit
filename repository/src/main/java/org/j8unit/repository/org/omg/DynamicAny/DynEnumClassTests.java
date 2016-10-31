@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynEnumOperationsClassTests<SUT
                    DynEnum.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynEnum]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynEnum]
 
 }

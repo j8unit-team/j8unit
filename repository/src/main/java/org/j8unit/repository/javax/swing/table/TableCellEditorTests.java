@@ -56,6 +56,7 @@ extends org.j8unit.repository.javax.swing.CellEditorTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.TableCellEditor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.table.TableCellEditor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.TableCellEditor]
 }

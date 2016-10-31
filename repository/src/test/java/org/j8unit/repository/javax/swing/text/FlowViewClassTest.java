@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<FlowView> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.FlowView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.FlowView]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<FlowView> {
             // create new instance
             final FlowStrategy sut = new FlowStrategy();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.FlowView$FlowStrategy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.FlowView$FlowStrategy]
 

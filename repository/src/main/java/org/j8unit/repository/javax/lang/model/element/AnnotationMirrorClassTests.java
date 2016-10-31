@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AnnotationMirror.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.AnnotationMirror]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.AnnotationMirror]
 
 }

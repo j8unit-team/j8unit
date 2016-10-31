@@ -81,6 +81,8 @@ implements org.j8unit.repository.javax.swing.PopupFactoryClassTests<PopupFactory
         // write some test for {@link javax.swing.PopupFactory#setSharedInstance(javax.swing.PopupFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.PopupFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.PopupFactory]
 
 }

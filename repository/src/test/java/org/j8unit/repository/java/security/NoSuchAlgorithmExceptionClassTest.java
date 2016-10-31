@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTest
         final NoSuchAlgorithmException sut = new NoSuchAlgorithmException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.NoSuchAlgorithmException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.NoSuchAlgorithmException]
 
 }

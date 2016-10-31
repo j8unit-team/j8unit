@@ -37,7 +37,9 @@ org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPat
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
     @RunWith(J8Unit4.class)
     public static class ReasonTest
@@ -50,7 +52,9 @@ org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPat
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.security.cert.CertPathValidatorException.Reason], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
 
     }
 
@@ -74,7 +78,9 @@ org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPat
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 
     }
 

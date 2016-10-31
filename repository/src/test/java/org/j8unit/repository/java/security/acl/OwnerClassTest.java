@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.acl.OwnerClassTests<Owner> {
         return Owner.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.Owner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.Owner]
 
 }

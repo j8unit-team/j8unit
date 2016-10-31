@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.lang.EnumClassTests<Enum> {
         // write some test for {@link Enum#valueOf(Class, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Enum]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Enum]
 
 }

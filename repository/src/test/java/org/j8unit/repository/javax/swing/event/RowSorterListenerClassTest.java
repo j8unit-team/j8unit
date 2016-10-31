@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<R
         return RowSorterListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.RowSorterListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.RowSorterListener]
 
 }

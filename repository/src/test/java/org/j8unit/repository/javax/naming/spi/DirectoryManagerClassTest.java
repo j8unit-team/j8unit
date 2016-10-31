@@ -91,6 +91,8 @@ implements org.j8unit.repository.javax.naming.spi.DirectoryManagerClassTests<Dir
         // javax.naming.Context, java.util.Hashtable, javax.naming.directory.Attributes)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirectoryManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirectoryManager]
 
 }

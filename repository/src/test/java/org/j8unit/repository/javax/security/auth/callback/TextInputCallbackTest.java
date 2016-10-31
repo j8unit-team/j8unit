@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.security.auth.callback.TextInputCallbackT
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.security.auth.callback.TextInputCallback], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.callback.TextInputCallback]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.callback.TextInputCallback]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.callback.TextInputCallback]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    IIOMetadataController.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.metadata.IIOMetadataController]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOMetadataController]
 
 }

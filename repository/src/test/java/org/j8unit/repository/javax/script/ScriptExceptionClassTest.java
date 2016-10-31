@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.script.ScriptExceptionClassTests<ScriptEx
         final ScriptException sut = null; // = new ScriptException(Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.ScriptException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.ScriptException]
 
 }

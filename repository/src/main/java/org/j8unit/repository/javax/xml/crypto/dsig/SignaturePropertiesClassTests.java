@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT> {
                    SignatureProperties.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.SignatureProperties]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.SignatureProperties]
 
 }

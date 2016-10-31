@@ -57,6 +57,7 @@ extends org.j8unit.repository.javax.swing.PainterTests<SUT, JComponent>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.nimbus.AbstractRegionPainter]
 }

@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.swing.tree.ExpandVetoExceptionClassTests<
                                               // String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.ExpandVetoException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.ExpandVetoException]
 
 }

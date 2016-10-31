@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.rmi.AlreadyBoundExceptionClassTests<Alread
         final AlreadyBoundException sut = null; // = new AlreadyBoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.AlreadyBoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.AlreadyBoundException]
 
 }

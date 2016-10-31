@@ -32,6 +32,8 @@ org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExceptionTests<Uns
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.UnsupportedAudioFileException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.UnsupportedAudioFileException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.UnsupportedAudioFileException]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.management.MBeanServerBuilderClassTests<M
         final MBeanServerBuilder sut = new MBeanServerBuilder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerBuilder]
 
 }

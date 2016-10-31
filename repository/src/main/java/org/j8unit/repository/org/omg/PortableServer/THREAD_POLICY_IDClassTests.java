@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    THREAD_POLICY_ID.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.THREAD_POLICY_ID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.THREAD_POLICY_ID]
 
 }

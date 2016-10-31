@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.IntPredicateClassTests<IntPr
         return IntPredicate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntPredicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntPredicate]
 
 }

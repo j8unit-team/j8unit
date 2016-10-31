@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
                    SQLClientInfoException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLClientInfoException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLClientInfoException]
 
 }

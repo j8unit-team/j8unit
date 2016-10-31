@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.nio.charset.CoderResultClassTests<CoderRes
         // write some test for {@link java.nio.charset.CoderResult#malformedForLength(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.CoderResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.CoderResult]
 
 }

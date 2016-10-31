@@ -584,6 +584,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.ranges.Range]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.ranges.Range]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.ranges.Range]
 }

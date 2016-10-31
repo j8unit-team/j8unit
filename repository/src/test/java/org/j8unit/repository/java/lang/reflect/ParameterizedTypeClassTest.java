@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.ParameterizedTypeClassTests<P
         return ParameterizedType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.ParameterizedType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.ParameterizedType]
 
 }

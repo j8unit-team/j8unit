@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextHolderClassTests
         final NamingContextHolder sut = new NamingContextHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextHolder]
 
 }

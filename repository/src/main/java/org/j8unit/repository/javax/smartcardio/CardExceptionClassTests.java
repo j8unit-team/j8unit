@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    CardException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardException]
 
 }

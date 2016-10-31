@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RandomAccess.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.RandomAccess]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.RandomAccess]
 
 }

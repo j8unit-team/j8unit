@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLBRElementClassTests<HTMLBR
         return HTMLBRElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLBRElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLBRElement]
 
 }

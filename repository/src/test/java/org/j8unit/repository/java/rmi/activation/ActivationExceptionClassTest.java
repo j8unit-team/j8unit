@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTes
         final ActivationException sut = new ActivationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationException]
 
 }

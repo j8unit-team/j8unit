@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.AsyncHandlerClassTests<AsyncHandle
         return AsyncHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.AsyncHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.AsyncHandler]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleEditableTextClass
         return AccessibleEditableText.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleEditableText]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleEditableText]
 
 }

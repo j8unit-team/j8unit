@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.security.KeyRepClassTests<KeyRep> {
         final KeyRep sut = null; // = new KeyRep(java.security.KeyRep.Type, String, String, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyRep]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyRep]
 
     @RunWith(J8Unit4.class)
@@ -95,6 +97,8 @@ implements org.j8unit.repository.java.security.KeyRepClassTests<KeyRep> {
         throws Exception {
             // write some test for {@link java.security.KeyRep.Type#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyRep$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyRep$Type]
 

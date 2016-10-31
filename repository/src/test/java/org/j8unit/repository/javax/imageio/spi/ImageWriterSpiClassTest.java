@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.spi.ImageWriterSpiClassTests<Imag
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.ImageWriterSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.ImageWriterSpi]
 
 }

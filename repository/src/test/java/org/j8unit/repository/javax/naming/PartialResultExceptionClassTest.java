@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.PartialResultExceptionClassTests<P
         final PartialResultException sut = new PartialResultException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.PartialResultException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.PartialResultException]
 
 }

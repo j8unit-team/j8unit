@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DragSource>, org.j8unit.repository.java.awt.dn
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DragSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DragSource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DragSource]
 
 }

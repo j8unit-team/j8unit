@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UID>, org.j8unit.repository.java.rmi.server.UI
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.UID]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.UID]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.UID]
 
 }

@@ -197,6 +197,7 @@ extends org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.LdapContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.LdapContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.LdapContext]
 }

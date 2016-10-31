@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.GridBagLayoutInfoClassTests<GridBagLay
         return GridBagLayoutInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GridBagLayoutInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GridBagLayoutInfo]
 
 }

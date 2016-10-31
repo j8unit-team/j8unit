@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.net.PasswordAuthenticationClassTests<Passw
         final PasswordAuthentication sut = null; // = new PasswordAuthentication(String, char[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.PasswordAuthentication]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.PasswordAuthentication]
 
 }

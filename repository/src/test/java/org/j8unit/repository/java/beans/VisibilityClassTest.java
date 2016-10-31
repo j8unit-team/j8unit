@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.VisibilityClassTests<Visibility> {
         return Visibility.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Visibility]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Visibility]
 
 }

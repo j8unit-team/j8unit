@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<SUT> {
                    Executable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.Executable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.Executable]
 
 }

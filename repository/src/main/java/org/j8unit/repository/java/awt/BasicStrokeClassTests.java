@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.StrokeClassTests<SUT>, org.j8unit.reposit
                    BasicStroke.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.BasicStroke]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BasicStroke]
 
 }

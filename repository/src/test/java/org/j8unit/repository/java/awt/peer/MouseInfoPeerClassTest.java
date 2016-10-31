@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.MouseInfoPeerClassTests<MouseInfo
         return MouseInfoPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.MouseInfoPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.MouseInfoPeer]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultFocusTraversalPolicy>, org.j8unit.repos
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
 
 }

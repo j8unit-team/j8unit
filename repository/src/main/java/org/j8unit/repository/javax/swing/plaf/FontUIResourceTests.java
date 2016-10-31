@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.FontUIResource]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.FontUIResource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.FontUIResource]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.FontUIResource]
 }

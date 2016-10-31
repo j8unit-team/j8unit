@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.FileNotFoundExceptionClassTests<FileNot
         final FileNotFoundException sut = null; // = new FileNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileNotFoundException]
 
 }

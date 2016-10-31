@@ -70,6 +70,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
                    ScrollPaneLayout.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ScrollPaneLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ScrollPaneLayout]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UIResource.class!",
                               UIResource.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ScrollPaneLayout$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ScrollPaneLayout$UIResource]
 

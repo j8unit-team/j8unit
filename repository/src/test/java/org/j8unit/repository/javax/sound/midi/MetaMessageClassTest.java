@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.sound.midi.MetaMessageClassTests<MetaMess
         final MetaMessage sut = null; // = new MetaMessage(int, byte[], int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MetaMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MetaMessage]
 
 }

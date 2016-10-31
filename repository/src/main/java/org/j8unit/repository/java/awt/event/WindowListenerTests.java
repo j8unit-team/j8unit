@@ -193,6 +193,7 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.WindowListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.WindowListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.WindowListener]
 }

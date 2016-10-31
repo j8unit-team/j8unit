@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.TimeLimitExceededExceptionClassTes
         final TimeLimitExceededException sut = null; // = new TimeLimitExceededException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.TimeLimitExceededException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.TimeLimitExceededException]
 
 }

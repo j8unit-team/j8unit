@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.awt.MenuShortcutClassTests<MenuShortcut> {
         final MenuShortcut sut = null; // = new MenuShortcut(int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuShortcut]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuShortcut]
 
 }

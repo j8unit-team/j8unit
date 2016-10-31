@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.ComboBoxEditorClassTests<ComboBoxEd
         return ComboBoxEditor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ComboBoxEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ComboBoxEditor]
 
 }

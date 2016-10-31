@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.naming.event.NamingExceptionEventClassTes
                                                // javax.naming.NamingException);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.event.NamingExceptionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.event.NamingExceptionEvent]
 
 }

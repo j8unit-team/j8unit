@@ -32,6 +32,8 @@ org.j8unit.repository.javax.naming.InsufficientResourcesExceptionTests<Insuffici
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InsufficientResourcesException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.InsufficientResourcesException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.InsufficientResourcesException]
 
 }

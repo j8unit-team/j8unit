@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PrintJobListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintJobListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintJobListener]
 
 }

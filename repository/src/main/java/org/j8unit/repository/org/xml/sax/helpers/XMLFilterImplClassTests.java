@@ -69,6 +69,8 @@ org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests<SUT>, org.j8unit.reposi
                    XMLFilterImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.FilterWriterClassTests<FilterWriter> {
         return FilterWriter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilterWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilterWriter]
 
 }

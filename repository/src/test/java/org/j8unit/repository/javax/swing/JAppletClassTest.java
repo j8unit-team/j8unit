@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.JAppletClassTests<JApplet> {
         final JApplet sut = new JApplet();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JApplet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JApplet]
 
 }

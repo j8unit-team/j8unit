@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.swing.DefaultComboBoxModelClassTests<Defa
         final DefaultComboBoxModel sut = null; // = new DefaultComboBoxModel(java.util.Vector);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultComboBoxModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultComboBoxModel]
 
 }

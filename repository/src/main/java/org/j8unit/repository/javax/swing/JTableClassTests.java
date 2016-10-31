@@ -73,6 +73,8 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
                    JTable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable]
 
     /**
@@ -135,6 +137,8 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DropLocation.class!",
                               DropLocation.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTable$DropLocation]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$DropLocation]
 
@@ -200,6 +204,8 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PrintMode.class!",
                               PrintMode.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTable$PrintMode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable$PrintMode]
 

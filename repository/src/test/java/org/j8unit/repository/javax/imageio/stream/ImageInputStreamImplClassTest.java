@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassT
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.ImageInputStreamImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.ImageInputStreamImpl]
 
 }

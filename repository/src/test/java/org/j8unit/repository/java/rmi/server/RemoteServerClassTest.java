@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.rmi.server.RemoteServerClassTests<RemoteSe
         // write some test for {@link java.rmi.server.RemoteServer#getClientHost()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RemoteServer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteServer]
 
 }

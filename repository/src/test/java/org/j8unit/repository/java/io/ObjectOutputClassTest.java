@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.ObjectOutputClassTests<ObjectOutput> {
         return ObjectOutput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectOutput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutput]
 
 }

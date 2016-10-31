@@ -1355,6 +1355,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynEnumTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynEnumStub]
 }

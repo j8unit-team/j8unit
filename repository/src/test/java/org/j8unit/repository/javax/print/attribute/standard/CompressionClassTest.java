@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.CompressionClass
         return Compression.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Compression]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Compression]
 
 }

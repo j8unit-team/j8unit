@@ -169,6 +169,8 @@ implements org.j8unit.repository.org.omg.CORBA.ServiceInformationHelperClassTest
         // write some test for {@link org.omg.CORBA.ServiceInformationHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ServiceInformationHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ServiceInformationHelper]
 
 }

@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.awt.ComponentOrientationClassTests<Compone
         // write some test for {@link java.awt.ComponentOrientation#getOrientation(java.util.Locale)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.ComponentOrientation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ComponentOrientation]
 
 }

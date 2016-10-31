@@ -161,6 +161,8 @@ implements org.j8unit.repository.javax.lang.model.SourceVersionClassTests<Source
         // write some test for {@link javax.lang.model.SourceVersion#latest()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.SourceVersion]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.SourceVersion]
 
 }

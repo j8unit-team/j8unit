@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests<OBJECT
         final OBJECT_NOT_EXIST sut = new OBJECT_NOT_EXIST();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.OBJECT_NOT_EXIST]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OBJECT_NOT_EXIST]
 
 }

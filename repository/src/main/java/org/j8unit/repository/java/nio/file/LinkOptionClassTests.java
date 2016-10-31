@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    LinkOption.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.LinkOption]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.LinkOption]
 
 }

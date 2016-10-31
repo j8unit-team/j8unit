@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    DayOfWeek.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.DayOfWeek]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.DayOfWeek]
 
 }

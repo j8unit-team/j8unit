@@ -244,6 +244,8 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
         // write some test for {@link java.text.NumberFormat#getIntegerInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.NumberFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.NumberFormat]
 
     @RunWith(J8Unit4.class)
@@ -256,6 +258,8 @@ implements org.j8unit.repository.java.text.NumberFormatClassTests<NumberFormat> 
         public Class<Field> createNewSUT() {
             return Field.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.NumberFormat$Field]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.NumberFormat$Field]
 

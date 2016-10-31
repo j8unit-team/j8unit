@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.color.ICC_ColorSpaceClassTests<ICC_Col
         final ICC_ColorSpace sut = null; // = new ICC_ColorSpace(java.awt.color.ICC_Profile);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ICC_ColorSpace]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ICC_ColorSpace]
 
 }

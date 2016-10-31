@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    DragGestureEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragGestureEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragGestureEvent]
 
 }

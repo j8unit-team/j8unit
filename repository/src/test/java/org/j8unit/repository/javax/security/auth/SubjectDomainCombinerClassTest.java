@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.auth.SubjectDomainCombinerClassT
         final SubjectDomainCombiner sut = null; // = new SubjectDomainCombiner(javax.security.auth.Subject);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.SubjectDomainCombiner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.SubjectDomainCombiner]
 
 }

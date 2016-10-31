@@ -233,6 +233,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, E> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ListIterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ListIterator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ListIterator]
 }

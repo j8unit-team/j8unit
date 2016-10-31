@@ -142,6 +142,8 @@ implements org.j8unit.repository.java.util.BitSetClassTests<BitSet> {
         // write some test for {@link java.util.BitSet#valueOf(byte[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.BitSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.BitSet]
 
 }

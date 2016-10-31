@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.SQLDataClassTests<SQLData> {
         return SQLData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLData]
 
 }

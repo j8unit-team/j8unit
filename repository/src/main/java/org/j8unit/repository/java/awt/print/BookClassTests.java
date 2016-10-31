@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.awt.print.PageableClassTests<SUT>, org.j8unit
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Book.class!", Book.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.Book]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.Book]
 
 }

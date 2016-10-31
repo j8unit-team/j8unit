@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_JAVA_CODEBASETests<TAG_JAVA_COD
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.IOP.TAG_JAVA_CODEBASE], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TAG_JAVA_CODEBASE]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.TAG_JAVA_CODEBASE]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.TAG_JAVA_CODEBASE]
 
 }

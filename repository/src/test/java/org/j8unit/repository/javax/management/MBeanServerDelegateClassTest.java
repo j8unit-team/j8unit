@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.management.MBeanServerDelegateClassTests<
         final MBeanServerDelegate sut = new MBeanServerDelegate();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerDelegate]
 
 }

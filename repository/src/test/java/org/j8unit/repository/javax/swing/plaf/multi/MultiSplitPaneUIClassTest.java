@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.multi.MultiSplitPaneUIClassTes
         // write some test for {@link javax.swing.plaf.multi.MultiSplitPaneUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiSplitPaneUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiSplitPaneUI]
 
 }

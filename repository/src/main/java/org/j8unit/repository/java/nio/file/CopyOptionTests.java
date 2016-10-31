@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.CopyOption]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.CopyOption]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.CopyOption]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.CopyOption]
 }

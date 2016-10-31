@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.chrono.EraClassTests<SUT>, org.j8unit.re
                    MinguoEra.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.MinguoEra]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.MinguoEra]
 
 }

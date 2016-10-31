@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
                    PriorityBlockingQueue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.PriorityBlockingQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.PriorityBlockingQueue]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT>, org.j8unit.r
                    VolatileImage.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.VolatileImage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.VolatileImage]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.text.PositionClassTests<Position> {
         return Position.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Position]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Position]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.swing.text.PositionClassTests<Position> {
         public Class<Bias> createNewSUT() {
             return Bias.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Position$Bias]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Position$Bias]
 

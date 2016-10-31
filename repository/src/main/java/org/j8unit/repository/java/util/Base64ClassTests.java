@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Base64.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Base64]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Encoder.class!",
                               Encoder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Base64$Encoder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64$Encoder]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Decoder.class!",
                               Decoder.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Base64$Decoder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64$Decoder]
 

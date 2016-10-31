@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.net.ssl.KeyManagerFactorySpiClassTests<Ke
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.KeyManagerFactorySpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.KeyManagerFactorySpi]
 
 }

@@ -172,6 +172,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameValuePairSeqHelperClassT
         // write some test for {@link org.omg.DynamicAny.NameValuePairSeqHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.NameValuePairSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameValuePairSeqHelper]
 
 }

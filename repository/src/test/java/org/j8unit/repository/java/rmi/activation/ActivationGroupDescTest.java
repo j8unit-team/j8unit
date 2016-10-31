@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests<Ac
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.rmi.activation.ActivationGroupDesc], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationGroupDesc]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.ActivationGroupDesc]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationGroupDesc]
 
     @RunWith(J8Unit4.class)
     public static class CommandEnvironmentTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests<Ac
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.rmi.activation.ActivationGroupDesc.CommandEnvironment], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
 
     }
 

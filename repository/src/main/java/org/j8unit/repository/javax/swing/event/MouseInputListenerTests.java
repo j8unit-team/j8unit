@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.awt.event.MouseListenerTests<SUT>, org.j8unit
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.MouseInputListener]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.MouseInputListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.MouseInputListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.MouseInputListener]
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    UnsupportedLookAndFeelException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UnsupportedLookAndFeelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UnsupportedLookAndFeelException]
 
 }

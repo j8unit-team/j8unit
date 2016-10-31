@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.ldap.SortKeyClassTests<SortKey> {
         final SortKey sut = null; // = new SortKey(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.SortKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.SortKey]
 
 }

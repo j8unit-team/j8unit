@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.DSAPrivateKeyClassTest
         return DSAPrivateKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.DSAPrivateKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.DSAPrivateKey]
 
 }

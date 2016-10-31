@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BooleanSupplier.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.BooleanSupplier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.BooleanSupplier]
 
 }

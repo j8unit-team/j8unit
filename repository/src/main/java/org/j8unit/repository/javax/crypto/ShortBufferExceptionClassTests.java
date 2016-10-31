@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    ShortBufferException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.ShortBufferException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.ShortBufferException]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AEADBadTagException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.AEADBadTagException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.AEADBadTagException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.AEADBadTagException]
 
 }

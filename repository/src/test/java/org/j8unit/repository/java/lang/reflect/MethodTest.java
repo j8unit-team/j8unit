@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.reflect.MethodTests<Method> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.reflect.Method], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.Method]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.Method]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Method]
 
 }

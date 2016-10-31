@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.bind.ElementTests<Element> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.bind.Element], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.Element]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.Element]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.Element]
 
 }

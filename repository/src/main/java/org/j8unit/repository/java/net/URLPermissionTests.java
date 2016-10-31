@@ -125,6 +125,7 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.URLPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.URLPermission]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.URLPermission]
 }

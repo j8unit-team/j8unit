@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    XMLEventConsumer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.util.XMLEventConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.XMLEventConsumer]
 
 }

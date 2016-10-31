@@ -151,6 +151,8 @@ implements org.j8unit.repository.javax.swing.JLabelClassTests<JLabel> {
         final JLabel sut = null; // = new JLabel(String, javax.swing.Icon, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JLabel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JLabel]
 
 }

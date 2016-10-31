@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.KeyStroke]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.KeyStroke]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.KeyStroke]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.KeyStroke]
 }

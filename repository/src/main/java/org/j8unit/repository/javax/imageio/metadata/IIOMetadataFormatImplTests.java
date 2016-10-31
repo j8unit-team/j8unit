@@ -661,6 +661,7 @@ extends org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatTests<SUT>
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataFormatImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataFormatImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataFormatImpl]
 }

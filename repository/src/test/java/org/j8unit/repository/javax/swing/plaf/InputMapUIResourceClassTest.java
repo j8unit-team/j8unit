@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.plaf.InputMapUIResourceClassTests<I
         final InputMapUIResource sut = new InputMapUIResource();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.InputMapUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.InputMapUIResource]
 
 }

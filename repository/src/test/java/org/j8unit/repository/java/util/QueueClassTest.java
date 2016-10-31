@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.QueueClassTests<Queue> {
         return Queue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Queue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Queue]
 
 }

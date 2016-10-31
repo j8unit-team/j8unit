@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ServiceUI>, org.j8unit.repository.javax.print.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.ServiceUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.ServiceUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.ServiceUI]
 
 }

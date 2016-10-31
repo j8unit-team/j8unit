@@ -69,6 +69,8 @@ extends RepositoryClassTests<SUT> {
                    Unmarshaller.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Unmarshaller]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Unmarshaller]
 
     /**
@@ -131,6 +133,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Listener.class!",
                               Listener.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Unmarshaller$Listener]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Unmarshaller$Listener]
 

@@ -20,6 +20,8 @@ implements org.j8unit.repository.java.security.ProviderClassTests<Provider> {
         return Provider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Provider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider]
 
     @RunWith(J8Unit4.class)
@@ -58,6 +60,8 @@ implements org.j8unit.repository.java.security.ProviderClassTests<Provider> {
             final Service sut = null; // = new Service(java.security.Provider, String, String, String, java.util.List,
                                       // java.util.Map);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Provider$Service]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider$Service]
 

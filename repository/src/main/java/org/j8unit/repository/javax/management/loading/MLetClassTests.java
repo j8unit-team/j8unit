@@ -67,6 +67,8 @@ org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.reposito
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MLet.class!", MLet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.MLet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLet]
 
 }

@@ -22,6 +22,29 @@ implements org.j8unit.repository.javax.management.StandardMBeanClassTests<Standa
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link javax.management.StandardMBean#StandardMBean(Object, Class, boolean) public <T>
+     * javax.management.StandardMBean(T,java.lang.Class<T>,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_StandardMBean_Object_Class_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final StandardMBean sut = null; // = new StandardMBean(Object, Class, boolean);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link javax.management.StandardMBean#StandardMBean(Object, Class) public <T>
      * javax.management.StandardMBean(T,java.lang.Class<T>) throws javax.management.NotCompliantMBeanException}.
      *
@@ -42,28 +65,7 @@ implements org.j8unit.repository.javax.management.StandardMBeanClassTests<Standa
         final StandardMBean sut = null; // = new StandardMBean(Object, Class);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.management.StandardMBean#StandardMBean(Object, Class, boolean) public <T>
-     * javax.management.StandardMBean(T,java.lang.Class<T>,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_StandardMBean_Object_Class_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final StandardMBean sut = null; // = new StandardMBean(Object, Class, boolean);
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.StandardMBean]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.StandardMBean]
 

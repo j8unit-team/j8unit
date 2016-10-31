@@ -363,6 +363,7 @@ extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleScriptContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.SimpleScriptContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.SimpleScriptContext]
 }

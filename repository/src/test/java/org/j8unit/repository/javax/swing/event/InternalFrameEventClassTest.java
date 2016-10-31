@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.event.InternalFrameEventClassTests<
         final InternalFrameEvent sut = null; // = new InternalFrameEvent(javax.swing.JInternalFrame, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.InternalFrameEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.InternalFrameEvent]
 
 }

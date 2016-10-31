@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.spi.InitialContextFactoryClassTest
         return InitialContextFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.InitialContextFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.InitialContextFactory]
 
 }

@@ -59,6 +59,8 @@ implements org.j8unit.repository.javax.swing.SortOrderClassTests<SortOrder> {
         // write some test for {@link javax.swing.SortOrder#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SortOrder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SortOrder]
 
 }

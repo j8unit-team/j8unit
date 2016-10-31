@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTests<
                    UnknownAnnotationValueException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.UnknownAnnotationValueException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.UnknownAnnotationValueException]
 
 }

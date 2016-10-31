@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.applet.AppletClassTests<Applet> {
         // write some test for {@link java.applet.Applet#newAudioClip(java.net.URL)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.Applet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.Applet]
 
 }

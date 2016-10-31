@@ -111,6 +111,7 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
         org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests.super.test_clone();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXCertPathBuilderResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.PKIXCertPathBuilderResult]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXCertPathBuilderResult]
 }

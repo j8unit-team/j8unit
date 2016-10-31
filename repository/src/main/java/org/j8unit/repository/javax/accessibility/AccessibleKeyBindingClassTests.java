@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AccessibleKeyBinding.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleKeyBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleKeyBinding]
 
 }

@@ -151,6 +151,7 @@ extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Ele
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 }

@@ -148,8 +148,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardTerminals]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.smartcardio.CardTerminals]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardTerminals]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -175,8 +176,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.smartcardio.CardTerminals$State]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardTerminals$State]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.smartcardio.CardTerminals$State]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.smartcardio.CardTerminals$State]
     }
 
 }

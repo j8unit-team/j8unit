@@ -115,6 +115,8 @@ implements org.j8unit.repository.javax.management.NotificationBroadcasterSupport
                                                          // javax.management.MBeanNotificationInfo...);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationBroadcasterSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationBroadcasterSupport]
 
 }

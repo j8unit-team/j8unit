@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.awt.DesktopClassTests<Desktop> {
         // write some test for {@link java.awt.Desktop#getDesktop()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Desktop]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Desktop]
 
     @RunWith(J8Unit4.class)
@@ -112,6 +114,8 @@ implements org.j8unit.repository.java.awt.DesktopClassTests<Desktop> {
         throws Exception {
             // write some test for {@link java.awt.Desktop.Action#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Desktop$Action]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Desktop$Action]
 

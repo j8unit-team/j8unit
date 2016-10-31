@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
         // org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper]
 
 }

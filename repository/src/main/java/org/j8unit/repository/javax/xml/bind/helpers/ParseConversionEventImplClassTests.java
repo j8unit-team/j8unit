@@ -68,6 +68,8 @@ org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClassTests<SUT> 
                    ParseConversionEventImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.ParseConversionEventImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.ParseConversionEventImpl]
 
 }

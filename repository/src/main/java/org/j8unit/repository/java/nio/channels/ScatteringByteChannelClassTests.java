@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.channels.ReadableByteChannelClassTests<SU
                    ScatteringByteChannel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ScatteringByteChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ScatteringByteChannel]
 
 }

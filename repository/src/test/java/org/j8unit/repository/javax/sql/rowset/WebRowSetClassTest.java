@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.WebRowSetClassTests<WebRowSet>
         return WebRowSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.WebRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.WebRowSet]
 
 }

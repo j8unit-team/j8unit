@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.
         // write some test for {@link org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper]
 
 }

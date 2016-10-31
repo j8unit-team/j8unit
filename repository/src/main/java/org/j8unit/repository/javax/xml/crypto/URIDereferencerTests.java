@@ -58,6 +58,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.URIDereferencer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.URIDereferencer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.URIDereferencer]
 }

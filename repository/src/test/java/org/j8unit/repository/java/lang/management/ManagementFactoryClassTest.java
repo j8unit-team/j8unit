@@ -369,6 +369,8 @@ implements org.j8unit.repository.java.lang.management.ManagementFactoryClassTest
         // write some test for {@link java.lang.management.ManagementFactory#getRuntimeMXBean()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.ManagementFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ManagementFactory]
 
 }

@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<JList<E>>, org.j8unit.repository.javax.swing.J
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JList]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JList]
 
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<JList<E>>, org.j8unit.repository.javax.swing.J
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JList.DropLocation], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JList$DropLocation]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JList$DropLocation]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JList$DropLocation]
 
     }
 

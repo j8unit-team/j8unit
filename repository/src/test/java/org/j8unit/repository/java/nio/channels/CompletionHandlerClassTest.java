@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.channels.CompletionHandlerClassTests<C
         return CompletionHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.CompletionHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.CompletionHandler]
 
 }

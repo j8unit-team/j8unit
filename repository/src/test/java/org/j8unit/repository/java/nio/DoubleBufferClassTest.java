@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.nio.DoubleBufferClassTests<DoubleBuffer> {
         // write some test for {@link java.nio.DoubleBuffer#wrap(double[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.DoubleBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.DoubleBuffer]
 
 }

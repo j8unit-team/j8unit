@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueBaseHolderClassTests<ValueBa
         final ValueBaseHolder sut = new ValueBaseHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ValueBaseHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ValueBaseHolder]
 
 }

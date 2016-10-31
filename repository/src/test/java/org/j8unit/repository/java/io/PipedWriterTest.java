@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PipedWriter>, org.j8unit.repository.java.io.Pi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.PipedWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.PipedWriter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.PipedWriter]
 
 }

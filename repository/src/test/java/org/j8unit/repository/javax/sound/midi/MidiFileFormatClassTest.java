@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiFileFormatClassTests<MidiF
         final MidiFileFormat sut = null; // = new MidiFileFormat(int, float, int, int, long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiFileFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiFileFormat]
 
 }

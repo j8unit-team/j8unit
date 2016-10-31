@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassTest
                    MetalFileChooserUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassTest
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to FilterComboBoxRenderer.class!",
                               FilterComboBoxRenderer.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]
 

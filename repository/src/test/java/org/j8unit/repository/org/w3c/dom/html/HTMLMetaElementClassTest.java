@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLMetaElementClassTests<HTML
         return HTMLMetaElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLMetaElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLMetaElement]
 
 }

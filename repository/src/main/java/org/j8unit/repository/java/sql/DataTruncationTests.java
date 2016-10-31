@@ -142,6 +142,7 @@ extends org.j8unit.repository.java.sql.SQLWarningTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.DataTruncation]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.DataTruncation]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.DataTruncation]
 }

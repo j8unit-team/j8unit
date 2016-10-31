@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.RuntimeErrorExceptionClassTest
         final RuntimeErrorException sut = null; // = new RuntimeErrorException(Error, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.RuntimeErrorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.RuntimeErrorException]
 
 }

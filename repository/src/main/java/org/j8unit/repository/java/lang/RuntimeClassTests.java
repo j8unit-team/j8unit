@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Runtime.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Runtime]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Runtime]
 
 }

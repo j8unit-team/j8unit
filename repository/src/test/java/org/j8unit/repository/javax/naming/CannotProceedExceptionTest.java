@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CannotProceedException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CannotProceedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.CannotProceedException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.CannotProceedException]
 
 }

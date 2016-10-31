@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.sound.sampled.BooleanControlTests<Boolean
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.sound.sampled.BooleanControl], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.BooleanControl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.BooleanControl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.BooleanControl]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -46,7 +48,9 @@ implements org.j8unit.repository.javax.sound.sampled.BooleanControlTests<Boolean
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.BooleanControl$Type]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.BooleanControl$Type]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.BooleanControl$Type]
 
     }
 

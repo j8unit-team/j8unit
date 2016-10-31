@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.ClosedSelectorExceptionClassT
         final ClosedSelectorException sut = new ClosedSelectorException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ClosedSelectorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ClosedSelectorException]
 
 }

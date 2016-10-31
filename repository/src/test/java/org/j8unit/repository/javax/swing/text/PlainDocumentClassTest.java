@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.text.PlainDocumentClassTests<PlainD
         final PlainDocument sut = new PlainDocument();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.PlainDocument]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.PlainDocument]
 
 }

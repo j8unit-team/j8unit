@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CustomMarshal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CustomMarshal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CustomMarshal]
 
 }

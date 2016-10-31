@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.management.timer.TimerNotificationClassTe
         final TimerNotification sut = null; // = new TimerNotification(String, Object, long, long, String, Integer);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.timer.TimerNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.timer.TimerNotification]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Skeleton.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.Skeleton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.Skeleton]
 
 }

@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.nio.channels.SelectorClassTests<Selector> 
         // write some test for {@link java.nio.channels.Selector#open()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Selector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Selector]
 
 }

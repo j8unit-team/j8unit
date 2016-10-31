@@ -188,6 +188,8 @@ implements org.j8unit.repository.org.omg.PortableServer.CurrentHelperClassTests<
         // write some test for {@link org.omg.PortableServer.CurrentHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.CurrentHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.CurrentHelper]
 
 }

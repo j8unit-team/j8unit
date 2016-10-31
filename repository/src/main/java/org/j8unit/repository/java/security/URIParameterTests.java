@@ -55,6 +55,7 @@ org.j8unit.repository.javax.security.auth.login.ConfigurationTests.ParametersTes
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.URIParameter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.URIParameter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.URIParameter]
 }

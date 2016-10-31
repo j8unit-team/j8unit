@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TAG_ORB_TYPE.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_ORB_TYPE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_ORB_TYPE]
 
 }

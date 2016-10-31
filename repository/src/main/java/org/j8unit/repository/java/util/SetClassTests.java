@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.util.CollectionClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Set.class!", Set.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Set]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Set]
 
 }

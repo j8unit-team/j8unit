@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.OverlayLayoutClassTests<OverlayLayo
         final OverlayLayout sut = null; // = new OverlayLayout(java.awt.Container);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.OverlayLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.OverlayLayout]
 
 }

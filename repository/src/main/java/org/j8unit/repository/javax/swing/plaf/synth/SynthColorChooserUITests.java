@@ -155,6 +155,7 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthColorChooserUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.synth.SynthColorChooserUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.synth.SynthColorChooserUI]
 }

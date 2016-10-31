@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextTests<DOMC
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.xml.crypto.dom.DOMCryptoContext], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dom.DOMCryptoContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dom.DOMCryptoContext]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dom.DOMCryptoContext]
 
 }

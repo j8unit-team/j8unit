@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA.PrincipalClassTests<Principal> {
         final Principal sut = new Principal();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.Principal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.Principal]
 
 }

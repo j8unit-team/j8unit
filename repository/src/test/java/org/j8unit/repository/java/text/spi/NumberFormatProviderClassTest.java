@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.spi.NumberFormatProviderClassTests<Nu
         return NumberFormatProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.NumberFormatProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.NumberFormatProvider]
 
 }

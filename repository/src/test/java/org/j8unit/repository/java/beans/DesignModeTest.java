@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.beans.DesignModeTests<DesignMode> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.beans.DesignMode], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.DesignMode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.DesignMode]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.DesignMode]
 
 }

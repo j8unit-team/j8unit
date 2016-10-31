@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLException>, org.j8unit.repository.java.sql.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLException]
 
 }

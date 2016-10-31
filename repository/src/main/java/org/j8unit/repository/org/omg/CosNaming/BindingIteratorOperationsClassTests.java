@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BindingIteratorOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingIteratorOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingIteratorOperations]
 
 }

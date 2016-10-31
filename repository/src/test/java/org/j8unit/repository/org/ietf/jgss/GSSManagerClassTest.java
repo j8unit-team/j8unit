@@ -60,6 +60,8 @@ implements org.j8unit.repository.org.ietf.jgss.GSSManagerClassTests<GSSManager> 
         // write some test for {@link org.ietf.jgss.GSSManager#getInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSManager]
 
 }

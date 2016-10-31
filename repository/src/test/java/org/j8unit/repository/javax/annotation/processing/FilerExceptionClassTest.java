@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.annotation.processing.FilerExceptionClass
         final FilerException sut = null; // = new FilerException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.FilerException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.FilerException]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
                    MidiDevice.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiDevice]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiDevice]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Info.class!",
                               Info.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiDevice$Info]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiDevice$Info]
 

@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.text.MaskFormatterClassTests<MaskFo
         final MaskFormatter sut = null; // = new MaskFormatter(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.MaskFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.MaskFormatter]
 
 }

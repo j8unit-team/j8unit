@@ -232,6 +232,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSName]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.GSSName]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSName]
 }

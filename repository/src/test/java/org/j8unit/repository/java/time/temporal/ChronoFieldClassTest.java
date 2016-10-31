@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.time.temporal.ChronoFieldClassTests<Chrono
         // write some test for {@link java.time.temporal.ChronoField#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.ChronoField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.ChronoField]
 
 }

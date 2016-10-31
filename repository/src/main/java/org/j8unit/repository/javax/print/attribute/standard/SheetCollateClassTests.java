@@ -69,6 +69,8 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
                    SheetCollate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.SheetCollate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.SheetCollate]
 
 }

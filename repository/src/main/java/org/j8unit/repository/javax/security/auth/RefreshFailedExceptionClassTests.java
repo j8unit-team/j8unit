@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    RefreshFailedException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.RefreshFailedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.RefreshFailedException]
 
 }

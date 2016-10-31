@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidNameHolder>, org.j8unit.repository.org.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.InvalidNameHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.InvalidNameHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.InvalidNameHolder]
 
 }

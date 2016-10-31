@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.OnewayClassTests<Oneway> {
         return Oneway.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.Oneway]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.Oneway]
 
 }

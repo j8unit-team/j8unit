@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultCaretClassTests<Default
         final DefaultCaret sut = new DefaultCaret();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultCaret]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultCaret]
 
 }

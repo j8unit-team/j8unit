@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtClassTests<Na
         return NamingContextExt.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExt]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExt]
 
 }

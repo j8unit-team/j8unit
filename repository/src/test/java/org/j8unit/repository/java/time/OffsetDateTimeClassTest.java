@@ -210,26 +210,6 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#timeLineOrder() public
-     * static java.util.Comparator<java.time.OffsetDateTime> java.time.OffsetDateTime.timeLineOrder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_timeLineOrder()
-    throws Exception {
-        // write some test for {@link java.time.OffsetDateTime#timeLineOrder()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.OffsetDateTime#from(java.time.temporal.TemporalAccessor) public static java.time.OffsetDateTime
      * java.time.OffsetDateTime.from(java.time.temporal.TemporalAccessor)}.
@@ -248,6 +228,28 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
     throws Exception {
         // write some test for {@link java.time.OffsetDateTime#from(java.time.temporal.TemporalAccessor)}
     }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#timeLineOrder() public
+     * static java.util.Comparator<java.time.OffsetDateTime> java.time.OffsetDateTime.timeLineOrder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_timeLineOrder()
+    throws Exception {
+        // write some test for {@link java.time.OffsetDateTime#timeLineOrder()}
+    }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.OffsetDateTime]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.OffsetDateTime]
 

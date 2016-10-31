@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanCla
         return CounterMonitorMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.CounterMonitorMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.CounterMonitorMBean]
 
 }

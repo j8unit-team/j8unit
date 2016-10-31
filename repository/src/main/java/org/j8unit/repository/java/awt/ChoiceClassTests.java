@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
                    Choice.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Choice]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Choice]
 
 }

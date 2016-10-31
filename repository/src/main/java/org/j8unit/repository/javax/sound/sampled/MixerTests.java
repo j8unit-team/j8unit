@@ -328,8 +328,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Mixer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Mixer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Mixer]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -512,8 +513,9 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Mixer$Info]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Mixer$Info]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Mixer$Info]
     }
 
 }

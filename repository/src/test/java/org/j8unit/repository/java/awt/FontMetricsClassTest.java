@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.FontMetricsClassTests<FontMetrics> {
         return FontMetrics.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.FontMetrics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.FontMetrics]
 
 }

@@ -752,6 +752,7 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.CharBuffer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.CharBuffer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.CharBuffer]
 }

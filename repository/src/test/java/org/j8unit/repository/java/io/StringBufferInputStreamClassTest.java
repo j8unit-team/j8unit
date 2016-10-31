@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.StringBufferInputStreamClassTests<Strin
         final StringBufferInputStream sut = null; // = new StringBufferInputStream(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.StringBufferInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.StringBufferInputStream]
 
 }

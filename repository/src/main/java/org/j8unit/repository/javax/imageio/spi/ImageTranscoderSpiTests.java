@@ -101,6 +101,7 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ImageTranscoderSpi]
 }

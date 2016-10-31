@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.CollectionClassTests<Collection> {
         return Collection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Collection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Collection]
 
 }

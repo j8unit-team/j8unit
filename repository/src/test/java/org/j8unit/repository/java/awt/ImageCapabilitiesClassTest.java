@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.ImageCapabilitiesClassTests<ImageCapab
         final ImageCapabilities sut = null; // = new ImageCapabilities(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.ImageCapabilities]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ImageCapabilities]
 
 }

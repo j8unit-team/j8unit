@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.charset.CoderMalfunctionErrorClassTest
         final CoderMalfunctionError sut = null; // = new CoderMalfunctionError(Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.CoderMalfunctionError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.CoderMalfunctionError]
 
 }

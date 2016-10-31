@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.AccountExceptionClass
         final AccountException sut = null; // = new AccountException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AccountException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AccountException]
 
 }

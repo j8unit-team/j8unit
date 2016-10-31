@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.util.TypesClassTests<Types> {
         return Types.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.Types]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.Types]
 
 }

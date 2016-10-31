@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.monitor.GaugeMonitorMBeanClass
         return GaugeMonitorMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.GaugeMonitorMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.GaugeMonitorMBean]
 
 }

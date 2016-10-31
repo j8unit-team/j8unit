@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.IntegerSyntaxClassTests<SUT> {
                    JobPrioritySupported.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobPrioritySupported]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobPrioritySupported]
 
 }

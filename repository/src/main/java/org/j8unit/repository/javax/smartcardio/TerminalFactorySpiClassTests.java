@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TerminalFactorySpi.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.TerminalFactorySpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.TerminalFactorySpi]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.TrayIconPeerClassTests<TrayIconPe
         return TrayIconPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.TrayIconPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.TrayIconPeer]
 
 }

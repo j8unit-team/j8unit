@@ -130,6 +130,7 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.PosixFileAttributeView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.attribute.PosixFileAttributeView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.attribute.PosixFileAttributeView]
 }

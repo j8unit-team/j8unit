@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RegistryHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.registry.RegistryHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.registry.RegistryHandler]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenDataExceptionCla
         final OpenDataException sut = null; // = new OpenDataException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenDataException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenDataException]
 
 }

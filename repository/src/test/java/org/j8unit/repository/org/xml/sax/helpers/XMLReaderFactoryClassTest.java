@@ -61,6 +61,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLReaderFactoryClassTests<
         // write some test for {@link org.xml.sax.helpers.XMLReaderFactory#createXMLReader()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.XMLReaderFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLReaderFactory]
 
 }

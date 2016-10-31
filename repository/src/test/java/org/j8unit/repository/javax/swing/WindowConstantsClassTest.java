@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.WindowConstantsClassTests<WindowCon
         return WindowConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.WindowConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.WindowConstants]
 
 }

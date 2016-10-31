@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
                    FlowView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.FlowView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.FlowView]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to FlowStrategy.class!",
                               FlowStrategy.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.FlowView$FlowStrategy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.FlowView$FlowStrategy]
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_POLICIESClassTests<TAG_POLICIES
         return TAG_POLICIES.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_POLICIES]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_POLICIES]
 
 }

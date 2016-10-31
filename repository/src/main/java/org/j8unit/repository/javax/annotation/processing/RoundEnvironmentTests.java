@@ -151,6 +151,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.RoundEnvironment]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.annotation.processing.RoundEnvironment]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.processing.RoundEnvironment]
 }

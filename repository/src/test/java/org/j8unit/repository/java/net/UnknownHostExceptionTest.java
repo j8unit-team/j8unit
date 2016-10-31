@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<UnknownHostException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.UnknownHostException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.UnknownHostException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.UnknownHostException]
 
 }

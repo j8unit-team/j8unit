@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.ldap.HasControlsTests<HasControls>
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.naming.ldap.HasControls], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.HasControls]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.HasControls]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.HasControls]
 
 }

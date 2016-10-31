@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ServiceUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.ServiceUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.ServiceUI]
 
 }

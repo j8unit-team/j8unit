@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.DoubleAdderClassTes
         final DoubleAdder sut = new DoubleAdder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.DoubleAdder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.DoubleAdder]
 
 }

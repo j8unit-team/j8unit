@@ -100,6 +100,7 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, S>, org.j8unit.reposi
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ServiceLoader]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ServiceLoader]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ServiceLoader]
 }

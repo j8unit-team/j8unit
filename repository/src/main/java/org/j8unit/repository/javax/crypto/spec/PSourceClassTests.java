@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    PSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.PSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PSource]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PSpecified.class!",
                               PSpecified.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.PSource$PSpecified]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PSource$PSpecified]
 

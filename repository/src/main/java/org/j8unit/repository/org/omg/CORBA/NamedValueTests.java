@@ -98,6 +98,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.NamedValue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.NamedValue]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.NamedValue]
 }

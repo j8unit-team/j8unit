@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.BAD_PARAMClassTests<BAD_PARAM> {
         final BAD_PARAM sut = new BAD_PARAM();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_PARAM]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_PARAM]
 
 }

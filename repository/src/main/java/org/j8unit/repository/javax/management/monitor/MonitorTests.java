@@ -440,6 +440,7 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.Monitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.Monitor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.Monitor]
 }

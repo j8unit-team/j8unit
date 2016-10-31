@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultLoaderRepository>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.DefaultLoaderRepository]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.DefaultLoaderRepository]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.DefaultLoaderRepository]
 
 }

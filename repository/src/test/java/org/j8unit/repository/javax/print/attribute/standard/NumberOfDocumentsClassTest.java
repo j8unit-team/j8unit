@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.NumberOfDocument
         final NumberOfDocuments sut = null; // = new NumberOfDocuments(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.NumberOfDocuments]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.NumberOfDocuments]
 
 }

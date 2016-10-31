@@ -213,8 +213,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Formatter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -240,8 +241,9 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
     }
 
 }

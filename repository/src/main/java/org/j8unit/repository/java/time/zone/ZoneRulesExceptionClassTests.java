@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {
                    ZoneRulesException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneRulesException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneRulesException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DTDHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.DTDHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.DTDHandler]
 
 }

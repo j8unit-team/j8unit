@@ -65,6 +65,8 @@ implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderClass
         final MultipleComponentProfileHolder sut = new MultipleComponentProfileHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHolder]
 
 }

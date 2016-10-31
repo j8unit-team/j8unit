@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
                    ThreadLocalRandom.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ThreadLocalRandom]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadLocalRandom]
 
 }

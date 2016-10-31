@@ -54,6 +54,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.BindingType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.BindingType]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.BindingType]
 }

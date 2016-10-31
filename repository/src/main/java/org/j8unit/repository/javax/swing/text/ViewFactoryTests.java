@@ -56,6 +56,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.ViewFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.ViewFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.ViewFactory]
 }

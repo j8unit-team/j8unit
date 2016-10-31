@@ -232,8 +232,9 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Diagnostic]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.Diagnostic]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Diagnostic]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -259,8 +260,9 @@ extends RepositoryTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.Diagnostic$Kind]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Diagnostic$Kind]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.Diagnostic$Kind]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Diagnostic$Kind]
     }
 
 }

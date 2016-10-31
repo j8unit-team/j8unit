@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.naming.ldap.PagedResultsControlClassTests
         final PagedResultsControl sut = null; // = new PagedResultsControl(int, byte[], boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.PagedResultsControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.PagedResultsControl]
 
 }

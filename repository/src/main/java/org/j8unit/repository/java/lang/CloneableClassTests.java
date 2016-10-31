@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
                    Cloneable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Cloneable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Cloneable]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.crypto.DataClassTests<SUT> {
                    NodeSetData.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.NodeSetData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.NodeSetData]
 
 }

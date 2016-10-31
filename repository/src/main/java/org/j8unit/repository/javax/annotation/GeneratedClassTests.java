@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    Generated.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Generated]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Generated]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.CurrentOperationsClass
                    Current.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.Current]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.Current]
 
 }

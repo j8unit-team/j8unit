@@ -68,6 +68,8 @@ implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClass
                                               // javax.xml.bind.ValidationEventLocator);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.ValidationEventImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.ValidationEventImpl]
 
 }

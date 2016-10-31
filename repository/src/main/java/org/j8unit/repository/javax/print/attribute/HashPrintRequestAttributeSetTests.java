@@ -92,6 +92,7 @@ extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeSetTest
         org.j8unit.repository.javax.print.attribute.PrintRequestAttributeSetTests.super.test_addAll_AttributeSet();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashPrintRequestAttributeSet]
 }

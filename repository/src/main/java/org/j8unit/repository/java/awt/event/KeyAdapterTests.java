@@ -104,6 +104,7 @@ extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.KeyAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.KeyAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.KeyAdapter]
 }

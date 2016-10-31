@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
                    ServerRuntimeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.ServerRuntimeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.ServerRuntimeException]
 
 }

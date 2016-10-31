@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.validation.ValidatorHandlerClassTests
         return ValidatorHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.validation.ValidatorHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.validation.ValidatorHandler]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataControllerCla
         return IIOMetadataController.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.metadata.IIOMetadataController]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOMetadataController]
 
 }

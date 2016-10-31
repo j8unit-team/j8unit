@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.SerializablePermissionClassTests<Serial
         final SerializablePermission sut = null; // = new SerializablePermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.SerializablePermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.SerializablePermission]
 
 }

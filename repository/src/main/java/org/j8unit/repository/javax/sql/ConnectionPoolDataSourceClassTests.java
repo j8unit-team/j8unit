@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceClassTests<SUT> {
                    ConnectionPoolDataSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.ConnectionPoolDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.ConnectionPoolDataSource]
 
 }

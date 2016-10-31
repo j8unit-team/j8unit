@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.DISCARDINGClassTest
         return DISCARDING.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.DISCARDING]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.DISCARDING]
 
 }

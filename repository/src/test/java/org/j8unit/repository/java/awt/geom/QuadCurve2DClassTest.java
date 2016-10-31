@@ -191,6 +191,8 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
         // write some test for {@link java.awt.geom.QuadCurve2D#solveQuadratic(double[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.QuadCurve2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.QuadCurve2D]
 
     @RunWith(J8Unit4.class)
@@ -247,6 +249,8 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
             // create new instance
             final Float sut = new Float();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.QuadCurve2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.QuadCurve2D$Float]
 
@@ -306,6 +310,8 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double, double, double, double, double);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.QuadCurve2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.QuadCurve2D$Double]
 

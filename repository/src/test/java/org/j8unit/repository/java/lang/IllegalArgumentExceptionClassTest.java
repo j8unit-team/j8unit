@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<Il
         final IllegalArgumentException sut = new IllegalArgumentException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.IllegalArgumentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.IllegalArgumentException]
 
 }

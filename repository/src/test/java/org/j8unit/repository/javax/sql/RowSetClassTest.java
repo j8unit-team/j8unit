@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.RowSetClassTests<RowSet> {
         return RowSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSet]
 
 }

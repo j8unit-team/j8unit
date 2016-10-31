@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthTableHeaderUIClassT
         // write some test for {@link javax.swing.plaf.synth.SynthTableHeaderUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthTableHeaderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthTableHeaderUI]
 
 }

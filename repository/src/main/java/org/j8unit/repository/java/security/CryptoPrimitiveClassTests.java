@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    CryptoPrimitive.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.CryptoPrimitive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.CryptoPrimitive]
 
 }

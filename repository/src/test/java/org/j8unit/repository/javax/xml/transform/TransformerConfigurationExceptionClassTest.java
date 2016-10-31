@@ -161,6 +161,8 @@ implements org.j8unit.repository.javax.xml.transform.TransformerConfigurationExc
         final TransformerConfigurationException sut = new TransformerConfigurationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.TransformerConfigurationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.TransformerConfigurationException]
 
 }

@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.net.ResponseCacheClassTests<ResponseCache>
         // write some test for {@link java.net.ResponseCache#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ResponseCache]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ResponseCache]
 
 }

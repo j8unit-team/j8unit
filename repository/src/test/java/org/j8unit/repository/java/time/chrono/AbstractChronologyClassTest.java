@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.chrono.AbstractChronologyClassTests<A
         return AbstractChronology.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.AbstractChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.AbstractChronology]
 
 }

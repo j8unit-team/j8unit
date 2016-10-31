@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.RemoteClassTests<Remote> {
         return Remote.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.Remote]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.Remote]
 
 }

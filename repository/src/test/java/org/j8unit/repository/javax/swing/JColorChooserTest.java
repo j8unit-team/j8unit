@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JColorChooser>, org.j8unit.repository.javax.sw
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JColorChooser]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JColorChooser]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JColorChooser]
 
 }

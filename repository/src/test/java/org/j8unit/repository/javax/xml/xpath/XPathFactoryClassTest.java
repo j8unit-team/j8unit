@@ -83,6 +83,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathFactoryClassTests<XPathFac
         // write some test for {@link javax.xml.xpath.XPathFactory#newInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathFactory]
 
 }

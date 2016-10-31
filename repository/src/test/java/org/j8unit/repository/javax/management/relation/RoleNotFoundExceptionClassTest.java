@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.RoleNotFoundException
         final RoleNotFoundException sut = null; // = new RoleNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RoleNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RoleNotFoundException]
 
 }

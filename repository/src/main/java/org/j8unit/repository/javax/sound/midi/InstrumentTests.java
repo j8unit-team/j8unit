@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.sound.midi.SoundbankResourceTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Instrument]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.Instrument]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Instrument]
 }

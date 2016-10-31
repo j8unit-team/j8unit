@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.InstantiationExceptionClassTests<Inst
         final InstantiationException sut = null; // = new InstantiationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InstantiationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InstantiationException]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.DestinationClass
         final Destination sut = null; // = new Destination(java.net.URI);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Destination]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Destination]
 
 }

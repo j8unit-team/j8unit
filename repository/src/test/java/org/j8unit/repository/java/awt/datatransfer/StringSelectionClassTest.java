@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.datatransfer.StringSelectionClassTests
         final StringSelection sut = null; // = new StringSelection(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.StringSelection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.StringSelection]
 
 }

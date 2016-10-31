@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    X500Principal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.x500.X500Principal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.x500.X500Principal]
 
 }

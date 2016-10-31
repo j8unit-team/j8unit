@@ -410,6 +410,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.Phaser]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.Phaser]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.Phaser]
 }

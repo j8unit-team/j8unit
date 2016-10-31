@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.DynamicAny._DynSequenceStubClassTests<_
         final _DynSequenceStub sut = new _DynSequenceStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynSequenceStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynSequenceStub]
 
 }

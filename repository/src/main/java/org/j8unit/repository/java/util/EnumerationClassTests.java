@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Enumeration.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Enumeration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Enumeration]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<KeyManagementException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyManagementException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyManagementException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyManagementException]
 
 }

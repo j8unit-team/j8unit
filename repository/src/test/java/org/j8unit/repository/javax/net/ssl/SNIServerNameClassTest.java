@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.SNIServerNameClassTests<SNIServer
         return SNIServerName.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SNIServerName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SNIServerName]
 
 }

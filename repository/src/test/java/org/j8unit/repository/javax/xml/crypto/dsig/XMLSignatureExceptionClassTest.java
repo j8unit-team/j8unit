@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureExceptionClas
         final XMLSignatureException sut = new XMLSignatureException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLSignatureException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLSignatureException]
 
 }

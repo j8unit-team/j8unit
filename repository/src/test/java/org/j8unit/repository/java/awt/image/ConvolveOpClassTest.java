@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.ConvolveOpClassTests<ConvolveOp>
         final ConvolveOp sut = null; // = new ConvolveOp(java.awt.image.Kernel, int, java.awt.RenderingHints);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ConvolveOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ConvolveOp]
 
 }

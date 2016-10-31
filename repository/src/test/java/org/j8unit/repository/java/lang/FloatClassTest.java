@@ -404,6 +404,8 @@ implements org.j8unit.repository.java.lang.FloatClassTests<Float> {
         // write some test for {@link Float#toString(float)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Float]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Float]
 
 }

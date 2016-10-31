@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.awt.im.InputContextClassTests<InputContext
         // write some test for {@link java.awt.im.InputContext#getInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.InputContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.InputContext]
 
 }

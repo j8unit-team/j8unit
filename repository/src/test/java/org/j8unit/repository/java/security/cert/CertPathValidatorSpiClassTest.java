@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorSpiClassTes
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorSpi]
 
 }

@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<StringBuilder>, org.j8unit.repository.java.lan
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.StringBuilder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.StringBuilder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.StringBuilder]
 
 }

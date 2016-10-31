@@ -147,6 +147,8 @@ implements org.j8unit.repository.java.awt.datatransfer.SystemFlavorMapClassTests
         // java.awt.datatransfer.SystemFlavorMap#encodeDataFlavor(java.awt.datatransfer.DataFlavor)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.SystemFlavorMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.SystemFlavorMap]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MenuSelectionManager>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.MenuSelectionManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.MenuSelectionManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.MenuSelectionManager]
 
 }

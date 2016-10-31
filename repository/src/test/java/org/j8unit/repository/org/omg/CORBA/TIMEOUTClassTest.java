@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.TIMEOUTClassTests<TIMEOUT> {
         final TIMEOUT sut = new TIMEOUT();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TIMEOUT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TIMEOUT]
 
 }

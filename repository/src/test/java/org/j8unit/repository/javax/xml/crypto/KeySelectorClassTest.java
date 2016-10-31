@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<KeySelec
         // write some test for {@link javax.xml.crypto.KeySelector#singletonKeySelector(java.security.Key)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.KeySelector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelector]
 
     @RunWith(J8Unit4.class)
@@ -53,6 +55,8 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<KeySelec
         public Class<Purpose> createNewSUT() {
             return Purpose.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.KeySelector$Purpose]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelector$Purpose]
 

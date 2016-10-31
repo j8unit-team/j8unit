@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Formattable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Formattable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Formattable]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    MBeanFeatureInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanFeatureInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanFeatureInfo]
 
 }

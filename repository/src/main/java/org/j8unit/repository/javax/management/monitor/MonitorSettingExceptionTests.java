@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.MonitorSettingException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.MonitorSettingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.MonitorSettingException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.MonitorSettingException]
 }

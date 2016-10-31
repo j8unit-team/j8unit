@@ -142,6 +142,8 @@ implements org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<AWTKeyStroke> {
         // write some test for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(int, int, boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTKeyStroke]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTKeyStroke]
 
 }

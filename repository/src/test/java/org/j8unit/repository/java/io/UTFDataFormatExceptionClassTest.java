@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.UTFDataFormatExceptionClassTests<UTFDat
         final UTFDataFormatException sut = null; // = new UTFDataFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.UTFDataFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.UTFDataFormatException]
 
 }

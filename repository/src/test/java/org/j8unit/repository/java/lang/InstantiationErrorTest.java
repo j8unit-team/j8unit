@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<InstantiationError>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InstantiationError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.InstantiationError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.InstantiationError]
 
 }

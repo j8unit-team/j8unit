@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.AttributeSetClassTests<At
         return AttributeSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.AttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.AttributeSet]
 
 }

@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<Attributes> 
         final Attributes sut = new Attributes();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Attributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Attributes]
 
     @RunWith(J8Unit4.class)
@@ -120,6 +122,8 @@ implements org.j8unit.repository.java.util.jar.AttributesClassTests<Attributes> 
             @SuppressWarnings("unused")
             final Name sut = null; // = new Name(String);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Attributes$Name]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Attributes$Name]
 

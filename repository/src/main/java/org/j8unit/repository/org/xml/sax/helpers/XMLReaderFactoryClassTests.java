@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    XMLReaderFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.XMLReaderFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLReaderFactory]
 
 }

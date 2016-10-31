@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
                    TexturePaint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.TexturePaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.TexturePaint]
 
 }

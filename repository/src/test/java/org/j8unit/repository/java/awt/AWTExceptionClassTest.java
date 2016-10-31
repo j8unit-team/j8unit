@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.AWTExceptionClassTests<AWTException> {
         final AWTException sut = null; // = new AWTException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTException]
 
 }

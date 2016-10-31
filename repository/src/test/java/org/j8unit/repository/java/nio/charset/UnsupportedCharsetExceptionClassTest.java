@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.charset.UnsupportedCharsetExceptionCla
         final UnsupportedCharsetException sut = null; // = new UnsupportedCharsetException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.UnsupportedCharsetException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.UnsupportedCharsetException]
 
 }

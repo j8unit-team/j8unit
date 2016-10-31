@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleStateSetClassTest
         final AccessibleStateSet sut = null; // = new AccessibleStateSet(javax.accessibility.AccessibleState[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleStateSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleStateSet]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.DesignModeClassTests<DesignMode> {
         return DesignMode.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.DesignMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.DesignMode]
 
 }

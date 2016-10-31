@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.ArrayListClassTests<SUT> {
                    AttributeList.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.AttributeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeList]
 
 }

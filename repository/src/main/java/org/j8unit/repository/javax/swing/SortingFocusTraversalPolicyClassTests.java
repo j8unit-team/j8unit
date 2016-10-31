@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyClass
                    SortingFocusTraversalPolicy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]
 
 }

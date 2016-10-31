@@ -404,6 +404,7 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
         org.j8unit.repository.java.io.DataOutputTests.super.test_write_byteArray();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.DataOutputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataOutputStream]
 }

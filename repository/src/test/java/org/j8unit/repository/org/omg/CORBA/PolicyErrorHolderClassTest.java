@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorHolderClassTests<Polic
         final PolicyErrorHolder sut = new PolicyErrorHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PolicyErrorHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyErrorHolder]
 
 }

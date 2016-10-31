@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CompletionService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CompletionService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CompletionService]
 
 }

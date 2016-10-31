@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.lang.EnumConstantNotPresentExceptionClassT
         final EnumConstantNotPresentException sut = null; // = new EnumConstantNotPresentException(Class, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.EnumConstantNotPresentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.EnumConstantNotPresentException]
 
 }

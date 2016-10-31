@@ -1664,6 +1664,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         // write some test for {@link Character#isUpperCase(char)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character]
 
     @RunWith(J8Unit4.class)
@@ -1757,6 +1759,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
             // write some test for {@link Character.UnicodeScript#of(int)}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$UnicodeScript]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeScript]
 
     }
@@ -1771,6 +1775,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         public Class<Subset> createNewSUT() {
             return Subset.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$Subset]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$Subset]
 
@@ -1846,6 +1852,8 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
         throws Exception {
             // write some test for {@link Character.UnicodeBlock#of(char)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Character$UnicodeBlock]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character$UnicodeBlock]
 

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Pageable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.Pageable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.Pageable]
 
 }

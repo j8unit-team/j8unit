@@ -73,13 +73,15 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
                    UIDefaults.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults]
 
     /**
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ActiveValue public abstract static interface javax.swing.UIDefaults$ActiveValue}.
+     * {@link LazyInputMap public static class javax.swing.UIDefaults$LazyInputMap}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -87,7 +89,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests}.
+     * {@link org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests}.
      * </p>
      *
      * <p>
@@ -115,27 +117,30 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface ActiveValueClassTests<SUT extends ActiveValue>
-    extends RepositoryClassTests<SUT> {
+    public static abstract interface LazyInputMapClassTests<SUT extends LazyInputMap>
+    extends org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
+        @Override
         @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ActiveValue.class!",
-                              ActiveValue.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LazyInputMap.class!",
+                              LazyInputMap.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
 
     }
 
@@ -200,6 +205,8 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
                               ProxyLazyValue.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ProxyLazyValue]
 
     }
@@ -208,7 +215,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
      * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link LazyInputMap public static class javax.swing.UIDefaults$LazyInputMap}.
+     * {@link ActiveValue public abstract static interface javax.swing.UIDefaults$ActiveValue}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -216,7 +223,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests}.
+     * {@link org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests}.
      * </p>
      *
      * <p>
@@ -244,28 +251,29 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface LazyInputMapClassTests<SUT extends LazyInputMap>
-    extends org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface ActiveValueClassTests<SUT extends ActiveValue>
+    extends RepositoryClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
          *
          * @since 0.9.2
          */
-        @Override
         @Test
         public default void verifyGenericType()
         throws Exception {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LazyInputMap.class!",
-                              LazyInputMap.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ActiveValue.class!",
+                              ActiveValue.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$ActiveValue]
 
     }
 
@@ -328,6 +336,8 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to LazyValue.class!",
                               LazyValue.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UIDefaults$LazyValue]
 

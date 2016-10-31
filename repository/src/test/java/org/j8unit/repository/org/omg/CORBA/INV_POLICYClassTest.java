@@ -108,6 +108,8 @@ implements org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests<INV_POLICY> 
         final INV_POLICY sut = new INV_POLICY();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INV_POLICY]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INV_POLICY]
 
 }

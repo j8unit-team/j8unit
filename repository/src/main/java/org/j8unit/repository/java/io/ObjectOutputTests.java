@@ -168,6 +168,7 @@ extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repositor
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutput]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.ObjectOutput]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutput]
 }

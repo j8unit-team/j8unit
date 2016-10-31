@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.awt.MenuItemClassTests<MenuItem> {
         final MenuItem sut = new MenuItem();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuItem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuItem]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthRadioButtonMenuItem
         // javax.swing.plaf.synth.SynthRadioButtonMenuItemUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthRadioButtonMenuItemUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthRadioButtonMenuItemUI]
 
 }

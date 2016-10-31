@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.ImageClassTests<Image> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Image]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Image]
 
 }

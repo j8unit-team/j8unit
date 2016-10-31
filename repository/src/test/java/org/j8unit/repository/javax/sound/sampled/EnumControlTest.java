@@ -23,7 +23,9 @@ implements org.j8unit.repository.javax.sound.sampled.EnumControlTests<EnumContro
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.sound.sampled.EnumControl], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.EnumControl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.EnumControl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.EnumControl]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.javax.sound.sampled.EnumControlTests<EnumContro
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.EnumControl$Type]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.EnumControl$Type]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.EnumControl$Type]
 
     }
 

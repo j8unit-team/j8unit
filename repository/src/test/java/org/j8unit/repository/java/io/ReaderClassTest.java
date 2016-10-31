@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.ReaderClassTests<Reader> {
         return Reader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Reader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Reader]
 
 }

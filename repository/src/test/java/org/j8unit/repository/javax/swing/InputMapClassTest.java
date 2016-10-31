@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.InputMapClassTests<InputMap> {
         final InputMap sut = new InputMap();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.InputMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.InputMap]
 
 }

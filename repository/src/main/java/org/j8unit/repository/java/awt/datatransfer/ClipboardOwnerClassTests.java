@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ClipboardOwner.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.ClipboardOwner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.ClipboardOwner]
 
 }

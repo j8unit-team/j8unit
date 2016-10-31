@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, 
                    CannotProceedHolder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHolder]
 
 }

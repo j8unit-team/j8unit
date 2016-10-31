@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Authenticator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Authenticator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Authenticator]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to RequestorType.class!",
                               RequestorType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Authenticator$RequestorType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Authenticator$RequestorType]
 

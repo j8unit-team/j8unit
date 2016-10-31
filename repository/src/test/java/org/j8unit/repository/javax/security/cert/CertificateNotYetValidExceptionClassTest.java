@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.cert.CertificateNotYetValidExcep
         final CertificateNotYetValidException sut = null; // = new CertificateNotYetValidException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.cert.CertificateNotYetValidException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.CertificateNotYetValidException]
 
 }

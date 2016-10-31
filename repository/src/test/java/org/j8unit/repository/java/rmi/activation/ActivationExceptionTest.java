@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ActivationException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.activation.ActivationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.activation.ActivationException]
 
 }

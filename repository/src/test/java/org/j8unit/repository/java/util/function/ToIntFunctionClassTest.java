@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.ToIntFunctionClassTests<ToIn
         return ToIntFunction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.ToIntFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.ToIntFunction]
 
 }

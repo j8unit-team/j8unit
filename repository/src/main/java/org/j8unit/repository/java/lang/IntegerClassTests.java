@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
                    Integer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Integer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Integer]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynValueBoxOperationsClassTests
                    DynValueBox.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynValueBox]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynValueBox]
 
 }

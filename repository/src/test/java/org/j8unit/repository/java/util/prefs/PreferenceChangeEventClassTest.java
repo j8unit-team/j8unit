@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.util.prefs.PreferenceChangeEventClassTests
                                                 // String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.PreferenceChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.PreferenceChangeEvent]
 
 }

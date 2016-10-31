@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Menu>, org.j8unit.repository.java.awt.MenuTest
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Menu]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Menu]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Menu]
 
 }

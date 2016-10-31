@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.SUCCESSFULClassTest
         return SUCCESSFUL.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.SUCCESSFUL]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.SUCCESSFUL]
 
 }

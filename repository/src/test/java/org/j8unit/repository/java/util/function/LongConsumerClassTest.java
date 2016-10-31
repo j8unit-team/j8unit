@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.LongConsumerClassTests<LongC
         return LongConsumer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.LongConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.LongConsumer]
 
 }

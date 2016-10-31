@@ -178,6 +178,8 @@ implements org.j8unit.repository.java.io.PrintStreamClassTests<PrintStream> {
         final PrintStream sut = null; // = new PrintStream(java.io.File);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PrintStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PrintStream]
 
 }

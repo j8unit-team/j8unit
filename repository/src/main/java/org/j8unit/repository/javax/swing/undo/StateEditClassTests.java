@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SU
                    StateEdit.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.StateEdit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.StateEdit]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.NonReadableChannelExceptionCl
         final NonReadableChannelException sut = new NonReadableChannelException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.NonReadableChannelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.NonReadableChannelException]
 
 }

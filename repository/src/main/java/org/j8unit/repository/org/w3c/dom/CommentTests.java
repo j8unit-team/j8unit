@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.Comment]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.Comment]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.Comment]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.Comment]
 }

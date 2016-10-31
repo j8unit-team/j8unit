@@ -81,6 +81,8 @@ implements org.j8unit.repository.java.net.ProxySelectorClassTests<ProxySelector>
         // write some test for {@link java.net.ProxySelector#setDefault(java.net.ProxySelector)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ProxySelector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ProxySelector]
 
 }

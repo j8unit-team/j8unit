@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<DefaultTableCellRenderer>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<DefaultTableCellRenderer>, org.j8unit.reposito
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 
     }
 

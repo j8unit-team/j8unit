@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInfoCl
         return ServerRequestInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInfo]
 
 }

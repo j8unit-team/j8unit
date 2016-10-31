@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.VoidClassTests<Void> {
         return Void.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Void]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Void]
 
 }

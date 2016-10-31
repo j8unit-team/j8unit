@@ -28,6 +28,7 @@ extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnsatisfiedLinkError]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnsatisfiedLinkError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.UnsatisfiedLinkError]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnsatisfiedLinkError]
 }

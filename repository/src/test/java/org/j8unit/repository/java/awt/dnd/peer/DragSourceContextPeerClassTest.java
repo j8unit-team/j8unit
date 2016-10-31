@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.peer.DragSourceContextPeerClassTes
         return DragSourceContextPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.peer.DragSourceContextPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.peer.DragSourceContextPeer]
 
 }

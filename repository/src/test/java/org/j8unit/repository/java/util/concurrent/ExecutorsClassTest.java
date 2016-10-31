@@ -498,6 +498,8 @@ implements org.j8unit.repository.java.util.concurrent.ExecutorsClassTests<Execut
         // java.util.concurrent.Executors#unconfigurableExecutorService(java.util.concurrent.ExecutorService)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Executors]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Executors]
 
 }

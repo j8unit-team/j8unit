@@ -144,6 +144,8 @@ implements org.j8unit.repository.java.awt.LinearGradientPaintClassTests<LinearGr
                                               // java.awt.Color[], java.awt.MultipleGradientPaint.CycleMethod);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.LinearGradientPaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.LinearGradientPaint]
 
 }

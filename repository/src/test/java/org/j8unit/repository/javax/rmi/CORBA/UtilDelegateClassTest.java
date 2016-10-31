@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.UtilDelegateClassTests<UtilDele
         return UtilDelegate.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.UtilDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.UtilDelegate]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    PostConstruct.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.PostConstruct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.PostConstruct]
 
 }

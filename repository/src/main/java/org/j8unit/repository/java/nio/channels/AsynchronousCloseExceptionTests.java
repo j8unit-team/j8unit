@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.nio.channels.ClosedChannelExceptionTests<SUT>
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AsynchronousCloseException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AsynchronousCloseException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.AsynchronousCloseException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.AsynchronousCloseException]
 }

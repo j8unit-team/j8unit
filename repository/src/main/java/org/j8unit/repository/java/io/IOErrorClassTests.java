@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
                    IOError.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.IOError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.IOError]
 
 }

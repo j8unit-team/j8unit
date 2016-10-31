@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchClassTes
         final FormatMismatch sut = null; // = new FormatMismatch(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatch]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatch]
 
 }

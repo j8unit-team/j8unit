@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.management.AttributeValueExpClassTests<At
         final AttributeValueExp sut = null; // = new AttributeValueExp(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.AttributeValueExp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.AttributeValueExp]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AccessibleSelection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleSelection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleSelection]
 
 }

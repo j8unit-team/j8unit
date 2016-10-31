@@ -101,6 +101,7 @@ extends org.j8unit.repository.javax.naming.event.NamingListenerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.event.NamespaceChangeListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.event.NamespaceChangeListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.event.NamespaceChangeListener]
 }

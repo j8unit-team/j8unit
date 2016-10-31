@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT>, org.j8unit.
                    TypeVariable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.TypeVariable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.TypeVariable]
 
 }

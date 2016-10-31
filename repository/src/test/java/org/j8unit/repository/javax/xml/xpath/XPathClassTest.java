@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathClassTests<XPath> {
         return XPath.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPath]
 
 }

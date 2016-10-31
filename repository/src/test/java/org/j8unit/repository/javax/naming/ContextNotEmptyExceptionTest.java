@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ContextNotEmptyException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ContextNotEmptyException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ContextNotEmptyException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ContextNotEmptyException]
 
 }

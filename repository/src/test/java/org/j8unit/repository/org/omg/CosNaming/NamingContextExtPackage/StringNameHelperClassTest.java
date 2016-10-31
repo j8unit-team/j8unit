@@ -174,6 +174,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.Strin
         // String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.StringNameHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.StringNameHelper]
 
 }

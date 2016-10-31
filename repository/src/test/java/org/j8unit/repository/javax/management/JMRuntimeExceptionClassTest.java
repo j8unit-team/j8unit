@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.management.JMRuntimeExceptionClassTests<J
         final JMRuntimeException sut = null; // = new JMRuntimeException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.JMRuntimeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.JMRuntimeException]
 
 }

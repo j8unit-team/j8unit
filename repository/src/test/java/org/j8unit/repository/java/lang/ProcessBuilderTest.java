@@ -24,7 +24,9 @@ implements org.j8unit.repository.java.lang.ProcessBuilderTests<ProcessBuilder> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.lang.ProcessBuilder], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -47,7 +49,9 @@ implements org.j8unit.repository.java.lang.ProcessBuilderTests<ProcessBuilder> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
         @RunWith(J8Parameterized.class)
         @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -69,7 +73,9 @@ implements org.j8unit.repository.java.lang.ProcessBuilderTests<ProcessBuilder> {
                 return this.sut;
             }
 
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 
         }
 

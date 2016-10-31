@@ -186,26 +186,6 @@ implements org.j8unit.repository.javax.rmi.CORBA.UtilClassTests<Util> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Util#unexportObject(java.rmi.Remote)
-     * public static void javax.rmi.CORBA.Util.unexportObject(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_unexportObject_Remote()
-    throws Exception {
-        // write some test for {@link javax.rmi.CORBA.Util#unexportObject(java.rmi.Remote)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.rmi.CORBA.Util#readAny(org.omg.CORBA.portable.InputStream) public static java.lang.Object
      * javax.rmi.CORBA.Util.readAny(org.omg.CORBA.portable.InputStream)}.
@@ -223,6 +203,26 @@ implements org.j8unit.repository.javax.rmi.CORBA.UtilClassTests<Util> {
     public void test_readAny_InputStream()
     throws Exception {
         // write some test for {@link javax.rmi.CORBA.Util#readAny(org.omg.CORBA.portable.InputStream)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.rmi.CORBA.Util#unexportObject(java.rmi.Remote)
+     * public static void javax.rmi.CORBA.Util.unexportObject(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_unexportObject_Remote()
+    throws Exception {
+        // write some test for {@link javax.rmi.CORBA.Util#unexportObject(java.rmi.Remote)}
     }
 
     /**
@@ -330,6 +330,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.UtilClassTests<Util> {
     throws Exception {
         // write some test for {@link javax.rmi.CORBA.Util#loadClass(String, String, ClassLoader)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.Util]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.Util]
 

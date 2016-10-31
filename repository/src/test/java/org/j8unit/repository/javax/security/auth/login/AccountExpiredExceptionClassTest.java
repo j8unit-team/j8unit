@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.AccountExpiredExcepti
         final AccountExpiredException sut = null; // = new AccountExpiredException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.AccountExpiredException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AccountExpiredException]
 
 }

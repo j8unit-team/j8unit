@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.NoInitialContextExceptionClassTest
         final NoInitialContextException sut = null; // = new NoInitialContextException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NoInitialContextException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NoInitialContextException]
 
 }

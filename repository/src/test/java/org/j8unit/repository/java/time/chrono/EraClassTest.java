@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.chrono.EraClassTests<Era> {
         return Era.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.Era]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.Era]
 
 }

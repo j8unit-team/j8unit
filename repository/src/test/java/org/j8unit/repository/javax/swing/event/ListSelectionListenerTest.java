@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.event.ListSelectionListenerTests<Li
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.event.ListSelectionListener], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.ListSelectionListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.ListSelectionListener]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.ListSelectionListener]
 
 }

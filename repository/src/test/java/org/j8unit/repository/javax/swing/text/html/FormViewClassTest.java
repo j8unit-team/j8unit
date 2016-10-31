@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.FormViewClassTests<FormVi
         final FormView sut = null; // = new FormView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.FormView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.FormView]
 
 }

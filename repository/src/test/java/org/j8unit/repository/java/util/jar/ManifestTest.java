@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Manifest>, org.j8unit.repository.java.util.jar
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Manifest]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Manifest]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Manifest]
 
 }

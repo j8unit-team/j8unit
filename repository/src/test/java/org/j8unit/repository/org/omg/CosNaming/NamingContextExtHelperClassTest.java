@@ -214,6 +214,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtHelperClassTe
         // write some test for {@link org.omg.CosNaming.NamingContextExtHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtHelper]
 
 }

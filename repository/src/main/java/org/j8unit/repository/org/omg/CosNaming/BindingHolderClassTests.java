@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, 
                    BindingHolder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingHolder]
 
 }

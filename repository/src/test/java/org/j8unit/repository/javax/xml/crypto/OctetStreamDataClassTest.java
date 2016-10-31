@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.crypto.OctetStreamDataClassTests<Octe
         final OctetStreamData sut = null; // = new OctetStreamData(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.OctetStreamData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.OctetStreamData]
 
 }

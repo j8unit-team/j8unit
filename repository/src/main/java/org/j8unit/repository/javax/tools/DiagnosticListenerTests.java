@@ -56,6 +56,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DiagnosticListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.DiagnosticListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DiagnosticListener]
 }

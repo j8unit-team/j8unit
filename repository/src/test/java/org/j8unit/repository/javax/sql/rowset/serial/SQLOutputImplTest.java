@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SQLOutputImplTests<SQLO
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.sql.rowset.serial.SQLOutputImpl], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SQLOutputImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.serial.SQLOutputImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SQLOutputImpl]
 
 }

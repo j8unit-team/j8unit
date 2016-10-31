@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor8Clas
         return SimpleElementVisitor8.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.SimpleElementVisitor8]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.SimpleElementVisitor8]
 
 }

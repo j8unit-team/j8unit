@@ -68,6 +68,8 @@ org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Sides.class!", Sides.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Sides]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Sides]
 
 }

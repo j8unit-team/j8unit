@@ -31,6 +31,8 @@ implements org.j8unit.repository.java.time.InstantTests<Instant> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.Instant]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.Instant]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.Instant]
 
 }

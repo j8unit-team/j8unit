@@ -85,6 +85,8 @@ implements org.j8unit.repository.javax.imageio.metadata.IIOMetadataFormatImplCla
         // write some test for {@link javax.imageio.metadata.IIOMetadataFormatImpl#getStandardFormatInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.metadata.IIOMetadataFormatImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.metadata.IIOMetadataFormatImpl]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.time.temporal.IsoFieldsTests<IsoFields> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.time.temporal.IsoFields], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.IsoFields]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.IsoFields]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.IsoFields]
 
 }

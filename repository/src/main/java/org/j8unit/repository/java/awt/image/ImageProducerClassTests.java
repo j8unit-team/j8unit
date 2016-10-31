@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ImageProducer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ImageProducer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ImageProducer]
 
 }

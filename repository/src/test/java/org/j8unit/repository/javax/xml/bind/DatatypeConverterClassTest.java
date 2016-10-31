@@ -827,6 +827,8 @@ implements org.j8unit.repository.javax.xml.bind.DatatypeConverterClassTests<Data
         // write some test for {@link javax.xml.bind.DatatypeConverter#parseAnySimpleType(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.DatatypeConverter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.DatatypeConverter]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.font.GlyphMetricsClassTests<GlyphMetri
         final GlyphMetrics sut = null; // = new GlyphMetrics(float, java.awt.geom.Rectangle2D, byte);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.GlyphMetrics]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.GlyphMetrics]
 
 }

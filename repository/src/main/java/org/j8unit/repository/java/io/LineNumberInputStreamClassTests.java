@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
                    LineNumberInputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.LineNumberInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.LineNumberInputStream]
 
 }

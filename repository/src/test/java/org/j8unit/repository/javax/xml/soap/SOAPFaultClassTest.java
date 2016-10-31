@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPFaultClassTests<SOAPFault> {
         return SOAPFault.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPFault]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPFault]
 
 }

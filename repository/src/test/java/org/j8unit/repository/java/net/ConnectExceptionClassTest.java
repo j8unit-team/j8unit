@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.net.ConnectExceptionClassTests<ConnectExce
         final ConnectException sut = new ConnectException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ConnectException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ConnectException]
 
 }

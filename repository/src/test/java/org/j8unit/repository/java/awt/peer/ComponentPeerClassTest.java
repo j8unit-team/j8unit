@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.ComponentPeerClassTests<Component
         return ComponentPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ComponentPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ComponentPeer]
 
 }

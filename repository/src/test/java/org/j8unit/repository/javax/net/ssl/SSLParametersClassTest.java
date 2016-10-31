@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLParametersClassTests<SSLParame
         final SSLParameters sut = null; // = new SSLParameters(String[], String[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLParameters]
 
 }

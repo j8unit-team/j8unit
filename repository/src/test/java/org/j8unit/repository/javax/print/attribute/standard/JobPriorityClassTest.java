@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobPriorityClass
         final JobPriority sut = null; // = new JobPriority(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobPriority]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobPriority]
 
 }

@@ -45,6 +45,8 @@ implements org.j8unit.repository.javax.management.openmbean.CompositeTypeClassTe
                                         // javax.management.openmbean.OpenType[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.CompositeType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.CompositeType]
 
 }

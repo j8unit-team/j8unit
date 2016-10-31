@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.tree.VariableHeightLayoutCacheClass
         final VariableHeightLayoutCache sut = new VariableHeightLayoutCache();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.VariableHeightLayoutCache]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.VariableHeightLayoutCache]
 
 }

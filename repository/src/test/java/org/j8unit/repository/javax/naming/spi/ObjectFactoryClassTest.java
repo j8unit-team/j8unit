@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.spi.ObjectFactoryClassTests<Object
         return ObjectFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.ObjectFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.ObjectFactory]
 
 }

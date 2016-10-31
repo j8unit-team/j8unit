@@ -163,6 +163,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         final CertPathValidatorException sut = null; // = new CertPathValidatorException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException]
 
     @RunWith(J8Unit4.class)
@@ -175,6 +177,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         public Class<Reason> createNewSUT() {
             return Reason.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
 
@@ -234,6 +238,8 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
         throws Exception {
             // write some test for {@link java.security.cert.CertPathValidatorException.BasicReason#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
 

@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PageRangesClassT
         final PageRanges sut = null; // = new PageRanges(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PageRanges]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PageRanges]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.MenuKeyListenerClassTests<Men
         return MenuKeyListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.MenuKeyListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.MenuKeyListener]
 
 }

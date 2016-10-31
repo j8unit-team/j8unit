@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.util.zip.DataFormatExceptionClassTests<Dat
         final DataFormatException sut = null; // = new DataFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.DataFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.DataFormatException]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
         // write some test for {@link javax.swing.plaf.basic.BasicInternalFrameUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI]
 
     @RunWith(J8Unit4.class)
@@ -102,6 +104,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
             final InternalFrameLayout sut = null; // = new
                                                   // InternalFrameLayout(javax.swing.plaf.basic.BasicInternalFrameUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFrameLayout]
 
@@ -143,6 +147,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClas
             final InternalFramePropertyChangeListener sut = null; // = new
                                                                   // InternalFramePropertyChangeListener(javax.swing.plaf.basic.BasicInternalFrameUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicInternalFrameUI$InternalFramePropertyChangeListener]
 

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.login.FailedLoginExceptionC
         final FailedLoginException sut = null; // = new FailedLoginException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.login.FailedLoginException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.FailedLoginException]
 
 }

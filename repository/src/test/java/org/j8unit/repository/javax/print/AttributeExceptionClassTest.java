@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.AttributeExceptionClassTests<Attrib
         return AttributeException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.AttributeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.AttributeException]
 
 }

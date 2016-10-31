@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT> {
                    XMLSignature.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to SignatureValue.class!",
                               SignatureValue.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
 

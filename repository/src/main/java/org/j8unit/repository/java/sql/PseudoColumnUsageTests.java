@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, PseudoColumnUsage> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.PseudoColumnUsage]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.PseudoColumnUsage]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.PseudoColumnUsage]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.PseudoColumnUsage]
 }

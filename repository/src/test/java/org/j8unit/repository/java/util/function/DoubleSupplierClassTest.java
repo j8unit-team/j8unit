@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.function.DoubleSupplierClassTests<Dou
         return DoubleSupplier.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.DoubleSupplier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoubleSupplier]
 
 }

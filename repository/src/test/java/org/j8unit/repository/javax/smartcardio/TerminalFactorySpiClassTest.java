@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.smartcardio.TerminalFactorySpiClassTests<
         return TerminalFactorySpi.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.TerminalFactorySpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.TerminalFactorySpi]
 
 }

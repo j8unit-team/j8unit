@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.instrument.UnmodifiableClassException
         final UnmodifiableClassException sut = null; // = new UnmodifiableClassException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.instrument.UnmodifiableClassException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.instrument.UnmodifiableClassException]
 
 }

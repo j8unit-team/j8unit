@@ -46,6 +46,8 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosTicketClas
                                          // java.net.InetAddress[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.KerberosTicket]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosTicket]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.AbstractCollectionClassTests<Abstract
         return AbstractCollection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractCollection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractCollection]
 
 }

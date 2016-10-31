@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DragSourceContextPeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.peer.DragSourceContextPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.peer.DragSourceContextPeer]
 
 }

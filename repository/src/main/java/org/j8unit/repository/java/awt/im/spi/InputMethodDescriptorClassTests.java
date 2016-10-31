@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    InputMethodDescriptor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.im.spi.InputMethodDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.im.spi.InputMethodDescriptor]
 
 }

@@ -104,6 +104,8 @@ implements org.j8unit.repository.javax.naming.InitialContextClassTests<InitialCo
         // write some test for {@link javax.naming.InitialContext#doLookup(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.InitialContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.InitialContext]
 
 }

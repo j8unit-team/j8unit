@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGHuffmanTableClas
         final JPEGHuffmanTable sut = null; // = new JPEGHuffmanTable(short[], short[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
 
 }

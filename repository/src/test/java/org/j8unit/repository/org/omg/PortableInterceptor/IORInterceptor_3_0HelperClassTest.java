@@ -220,6 +220,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
         // org.omg.PortableInterceptor.IORInterceptor_3_0Helper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Helper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Helper]
 
 }

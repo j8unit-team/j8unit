@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterc
         return ServerRequestInterceptorOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInterceptorOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInterceptorOperations]
 
 }

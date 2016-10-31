@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests<AclE
         // write some test for {@link java.nio.file.attribute.AclEntry#newBuilder()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AclEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntry]
 
     @RunWith(J8Unit4.class)
@@ -74,6 +76,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests<AclE
         public Class<Builder> createNewSUT() {
             return Builder.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AclEntry$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntry$Builder]
 

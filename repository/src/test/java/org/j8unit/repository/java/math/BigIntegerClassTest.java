@@ -193,6 +193,8 @@ implements org.j8unit.repository.java.math.BigIntegerClassTests<BigInteger> {
         // write some test for {@link java.math.BigInteger#valueOf(long)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.math.BigInteger]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.math.BigInteger]
 
 }

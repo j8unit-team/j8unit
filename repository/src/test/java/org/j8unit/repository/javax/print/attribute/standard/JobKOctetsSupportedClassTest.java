@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobKOctetsSuppor
         final JobKOctetsSupported sut = null; // = new JobKOctetsSupported(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobKOctetsSupported]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobKOctetsSupported]
 
 }

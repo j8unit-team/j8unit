@@ -200,6 +200,8 @@ implements org.j8unit.repository.javax.swing.JRadioButtonClassTests<JRadioButton
         final JRadioButton sut = null; // = new JRadioButton(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JRadioButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JRadioButton]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.xml.sax.ext.Locator2ImplClassTests<Locator2
         final Locator2Impl sut = null; // = new Locator2Impl(org.xml.sax.Locator);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.Locator2Impl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.Locator2Impl]
 
 }

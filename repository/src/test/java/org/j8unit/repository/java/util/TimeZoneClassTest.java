@@ -160,6 +160,8 @@ implements org.j8unit.repository.java.util.TimeZoneClassTests<TimeZone> {
         // write some test for {@link java.util.TimeZone#getDefault()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.TimeZone]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TimeZone]
 
 }

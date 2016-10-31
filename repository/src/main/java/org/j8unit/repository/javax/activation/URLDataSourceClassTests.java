@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.activation.DataSourceClassTests<SUT>, org.j8
                    URLDataSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.URLDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.URLDataSource]
 
 }

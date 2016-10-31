@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.DoubleFunctionTests<DoubleFu
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.function.DoubleFunction], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.function.DoubleFunction]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.function.DoubleFunction]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.function.DoubleFunction]
 
 }

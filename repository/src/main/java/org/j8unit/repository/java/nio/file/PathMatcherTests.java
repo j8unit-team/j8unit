@@ -56,6 +56,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.PathMatcher]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.PathMatcher]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.PathMatcher]
 }

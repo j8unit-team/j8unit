@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    URLStreamHandlerFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLStreamHandlerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLStreamHandlerFactory]
 
 }

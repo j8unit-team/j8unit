@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.text.BidiTests<Bidi> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.text.Bidi], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Bidi]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Bidi]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Bidi]
 
 }

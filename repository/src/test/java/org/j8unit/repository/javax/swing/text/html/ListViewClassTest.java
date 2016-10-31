@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.ListViewClassTests<ListVi
         final ListView sut = null; // = new ListView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.ListView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.ListView]
 
 }

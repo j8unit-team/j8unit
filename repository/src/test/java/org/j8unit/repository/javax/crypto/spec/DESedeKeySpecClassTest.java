@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.crypto.spec.DESedeKeySpecClassTests<DESed
         // write some test for {@link javax.crypto.spec.DESedeKeySpec#isParityAdjusted(byte[], int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.DESedeKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DESedeKeySpec]
 
 }

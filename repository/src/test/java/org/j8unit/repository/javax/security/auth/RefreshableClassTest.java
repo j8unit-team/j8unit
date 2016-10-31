@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.security.auth.RefreshableClassTests<Refre
         return Refreshable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.Refreshable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.Refreshable]
 
 }

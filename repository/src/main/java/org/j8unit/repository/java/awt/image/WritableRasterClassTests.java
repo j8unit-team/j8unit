@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.RasterClassTests<SUT> {
                    WritableRaster.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.WritableRaster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.WritableRaster]
 
 }

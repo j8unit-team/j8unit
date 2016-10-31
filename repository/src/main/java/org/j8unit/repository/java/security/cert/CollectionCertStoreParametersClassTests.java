@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersClassTests<S
                    CollectionCertStoreParameters.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CollectionCertStoreParameters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CollectionCertStoreParameters]
 
 }

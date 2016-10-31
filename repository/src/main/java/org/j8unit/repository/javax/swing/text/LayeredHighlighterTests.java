@@ -57,8 +57,9 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LayeredHighlighter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.LayeredHighlighter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LayeredHighlighter]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -108,8 +109,9 @@ extends org.j8unit.repository.javax.swing.text.HighlighterTests<SUT>, org.j8unit
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LayeredHighlighter$LayerPainter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.LayeredHighlighter$LayerPainter]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LayeredHighlighter$LayerPainter]
     }
 
 }

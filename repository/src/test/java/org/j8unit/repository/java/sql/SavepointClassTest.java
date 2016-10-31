@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.SavepointClassTests<Savepoint> {
         return Savepoint.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Savepoint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Savepoint]
 
 }

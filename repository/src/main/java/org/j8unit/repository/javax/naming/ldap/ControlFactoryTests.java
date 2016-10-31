@@ -56,6 +56,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.ControlFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.ControlFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.ControlFactory]
 }

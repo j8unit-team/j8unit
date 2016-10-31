@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.util.VectorClassTests<Vector> {
         final Vector sut = null; // = new Vector(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Vector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Vector]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.FieldViewClassTests<FieldView>
         final FieldView sut = null; // = new FieldView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.FieldView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.FieldView]
 
 }

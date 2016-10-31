@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.awt.peer.ContainerPeerTests<ContainerPeer>
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.awt.peer.ContainerPeer], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.peer.ContainerPeer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.peer.ContainerPeer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.ContainerPeer]
 
 }

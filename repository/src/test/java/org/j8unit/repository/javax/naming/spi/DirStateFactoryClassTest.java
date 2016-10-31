@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<DirS
         return DirStateFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirStateFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirStateFactory]
 
     @RunWith(J8Unit4.class)
@@ -55,6 +57,8 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<DirS
             @SuppressWarnings("unused")
             final Result sut = null; // = new Result(Object, javax.naming.directory.Attributes);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]
 

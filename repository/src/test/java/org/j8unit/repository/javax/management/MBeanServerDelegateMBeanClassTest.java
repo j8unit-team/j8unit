@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.MBeanServerDelegateMBeanClassT
         return MBeanServerDelegateMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerDelegateMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerDelegateMBean]
 
 }

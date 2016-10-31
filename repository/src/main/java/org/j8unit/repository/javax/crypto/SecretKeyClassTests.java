@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.KeyClassTests<SUT>, org.j8unit.repos
                    SecretKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.SecretKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.SecretKey]
 
 }

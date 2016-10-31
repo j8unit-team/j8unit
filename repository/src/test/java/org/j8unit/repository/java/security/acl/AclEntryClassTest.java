@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.acl.AclEntryClassTests<AclEntry> 
         return AclEntry.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.AclEntry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.AclEntry]
 
 }

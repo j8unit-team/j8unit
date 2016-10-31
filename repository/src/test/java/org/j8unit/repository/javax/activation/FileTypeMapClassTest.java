@@ -81,6 +81,8 @@ implements org.j8unit.repository.javax.activation.FileTypeMapClassTests<FileType
         // write some test for {@link javax.activation.FileTypeMap#getDefaultFileTypeMap()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.FileTypeMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.FileTypeMap]
 
 }

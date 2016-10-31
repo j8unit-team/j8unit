@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BitSet>, org.j8unit.repository.java.util.BitSe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.BitSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.BitSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.BitSet]
 
 }

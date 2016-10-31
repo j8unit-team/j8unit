@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.ActionClassTests<Action> {
         return Action.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Action]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Action]
 
 }

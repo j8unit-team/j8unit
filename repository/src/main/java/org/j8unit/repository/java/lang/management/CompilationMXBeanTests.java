@@ -100,6 +100,7 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.CompilationMXBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.management.CompilationMXBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.management.CompilationMXBean]
 }

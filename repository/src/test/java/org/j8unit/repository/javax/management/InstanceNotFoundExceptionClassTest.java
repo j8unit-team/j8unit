@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.InstanceNotFoundExceptionClass
         final InstanceNotFoundException sut = null; // = new InstanceNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.InstanceNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.InstanceNotFoundException]
 
 }

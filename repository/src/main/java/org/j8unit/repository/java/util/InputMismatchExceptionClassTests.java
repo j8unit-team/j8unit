@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.NoSuchElementExceptionClassTests<SUT> {
                    InputMismatchException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.InputMismatchException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.InputMismatchException]
 
 }

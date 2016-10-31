@@ -148,8 +148,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -175,8 +176,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$UnicodeScript]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character$UnicodeScript]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$UnicodeScript]
     }
 
     /**
@@ -273,8 +275,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$Subset]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character$Subset]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$Subset]
     }
 
     /**
@@ -302,8 +305,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
     }
 
 }

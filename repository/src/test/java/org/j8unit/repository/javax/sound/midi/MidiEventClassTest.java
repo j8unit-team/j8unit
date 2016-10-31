@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiEventClassTests<MidiEvent>
         final MidiEvent sut = null; // = new MidiEvent(javax.sound.midi.MidiMessage, long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.MidiEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.MidiEvent]
 
 }

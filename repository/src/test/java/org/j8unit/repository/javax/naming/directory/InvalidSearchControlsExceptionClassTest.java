@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExc
         final InvalidSearchControlsException sut = null; // = new InvalidSearchControlsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.InvalidSearchControlsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.InvalidSearchControlsException]
 
 }

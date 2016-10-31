@@ -69,6 +69,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialC
                                                 // java.security.PrivateKey, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.x500.X500PrivateCredential]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.x500.X500PrivateCredential]
 
 }

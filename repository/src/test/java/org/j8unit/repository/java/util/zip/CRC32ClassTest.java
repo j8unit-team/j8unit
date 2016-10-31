@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.zip.CRC32ClassTests<CRC32> {
         final CRC32 sut = new CRC32();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.CRC32]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.CRC32]
 
 }

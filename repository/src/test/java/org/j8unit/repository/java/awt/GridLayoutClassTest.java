@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.awt.GridLayoutClassTests<GridLayout> {
         final GridLayout sut = new GridLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GridLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GridLayout]
 
 }

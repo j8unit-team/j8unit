@@ -124,6 +124,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.LoggingMXBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.logging.LoggingMXBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.LoggingMXBean]
 }

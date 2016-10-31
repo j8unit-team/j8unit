@@ -30,6 +30,7 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IRObject]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.IRObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.IRObject]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.IRObject]
 }

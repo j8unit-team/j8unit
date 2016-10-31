@@ -144,6 +144,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.OutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.OutputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.OutputStream]
 }

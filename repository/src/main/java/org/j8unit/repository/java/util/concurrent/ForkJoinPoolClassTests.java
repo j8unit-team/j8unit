@@ -71,6 +71,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
                    ForkJoinPool.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinPool]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool]
 
     /**
@@ -133,6 +135,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ForkJoinWorkerThreadFactory.class!",
                               ForkJoinWorkerThreadFactory.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ManagedBlocker.class!",
                               ManagedBlocker.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 

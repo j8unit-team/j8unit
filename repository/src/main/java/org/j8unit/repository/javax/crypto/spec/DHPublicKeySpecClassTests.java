@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8u
                    DHPublicKeySpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.DHPublicKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DHPublicKeySpec]
 
 }

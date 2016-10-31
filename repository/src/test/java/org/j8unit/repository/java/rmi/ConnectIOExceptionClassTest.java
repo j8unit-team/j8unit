@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.ConnectIOExceptionClassTests<ConnectIO
         final ConnectIOException sut = null; // = new ConnectIOException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.ConnectIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.ConnectIOException]
 
 }

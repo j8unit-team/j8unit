@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6ClassTests
                    TypeKindVisitor6.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.TypeKindVisitor6]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.TypeKindVisitor6]
 
 }

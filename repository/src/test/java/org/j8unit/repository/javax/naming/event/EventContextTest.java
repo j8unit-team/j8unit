@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.event.EventContextTests<EventConte
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.naming.event.EventContext], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.event.EventContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.event.EventContext]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.event.EventContext]
 
 }

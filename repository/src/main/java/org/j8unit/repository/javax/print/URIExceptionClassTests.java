@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    URIException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.URIException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.URIException]
 
 }

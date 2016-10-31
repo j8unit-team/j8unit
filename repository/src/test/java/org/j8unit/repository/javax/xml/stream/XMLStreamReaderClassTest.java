@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLStreamReaderClassTests<XMLS
         return XMLStreamReader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLStreamReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLStreamReader]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests<XML
         return XMLCryptoContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.XMLCryptoContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.XMLCryptoContext]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHolderClassTests<OctetSeq
         final OctetSeqHolder sut = new OctetSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.OctetSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OctetSeqHolder]
 
 }

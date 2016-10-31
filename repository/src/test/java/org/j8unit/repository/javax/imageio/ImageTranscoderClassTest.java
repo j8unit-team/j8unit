@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.ImageTranscoderClassTests<ImageTr
         return ImageTranscoder.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.ImageTranscoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageTranscoder]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.NotLinkExceptionClassTests<NotLin
         final NotLinkException sut = null; // = new NotLinkException(String, String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.NotLinkException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.NotLinkException]
 
 }

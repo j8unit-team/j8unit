@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectClassTes
                    CompilationMXBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.CompilationMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.CompilationMXBean]
 
 }

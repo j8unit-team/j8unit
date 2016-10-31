@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.ListClassTests<SUT>, org.j8unit.reposito
                    AbstractList.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractList]
 
 }

@@ -104,6 +104,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalDesktopIconUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalDesktopIconUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalDesktopIconUI]
 }

@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.awt.font.GlyphJustificationInfoClassTests<
                                                  // boolean, int, float, float);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.GlyphJustificationInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.GlyphJustificationInfo]
 
 }

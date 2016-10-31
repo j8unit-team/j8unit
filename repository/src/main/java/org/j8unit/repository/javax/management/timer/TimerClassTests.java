@@ -67,6 +67,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests<
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Timer.class!", Timer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.timer.Timer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.timer.Timer]
 
 }

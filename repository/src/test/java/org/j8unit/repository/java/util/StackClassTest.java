@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.StackClassTests<Stack> {
         final Stack sut = new Stack();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Stack]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Stack]
 
 }

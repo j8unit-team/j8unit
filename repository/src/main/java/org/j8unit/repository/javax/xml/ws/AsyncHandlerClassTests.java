@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AsyncHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.AsyncHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.AsyncHandler]
 
 }

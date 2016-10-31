@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHolderClassTests<Serv
         final ServiceContextHolder sut = new ServiceContextHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ServiceContextHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceContextHolder]
 
 }

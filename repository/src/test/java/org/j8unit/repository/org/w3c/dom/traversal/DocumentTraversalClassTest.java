@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.traversal.DocumentTraversalClassTes
         return DocumentTraversal.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.traversal.DocumentTraversal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.traversal.DocumentTraversal]
 
 }

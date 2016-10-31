@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.NotificationFilterClassTests<SUT>
                    NotificationFilterSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationFilterSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationFilterSupport]
 
 }

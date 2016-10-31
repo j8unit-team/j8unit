@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.undo.UndoableEditSupportClassTests<
         final UndoableEditSupport sut = null; // = new UndoableEditSupport(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.UndoableEditSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.UndoableEditSupport]
 
 }

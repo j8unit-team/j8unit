@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionClas
         final InvocationTargetException sut = null; // = new InvocationTargetException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.InvocationTargetException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.InvocationTargetException]
 
 }

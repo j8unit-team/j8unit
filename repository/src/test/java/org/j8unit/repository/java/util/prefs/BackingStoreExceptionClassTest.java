@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.prefs.BackingStoreExceptionClassTests
         final BackingStoreException sut = null; // = new BackingStoreException(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.BackingStoreException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.BackingStoreException]
 
 }

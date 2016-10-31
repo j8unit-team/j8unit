@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterClassTests<
         final XMLReaderAdapter sut = null; // = new XMLReaderAdapter(org.xml.sax.XMLReader);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.XMLReaderAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLReaderAdapter]
 
 }

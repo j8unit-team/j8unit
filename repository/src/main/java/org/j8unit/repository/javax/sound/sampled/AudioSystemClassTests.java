@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AudioSystem.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioSystem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioSystem]
 
 }

@@ -68,6 +68,8 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryClas
                    ContextualRenderedImageFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.ContextualRenderedImageFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.ContextualRenderedImageFactory]
 
 }

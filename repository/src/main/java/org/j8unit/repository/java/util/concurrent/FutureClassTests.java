@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Future.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Future]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Future]
 
 }

@@ -78,6 +78,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ResponseHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.ResponseHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.ResponseHandler]
 }

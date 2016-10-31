@@ -99,6 +99,7 @@ extends org.j8unit.repository.javax.xml.stream.events.AttributeTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.Namespace]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.events.Namespace]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.events.Namespace]
 }

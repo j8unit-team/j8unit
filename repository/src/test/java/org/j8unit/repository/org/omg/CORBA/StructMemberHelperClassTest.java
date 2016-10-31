@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<Stru
         // write some test for {@link org.omg.CORBA.StructMemberHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.StructMemberHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StructMemberHelper]
 
 }

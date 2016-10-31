@@ -216,6 +216,8 @@ implements org.j8unit.repository.java.lang.AssertionErrorClassTests<AssertionErr
         final AssertionError sut = null; // = new AssertionError(char);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.AssertionError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.AssertionError]
 
 }

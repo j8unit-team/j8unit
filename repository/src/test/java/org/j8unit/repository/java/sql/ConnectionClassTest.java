@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.ConnectionClassTests<Connection> {
         return Connection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Connection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Connection]
 
 }

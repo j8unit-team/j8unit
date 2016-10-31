@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.SetClassTests<SUT> {
                    SortedSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.SortedSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.SortedSet]
 
 }

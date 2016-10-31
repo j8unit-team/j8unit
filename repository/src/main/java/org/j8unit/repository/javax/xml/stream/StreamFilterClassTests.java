@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    StreamFilter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.StreamFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.StreamFilter]
 
 }

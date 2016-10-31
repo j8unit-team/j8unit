@@ -70,6 +70,8 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
                    ObjectInputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectInputStream]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to GetField.class!",
                               GetField.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectInputStream$GetField]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectInputStream$GetField]
 

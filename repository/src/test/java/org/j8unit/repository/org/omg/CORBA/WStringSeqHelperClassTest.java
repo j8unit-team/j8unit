@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.WStringSeqHelperClassTests<WStrin
         // write some test for {@link org.omg.CORBA.WStringSeqHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.WStringSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WStringSeqHelper]
 
 }

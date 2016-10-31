@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.swing.event.AncestorEventClassTests<Ances
                                         // java.awt.Container);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.AncestorEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.AncestorEvent]
 
 }

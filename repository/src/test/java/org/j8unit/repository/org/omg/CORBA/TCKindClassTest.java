@@ -39,6 +39,8 @@ implements org.j8unit.repository.org.omg.CORBA.TCKindClassTests<TCKind> {
         // write some test for {@link org.omg.CORBA.TCKind#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.TCKind]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.TCKind]
 
 }

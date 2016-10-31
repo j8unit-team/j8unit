@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrintQualityClas
         return PrintQuality.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrintQuality]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrintQuality]
 
 }

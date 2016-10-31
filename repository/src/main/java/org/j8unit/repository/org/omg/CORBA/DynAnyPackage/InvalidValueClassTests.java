@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
                    InvalidValue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynAnyPackage.InvalidValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynAnyPackage.InvalidValue]
 
 }

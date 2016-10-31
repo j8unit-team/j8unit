@@ -129,6 +129,8 @@ implements org.j8unit.repository.javax.swing.JTextFieldClassTests<JTextField> {
         final JTextField sut = null; // = new JTextField(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JTextField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTextField]
 
 }

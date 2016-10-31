@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.IllegalComponentStateExceptionClassTes
         final IllegalComponentStateException sut = null; // = new IllegalComponentStateException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.IllegalComponentStateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.IllegalComponentStateException]
 
 }

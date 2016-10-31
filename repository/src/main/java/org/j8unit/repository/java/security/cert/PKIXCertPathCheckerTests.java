@@ -176,6 +176,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXCertPathChecker]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.PKIXCertPathChecker]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXCertPathChecker]
 }

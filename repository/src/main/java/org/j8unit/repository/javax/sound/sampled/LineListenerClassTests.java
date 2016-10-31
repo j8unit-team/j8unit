@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    LineListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineListener]
 
 }

@@ -124,6 +124,7 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, o
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.util.ValidationEventCollector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.util.ValidationEventCollector]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.util.ValidationEventCollector]
 }

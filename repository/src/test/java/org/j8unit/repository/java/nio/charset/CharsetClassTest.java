@@ -100,6 +100,8 @@ implements org.j8unit.repository.java.nio.charset.CharsetClassTests<Charset> {
         // write some test for {@link java.nio.charset.Charset#availableCharsets()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.Charset]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.Charset]
 
 }

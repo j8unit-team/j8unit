@@ -79,6 +79,7 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.ValueHandlerMultiFormat]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.CORBA.ValueHandlerMultiFormat]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.ValueHandlerMultiFormat]
 }

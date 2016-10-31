@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.JToolTipClassTests<JToolTip> {
         final JToolTip sut = new JToolTip();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JToolTip]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JToolTip]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.CommunicationExceptionClassTests<C
         final CommunicationException sut = new CommunicationException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.CommunicationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.CommunicationException]
 
 }

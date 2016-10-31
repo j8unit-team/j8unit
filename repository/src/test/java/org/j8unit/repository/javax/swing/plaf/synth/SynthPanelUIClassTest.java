@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthPanelUIClassTests<S
         // write some test for {@link javax.swing.plaf.synth.SynthPanelUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthPanelUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthPanelUI]
 
 }

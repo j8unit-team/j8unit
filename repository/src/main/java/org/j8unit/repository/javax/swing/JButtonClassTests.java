@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    JButton.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JButton]
 
 }

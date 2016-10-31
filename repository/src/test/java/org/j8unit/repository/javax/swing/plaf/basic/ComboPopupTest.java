@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<ComboPop
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.plaf.basic.ComboPopup], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.ComboPopup]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.ComboPopup]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.ComboPopup]
 
 }

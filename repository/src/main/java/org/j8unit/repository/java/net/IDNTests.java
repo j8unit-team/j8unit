@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.IDN]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.IDN]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.IDN]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.IDN]
 }

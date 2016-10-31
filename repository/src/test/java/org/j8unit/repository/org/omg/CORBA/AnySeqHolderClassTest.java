@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.AnySeqHolderClassTests<AnySeqHold
         final AnySeqHolder sut = new AnySeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.AnySeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.AnySeqHolder]
 
 }

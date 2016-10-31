@@ -21,6 +21,27 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JPasswordField#JPasswordField()
+     * public javax.swing.JPasswordField()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_JPasswordField()
+    throws Exception {
+        // create new instance
+        final JPasswordField sut = new JPasswordField();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link javax.swing.JPasswordField#JPasswordField(javax.swing.text.Document, String, int) public
      * javax.swing.JPasswordField(javax.swing.text.Document,java.lang.String,int)}.
@@ -45,7 +66,8 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JPasswordField#JPasswordField(String) public javax.swing.JPasswordField(java.lang.String)}.
+     * {@link javax.swing.JPasswordField#JPasswordField(String, int) public
+     * javax.swing.JPasswordField(java.lang.String,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,32 +79,11 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JPasswordField_String()
+    public void create_JPasswordField_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JPasswordField sut = null; // = new JPasswordField(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link javax.swing.JPasswordField#JPasswordField()
-     * public javax.swing.JPasswordField()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_JPasswordField()
-    throws Exception {
-        // create new instance
-        final JPasswordField sut = new JPasswordField();
+        final JPasswordField sut = null; // = new JPasswordField(String, int);
     }
 
     /**
@@ -110,8 +111,7 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.JPasswordField#JPasswordField(String, int) public
-     * javax.swing.JPasswordField(java.lang.String,int)}.
+     * {@link javax.swing.JPasswordField#JPasswordField(String) public javax.swing.JPasswordField(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -123,12 +123,14 @@ implements org.j8unit.repository.javax.swing.JPasswordFieldClassTests<JPasswordF
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_JPasswordField_String_int()
+    public void create_JPasswordField_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final JPasswordField sut = null; // = new JPasswordField(String, int);
+        final JPasswordField sut = null; // = new JPasswordField(String);
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JPasswordField]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPasswordField]
 

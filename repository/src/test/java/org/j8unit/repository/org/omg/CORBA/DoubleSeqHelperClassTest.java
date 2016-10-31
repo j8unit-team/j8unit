@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.DoubleSeqHelperClassTests<DoubleS
         // write some test for {@link org.omg.CORBA.DoubleSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DoubleSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DoubleSeqHelper]
 
 }

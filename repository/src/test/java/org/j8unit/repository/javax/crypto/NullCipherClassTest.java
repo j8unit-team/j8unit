@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.crypto.NullCipherClassTests<NullCipher> {
         final NullCipher sut = new NullCipher();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.NullCipher]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.NullCipher]
 
 }

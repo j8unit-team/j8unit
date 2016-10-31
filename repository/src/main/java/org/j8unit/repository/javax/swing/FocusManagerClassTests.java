@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerClassTests<SUT
                    FocusManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.FocusManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.FocusManager]
 
 }

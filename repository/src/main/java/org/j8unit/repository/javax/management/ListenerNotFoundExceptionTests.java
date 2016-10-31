@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.management.OperationsExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ListenerNotFoundException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ListenerNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.ListenerNotFoundException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.ListenerNotFoundException]
 }

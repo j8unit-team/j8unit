@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleRelationClassTest
         final AccessibleRelation sut = null; // = new AccessibleRelation(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleRelation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleRelation]
 
 }

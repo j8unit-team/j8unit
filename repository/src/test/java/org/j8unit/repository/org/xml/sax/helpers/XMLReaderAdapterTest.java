@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<XMLReaderAdapter>, org.j8unit.repository.org.x
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.XMLReaderAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.helpers.XMLReaderAdapter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.helpers.XMLReaderAdapter]
 
 }

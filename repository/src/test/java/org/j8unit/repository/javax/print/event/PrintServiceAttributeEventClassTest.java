@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.print.event.PrintServiceAttributeEventCla
                                                      // javax.print.attribute.PrintServiceAttributeSet);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintServiceAttributeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintServiceAttributeEvent]
 
 }

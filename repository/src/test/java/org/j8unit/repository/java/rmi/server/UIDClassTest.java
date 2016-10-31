@@ -82,6 +82,8 @@ implements org.j8unit.repository.java.rmi.server.UIDClassTests<UID> {
         // write some test for {@link java.rmi.server.UID#read(java.io.DataInput)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.UID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.UID]
 
 }

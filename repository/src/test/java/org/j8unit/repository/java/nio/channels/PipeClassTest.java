@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
         // write some test for {@link java.nio.channels.Pipe#open()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Pipe]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe]
 
     @RunWith(J8Unit4.class)
@@ -53,6 +55,8 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
         public Class<SourceChannel> createNewSUT() {
             return SourceChannel.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
 
@@ -68,6 +72,8 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
         public Class<SinkChannel> createNewSUT() {
             return SinkChannel.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
 

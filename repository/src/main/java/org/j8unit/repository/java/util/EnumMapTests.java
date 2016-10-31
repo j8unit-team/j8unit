@@ -353,6 +353,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.EnumMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.EnumMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.EnumMap]
 }

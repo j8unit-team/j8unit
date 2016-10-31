@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.io.BufferedReaderTests<BufferedReader> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.io.BufferedReader], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.BufferedReader]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.BufferedReader]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.BufferedReader]
 
 }

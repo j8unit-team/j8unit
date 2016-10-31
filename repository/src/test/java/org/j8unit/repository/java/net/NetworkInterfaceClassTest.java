@@ -102,6 +102,8 @@ implements org.j8unit.repository.java.net.NetworkInterfaceClassTests<NetworkInte
         // write some test for {@link java.net.NetworkInterface#getByIndex(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.NetworkInterface]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.NetworkInterface]
 
 }

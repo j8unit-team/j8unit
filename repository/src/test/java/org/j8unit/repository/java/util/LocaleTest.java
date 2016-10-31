@@ -60,7 +60,9 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale]
 
     @RunWith(J8Unit4.class)
     public static class LanguageRangeTest
@@ -73,7 +75,9 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.Locale.LanguageRange], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$LanguageRange]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$LanguageRange]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$LanguageRange]
 
     }
 
@@ -97,7 +101,9 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$Category]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$Category]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Category]
 
     }
 
@@ -121,7 +127,9 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$FilteringMode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$FilteringMode]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$FilteringMode]
 
     }
 
@@ -145,7 +153,9 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Locale$Builder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale$Builder]
 
     }
 

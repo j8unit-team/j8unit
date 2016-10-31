@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynValueOperationsClassTests
         return DynValueOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynValueOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynValueOperations]
 
 }

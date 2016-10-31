@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtHolderClassTe
         final NamingContextExtHolder sut = new NamingContextExtHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtHolder]
 
 }

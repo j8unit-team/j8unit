@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ThreadClassTests<SUT> {
                    ForkJoinWorkerThread.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ForkJoinWorkerThread]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ForkJoinWorkerThread]
 
 }

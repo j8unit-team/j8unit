@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.nio.file.FileAlreadyExistsExceptionClassTe
         final FileAlreadyExistsException sut = null; // = new FileAlreadyExistsException(String, String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.FileAlreadyExistsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.FileAlreadyExistsException]
 
 }

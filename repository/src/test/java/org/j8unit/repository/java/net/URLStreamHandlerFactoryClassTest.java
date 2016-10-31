@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.URLStreamHandlerFactoryClassTests<URLS
         return URLStreamHandlerFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLStreamHandlerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLStreamHandlerFactory]
 
 }

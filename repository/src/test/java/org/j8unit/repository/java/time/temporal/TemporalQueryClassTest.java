@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.time.temporal.TemporalQueryClassTests<Temp
         return TemporalQuery.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalQuery]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalQuery]
 
 }

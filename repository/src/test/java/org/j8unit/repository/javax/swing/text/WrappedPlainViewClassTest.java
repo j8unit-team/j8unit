@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.text.WrappedPlainViewClassTests<Wra
         final WrappedPlainView sut = null; // = new WrappedPlainView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.WrappedPlainView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.WrappedPlainView]
 
 }

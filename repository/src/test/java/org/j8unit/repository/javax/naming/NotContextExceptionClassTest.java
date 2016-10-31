@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.naming.NotContextExceptionClassTests<NotC
         final NotContextException sut = new NotContextException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NotContextException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NotContextException]
 
 }

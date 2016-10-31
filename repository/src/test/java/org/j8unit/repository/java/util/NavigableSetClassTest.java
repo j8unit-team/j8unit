@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.NavigableSetClassTests<NavigableSet> 
         return NavigableSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.NavigableSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.NavigableSet]
 
 }

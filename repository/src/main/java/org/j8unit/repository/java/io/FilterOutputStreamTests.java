@@ -147,6 +147,7 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.FilterOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.FilterOutputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.FilterOutputStream]
 }

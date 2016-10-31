@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.rmi.MarshalledObjectClassTests<MarshalledO
         final MarshalledObject sut = null; // = new MarshalledObject(Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.MarshalledObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.MarshalledObject]
 
 }

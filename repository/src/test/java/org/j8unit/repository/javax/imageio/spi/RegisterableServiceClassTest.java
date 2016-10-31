@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.spi.RegisterableServiceClassTests
         return RegisterableService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.RegisterableService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.RegisterableService]
 
 }

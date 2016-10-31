@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.Graphics2DClassTests<Graphics2D> {
         return Graphics2D.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Graphics2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Graphics2D]
 
 }

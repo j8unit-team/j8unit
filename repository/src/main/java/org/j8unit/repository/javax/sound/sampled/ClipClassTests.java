@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Clip.class!", Clip.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Clip]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Clip]
 
 }

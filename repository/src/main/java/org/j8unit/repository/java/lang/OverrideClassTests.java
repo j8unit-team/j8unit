@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    Override.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Override]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Override]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.QueueClassTests<SUT>, org.j8unit.reposit
                    AbstractQueue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractQueue]
 
 }

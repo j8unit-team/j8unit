@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    SSLSession.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSession]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSession]
 
 }

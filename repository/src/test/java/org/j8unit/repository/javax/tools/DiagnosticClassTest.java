@@ -21,6 +21,8 @@ implements org.j8unit.repository.javax.tools.DiagnosticClassTests<Diagnostic> {
         return Diagnostic.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.Diagnostic]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.Diagnostic]
 
     @RunWith(J8Unit4.class)
@@ -73,6 +75,8 @@ implements org.j8unit.repository.javax.tools.DiagnosticClassTests<Diagnostic> {
         throws Exception {
             // write some test for {@link javax.tools.Diagnostic.Kind#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.Diagnostic$Kind]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.Diagnostic$Kind]
 

@@ -92,6 +92,8 @@ implements org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests
                                                // javax.management.MBeanParameterInfo[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanConstructorInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanConstructorInfo]
 
 }

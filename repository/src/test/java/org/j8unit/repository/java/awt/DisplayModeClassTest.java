@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.DisplayModeClassTests<DisplayMode> {
         final DisplayMode sut = null; // = new DisplayMode(int, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.DisplayMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.DisplayMode]
 
 }

@@ -66,6 +66,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, o
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Any.class!", Any.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.Any]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.Any]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.ParseConversionEventClassTests<P
         return ParseConversionEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ParseConversionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ParseConversionEvent]
 
 }

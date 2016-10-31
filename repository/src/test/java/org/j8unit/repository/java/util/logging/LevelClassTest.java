@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.logging.LevelClassTests<Level> {
         // write some test for {@link java.util.logging.Level#parse(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.Level]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.Level]
 
 }

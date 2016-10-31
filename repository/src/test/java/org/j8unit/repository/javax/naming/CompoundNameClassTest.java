@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.naming.CompoundNameClassTests<CompoundNam
         final CompoundName sut = null; // = new CompoundName(String, java.util.Properties);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.CompoundName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.CompoundName]
 
 }

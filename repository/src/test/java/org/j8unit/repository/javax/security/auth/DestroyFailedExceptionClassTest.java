@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.auth.DestroyFailedExceptionClass
         final DestroyFailedException sut = null; // = new DestroyFailedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.DestroyFailedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.DestroyFailedException]
 
 }

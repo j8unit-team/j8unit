@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Formatter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 
     }
 

@@ -71,6 +71,8 @@ implements org.j8unit.repository.javax.management.relation.RelationSupportClassT
                                           // javax.management.relation.RoleList);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationSupport]
 
 }

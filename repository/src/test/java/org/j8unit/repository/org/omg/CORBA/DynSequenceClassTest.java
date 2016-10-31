@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynSequenceClassTests<DynSequence
         return DynSequence.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynSequence]
 
 }

@@ -363,6 +363,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataInput]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.DataInput]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.DataInput]
 }

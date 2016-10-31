@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<JComboBox<E>>, org.j8unit.repository.javax.swi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComboBox]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComboBox]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox]
 
     @RunWith(J8Unit4.class)
     public static class KeySelectionManagerTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<JComboBox<E>>, org.j8unit.repository.javax.swi
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.JComboBox.KeySelectionManager], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
 
     }
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.ContainerListenerClassTests<Cont
         return ContainerListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ContainerListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ContainerListener]
 
 }

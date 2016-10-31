@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.spi.AbstractSelectorClassTest
         return AbstractSelector.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.spi.AbstractSelector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.AbstractSelector]
 
 }

@@ -169,6 +169,7 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PKCS12Attribute]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.PKCS12Attribute]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.PKCS12Attribute]
 }

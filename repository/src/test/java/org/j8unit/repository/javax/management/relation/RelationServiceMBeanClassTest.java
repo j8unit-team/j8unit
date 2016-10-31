@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.relation.RelationServiceMBeanC
         return RelationServiceMBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationServiceMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationServiceMBean]
 
 }

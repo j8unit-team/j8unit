@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    CodecFactoryHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecFactoryHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecFactoryHelper]
 
 }

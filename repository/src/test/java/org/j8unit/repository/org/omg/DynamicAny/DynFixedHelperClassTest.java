@@ -209,6 +209,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynFixedHelperClassTests<Dyn
         // write some test for {@link org.omg.DynamicAny.DynFixedHelper#unchecked_narrow(org.omg.CORBA.Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynFixedHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynFixedHelper]
 
 }

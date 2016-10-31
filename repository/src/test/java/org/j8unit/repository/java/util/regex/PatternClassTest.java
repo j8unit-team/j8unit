@@ -100,6 +100,8 @@ implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
         // write some test for {@link java.util.regex.Pattern#compile(String, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.regex.Pattern]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.regex.Pattern]
 
 }

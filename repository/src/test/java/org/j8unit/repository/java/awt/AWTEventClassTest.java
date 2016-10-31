@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.awt.AWTEventClassTests<AWTEvent> {
         Assert.fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTEvent]
 
 }

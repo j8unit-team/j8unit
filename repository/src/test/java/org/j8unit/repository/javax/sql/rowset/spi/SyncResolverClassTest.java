@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncResolverClassTests<Syn
         return SyncResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.SyncResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.SyncResolver]
 
 }

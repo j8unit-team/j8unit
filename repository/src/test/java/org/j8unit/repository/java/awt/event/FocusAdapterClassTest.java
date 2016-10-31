@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.event.FocusAdapterClassTests<FocusAdap
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.FocusAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.FocusAdapter]
 
 }

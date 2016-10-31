@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.OMGVMCIDClassTests<OMGVMCID> {
         return OMGVMCID.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.OMGVMCID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OMGVMCID]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultTextUI]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultTextUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultTextUI]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultTextUI]
 }

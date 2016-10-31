@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentLinkedDequeClass
         final ConcurrentLinkedDeque sut = new ConcurrentLinkedDeque();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ConcurrentLinkedDeque]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentLinkedDeque]
 
 }

@@ -38,6 +38,8 @@ implements org.j8unit.repository.java.lang.ProcessClassTests<Process> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Process]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Process]
 
 }

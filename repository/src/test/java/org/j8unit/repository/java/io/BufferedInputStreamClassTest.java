@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.BufferedInputStreamClassTests<BufferedI
         final BufferedInputStream sut = null; // = new BufferedInputStream(java.io.InputStream, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.BufferedInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.BufferedInputStream]
 
 }

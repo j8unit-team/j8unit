@@ -195,6 +195,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.x500.X500Principal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.x500.X500Principal]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.x500.X500Principal]
 }

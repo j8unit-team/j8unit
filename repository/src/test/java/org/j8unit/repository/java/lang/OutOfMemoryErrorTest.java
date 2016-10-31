@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<OutOfMemoryError>, org.j8unit.repository.java.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.OutOfMemoryError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.OutOfMemoryError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.OutOfMemoryError]
 
 }

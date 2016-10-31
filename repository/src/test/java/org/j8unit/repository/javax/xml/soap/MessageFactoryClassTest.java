@@ -82,6 +82,8 @@ implements org.j8unit.repository.javax.xml.soap.MessageFactoryClassTests<Message
         // write some test for {@link javax.xml.soap.MessageFactory#newInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.MessageFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.MessageFactory]
 
 }

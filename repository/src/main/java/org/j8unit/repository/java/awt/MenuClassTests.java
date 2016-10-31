@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Menu.class!", Menu.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Menu]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Menu]
 
 }

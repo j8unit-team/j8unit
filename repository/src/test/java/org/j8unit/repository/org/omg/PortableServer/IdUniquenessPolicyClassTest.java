@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyClassT
         return IdUniquenessPolicy.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.IdUniquenessPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.IdUniquenessPolicy]
 
 }

@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlTypeClassTests<Xml
         return XmlType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlType]
 
     @RunWith(J8Unit4.class)
@@ -54,6 +56,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlTypeClassTests<Xml
             // create new instance
             final DEFAULT sut = new DEFAULT();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlType$DEFAULT]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlType$DEFAULT]
 

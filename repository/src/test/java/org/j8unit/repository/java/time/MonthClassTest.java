@@ -100,6 +100,8 @@ implements org.j8unit.repository.java.time.MonthClassTests<Month> {
         // write some test for {@link java.time.Month#from(java.time.temporal.TemporalAccessor)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Month]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Month]
 
 }

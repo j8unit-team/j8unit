@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.namespace.NamespaceContextClassTests<
         return NamespaceContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.namespace.NamespaceContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.namespace.NamespaceContext]
 
 }

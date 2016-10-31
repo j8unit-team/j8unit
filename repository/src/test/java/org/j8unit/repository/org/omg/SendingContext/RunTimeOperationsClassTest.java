@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.SendingContext.RunTimeOperationsClassTe
         return RunTimeOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.SendingContext.RunTimeOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.SendingContext.RunTimeOperations]
 
 }

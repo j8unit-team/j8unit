@@ -802,6 +802,8 @@ implements org.j8unit.repository.java.lang.IntegerClassTests<Integer> {
         // write some test for {@link Integer#compareUnsigned(int, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Integer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Integer]
 
 }

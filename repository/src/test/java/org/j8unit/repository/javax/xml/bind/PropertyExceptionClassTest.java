@@ -157,6 +157,8 @@ implements org.j8unit.repository.javax.xml.bind.PropertyExceptionClassTests<Prop
         final PropertyException sut = null; // = new PropertyException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.PropertyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.PropertyException]
 
 }

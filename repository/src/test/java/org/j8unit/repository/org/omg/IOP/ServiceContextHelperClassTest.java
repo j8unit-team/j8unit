@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.IOP.ServiceContextHelperClassTests<Serv
         // write some test for {@link org.omg.IOP.ServiceContextHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ServiceContextHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceContextHelper]
 
 }

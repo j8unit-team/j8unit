@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.CollationKeyClassTests<CollationKey> 
         return CollationKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.CollationKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.CollationKey]
 
 }

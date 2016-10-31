@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
                    RMIConnection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnection]
 
 }

@@ -68,6 +68,8 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsC
                    ClientRequestInfoOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ClientRequestInfoOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ClientRequestInfoOperations]
 
 }

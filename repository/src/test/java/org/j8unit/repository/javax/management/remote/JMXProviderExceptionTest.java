@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JMXProviderException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.JMXProviderException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXProviderException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXProviderException]
 
 }

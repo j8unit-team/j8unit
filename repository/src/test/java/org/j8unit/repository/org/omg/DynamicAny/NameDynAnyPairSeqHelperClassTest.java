@@ -172,6 +172,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairSeqHelperClass
         // org.omg.DynamicAny.NameDynAnyPair[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPairSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPairSeqHelper]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IllegalPathStateException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.IllegalPathStateException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.IllegalPathStateException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.IllegalPathStateException]
 
 }

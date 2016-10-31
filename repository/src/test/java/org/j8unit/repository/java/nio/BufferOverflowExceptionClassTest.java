@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.nio.BufferOverflowExceptionClassTests<Buff
         final BufferOverflowException sut = new BufferOverflowException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.BufferOverflowException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.BufferOverflowException]
 
 }

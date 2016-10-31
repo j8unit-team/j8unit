@@ -126,6 +126,8 @@ implements org.j8unit.repository.java.nio.file.FileSystemsClassTests<FileSystems
         // write some test for {@link java.nio.file.FileSystems#newFileSystem(java.net.URI, java.util.Map)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.FileSystems]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.FileSystems]
 
 }

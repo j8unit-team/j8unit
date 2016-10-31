@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynamicImplementationClassTests<D
         final DynamicImplementation sut = new DynamicImplementation();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynamicImplementation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynamicImplementation]
 
 }

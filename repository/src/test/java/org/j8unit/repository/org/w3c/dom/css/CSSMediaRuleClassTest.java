@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.CSSMediaRuleClassTests<CSSMedia
         return CSSMediaRule.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.CSSMediaRule]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.CSSMediaRule]
 
 }

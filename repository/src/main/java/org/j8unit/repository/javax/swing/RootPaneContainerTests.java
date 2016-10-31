@@ -190,6 +190,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RootPaneContainer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RootPaneContainer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RootPaneContainer]
 }

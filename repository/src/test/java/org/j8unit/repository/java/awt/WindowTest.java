@@ -23,7 +23,9 @@ implements org.j8unit.repository.java.awt.WindowTests<Window> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.awt.Window], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Window]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Window]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Window]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -45,7 +47,9 @@ implements org.j8unit.repository.java.awt.WindowTests<Window> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Window$Type]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Window$Type]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Window$Type]
 
     }
 

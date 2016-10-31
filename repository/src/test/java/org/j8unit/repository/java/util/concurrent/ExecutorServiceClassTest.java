@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.concurrent.ExecutorServiceClassTests<
         return ExecutorService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ExecutorService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ExecutorService]
 
 }

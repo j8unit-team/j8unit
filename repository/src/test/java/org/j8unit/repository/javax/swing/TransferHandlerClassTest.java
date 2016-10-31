@@ -103,7 +103,26 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
         // write some test for {@link javax.swing.TransferHandler#getPasteAction()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.TransferHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler]
+
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class TransferSupportClassTest
@@ -140,22 +159,9 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
                                               // java.awt.datatransfer.Transferable);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.TransferHandler$TransferSupport]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$TransferSupport]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
-
-        @Override
-        public Class<DropLocation> createNewSUT() {
-            return DropLocation.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler$DropLocation]
 
     }
 

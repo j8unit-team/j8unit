@@ -27,31 +27,9 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.plaf.basic.BasicTextUI], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI]
 
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class BasicCaretTest
-    implements FactoryBasedJ8UnitTest<BasicCaret>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests<BasicCaret> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return testParametersOf(BasicCaret::new);
-        }
-
-        @Parameter(0)
-        public Callable<BasicCaret> sutFactory;
-
-        @Override
-        public Callable<BasicCaret> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
-
-    }
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -62,7 +40,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(BasicHighlighter::new);
+            return testParametersOf(BasicHighlighter::new);
         }
 
         @Parameter(0)
@@ -73,7 +51,35 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class BasicCaretTest
+    implements FactoryBasedJ8UnitTest<BasicCaret>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests<BasicCaret> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(BasicCaret::new);
+        }
+
+        @Parameter(0)
+        public Callable<BasicCaret> sutFactory;
+
+        @Override
+        public Callable<BasicCaret> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
 
     }
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleHypertextClassTes
         return AccessibleHypertext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleHypertext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleHypertext]
 
 }

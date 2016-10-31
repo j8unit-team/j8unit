@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.MappedByteBufferTests<MappedByteBuffer
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.MappedByteBuffer], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.MappedByteBuffer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.MappedByteBuffer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.MappedByteBuffer]
 
 }

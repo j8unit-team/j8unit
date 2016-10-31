@@ -68,6 +68,8 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
                    RMISocketFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMISocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMISocketFactory]
 
 }

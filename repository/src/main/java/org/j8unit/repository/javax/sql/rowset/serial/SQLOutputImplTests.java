@@ -679,6 +679,7 @@ extends org.j8unit.repository.java.sql.SQLOutputTests<SUT>, org.j8unit.repositor
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SQLOutputImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.serial.SQLOutputImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SQLOutputImpl]
 }

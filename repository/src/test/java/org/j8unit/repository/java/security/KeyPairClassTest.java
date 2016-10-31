@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.KeyPairClassTests<KeyPair> {
         final KeyPair sut = null; // = new KeyPair(java.security.PublicKey, java.security.PrivateKey);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyPair]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyPair]
 
 }

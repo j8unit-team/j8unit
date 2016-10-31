@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<TextField>, org.j8unit.repository.java.awt.Tex
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.TextField]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.TextField]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.TextField]
 
 }

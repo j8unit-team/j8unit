@@ -31,6 +31,8 @@ implements org.j8unit.repository.java.net.CookiePolicyTests<CookiePolicy> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookiePolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.CookiePolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CookiePolicy]
 
 }

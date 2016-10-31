@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTes
         return UnknownEntityException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.UnknownEntityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.UnknownEntityException]
 
 }

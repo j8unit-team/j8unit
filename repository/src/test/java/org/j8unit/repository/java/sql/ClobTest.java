@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.sql.ClobTests<Clob> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.sql.Clob], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.Clob]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.Clob]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.Clob]
 
 }

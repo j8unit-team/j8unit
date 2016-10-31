@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.AnnotatedConstructClassTests<A
         return AnnotatedConstruct.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.AnnotatedConstruct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.AnnotatedConstruct]
 
 }

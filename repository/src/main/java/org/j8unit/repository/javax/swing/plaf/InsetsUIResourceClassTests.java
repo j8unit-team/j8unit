@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8
                    InsetsUIResource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.InsetsUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.InsetsUIResource]
 
 }

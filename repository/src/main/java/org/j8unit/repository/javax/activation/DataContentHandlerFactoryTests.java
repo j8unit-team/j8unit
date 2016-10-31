@@ -57,6 +57,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataContentHandlerFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.DataContentHandlerFactory]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.DataContentHandlerFactory]
 }

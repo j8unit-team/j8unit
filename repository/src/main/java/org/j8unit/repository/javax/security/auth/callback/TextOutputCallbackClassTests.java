@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TextOutputCallback.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.TextOutputCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.TextOutputCallback]
 
 }

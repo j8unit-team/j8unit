@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TreeSelectionModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeSelectionModel]
 
 }

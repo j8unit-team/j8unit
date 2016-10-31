@@ -92,6 +92,7 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeSetTests<SUT>, o
         org.j8unit.repository.javax.print.attribute.DocAttributeSetTests.super.test_addAll_AttributeSet();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashDocAttributeSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.HashDocAttributeSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.HashDocAttributeSet]
 }

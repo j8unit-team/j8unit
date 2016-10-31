@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.PermissionsClassTests<Permissions
         final Permissions sut = new Permissions();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Permissions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Permissions]
 
 }

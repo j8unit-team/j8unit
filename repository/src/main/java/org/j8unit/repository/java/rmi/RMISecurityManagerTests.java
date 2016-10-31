@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.SecurityManagerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RMISecurityManager]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.RMISecurityManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.RMISecurityManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.RMISecurityManager]
 }

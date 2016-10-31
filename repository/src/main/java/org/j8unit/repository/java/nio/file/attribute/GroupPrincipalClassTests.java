@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.file.attribute.UserPrincipalClassTests<SU
                    GroupPrincipal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.GroupPrincipal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.GroupPrincipal]
 
 }

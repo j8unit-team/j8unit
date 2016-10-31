@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.security.UnrecoverableKeyExceptionClassTes
         final UnrecoverableKeyException sut = null; // = new UnrecoverableKeyException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.UnrecoverableKeyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.UnrecoverableKeyException]
 
 }

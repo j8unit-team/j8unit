@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.zip.ChecksumTests<Checksum> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.zip.Checksum], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Checksum]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.Checksum]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.Checksum]
 
 }

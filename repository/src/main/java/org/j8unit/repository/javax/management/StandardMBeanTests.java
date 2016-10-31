@@ -364,6 +364,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.StandardMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.StandardMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.StandardMBean]
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.activation.DataSourceClassTests<SUT>, org.j8
                    FileDataSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.FileDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.FileDataSource]
 
 }

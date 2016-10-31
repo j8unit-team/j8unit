@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.security.sasl.AuthenticationExceptionClas
         final AuthenticationException sut = null; // = new AuthenticationException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.AuthenticationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.AuthenticationException]
 
 }

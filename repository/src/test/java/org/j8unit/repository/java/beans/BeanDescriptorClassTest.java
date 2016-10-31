@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.beans.BeanDescriptorClassTests<BeanDescrip
         final BeanDescriptor sut = null; // = new BeanDescriptor(Class, Class);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.BeanDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.BeanDescriptor]
 
 }

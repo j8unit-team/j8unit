@@ -76,6 +76,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoSupport
                                                // javax.management.MBeanNotificationInfo[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanInfoSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanInfoSupport]
 
 }

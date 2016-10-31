@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    Canvas.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Canvas]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Canvas]
 
 }

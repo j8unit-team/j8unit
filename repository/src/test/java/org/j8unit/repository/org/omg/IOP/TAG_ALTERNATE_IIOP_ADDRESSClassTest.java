@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESSClassTest
         return TAG_ALTERNATE_IIOP_ADDRESS.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.parsers.SAXParserClassTests<SAXParser
         return SAXParser.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.parsers.SAXParser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.SAXParser]
 
 }

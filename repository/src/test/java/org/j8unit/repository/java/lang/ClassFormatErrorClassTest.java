@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.ClassFormatErrorClassTests<ClassForma
         final ClassFormatError sut = null; // = new ClassFormatError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassFormatError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassFormatError]
 
 }

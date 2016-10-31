@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ImageIcon>, org.j8unit.repository.javax.swing.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ImageIcon]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ImageIcon]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ImageIcon]
 
 }

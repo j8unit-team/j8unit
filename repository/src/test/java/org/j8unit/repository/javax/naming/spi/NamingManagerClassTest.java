@@ -202,6 +202,8 @@ implements org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<Naming
         // write some test for {@link javax.naming.spi.NamingManager#getURLContext(String, java.util.Hashtable)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.NamingManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.NamingManager]
 
 }

@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.management.loading.MLetContentClassTests<
         final MLetContent sut = null; // = new MLetContent(java.net.URL, java.util.Map, java.util.List, java.util.List);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.MLetContent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.MLetContent]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.crypto.spec.DHGenParameterSpecClassTests<
         final DHGenParameterSpec sut = null; // = new DHGenParameterSpec(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.DHGenParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.DHGenParameterSpec]
 
 }

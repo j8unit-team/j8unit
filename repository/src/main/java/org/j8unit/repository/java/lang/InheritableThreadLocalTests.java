@@ -28,6 +28,7 @@ extends org.j8unit.repository.java.lang.ThreadLocalTests<SUT, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InheritableThreadLocal]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.InheritableThreadLocal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.InheritableThreadLocal]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.InheritableThreadLocal]
 }

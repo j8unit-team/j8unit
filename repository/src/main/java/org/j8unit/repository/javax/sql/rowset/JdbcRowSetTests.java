@@ -210,6 +210,7 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.JdbcRowSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.JdbcRowSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.JdbcRowSet]
 }

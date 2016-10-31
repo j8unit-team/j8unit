@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
                    ValidationException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ValidationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ValidationException]
 
 }

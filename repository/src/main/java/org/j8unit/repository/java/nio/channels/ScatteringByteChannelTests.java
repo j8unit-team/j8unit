@@ -78,6 +78,7 @@ extends org.j8unit.repository.java.nio.channels.ReadableByteChannelTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.ScatteringByteChannel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.ScatteringByteChannel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.ScatteringByteChannel]
 }

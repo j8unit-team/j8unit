@@ -118,6 +118,8 @@ implements org.j8unit.repository.java.lang.CompilerClassTests<Compiler> {
         // write some test for {@link Compiler#command(Object)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Compiler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Compiler]
 
 }

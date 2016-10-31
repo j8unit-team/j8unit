@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.concurrent.RecursiveTaskClassTests<Re
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.RecursiveTask]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.RecursiveTask]
 
 }

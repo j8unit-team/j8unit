@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.ScheduledFutureClassTests<
         return ScheduledFuture.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ScheduledFuture]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ScheduledFuture]
 
 }

@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeFactoryClassTests<Da
         // write some test for {@link javax.xml.datatype.DatatypeFactory#newInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.DatatypeFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeFactory]
 
 }

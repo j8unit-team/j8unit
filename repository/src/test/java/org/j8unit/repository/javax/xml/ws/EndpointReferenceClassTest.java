@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.ws.EndpointReferenceClassTests<Endpoi
         // write some test for {@link javax.xml.ws.EndpointReference#readFrom(javax.xml.transform.Source)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.EndpointReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.EndpointReference]
 
 }

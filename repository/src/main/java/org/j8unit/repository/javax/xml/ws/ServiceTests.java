@@ -472,8 +472,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Service]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Service]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Service]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -499,8 +500,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.Service$Mode]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Service$Mode]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Service$Mode]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Service$Mode]
     }
 
 }

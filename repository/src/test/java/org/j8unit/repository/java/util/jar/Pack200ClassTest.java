@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
         // write some test for {@link java.util.jar.Pack200#newPacker()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Pack200]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200]
 
     @RunWith(J8Unit4.class)
@@ -73,6 +75,8 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
         public Class<Packer> createNewSUT() {
             return Packer.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Pack200$Packer]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Packer]
 
@@ -88,6 +92,8 @@ implements org.j8unit.repository.java.util.jar.Pack200ClassTests<Pack200> {
         public Class<Unpacker> createNewSUT() {
             return Unpacker.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.Pack200$Unpacker]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.Pack200$Unpacker]
 

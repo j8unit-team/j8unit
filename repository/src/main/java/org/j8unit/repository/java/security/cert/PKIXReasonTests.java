@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.PKIXReason]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXReason]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.PKIXReason]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PKIXReason]
 }

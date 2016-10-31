@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    FunctionalInterface.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.FunctionalInterface]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.FunctionalInterface]
 
 }

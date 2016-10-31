@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.LockClassTests<Lock>
         return Lock.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.Lock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.Lock]
 
 }

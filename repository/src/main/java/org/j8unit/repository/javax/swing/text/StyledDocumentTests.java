@@ -307,6 +307,7 @@ extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledDocument]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledDocument]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledDocument]
 }

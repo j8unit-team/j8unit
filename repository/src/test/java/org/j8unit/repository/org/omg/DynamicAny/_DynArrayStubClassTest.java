@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.DynamicAny._DynArrayStubClassTests<_Dyn
         final _DynArrayStub sut = new _DynArrayStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynArrayStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynArrayStub]
 
 }

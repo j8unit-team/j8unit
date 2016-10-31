@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.TexturePaintClassTests<TexturePaint> {
         final TexturePaint sut = null; // = new TexturePaint(java.awt.image.BufferedImage, java.awt.geom.Rectangle2D);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.TexturePaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.TexturePaint]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.AWTError]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AWTError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.AWTError]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AWTError]
 }

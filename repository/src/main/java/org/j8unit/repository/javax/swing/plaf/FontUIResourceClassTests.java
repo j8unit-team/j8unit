@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8
                    FontUIResource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.FontUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.FontUIResource]
 
 }

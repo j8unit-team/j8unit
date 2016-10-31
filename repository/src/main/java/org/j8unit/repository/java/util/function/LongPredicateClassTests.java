@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    LongPredicate.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.LongPredicate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.LongPredicate]
 
 }

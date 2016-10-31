@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.DocPrintJobClassTests<DocPrintJob> 
         return DocPrintJob.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.DocPrintJob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.DocPrintJob]
 
 }

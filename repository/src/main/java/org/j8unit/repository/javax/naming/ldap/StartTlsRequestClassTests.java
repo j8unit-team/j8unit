@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedRequestClassTests<SUT>, 
                    StartTlsRequest.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.StartTlsRequest]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.StartTlsRequest]
 
 }

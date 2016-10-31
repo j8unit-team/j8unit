@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    InitParam.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.InitParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.InitParam]
 
 }

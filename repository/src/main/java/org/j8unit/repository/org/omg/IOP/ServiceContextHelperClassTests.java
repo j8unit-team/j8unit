@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ServiceContextHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ServiceContextHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ServiceContextHelper]
 
 }

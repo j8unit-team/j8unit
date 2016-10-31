@@ -651,6 +651,8 @@ implements org.j8unit.repository.javax.management.QueryClassTests<Query> {
         // write some test for {@link javax.management.Query#in(javax.management.ValueExp, javax.management.ValueExp[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.Query]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.Query]
 
 }

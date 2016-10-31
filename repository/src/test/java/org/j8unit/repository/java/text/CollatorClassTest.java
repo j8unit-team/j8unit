@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.text.CollatorClassTests<Collator> {
         // write some test for {@link java.text.Collator#getInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Collator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Collator]
 
 }

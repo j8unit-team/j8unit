@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.net.SocketFactoryClassTests<SUT> {
                    SSLSocketFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSocketFactory]
 
 }

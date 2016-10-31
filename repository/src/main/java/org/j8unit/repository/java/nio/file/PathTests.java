@@ -682,6 +682,7 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.Path]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.Path]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.Path]
 }

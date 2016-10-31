@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.CommonDataSourceClassTests<SUT>, org.j8u
                    DataSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.DataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.DataSource]
 
 }

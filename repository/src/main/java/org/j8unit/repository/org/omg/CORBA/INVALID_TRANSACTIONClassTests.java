@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    INVALID_TRANSACTION.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INVALID_TRANSACTION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INVALID_TRANSACTION]
 
 }

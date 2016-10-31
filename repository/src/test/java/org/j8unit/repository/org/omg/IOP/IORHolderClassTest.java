@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.IOP.IORHolderClassTests<IORHolder> {
         final IORHolder sut = new IORHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.IORHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.IORHolder]
 
 }

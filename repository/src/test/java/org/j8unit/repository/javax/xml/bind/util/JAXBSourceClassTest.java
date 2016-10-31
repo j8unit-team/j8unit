@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.bind.util.JAXBSourceClassTests<JAXBSo
         final JAXBSource sut = null; // = new JAXBSource(javax.xml.bind.Marshaller, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.util.JAXBSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.JAXBSource]
 
 }

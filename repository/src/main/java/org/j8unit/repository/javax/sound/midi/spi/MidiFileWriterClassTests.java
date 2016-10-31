@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    MidiFileWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.spi.MidiFileWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.spi.MidiFileWriter]
 
 }

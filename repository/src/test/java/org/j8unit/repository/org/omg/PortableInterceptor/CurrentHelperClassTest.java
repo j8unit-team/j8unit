@@ -215,6 +215,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentHelperClassT
         // org.omg.PortableInterceptor.Current)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.CurrentHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.CurrentHelper]
 
 }

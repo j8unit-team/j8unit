@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.relation.InvalidRelationIdExce
         final InvalidRelationIdException sut = null; // = new InvalidRelationIdException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.InvalidRelationIdException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.InvalidRelationIdException]
 
 }

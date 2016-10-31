@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerClassT
         final AtomicInteger sut = new AtomicInteger();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicInteger]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicInteger]
 
 }

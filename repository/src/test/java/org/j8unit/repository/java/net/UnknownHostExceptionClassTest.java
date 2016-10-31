@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.net.UnknownHostExceptionClassTests<Unknown
         final UnknownHostException sut = new UnknownHostException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.UnknownHostException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.UnknownHostException]
 
 }

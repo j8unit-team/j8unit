@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.AnnotatedConstructClassTests<SUT>
                    TypeMirror.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.TypeMirror]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.TypeMirror]
 
 }

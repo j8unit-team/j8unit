@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DoubleSupplier.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.DoubleSupplier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoubleSupplier]
 
 }

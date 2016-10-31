@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
                    NameAlreadyBoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NameAlreadyBoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NameAlreadyBoundException]
 
 }

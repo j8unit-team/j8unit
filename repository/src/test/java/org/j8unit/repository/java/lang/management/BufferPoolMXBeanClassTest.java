@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.BufferPoolMXBeanClassTests
         return BufferPoolMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.BufferPoolMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.BufferPoolMXBean]
 
 }

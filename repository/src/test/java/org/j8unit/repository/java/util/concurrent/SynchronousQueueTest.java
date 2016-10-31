@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SynchronousQueue<E>>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.SynchronousQueue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.SynchronousQueue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.SynchronousQueue]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.spi.FileTypeDetectorClassTests<Fi
         return FileTypeDetector.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.spi.FileTypeDetector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.spi.FileTypeDetector]
 
 }

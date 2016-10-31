@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.registry.RegistryClassTests<Registry> 
         return Registry.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.registry.Registry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.registry.Registry]
 
 }

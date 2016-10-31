@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
                    DynAnyFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyFactory]
 
 }

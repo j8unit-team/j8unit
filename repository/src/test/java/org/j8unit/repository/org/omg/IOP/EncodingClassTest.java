@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.IOP.EncodingClassTests<Encoding> {
         final Encoding sut = null; // = new Encoding(short, byte, byte);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.Encoding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.Encoding]
 
 }

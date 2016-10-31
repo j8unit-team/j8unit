@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.acl.PermissionClassTests<Permissi
         return Permission.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.Permission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.Permission]
 
 }

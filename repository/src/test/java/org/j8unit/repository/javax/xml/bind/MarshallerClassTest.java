@@ -21,6 +21,8 @@ implements org.j8unit.repository.javax.xml.bind.MarshallerClassTests<Marshaller>
         return Marshaller.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Marshaller]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Marshaller]
 
     @RunWith(J8Unit4.class)
@@ -53,6 +55,8 @@ implements org.j8unit.repository.javax.xml.bind.MarshallerClassTests<Marshaller>
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Marshaller$Listener]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Marshaller$Listener]
 

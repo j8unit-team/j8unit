@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
                    LinkageError.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.LinkageError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.LinkageError]
 
 }

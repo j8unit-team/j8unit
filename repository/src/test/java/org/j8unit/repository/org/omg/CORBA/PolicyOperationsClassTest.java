@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<Policy
         return PolicyOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PolicyOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyOperations]
 
 }

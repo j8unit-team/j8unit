@@ -356,6 +356,7 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.SimpleJavaFileObject]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.SimpleJavaFileObject]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.SimpleJavaFileObject]
 }

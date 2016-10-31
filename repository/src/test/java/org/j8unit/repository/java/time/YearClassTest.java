@@ -21,8 +21,8 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#now() public static java.time.Year
-     * java.time.Year.now()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#now(java.time.Clock) public static
+     * java.time.Year java.time.Year.now(java.time.Clock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -34,9 +34,9 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now()
+    public void test_now_Clock()
     throws Exception {
-        // write some test for {@link java.time.Year#now()}
+        // write some test for {@link java.time.Year#now(java.time.Clock)}
     }
 
     /**
@@ -61,8 +61,8 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Year#now(java.time.Clock) public static
-     * java.time.Year java.time.Year.now(java.time.Clock)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.Year#now() public static java.time.Year
+     * java.time.Year.now()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -74,9 +74,9 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now_Clock()
+    public void test_now()
     throws Exception {
-        // write some test for {@link java.time.Year#now(java.time.Clock)}
+        // write some test for {@link java.time.Year#now()}
     }
 
     /**
@@ -180,6 +180,8 @@ implements org.j8unit.repository.java.time.YearClassTests<Year> {
     throws Exception {
         // write some test for {@link java.time.Year#from(java.time.temporal.TemporalAccessor)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Year]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Year]
 

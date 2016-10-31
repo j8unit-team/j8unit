@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoClass
         return ModelMBeanInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanInfo]
 
 }

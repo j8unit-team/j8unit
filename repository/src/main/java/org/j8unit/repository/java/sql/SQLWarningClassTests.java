@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
                    SQLWarning.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLWarning]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLWarning]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.ResultSetMetaDataClassTests<ResultSetM
         return ResultSetMetaData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.ResultSetMetaData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ResultSetMetaData]
 
 }

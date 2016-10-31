@@ -148,6 +148,7 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.CipherOutputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.CipherOutputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.CipherOutputStream]
 }

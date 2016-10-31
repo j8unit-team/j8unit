@@ -66,26 +66,6 @@ implements org.j8unit.repository.javax.management.MBeanServerFactoryClassTests<M
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanServerFactory#newMBeanServer()
-     * public static javax.management.MBeanServer javax.management.MBeanServerFactory.newMBeanServer()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_newMBeanServer()
-    throws Exception {
-        // write some test for {@link javax.management.MBeanServerFactory#newMBeanServer()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServerFactory#newMBeanServer(String) public static javax.management.MBeanServer
      * javax.management.MBeanServerFactory.newMBeanServer(java.lang.String)}.
@@ -107,9 +87,8 @@ implements org.j8unit.repository.javax.management.MBeanServerFactoryClassTests<M
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.MBeanServerFactory#createMBeanServer(String) public static javax.management.MBeanServer
-     * javax.management.MBeanServerFactory.createMBeanServer(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanServerFactory#newMBeanServer()
+     * public static javax.management.MBeanServer javax.management.MBeanServerFactory.newMBeanServer()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,9 +100,9 @@ implements org.j8unit.repository.javax.management.MBeanServerFactoryClassTests<M
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_createMBeanServer_String()
+    public void test_newMBeanServer()
     throws Exception {
-        // write some test for {@link javax.management.MBeanServerFactory#createMBeanServer(String)}
+        // write some test for {@link javax.management.MBeanServerFactory#newMBeanServer()}
     }
 
     /**
@@ -150,6 +129,27 @@ implements org.j8unit.repository.javax.management.MBeanServerFactoryClassTests<M
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServerFactory#createMBeanServer(String) public static javax.management.MBeanServer
+     * javax.management.MBeanServerFactory.createMBeanServer(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_createMBeanServer_String()
+    throws Exception {
+        // write some test for {@link javax.management.MBeanServerFactory#createMBeanServer(String)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServerFactory#releaseMBeanServer(javax.management.MBeanServer) public static void
      * javax.management.MBeanServerFactory.releaseMBeanServer(javax.management.MBeanServer)}.
      *
@@ -168,6 +168,8 @@ implements org.j8unit.repository.javax.management.MBeanServerFactoryClassTests<M
         // write some test for {@link
         // javax.management.MBeanServerFactory#releaseMBeanServer(javax.management.MBeanServer)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerFactory]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerFactory]
 

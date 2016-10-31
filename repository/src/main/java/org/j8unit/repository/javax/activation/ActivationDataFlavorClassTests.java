@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<SUT> {
                    ActivationDataFlavor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.ActivationDataFlavor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.ActivationDataFlavor]
 
 }

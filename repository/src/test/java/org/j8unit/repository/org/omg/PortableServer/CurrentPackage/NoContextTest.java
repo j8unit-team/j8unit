@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NoContext>, org.j8unit.repository.org.omg.Port
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.CurrentPackage.NoContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.CurrentPackage.NoContext]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.CurrentPackage.NoContext]
 
 }

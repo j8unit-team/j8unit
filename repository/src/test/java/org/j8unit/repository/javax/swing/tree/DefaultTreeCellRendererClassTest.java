@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellRendererClassTe
         final DefaultTreeCellRenderer sut = new DefaultTreeCellRenderer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.DefaultTreeCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellRenderer]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Autoscroll.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.Autoscroll]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.Autoscroll]
 
 }

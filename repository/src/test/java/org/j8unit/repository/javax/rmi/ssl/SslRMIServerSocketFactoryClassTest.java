@@ -91,6 +91,8 @@ implements org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryClassTes
                                                     // String[], String[], boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]
 
 }

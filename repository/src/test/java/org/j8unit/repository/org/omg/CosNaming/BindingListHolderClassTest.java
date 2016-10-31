@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingListHolderClassTests<B
         final BindingListHolder sut = new BindingListHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingListHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingListHolder]
 
 }

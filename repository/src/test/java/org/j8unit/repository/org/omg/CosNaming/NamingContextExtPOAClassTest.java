@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPOAClassTests
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextExtPOA]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextExtPOA]
 
 }

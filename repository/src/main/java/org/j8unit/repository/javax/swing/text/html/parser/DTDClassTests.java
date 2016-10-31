@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTest
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DTD.class!", DTD.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.DTD]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.DTD]
 
 }

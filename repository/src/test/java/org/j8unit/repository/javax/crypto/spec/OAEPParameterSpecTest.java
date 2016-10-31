@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecTests<OAEPPa
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.OAEPParameterSpec]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.spec.OAEPParameterSpec]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.spec.OAEPParameterSpec]
 
 }

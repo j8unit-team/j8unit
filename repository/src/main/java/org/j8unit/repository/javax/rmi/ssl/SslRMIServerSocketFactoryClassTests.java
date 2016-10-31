@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<S
                    SslRMIServerSocketFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0H
         final IORInterceptor_3_0Holder sut = new IORInterceptor_3_0Holder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
 
 }

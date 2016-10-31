@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTableClassTests<SUT>
                    AccessibleExtendedTable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleExtendedTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleExtendedTable]
 
 }

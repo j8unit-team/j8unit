@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.util.TreeSetClassTests<TreeSet> {
         final TreeSet sut = new TreeSet();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.TreeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.TreeSet]
 
 }

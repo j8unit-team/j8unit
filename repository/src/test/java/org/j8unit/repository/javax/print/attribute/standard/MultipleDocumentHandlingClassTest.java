@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MultipleDocument
         return MultipleDocumentHandling.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MultipleDocumentHandling]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MultipleDocumentHandling]
 
 }

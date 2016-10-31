@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.DataBindingException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.DataBindingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.DataBindingException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.DataBindingException]
 }

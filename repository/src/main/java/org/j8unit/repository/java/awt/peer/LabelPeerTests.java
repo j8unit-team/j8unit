@@ -76,6 +76,7 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.LabelPeer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.peer.LabelPeer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.LabelPeer]
 }

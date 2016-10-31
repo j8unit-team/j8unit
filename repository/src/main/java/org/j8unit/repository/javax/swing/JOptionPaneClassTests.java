@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    JOptionPane.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JOptionPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JOptionPane]
 
 }

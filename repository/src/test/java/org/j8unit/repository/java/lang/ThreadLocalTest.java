@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<ThreadLocal<T>>, org.j8unit.repository.java.la
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ThreadLocal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ThreadLocal]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ThreadLocal]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    IntSupplier.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.IntSupplier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.IntSupplier]
 
 }

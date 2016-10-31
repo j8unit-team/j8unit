@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TableCellRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableCellRenderer]
 
 }

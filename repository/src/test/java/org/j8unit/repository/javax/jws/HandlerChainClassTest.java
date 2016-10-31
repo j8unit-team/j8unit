@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.HandlerChainClassTests<HandlerChain> 
         return HandlerChain.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.HandlerChain]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.HandlerChain]
 
 }

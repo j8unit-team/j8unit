@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.Inconsi
         final InconsistentTypeCode sut = null; // = new InconsistentTypeCode(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.function.FunctionClassTests<SUT> {
                    UnaryOperator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.UnaryOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.UnaryOperator]
 
 }

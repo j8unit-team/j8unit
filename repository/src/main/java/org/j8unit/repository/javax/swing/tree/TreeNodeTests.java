@@ -188,6 +188,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.TreeNode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.tree.TreeNode]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.TreeNode]
 }

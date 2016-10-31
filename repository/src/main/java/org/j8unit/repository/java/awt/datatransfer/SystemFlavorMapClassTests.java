@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<SUT>, 
                    SystemFlavorMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.SystemFlavorMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.SystemFlavorMap]
 
 }

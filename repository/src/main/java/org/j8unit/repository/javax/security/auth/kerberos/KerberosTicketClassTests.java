@@ -68,6 +68,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
                    KerberosTicket.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.KerberosTicket]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosTicket]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.NameAlreadyBoundExceptionClassTest
         final NameAlreadyBoundException sut = new NameAlreadyBoundException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NameAlreadyBoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NameAlreadyBoundException]
 
 }

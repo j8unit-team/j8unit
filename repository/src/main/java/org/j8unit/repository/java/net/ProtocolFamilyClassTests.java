@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ProtocolFamily.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.ProtocolFamily]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.ProtocolFamily]
 
 }

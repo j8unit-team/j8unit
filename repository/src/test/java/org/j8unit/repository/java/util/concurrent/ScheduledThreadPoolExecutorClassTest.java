@@ -116,6 +116,8 @@ implements org.j8unit.repository.java.util.concurrent.ScheduledThreadPoolExecuto
                                                       // java.util.concurrent.ThreadFactory);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ScheduledThreadPoolExecutor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ScheduledThreadPoolExecutor]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.dnd.InvalidDnDOperationExceptionClassT
         final InvalidDnDOperationException sut = null; // = new InvalidDnDOperationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.InvalidDnDOperationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.InvalidDnDOperationException]
 
 }

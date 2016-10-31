@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.PolygonClassTests<Polygon> {
         final Polygon sut = null; // = new Polygon(int[], int[], int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Polygon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Polygon]
 
 }

@@ -171,6 +171,7 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.Book]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.print.Book]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.Book]
 }

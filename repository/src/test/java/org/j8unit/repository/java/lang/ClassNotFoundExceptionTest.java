@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<ClassNotFoundException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ClassNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ClassNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ClassNotFoundException]
 
 }

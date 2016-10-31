@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    MBeanParameterInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanParameterInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanParameterInfo]
 
 }

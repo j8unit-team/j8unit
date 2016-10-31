@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.awt.SplashScreenClassTests<SplashScreen> {
         // write some test for {@link java.awt.SplashScreen#getSplashScreen()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.SplashScreen]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.SplashScreen]
 
 }

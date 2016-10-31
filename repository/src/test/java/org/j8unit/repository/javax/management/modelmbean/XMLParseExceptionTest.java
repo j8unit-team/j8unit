@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<XMLParseException>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.XMLParseException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.modelmbean.XMLParseException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.modelmbean.XMLParseException]
 
 }

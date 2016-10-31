@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.ShapeClassTests<Shape> {
         return Shape.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Shape]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Shape]
 
 }

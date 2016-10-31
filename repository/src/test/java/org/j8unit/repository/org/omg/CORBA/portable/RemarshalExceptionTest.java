@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RemarshalException>, org.j8unit.repository.org
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.RemarshalException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.portable.RemarshalException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.portable.RemarshalException]
 
 }

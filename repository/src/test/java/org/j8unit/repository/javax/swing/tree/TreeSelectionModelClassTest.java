@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.tree.TreeSelectionModelClassTests<T
         return TreeSelectionModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.TreeSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.TreeSelectionModel]
 
 }

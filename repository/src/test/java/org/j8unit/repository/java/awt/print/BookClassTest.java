@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.print.BookClassTests<Book> {
         final Book sut = new Book();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.Book]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.Book]
 
 }

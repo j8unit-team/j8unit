@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.BooleanSeqHelperClassTests<Boolea
         // write some test for {@link org.omg.CORBA.BooleanSeqHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BooleanSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BooleanSeqHelper]
 
 }

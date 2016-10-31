@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
                    Provider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Provider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Service.class!",
                               Service.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Provider$Service]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Provider$Service]
 

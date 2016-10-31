@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPHeaderClassTests<SOAPHeader>
         return SOAPHeader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPHeader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPHeader]
 
 }

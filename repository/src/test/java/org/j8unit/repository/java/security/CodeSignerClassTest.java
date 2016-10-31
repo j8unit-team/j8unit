@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.CodeSignerClassTests<CodeSigner> 
         final CodeSigner sut = null; // = new CodeSigner(java.security.cert.CertPath, java.security.Timestamp);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.CodeSigner]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.CodeSigner]
 
 }

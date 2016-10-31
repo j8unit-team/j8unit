@@ -124,6 +124,7 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.border.StrokeBorder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.border.StrokeBorder]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.border.StrokeBorder]
 }

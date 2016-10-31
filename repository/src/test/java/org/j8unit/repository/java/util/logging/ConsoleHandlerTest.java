@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ConsoleHandler>, org.j8unit.repository.java.ut
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.ConsoleHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.logging.ConsoleHandler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.logging.ConsoleHandler]
 
 }

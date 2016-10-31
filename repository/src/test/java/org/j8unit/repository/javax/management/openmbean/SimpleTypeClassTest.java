@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.management.openmbean.SimpleTypeClassTests
         return SimpleType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.SimpleType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.SimpleType]
 
 }

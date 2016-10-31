@@ -41,6 +41,8 @@ implements org.j8unit.repository.org.omg.CosNaming._BindingIteratorStubClassTest
         final _BindingIteratorStub sut = new _BindingIteratorStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming._BindingIteratorStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming._BindingIteratorStub]
 
 }

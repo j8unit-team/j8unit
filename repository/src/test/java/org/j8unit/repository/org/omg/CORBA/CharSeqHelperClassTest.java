@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.CORBA.CharSeqHelperClassTests<CharSeqHe
         // write some test for {@link org.omg.CORBA.CharSeqHelper#write(org.omg.CORBA.portable.OutputStream, char[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.CharSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.CharSeqHelper]
 
 }

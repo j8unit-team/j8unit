@@ -176,6 +176,7 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
         org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.StreamPrintService]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.StreamPrintService]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.StreamPrintService]
 }

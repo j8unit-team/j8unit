@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.LayerUIClassTests<LayerUI> {
         final LayerUI sut = new LayerUI();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.LayerUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.LayerUI]
 
 }

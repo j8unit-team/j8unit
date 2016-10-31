@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.relation.RelationException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.relation.RelationException]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.RespectBindingClassTests<RespectBi
         return RespectBinding.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.RespectBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.RespectBinding]
 
 }

@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<IllegalArgumentException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IllegalArgumentException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.IllegalArgumentException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.IllegalArgumentException]
 
 }

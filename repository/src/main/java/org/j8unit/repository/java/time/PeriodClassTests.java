@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    Period.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Period]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Period]
 
 }

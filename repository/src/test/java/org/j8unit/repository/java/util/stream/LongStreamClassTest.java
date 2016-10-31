@@ -205,6 +205,8 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
         // write some test for {@link java.util.stream.LongStream#generate(java.util.function.LongSupplier)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.LongStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.LongStream]
 
     @RunWith(J8Unit4.class)
@@ -217,6 +219,8 @@ implements org.j8unit.repository.java.util.stream.LongStreamClassTests<LongStrea
         public Class<Builder> createNewSUT() {
             return Builder.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.LongStream$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.LongStream$Builder]
 

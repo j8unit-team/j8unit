@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.MenuPeerClassTests<MenuPeer> {
         return MenuPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.MenuPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.MenuPeer]
 
 }

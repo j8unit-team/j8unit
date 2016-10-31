@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryC
         return RenderedImageFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.RenderedImageFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderedImageFactory]
 
 }

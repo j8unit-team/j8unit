@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.io.IOErrorClassTests<IOError> {
         final IOError sut = null; // = new IOError(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.IOError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.IOError]
 
 }

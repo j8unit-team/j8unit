@@ -56,6 +56,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.IIOParamController]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.IIOParamController]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.IIOParamController]
 }

@@ -70,6 +70,8 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
                    AsyncBoxView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ChildState.class!",
                               ChildState.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ChildLocator.class!",
                               ChildLocator.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
 

@@ -246,6 +246,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXConnector]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnector]
 }

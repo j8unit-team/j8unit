@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.OperationsExceptionClassTests<SUT
                    ListenerNotFoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ListenerNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ListenerNotFoundException]
 
 }

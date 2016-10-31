@@ -121,6 +121,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Member]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.Member]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Member]
 }

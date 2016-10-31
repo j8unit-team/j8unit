@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.CopiesClassTests
         final Copies sut = null; // = new Copies(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.Copies]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.Copies]
 
 }

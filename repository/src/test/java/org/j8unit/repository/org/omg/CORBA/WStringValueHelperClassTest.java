@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.WStringValueHelperClassTests<WStr
         // write some test for {@link org.omg.CORBA.WStringValueHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.WStringValueHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.WStringValueHelper]
 
 }

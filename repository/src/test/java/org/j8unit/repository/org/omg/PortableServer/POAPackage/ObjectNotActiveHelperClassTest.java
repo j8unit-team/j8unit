@@ -176,6 +176,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActi
         // write some test for {@link org.omg.PortableServer.POAPackage.ObjectNotActiveHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectNotActiveHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectNotActiveHelper]
 
 }

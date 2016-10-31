@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.beans.PropertyVetoExceptionClassTests<Prop
         final PropertyVetoException sut = null; // = new PropertyVetoException(String, java.beans.PropertyChangeEvent);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyVetoException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyVetoException]
 
 }

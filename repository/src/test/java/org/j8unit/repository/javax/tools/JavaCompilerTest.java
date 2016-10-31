@@ -17,7 +17,9 @@ implements org.j8unit.repository.javax.tools.JavaCompilerTests<JavaCompiler> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.JavaCompiler], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaCompiler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaCompiler]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler]
 
     @RunWith(J8Unit4.class)
     public static class CompilationTaskTest
@@ -30,7 +32,9 @@ implements org.j8unit.repository.javax.tools.JavaCompilerTests<JavaCompiler> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.JavaCompiler.CompilationTask], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
 
     }
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.DocumentCSSClassTests<DocumentC
         return DocumentCSS.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.DocumentCSS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.DocumentCSS]
 
 }

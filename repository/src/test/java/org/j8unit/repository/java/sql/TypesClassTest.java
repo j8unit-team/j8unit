@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.TypesClassTests<Types> {
         return Types.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Types]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Types]
 
 }

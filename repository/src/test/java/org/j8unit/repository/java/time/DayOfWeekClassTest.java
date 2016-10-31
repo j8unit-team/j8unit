@@ -100,6 +100,8 @@ implements org.j8unit.repository.java.time.DayOfWeekClassTests<DayOfWeek> {
         // write some test for {@link java.time.DayOfWeek#from(java.time.temporal.TemporalAccessor)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.DayOfWeek]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.DayOfWeek]
 
 }

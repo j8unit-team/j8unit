@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Paper.class!", Paper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.Paper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.Paper]
 
 }

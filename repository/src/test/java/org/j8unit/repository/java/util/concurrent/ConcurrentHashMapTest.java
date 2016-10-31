@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
 
     @RunWith(J8Unit4.class)
     public static class KeySetViewTest<K, V>
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, org.j8unit.repositor
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.util.concurrent.ConcurrentHashMap.KeySetView], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 
     }
 

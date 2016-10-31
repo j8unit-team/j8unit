@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.net.SocketAddressClassTests<SocketAddress>
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SocketAddress]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SocketAddress]
 
 }

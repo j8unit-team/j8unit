@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelClassTests<SUT>
                    BandedSampleModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BandedSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BandedSampleModel]
 
 }

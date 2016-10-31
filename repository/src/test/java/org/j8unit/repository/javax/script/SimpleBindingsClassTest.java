@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.script.SimpleBindingsClassTests<SimpleBin
         final SimpleBindings sut = new SimpleBindings();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.script.SimpleBindings]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.script.SimpleBindings]
 
 }

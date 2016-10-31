@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.MenuContainerClassTests<MenuContainer>
         return MenuContainer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MenuContainer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MenuContainer]
 
 }

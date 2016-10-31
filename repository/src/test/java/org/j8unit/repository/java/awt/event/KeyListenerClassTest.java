@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.KeyListenerClassTests<KeyListene
         return KeyListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.KeyListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.KeyListener]
 
 }

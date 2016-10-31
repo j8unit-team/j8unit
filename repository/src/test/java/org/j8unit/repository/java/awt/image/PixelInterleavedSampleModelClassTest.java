@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.awt.image.PixelInterleavedSampleModelClass
                                                       // int[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.PixelInterleavedSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.PixelInterleavedSampleModel]
 
 }

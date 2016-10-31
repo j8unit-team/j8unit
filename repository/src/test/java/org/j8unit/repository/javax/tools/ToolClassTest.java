@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.tools.ToolClassTests<Tool> {
         return Tool.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.Tool]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.Tool]
 
 }

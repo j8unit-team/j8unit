@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RowSetWriter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetWriter]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerClassTests<SUT>, org
                    X509ExtendedTrustManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.X509ExtendedTrustManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.X509ExtendedTrustManager]
 
 }

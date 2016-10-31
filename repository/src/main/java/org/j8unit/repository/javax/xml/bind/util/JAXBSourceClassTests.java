@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.transform.sax.SAXSourceClassTests<SUT> {
                    JAXBSource.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.util.JAXBSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.JAXBSource]
 
 }

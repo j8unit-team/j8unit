@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.activation.MimeTypeParameterListClassTest
         final MimeTypeParameterList sut = null; // = new MimeTypeParameterList(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MimeTypeParameterList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MimeTypeParameterList]
 
 }

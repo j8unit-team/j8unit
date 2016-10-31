@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AttributeViewClassTests
         return AttributeView.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AttributeView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AttributeView]
 
 }

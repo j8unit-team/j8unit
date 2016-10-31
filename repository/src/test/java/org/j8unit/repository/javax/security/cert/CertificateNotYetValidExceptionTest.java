@@ -32,6 +32,8 @@ org.j8unit.repository.javax.security.cert.CertificateNotYetValidExceptionTests<C
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.cert.CertificateNotYetValidException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.cert.CertificateNotYetValidException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.cert.CertificateNotYetValidException]
 
 }

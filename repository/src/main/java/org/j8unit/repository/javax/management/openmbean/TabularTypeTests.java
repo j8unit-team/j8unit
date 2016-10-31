@@ -172,6 +172,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, Tabu
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.TabularType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.TabularType]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.TabularType]
 }

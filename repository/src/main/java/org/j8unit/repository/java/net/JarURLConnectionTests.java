@@ -208,6 +208,7 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.JarURLConnection]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.JarURLConnection]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.JarURLConnection]
 }

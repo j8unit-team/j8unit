@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JTabbedPane>, org.j8unit.repository.javax.swin
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTabbedPane]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTabbedPane]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTabbedPane]
 
 }

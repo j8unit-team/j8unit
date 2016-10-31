@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperC
         // org.omg.PortableInterceptor.AdapterStateHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.AdapterStateHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.AdapterStateHelper]
 
 }

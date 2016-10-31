@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackClas
         final ChoiceCallback sut = null; // = new ChoiceCallback(String, String[], int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.ChoiceCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.ChoiceCallback]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.NameParserClassTests<NameParser> {
         return NameParser.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NameParser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NameParser]
 
 }

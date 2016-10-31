@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.PublicKeyClassTests<PublicKey> {
         return PublicKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.PublicKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.PublicKey]
 
 }

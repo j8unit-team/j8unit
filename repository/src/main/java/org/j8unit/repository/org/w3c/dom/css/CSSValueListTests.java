@@ -76,6 +76,7 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSValueList]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.w3c.dom.css.CSSValueList]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.w3c.dom.css.CSSValueList]
 }

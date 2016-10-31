@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.lang.ThreadGroupClassTests<ThreadGroup> {
         final ThreadGroup sut = null; // = new ThreadGroup(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ThreadGroup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ThreadGroup]
 
 }

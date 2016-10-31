@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JTextPane>, org.j8unit.repository.javax.swing.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTextPane]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTextPane]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTextPane]
 
 }

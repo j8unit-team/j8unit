@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.StubNotFoundExceptionClassTests<StubNo
         final StubNotFoundException sut = null; // = new StubNotFoundException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.StubNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.StubNotFoundException]
 
 }

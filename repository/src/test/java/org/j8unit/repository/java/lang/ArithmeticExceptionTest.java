@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<ArithmeticException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ArithmeticException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ArithmeticException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ArithmeticException]
 
 }

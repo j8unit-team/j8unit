@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.naming.ldap.ControlFactoryClassTests<Cont
         // javax.naming.Context, java.util.Hashtable)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.ControlFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.ControlFactory]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.LookupOpClassTests<LookupOp> {
         final LookupOp sut = null; // = new LookupOp(java.awt.image.LookupTable, java.awt.RenderingHints);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.LookupOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.LookupOp]
 
 }

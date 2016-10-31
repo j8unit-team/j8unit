@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.sampled.ClipClassTests<Clip> {
         return Clip.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.Clip]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.Clip]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ComboBoxEditor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ComboBoxEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ComboBoxEditor]
 
 }

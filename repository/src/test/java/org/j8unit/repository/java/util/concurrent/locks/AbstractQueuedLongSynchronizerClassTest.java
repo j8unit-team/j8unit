@@ -20,6 +20,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSy
         return AbstractQueuedLongSynchronizer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
 
     @RunWith(J8Unit4.class)
@@ -57,6 +59,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSy
             final ConditionObject sut = null; // = new
                                               // ConditionObject(java.util.concurrent.locks.AbstractQueuedLongSynchronizer);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]
 

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<TRANSACTION_UNAVAILABLE>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
 
 }

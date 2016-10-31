@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    FileTypeMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.FileTypeMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.FileTypeMap]
 
 }

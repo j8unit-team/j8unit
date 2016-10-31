@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.undo.StateEditClassTests<StateEdit>
         final StateEdit sut = null; // = new StateEdit(javax.swing.undo.StateEditable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.StateEdit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.StateEdit]
 
 }

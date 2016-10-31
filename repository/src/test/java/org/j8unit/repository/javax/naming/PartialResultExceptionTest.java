@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PartialResultException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.PartialResultException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.PartialResultException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.PartialResultException]
 
 }

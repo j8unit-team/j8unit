@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.IIOParamControllerClassTests<IIOP
         return IIOParamController.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.IIOParamController]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.IIOParamController]
 
 }

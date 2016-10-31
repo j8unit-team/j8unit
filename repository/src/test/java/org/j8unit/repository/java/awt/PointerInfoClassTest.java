@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.PointerInfoClassTests<PointerInfo> {
         return PointerInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PointerInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PointerInfo]
 
 }

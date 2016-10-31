@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
         return Resource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Resource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resource]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
         throws Exception {
             // write some test for {@link javax.annotation.Resource.AuthenticationType#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.Resource$AuthenticationType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resource$AuthenticationType]
 

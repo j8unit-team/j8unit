@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpda
         // write some test for {@link java.util.concurrent.atomic.AtomicLongFieldUpdater#newUpdater(Class, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicLongFieldUpdater]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicLongFieldUpdater]
 
 }

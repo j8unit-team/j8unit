@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.BindingProviderClassTests<BindingP
         return BindingProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.BindingProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.BindingProvider]
 
 }

@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AudioFormat.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFormat]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Encoding.class!",
                               Encoding.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioFormat$Encoding]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFormat$Encoding]
 

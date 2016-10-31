@@ -166,6 +166,7 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.SOAPBinding]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.SOAPBinding]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.SOAPBinding]
 }

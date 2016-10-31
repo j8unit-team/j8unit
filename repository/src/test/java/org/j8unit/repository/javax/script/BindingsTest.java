@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.script.BindingsTests<Bindings> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.script.Bindings], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.Bindings]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.Bindings]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.Bindings]
 
 }

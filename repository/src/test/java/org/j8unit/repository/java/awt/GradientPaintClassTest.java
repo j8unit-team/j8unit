@@ -116,6 +116,8 @@ implements org.j8unit.repository.java.awt.GradientPaintClassTests<GradientPaint>
                                         // java.awt.Color, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GradientPaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GradientPaint]
 
 }

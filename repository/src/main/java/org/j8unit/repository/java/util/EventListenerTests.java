@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.EventListener]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.EventListener]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.EventListener]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.EventListener]
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
                    ModelMBeanNotificationInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationInfo]
 
 }

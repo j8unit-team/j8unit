@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Callable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Callable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Callable]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.ScrollPanePeerClassTests<ScrollPa
         return ScrollPanePeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ScrollPanePeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ScrollPanePeer]
 
 }

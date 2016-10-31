@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextChildClassTes
         return BeanContextChild.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextChild]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextChild]
 
 }

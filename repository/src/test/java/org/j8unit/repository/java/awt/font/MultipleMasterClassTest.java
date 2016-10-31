@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.font.MultipleMasterClassTests<Multiple
         return MultipleMaster.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.MultipleMaster]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.MultipleMaster]
 
 }

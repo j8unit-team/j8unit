@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.rowset.JoinRowSetClassTests<JoinRowSe
         return JoinRowSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.JoinRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.JoinRowSet]
 
 }

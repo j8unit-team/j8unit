@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
                    JCheckBoxMenuItem.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JCheckBoxMenuItem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JCheckBoxMenuItem]
 
 }

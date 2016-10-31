@@ -164,6 +164,8 @@ implements org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests<JForm
         final JFormattedTextField sut = new JFormattedTextField();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField]
 
     @RunWith(J8Unit4.class)
@@ -197,6 +199,8 @@ implements org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests<JForm
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatterFactory]
 
@@ -233,6 +237,8 @@ implements org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests<JForm
         throws Exception {
             Assert.fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFormattedTextField$AbstractFormatter]
 

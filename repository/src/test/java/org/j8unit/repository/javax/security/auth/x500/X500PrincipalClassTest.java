@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalClassTest
         final X500Principal sut = null; // = new X500Principal(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.x500.X500Principal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.x500.X500Principal]
 
 }

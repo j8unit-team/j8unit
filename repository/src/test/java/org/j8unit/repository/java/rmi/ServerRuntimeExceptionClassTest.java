@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.rmi.ServerRuntimeExceptionClassTests<Serve
         final ServerRuntimeException sut = null; // = new ServerRuntimeException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.ServerRuntimeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.ServerRuntimeException]
 
 }

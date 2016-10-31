@@ -71,6 +71,8 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
                    PrimitiveIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator]
 
     /**
@@ -133,6 +135,8 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OfLong.class!",
                               OfLong.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfLong]
 
@@ -199,6 +203,8 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
                               OfDouble.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator$OfDouble]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfDouble]
 
     }
@@ -263,6 +269,8 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OfInt.class!",
                               OfInt.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator$OfInt]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfInt]
 

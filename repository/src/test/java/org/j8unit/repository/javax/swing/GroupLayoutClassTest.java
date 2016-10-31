@@ -46,52 +46,9 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
         final GroupLayout sut = null; // = new GroupLayout(java.awt.Container);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GroupLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout]
-
-    @RunWith(J8Unit4.class)
-    public static class GroupClassTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<Group> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$Group]
-
-        @Override
-        public Class<Group> createNewSUT() {
-            return Group.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$Group]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ParallelGroupClassTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.ParallelGroupClassTests<ParallelGroup> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
-
-        @Override
-        public Class<ParallelGroup> createNewSUT() {
-            return ParallelGroup.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class SequentialGroupClassTest
-    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests<SequentialGroup> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
-
-        @Override
-        public Class<SequentialGroup> createNewSUT() {
-            return SequentialGroup.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
-
-    }
 
     @RunWith(J8Unit4.class)
     public static class AlignmentClassTest
@@ -145,7 +102,60 @@ implements org.j8unit.repository.javax.swing.GroupLayoutClassTests<GroupLayout> 
             // write some test for {@link javax.swing.GroupLayout.Alignment#valueOf(String)}
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GroupLayout$Alignment]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$Alignment]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class ParallelGroupClassTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.ParallelGroupClassTests<ParallelGroup> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
+
+        @Override
+        public Class<ParallelGroup> createNewSUT() {
+            return ParallelGroup.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$ParallelGroup]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class GroupClassTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<Group> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$Group]
+
+        @Override
+        public Class<Group> createNewSUT() {
+            return Group.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GroupLayout$Group]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$Group]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class SequentialGroupClassTest
+    implements org.j8unit.repository.javax.swing.GroupLayoutClassTests.SequentialGroupClassTests<SequentialGroup> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
+
+        @Override
+        public Class<SequentialGroup> createNewSUT() {
+            return SequentialGroup.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GroupLayout$SequentialGroup]
 
     }
 

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TemporalAmount.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalAmount]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalAmount]
 
 }

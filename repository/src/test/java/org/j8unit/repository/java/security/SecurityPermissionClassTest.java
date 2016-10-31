@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.security.SecurityPermissionClassTests<Secu
         final SecurityPermission sut = null; // = new SecurityPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SecurityPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SecurityPermission]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLPeerUnverifiedExceptionClassTe
         final SSLPeerUnverifiedException sut = null; // = new SSLPeerUnverifiedException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLPeerUnverifiedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLPeerUnverifiedException]
 
 }

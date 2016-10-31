@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperCl
         // org.omg.PortableInterceptor.AdapterNameHelper#write(org.omg.CORBA.portable.OutputStream, String[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.AdapterNameHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.AdapterNameHelper]
 
 }

@@ -468,8 +468,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.MessageFormat]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.MessageFormat]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.MessageFormat]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -495,8 +496,9 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.MessageFormat$Field]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.MessageFormat$Field]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.MessageFormat$Field]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.MessageFormat$Field]
     }
 
 }

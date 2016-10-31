@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.border.BorderClassTests<Border> {
         return Border.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.Border]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.Border]
 
 }

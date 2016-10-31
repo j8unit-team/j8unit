@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    RMIClassLoader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMIClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMIClassLoader]
 
 }

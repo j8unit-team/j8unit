@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalTests<X50
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.security.auth.x500.X500Principal], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.x500.X500Principal]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.x500.X500Principal]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.x500.X500Principal]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TrustManagerFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.TrustManagerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.TrustManagerFactory]
 
 }

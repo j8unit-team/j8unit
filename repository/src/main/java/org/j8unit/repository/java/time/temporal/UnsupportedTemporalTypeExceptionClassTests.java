@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {
                    UnsupportedTemporalTypeException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.UnsupportedTemporalTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.UnsupportedTemporalTypeException]
 
 }

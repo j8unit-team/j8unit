@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    MXBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MXBean]
 
 }

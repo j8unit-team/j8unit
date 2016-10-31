@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.ValueHandlerMultiFormatClassTes
         return ValueHandlerMultiFormat.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.ValueHandlerMultiFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.ValueHandlerMultiFormat]
 
 }

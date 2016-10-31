@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<ZipInput
         final ZipInputStream sut = null; // = new ZipInputStream(java.io.InputStream, java.nio.charset.Charset);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipInputStream]
 
 }

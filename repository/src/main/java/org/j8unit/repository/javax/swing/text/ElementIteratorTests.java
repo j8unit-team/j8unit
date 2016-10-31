@@ -164,6 +164,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.ElementIterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.ElementIterator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.ElementIterator]
 }

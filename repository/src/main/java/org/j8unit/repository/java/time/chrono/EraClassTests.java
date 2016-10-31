@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Era.class!", Era.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.Era]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.Era]
 
 }

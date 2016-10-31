@@ -72,6 +72,8 @@ implements org.j8unit.repository.javax.management.relation.RelationNotificationC
                                                // java.util.List);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.RelationNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.RelationNotification]
 
 }

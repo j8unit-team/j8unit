@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    NamingException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NamingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NamingException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ARG_INOUT.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ARG_INOUT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ARG_INOUT]
 
 }

@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<IndexOutOfBoundsException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IndexOutOfBoundsException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.IndexOutOfBoundsException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.IndexOutOfBoundsException]
 
 }

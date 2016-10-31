@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Comparator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Comparator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Comparator]
 
 }

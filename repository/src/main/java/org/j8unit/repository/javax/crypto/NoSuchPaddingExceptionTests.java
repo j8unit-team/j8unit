@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
 }

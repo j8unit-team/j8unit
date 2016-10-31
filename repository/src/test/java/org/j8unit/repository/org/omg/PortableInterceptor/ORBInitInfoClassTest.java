@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoClassTes
         return ORBInitInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfo]
 
 }

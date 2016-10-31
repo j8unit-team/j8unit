@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.management.MemoryUsageClassTests<Memo
         // write some test for {@link java.lang.management.MemoryUsage#from(javax.management.openmbean.CompositeData)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.MemoryUsage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.MemoryUsage]
 
 }

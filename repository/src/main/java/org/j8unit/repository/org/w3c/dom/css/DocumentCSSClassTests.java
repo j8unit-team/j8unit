@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.DocumentStyleClassTests<SU
                    DocumentCSS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.DocumentCSS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.DocumentCSS]
 
 }

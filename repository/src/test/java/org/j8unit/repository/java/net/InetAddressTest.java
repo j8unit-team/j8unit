@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.net.InetAddressTests<InetAddress> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.net.InetAddress], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.InetAddress]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.InetAddress]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.InetAddress]
 
 }

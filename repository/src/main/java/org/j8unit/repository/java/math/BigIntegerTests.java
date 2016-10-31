@@ -1054,6 +1054,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigInteger>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.BigInteger]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.math.BigInteger]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.math.BigInteger]
 }

@@ -58,6 +58,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.remote.JMXConnectorProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.remote.JMXConnectorProvider]
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.FutureClassTests<Future> {
         return Future.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.Future]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.Future]
 
 }

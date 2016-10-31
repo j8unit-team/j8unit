@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.ShortHolderClassTests<ShortHolder
         final ShortHolder sut = new ShortHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ShortHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ShortHolder]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<RemoteException>, org.j8unit.repository.java.r
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RemoteException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.RemoteException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.RemoteException]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.Co
         final CookieHolder sut = new CookieHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantLocatorPackage.CookieHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantLocatorPackage.CookieHolder]
 
 }

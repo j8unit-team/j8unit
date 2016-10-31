@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DoubleToLongFunction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.DoubleToLongFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.DoubleToLongFunction]
 
 }

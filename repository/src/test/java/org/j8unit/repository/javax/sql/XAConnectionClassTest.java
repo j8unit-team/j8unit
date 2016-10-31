@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.XAConnectionClassTests<XAConnection> 
         return XAConnection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.XAConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.XAConnection]
 
 }

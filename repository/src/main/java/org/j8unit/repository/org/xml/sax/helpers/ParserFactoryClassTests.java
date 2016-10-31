@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ParserFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.ParserFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.ParserFactory]
 
 }

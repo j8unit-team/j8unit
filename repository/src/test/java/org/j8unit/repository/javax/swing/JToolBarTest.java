@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<JToolBar>, org.j8unit.repository.javax.swing.J
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolBar]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToolBar]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolBar]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<JToolBar>, org.j8unit.repository.javax.swing.J
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolBar$Separator]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JToolBar$Separator]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JToolBar$Separator]
 
     }
 

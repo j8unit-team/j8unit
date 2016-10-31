@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.SupportedOptionsCla
         return SupportedOptions.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.SupportedOptions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.SupportedOptions]
 
 }

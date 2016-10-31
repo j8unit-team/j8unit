@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.RequestingUserNa
         final RequestingUserName sut = null; // = new RequestingUserName(String, java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.RequestingUserName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.RequestingUserName]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.stylesheets.LinkStyleClassTests<Lin
         return LinkStyle.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.stylesheets.LinkStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.stylesheets.LinkStyle]
 
 }

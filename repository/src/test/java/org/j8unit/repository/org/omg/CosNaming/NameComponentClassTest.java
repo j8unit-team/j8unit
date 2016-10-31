@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NameComponentClassTests<NameC
         final NameComponent sut = null; // = new NameComponent(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NameComponent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameComponent]
 
 }

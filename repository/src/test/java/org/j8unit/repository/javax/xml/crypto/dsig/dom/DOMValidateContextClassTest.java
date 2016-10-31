@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMValidateContextCla
                                              // org.w3c.dom.Node);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
 
 }

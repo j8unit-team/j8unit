@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.CanvasPeerClassTests<CanvasPeer> 
         return CanvasPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.CanvasPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.CanvasPeer]
 
 }

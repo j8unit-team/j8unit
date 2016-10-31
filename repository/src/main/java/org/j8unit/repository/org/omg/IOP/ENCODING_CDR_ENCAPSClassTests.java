@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ENCODING_CDR_ENCAPS.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.ENCODING_CDR_ENCAPS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.ENCODING_CDR_ENCAPS]
 
 }

@@ -69,6 +69,8 @@ org.j8unit.repository.java.nio.BufferClassTests<SUT> {
                    CharBuffer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.CharBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.CharBuffer]
 
 }

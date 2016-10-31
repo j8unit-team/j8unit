@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.time.format.FormatStyleTests<FormatStyle> 
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.FormatStyle]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.format.FormatStyle]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.FormatStyle]
 
 }

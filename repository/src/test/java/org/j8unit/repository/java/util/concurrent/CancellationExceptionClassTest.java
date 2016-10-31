@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.CancellationExceptionClass
         final CancellationException sut = null; // = new CancellationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CancellationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CancellationException]
 
 }

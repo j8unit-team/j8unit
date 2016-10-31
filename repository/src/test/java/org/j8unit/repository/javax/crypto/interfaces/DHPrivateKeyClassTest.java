@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.crypto.interfaces.DHPrivateKeyClassTests<
         return DHPrivateKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.interfaces.DHPrivateKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.interfaces.DHPrivateKey]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ProcessingEnvironment.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.ProcessingEnvironment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.ProcessingEnvironment]
 
 }

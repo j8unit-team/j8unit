@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    Oneway.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.Oneway]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.Oneway]
 
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.io.EOFExceptionClassTests<EOFException> {
         final EOFException sut = null; // = new EOFException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.EOFException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.EOFException]
 
 }

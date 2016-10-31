@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyTab.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.KeyTab]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KeyTab]
 
 }

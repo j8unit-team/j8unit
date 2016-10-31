@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReadWriteLockClassTe
         return ReadWriteLock.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.locks.ReadWriteLock]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReadWriteLock]
 
 }

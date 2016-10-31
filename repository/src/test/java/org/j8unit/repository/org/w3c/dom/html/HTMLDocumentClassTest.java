@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLDocumentClassTests<HTMLDoc
         return HTMLDocument.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLDocument]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLDocument]
 
 }

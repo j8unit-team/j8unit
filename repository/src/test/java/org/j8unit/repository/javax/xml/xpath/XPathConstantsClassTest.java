@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.xpath.XPathConstantsClassTests<XPathC
         return XPathConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.xpath.XPathConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.xpath.XPathConstants]
 
 }

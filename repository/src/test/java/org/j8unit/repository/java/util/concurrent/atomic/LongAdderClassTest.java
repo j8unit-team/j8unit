@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.LongAdderClassTests
         final LongAdder sut = new LongAdder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.LongAdder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.LongAdder]
 
 }

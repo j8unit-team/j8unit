@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.transaction.xa.XidClassTests<Xid> {
         return Xid.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.transaction.xa.Xid]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.transaction.xa.Xid]
 
 }

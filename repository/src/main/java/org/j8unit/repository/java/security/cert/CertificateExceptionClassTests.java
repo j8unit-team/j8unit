@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    CertificateException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateException]
 
 }

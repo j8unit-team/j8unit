@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.geom.NoninvertibleTransformExceptionCl
         final NoninvertibleTransformException sut = null; // = new NoninvertibleTransformException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.NoninvertibleTransformException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.NoninvertibleTransformException]
 
 }

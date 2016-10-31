@@ -36,29 +36,6 @@ extends RepositoryTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.accessibility.AccessibleStreamable#getStream(java.awt.datatransfer.DataFlavor) public abstract
-     * java.io.InputStream javax.accessibility.AccessibleStreamable.getStream(java.awt.datatransfer.DataFlavor)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStream_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.accessibility.AccessibleStreamable#getMimeTypes() public abstract java.awt.datatransfer.DataFlavor[]
      * javax.accessibility.AccessibleStreamable.getMimeTypes()}.
      *
@@ -79,6 +56,30 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleStreamable]
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.accessibility.AccessibleStreamable#getStream(java.awt.datatransfer.DataFlavor) public abstract
+     * java.io.InputStream javax.accessibility.AccessibleStreamable.getStream(java.awt.datatransfer.DataFlavor)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStream_DataFlavor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.accessibility.AccessibleStreamable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.accessibility.AccessibleStreamable]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.applet.AudioClipClassTests<AudioClip> {
         return AudioClip.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.applet.AudioClip]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.applet.AudioClip]
 
 }

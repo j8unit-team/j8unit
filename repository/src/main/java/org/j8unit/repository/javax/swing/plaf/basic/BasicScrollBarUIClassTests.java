@@ -70,6 +70,8 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUIClassTests<SUT> {
                    BasicScrollBarUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUIClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PropertyChangeHandler.class!",
                               PropertyChangeHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
 

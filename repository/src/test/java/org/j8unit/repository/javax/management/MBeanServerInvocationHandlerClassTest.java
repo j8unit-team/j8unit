@@ -95,6 +95,8 @@ implements org.j8unit.repository.javax.management.MBeanServerInvocationHandlerCl
         // javax.management.ObjectName, Class, boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerInvocationHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerInvocationHandler]
 
 }

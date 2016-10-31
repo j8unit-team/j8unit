@@ -134,6 +134,8 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshalExceptionClassTests<Unm
         final UnmarshalException sut = null; // = new UnmarshalException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.UnmarshalException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.UnmarshalException]
 
 }

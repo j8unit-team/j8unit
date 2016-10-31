@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorClassTests<Bin
         return BindingIterator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingIterator]
 
 }

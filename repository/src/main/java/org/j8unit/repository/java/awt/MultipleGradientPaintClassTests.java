@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
                    MultipleGradientPaint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MultipleGradientPaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ColorSpaceType.class!",
                               ColorSpaceType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CycleMethod.class!",
                               CycleMethod.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]
 

@@ -56,8 +56,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#createContext(byte[])
-     * public abstract org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(byte[]) throws
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createContext(org.ietf.jgss.GSSCredential) public abstract
+     * org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(org.ietf.jgss.GSSCredential) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -70,7 +71,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createContext_byteArray()
+    public default void test_createContext_GSSCredential()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,9 +105,8 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSManager#createContext(org.ietf.jgss.GSSCredential) public abstract
-     * org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(org.ietf.jgss.GSSCredential) throws
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#createContext(byte[])
+     * public abstract org.ietf.jgss.GSSContext org.ietf.jgss.GSSManager.createContext(byte[]) throws
      * org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -119,7 +119,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createContext_GSSCredential()
+    public default void test_createContext_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,6 +167,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMechsForName_Oid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#createCredential(int)
+     * public abstract org.ietf.jgss.GSSCredential org.ietf.jgss.GSSManager.createCredential(int) throws
+     * org.ietf.jgss.GSSException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCredential_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -225,9 +248,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.ietf.jgss.GSSManager#createCredential(int)
-     * public abstract org.ietf.jgss.GSSCredential org.ietf.jgss.GSSManager.createCredential(int) throws
-     * org.ietf.jgss.GSSException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link org.ietf.jgss.GSSManager#createName(String, org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
+     * org.ietf.jgss.GSSManager.createName(java.lang.String,org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -239,7 +262,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createCredential_int()
+    public default void test_createName_String_Oid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -320,29 +343,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.ietf.jgss.GSSManager#createName(String, org.ietf.jgss.Oid) public abstract org.ietf.jgss.GSSName
-     * org.ietf.jgss.GSSManager.createName(java.lang.String,org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createName_String_Oid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.ietf.jgss.GSSManager#addProviderAtFront(java.security.Provider, org.ietf.jgss.Oid) public abstract
      * void org.ietf.jgss.GSSManager.addProviderAtFront(java.security.Provider,org.ietf.jgss.Oid) throws
      * org.ietf.jgss.GSSException}.
@@ -387,6 +387,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.GSSManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSManager]
 }

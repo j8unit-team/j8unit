@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.security.auth.callback.CallbackHandlerCla
         return CallbackHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.CallbackHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.CallbackHandler]
 
 }

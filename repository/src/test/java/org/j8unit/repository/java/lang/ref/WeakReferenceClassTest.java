@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.lang.ref.WeakReferenceClassTests<WeakRefer
         final WeakReference sut = null; // = new WeakReference(Object, java.lang.ref.ReferenceQueue);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ref.WeakReference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ref.WeakReference]
 
 }

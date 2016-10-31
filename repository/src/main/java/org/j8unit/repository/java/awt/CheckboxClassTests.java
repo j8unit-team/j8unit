@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
                    Checkbox.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Checkbox]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Checkbox]
 
 }

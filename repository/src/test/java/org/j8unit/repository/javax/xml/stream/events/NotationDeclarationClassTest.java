@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.events.NotationDeclarationClas
         return NotationDeclaration.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.NotationDeclaration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.NotationDeclaration]
 
 }

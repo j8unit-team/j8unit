@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.DoubleSeqHolderClassTests<DoubleS
         final DoubleSeqHolder sut = new DoubleSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DoubleSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DoubleSeqHolder]
 
 }

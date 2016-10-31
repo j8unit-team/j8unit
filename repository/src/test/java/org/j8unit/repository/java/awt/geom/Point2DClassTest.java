@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
         // write some test for {@link java.awt.geom.Point2D#distanceSq(double, double, double, double)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D]
 
     @RunWith(J8Unit4.class)
@@ -119,6 +121,8 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D$Double]
 
@@ -177,6 +181,8 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
             @SuppressWarnings("unused")
             final Float sut = null; // = new Float(float, float);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D$Float]
 

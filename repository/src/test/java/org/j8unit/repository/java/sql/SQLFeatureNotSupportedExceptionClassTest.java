@@ -204,6 +204,8 @@ implements org.j8unit.repository.java.sql.SQLFeatureNotSupportedExceptionClassTe
         final SQLFeatureNotSupportedException sut = null; // = new SQLFeatureNotSupportedException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLFeatureNotSupportedException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLFeatureNotSupportedException]
 
 }

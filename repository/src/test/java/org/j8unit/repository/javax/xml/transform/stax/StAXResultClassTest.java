@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.transform.stax.StAXResultClassTests<S
         final StAXResult sut = null; // = new StAXResult(javax.xml.stream.XMLEventWriter);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.stax.StAXResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.stax.StAXResult]
 
 }

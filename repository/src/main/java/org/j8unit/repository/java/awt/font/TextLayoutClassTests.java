@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    TextLayout.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextLayout]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to CaretPolicy.class!",
                               CaretPolicy.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.TextLayout$CaretPolicy]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextLayout$CaretPolicy]
 

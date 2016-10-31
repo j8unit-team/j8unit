@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.InlineViewClassTests<Inli
         final InlineView sut = null; // = new InlineView(javax.swing.text.Element);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.InlineView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.InlineView]
 
 }

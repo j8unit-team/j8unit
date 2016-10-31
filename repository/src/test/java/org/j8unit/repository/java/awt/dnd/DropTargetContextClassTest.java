@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetContextClassTests<DropTa
         return DropTargetContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DropTargetContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DropTargetContext]
 
 }

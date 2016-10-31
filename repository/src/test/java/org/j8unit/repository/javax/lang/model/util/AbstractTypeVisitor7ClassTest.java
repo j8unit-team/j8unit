@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor7Class
         return AbstractTypeVisitor7.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.util.AbstractTypeVisitor7]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.util.AbstractTypeVisitor7]
 
 }

@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.security.DigestExceptionClassTests<DigestE
         final DigestException sut = new DigestException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.DigestException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DigestException]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AlreadyBoundException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.AlreadyBoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.AlreadyBoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.AlreadyBoundException]
 
 }

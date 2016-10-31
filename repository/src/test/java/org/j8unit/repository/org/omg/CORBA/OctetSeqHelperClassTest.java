@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeq
         // write some test for {@link org.omg.CORBA.OctetSeqHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.OctetSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.OctetSeqHelper]
 
 }

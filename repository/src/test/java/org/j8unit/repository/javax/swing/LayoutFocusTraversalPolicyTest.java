@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LayoutFocusTraversalPolicy>, org.j8unit.reposi
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.LayoutFocusTraversalPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.LayoutFocusTraversalPolicy]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.LayoutFocusTraversalPolicy]
 
 }

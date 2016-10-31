@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleActionClassTests<
         return AccessibleAction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleAction]
 
 }

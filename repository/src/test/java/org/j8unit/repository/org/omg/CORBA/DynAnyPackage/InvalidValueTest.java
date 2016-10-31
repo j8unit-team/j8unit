@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InvalidValue>, org.j8unit.repository.org.omg.C
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynAnyPackage.InvalidValue]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.DynAnyPackage.InvalidValue]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.DynAnyPackage.InvalidValue]
 
 }

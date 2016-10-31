@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<Parameter>, org.j8unit.repository.org.omg.Dyna
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.Dynamic.Parameter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.Dynamic.Parameter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.Dynamic.Parameter]
 
 }

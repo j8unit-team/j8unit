@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.lang.model.type.TypeKindTests<TypeKind> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.type.TypeKind]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.type.TypeKind]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.TypeKind]
 
 }

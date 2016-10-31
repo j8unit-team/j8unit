@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.nio.file.LinkOptionTests<LinkOption> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.LinkOption]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.LinkOption]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.LinkOption]
 
 }

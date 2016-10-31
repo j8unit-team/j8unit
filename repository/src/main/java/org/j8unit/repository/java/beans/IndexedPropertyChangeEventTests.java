@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.beans.PropertyChangeEventTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.IndexedPropertyChangeEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.IndexedPropertyChangeEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.IndexedPropertyChangeEvent]
 }

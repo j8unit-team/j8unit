@@ -125,6 +125,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.Invocable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.Invocable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.Invocable]
 }

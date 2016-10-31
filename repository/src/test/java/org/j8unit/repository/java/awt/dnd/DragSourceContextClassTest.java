@@ -46,6 +46,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceContextClassTests<DragSo
                                             // java.awt.dnd.DragSourceListener);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragSourceContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSourceContext]
 
 }

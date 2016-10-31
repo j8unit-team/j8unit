@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelp
         // write some test for {@link org.omg.CosNaming.NameHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NameHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NameHelper]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.UndoableEditListenerClassTest
         return UndoableEditListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.UndoableEditListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.UndoableEditListener]
 
 }

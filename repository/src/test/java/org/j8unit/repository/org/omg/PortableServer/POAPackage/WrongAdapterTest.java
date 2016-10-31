@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<WrongAdapter>, org.j8unit.repository.org.omg.P
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongAdapter]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongAdapter]
 
 }

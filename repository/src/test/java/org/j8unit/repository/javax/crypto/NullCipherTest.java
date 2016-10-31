@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NullCipher>, org.j8unit.repository.javax.crypt
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NullCipher]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.NullCipher]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.NullCipher]
 
 }

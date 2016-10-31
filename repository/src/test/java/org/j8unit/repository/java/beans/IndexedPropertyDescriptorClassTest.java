@@ -96,6 +96,8 @@ implements org.j8unit.repository.java.beans.IndexedPropertyDescriptorClassTests<
         final IndexedPropertyDescriptor sut = null; // = new IndexedPropertyDescriptor(String, Class);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.IndexedPropertyDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.IndexedPropertyDescriptor]
 
 }

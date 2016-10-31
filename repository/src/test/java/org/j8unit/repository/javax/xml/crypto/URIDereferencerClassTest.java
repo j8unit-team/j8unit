@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.URIDereferencerClassTests<URID
         return URIDereferencer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.URIDereferencer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.URIDereferencer]
 
 }

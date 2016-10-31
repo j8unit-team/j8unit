@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.rmi.CORBA.TieClassTests<Tie> {
         return Tie.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.CORBA.Tie]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.CORBA.Tie]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.MultiDocPrintJobClassTests<MultiDoc
         return MultiDocPrintJob.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.MultiDocPrintJob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.MultiDocPrintJob]
 
 }

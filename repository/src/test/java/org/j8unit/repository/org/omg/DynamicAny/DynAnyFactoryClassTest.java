@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryClassTests<DynA
         return DynAnyFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyFactory]
 
 }

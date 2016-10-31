@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.LineUnavailableException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.LineUnavailableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.LineUnavailableException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.LineUnavailableException]
 }

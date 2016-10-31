@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.security.AlgorithmParametersSpiClassTests<
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AlgorithmParametersSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AlgorithmParametersSpi]
 
 }

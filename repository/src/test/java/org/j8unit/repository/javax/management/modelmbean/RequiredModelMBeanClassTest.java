@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanC
         final RequiredModelMBean sut = null; // = new RequiredModelMBean(javax.management.modelmbean.ModelMBeanInfo);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
                    ClosedFileSystemException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.ClosedFileSystemException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.ClosedFileSystemException]
 
 }

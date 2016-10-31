@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.InstantiationErrorClassTests<Instanti
         final InstantiationError sut = null; // = new InstantiationError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InstantiationError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InstantiationError]
 
 }

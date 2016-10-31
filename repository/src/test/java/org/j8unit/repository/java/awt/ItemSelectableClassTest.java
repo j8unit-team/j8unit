@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.ItemSelectableClassTests<ItemSelectabl
         return ItemSelectable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.ItemSelectable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.ItemSelectable]
 
 }

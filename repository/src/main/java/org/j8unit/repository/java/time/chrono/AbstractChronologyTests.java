@@ -151,6 +151,7 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.AbstractChronology]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.AbstractChronology]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.chrono.AbstractChronology]
 }

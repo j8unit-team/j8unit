@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.AlreadyBoundExceptionClassTes
         final AlreadyBoundException sut = new AlreadyBoundException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AlreadyBoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AlreadyBoundException]
 
 }

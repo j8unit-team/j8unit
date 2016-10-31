@@ -205,6 +205,8 @@ implements org.j8unit.repository.java.util.stream.IntStreamClassTests<IntStream>
         // write some test for {@link java.util.stream.IntStream#empty()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.IntStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.IntStream]
 
     @RunWith(J8Unit4.class)
@@ -217,6 +219,8 @@ implements org.j8unit.repository.java.util.stream.IntStreamClassTests<IntStream>
         public Class<Builder> createNewSUT() {
             return Builder.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.IntStream$Builder]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.IntStream$Builder]
 

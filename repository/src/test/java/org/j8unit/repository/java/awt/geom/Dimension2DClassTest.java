@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.geom.Dimension2DClassTests<Dimension2D
         return Dimension2D.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Dimension2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Dimension2D]
 
 }

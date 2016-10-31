@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.image.BufferedImageFilterClassTests<Bu
         final BufferedImageFilter sut = null; // = new BufferedImageFilter(java.awt.image.BufferedImageOp);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BufferedImageFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImageFilter]
 
 }

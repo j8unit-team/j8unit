@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.AsynchronousCloseExceptionCla
         final AsynchronousCloseException sut = new AsynchronousCloseException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AsynchronousCloseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousCloseException]
 
 }

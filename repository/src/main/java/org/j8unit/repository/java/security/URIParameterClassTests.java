@@ -68,6 +68,8 @@ org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.Paramete
                    URIParameter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.URIParameter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.URIParameter]
 
 }

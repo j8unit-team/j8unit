@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameTitleP
         final MetalInternalFrameTitlePane sut = null; // = new MetalInternalFrameTitlePane(javax.swing.JInternalFrame);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
 
 }

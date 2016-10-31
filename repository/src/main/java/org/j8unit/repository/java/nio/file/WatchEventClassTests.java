@@ -70,6 +70,8 @@ extends RepositoryClassTests<SUT> {
                    WatchEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent]
 
     /**
@@ -131,6 +133,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Modifier.class!",
                               Modifier.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
 
@@ -195,6 +199,8 @@ extends RepositoryClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Kind.class!",
                               Kind.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchEvent$Kind]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Kind]
 

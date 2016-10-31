@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.print.PrinterIOExceptionClassTests<Pri
         final PrinterIOException sut = null; // = new PrinterIOException(java.io.IOException);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.print.PrinterIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.print.PrinterIOException]
 
 }

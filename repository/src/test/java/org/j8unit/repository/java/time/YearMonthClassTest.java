@@ -83,26 +83,6 @@ implements org.j8unit.repository.java.time.YearMonthClassTests<YearMonth> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.YearMonth#now() public static
-     * java.time.YearMonth java.time.YearMonth.now()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_now()
-    throws Exception {
-        // write some test for {@link java.time.YearMonth#now()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.YearMonth#now(java.time.ZoneId) public
      * static java.time.YearMonth java.time.YearMonth.now(java.time.ZoneId)}.
      *
@@ -119,6 +99,26 @@ implements org.j8unit.repository.java.time.YearMonthClassTests<YearMonth> {
     public void test_now_ZoneId()
     throws Exception {
         // write some test for {@link java.time.YearMonth#now(java.time.ZoneId)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.YearMonth#now() public static
+     * java.time.YearMonth java.time.YearMonth.now()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_now()
+    throws Exception {
+        // write some test for {@link java.time.YearMonth#now()}
     }
 
     /**
@@ -180,6 +180,8 @@ implements org.j8unit.repository.java.time.YearMonthClassTests<YearMonth> {
     throws Exception {
         // write some test for {@link java.time.YearMonth#of(int, java.time.Month)}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.YearMonth]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.YearMonth]
 

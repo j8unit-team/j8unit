@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUIClassT
         // write some test for {@link javax.swing.plaf.basic.BasicDesktopIconUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI]
 
     @RunWith(J8Unit4.class)
@@ -99,6 +101,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUIClassT
             @SuppressWarnings("unused")
             final MouseInputHandler sut = null; // = new MouseInputHandler(javax.swing.plaf.basic.BasicDesktopIconUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler]
 

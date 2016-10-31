@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
         // write some test for {@link javax.swing.plaf.basic.BasicProgressBarUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
 
     @RunWith(J8Unit4.class)
@@ -98,6 +100,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
             @SuppressWarnings("unused")
             final ChangeHandler sut = null; // = new ChangeHandler(javax.swing.plaf.basic.BasicProgressBarUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler]
 

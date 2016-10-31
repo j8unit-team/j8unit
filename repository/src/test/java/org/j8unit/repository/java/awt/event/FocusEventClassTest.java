@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.awt.event.FocusEventClassTests<FocusEvent>
         final FocusEvent sut = null; // = new FocusEvent(java.awt.Component, int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.FocusEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.FocusEvent]
 
 }

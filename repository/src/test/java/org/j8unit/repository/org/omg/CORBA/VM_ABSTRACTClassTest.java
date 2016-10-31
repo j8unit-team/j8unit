@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.VM_ABSTRACTClassTests<VM_ABSTRACT
         return VM_ABSTRACT.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.VM_ABSTRACT]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.VM_ABSTRACT]
 
 }

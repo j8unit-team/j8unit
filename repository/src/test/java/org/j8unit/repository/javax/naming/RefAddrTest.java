@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.RefAddrTests<RefAddr> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.naming.RefAddr], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.RefAddr]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.RefAddr]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.RefAddr]
 
 }

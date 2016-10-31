@@ -128,6 +128,7 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.ComponentAdapter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.event.ComponentAdapter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.event.ComponentAdapter]
 }

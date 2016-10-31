@@ -66,6 +66,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
         final CannotProceedHolder sut = new CannotProceedHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHolder]
 
 }

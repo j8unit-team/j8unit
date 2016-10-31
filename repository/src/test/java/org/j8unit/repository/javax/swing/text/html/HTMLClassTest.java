@@ -146,6 +146,8 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
         // write some test for {@link javax.swing.text.html.HTML#getAttributeKey(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML]
 
     @RunWith(J8Unit4.class)
@@ -182,7 +184,26 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
             final UnknownTag sut = null; // = new UnknownTag(String);
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class AttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        @Override
+        public Class<Attribute> createNewSUT() {
+            return Attribute.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
 
     }
 
@@ -218,22 +239,9 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
             final Tag sut = new Tag();
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Tag]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class AttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-        @Override
-        public Class<Attribute> createNewSUT() {
-            return Attribute.class;
-        }
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
 
     }
 

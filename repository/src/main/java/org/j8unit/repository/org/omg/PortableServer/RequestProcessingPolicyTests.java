@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyOper
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicy]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicy]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.RequestProcessingPolicy]
 }

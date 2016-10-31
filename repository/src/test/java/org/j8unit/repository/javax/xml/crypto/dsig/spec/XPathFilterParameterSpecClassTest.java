@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathFilterParameter
         final XPathFilterParameterSpec sut = null; // = new XPathFilterParameterSpec(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilterParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathFilterParameterSpec]
 
 }

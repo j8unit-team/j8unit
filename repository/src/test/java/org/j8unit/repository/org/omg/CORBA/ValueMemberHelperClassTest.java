@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberHelperClassTests<Value
         // write some test for {@link org.omg.CORBA.ValueMemberHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ValueMemberHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ValueMemberHelper]
 
 }

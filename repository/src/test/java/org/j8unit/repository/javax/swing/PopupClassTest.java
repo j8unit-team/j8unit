@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.PopupClassTests<Popup> {
         return Popup.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.Popup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Popup]
 
 }

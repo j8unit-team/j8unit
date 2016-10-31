@@ -57,6 +57,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.CompositeDataView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.CompositeDataView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.CompositeDataView]
 }

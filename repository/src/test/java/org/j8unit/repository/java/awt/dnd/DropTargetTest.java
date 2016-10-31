@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DropTarget>, org.j8unit.repository.java.awt.dn
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DropTarget]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DropTarget]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DropTarget]
 
 }

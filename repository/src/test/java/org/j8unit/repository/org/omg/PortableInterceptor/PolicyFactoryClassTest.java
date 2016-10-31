@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryClassT
         return PolicyFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.PolicyFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.PolicyFactory]
 
 }

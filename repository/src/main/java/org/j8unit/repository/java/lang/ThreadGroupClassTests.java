@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandle
                    ThreadGroup.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ThreadGroup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ThreadGroup]
 
 }

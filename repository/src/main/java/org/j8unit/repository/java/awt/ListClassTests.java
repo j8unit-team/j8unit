@@ -67,6 +67,8 @@ org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to List.class!", List.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.List]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.List]
 
 }

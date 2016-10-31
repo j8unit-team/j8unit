@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.AncestorListenerClassTests<An
         return AncestorListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.AncestorListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.AncestorListener]
 
 }

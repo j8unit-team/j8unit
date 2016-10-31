@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPElementFactoryClassTests<SOA
         // write some test for {@link javax.xml.soap.SOAPElementFactory#newInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPElementFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPElementFactory]
 
 }

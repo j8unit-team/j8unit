@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.TransientClassTests<Transient> {
         return Transient.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Transient]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Transient]
 
 }

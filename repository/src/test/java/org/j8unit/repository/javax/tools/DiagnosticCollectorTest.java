@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DiagnosticCollector<S>>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DiagnosticCollector]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.DiagnosticCollector]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DiagnosticCollector]
 
 }

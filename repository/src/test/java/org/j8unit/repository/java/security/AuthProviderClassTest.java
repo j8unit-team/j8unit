@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.AuthProviderClassTests<AuthProvid
         return AuthProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AuthProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AuthProvider]
 
 }

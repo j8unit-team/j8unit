@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.TextClassTests<Text> {
         return Text.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.Text]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.Text]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.undo.UndoManagerClassTests<UndoMana
         final UndoManager sut = new UndoManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.UndoManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.UndoManager]
 
 }

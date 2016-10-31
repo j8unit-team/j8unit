@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.QueryExpClassTests<QueryExp> {
         return QueryExp.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.QueryExp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.QueryExp]
 
 }

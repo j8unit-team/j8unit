@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.DefaultListModelClassTests<DefaultL
         final DefaultListModel sut = new DefaultListModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultListModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultListModel]
 
 }

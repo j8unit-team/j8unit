@@ -201,6 +201,8 @@ implements org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SQL
         final SQLNonTransientException sut = null; // = new SQLNonTransientException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLNonTransientException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLNonTransientException]
 
 }

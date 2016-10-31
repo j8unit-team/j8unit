@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
                    Current.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.Current]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.Current]
 
 }

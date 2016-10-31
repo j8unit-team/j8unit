@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
                    DirectoryStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.DirectoryStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.DirectoryStream]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Filter.class!",
                               Filter.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.DirectoryStream$Filter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.DirectoryStream$Filter]
 

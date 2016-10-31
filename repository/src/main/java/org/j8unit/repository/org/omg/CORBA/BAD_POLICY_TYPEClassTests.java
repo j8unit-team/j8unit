@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BAD_POLICY_TYPE.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BAD_POLICY_TYPE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BAD_POLICY_TYPE]
 
 }

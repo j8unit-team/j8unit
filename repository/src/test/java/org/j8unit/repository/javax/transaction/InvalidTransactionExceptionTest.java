@@ -32,6 +32,8 @@ org.j8unit.repository.javax.transaction.InvalidTransactionExceptionTests<Invalid
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.InvalidTransactionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.transaction.InvalidTransactionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.InvalidTransactionException]
 
 }

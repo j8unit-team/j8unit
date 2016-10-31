@@ -147,6 +147,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanNotificationInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanNotificationInfo]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanNotificationInfo]
 }

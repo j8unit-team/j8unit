@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.util.concurrent.FutureTests<SUT, T> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Response]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.Response]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.Response]
 }

@@ -43,6 +43,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.ApplicationExceptionClas
                                                // org.omg.CORBA.portable.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.ApplicationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.ApplicationException]
 
 }

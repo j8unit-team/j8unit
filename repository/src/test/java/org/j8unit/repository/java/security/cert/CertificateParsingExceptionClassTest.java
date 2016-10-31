@@ -110,6 +110,8 @@ implements org.j8unit.repository.java.security.cert.CertificateParsingExceptionC
         final CertificateParsingException sut = new CertificateParsingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateParsingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertificateParsingException]
 
 }

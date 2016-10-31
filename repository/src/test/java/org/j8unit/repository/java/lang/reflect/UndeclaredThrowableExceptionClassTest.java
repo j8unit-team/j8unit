@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.lang.reflect.UndeclaredThrowableExceptionC
         final UndeclaredThrowableException sut = null; // = new UndeclaredThrowableException(Throwable, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.UndeclaredThrowableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.UndeclaredThrowableException]
 
 }

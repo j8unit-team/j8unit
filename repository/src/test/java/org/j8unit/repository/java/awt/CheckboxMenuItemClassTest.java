@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.awt.CheckboxMenuItemClassTests<CheckboxMen
         final CheckboxMenuItem sut = new CheckboxMenuItem();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.CheckboxMenuItem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.CheckboxMenuItem]
 
 }

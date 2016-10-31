@@ -108,6 +108,8 @@ implements org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<Etche
         final EtchedBorder sut = null; // = new EtchedBorder(int, java.awt.Color, java.awt.Color);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.EtchedBorder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.EtchedBorder]
 
 }

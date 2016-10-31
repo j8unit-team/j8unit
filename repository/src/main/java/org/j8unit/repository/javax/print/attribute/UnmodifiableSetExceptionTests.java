@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
 }

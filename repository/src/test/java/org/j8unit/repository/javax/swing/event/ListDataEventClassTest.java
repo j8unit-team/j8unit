@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.event.ListDataEventClassTests<ListD
         final ListDataEvent sut = null; // = new ListDataEvent(Object, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ListDataEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ListDataEvent]
 
 }

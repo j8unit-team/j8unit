@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ProtocolException>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.ProtocolException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.ProtocolException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.ProtocolException]
 
 }

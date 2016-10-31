@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.lang.ref.ReferenceClassTests<Reference> {
         return Reference.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ref.Reference]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ref.Reference]
 
 }

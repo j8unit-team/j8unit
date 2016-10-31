@@ -143,6 +143,7 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.SAXParseException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.SAXParseException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.SAXParseException]
 }

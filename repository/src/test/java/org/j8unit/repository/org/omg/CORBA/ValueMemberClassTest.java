@@ -65,6 +65,8 @@ implements org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests<ValueMember
                                       // org.omg.CORBA.IDLType, short);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ValueMember]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ValueMember]
 
 }

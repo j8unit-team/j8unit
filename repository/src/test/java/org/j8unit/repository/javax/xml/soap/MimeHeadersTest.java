@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MimeHeaders>, org.j8unit.repository.javax.xml.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.MimeHeaders]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.MimeHeaders]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.MimeHeaders]
 
 }

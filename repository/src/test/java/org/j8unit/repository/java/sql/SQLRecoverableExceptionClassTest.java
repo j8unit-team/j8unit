@@ -201,6 +201,8 @@ implements org.j8unit.repository.java.sql.SQLRecoverableExceptionClassTests<SQLR
         final SQLRecoverableException sut = null; // = new SQLRecoverableException(String, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.SQLRecoverableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.SQLRecoverableException]
 
 }

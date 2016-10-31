@@ -83,6 +83,8 @@ implements org.j8unit.repository.java.security.KeyFactoryClassTests<KeyFactory> 
         // write some test for {@link java.security.KeyFactory#getInstance(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyFactory]
 
 }

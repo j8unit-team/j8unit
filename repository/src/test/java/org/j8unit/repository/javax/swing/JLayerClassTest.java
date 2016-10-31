@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.swing.JLayerClassTests<JLayer> {
         final JLayer sut = new JLayer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JLayer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JLayer]
 
 }

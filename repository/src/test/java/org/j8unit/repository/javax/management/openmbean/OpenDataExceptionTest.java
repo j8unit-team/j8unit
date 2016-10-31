@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<OpenDataException>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenDataException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenDataException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.openmbean.OpenDataException]
 
 }

@@ -84,6 +84,8 @@ implements org.j8unit.repository.java.nio.file.attribute.PosixFilePermissionsCla
         // write some test for {@link java.nio.file.attribute.PosixFilePermissions#fromString(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.PosixFilePermissions]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.PosixFilePermissions]
 
 }

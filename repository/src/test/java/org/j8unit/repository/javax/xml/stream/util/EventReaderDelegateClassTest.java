@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateClassT
         final EventReaderDelegate sut = null; // = new EventReaderDelegate(javax.xml.stream.XMLEventReader);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.util.EventReaderDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.util.EventReaderDelegate]
 
 }

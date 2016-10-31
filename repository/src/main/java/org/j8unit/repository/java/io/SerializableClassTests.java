@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Serializable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Serializable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Serializable]
 
 }

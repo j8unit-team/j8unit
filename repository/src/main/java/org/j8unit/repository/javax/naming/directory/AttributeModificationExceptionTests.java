@@ -104,6 +104,7 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.AttributeModificationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.AttributeModificationException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.AttributeModificationException]
 }

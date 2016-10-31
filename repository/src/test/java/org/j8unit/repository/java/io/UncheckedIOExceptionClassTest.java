@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.UncheckedIOExceptionClassTests<Unchecke
         final UncheckedIOException sut = null; // = new UncheckedIOException(java.io.IOException);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.UncheckedIOException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.UncheckedIOException]
 
 }

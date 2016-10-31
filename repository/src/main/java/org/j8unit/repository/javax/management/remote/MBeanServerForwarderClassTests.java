@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.MBeanServerClassTests<SUT> {
                    MBeanServerForwarder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.MBeanServerForwarder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.MBeanServerForwarder]
 
 }

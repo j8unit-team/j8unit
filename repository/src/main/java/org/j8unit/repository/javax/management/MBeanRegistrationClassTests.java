@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MBeanRegistration.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanRegistration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanRegistration]
 
 }

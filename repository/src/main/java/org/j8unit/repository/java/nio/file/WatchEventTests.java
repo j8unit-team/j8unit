@@ -101,8 +101,9 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -150,8 +151,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
     }
 
     /**
@@ -223,8 +225,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
     }
 
 }

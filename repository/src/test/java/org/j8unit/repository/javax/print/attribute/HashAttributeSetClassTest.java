@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTest
         final HashAttributeSet sut = null; // = new HashAttributeSet(javax.print.attribute.Attribute);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.HashAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.HashAttributeSet]
 
 }

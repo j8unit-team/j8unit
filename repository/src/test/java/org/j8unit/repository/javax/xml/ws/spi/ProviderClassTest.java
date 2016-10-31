@@ -39,6 +39,8 @@ implements org.j8unit.repository.javax.xml.ws.spi.ProviderClassTests<Provider> {
         // write some test for {@link javax.xml.ws.spi.Provider#provider()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.spi.Provider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.spi.Provider]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    CertPath.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPath]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPath]
 
 }

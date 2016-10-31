@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IllformedLocaleException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.IllformedLocaleException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.IllformedLocaleException]
 }

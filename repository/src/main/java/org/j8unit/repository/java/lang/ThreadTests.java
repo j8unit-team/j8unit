@@ -696,8 +696,9 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Thread]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -746,8 +747,9 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
     }
 
     /**
@@ -775,8 +777,9 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$State]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread$State]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Thread$State]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread$State]
     }
 
 }

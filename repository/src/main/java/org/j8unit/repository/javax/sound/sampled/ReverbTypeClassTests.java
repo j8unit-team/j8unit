@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ReverbType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.ReverbType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.ReverbType]
 
 }

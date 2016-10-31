@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.security.spec.DSAGenParameterSpecClassTest
         final DSAGenParameterSpec sut = null; // = new DSAGenParameterSpec(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.DSAGenParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.DSAGenParameterSpec]
 
 }

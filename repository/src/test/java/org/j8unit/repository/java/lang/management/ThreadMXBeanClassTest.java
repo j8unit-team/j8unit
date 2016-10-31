@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.management.ThreadMXBeanClassTests<Thr
         return ThreadMXBean.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.ThreadMXBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ThreadMXBean]
 
 }

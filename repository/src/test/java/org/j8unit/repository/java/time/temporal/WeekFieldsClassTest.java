@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.time.temporal.WeekFieldsClassTests<WeekFie
         // write some test for {@link java.time.temporal.WeekFields#of(java.util.Locale)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.WeekFields]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.WeekFields]
 
 }

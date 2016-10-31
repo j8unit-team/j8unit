@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ErrorHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ErrorHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ErrorHandler]
 
 }

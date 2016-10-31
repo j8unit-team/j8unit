@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
                    PosixFilePermission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.PosixFilePermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.PosixFilePermission]
 
 }

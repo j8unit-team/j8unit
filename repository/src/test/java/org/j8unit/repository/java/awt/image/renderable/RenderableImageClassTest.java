@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageClassT
         return RenderableImage.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.RenderableImage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderableImage]
 
 }

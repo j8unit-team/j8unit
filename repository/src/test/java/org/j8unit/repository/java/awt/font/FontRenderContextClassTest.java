@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.font.FontRenderContextClassTests<FontR
         final FontRenderContext sut = null; // = new FontRenderContext(java.awt.geom.AffineTransform, Object, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.FontRenderContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.FontRenderContext]
 
 }

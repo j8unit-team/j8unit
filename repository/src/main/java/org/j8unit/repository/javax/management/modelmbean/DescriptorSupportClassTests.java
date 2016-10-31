@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.DescriptorClassTests<SUT>, org.j8
                    DescriptorSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.DescriptorSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.DescriptorSupport]
 
 }

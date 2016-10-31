@@ -101,28 +101,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#getScope() public
-     * java.lang.Class javax.xml.bind.JAXBElement.getScope()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScope()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#isTypeSubstituted()
      * public boolean javax.xml.bind.JAXBElement.isTypeSubstituted()}.
      *
@@ -137,6 +115,28 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_isTypeSubstituted()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.bind.JAXBElement#getScope() public
+     * java.lang.Class javax.xml.bind.JAXBElement.getScope()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScope()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,8 +231,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXBElement]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.JAXBElement]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXBElement]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -258,8 +259,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
     }
 
 }

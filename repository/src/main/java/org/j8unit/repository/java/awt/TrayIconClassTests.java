@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TrayIcon.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.TrayIcon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.TrayIcon]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to MessageType.class!",
                               MessageType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.TrayIcon$MessageType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.TrayIcon$MessageType]
 

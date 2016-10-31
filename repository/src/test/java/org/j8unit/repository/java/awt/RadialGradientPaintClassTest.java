@@ -221,6 +221,8 @@ implements org.j8unit.repository.java.awt.RadialGradientPaintClassTests<RadialGr
                                               // java.awt.geom.AffineTransform);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.RadialGradientPaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.RadialGradientPaint]
 
 }

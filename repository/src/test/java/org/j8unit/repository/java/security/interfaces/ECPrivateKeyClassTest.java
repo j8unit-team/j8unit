@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.ECPrivateKeyClassTests
         return ECPrivateKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.ECPrivateKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.ECPrivateKey]
 
 }

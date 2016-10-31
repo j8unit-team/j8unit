@@ -103,6 +103,8 @@ implements org.j8unit.repository.java.sql.TimeClassTests<Time> {
         // write some test for {@link java.sql.Time#valueOf(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Time]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Time]
 
 }

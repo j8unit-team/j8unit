@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.security.KeyTests<SUT>, org.j8unit.repository
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.SecretKey]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.SecretKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.crypto.SecretKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.crypto.SecretKey]
 }

@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringHolderClassTests<StringHold
         final StringHolder sut = new StringHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.StringHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StringHolder]
 
 }

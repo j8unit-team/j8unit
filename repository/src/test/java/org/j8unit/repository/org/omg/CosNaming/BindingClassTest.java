@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingClassTests<Binding> {
         final Binding sut = null; // = new Binding(org.omg.CosNaming.NameComponent[], org.omg.CosNaming.BindingType);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.Binding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.Binding]
 
 }

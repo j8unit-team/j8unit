@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ArrayDeque<E>>, org.j8unit.repository.java.uti
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ArrayDeque]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ArrayDeque]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ArrayDeque]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Deflater>, org.j8unit.repository.java.util.zip
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Deflater]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.Deflater]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.Deflater]
 
 }

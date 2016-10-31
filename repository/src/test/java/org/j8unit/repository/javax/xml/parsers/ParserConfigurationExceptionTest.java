@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionTests<Parser
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.parsers.ParserConfigurationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.parsers.ParserConfigurationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.parsers.ParserConfigurationException]
 
 }

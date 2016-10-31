@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    KeyManagerFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.KeyManagerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.KeyManagerFactory]
 
 }

@@ -30,8 +30,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Normalizer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -57,8 +58,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer$Form]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer$Form]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.Normalizer$Form]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.Normalizer$Form]
     }
 
 }

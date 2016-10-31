@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT> {
                    DynAny.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynAny]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynAny]
 
 }

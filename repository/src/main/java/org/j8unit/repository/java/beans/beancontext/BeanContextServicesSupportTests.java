@@ -359,6 +359,7 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests, o
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextServicesSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.beancontext.BeanContextServicesSupport]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.beancontext.BeanContextServicesSupport]
 }

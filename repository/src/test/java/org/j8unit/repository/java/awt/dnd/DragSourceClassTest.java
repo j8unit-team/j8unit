@@ -100,6 +100,8 @@ implements org.j8unit.repository.java.awt.dnd.DragSourceClassTests<DragSource> {
         // write some test for {@link java.awt.dnd.DragSource#getDefaultDragSource()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragSource]
 
 }

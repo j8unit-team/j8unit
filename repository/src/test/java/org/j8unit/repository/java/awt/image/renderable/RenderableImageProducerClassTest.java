@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.awt.image.renderable.RenderableImageProduc
                                                   // java.awt.image.renderable.RenderContext);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.renderable.RenderableImageProducer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.renderable.RenderableImageProducer]
 
 }

@@ -59,6 +59,8 @@ implements org.j8unit.repository.java.lang.annotation.ElementTypeClassTests<Elem
         // write some test for {@link java.lang.annotation.ElementType#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.ElementType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.ElementType]
 
 }

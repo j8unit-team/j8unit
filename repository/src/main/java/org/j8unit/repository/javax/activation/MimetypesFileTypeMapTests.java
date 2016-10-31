@@ -103,6 +103,7 @@ extends org.j8unit.repository.javax.activation.FileTypeMapTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
 }

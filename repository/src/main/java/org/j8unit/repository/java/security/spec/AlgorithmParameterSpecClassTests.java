@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AlgorithmParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.AlgorithmParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.AlgorithmParameterSpec]
 
 }

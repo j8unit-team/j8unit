@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.directory.AttributeClassTests<Attr
         return Attribute.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.Attribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.Attribute]
 
 }

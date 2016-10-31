@@ -62,26 +62,6 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLoopbackAddress() public
-     * static java.net.InetAddress java.net.InetAddress.getLoopbackAddress()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getLoopbackAddress()
-    throws Exception {
-        // write some test for {@link java.net.InetAddress#getLoopbackAddress()}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getByAddress(byte[]) public
      * static java.net.InetAddress java.net.InetAddress.getByAddress(byte[]) throws java.net.UnknownHostException}.
      *
@@ -123,6 +103,26 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLoopbackAddress() public
+     * static java.net.InetAddress java.net.InetAddress.getLoopbackAddress()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getLoopbackAddress()
+    throws Exception {
+        // write some test for {@link java.net.InetAddress#getLoopbackAddress()}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.net.InetAddress#getLocalHost() public static
      * java.net.InetAddress java.net.InetAddress.getLocalHost() throws java.net.UnknownHostException}.
      *
@@ -140,6 +140,8 @@ implements org.j8unit.repository.java.net.InetAddressClassTests<InetAddress> {
     throws Exception {
         // write some test for {@link java.net.InetAddress#getLocalHost()}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.InetAddress]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InetAddress]
 

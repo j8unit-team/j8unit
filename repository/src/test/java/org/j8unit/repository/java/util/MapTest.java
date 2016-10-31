@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.util.MapTests<Map<K, V>, K, V> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Map], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Map]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Map]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map]
 
     @RunWith(J8Unit4.class)
     public static class EntryTest<K, V>
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.util.MapTests<Map<K, V>, K, V> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Map.Entry], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Map$Entry]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Map$Entry]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Map$Entry]
 
     }
 

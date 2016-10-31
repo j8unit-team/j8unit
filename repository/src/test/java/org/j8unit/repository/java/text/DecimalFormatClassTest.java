@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.text.DecimalFormatClassTests<DecimalFormat
         final DecimalFormat sut = new DecimalFormat();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.DecimalFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.DecimalFormat]
 
 }

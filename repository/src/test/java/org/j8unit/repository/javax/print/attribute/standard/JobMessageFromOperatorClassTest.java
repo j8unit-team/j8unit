@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobMessageFromOp
         final JobMessageFromOperator sut = null; // = new JobMessageFromOperator(String, java.util.Locale);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobMessageFromOperator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobMessageFromOperator]
 
 }

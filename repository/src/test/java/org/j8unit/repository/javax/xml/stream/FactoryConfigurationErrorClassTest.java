@@ -133,6 +133,8 @@ implements org.j8unit.repository.javax.xml.stream.FactoryConfigurationErrorClass
         final FactoryConfigurationError sut = new FactoryConfigurationError();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.FactoryConfigurationError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.FactoryConfigurationError]
 
 }

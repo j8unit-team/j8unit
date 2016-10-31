@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.event.PrintServiceAttributeListener
         return PrintServiceAttributeListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.event.PrintServiceAttributeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.event.PrintServiceAttributeListener]
 
 }

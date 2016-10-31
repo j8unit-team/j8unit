@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    JMXAddressable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXAddressable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXAddressable]
 
 }

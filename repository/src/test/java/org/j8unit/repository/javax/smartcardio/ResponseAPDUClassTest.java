@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.smartcardio.ResponseAPDUClassTests<Respon
         final ResponseAPDU sut = null; // = new ResponseAPDU(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.ResponseAPDU]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.ResponseAPDU]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.naming.event.NamingExceptionEventTests<Na
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.naming.event.NamingExceptionEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.event.NamingExceptionEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.event.NamingExceptionEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.event.NamingExceptionEvent]
 
 }

@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.awt.event.ActionEventClassTests<ActionEven
         final ActionEvent sut = null; // = new ActionEvent(Object, int, String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.ActionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.ActionEvent]
 
 }

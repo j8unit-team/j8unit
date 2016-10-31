@@ -98,6 +98,7 @@ extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.MappedByteBuffer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.MappedByteBuffer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.MappedByteBuffer]
 }

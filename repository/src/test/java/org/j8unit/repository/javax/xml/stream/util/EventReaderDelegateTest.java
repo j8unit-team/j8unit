@@ -43,6 +43,8 @@ implements FactoryBasedJ8UnitTest, org.j8unit.repository.javax.xml.stream.util.E
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IOR>, org.j8unit.repository.org.omg.IOP.IORTes
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.IOR]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.IOP.IOR]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.IOP.IOR]
 
 }

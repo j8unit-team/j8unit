@@ -229,6 +229,8 @@ implements org.j8unit.repository.java.beans.BeansClassTests<Beans> {
         // write some test for {@link java.beans.Beans#getInstanceOf(Object, Class)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.Beans]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.Beans]
 
 }

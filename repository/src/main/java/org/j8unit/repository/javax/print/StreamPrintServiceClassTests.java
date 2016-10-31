@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.PrintServiceClassTests<SUT>, org.j8uni
                    StreamPrintService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.StreamPrintService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.StreamPrintService]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.DocumentParserClas
         final DocumentParser sut = null; // = new DocumentParser(javax.swing.text.html.parser.DTD);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.DocumentParser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.DocumentParser]
 
 }

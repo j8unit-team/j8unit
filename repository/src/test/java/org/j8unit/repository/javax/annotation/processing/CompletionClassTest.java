@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.annotation.processing.CompletionClassTest
         return Completion.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.processing.Completion]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.processing.Completion]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTest
                    ECParameterSpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECParameterSpec]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultListSelectionModel>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListSelectionModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultListSelectionModel]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListSelectionModel]
 
 }

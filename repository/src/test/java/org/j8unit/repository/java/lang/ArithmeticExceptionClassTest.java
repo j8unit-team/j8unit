@@ -61,6 +61,8 @@ implements org.j8unit.repository.java.lang.ArithmeticExceptionClassTests<Arithme
         final ArithmeticException sut = null; // = new ArithmeticException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ArithmeticException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ArithmeticException]
 
 }

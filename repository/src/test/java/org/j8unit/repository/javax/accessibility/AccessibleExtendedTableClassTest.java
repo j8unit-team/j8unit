@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleExtendedTableClas
         return AccessibleExtendedTable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleExtendedTable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleExtendedTable]
 
 }

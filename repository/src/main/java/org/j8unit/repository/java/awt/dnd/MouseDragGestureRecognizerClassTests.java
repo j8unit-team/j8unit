@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerClassTests<SUT> {
                    MouseDragGestureRecognizer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.MouseDragGestureRecognizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.MouseDragGestureRecognizer]
 
 }

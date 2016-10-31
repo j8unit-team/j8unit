@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DesktopManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DesktopManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DesktopManager]
 
 }

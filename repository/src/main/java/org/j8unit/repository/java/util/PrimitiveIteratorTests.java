@@ -60,8 +60,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -179,8 +180,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfLong]
     }
 
     /**
@@ -302,8 +304,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfDouble]
     }
 
     /**
@@ -423,8 +426,9 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.PrimitiveIterator$OfInt]
     }
 
 }

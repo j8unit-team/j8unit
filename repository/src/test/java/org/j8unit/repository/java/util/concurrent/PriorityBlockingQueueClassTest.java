@@ -111,6 +111,8 @@ implements org.j8unit.repository.java.util.concurrent.PriorityBlockingQueueClass
         final PriorityBlockingQueue sut = null; // = new PriorityBlockingQueue(int, java.util.Comparator);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.PriorityBlockingQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.PriorityBlockingQueue]
 
 }

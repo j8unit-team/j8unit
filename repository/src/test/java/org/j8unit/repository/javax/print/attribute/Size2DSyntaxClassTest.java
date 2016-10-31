@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.Size2DSyntaxClassTests<Si
         return Size2DSyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.Size2DSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.Size2DSyntax]
 
 }

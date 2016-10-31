@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.ldap.ManageReferralControlClassTes
         final ManageReferralControl sut = null; // = new ManageReferralControl(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.ManageReferralControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.ManageReferralControl]
 
 }

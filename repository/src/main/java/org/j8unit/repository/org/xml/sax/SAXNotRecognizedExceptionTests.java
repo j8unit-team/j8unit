@@ -29,6 +29,7 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXNotRecognizedException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.SAXNotRecognizedException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.SAXNotRecognizedException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.SAXNotRecognizedException]
 }

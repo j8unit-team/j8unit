@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
                    NumberFormat.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.NumberFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.NumberFormat]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Field.class!",
                               Field.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.NumberFormat$Field]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.NumberFormat$Field]
 

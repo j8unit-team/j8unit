@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.activation.ActivationDataFlavorClassTests
         final ActivationDataFlavor sut = null; // = new ActivationDataFlavor(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.ActivationDataFlavor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.ActivationDataFlavor]
 
 }

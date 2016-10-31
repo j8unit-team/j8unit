@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.AttributesClassTests<Attributes> {
         return Attributes.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.Attributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.Attributes]
 
 }

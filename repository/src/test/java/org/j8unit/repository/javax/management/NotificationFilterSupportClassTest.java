@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.management.NotificationFilterSupportClass
         final NotificationFilterSupport sut = new NotificationFilterSupport();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationFilterSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationFilterSupport]
 
 }

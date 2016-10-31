@@ -131,6 +131,8 @@ implements org.j8unit.repository.javax.management.JMXClassTests<JMX> {
         // javax.management.ObjectName, Class, boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.JMX]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.JMX]
 
 }

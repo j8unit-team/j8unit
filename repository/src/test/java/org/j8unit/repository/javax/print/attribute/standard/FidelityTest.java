@@ -30,6 +30,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.FidelityTests<Fi
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Fidelity]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Fidelity]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Fidelity]
 
 }

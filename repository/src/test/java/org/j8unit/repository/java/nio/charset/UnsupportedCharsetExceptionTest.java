@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.charset.UnsupportedCharsetExceptionTes
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.nio.charset.UnsupportedCharsetException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.UnsupportedCharsetException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.charset.UnsupportedCharsetException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.UnsupportedCharsetException]
 
 }

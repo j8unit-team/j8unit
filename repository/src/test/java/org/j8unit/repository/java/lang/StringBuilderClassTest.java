@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.lang.StringBuilderClassTests<StringBuilder
         final StringBuilder sut = new StringBuilder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.StringBuilder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.StringBuilder]
 
 }

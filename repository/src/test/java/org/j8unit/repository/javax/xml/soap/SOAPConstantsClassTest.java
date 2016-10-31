@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPConstantsClassTests<SOAPCons
         return SOAPConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPConstants]
 
 }

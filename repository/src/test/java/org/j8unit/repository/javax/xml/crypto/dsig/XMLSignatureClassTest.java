@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests<XM
         return XMLSignature.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests<XM
         public Class<SignatureValue> createNewSUT() {
             return SignatureValue.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
 

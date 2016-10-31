@@ -32,6 +32,8 @@ org.j8unit.repository.javax.naming.ServiceUnavailableExceptionTests<ServiceUnava
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ServiceUnavailableException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ServiceUnavailableException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ServiceUnavailableException]
 
 }

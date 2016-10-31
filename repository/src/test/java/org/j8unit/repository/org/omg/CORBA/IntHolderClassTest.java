@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.IntHolderClassTests<IntHolder> {
         final IntHolder sut = new IntHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.IntHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.IntHolder]
 
 }

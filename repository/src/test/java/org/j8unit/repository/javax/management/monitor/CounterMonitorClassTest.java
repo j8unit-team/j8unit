@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.management.monitor.CounterMonitorClassTes
         final CounterMonitor sut = new CounterMonitor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.CounterMonitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.CounterMonitor]
 
 }

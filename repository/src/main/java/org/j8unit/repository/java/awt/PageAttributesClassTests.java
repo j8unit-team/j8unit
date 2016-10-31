@@ -73,6 +73,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                    PageAttributes.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes]
 
     /**
@@ -135,6 +137,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PrintQualityType.class!",
                               PrintQualityType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$PrintQualityType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$PrintQualityType]
 
@@ -201,6 +205,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                               ColorType.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$ColorType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$ColorType]
 
     }
@@ -265,6 +271,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OriginType.class!",
                               OriginType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$OriginType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$OriginType]
 
@@ -331,6 +339,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
                               MediaType.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$MediaType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$MediaType]
 
     }
@@ -395,6 +405,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to OrientationRequestedType.class!",
                               OrientationRequestedType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.PageAttributes$OrientationRequestedType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes$OrientationRequestedType]
 

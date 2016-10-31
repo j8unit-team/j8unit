@@ -98,6 +98,7 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.TypeVariable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.type.TypeVariable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.type.TypeVariable]
 }

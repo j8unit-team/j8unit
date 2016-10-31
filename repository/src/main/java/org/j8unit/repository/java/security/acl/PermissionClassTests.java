@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Permission.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.acl.Permission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.acl.Permission]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.RowSetReaderClassTests<RowSetReader> 
         return RowSetReader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetReader]
 
 }

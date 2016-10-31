@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.LOCATION_FORWARDCla
         return LOCATION_FORWARD.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.LOCATION_FORWARD]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.LOCATION_FORWARD]
 
 }

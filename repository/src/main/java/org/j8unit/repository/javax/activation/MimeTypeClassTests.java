@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.
                    MimeType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MimeType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MimeType]
 
 }

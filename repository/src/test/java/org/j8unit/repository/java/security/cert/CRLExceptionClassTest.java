@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.security.cert.CRLExceptionClassTests<CRLEx
         final CRLException sut = new CRLException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CRLException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CRLException]
 
 }

@@ -102,6 +102,7 @@ extends org.j8unit.repository.java.security.ProviderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.AuthProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.AuthProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.AuthProvider]
 }

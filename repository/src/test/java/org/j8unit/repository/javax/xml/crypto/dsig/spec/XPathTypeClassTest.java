@@ -68,6 +68,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests<
         final XPathType sut = null; // = new XPathType(String, javax.xml.crypto.dsig.spec.XPathType.Filter);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathType]
 
     @RunWith(J8Unit4.class)
@@ -80,6 +82,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeClassTests<
         public Class<Filter> createNewSUT() {
             return Filter.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathType$Filter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.XPathType$Filter]
 

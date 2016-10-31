@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
                    OutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.OutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.OutputStream]
 
 }

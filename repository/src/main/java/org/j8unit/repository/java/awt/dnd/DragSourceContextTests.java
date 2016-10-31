@@ -402,6 +402,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DragSourceContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DragSourceContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DragSourceContext]
 }

@@ -39,6 +39,8 @@ implements org.j8unit.repository.java.nio.channels.spi.SelectorProviderClassTest
         // write some test for {@link java.nio.channels.spi.SelectorProvider#provider()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.spi.SelectorProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.spi.SelectorProvider]
 
 }

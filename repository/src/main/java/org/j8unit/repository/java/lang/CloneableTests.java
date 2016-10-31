@@ -29,6 +29,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Cloneable]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Cloneable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Cloneable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Cloneable]
 }

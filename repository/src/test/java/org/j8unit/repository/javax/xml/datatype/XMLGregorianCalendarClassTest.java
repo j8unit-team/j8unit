@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.datatype.XMLGregorianCalendarClassTes
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.XMLGregorianCalendar]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.XMLGregorianCalendar]
 
 }

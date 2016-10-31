@@ -42,6 +42,8 @@ implements org.j8unit.repository.org.w3c.dom.DOMExceptionClassTests<DOMException
         final DOMException sut = null; // = new DOMException(short, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.DOMException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.DOMException]
 
 }

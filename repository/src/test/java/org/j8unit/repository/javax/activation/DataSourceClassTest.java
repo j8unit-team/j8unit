@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.activation.DataSourceClassTests<DataSourc
         return DataSource.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataSource]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
                    ModelMBeanAttributeInfo.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
 
 }

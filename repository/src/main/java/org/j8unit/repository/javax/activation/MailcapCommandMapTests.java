@@ -198,6 +198,7 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MailcapCommandMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.MailcapCommandMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MailcapCommandMap]
 }

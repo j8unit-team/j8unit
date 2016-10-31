@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
                    MultiListUI.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiListUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiListUI]
 
 }

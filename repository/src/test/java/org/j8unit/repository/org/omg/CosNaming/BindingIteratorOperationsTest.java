@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsTest
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.CosNaming.BindingIteratorOperations], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorOperations]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorOperations]
 
 }

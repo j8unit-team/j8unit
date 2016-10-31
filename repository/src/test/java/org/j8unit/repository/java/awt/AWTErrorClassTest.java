@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.awt.AWTErrorClassTests<AWTError> {
         final AWTError sut = null; // = new AWTError(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTError]
 
 }

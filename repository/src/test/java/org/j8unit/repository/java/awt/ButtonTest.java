@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Button>, org.j8unit.repository.java.awt.Button
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Button]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Button]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Button]
 
 }

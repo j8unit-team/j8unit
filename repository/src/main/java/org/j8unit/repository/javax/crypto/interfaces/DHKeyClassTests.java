@@ -66,6 +66,8 @@ extends RepositoryClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DHKey.class!", DHKey.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.interfaces.DHKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.interfaces.DHKey]
 
 }

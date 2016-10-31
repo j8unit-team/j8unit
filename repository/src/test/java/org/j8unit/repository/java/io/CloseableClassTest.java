@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.CloseableClassTests<Closeable> {
         return Closeable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Closeable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Closeable]
 
 }

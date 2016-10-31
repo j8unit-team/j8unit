@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.bind.util.ValidationEventCollectorCla
         final ValidationEventCollector sut = new ValidationEventCollector();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.util.ValidationEventCollector]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.ValidationEventCollector]
 
 }

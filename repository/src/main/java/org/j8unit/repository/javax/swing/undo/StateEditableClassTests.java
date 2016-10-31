@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    StateEditable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.StateEditable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.StateEditable]
 
 }

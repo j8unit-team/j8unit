@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.net.URLEncoderClassTests<URLEncoder> {
         // write some test for {@link java.net.URLEncoder#encode(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLEncoder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLEncoder]
 
 }

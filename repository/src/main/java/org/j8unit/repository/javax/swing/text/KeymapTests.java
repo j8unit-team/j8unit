@@ -326,6 +326,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.Keymap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.Keymap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.Keymap]
 }

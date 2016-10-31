@@ -1205,6 +1205,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, ByteBuffer>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.ByteBuffer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.ByteBuffer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.ByteBuffer]
 }

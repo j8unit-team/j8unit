@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.StructMemberClassTests<StructMemb
         final StructMember sut = null; // = new StructMember(String, org.omg.CORBA.TypeCode, org.omg.CORBA.IDLType);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.StructMember]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StructMember]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DynAnyFactoryOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryOperations]
 
 }

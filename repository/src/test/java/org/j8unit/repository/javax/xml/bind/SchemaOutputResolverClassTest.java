@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.bind.SchemaOutputResolverClassTests<S
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.SchemaOutputResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.SchemaOutputResolver]
 
 }

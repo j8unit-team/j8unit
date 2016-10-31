@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.KeyManager]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.KeyManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.net.ssl.KeyManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.KeyManager]
 }

@@ -216,6 +216,8 @@ implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorHelperClas
         // org.omg.PortableServer.ServantLocatorHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantLocatorHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantLocatorHelper]
 
 }

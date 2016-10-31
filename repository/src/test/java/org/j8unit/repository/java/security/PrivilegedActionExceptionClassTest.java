@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.PrivilegedActionExceptionClassTes
         final PrivilegedActionException sut = null; // = new PrivilegedActionException(Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.PrivilegedActionException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.PrivilegedActionException]
 
 }

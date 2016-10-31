@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.IncompatibleClassChangeErrorClassTests<S
                    InstantiationError.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.InstantiationError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.InstantiationError]
 
 }

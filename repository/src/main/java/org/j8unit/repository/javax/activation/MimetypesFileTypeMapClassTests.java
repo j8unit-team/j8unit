@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.activation.FileTypeMapClassTests<SUT> {
                    MimetypesFileTypeMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MimetypesFileTypeMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MimetypesFileTypeMap]
 
 }

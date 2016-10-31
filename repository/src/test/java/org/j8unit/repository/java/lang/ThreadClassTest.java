@@ -436,6 +436,8 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
         // write some test for {@link Thread#enumerate(Thread[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Thread]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread]
 
     @RunWith(J8Unit4.class)
@@ -448,6 +450,8 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
         public Class<UncaughtExceptionHandler> createNewSUT() {
             return UncaughtExceptionHandler.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
 
@@ -503,6 +507,8 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
         throws Exception {
             // write some test for {@link Thread.State#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Thread$State]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread$State]
 

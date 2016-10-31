@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.SinglePixelPackedSampleModelClas
         final SinglePixelPackedSampleModel sut = null; // = new SinglePixelPackedSampleModel(int, int, int, int, int[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.SinglePixelPackedSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.SinglePixelPackedSampleModel]
 
 }

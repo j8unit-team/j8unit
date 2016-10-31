@@ -193,6 +193,7 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.StartTlsResponse]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.StartTlsResponse]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.StartTlsResponse]
 }

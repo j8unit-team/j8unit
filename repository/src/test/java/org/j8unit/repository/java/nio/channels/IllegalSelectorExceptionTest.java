@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IllegalSelectorException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.IllegalSelectorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.IllegalSelectorException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.IllegalSelectorException]
 
 }

@@ -45,6 +45,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImplCl
                                             // String, ClassLoader, javax.security.auth.Subject, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIConnectionImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIConnectionImpl]
 
 }

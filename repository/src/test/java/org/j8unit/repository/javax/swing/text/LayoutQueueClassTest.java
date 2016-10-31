@@ -81,6 +81,8 @@ implements org.j8unit.repository.javax.swing.text.LayoutQueueClassTests<LayoutQu
         // write some test for {@link javax.swing.text.LayoutQueue#setDefaultQueue(javax.swing.text.LayoutQueue)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.LayoutQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LayoutQueue]
 
 }

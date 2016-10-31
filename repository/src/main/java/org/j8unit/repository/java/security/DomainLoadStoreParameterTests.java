@@ -102,6 +102,7 @@ extends org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTest
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.DomainLoadStoreParameter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.DomainLoadStoreParameter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.DomainLoadStoreParameter]
 }

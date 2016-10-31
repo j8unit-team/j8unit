@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.jar.JarOutputStreamClassTests<JarOutp
         final JarOutputStream sut = null; // = new JarOutputStream(java.io.OutputStream, java.util.jar.Manifest);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.jar.JarOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.jar.JarOutputStream]
 
 }

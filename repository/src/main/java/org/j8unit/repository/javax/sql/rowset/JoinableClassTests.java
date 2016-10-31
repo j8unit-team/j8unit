@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Joinable.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.Joinable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.Joinable]
 
 }

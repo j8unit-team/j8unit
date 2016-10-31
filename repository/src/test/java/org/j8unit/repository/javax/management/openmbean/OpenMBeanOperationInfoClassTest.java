@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationIn
         return OpenMBeanOperationInfo.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.OpenMBeanOperationInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.OpenMBeanOperationInfo]
 
 }

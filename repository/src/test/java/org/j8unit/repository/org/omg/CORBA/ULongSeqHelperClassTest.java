@@ -164,6 +164,8 @@ implements org.j8unit.repository.org.omg.CORBA.ULongSeqHelperClassTests<ULongSeq
         // write some test for {@link org.omg.CORBA.ULongSeqHelper#insert(org.omg.CORBA.Any, int[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ULongSeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ULongSeqHelper]
 
 }

@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AbstractTableModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.AbstractTableModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.AbstractTableModel]
 
 }

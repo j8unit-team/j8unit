@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    SaslException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.SaslException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.SaslException]
 
 }

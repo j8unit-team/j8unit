@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplClassTests<XML
         final XMLFilterImpl sut = new XMLFilterImpl();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]
 
 }

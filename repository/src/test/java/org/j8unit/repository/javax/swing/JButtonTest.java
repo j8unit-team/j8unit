@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<JButton>, org.j8unit.repository.javax.swing.JB
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JButton]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JButton]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JButton]
 
 }

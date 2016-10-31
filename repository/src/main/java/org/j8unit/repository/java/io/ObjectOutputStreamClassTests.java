@@ -70,6 +70,8 @@ org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
                    ObjectOutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutputStream]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to PutField.class!",
                               PutField.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectOutputStream$PutField]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutputStream$PutField]
 

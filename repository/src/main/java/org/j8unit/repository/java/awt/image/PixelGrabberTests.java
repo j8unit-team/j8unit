@@ -101,28 +101,6 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#abortGrabbing() public
-     * synchronized void java.awt.image.PixelGrabber.abortGrabbing()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_abortGrabbing()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.PixelGrabber#setPixels(int, int, int, int, java.awt.image.ColorModel, int[], int, int)
      * public void java.awt.image.PixelGrabber.setPixels(int,int,int,int,java.awt.image.ColorModel,int[],int,int)}.
@@ -171,6 +149,28 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#abortGrabbing() public
+     * synchronized void java.awt.image.PixelGrabber.abortGrabbing()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_abortGrabbing()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.PixelGrabber#setProperties(java.util.Hashtable) public void
      * java.awt.image.PixelGrabber.setProperties(java.util.Hashtable<?, ?>)}.
@@ -195,28 +195,6 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#grabPixels(long) public
-     * synchronized boolean java.awt.image.PixelGrabber.grabPixels(long) throws java.lang.InterruptedException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_grabPixels_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#grabPixels() public
      * boolean java.awt.image.PixelGrabber.grabPixels() throws java.lang.InterruptedException}.
      *
@@ -231,6 +209,28 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_grabPixels()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.PixelGrabber#grabPixels(long) public
+     * synchronized boolean java.awt.image.PixelGrabber.grabPixels(long) throws java.lang.InterruptedException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_grabPixels_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -417,6 +417,7 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerTests<SUT>, org.j8unit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.PixelGrabber]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.image.PixelGrabber]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.image.PixelGrabber]
 }

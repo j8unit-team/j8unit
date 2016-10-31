@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
                    UserPrincipalNotFoundException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.UserPrincipalNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.UserPrincipalNotFoundException]
 
 }

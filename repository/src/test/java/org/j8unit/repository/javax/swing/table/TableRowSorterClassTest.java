@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.swing.table.TableRowSorterClassTests<Tabl
         final TableRowSorter sut = null; // = new TableRowSorter(javax.swing.table.TableModel);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableRowSorter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableRowSorter]
 
 }

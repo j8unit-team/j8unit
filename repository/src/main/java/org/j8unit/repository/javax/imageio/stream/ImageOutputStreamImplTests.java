@@ -275,30 +275,6 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests<SUT>, 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.stream.ImageOutputStreamImpl#writeDouble(double) public void
-     * javax.imageio.stream.ImageOutputStreamImpl.writeDouble(double) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_writeDouble_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.stream.ImageOutputStreamImpl#writeLongs(long[], int, int) public void
      * javax.imageio.stream.ImageOutputStreamImpl.writeLongs(long[],int,int) throws java.io.IOException}.
      *
@@ -323,8 +299,8 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests<SUT>, 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.stream.ImageOutputStreamImpl#writeBoolean(boolean) public void
-     * javax.imageio.stream.ImageOutputStreamImpl.writeBoolean(boolean) throws java.io.IOException}.
+     * {@link javax.imageio.stream.ImageOutputStreamImpl#writeDouble(double) public void
+     * javax.imageio.stream.ImageOutputStreamImpl.writeDouble(double) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -337,7 +313,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests<SUT>, 
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_writeBoolean_boolean()
+    public default void test_writeDouble_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -362,6 +338,30 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests<SUT>, 
     @Test
     @Category(Draft.class)
     public default void test_writeBit_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.stream.ImageOutputStreamImpl#writeBoolean(boolean) public void
+     * javax.imageio.stream.ImageOutputStreamImpl.writeBoolean(boolean) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_writeBoolean_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -590,6 +590,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests<SUT>, 
         org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests.super.test_flushBefore_long();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.stream.ImageOutputStreamImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.stream.ImageOutputStreamImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.stream.ImageOutputStreamImpl]
 }

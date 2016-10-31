@@ -32,6 +32,8 @@ org.j8unit.repository.javax.management.InstanceAlreadyExistsExceptionTests<Insta
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InstanceAlreadyExistsException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.InstanceAlreadyExistsException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.InstanceAlreadyExistsException]
 
 }

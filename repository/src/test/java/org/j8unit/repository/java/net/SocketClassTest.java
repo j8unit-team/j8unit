@@ -219,6 +219,8 @@ implements org.j8unit.repository.java.net.SocketClassTests<Socket> {
         // write some test for {@link java.net.Socket#setSocketImplFactory(java.net.SocketImplFactory)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.Socket]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Socket]
 
 }

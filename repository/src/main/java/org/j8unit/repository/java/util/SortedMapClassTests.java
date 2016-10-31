@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
                    SortedMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.SortedMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.SortedMap]
 
 }

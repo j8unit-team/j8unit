@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.CharacterTests.SubsetTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.im.InputSubset]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.im.InputSubset]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.im.InputSubset]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.im.InputSubset]
 }

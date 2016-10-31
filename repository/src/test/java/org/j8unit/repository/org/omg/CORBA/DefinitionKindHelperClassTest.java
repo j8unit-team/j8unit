@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.DefinitionKindHelperClassTests<De
         // write some test for {@link org.omg.CORBA.DefinitionKindHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DefinitionKindHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DefinitionKindHelper]
 
 }

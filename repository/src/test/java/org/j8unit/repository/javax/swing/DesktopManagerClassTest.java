@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.DesktopManagerClassTests<DesktopMan
         return DesktopManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DesktopManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DesktopManager]
 
 }

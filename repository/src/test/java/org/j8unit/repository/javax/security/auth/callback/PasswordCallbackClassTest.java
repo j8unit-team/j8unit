@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.security.auth.callback.PasswordCallbackCl
         final PasswordCallback sut = null; // = new PasswordCallback(String, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.callback.PasswordCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.callback.PasswordCallback]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.ObservableClassTests<Observable> {
         final Observable sut = new Observable();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Observable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Observable]
 
 }

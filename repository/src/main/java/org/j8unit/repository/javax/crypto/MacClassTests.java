@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Mac.class!", Mac.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.Mac]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.Mac]
 
 }

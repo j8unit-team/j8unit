@@ -608,6 +608,7 @@ org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repositor
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Date]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Date]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Date]
 }

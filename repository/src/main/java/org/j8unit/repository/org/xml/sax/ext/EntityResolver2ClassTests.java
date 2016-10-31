@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT> {
                    EntityResolver2.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.EntityResolver2]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.EntityResolver2]
 
 }

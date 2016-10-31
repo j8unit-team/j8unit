@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.tools.JavaFileManagerClassTests<JavaFileM
         return JavaFileManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileManager]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.tools.JavaFileManagerClassTests<JavaFileM
         public Class<Location> createNewSUT() {
             return Location.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileManager$Location]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileManager$Location]
 

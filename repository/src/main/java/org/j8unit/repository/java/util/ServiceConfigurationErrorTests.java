@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ServiceConfigurationError]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ServiceConfigurationError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.ServiceConfigurationError]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ServiceConfigurationError]
 }

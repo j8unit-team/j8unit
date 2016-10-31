@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CancellationException>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CancellationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.CancellationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CancellationException]
 
 }

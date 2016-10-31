@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<Obj
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.ObjectImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.ObjectImpl]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.LocatorClassTests<Locator> {
         return Locator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.Locator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.Locator]
 
 }

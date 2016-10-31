@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.ContainerPeerClassTests<Container
         return ContainerPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ContainerPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ContainerPeer]
 
 }

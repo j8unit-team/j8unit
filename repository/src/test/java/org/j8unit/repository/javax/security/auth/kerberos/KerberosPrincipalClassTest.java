@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.security.auth.kerberos.KerberosPrincipalC
         final KerberosPrincipal sut = null; // = new KerberosPrincipal(String, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.kerberos.KerberosPrincipal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.kerberos.KerberosPrincipal]
 
 }

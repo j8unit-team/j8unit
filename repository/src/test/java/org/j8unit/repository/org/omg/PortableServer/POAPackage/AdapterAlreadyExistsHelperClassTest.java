@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlread
         // org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper]
 
 }

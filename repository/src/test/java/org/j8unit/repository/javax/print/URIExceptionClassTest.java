@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.URIExceptionClassTests<URIException
         return URIException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.URIException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.URIException]
 
 }

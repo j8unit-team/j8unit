@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClas
                    StandardLocation.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.StandardLocation]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.StandardLocation]
 
 }

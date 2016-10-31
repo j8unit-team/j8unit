@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.swing.text.ElementIteratorClassTests<Elem
         final ElementIterator sut = null; // = new ElementIterator(javax.swing.text.Document);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.ElementIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.ElementIterator]
 
 }

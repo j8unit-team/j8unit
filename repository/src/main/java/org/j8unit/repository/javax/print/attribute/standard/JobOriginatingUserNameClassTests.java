@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<
                    JobOriginatingUserName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobOriginatingUserName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobOriginatingUserName]
 
 }

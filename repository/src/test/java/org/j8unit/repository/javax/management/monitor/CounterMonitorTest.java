@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CounterMonitor>, org.j8unit.repository.javax.m
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
 
 }

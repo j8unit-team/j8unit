@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.RowSorter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowSorter]
 
     @RunWith(J8Unit4.class)
@@ -77,6 +79,8 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
             @SuppressWarnings("unused")
             final SortKey sut = null; // = new SortKey(int, javax.swing.SortOrder);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.RowSorter$SortKey]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowSorter$SortKey]
 

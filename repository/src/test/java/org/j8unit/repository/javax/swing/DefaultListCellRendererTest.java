@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<DefaultListCellRenderer>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<DefaultListCellRenderer>, org.j8unit.repositor
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultListCellRenderer$UIResource]
 
     }
 

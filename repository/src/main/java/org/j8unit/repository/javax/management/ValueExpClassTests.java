@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
                    ValueExp.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ValueExp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ValueExp]
 
 }

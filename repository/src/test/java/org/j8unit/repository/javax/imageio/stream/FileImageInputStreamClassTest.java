@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.imageio.stream.FileImageInputStreamClassT
         final FileImageInputStream sut = null; // = new FileImageInputStream(java.io.RandomAccessFile);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.FileImageInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.FileImageInputStream]
 
 }

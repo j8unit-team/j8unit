@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AuthenticationException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.DefaultDesktopManagerClassTests<Def
         final DefaultDesktopManager sut = new DefaultDesktopManager();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultDesktopManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultDesktopManager]
 
 }

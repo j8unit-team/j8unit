@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.ServiceNotFoundExceptionClassT
         final ServiceNotFoundException sut = null; // = new ServiceNotFoundException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ServiceNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ServiceNotFoundException]
 
 }

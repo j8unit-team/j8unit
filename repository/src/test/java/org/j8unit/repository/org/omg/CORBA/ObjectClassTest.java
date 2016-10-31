@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.ObjectClassTests<Object> {
         return Object.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.Object]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.Object]
 
 }

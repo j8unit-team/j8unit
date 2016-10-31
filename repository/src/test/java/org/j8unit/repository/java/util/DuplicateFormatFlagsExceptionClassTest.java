@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.DuplicateFormatFlagsExceptionClassTes
         final DuplicateFormatFlagsException sut = null; // = new DuplicateFormatFlagsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.DuplicateFormatFlagsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.DuplicateFormatFlagsException]
 
 }

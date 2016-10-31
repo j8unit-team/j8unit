@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.html.HTMLFormElementClassTests<HTML
         return HTMLFormElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.html.HTMLFormElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.html.HTMLFormElement]
 
 }

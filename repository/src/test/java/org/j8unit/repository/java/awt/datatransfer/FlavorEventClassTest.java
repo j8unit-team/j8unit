@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.datatransfer.FlavorEventClassTests<Fla
         final FlavorEvent sut = null; // = new FlavorEvent(java.awt.datatransfer.Clipboard);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.FlavorEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.FlavorEvent]
 
 }

@@ -420,6 +420,7 @@ extends org.j8unit.repository.java.awt.event.MouseAdapterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ToolTipManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ToolTipManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ToolTipManager]
 }

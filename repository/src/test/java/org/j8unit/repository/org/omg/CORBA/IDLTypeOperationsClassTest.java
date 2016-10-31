@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.IDLTypeOperationsClassTests<IDLTy
         return IDLTypeOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.IDLTypeOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.IDLTypeOperations]
 
 }

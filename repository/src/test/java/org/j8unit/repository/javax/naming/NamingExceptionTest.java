@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NamingException>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NamingException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.NamingException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.NamingException]
 
 }

@@ -187,6 +187,7 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.SortedSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.SortedSet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.SortedSet]
 }

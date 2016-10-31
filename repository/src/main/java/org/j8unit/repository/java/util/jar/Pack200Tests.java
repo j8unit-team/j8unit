@@ -35,8 +35,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -65,6 +66,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link java.util.jar.Pack200.Packer#pack(java.util.jar.JarFile, java.io.OutputStream) public abstract void
+         * java.util.jar.Pack200$Packer.pack(java.util.jar.JarFile,java.io.OutputStream) throws java.io.IOException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_pack_JarFile_OutputStream()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link java.util.jar.Pack200.Packer#pack(java.util.jar.JarInputStream, java.io.OutputStream) public abstract
          * void java.util.jar.Pack200$Packer.pack(java.util.jar.JarInputStream,java.io.OutputStream) throws
          * java.io.IOException}.
@@ -80,29 +104,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_pack_JarInputStream_OutputStream()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.util.jar.Pack200.Packer#pack(java.util.jar.JarFile, java.io.OutputStream) public abstract void
-         * java.util.jar.Pack200$Packer.pack(java.util.jar.JarFile,java.io.OutputStream) throws java.io.IOException}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_pack_JarFile_OutputStream()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -177,8 +178,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Packer]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200$Packer]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Packer]
     }
 
     /**
@@ -209,30 +211,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.File, java.util.jar.JarOutputStream) public abstract
-         * void java.util.jar.Pack200$Unpacker.unpack(java.io.File,java.util.jar.JarOutputStream) throws
-         * java.io.IOException}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_unpack_File_JarOutputStream()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.InputStream, java.util.jar.JarOutputStream) public
          * abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.InputStream,java.util.jar.JarOutputStream) throws
          * java.io.IOException}.
@@ -248,6 +226,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_unpack_InputStream_JarOutputStream()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.File, java.util.jar.JarOutputStream) public abstract
+         * void java.util.jar.Pack200$Unpacker.unpack(java.io.File,java.util.jar.JarOutputStream) throws
+         * java.io.IOException}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_unpack_File_JarOutputStream()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -323,8 +325,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
     }
 
 }

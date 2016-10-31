@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.lang.management.ThreadInfoClassTests<Threa
         // write some test for {@link java.lang.management.ThreadInfo#from(javax.management.openmbean.CompositeData)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.management.ThreadInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.management.ThreadInfo]
 
 }

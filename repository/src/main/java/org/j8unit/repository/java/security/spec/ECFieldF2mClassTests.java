@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.ECFieldClassTests<SUT>, org.j8u
                    ECFieldF2m.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECFieldF2m]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECFieldF2m]
 
 }

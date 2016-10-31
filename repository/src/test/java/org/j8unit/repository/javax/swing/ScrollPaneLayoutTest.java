@@ -33,7 +33,9 @@ implements FactoryBasedJ8UnitTest<ScrollPaneLayout>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -55,7 +57,9 @@ implements FactoryBasedJ8UnitTest<ScrollPaneLayout>, org.j8unit.repository.javax
             return this.sutFactory;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.ScrollPaneLayout$UIResource]
 
     }
 

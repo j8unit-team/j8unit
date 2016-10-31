@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.xml.sax.ext.DefaultHandler2ClassTests<Defau
         final DefaultHandler2 sut = new DefaultHandler2();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ext.DefaultHandler2]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ext.DefaultHandler2]
 
 }

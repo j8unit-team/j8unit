@@ -17,7 +17,9 @@ implements org.j8unit.repository.java.util.stream.StreamTests<Stream<T>, T> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.stream.Stream], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.Stream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.Stream]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Stream]
 
     @RunWith(J8Unit4.class)
     public static class BuilderTest<T>
@@ -30,7 +32,9 @@ implements org.j8unit.repository.java.util.stream.StreamTests<Stream<T>, T> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.stream.Stream.Builder], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.Stream$Builder]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.Stream$Builder]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.Stream$Builder]
 
     }
 

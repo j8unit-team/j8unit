@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.directory.SchemaViolationException
         final SchemaViolationException sut = null; // = new SchemaViolationException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.directory.SchemaViolationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.directory.SchemaViolationException]
 
 }

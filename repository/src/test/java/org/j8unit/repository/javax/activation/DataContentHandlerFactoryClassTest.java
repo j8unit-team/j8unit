@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.activation.DataContentHandlerFactoryClass
         return DataContentHandlerFactory.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.DataContentHandlerFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.DataContentHandlerFactory]
 
 }

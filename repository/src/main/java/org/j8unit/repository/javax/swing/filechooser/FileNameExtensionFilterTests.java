@@ -127,6 +127,7 @@ extends org.j8unit.repository.javax.swing.filechooser.FileFilterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.filechooser.FileNameExtensionFilter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.filechooser.FileNameExtensionFilter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.filechooser.FileNameExtensionFilter]
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialExceptionClassTes
         final SerialException sut = null; // = new SerialException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialException]
 
 }

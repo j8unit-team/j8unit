@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j
                    FocusAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.FocusAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.FocusAdapter]
 
 }

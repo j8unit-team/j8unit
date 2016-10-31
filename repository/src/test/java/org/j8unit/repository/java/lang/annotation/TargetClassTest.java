@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.annotation.TargetClassTests<Target> {
         return Target.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Target]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.Target]
 
 }

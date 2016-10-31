@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    BufferOverflowException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.BufferOverflowException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.BufferOverflowException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    NamingContextOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextOperations]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobMediaSheetsCl
         final JobMediaSheets sut = null; // = new JobMediaSheets(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobMediaSheets]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobMediaSheets]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NotActiveException>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.NotActiveException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.NotActiveException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.NotActiveException]
 
 }

@@ -30,6 +30,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobSheetsTests<J
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.JobSheets]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.JobSheets]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.JobSheets]
 
 }

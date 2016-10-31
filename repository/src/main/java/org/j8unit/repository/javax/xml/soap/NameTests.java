@@ -121,6 +121,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Name]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.Name]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.Name]
 }

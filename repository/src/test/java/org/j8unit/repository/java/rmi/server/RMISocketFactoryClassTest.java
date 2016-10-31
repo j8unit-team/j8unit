@@ -64,6 +64,28 @@ implements org.j8unit.repository.java.rmi.server.RMISocketFactoryClassTests<RMIS
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.rmi.server.RMISocketFactory#setFailureHandler(java.rmi.server.RMIFailureHandler) public static
+     * synchronized void java.rmi.server.RMISocketFactory.setFailureHandler(java.rmi.server.RMIFailureHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_setFailureHandler_RMIFailureHandler()
+    throws Exception {
+        // write some test for {@link
+        // java.rmi.server.RMISocketFactory#setFailureHandler(java.rmi.server.RMIFailureHandler)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.rmi.server.RMISocketFactory#setSocketFactory(java.rmi.server.RMISocketFactory) public static
      * synchronized void java.rmi.server.RMISocketFactory.setSocketFactory(java.rmi.server.RMISocketFactory) throws
      * java.io.IOException}.
@@ -82,28 +104,6 @@ implements org.j8unit.repository.java.rmi.server.RMISocketFactoryClassTests<RMIS
     throws Exception {
         // write some test for {@link
         // java.rmi.server.RMISocketFactory#setSocketFactory(java.rmi.server.RMISocketFactory)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.rmi.server.RMISocketFactory#setFailureHandler(java.rmi.server.RMIFailureHandler) public static
-     * synchronized void java.rmi.server.RMISocketFactory.setFailureHandler(java.rmi.server.RMIFailureHandler)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_setFailureHandler_RMIFailureHandler()
-    throws Exception {
-        // write some test for {@link
-        // java.rmi.server.RMISocketFactory#setFailureHandler(java.rmi.server.RMIFailureHandler)}
     }
 
     /**
@@ -146,6 +146,8 @@ implements org.j8unit.repository.java.rmi.server.RMISocketFactoryClassTests<RMIS
     throws Exception {
         // write some test for {@link java.rmi.server.RMISocketFactory#getSocketFactory()}
     }
+
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RMISocketFactory]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RMISocketFactory]
 

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.stream.StreamFilterClassTests<StreamF
         return StreamFilter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.StreamFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.StreamFilter]
 
 }

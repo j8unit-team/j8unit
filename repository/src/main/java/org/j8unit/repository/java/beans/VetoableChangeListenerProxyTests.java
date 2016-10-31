@@ -82,6 +82,7 @@ org.j8unit.repository.java.util.EventListenerProxyTests<SUT, VetoableChangeListe
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.VetoableChangeListenerProxy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.VetoableChangeListenerProxy]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.VetoableChangeListenerProxy]
 }

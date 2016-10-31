@@ -509,6 +509,7 @@ extends org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests<
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
 }

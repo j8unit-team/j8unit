@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorTests<FactoryCo
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.parsers.FactoryConfigurationError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.parsers.FactoryConfigurationError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.parsers.FactoryConfigurationError]
 
 }

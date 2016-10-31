@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<M
         return MessageContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.MessageContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.MessageContext]
 
     @RunWith(J8Unit4.class)
@@ -75,6 +77,8 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<M
         throws Exception {
             // write some test for {@link javax.xml.ws.handler.MessageContext.Scope#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]
 

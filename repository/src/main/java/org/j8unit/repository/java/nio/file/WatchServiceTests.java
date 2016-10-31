@@ -123,6 +123,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchService]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.WatchService]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchService]
 }

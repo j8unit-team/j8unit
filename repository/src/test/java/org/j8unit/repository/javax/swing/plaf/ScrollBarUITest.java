@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<ScrollBarUI> 
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.plaf.ScrollBarUI], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.ScrollBarUI]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.ScrollBarUI]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.ScrollBarUI]
 
 }

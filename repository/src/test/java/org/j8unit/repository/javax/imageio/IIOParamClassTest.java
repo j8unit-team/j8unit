@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.imageio.IIOParamClassTests<IIOParam> {
         return IIOParam.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.IIOParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.IIOParam]
 
 }

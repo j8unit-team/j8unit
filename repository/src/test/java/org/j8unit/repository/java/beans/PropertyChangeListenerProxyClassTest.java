@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.beans.PropertyChangeListenerProxyClassTest
                                                       // java.beans.PropertyChangeListener);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyChangeListenerProxy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyChangeListenerProxy]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistChronologyClassTes
         return ThaiBuddhistChronology.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ThaiBuddhistChronology]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ThaiBuddhistChronology]
 
 }

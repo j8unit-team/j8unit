@@ -424,8 +424,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.RenderingHints]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.RenderingHints]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.RenderingHints]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -520,8 +521,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.RenderingHints$Key]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.RenderingHints$Key]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.RenderingHints$Key]
     }
 
 }

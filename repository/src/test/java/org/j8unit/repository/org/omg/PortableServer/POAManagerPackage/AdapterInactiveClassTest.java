@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.Adapte
         final AdapterInactive sut = null; // = new AdapterInactive(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.AdapterInactive]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.AdapterInactive]
 
 }

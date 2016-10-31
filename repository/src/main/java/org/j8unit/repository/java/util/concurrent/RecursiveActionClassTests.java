@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<SUT> {
                    RecursiveAction.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.RecursiveAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.RecursiveAction]
 
 }

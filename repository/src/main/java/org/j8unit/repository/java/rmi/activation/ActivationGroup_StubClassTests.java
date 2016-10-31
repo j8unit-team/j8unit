@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTes
                    ActivationGroup_Stub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
 
 }

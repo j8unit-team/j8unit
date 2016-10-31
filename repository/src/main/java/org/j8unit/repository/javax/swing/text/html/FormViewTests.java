@@ -79,6 +79,7 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.FormView]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormView]
 }

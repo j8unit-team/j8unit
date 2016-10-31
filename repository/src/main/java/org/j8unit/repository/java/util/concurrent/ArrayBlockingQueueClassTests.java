@@ -68,6 +68,8 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT> {
                    ArrayBlockingQueue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ArrayBlockingQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ArrayBlockingQueue]
 
 }

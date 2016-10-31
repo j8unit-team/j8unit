@@ -144,6 +144,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.EventHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.EventHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.EventHandler]
 }

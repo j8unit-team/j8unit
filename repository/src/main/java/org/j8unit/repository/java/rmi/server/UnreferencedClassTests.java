@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Unreferenced.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.Unreferenced]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.Unreferenced]
 
 }

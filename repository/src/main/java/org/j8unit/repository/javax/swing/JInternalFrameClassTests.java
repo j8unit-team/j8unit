@@ -70,6 +70,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
                    JInternalFrame.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JInternalFrame]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JInternalFrame]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to JDesktopIcon.class!",
                               JDesktopIcon.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]
 

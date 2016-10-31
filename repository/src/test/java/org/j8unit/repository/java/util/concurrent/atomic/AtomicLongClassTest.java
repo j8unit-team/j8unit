@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongClassTest
         final AtomicLong sut = null; // = new AtomicLong(long);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicLong]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicLong]
 
 }

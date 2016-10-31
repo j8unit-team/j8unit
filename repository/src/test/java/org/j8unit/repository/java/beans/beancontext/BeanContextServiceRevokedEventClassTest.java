@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevoke
                                                          // Class, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServiceRevokedEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServiceRevokedEvent]
 
 }

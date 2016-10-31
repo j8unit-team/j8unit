@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    StackTraceElement.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.StackTraceElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.StackTraceElement]
 
 }

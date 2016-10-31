@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.time.format.DecimalStyleClassTests<Decimal
         // write some test for {@link java.time.format.DecimalStyle#of(java.util.Locale)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.format.DecimalStyle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.format.DecimalStyle]
 
 }

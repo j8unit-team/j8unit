@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.awt.image.FilteredImageSourceClassTests<Fi
                                               // java.awt.image.ImageFilter);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.FilteredImageSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.FilteredImageSource]
 
 }

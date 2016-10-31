@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.PUBLIC_MEMBERClassTests<PUBLIC_ME
         return PUBLIC_MEMBER.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PUBLIC_MEMBER]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PUBLIC_MEMBER]
 
 }

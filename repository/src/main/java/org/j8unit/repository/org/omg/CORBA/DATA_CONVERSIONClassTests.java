@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    DATA_CONVERSION.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
 
 }

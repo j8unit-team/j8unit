@@ -55,6 +55,7 @@ extends org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.IIORegistry]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.spi.IIORegistry]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.IIORegistry]
 }

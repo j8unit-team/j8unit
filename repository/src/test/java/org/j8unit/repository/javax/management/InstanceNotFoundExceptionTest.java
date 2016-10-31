@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<InstanceNotFoundException>, org.j8unit.reposit
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InstanceNotFoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.InstanceNotFoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.InstanceNotFoundException]
 
 }

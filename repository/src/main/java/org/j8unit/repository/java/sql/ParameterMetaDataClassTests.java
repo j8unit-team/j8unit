@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.sql.WrapperClassTests<SUT> {
                    ParameterMetaData.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.ParameterMetaData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.ParameterMetaData]
 
 }

@@ -216,6 +216,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.CharArrayReader]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.CharArrayReader]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.CharArrayReader]
 }

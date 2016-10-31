@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    ResolveResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.spi.ResolveResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.ResolveResult]
 
 }

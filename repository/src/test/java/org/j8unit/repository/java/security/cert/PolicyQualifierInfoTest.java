@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.cert.PolicyQualifierInfoTests<Pol
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.cert.PolicyQualifierInfo], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.PolicyQualifierInfo]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.PolicyQualifierInfo]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.PolicyQualifierInfo]
 
 }

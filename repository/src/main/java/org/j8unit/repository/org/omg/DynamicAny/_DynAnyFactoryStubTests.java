@@ -60,29 +60,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynAnyFactoryStub#_ids() public
-     * java.lang.String[] org.omg.DynamicAny._DynAnyFactoryStub._ids()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__ids()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.DynamicAny._DynAnyFactoryStub#create_dyn_any(org.omg.CORBA.Any) public org.omg.DynamicAny.DynAny
      * org.omg.DynamicAny._DynAnyFactoryStub.create_dyn_any(org.omg.CORBA.Any) throws
@@ -106,6 +83,30 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests<SUT>, org.j8
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynAnyFactoryStub]
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynAnyFactoryStub#_ids() public
+     * java.lang.String[] org.omg.DynamicAny._DynAnyFactoryStub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__ids()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny._DynAnyFactoryStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny._DynAnyFactoryStub]
 }

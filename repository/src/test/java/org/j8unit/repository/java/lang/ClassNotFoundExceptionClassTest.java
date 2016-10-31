@@ -85,6 +85,8 @@ implements org.j8unit.repository.java.lang.ClassNotFoundExceptionClassTests<Clas
         final ClassNotFoundException sut = new ClassNotFoundException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ClassNotFoundException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ClassNotFoundException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.CurrentOperationsCl
         return CurrentOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.CurrentOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.CurrentOperations]
 
 }

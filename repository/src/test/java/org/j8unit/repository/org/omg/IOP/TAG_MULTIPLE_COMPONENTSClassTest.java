@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_MULTIPLE_COMPONENTSClassTests<T
         return TAG_MULTIPLE_COMPONENTS.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_MULTIPLE_COMPONENTS]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_MULTIPLE_COMPONENTS]
 
 }

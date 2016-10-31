@@ -66,6 +66,8 @@ implements org.j8unit.repository.javax.management.ObjectInstanceClassTests<Objec
         final ObjectInstance sut = null; // = new ObjectInstance(javax.management.ObjectName, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.ObjectInstance]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.ObjectInstance]
 
 }

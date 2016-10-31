@@ -71,13 +71,15 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    SOAPBinding.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding]
 
     /**
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
-     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link Style public static final enum javax.jws.soap.SOAPBinding$Style}.
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link Use
+     * public static final enum javax.jws.soap.SOAPBinding$Use}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -85,7 +87,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests}.
+     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests}.
      * </p>
      *
      * <p>
@@ -113,10 +115,10 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface StyleClassTests<SUT extends Style>
+    public static abstract interface UseClassTests<SUT extends Use>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -130,11 +132,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Style.class!",
-                              Style.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Use.class!",
+                              Use.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
 
     }
 
@@ -199,6 +203,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                               ParameterStyle.class.isAssignableFrom(sut));
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding$ParameterStyle]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$ParameterStyle]
 
     }
@@ -206,8 +212,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
-     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link Use
-     * public static final enum javax.jws.soap.SOAPBinding$Use}.
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link Style public static final enum javax.jws.soap.SOAPBinding$Style}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
@@ -215,7 +221,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests}.
+     * {@link org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests}.
      * </p>
      *
      * <p>
@@ -243,10 +249,10 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UseClassTests<SUT extends Use>
+    public static abstract interface StyleClassTests<SUT extends Style>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -260,11 +266,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Use.class!",
-                              Use.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Style.class!",
+                              Style.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Use]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.SOAPBinding$Style]
 
     }
 

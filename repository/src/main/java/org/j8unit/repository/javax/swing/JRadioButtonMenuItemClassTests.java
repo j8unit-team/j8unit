@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
                    JRadioButtonMenuItem.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JRadioButtonMenuItem]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JRadioButtonMenuItem]
 
 }

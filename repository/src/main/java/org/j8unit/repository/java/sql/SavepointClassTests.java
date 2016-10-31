@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Savepoint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Savepoint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Savepoint]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.color.ProfileDataExceptionClassTests<P
         final ProfileDataException sut = null; // = new ProfileDataException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ProfileDataException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ProfileDataException]
 
 }

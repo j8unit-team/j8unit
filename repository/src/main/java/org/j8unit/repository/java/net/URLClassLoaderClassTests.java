@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
                    URLClassLoader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.URLClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.URLClassLoader]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.BufferedImageOpClassTests<Buffer
         return BufferedImageOp.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BufferedImageOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImageOp]
 
 }

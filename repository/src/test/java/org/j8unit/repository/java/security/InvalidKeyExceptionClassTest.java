@@ -109,6 +109,8 @@ implements org.j8unit.repository.java.security.InvalidKeyExceptionClassTests<Inv
         final InvalidKeyException sut = new InvalidKeyException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.InvalidKeyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.InvalidKeyException]
 
 }

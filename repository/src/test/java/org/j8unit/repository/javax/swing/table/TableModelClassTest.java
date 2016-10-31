@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.table.TableModelClassTests<TableMod
         return TableModel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.TableModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.TableModel]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.JarURLConnectionClassTests<JarURLConne
         return JarURLConnection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.JarURLConnection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.JarURLConnection]
 
 }

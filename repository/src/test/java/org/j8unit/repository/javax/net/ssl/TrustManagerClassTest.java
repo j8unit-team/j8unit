@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.TrustManagerClassTests<TrustManag
         return TrustManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.TrustManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.TrustManager]
 
 }

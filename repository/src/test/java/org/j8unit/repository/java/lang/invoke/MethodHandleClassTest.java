@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandleClassTests<MethodH
         return MethodHandle.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.invoke.MethodHandle]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandle]
 
 }

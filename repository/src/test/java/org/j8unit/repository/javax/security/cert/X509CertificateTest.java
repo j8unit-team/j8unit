@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.security.cert.X509CertificateTests<X509Ce
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.security.cert.X509Certificate], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.cert.X509Certificate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.cert.X509Certificate]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.cert.X509Certificate]
 
 }

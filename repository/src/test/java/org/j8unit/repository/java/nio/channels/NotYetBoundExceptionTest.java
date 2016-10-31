@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NotYetBoundException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NotYetBoundException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.NotYetBoundException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.NotYetBoundException]
 
 }

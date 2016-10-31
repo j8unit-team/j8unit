@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    ListCellRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ListCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ListCellRenderer]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<Ille
         return IllegalFormatException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatException]
 
 }

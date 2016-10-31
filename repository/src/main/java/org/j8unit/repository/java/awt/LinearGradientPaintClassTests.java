@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<SUT> {
                    LinearGradientPaint.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.LinearGradientPaint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.LinearGradientPaint]
 
 }

@@ -67,6 +67,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
         // java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D]
 
     @RunWith(J8Unit4.class)
@@ -123,6 +125,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
             // create new instance
             final Float sut = new Float();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D$Float]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D$Float]
 
@@ -182,6 +186,8 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
             // create new instance
             final Double sut = new Double();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D$Double]
 

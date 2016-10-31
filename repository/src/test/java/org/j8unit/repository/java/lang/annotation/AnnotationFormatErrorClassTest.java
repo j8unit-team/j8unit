@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.lang.annotation.AnnotationFormatErrorClass
         final AnnotationFormatError sut = null; // = new AnnotationFormatError(Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.AnnotationFormatError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.AnnotationFormatError]
 
 }

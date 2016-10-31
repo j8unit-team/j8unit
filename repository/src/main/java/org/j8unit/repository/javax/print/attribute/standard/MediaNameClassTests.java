@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.print.attribute.standard.MediaClassTests<SUT
                    MediaName.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaName]
 
 }

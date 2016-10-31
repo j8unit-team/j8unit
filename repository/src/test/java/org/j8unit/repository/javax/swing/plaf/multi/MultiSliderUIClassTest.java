@@ -61,6 +61,8 @@ implements org.j8unit.repository.javax.swing.plaf.multi.MultiSliderUIClassTests<
         // write some test for {@link javax.swing.plaf.multi.MultiSliderUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.multi.MultiSliderUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.multi.MultiSliderUI]
 
 }

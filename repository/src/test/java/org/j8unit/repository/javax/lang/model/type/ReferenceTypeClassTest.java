@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.lang.model.type.ReferenceTypeClassTests<R
         return ReferenceType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.ReferenceType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.ReferenceType]
 
 }

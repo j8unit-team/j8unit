@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynUnionOperationsClassTests
         return DynUnionOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynUnionOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynUnionOperations]
 
 }

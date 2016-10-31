@@ -132,6 +132,8 @@ implements org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests<DOM
         final DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node, org.w3c.dom.Node, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.dom.DOMResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.dom.DOMResult]
 
 }

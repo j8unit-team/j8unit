@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<LinkageError>, org.j8unit.repository.java.lang
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.LinkageError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.LinkageError]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.LinkageError]
 
 }

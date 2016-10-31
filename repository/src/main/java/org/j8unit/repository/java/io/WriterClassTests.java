@@ -68,6 +68,8 @@ org.j8unit.repository.java.io.FlushableClassTests<SUT>, org.j8unit.repository.ja
                    Writer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.Writer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.Writer]
 
 }

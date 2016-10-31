@@ -558,6 +558,8 @@ implements org.j8unit.repository.java.lang.SystemClassTests<System> {
         // write some test for {@link System#runFinalization()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.System]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.System]
 
 }

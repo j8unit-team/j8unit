@@ -297,6 +297,7 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
 }

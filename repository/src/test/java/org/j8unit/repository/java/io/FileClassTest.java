@@ -168,6 +168,8 @@ implements org.j8unit.repository.java.io.FileClassTests<File> {
         // write some test for {@link java.io.File#listRoots()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.File]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.File]
 
 }

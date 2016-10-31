@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT> {
                    WatchService.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchService]
 
 }

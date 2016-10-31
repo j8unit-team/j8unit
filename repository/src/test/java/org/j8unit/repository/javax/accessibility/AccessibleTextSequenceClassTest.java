@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleTextSequenceClass
         final AccessibleTextSequence sut = null; // = new AccessibleTextSequence(int, int, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleTextSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleTextSequence]
 
 }

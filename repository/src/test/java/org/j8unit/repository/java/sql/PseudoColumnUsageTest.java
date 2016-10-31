@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.sql.PseudoColumnUsageTests<PseudoColumnUsa
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.PseudoColumnUsage]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.PseudoColumnUsage]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.PseudoColumnUsage]
 
 }

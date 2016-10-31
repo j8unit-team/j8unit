@@ -42,6 +42,8 @@ implements org.j8unit.repository.org.w3c.dom.events.EventExceptionClassTests<Eve
         final EventException sut = null; // = new EventException(short, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.events.EventException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.events.EventException]
 
 }

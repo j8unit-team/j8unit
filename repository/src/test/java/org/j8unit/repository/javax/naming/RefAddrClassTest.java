@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.RefAddrClassTests<RefAddr> {
         return RefAddr.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.RefAddr]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.RefAddr]
 
 }

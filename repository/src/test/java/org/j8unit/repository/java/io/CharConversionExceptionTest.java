@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CharConversionException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.CharConversionException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.CharConversionException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.CharConversionException]
 
 }

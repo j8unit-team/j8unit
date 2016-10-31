@@ -175,6 +175,7 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsTests<S
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynValueOperations]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.DynamicAny.DynValueOperations]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.DynamicAny.DynValueOperations]
 }

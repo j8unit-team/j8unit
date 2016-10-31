@@ -234,6 +234,7 @@ extends org.j8unit.repository.java.awt.StrokeTests<SUT>, org.j8unit.repository.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BasicStroke]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.BasicStroke]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.BasicStroke]
 }

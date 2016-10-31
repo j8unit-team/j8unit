@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaTests<Media
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.print.attribute.standard.Media], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Media]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.Media]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.Media]
 
 }

@@ -98,6 +98,7 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.MenuBarPeer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.peer.MenuBarPeer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.peer.MenuBarPeer]
 }

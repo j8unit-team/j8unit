@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.event.TreeExpansionEventClassTests<
         final TreeExpansionEvent sut = null; // = new TreeExpansionEvent(Object, javax.swing.tree.TreePath);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TreeExpansionEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TreeExpansionEvent]
 
 }

@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.util.IllformedLocaleExceptionClassTests<Il
         final IllformedLocaleException sut = null; // = new IllformedLocaleException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllformedLocaleException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllformedLocaleException]
 
 }

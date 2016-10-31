@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j
                    BasicComboBoxRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UIResource.class!",
                               UIResource.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 

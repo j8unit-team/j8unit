@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.CacheResponseClassTests<SUT> {
                    SecureCacheResponse.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.SecureCacheResponse]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.SecureCacheResponse]
 
 }

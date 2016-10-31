@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    MonitorMBean.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.MonitorMBean]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.MonitorMBean]
 
 }

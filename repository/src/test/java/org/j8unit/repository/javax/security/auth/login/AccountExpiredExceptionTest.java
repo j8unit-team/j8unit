@@ -32,6 +32,8 @@ org.j8unit.repository.javax.security.auth.login.AccountExpiredExceptionTests<Acc
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountExpiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.AccountExpiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.AccountExpiredException]
 
 }

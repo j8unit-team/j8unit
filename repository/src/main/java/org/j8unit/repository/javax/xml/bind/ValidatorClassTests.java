@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Validator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Validator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Validator]
 
 }

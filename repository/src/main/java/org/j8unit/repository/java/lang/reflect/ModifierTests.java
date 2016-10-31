@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.Modifier]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Modifier]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.Modifier]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.Modifier]
 }

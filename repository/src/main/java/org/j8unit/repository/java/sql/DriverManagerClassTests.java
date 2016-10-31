@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DriverManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.DriverManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.DriverManager]
 
 }

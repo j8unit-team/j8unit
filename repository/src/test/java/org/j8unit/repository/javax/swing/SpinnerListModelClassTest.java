@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.swing.SpinnerListModelClassTests<SpinnerL
         final SpinnerListModel sut = new SpinnerListModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SpinnerListModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpinnerListModel]
 
 }

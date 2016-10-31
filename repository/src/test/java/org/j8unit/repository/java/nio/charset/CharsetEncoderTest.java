@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.nio.charset.CharsetEncoderTests<CharsetEnc
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.nio.charset.CharsetEncoder], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CharsetEncoder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.charset.CharsetEncoder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.CharsetEncoder]
 
 }

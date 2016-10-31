@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.security.DigestOutputStreamClassTests<Dige
                                              // java.security.MessageDigest);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.DigestOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DigestOutputStream]
 
 }

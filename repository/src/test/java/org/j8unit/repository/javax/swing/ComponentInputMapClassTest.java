@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.ComponentInputMapClassTests<Compone
         final ComponentInputMap sut = null; // = new ComponentInputMap(javax.swing.JComponent);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ComponentInputMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ComponentInputMap]
 
 }

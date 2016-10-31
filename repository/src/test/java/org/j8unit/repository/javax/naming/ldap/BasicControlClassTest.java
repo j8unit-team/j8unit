@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<BasicC
         final BasicControl sut = null; // = new BasicControl(String, boolean, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.BasicControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.BasicControl]
 
 }

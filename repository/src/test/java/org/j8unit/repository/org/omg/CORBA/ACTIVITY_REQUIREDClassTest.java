@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.ACTIVITY_REQUIREDClassTests<ACTIV
         final ACTIVITY_REQUIRED sut = new ACTIVITY_REQUIRED();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ACTIVITY_REQUIRED]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ACTIVITY_REQUIRED]
 
 }

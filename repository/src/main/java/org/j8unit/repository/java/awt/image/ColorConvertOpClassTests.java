@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ColorConvertOp.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ColorConvertOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ColorConvertOp]
 
 }

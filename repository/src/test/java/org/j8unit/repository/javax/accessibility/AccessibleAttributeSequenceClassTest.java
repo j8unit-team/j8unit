@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleAttributeSequence
                                                       // javax.swing.text.AttributeSet);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleAttributeSequence]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleAttributeSequence]
 
 }

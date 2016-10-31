@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.print.ServiceUIFactoryTests<ServiceUIFact
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.print.ServiceUIFactory], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.ServiceUIFactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.ServiceUIFactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.ServiceUIFactory]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.FilterReaderClassTests<SUT> {
                    PushbackReader.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PushbackReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PushbackReader]
 
 }

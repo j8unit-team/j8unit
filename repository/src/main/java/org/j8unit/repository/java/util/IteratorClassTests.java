@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Iterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Iterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Iterator]
 
 }

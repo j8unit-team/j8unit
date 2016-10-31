@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.StringSeqHolderClassTests<StringS
         final StringSeqHolder sut = new StringSeqHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.StringSeqHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.StringSeqHolder]
 
 }

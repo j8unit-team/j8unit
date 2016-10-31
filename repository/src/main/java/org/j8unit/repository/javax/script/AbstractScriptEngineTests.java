@@ -271,6 +271,7 @@ extends org.j8unit.repository.javax.script.ScriptEngineTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.AbstractScriptEngine]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.script.AbstractScriptEngine]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.script.AbstractScriptEngine]
 }

@@ -87,6 +87,8 @@ implements org.j8unit.repository.java.util.StringTokenizerClassTests<StringToken
         final StringTokenizer sut = null; // = new StringTokenizer(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.StringTokenizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.StringTokenizer]
 
 }

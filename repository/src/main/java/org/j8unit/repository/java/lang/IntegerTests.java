@@ -260,6 +260,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Integer>, org.j8uni
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Integer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Integer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Integer]
 }

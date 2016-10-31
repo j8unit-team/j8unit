@@ -149,6 +149,7 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.x500.X500PrivateCredential]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.x500.X500PrivateCredential]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.x500.X500PrivateCredential]
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CSSValue.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.CSSValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.CSSValue]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.DOMErrorClassTests<DOMError> {
         return DOMError.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.DOMError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.DOMError]
 
 }

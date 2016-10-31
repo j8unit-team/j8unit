@@ -87,6 +87,8 @@ implements org.j8unit.repository.javax.crypto.spec.RC2ParameterSpecClassTests<RC
         final RC2ParameterSpec sut = null; // = new RC2ParameterSpec(int, byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.RC2ParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.RC2ParameterSpec]
 
 }

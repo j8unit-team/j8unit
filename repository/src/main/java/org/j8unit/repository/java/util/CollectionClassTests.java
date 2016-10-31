@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.IterableClassTests<SUT> {
                    Collection.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Collection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Collection]
 
 }

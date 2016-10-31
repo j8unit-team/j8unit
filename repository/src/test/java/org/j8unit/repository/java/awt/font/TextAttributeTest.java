@@ -51,6 +51,8 @@ implements org.j8unit.repository.java.awt.font.TextAttributeTests<TextAttribute>
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.TextAttribute]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.TextAttribute]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TextAttribute]
 
 }

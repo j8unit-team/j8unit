@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PropertyEditorSupport>, org.j8unit.repository.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.PropertyEditorSupport]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.PropertyEditorSupport]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.PropertyEditorSupport]
 
 }

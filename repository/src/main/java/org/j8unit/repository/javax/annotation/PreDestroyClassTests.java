@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    PreDestroy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.annotation.PreDestroy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.PreDestroy]
 
 }

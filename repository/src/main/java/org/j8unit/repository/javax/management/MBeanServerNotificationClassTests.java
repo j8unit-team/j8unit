@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
                    MBeanServerNotification.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerNotification]
 
 }

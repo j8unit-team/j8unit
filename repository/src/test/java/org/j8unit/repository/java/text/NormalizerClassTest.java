@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
         // write some test for {@link java.text.Normalizer#normalize(CharSequence, java.text.Normalizer.Form)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Normalizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Normalizer]
 
     @RunWith(J8Unit4.class)
@@ -114,6 +116,8 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
         throws Exception {
             // write some test for {@link java.text.Normalizer.Form#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.Normalizer$Form]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Normalizer$Form]
 

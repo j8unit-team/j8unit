@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.AdapterActivatorClassTes
         return AdapterActivator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.AdapterActivator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.AdapterActivator]
 
 }

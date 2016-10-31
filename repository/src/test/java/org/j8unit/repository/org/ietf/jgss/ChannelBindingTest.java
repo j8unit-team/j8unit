@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.ietf.jgss.ChannelBindingTests<ChannelBindin
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [org.ietf.jgss.ChannelBinding], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.ietf.jgss.ChannelBinding]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.ChannelBinding]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.ChannelBinding]
 
 }

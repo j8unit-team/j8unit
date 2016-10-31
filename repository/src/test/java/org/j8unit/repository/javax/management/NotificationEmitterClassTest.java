@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.NotificationEmitterClassTests<
         return NotificationEmitter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.NotificationEmitter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.NotificationEmitter]
 
 }

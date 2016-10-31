@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrinterStateReas
         final PrinterStateReasons sut = null; // = new PrinterStateReasons(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PrinterStateReasons]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PrinterStateReasons]
 
 }

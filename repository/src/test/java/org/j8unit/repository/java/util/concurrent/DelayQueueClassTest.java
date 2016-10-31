@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.DelayQueueClassTests<Delay
         final DelayQueue sut = null; // = new DelayQueue(java.util.Collection);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.DelayQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.DelayQueue]
 
 }

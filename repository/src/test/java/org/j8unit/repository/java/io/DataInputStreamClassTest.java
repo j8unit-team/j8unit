@@ -63,6 +63,8 @@ implements org.j8unit.repository.java.io.DataInputStreamClassTests<DataInputStre
         // write some test for {@link java.io.DataInputStream#readUTF(java.io.DataInput)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.DataInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.DataInputStream]
 
 }

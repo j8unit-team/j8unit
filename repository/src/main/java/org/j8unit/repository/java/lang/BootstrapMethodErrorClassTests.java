@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {
                    BootstrapMethodError.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.BootstrapMethodError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.BootstrapMethodError]
 
 }

@@ -68,6 +68,8 @@ extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<SUT> {
                    ImplicitActivationPolicyOperations.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyOperations]
 
 }

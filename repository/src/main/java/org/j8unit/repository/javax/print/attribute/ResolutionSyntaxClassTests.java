@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    ResolutionSyntax.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.ResolutionSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.ResolutionSyntax]
 
 }

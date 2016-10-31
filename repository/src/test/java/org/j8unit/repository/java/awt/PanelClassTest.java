@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.PanelClassTests<Panel> {
         final Panel sut = null; // = new Panel(java.awt.LayoutManager);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Panel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Panel]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.transform.SourceTests<Source> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.transform.Source], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.Source]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.Source]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.Source]
 
 }

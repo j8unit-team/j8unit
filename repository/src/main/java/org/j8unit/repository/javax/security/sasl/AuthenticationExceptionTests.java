@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.security.sasl.SaslExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
 }

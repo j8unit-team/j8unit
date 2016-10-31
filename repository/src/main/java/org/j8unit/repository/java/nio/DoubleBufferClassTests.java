@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.re
                    DoubleBuffer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.DoubleBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.DoubleBuffer]
 
 }

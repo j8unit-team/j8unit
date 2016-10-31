@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.NClobClassTests<NClob> {
         return NClob.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.NClob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.NClob]
 
 }

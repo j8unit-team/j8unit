@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.rmi.activation.ActivationMonitorClassTests
         return ActivationMonitor.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationMonitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationMonitor]
 
 }

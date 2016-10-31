@@ -26,29 +26,33 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.jws.soap.SOAPBinding], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding]
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class StyleTest
-    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests<Style> {
+    public static class UseTest
+    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests<Use> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return testParametersOfEnumClass(Style.class);
+            return testParametersOfEnumClass(Use.class);
         }
 
         @Parameter(0)
-        public Style sut;
+        public Use sut;
 
         @Override
-        public Style createNewSUT() {
+        public Use createNewSUT() {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
 
     }
 
@@ -72,31 +76,35 @@ implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests<SOAPBinding> {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$ParameterStyle]
 
     }
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class UseTest
-    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests<Use> {
+    public static class StyleTest
+    implements org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests<Style> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
 
         @Parameters(name = "{index}: {0}")
         public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOfEnumClass(Use.class);
+            return TestParametersUtil.testParametersOfEnumClass(Style.class);
         }
 
         @Parameter(0)
-        public Use sut;
+        public Style sut;
 
         @Override
-        public Use createNewSUT() {
+        public Style createNewSUT() {
             return this.sut;
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Use]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.jws.soap.SOAPBinding$Style]
 
     }
 

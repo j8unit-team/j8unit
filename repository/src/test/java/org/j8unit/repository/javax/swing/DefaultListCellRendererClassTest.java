@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests<D
         final DefaultListCellRenderer sut = new DefaultListCellRenderer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultListCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultListCellRenderer]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests<D
             // create new instance
             final UIResource sut = new UIResource();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultListCellRenderer$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultListCellRenderer$UIResource]
 

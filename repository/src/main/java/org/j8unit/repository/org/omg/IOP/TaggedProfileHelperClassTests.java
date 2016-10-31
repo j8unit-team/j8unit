@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    TaggedProfileHelper.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]
 
 }

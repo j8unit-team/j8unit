@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.util.HashMapClassTests<HashMap> {
         final HashMap sut = null; // = new HashMap(int, float);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.HashMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.HashMap]
 
 }

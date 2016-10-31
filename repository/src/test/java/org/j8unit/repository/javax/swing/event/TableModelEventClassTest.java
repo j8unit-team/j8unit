@@ -134,6 +134,8 @@ implements org.j8unit.repository.javax.swing.event.TableModelEventClassTests<Tab
         final TableModelEvent sut = null; // = new TableModelEvent(javax.swing.table.TableModel, int, int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TableModelEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TableModelEvent]
 
 }

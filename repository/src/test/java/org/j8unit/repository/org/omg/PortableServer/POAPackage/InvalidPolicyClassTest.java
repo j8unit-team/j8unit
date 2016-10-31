@@ -87,6 +87,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicy
         final InvalidPolicy sut = null; // = new InvalidPolicy(String, short);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
 
 }

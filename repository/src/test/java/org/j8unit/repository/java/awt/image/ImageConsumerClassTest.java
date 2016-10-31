@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.image.ImageConsumerClassTests<ImageCon
         return ImageConsumer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ImageConsumer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ImageConsumer]
 
 }

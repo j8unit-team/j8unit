@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPEnvelopeClassTests<SOAPEnvel
         return SOAPEnvelope.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPEnvelope]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPEnvelope]
 
 }

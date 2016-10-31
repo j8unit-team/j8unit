@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidClassTests<I
         final Invalid sut = null; // = new Invalid(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynAnyPackage.Invalid]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynAnyPackage.Invalid]
 
 }

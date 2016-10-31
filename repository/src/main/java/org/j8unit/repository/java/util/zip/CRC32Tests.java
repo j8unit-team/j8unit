@@ -168,6 +168,7 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.CRC32]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.zip.CRC32]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.zip.CRC32]
 }

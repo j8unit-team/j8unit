@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.imageio.stream.MemoryCacheImageOutputStre
         final MemoryCacheImageOutputStream sut = null; // = new MemoryCacheImageOutputStream(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.MemoryCacheImageOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.MemoryCacheImageOutputStream]
 
 }

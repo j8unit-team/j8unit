@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPElementClassTests<SOAPElemen
         return SOAPElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPElement]
 
 }

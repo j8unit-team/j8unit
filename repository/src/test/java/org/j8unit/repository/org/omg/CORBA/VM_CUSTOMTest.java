@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.CORBA.VM_CUSTOMTests<VM_CUSTOM> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.CORBA.VM_CUSTOM], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.VM_CUSTOM]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.VM_CUSTOM]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.VM_CUSTOM]
 
 }

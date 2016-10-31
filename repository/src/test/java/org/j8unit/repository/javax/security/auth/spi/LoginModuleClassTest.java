@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.security.auth.spi.LoginModuleClassTests<L
         return LoginModule.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.auth.spi.LoginModule]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.spi.LoginModule]
 
 }

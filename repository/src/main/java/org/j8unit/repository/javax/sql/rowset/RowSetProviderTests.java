@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.RowSetProvider]
 }

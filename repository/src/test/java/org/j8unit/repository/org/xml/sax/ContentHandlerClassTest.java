@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<ContentHan
         return ContentHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.ContentHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.ContentHandler]
 
 }

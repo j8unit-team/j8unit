@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.peer.ContainerPeerClassTests<SUT> {
                    ScrollPanePeer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ScrollPanePeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ScrollPanePeer]
 
 }

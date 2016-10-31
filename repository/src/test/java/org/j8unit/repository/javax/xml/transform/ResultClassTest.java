@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.ResultClassTests<Result> {
         return Result.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.Result]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.Result]
 
 }

@@ -153,6 +153,8 @@ implements org.j8unit.repository.javax.swing.JFileChooserClassTests<JFileChooser
         final JFileChooser sut = new JFileChooser();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JFileChooser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JFileChooser]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionClassTests<SUT> {
                    SAXParseException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.SAXParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.SAXParseException]
 
 }

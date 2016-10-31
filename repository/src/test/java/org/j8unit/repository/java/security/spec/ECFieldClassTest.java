@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.spec.ECFieldClassTests<ECField> {
         return ECField.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.ECField]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.ECField]
 
 }

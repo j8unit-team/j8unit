@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.rmi.UnmarshalExceptionClassTests<Unmarshal
         final UnmarshalException sut = null; // = new UnmarshalException(String, Exception);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.UnmarshalException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.UnmarshalException]
 
 }

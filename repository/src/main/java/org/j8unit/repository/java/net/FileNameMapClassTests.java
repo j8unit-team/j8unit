@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    FileNameMap.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.FileNameMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.FileNameMap]
 
 }

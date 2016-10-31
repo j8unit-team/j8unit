@@ -64,6 +64,8 @@ implements org.j8unit.repository.org.ietf.jgss.GSSExceptionClassTests<GSSExcepti
         final GSSException sut = null; // = new GSSException(int, int, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.ietf.jgss.GSSException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.ietf.jgss.GSSException]
 
 }

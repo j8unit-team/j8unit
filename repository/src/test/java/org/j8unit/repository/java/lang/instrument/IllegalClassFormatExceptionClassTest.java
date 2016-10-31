@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.lang.instrument.IllegalClassFormatExceptio
         final IllegalClassFormatException sut = null; // = new IllegalClassFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.instrument.IllegalClassFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.instrument.IllegalClassFormatException]
 
 }

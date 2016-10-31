@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.rmi.ServerErrorClassTests<ServerError> {
         final ServerError sut = null; // = new ServerError(String, Error);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.ServerError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.ServerError]
 
 }

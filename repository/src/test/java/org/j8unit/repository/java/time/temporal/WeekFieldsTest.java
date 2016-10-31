@@ -30,6 +30,8 @@ implements org.j8unit.repository.java.time.temporal.WeekFieldsTests<WeekFields> 
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.WeekFields]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.temporal.WeekFields]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.temporal.WeekFields]
 
 }

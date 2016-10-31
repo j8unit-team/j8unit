@@ -69,6 +69,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DefaultTableColumnModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableColumnModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableColumnModel]
 
 }

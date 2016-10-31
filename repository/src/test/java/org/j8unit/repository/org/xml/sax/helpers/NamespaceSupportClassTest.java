@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.xml.sax.helpers.NamespaceSupportClassTests<
         final NamespaceSupport sut = new NamespaceSupport();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.helpers.NamespaceSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.helpers.NamespaceSupport]
 
 }

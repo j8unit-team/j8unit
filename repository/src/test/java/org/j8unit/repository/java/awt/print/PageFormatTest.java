@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<PageFormat>, org.j8unit.repository.java.awt.pr
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PageFormat]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.print.PageFormat]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.print.PageFormat]
 
 }

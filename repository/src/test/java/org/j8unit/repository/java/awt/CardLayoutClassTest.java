@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.awt.CardLayoutClassTests<CardLayout> {
         final CardLayout sut = new CardLayout();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.CardLayout]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.CardLayout]
 
 }

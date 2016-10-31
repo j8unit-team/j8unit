@@ -130,6 +130,8 @@ implements org.j8unit.repository.java.awt.BasicStrokeClassTests<BasicStroke> {
         final BasicStroke sut = new BasicStroke();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.BasicStroke]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BasicStroke]
 
 }

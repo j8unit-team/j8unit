@@ -111,6 +111,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
         final AddressingFeature sut = null; // = new AddressingFeature(boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
 
     @RunWith(J8Unit4.class)
@@ -166,6 +168,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
         throws Exception {
             // write some test for {@link javax.xml.ws.soap.AddressingFeature.Responses#values()}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]
 

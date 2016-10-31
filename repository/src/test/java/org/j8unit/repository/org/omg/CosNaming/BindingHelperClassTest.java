@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<Bindi
         // write some test for {@link org.omg.CosNaming.BindingHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingHelper]
 
 }

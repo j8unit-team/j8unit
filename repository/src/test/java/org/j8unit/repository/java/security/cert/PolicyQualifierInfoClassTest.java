@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.security.cert.PolicyQualifierInfoClassTest
         final PolicyQualifierInfo sut = null; // = new PolicyQualifierInfo(byte[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.PolicyQualifierInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PolicyQualifierInfo]
 
 }

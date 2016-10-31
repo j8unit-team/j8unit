@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLSessionContextClassTests<SSLSe
         return SSLSessionContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSessionContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSessionContext]
 
 }

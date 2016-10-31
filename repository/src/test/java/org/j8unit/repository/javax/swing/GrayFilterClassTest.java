@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.GrayFilterClassTests<GrayFilter> {
         // write some test for {@link javax.swing.GrayFilter#createDisabledImage(java.awt.Image)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.GrayFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.GrayFilter]
 
 }

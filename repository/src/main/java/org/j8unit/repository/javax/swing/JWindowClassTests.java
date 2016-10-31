@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.
                    JWindow.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JWindow]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JWindow]
 
 }

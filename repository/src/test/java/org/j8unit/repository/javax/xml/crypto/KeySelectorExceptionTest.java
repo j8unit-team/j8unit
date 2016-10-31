@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<KeySelectorException>, org.j8unit.repository.j
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.KeySelectorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.KeySelectorException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.KeySelectorException]
 
 }

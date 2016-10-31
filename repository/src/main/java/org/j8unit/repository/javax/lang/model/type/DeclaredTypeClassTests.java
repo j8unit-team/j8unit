@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeClassTests<SUT>
                    DeclaredType.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.type.DeclaredType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.type.DeclaredType]
 
 }

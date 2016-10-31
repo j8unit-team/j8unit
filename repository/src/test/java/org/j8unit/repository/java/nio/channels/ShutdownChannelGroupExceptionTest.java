@@ -32,6 +32,8 @@ org.j8unit.repository.java.nio.channels.ShutdownChannelGroupExceptionTests<Shutd
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.ShutdownChannelGroupException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.ShutdownChannelGroupException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.ShutdownChannelGroupException]
 
 }

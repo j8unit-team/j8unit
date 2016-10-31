@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.PrintRequestAttributeSetC
         return PrintRequestAttributeSet.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.PrintRequestAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.PrintRequestAttributeSet]
 
 }

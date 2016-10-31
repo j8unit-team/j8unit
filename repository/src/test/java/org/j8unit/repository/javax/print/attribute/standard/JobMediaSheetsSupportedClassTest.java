@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.JobMediaSheetsSu
         final JobMediaSheetsSupported sut = null; // = new JobMediaSheetsSupported(int, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.JobMediaSheetsSupported]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.JobMediaSheetsSupported]
 
 }

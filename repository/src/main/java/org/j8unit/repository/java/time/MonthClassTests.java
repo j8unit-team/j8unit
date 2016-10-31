@@ -67,6 +67,8 @@ org.j8unit.repository.java.lang.EnumClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Month.class!", Month.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Month]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.Month]
 
 }

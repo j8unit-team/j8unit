@@ -62,6 +62,8 @@ implements org.j8unit.repository.java.io.ByteArrayOutputStreamClassTests<ByteArr
         final ByteArrayOutputStream sut = null; // = new ByteArrayOutputStream(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ByteArrayOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ByteArrayOutputStream]
 
 }

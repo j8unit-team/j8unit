@@ -37,7 +37,9 @@ implements FactoryBasedJ8UnitTest<JSpinner>, org.j8unit.repository.javax.swing.J
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner]
 
     @RunWith(J8Unit4.class)
     public static class DefaultEditorTest
@@ -50,22 +52,9 @@ implements FactoryBasedJ8UnitTest<JSpinner>, org.j8unit.repository.javax.swing.J
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.DefaultEditor], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DateEditorTest
-    implements org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests<DateEditor> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DateEditor]
-
-        @Override
-        public DateEditor createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.DateEditor], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DateEditor]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
 
     }
 
@@ -80,7 +69,26 @@ implements FactoryBasedJ8UnitTest<JSpinner>, org.j8unit.repository.javax.swing.J
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.ListEditor], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+
+    }
+
+    @RunWith(J8Unit4.class)
+    public static class DateEditorTest
+    implements org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests<DateEditor> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DateEditor]
+
+        @Override
+        public DateEditor createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.DateEditor], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$DateEditor]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$DateEditor]
 
     }
 
@@ -95,7 +103,9 @@ implements FactoryBasedJ8UnitTest<JSpinner>, org.j8unit.repository.javax.swing.J
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JSpinner.NumberEditor], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$NumberEditor]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$NumberEditor]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$NumberEditor]
 
     }
 

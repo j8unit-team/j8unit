@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.management.remote.TargetedNotificationCla
         final TargetedNotification sut = null; // = new TargetedNotification(javax.management.Notification, Integer);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.TargetedNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.TargetedNotification]
 
 }

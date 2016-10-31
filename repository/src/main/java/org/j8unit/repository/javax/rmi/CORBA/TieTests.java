@@ -164,6 +164,7 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.Tie]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.CORBA.Tie]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.Tie]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.TrackClassTests<Track> {
         return Track.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Track]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Track]
 
 }

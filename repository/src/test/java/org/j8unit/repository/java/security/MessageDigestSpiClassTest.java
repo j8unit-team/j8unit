@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.security.MessageDigestSpiClassTests<Messag
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.MessageDigestSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.MessageDigestSpi]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.CyclicBarrierClassTests<Cy
         final CyclicBarrier sut = null; // = new CyclicBarrier(int, Runnable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CyclicBarrier]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CyclicBarrier]
 
 }

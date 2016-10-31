@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.PaintClassTests<Paint> {
         return Paint.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Paint]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Paint]
 
 }

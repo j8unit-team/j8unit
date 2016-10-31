@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
                    Activator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.Activator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.Activator]
 
 }

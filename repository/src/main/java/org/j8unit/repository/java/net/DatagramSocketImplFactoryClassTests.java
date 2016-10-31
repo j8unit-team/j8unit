@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DatagramSocketImplFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.DatagramSocketImplFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.DatagramSocketImplFactory]
 
 }

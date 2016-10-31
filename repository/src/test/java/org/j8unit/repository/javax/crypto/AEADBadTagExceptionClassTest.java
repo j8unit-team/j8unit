@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.crypto.AEADBadTagExceptionClassTests<AEAD
         final AEADBadTagException sut = null; // = new AEADBadTagException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.AEADBadTagException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.AEADBadTagException]
 
 }

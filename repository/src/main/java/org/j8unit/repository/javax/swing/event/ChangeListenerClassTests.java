@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    ChangeListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ChangeListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ChangeListener]
 
 }

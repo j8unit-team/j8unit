@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.concurrent.DelayedClassTests<SUT>, org.j
                    ScheduledFuture.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ScheduledFuture]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ScheduledFuture]
 
 }

@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.xml.bind.PrintConversionEventTests<SUT>, org
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.PrintConversionEventImpl]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.helpers.PrintConversionEventImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.helpers.PrintConversionEventImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.helpers.PrintConversionEventImpl]
 }

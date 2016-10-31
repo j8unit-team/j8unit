@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.RowSetWriterClassTests<RowSetWriter> 
         return RowSetWriter.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetWriter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetWriter]
 
 }

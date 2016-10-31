@@ -221,6 +221,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.ElementVisitor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.ElementVisitor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.ElementVisitor]
 }

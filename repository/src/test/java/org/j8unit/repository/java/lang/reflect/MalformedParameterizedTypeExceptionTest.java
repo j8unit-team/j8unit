@@ -32,6 +32,8 @@ org.j8unit.repository.java.lang.reflect.MalformedParameterizedTypeExceptionTests
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.MalformedParameterizedTypeException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.reflect.MalformedParameterizedTypeException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.reflect.MalformedParameterizedTypeException]
 
 }

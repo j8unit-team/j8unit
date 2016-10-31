@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.net.CookieStoreTests<CookieStore> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.net.CookieStore], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookieStore]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.CookieStore]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.CookieStore]
 
 }

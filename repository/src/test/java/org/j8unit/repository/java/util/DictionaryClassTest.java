@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.util.DictionaryClassTests<Dictionary> {
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Dictionary]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Dictionary]
 
 }

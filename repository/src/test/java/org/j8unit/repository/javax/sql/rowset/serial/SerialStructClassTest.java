@@ -67,6 +67,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialStructClassTests<
         final SerialStruct sut = null; // = new SerialStruct(java.sql.SQLData, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialStruct]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialStruct]
 
 }

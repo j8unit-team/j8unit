@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.MBeanRegistrationClassTests<MB
         return MBeanRegistration.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanRegistration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanRegistration]
 
 }

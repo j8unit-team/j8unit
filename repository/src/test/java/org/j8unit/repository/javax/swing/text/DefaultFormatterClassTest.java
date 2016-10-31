@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests<Def
         final DefaultFormatter sut = new DefaultFormatter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultFormatter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultFormatter]
 
 }

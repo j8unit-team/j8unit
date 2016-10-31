@@ -94,6 +94,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests<Audio
         final AudioFormat sut = null; // = new AudioFormat(float, int, int, boolean, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioFormat]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFormat]
 
     @RunWith(J8Unit4.class)
@@ -129,6 +131,8 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests<Audio
             @SuppressWarnings("unused")
             final Encoding sut = null; // = new Encoding(String);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioFormat$Encoding]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFormat$Encoding]
 

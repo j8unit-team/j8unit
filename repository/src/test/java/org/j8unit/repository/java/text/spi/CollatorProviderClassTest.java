@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.text.spi.CollatorProviderClassTests<Collat
         return CollatorProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.CollatorProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.CollatorProvider]
 
 }

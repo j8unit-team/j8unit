@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.BlobClassTests<Blob> {
         return Blob.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Blob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Blob]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.nio.channels.ClosedChannelExceptionClassTests
                    AsynchronousCloseException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.AsynchronousCloseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.AsynchronousCloseException]
 
 }

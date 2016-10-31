@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AttributeList.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.xml.sax.AttributeList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.xml.sax.AttributeList]
 
 }

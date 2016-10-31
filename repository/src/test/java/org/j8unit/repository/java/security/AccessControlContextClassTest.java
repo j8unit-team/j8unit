@@ -66,6 +66,8 @@ implements org.j8unit.repository.java.security.AccessControlContextClassTests<Ac
                                                // java.security.DomainCombiner);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.AccessControlContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.AccessControlContext]
 
 }

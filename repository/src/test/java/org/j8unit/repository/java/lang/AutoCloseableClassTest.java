@@ -14,6 +14,8 @@ implements org.j8unit.repository.java.lang.AutoCloseableClassTests<AutoCloseable
         return AutoCloseable.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.AutoCloseable]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.AutoCloseable]
 
 }

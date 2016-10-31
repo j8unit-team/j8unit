@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    AlgorithmMethod.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.AlgorithmMethod]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.AlgorithmMethod]
 
 }

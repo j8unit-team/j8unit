@@ -434,6 +434,7 @@ extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextTests<SUT>, org.j
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dom.DOMCryptoContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dom.DOMCryptoContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dom.DOMCryptoContext]
 }

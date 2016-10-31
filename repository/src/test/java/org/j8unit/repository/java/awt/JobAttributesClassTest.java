@@ -95,6 +95,8 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
         final JobAttributes sut = new JobAttributes();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes]
 
     @RunWith(J8Unit4.class)
@@ -107,6 +109,8 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
         public Class<SidesType> createNewSUT() {
             return SidesType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$SidesType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$SidesType]
 
@@ -123,6 +127,8 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
             return DialogType.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$DialogType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$DialogType]
 
     }
@@ -137,6 +143,8 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
         public Class<DestinationType> createNewSUT() {
             return DestinationType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$DestinationType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$DestinationType]
 
@@ -153,6 +161,8 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
             return MultipleDocumentHandlingType.class;
         }
 
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
+
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
     }
@@ -167,6 +177,8 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
         public Class<DefaultSelectionType> createNewSUT() {
             return DefaultSelectionType.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
 

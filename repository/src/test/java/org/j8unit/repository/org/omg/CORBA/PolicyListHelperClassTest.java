@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyListHelperClassTests<Policy
         // write some test for {@link org.omg.CORBA.PolicyListHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PolicyListHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyListHelper]
 
 }

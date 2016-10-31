@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StreamResult>, org.j8unit.repository.javax.xml
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.stream.StreamResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.stream.StreamResult]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.stream.StreamResult]
 
 }

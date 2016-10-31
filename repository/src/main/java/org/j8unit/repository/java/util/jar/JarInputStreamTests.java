@@ -122,6 +122,7 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.JarInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.jar.JarInputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.JarInputStream]
 }

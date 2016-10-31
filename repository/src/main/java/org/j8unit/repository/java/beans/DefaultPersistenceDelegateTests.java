@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.beans.PersistenceDelegateTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.DefaultPersistenceDelegate]
 }

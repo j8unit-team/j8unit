@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.colorchooser.ColorChooserComponentF
         // write some test for {@link javax.swing.colorchooser.ColorChooserComponentFactory#getDefaultChooserPanels()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.colorchooser.ColorChooserComponentFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.colorchooser.ColorChooserComponentFactory]
 
 }

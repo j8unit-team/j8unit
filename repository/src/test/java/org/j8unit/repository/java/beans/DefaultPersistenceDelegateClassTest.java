@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.beans.DefaultPersistenceDelegateClassTests
         final DefaultPersistenceDelegate sut = new DefaultPersistenceDelegate();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.DefaultPersistenceDelegate]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.DefaultPersistenceDelegate]
 
 }

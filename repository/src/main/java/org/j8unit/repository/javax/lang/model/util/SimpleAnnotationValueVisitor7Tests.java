@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleAnnotationValueVisitor
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.SimpleAnnotationValueVisitor7]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.SimpleAnnotationValueVisitor7]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.util.SimpleAnnotationValueVisitor7]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.util.SimpleAnnotationValueVisitor7]
 }

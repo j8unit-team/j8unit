@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.event.WindowFocusListenerClassTests<SUT>, org.j8u
                    WindowAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.WindowAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.WindowAdapter]
 
 }

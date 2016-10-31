@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests<Thai
         // write some test for {@link java.time.chrono.ThaiBuddhistEra#of(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.chrono.ThaiBuddhistEra]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.chrono.ThaiBuddhistEra]
 
 }

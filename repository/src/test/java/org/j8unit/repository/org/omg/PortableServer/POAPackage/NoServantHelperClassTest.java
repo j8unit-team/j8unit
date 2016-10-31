@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.NoServantHelp
         // org.omg.PortableServer.POAPackage.NoServantHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.POAPackage.NoServantHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.POAPackage.NoServantHelper]
 
 }

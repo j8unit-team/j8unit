@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceCla
         final ComponentInputMapUIResource sut = null; // = new ComponentInputMapUIResource(javax.swing.JComponent);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.ComponentInputMapUIResource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.ComponentInputMapUIResource]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NameComponentHolder>, org.j8unit.repository.or
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NameComponentHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming.NameComponentHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming.NameComponentHolder]
 
 }

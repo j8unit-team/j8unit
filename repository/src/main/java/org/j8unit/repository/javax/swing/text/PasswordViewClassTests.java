@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.text.FieldViewClassTests<SUT> {
                    PasswordView.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.PasswordView]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.PasswordView]
 
 }

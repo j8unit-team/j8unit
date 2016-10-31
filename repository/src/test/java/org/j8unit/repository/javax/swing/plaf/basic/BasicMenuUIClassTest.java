@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
         // write some test for {@link javax.swing.plaf.basic.BasicMenuUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
 
     @RunWith(J8Unit4.class)
@@ -99,6 +101,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
             final ChangeHandler sut = null; // = new ChangeHandler(javax.swing.plaf.basic.BasicMenuUI,
                                             // javax.swing.JMenu, javax.swing.plaf.basic.BasicMenuUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI$ChangeHandler]
 

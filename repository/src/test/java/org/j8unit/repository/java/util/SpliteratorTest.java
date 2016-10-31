@@ -20,7 +20,9 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator]
 
     @RunWith(J8Unit4.class)
     public static class OfPrimitiveTest<T, T_CONS, T_SPLITR extends OfPrimitive<T, T_CONS, T_SPLITR>>
@@ -33,7 +35,9 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfPrimitive], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
 
     }
 
@@ -48,7 +52,9 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfLong], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfLong]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
     }
 
@@ -63,7 +69,9 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfInt], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfInt]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfInt]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfInt]
 
     }
 
@@ -78,7 +86,9 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.Spliterator.OfDouble], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Spliterator$OfDouble]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 
     }
 

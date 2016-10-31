@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.awt.AlphaCompositeTests<AlphaComposite> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.AlphaComposite]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.AlphaComposite]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.AlphaComposite]
 
 }

@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.security.cert.CRLReasonTests<CRLReason> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CRLReason]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CRLReason]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CRLReason]
 
 }

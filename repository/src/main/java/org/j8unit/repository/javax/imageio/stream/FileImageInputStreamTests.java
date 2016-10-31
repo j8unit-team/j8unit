@@ -148,6 +148,7 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.stream.FileImageInputStream]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.stream.FileImageInputStream]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.stream.FileImageInputStream]
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    USER_EXCEPTION.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.USER_EXCEPTION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.USER_EXCEPTION]
 
 }

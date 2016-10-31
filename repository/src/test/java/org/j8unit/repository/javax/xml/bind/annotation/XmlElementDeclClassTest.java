@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTe
         return XmlElementDecl.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl]
 
     @RunWith(J8Unit4.class)
@@ -54,6 +56,8 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTe
             // create new instance
             final GLOBAL sut = new GLOBAL();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 

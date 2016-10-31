@@ -168,6 +168,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ServerIdHelperClass
         // org.omg.PortableInterceptor.ServerIdHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ServerIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ServerIdHelper]
 
 }

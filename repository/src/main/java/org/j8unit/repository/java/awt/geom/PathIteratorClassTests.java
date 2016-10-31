@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PathIterator.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.PathIterator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.PathIterator]
 
 }

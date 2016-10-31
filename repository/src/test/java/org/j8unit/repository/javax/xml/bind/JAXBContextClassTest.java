@@ -128,6 +128,8 @@ implements org.j8unit.repository.javax.xml.bind.JAXBContextClassTests<JAXBContex
         // write some test for {@link javax.xml.bind.JAXBContext#newInstance(Class[], java.util.Map)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBContext]
 
 }

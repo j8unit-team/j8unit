@@ -173,6 +173,8 @@ implements org.j8unit.repository.java.beans.EventSetDescriptorClassTests<EventSe
                                              // java.lang.reflect.Method);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.EventSetDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.EventSetDescriptor]
 
 }

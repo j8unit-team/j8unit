@@ -175,6 +175,8 @@ implements org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncoding
         // org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelper]
 
 }

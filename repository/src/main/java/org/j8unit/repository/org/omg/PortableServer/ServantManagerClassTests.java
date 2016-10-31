@@ -68,6 +68,8 @@ org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
                    ServantManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.ServantManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.ServantManager]
 
 }

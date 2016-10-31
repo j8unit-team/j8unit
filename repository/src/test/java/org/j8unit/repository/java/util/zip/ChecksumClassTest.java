@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.zip.ChecksumClassTests<Checksum> {
         return Checksum.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.Checksum]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.Checksum]
 
 }

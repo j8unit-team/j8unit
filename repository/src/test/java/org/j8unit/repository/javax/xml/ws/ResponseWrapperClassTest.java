@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.ResponseWrapperClassTests<Response
         return ResponseWrapper.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.ResponseWrapper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.ResponseWrapper]
 
 }

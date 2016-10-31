@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.IOP.TAG_ORB_TYPEClassTests<TAG_ORB_TYPE
         return TAG_ORB_TYPE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_ORB_TYPE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_ORB_TYPE]
 
 }

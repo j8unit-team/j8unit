@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeSelectionModelClass
         final DefaultTreeSelectionModel sut = new DefaultTreeSelectionModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.tree.DefaultTreeSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeSelectionModel]
 
 }

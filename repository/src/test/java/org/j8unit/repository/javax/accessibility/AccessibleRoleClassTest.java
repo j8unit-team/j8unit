@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleRoleClassTests<Ac
         return AccessibleRole.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleRole]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleRole]
 
 }

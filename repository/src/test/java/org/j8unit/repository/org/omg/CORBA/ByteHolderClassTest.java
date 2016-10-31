@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.ByteHolderClassTests<ByteHolder> 
         final ByteHolder sut = new ByteHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ByteHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ByteHolder]
 
 }

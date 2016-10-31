@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<MulticastSocket>, org.j8unit.repository.java.n
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.MulticastSocket]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.MulticastSocket]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.MulticastSocket]
 
 }

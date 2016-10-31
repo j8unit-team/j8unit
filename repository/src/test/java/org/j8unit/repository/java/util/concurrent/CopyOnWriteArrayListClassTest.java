@@ -88,6 +88,8 @@ implements org.j8unit.repository.java.util.concurrent.CopyOnWriteArrayListClassT
         final CopyOnWriteArrayList sut = null; // = new CopyOnWriteArrayList(Object[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CopyOnWriteArrayList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CopyOnWriteArrayList]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.peer.ScrollbarPeerClassTests<Scrollbar
         return ScrollbarPeer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.peer.ScrollbarPeer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.peer.ScrollbarPeer]
 
 }

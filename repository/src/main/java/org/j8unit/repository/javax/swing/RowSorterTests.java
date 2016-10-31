@@ -387,8 +387,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowSorter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -504,8 +505,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter$SortKey]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowSorter$SortKey]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter$SortKey]
     }
 
 }

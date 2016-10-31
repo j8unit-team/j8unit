@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.concurrent.atomic.AtomicLongArrayClas
         final AtomicLongArray sut = null; // = new AtomicLongArray(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.atomic.AtomicLongArray]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.atomic.AtomicLongArray]
 
 }

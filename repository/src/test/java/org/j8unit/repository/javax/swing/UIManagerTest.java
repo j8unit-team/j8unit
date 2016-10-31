@@ -34,7 +34,9 @@ implements FactoryBasedJ8UnitTest<UIManager>, org.j8unit.repository.javax.swing.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIManager]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIManager]
 
     @RunWith(J8Unit4.class)
     public static class LookAndFeelInfoTest
@@ -47,7 +49,9 @@ implements FactoryBasedJ8UnitTest<UIManager>, org.j8unit.repository.javax.swing.
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIManager.LookAndFeelInfo], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIManager$LookAndFeelInfo]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIManager$LookAndFeelInfo]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIManager$LookAndFeelInfo]
 
     }
 

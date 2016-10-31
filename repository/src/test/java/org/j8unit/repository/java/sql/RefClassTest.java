@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.RefClassTests<Ref> {
         return Ref.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Ref]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Ref]
 
 }

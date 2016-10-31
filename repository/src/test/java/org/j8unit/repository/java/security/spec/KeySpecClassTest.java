@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.spec.KeySpecClassTests<KeySpec> {
         return KeySpec.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.KeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.KeySpec]
 
 }

@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.MBeanRegistrationExceptionClas
         final MBeanRegistrationException sut = null; // = new MBeanRegistrationException(Exception, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanRegistrationException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanRegistrationException]
 
 }

@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.management.remote.JMXConnectionNotificati
                                                     // String, Object);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.JMXConnectionNotification]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.JMXConnectionNotification]
 
 }

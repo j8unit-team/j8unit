@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.annotation.DocumentedClassTests<Docum
         return Documented.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Documented]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.Documented]
 
 }

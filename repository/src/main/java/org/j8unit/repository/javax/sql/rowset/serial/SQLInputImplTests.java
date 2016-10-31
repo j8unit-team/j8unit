@@ -241,29 +241,6 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readByte()
-     * public byte javax.sql.rowset.serial.SQLInputImpl.readByte() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_readByte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readNString()
      * public java.lang.String javax.sql.rowset.serial.SQLInputImpl.readNString() throws java.sql.SQLException}.
      *
@@ -279,6 +256,29 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_readNString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.serial.SQLInputImpl#readByte()
+     * public byte javax.sql.rowset.serial.SQLInputImpl.readByte() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_readByte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -657,6 +657,7 @@ extends org.j8unit.repository.java.sql.SQLInputTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SQLInputImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.serial.SQLInputImpl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SQLInputImpl]
 }

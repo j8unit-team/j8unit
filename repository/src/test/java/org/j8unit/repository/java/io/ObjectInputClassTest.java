@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.io.ObjectInputClassTests<ObjectInput> {
         return ObjectInput.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectInput]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectInput]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.lang.reflect.GenericArrayTypeClassTests<Ge
         return GenericArrayType.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.reflect.GenericArrayType]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.reflect.GenericArrayType]
 
 }

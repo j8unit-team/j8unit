@@ -68,6 +68,8 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
                    ImageIcon.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.ImageIcon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.ImageIcon]
 
 }

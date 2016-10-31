@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.plaf.nimbus.StateClassTests<State> 
         return State.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.nimbus.State]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.nimbus.State]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLTimeoutException>, org.j8unit.repository.ja
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLTimeoutException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLTimeoutException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLTimeoutException]
 
 }

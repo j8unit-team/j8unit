@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
                    MBeanServerInvocationHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanServerInvocationHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanServerInvocationHandler]
 
 }

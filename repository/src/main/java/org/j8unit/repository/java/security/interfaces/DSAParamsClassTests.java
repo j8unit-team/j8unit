@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    DSAParams.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.DSAParams]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.DSAParams]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<StringSeqHolder>, org.j8unit.repository.org.om
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.StringSeqHolder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.StringSeqHolder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.StringSeqHolder]
 
 }

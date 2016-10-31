@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    EventListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EventListener]
 
 }

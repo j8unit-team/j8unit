@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_ServantLocatorStub>, org.j8unit.repository.or
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer._ServantLocatorStub]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.ws.EndpointContextClassTests<Endpoint
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.EndpointContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.EndpointContext]
 
 }

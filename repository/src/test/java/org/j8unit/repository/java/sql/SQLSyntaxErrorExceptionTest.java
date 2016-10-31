@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLSyntaxErrorException>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLSyntaxErrorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLSyntaxErrorException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLSyntaxErrorException]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CSS2Properties.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.CSS2Properties]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.CSS2Properties]
 
 }

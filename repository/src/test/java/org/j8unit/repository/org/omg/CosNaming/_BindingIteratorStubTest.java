@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<_BindingIteratorStub>, org.j8unit.repository.o
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming._BindingIteratorStub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CosNaming._BindingIteratorStub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CosNaming._BindingIteratorStub]
 
 }

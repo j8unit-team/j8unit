@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.callback.Callback]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.callback.Callback]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.callback.Callback]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.callback.Callback]
 }

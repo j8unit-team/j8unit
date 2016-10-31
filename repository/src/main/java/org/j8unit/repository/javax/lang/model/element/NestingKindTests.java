@@ -54,6 +54,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, NestingKind> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.NestingKind]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.lang.model.element.NestingKind]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.lang.model.element.NestingKind]
 }

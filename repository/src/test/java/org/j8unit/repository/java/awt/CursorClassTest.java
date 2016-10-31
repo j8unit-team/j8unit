@@ -102,6 +102,8 @@ implements org.j8unit.repository.java.awt.CursorClassTests<Cursor> {
         // write some test for {@link java.awt.Cursor#getSystemCustomCursor(String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Cursor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Cursor]
 
 }

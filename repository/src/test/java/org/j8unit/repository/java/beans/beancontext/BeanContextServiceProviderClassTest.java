@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceProvid
         return BeanContextServiceProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServiceProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServiceProvider]
 
 }

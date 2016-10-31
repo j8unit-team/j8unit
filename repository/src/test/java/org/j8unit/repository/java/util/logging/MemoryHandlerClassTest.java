@@ -21,6 +21,27 @@ implements org.j8unit.repository.java.util.logging.MemoryHandlerClassTests<Memor
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.logging.MemoryHandler#MemoryHandler()
+     * public java.util.logging.MemoryHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_MemoryHandler()
+    throws Exception {
+        // create new instance
+        final MemoryHandler sut = new MemoryHandler();
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.util.logging.MemoryHandler#MemoryHandler(java.util.logging.Handler, int, java.util.logging.Level)
      * public java.util.logging.MemoryHandler(java.util.logging.Handler,int,java.util.logging.Level)}.
@@ -42,26 +63,7 @@ implements org.j8unit.repository.java.util.logging.MemoryHandlerClassTests<Memor
         final MemoryHandler sut = null; // = new MemoryHandler(java.util.logging.Handler, int, java.util.logging.Level);
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.logging.MemoryHandler#MemoryHandler()
-     * public java.util.logging.MemoryHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_MemoryHandler()
-    throws Exception {
-        // create new instance
-        final MemoryHandler sut = new MemoryHandler();
-    }
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.logging.MemoryHandler]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.logging.MemoryHandler]
 

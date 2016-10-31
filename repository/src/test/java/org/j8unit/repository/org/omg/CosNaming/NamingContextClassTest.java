@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextClassTests<Namin
         return NamingContext.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContext]
 
 }

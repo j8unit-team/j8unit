@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.ReadPendingExceptionClassTest
         final ReadPendingException sut = new ReadPendingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ReadPendingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ReadPendingException]
 
 }

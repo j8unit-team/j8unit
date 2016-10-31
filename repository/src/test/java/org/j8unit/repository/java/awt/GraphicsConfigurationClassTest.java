@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.GraphicsConfigurationClassTests<Graphi
         return GraphicsConfiguration.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GraphicsConfiguration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GraphicsConfiguration]
 
 }

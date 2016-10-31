@@ -69,6 +69,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    ZoneOffsetTransitionRule.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to TimeDefinition.class!",
                               TimeDefinition.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 

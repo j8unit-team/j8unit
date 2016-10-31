@@ -88,6 +88,8 @@ implements org.j8unit.repository.javax.smartcardio.CardExceptionClassTests<CardE
         final CardException sut = null; // = new CardException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardException]
 
 }

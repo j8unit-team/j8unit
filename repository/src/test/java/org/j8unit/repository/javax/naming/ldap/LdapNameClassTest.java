@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.naming.ldap.LdapNameClassTests<LdapName> 
         final LdapName sut = null; // = new LdapName(java.util.List);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.LdapName]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.LdapName]
 
 }

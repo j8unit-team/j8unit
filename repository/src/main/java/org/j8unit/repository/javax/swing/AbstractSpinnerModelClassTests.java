@@ -68,6 +68,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    AbstractSpinnerModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.AbstractSpinnerModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.AbstractSpinnerModel]
 
 }

@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    CertPathChecker.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertPathChecker]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathChecker]
 
 }

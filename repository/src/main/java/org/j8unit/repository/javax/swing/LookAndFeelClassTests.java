@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    LookAndFeel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LookAndFeel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LookAndFeel]
 
 }

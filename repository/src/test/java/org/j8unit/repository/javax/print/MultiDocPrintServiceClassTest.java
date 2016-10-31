@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.MultiDocPrintServiceClassTests<Mult
         return MultiDocPrintService.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.MultiDocPrintService]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.MultiDocPrintService]
 
 }

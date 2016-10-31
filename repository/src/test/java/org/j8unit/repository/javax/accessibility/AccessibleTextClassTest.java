@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<Ac
         return AccessibleText.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleText]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleText]
 
 }

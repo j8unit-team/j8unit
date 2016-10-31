@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.sql.rowset.spi.SyncProviderClassTests<Syn
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.spi.SyncProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.spi.SyncProvider]
 
 }

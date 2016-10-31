@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynSequenceClassTests<SUT>, org
                    _DynSequenceStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynSequenceStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynSequenceStub]
 
 }

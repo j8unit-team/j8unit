@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BufferedImageOp.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BufferedImageOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImageOp]
 
 }

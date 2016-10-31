@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.nio.file.NotDirectoryExceptionClassTests<N
         final NotDirectoryException sut = null; // = new NotDirectoryException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.NotDirectoryException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.NotDirectoryException]
 
 }

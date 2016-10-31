@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.UnresolvedAddressExceptionCla
         final UnresolvedAddressException sut = new UnresolvedAddressException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.UnresolvedAddressException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.UnresolvedAddressException]
 
 }

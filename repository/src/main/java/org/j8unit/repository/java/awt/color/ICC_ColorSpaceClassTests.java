@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceClassTests<SUT> {
                    ICC_ColorSpace.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.color.ICC_ColorSpace]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.color.ICC_ColorSpace]
 
 }

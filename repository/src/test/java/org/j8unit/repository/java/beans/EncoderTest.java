@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Encoder>, org.j8unit.repository.java.beans.Enc
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.Encoder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.Encoder]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.Encoder]
 
 }

@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.management.openmbean.InvalidOpenTypeExcep
         final InvalidOpenTypeException sut = null; // = new InvalidOpenTypeException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.openmbean.InvalidOpenTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.openmbean.InvalidOpenTypeException]
 
 }

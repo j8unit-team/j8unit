@@ -169,6 +169,7 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.dom.DOMResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.transform.dom.DOMResult]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.transform.dom.DOMResult]
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.event.CaretListenerClassTests<Caret
         return CaretListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.CaretListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.CaretListener]
 
 }

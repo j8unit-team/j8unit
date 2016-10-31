@@ -32,6 +32,8 @@ implements org.j8unit.repository.java.time.LocalTimeTests<LocalTime> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.LocalTime]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.LocalTime]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.LocalTime]
 
 }

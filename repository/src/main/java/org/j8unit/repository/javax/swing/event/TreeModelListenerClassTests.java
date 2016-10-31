@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    TreeModelListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.TreeModelListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.TreeModelListener]
 
 }

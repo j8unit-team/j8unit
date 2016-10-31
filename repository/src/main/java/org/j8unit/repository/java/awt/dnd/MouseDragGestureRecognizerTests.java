@@ -201,6 +201,7 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.MouseDragGestureRecognizer]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.MouseDragGestureRecognizer]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.MouseDragGestureRecognizer]
 }

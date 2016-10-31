@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.PropertyChangeSupportClassTests<SUT> {
                    SwingPropertyChangeSupport.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.SwingPropertyChangeSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.SwingPropertyChangeSupport]
 
 }

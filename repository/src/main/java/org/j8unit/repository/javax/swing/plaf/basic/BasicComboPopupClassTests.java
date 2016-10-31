@@ -70,6 +70,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
                    BasicComboPopup.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ListDataHandler.class!",
                               ListDataHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$ListDataHandler]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupClassTests<SUT>, 
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to InvocationKeyHandler.class!",
                               InvocationKeyHandler.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboPopup$InvocationKeyHandler]
 

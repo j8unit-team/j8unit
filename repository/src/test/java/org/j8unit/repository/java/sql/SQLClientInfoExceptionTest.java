@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<SQLClientInfoException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLClientInfoException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.sql.SQLClientInfoException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.sql.SQLClientInfoException]
 
 }

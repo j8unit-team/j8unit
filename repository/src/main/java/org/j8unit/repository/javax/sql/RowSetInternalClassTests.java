@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    RowSetInternal.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetInternal]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetInternal]
 
 }

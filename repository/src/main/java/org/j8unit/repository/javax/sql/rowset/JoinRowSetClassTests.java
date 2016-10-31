@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.sql.rowset.WebRowSetClassTests<SUT> {
                    JoinRowSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.JoinRowSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.JoinRowSet]
 
 }

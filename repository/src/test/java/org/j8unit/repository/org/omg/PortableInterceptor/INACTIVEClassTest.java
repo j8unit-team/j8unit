@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.INACTIVEClassTests<
         return INACTIVE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.INACTIVE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.INACTIVE]
 
 }

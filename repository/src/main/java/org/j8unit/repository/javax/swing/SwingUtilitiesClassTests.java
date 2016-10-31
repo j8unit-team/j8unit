@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
                    SwingUtilities.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.SwingUtilities]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingUtilities]
 
 }

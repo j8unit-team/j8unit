@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.awt.dnd.DropTargetEventTests<DropTargetEve
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.awt.dnd.DropTargetEvent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DropTargetEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.dnd.DropTargetEvent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.dnd.DropTargetEvent]
 
 }

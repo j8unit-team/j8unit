@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.soap.SOAPBodyElementClassTests<SOAPBo
         return SOAPBodyElement.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.soap.SOAPBodyElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.soap.SOAPBodyElement]
 
 }

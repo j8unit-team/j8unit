@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AccountException>, org.j8unit.repository.javax
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.security.auth.login.AccountException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.AccountException]
 
 }

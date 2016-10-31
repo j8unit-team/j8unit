@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.IntegerSyntaxClassTests<I
         return IntegerSyntax.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.IntegerSyntax]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.IntegerSyntax]
 
 }

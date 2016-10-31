@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.MBeanTrustPermissionClassTests
         final MBeanTrustPermission sut = null; // = new MBeanTrustPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanTrustPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanTrustPermission]
 
 }

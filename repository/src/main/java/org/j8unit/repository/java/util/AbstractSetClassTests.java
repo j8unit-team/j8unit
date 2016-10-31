@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.SetClassTests<SUT>, org.j8unit.repositor
                    AbstractSet.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.AbstractSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractSet]
 
 }

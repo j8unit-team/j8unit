@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LambdaMetafactory>, org.j8unit.repository.java
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.LambdaMetafactory]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.invoke.LambdaMetafactory]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.LambdaMetafactory]
 
 }

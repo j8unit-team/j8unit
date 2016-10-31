@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.swing.text.MutableAttributeSetClassTests<SUT
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Style.class!", Style.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.Style]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.Style]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.lang.TypeNotPresentExceptionClassTests<Typ
         final TypeNotPresentException sut = null; // = new TypeNotPresentException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.TypeNotPresentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.TypeNotPresentException]
 
 }

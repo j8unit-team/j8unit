@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.channels.ClosedChannelExceptionClassTe
         final ClosedChannelException sut = new ClosedChannelException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ClosedChannelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ClosedChannelException]
 
 }

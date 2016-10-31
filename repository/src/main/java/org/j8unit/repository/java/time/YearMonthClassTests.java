@@ -69,6 +69,8 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    YearMonth.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.YearMonth]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.YearMonth]
 
 }

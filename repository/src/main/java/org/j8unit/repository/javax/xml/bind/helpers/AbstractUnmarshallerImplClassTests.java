@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<SUT>, org.j8
                    AbstractUnmarshallerImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
 
 }

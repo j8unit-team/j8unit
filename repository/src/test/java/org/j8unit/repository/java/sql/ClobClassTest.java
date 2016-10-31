@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.sql.ClobClassTests<Clob> {
         return Clob.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Clob]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Clob]
 
 }

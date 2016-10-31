@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LDAPCertStoreParameters>, org.j8unit.repositor
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.LDAPCertStoreParameters]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.LDAPCertStoreParameters]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.LDAPCertStoreParameters]
 
 }

@@ -207,6 +207,8 @@ implements org.j8unit.repository.java.util.ComparatorClassTests<Comparator> {
         // write some test for {@link java.util.Comparator#naturalOrder()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Comparator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Comparator]
 
 }

@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<D
         final DefaultHighlighter sut = new DefaultHighlighter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultHighlighter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultHighlighter]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<D
             @SuppressWarnings("unused")
             final DefaultHighlightPainter sut = null; // = new DefaultHighlightPainter(java.awt.Color);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 

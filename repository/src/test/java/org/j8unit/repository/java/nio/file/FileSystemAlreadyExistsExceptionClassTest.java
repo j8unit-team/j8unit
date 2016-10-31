@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.nio.file.FileSystemAlreadyExistsExceptionC
         final FileSystemAlreadyExistsException sut = null; // = new FileSystemAlreadyExistsException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.FileSystemAlreadyExistsException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.FileSystemAlreadyExistsException]
 
 }

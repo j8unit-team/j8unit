@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.net.ssl.X509TrustManagerClassTests<X509Tr
         return X509TrustManager.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.X509TrustManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.X509TrustManager]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.transform.sax.TemplatesHandlerClassTe
         return TemplatesHandler.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.transform.sax.TemplatesHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.transform.sax.TemplatesHandler]
 
 }

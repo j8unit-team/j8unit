@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.AnyHolderClassTests<AnyHolder> {
         final AnyHolder sut = new AnyHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.AnyHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.AnyHolder]
 
 }

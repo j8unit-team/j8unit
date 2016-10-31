@@ -32,6 +32,8 @@ org.j8unit.repository.java.security.cert.CertificateExpiredExceptionTests<Certif
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertificateExpiredException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertificateExpiredException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertificateExpiredException]
 
 }

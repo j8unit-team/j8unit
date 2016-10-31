@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
         return WebParam.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebParam]
 
     @RunWith(J8Unit4.class)
@@ -72,6 +74,8 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
         throws Exception {
             // write some test for {@link javax.jws.WebParam.Mode#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebParam$Mode]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebParam$Mode]
 

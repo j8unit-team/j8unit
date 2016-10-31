@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.util.InvalidPropertiesFormatExceptionClass
         final InvalidPropertiesFormatException sut = null; // = new InvalidPropertiesFormatException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.InvalidPropertiesFormatException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.InvalidPropertiesFormatException]
 
 }

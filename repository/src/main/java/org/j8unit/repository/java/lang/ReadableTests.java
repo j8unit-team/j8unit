@@ -54,6 +54,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Readable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Readable]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Readable]
 }

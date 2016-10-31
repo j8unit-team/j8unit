@@ -68,6 +68,8 @@ org.j8unit.repository.javax.lang.model.element.QualifiedNameableClassTests<SUT> 
                    TypeElement.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.lang.model.element.TypeElement]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.lang.model.element.TypeElement]
 
 }

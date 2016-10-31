@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.lang.ExceptionClassTests<Exception> {
         final Exception sut = new Exception();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.Exception]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Exception]
 
 }

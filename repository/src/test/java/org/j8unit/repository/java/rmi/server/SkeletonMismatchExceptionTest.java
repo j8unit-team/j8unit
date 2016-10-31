@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.rmi.server.SkeletonMismatchExceptionTests<
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.rmi.server.SkeletonMismatchException], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.SkeletonMismatchException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.SkeletonMismatchException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.SkeletonMismatchException]
 
 }

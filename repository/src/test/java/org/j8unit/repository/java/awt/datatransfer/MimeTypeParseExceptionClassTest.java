@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.datatransfer.MimeTypeParseExceptionCla
         final MimeTypeParseException sut = null; // = new MimeTypeParseException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.datatransfer.MimeTypeParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.datatransfer.MimeTypeParseException]
 
 }

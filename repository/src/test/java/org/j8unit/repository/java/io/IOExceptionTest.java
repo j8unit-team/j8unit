@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<IOException>, org.j8unit.repository.java.io.IO
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.IOException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.IOException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.IOException]
 
 }

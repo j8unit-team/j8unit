@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.imageio.stream.FileCacheImageInputStreamC
                                                     // java.io.File);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.FileCacheImageInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.FileCacheImageInputStream]
 
 }

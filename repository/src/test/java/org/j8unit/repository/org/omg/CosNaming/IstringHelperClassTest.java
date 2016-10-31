@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CosNaming.IstringHelperClassTests<Istri
         // write some test for {@link org.omg.CosNaming.IstringHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.IstringHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.IstringHelper]
 
 }

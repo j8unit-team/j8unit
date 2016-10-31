@@ -196,6 +196,8 @@ implements org.j8unit.repository.java.util.stream.StreamSupportClassTests<Stream
         // write some test for {@link java.util.stream.StreamSupport#stream(java.util.Spliterator, boolean)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.StreamSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.StreamSupport]
 
 }

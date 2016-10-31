@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.ls.LSResourceResolverClassTests<LSR
         return LSResourceResolver.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.ls.LSResourceResolver]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.ls.LSResourceResolver]
 
 }

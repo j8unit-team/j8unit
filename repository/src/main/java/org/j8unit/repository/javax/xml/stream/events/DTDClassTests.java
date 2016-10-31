@@ -66,6 +66,8 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<SUT> {
         assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to DTD.class!", DTD.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.events.DTD]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.events.DTD]
 
 }

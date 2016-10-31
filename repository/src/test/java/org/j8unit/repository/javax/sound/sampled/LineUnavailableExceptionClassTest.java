@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.sound.sampled.LineUnavailableExceptionCla
         final LineUnavailableException sut = null; // = new LineUnavailableException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineUnavailableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineUnavailableException]
 
 }

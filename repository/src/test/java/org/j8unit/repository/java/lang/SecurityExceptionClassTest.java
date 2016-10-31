@@ -106,6 +106,8 @@ implements org.j8unit.repository.java.lang.SecurityExceptionClassTests<SecurityE
         final SecurityException sut = new SecurityException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.SecurityException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.SecurityException]
 
 }

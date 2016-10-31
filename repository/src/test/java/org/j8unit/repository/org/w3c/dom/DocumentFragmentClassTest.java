@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.DocumentFragmentClassTests<Document
         return DocumentFragment.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.DocumentFragment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.DocumentFragment]
 
 }

@@ -123,6 +123,8 @@ implements org.j8unit.repository.java.util.prefs.PreferencesClassTests<Preferenc
         // write some test for {@link java.util.prefs.Preferences#userRoot()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.Preferences]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.Preferences]
 
 }

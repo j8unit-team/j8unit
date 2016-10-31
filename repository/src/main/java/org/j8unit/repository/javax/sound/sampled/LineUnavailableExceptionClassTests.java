@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
                    LineUnavailableException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineUnavailableException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineUnavailableException]
 
 }

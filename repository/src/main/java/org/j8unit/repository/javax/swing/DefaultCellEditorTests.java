@@ -267,6 +267,7 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultCellEditor]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DefaultCellEditor]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DefaultCellEditor]
 }

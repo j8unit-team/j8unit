@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.activation.MimeTypeParseExceptionClassTes
         final MimeTypeParseException sut = null; // = new MimeTypeParseException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.MimeTypeParseException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.MimeTypeParseException]
 
 }

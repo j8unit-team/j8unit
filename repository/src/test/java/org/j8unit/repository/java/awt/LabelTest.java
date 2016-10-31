@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<Label>, org.j8unit.repository.java.awt.LabelTe
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Label]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Label]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Label]
 
 }

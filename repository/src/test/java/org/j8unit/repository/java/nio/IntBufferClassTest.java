@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.nio.IntBufferClassTests<IntBuffer> {
         // write some test for {@link java.nio.IntBuffer#wrap(int[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.IntBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.IntBuffer]
 
 }

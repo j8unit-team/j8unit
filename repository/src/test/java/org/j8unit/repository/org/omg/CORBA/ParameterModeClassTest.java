@@ -39,6 +39,8 @@ implements org.j8unit.repository.org.omg.CORBA.ParameterModeClassTests<Parameter
         // write some test for {@link org.omg.CORBA.ParameterMode#from_int(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ParameterMode]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ParameterMode]
 
 }

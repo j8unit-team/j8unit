@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>, 
                    VetoableChangeListenerProxy.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.VetoableChangeListenerProxy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.VetoableChangeListenerProxy]
 
 }

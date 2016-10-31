@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.ComponentSampleModelClassTests<C
         final ComponentSampleModel sut = null; // = new ComponentSampleModel(int, int, int, int, int, int[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.ComponentSampleModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.ComponentSampleModel]
 
 }

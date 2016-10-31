@@ -44,6 +44,8 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutp
         final ObjectOutputStream sut = null; // = new ObjectOutputStream(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutputStream]
 
     @RunWith(J8Unit4.class)
@@ -76,6 +78,8 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutp
         throws Exception {
             fail("Cannot construct an abstract class!");
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.ObjectOutputStream$PutField]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutputStream$PutField]
 

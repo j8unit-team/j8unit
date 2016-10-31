@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.LongHolderClassTests<LongHolder> 
         final LongHolder sut = new LongHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.LongHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.LongHolder]
 
 }

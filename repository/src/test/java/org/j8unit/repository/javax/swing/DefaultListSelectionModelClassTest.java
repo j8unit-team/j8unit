@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.DefaultListSelectionModelClassTests
         final DefaultListSelectionModel sut = new DefaultListSelectionModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.DefaultListSelectionModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.DefaultListSelectionModel]
 
 }

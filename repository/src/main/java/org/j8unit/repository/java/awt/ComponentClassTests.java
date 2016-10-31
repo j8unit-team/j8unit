@@ -70,6 +70,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
                    Component.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Component]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Component]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to BaselineResizeBehavior.class!",
                               BaselineResizeBehavior.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
 

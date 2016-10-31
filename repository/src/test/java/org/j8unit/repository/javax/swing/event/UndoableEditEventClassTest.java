@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.event.UndoableEditEventClassTests<U
         final UndoableEditEvent sut = null; // = new UndoableEditEvent(Object, javax.swing.undo.UndoableEdit);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.UndoableEditEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.UndoableEditEvent]
 
 }

@@ -168,6 +168,8 @@ implements org.j8unit.repository.java.security.SecureRandomClassTests<SecureRand
         // write some test for {@link java.security.SecureRandom#getInstance(String, String)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.SecureRandom]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.SecureRandom]
 
 }

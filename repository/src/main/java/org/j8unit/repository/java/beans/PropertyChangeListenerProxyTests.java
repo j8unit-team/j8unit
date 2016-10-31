@@ -81,6 +81,7 @@ org.j8unit.repository.java.util.EventListenerProxyTests<SUT, PropertyChangeListe
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.PropertyChangeListenerProxy]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.beans.PropertyChangeListenerProxy]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.beans.PropertyChangeListenerProxy]
 }

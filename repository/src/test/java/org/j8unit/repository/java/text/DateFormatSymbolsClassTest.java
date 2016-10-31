@@ -124,6 +124,8 @@ implements org.j8unit.repository.java.text.DateFormatSymbolsClassTests<DateForma
         // write some test for {@link java.text.DateFormatSymbols#getAvailableLocales()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.DateFormatSymbols]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.DateFormatSymbols]
 
 }

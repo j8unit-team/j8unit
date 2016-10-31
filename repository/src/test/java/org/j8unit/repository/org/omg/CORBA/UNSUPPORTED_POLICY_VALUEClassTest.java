@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.UNSUPPORTED_POLICY_VALUEClassTest
         return UNSUPPORTED_POLICY_VALUE.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UNSUPPORTED_POLICY_VALUE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UNSUPPORTED_POLICY_VALUE]
 
 }

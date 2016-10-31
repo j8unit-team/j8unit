@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.security.CodeSourceTests<CodeSource> {
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.security.CodeSource], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.CodeSource]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.CodeSource]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.CodeSource]
 
 }

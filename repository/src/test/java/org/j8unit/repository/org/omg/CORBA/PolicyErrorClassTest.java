@@ -85,6 +85,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyErrorClassTests<PolicyError
         final PolicyError sut = null; // = new PolicyError(String, short);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PolicyError]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyError]
 
 }

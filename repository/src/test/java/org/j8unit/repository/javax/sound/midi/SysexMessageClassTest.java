@@ -86,6 +86,8 @@ implements org.j8unit.repository.javax.sound.midi.SysexMessageClassTests<SysexMe
         final SysexMessage sut = null; // = new SysexMessage(int, byte[], int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.SysexMessage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.SysexMessage]
 
 }

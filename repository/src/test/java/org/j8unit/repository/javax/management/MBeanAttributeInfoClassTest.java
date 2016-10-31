@@ -95,6 +95,8 @@ implements org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<M
                                              // boolean, javax.management.Descriptor);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.MBeanAttributeInfo]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.MBeanAttributeInfo]
 
 }

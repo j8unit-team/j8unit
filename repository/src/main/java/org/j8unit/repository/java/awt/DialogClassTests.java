@@ -70,6 +70,8 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
                    Dialog.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Dialog]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Dialog]
 
     /**
@@ -132,6 +134,8 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ModalExclusionType.class!",
                               ModalExclusionType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Dialog$ModalExclusionType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Dialog$ModalExclusionType]
 
@@ -197,6 +201,8 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ModalityType.class!",
                               ModalityType.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Dialog$ModalityType]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Dialog$ModalityType]
 

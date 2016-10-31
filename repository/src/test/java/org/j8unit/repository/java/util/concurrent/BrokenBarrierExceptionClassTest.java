@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.util.concurrent.BrokenBarrierExceptionClas
         final BrokenBarrierException sut = null; // = new BrokenBarrierException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.BrokenBarrierException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.BrokenBarrierException]
 
 }

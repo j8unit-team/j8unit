@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    ListDataListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.ListDataListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.ListDataListener]
 
 }

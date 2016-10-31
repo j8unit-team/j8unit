@@ -123,6 +123,7 @@ extends org.j8unit.repository.javax.swing.ComboBoxModelTests<SUT, E> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.MutableComboBoxModel]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.MutableComboBoxModel]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.MutableComboBoxModel]
 }

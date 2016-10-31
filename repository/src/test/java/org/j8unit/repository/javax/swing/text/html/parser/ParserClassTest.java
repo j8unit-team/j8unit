@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.text.html.parser.ParserClassTests<P
         final Parser sut = null; // = new Parser(javax.swing.text.html.parser.DTD);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.Parser]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.Parser]
 
 }

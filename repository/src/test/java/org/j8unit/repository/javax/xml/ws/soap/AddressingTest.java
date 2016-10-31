@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingTests<Addressing> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.xml.ws.soap.Addressing], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.Addressing]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.ws.soap.Addressing]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.Addressing]
 
 }

@@ -314,6 +314,8 @@ implements org.j8unit.repository.java.awt.ColorClassTests<Color> {
         // write some test for {@link java.awt.Color#getHSBColor(float, float, float)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.Color]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Color]
 
 }

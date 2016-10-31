@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<LinkedHashSet<E>>, org.j8unit.repository.java.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.LinkedHashSet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.LinkedHashSet]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.LinkedHashSet]
 
 }

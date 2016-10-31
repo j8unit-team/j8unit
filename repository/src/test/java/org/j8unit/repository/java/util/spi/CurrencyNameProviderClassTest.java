@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.spi.CurrencyNameProviderClassTests<Cu
         return CurrencyNameProvider.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.spi.CurrencyNameProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.spi.CurrencyNameProvider]
 
 }

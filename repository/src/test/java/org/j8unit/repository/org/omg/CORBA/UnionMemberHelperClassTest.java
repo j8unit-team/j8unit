@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<Union
         // write some test for {@link org.omg.CORBA.UnionMemberHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.UnionMemberHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.UnionMemberHelper]
 
 }

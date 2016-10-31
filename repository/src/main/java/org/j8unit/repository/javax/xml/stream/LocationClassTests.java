@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    Location.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.Location]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.Location]
 
 }

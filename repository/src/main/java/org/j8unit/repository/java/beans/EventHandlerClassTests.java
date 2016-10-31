@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
                    EventHandler.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.EventHandler]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.EventHandler]
 
 }

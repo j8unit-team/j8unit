@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectIdHelperClass
         // write some test for {@link org.omg.PortableInterceptor.ObjectIdHelper#id()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableInterceptor.ObjectIdHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableInterceptor.ObjectIdHelper]
 
 }

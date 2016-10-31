@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
                    INITIALIZE.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INITIALIZE]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INITIALIZE]
 
 }

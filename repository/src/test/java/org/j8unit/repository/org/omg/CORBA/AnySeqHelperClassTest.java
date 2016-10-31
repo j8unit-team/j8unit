@@ -165,6 +165,8 @@ implements org.j8unit.repository.org.omg.CORBA.AnySeqHelperClassTests<AnySeqHelp
         // write some test for {@link org.omg.CORBA.AnySeqHelper#type()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.AnySeqHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.AnySeqHelper]
 
 }

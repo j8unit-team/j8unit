@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.awt.image.RescaleOpClassTests<RescaleOp> {
         final RescaleOp sut = null; // = new RescaleOp(float[], float[], java.awt.RenderingHints);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.RescaleOp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.RescaleOp]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.CSSValueListClassTests<CSSValue
         return CSSValueList.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.CSSValueList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.CSSValueList]
 
 }

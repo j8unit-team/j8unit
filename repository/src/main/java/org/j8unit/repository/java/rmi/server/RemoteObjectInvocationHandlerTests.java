@@ -58,6 +58,7 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RemoteObjectInvocationHandler]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.rmi.server.RemoteObjectInvocationHandler]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.rmi.server.RemoteObjectInvocationHandler]
 }

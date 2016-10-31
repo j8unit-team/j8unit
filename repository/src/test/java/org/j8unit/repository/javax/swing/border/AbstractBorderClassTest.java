@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<Abs
         // javax.swing.border.Border, int, int, int, int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.AbstractBorder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.border.AbstractBorder]
 
 }

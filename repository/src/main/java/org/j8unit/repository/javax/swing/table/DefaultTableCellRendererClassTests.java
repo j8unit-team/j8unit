@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.swing.table.TableCellRendererClassTests<SUT>
                    DefaultTableCellRenderer.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.swing.table.TableCellRendererClassTests<SUT>
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UIResource.class!",
                               UIResource.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer$UIResource]
 

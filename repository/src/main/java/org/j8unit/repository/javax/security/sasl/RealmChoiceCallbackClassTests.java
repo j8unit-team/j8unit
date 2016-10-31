@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackClassTe
                    RealmChoiceCallback.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
 
 }

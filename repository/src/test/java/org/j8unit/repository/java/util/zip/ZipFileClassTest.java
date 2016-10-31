@@ -155,6 +155,8 @@ implements org.j8unit.repository.java.util.zip.ZipFileClassTests<ZipFile> {
         final ZipFile sut = null; // = new ZipFile(java.io.File, int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.ZipFile]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.ZipFile]
 
 }

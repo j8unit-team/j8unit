@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<SUT> 
                    GZIPOutputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.GZIPOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.GZIPOutputStream]
 
 }

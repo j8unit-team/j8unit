@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sql.RowSetMetaDataClassTests<RowSetMetaDa
         return RowSetMetaData.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.RowSetMetaData]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.RowSetMetaData]
 
 }

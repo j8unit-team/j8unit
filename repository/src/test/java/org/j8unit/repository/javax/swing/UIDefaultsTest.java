@@ -37,20 +37,24 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, org.j8unit.repository.javax.swing
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults]
 
     @RunWith(J8Unit4.class)
-    public static class ActiveValueTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests<ActiveValue> {
+    public static class LazyInputMapTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests<LazyInputMap> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
         @Override
-        public ActiveValue createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.UIDefaults.ActiveValue], j8unit does not support a generic way to provide instances.");
+        public LazyInputMap createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.LazyInputMap], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
 
     }
 
@@ -65,22 +69,26 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, org.j8unit.repository.javax.swing
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.ProxyLazyValue], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ProxyLazyValue]
 
     }
 
     @RunWith(J8Unit4.class)
-    public static class LazyInputMapTest
-    implements org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests<LazyInputMap> {
+    public static class ActiveValueTest
+    implements org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests<ActiveValue> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
 
         @Override
-        public LazyInputMap createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.UIDefaults.LazyInputMap], j8unit does not support a generic way to provide instances.");
+        public ActiveValue createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.UIDefaults.ActiveValue], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyInputMap]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$ActiveValue]
 
     }
 
@@ -95,7 +103,9 @@ implements FactoryBasedJ8UnitTest<UIDefaults>, org.j8unit.repository.javax.swing
             throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.UIDefaults.LazyValue], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIDefaults$LazyValue]
 
     }
 

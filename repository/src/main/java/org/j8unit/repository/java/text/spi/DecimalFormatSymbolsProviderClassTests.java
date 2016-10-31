@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT>
                    DecimalFormatSymbolsProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.text.spi.DecimalFormatSymbolsProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.spi.DecimalFormatSymbolsProvider]
 
 }

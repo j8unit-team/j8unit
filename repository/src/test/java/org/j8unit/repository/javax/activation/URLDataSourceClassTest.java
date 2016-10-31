@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.activation.URLDataSourceClassTests<URLDat
         final URLDataSource sut = null; // = new URLDataSource(java.net.URL);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.URLDataSource]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.URLDataSource]
 
 }

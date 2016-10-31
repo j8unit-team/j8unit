@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    KeySelectorResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.KeySelectorResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelectorResult]
 
 }

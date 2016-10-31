@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<SUT> {
                    RemoteStub.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.server.RemoteStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.server.RemoteStub]
 
 }

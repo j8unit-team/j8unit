@@ -43,6 +43,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererCla
         final BasicComboBoxRenderer sut = new BasicComboBoxRenderer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
 
     @SuppressWarnings("rawtypes")
@@ -78,6 +80,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererCla
             // create new instance
             final UIResource sut = new UIResource();
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource]
 

@@ -30,6 +30,8 @@ implements FactoryBasedJ8UnitTest<Throwable>, org.j8unit.repository.java.lang.Th
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Throwable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Throwable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Throwable]
 
 }

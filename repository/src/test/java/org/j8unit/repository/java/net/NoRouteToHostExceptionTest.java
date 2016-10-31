@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<NoRouteToHostException>, org.j8unit.repository
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.NoRouteToHostException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.NoRouteToHostException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.NoRouteToHostException]
 
 }

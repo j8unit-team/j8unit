@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    InterfaceAddress.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.InterfaceAddress]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InterfaceAddress]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<CertPathBuilderException>, org.j8unit.reposito
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathBuilderException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.CertPathBuilderException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathBuilderException]
 
 }

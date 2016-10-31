@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.DynamicAny._DynUnionStubClassTests<_Dyn
         final _DynUnionStub sut = new _DynUnionStub();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny._DynUnionStub]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny._DynUnionStub]
 
 }

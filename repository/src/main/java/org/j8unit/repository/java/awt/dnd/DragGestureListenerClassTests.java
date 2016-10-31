@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
                    DragGestureListener.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.dnd.DragGestureListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.dnd.DragGestureListener]
 
 }

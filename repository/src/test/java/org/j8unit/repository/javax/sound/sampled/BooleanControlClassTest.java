@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests<Bo
         return BooleanControl.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.BooleanControl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.BooleanControl]
 
     @RunWith(J8Unit4.class)
@@ -28,6 +30,8 @@ implements org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests<Bo
         public Class<Type> createNewSUT() {
             return Type.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.BooleanControl$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.BooleanControl$Type]
 

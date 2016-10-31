@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DefaultHandler2>, org.j8unit.repository.org.xm
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.DefaultHandler2]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.xml.sax.ext.DefaultHandler2]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.xml.sax.ext.DefaultHandler2]
 
 }

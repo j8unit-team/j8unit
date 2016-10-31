@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
         // write some test for {@link javax.swing.plaf.basic.BasicColorChooserUI#createUI(javax.swing.JComponent)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicColorChooserUI]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicColorChooserUI]
 
     @RunWith(J8Unit4.class)
@@ -99,6 +101,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUIClass
             @SuppressWarnings("unused")
             final PropertyHandler sut = null; // = new PropertyHandler(javax.swing.plaf.basic.BasicColorChooserUI);
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
 

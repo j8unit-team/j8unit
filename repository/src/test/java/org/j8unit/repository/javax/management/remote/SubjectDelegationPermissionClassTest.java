@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.management.remote.SubjectDelegationPermis
         final SubjectDelegationPermission sut = null; // = new SubjectDelegationPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.SubjectDelegationPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.SubjectDelegationPermission]
 
 }

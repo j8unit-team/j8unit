@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.util.zip.Adler32ClassTests<Adler32> {
         final Adler32 sut = new Adler32();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.zip.Adler32]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.zip.Adler32]
 
 }

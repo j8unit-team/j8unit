@@ -29,6 +29,7 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.ldap.PagedResultsControl]
 }

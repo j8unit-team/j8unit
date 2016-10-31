@@ -29,6 +29,7 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, SortOrder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SortOrder]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SortOrder]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.SortOrder]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SortOrder]
 }

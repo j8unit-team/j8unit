@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.naming.ldap.LdapReferralExceptionClassTes
         return LdapReferralException.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.ldap.LdapReferralException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.ldap.LdapReferralException]
 
 }

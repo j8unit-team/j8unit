@@ -108,6 +108,8 @@ implements org.j8unit.repository.java.util.WeakHashMapClassTests<WeakHashMap> {
         final WeakHashMap sut = new WeakHashMap();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.WeakHashMap]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.WeakHashMap]
 
 }

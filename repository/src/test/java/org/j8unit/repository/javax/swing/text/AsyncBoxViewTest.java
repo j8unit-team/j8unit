@@ -18,7 +18,9 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<AsyncBoxView
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AsyncBoxView], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AsyncBoxView]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AsyncBoxView]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AsyncBoxView]
 
     @RunWith(J8Unit4.class)
     public static class ChildStateTest
@@ -31,7 +33,9 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<AsyncBoxView
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AsyncBoxView.ChildState], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AsyncBoxView$ChildState]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AsyncBoxView$ChildState]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AsyncBoxView$ChildState]
 
     }
 
@@ -46,7 +50,9 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewTests<AsyncBoxView
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.AsyncBoxView.ChildLocator], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.AsyncBoxView$ChildLocator]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.AsyncBoxView$ChildLocator]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.AsyncBoxView$ChildLocator]
 
     }
 

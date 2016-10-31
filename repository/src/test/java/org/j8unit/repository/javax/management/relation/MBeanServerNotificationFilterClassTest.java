@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.management.relation.MBeanServerNotificati
         final MBeanServerNotificationFilter sut = new MBeanServerNotificationFilter();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.relation.MBeanServerNotificationFilter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.relation.MBeanServerNotificationFilter]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.DynamicAny.DynEnumOperationsClassTests<
         return DynEnumOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.DynamicAny.DynEnumOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.DynamicAny.DynEnumOperations]
 
 }

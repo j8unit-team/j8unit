@@ -79,6 +79,7 @@ extends org.j8unit.repository.java.nio.charset.CharacterCodingExceptionTests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.UnmappableCharacterException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.charset.UnmappableCharacterException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.charset.UnmappableCharacterException]
 }

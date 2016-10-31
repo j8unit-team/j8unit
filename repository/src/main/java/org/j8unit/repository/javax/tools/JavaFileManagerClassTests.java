@@ -71,6 +71,8 @@ org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
                    JavaFileManager.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileManager]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileManager]
 
     /**
@@ -132,6 +134,8 @@ org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Location.class!",
                               Location.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileManager$Location]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileManager$Location]
 

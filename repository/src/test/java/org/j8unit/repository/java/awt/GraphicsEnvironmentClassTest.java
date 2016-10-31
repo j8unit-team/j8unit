@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.awt.GraphicsEnvironmentClassTests<Graphics
         // write some test for {@link java.awt.GraphicsEnvironment#isHeadless()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.GraphicsEnvironment]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GraphicsEnvironment]
 
 }

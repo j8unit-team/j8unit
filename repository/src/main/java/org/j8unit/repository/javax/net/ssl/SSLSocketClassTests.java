@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.net.SocketClassTests<SUT> {
                    SSLSocket.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSocket]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSocket]
 
 }

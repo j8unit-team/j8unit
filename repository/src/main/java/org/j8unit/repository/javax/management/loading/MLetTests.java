@@ -375,10 +375,10 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.loading.MLetMBean#getResources(String) interface
-     * javax.management.loading.MLetMBean}</li>
      * <li>{@link ClassLoader#getResources(String) class java.lang.ClassLoader} (via parent node(s)
      * {@link URLClassLoader URLClassLoader})</li>
+     * <li>{@link javax.management.loading.MLetMBean#getResources(String) interface
+     * javax.management.loading.MLetMBean}</li>
      * </ul>
      *
      * <p>
@@ -395,8 +395,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResources_String()
     throws Exception {
-        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResources_String();
         org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResources_String();
+        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResources_String();
     }
 
     /**
@@ -405,9 +405,9 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link java.net.URLClassLoader#getResourceAsStream(String) class java.net.URLClassLoader}</li>
      * <li>{@link javax.management.loading.MLetMBean#getResourceAsStream(String) interface
      * javax.management.loading.MLetMBean}</li>
-     * <li>{@link java.net.URLClassLoader#getResourceAsStream(String) class java.net.URLClassLoader}</li>
      * </ul>
      *
      * <p>
@@ -424,8 +424,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResourceAsStream_String()
     throws Exception {
-        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResourceAsStream_String();
         org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResourceAsStream_String();
+        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResourceAsStream_String();
     }
 
     /**
@@ -434,10 +434,10 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.loading.MLetMBean#getResource(String) interface
-     * javax.management.loading.MLetMBean}</li>
      * <li>{@link ClassLoader#getResource(String) class java.lang.ClassLoader} (via parent node(s) {@link URLClassLoader
      * URLClassLoader})</li>
+     * <li>{@link javax.management.loading.MLetMBean#getResource(String) interface
+     * javax.management.loading.MLetMBean}</li>
      * </ul>
      *
      * <p>
@@ -454,10 +454,11 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResource_String()
     throws Exception {
-        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResource_String();
         org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResource_String();
+        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResource_String();
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.MLet]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.MLet]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.loading.MLet]
 }

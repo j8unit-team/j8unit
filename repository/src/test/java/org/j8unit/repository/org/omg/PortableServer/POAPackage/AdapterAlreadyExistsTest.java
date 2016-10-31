@@ -32,6 +32,8 @@ org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlreadyExistsTest
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
 
 }

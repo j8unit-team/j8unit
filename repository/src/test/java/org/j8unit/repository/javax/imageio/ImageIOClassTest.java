@@ -669,6 +669,8 @@ implements org.j8unit.repository.javax.imageio.ImageIOClassTests<ImageIO> {
         // write some test for {@link javax.imageio.ImageIO#getImageReader(javax.imageio.ImageWriter)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.ImageIO]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.ImageIO]
 
 }

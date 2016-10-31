@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    TAG_INTERNET_IOP.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TAG_INTERNET_IOP]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TAG_INTERNET_IOP]
 
 }

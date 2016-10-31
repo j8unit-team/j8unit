@@ -89,6 +89,8 @@ implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTes
         final ArrayBlockingQueue sut = null; // = new ArrayBlockingQueue(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.ArrayBlockingQueue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ArrayBlockingQueue]
 
 }

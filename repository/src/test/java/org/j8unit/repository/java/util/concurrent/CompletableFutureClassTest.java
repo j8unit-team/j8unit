@@ -200,6 +200,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
         // java.util.concurrent.CompletableFuture#allOf(java.util.concurrent.CompletableFuture...)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CompletableFuture]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CompletableFuture]
 
     @RunWith(J8Unit4.class)
@@ -212,6 +214,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletableFutureClassTest
         public Class<AsynchronousCompletionTask> createNewSUT() {
             return AsynchronousCompletionTask.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.concurrent.CompletableFuture$AsynchronousCompletionTask]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.CompletableFuture$AsynchronousCompletionTask]
 

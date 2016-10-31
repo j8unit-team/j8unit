@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PresentationDire
         return PresentationDirection.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.PresentationDirection]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.PresentationDirection]
 
 }

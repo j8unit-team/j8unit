@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.sound.midi.SynthesizerClassTests<Synthesi
         return Synthesizer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.midi.Synthesizer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Synthesizer]
 
 }

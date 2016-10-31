@@ -103,6 +103,8 @@ implements org.j8unit.repository.javax.swing.JLayeredPaneClassTests<JLayeredPane
         // write some test for {@link javax.swing.JLayeredPane#getLayeredPaneAbove(java.awt.Component)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JLayeredPane]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JLayeredPane]
 
 }

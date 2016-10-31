@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.xml.datatype.DurationClassTests<Duration>
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.datatype.Duration]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.Duration]
 
 }

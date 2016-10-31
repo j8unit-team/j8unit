@@ -45,6 +45,8 @@ implements org.j8unit.repository.javax.management.remote.rmi.RMIJRMPServerImplCl
                                             // java.rmi.server.RMIServerSocketFactory, java.util.Map);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.remote.rmi.RMIJRMPServerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.remote.rmi.RMIJRMPServerImpl]
 
 }

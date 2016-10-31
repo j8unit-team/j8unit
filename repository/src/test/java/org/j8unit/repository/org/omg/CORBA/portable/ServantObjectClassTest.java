@@ -40,6 +40,8 @@ implements org.j8unit.repository.org.omg.CORBA.portable.ServantObjectClassTests<
         final ServantObject sut = new ServantObject();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.portable.ServantObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.portable.ServantObject]
 
 }

@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardT
         return CardTerminals.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardTerminals]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardTerminals]
 
     @RunWith(J8Unit4.class)
@@ -73,6 +75,8 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardT
         throws Exception {
             // write some test for {@link javax.smartcardio.CardTerminals.State#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardTerminals$State]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardTerminals$State]
 

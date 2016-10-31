@@ -170,6 +170,7 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.RSAPrivateCrtKey]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.interfaces.RSAPrivateCrtKey]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.interfaces.RSAPrivateCrtKey]
 }

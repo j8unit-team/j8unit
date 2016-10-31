@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.swing.plaf.synth.SynthConstantsClassTests
         return SynthConstants.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.synth.SynthConstants]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.synth.SynthConstants]
 
 }

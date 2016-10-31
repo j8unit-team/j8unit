@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.security.interfaces.RSAPublicKeyClassTests
         return RSAPublicKey.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.interfaces.RSAPublicKey]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.interfaces.RSAPublicKey]
 
 }

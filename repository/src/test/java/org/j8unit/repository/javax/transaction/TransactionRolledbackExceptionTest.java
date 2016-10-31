@@ -32,6 +32,8 @@ org.j8unit.repository.javax.transaction.TransactionRolledbackExceptionTests<Tran
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRolledbackException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.transaction.TransactionRolledbackException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.transaction.TransactionRolledbackException]
 
 }

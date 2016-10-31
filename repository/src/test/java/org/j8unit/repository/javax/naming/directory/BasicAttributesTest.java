@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BasicAttributes>, org.j8unit.repository.javax.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
 
 }

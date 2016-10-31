@@ -30,6 +30,7 @@ extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.Data]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.Data]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.Data]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.Data]
 }

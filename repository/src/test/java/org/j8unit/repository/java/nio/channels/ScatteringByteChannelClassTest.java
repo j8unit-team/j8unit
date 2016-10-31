@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTes
         return ScatteringByteChannel.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.channels.ScatteringByteChannel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.ScatteringByteChannel]
 
 }

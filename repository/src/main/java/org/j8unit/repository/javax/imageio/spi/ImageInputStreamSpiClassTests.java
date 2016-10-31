@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderClassTests<SUT
                    ImageInputStreamSpi.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.spi.ImageInputStreamSpi]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.spi.ImageInputStreamSpi]
 
 }

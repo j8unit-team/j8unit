@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.swing.SpringTests<Spring> {
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.Spring], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.Spring]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.Spring]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Spring]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
                    AncestorEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.AncestorEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.AncestorEvent]
 
 }

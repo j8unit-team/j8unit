@@ -67,6 +67,8 @@ implements org.j8unit.repository.javax.sql.StatementEventClassTests<StatementEve
                                          // java.sql.PreparedStatement);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.StatementEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.StatementEvent]
 
 }

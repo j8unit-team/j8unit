@@ -105,6 +105,8 @@ implements org.j8unit.repository.java.lang.StringBufferClassTests<StringBuffer> 
         final StringBuffer sut = new StringBuffer();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.StringBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.StringBuffer]
 
 }

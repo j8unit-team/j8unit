@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.bind.attachment.AttachmentUnmarshalle
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.attachment.AttachmentUnmarshaller]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.attachment.AttachmentUnmarshaller]
 
 }

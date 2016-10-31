@@ -86,6 +86,8 @@ implements org.j8unit.repository.java.util.ArrayListClassTests<ArrayList> {
         final ArrayList sut = null; // = new ArrayList(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.ArrayList]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ArrayList]
 
 }

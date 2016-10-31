@@ -147,8 +147,9 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -198,8 +199,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$EventType]
     }
 
     /**
@@ -230,29 +232,6 @@ extends RepositoryTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenRemoved() public abstract
-         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenRemoved()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getChildrenRemoved()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.event.DocumentEvent.ElementChange#getElement() public abstract javax.swing.text.Element
          * javax.swing.event.DocumentEvent$ElementChange.getElement()}.
          *
@@ -267,6 +246,29 @@ extends RepositoryTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getElement()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenRemoved() public abstract
+         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenRemoved()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getChildrenRemoved()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -319,8 +321,9 @@ extends RepositoryTests<SUT> {
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
     }
 
 }

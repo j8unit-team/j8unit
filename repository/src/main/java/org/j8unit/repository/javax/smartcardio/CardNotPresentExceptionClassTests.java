@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.smartcardio.CardExceptionClassTests<SUT> {
                    CardNotPresentException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardNotPresentException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardNotPresentException]
 
 }

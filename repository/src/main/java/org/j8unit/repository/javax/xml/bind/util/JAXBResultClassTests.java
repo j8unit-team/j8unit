@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.transform.sax.SAXResultClassTests<SUT> {
                    JAXBResult.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.util.JAXBResult]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.util.JAXBResult]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8u
                    DSAPrivateKeySpec.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.spec.DSAPrivateKeySpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.spec.DSAPrivateKeySpec]
 
 }

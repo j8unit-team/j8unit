@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.LayoutFocusTraversalPolicyClassTest
         final LayoutFocusTraversalPolicy sut = new LayoutFocusTraversalPolicy();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.LayoutFocusTraversalPolicy]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.LayoutFocusTraversalPolicy]
 
 }

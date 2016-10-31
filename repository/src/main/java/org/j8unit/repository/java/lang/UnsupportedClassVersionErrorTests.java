@@ -28,6 +28,7 @@ extends org.j8unit.repository.java.lang.ClassFormatErrorTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
 }

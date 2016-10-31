@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DOMImplementationRegistry.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
 
 }

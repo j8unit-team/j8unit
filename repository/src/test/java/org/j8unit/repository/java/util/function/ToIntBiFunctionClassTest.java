@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.function.ToIntBiFunctionClassTests<To
         return ToIntBiFunction.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.function.ToIntBiFunction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.function.ToIntBiFunction]
 
 }

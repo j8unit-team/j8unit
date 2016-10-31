@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.MarshallerClassTests<SUT>, org.j8un
                    AbstractMarshallerImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.AbstractMarshallerImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.AbstractMarshallerImpl]
 
 }

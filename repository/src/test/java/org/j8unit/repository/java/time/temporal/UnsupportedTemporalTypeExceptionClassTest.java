@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.time.temporal.UnsupportedTemporalTypeExcep
         final UnsupportedTemporalTypeException sut = null; // = new UnsupportedTemporalTypeException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.UnsupportedTemporalTypeException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.UnsupportedTemporalTypeException]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, 
                    ObjectHolder.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ObjectHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ObjectHolder]
 
 }

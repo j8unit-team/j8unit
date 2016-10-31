@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsClas
         return BindingIteratorOperations.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.BindingIteratorOperations]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.BindingIteratorOperations]
 
 }

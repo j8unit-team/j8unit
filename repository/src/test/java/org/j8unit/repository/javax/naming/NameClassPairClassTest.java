@@ -65,6 +65,8 @@ implements org.j8unit.repository.javax.naming.NameClassPairClassTests<NameClassP
         final NameClassPair sut = null; // = new NameClassPair(String, String, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.naming.NameClassPair]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.NameClassPair]
 
 }

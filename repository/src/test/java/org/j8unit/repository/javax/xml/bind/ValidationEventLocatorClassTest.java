@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests
         return ValidationEventLocator.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.ValidationEventLocator]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.ValidationEventLocator]
 
 }

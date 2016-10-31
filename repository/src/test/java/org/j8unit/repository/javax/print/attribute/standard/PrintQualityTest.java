@@ -31,6 +31,8 @@ implements org.j8unit.repository.javax.print.attribute.standard.PrintQualityTest
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.PrintQuality]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.PrintQuality]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.PrintQuality]
 
 }

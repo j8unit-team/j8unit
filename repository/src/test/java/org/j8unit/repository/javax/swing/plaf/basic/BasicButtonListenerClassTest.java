@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicButtonListenerClass
         final BasicButtonListener sut = null; // = new BasicButtonListener(javax.swing.AbstractButton);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]
 
 }

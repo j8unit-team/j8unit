@@ -67,6 +67,8 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
                    PropertyException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.PropertyException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.PropertyException]
 
 }

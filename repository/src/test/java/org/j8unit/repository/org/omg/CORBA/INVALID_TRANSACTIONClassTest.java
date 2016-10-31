@@ -109,6 +109,8 @@ implements org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONClassTests<INV
         final INVALID_TRANSACTION sut = new INVALID_TRANSACTION();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.INVALID_TRANSACTION]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.INVALID_TRANSACTION]
 
 }

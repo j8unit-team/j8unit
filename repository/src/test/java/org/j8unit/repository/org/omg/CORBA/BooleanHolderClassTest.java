@@ -62,6 +62,8 @@ implements org.j8unit.repository.org.omg.CORBA.BooleanHolderClassTests<BooleanHo
         final BooleanHolder sut = new BooleanHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.BooleanHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.BooleanHolder]
 
 }

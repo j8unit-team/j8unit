@@ -110,6 +110,8 @@ implements org.j8unit.repository.javax.print.attribute.HashDocAttributeSetClassT
         final HashDocAttributeSet sut = new HashDocAttributeSet();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.HashDocAttributeSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.HashDocAttributeSet]
 
 }

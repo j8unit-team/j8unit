@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.accessibility.AccessibleIconClassTests<Ac
         return AccessibleIcon.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.accessibility.AccessibleIcon]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.accessibility.AccessibleIcon]
 
 }

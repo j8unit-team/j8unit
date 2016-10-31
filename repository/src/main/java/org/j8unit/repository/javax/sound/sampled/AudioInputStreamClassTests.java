@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
                    AudioInputStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioInputStream]
 
 }

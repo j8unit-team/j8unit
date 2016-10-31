@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    PropertyEditor.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.PropertyEditor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.PropertyEditor]
 
 }

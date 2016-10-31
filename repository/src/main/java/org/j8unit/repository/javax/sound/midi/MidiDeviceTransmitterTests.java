@@ -55,6 +55,7 @@ extends org.j8unit.repository.javax.sound.midi.TransmitterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiDeviceTransmitter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.midi.MidiDeviceTransmitter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.MidiDeviceTransmitter]
 }

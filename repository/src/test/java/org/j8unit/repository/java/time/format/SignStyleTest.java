@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.time.format.SignStyleTests<SignStyle> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.SignStyle]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.format.SignStyle]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.format.SignStyle]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.management.monitor.MonitorClassTests<Moni
         fail("Cannot construct an abstract class!");
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.monitor.Monitor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.monitor.Monitor]
 
 }

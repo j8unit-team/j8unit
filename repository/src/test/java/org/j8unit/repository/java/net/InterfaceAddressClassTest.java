@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.net.InterfaceAddressClassTests<InterfaceAd
         return InterfaceAddress.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.net.InterfaceAddress]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.InterfaceAddress]
 
 }

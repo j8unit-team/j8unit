@@ -107,6 +107,8 @@ implements org.j8unit.repository.javax.xml.stream.XMLInputFactoryClassTests<XMLI
         // write some test for {@link javax.xml.stream.XMLInputFactory#newInstance()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.stream.XMLInputFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.stream.XMLInputFactory]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    FormattableFlags.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.FormattableFlags]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.FormattableFlags]
 
 }

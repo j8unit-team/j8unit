@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<AffineTransform>, org.j8unit.repository.java.a
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.AffineTransform]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.geom.AffineTransform]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.geom.AffineTransform]
 
 }

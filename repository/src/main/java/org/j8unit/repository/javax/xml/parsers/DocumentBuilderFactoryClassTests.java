@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    DocumentBuilderFactory.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.parsers.DocumentBuilderFactory]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.parsers.DocumentBuilderFactory]
 
 }

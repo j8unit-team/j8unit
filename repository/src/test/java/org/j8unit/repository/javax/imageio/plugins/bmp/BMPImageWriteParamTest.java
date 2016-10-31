@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<BMPImageWriteParam>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
 
 }

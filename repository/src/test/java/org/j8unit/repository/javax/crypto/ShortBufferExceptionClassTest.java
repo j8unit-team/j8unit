@@ -63,6 +63,8 @@ implements org.j8unit.repository.javax.crypto.ShortBufferExceptionClassTests<Sho
         final ShortBufferException sut = null; // = new ShortBufferException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.ShortBufferException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.ShortBufferException]
 
 }

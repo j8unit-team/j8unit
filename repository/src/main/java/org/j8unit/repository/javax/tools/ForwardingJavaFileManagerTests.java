@@ -355,6 +355,7 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ForwardingJavaFileManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.ForwardingJavaFileManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.ForwardingJavaFileManager]
 }

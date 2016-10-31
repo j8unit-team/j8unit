@@ -60,6 +60,8 @@ implements org.j8unit.repository.java.nio.file.attribute.AclEntryPermissionClass
         // write some test for {@link java.nio.file.attribute.AclEntryPermission#values()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.attribute.AclEntryPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.attribute.AclEntryPermission]
 
 }

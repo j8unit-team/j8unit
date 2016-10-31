@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                    JAXBContext.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.JAXBContext]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBContext]
 
 }

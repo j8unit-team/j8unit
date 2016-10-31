@@ -18,6 +18,8 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
         return WatchEvent.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent]
 
     @RunWith(J8Unit4.class)
@@ -30,6 +32,8 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
         public Class<Modifier> createNewSUT() {
             return Modifier.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
 
@@ -46,6 +50,8 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
         public Class<Kind> createNewSUT() {
             return Kind.class;
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.file.WatchEvent$Kind]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent$Kind]
 

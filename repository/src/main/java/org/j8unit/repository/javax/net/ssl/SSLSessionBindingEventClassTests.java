@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
                    SSLSessionBindingEvent.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLSessionBindingEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLSessionBindingEvent]
 
 }

@@ -32,6 +32,8 @@ org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests<Val
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.ValidationEventLocatorImpl]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.bind.helpers.ValidationEventLocatorImpl]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.bind.helpers.ValidationEventLocatorImpl]
 
 }

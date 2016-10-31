@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.w3c.dom.css.RectClassTests<Rect> {
         return Rect.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.w3c.dom.css.Rect]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.w3c.dom.css.Rect]
 
 }

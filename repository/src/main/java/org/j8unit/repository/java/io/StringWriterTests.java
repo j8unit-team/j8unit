@@ -284,6 +284,7 @@ extends org.j8unit.repository.java.io.WriterTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.StringWriter]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.io.StringWriter]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.StringWriter]
 }

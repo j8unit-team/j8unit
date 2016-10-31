@@ -44,6 +44,8 @@ implements org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecClassTests<O
                                             // java.security.spec.AlgorithmParameterSpec, javax.crypto.spec.PSource);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.crypto.spec.OAEPParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.OAEPParameterSpec]
 
 }

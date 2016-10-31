@@ -32,6 +32,8 @@ org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIConnection_St
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]
 
 }

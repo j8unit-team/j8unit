@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.util.concurrent.CompletionStageTests<Compl
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [java.util.concurrent.CompletionStage], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CompletionStage]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.CompletionStage]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CompletionStage]
 
 }

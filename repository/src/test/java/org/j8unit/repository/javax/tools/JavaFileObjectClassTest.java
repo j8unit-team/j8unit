@@ -20,6 +20,8 @@ implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests<JavaFileOb
         return JavaFileObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileObject]
 
     @RunWith(J8Unit4.class)
@@ -72,6 +74,8 @@ implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests<JavaFileOb
         throws Exception {
             // write some test for {@link javax.tools.JavaFileObject.Kind#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.JavaFileObject$Kind]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileObject$Kind]
 

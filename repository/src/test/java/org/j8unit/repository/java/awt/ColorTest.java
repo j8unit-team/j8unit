@@ -54,6 +54,8 @@ implements org.j8unit.repository.java.awt.ColorTests<Color> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Color]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Color]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Color]
 
 }

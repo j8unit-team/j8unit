@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.time.zone.ZoneRulesExceptionClassTests<Zon
         final ZoneRulesException sut = null; // = new ZoneRulesException(String, Throwable);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.zone.ZoneRulesException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneRulesException]
 
 }

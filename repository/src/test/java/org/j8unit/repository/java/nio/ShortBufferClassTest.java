@@ -79,6 +79,8 @@ implements org.j8unit.repository.java.nio.ShortBufferClassTests<ShortBuffer> {
         // write some test for {@link java.nio.ShortBuffer#allocate(int)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.ShortBuffer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.ShortBuffer]
 
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.ietf.jgss.GSSCredentialTests<GSSCredential>
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.ietf.jgss.GSSCredential], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.ietf.jgss.GSSCredential]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.ietf.jgss.GSSCredential]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.ietf.jgss.GSSCredential]
 
 }

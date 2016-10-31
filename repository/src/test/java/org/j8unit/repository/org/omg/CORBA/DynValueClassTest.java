@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynValueClassTests<DynValue> {
         return DynValue.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynValue]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynValue]
 
 }

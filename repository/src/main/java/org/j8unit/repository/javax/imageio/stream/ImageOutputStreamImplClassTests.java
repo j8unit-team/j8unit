@@ -68,6 +68,8 @@ org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassTests<SUT> {
                    ImageOutputStreamImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.imageio.stream.ImageOutputStreamImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.imageio.stream.ImageOutputStreamImpl]
 
 }

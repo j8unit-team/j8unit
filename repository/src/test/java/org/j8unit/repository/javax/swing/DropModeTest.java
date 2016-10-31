@@ -29,6 +29,8 @@ implements org.j8unit.repository.javax.swing.DropModeTests<DropMode> {
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DropMode]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.DropMode]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.DropMode]
 
 }

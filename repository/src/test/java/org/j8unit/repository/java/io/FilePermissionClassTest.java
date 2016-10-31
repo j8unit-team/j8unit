@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.FilePermissionClassTests<FilePermission
         final FilePermission sut = null; // = new FilePermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilePermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilePermission]
 
 }

@@ -78,6 +78,7 @@ extends org.j8unit.repository.java.sql.SQLExceptionTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.SyncProviderException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.spi.SyncProviderException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.spi.SyncProviderException]
 }

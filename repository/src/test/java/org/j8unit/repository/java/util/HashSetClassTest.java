@@ -107,6 +107,8 @@ implements org.j8unit.repository.java.util.HashSetClassTests<HashSet> {
         final HashSet sut = new HashSet();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.HashSet]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.HashSet]
 
 }

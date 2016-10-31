@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    ActivationID.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.rmi.activation.ActivationID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationID]
 
 }

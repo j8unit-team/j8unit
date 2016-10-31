@@ -167,6 +167,8 @@ implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<Tagge
         // write some test for {@link org.omg.IOP.TaggedProfileHelper#read(org.omg.CORBA.portable.InputStream)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<DATA_CONVERSION>, org.j8unit.repository.org.om
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DATA_CONVERSION]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.CORBA.DATA_CONVERSION]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.CORBA.DATA_CONVERSION]
 
 }

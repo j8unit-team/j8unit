@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.swing.UnsupportedLookAndFeelExceptionClas
         final UnsupportedLookAndFeelException sut = null; // = new UnsupportedLookAndFeelException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.UnsupportedLookAndFeelException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.UnsupportedLookAndFeelException]
 
 }

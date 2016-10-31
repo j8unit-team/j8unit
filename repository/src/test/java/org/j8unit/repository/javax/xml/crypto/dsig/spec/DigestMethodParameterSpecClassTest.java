@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.DigestMethodParamete
         return DigestMethodParameterSpec.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.crypto.dsig.spec.DigestMethodParameterSpec]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.dsig.spec.DigestMethodParameterSpec]
 
 }

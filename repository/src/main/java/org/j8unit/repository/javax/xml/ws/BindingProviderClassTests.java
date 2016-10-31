@@ -67,6 +67,8 @@ extends RepositoryClassTests<SUT> {
                    BindingProvider.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.BindingProvider]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.BindingProvider]
 
 }

@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.io.FilterOutputStreamClassTests<FilterOutp
         final FilterOutputStream sut = null; // = new FilterOutputStream(java.io.OutputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FilterOutputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FilterOutputStream]
 
 }

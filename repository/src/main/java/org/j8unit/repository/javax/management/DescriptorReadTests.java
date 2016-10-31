@@ -55,6 +55,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.DescriptorRead]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.DescriptorRead]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.DescriptorRead]
 }

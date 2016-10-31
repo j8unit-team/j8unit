@@ -16,6 +16,8 @@ implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlread
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
 
 }

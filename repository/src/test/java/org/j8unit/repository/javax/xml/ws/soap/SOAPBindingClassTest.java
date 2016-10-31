@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.xml.ws.soap.SOAPBindingClassTests<SOAPBin
         return SOAPBinding.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.soap.SOAPBinding]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.SOAPBinding]
 
 }

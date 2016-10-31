@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.PortableServer.THREAD_POLICY_IDClassTes
         return THREAD_POLICY_ID.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.PortableServer.THREAD_POLICY_ID]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.PortableServer.THREAD_POLICY_ID]
 
 }

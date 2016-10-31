@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ConnectException>, org.j8unit.repository.java.
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.ConnectException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.ConnectException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.ConnectException]
 
 }

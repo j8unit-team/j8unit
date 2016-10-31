@@ -54,6 +54,7 @@ extends org.j8unit.repository.javax.xml.transform.dom.DOMResultTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SAAJResult]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.soap.SAAJResult]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.soap.SAAJResult]
 }

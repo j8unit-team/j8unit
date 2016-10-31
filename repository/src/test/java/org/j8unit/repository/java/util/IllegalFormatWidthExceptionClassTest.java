@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.util.IllegalFormatWidthExceptionClassTests
         final IllegalFormatWidthException sut = null; // = new IllegalFormatWidthException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.IllegalFormatWidthException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.IllegalFormatWidthException]
 
 }

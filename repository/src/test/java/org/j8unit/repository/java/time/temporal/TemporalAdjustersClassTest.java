@@ -315,6 +315,8 @@ implements org.j8unit.repository.java.time.temporal.TemporalAdjustersClassTests<
         // write some test for {@link java.time.temporal.TemporalAdjusters#firstDayOfNextMonth()}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.temporal.TemporalAdjusters]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.temporal.TemporalAdjusters]
 
 }

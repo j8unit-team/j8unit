@@ -41,6 +41,8 @@ implements org.j8unit.repository.java.nio.charset.CharacterCodingExceptionClassT
         final CharacterCodingException sut = new CharacterCodingException();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.nio.charset.CharacterCodingException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.charset.CharacterCodingException]
 
 }

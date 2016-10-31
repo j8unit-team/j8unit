@@ -68,6 +68,8 @@ org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8u
                    MouseAdapter.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.MouseAdapter]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.MouseAdapter]
 
 }

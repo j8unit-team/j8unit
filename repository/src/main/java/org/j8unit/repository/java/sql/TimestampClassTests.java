@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
                    Timestamp.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.sql.Timestamp]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.sql.Timestamp]
 
 }

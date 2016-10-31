@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableColumnModelClassT
         final DefaultTableColumnModel sut = new DefaultTableColumnModel();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableColumnModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableColumnModel]
 
 }

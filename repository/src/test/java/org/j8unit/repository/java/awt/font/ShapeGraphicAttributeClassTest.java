@@ -42,6 +42,8 @@ implements org.j8unit.repository.java.awt.font.ShapeGraphicAttributeClassTests<S
         final ShapeGraphicAttribute sut = null; // = new ShapeGraphicAttribute(java.awt.Shape, int, boolean);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.font.ShapeGraphicAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.ShapeGraphicAttribute]
 
 }

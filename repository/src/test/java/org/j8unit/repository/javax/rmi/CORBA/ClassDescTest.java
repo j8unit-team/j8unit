@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<ClassDesc>, org.j8unit.repository.javax.rmi.CO
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.CORBA.ClassDesc]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.rmi.CORBA.ClassDesc]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.rmi.CORBA.ClassDesc]
 
 }

@@ -194,6 +194,7 @@ extends RepositoryTests<SUT> {
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerDelegateMBean]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.MBeanServerDelegateMBean]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.MBeanServerDelegateMBean]
 }

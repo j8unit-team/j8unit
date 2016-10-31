@@ -32,6 +32,8 @@ implements org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGHuffmanTableTest
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGHuffmanTable]
 
 }

@@ -31,6 +31,8 @@ implements FactoryBasedJ8UnitTest<XMLStreamException>, org.j8unit.repository.jav
         return this.sutFactory;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.XMLStreamException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.stream.XMLStreamException]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.stream.XMLStreamException]
 
 }

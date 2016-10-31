@@ -55,6 +55,7 @@ extends org.j8unit.repository.java.util.ConcurrentModificationExceptionTests<SUT
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryIteratorException]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.DirectoryIteratorException]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryIteratorException]
 }

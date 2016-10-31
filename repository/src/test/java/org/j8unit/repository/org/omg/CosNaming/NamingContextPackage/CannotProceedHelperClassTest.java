@@ -177,6 +177,8 @@ implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotPr
         // org.omg.CosNaming.NamingContextPackage.CannotProceed)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHelper]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHelper]
 
 }

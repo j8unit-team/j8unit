@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.jws.soap.InitParamClassTests<InitParam> {
         return InitParam.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.soap.InitParam]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.soap.InitParam]
 
 }

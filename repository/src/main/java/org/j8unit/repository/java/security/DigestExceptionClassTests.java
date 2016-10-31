@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
                    DigestException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.DigestException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.DigestException]
 
 }

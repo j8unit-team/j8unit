@@ -231,6 +231,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.InputMap]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.InputMap]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.InputMap]
 }

@@ -16,6 +16,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialArrayTests<Serial
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.sql.rowset.serial.SerialArray], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SerialArray]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sql.rowset.serial.SerialArray]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sql.rowset.serial.SerialArray]
 
 }

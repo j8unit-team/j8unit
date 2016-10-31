@@ -112,6 +112,8 @@ implements org.j8unit.repository.java.io.InputStreamReaderClassTests<InputStream
         final InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.InputStreamReader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.InputStreamReader]
 
 }

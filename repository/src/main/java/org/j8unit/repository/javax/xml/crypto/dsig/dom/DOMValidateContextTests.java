@@ -78,6 +78,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLValidateContextTests<SUT>
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMValidateContext]
 }

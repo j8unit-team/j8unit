@@ -34,8 +34,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getParameter(String)
-     * public java.lang.String javax.activation.MimeType.getParameter(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getBaseType() public
+     * java.lang.String javax.activation.MimeType.getBaseType()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -47,7 +47,7 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameter_String()
+    public default void test_getBaseType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,8 +79,8 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getBaseType() public
-     * java.lang.String javax.activation.MimeType.getBaseType()}.
+     * Test method for the hereby targeted method-under-test {@link javax.activation.MimeType#getParameter(String)
+     * public java.lang.String javax.activation.MimeType.getParameter(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,7 +92,7 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBaseType()
+    public default void test_getParameter_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -349,6 +349,7 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MimeType]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.activation.MimeType]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.activation.MimeType]
 }

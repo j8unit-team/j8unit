@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.ARG_INClassTests<ARG_IN> {
         return ARG_IN.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.ARG_IN]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.ARG_IN]
 
 }

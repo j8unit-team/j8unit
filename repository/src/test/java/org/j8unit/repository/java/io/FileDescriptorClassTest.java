@@ -40,6 +40,8 @@ implements org.j8unit.repository.java.io.FileDescriptorClassTests<FileDescriptor
         final FileDescriptor sut = new FileDescriptor();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.FileDescriptor]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.FileDescriptor]
 
 }

@@ -124,6 +124,8 @@ implements org.j8unit.repository.javax.rmi.PortableRemoteObjectClassTests<Portab
         // write some test for {@link javax.rmi.PortableRemoteObject#unexportObject(java.rmi.Remote)}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.rmi.PortableRemoteObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.rmi.PortableRemoteObject]
 
 }

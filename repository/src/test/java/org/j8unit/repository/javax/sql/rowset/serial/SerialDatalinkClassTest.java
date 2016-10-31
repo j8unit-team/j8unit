@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.sql.rowset.serial.SerialDatalinkClassTest
         final SerialDatalink sut = null; // = new SerialDatalink(java.net.URL);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sql.rowset.serial.SerialDatalink]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sql.rowset.serial.SerialDatalink]
 
 }

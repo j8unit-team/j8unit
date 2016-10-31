@@ -56,6 +56,7 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.
         assert sut != null;
     }
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.DefaultMenuLayout]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.DefaultMenuLayout]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.DefaultMenuLayout]
 }

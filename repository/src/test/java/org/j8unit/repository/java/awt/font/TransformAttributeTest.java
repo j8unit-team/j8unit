@@ -29,6 +29,8 @@ implements org.j8unit.repository.java.awt.font.TransformAttributeTests<Transform
         return this.sut;
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.TransformAttribute]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.font.TransformAttribute]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.TransformAttribute]
 
 }

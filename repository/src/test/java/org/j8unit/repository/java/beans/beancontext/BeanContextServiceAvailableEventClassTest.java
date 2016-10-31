@@ -45,6 +45,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextServiceAvaila
                                                            // Class);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextServiceAvailableEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextServiceAvailableEvent]
 
 }

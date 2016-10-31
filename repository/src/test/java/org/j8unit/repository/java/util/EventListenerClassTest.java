@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.EventListenerClassTests<EventListener
         return EventListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.EventListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.EventListener]
 
 }

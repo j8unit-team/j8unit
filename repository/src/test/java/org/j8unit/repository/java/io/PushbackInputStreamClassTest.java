@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.io.PushbackInputStreamClassTests<PushbackI
         final PushbackInputStream sut = null; // = new PushbackInputStream(java.io.InputStream);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PushbackInputStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PushbackInputStream]
 
 }

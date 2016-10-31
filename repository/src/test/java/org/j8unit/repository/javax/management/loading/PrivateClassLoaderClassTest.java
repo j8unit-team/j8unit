@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.loading.PrivateClassLoaderClas
         return PrivateClassLoader.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.loading.PrivateClassLoader]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.loading.PrivateClassLoader]
 
 }

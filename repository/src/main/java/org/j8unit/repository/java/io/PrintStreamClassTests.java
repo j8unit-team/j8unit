@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.re
                    PrintStream.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.io.PrintStream]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.PrintStream]
 
 }

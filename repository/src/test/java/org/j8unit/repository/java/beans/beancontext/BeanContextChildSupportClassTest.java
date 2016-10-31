@@ -65,6 +65,8 @@ implements org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportC
                                                   // BeanContextChildSupport(java.beans.beancontext.BeanContextChild);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.beans.beancontext.BeanContextChildSupport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.beans.beancontext.BeanContextChildSupport]
 
 }

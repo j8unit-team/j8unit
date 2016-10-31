@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.awt.event.WindowFocusListenerClassTests<Wi
         return WindowFocusListener.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.event.WindowFocusListener]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.event.WindowFocusListener]
 
 }

@@ -19,7 +19,26 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentTests<JTextCompo
         throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.JTextComponent], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.JTextComponent]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent]
+
+    @RunWith(J8Unit4.class)
+    public static class AccessibleJTextComponentTest
+    implements org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests<AccessibleJTextComponent> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
+        @Override
+        public AccessibleJTextComponent createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.JTextComponent.AccessibleJTextComponent], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+
+    }
 
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
@@ -32,7 +51,9 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentTests<JTextCompo
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.JTextComponent.DropLocation], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$DropLocation]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.JTextComponent$DropLocation]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent$DropLocation]
 
     }
 
@@ -47,22 +68,9 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentTests<JTextCompo
             throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.JTextComponent.KeyBinding], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$KeyBinding]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.JTextComponent$KeyBinding]
 
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class AccessibleJTextComponentTest
-    implements org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests<AccessibleJTextComponent> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
-
-        @Override
-        public AccessibleJTextComponent createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.JTextComponent.AccessibleJTextComponent], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.JTextComponent$KeyBinding]
 
     }
 

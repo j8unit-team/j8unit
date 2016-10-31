@@ -68,6 +68,8 @@ org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClassTests<SUT> 
                    PrintConversionEventImpl.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.helpers.PrintConversionEventImpl]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.helpers.PrintConversionEventImpl]
 
 }

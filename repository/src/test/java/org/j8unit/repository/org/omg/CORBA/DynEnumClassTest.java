@@ -15,6 +15,8 @@ implements org.j8unit.repository.org.omg.CORBA.DynEnumClassTests<DynEnum> {
         return DynEnum.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.DynEnum]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.DynEnum]
 
 }

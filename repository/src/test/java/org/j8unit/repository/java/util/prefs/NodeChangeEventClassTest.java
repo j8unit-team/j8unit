@@ -43,6 +43,8 @@ implements org.j8unit.repository.java.util.prefs.NodeChangeEventClassTests<NodeC
                                           // java.util.prefs.Preferences);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.prefs.NodeChangeEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.prefs.NodeChangeEvent]
 
 }

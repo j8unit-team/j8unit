@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.xml.ws.http.HTTPExceptionClassTests<HTTPE
         final HTTPException sut = null; // = new HTTPException(int);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.ws.http.HTTPException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.http.HTTPException]
 
 }

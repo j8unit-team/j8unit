@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests
         final AbstractUndoableEdit sut = new AbstractUndoableEdit();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.AbstractUndoableEdit]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.AbstractUndoableEdit]
 
 }

@@ -67,6 +67,8 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
                                          // javax.swing.event.RowSorterEvent.Type, int[]);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.RowSorterEvent]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.RowSorterEvent]
 
     @RunWith(J8Unit4.class)
@@ -120,6 +122,8 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
         throws Exception {
             // write some test for {@link javax.swing.event.RowSorterEvent.Type#valueOf(String)}
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.event.RowSorterEvent$Type]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.RowSorterEvent$Type]
 

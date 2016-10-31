@@ -41,6 +41,8 @@ implements org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeClassTe
         final DefaultMetalTheme sut = new DefaultMetalTheme();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.DefaultMetalTheme]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.DefaultMetalTheme]
 
 }

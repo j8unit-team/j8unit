@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                    ContentModel.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.parser.ContentModel]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.parser.ContentModel]
 
 }

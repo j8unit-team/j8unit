@@ -64,6 +64,8 @@ implements org.j8unit.repository.java.awt.AWTPermissionClassTests<AWTPermission>
         final AWTPermission sut = null; // = new AWTPermission(String, String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.AWTPermission]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.AWTPermission]
 
 }

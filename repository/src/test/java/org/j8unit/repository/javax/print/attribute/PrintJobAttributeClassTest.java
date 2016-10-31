@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTes
         return PrintJobAttribute.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.PrintJobAttribute]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.PrintJobAttribute]
 
 }

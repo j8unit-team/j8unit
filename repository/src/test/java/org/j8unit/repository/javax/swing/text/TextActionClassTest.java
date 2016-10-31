@@ -62,6 +62,8 @@ implements org.j8unit.repository.javax.swing.text.TextActionClassTests<TextActio
         // javax.swing.Action[])}
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.TextAction]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.TextAction]
 
 }

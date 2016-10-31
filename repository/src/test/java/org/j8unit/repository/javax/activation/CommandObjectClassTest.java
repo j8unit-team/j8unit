@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.activation.CommandObjectClassTests<Comman
         return CommandObject.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.activation.CommandObject]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.activation.CommandObject]
 
 }

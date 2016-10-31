@@ -42,6 +42,8 @@ implements org.j8unit.repository.javax.net.ssl.SSLProtocolExceptionClassTests<SS
         final SSLProtocolException sut = null; // = new SSLProtocolException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.net.ssl.SSLProtocolException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLProtocolException]
 
 }

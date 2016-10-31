@@ -15,6 +15,8 @@ implements org.j8unit.repository.javax.management.DescriptorReadClassTests<Descr
         return DescriptorRead.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.management.DescriptorRead]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.management.DescriptorRead]
 
 }

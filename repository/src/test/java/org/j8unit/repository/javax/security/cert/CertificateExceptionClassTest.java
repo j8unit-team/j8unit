@@ -64,6 +64,8 @@ implements org.j8unit.repository.javax.security.cert.CertificateExceptionClassTe
         final CertificateException sut = null; // = new CertificateException(String);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.security.cert.CertificateException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.cert.CertificateException]
 
 }

@@ -15,6 +15,8 @@ implements org.j8unit.repository.java.util.ObserverClassTests<Observer> {
         return Observer.class;
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.Observer]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Observer]
 
 }

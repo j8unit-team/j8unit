@@ -66,6 +66,8 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
                    SuppressWarnings.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.SuppressWarnings]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.SuppressWarnings]
 
 }

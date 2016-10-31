@@ -63,6 +63,8 @@ implements org.j8unit.repository.org.omg.CORBA.PolicyHolderClassTests<PolicyHold
         final PolicyHolder sut = new PolicyHolder();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[org.omg.CORBA.PolicyHolder]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[org.omg.CORBA.PolicyHolder]
 
 }

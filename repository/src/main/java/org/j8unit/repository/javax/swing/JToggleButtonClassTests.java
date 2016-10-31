@@ -69,6 +69,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                    JToggleButton.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JToggleButton]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JToggleButton]
 
     /**
@@ -131,6 +133,8 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
             Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to ToggleButtonModel.class!",
                               ToggleButtonModel.class.isAssignableFrom(sut));
         }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JToggleButton$ToggleButtonModel]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JToggleButton$ToggleButtonModel]
 

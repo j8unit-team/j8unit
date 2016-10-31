@@ -91,6 +91,8 @@ implements org.j8unit.repository.java.awt.image.BufferedImageClassTests<Buffered
         final BufferedImage sut = null; // = new BufferedImage(int, int, int, java.awt.image.IndexColorModel);
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.image.BufferedImage]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.image.BufferedImage]
 
 }

@@ -67,6 +67,8 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
                    CannotRedoException.class.isAssignableFrom(sut));
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.undo.CannotRedoException]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.undo.CannotRedoException]
 
 }

@@ -40,6 +40,8 @@ implements org.j8unit.repository.javax.swing.JViewportClassTests<JViewport> {
         final JViewport sut = new JViewport();
     }
 
+    // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JViewport]
+
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JViewport]
 
 }

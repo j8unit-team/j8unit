@@ -33,8 +33,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.UIManager]
 
-    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIManager]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIManager]
 
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIManager]
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -128,8 +129,9 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
             assert sut != null;
         }
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIManager$LookAndFeelInfo]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.UIManager$LookAndFeelInfo]
 
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.UIManager$LookAndFeelInfo]
     }
 
 }

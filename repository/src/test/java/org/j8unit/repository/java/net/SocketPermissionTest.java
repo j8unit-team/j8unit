@@ -16,6 +16,8 @@ implements org.j8unit.repository.java.net.SocketPermissionTests<SocketPermission
         throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [java.net.SocketPermission], j8unit does not support a generic way to provide instances.");
     }
 
-    // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.SocketPermission]
+    // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.SocketPermission]
+
+    // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.SocketPermission]
 
 }
