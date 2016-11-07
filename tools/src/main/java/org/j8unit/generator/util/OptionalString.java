@@ -109,16 +109,25 @@ public final class OptionalString {
         return (value == null) || value.isEmpty() ? empty() : of(value);
     }
 
-    // TODO: JavaDoc
+    /**
+     * Returns an instance of this class {@linkplain #ofEmptyable(String) describing} the specified {@code optional}
+     * {@link String} value, if {@linkplain Optional#isPresent() present}; Otherwise returns an {@linkplain #empty()
+     * empty OptionalString instance}.
+     *
+     * @param value
+     *            the possibly-empty value to describe
+     * @return an instance of this class describing the specified {@code value}, if non-{@code null} <em>and</em>
+     *         non-empty; Otherwise returns an empty {@link OptionalString} instance
+     */
     public static final OptionalString ofOptional(final Optional<String> optional) {
         requireNonNull(optional);
-        return optional.isPresent() ? of(optional.get()) : empty();
+        return ofEmptyable(optional.orElse(null));
     }
 
     /**
      * Return {@code true} if there is a {@linkplain #value} present, otherwise {@code false}.
      *
-     * @return {@code true} if there is a value present, otherwise {@code false}
+     * @return {@code true} iff there is a value present
      */
     public final boolean isPresent() {
         return (this.value != null) && !this.value.isEmpty();
@@ -131,7 +140,7 @@ public final class OptionalString {
      * @return the non-{@code null} <em>and</em> non-{@linkplain String#isEmpty() empty} value held by {@code this}
      *         instance
      * @throws NoSuchElementException
-     *             if there is no value present
+     *             iff there is no value present
      *
      * @see OptionalString#isPresent()
      */
