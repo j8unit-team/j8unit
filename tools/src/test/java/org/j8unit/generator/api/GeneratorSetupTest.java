@@ -1,4 +1,4 @@
-package org.j8unit.tools;
+package org.j8unit.generator.api;
 
 import static java.lang.String.format;
 import static org.j8unit.generator.analysis.AccessScope.CLASS;
@@ -365,12 +365,12 @@ public class GeneratorSetupTest {
         assertEquals(Paths.get("foo", "bar", "java", "lang").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(Object.class.getPackage()));
         assertEquals(Paths.get("src", "main", "java", "foo", "bar", "java", "lang").toAbsolutePath(),
                      JAVA_LANG_INTO_SUBBED.targetFolderFor(Object.class.getPackage()));
-        assertEquals(Paths.get("org", "j8unit", "tools").toAbsolutePath(), JAVA_LANG.targetFolderFor(PackagePrivateClass.class.getPackage()));
-        assertEquals(Paths.get("src", "main", "java", "org", "j8unit", "tools").toAbsolutePath(),
+        assertEquals(Paths.get("org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG.targetFolderFor(PackagePrivateClass.class.getPackage()));
+        assertEquals(Paths.get("src", "main", "java", "org", "j8unit", "generator", "api").toAbsolutePath(),
                      JAVA_LANG_INTO.targetFolderFor(PackagePrivateClass.class.getPackage()));
-        assertEquals(Paths.get("foo", "bar", "org", "j8unit", "tools").toAbsolutePath(),
+        assertEquals(Paths.get("foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(),
                      JAVA_LANG_SUBBED.targetFolderFor(PackagePrivateClass.class.getPackage()));
-        assertEquals(Paths.get("src", "main", "java", "foo", "bar", "org", "j8unit", "tools").toAbsolutePath(),
+        assertEquals(Paths.get("src", "main", "java", "foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(),
                      JAVA_LANG_INTO_SUBBED.targetFolderFor(PackagePrivateClass.class.getPackage()));
     }
 
@@ -381,10 +381,10 @@ public class GeneratorSetupTest {
         assertEquals(Paths.get("src", "main", "java", "java", "lang").toAbsolutePath(), JAVA_LANG_INTO.targetFolderFor(Object.class));
         assertEquals(Paths.get("foo", "bar", "java", "lang").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(Object.class));
         assertEquals(Paths.get("src", "main", "java", "foo", "bar", "java", "lang").toAbsolutePath(), JAVA_LANG_INTO_SUBBED.targetFolderFor(Object.class));
-        assertEquals(Paths.get("org", "j8unit", "tools").toAbsolutePath(), JAVA_LANG.targetFolderFor(PackagePrivateClass.class));
-        assertEquals(Paths.get("src", "main", "java", "org", "j8unit", "tools").toAbsolutePath(), JAVA_LANG_INTO.targetFolderFor(PackagePrivateClass.class));
-        assertEquals(Paths.get("foo", "bar", "org", "j8unit", "tools").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(PackagePrivateClass.class));
-        assertEquals(Paths.get("src", "main", "java", "foo", "bar", "org", "j8unit", "tools").toAbsolutePath(),
+        assertEquals(Paths.get("org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG.targetFolderFor(PackagePrivateClass.class));
+        assertEquals(Paths.get("src", "main", "java", "org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG_INTO.targetFolderFor(PackagePrivateClass.class));
+        assertEquals(Paths.get("foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(PackagePrivateClass.class));
+        assertEquals(Paths.get("src", "main", "java", "foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(),
                      JAVA_LANG_INTO_SUBBED.targetFolderFor(PackagePrivateClass.class));
     }
 

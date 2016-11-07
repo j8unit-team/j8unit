@@ -385,15 +385,13 @@ implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputContro
      * classes). Afterwards, any further behaviour must be configured by calling the according builder's configuration
      * methods.
      *
-     * TODO: Make package-private!
-     *
      * @param pakkage
      *            the origin package
      * @return a new {@code GeneratorSetup} builder for the given package (of custom classes)
      *
      * @see #forPackage(String)
      */
-    public final static Builder forJavaPackage(final String pakkage) {
+    final static Builder forJavaPackage(final String pakkage) {
         requireNonNull(pakkage);
         return new Builder().forJavaPackage(pakkage);
     }
