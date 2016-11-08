@@ -4,6 +4,7 @@ import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singleton;
 import static org.j8unit.generator.util.Strings.capFirst;
+import static org.j8unit.generator.util.Strings.untrim;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -38,6 +39,18 @@ public class StringsTest {
         assertEquals("", Java.diamond(emptyList()));
         assertEquals("<Foo>", Java.diamond(singleton("Foo")));
         assertEquals("<Foo, Bar>", Java.diamond(asList("Foo", "Bar")));
+    }
+
+    @Test
+    public void test_untrim()
+    throws Exception {
+        assertEquals(" null ", untrim(null));
+        assertEquals(" ", untrim(""));
+        assertEquals(" hello ", untrim("hello"));
+        assertEquals(" foo bar ", untrim("foo bar"));
+        assertEquals(" foo bar ", untrim(" foo bar"));
+        assertEquals(" foo bar ", untrim("foo bar "));
+        assertEquals(" foo bar ", untrim(" foo bar "));
     }
 
 }

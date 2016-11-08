@@ -93,17 +93,21 @@ public enum Strings {
 
     /**
      * In opposite to {@link String#trim()} this method adds a space character at the begin and the end of the given
-     * {@code value}.
-     *
-     * @implNote TODO: We might shall check whether or not the {@code value} already provides a space character at the
-     *           begin/at the end.
+     * {@code value}&nbsp;&ndash; unless it is already present.
      *
      * @param value
      *            the origin value
      * @return the untrimmed representation of the value
      */
-    public static final String untrim(final String value) {
-        return " " + value + " ";
+    public static final String untrim(String value) {
+        value = String.valueOf(value);
+        if (!value.startsWith(" ")) {
+            value = " " + value;
+        }
+        if (!value.endsWith(" ")) {
+            value = value + " ";
+        }
+        return value;
     }
 
 }
