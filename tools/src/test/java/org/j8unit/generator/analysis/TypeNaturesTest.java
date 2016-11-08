@@ -1,5 +1,6 @@
 package org.j8unit.generator.analysis;
 
+import static java.lang.Class.forName;
 import static java.util.Arrays.asList;
 import static java.util.Collections.singleton;
 import static java.util.stream.Collectors.toList;
@@ -9,6 +10,7 @@ import static javax.tools.ToolProvider.getSystemJavaCompiler;
 import static org.j8unit.generator.analysis.TypeNatures.GENERIC;
 import static org.j8unit.generator.analysis.TypeNatures.NON_GENERIC;
 import static org.j8unit.generator.analysis.TypeNatures.RAW;
+import static org.j8unit.generator.util.Suppliers.runtimed;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import java.io.IOException;
@@ -30,22 +32,83 @@ public class TypeNaturesTest {
 
     private static final JavaFileManager MANAGER = getSystemJavaCompiler().getStandardFileManager(null, null, null);
 
-    private static final List<Class<?>> RAW_GENERICS = asList( // extends Collection<NO-TYPE>
-                                                               java.beans.beancontext.BeanContext.class,
-                                                               // extends BeanContext
-                                                               java.beans.beancontext.BeanContextServices.class,
-                                                               // extends BeanContext
-                                                               java.beans.beancontext.BeanContextSupport.class,
-                                                               // extends BeanContextServices, BeanContextSupport
-                                                               java.beans.beancontext.BeanContextServicesSupport.class,
-                                                               // extends javax.swing.ListCellRenderer<NO-TYPE>
-                                                               javax.swing.plaf.basic.BasicComboBoxRenderer.class,
-                                                               // extends BasicComboBoxRenderer
-                                                               javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource.class,
-                                                               // extends Iterator<NO-TYPE>
-                                                               javax.xml.stream.XMLEventReader.class,
-                                                               // extends XMLEventReader
-                                                               javax.xml.stream.util.EventReaderDelegate.class);
+    private static final List<Class<?>> RAW_GENERICS = asList(
+                                                              /* (1) BeanContext and sub-types */
+                                                              // extends Collection<NO-TYPE>
+                                                              java.beans.beancontext.BeanContext.class,
+                                                              // extends BeanContext
+                                                              java.beans.beancontext.BeanContextServices.class,
+                                                              // extends BeanContext
+                                                              java.beans.beancontext.BeanContextSupport.class,
+                                                              // extends BeanContextServices,
+                                                              // BeanContextSupport
+                                                              java.beans.beancontext.BeanContextServicesSupport.class,
+
+                                                              /* (2) BasicComboBoxRenderer and sub-types */
+                                                              // extends
+                                                              // javax.swing.ListCellRenderer<NO-TYPE>
+                                                              javax.swing.plaf.basic.BasicComboBoxRenderer.class,
+                                                              // extends BasicComboBoxRenderer
+                                                              javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource.class,
+
+                                                              /* (3) XMLEventReader and sub-types */
+                                                              // extends Iterator<NO-TYPE>
+                                                              javax.xml.stream.XMLEventReader.class,
+                                                              // extends XMLEventReader
+                                                              javax.xml.stream.util.EventReaderDelegate.class,
+
+                                                              /* () implements Iterator<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.imageio.spi.PartialOrderIterator")),
+                                                              runtimed(() -> forName("javax.print.attribute.standard.PrinterStateReasons$PrinterStateReasonSetIterator")),
+                                                              runtimed(() -> forName("javax.print.MimeType$ParameterMapEntrySetIterator")),
+                                                              runtimed(() -> forName("javax.xml.soap.MimeHeaders$MatchingIterator")),
+                                                              runtimed(() -> forName("java.beans.beancontext.BeanContextSupport$BCSIterator")),
+                                                              // extends DataTransferer.DataFlavorComparator<NO-TYPE>
+                                                              runtimed(() -> forName("java.awt.datatransfer.DataFlavor$TextFlavorComparator")),
+
+                                                              /* () implements Enumeration<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.swing.text.html.MuxingAttributeSet$MuxingAttributeNameEnumeration")),
+
+                                                              /* () extends AbstractSet<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.imageio.spi.PartiallyOrderedSet")),
+                                                              runtimed(() -> forName("javax.print.MimeType$ParameterMapEntrySet")),
+
+                                                              /* () implements Map.Entry<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.print.MimeType$ParameterMapEntry")),
+
+                                                              /* () extends AbstractMap<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.print.MimeType$ParameterMap")),
+
+                                                              /* () implements Comparator<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.swing.table.TableRowSorter$ComparableComparator")),
+
+                                                              /* () extends State<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ComboBoxArrowButtonEditableState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ComboBoxEditableState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameTitlePaneCloseButtonWindowNotFocusedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameTitlePaneIconifyButtonWindowNotFocusedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameTitlePaneMaximizeButtonWindowMaximizedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameTitlePaneMaximizeButtonWindowNotFocusedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameTitlePaneMenuButtonWindowNotFocusedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameTitlePaneWindowFocusedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.InternalFrameWindowFocusedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ProgressBarFinishedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ProgressBarIndeterminateState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.SliderArrowShapeState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.SliderThumbArrowShapeState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.SliderTrackArrowShapeState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.SplitPaneDividerVerticalState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.SplitPaneVerticalState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.TableHeaderRendererSortedState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.TextAreaNotInScrollPaneState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ToolBarEastState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ToolBarNorthState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ToolBarSouthState")),
+                                                              runtimed(() -> forName("javax.swing.plaf.nimbus.ToolBarWestState")),
+
+                                                              /* () implements PrivilegedAction<NO-TYPE> */
+                                                              runtimed(() -> forName("javax.rmi.GetORBPropertiesFileAction")),
+                                                              runtimed(() -> forName("javax.rmi.CORBA.GetORBPropertiesFileAction")));
 
     @BeforeClass
     public static final void checkManager() {
