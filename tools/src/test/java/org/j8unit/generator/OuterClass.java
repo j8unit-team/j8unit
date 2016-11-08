@@ -3,7 +3,6 @@ package org.j8unit.generator;
 public class OuterClass {
 
     public OuterClass() {
-        // TODO Auto-generated constructor stub
     }
 
     public void method1() {
