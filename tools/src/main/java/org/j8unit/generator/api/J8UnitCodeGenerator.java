@@ -26,7 +26,7 @@ import org.j8unit.generator.api.render.OriginRenderer;
 import org.j8unit.generator.api.render.TargetRenderer;
 
 /**
- * TODO: JavaDoc
+ * Root of all j8unit code generators.
  */
 public abstract interface J8UnitCodeGenerator
 extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
