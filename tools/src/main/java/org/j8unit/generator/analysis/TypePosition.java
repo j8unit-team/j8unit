@@ -138,7 +138,7 @@ implements Mismatcher<Class<?>> {
      */
     public static final TypePosition kindOf(final Class<?> type) {
         requireNonNull(type);
-        final Optional<TypePosition> kind = stream(TypePosition.values()).filter(k -> k.matches(type)).findFirst();
+        final Optional<TypePosition> kind = stream(values()).filter(k -> k.matches(type)).findFirst();
         assert kind.isPresent() : "A class cannot have a kind different to top-level, nested, inner, local, or anonymous!";
         return kind.get();
     }
