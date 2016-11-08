@@ -221,7 +221,6 @@ public abstract interface OriginRenderer {
     public default String originCanonicalDefinitionOf(final Type type) {
         requireNonNull(type);
         if (type instanceof ParameterizedType) {
-            // TODO: Consider {@link ParameterizedType#getOwnerType()}?
             return this.originCanonicalNameOf((ParameterizedType) type, this::listOfTypeVariableNamesOf);
         } else if (type instanceof Class) {
             return this.originCanonicalNameOf((Class<?>) type, this::listOfTypeVariableNamesOf);
