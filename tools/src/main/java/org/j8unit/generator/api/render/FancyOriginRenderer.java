@@ -2,10 +2,15 @@ package org.j8unit.generator.api.render;
 
 import static java.util.Objects.requireNonNull;
 import java.lang.reflect.Type;
+import java.util.List;
 import org.j8unit.generator.api.ImportMemory;
 
 public abstract interface FancyOriginRenderer
 extends ConciseOriginRenderer {
+
+    public default void setClaimedNames(final List<String> scopeName) {
+        this.getImportMemory().setClaimedNames(scopeName);
+    }
 
     public abstract void resetImportMemory();
 
