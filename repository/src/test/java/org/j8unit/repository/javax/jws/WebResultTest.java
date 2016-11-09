@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link WebResult} (by simply reusing the
+ * J8Unit test interface {@link WebResultTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WebResultTest
-implements org.j8unit.repository.javax.jws.WebResultTests<WebResult> {
+implements WebResultTests<WebResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.WebResult]
 

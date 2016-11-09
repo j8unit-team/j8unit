@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SecurityPermission} (by simply reusing
+ * the J8Unit test interface {@link SecurityPermissionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SecurityPermissionClassTest
-implements org.j8unit.repository.java.security.SecurityPermissionClassTests<SecurityPermission> {
+implements SecurityPermissionClassTests<SecurityPermission> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.SecurityPermission]
 

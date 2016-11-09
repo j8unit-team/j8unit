@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Unmarshaller} (by simply reusing the
+ * J8Unit test interface {@link UnmarshallerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnmarshallerClassTest
-implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<Unmarshaller> {
+implements UnmarshallerClassTests<Unmarshaller> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.Unmarshaller]
 
@@ -24,6 +29,11 @@ implements org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<Unmarshal
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.Unmarshaller]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.Unmarshaller]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Listener} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests.ListenerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ListenerClassTest

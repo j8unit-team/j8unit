@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MBeanServerDelegate} (by simply reusing
+ * the J8Unit test interface {@link MBeanServerDelegateClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MBeanServerDelegateClassTest
-implements org.j8unit.repository.javax.management.MBeanServerDelegateClassTests<MBeanServerDelegate> {
+implements MBeanServerDelegateClassTests<MBeanServerDelegate> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MBeanServerDelegate]
 

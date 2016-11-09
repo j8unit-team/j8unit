@@ -14,7 +14,7 @@ import org.omg.CORBA.PrincipalHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PrincipalHolderTest
-implements FactoryBasedJ8UnitTest<PrincipalHolder>, org.j8unit.repository.org.omg.CORBA.PrincipalHolderTests<PrincipalHolder> {
+implements FactoryBasedJ8UnitTest<PrincipalHolder>, PrincipalHolderTests<PrincipalHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PrincipalHolder]
 

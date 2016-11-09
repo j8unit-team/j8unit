@@ -18,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleTableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AccessibleTableTests}.
  * </p>
  *
  * <p>

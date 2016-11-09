@@ -14,7 +14,7 @@ import org.omg.DynamicAny.NameValuePair;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NameValuePairTest
-implements FactoryBasedJ8UnitTest<NameValuePair>, org.j8unit.repository.org.omg.DynamicAny.NameValuePairTests<NameValuePair> {
+implements FactoryBasedJ8UnitTest<NameValuePair>, NameValuePairTests<NameValuePair> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.NameValuePair]
 

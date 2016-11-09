@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CertPathBuilderExceptionTest
-implements FactoryBasedJ8UnitTest<CertPathBuilderException>, org.j8unit.repository.java.security.cert.CertPathBuilderExceptionTests<CertPathBuilderException> {
+implements FactoryBasedJ8UnitTest<CertPathBuilderException>, CertPathBuilderExceptionTests<CertPathBuilderException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathBuilderException]
 

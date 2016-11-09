@@ -2,6 +2,7 @@ package org.j8unit.repository.org.xml.sax.ext;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.EntityResolverClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.ext.EntityResolver2;
@@ -17,8 +18,7 @@ import org.xml.sax.ext.EntityResolver2;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link EntityResolver2Tests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.xml.sax.ext.EntityResolver2;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EntityResolver2ClassTests<SUT extends EntityResolver2>
-extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT> {
+extends EntityResolverClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.EntityResolver2]
     /**

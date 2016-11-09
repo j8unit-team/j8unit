@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.LongLongSeqHelper;
@@ -17,8 +18,7 @@ import org.omg.CORBA.LongLongSeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.LongLongSeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LongLongSeqHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.LongLongSeqHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongLongSeqHelperClassTests<SUT extends LongLongSeqHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.LongLongSeqHelper]
     /**

@@ -18,7 +18,7 @@ import org.w3c.dom.html.HTMLCollection;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLCollectionClassTests}).
+ * {@link HTMLCollectionClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,28 +32,6 @@ public abstract interface HTMLCollectionTests<SUT extends HTMLCollection>
 extends RepositoryTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLCollection]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLCollection#namedItem(String)
-     * public abstract org.w3c.dom.Node org.w3c.dom.html.HTMLCollection.namedItem(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_namedItem_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -71,6 +49,28 @@ extends RepositoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_item_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLCollection#namedItem(String)
+     * public abstract org.w3c.dom.Node org.w3c.dom.html.HTMLCollection.namedItem(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_namedItem_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringValueExpTest
-implements FactoryBasedJ8UnitTest<StringValueExp>, org.j8unit.repository.javax.management.StringValueExpTests<StringValueExp> {
+implements FactoryBasedJ8UnitTest<StringValueExp>, StringValueExpTests<StringValueExp> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.StringValueExp]
 

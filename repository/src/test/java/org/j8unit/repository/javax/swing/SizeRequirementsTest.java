@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SizeRequirementsTest
-implements FactoryBasedJ8UnitTest<SizeRequirements>, org.j8unit.repository.javax.swing.SizeRequirementsTests<SizeRequirements> {
+implements FactoryBasedJ8UnitTest<SizeRequirements>, SizeRequirementsTests<SizeRequirements> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SizeRequirements]
 

@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Binder} (by simply reusing the J8Unit
+ * test interface {@link BinderClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class BinderClassTest
-implements org.j8unit.repository.javax.xml.bind.BinderClassTests<Binder> {
+implements BinderClassTests<Binder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.Binder]
 

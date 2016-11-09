@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.StackTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StackTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StackClassTests<SUT extends Stack>
-extends org.j8unit.repository.java.util.VectorClassTests<SUT> {
+extends VectorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Stack]
     /**

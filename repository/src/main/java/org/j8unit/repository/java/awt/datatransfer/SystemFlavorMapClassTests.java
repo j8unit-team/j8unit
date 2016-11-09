@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.datatransfer;
 import static org.junit.Assert.assertTrue;
 import java.awt.datatransfer.SystemFlavorMap;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.datatransfer.SystemFlavorMapTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SystemFlavorMapTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SystemFlavorMapClassTests<SUT extends SystemFlavorMap>
-extends org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends FlavorTableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.datatransfer.SystemFlavorMap]
     /**

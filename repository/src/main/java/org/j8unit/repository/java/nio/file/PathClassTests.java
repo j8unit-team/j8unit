@@ -3,6 +3,8 @@ package org.j8unit.repository.java.nio.file;
 import static org.junit.Assert.assertTrue;
 import java.nio.file.Path;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ComparableClassTests;
+import org.j8unit.repository.java.lang.IterableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.PathTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PathTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PathClassTests<SUT extends Path>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.IterableClassTests<SUT>,
-org.j8unit.repository.java.nio.file.WatchableClassTests<SUT> {
+extends ComparableClassTests<SUT>, IterableClassTests<SUT>, WatchableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.Path]
     /**

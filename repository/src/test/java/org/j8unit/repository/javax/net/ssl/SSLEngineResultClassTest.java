@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SSLEngineResult} (by simply reusing the
+ * J8Unit test interface {@link SSLEngineResultClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SSLEngineResultClassTest
-implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngineResult> {
+implements SSLEngineResultClassTests<SSLEngineResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLEngineResult]
 
@@ -50,9 +55,14 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.net.ssl.SSLEngineResult]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link HandshakeStatus} (by simply reusing
+     * the J8Unit test interface {@link HandshakeStatusClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class HandshakeStatusClassTest
-    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests<HandshakeStatus> {
+    implements HandshakeStatusClassTests<HandshakeStatus> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
 
@@ -110,9 +120,14 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests<SSLEngi
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Status} (by simply reusing the J8Unit
+     * test interface {@link StatusClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class StatusClassTest
-    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.StatusClassTests<Status> {
+    implements StatusClassTests<Status> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLEngineResult$Status]
 

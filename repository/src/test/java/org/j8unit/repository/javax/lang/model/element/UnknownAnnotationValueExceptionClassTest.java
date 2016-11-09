@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownAnnotationValueException} (by
+ * simply reusing the J8Unit test interface {@link UnknownAnnotationValueExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnknownAnnotationValueExceptionClassTest
-implements org.j8unit.repository.javax.lang.model.element.UnknownAnnotationValueExceptionClassTests<UnknownAnnotationValueException> {
+implements UnknownAnnotationValueExceptionClassTests<UnknownAnnotationValueException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.UnknownAnnotationValueException]
 

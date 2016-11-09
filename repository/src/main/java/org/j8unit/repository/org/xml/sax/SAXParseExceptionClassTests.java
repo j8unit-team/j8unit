@@ -17,8 +17,7 @@ import org.xml.sax.SAXParseException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.SAXParseExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SAXParseExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.xml.sax.SAXParseException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXParseExceptionClassTests<SUT extends SAXParseException>
-extends org.j8unit.repository.org.xml.sax.SAXExceptionClassTests<SUT> {
+extends SAXExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.SAXParseException]
     /**

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.StandardEmitterMBeanTests}.
+ * {@link StandardEmitterMBeanTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardEmitterMBeanClassTests<SUT extends StandardEmitterMBean>
-extends org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j8unit.repository.javax.management.StandardMBeanClassTests<SUT> {
+extends NotificationEmitterClassTests<SUT>, StandardMBeanClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.StandardEmitterMBean]
     /**

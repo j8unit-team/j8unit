@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultStyledDocument} (by simply reusing
+ * the J8Unit test interface {@link DefaultStyledDocumentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultStyledDocumentClassTest
-implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<DefaultStyledDocument> {
+implements DefaultStyledDocumentClassTests<DefaultStyledDocument> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument]
 
@@ -97,9 +102,61 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ElementBuffer} (by simply reusing the
+     * J8Unit test interface {@link ElementBufferClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ElementBufferClassTest
+    implements ElementBufferClassTests<ElementBuffer> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+        @Override
+        public Class<ElementBuffer> createNewSUT() {
+            return ElementBuffer.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#ElementBuffer(javax.swing.text.DefaultStyledDocument, javax.swing.text.Element)
+         * public
+         * javax.swing.text.DefaultStyledDocument$ElementBuffer(javax.swing.text.DefaultStyledDocument,javax.swing.text.Element)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ElementBuffer_DefaultStyledDocument_Element()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ElementBuffer sut = null; // = new ElementBuffer(javax.swing.text.DefaultStyledDocument,
+                                            // javax.swing.text.Element);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ElementSpec} (by simply reusing the
+     * J8Unit test interface {@link ElementSpecClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ElementSpecClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementSpecClassTests<ElementSpec> {
+    implements ElementSpecClassTests<ElementSpec> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
 
@@ -184,51 +241,14 @@ implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTest
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ElementBufferClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests<ElementBuffer> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
-
-        @Override
-        public Class<ElementBuffer> createNewSUT() {
-            return ElementBuffer.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#ElementBuffer(javax.swing.text.DefaultStyledDocument, javax.swing.text.Element)
-         * public
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer(javax.swing.text.DefaultStyledDocument,javax.swing.text.Element)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ElementBuffer_DefaultStyledDocument_Element()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ElementBuffer sut = null; // = new ElementBuffer(javax.swing.text.DefaultStyledDocument,
-                                            // javax.swing.text.Element);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeUndoableEdit} (by simply
+     * reusing the J8Unit test interface {@link AttributeUndoableEditClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class AttributeUndoableEditClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests<AttributeUndoableEdit> {
+    implements AttributeUndoableEditClassTests<AttributeUndoableEdit> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LinkedHashSetTest<E>
-implements FactoryBasedJ8UnitTest<LinkedHashSet<E>>, org.j8unit.repository.java.util.LinkedHashSetTests<LinkedHashSet<E>, E> {
+implements FactoryBasedJ8UnitTest<LinkedHashSet<E>>, LinkedHashSetTests<LinkedHashSet<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.LinkedHashSet]
 

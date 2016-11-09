@@ -2,6 +2,7 @@ package org.j8unit.repository.org.w3c.dom.html;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.w3c.dom.DocumentClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.html.HTMLDocument;
@@ -17,8 +18,7 @@ import org.w3c.dom.html.HTMLDocument;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLDocumentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLDocumentTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.w3c.dom.html.HTMLDocument;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLDocumentClassTests<SUT extends HTMLDocument>
-extends org.j8unit.repository.org.w3c.dom.DocumentClassTests<SUT> {
+extends DocumentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLDocument]
     /**

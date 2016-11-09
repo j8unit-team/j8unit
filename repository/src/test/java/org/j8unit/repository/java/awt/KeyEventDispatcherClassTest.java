@@ -4,9 +4,14 @@ import java.awt.KeyEventDispatcher;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyEventDispatcher} (by simply reusing
+ * the J8Unit test interface {@link KeyEventDispatcherClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyEventDispatcherClassTest
-implements org.j8unit.repository.java.awt.KeyEventDispatcherClassTests<KeyEventDispatcher> {
+implements KeyEventDispatcherClassTests<KeyEventDispatcher> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.KeyEventDispatcher]
 

@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AssertionErrorTest
-implements FactoryBasedJ8UnitTest<AssertionError>, org.j8unit.repository.java.lang.AssertionErrorTests<AssertionError> {
+implements FactoryBasedJ8UnitTest<AssertionError>, AssertionErrorTests<AssertionError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.AssertionError]
 

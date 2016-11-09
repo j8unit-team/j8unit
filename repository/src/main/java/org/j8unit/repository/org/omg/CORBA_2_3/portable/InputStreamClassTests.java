@@ -17,8 +17,7 @@ import org.omg.CORBA_2_3.portable.InputStream;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA_2_3.portable.InputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InputStreamTests}.
  * </p>
  *
  * <p>

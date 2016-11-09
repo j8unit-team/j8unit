@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder;
@@ -19,7 +21,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolderTests}.
+ * {@link ObjectReferenceTemplateSeqHolderTests}.
  * </p>
  *
  * <p>
@@ -48,7 +50,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectReferenceTemplateSeqHolderClassTests<SUT extends ObjectReferenceTemplateSeqHolder>
-extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends StreamableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHolder]
     /**

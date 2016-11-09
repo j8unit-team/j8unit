@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import java.nio.file.attribute.AclEntry;
 import java.nio.file.attribute.AclEntry.Builder;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryClassTests<SUT extends AclEntry>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.AclEntry]
     /**
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Builder>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.AclEntry$Builder]
         /**

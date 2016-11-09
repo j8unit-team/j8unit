@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Component} (by simply reusing the J8Unit
+ * test interface {@link ComponentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ComponentClassTest
-implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
+implements ComponentClassTests<Component> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Component]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.java.awt.ComponentClassTests<Component> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.Component]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BaselineResizeBehavior} (by simply
+     * reusing the J8Unit test interface {@link BaselineResizeBehaviorClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BaselineResizeBehaviorClassTest
-    implements org.j8unit.repository.java.awt.ComponentClassTests.BaselineResizeBehaviorClassTests<BaselineResizeBehavior> {
+    implements BaselineResizeBehaviorClassTests<BaselineResizeBehavior> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
 

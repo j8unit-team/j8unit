@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SoftReference} (by simply reusing the
+ * J8Unit test interface {@link SoftReferenceClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class SoftReferenceClassTest
-implements org.j8unit.repository.java.lang.ref.SoftReferenceClassTests<SoftReference> {
+implements SoftReferenceClassTests<SoftReference> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ref.SoftReference]
 

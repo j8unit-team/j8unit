@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LabelUI} (by simply reusing the
+ * J8Unit test interface {@link LabelUITests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LabelUITest
-implements org.j8unit.repository.javax.swing.plaf.LabelUITests<LabelUI> {
+implements LabelUITests<LabelUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.LabelUI]
 

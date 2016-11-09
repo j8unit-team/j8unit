@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JTextPaneTest
-implements FactoryBasedJ8UnitTest<JTextPane>, org.j8unit.repository.javax.swing.JTextPaneTests<JTextPane> {
+implements FactoryBasedJ8UnitTest<JTextPane>, JTextPaneTests<JTextPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTextPane]
 

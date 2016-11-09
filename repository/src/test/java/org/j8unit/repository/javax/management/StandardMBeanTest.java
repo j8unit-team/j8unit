@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link StandardMBean} (by simply reusing the
+ * J8Unit test interface {@link StandardMBeanTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StandardMBeanTest
-implements org.j8unit.repository.javax.management.StandardMBeanTests<StandardMBean> {
+implements StandardMBeanTests<StandardMBean> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.StandardMBean]
 

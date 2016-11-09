@@ -14,7 +14,7 @@ import org.omg.CORBA.ULongSeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ULongSeqHolderTest
-implements FactoryBasedJ8UnitTest<ULongSeqHolder>, org.j8unit.repository.org.omg.CORBA.ULongSeqHolderTests<ULongSeqHolder> {
+implements FactoryBasedJ8UnitTest<ULongSeqHolder>, ULongSeqHolderTests<ULongSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ULongSeqHolder]
 

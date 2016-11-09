@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.bind.annotation;
 import static org.junit.Assert.assertTrue;
 import javax.xml.bind.annotation.XmlMixed;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlMixedTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XmlMixedTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlMixedClassTests<SUT extends XmlMixed>
-extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
+extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlMixed]
     /**

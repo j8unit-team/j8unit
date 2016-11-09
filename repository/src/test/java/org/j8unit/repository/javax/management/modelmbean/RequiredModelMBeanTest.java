@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RequiredModelMBeanTest
-implements FactoryBasedJ8UnitTest<RequiredModelMBean>, org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanTests<RequiredModelMBean> {
+implements FactoryBasedJ8UnitTest<RequiredModelMBean>, RequiredModelMBeanTests<RequiredModelMBean> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.RequiredModelMBean]
 

@@ -7,6 +7,11 @@ import java.util.Spliterators.AbstractIntSpliterator;
 import java.util.Spliterators.AbstractLongSpliterator;
 import java.util.Spliterators.AbstractSpliterator;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests;
+import org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests;
+import org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests;
+import org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,8 +27,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.SpliteratorsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SpliteratorsTests}.
  * </p>
  *
  * <p>
@@ -52,7 +56,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorsClassTests<SUT extends Spliterators>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators]
     /**
@@ -88,7 +92,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests}.
+     * {@link AbstractDoubleSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -117,7 +121,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractDoubleSpliteratorClassTests<SUT extends AbstractDoubleSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractDoubleSpliterator]
         /**
@@ -155,7 +159,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests}.
+     * {@link AbstractSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -184,7 +188,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractSpliteratorClassTests<SUT extends AbstractSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends SpliteratorClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractSpliterator]
         /**
@@ -222,7 +226,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests}.
+     * {@link AbstractLongSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -251,7 +255,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractLongSpliteratorClassTests<SUT extends AbstractLongSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractLongSpliterator]
         /**
@@ -289,7 +293,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests}.
+     * {@link AbstractIntSpliteratorTests}.
      * </p>
      *
      * <p>
@@ -318,7 +322,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractIntSpliteratorClassTests<SUT extends AbstractIntSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Spliterators$AbstractIntSpliterator]
         /**

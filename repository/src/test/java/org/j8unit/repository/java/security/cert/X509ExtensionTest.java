@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link X509Extension} (by simply reusing the
+ * J8Unit test interface {@link X509ExtensionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class X509ExtensionTest
-implements org.j8unit.repository.java.security.cert.X509ExtensionTests<X509Extension> {
+implements X509ExtensionTests<X509Extension> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.X509Extension]
 

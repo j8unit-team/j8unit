@@ -14,7 +14,7 @@ import org.omg.stub.java.rmi._Remote_Stub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _Remote_StubTest
-implements FactoryBasedJ8UnitTest<_Remote_Stub>, org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubTests<_Remote_Stub> {
+implements FactoryBasedJ8UnitTest<_Remote_Stub>, _Remote_StubTests<_Remote_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 

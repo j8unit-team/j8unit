@@ -4,9 +4,14 @@ import javax.print.attribute.PrintJobAttribute;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PrintJobAttribute} (by simply reusing the
+ * J8Unit test interface {@link PrintJobAttributeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrintJobAttributeClassTest
-implements org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<PrintJobAttribute> {
+implements PrintJobAttributeClassTests<PrintJobAttribute> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.PrintJobAttribute]
 

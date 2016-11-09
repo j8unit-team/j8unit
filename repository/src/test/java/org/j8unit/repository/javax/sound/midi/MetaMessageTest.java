@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetaMessageTest
-implements FactoryBasedJ8UnitTest<MetaMessage>, org.j8unit.repository.javax.sound.midi.MetaMessageTests<MetaMessage> {
+implements FactoryBasedJ8UnitTest<MetaMessage>, MetaMessageTests<MetaMessage> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MetaMessage]
 

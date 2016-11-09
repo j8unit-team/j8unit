@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.SQLTimeoutExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SQLTimeoutExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLTimeoutExceptionClassTests<SUT extends SQLTimeoutException>
-extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
+extends SQLTransientExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLTimeoutException]
     /**

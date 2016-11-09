@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SSLSessionBindingEvent} (by simply
+ * reusing the J8Unit test interface {@link SSLSessionBindingEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SSLSessionBindingEventClassTest
-implements org.j8unit.repository.javax.net.ssl.SSLSessionBindingEventClassTests<SSLSessionBindingEvent> {
+implements SSLSessionBindingEventClassTests<SSLSessionBindingEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLSessionBindingEvent]
 

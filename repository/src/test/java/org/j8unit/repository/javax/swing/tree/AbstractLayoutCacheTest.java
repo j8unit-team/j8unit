@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractLayoutCache} (by simply
+ * reusing the J8Unit test interface {@link AbstractLayoutCacheTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractLayoutCacheTest
-implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<AbstractLayoutCache> {
+implements AbstractLayoutCacheTests<AbstractLayoutCache> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.AbstractLayoutCache]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<Abstr
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.AbstractLayoutCache]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link NodeDimensions} (by simply
+     * reusing the J8Unit test interface {@link NodeDimensionsTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class NodeDimensionsTest
-    implements org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests.NodeDimensionsTests<NodeDimensions> {
+    implements NodeDimensionsTests<NodeDimensions> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
 

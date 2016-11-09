@@ -14,7 +14,7 @@ import org.omg.CORBA.DoubleHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DoubleHolderTest
-implements FactoryBasedJ8UnitTest<DoubleHolder>, org.j8unit.repository.org.omg.CORBA.DoubleHolderTests<DoubleHolder> {
+implements FactoryBasedJ8UnitTest<DoubleHolder>, DoubleHolderTests<DoubleHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleHolder]
 

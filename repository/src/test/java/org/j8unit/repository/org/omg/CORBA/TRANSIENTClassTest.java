@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.TRANSIENT;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TRANSIENT} (by simply reusing the J8Unit
+ * test interface {@link TRANSIENTClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TRANSIENTClassTest
-implements org.j8unit.repository.org.omg.CORBA.TRANSIENTClassTests<TRANSIENT> {
+implements TRANSIENTClassTests<TRANSIENT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TRANSIENT]
 

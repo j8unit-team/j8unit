@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LongSummaryStatisticsTest
-implements FactoryBasedJ8UnitTest<LongSummaryStatistics>, org.j8unit.repository.java.util.LongSummaryStatisticsTests<LongSummaryStatistics> {
+implements FactoryBasedJ8UnitTest<LongSummaryStatistics>, LongSummaryStatisticsTests<LongSummaryStatistics> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.LongSummaryStatistics]
 

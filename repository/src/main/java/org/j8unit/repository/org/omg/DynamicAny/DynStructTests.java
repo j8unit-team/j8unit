@@ -25,7 +25,7 @@ import org.omg.DynamicAny.DynStruct;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynStructTests<SUT extends DynStruct>
-extends org.j8unit.repository.org.omg.DynamicAny.DynStructOperationsTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyTests<SUT> {
+extends DynStructOperationsTests<SUT>, DynAnyTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynStruct]
 

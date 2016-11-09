@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JToolTipTest
-implements FactoryBasedJ8UnitTest<JToolTip>, org.j8unit.repository.javax.swing.JToolTipTests<JToolTip> {
+implements FactoryBasedJ8UnitTest<JToolTip>, JToolTipTests<JToolTip> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolTip]
 

@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.bind.annotation.DomHandlerClassTests}).
+ * {@link DomHandlerClassTests}).
  * </p>
  *
  * @param SUT

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.event;
 import static org.junit.Assert.assertTrue;
 import java.awt.event.HierarchyEvent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.AWTEventClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.event.HierarchyEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HierarchyEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HierarchyEventClassTests<SUT extends HierarchyEvent>
-extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
+extends AWTEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.HierarchyEvent]
     /**

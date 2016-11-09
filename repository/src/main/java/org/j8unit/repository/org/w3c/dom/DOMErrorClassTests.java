@@ -18,8 +18,7 @@ import org.w3c.dom.DOMError;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.DOMErrorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DOMErrorTests}.
  * </p>
  *
  * <p>

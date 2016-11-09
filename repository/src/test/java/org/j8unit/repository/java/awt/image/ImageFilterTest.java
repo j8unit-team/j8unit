@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ImageFilterTest
-implements FactoryBasedJ8UnitTest<ImageFilter>, org.j8unit.repository.java.awt.image.ImageFilterTests<ImageFilter> {
+implements FactoryBasedJ8UnitTest<ImageFilter>, ImageFilterTests<ImageFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.ImageFilter]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.FREE_MEM;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.FREE_MEMTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FREE_MEMTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.FREE_MEM;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FREE_MEMClassTests<SUT extends FREE_MEM>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.FREE_MEM]
     /**

@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
 
@@ -14,7 +15,7 @@ import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLStringHelperClassTests}).
+ * {@link URLStringHelperClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface URLStringHelperTests<SUT extends URLStringHelper>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextExtPackage.URLStringHelper]
 

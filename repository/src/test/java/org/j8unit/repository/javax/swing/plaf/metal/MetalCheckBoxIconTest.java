@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalCheckBoxIconTest
-implements FactoryBasedJ8UnitTest<MetalCheckBoxIcon>, org.j8unit.repository.javax.swing.plaf.metal.MetalCheckBoxIconTests<MetalCheckBoxIcon> {
+implements FactoryBasedJ8UnitTest<MetalCheckBoxIcon>, MetalCheckBoxIconTests<MetalCheckBoxIcon> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalCheckBoxIcon]
 

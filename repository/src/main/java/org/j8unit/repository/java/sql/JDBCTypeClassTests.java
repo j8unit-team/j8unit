@@ -3,6 +3,7 @@ package org.j8unit.repository.java.sql;
 import static org.junit.Assert.assertTrue;
 import java.sql.JDBCType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.JDBCTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JDBCTypeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JDBCTypeClassTests<SUT extends JDBCType>
-extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+extends SQLTypeClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.JDBCType]
     /**

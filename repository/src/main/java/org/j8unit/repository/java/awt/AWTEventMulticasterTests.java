@@ -3,6 +3,24 @@ package org.j8unit.repository.java.awt;
 import java.awt.AWTEventMulticaster;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.ActionListenerTests;
+import org.j8unit.repository.java.awt.event.AdjustmentListenerTests;
+import org.j8unit.repository.java.awt.event.ComponentListenerTests;
+import org.j8unit.repository.java.awt.event.ContainerListenerTests;
+import org.j8unit.repository.java.awt.event.FocusListenerTests;
+import org.j8unit.repository.java.awt.event.HierarchyBoundsListenerTests;
+import org.j8unit.repository.java.awt.event.HierarchyListenerTests;
+import org.j8unit.repository.java.awt.event.InputMethodListenerTests;
+import org.j8unit.repository.java.awt.event.ItemListenerTests;
+import org.j8unit.repository.java.awt.event.KeyListenerTests;
+import org.j8unit.repository.java.awt.event.MouseListenerTests;
+import org.j8unit.repository.java.awt.event.MouseMotionListenerTests;
+import org.j8unit.repository.java.awt.event.MouseWheelListenerTests;
+import org.j8unit.repository.java.awt.event.TextListenerTests;
+import org.j8unit.repository.java.awt.event.WindowFocusListenerTests;
+import org.j8unit.repository.java.awt.event.WindowListenerTests;
+import org.j8unit.repository.java.awt.event.WindowStateListenerTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +35,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.AWTEventMulticasterClassTests}).
+ * {@link AWTEventMulticasterClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,15 +46,10 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AWTEventMulticasterTests<SUT extends AWTEventMulticaster>
-extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8unit.repository.java.awt.event.ContainerListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.MouseListenerTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.WindowListenerTests<SUT>, org.j8unit.repository.java.awt.event.WindowFocusListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.WindowStateListenerTests<SUT>, org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.ItemListenerTests<SUT>, org.j8unit.repository.java.awt.event.AdjustmentListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.TextListenerTests<SUT>, org.j8unit.repository.java.awt.event.InputMethodListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.HierarchyListenerTests<SUT>, org.j8unit.repository.java.awt.event.HierarchyBoundsListenerTests<SUT>,
-org.j8unit.repository.java.awt.event.MouseWheelListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ComponentListenerTests<SUT>, ContainerListenerTests<SUT>, FocusListenerTests<SUT>, KeyListenerTests<SUT>, MouseListenerTests<SUT>,
+MouseMotionListenerTests<SUT>, WindowListenerTests<SUT>, WindowFocusListenerTests<SUT>, WindowStateListenerTests<SUT>, ActionListenerTests<SUT>,
+ItemListenerTests<SUT>, AdjustmentListenerTests<SUT>, TextListenerTests<SUT>, InputMethodListenerTests<SUT>, HierarchyListenerTests<SUT>,
+HierarchyBoundsListenerTests<SUT>, MouseWheelListenerTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.AWTEventMulticaster]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.text.spi;
 import static org.junit.Assert.assertTrue;
 import java.text.spi.CollatorProvider;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.text.spi.CollatorProviderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CollatorProviderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollatorProviderClassTests<SUT extends CollatorProvider>
-extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {
+extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.spi.CollatorProvider]
     /**

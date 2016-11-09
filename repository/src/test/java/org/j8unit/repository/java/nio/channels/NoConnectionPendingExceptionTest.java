@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoConnectionPendingExceptionTest
-implements FactoryBasedJ8UnitTest<NoConnectionPendingException>,
-org.j8unit.repository.java.nio.channels.NoConnectionPendingExceptionTests<NoConnectionPendingException> {
+implements FactoryBasedJ8UnitTest<NoConnectionPendingException>, NoConnectionPendingExceptionTests<NoConnectionPendingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NoConnectionPendingException]
 

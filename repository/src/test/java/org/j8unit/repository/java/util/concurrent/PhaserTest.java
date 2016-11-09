@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PhaserTest
-implements FactoryBasedJ8UnitTest<Phaser>, org.j8unit.repository.java.util.concurrent.PhaserTests<Phaser> {
+implements FactoryBasedJ8UnitTest<Phaser>, PhaserTests<Phaser> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.Phaser]
 

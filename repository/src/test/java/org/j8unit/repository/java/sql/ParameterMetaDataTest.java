@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ParameterMetaData} (by simply reusing
+ * the J8Unit test interface {@link ParameterMetaDataTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParameterMetaDataTest
-implements org.j8unit.repository.java.sql.ParameterMetaDataTests<ParameterMetaData> {
+implements ParameterMetaDataTests<ParameterMetaData> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.ParameterMetaData]
 

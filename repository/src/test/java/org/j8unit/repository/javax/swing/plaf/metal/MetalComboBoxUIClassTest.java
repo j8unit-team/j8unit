@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MetalComboBoxUI} (by simply reusing the
+ * J8Unit test interface {@link MetalComboBoxUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MetalComboBoxUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests<MetalComboBoxUI> {
+implements MetalComboBoxUIClassTests<MetalComboBoxUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI]
 
@@ -68,9 +73,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MetalComboPopup} (by simply reusing
+     * the J8Unit test interface {@link MetalComboPopupClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MetalComboPopupClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboPopupClassTests<MetalComboPopup> {
+    implements MetalComboPopupClassTests<MetalComboPopup> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
@@ -110,9 +120,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MetalPropertyChangeListener} (by
+     * simply reusing the J8Unit test interface {@link MetalPropertyChangeListenerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MetalPropertyChangeListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests<MetalPropertyChangeListener> {
+    implements MetalPropertyChangeListenerClassTests<MetalPropertyChangeListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
 
@@ -152,9 +167,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTest
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MetalComboBoxLayoutManager} (by
+     * simply reusing the J8Unit test interface {@link MetalComboBoxLayoutManagerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MetalComboBoxLayoutManagerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests<MetalComboBoxLayoutManager> {
+    implements MetalComboBoxLayoutManagerClassTests<MetalComboBoxLayoutManager> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 

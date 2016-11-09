@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MetalComboBoxEditor} (by simply reusing
+ * the J8Unit test interface {@link MetalComboBoxEditorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MetalComboBoxEditorClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
+implements MetalComboBoxEditorClassTests<MetalComboBoxEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor]
 
@@ -45,6 +50,12 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClass
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UIResource} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests.UIResourceClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest

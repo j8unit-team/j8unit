@@ -17,7 +17,7 @@ import org.omg.DynamicAny.DynArrayOperations;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynArrayOperationsClassTests}).
+ * {@link DynArrayOperationsClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.omg.DynamicAny.DynArrayOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynArrayOperationsTests<SUT extends DynArrayOperations>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
+extends DynAnyOperationsTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynArrayOperations]
 

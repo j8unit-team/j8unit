@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MonthDay} (by simply reusing the
+ * J8Unit test interface {@link MonthDayTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MonthDayTest
-implements org.j8unit.repository.java.time.MonthDayTests<MonthDay> {
+implements MonthDayTests<MonthDay> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.MonthDay]
 

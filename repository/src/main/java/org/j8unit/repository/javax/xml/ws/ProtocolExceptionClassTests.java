@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ProtocolExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProtocolExceptionClassTests<SUT extends ProtocolException>
-extends org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<SUT> {
+extends WebServiceExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.ProtocolException]
     /**

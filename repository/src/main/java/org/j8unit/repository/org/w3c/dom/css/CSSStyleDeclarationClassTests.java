@@ -18,8 +18,7 @@ import org.w3c.dom.css.CSSStyleDeclaration;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSStyleDeclarationTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSStyleDeclarationTests}.
  * </p>
  *
  * <p>

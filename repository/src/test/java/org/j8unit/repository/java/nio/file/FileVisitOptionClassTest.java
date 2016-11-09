@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileVisitOption} (by simply reusing the
+ * J8Unit test interface {@link FileVisitOptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileVisitOptionClassTest
-implements org.j8unit.repository.java.nio.file.FileVisitOptionClassTests<FileVisitOption> {
+implements FileVisitOptionClassTests<FileVisitOption> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.FileVisitOption]
 

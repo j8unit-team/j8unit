@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AsynchronousServerSocketChannel} (by
+ * simply reusing the J8Unit test interface {@link AsynchronousServerSocketChannelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AsynchronousServerSocketChannelClassTest
-implements org.j8unit.repository.java.nio.channels.AsynchronousServerSocketChannelClassTests<AsynchronousServerSocketChannel> {
+implements AsynchronousServerSocketChannelClassTests<AsynchronousServerSocketChannel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.AsynchronousServerSocketChannel]
 

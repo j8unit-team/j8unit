@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlType.DEFAULT;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XmlTypeTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlTypeClassTests<SUT extends XmlType>
-extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
+extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlType]
     /**
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DEFAULTClassTests<SUT extends DEFAULT>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlType$DEFAULT]
         /**

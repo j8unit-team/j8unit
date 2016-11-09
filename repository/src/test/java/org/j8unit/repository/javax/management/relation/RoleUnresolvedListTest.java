@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RoleUnresolvedListTest
-implements FactoryBasedJ8UnitTest<RoleUnresolvedList>, org.j8unit.repository.javax.management.relation.RoleUnresolvedListTests<RoleUnresolvedList> {
+implements FactoryBasedJ8UnitTest<RoleUnresolvedList>, RoleUnresolvedListTests<RoleUnresolvedList> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleUnresolvedList]
 

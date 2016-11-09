@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ValueRange} (by simply reusing the J8Unit
+ * test interface {@link ValueRangeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ValueRangeClassTest
-implements org.j8unit.repository.java.time.temporal.ValueRangeClassTests<ValueRange> {
+implements ValueRangeClassTests<ValueRange> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.temporal.ValueRange]
 

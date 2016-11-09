@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ARG_IN;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ARG_IN} (by simply reusing the J8Unit
+ * test interface {@link ARG_INClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ARG_INClassTest
-implements org.j8unit.repository.org.omg.CORBA.ARG_INClassTests<ARG_IN> {
+implements ARG_INClassTests<ARG_IN> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ARG_IN]
 

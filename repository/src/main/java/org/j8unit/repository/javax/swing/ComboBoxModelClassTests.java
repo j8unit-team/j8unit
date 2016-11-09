@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.ComboBoxModelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ComboBoxModelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComboBoxModelClassTests<SUT extends ComboBoxModel>
-extends org.j8unit.repository.javax.swing.ListModelClassTests<SUT> {
+extends ListModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ComboBoxModel]
     /**

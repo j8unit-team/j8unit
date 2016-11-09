@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.spi.CurrencyNameProviderTests}.
+ * {@link CurrencyNameProviderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrencyNameProviderClassTests<SUT extends CurrencyNameProvider>
-extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {
+extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.spi.CurrencyNameProvider]
     /**

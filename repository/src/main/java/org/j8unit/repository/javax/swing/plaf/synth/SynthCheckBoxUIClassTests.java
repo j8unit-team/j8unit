@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthCheckBoxUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SynthCheckBoxUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthCheckBoxUIClassTests<SUT extends SynthCheckBoxUI>
-extends org.j8unit.repository.javax.swing.plaf.synth.SynthRadioButtonUIClassTests<SUT> {
+extends SynthRadioButtonUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthCheckBoxUI]
     /**

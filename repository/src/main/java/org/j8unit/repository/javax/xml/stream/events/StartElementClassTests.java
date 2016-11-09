@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.stream.events.StartElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StartElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StartElementClassTests<SUT extends StartElement>
-extends org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<SUT> {
+extends XMLEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.events.StartElement]
     /**

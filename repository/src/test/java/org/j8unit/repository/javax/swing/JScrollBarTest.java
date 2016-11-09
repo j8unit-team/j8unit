@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JScrollBarTest
-implements FactoryBasedJ8UnitTest<JScrollBar>, org.j8unit.repository.javax.swing.JScrollBarTests<JScrollBar> {
+implements FactoryBasedJ8UnitTest<JScrollBar>, JScrollBarTests<JScrollBar> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JScrollBar]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ModelMBeanNotificationInfo} (by simply
+ * reusing the J8Unit test interface {@link ModelMBeanNotificationInfoClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ModelMBeanNotificationInfoClassTest
-implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationInfoClassTests<ModelMBeanNotificationInfo> {
+implements ModelMBeanNotificationInfoClassTests<ModelMBeanNotificationInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationInfo]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.net.ssl.SNIHostNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SNIHostNameTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SNIHostNameClassTests<SUT extends SNIHostName>
-extends org.j8unit.repository.javax.net.ssl.SNIServerNameClassTests<SUT> {
+extends SNIServerNameClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SNIHostName]
     /**

@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ArithmeticExceptionTest
-implements FactoryBasedJ8UnitTest<ArithmeticException>, org.j8unit.repository.java.lang.ArithmeticExceptionTests<ArithmeticException> {
+implements FactoryBasedJ8UnitTest<ArithmeticException>, ArithmeticExceptionTests<ArithmeticException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ArithmeticException]
 

@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.crypto.spec;
 import static org.junit.Assert.assertTrue;
 import javax.crypto.spec.PBEKeySpec;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.security.spec.KeySpecClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.crypto.spec.PBEKeySpecTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PBEKeySpecTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PBEKeySpecClassTests<SUT extends PBEKeySpec>
-extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends KeySpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.PBEKeySpec]
     /**

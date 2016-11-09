@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DescriptorSupportTest
-implements FactoryBasedJ8UnitTest<DescriptorSupport>, org.j8unit.repository.javax.management.modelmbean.DescriptorSupportTests<DescriptorSupport> {
+implements FactoryBasedJ8UnitTest<DescriptorSupport>, DescriptorSupportTests<DescriptorSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.DescriptorSupport]
 

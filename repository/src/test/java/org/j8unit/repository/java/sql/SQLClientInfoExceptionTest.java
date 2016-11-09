@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLClientInfoExceptionTest
-implements FactoryBasedJ8UnitTest<SQLClientInfoException>, org.j8unit.repository.java.sql.SQLClientInfoExceptionTests<SQLClientInfoException> {
+implements FactoryBasedJ8UnitTest<SQLClientInfoException>, SQLClientInfoExceptionTests<SQLClientInfoException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLClientInfoException]
 

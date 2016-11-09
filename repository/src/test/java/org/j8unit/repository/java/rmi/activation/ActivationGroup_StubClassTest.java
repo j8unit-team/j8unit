@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ActivationGroup_Stub} (by simply reusing
+ * the J8Unit test interface {@link ActivationGroup_StubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActivationGroup_StubClassTest
-implements org.j8unit.repository.java.rmi.activation.ActivationGroup_StubClassTests<ActivationGroup_Stub> {
+implements ActivationGroup_StubClassTests<ActivationGroup_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
 

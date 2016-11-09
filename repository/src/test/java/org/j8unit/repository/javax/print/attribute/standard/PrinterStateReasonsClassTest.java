@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PrinterStateReasons} (by simply reusing
+ * the J8Unit test interface {@link PrinterStateReasonsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrinterStateReasonsClassTest
-implements org.j8unit.repository.javax.print.attribute.standard.PrinterStateReasonsClassTests<PrinterStateReasons> {
+implements PrinterStateReasonsClassTests<PrinterStateReasons> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.PrinterStateReasons]
 

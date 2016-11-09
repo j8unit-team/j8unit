@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PKIXRevocationChecker} (by simply reusing
+ * the J8Unit test interface {@link PKIXRevocationCheckerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PKIXRevocationCheckerClassTest
-implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests<PKIXRevocationChecker> {
+implements PKIXRevocationCheckerClassTests<PKIXRevocationChecker> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTe
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Option} (by simply reusing the J8Unit
+     * test interface {@link OptionClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OptionClassTest
-    implements org.j8unit.repository.java.security.cert.PKIXRevocationCheckerClassTests.OptionClassTests<Option> {
+    implements OptionClassTests<Option> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]
 

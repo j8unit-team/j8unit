@@ -18,8 +18,7 @@ import org.omg.PortableInterceptor.NON_EXISTENT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.NON_EXISTENTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NON_EXISTENTTests}.
  * </p>
  *
  * <p>

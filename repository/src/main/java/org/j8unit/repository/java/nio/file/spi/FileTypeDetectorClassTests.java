@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.file.spi;
 import static org.junit.Assert.assertTrue;
 import java.nio.file.spi.FileTypeDetector;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.spi.FileTypeDetectorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FileTypeDetectorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileTypeDetectorClassTests<SUT extends FileTypeDetector>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.spi.FileTypeDetector]
     /**

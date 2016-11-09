@@ -14,7 +14,7 @@ import org.omg.CORBA.PERSIST_STORE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PERSIST_STORETest
-implements FactoryBasedJ8UnitTest<PERSIST_STORE>, org.j8unit.repository.org.omg.CORBA.PERSIST_STORETests<PERSIST_STORE> {
+implements FactoryBasedJ8UnitTest<PERSIST_STORE>, PERSIST_STORETests<PERSIST_STORE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PERSIST_STORE]
 

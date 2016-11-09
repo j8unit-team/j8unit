@@ -18,7 +18,7 @@ import org.w3c.dom.html.HTMLTableCaptionElement;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLTableCaptionElementTests}.
+ * {@link HTMLTableCaptionElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.w3c.dom.html.HTMLTableCaptionElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLTableCaptionElementClassTests<SUT extends HTMLTableCaptionElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLTableCaptionElement]
     /**

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLTransientConnectionExceptionTest
-implements FactoryBasedJ8UnitTest<SQLTransientConnectionException>,
-org.j8unit.repository.java.sql.SQLTransientConnectionExceptionTests<SQLTransientConnectionException> {
+implements FactoryBasedJ8UnitTest<SQLTransientConnectionException>, SQLTransientConnectionExceptionTests<SQLTransientConnectionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLTransientConnectionException]
 

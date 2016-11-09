@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.PipedInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PipedInputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PipedInputStreamClassTests<SUT extends PipedInputStream>
-extends org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
+extends InputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PipedInputStream]
     /**

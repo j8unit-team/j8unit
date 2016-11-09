@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyEditor} (by simply reusing
+ * the J8Unit test interface {@link PropertyEditorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PropertyEditorTest
-implements org.j8unit.repository.java.beans.PropertyEditorTests<PropertyEditor> {
+implements PropertyEditorTests<PropertyEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.PropertyEditor]
 

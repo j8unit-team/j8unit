@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DiagnosticCollectorTest<S>
-implements FactoryBasedJ8UnitTest<DiagnosticCollector<S>>, org.j8unit.repository.javax.tools.DiagnosticCollectorTests<DiagnosticCollector<S>, S> {
+implements FactoryBasedJ8UnitTest<DiagnosticCollector<S>>, DiagnosticCollectorTests<DiagnosticCollector<S>, S> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DiagnosticCollector]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.WStringValueHelper;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WStringValueHelperTest
-implements FactoryBasedJ8UnitTest<WStringValueHelper>, org.j8unit.repository.org.omg.CORBA.WStringValueHelperTests<WStringValueHelper> {
+implements FactoryBasedJ8UnitTest<WStringValueHelper>, WStringValueHelperTests<WStringValueHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.WStringValueHelper]
 

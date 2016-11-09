@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PreparedStatement} (by simply reusing
+ * the J8Unit test interface {@link PreparedStatementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PreparedStatementTest
-implements org.j8unit.repository.java.sql.PreparedStatementTests<PreparedStatement> {
+implements PreparedStatementTests<PreparedStatement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.PreparedStatement]
 

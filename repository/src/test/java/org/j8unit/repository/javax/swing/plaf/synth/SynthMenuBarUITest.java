@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthMenuBarUITest
-implements FactoryBasedJ8UnitTest<SynthMenuBarUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthMenuBarUITests<SynthMenuBarUI> {
+implements FactoryBasedJ8UnitTest<SynthMenuBarUI>, SynthMenuBarUITests<SynthMenuBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthMenuBarUI]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.BAD_TYPECODE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BAD_TYPECODETest
-implements FactoryBasedJ8UnitTest<BAD_TYPECODE>, org.j8unit.repository.org.omg.CORBA.BAD_TYPECODETests<BAD_TYPECODE> {
+implements FactoryBasedJ8UnitTest<BAD_TYPECODE>, BAD_TYPECODETests<BAD_TYPECODE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_TYPECODE]
 

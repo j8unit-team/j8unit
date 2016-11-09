@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.net.ssl;
 import static org.junit.Assert.assertTrue;
 import javax.net.ssl.X509ExtendedTrustManager;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.net.ssl.X509ExtendedTrustManagerTests}.
+ * {@link X509ExtendedTrustManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X509ExtendedTrustManagerClassTests<SUT extends X509ExtendedTrustManager>
-extends org.j8unit.repository.javax.net.ssl.X509TrustManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends X509TrustManagerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.X509ExtendedTrustManager]
     /**

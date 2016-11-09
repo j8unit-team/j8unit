@@ -4,6 +4,8 @@ import javax.swing.JToggleButton;
 import javax.swing.JToggleButton.ToggleButtonModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
+import org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests}).
+ * {@link JToggleButtonClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JToggleButtonTests<SUT extends JToggleButton>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.AbstractButtonTests<SUT> {
+extends AccessibleTests<SUT>, AbstractButtonTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton]
 
@@ -115,7 +117,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests}).
+     * (see {@link ToggleButtonModelClassTests}).
      * </p>
      *
      * @param SUT
@@ -126,7 +128,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToggleButtonModelTests<SUT extends ToggleButtonModel>
-    extends org.j8unit.repository.javax.swing.DefaultButtonModelTests<SUT> {
+    extends DefaultButtonModelTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
 

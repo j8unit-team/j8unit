@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultMutableTreeNodeTest
-implements FactoryBasedJ8UnitTest<DefaultMutableTreeNode>, org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeTests<DefaultMutableTreeNode> {
+implements FactoryBasedJ8UnitTest<DefaultMutableTreeNode>, DefaultMutableTreeNodeTests<DefaultMutableTreeNode> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultMutableTreeNode]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.BindingIteratorHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BindingIteratorHelper} (by simply
+ * reusing the J8Unit test interface {@link BindingIteratorHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BindingIteratorHelperTest
-implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorHelperTests<BindingIteratorHelper> {
+implements BindingIteratorHelperTests<BindingIteratorHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.BindingIteratorHelper]
 

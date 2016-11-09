@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.spec.ExcC14NParameterSpec;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpecTests}.
+ * {@link ExcC14NParameterSpecTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExcC14NParameterSpecClassTests<SUT extends ExcC14NParameterSpec>
-extends org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends C14NMethodParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.ExcC14NParameterSpec]
     /**

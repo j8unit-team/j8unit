@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ForwardRequest;
@@ -47,7 +48,7 @@ import org.omg.PortableInterceptor.ForwardRequest;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForwardRequestClassTests<SUT extends ForwardRequest>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ForwardRequest]
     /**

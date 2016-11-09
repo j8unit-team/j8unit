@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AppletTest
-implements FactoryBasedJ8UnitTest<Applet>, org.j8unit.repository.java.applet.AppletTests<Applet> {
+implements FactoryBasedJ8UnitTest<Applet>, AppletTests<Applet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.applet.Applet]
 

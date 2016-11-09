@@ -14,7 +14,7 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidValueTest
-implements FactoryBasedJ8UnitTest<InvalidValue>, org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueTests<InvalidValue> {
+implements FactoryBasedJ8UnitTest<InvalidValue>, InvalidValueTests<InvalidValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynAnyPackage.InvalidValue]
 

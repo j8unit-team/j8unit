@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.WrongAdapterHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WrongAdapterHelper} (by simply reusing
+ * the J8Unit test interface {@link WrongAdapterHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WrongAdapterHelperClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterHelperClassTests<WrongAdapterHelper> {
+implements WrongAdapterHelperClassTests<WrongAdapterHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongAdapterHelper]
 

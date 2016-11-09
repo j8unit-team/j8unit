@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NoSuchAlgorithmException} (by simply
+ * reusing the J8Unit test interface {@link NoSuchAlgorithmExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NoSuchAlgorithmExceptionClassTest
-implements org.j8unit.repository.java.security.NoSuchAlgorithmExceptionClassTests<NoSuchAlgorithmException> {
+implements NoSuchAlgorithmExceptionClassTests<NoSuchAlgorithmException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.NoSuchAlgorithmException]
 

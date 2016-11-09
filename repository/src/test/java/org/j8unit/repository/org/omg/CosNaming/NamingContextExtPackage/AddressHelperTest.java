@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AddressHelper} (by simply reusing the
+ * J8Unit test interface {@link AddressHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AddressHelperTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.AddressHelperTests<AddressHelper> {
+implements AddressHelperTests<AddressHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextExtPackage.AddressHelper]
 

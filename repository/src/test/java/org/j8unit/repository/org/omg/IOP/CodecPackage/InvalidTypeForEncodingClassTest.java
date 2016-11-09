@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidTypeForEncoding} (by simply
+ * reusing the J8Unit test interface {@link InvalidTypeForEncodingClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidTypeForEncodingClassTest
-implements org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingClassTests<InvalidTypeForEncoding> {
+implements InvalidTypeForEncodingClassTests<InvalidTypeForEncoding> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
 

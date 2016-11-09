@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ShortMessageTest
-implements FactoryBasedJ8UnitTest<ShortMessage>, org.j8unit.repository.javax.sound.midi.ShortMessageTests<ShortMessage> {
+implements FactoryBasedJ8UnitTest<ShortMessage>, ShortMessageTests<ShortMessage> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.ShortMessage]
 

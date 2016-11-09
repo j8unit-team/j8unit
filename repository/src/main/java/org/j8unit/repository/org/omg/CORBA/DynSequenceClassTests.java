@@ -47,7 +47,7 @@ import org.omg.CORBA.DynSequence;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynSequenceClassTests<SUT extends DynSequence>
-extends org.j8unit.repository.org.omg.CORBA.DynAnyClassTests<SUT> {
+extends DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DynSequence]
     /**

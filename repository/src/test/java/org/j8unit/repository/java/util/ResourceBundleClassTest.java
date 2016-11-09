@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ResourceBundle} (by simply reusing the
+ * J8Unit test interface {@link ResourceBundleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ResourceBundleClassTest
-implements org.j8unit.repository.java.util.ResourceBundleClassTests<ResourceBundle> {
+implements ResourceBundleClassTests<ResourceBundle> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ResourceBundle]
 
@@ -215,9 +220,14 @@ implements org.j8unit.repository.java.util.ResourceBundleClassTests<ResourceBund
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.ResourceBundle]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Control} (by simply reusing the
+     * J8Unit test interface {@link ControlClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ControlClassTest
-    implements org.j8unit.repository.java.util.ResourceBundleClassTests.ControlClassTests<Control> {
+    implements ControlClassTests<Control> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ResourceBundle$Control]
 

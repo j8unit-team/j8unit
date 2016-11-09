@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TabSet} (by simply reusing the J8Unit
+ * test interface {@link TabSetTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TabSetTest
-implements org.j8unit.repository.javax.swing.text.TabSetTests<TabSet> {
+implements TabSetTests<TabSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.TabSet]
 

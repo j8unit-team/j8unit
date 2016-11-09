@@ -3,6 +3,7 @@ package org.j8unit.repository.java.sql;
 import static org.junit.Assert.assertTrue;
 import java.sql.PseudoColumnUsage;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.PseudoColumnUsageTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PseudoColumnUsageTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PseudoColumnUsageClassTests<SUT extends PseudoColumnUsage>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+extends EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.PseudoColumnUsage]
     /**

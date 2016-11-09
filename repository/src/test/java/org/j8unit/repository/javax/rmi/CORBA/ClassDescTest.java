@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClassDescTest
-implements FactoryBasedJ8UnitTest<ClassDesc>, org.j8unit.repository.javax.rmi.CORBA.ClassDescTests<ClassDesc> {
+implements FactoryBasedJ8UnitTest<ClassDesc>, ClassDescTests<ClassDesc> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.CORBA.ClassDesc]
 

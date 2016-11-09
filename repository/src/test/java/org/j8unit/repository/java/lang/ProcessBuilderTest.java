@@ -13,9 +13,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ProcessBuilder} (by simply reusing
+ * the J8Unit test interface {@link ProcessBuilderTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ProcessBuilderTest
-implements org.j8unit.repository.java.lang.ProcessBuilderTests<ProcessBuilder> {
+implements ProcessBuilderTests<ProcessBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder]
 
@@ -28,10 +33,15 @@ implements org.j8unit.repository.java.lang.ProcessBuilderTests<ProcessBuilder> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Redirect} (by simply reusing the
+     * J8Unit test interface {@link RedirectTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RedirectTest
-    implements org.j8unit.repository.java.lang.ProcessBuilderTests.RedirectTests<Redirect> {
+    implements RedirectTests<Redirect> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
@@ -52,6 +62,11 @@ implements org.j8unit.repository.java.lang.ProcessBuilderTests<ProcessBuilder> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+         * J8Unit test interface {@link org.j8unit.repository.java.lang.ProcessBuilderTests.RedirectTests.TypeTests}).
+         */
 
         @RunWith(J8Parameterized.class)
         @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

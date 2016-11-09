@@ -16,9 +16,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLEditorKit} (by simply reusing the
+ * J8Unit test interface {@link HTMLEditorKitClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLEditorKitClassTest
-implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<HTMLEditorKit> {
+implements HTMLEditorKitClassTests<HTMLEditorKit> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit]
 
@@ -52,9 +57,14 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Parser} (by simply reusing the J8Unit
+     * test interface {@link ParserClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ParserClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserClassTests<Parser> {
+    implements ParserClassTests<Parser> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$Parser]
 
@@ -90,22 +100,27 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class HTMLTextActionClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<HTMLTextAction> {
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link LinkController} (by simply reusing
+     * the J8Unit test interface {@link LinkControllerClassTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+    @RunWith(J8Unit4.class)
+    public static class LinkControllerClassTest
+    implements LinkControllerClassTests<LinkController> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
 
         @Override
-        public Class<HTMLTextAction> createNewSUT() {
-            return HTMLTextAction.class;
+        public Class<LinkController> createNewSUT() {
+            return LinkController.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.HTMLTextAction#HTMLTextAction(String) public
-         * javax.swing.text.html.HTMLEditorKit$HTMLTextAction(java.lang.String)}.
+         * {@link javax.swing.text.html.HTMLEditorKit.LinkController#LinkController() public
+         * javax.swing.text.html.HTMLEditorKit$LinkController()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -114,23 +129,73 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
          *
          * @since 0.9.0
          */
-        @Ignore("Cannot construct an abstract class!")
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_HTMLTextAction_String()
+        public void create_LinkController()
         throws Exception {
-            Assert.fail("Cannot construct an abstract class!");
+            // create new instance
+            final LinkController sut = new LinkController();
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ParserCallback} (by simply reusing
+     * the J8Unit test interface {@link ParserCallbackClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ParserCallbackClassTest
+    implements ParserCallbackClassTests<ParserCallback> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+
+        @Override
+        public Class<ParserCallback> createNewSUT() {
+            return ParserCallback.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#ParserCallback() public
+         * javax.swing.text.html.HTMLEditorKit$ParserCallback()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ParserCallback()
+        throws Exception {
+            // create new instance
+            final ParserCallback sut = new ParserCallback();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link InsertHTMLTextAction} (by simply
+     * reusing the J8Unit test interface {@link InsertHTMLTextActionClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class InsertHTMLTextActionClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.InsertHTMLTextActionClassTests<InsertHTMLTextAction> {
+    implements InsertHTMLTextActionClassTests<InsertHTMLTextAction> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction]
 
@@ -196,22 +261,27 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ParserCallbackClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests<ParserCallback> {
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLTextAction} (by simply reusing
+     * the J8Unit test interface {@link HTMLTextActionClassTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+    @RunWith(J8Unit4.class)
+    public static class HTMLTextActionClassTest
+    implements HTMLTextActionClassTests<HTMLTextAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
         @Override
-        public Class<ParserCallback> createNewSUT() {
-            return ParserCallback.class;
+        public Class<HTMLTextAction> createNewSUT() {
+            return HTMLTextAction.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#ParserCallback() public
-         * javax.swing.text.html.HTMLEditorKit$ParserCallback()}.
+         * {@link javax.swing.text.html.HTMLEditorKit.HTMLTextAction#HTMLTextAction(String) public
+         * javax.swing.text.html.HTMLEditorKit$HTMLTextAction(java.lang.String)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -220,24 +290,28 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
          *
          * @since 0.9.0
          */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Ignore("Cannot construct an abstract class!")
         @Test
         @Category(Draft.class)
-        public void create_ParserCallback()
+        public void create_HTMLTextAction_String()
         throws Exception {
-            // create new instance
-            final ParserCallback sut = new ParserCallback();
+            Assert.fail("Cannot construct an abstract class!");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$ParserCallback]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLTextAction]
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLFactory} (by simply reusing the
+     * J8Unit test interface {@link HTMLFactoryClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class HTMLFactoryClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLFactoryClassTests<HTMLFactory> {
+    implements HTMLFactoryClassTests<HTMLFactory> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
@@ -271,45 +345,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests<H
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$HTMLFactory]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class LinkControllerClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.LinkControllerClassTests<LinkController> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
-
-        @Override
-        public Class<LinkController> createNewSUT() {
-            return LinkController.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.html.HTMLEditorKit.LinkController#LinkController() public
-         * javax.swing.text.html.HTMLEditorKit$LinkController()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_LinkController()
-        throws Exception {
-            // create new instance
-            final LinkController sut = new LinkController();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTMLEditorKit$LinkController]
 
     }
 

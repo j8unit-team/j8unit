@@ -4,9 +4,14 @@ import javax.xml.transform.sax.TransformerHandler;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TransformerHandler} (by simply reusing
+ * the J8Unit test interface {@link TransformerHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TransformerHandlerClassTest
-implements org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerClassTests<TransformerHandler> {
+implements TransformerHandlerClassTests<TransformerHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
 

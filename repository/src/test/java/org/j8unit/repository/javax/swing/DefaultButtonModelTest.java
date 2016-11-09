@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultButtonModelTest
-implements FactoryBasedJ8UnitTest<DefaultButtonModel>, org.j8unit.repository.javax.swing.DefaultButtonModelTests<DefaultButtonModel> {
+implements FactoryBasedJ8UnitTest<DefaultButtonModel>, DefaultButtonModelTests<DefaultButtonModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultButtonModel]
 

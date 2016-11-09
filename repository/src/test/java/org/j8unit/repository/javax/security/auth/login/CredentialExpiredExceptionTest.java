@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CredentialExpiredExceptionTest
-implements FactoryBasedJ8UnitTest<CredentialExpiredException>,
-org.j8unit.repository.javax.security.auth.login.CredentialExpiredExceptionTests<CredentialExpiredException> {
+implements FactoryBasedJ8UnitTest<CredentialExpiredException>, CredentialExpiredExceptionTests<CredentialExpiredException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.CredentialExpiredException]
 

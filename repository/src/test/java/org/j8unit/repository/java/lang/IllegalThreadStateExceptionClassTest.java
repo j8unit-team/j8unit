@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IllegalThreadStateException} (by simply
+ * reusing the J8Unit test interface {@link IllegalThreadStateExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IllegalThreadStateExceptionClassTest
-implements org.j8unit.repository.java.lang.IllegalThreadStateExceptionClassTests<IllegalThreadStateException> {
+implements IllegalThreadStateExceptionClassTests<IllegalThreadStateException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.IllegalThreadStateException]
 

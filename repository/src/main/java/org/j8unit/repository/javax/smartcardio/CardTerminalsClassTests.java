@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.smartcardio.CardTerminals;
 import javax.smartcardio.CardTerminals.State;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.smartcardio.CardTerminalsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CardTerminalsTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CardTerminalsClassTests<SUT extends CardTerminals>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardTerminals]
     /**
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateClassTests<SUT extends State>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardTerminals$State]
         /**

@@ -4,9 +4,14 @@ import java.time.chrono.JapaneseChronology;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JapaneseChronology} (by simply reusing
+ * the J8Unit test interface {@link JapaneseChronologyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JapaneseChronologyClassTest
-implements org.j8unit.repository.java.time.chrono.JapaneseChronologyClassTests<JapaneseChronology> {
+implements JapaneseChronologyClassTests<JapaneseChronology> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.JapaneseChronology]
 

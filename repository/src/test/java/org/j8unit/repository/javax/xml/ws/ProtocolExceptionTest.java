@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ProtocolExceptionTest
-implements FactoryBasedJ8UnitTest<ProtocolException>, org.j8unit.repository.javax.xml.ws.ProtocolExceptionTests<ProtocolException> {
+implements FactoryBasedJ8UnitTest<ProtocolException>, ProtocolExceptionTests<ProtocolException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.ProtocolException]
 

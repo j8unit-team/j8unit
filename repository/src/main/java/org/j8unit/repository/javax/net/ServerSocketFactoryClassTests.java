@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.net;
 import static org.junit.Assert.assertTrue;
 import javax.net.ServerSocketFactory;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.net.ServerSocketFactoryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServerSocketFactoryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerSocketFactoryClassTests<SUT extends ServerSocketFactory>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ServerSocketFactory]
     /**

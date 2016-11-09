@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.DuplicateFormatFlagsExceptionTests}.
+ * {@link DuplicateFormatFlagsExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DuplicateFormatFlagsExceptionClassTests<SUT extends DuplicateFormatFlagsException>
-extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {
+extends IllegalFormatExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.DuplicateFormatFlagsException]
     /**

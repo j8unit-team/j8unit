@@ -4,6 +4,7 @@ import java.util.stream.DoubleStream;
 import java.util.stream.DoubleStream.Builder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.function.DoubleConsumerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.stream.DoubleStreamClassTests}).
+ * {@link DoubleStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleStreamTests<SUT extends DoubleStream>
-extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, DoubleStream> {
+extends BaseStreamTests<SUT, Double, DoubleStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.DoubleStream]
 
@@ -806,7 +807,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, Double, Doub
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends Builder>
-    extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT> {
+    extends DoubleConsumerTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.DoubleStream$Builder]
 

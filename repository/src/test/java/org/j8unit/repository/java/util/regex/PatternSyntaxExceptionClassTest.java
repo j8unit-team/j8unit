@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PatternSyntaxException} (by simply
+ * reusing the J8Unit test interface {@link PatternSyntaxExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PatternSyntaxExceptionClassTest
-implements org.j8unit.repository.java.util.regex.PatternSyntaxExceptionClassTests<PatternSyntaxException> {
+implements PatternSyntaxExceptionClassTests<PatternSyntaxException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.regex.PatternSyntaxException]
 

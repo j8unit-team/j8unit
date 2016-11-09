@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ObjectReferenceFactory;
@@ -18,7 +19,7 @@ import org.omg.PortableInterceptor.ObjectReferenceFactory;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryTests}.
+ * {@link ObjectReferenceFactoryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.PortableInterceptor.ObjectReferenceFactory;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectReferenceFactoryClassTests<SUT extends ObjectReferenceFactory>
-extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests<SUT> {
+extends ValueBaseClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceFactory]
     /**

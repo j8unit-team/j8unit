@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.concurrent;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.BlockingDeque;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.DequeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.BlockingDequeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BlockingDequeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BlockingDequeClassTests<SUT extends BlockingDeque>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT>, org.j8unit.repository.java.util.DequeClassTests<SUT> {
+extends BlockingQueueClassTests<SUT>, DequeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.BlockingDeque]
     /**

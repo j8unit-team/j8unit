@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.css.CSSStyleSheet;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CSSStyleSheet} (by simply reusing the
+ * J8Unit test interface {@link CSSStyleSheetTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CSSStyleSheetTest
-implements org.j8unit.repository.org.w3c.dom.css.CSSStyleSheetTests<CSSStyleSheet> {
+implements CSSStyleSheetTests<CSSStyleSheet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.CSSStyleSheet]
 

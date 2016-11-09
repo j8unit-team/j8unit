@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TransactionRolledbackExceptionTest
-implements FactoryBasedJ8UnitTest<TransactionRolledbackException>,
-org.j8unit.repository.javax.transaction.TransactionRolledbackExceptionTests<TransactionRolledbackException> {
+implements FactoryBasedJ8UnitTest<TransactionRolledbackException>, TransactionRolledbackExceptionTests<TransactionRolledbackException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRolledbackException]
 

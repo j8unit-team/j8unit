@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.INV_POLICY;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link INV_POLICY} (by simply reusing the J8Unit
+ * test interface {@link INV_POLICYClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class INV_POLICYClassTest
-implements org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests<INV_POLICY> {
+implements INV_POLICYClassTests<INV_POLICY> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INV_POLICY]
 

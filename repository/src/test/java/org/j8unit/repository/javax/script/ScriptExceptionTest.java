@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ScriptException} (by simply reusing
+ * the J8Unit test interface {@link ScriptExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ScriptExceptionTest
-implements org.j8unit.repository.javax.script.ScriptExceptionTests<ScriptException> {
+implements ScriptExceptionTests<ScriptException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.ScriptException]
 

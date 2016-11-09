@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AlreadyBoundExceptionTest
-implements FactoryBasedJ8UnitTest<AlreadyBoundException>, org.j8unit.repository.java.rmi.AlreadyBoundExceptionTests<AlreadyBoundException> {
+implements FactoryBasedJ8UnitTest<AlreadyBoundException>, AlreadyBoundExceptionTests<AlreadyBoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.AlreadyBoundException]
 

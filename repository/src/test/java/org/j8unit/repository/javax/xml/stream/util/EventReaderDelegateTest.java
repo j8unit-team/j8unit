@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EventReaderDelegateTest
-implements FactoryBasedJ8UnitTest, org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateTests<EventReaderDelegate> {
+implements FactoryBasedJ8UnitTest, EventReaderDelegateTests<EventReaderDelegate> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
 

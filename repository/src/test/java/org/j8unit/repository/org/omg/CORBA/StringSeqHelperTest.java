@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.StringSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link StringSeqHelper} (by simply reusing
+ * the J8Unit test interface {@link StringSeqHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StringSeqHelperTest
-implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperTests<StringSeqHelper> {
+implements StringSeqHelperTests<StringSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.StringSeqHelper]
 

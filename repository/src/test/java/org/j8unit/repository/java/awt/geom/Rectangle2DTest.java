@@ -16,9 +16,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Rectangle2D} (by simply reusing the
+ * J8Unit test interface {@link Rectangle2DTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Rectangle2DTest
-implements org.j8unit.repository.java.awt.geom.Rectangle2DTests<Rectangle2D> {
+implements Rectangle2DTests<Rectangle2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Rectangle2D]
 

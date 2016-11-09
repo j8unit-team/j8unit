@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TextFieldTest
-implements FactoryBasedJ8UnitTest<TextField>, org.j8unit.repository.java.awt.TextFieldTests<TextField> {
+implements FactoryBasedJ8UnitTest<TextField>, TextFieldTests<TextField> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.TextField]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EventListenerListTest
-implements FactoryBasedJ8UnitTest<EventListenerList>, org.j8unit.repository.javax.swing.event.EventListenerListTests<EventListenerList> {
+implements FactoryBasedJ8UnitTest<EventListenerList>, EventListenerListTests<EventListenerList> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.EventListenerList]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyResourceBundle} (by simply
+ * reusing the J8Unit test interface {@link PropertyResourceBundleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PropertyResourceBundleClassTest
-implements org.j8unit.repository.java.util.PropertyResourceBundleClassTests<PropertyResourceBundle> {
+implements PropertyResourceBundleClassTests<PropertyResourceBundle> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PropertyResourceBundle]
 

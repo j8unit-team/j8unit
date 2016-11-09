@@ -10,15 +10,40 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CubicCurve2D} (by simply reusing the
+ * J8Unit test interface {@link CubicCurve2DClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CubicCurve2DClassTest
-implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve2D> {
+implements CubicCurve2DClassTests<CubicCurve2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.CubicCurve2D]
 
     @Override
     public Class<CubicCurve2D> createNewSUT() {
         return CubicCurve2D.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D#solveCubic(double[])
+     * public static int java.awt.geom.CubicCurve2D.solveCubic(double[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_solveCubic_doubleArray()
+    throws Exception {
+        // write some test for {@link java.awt.geom.CubicCurve2D#solveCubic(double[])}
     }
 
     /**
@@ -40,26 +65,6 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     public void test_solveCubic_doubleArray_doubleArray()
     throws Exception {
         // write some test for {@link java.awt.geom.CubicCurve2D#solveCubic(double[], double[])}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D#solveCubic(double[])
-     * public static int java.awt.geom.CubicCurve2D.solveCubic(double[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_solveCubic_doubleArray()
-    throws Exception {
-        // write some test for {@link java.awt.geom.CubicCurve2D#solveCubic(double[])}
     }
 
     /**
@@ -153,27 +158,6 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.CubicCurve2D#getFlatness(double[], int) public static double
-     * java.awt.geom.CubicCurve2D.getFlatness(double[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getFlatness_doubleArray_int()
-    throws Exception {
-        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatness(double[], int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.CubicCurve2D#getFlatness(double, double, double, double, double, double, double, double)
      * public static double
      * java.awt.geom.CubicCurve2D.getFlatness(double,double,double,double,double,double,double,double)}.
@@ -194,9 +178,35 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
         // double, double, double)}
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#getFlatness(double[], int) public static double
+     * java.awt.geom.CubicCurve2D.getFlatness(double[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getFlatness_doubleArray_int()
+    throws Exception {
+        // write some test for {@link java.awt.geom.CubicCurve2D#getFlatness(double[], int)}
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.CubicCurve2D]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.CubicCurve2D]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests.FloatClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
@@ -259,6 +269,11 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests.DoubleClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests.DoubleClassTests<Double> {
@@ -268,27 +283,6 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
         @Override
         public Class<Double> createNewSUT() {
             return Double.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.CubicCurve2D.Double#Double()
-         * public java.awt.geom.CubicCurve2D$Double()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_Double()
-        throws Exception {
-            // create new instance
-            final Double sut = new Double();
         }
 
         /**
@@ -312,6 +306,27 @@ implements org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<CubicCurve
             // create new instance
             @SuppressWarnings("unused")
             final Double sut = null; // = new Double(double, double, double, double, double, double, double, double);
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.CubicCurve2D.Double#Double()
+         * public java.awt.geom.CubicCurve2D$Double()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double()
+        throws Exception {
+            // create new instance
+            final Double sut = new Double();
         }
 
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.CubicCurve2D$Double]

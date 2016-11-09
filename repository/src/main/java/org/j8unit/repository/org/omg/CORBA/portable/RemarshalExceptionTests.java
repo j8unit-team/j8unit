@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CORBA.portable;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.portable.RemarshalException;
 
@@ -14,7 +15,7 @@ import org.omg.CORBA.portable.RemarshalException;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.portable.RemarshalExceptionClassTests}).
+ * {@link RemarshalExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.CORBA.portable.RemarshalException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemarshalExceptionTests<SUT extends RemarshalException>
-extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+extends ExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.RemarshalException]
 

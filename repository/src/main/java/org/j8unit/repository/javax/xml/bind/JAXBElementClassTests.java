@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBElement.GlobalScope;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.xml.bind.JAXBElementTests.GlobalScopeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.JAXBElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JAXBElementTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JAXBElementClassTests<SUT extends JAXBElement>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.JAXBElement]
     /**
@@ -84,8 +86,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.xml.bind.JAXBElementTests.GlobalScopeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link GlobalScopeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GlobalScopeClassTests<SUT extends GlobalScope>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.JAXBElement$GlobalScope]
         /**

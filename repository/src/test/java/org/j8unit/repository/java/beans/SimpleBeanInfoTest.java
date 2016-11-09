@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SimpleBeanInfoTest
-implements FactoryBasedJ8UnitTest<SimpleBeanInfo>, org.j8unit.repository.java.beans.SimpleBeanInfoTests<SimpleBeanInfo> {
+implements FactoryBasedJ8UnitTest<SimpleBeanInfo>, SimpleBeanInfoTests<SimpleBeanInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.SimpleBeanInfo]
 

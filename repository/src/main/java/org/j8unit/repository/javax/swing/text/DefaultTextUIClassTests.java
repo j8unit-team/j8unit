@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.text;
 import static org.junit.Assert.assertTrue;
 import javax.swing.text.DefaultTextUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.DefaultTextUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultTextUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTextUIClassTests<SUT extends DefaultTextUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests<SUT> {
+extends BasicTextUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultTextUI]
     /**

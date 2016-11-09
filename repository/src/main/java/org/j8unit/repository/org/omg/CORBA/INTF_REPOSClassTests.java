@@ -17,8 +17,7 @@ import org.omg.CORBA.INTF_REPOS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.INTF_REPOSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link INTF_REPOSTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.INTF_REPOS;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INTF_REPOSClassTests<SUT extends INTF_REPOS>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INTF_REPOS]
     /**

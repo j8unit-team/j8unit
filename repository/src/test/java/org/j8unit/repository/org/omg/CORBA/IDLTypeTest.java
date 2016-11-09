@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.IDLType;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IDLType} (by simply reusing the
+ * J8Unit test interface {@link IDLTypeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IDLTypeTest
-implements org.j8unit.repository.org.omg.CORBA.IDLTypeTests<IDLType> {
+implements IDLTypeTests<IDLType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IDLType]
 

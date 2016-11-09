@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MimeTypeParseExceptionTest
-implements FactoryBasedJ8UnitTest<MimeTypeParseException>, org.j8unit.repository.java.awt.datatransfer.MimeTypeParseExceptionTests<MimeTypeParseException> {
+implements FactoryBasedJ8UnitTest<MimeTypeParseException>, MimeTypeParseExceptionTests<MimeTypeParseException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.MimeTypeParseException]
 

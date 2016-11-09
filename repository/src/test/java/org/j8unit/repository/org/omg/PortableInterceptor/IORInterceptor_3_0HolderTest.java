@@ -14,8 +14,7 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Holder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IORInterceptor_3_0HolderTest
-implements FactoryBasedJ8UnitTest<IORInterceptor_3_0Holder>,
-org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HolderTests<IORInterceptor_3_0Holder> {
+implements FactoryBasedJ8UnitTest<IORInterceptor_3_0Holder>, IORInterceptor_3_0HolderTests<IORInterceptor_3_0Holder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Holder]
 

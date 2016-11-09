@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TransformerFactoryConfigurationErrorTest
-implements FactoryBasedJ8UnitTest<TransformerFactoryConfigurationError>,
-org.j8unit.repository.javax.xml.transform.TransformerFactoryConfigurationErrorTests<TransformerFactoryConfigurationError> {
+implements FactoryBasedJ8UnitTest<TransformerFactoryConfigurationError>, TransformerFactoryConfigurationErrorTests<TransformerFactoryConfigurationError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.TransformerFactoryConfigurationError]
 

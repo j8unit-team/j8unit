@@ -16,8 +16,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.VerifyErrorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link VerifyErrorTests}.
  * </p>
  *
  * <p>
@@ -46,7 +45,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VerifyErrorClassTests<SUT extends VerifyError>
-extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {
+extends LinkageErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.VerifyError]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JMXConnectionNotification} (by simply
+ * reusing the J8Unit test interface {@link JMXConnectionNotificationClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMXConnectionNotificationClassTest
-implements org.j8unit.repository.javax.management.remote.JMXConnectionNotificationClassTests<JMXConnectionNotification> {
+implements JMXConnectionNotificationClassTests<JMXConnectionNotification> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectionNotification]
 

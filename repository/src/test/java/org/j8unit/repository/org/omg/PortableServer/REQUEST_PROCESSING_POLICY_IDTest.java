@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link REQUEST_PROCESSING_POLICY_ID} (by
+ * simply reusing the J8Unit test interface {@link REQUEST_PROCESSING_POLICY_IDTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class REQUEST_PROCESSING_POLICY_IDTest
-implements org.j8unit.repository.org.omg.PortableServer.REQUEST_PROCESSING_POLICY_IDTests<REQUEST_PROCESSING_POLICY_ID> {
+implements REQUEST_PROCESSING_POLICY_IDTests<REQUEST_PROCESSING_POLICY_ID> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.REQUEST_PROCESSING_POLICY_ID]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InitialDirContextTest
-implements FactoryBasedJ8UnitTest<InitialDirContext>, org.j8unit.repository.javax.naming.directory.InitialDirContextTests<InitialDirContext> {
+implements FactoryBasedJ8UnitTest<InitialDirContext>, InitialDirContextTests<InitialDirContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InitialDirContext]
 

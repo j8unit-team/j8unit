@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FlowLayoutTest
-implements FactoryBasedJ8UnitTest<FlowLayout>, org.j8unit.repository.java.awt.FlowLayoutTests<FlowLayout> {
+implements FactoryBasedJ8UnitTest<FlowLayout>, FlowLayoutTests<FlowLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.FlowLayout]
 

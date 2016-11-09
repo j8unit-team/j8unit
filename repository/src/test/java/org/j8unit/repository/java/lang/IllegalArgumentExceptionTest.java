@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalArgumentExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalArgumentException>, org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<IllegalArgumentException> {
+implements FactoryBasedJ8UnitTest<IllegalArgumentException>, IllegalArgumentExceptionTests<IllegalArgumentException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IllegalArgumentException]
 

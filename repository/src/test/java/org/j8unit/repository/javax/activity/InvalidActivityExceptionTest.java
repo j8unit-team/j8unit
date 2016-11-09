@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidActivityExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidActivityException>, org.j8unit.repository.javax.activity.InvalidActivityExceptionTests<InvalidActivityException> {
+implements FactoryBasedJ8UnitTest<InvalidActivityException>, InvalidActivityExceptionTests<InvalidActivityException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.InvalidActivityException]
 

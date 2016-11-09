@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.EventSetDescriptorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link EventSetDescriptorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventSetDescriptorClassTests<SUT extends EventSetDescriptor>
-extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {
+extends FeatureDescriptorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.EventSetDescriptor]
     /**

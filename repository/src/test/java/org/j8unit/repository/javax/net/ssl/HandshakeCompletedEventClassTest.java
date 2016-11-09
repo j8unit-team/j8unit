@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HandshakeCompletedEvent} (by simply
+ * reusing the J8Unit test interface {@link HandshakeCompletedEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HandshakeCompletedEventClassTest
-implements org.j8unit.repository.javax.net.ssl.HandshakeCompletedEventClassTests<HandshakeCompletedEvent> {
+implements HandshakeCompletedEventClassTests<HandshakeCompletedEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.HandshakeCompletedEvent]
 

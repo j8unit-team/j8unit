@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InternalErrorTest
-implements FactoryBasedJ8UnitTest<InternalError>, org.j8unit.repository.java.lang.InternalErrorTests<InternalError> {
+implements FactoryBasedJ8UnitTest<InternalError>, InternalErrorTests<InternalError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InternalError]
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlAdapter} (by simply reusing the
+ * J8Unit test interface {@link XmlAdapterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XmlAdapterTest<ValueType, BoundType>
-implements org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterTests<XmlAdapter<ValueType, BoundType>, ValueType, BoundType> {
+implements XmlAdapterTests<XmlAdapter<ValueType, BoundType>, ValueType, BoundType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.XmlAdapter]
 

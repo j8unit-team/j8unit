@@ -47,7 +47,7 @@ import org.omg.DynamicAny.DynEnum;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynEnumClassTests<SUT extends DynEnum>
-extends org.j8unit.repository.org.omg.DynamicAny.DynEnumOperationsClassTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyClassTests<SUT> {
+extends DynEnumOperationsClassTests<SUT>, DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynEnum]
     /**

@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ArrayBlockingQueue} (by simply reusing
+ * the J8Unit test interface {@link ArrayBlockingQueueClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class ArrayBlockingQueueClassTest
-implements org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTests<ArrayBlockingQueue> {
+implements ArrayBlockingQueueClassTests<ArrayBlockingQueue> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ArrayBlockingQueue]
 

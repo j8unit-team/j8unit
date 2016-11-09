@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.UShortSeqHolder;
@@ -17,8 +19,7 @@ import org.omg.CORBA.UShortSeqHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.UShortSeqHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link UShortSeqHolderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CORBA.UShortSeqHolder;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UShortSeqHolderClassTests<SUT extends UShortSeqHolder>
-extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends StreamableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UShortSeqHolder]
     /**

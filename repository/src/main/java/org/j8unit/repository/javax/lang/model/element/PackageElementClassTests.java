@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.element.PackageElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PackageElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PackageElementClassTests<SUT extends PackageElement>
-extends org.j8unit.repository.javax.lang.model.element.QualifiedNameableClassTests<SUT> {
+extends QualifiedNameableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.PackageElement]
     /**

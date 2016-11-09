@@ -2,6 +2,11 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.xml.sax.ContentHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.DTDHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.EntityResolverClassTests;
+import org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.DefaultHandler;
@@ -17,8 +22,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultHandlerTests}.
  * </p>
  *
  * <p>
@@ -47,9 +51,7 @@ import org.xml.sax.helpers.DefaultHandler;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultHandlerClassTests<SUT extends DefaultHandler>
-extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT>, org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT>,
-org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends EntityResolverClassTests<SUT>, DTDHandlerClassTests<SUT>, ContentHandlerClassTests<SUT>, ErrorHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.DefaultHandler]
     /**

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Thread} (by simply reusing the J8Unit
+ * test interface {@link ThreadClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThreadClassTest
-implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
+implements ThreadClassTests<Thread> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread]
 
@@ -440,9 +445,14 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Thread]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UncaughtExceptionHandler} (by simply
+     * reusing the J8Unit test interface {@link UncaughtExceptionHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class UncaughtExceptionHandlerClassTest
-    implements org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests<UncaughtExceptionHandler> {
+    implements UncaughtExceptionHandlerClassTests<UncaughtExceptionHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread$UncaughtExceptionHandler]
 
@@ -457,9 +467,14 @@ implements org.j8unit.repository.java.lang.ThreadClassTests<Thread> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link State} (by simply reusing the J8Unit
+     * test interface {@link StateClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class StateClassTest
-    implements org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests<State> {
+    implements StateClassTests<State> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread$State]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StackTest<E>
-implements FactoryBasedJ8UnitTest<Stack<E>>, org.j8unit.repository.java.util.StackTests<Stack<E>, E> {
+implements FactoryBasedJ8UnitTest<Stack<E>>, StackTests<Stack<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Stack]
 

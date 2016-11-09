@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.net.ssl.X509TrustManagerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link X509TrustManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X509TrustManagerClassTests<SUT extends X509TrustManager>
-extends org.j8unit.repository.javax.net.ssl.TrustManagerClassTests<SUT> {
+extends TrustManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.X509TrustManager]
     /**

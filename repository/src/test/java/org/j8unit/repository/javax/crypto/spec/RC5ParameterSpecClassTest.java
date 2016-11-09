@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RC5ParameterSpec} (by simply reusing the
+ * J8Unit test interface {@link RC5ParameterSpecClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RC5ParameterSpecClassTest
-implements org.j8unit.repository.javax.crypto.spec.RC5ParameterSpecClassTests<RC5ParameterSpec> {
+implements RC5ParameterSpecClassTests<RC5ParameterSpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.RC5ParameterSpec]
 

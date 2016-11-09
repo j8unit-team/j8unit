@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Diagnostic} (by simply reusing the
+ * J8Unit test interface {@link DiagnosticTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DiagnosticTest<S>
-implements org.j8unit.repository.javax.tools.DiagnosticTests<Diagnostic<S>, S> {
+implements DiagnosticTests<Diagnostic<S>, S> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.Diagnostic]
 
@@ -26,6 +31,11 @@ implements org.j8unit.repository.javax.tools.DiagnosticTests<Diagnostic<S>, S> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.Diagnostic]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.Diagnostic]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Kind} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.tools.DiagnosticTests.KindTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

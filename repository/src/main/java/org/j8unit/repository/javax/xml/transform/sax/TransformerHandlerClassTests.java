@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.xml.transform.sax;
 import static org.junit.Assert.assertTrue;
 import javax.xml.transform.sax.TransformerHandler;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.ContentHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.DTDHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.ext.LexicalHandlerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TransformerHandlerTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransformerHandlerClassTests<SUT extends TransformerHandler>
-extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ext.LexicalHandlerClassTests<SUT>,
-org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT> {
+extends ContentHandlerClassTests<SUT>, LexicalHandlerClassTests<SUT>, DTDHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.sax.TransformerHandler]
     /**

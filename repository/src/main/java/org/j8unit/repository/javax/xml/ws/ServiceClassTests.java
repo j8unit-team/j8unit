@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.xml.ws.Service;
 import javax.xml.ws.Service.Mode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.ws.ServiceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServiceTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServiceClassTests<SUT extends Service>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.Service]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ModeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends Mode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.Service$Mode]
         /**

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.undo;
 import static org.junit.Assert.assertTrue;
 import javax.swing.undo.UndoManager;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.event.UndoableEditListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.undo.UndoManagerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link UndoManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UndoManagerClassTests<SUT extends UndoManager>
-extends org.j8unit.repository.javax.swing.event.UndoableEditListenerClassTests<SUT>, org.j8unit.repository.javax.swing.undo.CompoundEditClassTests<SUT> {
+extends UndoableEditListenerClassTests<SUT>, CompoundEditClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.undo.UndoManager]
     /**

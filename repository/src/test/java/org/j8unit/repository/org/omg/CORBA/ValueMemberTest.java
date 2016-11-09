@@ -14,7 +14,7 @@ import org.omg.CORBA.ValueMember;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ValueMemberTest
-implements FactoryBasedJ8UnitTest<ValueMember>, org.j8unit.repository.org.omg.CORBA.ValueMemberTests<ValueMember> {
+implements FactoryBasedJ8UnitTest<ValueMember>, ValueMemberTests<ValueMember> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ValueMember]
 

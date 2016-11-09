@@ -4,9 +4,14 @@ import java.applet.AppletStub;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AppletStub} (by simply reusing the J8Unit
+ * test interface {@link AppletStubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AppletStubClassTest
-implements org.j8unit.repository.java.applet.AppletStubClassTests<AppletStub> {
+implements AppletStubClassTests<AppletStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.applet.AppletStub]
 

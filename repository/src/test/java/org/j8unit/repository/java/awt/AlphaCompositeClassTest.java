@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AlphaComposite} (by simply reusing the
+ * J8Unit test interface {@link AlphaCompositeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AlphaCompositeClassTest
-implements org.j8unit.repository.java.awt.AlphaCompositeClassTests<AlphaComposite> {
+implements AlphaCompositeClassTests<AlphaComposite> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.AlphaComposite]
 

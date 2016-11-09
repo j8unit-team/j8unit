@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchProviderExceptionTest
-implements FactoryBasedJ8UnitTest<NoSuchProviderException>, org.j8unit.repository.java.security.NoSuchProviderExceptionTests<NoSuchProviderException> {
+implements FactoryBasedJ8UnitTest<NoSuchProviderException>, NoSuchProviderExceptionTests<NoSuchProviderException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.NoSuchProviderException]
 

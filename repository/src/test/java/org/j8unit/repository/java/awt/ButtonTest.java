@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ButtonTest
-implements FactoryBasedJ8UnitTest<Button>, org.j8unit.repository.java.awt.ButtonTests<Button> {
+implements FactoryBasedJ8UnitTest<Button>, ButtonTests<Button> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Button]
 

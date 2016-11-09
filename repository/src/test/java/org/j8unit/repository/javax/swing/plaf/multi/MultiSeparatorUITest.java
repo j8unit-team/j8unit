@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiSeparatorUITest
-implements FactoryBasedJ8UnitTest<MultiSeparatorUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiSeparatorUITests<MultiSeparatorUI> {
+implements FactoryBasedJ8UnitTest<MultiSeparatorUI>, MultiSeparatorUITests<MultiSeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiSeparatorUI]
 

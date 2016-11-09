@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JTreeTest
-implements FactoryBasedJ8UnitTest<JTree>, org.j8unit.repository.javax.swing.JTreeTests<JTree> {
+implements FactoryBasedJ8UnitTest<JTree>, JTreeTests<JTree> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTree]
 
@@ -39,6 +39,33 @@ implements FactoryBasedJ8UnitTest<JTree>, org.j8unit.repository.javax.swing.JTre
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DynamicUtilTreeNode} (by simply
+     * reusing the J8Unit test interface {@link DynamicUtilTreeNodeTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DynamicUtilTreeNodeTest
+    implements DynamicUtilTreeNodeTests<DynamicUtilTreeNode> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
+
+        @Override
+        public DynamicUtilTreeNode createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JTree.DynamicUtilTreeNode], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JTreeTests.DropLocationTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
     implements org.j8unit.repository.javax.swing.JTreeTests.DropLocationTests<DropLocation> {
@@ -53,23 +80,6 @@ implements FactoryBasedJ8UnitTest<JTree>, org.j8unit.repository.javax.swing.JTre
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DropLocation]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DropLocation]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DynamicUtilTreeNodeTest
-    implements org.j8unit.repository.javax.swing.JTreeTests.DynamicUtilTreeNodeTests<DynamicUtilTreeNode> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
-
-        @Override
-        public DynamicUtilTreeNode createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.JTree.DynamicUtilTreeNode], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTree$DynamicUtilTreeNode]
 
     }
 

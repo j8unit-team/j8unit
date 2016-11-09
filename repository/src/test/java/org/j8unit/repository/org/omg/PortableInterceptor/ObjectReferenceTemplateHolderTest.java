@@ -14,8 +14,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplateHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ObjectReferenceTemplateHolderTest
-implements FactoryBasedJ8UnitTest<ObjectReferenceTemplateHolder>,
-org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHolderTests<ObjectReferenceTemplateHolder> {
+implements FactoryBasedJ8UnitTest<ObjectReferenceTemplateHolder>, ObjectReferenceTemplateHolderTests<ObjectReferenceTemplateHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ObjectReferenceTemplateHolder]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AffineTransformTest
-implements FactoryBasedJ8UnitTest<AffineTransform>, org.j8unit.repository.java.awt.geom.AffineTransformTests<AffineTransform> {
+implements FactoryBasedJ8UnitTest<AffineTransform>, AffineTransformTests<AffineTransform> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.AffineTransform]
 

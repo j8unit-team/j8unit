@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SQLWarning} (by simply reusing the J8Unit
+ * test interface {@link SQLWarningClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SQLWarningClassTest
-implements org.j8unit.repository.java.sql.SQLWarningClassTests<SQLWarning> {
+implements SQLWarningClassTests<SQLWarning> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLWarning]
 

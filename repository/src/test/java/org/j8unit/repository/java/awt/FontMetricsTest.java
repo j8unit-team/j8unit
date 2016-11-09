@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FontMetrics} (by simply reusing the
+ * J8Unit test interface {@link FontMetricsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FontMetricsTest
-implements org.j8unit.repository.java.awt.FontMetricsTests<FontMetrics> {
+implements FontMetricsTests<FontMetrics> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.FontMetrics]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthFormattedTextFieldUITest
-implements FactoryBasedJ8UnitTest<SynthFormattedTextFieldUI>,
-org.j8unit.repository.javax.swing.plaf.synth.SynthFormattedTextFieldUITests<SynthFormattedTextFieldUI> {
+implements FactoryBasedJ8UnitTest<SynthFormattedTextFieldUI>, SynthFormattedTextFieldUITests<SynthFormattedTextFieldUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthFormattedTextFieldUI]
 

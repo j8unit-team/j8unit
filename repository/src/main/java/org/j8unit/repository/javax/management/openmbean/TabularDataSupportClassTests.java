@@ -3,6 +3,10 @@ package org.j8unit.repository.javax.management.openmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.openmbean.TabularDataSupport;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.MapClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.openmbean.TabularDataSupportTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TabularDataSupportTests}.
  * </p>
  *
  * <p>
@@ -47,9 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TabularDataSupportClassTests<SUT extends TabularDataSupport>
-extends org.j8unit.repository.javax.management.openmbean.TabularDataClassTests<SUT>, org.j8unit.repository.java.util.MapClassTests<SUT>,
-org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends TabularDataClassTests<SUT>, MapClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.TabularDataSupport]
     /**

@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AtomicReferenceFieldUpdater} (by simply
+ * reusing the J8Unit test interface {@link AtomicReferenceFieldUpdaterClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class AtomicReferenceFieldUpdaterClassTest
-implements org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceFieldUpdaterClassTests<AtomicReferenceFieldUpdater> {
+implements AtomicReferenceFieldUpdaterClassTests<AtomicReferenceFieldUpdater> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.atomic.AtomicReferenceFieldUpdater]
 

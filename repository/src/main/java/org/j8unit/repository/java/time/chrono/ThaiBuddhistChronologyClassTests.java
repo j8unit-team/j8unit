@@ -3,6 +3,7 @@ package org.j8unit.repository.java.time.chrono;
 import static org.junit.Assert.assertTrue;
 import java.time.chrono.ThaiBuddhistChronology;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.chrono.ThaiBuddhistChronologyTests}.
+ * {@link ThaiBuddhistChronologyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThaiBuddhistChronologyClassTests<SUT extends ThaiBuddhistChronology>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.time.chrono.AbstractChronologyClassTests<SUT> {
+extends SerializableClassTests<SUT>, AbstractChronologyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.ThaiBuddhistChronology]
     /**

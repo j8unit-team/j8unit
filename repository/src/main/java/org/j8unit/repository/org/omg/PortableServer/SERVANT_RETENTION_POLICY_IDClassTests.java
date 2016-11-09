@@ -19,7 +19,7 @@ import org.omg.PortableServer.SERVANT_RETENTION_POLICY_ID;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.SERVANT_RETENTION_POLICY_IDTests}.
+ * {@link SERVANT_RETENTION_POLICY_IDTests}.
  * </p>
  *
  * <p>

@@ -4,6 +4,8 @@ import java.net.Proxy;
 import java.net.Proxy.Type;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProxyTests<SUT extends Proxy>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Proxy]
 
@@ -170,7 +172,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeTests<SUT extends Type>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, Type> {
+    extends EnumTests<SUT, Type> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Proxy$Type]
 

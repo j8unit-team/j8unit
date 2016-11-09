@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultBoundedRangeModelTest
-implements FactoryBasedJ8UnitTest<DefaultBoundedRangeModel>, org.j8unit.repository.javax.swing.DefaultBoundedRangeModelTests<DefaultBoundedRangeModel> {
+implements FactoryBasedJ8UnitTest<DefaultBoundedRangeModel>, DefaultBoundedRangeModelTests<DefaultBoundedRangeModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultBoundedRangeModel]
 

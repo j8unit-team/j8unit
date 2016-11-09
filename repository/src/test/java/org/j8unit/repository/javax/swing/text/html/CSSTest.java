@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CSSTest
-implements FactoryBasedJ8UnitTest<CSS>, org.j8unit.repository.javax.swing.text.html.CSSTests<CSS> {
+implements FactoryBasedJ8UnitTest<CSS>, CSSTests<CSS> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.CSS]
 
@@ -36,6 +36,11 @@ implements FactoryBasedJ8UnitTest<CSS>, org.j8unit.repository.javax.swing.text.h
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.CSS]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.CSS]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.CSSTests.AttributeTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

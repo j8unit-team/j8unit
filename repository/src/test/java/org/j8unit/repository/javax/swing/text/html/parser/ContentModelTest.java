@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ContentModelTest
-implements FactoryBasedJ8UnitTest<ContentModel>, org.j8unit.repository.javax.swing.text.html.parser.ContentModelTests<ContentModel> {
+implements FactoryBasedJ8UnitTest<ContentModel>, ContentModelTests<ContentModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
 

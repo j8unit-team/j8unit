@@ -4,9 +4,14 @@ import java.sql.Savepoint;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Savepoint} (by simply reusing the J8Unit
+ * test interface {@link SavepointClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SavepointClassTest
-implements org.j8unit.repository.java.sql.SavepointClassTests<Savepoint> {
+implements SavepointClassTests<Savepoint> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.Savepoint]
 

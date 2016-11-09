@@ -13,8 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReflectiveOperationExceptionTest
-implements FactoryBasedJ8UnitTest<ReflectiveOperationException>,
-org.j8unit.repository.java.lang.ReflectiveOperationExceptionTests<ReflectiveOperationException> {
+implements FactoryBasedJ8UnitTest<ReflectiveOperationException>, ReflectiveOperationExceptionTests<ReflectiveOperationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ReflectiveOperationException]
 

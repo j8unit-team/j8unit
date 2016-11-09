@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ClassDefinition} (by simply reusing the
+ * J8Unit test interface {@link ClassDefinitionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ClassDefinitionClassTest
-implements org.j8unit.repository.java.lang.instrument.ClassDefinitionClassTests<ClassDefinition> {
+implements ClassDefinitionClassTests<ClassDefinition> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.instrument.ClassDefinition]
 

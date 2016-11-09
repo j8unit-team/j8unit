@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.multi;
 import javax.swing.plaf.multi.MultiScrollBarUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.ScrollBarUITests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.multi.MultiScrollBarUIClassTests}).
+ * {@link MultiScrollBarUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiScrollBarUITests<SUT extends MultiScrollBarUI>
-extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
+extends ScrollBarUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiScrollBarUI]
 
@@ -59,30 +60,6 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiScrollBarUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiScrollBarUI.installUI(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiScrollBarUI#getMaximumSize(javax.swing.JComponent) public java.awt.Dimension
      * javax.swing.plaf.multi.MultiScrollBarUI.getMaximumSize(javax.swing.JComponent)}.
      *
@@ -98,6 +75,30 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiScrollBarUI.installUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -250,30 +251,6 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiScrollBarUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiScrollBarUI.uninstallUI(javax.swing.JComponent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_uninstallUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiScrollBarUI#paint(java.awt.Graphics, javax.swing.JComponent) public void
      * javax.swing.plaf.multi.MultiScrollBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      *
@@ -289,6 +266,30 @@ extends org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiScrollBarUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiScrollBarUI.uninstallUI(javax.swing.JComponent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

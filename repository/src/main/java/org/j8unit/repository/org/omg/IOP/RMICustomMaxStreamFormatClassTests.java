@@ -19,7 +19,7 @@ import org.omg.IOP.RMICustomMaxStreamFormat;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.RMICustomMaxStreamFormatTests}.
+ * {@link RMICustomMaxStreamFormatTests}.
  * </p>
  *
  * <p>

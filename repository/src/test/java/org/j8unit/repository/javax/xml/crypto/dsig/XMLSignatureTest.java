@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XMLSignature} (by simply reusing the
+ * J8Unit test interface {@link XMLSignatureTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLSignatureTest
-implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests<XMLSignature> {
+implements XMLSignatureTests<XMLSignature> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests<XMLSign
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SignatureValue} (by simply
+     * reusing the J8Unit test interface {@link SignatureValueTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SignatureValueTest
-    implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureTests.SignatureValueTests<SignatureValue> {
+    implements SignatureValueTests<SignatureValue> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignature$SignatureValue]
 

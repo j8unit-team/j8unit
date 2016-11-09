@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import javax.swing.plaf.basic.BasicFileChooserUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.FileChooserUITests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassTests}).
+ * {@link BasicFileChooserUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicFileChooserUITests<SUT extends BasicFileChooserUI>
-extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
+extends FileChooserUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicFileChooserUI]
 
@@ -292,6 +293,29 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicFileChooserUI#getNewFolderAction() public javax.swing.Action
+     * javax.swing.plaf.basic.BasicFileChooserUI.getNewFolderAction()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNewFolderAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicFileChooserUI#uninstallUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicFileChooserUI.uninstallUI(javax.swing.JComponent)}.
      *
@@ -307,29 +331,6 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_uninstallUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicFileChooserUI#getNewFolderAction() public javax.swing.Action
-     * javax.swing.plaf.basic.BasicFileChooserUI.getNewFolderAction()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNewFolderAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -362,29 +363,6 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicFileChooserUI#clearIconCache() public void
-     * javax.swing.plaf.basic.BasicFileChooserUI.clearIconCache()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clearIconCache()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicFileChooserUI#getGoHomeAction() public javax.swing.Action
      * javax.swing.plaf.basic.BasicFileChooserUI.getGoHomeAction()}.
      *
@@ -399,6 +377,29 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getGoHomeAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicFileChooserUI#clearIconCache() public void
+     * javax.swing.plaf.basic.BasicFileChooserUI.clearIconCache()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clearIconCache()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -504,6 +505,29 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicFileChooserUI#getUpdateAction() public javax.swing.Action
+     * javax.swing.plaf.basic.BasicFileChooserUI.getUpdateAction()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUpdateAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicFileChooserUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.basic.BasicFileChooserUI.installUI(javax.swing.JComponent)}.
      *
@@ -519,29 +543,6 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicFileChooserUI#getUpdateAction() public javax.swing.Action
-     * javax.swing.plaf.basic.BasicFileChooserUI.getUpdateAction()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUpdateAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -574,6 +575,29 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.basic.BasicFileChooserUI#getCancelSelectionAction() public javax.swing.Action
+     * javax.swing.plaf.basic.BasicFileChooserUI.getCancelSelectionAction()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCancelSelectionAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.basic.BasicFileChooserUI#getApproveButtonToolTipText(javax.swing.JFileChooser) public
      * java.lang.String
      * javax.swing.plaf.basic.BasicFileChooserUI.getApproveButtonToolTipText(javax.swing.JFileChooser)}.
@@ -589,29 +613,6 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getApproveButtonToolTipText_JFileChooser()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.basic.BasicFileChooserUI#getCancelSelectionAction() public javax.swing.Action
-     * javax.swing.plaf.basic.BasicFileChooserUI.getCancelSelectionAction()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCancelSelectionAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

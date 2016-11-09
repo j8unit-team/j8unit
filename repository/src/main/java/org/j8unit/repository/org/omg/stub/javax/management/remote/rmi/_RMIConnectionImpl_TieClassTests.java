@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.stub.javax.management.remote.rmi;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.rmi.CORBA.TieClassTests;
+import org.j8unit.repository.org.omg.CORBA_2_3.portable.ObjectImplClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
@@ -18,7 +20,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_TieTests}.
+ * {@link _RMIConnectionImpl_TieTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIConnectionImpl_TieClassTests<SUT extends _RMIConnectionImpl_Tie>
-extends org.j8unit.repository.javax.rmi.CORBA.TieClassTests<SUT>, org.j8unit.repository.org.omg.CORBA_2_3.portable.ObjectImplClassTests<SUT> {
+extends TieClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie]
     /**

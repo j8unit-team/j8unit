@@ -16,8 +16,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.ArrayStoreExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ArrayStoreExceptionTests}.
  * </p>
  *
  * <p>
@@ -46,7 +45,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayStoreExceptionClassTests<SUT extends ArrayStoreException>
-extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
+extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ArrayStoreException]
     /**

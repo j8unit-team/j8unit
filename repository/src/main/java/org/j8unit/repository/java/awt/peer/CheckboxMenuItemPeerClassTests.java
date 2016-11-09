@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.peer.CheckboxMenuItemPeerTests}.
+ * {@link CheckboxMenuItemPeerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CheckboxMenuItemPeerClassTests<SUT extends CheckboxMenuItemPeer>
-extends org.j8unit.repository.java.awt.peer.MenuItemPeerClassTests<SUT> {
+extends MenuItemPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.CheckboxMenuItemPeer]
     /**

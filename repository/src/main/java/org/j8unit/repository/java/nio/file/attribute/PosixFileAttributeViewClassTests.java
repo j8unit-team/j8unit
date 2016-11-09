@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.attribute.PosixFileAttributeViewTests}.
+ * {@link PosixFileAttributeViewTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PosixFileAttributeViewClassTests<SUT extends PosixFileAttributeView>
-extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewClassTests<SUT>,
-org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewClassTests<SUT> {
+extends BasicFileAttributeViewClassTests<SUT>, FileOwnerAttributeViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.PosixFileAttributeView]
     /**

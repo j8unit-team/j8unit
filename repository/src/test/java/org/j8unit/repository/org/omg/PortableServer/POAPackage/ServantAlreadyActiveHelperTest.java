@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantAlreadyActiveHelper} (by
+ * simply reusing the J8Unit test interface {@link ServantAlreadyActiveHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantAlreadyActiveHelperTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelperTests<ServantAlreadyActiveHelper> {
+implements ServantAlreadyActiveHelperTests<ServantAlreadyActiveHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
 

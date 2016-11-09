@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.xml.ws.handler.MessageContext;
 import javax.xml.ws.handler.MessageContext.Scope;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.util.MapClassTests;
+import org.j8unit.repository.javax.xml.ws.handler.MessageContextTests.ScopeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MessageContextTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MessageContextClassTests<SUT extends MessageContext>
-extends org.j8unit.repository.java.util.MapClassTests<SUT> {
+extends MapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.MessageContext]
     /**
@@ -84,8 +86,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextTests.ScopeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ScopeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScopeClassTests<SUT extends Scope>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]
         /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class KeySelectorExceptionTest
-implements FactoryBasedJ8UnitTest<KeySelectorException>, org.j8unit.repository.javax.xml.crypto.KeySelectorExceptionTests<KeySelectorException> {
+implements FactoryBasedJ8UnitTest<KeySelectorException>, KeySelectorExceptionTests<KeySelectorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.KeySelectorException]
 

@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link JAXBElement} (by simply reusing the
+ * J8Unit test interface {@link JAXBElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JAXBElementTest<T>
-implements org.j8unit.repository.javax.xml.bind.JAXBElementTests<JAXBElement<T>, T> {
+implements JAXBElementTests<JAXBElement<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.JAXBElement]
 
@@ -32,7 +37,7 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementTests<JAXBElement<T>,
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class GlobalScopeTest
-    implements FactoryBasedJ8UnitTest<GlobalScope>, org.j8unit.repository.javax.xml.bind.JAXBElementTests.GlobalScopeTests<GlobalScope> {
+    implements FactoryBasedJ8UnitTest<GlobalScope>, GlobalScopeTests<GlobalScope> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.JAXBElement$GlobalScope]
 

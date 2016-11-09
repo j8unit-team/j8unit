@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link EntityReference} (by simply reusing
+ * the J8Unit test interface {@link EntityReferenceTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EntityReferenceTest
-implements org.j8unit.repository.javax.xml.stream.events.EntityReferenceTests<EntityReference> {
+implements EntityReferenceTests<EntityReference> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.events.EntityReference]
 

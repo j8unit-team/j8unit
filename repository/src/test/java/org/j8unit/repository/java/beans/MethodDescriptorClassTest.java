@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MethodDescriptor} (by simply reusing the
+ * J8Unit test interface {@link MethodDescriptorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MethodDescriptorClassTest
-implements org.j8unit.repository.java.beans.MethodDescriptorClassTests<MethodDescriptor> {
+implements MethodDescriptorClassTests<MethodDescriptor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.MethodDescriptor]
 

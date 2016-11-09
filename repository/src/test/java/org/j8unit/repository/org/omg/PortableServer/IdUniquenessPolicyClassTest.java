@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.IdUniquenessPolicy;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IdUniquenessPolicy} (by simply reusing
+ * the J8Unit test interface {@link IdUniquenessPolicyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IdUniquenessPolicyClassTest
-implements org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyClassTests<IdUniquenessPolicy> {
+implements IdUniquenessPolicyClassTests<IdUniquenessPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.IdUniquenessPolicy]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RelationSupport} (by simply reusing the
+ * J8Unit test interface {@link RelationSupportClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RelationSupportClassTest
-implements org.j8unit.repository.javax.management.relation.RelationSupportClassTests<RelationSupport> {
+implements RelationSupportClassTests<RelationSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationSupport]
 

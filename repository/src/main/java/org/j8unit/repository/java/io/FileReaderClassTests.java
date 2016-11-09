@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.FileReaderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FileReaderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileReaderClassTests<SUT extends FileReader>
-extends org.j8unit.repository.java.io.InputStreamReaderClassTests<SUT> {
+extends InputStreamReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.FileReader]
     /**

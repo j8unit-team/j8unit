@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link JulianFields} (by simply reusing the
+ * J8Unit test interface {@link JulianFieldsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JulianFieldsTest
-implements org.j8unit.repository.java.time.temporal.JulianFieldsTests<JulianFields> {
+implements JulianFieldsTests<JulianFields> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.JulianFields]
 

@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicMenuUITest
-implements FactoryBasedJ8UnitTest<BasicMenuUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests<BasicMenuUI> {
+implements FactoryBasedJ8UnitTest<BasicMenuUI>, BasicMenuUITests<BasicMenuUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI]
 
@@ -37,6 +37,12 @@ implements FactoryBasedJ8UnitTest<BasicMenuUI>, org.j8unit.repository.javax.swin
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicMenuUI]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ChangeHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests.ChangeHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerTest

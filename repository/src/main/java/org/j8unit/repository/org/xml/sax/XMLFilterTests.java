@@ -17,7 +17,7 @@ import org.xml.sax.XMLFilter;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.xml.sax.XMLFilterClassTests}).
+ * {@link XMLFilterClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.xml.sax.XMLFilter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLFilterTests<SUT extends XMLFilter>
-extends org.j8unit.repository.org.xml.sax.XMLReaderTests<SUT> {
+extends XMLReaderTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.XMLFilter]
 

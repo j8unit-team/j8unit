@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DOMStructure} (by simply reusing the
+ * J8Unit test interface {@link DOMStructureClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DOMStructureClassTest
-implements org.j8unit.repository.javax.xml.crypto.dom.DOMStructureClassTests<DOMStructure> {
+implements DOMStructureClassTests<DOMStructure> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dom.DOMStructure]
 

@@ -14,7 +14,7 @@ import org.omg.PortableServer._ServantActivatorStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _ServantActivatorStubTest
-implements FactoryBasedJ8UnitTest<_ServantActivatorStub>, org.j8unit.repository.org.omg.PortableServer._ServantActivatorStubTests<_ServantActivatorStub> {
+implements FactoryBasedJ8UnitTest<_ServantActivatorStub>, _ServantActivatorStubTests<_ServantActivatorStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer._ServantActivatorStub]
 

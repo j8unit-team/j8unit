@@ -18,9 +18,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyStore} (by simply reusing the J8Unit
+ * test interface {@link KeyStoreClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyStoreClassTest
-implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
+implements KeyStoreClassTests<KeyStore> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore]
 
@@ -117,9 +122,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PrivateKeyEntry} (by simply reusing
+     * the J8Unit test interface {@link PrivateKeyEntryClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PrivateKeyEntryClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests<PrivateKeyEntry> {
+    implements PrivateKeyEntryClassTests<PrivateKeyEntry> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
 
@@ -183,9 +193,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SecretKeyEntry} (by simply reusing
+     * the J8Unit test interface {@link SecretKeyEntryClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SecretKeyEntryClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests<SecretKeyEntry> {
+    implements SecretKeyEntryClassTests<SecretKeyEntry> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
 
@@ -245,6 +260,11 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.security.KeyStoreClassTests.BuilderClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest
@@ -332,9 +352,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Entry} (by simply reusing the J8Unit
+     * test interface {@link EntryClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class EntryClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<Entry> {
+    implements EntryClassTests<Entry> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$Entry]
 
@@ -346,6 +371,12 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyStore$Entry]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyStore$Entry]
+
+        /**
+         * Specific JUnit test class to proof the type relevant aspects of type {@link Attribute} (by simply reusing the
+         * J8Unit test interface
+         * {@link org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests}).
+         */
 
         @RunWith(J8Unit4.class)
         public static class AttributeClassTest
@@ -366,9 +397,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TrustedCertificateEntry} (by simply
+     * reusing the J8Unit test interface {@link TrustedCertificateEntryClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class TrustedCertificateEntryClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests<TrustedCertificateEntry> {
+    implements TrustedCertificateEntryClassTests<TrustedCertificateEntry> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
 
@@ -431,9 +467,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PasswordProtection} (by simply
+     * reusing the J8Unit test interface {@link PasswordProtectionClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PasswordProtectionClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests<PasswordProtection> {
+    implements PasswordProtectionClassTests<PasswordProtection> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$PasswordProtection]
 
@@ -496,9 +537,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link LoadStoreParameter} (by simply
+     * reusing the J8Unit test interface {@link LoadStoreParameterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LoadStoreParameterClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests<LoadStoreParameter> {
+    implements LoadStoreParameterClassTests<LoadStoreParameter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$LoadStoreParameter]
 
@@ -513,9 +559,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ProtectionParameter} (by simply
+     * reusing the J8Unit test interface {@link ProtectionParameterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ProtectionParameterClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<ProtectionParameter> {
+    implements ProtectionParameterClassTests<ProtectionParameter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$ProtectionParameter]
 
@@ -530,9 +581,14 @@ implements org.j8unit.repository.java.security.KeyStoreClassTests<KeyStore> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CallbackHandlerProtection} (by simply
+     * reusing the J8Unit test interface {@link CallbackHandlerProtectionClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CallbackHandlerProtectionClassTest
-    implements org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests<CallbackHandlerProtection> {
+    implements CallbackHandlerProtectionClassTests<CallbackHandlerProtection> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
 

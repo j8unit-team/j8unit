@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.INACTIVE;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link INACTIVE} (by simply reusing the
+ * J8Unit test interface {@link INACTIVETests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class INACTIVETest
-implements org.j8unit.repository.org.omg.PortableInterceptor.INACTIVETests<INACTIVE> {
+implements INACTIVETests<INACTIVE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.INACTIVE]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServantAlreadyActiveHelper} (by simply
+ * reusing the J8Unit test interface {@link ServantAlreadyActiveHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantAlreadyActiveHelperClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelperClassTests<ServantAlreadyActiveHelper> {
+implements ServantAlreadyActiveHelperClassTests<ServantAlreadyActiveHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantAlreadyActiveHelper]
 

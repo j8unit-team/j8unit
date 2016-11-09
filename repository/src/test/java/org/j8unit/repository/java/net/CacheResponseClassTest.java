@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CacheResponse} (by simply reusing the
+ * J8Unit test interface {@link CacheResponseClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CacheResponseClassTest
-implements org.j8unit.repository.java.net.CacheResponseClassTests<CacheResponse> {
+implements CacheResponseClassTests<CacheResponse> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.CacheResponse]
 

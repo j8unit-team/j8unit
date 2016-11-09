@@ -3,6 +3,9 @@ package org.j8unit.repository.java.text;
 import java.text.Normalizer;
 import java.text.Normalizer.Form;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -15,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.text.NormalizerClassTests}).
+ * {@link NormalizerClassTests}).
  * </p>
  *
  * @param SUT
@@ -26,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NormalizerTests<SUT extends Normalizer>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer]
 
@@ -43,7 +46,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests}).
+     * (see {@link FormClassTests}).
      * </p>
      *
      * @param SUT
@@ -54,7 +57,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FormTests<SUT extends Form>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, Form> {
+    extends EnumTests<SUT, Form> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.Normalizer$Form]
 

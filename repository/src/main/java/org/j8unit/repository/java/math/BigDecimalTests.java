@@ -3,6 +3,8 @@ package org.j8unit.repository.java.math;
 import java.math.BigDecimal;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ComparableTests;
+import org.j8unit.repository.java.lang.NumberTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.math.BigDecimalClassTests}).
+ * {@link BigDecimalClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BigDecimalTests<SUT extends BigDecimal>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, BigDecimal>, org.j8unit.repository.java.lang.NumberTests<SUT> {
+extends ComparableTests<SUT, BigDecimal>, NumberTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.BigDecimal]
 

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InputStream} (by simply reusing the
+ * J8Unit test interface {@link InputStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InputStreamClassTest
-implements org.j8unit.repository.java.io.InputStreamClassTests<InputStream> {
+implements InputStreamClassTests<InputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.InputStream]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JToolTip} (by simply reusing the J8Unit
+ * test interface {@link JToolTipClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JToolTipClassTest
-implements org.j8unit.repository.javax.swing.JToolTipClassTests<JToolTip> {
+implements JToolTipClassTests<JToolTip> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToolTip]
 

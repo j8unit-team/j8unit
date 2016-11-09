@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthTableHeaderUITest
-implements FactoryBasedJ8UnitTest<SynthTableHeaderUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthTableHeaderUITests<SynthTableHeaderUI> {
+implements FactoryBasedJ8UnitTest<SynthTableHeaderUI>, SynthTableHeaderUITests<SynthTableHeaderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthTableHeaderUI]
 

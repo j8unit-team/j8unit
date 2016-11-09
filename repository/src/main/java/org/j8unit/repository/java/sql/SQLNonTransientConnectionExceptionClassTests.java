@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.SQLNonTransientConnectionExceptionTests}.
+ * {@link SQLNonTransientConnectionExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLNonTransientConnectionExceptionClassTests<SUT extends SQLNonTransientConnectionException>
-extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
+extends SQLNonTransientExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLNonTransientConnectionException]
     /**

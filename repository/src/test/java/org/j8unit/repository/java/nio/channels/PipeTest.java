@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Pipe} (by simply reusing the J8Unit
+ * test interface {@link PipeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PipeTest
-implements org.j8unit.repository.java.nio.channels.PipeTests<Pipe> {
+implements PipeTests<Pipe> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe]
 
@@ -22,9 +27,14 @@ implements org.j8unit.repository.java.nio.channels.PipeTests<Pipe> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.channels.Pipe]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SourceChannel} (by simply reusing
+     * the J8Unit test interface {@link SourceChannelTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SourceChannelTest
-    implements org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests<SourceChannel> {
+    implements SourceChannelTests<SourceChannel> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
 
@@ -39,9 +49,14 @@ implements org.j8unit.repository.java.nio.channels.PipeTests<Pipe> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SinkChannel} (by simply reusing
+     * the J8Unit test interface {@link SinkChannelTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SinkChannelTest
-    implements org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests<SinkChannel> {
+    implements SinkChannelTests<SinkChannel> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
 

@@ -15,7 +15,7 @@ import org.omg.CORBA.VM_NONE;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.VM_NONEClassTests}).
+ * {@link VM_NONEClassTests}).
  * </p>
  *
  * @param SUT

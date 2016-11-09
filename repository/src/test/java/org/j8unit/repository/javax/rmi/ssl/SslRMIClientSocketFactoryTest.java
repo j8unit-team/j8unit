@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SslRMIClientSocketFactoryTest
-implements FactoryBasedJ8UnitTest<SslRMIClientSocketFactory>, org.j8unit.repository.javax.rmi.ssl.SslRMIClientSocketFactoryTests<SslRMIClientSocketFactory> {
+implements FactoryBasedJ8UnitTest<SslRMIClientSocketFactory>, SslRMIClientSocketFactoryTests<SslRMIClientSocketFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.rmi.ssl.SslRMIClientSocketFactory]
 

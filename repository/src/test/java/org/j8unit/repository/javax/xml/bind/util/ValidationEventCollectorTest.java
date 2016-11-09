@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ValidationEventCollectorTest
-implements FactoryBasedJ8UnitTest<ValidationEventCollector>, org.j8unit.repository.javax.xml.bind.util.ValidationEventCollectorTests<ValidationEventCollector> {
+implements FactoryBasedJ8UnitTest<ValidationEventCollector>, ValidationEventCollectorTests<ValidationEventCollector> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.util.ValidationEventCollector]
 

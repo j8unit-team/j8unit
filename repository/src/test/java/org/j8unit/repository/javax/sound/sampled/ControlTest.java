@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Control} (by simply reusing the
+ * J8Unit test interface {@link ControlTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ControlTest
-implements org.j8unit.repository.javax.sound.sampled.ControlTests<Control> {
+implements ControlTests<Control> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.Control]
 
@@ -20,6 +25,11 @@ implements org.j8unit.repository.javax.sound.sampled.ControlTests<Control> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.Control]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.Control]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeTest

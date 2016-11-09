@@ -3,6 +3,7 @@ package org.j8unit.repository.org.ietf.jgss;
 import static org.junit.Assert.assertTrue;
 import org.ietf.jgss.Oid;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.ietf.jgss.OidTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link OidTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OidClassTests<SUT extends Oid>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.ietf.jgss.Oid]
     /**

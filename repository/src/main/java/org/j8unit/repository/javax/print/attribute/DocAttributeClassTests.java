@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.DocAttributeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DocAttributeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocAttributeClassTests<SUT extends DocAttribute>
-extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT> {
+extends AttributeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.DocAttribute]
     /**

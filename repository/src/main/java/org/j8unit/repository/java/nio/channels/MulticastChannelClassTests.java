@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.MulticastChannelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MulticastChannelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MulticastChannelClassTests<SUT extends MulticastChannel>
-extends org.j8unit.repository.java.nio.channels.NetworkChannelClassTests<SUT> {
+extends NetworkChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.MulticastChannel]
     /**

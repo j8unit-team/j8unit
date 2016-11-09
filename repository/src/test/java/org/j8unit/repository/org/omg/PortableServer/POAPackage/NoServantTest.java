@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAPackage.NoServant;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoServantTest
-implements FactoryBasedJ8UnitTest<NoServant>, org.j8unit.repository.org.omg.PortableServer.POAPackage.NoServantTests<NoServant> {
+implements FactoryBasedJ8UnitTest<NoServant>, NoServantTests<NoServant> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.NoServant]
 

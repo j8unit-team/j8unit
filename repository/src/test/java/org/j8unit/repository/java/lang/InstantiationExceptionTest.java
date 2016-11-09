@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InstantiationExceptionTest
-implements FactoryBasedJ8UnitTest<InstantiationException>, org.j8unit.repository.java.lang.InstantiationExceptionTests<InstantiationException> {
+implements FactoryBasedJ8UnitTest<InstantiationException>, InstantiationExceptionTests<InstantiationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InstantiationException]
 

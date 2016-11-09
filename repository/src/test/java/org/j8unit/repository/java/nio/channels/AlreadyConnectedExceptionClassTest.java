@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AlreadyConnectedException} (by simply
+ * reusing the J8Unit test interface {@link AlreadyConnectedExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AlreadyConnectedExceptionClassTest
-implements org.j8unit.repository.java.nio.channels.AlreadyConnectedExceptionClassTests<AlreadyConnectedException> {
+implements AlreadyConnectedExceptionClassTests<AlreadyConnectedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.AlreadyConnectedException]
 

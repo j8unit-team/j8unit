@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Resource} (by simply reusing the
+ * J8Unit test interface {@link ResourceTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ResourceTest
-implements org.j8unit.repository.javax.annotation.ResourceTests<Resource> {
+implements ResourceTests<Resource> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.javax.annotation.ResourceTests<Resource> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.annotation.Resource]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AuthenticationType} (by simply
+     * reusing the J8Unit test interface {@link AuthenticationTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AuthenticationTypeTest
-    implements org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests<AuthenticationType> {
+    implements AuthenticationTypeTests<AuthenticationType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.Resource$AuthenticationType]
 

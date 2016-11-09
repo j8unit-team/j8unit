@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link EventFilter} (by simply reusing the
+ * J8Unit test interface {@link EventFilterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EventFilterTest
-implements org.j8unit.repository.javax.xml.stream.EventFilterTests<EventFilter> {
+implements EventFilterTests<EventFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.EventFilter]
 

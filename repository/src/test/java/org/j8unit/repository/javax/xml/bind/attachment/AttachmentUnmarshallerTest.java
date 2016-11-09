@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AttachmentUnmarshaller} (by simply
+ * reusing the J8Unit test interface {@link AttachmentUnmarshallerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AttachmentUnmarshallerTest
-implements org.j8unit.repository.javax.xml.bind.attachment.AttachmentUnmarshallerTests<AttachmentUnmarshaller> {
+implements AttachmentUnmarshallerTests<AttachmentUnmarshaller> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.attachment.AttachmentUnmarshaller]
 

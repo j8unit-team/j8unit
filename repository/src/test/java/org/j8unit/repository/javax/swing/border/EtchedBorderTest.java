@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EtchedBorderTest
-implements FactoryBasedJ8UnitTest<EtchedBorder>, org.j8unit.repository.javax.swing.border.EtchedBorderTests<EtchedBorder> {
+implements FactoryBasedJ8UnitTest<EtchedBorder>, EtchedBorderTests<EtchedBorder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.border.EtchedBorder]
 

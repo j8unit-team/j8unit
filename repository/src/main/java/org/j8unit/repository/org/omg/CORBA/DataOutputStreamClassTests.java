@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.DataOutputStream;
@@ -17,8 +18,7 @@ import org.omg.CORBA.DataOutputStream;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.DataOutputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DataOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.DataOutputStream;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataOutputStreamClassTests<SUT extends DataOutputStream>
-extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests<SUT> {
+extends ValueBaseClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DataOutputStream]
     /**

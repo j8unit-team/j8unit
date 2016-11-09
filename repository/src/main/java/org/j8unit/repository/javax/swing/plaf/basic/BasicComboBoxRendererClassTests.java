@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
 import javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.JLabelClassTests;
+import org.j8unit.repository.javax.swing.ListCellRendererClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +22,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests}.
+ * {@link BasicComboBoxRendererTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxRendererClassTests<SUT extends BasicComboBoxRenderer>
-extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>, org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
+extends ListCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxRenderer]
     /**

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.DISCARDING;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DISCARDING} (by simply reusing the
+ * J8Unit test interface {@link DISCARDINGTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DISCARDINGTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.DISCARDINGTests<DISCARDING> {
+implements DISCARDINGTests<DISCARDING> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.DISCARDING]
 

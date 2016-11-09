@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import java.rmi.activation.ActivationGroupDesc;
 import java.rmi.activation.ActivationGroupDesc.CommandEnvironment;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests.CommandEnvironmentTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ActivationGroupDescTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationGroupDescClassTests<SUT extends ActivationGroupDesc>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroupDesc]
     /**
@@ -85,7 +87,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupDescTests.CommandEnvironmentTests}.
+     * {@link CommandEnvironmentTests}.
      * </p>
      *
      * <p>
@@ -114,7 +116,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CommandEnvironmentClassTests<SUT extends CommandEnvironment>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
         /**

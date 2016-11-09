@@ -3,6 +3,8 @@ package org.j8unit.repository.java.security;
 import static org.junit.Assert.assertTrue;
 import java.security.PKCS12Attribute;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.PKCS12AttributeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PKCS12AttributeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKCS12AttributeClassTests<SUT extends PKCS12Attribute>
-extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends AttributeClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.PKCS12Attribute]
     /**

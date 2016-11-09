@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EOFExceptionTest
-implements FactoryBasedJ8UnitTest<EOFException>, org.j8unit.repository.java.io.EOFExceptionTests<EOFException> {
+implements FactoryBasedJ8UnitTest<EOFException>, EOFExceptionTests<EOFException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.EOFException]
 

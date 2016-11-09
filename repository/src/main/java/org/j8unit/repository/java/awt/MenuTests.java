@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.MenuClassTests}).
+ * {@link MenuClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuTests<SUT extends Menu>
-extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repository.java.awt.MenuItemTests<SUT> {
+extends MenuContainerTests<SUT>, MenuItemTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Menu]
 
@@ -437,8 +437,8 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     @Category(Draft.class)
     public default void test_getFont()
     throws Exception {
-        org.j8unit.repository.java.awt.MenuItemTests.super.test_getFont();
-        org.j8unit.repository.java.awt.MenuContainerTests.super.test_getFont();
+        MenuItemTests.super.test_getFont();
+        MenuContainerTests.super.test_getFont();
     }
 
     /**
@@ -466,8 +466,8 @@ extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repos
     @Category(Draft.class)
     public default void test_postEvent_Event()
     throws Exception {
-        org.j8unit.repository.java.awt.MenuItemTests.super.test_postEvent_Event();
-        org.j8unit.repository.java.awt.MenuContainerTests.super.test_postEvent_Event();
+        MenuItemTests.super.test_postEvent_Event();
+        MenuContainerTests.super.test_postEvent_Event();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Menu]

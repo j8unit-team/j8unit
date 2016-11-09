@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyRep} (by simply reusing the J8Unit
+ * test interface {@link KeyRepClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyRepClassTest
-implements org.j8unit.repository.java.security.KeyRepClassTests<KeyRep> {
+implements KeyRepClassTests<KeyRep> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyRep]
 
@@ -46,6 +51,11 @@ implements org.j8unit.repository.java.security.KeyRepClassTests<KeyRep> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.KeyRep]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.KeyRep]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.security.KeyRepClassTests.TypeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeClassTest

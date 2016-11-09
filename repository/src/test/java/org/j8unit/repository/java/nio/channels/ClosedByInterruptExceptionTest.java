@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClosedByInterruptExceptionTest
-implements FactoryBasedJ8UnitTest<ClosedByInterruptException>,
-org.j8unit.repository.java.nio.channels.ClosedByInterruptExceptionTests<ClosedByInterruptException> {
+implements FactoryBasedJ8UnitTest<ClosedByInterruptException>, ClosedByInterruptExceptionTests<ClosedByInterruptException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.ClosedByInterruptException]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link QualifiedNameableTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface QualifiedNameableClassTests<SUT extends QualifiedNameable>
-extends org.j8unit.repository.javax.lang.model.element.ElementClassTests<SUT> {
+extends ElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.QualifiedNameable]
     /**

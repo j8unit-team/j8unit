@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalBlockingModeExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalBlockingModeException>,
-org.j8unit.repository.java.nio.channels.IllegalBlockingModeExceptionTests<IllegalBlockingModeException> {
+implements FactoryBasedJ8UnitTest<IllegalBlockingModeException>, IllegalBlockingModeExceptionTests<IllegalBlockingModeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.IllegalBlockingModeException]
 

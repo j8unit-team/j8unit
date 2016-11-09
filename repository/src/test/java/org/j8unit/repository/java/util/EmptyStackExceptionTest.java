@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EmptyStackExceptionTest
-implements FactoryBasedJ8UnitTest<EmptyStackException>, org.j8unit.repository.java.util.EmptyStackExceptionTests<EmptyStackException> {
+implements FactoryBasedJ8UnitTest<EmptyStackException>, EmptyStackExceptionTests<EmptyStackException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.EmptyStackException]
 

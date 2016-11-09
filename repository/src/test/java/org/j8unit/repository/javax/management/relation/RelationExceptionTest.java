@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RelationExceptionTest
-implements FactoryBasedJ8UnitTest<RelationException>, org.j8unit.repository.javax.management.relation.RelationExceptionTests<RelationException> {
+implements FactoryBasedJ8UnitTest<RelationException>, RelationExceptionTests<RelationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationException]
 

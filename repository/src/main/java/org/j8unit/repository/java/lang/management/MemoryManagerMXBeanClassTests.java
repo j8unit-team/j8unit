@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.management.MemoryManagerMXBeanTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MemoryManagerMXBeanTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryManagerMXBeanClassTests<SUT extends MemoryManagerMXBean>
-extends org.j8unit.repository.java.lang.management.PlatformManagedObjectClassTests<SUT> {
+extends PlatformManagedObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.MemoryManagerMXBean]
     /**

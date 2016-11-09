@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidParameterSpecException} (by simply
+ * reusing the J8Unit test interface {@link InvalidParameterSpecExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidParameterSpecExceptionClassTest
-implements org.j8unit.repository.java.security.spec.InvalidParameterSpecExceptionClassTests<InvalidParameterSpecException> {
+implements InvalidParameterSpecExceptionClassTests<InvalidParameterSpecException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.InvalidParameterSpecException]
 

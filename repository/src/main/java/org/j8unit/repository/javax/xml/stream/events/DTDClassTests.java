@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DTDClassTests<SUT extends DTD>
-extends org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<SUT> {
+extends XMLEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.events.DTD]
     /**

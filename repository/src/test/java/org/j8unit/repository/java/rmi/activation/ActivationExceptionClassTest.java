@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ActivationException} (by simply reusing
+ * the J8Unit test interface {@link ActivationExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActivationExceptionClassTest
-implements org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTests<ActivationException> {
+implements ActivationExceptionClassTests<ActivationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationException]
 

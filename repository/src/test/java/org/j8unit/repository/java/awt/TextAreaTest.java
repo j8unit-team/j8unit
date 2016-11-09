@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TextAreaTest
-implements FactoryBasedJ8UnitTest<TextArea>, org.j8unit.repository.java.awt.TextAreaTests<TextArea> {
+implements FactoryBasedJ8UnitTest<TextArea>, TextAreaTests<TextArea> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.TextArea]
 

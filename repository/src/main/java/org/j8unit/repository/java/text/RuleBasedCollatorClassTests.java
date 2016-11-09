@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.text.RuleBasedCollatorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RuleBasedCollatorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RuleBasedCollatorClassTests<SUT extends RuleBasedCollator>
-extends org.j8unit.repository.java.text.CollatorClassTests<SUT> {
+extends CollatorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.RuleBasedCollator]
     /**

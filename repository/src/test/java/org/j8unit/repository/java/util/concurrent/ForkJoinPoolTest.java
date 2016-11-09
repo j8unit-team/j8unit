@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ForkJoinPoolTest
-implements FactoryBasedJ8UnitTest<ForkJoinPool>, org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests<ForkJoinPool> {
+implements FactoryBasedJ8UnitTest<ForkJoinPool>, ForkJoinPoolTests<ForkJoinPool> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
 
@@ -39,9 +39,14 @@ implements FactoryBasedJ8UnitTest<ForkJoinPool>, org.j8unit.repository.java.util
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ForkJoinPool]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ForkJoinWorkerThreadFactory} (by
+     * simply reusing the J8Unit test interface {@link ForkJoinWorkerThreadFactoryTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ForkJoinWorkerThreadFactoryTest
-    implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ForkJoinWorkerThreadFactoryTests<ForkJoinWorkerThreadFactory> {
+    implements ForkJoinWorkerThreadFactoryTests<ForkJoinWorkerThreadFactory> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
 
@@ -56,9 +61,14 @@ implements FactoryBasedJ8UnitTest<ForkJoinPool>, org.j8unit.repository.java.util
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ManagedBlocker} (by simply
+     * reusing the J8Unit test interface {@link ManagedBlockerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ManagedBlockerTest
-    implements org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ManagedBlockerTests<ManagedBlocker> {
+    implements ManagedBlockerTests<ManagedBlocker> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ForkJoinPool$ManagedBlocker]
 

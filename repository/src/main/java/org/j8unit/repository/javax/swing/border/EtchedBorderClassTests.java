@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.border.EtchedBorderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link EtchedBorderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EtchedBorderClassTests<SUT extends EtchedBorder>
-extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
+extends AbstractBorderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.border.EtchedBorder]
     /**

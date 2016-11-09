@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SplittableRandomTest
-implements FactoryBasedJ8UnitTest<SplittableRandom>, org.j8unit.repository.java.util.SplittableRandomTests<SplittableRandom> {
+implements FactoryBasedJ8UnitTest<SplittableRandom>, SplittableRandomTests<SplittableRandom> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.SplittableRandom]
 

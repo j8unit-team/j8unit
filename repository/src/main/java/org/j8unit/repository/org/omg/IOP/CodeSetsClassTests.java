@@ -18,8 +18,7 @@ import org.omg.IOP.CodeSets;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.CodeSetsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CodeSetsTests}.
  * </p>
  *
  * <p>

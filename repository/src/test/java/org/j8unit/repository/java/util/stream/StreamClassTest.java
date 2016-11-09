@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Stream} (by simply reusing the J8Unit
+ * test interface {@link StreamClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class StreamClassTest
-implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
+implements StreamClassTests<Stream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.Stream]
 
@@ -169,6 +173,10 @@ implements org.j8unit.repository.java.util.stream.StreamClassTests<Stream> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.Stream]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.util.stream.StreamClassTests.BuilderClassTests}).
+     */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest

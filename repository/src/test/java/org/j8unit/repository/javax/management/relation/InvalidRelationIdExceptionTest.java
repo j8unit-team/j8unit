@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidRelationIdExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidRelationIdException>,
-org.j8unit.repository.javax.management.relation.InvalidRelationIdExceptionTests<InvalidRelationIdException> {
+implements FactoryBasedJ8UnitTest<InvalidRelationIdException>, InvalidRelationIdExceptionTests<InvalidRelationIdException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.InvalidRelationIdException]
 

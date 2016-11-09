@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.tools.StandardJavaFileManagerTests}.
+ * {@link StandardJavaFileManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardJavaFileManagerClassTests<SUT extends StandardJavaFileManager>
-extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests<SUT> {
+extends JavaFileManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.StandardJavaFileManager]
     /**

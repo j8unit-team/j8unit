@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.SortingFocusTraversalPolicyTests}.
+ * {@link SortingFocusTraversalPolicyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SortingFocusTraversalPolicyClassTests<SUT extends SortingFocusTraversalPolicy>
-extends org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyClassTests<SUT> {
+extends InternalFrameFocusTraversalPolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SortingFocusTraversalPolicy]
     /**

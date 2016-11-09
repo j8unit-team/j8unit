@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.util.ElementScanner7Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ElementScanner7Tests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ElementScanner7ClassTests<SUT extends ElementScanner7>
-extends org.j8unit.repository.javax.lang.model.util.ElementScanner6ClassTests<SUT> {
+extends ElementScanner6ClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.ElementScanner7]
     /**

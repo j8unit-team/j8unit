@@ -5,6 +5,11 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynStruct;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynStruct} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynStructTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynStructTest
 implements org.j8unit.repository.org.omg.DynamicAny.DynStructTests<DynStruct> {

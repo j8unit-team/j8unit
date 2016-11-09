@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthTextPaneUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SynthTextPaneUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthTextPaneUIClassTests<SUT extends SynthTextPaneUI>
-extends org.j8unit.repository.javax.swing.plaf.synth.SynthEditorPaneUIClassTests<SUT> {
+extends SynthEditorPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthTextPaneUI]
     /**

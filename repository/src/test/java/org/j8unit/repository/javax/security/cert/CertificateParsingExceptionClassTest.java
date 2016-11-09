@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CertificateParsingException} (by simply
+ * reusing the J8Unit test interface {@link CertificateParsingExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CertificateParsingExceptionClassTest
-implements org.j8unit.repository.javax.security.cert.CertificateParsingExceptionClassTests<CertificateParsingException> {
+implements CertificateParsingExceptionClassTests<CertificateParsingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.cert.CertificateParsingException]
 

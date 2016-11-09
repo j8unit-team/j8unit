@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CosNaming.NamingContextPackage;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.StreamableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolderClassTests}).
+ * {@link AlreadyBoundHolderClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlreadyBoundHolderTests<SUT extends AlreadyBoundHolder>
-extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends StreamableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
 

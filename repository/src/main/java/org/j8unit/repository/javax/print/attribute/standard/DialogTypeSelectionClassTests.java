@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.DialogTypeSelection;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.DialogTypeSelectionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DialogTypeSelectionTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DialogTypeSelectionClassTests<SUT extends DialogTypeSelection>
-extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>,
-org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
+extends PrintRequestAttributeClassTests<SUT>, EnumSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.DialogTypeSelection]
     /**

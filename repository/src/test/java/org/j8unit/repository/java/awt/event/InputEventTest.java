@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InputEvent} (by simply reusing the
+ * J8Unit test interface {@link InputEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InputEventTest
-implements org.j8unit.repository.java.awt.event.InputEventTests<InputEvent> {
+implements InputEventTests<InputEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.event.InputEvent]
 

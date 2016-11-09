@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
@@ -17,8 +18,7 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidAddressTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidAddressClassTests<SUT extends InvalidAddress>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddress]
     /**

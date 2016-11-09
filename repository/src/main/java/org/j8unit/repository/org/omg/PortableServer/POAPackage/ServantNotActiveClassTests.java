@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer.POAPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.POAPackage.ServantNotActive;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.POAPackage.ServantNotActive;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotActiveTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantNotActiveTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.POAPackage.ServantNotActive;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantNotActiveClassTests<SUT extends ServantNotActive>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActive]
     /**

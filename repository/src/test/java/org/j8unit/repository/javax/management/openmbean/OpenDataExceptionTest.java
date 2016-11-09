@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class OpenDataExceptionTest
-implements FactoryBasedJ8UnitTest<OpenDataException>, org.j8unit.repository.javax.management.openmbean.OpenDataExceptionTests<OpenDataException> {
+implements FactoryBasedJ8UnitTest<OpenDataException>, OpenDataExceptionTests<OpenDataException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenDataException]
 

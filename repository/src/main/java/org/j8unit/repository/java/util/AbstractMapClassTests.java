@@ -5,6 +5,10 @@ import java.util.AbstractMap;
 import java.util.AbstractMap.SimpleEntry;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests;
+import org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.AbstractMapTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AbstractMapTests}.
  * </p>
  *
  * <p>
@@ -50,7 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractMapClassTests<SUT extends AbstractMap>
-extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends MapClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap]
     /**
@@ -86,7 +89,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests}.
+     * {@link SimpleImmutableEntryTests}.
      * </p>
      *
      * <p>
@@ -115,8 +118,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleImmutableEntryClassTests<SUT extends SimpleImmutableEntry>
-    extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends EntryClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
         /**
@@ -153,8 +155,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleEntryTests}.
      * </p>
      *
      * <p>
@@ -183,8 +184,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT>, org.j8unit.repositor
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleEntryClassTests<SUT extends SimpleEntry>
-    extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends EntryClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
         /**

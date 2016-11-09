@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SimpleAttributeSetTest
-implements FactoryBasedJ8UnitTest<SimpleAttributeSet>, org.j8unit.repository.javax.swing.text.SimpleAttributeSetTests<SimpleAttributeSet> {
+implements FactoryBasedJ8UnitTest<SimpleAttributeSet>, SimpleAttributeSetTests<SimpleAttributeSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.SimpleAttributeSet]
 

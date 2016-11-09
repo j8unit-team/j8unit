@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchFieldErrorTest
-implements FactoryBasedJ8UnitTest<NoSuchFieldError>, org.j8unit.repository.java.lang.NoSuchFieldErrorTests<NoSuchFieldError> {
+implements FactoryBasedJ8UnitTest<NoSuchFieldError>, NoSuchFieldErrorTests<NoSuchFieldError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NoSuchFieldError]
 

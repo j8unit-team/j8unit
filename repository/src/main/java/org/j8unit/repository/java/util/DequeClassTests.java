@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.DequeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DequeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DequeClassTests<SUT extends Deque>
-extends org.j8unit.repository.java.util.QueueClassTests<SUT> {
+extends QueueClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Deque]
     /**

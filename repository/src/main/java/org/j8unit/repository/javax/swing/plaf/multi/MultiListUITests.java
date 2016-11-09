@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.multi;
 import javax.swing.plaf.multi.MultiListUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.ListUITests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.multi.MultiListUIClassTests}).
+ * {@link MultiListUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiListUITests<SUT extends MultiListUI>
-extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
+extends ListUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiListUI]
 
@@ -108,30 +109,6 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.multi.MultiListUI#getCellBounds(javax.swing.JList, int, int) public java.awt.Rectangle
-     * javax.swing.plaf.multi.MultiListUI.getCellBounds(javax.swing.JList,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellBounds_JList_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.multi.MultiListUI#getMinimumSize(javax.swing.JComponent) public java.awt.Dimension
      * javax.swing.plaf.multi.MultiListUI.getMinimumSize(javax.swing.JComponent)}.
      *
@@ -147,6 +124,30 @@ extends org.j8unit.repository.javax.swing.plaf.ListUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.multi.MultiListUI#getCellBounds(javax.swing.JList, int, int) public java.awt.Rectangle
+     * javax.swing.plaf.multi.MultiListUI.getCellBounds(javax.swing.JList,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellBounds_JList_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

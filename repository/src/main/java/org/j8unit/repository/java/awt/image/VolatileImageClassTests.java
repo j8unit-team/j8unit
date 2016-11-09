@@ -3,6 +3,8 @@ package org.j8unit.repository.java.awt.image;
 import static org.junit.Assert.assertTrue;
 import java.awt.image.VolatileImage;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ImageClassTests;
+import org.j8unit.repository.java.awt.TransparencyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.VolatileImageTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link VolatileImageTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VolatileImageClassTests<SUT extends VolatileImage>
-extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT>, org.j8unit.repository.java.awt.ImageClassTests<SUT> {
+extends TransparencyClassTests<SUT>, ImageClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.VolatileImage]
     /**

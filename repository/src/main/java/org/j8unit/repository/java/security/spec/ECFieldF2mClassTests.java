@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.spec;
 import static org.junit.Assert.assertTrue;
 import java.security.spec.ECFieldF2m;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.spec.ECFieldF2mTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ECFieldF2mTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECFieldF2mClassTests<SUT extends ECFieldF2m>
-extends org.j8unit.repository.java.security.spec.ECFieldClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ECFieldClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.ECFieldF2m]
     /**

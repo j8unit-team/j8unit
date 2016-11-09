@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CollapsedStringAdapterTest
-implements FactoryBasedJ8UnitTest<CollapsedStringAdapter>,
-org.j8unit.repository.javax.xml.bind.annotation.adapters.CollapsedStringAdapterTests<CollapsedStringAdapter> {
+implements FactoryBasedJ8UnitTest<CollapsedStringAdapter>, CollapsedStringAdapterTests<CollapsedStringAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.CollapsedStringAdapter]
 

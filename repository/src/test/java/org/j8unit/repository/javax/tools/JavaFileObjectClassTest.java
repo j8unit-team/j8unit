@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JavaFileObject} (by simply reusing the
+ * J8Unit test interface {@link JavaFileObjectClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JavaFileObjectClassTest
-implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests<JavaFileObject> {
+implements JavaFileObjectClassTests<JavaFileObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileObject]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests<JavaFileOb
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.JavaFileObject]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Kind} (by simply reusing the J8Unit
+     * test interface {@link KindClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class KindClassTest
-    implements org.j8unit.repository.javax.tools.JavaFileObjectClassTests.KindClassTests<Kind> {
+    implements KindClassTests<Kind> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileObject$Kind]
 

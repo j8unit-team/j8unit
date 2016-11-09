@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.NotEmptyHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotEmptyHolderTest
-implements FactoryBasedJ8UnitTest<NotEmptyHolder>, org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHolderTests<NotEmptyHolder> {
+implements FactoryBasedJ8UnitTest<NotEmptyHolder>, NotEmptyHolderTests<NotEmptyHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHolder]
 

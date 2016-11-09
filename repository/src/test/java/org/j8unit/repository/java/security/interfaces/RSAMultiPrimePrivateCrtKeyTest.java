@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RSAMultiPrimePrivateCrtKey} (by
+ * simply reusing the J8Unit test interface {@link RSAMultiPrimePrivateCrtKeyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RSAMultiPrimePrivateCrtKeyTest
-implements org.j8unit.repository.java.security.interfaces.RSAMultiPrimePrivateCrtKeyTests<RSAMultiPrimePrivateCrtKey> {
+implements RSAMultiPrimePrivateCrtKeyTests<RSAMultiPrimePrivateCrtKey> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.interfaces.RSAMultiPrimePrivateCrtKey]
 

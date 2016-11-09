@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.JobName;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests;
+import org.j8unit.repository.javax.print.attribute.TextSyntaxClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.JobNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JobNameTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobNameClassTests<SUT extends JobName>
-extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>,
-org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.TextSyntaxClassTests<SUT> {
+extends PrintRequestAttributeClassTests<SUT>, PrintJobAttributeClassTests<SUT>, TextSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobName]
     /**

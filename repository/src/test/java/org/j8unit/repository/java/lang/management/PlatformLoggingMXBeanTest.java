@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PlatformLoggingMXBean} (by simply
+ * reusing the J8Unit test interface {@link PlatformLoggingMXBeanTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PlatformLoggingMXBeanTest
-implements org.j8unit.repository.java.lang.management.PlatformLoggingMXBeanTests<PlatformLoggingMXBean> {
+implements PlatformLoggingMXBeanTests<PlatformLoggingMXBean> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.PlatformLoggingMXBean]
 

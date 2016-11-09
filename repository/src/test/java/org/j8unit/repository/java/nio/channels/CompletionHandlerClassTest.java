@@ -4,10 +4,14 @@ import java.nio.channels.CompletionHandler;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CompletionHandler} (by simply reusing the
+ * J8Unit test interface {@link CompletionHandlerClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class CompletionHandlerClassTest
-implements org.j8unit.repository.java.nio.channels.CompletionHandlerClassTests<CompletionHandler> {
+implements CompletionHandlerClassTests<CompletionHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.CompletionHandler]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PolygonTest
-implements FactoryBasedJ8UnitTest<Polygon>, org.j8unit.repository.java.awt.PolygonTests<Polygon> {
+implements FactoryBasedJ8UnitTest<Polygon>, PolygonTests<Polygon> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Polygon]
 

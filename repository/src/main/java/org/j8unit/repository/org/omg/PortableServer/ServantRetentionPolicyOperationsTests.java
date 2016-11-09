@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.omg.PortableServer.ServantRetentionPolicyOperations;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyOperationsClassTests}).
+ * {@link ServantRetentionPolicyOperationsClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.omg.PortableServer.ServantRetentionPolicyOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantRetentionPolicyOperationsTests<SUT extends ServantRetentionPolicyOperations>
-extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT> {
+extends PolicyOperationsTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicyOperations]
 

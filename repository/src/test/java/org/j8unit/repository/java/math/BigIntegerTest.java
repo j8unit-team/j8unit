@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BigInteger} (by simply reusing the
+ * J8Unit test interface {@link BigIntegerTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BigIntegerTest
-implements org.j8unit.repository.java.math.BigIntegerTests<BigInteger> {
+implements BigIntegerTests<BigInteger> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.math.BigInteger]
 

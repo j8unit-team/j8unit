@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthButtonUITest
-implements FactoryBasedJ8UnitTest<SynthButtonUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthButtonUITests<SynthButtonUI> {
+implements FactoryBasedJ8UnitTest<SynthButtonUI>, SynthButtonUITests<SynthButtonUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthButtonUI]
 

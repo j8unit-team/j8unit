@@ -5,9 +5,14 @@ import javax.sound.midi.Sequencer.SyncMode;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Sequencer} (by simply reusing the J8Unit
+ * test interface {@link SequencerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SequencerClassTest
-implements org.j8unit.repository.javax.sound.midi.SequencerClassTests<Sequencer> {
+implements SequencerClassTests<Sequencer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Sequencer]
 
@@ -20,9 +25,14 @@ implements org.j8unit.repository.javax.sound.midi.SequencerClassTests<Sequencer>
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.midi.Sequencer]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SyncMode} (by simply reusing the
+     * J8Unit test interface {@link SyncModeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SyncModeClassTest
-    implements org.j8unit.repository.javax.sound.midi.SequencerClassTests.SyncModeClassTests<SyncMode> {
+    implements SyncModeClassTests<SyncMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Sequencer$SyncMode]
 

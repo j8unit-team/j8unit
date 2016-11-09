@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.naming;
 import javax.naming.InitialContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.naming.InitialContextClassTests}).
+ * {@link InitialContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InitialContextTests<SUT extends InitialContext>
-extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ContextTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InitialContext]
 
@@ -152,6 +153,54 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#lookupLink(javax.naming.Name) public java.lang.Object
+     * javax.naming.InitialContext.lookupLink(javax.naming.Name) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_lookupLink_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#lookupLink(String)
+     * public java.lang.Object javax.naming.InitialContext.lookupLink(java.lang.String) throws
+     * javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_lookupLink_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#listBindings(String)
      * public javax.naming.NamingEnumeration<javax.naming.Binding>
      * javax.naming.InitialContext.listBindings(java.lang.String) throws javax.naming.NamingException}.
@@ -201,32 +250,8 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#lookupLink(javax.naming.Name) public java.lang.Object
-     * javax.naming.InitialContext.lookupLink(javax.naming.Name) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_lookupLink_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#lookupLink(String)
-     * public java.lang.Object javax.naming.InitialContext.lookupLink(java.lang.String) throws
+     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#rename(String, String)
+     * public void javax.naming.InitialContext.rename(java.lang.String,java.lang.String) throws
      * javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -240,7 +265,7 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_lookupLink_String()
+    public default void test_rename_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -265,30 +290,6 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_rename_Name_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#rename(String, String)
-     * public void javax.naming.InitialContext.rename(java.lang.String,java.lang.String) throws
-     * javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_rename_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -337,53 +338,6 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_rebind_Name_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#unbind(javax.naming.Name) public void
-     * javax.naming.InitialContext.unbind(javax.naming.Name) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_unbind_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#unbind(String) public
-     * void javax.naming.InitialContext.unbind(java.lang.String) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_unbind_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -441,8 +395,8 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#destroySubcontext(javax.naming.Name) public void
-     * javax.naming.InitialContext.destroySubcontext(javax.naming.Name) throws javax.naming.NamingException}.
+     * {@link javax.naming.InitialContext#unbind(javax.naming.Name) public void
+     * javax.naming.InitialContext.unbind(javax.naming.Name) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -455,7 +409,30 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_destroySubcontext_Name()
+    public default void test_unbind_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.naming.InitialContext#unbind(String) public
+     * void javax.naming.InitialContext.unbind(java.lang.String) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_unbind_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -489,6 +466,30 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#destroySubcontext(javax.naming.Name) public void
+     * javax.naming.InitialContext.destroySubcontext(javax.naming.Name) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_destroySubcontext_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.naming.InitialContext#removeFromEnvironment(String) public java.lang.Object
      * javax.naming.InitialContext.removeFromEnvironment(java.lang.String) throws javax.naming.NamingException}.
      *
@@ -504,6 +505,30 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_removeFromEnvironment_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.naming.InitialContext#getNameParser(javax.naming.Name) public javax.naming.NameParser
+     * javax.naming.InitialContext.getNameParser(javax.naming.Name) throws javax.naming.NamingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getNameParser_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -537,8 +562,8 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#getNameParser(javax.naming.Name) public javax.naming.NameParser
-     * javax.naming.InitialContext.getNameParser(javax.naming.Name) throws javax.naming.NamingException}.
+     * {@link javax.naming.InitialContext#composeName(String, String) public java.lang.String
+     * javax.naming.InitialContext.composeName(java.lang.String,java.lang.String) throws javax.naming.NamingException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -551,7 +576,7 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getNameParser_Name()
+    public default void test_composeName_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -577,30 +602,6 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_composeName_Name_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.naming.InitialContext#composeName(String, String) public java.lang.String
-     * javax.naming.InitialContext.composeName(java.lang.String,java.lang.String) throws javax.naming.NamingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_composeName_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

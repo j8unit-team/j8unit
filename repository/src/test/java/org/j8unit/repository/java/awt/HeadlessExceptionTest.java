@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HeadlessExceptionTest
-implements FactoryBasedJ8UnitTest<HeadlessException>, org.j8unit.repository.java.awt.HeadlessExceptionTests<HeadlessException> {
+implements FactoryBasedJ8UnitTest<HeadlessException>, HeadlessExceptionTests<HeadlessException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.HeadlessException]
 

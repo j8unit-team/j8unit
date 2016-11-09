@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FileSystemAlreadyExistsExceptionTest
-implements FactoryBasedJ8UnitTest<FileSystemAlreadyExistsException>,
-org.j8unit.repository.java.nio.file.FileSystemAlreadyExistsExceptionTests<FileSystemAlreadyExistsException> {
+implements FactoryBasedJ8UnitTest<FileSystemAlreadyExistsException>, FileSystemAlreadyExistsExceptionTests<FileSystemAlreadyExistsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.FileSystemAlreadyExistsException]
 

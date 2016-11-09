@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link X509EncodedKeySpec} (by simply
+ * reusing the J8Unit test interface {@link X509EncodedKeySpecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class X509EncodedKeySpecTest
-implements org.j8unit.repository.java.security.spec.X509EncodedKeySpecTests<X509EncodedKeySpec> {
+implements X509EncodedKeySpecTests<X509EncodedKeySpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.X509EncodedKeySpec]
 

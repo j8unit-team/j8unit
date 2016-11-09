@@ -17,8 +17,7 @@ import org.omg.CORBA.PolicyError;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.PolicyErrorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PolicyErrorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.PolicyError;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyErrorClassTests<SUT extends PolicyError>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.PolicyError]
     /**

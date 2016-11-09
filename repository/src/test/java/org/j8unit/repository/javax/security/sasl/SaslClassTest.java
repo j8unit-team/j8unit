@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Sasl} (by simply reusing the J8Unit test
+ * interface {@link SaslClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SaslClassTest
-implements org.j8unit.repository.javax.security.sasl.SaslClassTests<Sasl> {
+implements SaslClassTests<Sasl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.Sasl]
 

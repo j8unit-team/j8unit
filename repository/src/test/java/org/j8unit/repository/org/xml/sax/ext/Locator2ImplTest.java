@@ -14,7 +14,7 @@ import org.xml.sax.ext.Locator2Impl;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class Locator2ImplTest
-implements FactoryBasedJ8UnitTest<Locator2Impl>, org.j8unit.repository.org.xml.sax.ext.Locator2ImplTests<Locator2Impl> {
+implements FactoryBasedJ8UnitTest<Locator2Impl>, Locator2ImplTests<Locator2Impl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.Locator2Impl]
 

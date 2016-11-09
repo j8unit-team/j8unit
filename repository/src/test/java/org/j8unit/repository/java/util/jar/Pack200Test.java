@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Pack200} (by simply reusing the
+ * J8Unit test interface {@link Pack200Tests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Pack200Test
-implements org.j8unit.repository.java.util.jar.Pack200Tests<Pack200> {
+implements Pack200Tests<Pack200> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200]
 
@@ -22,9 +27,14 @@ implements org.j8unit.repository.java.util.jar.Pack200Tests<Pack200> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Pack200]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Packer} (by simply reusing the
+     * J8Unit test interface {@link PackerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PackerTest
-    implements org.j8unit.repository.java.util.jar.Pack200Tests.PackerTests<Packer> {
+    implements PackerTests<Packer> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200$Packer]
 
@@ -39,9 +49,14 @@ implements org.j8unit.repository.java.util.jar.Pack200Tests<Pack200> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Unpacker} (by simply reusing the
+     * J8Unit test interface {@link UnpackerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class UnpackerTest
-    implements org.j8unit.repository.java.util.jar.Pack200Tests.UnpackerTests<Unpacker> {
+    implements UnpackerTests<Unpacker> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Pack200$Unpacker]
 

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SpringLayout} (by simply reusing the
+ * J8Unit test interface {@link SpringLayoutClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SpringLayoutClassTest
-implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout> {
+implements SpringLayoutClassTests<SpringLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SpringLayout]
 
@@ -45,9 +50,14 @@ implements org.j8unit.repository.javax.swing.SpringLayoutClassTests<SpringLayout
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SpringLayout]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Constraints} (by simply reusing the
+     * J8Unit test interface {@link ConstraintsClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ConstraintsClassTest
-    implements org.j8unit.repository.javax.swing.SpringLayoutClassTests.ConstraintsClassTests<Constraints> {
+    implements ConstraintsClassTests<Constraints> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SpringLayout$Constraints]
 

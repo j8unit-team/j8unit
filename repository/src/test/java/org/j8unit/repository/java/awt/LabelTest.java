@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LabelTest
-implements FactoryBasedJ8UnitTest<Label>, org.j8unit.repository.java.awt.LabelTests<Label> {
+implements FactoryBasedJ8UnitTest<Label>, LabelTests<Label> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Label]
 

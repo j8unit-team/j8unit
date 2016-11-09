@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StyleContextTest
-implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swing.text.StyleContextTests<StyleContext> {
+implements FactoryBasedJ8UnitTest<StyleContext>, StyleContextTests<StyleContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext]
 
@@ -39,9 +39,14 @@ implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swi
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link NamedStyle} (by simply reusing
+     * the J8Unit test interface {@link NamedStyleTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class NamedStyleTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests<NamedStyle> {
+    implements NamedStyleTests<NamedStyle> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
 
@@ -56,9 +61,14 @@ implements FactoryBasedJ8UnitTest<StyleContext>, org.j8unit.repository.javax.swi
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SmallAttributeSet} (by simply
+     * reusing the J8Unit test interface {@link SmallAttributeSetTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SmallAttributeSetTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests<SmallAttributeSet> {
+    implements SmallAttributeSetTests<SmallAttributeSet> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
 

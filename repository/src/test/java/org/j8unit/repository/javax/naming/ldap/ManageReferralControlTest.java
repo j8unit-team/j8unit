@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ManageReferralControlTest
-implements FactoryBasedJ8UnitTest<ManageReferralControl>, org.j8unit.repository.javax.naming.ldap.ManageReferralControlTests<ManageReferralControl> {
+implements FactoryBasedJ8UnitTest<ManageReferralControl>, ManageReferralControlTests<ManageReferralControl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.ManageReferralControl]
 

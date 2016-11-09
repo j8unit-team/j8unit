@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IOExceptionTest
-implements FactoryBasedJ8UnitTest<IOException>, org.j8unit.repository.java.io.IOExceptionTests<IOException> {
+implements FactoryBasedJ8UnitTest<IOException>, IOExceptionTests<IOException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.IOException]
 

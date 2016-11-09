@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SpinnerListModelTest
-implements FactoryBasedJ8UnitTest<SpinnerListModel>, org.j8unit.repository.javax.swing.SpinnerListModelTests<SpinnerListModel> {
+implements FactoryBasedJ8UnitTest<SpinnerListModel>, SpinnerListModelTests<SpinnerListModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpinnerListModel]
 

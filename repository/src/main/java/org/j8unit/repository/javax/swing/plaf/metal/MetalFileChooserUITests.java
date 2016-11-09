@@ -4,6 +4,9 @@ import javax.swing.plaf.metal.MetalFileChooserUI;
 import javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.DefaultListCellRendererTests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests}).
+ * {@link MetalFileChooserUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalFileChooserUITests<SUT extends MetalFileChooserUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT> {
+extends BasicFileChooserUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalFileChooserUI]
 
@@ -432,8 +435,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests}).
+     * (see {@link FilterComboBoxRendererClassTests}).
      * </p>
      *
      * @param SUT
@@ -444,7 +446,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterComboBoxRendererTests<SUT extends FilterComboBoxRenderer>
-    extends org.j8unit.repository.javax.swing.DefaultListCellRendererTests<SUT> {
+    extends DefaultListCellRendererTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]
 

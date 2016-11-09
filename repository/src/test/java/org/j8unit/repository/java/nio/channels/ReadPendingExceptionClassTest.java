@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ReadPendingException} (by simply reusing
+ * the J8Unit test interface {@link ReadPendingExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ReadPendingExceptionClassTest
-implements org.j8unit.repository.java.nio.channels.ReadPendingExceptionClassTests<ReadPendingException> {
+implements ReadPendingExceptionClassTests<ReadPendingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.ReadPendingException]
 

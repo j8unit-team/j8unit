@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.xml.sax.DocumentHandler;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentHandler} (by simply reusing the
+ * J8Unit test interface {@link DocumentHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentHandlerClassTest
-implements org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests<DocumentHandler> {
+implements DocumentHandlerClassTests<DocumentHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.DocumentHandler]
 

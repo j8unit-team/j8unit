@@ -3,6 +3,9 @@ package org.j8unit.repository.java.awt.datatransfer;
 import static org.junit.Assert.assertTrue;
 import java.awt.datatransfer.DataFlavor;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.ExternalizableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.datatransfer.DataFlavorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DataFlavorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataFlavorClassTests<SUT extends DataFlavor>
-extends org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ExternalizableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.datatransfer.DataFlavor]
     /**

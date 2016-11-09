@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HashDocAttributeSetTest
-implements FactoryBasedJ8UnitTest<HashDocAttributeSet>, org.j8unit.repository.javax.print.attribute.HashDocAttributeSetTests<HashDocAttributeSet> {
+implements FactoryBasedJ8UnitTest<HashDocAttributeSet>, HashDocAttributeSetTests<HashDocAttributeSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.HashDocAttributeSet]
 

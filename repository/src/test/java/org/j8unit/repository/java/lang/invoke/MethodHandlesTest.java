@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MethodHandles} (by simply reusing the
+ * J8Unit test interface {@link MethodHandlesTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MethodHandlesTest
-implements org.j8unit.repository.java.lang.invoke.MethodHandlesTests<MethodHandles> {
+implements MethodHandlesTests<MethodHandles> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.MethodHandles]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesTests<MethodHandl
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.invoke.MethodHandles]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Lookup} (by simply reusing the
+     * J8Unit test interface {@link LookupTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LookupTest
-    implements org.j8unit.repository.java.lang.invoke.MethodHandlesTests.LookupTests<Lookup> {
+    implements LookupTests<Lookup> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.MethodHandles$Lookup]
 

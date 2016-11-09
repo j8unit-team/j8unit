@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer._ServantActivatorStub;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _ServantActivatorStub} (by simply reusing
+ * the J8Unit test interface {@link _ServantActivatorStubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _ServantActivatorStubClassTest
-implements org.j8unit.repository.org.omg.PortableServer._ServantActivatorStubClassTests<_ServantActivatorStub> {
+implements _ServantActivatorStubClassTests<_ServantActivatorStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer._ServantActivatorStub]
 

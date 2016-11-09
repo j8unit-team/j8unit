@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CompletionStatusHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CompletionStatusHelper} (by simply
+ * reusing the J8Unit test interface {@link CompletionStatusHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompletionStatusHelperTest
-implements org.j8unit.repository.org.omg.CORBA.CompletionStatusHelperTests<CompletionStatusHelper> {
+implements CompletionStatusHelperTests<CompletionStatusHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CompletionStatusHelper]
 

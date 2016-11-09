@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CertPathValidatorException} (by simply
+ * reusing the J8Unit test interface {@link CertPathValidatorExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CertPathValidatorExceptionClassTest
-implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests<CertPathValidatorException> {
+implements CertPathValidatorExceptionClassTests<CertPathValidatorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException]
 
@@ -167,9 +172,14 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.cert.CertPathValidatorException]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Reason} (by simply reusing the J8Unit
+     * test interface {@link ReasonClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ReasonClassTest
-    implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<Reason> {
+    implements ReasonClassTests<Reason> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
 
@@ -184,9 +194,14 @@ implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionCl
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BasicReason} (by simply reusing the
+     * J8Unit test interface {@link BasicReasonClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BasicReasonClassTest
-    implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests<BasicReason> {
+    implements BasicReasonClassTests<BasicReason> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
 

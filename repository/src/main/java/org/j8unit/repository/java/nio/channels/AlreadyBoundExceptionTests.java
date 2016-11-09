@@ -2,6 +2,7 @@ package org.j8unit.repository.java.nio.channels;
 
 import java.nio.channels.AlreadyBoundException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.IllegalStateExceptionTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlreadyBoundExceptionTests<SUT extends AlreadyBoundException>
-extends org.j8unit.repository.java.lang.IllegalStateExceptionTests<SUT> {
+extends IllegalStateExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AlreadyBoundException]
 

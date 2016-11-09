@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSACTION_ROLLEDBACK;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TRANSACTION_ROLLEDBACKTest
-implements FactoryBasedJ8UnitTest<TRANSACTION_ROLLEDBACK>, org.j8unit.repository.org.omg.CORBA.TRANSACTION_ROLLEDBACKTests<TRANSACTION_ROLLEDBACK> {
+implements FactoryBasedJ8UnitTest<TRANSACTION_ROLLEDBACK>, TRANSACTION_ROLLEDBACKTests<TRANSACTION_ROLLEDBACK> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_ROLLEDBACK]
 

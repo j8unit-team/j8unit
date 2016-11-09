@@ -14,7 +14,7 @@ import org.omg.CORBA.INV_IDENT;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INV_IDENTTest
-implements FactoryBasedJ8UnitTest<INV_IDENT>, org.j8unit.repository.org.omg.CORBA.INV_IDENTTests<INV_IDENT> {
+implements FactoryBasedJ8UnitTest<INV_IDENT>, INV_IDENTTests<INV_IDENT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_IDENT]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.INV_POLICY;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.INV_POLICYTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link INV_POLICYTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.INV_POLICY;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_POLICYClassTests<SUT extends INV_POLICY>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INV_POLICY]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ManifestTest
-implements FactoryBasedJ8UnitTest<Manifest>, org.j8unit.repository.java.util.jar.ManifestTests<Manifest> {
+implements FactoryBasedJ8UnitTest<Manifest>, ManifestTests<Manifest> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Manifest]
 

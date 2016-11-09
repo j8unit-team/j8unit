@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WebParam} (by simply reusing the J8Unit
+ * test interface {@link WebParamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WebParamClassTest
-implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
+implements WebParamClassTests<WebParam> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.WebParam]
 
@@ -23,6 +28,11 @@ implements org.j8unit.repository.javax.jws.WebParamClassTests<WebParam> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.jws.WebParam]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.jws.WebParam]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Mode} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.jws.WebParamClassTests.ModeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ModeClassTest

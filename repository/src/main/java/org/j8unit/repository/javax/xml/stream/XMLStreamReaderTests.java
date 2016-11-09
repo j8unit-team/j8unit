@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.stream.XMLStreamReaderClassTests}).
+ * {@link XMLStreamReaderClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLStreamReaderTests<SUT extends XMLStreamReader>
-extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
+extends XMLStreamConstantsTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.XMLStreamReader]
 
@@ -79,28 +79,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getTextCharacters()
-     * public abstract char[] javax.xml.stream.XMLStreamReader.getTextCharacters()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextCharacters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamReader#getTextCharacters(int, char[], int, int) public abstract int
      * javax.xml.stream.XMLStreamReader.getTextCharacters(int,char[],int,int) throws
@@ -117,6 +95,28 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTextCharacters_int_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.xml.stream.XMLStreamReader#getTextCharacters()
+     * public abstract char[] javax.xml.stream.XMLStreamReader.getTextCharacters()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTextCharacters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -349,29 +349,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.stream.XMLStreamReader#getAttributeValue(int) public abstract java.lang.String
-     * javax.xml.stream.XMLStreamReader.getAttributeValue(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeValue_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.stream.XMLStreamReader#getAttributeValue(String, String) public abstract java.lang.String
      * javax.xml.stream.XMLStreamReader.getAttributeValue(java.lang.String,java.lang.String)}.
      *
@@ -386,6 +363,29 @@ extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttributeValue_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.stream.XMLStreamReader#getAttributeValue(int) public abstract java.lang.String
+     * javax.xml.stream.XMLStreamReader.getAttributeValue(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeValue_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

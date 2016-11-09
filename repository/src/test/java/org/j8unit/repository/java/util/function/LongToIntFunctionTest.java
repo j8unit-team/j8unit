@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LongToIntFunction} (by simply reusing
+ * the J8Unit test interface {@link LongToIntFunctionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LongToIntFunctionTest
-implements org.j8unit.repository.java.util.function.LongToIntFunctionTests<LongToIntFunction> {
+implements LongToIntFunctionTests<LongToIntFunction> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.function.LongToIntFunction]
 

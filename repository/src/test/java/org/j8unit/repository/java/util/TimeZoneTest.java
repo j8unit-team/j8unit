@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TimeZone} (by simply reusing the
+ * J8Unit test interface {@link TimeZoneTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TimeZoneTest
-implements org.j8unit.repository.java.util.TimeZoneTests<TimeZone> {
+implements TimeZoneTests<TimeZone> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.TimeZone]
 

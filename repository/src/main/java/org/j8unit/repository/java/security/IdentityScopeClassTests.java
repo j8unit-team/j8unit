@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.IdentityScopeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IdentityScopeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdentityScopeClassTests<SUT extends IdentityScope>
-extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
+extends IdentityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.IdentityScope]
     /**

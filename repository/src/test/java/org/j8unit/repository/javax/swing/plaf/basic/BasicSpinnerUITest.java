@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicSpinnerUITest
-implements FactoryBasedJ8UnitTest<BasicSpinnerUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicSpinnerUITests<BasicSpinnerUI> {
+implements FactoryBasedJ8UnitTest<BasicSpinnerUI>, BasicSpinnerUITests<BasicSpinnerUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSpinnerUI]
 

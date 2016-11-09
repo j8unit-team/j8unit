@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SegmentTest
-implements FactoryBasedJ8UnitTest<Segment>, org.j8unit.repository.javax.swing.text.SegmentTests<Segment> {
+implements FactoryBasedJ8UnitTest<Segment>, SegmentTests<Segment> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.Segment]
 

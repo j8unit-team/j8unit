@@ -18,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.ImageProducerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ImageProducerTests}.
  * </p>
  *
  * <p>

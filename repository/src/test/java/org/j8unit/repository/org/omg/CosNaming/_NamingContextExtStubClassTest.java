@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming._NamingContextExtStub;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _NamingContextExtStub} (by simply reusing
+ * the J8Unit test interface {@link _NamingContextExtStubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _NamingContextExtStubClassTest
-implements org.j8unit.repository.org.omg.CosNaming._NamingContextExtStubClassTests<_NamingContextExtStub> {
+implements _NamingContextExtStubClassTests<_NamingContextExtStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming._NamingContextExtStub]
 

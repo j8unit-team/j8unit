@@ -17,8 +17,7 @@ import org.omg.CORBA.IDLTypeOperations;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.IDLTypeOperationsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IDLTypeOperationsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.IDLTypeOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IDLTypeOperationsClassTests<SUT extends IDLTypeOperations>
-extends org.j8unit.repository.org.omg.CORBA.IRObjectOperationsClassTests<SUT> {
+extends IRObjectOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IDLTypeOperations]
     /**

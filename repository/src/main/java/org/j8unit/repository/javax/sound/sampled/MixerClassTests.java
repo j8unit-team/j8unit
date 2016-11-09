@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.sound.sampled.Mixer;
 import javax.sound.sampled.Mixer.Info;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.sampled.MixerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MixerTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MixerClassTests<SUT extends Mixer>
-extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
+extends LineClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.Mixer]
     /**
@@ -113,7 +113,7 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InfoClassTests<SUT extends Info>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.Mixer$Info]
         /**

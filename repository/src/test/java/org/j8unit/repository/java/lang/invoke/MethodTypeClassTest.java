@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MethodType} (by simply reusing the J8Unit
+ * test interface {@link MethodTypeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MethodTypeClassTest
-implements org.j8unit.repository.java.lang.invoke.MethodTypeClassTests<MethodType> {
+implements MethodTypeClassTests<MethodType> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.MethodType]
 

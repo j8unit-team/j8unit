@@ -17,8 +17,7 @@ import org.xml.sax.XMLFilter;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.XMLFilterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLFilterTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.xml.sax.XMLFilter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLFilterClassTests<SUT extends XMLFilter>
-extends org.j8unit.repository.org.xml.sax.XMLReaderClassTests<SUT> {
+extends XMLReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.XMLFilter]
     /**

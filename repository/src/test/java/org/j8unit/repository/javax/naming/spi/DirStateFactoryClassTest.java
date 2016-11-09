@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DirStateFactory} (by simply reusing the
+ * J8Unit test interface {@link DirStateFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DirStateFactoryClassTest
-implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<DirStateFactory> {
+implements DirStateFactoryClassTests<DirStateFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.DirStateFactory]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests<DirS
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.naming.spi.DirStateFactory]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Result} (by simply reusing the J8Unit
+     * test interface {@link ResultClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ResultClassTest
-    implements org.j8unit.repository.javax.naming.spi.DirStateFactoryClassTests.ResultClassTests<Result> {
+    implements ResultClassTests<Result> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]
 

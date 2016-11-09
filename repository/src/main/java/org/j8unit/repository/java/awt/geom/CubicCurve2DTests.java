@@ -5,6 +5,10 @@ import java.awt.geom.CubicCurve2D.Double;
 import java.awt.geom.CubicCurve2D.Float;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ShapeTests;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests}).
+ * {@link CubicCurve2DClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CubicCurve2DTests<SUT extends CubicCurve2D>
-extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.CubicCurve2D]
 
@@ -176,6 +180,29 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#setCurve(java.awt.geom.Point2D[], int) public void
+     * java.awt.geom.CubicCurve2D.setCurve(java.awt.geom.Point2D[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCurve_Point2DArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.geom.CubicCurve2D#setCurve(java.awt.geom.Point2D, java.awt.geom.Point2D, java.awt.geom.Point2D, java.awt.geom.Point2D)
      * public void
      * java.awt.geom.CubicCurve2D.setCurve(java.awt.geom.Point2D,java.awt.geom.Point2D,java.awt.geom.Point2D,java.awt.geom.Point2D)}.
@@ -191,28 +218,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_setCurve_Point2D_Point2D_Point2D_Point2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D#setCurve(double[], int)
-     * public void java.awt.geom.CubicCurve2D.setCurve(double[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCurve_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -244,9 +249,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.CubicCurve2D#setCurve(java.awt.geom.Point2D[], int) public void
-     * java.awt.geom.CubicCurve2D.setCurve(java.awt.geom.Point2D[],int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D#setCurve(double[], int)
+     * public void java.awt.geom.CubicCurve2D.setCurve(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,7 +262,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCurve_Point2DArray_int()
+    public default void test_setCurve_doubleArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -400,29 +404,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.CubicCurve2D#subdivide(java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D) public void
-     * java.awt.geom.CubicCurve2D.subdivide(java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_subdivide_CubicCurve2D_CubicCurve2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D#getY2() public abstract
      * double java.awt.geom.CubicCurve2D.getY2()}.
      *
@@ -437,6 +418,30 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getY2()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.CubicCurve2D#getPathIterator(java.awt.geom.AffineTransform, double) public
+     * java.awt.geom.PathIterator java.awt.geom.CubicCurve2D.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getPathIterator_AffineTransform_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -470,8 +475,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.CubicCurve2D#getPathIterator(java.awt.geom.AffineTransform, double) public
-     * java.awt.geom.PathIterator java.awt.geom.CubicCurve2D.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     * {@link java.awt.geom.CubicCurve2D#subdivide(java.awt.geom.CubicCurve2D, java.awt.geom.CubicCurve2D) public void
+     * java.awt.geom.CubicCurve2D.subdivide(java.awt.geom.CubicCurve2D,java.awt.geom.CubicCurve2D)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -481,10 +486,9 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getPathIterator_AffineTransform_double()
+    public default void test_subdivide_CubicCurve2D_CubicCurve2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -740,7 +744,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatTests<SUT extends Float>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.CubicCurve2DTests<SUT> {
+    extends SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.CubicCurve2DTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.CubicCurve2D$Float]
 
@@ -976,10 +980,8 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.awt.geom.CubicCurve2D.Float#setCurve(double, double, double, double, double, double, double, double)
-         * public void
-         * java.awt.geom.CubicCurve2D$Float.setCurve(double,double,double,double,double,double,double,double)}.
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D.Float#getBounds2D()
+         * public java.awt.geom.Rectangle2D java.awt.geom.CubicCurve2D$Float.getBounds2D()}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -992,7 +994,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_setCurve_double_double_double_double_double_double_double_double()
+        public default void test_getBounds2D()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -1024,8 +1026,10 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D.Float#getBounds2D()
-         * public java.awt.geom.Rectangle2D java.awt.geom.CubicCurve2D$Float.getBounds2D()}.
+         * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.CubicCurve2D.Float#setCurve(double, double, double, double, double, double, double, double)
+         * public void
+         * java.awt.geom.CubicCurve2D$Float.setCurve(double,double,double,double,double,double,double,double)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -1038,7 +1042,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         @Override
         @Test
         @Category(Draft.class)
-        public default void test_getBounds2D()
+        public default void test_setCurve_double_double_double_double_double_double_double_double()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -1117,7 +1121,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleTests<SUT extends Double>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.CubicCurve2DTests<SUT> {
+    extends SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.CubicCurve2DTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.CubicCurve2D$Double]
 
@@ -1399,6 +1403,29 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
         /**
          * <p>
+         * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D.Double#getBounds2D()
+         * public java.awt.geom.Rectangle2D java.awt.geom.CubicCurve2D$Double.getBounds2D()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getBounds2D()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for the hereby targeted method-under-test
          * {@link java.awt.geom.CubicCurve2D.Double#setCurve(double, double, double, double, double, double, double, double)
          * public void
@@ -1416,29 +1443,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         @Test
         @Category(Draft.class)
         public default void test_setCurve_double_double_double_double_double_double_double_double()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link java.awt.geom.CubicCurve2D.Double#getBounds2D()
-         * public java.awt.geom.Rectangle2D java.awt.geom.CubicCurve2D$Double.getBounds2D()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getBounds2D()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

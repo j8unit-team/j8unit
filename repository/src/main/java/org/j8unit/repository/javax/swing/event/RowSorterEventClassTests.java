@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.event.RowSorterEvent;
 import javax.swing.event.RowSorterEvent.Type;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.util.EventObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.event.RowSorterEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RowSorterEventTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSorterEventClassTests<SUT extends RowSorterEvent>
-extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
+extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.RowSorterEvent]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.event.RowSorterEventTests.TypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link TypeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends Type>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.RowSorterEvent$Type]
         /**

@@ -5,9 +5,14 @@ import javax.sound.sampled.EnumControl.Type;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link EnumControl} (by simply reusing the
+ * J8Unit test interface {@link EnumControlClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EnumControlClassTest
-implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests<EnumControl> {
+implements EnumControlClassTests<EnumControl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.EnumControl]
 
@@ -19,6 +24,11 @@ implements org.j8unit.repository.javax.sound.sampled.EnumControlClassTests<EnumC
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.EnumControl]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.EnumControl]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.sound.sampled.EnumControlClassTests.TypeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeClassTest

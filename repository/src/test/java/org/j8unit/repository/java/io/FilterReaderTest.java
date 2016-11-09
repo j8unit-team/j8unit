@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FilterReader} (by simply reusing the
+ * J8Unit test interface {@link FilterReaderTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FilterReaderTest
-implements org.j8unit.repository.java.io.FilterReaderTests<FilterReader> {
+implements FilterReaderTests<FilterReader> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.FilterReader]
 

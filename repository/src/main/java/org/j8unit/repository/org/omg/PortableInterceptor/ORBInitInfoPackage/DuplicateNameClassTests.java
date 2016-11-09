@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
@@ -17,8 +18,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DuplicateNameTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DuplicateNameClassTests<SUT extends DuplicateName>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JobStateReasonsTest
-implements FactoryBasedJ8UnitTest<JobStateReasons>, org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsTests<JobStateReasons> {
+implements FactoryBasedJ8UnitTest<JobStateReasons>, JobStateReasonsTests<JobStateReasons> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.JobStateReasons]
 

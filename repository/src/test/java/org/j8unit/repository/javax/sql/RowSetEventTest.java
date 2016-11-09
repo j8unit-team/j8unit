@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RowSetEvent} (by simply reusing the
+ * J8Unit test interface {@link RowSetEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RowSetEventTest
-implements org.j8unit.repository.javax.sql.RowSetEventTests<RowSetEvent> {
+implements RowSetEventTests<RowSetEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.RowSetEvent]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidTransactionExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidTransactionException>,
-org.j8unit.repository.javax.transaction.InvalidTransactionExceptionTests<InvalidTransactionException> {
+implements FactoryBasedJ8UnitTest<InvalidTransactionException>, InvalidTransactionExceptionTests<InvalidTransactionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.InvalidTransactionException]
 

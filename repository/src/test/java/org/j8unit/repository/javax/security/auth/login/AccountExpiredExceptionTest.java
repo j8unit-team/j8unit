@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccountExpiredExceptionTest
-implements FactoryBasedJ8UnitTest<AccountExpiredException>,
-org.j8unit.repository.javax.security.auth.login.AccountExpiredExceptionTests<AccountExpiredException> {
+implements FactoryBasedJ8UnitTest<AccountExpiredException>, AccountExpiredExceptionTests<AccountExpiredException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountExpiredException]
 

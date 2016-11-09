@@ -3,6 +3,8 @@ package org.j8unit.repository.java.util;
 import static org.junit.Assert.assertTrue;
 import java.util.ArrayDeque;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.ArrayDequeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ArrayDequeTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayDequeClassTests<SUT extends ArrayDeque>
-extends org.j8unit.repository.java.util.DequeClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT> {
+extends DequeClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractCollectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ArrayDeque]
     /**

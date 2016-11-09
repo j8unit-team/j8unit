@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StreamHandlerTest
-implements FactoryBasedJ8UnitTest<StreamHandler>, org.j8unit.repository.java.util.logging.StreamHandlerTests<StreamHandler> {
+implements FactoryBasedJ8UnitTest<StreamHandler>, StreamHandlerTests<StreamHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.StreamHandler]
 

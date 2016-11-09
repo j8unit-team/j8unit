@@ -4,9 +4,14 @@ import java.beans.AppletInitializer;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AppletInitializer} (by simply reusing the
+ * J8Unit test interface {@link AppletInitializerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AppletInitializerClassTest
-implements org.j8unit.repository.java.beans.AppletInitializerClassTests<AppletInitializer> {
+implements AppletInitializerClassTests<AppletInitializer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.AppletInitializer]
 

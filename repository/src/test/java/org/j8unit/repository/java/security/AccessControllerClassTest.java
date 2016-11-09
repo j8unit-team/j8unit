@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AccessController} (by simply reusing the
+ * J8Unit test interface {@link AccessControllerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AccessControllerClassTest
-implements org.j8unit.repository.java.security.AccessControllerClassTests<AccessController> {
+implements AccessControllerClassTests<AccessController> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.AccessController]
 

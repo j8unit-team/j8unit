@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class W3CDomHandlerTest
-implements FactoryBasedJ8UnitTest<W3CDomHandler>, org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerTests<W3CDomHandler> {
+implements FactoryBasedJ8UnitTest<W3CDomHandler>, W3CDomHandlerTests<W3CDomHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 

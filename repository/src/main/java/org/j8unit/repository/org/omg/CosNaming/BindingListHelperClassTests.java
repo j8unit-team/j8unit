@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CosNaming;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.BindingListHelper;
@@ -17,8 +18,7 @@ import org.omg.CosNaming.BindingListHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming.BindingListHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BindingListHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CosNaming.BindingListHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BindingListHelperClassTests<SUT extends BindingListHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.BindingListHelper]
     /**

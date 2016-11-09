@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PrinterAbortExceptionTest
-implements FactoryBasedJ8UnitTest<PrinterAbortException>, org.j8unit.repository.java.awt.print.PrinterAbortExceptionTests<PrinterAbortException> {
+implements FactoryBasedJ8UnitTest<PrinterAbortException>, PrinterAbortExceptionTests<PrinterAbortException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PrinterAbortException]
 

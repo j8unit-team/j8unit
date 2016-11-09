@@ -17,8 +17,7 @@ import org.omg.PortableServer.ServantActivator;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantActivatorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +46,7 @@ import org.omg.PortableServer.ServantActivator;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorClassTests<SUT extends ServantActivator>
-extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.PortableServer.ServantManagerClassTests<SUT> {
+extends ServantActivatorOperationsClassTests<SUT>, ServantManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantActivator]
     /**

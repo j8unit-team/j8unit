@@ -28,7 +28,7 @@ import org.omg.CORBA.DynUnion;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynUnionTests<SUT extends DynUnion>
-extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
+extends DynAnyTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynUnion]
 

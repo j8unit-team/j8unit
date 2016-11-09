@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LongBuffer} (by simply reusing the
+ * J8Unit test interface {@link LongBufferTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LongBufferTest
-implements org.j8unit.repository.java.nio.LongBufferTests<LongBuffer> {
+implements LongBufferTests<LongBuffer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.LongBuffer]
 

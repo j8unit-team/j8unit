@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.PropertiesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PropertiesTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertiesClassTests<SUT extends Properties>
-extends org.j8unit.repository.java.util.HashtableClassTests<SUT> {
+extends HashtableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Properties]
     /**

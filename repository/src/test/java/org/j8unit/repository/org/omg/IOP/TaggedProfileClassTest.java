@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.TaggedProfile;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TaggedProfile} (by simply reusing the
+ * J8Unit test interface {@link TaggedProfileClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TaggedProfileClassTest
-implements org.j8unit.repository.org.omg.IOP.TaggedProfileClassTests<TaggedProfile> {
+implements TaggedProfileClassTests<TaggedProfile> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.TaggedProfile]
 

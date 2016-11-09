@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerTests}.
+ * {@link DefaultKeyboardFocusManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultKeyboardFocusManagerClassTests<SUT extends DefaultKeyboardFocusManager>
-extends org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests<SUT> {
+extends KeyboardFocusManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.DefaultKeyboardFocusManager]
     /**

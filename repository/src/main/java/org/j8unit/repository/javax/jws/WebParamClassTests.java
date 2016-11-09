@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.jws.WebParam;
 import javax.jws.WebParam.Mode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.jws.WebParamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WebParamTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WebParamClassTests<SUT extends WebParam>
-extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
+extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.WebParam]
     /**
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends Mode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.jws.WebParam$Mode]
         /**

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.midi.MidiDeviceReceiverTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MidiDeviceReceiverTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MidiDeviceReceiverClassTests<SUT extends MidiDeviceReceiver>
-extends org.j8unit.repository.javax.sound.midi.ReceiverClassTests<SUT> {
+extends ReceiverClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.MidiDeviceReceiver]
     /**

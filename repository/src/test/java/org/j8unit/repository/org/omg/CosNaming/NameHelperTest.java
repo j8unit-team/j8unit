@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NameHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NameHelper} (by simply reusing the
+ * J8Unit test interface {@link NameHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NameHelperTest
-implements org.j8unit.repository.org.omg.CosNaming.NameHelperTests<NameHelper> {
+implements NameHelperTests<NameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NameHelper]
 

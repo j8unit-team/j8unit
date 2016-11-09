@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HttpCookie} (by simply reusing the J8Unit
+ * test interface {@link HttpCookieClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HttpCookieClassTest
-implements org.j8unit.repository.java.net.HttpCookieClassTests<HttpCookie> {
+implements HttpCookieClassTests<HttpCookie> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.HttpCookie]
 

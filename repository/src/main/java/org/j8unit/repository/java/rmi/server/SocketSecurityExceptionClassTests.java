@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.server.SocketSecurityExceptionTests}.
+ * {@link SocketSecurityExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SocketSecurityExceptionClassTests<SUT extends SocketSecurityException>
-extends org.j8unit.repository.java.rmi.server.ExportExceptionClassTests<SUT> {
+extends ExportExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.SocketSecurityException]
     /**

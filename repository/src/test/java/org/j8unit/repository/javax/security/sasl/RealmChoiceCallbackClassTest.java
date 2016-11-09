@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RealmChoiceCallback} (by simply reusing
+ * the J8Unit test interface {@link RealmChoiceCallbackClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RealmChoiceCallbackClassTest
-implements org.j8unit.repository.javax.security.sasl.RealmChoiceCallbackClassTests<RealmChoiceCallback> {
+implements RealmChoiceCallbackClassTests<RealmChoiceCallback> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
 

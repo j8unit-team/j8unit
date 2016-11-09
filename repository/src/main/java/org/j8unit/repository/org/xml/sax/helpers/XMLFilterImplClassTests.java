@@ -2,6 +2,12 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.xml.sax.ContentHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.DTDHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.EntityResolverClassTests;
+import org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.XMLFilterClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.XMLFilterImpl;
@@ -17,8 +23,7 @@ import org.xml.sax.helpers.XMLFilterImpl;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLFilterImplTests}.
  * </p>
  *
  * <p>
@@ -47,9 +52,8 @@ import org.xml.sax.helpers.XMLFilterImpl;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLFilterImplClassTests<SUT extends XMLFilterImpl>
-extends org.j8unit.repository.org.xml.sax.XMLFilterClassTests<SUT>, org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT>,
-org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT>,
-org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends XMLFilterClassTests<SUT>, EntityResolverClassTests<SUT>, DTDHandlerClassTests<SUT>, ContentHandlerClassTests<SUT>, ErrorHandlerClassTests<SUT>,
+ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]
     /**

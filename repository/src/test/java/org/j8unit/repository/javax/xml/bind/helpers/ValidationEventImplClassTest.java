@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ValidationEventImpl} (by simply reusing
+ * the J8Unit test interface {@link ValidationEventImplClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ValidationEventImplClassTest
-implements org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClassTests<ValidationEventImpl> {
+implements ValidationEventImplClassTests<ValidationEventImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.ValidationEventImpl]
 

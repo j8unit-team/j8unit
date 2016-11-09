@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicCheckBoxUITest
-implements FactoryBasedJ8UnitTest<BasicCheckBoxUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicCheckBoxUITests<BasicCheckBoxUI> {
+implements FactoryBasedJ8UnitTest<BasicCheckBoxUI>, BasicCheckBoxUITests<BasicCheckBoxUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicCheckBoxUI]
 

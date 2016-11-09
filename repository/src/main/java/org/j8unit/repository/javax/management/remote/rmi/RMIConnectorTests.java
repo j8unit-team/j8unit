@@ -3,6 +3,10 @@ package org.j8unit.repository.javax.management.remote.rmi;
 import javax.management.remote.rmi.RMIConnector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.management.remote.JMXAddressableTests;
+import org.j8unit.repository.javax.management.remote.JMXConnectorTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTests}).
+ * {@link RMIConnectorClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIConnectorTests<SUT extends RMIConnector>
-extends org.j8unit.repository.javax.management.remote.JMXConnectorTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.javax.management.remote.JMXAddressableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends JMXConnectorTests<SUT>, SerializableTests<SUT>, JMXAddressableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi.RMIConnector]
 

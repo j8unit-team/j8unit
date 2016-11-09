@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.DefaultCellEditor;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.table.TableCellEditorClassTests;
+import org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.DefaultCellEditorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultCellEditorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultCellEditorClassTests<SUT extends DefaultCellEditor>
-extends org.j8unit.repository.javax.swing.table.TableCellEditorClassTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests<SUT>,
-org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<SUT> {
+extends TableCellEditorClassTests<SUT>, TreeCellEditorClassTests<SUT>, AbstractCellEditorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultCellEditor]
     /**

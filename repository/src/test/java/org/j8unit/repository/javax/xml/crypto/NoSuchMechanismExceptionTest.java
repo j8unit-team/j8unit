@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchMechanismExceptionTest
-implements FactoryBasedJ8UnitTest<NoSuchMechanismException>, org.j8unit.repository.javax.xml.crypto.NoSuchMechanismExceptionTests<NoSuchMechanismException> {
+implements FactoryBasedJ8UnitTest<NoSuchMechanismException>, NoSuchMechanismExceptionTests<NoSuchMechanismException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.NoSuchMechanismException]
 

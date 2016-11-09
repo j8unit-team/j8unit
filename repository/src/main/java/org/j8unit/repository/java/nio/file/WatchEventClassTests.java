@@ -21,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.WatchEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WatchEventTests}.
  * </p>
  *
  * <p>
@@ -85,8 +84,7 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.nio.file.WatchEventTests.ModifierTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ModifierTests}.
      * </p>
      *
      * <p>
@@ -151,8 +149,7 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.nio.file.WatchEventTests.KindTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link KindTests}.
      * </p>
      *
      * <p>

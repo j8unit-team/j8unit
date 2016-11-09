@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ActivationGroupDesc} (by simply reusing
+ * the J8Unit test interface {@link ActivationGroupDescClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActivationGroupDescClassTest
-implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTests<ActivationGroupDesc> {
+implements ActivationGroupDescClassTests<ActivationGroupDesc> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroupDesc]
 
@@ -75,9 +80,14 @@ implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTes
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.rmi.activation.ActivationGroupDesc]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CommandEnvironment} (by simply
+     * reusing the J8Unit test interface {@link CommandEnvironmentClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CommandEnvironmentClassTest
-    implements org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTests.CommandEnvironmentClassTests<CommandEnvironment> {
+    implements CommandEnvironmentClassTests<CommandEnvironment> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroupDesc$CommandEnvironment]
 

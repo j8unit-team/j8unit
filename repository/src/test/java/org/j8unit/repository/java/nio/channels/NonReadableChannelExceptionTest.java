@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NonReadableChannelExceptionTest
-implements FactoryBasedJ8UnitTest<NonReadableChannelException>,
-org.j8unit.repository.java.nio.channels.NonReadableChannelExceptionTests<NonReadableChannelException> {
+implements FactoryBasedJ8UnitTest<NonReadableChannelException>, NonReadableChannelExceptionTests<NonReadableChannelException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NonReadableChannelException]
 

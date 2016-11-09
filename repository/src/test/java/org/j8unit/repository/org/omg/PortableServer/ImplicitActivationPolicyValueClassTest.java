@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ImplicitActivationPolicyValue;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ImplicitActivationPolicyValue} (by simply
+ * reusing the J8Unit test interface {@link ImplicitActivationPolicyValueClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ImplicitActivationPolicyValueClassTest
-implements org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyValueClassTests<ImplicitActivationPolicyValue> {
+implements ImplicitActivationPolicyValueClassTests<ImplicitActivationPolicyValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
 

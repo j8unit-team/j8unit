@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributesTest
-implements FactoryBasedJ8UnitTest<Attributes>, org.j8unit.repository.java.util.jar.AttributesTests<Attributes> {
+implements FactoryBasedJ8UnitTest<Attributes>, AttributesTests<Attributes> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Attributes]
 
@@ -37,10 +37,15 @@ implements FactoryBasedJ8UnitTest<Attributes>, org.j8unit.repository.java.util.j
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.jar.Attributes]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Name} (by simply reusing the
+     * J8Unit test interface {@link NameTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class NameTest
-    implements org.j8unit.repository.java.util.jar.AttributesTests.NameTests<Name> {
+    implements NameTests<Name> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.Attributes$Name]
 

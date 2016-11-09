@@ -4,9 +4,14 @@ import javax.naming.NameParser;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NameParser} (by simply reusing the J8Unit
+ * test interface {@link NameParserClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NameParserClassTest
-implements org.j8unit.repository.javax.naming.NameParserClassTests<NameParser> {
+implements NameParserClassTests<NameParser> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.NameParser]
 

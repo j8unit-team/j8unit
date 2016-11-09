@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.tools.JavaFileObjectTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JavaFileObjectTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaFileObjectClassTests<SUT extends JavaFileObject>
-extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
+extends FileObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileObject]
     /**
@@ -84,8 +84,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.tools.JavaFileObjectTests.KindTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link KindTests}.
      * </p>
      *
      * <p>
@@ -114,7 +113,7 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KindClassTests<SUT extends Kind>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileObject$Kind]
         /**

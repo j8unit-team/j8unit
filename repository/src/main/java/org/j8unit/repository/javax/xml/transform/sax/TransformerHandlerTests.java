@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.xml.transform.sax;
 import javax.xml.transform.sax.TransformerHandler;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.ContentHandlerTests;
+import org.j8unit.repository.org.xml.sax.DTDHandlerTests;
+import org.j8unit.repository.org.xml.sax.ext.LexicalHandlerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.transform.sax.TransformerHandlerClassTests}).
+ * {@link TransformerHandlerClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransformerHandlerTests<SUT extends TransformerHandler>
-extends org.j8unit.repository.org.xml.sax.ContentHandlerTests<SUT>, org.j8unit.repository.org.xml.sax.ext.LexicalHandlerTests<SUT>,
-org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
+extends ContentHandlerTests<SUT>, LexicalHandlerTests<SUT>, DTDHandlerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.sax.TransformerHandler]
 

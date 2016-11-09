@@ -14,7 +14,7 @@ import org.omg.IOP.ServiceContextHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServiceContextHolderTest
-implements FactoryBasedJ8UnitTest<ServiceContextHolder>, org.j8unit.repository.org.omg.IOP.ServiceContextHolderTests<ServiceContextHolder> {
+implements FactoryBasedJ8UnitTest<ServiceContextHolder>, ServiceContextHolderTests<ServiceContextHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.ServiceContextHolder]
 

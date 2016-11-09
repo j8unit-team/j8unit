@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLScriptElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLScriptElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLScriptElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLScriptElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLScriptElementTests<HTMLScriptElement> {
+implements HTMLScriptElementTests<HTMLScriptElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLScriptElement]
 

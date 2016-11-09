@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.IdUniquenessPolicy;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.IdUniquenessPolicy;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IdUniquenessPolicyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.IdUniquenessPolicy;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdUniquenessPolicyClassTests<SUT extends IdUniquenessPolicy>
-extends org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT> {
+extends IdUniquenessPolicyOperationsClassTests<SUT>, PolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.IdUniquenessPolicy]
     /**

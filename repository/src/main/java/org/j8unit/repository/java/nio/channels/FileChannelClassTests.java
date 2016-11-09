@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.nio.channels.FileChannelTests.MapModeTests;
+import org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.FileChannelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FileChannelTests}.
  * </p>
  *
  * <p>
@@ -49,9 +51,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileChannelClassTests<SUT extends FileChannel>
-extends org.j8unit.repository.java.nio.channels.SeekableByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>,
-org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
-org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests<SUT> {
+extends SeekableByteChannelClassTests<SUT>, GatheringByteChannelClassTests<SUT>, ScatteringByteChannelClassTests<SUT>,
+AbstractInterruptibleChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.FileChannel]
     /**
@@ -86,8 +87,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.nio.channels.FileChannelTests.MapModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link MapModeTests}.
      * </p>
      *
      * <p>
@@ -116,7 +116,7 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MapModeClassTests<SUT extends MapMode>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.FileChannel$MapMode]
         /**

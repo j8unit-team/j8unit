@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XMLSignatureFactory} (by simply
+ * reusing the J8Unit test interface {@link XMLSignatureFactoryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLSignatureFactoryTest
-implements org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureFactoryTests<XMLSignatureFactory> {
+implements XMLSignatureFactoryTests<XMLSignatureFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignatureFactory]
 

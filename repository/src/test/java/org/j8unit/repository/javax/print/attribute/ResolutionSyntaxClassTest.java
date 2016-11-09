@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ResolutionSyntax} (by simply reusing the
+ * J8Unit test interface {@link ResolutionSyntaxClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ResolutionSyntaxClassTest
-implements org.j8unit.repository.javax.print.attribute.ResolutionSyntaxClassTests<ResolutionSyntax> {
+implements ResolutionSyntaxClassTests<ResolutionSyntax> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.ResolutionSyntax]
 

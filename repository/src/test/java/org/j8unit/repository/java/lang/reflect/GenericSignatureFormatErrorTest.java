@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class GenericSignatureFormatErrorTest
-implements FactoryBasedJ8UnitTest<GenericSignatureFormatError>,
-org.j8unit.repository.java.lang.reflect.GenericSignatureFormatErrorTests<GenericSignatureFormatError> {
+implements FactoryBasedJ8UnitTest<GenericSignatureFormatError>, GenericSignatureFormatErrorTests<GenericSignatureFormatError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.GenericSignatureFormatError]
 

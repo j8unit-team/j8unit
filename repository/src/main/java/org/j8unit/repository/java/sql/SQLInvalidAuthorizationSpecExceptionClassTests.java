@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionTests}.
+ * {@link SQLInvalidAuthorizationSpecExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLInvalidAuthorizationSpecExceptionClassTests<SUT extends SQLInvalidAuthorizationSpecException>
-extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
+extends SQLNonTransientExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLInvalidAuthorizationSpecException]
     /**

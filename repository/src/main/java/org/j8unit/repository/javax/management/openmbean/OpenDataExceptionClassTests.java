@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.openmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.openmbean.OpenDataException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.JMExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.openmbean.OpenDataExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link OpenDataExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenDataExceptionClassTests<SUT extends OpenDataException>
-extends org.j8unit.repository.javax.management.JMExceptionClassTests<SUT> {
+extends JMExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.OpenDataException]
     /**

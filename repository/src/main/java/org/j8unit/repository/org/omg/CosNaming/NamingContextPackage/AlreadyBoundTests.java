@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CosNaming.NamingContextPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextPackage.AlreadyBound;
 
@@ -14,7 +15,7 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBound;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundClassTests}).
+ * {@link AlreadyBoundClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBound;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlreadyBoundTests<SUT extends AlreadyBound>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.AlreadyBound]
 

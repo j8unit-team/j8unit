@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicProgressBarUITest
-implements FactoryBasedJ8UnitTest<BasicProgressBarUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests<BasicProgressBarUI> {
+implements FactoryBasedJ8UnitTest<BasicProgressBarUI>, BasicProgressBarUITests<BasicProgressBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicProgressBarUI]
 
@@ -37,6 +37,12 @@ implements FactoryBasedJ8UnitTest<BasicProgressBarUI>, org.j8unit.repository.jav
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicProgressBarUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicProgressBarUI]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ChangeHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUITests.ChangeHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerTest

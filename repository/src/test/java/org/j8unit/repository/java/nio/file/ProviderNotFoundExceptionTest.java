@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ProviderNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<ProviderNotFoundException>, org.j8unit.repository.java.nio.file.ProviderNotFoundExceptionTests<ProviderNotFoundException> {
+implements FactoryBasedJ8UnitTest<ProviderNotFoundException>, ProviderNotFoundExceptionTests<ProviderNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ProviderNotFoundException]
 

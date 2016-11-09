@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.net.PortUnreachableExceptionTests}.
+ * {@link PortUnreachableExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PortUnreachableExceptionClassTests<SUT extends PortUnreachableException>
-extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
+extends SocketExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.PortUnreachableException]
     /**

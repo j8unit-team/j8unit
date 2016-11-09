@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SerialExceptionTest
-implements FactoryBasedJ8UnitTest<SerialException>, org.j8unit.repository.javax.sql.rowset.serial.SerialExceptionTests<SerialException> {
+implements FactoryBasedJ8UnitTest<SerialException>, SerialExceptionTests<SerialException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.serial.SerialException]
 

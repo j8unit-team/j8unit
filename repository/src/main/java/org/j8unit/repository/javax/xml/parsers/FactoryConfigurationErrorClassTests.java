@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.parsers;
 import static org.junit.Assert.assertTrue;
 import javax.xml.parsers.FactoryConfigurationError;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ErrorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorTests}.
+ * {@link FactoryConfigurationErrorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FactoryConfigurationErrorClassTests<SUT extends FactoryConfigurationError>
-extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
+extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.parsers.FactoryConfigurationError]
     /**

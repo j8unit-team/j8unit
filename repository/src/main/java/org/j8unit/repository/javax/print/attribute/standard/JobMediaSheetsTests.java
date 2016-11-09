@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import javax.print.attribute.standard.JobMediaSheets;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.print.attribute.standard.JobMediaSheetsClassTests}).
+ * {@link JobMediaSheetsClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobMediaSheetsTests<SUT extends JobMediaSheets>
-extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,
-org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {
+extends PrintRequestAttributeTests<SUT>, PrintJobAttributeTests<SUT>, IntegerSyntaxTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.JobMediaSheets]
 

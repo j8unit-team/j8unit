@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AWTKeyStroke} (by simply reusing the
+ * J8Unit test interface {@link AWTKeyStrokeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AWTKeyStrokeTest
-implements org.j8unit.repository.java.awt.AWTKeyStrokeTests<AWTKeyStroke> {
+implements AWTKeyStrokeTests<AWTKeyStroke> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.AWTKeyStroke]
 

@@ -4,9 +4,14 @@ import java.nio.channels.ScatteringByteChannel;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ScatteringByteChannel} (by simply reusing
+ * the J8Unit test interface {@link ScatteringByteChannelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ScatteringByteChannelClassTest
-implements org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<ScatteringByteChannel> {
+implements ScatteringByteChannelClassTests<ScatteringByteChannel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.ScatteringByteChannel]
 

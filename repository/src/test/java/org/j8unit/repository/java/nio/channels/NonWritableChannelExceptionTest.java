@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NonWritableChannelExceptionTest
-implements FactoryBasedJ8UnitTest<NonWritableChannelException>,
-org.j8unit.repository.java.nio.channels.NonWritableChannelExceptionTests<NonWritableChannelException> {
+implements FactoryBasedJ8UnitTest<NonWritableChannelException>, NonWritableChannelExceptionTests<NonWritableChannelException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NonWritableChannelException]
 

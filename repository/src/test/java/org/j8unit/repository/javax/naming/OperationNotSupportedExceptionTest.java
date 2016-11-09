@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class OperationNotSupportedExceptionTest
-implements FactoryBasedJ8UnitTest<OperationNotSupportedException>,
-org.j8unit.repository.javax.naming.OperationNotSupportedExceptionTests<OperationNotSupportedException> {
+implements FactoryBasedJ8UnitTest<OperationNotSupportedException>, OperationNotSupportedExceptionTests<OperationNotSupportedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.OperationNotSupportedException]
 

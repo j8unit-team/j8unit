@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StackOverflowErrorTest
-implements FactoryBasedJ8UnitTest<StackOverflowError>, org.j8unit.repository.java.lang.StackOverflowErrorTests<StackOverflowError> {
+implements FactoryBasedJ8UnitTest<StackOverflowError>, StackOverflowErrorTests<StackOverflowError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.StackOverflowError]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SimpleDateFormatTest
-implements FactoryBasedJ8UnitTest<SimpleDateFormat>, org.j8unit.repository.java.text.SimpleDateFormatTests<SimpleDateFormat> {
+implements FactoryBasedJ8UnitTest<SimpleDateFormat>, SimpleDateFormatTests<SimpleDateFormat> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.SimpleDateFormat]
 

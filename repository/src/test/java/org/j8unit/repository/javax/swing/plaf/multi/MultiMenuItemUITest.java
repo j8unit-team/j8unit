@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiMenuItemUITest
-implements FactoryBasedJ8UnitTest<MultiMenuItemUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiMenuItemUITests<MultiMenuItemUI> {
+implements FactoryBasedJ8UnitTest<MultiMenuItemUI>, MultiMenuItemUITests<MultiMenuItemUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiMenuItemUI]
 

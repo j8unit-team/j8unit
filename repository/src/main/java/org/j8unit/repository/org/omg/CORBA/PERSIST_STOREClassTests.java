@@ -17,8 +17,7 @@ import org.omg.CORBA.PERSIST_STORE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.PERSIST_STORETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PERSIST_STORETests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.PERSIST_STORE;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PERSIST_STOREClassTests<SUT extends PERSIST_STORE>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.PERSIST_STORE]
     /**

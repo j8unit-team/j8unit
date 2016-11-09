@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.channels;
 import static org.junit.Assert.assertTrue;
 import java.nio.channels.WritePendingException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.IllegalStateExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.WritePendingExceptionTests}.
+ * {@link WritePendingExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WritePendingExceptionClassTests<SUT extends WritePendingException>
-extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
+extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.WritePendingException]
     /**

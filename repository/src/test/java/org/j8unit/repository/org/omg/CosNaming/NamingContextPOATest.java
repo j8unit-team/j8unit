@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextPOA;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NamingContextPOA} (by simply reusing
+ * the J8Unit test interface {@link NamingContextPOATests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NamingContextPOATest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPOATests<NamingContextPOA> {
+implements NamingContextPOATests<NamingContextPOA> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPOA]
 

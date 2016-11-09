@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ObjectHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectHolder} (by simply reusing the
+ * J8Unit test interface {@link ObjectHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.ObjectHolderClassTests<ObjectHolder> {
+implements ObjectHolderClassTests<ObjectHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ObjectHolder]
 

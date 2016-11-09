@@ -4,9 +4,14 @@ import javax.smartcardio.Card;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Card} (by simply reusing the J8Unit test
+ * interface {@link CardClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CardClassTest
-implements org.j8unit.repository.javax.smartcardio.CardClassTests<Card> {
+implements CardClassTests<Card> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.Card]
 

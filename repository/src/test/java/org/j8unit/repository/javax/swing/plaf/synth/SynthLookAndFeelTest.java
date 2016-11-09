@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthLookAndFeelTest
-implements FactoryBasedJ8UnitTest<SynthLookAndFeel>, org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SynthLookAndFeel> {
+implements FactoryBasedJ8UnitTest<SynthLookAndFeel>, SynthLookAndFeelTests<SynthLookAndFeel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthLookAndFeel]
 

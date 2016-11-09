@@ -5,6 +5,7 @@ import javax.management.openmbean.OpenMBeanAttributeInfo;
 import javax.management.openmbean.OpenMBeanAttributeInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanAttributeInfoTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoSupportClassTests}).
+ * {@link OpenMBeanAttributeInfoSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanAttributeInfoSupportTests<SUT extends OpenMBeanAttributeInfoSupport>
-extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanAttributeInfoTests<SUT> {
+extends OpenMBeanAttributeInfoTests<SUT>, MBeanAttributeInfoTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]
 
@@ -352,9 +353,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanAttributeInfo#isWritable() class javax.management.MBeanAttributeInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanAttributeInfo#isWritable() interface
      * javax.management.openmbean.OpenMBeanAttributeInfo}</li>
-     * <li>{@link javax.management.MBeanAttributeInfo#isWritable() class javax.management.MBeanAttributeInfo}</li>
      * </ul>
      *
      * <p>
@@ -371,8 +372,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_isWritable()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_isWritable();
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isWritable();
+        MBeanAttributeInfoTests.super.test_isWritable();
+        OpenMBeanAttributeInfoTests.super.test_isWritable();
     }
 
     /**
@@ -381,9 +382,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanAttributeInfo#isIs() class javax.management.MBeanAttributeInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanAttributeInfo#isIs() interface
      * javax.management.openmbean.OpenMBeanAttributeInfo}</li>
-     * <li>{@link javax.management.MBeanAttributeInfo#isIs() class javax.management.MBeanAttributeInfo}</li>
      * </ul>
      *
      * <p>
@@ -400,8 +401,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_isIs()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_isIs();
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isIs();
+        MBeanAttributeInfoTests.super.test_isIs();
+        OpenMBeanAttributeInfoTests.super.test_isIs();
     }
 
     /**
@@ -410,11 +411,11 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
-     * node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanParameterInfo#getName() interface
      * javax.management.openmbean.OpenMBeanParameterInfo} (via parent node(s) {@link OpenMBeanAttributeInfo
      * OpenMBeanAttributeInfo})</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
+     * node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * </ul>
      *
      * <p>
@@ -431,8 +432,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_getName()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_getName();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_getName();
+        OpenMBeanAttributeInfoTests.super.test_getName();
+        MBeanAttributeInfoTests.super.test_getName();
     }
 
     /**
@@ -441,9 +442,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
+     * <li>{@link javax.management.MBeanAttributeInfo#isReadable() class javax.management.MBeanAttributeInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanAttributeInfo#isReadable() interface
      * javax.management.openmbean.OpenMBeanAttributeInfo}</li>
-     * <li>{@link javax.management.MBeanAttributeInfo#isReadable() class javax.management.MBeanAttributeInfo}</li>
      * </ul>
      *
      * <p>
@@ -460,8 +461,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_isReadable()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_isReadable();
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_isReadable();
+        MBeanAttributeInfoTests.super.test_isReadable();
+        OpenMBeanAttributeInfoTests.super.test_isReadable();
     }
 
     /**
@@ -470,11 +471,11 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
-     * parent node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanParameterInfo#getDescription() interface
      * javax.management.openmbean.OpenMBeanParameterInfo} (via parent node(s) {@link OpenMBeanAttributeInfo
      * OpenMBeanAttributeInfo})</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
+     * parent node(s) {@link MBeanAttributeInfo MBeanAttributeInfo})</li>
      * </ul>
      *
      * <p>
@@ -491,8 +492,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoT
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanAttributeInfoTests.super.test_getDescription();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanAttributeInfoTests.super.test_getDescription();
+        OpenMBeanAttributeInfoTests.super.test_getDescription();
+        MBeanAttributeInfoTests.super.test_getDescription();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanAttributeInfoSupport]

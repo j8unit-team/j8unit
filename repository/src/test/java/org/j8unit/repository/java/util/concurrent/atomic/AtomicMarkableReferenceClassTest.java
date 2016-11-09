@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AtomicMarkableReference} (by simply
+ * reusing the J8Unit test interface {@link AtomicMarkableReferenceClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class AtomicMarkableReferenceClassTest
-implements org.j8unit.repository.java.util.concurrent.atomic.AtomicMarkableReferenceClassTests<AtomicMarkableReference> {
+implements AtomicMarkableReferenceClassTests<AtomicMarkableReference> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.atomic.AtomicMarkableReference]
 

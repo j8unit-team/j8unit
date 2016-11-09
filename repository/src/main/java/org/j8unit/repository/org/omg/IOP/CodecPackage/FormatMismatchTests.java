@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.IOP.CodecPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.CodecPackage.FormatMismatch;
 
@@ -14,7 +15,7 @@ import org.omg.IOP.CodecPackage.FormatMismatch;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchClassTests}).
+ * {@link FormatMismatchClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.IOP.CodecPackage.FormatMismatch;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormatMismatchTests<SUT extends FormatMismatch>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecPackage.FormatMismatch]
 

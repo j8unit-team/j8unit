@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.print.PrinterIOExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrinterIOExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterIOExceptionClassTests<SUT extends PrinterIOException>
-extends org.j8unit.repository.java.awt.print.PrinterExceptionClassTests<SUT> {
+extends PrinterExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.print.PrinterIOException]
     /**

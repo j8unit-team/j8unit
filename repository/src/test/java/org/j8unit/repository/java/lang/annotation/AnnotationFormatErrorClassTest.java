@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AnnotationFormatError} (by simply reusing
+ * the J8Unit test interface {@link AnnotationFormatErrorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AnnotationFormatErrorClassTest
-implements org.j8unit.repository.java.lang.annotation.AnnotationFormatErrorClassTests<AnnotationFormatError> {
+implements AnnotationFormatErrorClassTests<AnnotationFormatError> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.annotation.AnnotationFormatError]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.sql.rowset;
 import static org.junit.Assert.assertTrue;
 import javax.sql.rowset.RowSetProvider;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sql.rowset.RowSetProviderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RowSetProviderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSetProviderClassTests<SUT extends RowSetProvider>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.RowSetProvider]
     /**

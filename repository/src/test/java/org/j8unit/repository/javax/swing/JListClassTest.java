@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JList} (by simply reusing the J8Unit test
+ * interface {@link JListClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class JListClassTest
-implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
+implements JListClassTests<JList> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JList]
 
@@ -111,6 +115,11 @@ implements org.j8unit.repository.javax.swing.JListClassTests<JList> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JList]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JList]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JListClassTests.DropLocationClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest

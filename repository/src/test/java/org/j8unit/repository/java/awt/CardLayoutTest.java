@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CardLayoutTest
-implements FactoryBasedJ8UnitTest<CardLayout>, org.j8unit.repository.java.awt.CardLayoutTests<CardLayout> {
+implements FactoryBasedJ8UnitTest<CardLayout>, CardLayoutTests<CardLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.CardLayout]
 

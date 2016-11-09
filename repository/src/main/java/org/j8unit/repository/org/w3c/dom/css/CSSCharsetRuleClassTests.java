@@ -17,8 +17,7 @@ import org.w3c.dom.css.CSSCharsetRule;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSCharsetRuleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSCharsetRuleTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.css.CSSCharsetRule;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSCharsetRuleClassTests<SUT extends CSSCharsetRule>
-extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {
+extends CSSRuleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSCharsetRule]
     /**

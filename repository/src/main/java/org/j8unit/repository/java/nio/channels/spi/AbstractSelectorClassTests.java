@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.channels.spi;
 import static org.junit.Assert.assertTrue;
 import java.nio.channels.spi.AbstractSelector;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.nio.channels.SelectorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.spi.AbstractSelectorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AbstractSelectorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractSelectorClassTests<SUT extends AbstractSelector>
-extends org.j8unit.repository.java.nio.channels.SelectorClassTests<SUT> {
+extends SelectorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.spi.AbstractSelector]
     /**

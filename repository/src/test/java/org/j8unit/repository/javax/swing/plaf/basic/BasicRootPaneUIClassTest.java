@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicRootPaneUI} (by simply reusing the
+ * J8Unit test interface {@link BasicRootPaneUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicRootPaneUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicRootPaneUIClassTests<BasicRootPaneUI> {
+implements BasicRootPaneUIClassTests<BasicRootPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicRootPaneUI]
 

@@ -5,6 +5,11 @@ import java.security.cert.CertPathValidatorException;
 import java.security.cert.CertPathValidatorException.BasicReason;
 import java.security.cert.CertPathValidatorException.Reason;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests;
+import org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests;
+import org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +26,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests}.
+ * {@link CertPathValidatorExceptionTests}.
  * </p>
  *
  * <p>
@@ -50,7 +55,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathValidatorExceptionClassTests<SUT extends CertPathValidatorException>
-extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
+extends GeneralSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException]
     /**
@@ -85,8 +90,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ReasonTests}.
      * </p>
      *
      * <p>
@@ -115,7 +119,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReasonClassTests<SUT extends Reason>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
+    extends SerializableClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException$Reason]
         /**
@@ -152,8 +156,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicReasonTests}.
      * </p>
      *
      * <p>
@@ -182,8 +185,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicReasonClassTests<SUT extends BasicReason>
-    extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>,
-    org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>, EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathValidatorException$BasicReason]
         /**

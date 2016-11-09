@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HttpsURLConnection} (by simply
+ * reusing the J8Unit test interface {@link HttpsURLConnectionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HttpsURLConnectionTest
-implements org.j8unit.repository.javax.net.ssl.HttpsURLConnectionTests<HttpsURLConnection> {
+implements HttpsURLConnectionTests<HttpsURLConnection> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.HttpsURLConnection]
 

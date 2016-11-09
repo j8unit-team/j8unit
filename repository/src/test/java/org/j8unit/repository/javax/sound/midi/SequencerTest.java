@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Sequencer} (by simply reusing the
+ * J8Unit test interface {@link SequencerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SequencerTest
-implements org.j8unit.repository.javax.sound.midi.SequencerTests<Sequencer> {
+implements SequencerTests<Sequencer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.Sequencer]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.javax.sound.midi.SequencerTests<Sequencer> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.midi.Sequencer]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SyncMode} (by simply reusing the
+     * J8Unit test interface {@link SyncModeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class SyncModeTest
-    implements org.j8unit.repository.javax.sound.midi.SequencerTests.SyncModeTests<SyncMode> {
+    implements SyncModeTests<SyncMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.Sequencer$SyncMode]
 

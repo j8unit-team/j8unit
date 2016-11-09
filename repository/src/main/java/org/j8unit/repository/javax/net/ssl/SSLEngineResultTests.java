@@ -5,6 +5,10 @@ import javax.net.ssl.SSLEngineResult.HandshakeStatus;
 import javax.net.ssl.SSLEngineResult.Status;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests;
+import org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.StatusClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests}).
+ * {@link SSLEngineResultClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLEngineResultTests<SUT extends SSLEngineResult>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
 
@@ -158,7 +162,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.HandshakeStatusClassTests}).
+     * (see {@link HandshakeStatusClassTests}).
      * </p>
      *
      * @param SUT
@@ -169,7 +173,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HandshakeStatusTests<SUT extends HandshakeStatus>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, HandshakeStatus> {
+    extends EnumTests<SUT, HandshakeStatus> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
 
@@ -188,7 +192,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.net.ssl.SSLEngineResultClassTests.StatusClassTests}).
+     * (see {@link StatusClassTests}).
      * </p>
      *
      * @param SUT
@@ -199,7 +203,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StatusTests<SUT extends Status>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, Status> {
+    extends EnumTests<SUT, Status> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
 

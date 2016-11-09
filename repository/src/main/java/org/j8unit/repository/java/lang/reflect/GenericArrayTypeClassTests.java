@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.reflect.GenericArrayTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link GenericArrayTypeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GenericArrayTypeClassTests<SUT extends GenericArrayType>
-extends org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT> {
+extends TypeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.GenericArrayType]
     /**

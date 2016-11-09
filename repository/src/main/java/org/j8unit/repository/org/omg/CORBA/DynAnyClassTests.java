@@ -17,8 +17,7 @@ import org.omg.CORBA.DynAny;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.DynAnyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynAnyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.DynAny;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnyClassTests<SUT extends DynAny>
-extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DynAny]
     /**

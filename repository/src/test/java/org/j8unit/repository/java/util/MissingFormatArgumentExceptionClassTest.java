@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MissingFormatArgumentException} (by
+ * simply reusing the J8Unit test interface {@link MissingFormatArgumentExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MissingFormatArgumentExceptionClassTest
-implements org.j8unit.repository.java.util.MissingFormatArgumentExceptionClassTests<MissingFormatArgumentException> {
+implements MissingFormatArgumentExceptionClassTests<MissingFormatArgumentException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.MissingFormatArgumentException]
 

@@ -7,6 +7,11 @@ import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
 import java.util.concurrent.ThreadPoolExecutor.DiscardPolicy;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.AbortPolicyClassTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.CallerRunsPolicyClassTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardOldestPolicyClassTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests}).
+ * {@link ThreadPoolExecutorClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,7 +37,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadPoolExecutorTests<SUT extends ThreadPoolExecutor>
-extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<SUT> {
+extends AbstractExecutorServiceTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
 
@@ -745,7 +750,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests}).
+     * (see {@link DiscardPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -756,7 +761,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DiscardPolicyTests<SUT extends DiscardPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends RejectedExecutionHandlerTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
@@ -800,7 +805,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.AbortPolicyClassTests}).
+     * (see {@link AbortPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -811,7 +816,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbortPolicyTests<SUT extends AbortPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends RejectedExecutionHandlerTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
@@ -855,7 +860,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.CallerRunsPolicyClassTests}).
+     * (see {@link CallerRunsPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -866,7 +871,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallerRunsPolicyTests<SUT extends CallerRunsPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends RejectedExecutionHandlerTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
@@ -910,8 +915,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardOldestPolicyClassTests}).
+     * (see {@link DiscardOldestPolicyClassTests}).
      * </p>
      *
      * @param SUT
@@ -922,7 +926,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceTests<
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DiscardOldestPolicyTests<SUT extends DiscardOldestPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends RejectedExecutionHandlerTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 

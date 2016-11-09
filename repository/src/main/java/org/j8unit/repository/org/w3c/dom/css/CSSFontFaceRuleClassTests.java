@@ -17,8 +17,7 @@ import org.w3c.dom.css.CSSFontFaceRule;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSFontFaceRuleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSFontFaceRuleTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.css.CSSFontFaceRule;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSFontFaceRuleClassTests<SUT extends CSSFontFaceRule>
-extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {
+extends CSSRuleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSFontFaceRule]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SynthTextAreaUI} (by simply reusing the
+ * J8Unit test interface {@link SynthTextAreaUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SynthTextAreaUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.synth.SynthTextAreaUIClassTests<SynthTextAreaUI> {
+implements SynthTextAreaUIClassTests<SynthTextAreaUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthTextAreaUI]
 

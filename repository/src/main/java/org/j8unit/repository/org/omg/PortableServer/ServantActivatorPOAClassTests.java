@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ServantActivatorPOA;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.ServantActivatorPOA;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorPOATests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantActivatorPOATests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.omg.PortableServer.ServantActivatorPOA;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorPOAClassTests<SUT extends ServantActivatorPOA>
-extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT>, org.j8unit.repository.org.omg.PortableServer.ServantClassTests<SUT> {
+extends ServantActivatorOperationsClassTests<SUT>, InvokeHandlerClassTests<SUT>, ServantClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantActivatorPOA]
     /**

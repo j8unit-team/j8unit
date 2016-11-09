@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.UnionMemberHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link UnionMemberHelper} (by simply reusing
+ * the J8Unit test interface {@link UnionMemberHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnionMemberHelperTest
-implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperTests<UnionMemberHelper> {
+implements UnionMemberHelperTests<UnionMemberHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UnionMemberHelper]
 

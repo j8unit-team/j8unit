@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import javax.swing.JFrame;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.FrameTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.JFrameClassTests}).
+ * {@link JFrameClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JFrameTests<SUT extends JFrame>
-extends org.j8unit.repository.javax.swing.WindowConstantsTests<SUT>, org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>,
-org.j8unit.repository.java.awt.FrameTests<SUT> {
+extends WindowConstantsTests<SUT>, RootPaneContainerTests<SUT>, FrameTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFrame]
 
@@ -127,28 +127,6 @@ org.j8unit.repository.java.awt.FrameTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JFrame#getDefaultCloseOperation() public
-     * int javax.swing.JFrame.getDefaultCloseOperation()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultCloseOperation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JFrame#getLayeredPane() public
      * javax.swing.JLayeredPane javax.swing.JFrame.getLayeredPane()}.
      *
@@ -164,6 +142,28 @@ org.j8unit.repository.java.awt.FrameTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLayeredPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFrame#getDefaultCloseOperation() public
+     * int javax.swing.JFrame.getDefaultCloseOperation()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultCloseOperation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -424,29 +424,6 @@ org.j8unit.repository.java.awt.FrameTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JFrame#getGlassPane() public
-     * java.awt.Component javax.swing.JFrame.getGlassPane()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlassPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JFrame#setIconImage(java.awt.Image)
      * public void javax.swing.JFrame.setIconImage(java.awt.Image)}.
      *
@@ -462,6 +439,29 @@ org.j8unit.repository.java.awt.FrameTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setIconImage_Image()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JFrame#getGlassPane() public
+     * java.awt.Component javax.swing.JFrame.getGlassPane()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlassPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

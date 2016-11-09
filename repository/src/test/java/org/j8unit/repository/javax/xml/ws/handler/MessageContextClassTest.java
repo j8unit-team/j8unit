@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MessageContext} (by simply reusing the
+ * J8Unit test interface {@link MessageContextClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MessageContextClassTest
-implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<MessageContext> {
+implements MessageContextClassTests<MessageContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.MessageContext]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests<M
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.handler.MessageContext]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Scope} (by simply reusing the J8Unit
+     * test interface {@link ScopeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ScopeClassTest
-    implements org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests.ScopeClassTests<Scope> {
+    implements ScopeClassTests<Scope> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.MessageContext$Scope]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.openmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.openmbean.OpenMBeanOperationInfoSupport;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanOperationInfoClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoSupportTests}.
+ * {@link OpenMBeanOperationInfoSupportTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanOperationInfoSupportClassTests<SUT extends OpenMBeanOperationInfoSupport>
-extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoClassTests<SUT>,
-org.j8unit.repository.javax.management.MBeanOperationInfoClassTests<SUT> {
+extends OpenMBeanOperationInfoClassTests<SUT>, MBeanOperationInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
     /**

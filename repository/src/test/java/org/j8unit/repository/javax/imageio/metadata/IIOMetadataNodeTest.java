@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IIOMetadataNodeTest
-implements FactoryBasedJ8UnitTest<IIOMetadataNode>, org.j8unit.repository.javax.imageio.metadata.IIOMetadataNodeTests<IIOMetadataNode> {
+implements FactoryBasedJ8UnitTest<IIOMetadataNode>, IIOMetadataNodeTests<IIOMetadataNode> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.metadata.IIOMetadataNode]
 

@@ -8,60 +8,20 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TextArea} (by simply reusing the J8Unit
+ * test interface {@link TextAreaClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TextAreaClassTest
-implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
+implements TextAreaClassTests<TextArea> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.TextArea]
 
     @Override
     public Class<TextArea> createNewSUT() {
         return TextArea.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea(String, int, int)
-     * public java.awt.TextArea(java.lang.String,int,int) throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TextArea_String_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TextArea sut = null; // = new TextArea(String, int, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.TextArea#TextArea(String, int, int, int) public java.awt.TextArea(java.lang.String,int,int,int)
-     * throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TextArea_String_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TextArea sut = null; // = new TextArea(String, int, int, int);
     }
 
     /**
@@ -109,6 +69,29 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.TextArea#TextArea(String, int, int, int) public java.awt.TextArea(java.lang.String,int,int,int)
+     * throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TextArea_String_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TextArea sut = null; // = new TextArea(String, int, int, int);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea(int, int) public
      * java.awt.TextArea(int,int) throws java.awt.HeadlessException}.
      *
@@ -127,6 +110,28 @@ implements org.j8unit.repository.java.awt.TextAreaClassTests<TextArea> {
         // create new instance
         @SuppressWarnings("unused")
         final TextArea sut = null; // = new TextArea(int, int);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.awt.TextArea#TextArea(String, int, int)
+     * public java.awt.TextArea(java.lang.String,int,int) throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TextArea_String_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TextArea sut = null; // = new TextArea(String, int, int);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.TextArea]

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.MultipleComponentProfileHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MultipleComponentProfileHelper} (by
+ * simply reusing the J8Unit test interface {@link MultipleComponentProfileHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultipleComponentProfileHelperTest
-implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperTests<MultipleComponentProfileHelper> {
+implements MultipleComponentProfileHelperTests<MultipleComponentProfileHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.MultipleComponentProfileHelper]
 

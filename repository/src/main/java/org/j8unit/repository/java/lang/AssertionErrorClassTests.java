@@ -16,8 +16,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.AssertionErrorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AssertionErrorTests}.
  * </p>
  *
  * <p>
@@ -46,7 +45,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AssertionErrorClassTests<SUT extends AssertionError>
-extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
+extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.AssertionError]
     /**

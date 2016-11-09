@@ -2,6 +2,7 @@ package org.j8unit.repository.org.w3c.dom.css;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.w3c.dom.stylesheets.DocumentStyleClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.css.DocumentCSS;
@@ -17,8 +18,7 @@ import org.w3c.dom.css.DocumentCSS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.DocumentCSSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentCSSTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.w3c.dom.css.DocumentCSS;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentCSSClassTests<SUT extends DocumentCSS>
-extends org.j8unit.repository.org.w3c.dom.stylesheets.DocumentStyleClassTests<SUT> {
+extends DocumentStyleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.DocumentCSS]
     /**

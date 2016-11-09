@@ -3,6 +3,10 @@ package org.j8unit.repository.java.util;
 import java.util.Date;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ComparableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateTests<SUT extends Date>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
-org.j8unit.repository.java.lang.ComparableTests<SUT, Date>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends SerializableTests<SUT>, CloneableTests<SUT>, ComparableTests<SUT, Date>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Date]
 

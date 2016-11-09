@@ -14,7 +14,7 @@ import org.omg.CORBA.NO_MEMORY;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NO_MEMORYTest
-implements FactoryBasedJ8UnitTest<NO_MEMORY>, org.j8unit.repository.org.omg.CORBA.NO_MEMORYTests<NO_MEMORY> {
+implements FactoryBasedJ8UnitTest<NO_MEMORY>, NO_MEMORYTests<NO_MEMORY> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_MEMORY]
 

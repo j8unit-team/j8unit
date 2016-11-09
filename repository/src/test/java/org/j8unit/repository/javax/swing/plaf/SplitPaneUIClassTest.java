@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SplitPaneUI} (by simply reusing the
+ * J8Unit test interface {@link SplitPaneUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SplitPaneUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests<SplitPaneUI> {
+implements SplitPaneUIClassTests<SplitPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.SplitPaneUI]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiLabelUITest
-implements FactoryBasedJ8UnitTest<MultiLabelUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiLabelUITests<MultiLabelUI> {
+implements FactoryBasedJ8UnitTest<MultiLabelUI>, MultiLabelUITests<MultiLabelUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiLabelUI]
 

@@ -3,6 +3,10 @@ package org.j8unit.repository.java.util.concurrent;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.ConcurrentSkipListSet;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.util.AbstractSetClassTests;
+import org.j8unit.repository.java.util.NavigableSetClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +22,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetTests}.
+ * {@link ConcurrentSkipListSetTests}.
  * </p>
  *
  * <p>
@@ -47,8 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentSkipListSetClassTests<SUT extends ConcurrentSkipListSet>
-extends org.j8unit.repository.java.util.NavigableSetClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT> {
+extends NavigableSetClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, AbstractSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentSkipListSet]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicRadioButtonMenuItemUI} (by simply
+ * reusing the J8Unit test interface {@link BasicRadioButtonMenuItemUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicRadioButtonMenuItemUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonMenuItemUIClassTests<BasicRadioButtonMenuItemUI> {
+implements BasicRadioButtonMenuItemUIClassTests<BasicRadioButtonMenuItemUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicRadioButtonMenuItemUI]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.concurrent;
 import java.util.concurrent.AbstractExecutorService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests}).
+ * {@link AbstractExecutorServiceClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,15 +29,16 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractExecutorServiceTests<SUT extends AbstractExecutorService>
-extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ExecutorServiceTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.AbstractExecutorService]
 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.AbstractExecutorService#submit(Runnable) public java.util.concurrent.Future<?>
-     * java.util.concurrent.AbstractExecutorService.submit(java.lang.Runnable)}.
+     * {@link java.util.concurrent.AbstractExecutorService#submit(java.util.concurrent.Callable) public <T>
+     * java.util.concurrent.Future<T>
+     * java.util.concurrent.AbstractExecutorService.submit(java.util.concurrent.Callable<T>)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -49,7 +51,7 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_submit_Runnable()
+    public default void test_submit_Callable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,9 +85,8 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.concurrent.AbstractExecutorService#submit(java.util.concurrent.Callable) public <T>
-     * java.util.concurrent.Future<T>
-     * java.util.concurrent.AbstractExecutorService.submit(java.util.concurrent.Callable<T>)}.
+     * {@link java.util.concurrent.AbstractExecutorService#submit(Runnable) public java.util.concurrent.Future<?>
+     * java.util.concurrent.AbstractExecutorService.submit(java.lang.Runnable)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -98,7 +99,7 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_submit_Callable()
+    public default void test_submit_Runnable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

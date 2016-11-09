@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.sampled.TargetDataLineTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TargetDataLineTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TargetDataLineClassTests<SUT extends TargetDataLine>
-extends org.j8unit.repository.javax.sound.sampled.DataLineClassTests<SUT> {
+extends DataLineClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.TargetDataLine]
     /**

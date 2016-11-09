@@ -14,7 +14,7 @@ import org.omg.CORBA.WStringSeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WStringSeqHolderTest
-implements FactoryBasedJ8UnitTest<WStringSeqHolder>, org.j8unit.repository.org.omg.CORBA.WStringSeqHolderTests<WStringSeqHolder> {
+implements FactoryBasedJ8UnitTest<WStringSeqHolder>, WStringSeqHolderTests<WStringSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.WStringSeqHolder]
 

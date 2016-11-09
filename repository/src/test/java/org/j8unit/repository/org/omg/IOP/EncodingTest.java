@@ -14,7 +14,7 @@ import org.omg.IOP.Encoding;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EncodingTest
-implements FactoryBasedJ8UnitTest<Encoding>, org.j8unit.repository.org.omg.IOP.EncodingTests<Encoding> {
+implements FactoryBasedJ8UnitTest<Encoding>, EncodingTests<Encoding> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.Encoding]
 

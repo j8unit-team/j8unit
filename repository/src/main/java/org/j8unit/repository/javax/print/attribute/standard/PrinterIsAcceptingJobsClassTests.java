@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.PrinterIsAcceptingJobs;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests;
+import org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.PrinterIsAcceptingJobsTests}.
+ * {@link PrinterIsAcceptingJobsTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterIsAcceptingJobsClassTests<SUT extends PrinterIsAcceptingJobs>
-extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests<SUT>,
-org.j8unit.repository.javax.print.attribute.EnumSyntaxClassTests<SUT> {
+extends PrintServiceAttributeClassTests<SUT>, EnumSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.PrinterIsAcceptingJobs]
     /**

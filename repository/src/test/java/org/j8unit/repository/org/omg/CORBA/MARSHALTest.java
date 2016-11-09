@@ -14,7 +14,7 @@ import org.omg.CORBA.MARSHAL;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MARSHALTest
-implements FactoryBasedJ8UnitTest<MARSHAL>, org.j8unit.repository.org.omg.CORBA.MARSHALTests<MARSHAL> {
+implements FactoryBasedJ8UnitTest<MARSHAL>, MARSHALTests<MARSHAL> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.MARSHAL]
 

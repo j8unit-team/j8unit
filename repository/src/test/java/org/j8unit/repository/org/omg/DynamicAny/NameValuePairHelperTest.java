@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.NameValuePairHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NameValuePairHelper} (by simply
+ * reusing the J8Unit test interface {@link NameValuePairHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NameValuePairHelperTest
-implements org.j8unit.repository.org.omg.DynamicAny.NameValuePairHelperTests<NameValuePairHelper> {
+implements NameValuePairHelperTests<NameValuePairHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.NameValuePairHelper]
 

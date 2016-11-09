@@ -14,7 +14,7 @@ import org.omg.CORBA.UnknownUserException;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnknownUserExceptionTest
-implements FactoryBasedJ8UnitTest<UnknownUserException>, org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionTests<UnknownUserException> {
+implements FactoryBasedJ8UnitTest<UnknownUserException>, UnknownUserExceptionTests<UnknownUserException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UnknownUserException]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.ValueBaseHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ValueBaseHolderTest
-implements FactoryBasedJ8UnitTest<ValueBaseHolder>, org.j8unit.repository.org.omg.CORBA.ValueBaseHolderTests<ValueBaseHolder> {
+implements FactoryBasedJ8UnitTest<ValueBaseHolder>, ValueBaseHolderTests<ValueBaseHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ValueBaseHolder]
 

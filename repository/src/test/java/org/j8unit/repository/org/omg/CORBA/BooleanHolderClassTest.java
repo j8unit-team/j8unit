@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.BooleanHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BooleanHolder} (by simply reusing the
+ * J8Unit test interface {@link BooleanHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BooleanHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.BooleanHolderClassTests<BooleanHolder> {
+implements BooleanHolderClassTests<BooleanHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.BooleanHolder]
 

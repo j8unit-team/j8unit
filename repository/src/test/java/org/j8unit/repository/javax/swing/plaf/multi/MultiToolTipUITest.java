@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiToolTipUITest
-implements FactoryBasedJ8UnitTest<MultiToolTipUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiToolTipUITests<MultiToolTipUI> {
+implements FactoryBasedJ8UnitTest<MultiToolTipUI>, MultiToolTipUITests<MultiToolTipUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiToolTipUI]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.DATA_CONVERSION;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DATA_CONVERSIONTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.DATA_CONVERSION;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DATA_CONVERSIONClassTests<SUT extends DATA_CONVERSION>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
     /**

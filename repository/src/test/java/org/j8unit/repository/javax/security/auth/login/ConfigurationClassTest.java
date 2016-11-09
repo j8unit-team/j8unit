@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Configuration} (by simply reusing the
+ * J8Unit test interface {@link ConfigurationClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ConfigurationClassTest
-implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests<Configuration> {
+implements ConfigurationClassTests<Configuration> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.Configuration]
 
@@ -139,9 +144,14 @@ implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTes
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.Configuration]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Parameters} (by simply reusing the
+     * J8Unit test interface {@link ParametersClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ParametersClassTest
-    implements org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests<Parameters> {
+    implements ParametersClassTests<Parameters> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.Configuration$Parameters]
 

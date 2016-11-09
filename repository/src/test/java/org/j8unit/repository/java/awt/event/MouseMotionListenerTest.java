@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MouseMotionListener} (by simply
+ * reusing the J8Unit test interface {@link MouseMotionListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MouseMotionListenerTest
-implements org.j8unit.repository.java.awt.event.MouseMotionListenerTests<MouseMotionListener> {
+implements MouseMotionListenerTests<MouseMotionListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.event.MouseMotionListener]
 

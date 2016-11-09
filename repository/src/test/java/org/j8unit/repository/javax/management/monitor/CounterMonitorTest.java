@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CounterMonitorTest
-implements FactoryBasedJ8UnitTest<CounterMonitor>, org.j8unit.repository.javax.management.monitor.CounterMonitorTests<CounterMonitor> {
+implements FactoryBasedJ8UnitTest<CounterMonitor>, CounterMonitorTests<CounterMonitor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.CounterMonitor]
 

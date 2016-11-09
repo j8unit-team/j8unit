@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DataLine} (by simply reusing the
+ * J8Unit test interface {@link DataLineTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DataLineTest
-implements org.j8unit.repository.javax.sound.sampled.DataLineTests<DataLine> {
+implements DataLineTests<DataLine> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.DataLine]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.sound.sampled.DataLineTests<DataLine> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.DataLine]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Info} (by simply reusing the
+     * J8Unit test interface {@link InfoTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class InfoTest
-    implements org.j8unit.repository.javax.sound.sampled.DataLineTests.InfoTests<Info> {
+    implements InfoTests<Info> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.DataLine$Info]
 

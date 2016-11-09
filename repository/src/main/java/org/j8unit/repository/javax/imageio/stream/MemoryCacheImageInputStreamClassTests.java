@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.imageio.stream.MemoryCacheImageInputStreamTests}.
+ * {@link MemoryCacheImageInputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryCacheImageInputStreamClassTests<SUT extends MemoryCacheImageInputStream>
-extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplClassTests<SUT> {
+extends ImageInputStreamImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.stream.MemoryCacheImageInputStream]
     /**

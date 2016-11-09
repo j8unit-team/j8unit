@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Map} (by simply reusing the J8Unit test
+ * interface {@link MapClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class MapClassTest
-implements org.j8unit.repository.java.util.MapClassTests<Map> {
+implements MapClassTests<Map> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Map]
 
@@ -25,6 +29,10 @@ implements org.j8unit.repository.java.util.MapClassTests<Map> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Map]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Entry} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.util.MapClassTests.EntryClassTests}).
+     */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class EntryClassTest

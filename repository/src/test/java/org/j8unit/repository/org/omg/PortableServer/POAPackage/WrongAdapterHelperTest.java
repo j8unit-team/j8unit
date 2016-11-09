@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.WrongAdapterHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link WrongAdapterHelper} (by simply
+ * reusing the J8Unit test interface {@link WrongAdapterHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WrongAdapterHelperTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterHelperTests<WrongAdapterHelper> {
+implements WrongAdapterHelperTests<WrongAdapterHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongAdapterHelper]
 

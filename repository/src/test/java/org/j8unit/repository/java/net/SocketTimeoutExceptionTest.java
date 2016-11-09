@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SocketTimeoutExceptionTest
-implements FactoryBasedJ8UnitTest<SocketTimeoutException>, org.j8unit.repository.java.net.SocketTimeoutExceptionTests<SocketTimeoutException> {
+implements FactoryBasedJ8UnitTest<SocketTimeoutException>, SocketTimeoutExceptionTests<SocketTimeoutException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.SocketTimeoutException]
 

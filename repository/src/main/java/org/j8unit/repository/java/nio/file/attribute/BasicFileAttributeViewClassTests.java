@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.attribute.BasicFileAttributeViewTests}.
+ * {@link BasicFileAttributeViewTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicFileAttributeViewClassTests<SUT extends BasicFileAttributeView>
-extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewClassTests<SUT> {
+extends FileAttributeViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.BasicFileAttributeView]
     /**

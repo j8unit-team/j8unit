@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class VectorTest<E>
-implements FactoryBasedJ8UnitTest<Vector<E>>, org.j8unit.repository.java.util.VectorTests<Vector<E>, E> {
+implements FactoryBasedJ8UnitTest<Vector<E>>, VectorTests<Vector<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Vector]
 

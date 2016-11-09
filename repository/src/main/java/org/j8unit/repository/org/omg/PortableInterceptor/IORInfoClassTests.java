@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.IORInfo;
@@ -17,8 +19,7 @@ import org.omg.PortableInterceptor.IORInfo;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInfoTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IORInfoTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.omg.PortableInterceptor.IORInfo;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInfoClassTests<SUT extends IORInfo>
-extends org.j8unit.repository.org.omg.PortableInterceptor.IORInfoOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
+extends IORInfoOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.IORInfo]
     /**

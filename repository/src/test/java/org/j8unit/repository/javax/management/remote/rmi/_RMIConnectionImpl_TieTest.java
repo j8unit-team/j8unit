@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _RMIConnectionImpl_TieTest
-implements FactoryBasedJ8UnitTest<_RMIConnectionImpl_Tie>,
-org.j8unit.repository.javax.management.remote.rmi._RMIConnectionImpl_TieTests<_RMIConnectionImpl_Tie> {
+implements FactoryBasedJ8UnitTest<_RMIConnectionImpl_Tie>, _RMIConnectionImpl_TieTests<_RMIConnectionImpl_Tie> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi._RMIConnectionImpl_Tie]
 

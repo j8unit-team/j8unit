@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLSyntaxErrorExceptionTest
-implements FactoryBasedJ8UnitTest<SQLSyntaxErrorException>, org.j8unit.repository.java.sql.SQLSyntaxErrorExceptionTests<SQLSyntaxErrorException> {
+implements FactoryBasedJ8UnitTest<SQLSyntaxErrorException>, SQLSyntaxErrorExceptionTests<SQLSyntaxErrorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLSyntaxErrorException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DragSourceTest
-implements FactoryBasedJ8UnitTest<DragSource>, org.j8unit.repository.java.awt.dnd.DragSourceTests<DragSource> {
+implements FactoryBasedJ8UnitTest<DragSource>, DragSourceTests<DragSource> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DragSource]
 

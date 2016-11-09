@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class GapContentTest
-implements FactoryBasedJ8UnitTest<GapContent>, org.j8unit.repository.javax.swing.text.GapContentTests<GapContent> {
+implements FactoryBasedJ8UnitTest<GapContent>, GapContentTests<GapContent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.GapContent]
 

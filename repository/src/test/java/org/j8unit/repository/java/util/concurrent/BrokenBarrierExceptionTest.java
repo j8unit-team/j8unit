@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BrokenBarrierExceptionTest
-implements FactoryBasedJ8UnitTest<BrokenBarrierException>, org.j8unit.repository.java.util.concurrent.BrokenBarrierExceptionTests<BrokenBarrierException> {
+implements FactoryBasedJ8UnitTest<BrokenBarrierException>, BrokenBarrierExceptionTests<BrokenBarrierException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.BrokenBarrierException]
 

@@ -2,6 +2,7 @@ package org.j8unit.repository.java.net;
 
 import java.net.UnknownHostException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.IOExceptionTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownHostExceptionTests<SUT extends UnknownHostException>
-extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
+extends IOExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.UnknownHostException]
 

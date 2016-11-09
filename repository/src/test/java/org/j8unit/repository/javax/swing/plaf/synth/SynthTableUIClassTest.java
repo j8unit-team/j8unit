@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SynthTableUI} (by simply reusing the
+ * J8Unit test interface {@link SynthTableUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SynthTableUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.synth.SynthTableUIClassTests<SynthTableUI> {
+implements SynthTableUIClassTests<SynthTableUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthTableUI]
 

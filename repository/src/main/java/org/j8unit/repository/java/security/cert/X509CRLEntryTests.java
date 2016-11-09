@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.cert;
 import java.security.cert.X509CRLEntry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.security.cert.X509CRLEntryClassTests}).
+ * {@link X509CRLEntryClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X509CRLEntryTests<SUT extends X509CRLEntry>
-extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends X509ExtensionTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.X509CRLEntry]
 

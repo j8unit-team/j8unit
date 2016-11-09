@@ -14,7 +14,7 @@ import org.omg.IOP.IORHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IORHolderTest
-implements FactoryBasedJ8UnitTest<IORHolder>, org.j8unit.repository.org.omg.IOP.IORHolderTests<IORHolder> {
+implements FactoryBasedJ8UnitTest<IORHolder>, IORHolderTests<IORHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.IORHolder]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RelationNotification} (by simply reusing
+ * the J8Unit test interface {@link RelationNotificationClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RelationNotificationClassTest
-implements org.j8unit.repository.javax.management.relation.RelationNotificationClassTests<RelationNotification> {
+implements RelationNotificationClassTests<RelationNotification> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationNotification]
 

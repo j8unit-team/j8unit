@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ShortBufferExceptionTest
-implements FactoryBasedJ8UnitTest<ShortBufferException>, org.j8unit.repository.javax.crypto.ShortBufferExceptionTests<ShortBufferException> {
+implements FactoryBasedJ8UnitTest<ShortBufferException>, ShortBufferExceptionTests<ShortBufferException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ShortBufferException]
 

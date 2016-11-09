@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultValidationEventHandler} (by simply
+ * reusing the J8Unit test interface {@link DefaultValidationEventHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultValidationEventHandlerClassTest
-implements org.j8unit.repository.javax.xml.bind.helpers.DefaultValidationEventHandlerClassTests<DefaultValidationEventHandler> {
+implements DefaultValidationEventHandlerClassTests<DefaultValidationEventHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.DefaultValidationEventHandler]
 

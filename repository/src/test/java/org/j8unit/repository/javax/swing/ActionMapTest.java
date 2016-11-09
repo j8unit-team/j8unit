@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ActionMapTest
-implements FactoryBasedJ8UnitTest<ActionMap>, org.j8unit.repository.javax.swing.ActionMapTests<ActionMap> {
+implements FactoryBasedJ8UnitTest<ActionMap>, ActionMapTests<ActionMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ActionMap]
 

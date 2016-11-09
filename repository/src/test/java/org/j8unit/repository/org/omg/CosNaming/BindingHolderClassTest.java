@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.BindingHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BindingHolder} (by simply reusing the
+ * J8Unit test interface {@link BindingHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BindingHolderClassTest
-implements org.j8unit.repository.org.omg.CosNaming.BindingHolderClassTests<BindingHolder> {
+implements BindingHolderClassTests<BindingHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.BindingHolder]
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link VetoableChangeSupport} (by simply
+ * reusing the J8Unit test interface {@link VetoableChangeSupportTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VetoableChangeSupportTest
-implements org.j8unit.repository.java.beans.VetoableChangeSupportTests<VetoableChangeSupport> {
+implements VetoableChangeSupportTests<VetoableChangeSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.VetoableChangeSupport]
 

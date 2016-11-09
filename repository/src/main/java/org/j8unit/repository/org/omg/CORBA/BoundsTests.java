@@ -25,7 +25,7 @@ import org.omg.CORBA.Bounds;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BoundsTests<SUT extends Bounds>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.Bounds]
 

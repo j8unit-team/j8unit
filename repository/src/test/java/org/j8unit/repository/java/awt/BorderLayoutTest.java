@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BorderLayoutTest
-implements FactoryBasedJ8UnitTest<BorderLayout>, org.j8unit.repository.java.awt.BorderLayoutTests<BorderLayout> {
+implements FactoryBasedJ8UnitTest<BorderLayout>, BorderLayoutTests<BorderLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.BorderLayout]
 

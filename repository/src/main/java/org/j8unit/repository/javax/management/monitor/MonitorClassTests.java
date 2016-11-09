@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.monitor;
 import static org.junit.Assert.assertTrue;
 import javax.management.monitor.Monitor;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanRegistrationClassTests;
+import org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.monitor.MonitorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MonitorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MonitorClassTests<SUT extends Monitor>
-extends org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>,
-org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests<SUT> {
+extends MonitorMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, NotificationBroadcasterSupportClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.monitor.Monitor]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BookTest
-implements FactoryBasedJ8UnitTest<Book>, org.j8unit.repository.java.awt.print.BookTests<Book> {
+implements FactoryBasedJ8UnitTest<Book>, BookTests<Book> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.Book]
 

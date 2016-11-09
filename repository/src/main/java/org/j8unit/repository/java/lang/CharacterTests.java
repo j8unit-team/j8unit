@@ -5,6 +5,10 @@ import java.lang.Character.UnicodeBlock;
 import java.lang.Character.UnicodeScript;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests;
+import org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests;
+import org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.lang.CharacterClassTests}).
+ * {@link CharacterClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterTests<SUT extends Character>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, Character>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends SerializableTests<SUT>, ComparableTests<SUT, Character>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character]
 
@@ -161,7 +164,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests}).
+     * (see {@link UnicodeScriptClassTests}).
      * </p>
      *
      * @param SUT
@@ -172,7 +175,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeScriptTests<SUT extends UnicodeScript>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, UnicodeScript> {
+    extends EnumTests<SUT, UnicodeScript> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
 
@@ -191,7 +194,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests}).
+     * (see {@link SubsetClassTests}).
      * </p>
      *
      * @param SUT
@@ -202,7 +205,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SubsetTests<SUT extends Subset>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
 
@@ -290,7 +293,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests}).
+     * (see {@link UnicodeBlockClassTests}).
      * </p>
      *
      * @param SUT

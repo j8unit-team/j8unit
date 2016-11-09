@@ -6,6 +6,13 @@ import java.util.Locale.Builder;
 import java.util.Locale.FilteringMode;
 import java.util.Locale.LanguageRange;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.LocaleTests.CategoryTests;
+import org.j8unit.repository.java.util.LocaleTests.FilteringModeTests;
+import org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,8 +28,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.LocaleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LocaleTests}.
  * </p>
  *
  * <p>
@@ -51,8 +57,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocaleClassTests<SUT extends Locale>
-extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale]
     /**
@@ -87,8 +92,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link LanguageRangeTests}.
      * </p>
      *
      * <p>
@@ -117,7 +121,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LanguageRangeClassTests<SUT extends LanguageRange>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$LanguageRange]
         /**
@@ -154,8 +158,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.LocaleTests.CategoryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link CategoryTests}.
      * </p>
      *
      * <p>
@@ -184,7 +187,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CategoryClassTests<SUT extends java.util.Locale.Category>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$Category]
         /**
@@ -221,8 +224,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.LocaleTests.FilteringModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link FilteringModeTests}.
      * </p>
      *
      * <p>
@@ -251,7 +253,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilteringModeClassTests<SUT extends FilteringMode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$FilteringMode]
         /**
@@ -318,7 +320,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Builder>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$Builder]
         /**

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.PolicyFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PolicyFactory} (by simply reusing the
+ * J8Unit test interface {@link PolicyFactoryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyFactoryTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryTests<PolicyFactory> {
+implements PolicyFactoryTests<PolicyFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.PolicyFactory]
 

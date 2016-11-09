@@ -14,8 +14,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _RMIServerImpl_TieTest
-implements FactoryBasedJ8UnitTest<_RMIServerImpl_Tie>,
-org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServerImpl_TieTests<_RMIServerImpl_Tie> {
+implements FactoryBasedJ8UnitTest<_RMIServerImpl_Tie>, _RMIServerImpl_TieTests<_RMIServerImpl_Tie> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIServerImpl_Tie]
 

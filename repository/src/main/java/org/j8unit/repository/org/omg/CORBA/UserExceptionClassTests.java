@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ExceptionClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.UserException;
@@ -17,8 +19,7 @@ import org.omg.CORBA.UserException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.UserExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link UserExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CORBA.UserException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UserExceptionClassTests<SUT extends UserException>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
+extends IDLEntityClassTests<SUT>, ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UserException]
     /**

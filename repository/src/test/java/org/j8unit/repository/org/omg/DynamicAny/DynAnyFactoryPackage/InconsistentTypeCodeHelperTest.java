@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InconsistentTypeCodeHelper} (by
+ * simply reusing the J8Unit test interface {@link InconsistentTypeCodeHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InconsistentTypeCodeHelperTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelperTests<InconsistentTypeCodeHelper> {
+implements InconsistentTypeCodeHelperTests<InconsistentTypeCodeHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper]
 

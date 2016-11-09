@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests}).
+ * {@link FlavorTableClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlavorTableTests<SUT extends FlavorTable>
-extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
+extends FlavorMapTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.FlavorTable]
 

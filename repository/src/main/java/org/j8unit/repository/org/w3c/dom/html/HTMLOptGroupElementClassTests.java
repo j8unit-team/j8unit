@@ -17,8 +17,7 @@ import org.w3c.dom.html.HTMLOptGroupElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLOptGroupElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLOptGroupElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.html.HTMLOptGroupElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLOptGroupElementClassTests<SUT extends HTMLOptGroupElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLOptGroupElement]
     /**

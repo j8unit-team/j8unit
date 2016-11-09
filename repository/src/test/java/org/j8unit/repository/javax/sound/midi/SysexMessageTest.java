@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SysexMessageTest
-implements FactoryBasedJ8UnitTest<SysexMessage>, org.j8unit.repository.javax.sound.midi.SysexMessageTests<SysexMessage> {
+implements FactoryBasedJ8UnitTest<SysexMessage>, SysexMessageTests<SysexMessage> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.SysexMessage]
 

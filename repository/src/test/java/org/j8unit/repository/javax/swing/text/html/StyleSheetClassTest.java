@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StyleSheet} (by simply reusing the J8Unit
+ * test interface {@link StyleSheetClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StyleSheetClassTest
-implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<StyleSheet> {
+implements StyleSheetClassTests<StyleSheet> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet]
 
@@ -67,9 +72,14 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<Styl
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.StyleSheet]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListPainter} (by simply reusing the
+     * J8Unit test interface {@link ListPainterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ListPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.ListPainterClassTests<ListPainter> {
+    implements ListPainterClassTests<ListPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
 
@@ -84,9 +94,14 @@ implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests<Styl
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BoxPainter} (by simply reusing the
+     * J8Unit test interface {@link BoxPainterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BoxPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetClassTests.BoxPainterClassTests<BoxPainter> {
+    implements BoxPainterClassTests<BoxPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CardPermission} (by simply reusing the
+ * J8Unit test interface {@link CardPermissionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CardPermissionClassTest
-implements org.j8unit.repository.javax.smartcardio.CardPermissionClassTests<CardPermission> {
+implements CardPermissionClassTests<CardPermission> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardPermission]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextExtPackage.URLStringHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link URLStringHelper} (by simply reusing the
+ * J8Unit test interface {@link URLStringHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class URLStringHelperClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.URLStringHelperClassTests<URLStringHelper> {
+implements URLStringHelperClassTests<URLStringHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.URLStringHelper]
 

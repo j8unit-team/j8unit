@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IllegalFormatCodePointException} (by
+ * simply reusing the J8Unit test interface {@link IllegalFormatCodePointExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IllegalFormatCodePointExceptionTest
-implements org.j8unit.repository.java.util.IllegalFormatCodePointExceptionTests<IllegalFormatCodePointException> {
+implements IllegalFormatCodePointExceptionTests<IllegalFormatCodePointException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IllegalFormatCodePointException]
 

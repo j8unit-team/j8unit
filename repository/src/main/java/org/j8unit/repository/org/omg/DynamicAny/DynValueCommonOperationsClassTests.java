@@ -18,7 +18,7 @@ import org.omg.DynamicAny.DynValueCommonOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsTests}.
+ * {@link DynValueCommonOperationsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.DynamicAny.DynValueCommonOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueCommonOperationsClassTests<SUT extends DynValueCommonOperations>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsClassTests<SUT> {
+extends DynAnyOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynValueCommonOperations]
     /**

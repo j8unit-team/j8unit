@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.IdAssignmentPolicyValue;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IdAssignmentPolicyValue} (by simply
+ * reusing the J8Unit test interface {@link IdAssignmentPolicyValueClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IdAssignmentPolicyValueClassTest
-implements org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyValueClassTests<IdAssignmentPolicyValue> {
+implements IdAssignmentPolicyValueClassTests<IdAssignmentPolicyValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicyValue]
 

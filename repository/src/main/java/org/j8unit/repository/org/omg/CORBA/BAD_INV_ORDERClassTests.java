@@ -17,8 +17,7 @@ import org.omg.CORBA.BAD_INV_ORDER;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_INV_ORDERTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.BAD_INV_ORDER;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_INV_ORDERClassTests<SUT extends BAD_INV_ORDER>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.BAD_INV_ORDER]
     /**

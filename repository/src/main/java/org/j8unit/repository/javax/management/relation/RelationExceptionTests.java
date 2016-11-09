@@ -2,6 +2,7 @@ package org.j8unit.repository.javax.management.relation;
 
 import javax.management.relation.RelationException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.JMExceptionTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -14,7 +15,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.relation.RelationExceptionClassTests}).
+ * {@link RelationExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationExceptionTests<SUT extends RelationException>
-extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {
+extends JMExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationException]
 

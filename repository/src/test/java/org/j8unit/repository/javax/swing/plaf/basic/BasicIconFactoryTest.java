@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicIconFactoryTest
-implements FactoryBasedJ8UnitTest<BasicIconFactory>, org.j8unit.repository.javax.swing.plaf.basic.BasicIconFactoryTests<BasicIconFactory> {
+implements FactoryBasedJ8UnitTest<BasicIconFactory>, BasicIconFactoryTests<BasicIconFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicIconFactory]
 

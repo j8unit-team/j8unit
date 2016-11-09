@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MonitorInfo} (by simply reusing the
+ * J8Unit test interface {@link MonitorInfoTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MonitorInfoTest
-implements org.j8unit.repository.java.lang.management.MonitorInfoTests<MonitorInfo> {
+implements MonitorInfoTests<MonitorInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.MonitorInfo]
 

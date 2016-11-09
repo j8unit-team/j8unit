@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CRC32Test
-implements FactoryBasedJ8UnitTest<CRC32>, org.j8unit.repository.java.util.zip.CRC32Tests<CRC32> {
+implements FactoryBasedJ8UnitTest<CRC32>, CRC32Tests<CRC32> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.CRC32]
 

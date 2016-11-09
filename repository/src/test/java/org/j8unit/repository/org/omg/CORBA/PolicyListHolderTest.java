@@ -14,7 +14,7 @@ import org.omg.CORBA.PolicyListHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PolicyListHolderTest
-implements FactoryBasedJ8UnitTest<PolicyListHolder>, org.j8unit.repository.org.omg.CORBA.PolicyListHolderTests<PolicyListHolder> {
+implements FactoryBasedJ8UnitTest<PolicyListHolder>, PolicyListHolderTests<PolicyListHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PolicyListHolder]
 

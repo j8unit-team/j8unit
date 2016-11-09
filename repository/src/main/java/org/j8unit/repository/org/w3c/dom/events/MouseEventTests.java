@@ -17,7 +17,7 @@ import org.w3c.dom.events.MouseEvent;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.events.MouseEventClassTests}).
+ * {@link MouseEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.events.MouseEvent;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MouseEventTests<SUT extends MouseEvent>
-extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
+extends UIEventTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.events.MouseEvent]
 

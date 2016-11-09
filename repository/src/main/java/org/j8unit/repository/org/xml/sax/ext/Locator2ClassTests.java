@@ -2,6 +2,7 @@ package org.j8unit.repository.org.xml.sax.ext;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.LocatorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.ext.Locator2;
@@ -17,8 +18,7 @@ import org.xml.sax.ext.Locator2;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.ext.Locator2Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link Locator2Tests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.xml.sax.ext.Locator2;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Locator2ClassTests<SUT extends Locator2>
-extends org.j8unit.repository.org.xml.sax.LocatorClassTests<SUT> {
+extends LocatorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.Locator2]
     /**

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.NotIdentifiableEventTests}.
+ * {@link NotIdentifiableEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotIdentifiableEventClassTests<SUT extends NotIdentifiableEvent>
-extends org.j8unit.repository.javax.xml.bind.ValidationEventClassTests<SUT> {
+extends ValidationEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.NotIdentifiableEvent]
     /**

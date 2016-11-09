@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.midi.SynthesizerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SynthesizerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthesizerClassTests<SUT extends Synthesizer>
-extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
+extends MidiDeviceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Synthesizer]
     /**

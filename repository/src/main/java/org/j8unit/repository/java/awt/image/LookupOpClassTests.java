@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.image;
 import static org.junit.Assert.assertTrue;
 import java.awt.image.LookupOp;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.LookupOpTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LookupOpTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LookupOpClassTests<SUT extends LookupOp>
-extends org.j8unit.repository.java.awt.image.BufferedImageOpClassTests<SUT>, org.j8unit.repository.java.awt.image.RasterOpClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends BufferedImageOpClassTests<SUT>, RasterOpClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.LookupOp]
     /**

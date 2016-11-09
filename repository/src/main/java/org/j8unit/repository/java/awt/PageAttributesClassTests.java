@@ -8,6 +8,12 @@ import java.awt.PageAttributes.OrientationRequestedType;
 import java.awt.PageAttributes.OriginType;
 import java.awt.PageAttributes.PrintQualityType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests;
+import org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests;
+import org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests;
+import org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,8 +29,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.PageAttributesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PageAttributesTests}.
  * </p>
  *
  * <p>
@@ -53,7 +58,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PageAttributesClassTests<SUT extends PageAttributes>
-extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes]
     /**
@@ -89,7 +94,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests}.
+     * {@link PrintQualityTypeTests}.
      * </p>
      *
      * <p>
@@ -118,7 +123,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintQualityTypeClassTests<SUT extends PrintQualityType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$PrintQualityType]
         /**
@@ -155,8 +160,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.PageAttributesTests.ColorTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ColorTypeTests}.
      * </p>
      *
      * <p>
@@ -185,7 +189,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorTypeClassTests<SUT extends ColorType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$ColorType]
         /**
@@ -222,8 +226,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link OriginTypeTests}.
      * </p>
      *
      * <p>
@@ -252,7 +255,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OriginTypeClassTests<SUT extends OriginType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$OriginType]
         /**
@@ -289,8 +292,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link MediaTypeTests}.
      * </p>
      *
      * <p>
@@ -319,7 +321,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MediaTypeClassTests<SUT extends MediaType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$MediaType]
         /**
@@ -357,7 +359,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests}.
+     * {@link OrientationRequestedTypeTests}.
      * </p>
      *
      * <p>
@@ -386,7 +388,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OrientationRequestedTypeClassTests<SUT extends OrientationRequestedType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$OrientationRequestedType]
         /**

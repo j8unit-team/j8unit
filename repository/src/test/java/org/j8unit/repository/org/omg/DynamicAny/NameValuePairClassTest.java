@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.NameValuePair;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NameValuePair} (by simply reusing the
+ * J8Unit test interface {@link NameValuePairClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NameValuePairClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.NameValuePairClassTests<NameValuePair> {
+implements NameValuePairClassTests<NameValuePair> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.NameValuePair]
 

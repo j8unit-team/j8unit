@@ -7,6 +7,11 @@ import java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy;
 import java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy;
 import java.util.concurrent.ThreadPoolExecutor.DiscardPolicy;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.CallerRunsPolicyTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardOldestPolicyTests;
+import org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,8 +27,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ThreadPoolExecutorTests}.
  * </p>
  *
  * <p>
@@ -52,7 +56,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadPoolExecutorClassTests<SUT extends ThreadPoolExecutor>
-extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests<SUT> {
+extends AbstractExecutorServiceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
     /**
@@ -87,8 +91,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link DiscardPolicyTests}.
      * </p>
      *
      * <p>
@@ -117,7 +120,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DiscardPolicyClassTests<SUT extends DiscardPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
         /**
@@ -154,8 +157,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link AbortPolicyTests}.
      * </p>
      *
      * <p>
@@ -184,7 +186,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbortPolicyClassTests<SUT extends AbortPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
         /**
@@ -222,7 +224,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.CallerRunsPolicyTests}.
+     * {@link CallerRunsPolicyTests}.
      * </p>
      *
      * <p>
@@ -251,7 +253,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallerRunsPolicyClassTests<SUT extends CallerRunsPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
         /**
@@ -289,7 +291,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardOldestPolicyTests}.
+     * {@link DiscardOldestPolicyTests}.
      * </p>
      *
      * <p>
@@ -318,7 +320,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DiscardOldestPolicyClassTests<SUT extends DiscardOldestPolicy>
-    extends org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends RejectedExecutionHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
         /**

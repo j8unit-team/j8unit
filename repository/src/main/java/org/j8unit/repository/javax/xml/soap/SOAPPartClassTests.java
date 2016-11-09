@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.soap;
 import static org.junit.Assert.assertTrue;
 import javax.xml.soap.SOAPPart;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.w3c.dom.DocumentClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.soap.SOAPPartTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SOAPPartTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPPartClassTests<SUT extends SOAPPart>
-extends org.j8unit.repository.org.w3c.dom.DocumentClassTests<SUT>, org.j8unit.repository.javax.xml.soap.NodeClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends DocumentClassTests<SUT>, NodeClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SOAPPart]
     /**

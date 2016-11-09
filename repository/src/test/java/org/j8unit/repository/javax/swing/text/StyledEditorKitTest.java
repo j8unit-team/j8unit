@@ -25,7 +25,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StyledEditorKitTest
-implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests<StyledEditorKit> {
+implements FactoryBasedJ8UnitTest<StyledEditorKit>, StyledEditorKitTests<StyledEditorKit> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit]
 
@@ -46,10 +46,32 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FontFamilyAction} (by simply
+     * reusing the J8Unit test interface {@link FontFamilyActionTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FontFamilyActionTest
+    implements FontFamilyActionTests<FontFamilyAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
+
+        @Override
+        public FontFamilyAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.FontFamilyAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
+
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UnderlineActionTest
-    implements FactoryBasedJ8UnitTest<UnderlineAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.UnderlineActionTests<UnderlineAction> {
+    implements FactoryBasedJ8UnitTest<UnderlineAction>, UnderlineActionTests<UnderlineAction> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$UnderlineAction]
 
@@ -72,10 +94,54 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ForegroundAction} (by simply
+     * reusing the J8Unit test interface {@link ForegroundActionTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ForegroundActionTest
+    implements ForegroundActionTests<ForegroundAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+        @Override
+        public ForegroundAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.ForegroundAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AlignmentAction} (by simply
+     * reusing the J8Unit test interface {@link AlignmentActionTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class AlignmentActionTest
+    implements AlignmentActionTests<AlignmentAction> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
+
+        @Override
+        public AlignmentAction createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.AlignmentAction], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
+
+    }
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ItalicActionTest
-    implements FactoryBasedJ8UnitTest<ItalicAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ItalicActionTests<ItalicAction> {
+    implements FactoryBasedJ8UnitTest<ItalicAction>, ItalicActionTests<ItalicAction> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ItalicAction]
 
@@ -98,9 +164,14 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FontSizeAction} (by simply
+     * reusing the J8Unit test interface {@link FontSizeActionTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FontSizeActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.FontSizeActionTests<FontSizeAction> {
+    implements FontSizeActionTests<FontSizeAction> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontSizeAction]
 
@@ -115,60 +186,14 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class AlignmentActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.AlignmentActionTests<AlignmentAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-        @Override
-        public AlignmentAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.AlignmentAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$AlignmentAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class ForegroundActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ForegroundActionTests<ForegroundAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
-
-        @Override
-        public ForegroundAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.ForegroundAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$ForegroundAction]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FontFamilyActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.FontFamilyActionTests<FontFamilyAction> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
-
-        @Override
-        public FontFamilyAction createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.StyledEditorKit.FontFamilyAction], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyledEditorKit$FontFamilyAction]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link StyledTextAction} (by simply
+     * reusing the J8Unit test interface {@link StyledTextActionTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class StyledTextActionTest
-    implements org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests<StyledTextAction> {
+    implements StyledTextActionTests<StyledTextAction> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$StyledTextAction]
 
@@ -186,7 +211,7 @@ implements FactoryBasedJ8UnitTest<StyledEditorKit>, org.j8unit.repository.javax.
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BoldActionTest
-    implements FactoryBasedJ8UnitTest<BoldAction>, org.j8unit.repository.javax.swing.text.StyledEditorKitTests.BoldActionTests<BoldAction> {
+    implements FactoryBasedJ8UnitTest<BoldAction>, BoldActionTests<BoldAction> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyledEditorKit$BoldAction]
 

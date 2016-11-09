@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchElementExceptionTest
-implements FactoryBasedJ8UnitTest<NoSuchElementException>, org.j8unit.repository.java.util.NoSuchElementExceptionTests<NoSuchElementException> {
+implements FactoryBasedJ8UnitTest<NoSuchElementException>, NoSuchElementExceptionTests<NoSuchElementException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.NoSuchElementException]
 

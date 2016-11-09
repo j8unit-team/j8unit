@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectReferenceTemplate} (by simply
+ * reusing the J8Unit test interface {@link ObjectReferenceTemplateClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectReferenceTemplateClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateClassTests<ObjectReferenceTemplate> {
+implements ObjectReferenceTemplateClassTests<ObjectReferenceTemplate> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
 

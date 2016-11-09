@@ -2,6 +2,8 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.xml.sax.AttributeListClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.AttributeListImpl;
@@ -17,8 +19,7 @@ import org.xml.sax.helpers.AttributeListImpl;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.helpers.AttributeListImplTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AttributeListImplTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.xml.sax.helpers.AttributeListImpl;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeListImplClassTests<SUT extends AttributeListImpl>
-extends org.j8unit.repository.org.xml.sax.AttributeListClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends AttributeListClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.AttributeListImpl]
     /**

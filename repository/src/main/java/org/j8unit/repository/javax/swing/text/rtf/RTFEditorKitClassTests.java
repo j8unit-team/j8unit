@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.text.rtf;
 import static org.junit.Assert.assertTrue;
 import javax.swing.text.rtf.RTFEditorKit;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RTFEditorKitTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RTFEditorKitClassTests<SUT extends RTFEditorKit>
-extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<SUT> {
+extends StyledEditorKitClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.rtf.RTFEditorKit]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Security} (by simply reusing the J8Unit
+ * test interface {@link SecurityClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SecurityClassTest
-implements org.j8unit.repository.java.security.SecurityClassTests<Security> {
+implements SecurityClassTests<Security> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Security]
 
@@ -184,26 +189,6 @@ implements org.j8unit.repository.java.security.SecurityClassTests<Security> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.Security#getProviders(String) public
-     * static java.security.Provider[] java.security.Security.getProviders(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getProviders_String()
-    throws Exception {
-        // write some test for {@link java.security.Security#getProviders(String)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.security.Security#getProviders() public static
      * java.security.Provider[] java.security.Security.getProviders()}.
      *
@@ -241,6 +226,26 @@ implements org.j8unit.repository.java.security.SecurityClassTests<Security> {
     public void test_getProviders_Map()
     throws Exception {
         // write some test for {@link java.security.Security#getProviders(java.util.Map)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.Security#getProviders(String) public
+     * static java.security.Provider[] java.security.Security.getProviders(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getProviders_String()
+    throws Exception {
+        // write some test for {@link java.security.Security#getProviders(String)}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.Security]

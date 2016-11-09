@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotSerializableExceptionTest
-implements FactoryBasedJ8UnitTest<NotSerializableException>, org.j8unit.repository.java.io.NotSerializableExceptionTests<NotSerializableException> {
+implements FactoryBasedJ8UnitTest<NotSerializableException>, NotSerializableExceptionTests<NotSerializableException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.NotSerializableException]
 

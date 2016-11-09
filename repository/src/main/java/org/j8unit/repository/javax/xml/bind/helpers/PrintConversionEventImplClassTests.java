@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.bind.helpers;
 import static org.junit.Assert.assertTrue;
 import javax.xml.bind.helpers.PrintConversionEventImpl;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.bind.PrintConversionEventClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImplTests}.
+ * {@link PrintConversionEventImplTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintConversionEventImplClassTests<SUT extends PrintConversionEventImpl>
-extends org.j8unit.repository.javax.xml.bind.PrintConversionEventClassTests<SUT>,
-org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplClassTests<SUT> {
+extends PrintConversionEventClassTests<SUT>, ValidationEventImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.PrintConversionEventImpl]
     /**

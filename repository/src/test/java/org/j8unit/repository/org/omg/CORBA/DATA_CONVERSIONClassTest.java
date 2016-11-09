@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DATA_CONVERSION;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DATA_CONVERSION} (by simply reusing the
+ * J8Unit test interface {@link DATA_CONVERSIONClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DATA_CONVERSIONClassTest
-implements org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONClassTests<DATA_CONVERSION> {
+implements DATA_CONVERSIONClassTests<DATA_CONVERSION> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DATA_CONVERSION]
 

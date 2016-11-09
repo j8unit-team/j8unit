@@ -3,6 +3,7 @@ package org.j8unit.repository.java.sql;
 import java.sql.Timestamp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.DateTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimestampTests<SUT extends Timestamp>
-extends org.j8unit.repository.java.util.DateTests<SUT> {
+extends DateTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.Timestamp]
 

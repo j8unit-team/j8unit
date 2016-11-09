@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.IndexedPropertyChangeEventTests}.
+ * {@link IndexedPropertyChangeEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndexedPropertyChangeEventClassTests<SUT extends IndexedPropertyChangeEvent>
-extends org.j8unit.repository.java.beans.PropertyChangeEventClassTests<SUT> {
+extends PropertyChangeEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.IndexedPropertyChangeEvent]
     /**

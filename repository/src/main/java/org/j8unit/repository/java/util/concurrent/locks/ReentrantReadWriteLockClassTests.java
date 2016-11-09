@@ -5,6 +5,10 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests;
+import org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +25,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests}.
+ * {@link ReentrantReadWriteLockTests}.
  * </p>
  *
  * <p>
@@ -50,8 +54,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReentrantReadWriteLockClassTests<SUT extends ReentrantReadWriteLock>
-extends org.j8unit.repository.java.util.concurrent.locks.ReadWriteLockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ReadWriteLockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
     /**
@@ -86,8 +89,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ReadLockTests}.
      * </p>
      *
      * <p>
@@ -116,8 +118,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReadLockClassTests<SUT extends ReadLock>
-    extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends LockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
         /**
@@ -154,8 +155,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link WriteLockTests}.
      * </p>
      *
      * <p>
@@ -184,8 +184,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface WriteLockClassTests<SUT extends WriteLock>
-    extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends LockClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
         /**

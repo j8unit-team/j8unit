@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.JobImpressionsSupported;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests;
+import org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.JobImpressionsSupportedTests}.
+ * {@link JobImpressionsSupportedTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobImpressionsSupportedClassTests<SUT extends JobImpressionsSupported>
-extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeClassTests<SUT>,
-org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
+extends SupportedValuesAttributeClassTests<SUT>, SetOfIntegerSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobImpressionsSupported]
     /**

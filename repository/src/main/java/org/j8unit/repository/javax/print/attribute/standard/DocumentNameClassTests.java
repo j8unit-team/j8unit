@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.DocumentName;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.DocAttributeClassTests;
+import org.j8unit.repository.javax.print.attribute.TextSyntaxClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.DocumentNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentNameTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentNameClassTests<SUT extends DocumentName>
-extends org.j8unit.repository.javax.print.attribute.DocAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.TextSyntaxClassTests<SUT> {
+extends DocAttributeClassTests<SUT>, TextSyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.DocumentName]
     /**

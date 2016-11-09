@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -19,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.SignatureMethodParameterSpecTests}.
+ * {@link SignatureMethodParameterSpecTests}.
  * </p>
  *
  * <p>
@@ -48,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SignatureMethodParameterSpecClassTests<SUT extends SignatureMethodParameterSpec>
-extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTests<SUT> {
+extends AlgorithmParameterSpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.SignatureMethodParameterSpec]
     /**

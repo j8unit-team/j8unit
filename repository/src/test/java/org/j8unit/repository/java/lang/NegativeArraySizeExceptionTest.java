@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NegativeArraySizeExceptionTest
-implements FactoryBasedJ8UnitTest<NegativeArraySizeException>, org.j8unit.repository.java.lang.NegativeArraySizeExceptionTests<NegativeArraySizeException> {
+implements FactoryBasedJ8UnitTest<NegativeArraySizeException>, NegativeArraySizeExceptionTests<NegativeArraySizeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NegativeArraySizeException]
 

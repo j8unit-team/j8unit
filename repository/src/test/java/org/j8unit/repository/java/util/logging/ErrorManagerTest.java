@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ErrorManagerTest
-implements FactoryBasedJ8UnitTest<ErrorManager>, org.j8unit.repository.java.util.logging.ErrorManagerTests<ErrorManager> {
+implements FactoryBasedJ8UnitTest<ErrorManager>, ErrorManagerTests<ErrorManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.ErrorManager]
 

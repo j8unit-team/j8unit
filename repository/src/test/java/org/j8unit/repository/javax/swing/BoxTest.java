@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Box} (by simply reusing the J8Unit
+ * test interface {@link BoxTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BoxTest
-implements org.j8unit.repository.javax.swing.BoxTests<Box> {
+implements BoxTests<Box> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.Box]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.swing.BoxTests<Box> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.Box]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Filler} (by simply reusing the
+     * J8Unit test interface {@link FillerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FillerTest
-    implements org.j8unit.repository.javax.swing.BoxTests.FillerTests<Filler> {
+    implements FillerTests<Filler> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.Box$Filler]
 

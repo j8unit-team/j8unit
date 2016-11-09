@@ -14,7 +14,7 @@ import org.omg.CosNaming._NamingContextExtStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _NamingContextExtStubTest
-implements FactoryBasedJ8UnitTest<_NamingContextExtStub>, org.j8unit.repository.org.omg.CosNaming._NamingContextExtStubTests<_NamingContextExtStub> {
+implements FactoryBasedJ8UnitTest<_NamingContextExtStub>, _NamingContextExtStubTests<_NamingContextExtStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming._NamingContextExtStub]
 

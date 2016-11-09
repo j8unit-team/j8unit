@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Dialog} (by simply reusing the J8Unit
+ * test interface {@link DialogTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DialogTest
-implements org.j8unit.repository.java.awt.DialogTests<Dialog> {
+implements DialogTests<Dialog> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog]
 
@@ -29,10 +34,15 @@ implements org.j8unit.repository.java.awt.DialogTests<Dialog> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Dialog]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ModalExclusionType} (by simply
+     * reusing the J8Unit test interface {@link ModalExclusionTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModalExclusionTypeTest
-    implements org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests<ModalExclusionType> {
+    implements ModalExclusionTypeTests<ModalExclusionType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalExclusionType]
 
@@ -55,10 +65,15 @@ implements org.j8unit.repository.java.awt.DialogTests<Dialog> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ModalityType} (by simply reusing
+     * the J8Unit test interface {@link ModalityTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ModalityTypeTest
-    implements org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests<ModalityType> {
+    implements ModalityTypeTests<ModalityType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalityType]
 

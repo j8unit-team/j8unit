@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CertificateFactory} (by simply reusing
+ * the J8Unit test interface {@link CertificateFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CertificateFactoryClassTest
-implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests<CertificateFactory> {
+implements CertificateFactoryClassTests<CertificateFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertificateFactory]
 
@@ -22,10 +27,9 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.CertificateFactory#getInstance(String, String) public static final
-     * java.security.cert.CertificateFactory
-     * java.security.cert.CertificateFactory.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.cert.CertificateException,java.security.NoSuchProviderException}.
+     * {@link java.security.cert.CertificateFactory#getInstance(String) public static final
+     * java.security.cert.CertificateFactory java.security.cert.CertificateFactory.getInstance(java.lang.String) throws
+     * java.security.cert.CertificateException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -37,9 +41,9 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getInstance_String_String()
+    public void test_getInstance_String()
     throws Exception {
-        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String, String)}
+        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String)}
     }
 
     /**
@@ -68,9 +72,10 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.cert.CertificateFactory#getInstance(String) public static final
-     * java.security.cert.CertificateFactory java.security.cert.CertificateFactory.getInstance(java.lang.String) throws
-     * java.security.cert.CertificateException}.
+     * {@link java.security.cert.CertificateFactory#getInstance(String, String) public static final
+     * java.security.cert.CertificateFactory
+     * java.security.cert.CertificateFactory.getInstance(java.lang.String,java.lang.String) throws
+     * java.security.cert.CertificateException,java.security.NoSuchProviderException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -82,9 +87,9 @@ implements org.j8unit.repository.java.security.cert.CertificateFactoryClassTests
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getInstance_String()
+    public void test_getInstance_String_String()
     throws Exception {
-        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String)}
+        // write some test for {@link java.security.cert.CertificateFactory#getInstance(String, String)}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.security.cert.CertificateFactory]

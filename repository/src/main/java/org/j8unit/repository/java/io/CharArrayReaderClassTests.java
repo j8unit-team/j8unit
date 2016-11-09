@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.CharArrayReaderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CharArrayReaderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharArrayReaderClassTests<SUT extends CharArrayReader>
-extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
+extends ReaderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.CharArrayReader]
     /**

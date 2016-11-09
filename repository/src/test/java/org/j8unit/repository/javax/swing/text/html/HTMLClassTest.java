@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HTML} (by simply reusing the J8Unit test
+ * interface {@link HTMLClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLClassTest
-implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
+implements HTMLClassTests<HTML> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML]
 
@@ -150,9 +155,79 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Tag} (by simply reusing the J8Unit
+     * test interface {@link TagClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TagClassTest
+    implements TagClassTests<Tag> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+
+        @Override
+        public Class<Tag> createNewSUT() {
+            return Tag.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.html.HTML.Tag#Tag() public
+         * javax.swing.text.html.HTML$Tag()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Tag()
+        throws Exception {
+            // create new instance
+            final Tag sut = new Tag();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Attribute} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class AttributeClassTest
+    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        @Override
+        public Class<Attribute> createNewSUT() {
+            return Attribute.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownTag} (by simply reusing the
+     * J8Unit test interface {@link UnknownTagClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class UnknownTagClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.UnknownTagClassTests<UnknownTag> {
+    implements UnknownTagClassTests<UnknownTag> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
 
@@ -187,61 +262,6 @@ implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests<HTML> {
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class AttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.AttributeClassTests<Attribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-        @Override
-        public Class<Attribute> createNewSUT() {
-            return Attribute.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TagClassTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests<Tag> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Tag]
-
-        @Override
-        public Class<Tag> createNewSUT() {
-            return Tag.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link javax.swing.text.html.HTML.Tag#Tag() public
-         * javax.swing.text.html.HTML$Tag()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_Tag()
-        throws Exception {
-            // create new instance
-            final Tag sut = new Tag();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Tag]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Tag]
 
     }
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link GraphicAttribute} (by simply reusing
+ * the J8Unit test interface {@link GraphicAttributeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GraphicAttributeTest
-implements org.j8unit.repository.java.awt.font.GraphicAttributeTests<GraphicAttribute> {
+implements GraphicAttributeTests<GraphicAttribute> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.GraphicAttribute]
 

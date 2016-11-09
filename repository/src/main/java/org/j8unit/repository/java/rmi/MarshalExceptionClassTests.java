@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.MarshalExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MarshalExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MarshalExceptionClassTests<SUT extends MarshalException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
+extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.MarshalException]
     /**

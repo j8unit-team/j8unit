@@ -14,7 +14,7 @@ import org.omg.CORBA.INTF_REPOS;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INTF_REPOSTest
-implements FactoryBasedJ8UnitTest<INTF_REPOS>, org.j8unit.repository.org.omg.CORBA.INTF_REPOSTests<INTF_REPOS> {
+implements FactoryBasedJ8UnitTest<INTF_REPOS>, INTF_REPOSTests<INTF_REPOS> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INTF_REPOS]
 

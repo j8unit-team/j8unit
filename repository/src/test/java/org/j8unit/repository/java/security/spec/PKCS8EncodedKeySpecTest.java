@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PKCS8EncodedKeySpec} (by simply
+ * reusing the J8Unit test interface {@link PKCS8EncodedKeySpecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PKCS8EncodedKeySpecTest
-implements org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecTests<PKCS8EncodedKeySpec> {
+implements PKCS8EncodedKeySpecTests<PKCS8EncodedKeySpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.PKCS8EncodedKeySpec]
 

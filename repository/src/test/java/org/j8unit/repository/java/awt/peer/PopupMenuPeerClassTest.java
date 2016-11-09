@@ -4,9 +4,14 @@ import java.awt.peer.PopupMenuPeer;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PopupMenuPeer} (by simply reusing the
+ * J8Unit test interface {@link PopupMenuPeerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PopupMenuPeerClassTest
-implements org.j8unit.repository.java.awt.peer.PopupMenuPeerClassTests<PopupMenuPeer> {
+implements PopupMenuPeerClassTests<PopupMenuPeer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.PopupMenuPeer]
 

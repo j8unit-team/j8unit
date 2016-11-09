@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing.plaf.synth;
 import javax.swing.plaf.synth.SynthTabbedPaneUI;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.PropertyChangeListenerTests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthTabbedPaneUIClassTests}).
+ * {@link SynthTabbedPaneUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthTabbedPaneUITests<SUT extends SynthTabbedPaneUI>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>,
-org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests<SUT> {
+extends PropertyChangeListenerTests<SUT>, SynthUITests<SUT>, BasicTabbedPaneUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
 

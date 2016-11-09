@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SQLDataException} (by simply reusing the
+ * J8Unit test interface {@link SQLDataExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SQLDataExceptionClassTest
-implements org.j8unit.repository.java.sql.SQLDataExceptionClassTests<SQLDataException> {
+implements SQLDataExceptionClassTests<SQLDataException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLDataException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class Adler32Test
-implements FactoryBasedJ8UnitTest<Adler32>, org.j8unit.repository.java.util.zip.Adler32Tests<Adler32> {
+implements FactoryBasedJ8UnitTest<Adler32>, Adler32Tests<Adler32> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Adler32]
 

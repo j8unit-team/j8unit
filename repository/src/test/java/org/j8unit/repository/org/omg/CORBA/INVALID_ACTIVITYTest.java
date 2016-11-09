@@ -14,7 +14,7 @@ import org.omg.CORBA.INVALID_ACTIVITY;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INVALID_ACTIVITYTest
-implements FactoryBasedJ8UnitTest<INVALID_ACTIVITY>, org.j8unit.repository.org.omg.CORBA.INVALID_ACTIVITYTests<INVALID_ACTIVITY> {
+implements FactoryBasedJ8UnitTest<INVALID_ACTIVITY>, INVALID_ACTIVITYTests<INVALID_ACTIVITY> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INVALID_ACTIVITY]
 

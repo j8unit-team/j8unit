@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CharConversionExceptionTest
-implements FactoryBasedJ8UnitTest<CharConversionException>, org.j8unit.repository.java.io.CharConversionExceptionTests<CharConversionException> {
+implements FactoryBasedJ8UnitTest<CharConversionException>, CharConversionExceptionTests<CharConversionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.CharConversionException]
 

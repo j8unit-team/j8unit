@@ -14,7 +14,7 @@ import org.omg.CORBA.DynAnyPackage.Invalid;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidTest
-implements FactoryBasedJ8UnitTest<Invalid>, org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidTests<Invalid> {
+implements FactoryBasedJ8UnitTest<Invalid>, InvalidTests<Invalid> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynAnyPackage.Invalid]
 

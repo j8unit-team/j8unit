@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HexBinaryAdapterTest
-implements FactoryBasedJ8UnitTest<HexBinaryAdapter>, org.j8unit.repository.javax.xml.bind.annotation.adapters.HexBinaryAdapterTests<HexBinaryAdapter> {
+implements FactoryBasedJ8UnitTest<HexBinaryAdapter>, HexBinaryAdapterTests<HexBinaryAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.HexBinaryAdapter]
 

@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper;
@@ -17,8 +18,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectIdHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectIdHelperClassTests<SUT extends ObjectIdHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.ObjectIdHelper]
     /**

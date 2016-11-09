@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.concurrent;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.ConcurrentNavigableMap;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.NavigableMapClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ConcurrentNavigableMapTests}.
+ * {@link ConcurrentNavigableMapTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentNavigableMapClassTests<SUT extends ConcurrentNavigableMap>
-extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT>, org.j8unit.repository.java.util.NavigableMapClassTests<SUT> {
+extends ConcurrentMapClassTests<SUT>, NavigableMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentNavigableMap]
     /**

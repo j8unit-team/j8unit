@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplate;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateTests}.
+ * {@link ObjectReferenceTemplateTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableInterceptor.ObjectReferenceTemplate;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectReferenceTemplateClassTests<SUT extends ObjectReferenceTemplate>
-extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactoryClassTests<SUT> {
+extends ObjectReferenceFactoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplate]
     /**

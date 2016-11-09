@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LayerUITest<V extends Component>
-implements FactoryBasedJ8UnitTest<LayerUI<V>>, org.j8unit.repository.javax.swing.plaf.LayerUITests<LayerUI<V>, V> {
+implements FactoryBasedJ8UnitTest<LayerUI<V>>, LayerUITests<LayerUI<V>, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.LayerUI]
 

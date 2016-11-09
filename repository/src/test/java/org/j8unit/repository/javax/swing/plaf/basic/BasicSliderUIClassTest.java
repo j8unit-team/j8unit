@@ -15,9 +15,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicSliderUI} (by simply reusing the
+ * J8Unit test interface {@link BasicSliderUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicSliderUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<BasicSliderUI> {
+implements BasicSliderUIClassTests<BasicSliderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI]
 
@@ -74,9 +79,108 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ActionScroller} (by simply reusing
+     * the J8Unit test interface {@link ActionScrollerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ActionScrollerClassTest
+    implements ActionScrollerClassTests<ActionScroller> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+
+        @Override
+        public Class<ActionScroller> createNewSUT() {
+            return ActionScroller.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.ActionScroller#ActionScroller(javax.swing.plaf.basic.BasicSliderUI, javax.swing.JSlider, int, boolean)
+         * public
+         * javax.swing.plaf.basic.BasicSliderUI$ActionScroller(javax.swing.plaf.basic.BasicSliderUI,javax.swing.JSlider,int,boolean)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ActionScroller_BasicSliderUI_JSlider_int_boolean()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ActionScroller sut = null; // = new ActionScroller(javax.swing.plaf.basic.BasicSliderUI,
+                                             // javax.swing.JSlider, int, boolean);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+
+        @Override
+        public Class<PropertyChangeHandler> createNewSUT() {
+            return PropertyChangeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PropertyChangeHandler_BasicSliderUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final PropertyChangeHandler sut = null; // = new
+                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ScrollListener} (by simply reusing
+     * the J8Unit test interface {@link ScrollListenerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ScrollListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ScrollListenerClassTests<ScrollListener> {
+    implements ScrollListenerClassTests<ScrollListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
 
@@ -139,22 +243,27 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TrackListener} (by simply reusing the
+     * J8Unit test interface {@link TrackListenerClassTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+    @RunWith(J8Unit4.class)
+    public static class TrackListenerClassTest
+    implements TrackListenerClassTests<TrackListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
 
         @Override
-        public Class<PropertyChangeHandler> createNewSUT() {
-            return PropertyChangeHandler.class;
+        public Class<TrackListener> createNewSUT() {
+            return TrackListener.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI)}.
+         * {@link javax.swing.plaf.basic.BasicSliderUI.TrackListener#TrackListener(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$TrackListener(javax.swing.plaf.basic.BasicSliderUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -166,23 +275,27 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_PropertyChangeHandler_BasicSliderUI()
+        public void create_TrackListener_BasicSliderUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final PropertyChangeHandler sut = null; // = new
-                                                    // PropertyChangeHandler(javax.swing.plaf.basic.BasicSliderUI);
+            final TrackListener sut = null; // = new TrackListener(javax.swing.plaf.basic.BasicSliderUI);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$PropertyChangeHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ChangeHandler} (by simply reusing the
+     * J8Unit test interface {@link ChangeHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ChangeHandlerClassTests<ChangeHandler> {
+    implements ChangeHandlerClassTests<ChangeHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
 
@@ -220,45 +333,11 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ComponentHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ComponentHandlerClassTests<ComponentHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-        @Override
-        public Class<ComponentHandler> createNewSUT() {
-            return ComponentHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ComponentHandler_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ComponentHandler sut = null; // = new ComponentHandler(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FocusHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.FocusHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
@@ -300,23 +379,27 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ActionScrollerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ActionScrollerClassTests<ActionScroller> {
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ComponentHandler} (by simply reusing
+     * the J8Unit test interface {@link ComponentHandlerClassTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+    @RunWith(J8Unit4.class)
+    public static class ComponentHandlerClassTest
+    implements ComponentHandlerClassTests<ComponentHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
         @Override
-        public Class<ActionScroller> createNewSUT() {
-            return ActionScroller.class;
+        public Class<ComponentHandler> createNewSUT() {
+            return ComponentHandler.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.ActionScroller#ActionScroller(javax.swing.plaf.basic.BasicSliderUI, javax.swing.JSlider, int, boolean)
-         * public
-         * javax.swing.plaf.basic.BasicSliderUI$ActionScroller(javax.swing.plaf.basic.BasicSliderUI,javax.swing.JSlider,int,boolean)}.
+         * {@link javax.swing.plaf.basic.BasicSliderUI.ComponentHandler#ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)
+         * public javax.swing.plaf.basic.BasicSliderUI$ComponentHandler(javax.swing.plaf.basic.BasicSliderUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -328,57 +411,16 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_ActionScroller_BasicSliderUI_JSlider_int_boolean()
+        public void create_ComponentHandler_BasicSliderUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final ActionScroller sut = null; // = new ActionScroller(javax.swing.plaf.basic.BasicSliderUI,
-                                             // javax.swing.JSlider, int, boolean);
+            final ComponentHandler sut = null; // = new ComponentHandler(javax.swing.plaf.basic.BasicSliderUI);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TrackListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.TrackListenerClassTests<TrackListener> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
-
-        @Override
-        public Class<TrackListener> createNewSUT() {
-            return TrackListener.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSliderUI.TrackListener#TrackListener(javax.swing.plaf.basic.BasicSliderUI)
-         * public javax.swing.plaf.basic.BasicSliderUI$TrackListener(javax.swing.plaf.basic.BasicSliderUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TrackListener_BasicSliderUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final TrackListener sut = null; // = new TrackListener(javax.swing.plaf.basic.BasicSliderUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
     }
 

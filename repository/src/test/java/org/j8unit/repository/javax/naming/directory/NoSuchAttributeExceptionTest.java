@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchAttributeExceptionTest
-implements FactoryBasedJ8UnitTest<NoSuchAttributeException>,
-org.j8unit.repository.javax.naming.directory.NoSuchAttributeExceptionTests<NoSuchAttributeException> {
+implements FactoryBasedJ8UnitTest<NoSuchAttributeException>, NoSuchAttributeExceptionTests<NoSuchAttributeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.NoSuchAttributeException]
 

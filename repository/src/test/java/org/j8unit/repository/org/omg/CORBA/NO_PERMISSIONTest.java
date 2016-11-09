@@ -14,7 +14,7 @@ import org.omg.CORBA.NO_PERMISSION;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NO_PERMISSIONTest
-implements FactoryBasedJ8UnitTest<NO_PERMISSION>, org.j8unit.repository.org.omg.CORBA.NO_PERMISSIONTests<NO_PERMISSION> {
+implements FactoryBasedJ8UnitTest<NO_PERMISSION>, NO_PERMISSIONTests<NO_PERMISSION> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_PERMISSION]
 

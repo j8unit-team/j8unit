@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MessageDigestSpi} (by simply reusing the
+ * J8Unit test interface {@link MessageDigestSpiClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MessageDigestSpiClassTest
-implements org.j8unit.repository.java.security.MessageDigestSpiClassTests<MessageDigestSpi> {
+implements MessageDigestSpiClassTests<MessageDigestSpi> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.MessageDigestSpi]
 

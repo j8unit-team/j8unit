@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Level} (by simply reusing the J8Unit test
+ * interface {@link LevelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LevelClassTest
-implements org.j8unit.repository.java.util.logging.LevelClassTests<Level> {
+implements LevelClassTests<Level> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.Level]
 

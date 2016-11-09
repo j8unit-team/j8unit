@@ -20,7 +20,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PageAttributesTest
-implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.awt.PageAttributesTests<PageAttributes> {
+implements FactoryBasedJ8UnitTest<PageAttributes>, PageAttributesTests<PageAttributes> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes]
 
@@ -41,10 +41,15 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.PageAttributes]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PrintQualityType} (by simply
+     * reusing the J8Unit test interface {@link PrintQualityTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class PrintQualityTypeTest
-    implements org.j8unit.repository.java.awt.PageAttributesTests.PrintQualityTypeTests<PrintQualityType> {
+    implements PrintQualityTypeTests<PrintQualityType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$PrintQualityType]
 
@@ -69,10 +74,15 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorType} (by simply reusing the
+     * J8Unit test interface {@link ColorTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ColorTypeTest
-    implements org.j8unit.repository.java.awt.PageAttributesTests.ColorTypeTests<ColorType> {
+    implements ColorTypeTests<ColorType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$ColorType]
 
@@ -96,10 +106,15 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link OriginType} (by simply reusing
+     * the J8Unit test interface {@link OriginTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class OriginTypeTest
-    implements org.j8unit.repository.java.awt.PageAttributesTests.OriginTypeTests<OriginType> {
+    implements OriginTypeTests<OriginType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OriginType]
 
@@ -123,10 +138,15 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MediaType} (by simply reusing the
+     * J8Unit test interface {@link MediaTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MediaTypeTest
-    implements org.j8unit.repository.java.awt.PageAttributesTests.MediaTypeTests<MediaType> {
+    implements MediaTypeTests<MediaType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$MediaType]
 
@@ -295,10 +315,15 @@ implements FactoryBasedJ8UnitTest<PageAttributes>, org.j8unit.repository.java.aw
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link OrientationRequestedType} (by
+     * simply reusing the J8Unit test interface {@link OrientationRequestedTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class OrientationRequestedTypeTest
-    implements org.j8unit.repository.java.awt.PageAttributesTests.OrientationRequestedTypeTests<OrientationRequestedType> {
+    implements OrientationRequestedTypeTests<OrientationRequestedType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PageAttributes$OrientationRequestedType]
 

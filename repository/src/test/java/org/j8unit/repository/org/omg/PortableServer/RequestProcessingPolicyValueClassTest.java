@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.RequestProcessingPolicyValue;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RequestProcessingPolicyValue} (by simply
+ * reusing the J8Unit test interface {@link RequestProcessingPolicyValueClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RequestProcessingPolicyValueClassTest
-implements org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyValueClassTests<RequestProcessingPolicyValue> {
+implements RequestProcessingPolicyValueClassTests<RequestProcessingPolicyValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.RequestProcessingPolicyValue]
 

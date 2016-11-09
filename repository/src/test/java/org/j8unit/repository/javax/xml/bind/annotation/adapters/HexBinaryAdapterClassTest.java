@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HexBinaryAdapter} (by simply reusing the
+ * J8Unit test interface {@link HexBinaryAdapterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HexBinaryAdapterClassTest
-implements org.j8unit.repository.javax.xml.bind.annotation.adapters.HexBinaryAdapterClassTests<HexBinaryAdapter> {
+implements HexBinaryAdapterClassTests<HexBinaryAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.adapters.HexBinaryAdapter]
 

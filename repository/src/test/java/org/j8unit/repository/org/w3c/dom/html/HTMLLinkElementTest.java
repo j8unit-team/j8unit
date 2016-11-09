@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLLinkElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLLinkElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLLinkElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLLinkElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLLinkElementTests<HTMLLinkElement> {
+implements HTMLLinkElementTests<HTMLLinkElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLLinkElement]
 

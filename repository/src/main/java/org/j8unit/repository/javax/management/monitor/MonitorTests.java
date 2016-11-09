@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.monitor;
 import javax.management.monitor.Monitor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanRegistrationTests;
+import org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.monitor.MonitorClassTests}).
+ * {@link MonitorClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MonitorTests<SUT extends Monitor>
-extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationTests<SUT>,
-org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> {
+extends MonitorMBeanTests<SUT>, MBeanRegistrationTests<SUT>, NotificationBroadcasterSupportTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.Monitor]
 
@@ -83,6 +84,30 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.monitor.Monitor#getGranularityPeriod() public synchronized long
+     * javax.management.monitor.Monitor.getGranularityPeriod()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getGranularityPeriod()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#isActive() public
      * synchronized boolean javax.management.monitor.Monitor.isActive()}.
      *
@@ -106,9 +131,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.monitor.Monitor#getGranularityPeriod() public synchronized long
-     * javax.management.monitor.Monitor.getGranularityPeriod()}.
+     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#getObservedObject()
+     * public synchronized javax.management.ObjectName javax.management.monitor.Monitor.getObservedObject()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,7 +145,7 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getGranularityPeriod()
+    public default void test_getObservedObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,29 +192,6 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.monitor.Monitor#getObservedObject()
-     * public synchronized javax.management.ObjectName javax.management.monitor.Monitor.getObservedObject()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getObservedObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ThreadPolicy;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.ThreadPolicy;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ThreadPolicyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.ThreadPolicy;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadPolicyClassTests<SUT extends ThreadPolicy>
-extends org.j8unit.repository.org.omg.PortableServer.ThreadPolicyOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT> {
+extends ThreadPolicyOperationsClassTests<SUT>, PolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ThreadPolicy]
     /**

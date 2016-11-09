@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PSource} (by simply reusing the J8Unit
+ * test interface {@link PSourceClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PSourceClassTest
-implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<PSource> {
+implements PSourceClassTests<PSource> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.PSource]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests<PSource> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.crypto.spec.PSource]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PSpecified} (by simply reusing the
+     * J8Unit test interface {@link PSpecifiedClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PSpecifiedClassTest
-    implements org.j8unit.repository.javax.crypto.spec.PSourceClassTests.PSpecifiedClassTests<PSpecified> {
+    implements PSpecifiedClassTests<PSpecified> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.PSource$PSpecified]
 

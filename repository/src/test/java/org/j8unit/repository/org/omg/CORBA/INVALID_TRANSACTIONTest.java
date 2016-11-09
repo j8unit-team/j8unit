@@ -14,7 +14,7 @@ import org.omg.CORBA.INVALID_TRANSACTION;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INVALID_TRANSACTIONTest
-implements FactoryBasedJ8UnitTest<INVALID_TRANSACTION>, org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONTests<INVALID_TRANSACTION> {
+implements FactoryBasedJ8UnitTest<INVALID_TRANSACTION>, INVALID_TRANSACTIONTests<INVALID_TRANSACTION> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INVALID_TRANSACTION]
 

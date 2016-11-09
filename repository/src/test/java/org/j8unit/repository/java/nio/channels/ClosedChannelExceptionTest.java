@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClosedChannelExceptionTest
-implements FactoryBasedJ8UnitTest<ClosedChannelException>, org.j8unit.repository.java.nio.channels.ClosedChannelExceptionTests<ClosedChannelException> {
+implements FactoryBasedJ8UnitTest<ClosedChannelException>, ClosedChannelExceptionTests<ClosedChannelException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.ClosedChannelException]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.channels;
 import static org.junit.Assert.assertTrue;
 import java.nio.channels.SelectableChannel;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.SelectableChannelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SelectableChannelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SelectableChannelClassTests<SUT extends SelectableChannel>
-extends org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests<SUT> {
+extends AbstractInterruptibleChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.SelectableChannel]
     /**

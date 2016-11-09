@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MulticastSocket} (by simply reusing the
+ * J8Unit test interface {@link MulticastSocketClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MulticastSocketClassTest
-implements org.j8unit.repository.java.net.MulticastSocketClassTests<MulticastSocket> {
+implements MulticastSocketClassTests<MulticastSocket> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.MulticastSocket]
 

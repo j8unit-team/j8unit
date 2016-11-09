@@ -17,8 +17,7 @@ import org.w3c.dom.html.HTMLTableColElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLTableColElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLTableColElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.html.HTMLTableColElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLTableColElementClassTests<SUT extends HTMLTableColElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLTableColElement]
     /**

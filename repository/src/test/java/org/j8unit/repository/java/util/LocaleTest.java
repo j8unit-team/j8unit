@@ -19,10 +19,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Locale} (by simply reusing the J8Unit
+ * test interface {@link LocaleTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LocaleTest
-implements org.j8unit.repository.java.util.LocaleTests<Locale> {
+implements LocaleTests<Locale> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale]
 
@@ -64,9 +69,14 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Locale]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link LanguageRange} (by simply reusing
+     * the J8Unit test interface {@link LanguageRangeTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LanguageRangeTest
-    implements org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests<LanguageRange> {
+    implements LanguageRangeTests<LanguageRange> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$LanguageRange]
 
@@ -81,10 +91,15 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Category} (by simply reusing the
+     * J8Unit test interface {@link CategoryTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CategoryTest
-    implements org.j8unit.repository.java.util.LocaleTests.CategoryTests<Category> {
+    implements CategoryTests<Category> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$Category]
 
@@ -107,10 +122,15 @@ implements org.j8unit.repository.java.util.LocaleTests<Locale> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FilteringMode} (by simply reusing
+     * the J8Unit test interface {@link FilteringModeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FilteringModeTest
-    implements org.j8unit.repository.java.util.LocaleTests.FilteringModeTests<FilteringMode> {
+    implements FilteringModeTests<FilteringMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Locale$FilteringMode]
 

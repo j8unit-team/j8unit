@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CurrentHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CurrentHolder} (by simply reusing the
+ * J8Unit test interface {@link CurrentHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CurrentHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.CurrentHolderClassTests<CurrentHolder> {
+implements CurrentHolderClassTests<CurrentHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CurrentHolder]
 

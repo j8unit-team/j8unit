@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnknownServiceExceptionTest
-implements FactoryBasedJ8UnitTest<UnknownServiceException>, org.j8unit.repository.java.net.UnknownServiceExceptionTests<UnknownServiceException> {
+implements FactoryBasedJ8UnitTest<UnknownServiceException>, UnknownServiceExceptionTests<UnknownServiceException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.UnknownServiceException]
 

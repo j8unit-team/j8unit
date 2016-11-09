@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ObjectReferenceTemplateHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectReferenceTemplateHelper} (by simply
+ * reusing the J8Unit test interface {@link ObjectReferenceTemplateHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectReferenceTemplateHelperClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHelperClassTests<ObjectReferenceTemplateHelper> {
+implements ObjectReferenceTemplateHelperClassTests<ObjectReferenceTemplateHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ObjectReferenceTemplateHelper]
 

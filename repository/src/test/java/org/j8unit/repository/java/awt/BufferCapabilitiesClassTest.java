@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BufferCapabilities} (by simply reusing
+ * the J8Unit test interface {@link BufferCapabilitiesClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BufferCapabilitiesClassTest
-implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests<BufferCapabilities> {
+implements BufferCapabilitiesClassTests<BufferCapabilities> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.BufferCapabilities]
 
@@ -49,9 +54,14 @@ implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests<BufferCap
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.BufferCapabilities]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FlipContents} (by simply reusing the
+     * J8Unit test interface {@link FlipContentsClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FlipContentsClassTest
-    implements org.j8unit.repository.java.awt.BufferCapabilitiesClassTests.FlipContentsClassTests<FlipContents> {
+    implements FlipContentsClassTests<FlipContents> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.BufferCapabilities$FlipContents]
 

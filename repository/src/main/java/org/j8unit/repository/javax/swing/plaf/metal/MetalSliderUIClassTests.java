@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.metal;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.metal.MetalSliderUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalSliderUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalSliderUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalSliderUIClassTests<SUT extends MetalSliderUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests<SUT> {
+extends BasicSliderUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalSliderUI]
     /**

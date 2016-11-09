@@ -19,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.sampled.CompoundControlTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CompoundControlTests}.
  * </p>
  *
  * <p>
@@ -49,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompoundControlClassTests<SUT extends CompoundControl>
-extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
+extends ControlClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.CompoundControl]
     /**

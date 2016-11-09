@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.management.MonitorInfoTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MonitorInfoTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MonitorInfoClassTests<SUT extends MonitorInfo>
-extends org.j8unit.repository.java.lang.management.LockInfoClassTests<SUT> {
+extends LockInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.MonitorInfo]
     /**

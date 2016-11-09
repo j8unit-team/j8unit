@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ManagementPermission} (by simply reusing
+ * the J8Unit test interface {@link ManagementPermissionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ManagementPermissionClassTest
-implements org.j8unit.repository.java.lang.management.ManagementPermissionClassTests<ManagementPermission> {
+implements ManagementPermissionClassTests<ManagementPermission> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.ManagementPermission]
 

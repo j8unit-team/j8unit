@@ -19,7 +19,7 @@ import org.omg.PortableInterceptor.ServerRequestInfoOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInfoOperationsTests}.
+ * {@link ServerRequestInfoOperationsTests}.
  * </p>
  *
  * <p>
@@ -48,7 +48,7 @@ import org.omg.PortableInterceptor.ServerRequestInfoOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerRequestInfoOperationsClassTests<SUT extends ServerRequestInfoOperations>
-extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsClassTests<SUT> {
+extends RequestInfoOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInfoOperations]
     /**

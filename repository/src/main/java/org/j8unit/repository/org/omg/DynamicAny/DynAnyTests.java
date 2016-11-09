@@ -1,6 +1,8 @@
 package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.DynAny;
 
@@ -25,8 +27,7 @@ import org.omg.DynamicAny.DynAny;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnyTests<SUT extends DynAny>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends DynAnyOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynAny]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.ToolTipManager;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.MouseAdapterClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.ToolTipManagerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ToolTipManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ToolTipManagerClassTests<SUT extends ToolTipManager>
-extends org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
+extends MouseAdapterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ToolTipManager]
     /**

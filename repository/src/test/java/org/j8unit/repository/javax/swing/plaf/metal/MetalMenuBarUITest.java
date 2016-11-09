@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalMenuBarUITest
-implements FactoryBasedJ8UnitTest<MetalMenuBarUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalMenuBarUITests<MetalMenuBarUI> {
+implements FactoryBasedJ8UnitTest<MetalMenuBarUI>, MetalMenuBarUITests<MetalMenuBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalMenuBarUI]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TRANSACTION_UNAVAILABLETest
-implements FactoryBasedJ8UnitTest<TRANSACTION_UNAVAILABLE>, org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLETests<TRANSACTION_UNAVAILABLE> {
+implements FactoryBasedJ8UnitTest<TRANSACTION_UNAVAILABLE>, TRANSACTION_UNAVAILABLETests<TRANSACTION_UNAVAILABLE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
 

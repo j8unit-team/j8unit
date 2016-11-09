@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynValueCommon;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynValueCommon} (by simply reusing
+ * the J8Unit test interface {@link DynValueCommonTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynValueCommonTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynValueCommonTests<DynValueCommon> {
+implements DynValueCommonTests<DynValueCommon> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynValueCommon]
 

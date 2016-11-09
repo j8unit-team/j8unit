@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.XMLReaderFactory;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XMLReaderFactory} (by simply reusing the
+ * J8Unit test interface {@link XMLReaderFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLReaderFactoryClassTest
-implements org.j8unit.repository.org.xml.sax.helpers.XMLReaderFactoryClassTests<XMLReaderFactory> {
+implements XMLReaderFactoryClassTests<XMLReaderFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.XMLReaderFactory]
 

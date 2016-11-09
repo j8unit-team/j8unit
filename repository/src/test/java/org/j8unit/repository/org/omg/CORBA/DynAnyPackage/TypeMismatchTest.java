@@ -14,7 +14,7 @@ import org.omg.CORBA.DynAnyPackage.TypeMismatch;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TypeMismatchTest
-implements FactoryBasedJ8UnitTest<TypeMismatch>, org.j8unit.repository.org.omg.CORBA.DynAnyPackage.TypeMismatchTests<TypeMismatch> {
+implements FactoryBasedJ8UnitTest<TypeMismatch>, TypeMismatchTests<TypeMismatch> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynAnyPackage.TypeMismatch]
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RSAPrivateCrtKeySpec} (by simply
+ * reusing the J8Unit test interface {@link RSAPrivateCrtKeySpecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RSAPrivateCrtKeySpecTest
-implements org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecTests<RSAPrivateCrtKeySpec> {
+implements RSAPrivateCrtKeySpecTests<RSAPrivateCrtKeySpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.spec.RSAPrivateCrtKeySpec]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.xml.sax.ext.Attributes2;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Attributes2} (by simply reusing the
+ * J8Unit test interface {@link Attributes2Tests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Attributes2Test
-implements org.j8unit.repository.org.xml.sax.ext.Attributes2Tests<Attributes2> {
+implements Attributes2Tests<Attributes2> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.Attributes2]
 

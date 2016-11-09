@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Handler} (by simply reusing the
+ * J8Unit test interface {@link HandlerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HandlerTest
-implements org.j8unit.repository.java.util.logging.HandlerTests<Handler> {
+implements HandlerTests<Handler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.Handler]
 

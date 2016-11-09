@@ -17,8 +17,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NO_IMPLEMENTTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NO_IMPLEMENTClassTests<SUT extends NO_IMPLEMENT>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.NO_IMPLEMENT]
     /**

@@ -3,6 +3,8 @@ package org.j8unit.repository.java.awt.dnd;
 import static org.junit.Assert.assertTrue;
 import java.awt.dnd.MouseDragGestureRecognizer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.MouseListenerClassTests;
+import org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.dnd.MouseDragGestureRecognizerTests}.
+ * {@link MouseDragGestureRecognizerTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MouseDragGestureRecognizerClassTests<SUT extends MouseDragGestureRecognizer>
-extends org.j8unit.repository.java.awt.event.MouseListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.dnd.DragGestureRecognizerClassTests<SUT> {
+extends MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, DragGestureRecognizerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.MouseDragGestureRecognizer]
     /**

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CompositeDataInvocationHandler} (by
+ * simply reusing the J8Unit test interface {@link CompositeDataInvocationHandlerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompositeDataInvocationHandlerTest
-implements org.j8unit.repository.javax.management.openmbean.CompositeDataInvocationHandlerTests<CompositeDataInvocationHandler> {
+implements CompositeDataInvocationHandlerTests<CompositeDataInvocationHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.CompositeDataInvocationHandler]
 

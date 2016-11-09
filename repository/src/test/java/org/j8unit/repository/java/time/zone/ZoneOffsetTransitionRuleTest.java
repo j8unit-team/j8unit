@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ZoneOffsetTransitionRule} (by simply
+ * reusing the J8Unit test interface {@link ZoneOffsetTransitionRuleTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ZoneOffsetTransitionRuleTest
-implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests<ZoneOffsetTransitionRule> {
+implements ZoneOffsetTransitionRuleTests<ZoneOffsetTransitionRule> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests<Zo
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TimeDefinition} (by simply
+     * reusing the J8Unit test interface {@link TimeDefinitionTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TimeDefinitionTest
-    implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests.TimeDefinitionTests<TimeDefinition> {
+    implements TimeDefinitionTests<TimeDefinition> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 

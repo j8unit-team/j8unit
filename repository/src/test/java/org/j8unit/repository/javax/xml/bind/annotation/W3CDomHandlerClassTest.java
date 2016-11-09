@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link W3CDomHandler} (by simply reusing the
+ * J8Unit test interface {@link W3CDomHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class W3CDomHandlerClassTest
-implements org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTests<W3CDomHandler> {
+implements W3CDomHandlerClassTests<W3CDomHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.W3CDomHandler]
 

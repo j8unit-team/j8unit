@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link KeyRep} (by simply reusing the J8Unit
+ * test interface {@link KeyRepTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyRepTest
-implements org.j8unit.repository.java.security.KeyRepTests<KeyRep> {
+implements KeyRepTests<KeyRep> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyRep]
 
@@ -26,6 +31,11 @@ implements org.j8unit.repository.java.security.KeyRepTests<KeyRep> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyRep]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyRep]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.security.KeyRepTests.TypeTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

@@ -28,7 +28,7 @@ import org.omg.CORBA.DynFixed;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynFixedTests<SUT extends DynFixed>
-extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
+extends DynAnyTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynFixed]
 

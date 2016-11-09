@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.openmbean;
 import javax.management.openmbean.OpenMBeanInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanInfoTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoSupportClassTests}).
+ * {@link OpenMBeanInfoSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanInfoSupportTests<SUT extends OpenMBeanInfoSupport>
-extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanInfoTests<SUT> {
+extends OpenMBeanInfoTests<SUT>, MBeanInfoTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenMBeanInfoSupport]
 
@@ -129,8 +130,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getDescription();
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getDescription();
+        OpenMBeanInfoTests.super.test_getDescription();
+        MBeanInfoTests.super.test_getDescription();
     }
 
     /**
@@ -158,8 +159,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getNotifications()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getNotifications();
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getNotifications();
+        OpenMBeanInfoTests.super.test_getNotifications();
+        MBeanInfoTests.super.test_getNotifications();
     }
 
     /**
@@ -187,8 +188,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getAttributes()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getAttributes();
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getAttributes();
+        OpenMBeanInfoTests.super.test_getAttributes();
+        MBeanInfoTests.super.test_getAttributes();
     }
 
     /**
@@ -216,8 +217,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getOperations()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getOperations();
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getOperations();
+        OpenMBeanInfoTests.super.test_getOperations();
+        MBeanInfoTests.super.test_getOperations();
     }
 
     /**
@@ -245,8 +246,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getClassName()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getClassName();
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getClassName();
+        OpenMBeanInfoTests.super.test_getClassName();
+        MBeanInfoTests.super.test_getClassName();
     }
 
     /**
@@ -274,8 +275,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     public default void test_getConstructors()
     throws Exception {
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests.super.test_getConstructors();
-        org.j8unit.repository.javax.management.MBeanInfoTests.super.test_getConstructors();
+        OpenMBeanInfoTests.super.test_getConstructors();
+        MBeanInfoTests.super.test_getConstructors();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanInfoSupport]

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MemoryHandlerTest
-implements FactoryBasedJ8UnitTest<MemoryHandler>, org.j8unit.repository.java.util.logging.MemoryHandlerTests<MemoryHandler> {
+implements FactoryBasedJ8UnitTest<MemoryHandler>, MemoryHandlerTests<MemoryHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.MemoryHandler]
 

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTableHeaderUI} (by simply reusing
+ * the J8Unit test interface {@link BasicTableHeaderUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicTableHeaderUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests<BasicTableHeaderUI> {
+implements BasicTableHeaderUIClassTests<BasicTableHeaderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
 
@@ -66,6 +71,12 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassT
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MouseInputHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests.MouseInputHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest

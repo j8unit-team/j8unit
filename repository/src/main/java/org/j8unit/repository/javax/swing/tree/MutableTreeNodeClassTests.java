@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.tree.MutableTreeNodeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MutableTreeNodeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MutableTreeNodeClassTests<SUT extends MutableTreeNode>
-extends org.j8unit.repository.javax.swing.tree.TreeNodeClassTests<SUT> {
+extends TreeNodeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.MutableTreeNode]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthToolBarUITest
-implements FactoryBasedJ8UnitTest<SynthToolBarUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthToolBarUITests<SynthToolBarUI> {
+implements FactoryBasedJ8UnitTest<SynthToolBarUI>, SynthToolBarUITests<SynthToolBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthToolBarUI]
 

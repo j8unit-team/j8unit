@@ -3,6 +3,7 @@ package org.j8unit.repository.java.time.format;
 import static org.junit.Assert.assertTrue;
 import java.time.format.DateTimeFormatterBuilder;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.format.DateTimeFormatterBuilderTests}.
+ * {@link DateTimeFormatterBuilderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateTimeFormatterBuilderClassTests<SUT extends DateTimeFormatterBuilder>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
     /**

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.naming.ldap;
 import static org.junit.Assert.assertTrue;
 import javax.naming.ldap.InitialLdapContext;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.naming.directory.InitialDirContextClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.ldap.InitialLdapContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InitialLdapContextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InitialLdapContextClassTests<SUT extends InitialLdapContext>
-extends org.j8unit.repository.javax.naming.ldap.LdapContextClassTests<SUT>, org.j8unit.repository.javax.naming.directory.InitialDirContextClassTests<SUT> {
+extends LdapContextClassTests<SUT>, InitialDirContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.InitialLdapContext]
     /**

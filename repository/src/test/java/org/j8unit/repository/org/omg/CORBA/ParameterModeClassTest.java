@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ParameterMode;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ParameterMode} (by simply reusing the
+ * J8Unit test interface {@link ParameterModeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParameterModeClassTest
-implements org.j8unit.repository.org.omg.CORBA.ParameterModeClassTests<ParameterMode> {
+implements ParameterModeClassTests<ParameterMode> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ParameterMode]
 

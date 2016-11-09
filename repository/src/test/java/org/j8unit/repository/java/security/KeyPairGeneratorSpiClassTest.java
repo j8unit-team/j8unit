@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyPairGeneratorSpi} (by simply reusing
+ * the J8Unit test interface {@link KeyPairGeneratorSpiClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyPairGeneratorSpiClassTest
-implements org.j8unit.repository.java.security.KeyPairGeneratorSpiClassTests<KeyPairGeneratorSpi> {
+implements KeyPairGeneratorSpiClassTests<KeyPairGeneratorSpi> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyPairGeneratorSpi]
 

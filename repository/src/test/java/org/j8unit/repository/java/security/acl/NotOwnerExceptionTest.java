@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotOwnerExceptionTest
-implements FactoryBasedJ8UnitTest<NotOwnerException>, org.j8unit.repository.java.security.acl.NotOwnerExceptionTests<NotOwnerException> {
+implements FactoryBasedJ8UnitTest<NotOwnerException>, NotOwnerExceptionTests<NotOwnerException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.acl.NotOwnerException]
 

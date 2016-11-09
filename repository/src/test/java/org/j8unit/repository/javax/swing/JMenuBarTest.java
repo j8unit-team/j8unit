@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JMenuBarTest
-implements FactoryBasedJ8UnitTest<JMenuBar>, org.j8unit.repository.javax.swing.JMenuBarTests<JMenuBar> {
+implements FactoryBasedJ8UnitTest<JMenuBar>, JMenuBarTests<JMenuBar> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JMenuBar]
 

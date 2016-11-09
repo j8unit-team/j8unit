@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Modifier} (by simply reusing the J8Unit
+ * test interface {@link ModifierClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ModifierClassTest
-implements org.j8unit.repository.javax.lang.model.element.ModifierClassTests<Modifier> {
+implements ModifierClassTests<Modifier> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.Modifier]
 

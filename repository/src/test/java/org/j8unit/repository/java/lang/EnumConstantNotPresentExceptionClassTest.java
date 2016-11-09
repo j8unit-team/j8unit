@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link EnumConstantNotPresentException} (by
+ * simply reusing the J8Unit test interface {@link EnumConstantNotPresentExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EnumConstantNotPresentExceptionClassTest
-implements org.j8unit.repository.java.lang.EnumConstantNotPresentExceptionClassTests<EnumConstantNotPresentException> {
+implements EnumConstantNotPresentExceptionClassTests<EnumConstantNotPresentException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.EnumConstantNotPresentException]
 

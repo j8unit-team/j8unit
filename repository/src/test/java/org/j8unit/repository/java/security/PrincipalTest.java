@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Principal} (by simply reusing the
+ * J8Unit test interface {@link PrincipalTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrincipalTest
-implements org.j8unit.repository.java.security.PrincipalTests<Principal> {
+implements PrincipalTests<Principal> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Principal]
 

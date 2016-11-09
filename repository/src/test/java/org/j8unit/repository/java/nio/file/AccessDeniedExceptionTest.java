@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AccessDeniedException} (by simply
+ * reusing the J8Unit test interface {@link AccessDeniedExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AccessDeniedExceptionTest
-implements org.j8unit.repository.java.nio.file.AccessDeniedExceptionTests<AccessDeniedException> {
+implements AccessDeniedExceptionTests<AccessDeniedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.AccessDeniedException]
 

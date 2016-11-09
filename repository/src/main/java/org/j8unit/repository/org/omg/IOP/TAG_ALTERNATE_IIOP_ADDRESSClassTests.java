@@ -19,7 +19,7 @@ import org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESSTests}.
+ * {@link TAG_ALTERNATE_IIOP_ADDRESSTests}.
  * </p>
  *
  * <p>

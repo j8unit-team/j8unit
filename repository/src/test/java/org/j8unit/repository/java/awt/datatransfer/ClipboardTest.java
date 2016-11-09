@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Clipboard} (by simply reusing the
+ * J8Unit test interface {@link ClipboardTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ClipboardTest
-implements org.j8unit.repository.java.awt.datatransfer.ClipboardTests<Clipboard> {
+implements ClipboardTests<Clipboard> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.datatransfer.Clipboard]
 

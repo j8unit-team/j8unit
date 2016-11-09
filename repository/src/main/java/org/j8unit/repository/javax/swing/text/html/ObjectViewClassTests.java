@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.text.html;
 import static org.junit.Assert.assertTrue;
 import javax.swing.text.html.ObjectView;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.text.ComponentViewClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.html.ObjectViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectViewTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectViewClassTests<SUT extends ObjectView>
-extends org.j8unit.repository.javax.swing.text.ComponentViewClassTests<SUT> {
+extends ComponentViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.ObjectView]
     /**

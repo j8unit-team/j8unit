@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BeanContextSupportTest
-implements FactoryBasedJ8UnitTest, org.j8unit.repository.java.beans.beancontext.BeanContextSupportTests<BeanContextSupport> {
+implements FactoryBasedJ8UnitTest, BeanContextSupportTests<BeanContextSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.beancontext.BeanContextSupport]
 

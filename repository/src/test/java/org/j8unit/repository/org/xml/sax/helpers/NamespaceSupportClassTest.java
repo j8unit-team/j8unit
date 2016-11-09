@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.NamespaceSupport;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NamespaceSupport} (by simply reusing the
+ * J8Unit test interface {@link NamespaceSupportClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NamespaceSupportClassTest
-implements org.j8unit.repository.org.xml.sax.helpers.NamespaceSupportClassTests<NamespaceSupport> {
+implements NamespaceSupportClassTests<NamespaceSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.NamespaceSupport]
 

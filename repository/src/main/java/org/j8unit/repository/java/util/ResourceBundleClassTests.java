@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.ResourceBundle;
 import java.util.ResourceBundle.Control;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.ResourceBundleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ResourceBundleTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResourceBundleClassTests<SUT extends ResourceBundle>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ResourceBundle]
     /**
@@ -84,8 +84,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.ResourceBundleTests.ControlTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ControlTests}.
      * </p>
      *
      * <p>
@@ -114,7 +113,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ControlClassTests<SUT extends Control>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ResourceBundle$Control]
         /**

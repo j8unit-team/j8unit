@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ObjIDTest
-implements FactoryBasedJ8UnitTest<ObjID>, org.j8unit.repository.java.rmi.server.ObjIDTests<ObjID> {
+implements FactoryBasedJ8UnitTest<ObjID>, ObjIDTests<ObjID> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.ObjID]
 

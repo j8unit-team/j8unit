@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeEvent} (by simply reusing
+ * the J8Unit test interface {@link PropertyChangeEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PropertyChangeEventClassTest
-implements org.j8unit.repository.java.beans.PropertyChangeEventClassTests<PropertyChangeEvent> {
+implements PropertyChangeEventClassTests<PropertyChangeEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.PropertyChangeEvent]
 

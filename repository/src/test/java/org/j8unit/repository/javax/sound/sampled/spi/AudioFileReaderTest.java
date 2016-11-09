@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AudioFileReader} (by simply reusing
+ * the J8Unit test interface {@link AudioFileReaderTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AudioFileReaderTest
-implements org.j8unit.repository.javax.sound.sampled.spi.AudioFileReaderTests<AudioFileReader> {
+implements AudioFileReaderTests<AudioFileReader> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.spi.AudioFileReader]
 

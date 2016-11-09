@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynArrayHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DynArrayHelper} (by simply reusing the
+ * J8Unit test interface {@link DynArrayHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynArrayHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynArrayHelperClassTests<DynArrayHelper> {
+implements DynArrayHelperClassTests<DynArrayHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynArrayHelper]
 

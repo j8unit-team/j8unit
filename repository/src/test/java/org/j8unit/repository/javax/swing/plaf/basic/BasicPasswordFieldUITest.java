@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicPasswordFieldUITest
-implements FactoryBasedJ8UnitTest<BasicPasswordFieldUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicPasswordFieldUITests<BasicPasswordFieldUI> {
+implements FactoryBasedJ8UnitTest<BasicPasswordFieldUI>, BasicPasswordFieldUITests<BasicPasswordFieldUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicPasswordFieldUI]
 

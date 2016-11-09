@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.SignatureTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SignatureTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SignatureClassTests<SUT extends Signature>
-extends org.j8unit.repository.java.security.SignatureSpiClassTests<SUT> {
+extends SignatureSpiClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Signature]
     /**

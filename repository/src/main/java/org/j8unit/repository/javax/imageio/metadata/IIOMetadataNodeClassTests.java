@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.imageio.metadata;
 import static org.junit.Assert.assertTrue;
 import javax.imageio.metadata.IIOMetadataNode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.w3c.dom.ElementClassTests;
+import org.j8unit.repository.org.w3c.dom.NodeListClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.imageio.metadata.IIOMetadataNodeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IIOMetadataNodeTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOMetadataNodeClassTests<SUT extends IIOMetadataNode>
-extends org.j8unit.repository.org.w3c.dom.ElementClassTests<SUT>, org.j8unit.repository.org.w3c.dom.NodeListClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ElementClassTests<SUT>, NodeListClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.metadata.IIOMetadataNode]
     /**

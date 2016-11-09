@@ -14,7 +14,7 @@ import org.omg.CORBA.LocalObject;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LocalObjectTest
-implements FactoryBasedJ8UnitTest<LocalObject>, org.j8unit.repository.org.omg.CORBA.LocalObjectTests<LocalObject> {
+implements FactoryBasedJ8UnitTest<LocalObject>, LocalObjectTests<LocalObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.LocalObject]
 

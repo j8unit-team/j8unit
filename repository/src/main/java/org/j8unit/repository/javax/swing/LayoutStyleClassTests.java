@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.LayoutStyle;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.LayoutStyleTests.ComponentPlacementTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.LayoutStyleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LayoutStyleTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayoutStyleClassTests<SUT extends LayoutStyle>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.LayoutStyle]
     /**
@@ -85,7 +87,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.LayoutStyleTests.ComponentPlacementTests}.
+     * {@link ComponentPlacementTests}.
      * </p>
      *
      * <p>
@@ -114,7 +116,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentPlacementClassTests<SUT extends ComponentPlacement>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.LayoutStyle$ComponentPlacement]
         /**

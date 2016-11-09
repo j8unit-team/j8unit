@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.crypto.dsig;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.SignedInfo;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.SignedInfoTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SignedInfoTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SignedInfoClassTests<SUT extends SignedInfo>
-extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT> {
+extends XMLStructureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.SignedInfo]
     /**

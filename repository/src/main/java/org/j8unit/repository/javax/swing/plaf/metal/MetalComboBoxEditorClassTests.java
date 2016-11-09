@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.metal.MetalComboBoxEditor;
 import javax.swing.plaf.metal.MetalComboBoxEditor.UIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalComboBoxEditorTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxEditorClassTests<SUT extends MetalComboBoxEditor>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests<SUT> {
+extends BasicComboBoxEditorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxEditor]
     /**

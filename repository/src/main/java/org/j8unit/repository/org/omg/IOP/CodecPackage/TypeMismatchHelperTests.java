@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.IOP.CodecPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.CodecPackage.TypeMismatchHelper;
 
@@ -25,7 +26,7 @@ import org.omg.IOP.CodecPackage.TypeMismatchHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeMismatchHelperTests<SUT extends TypeMismatchHelper>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecPackage.TypeMismatchHelper]
 

@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ThreadTest
-implements FactoryBasedJ8UnitTest<Thread>, org.j8unit.repository.java.lang.ThreadTests<Thread> {
+implements FactoryBasedJ8UnitTest<Thread>, ThreadTests<Thread> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread]
 
@@ -39,9 +39,14 @@ implements FactoryBasedJ8UnitTest<Thread>, org.j8unit.repository.java.lang.Threa
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Thread]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link UncaughtExceptionHandler} (by
+     * simply reusing the J8Unit test interface {@link UncaughtExceptionHandlerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class UncaughtExceptionHandlerTest
-    implements org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests<UncaughtExceptionHandler> {
+    implements UncaughtExceptionHandlerTests<UncaughtExceptionHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$UncaughtExceptionHandler]
 
@@ -56,10 +61,15 @@ implements FactoryBasedJ8UnitTest<Thread>, org.j8unit.repository.java.lang.Threa
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link State} (by simply reusing the
+     * J8Unit test interface {@link StateTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateTest
-    implements org.j8unit.repository.java.lang.ThreadTests.StateTests<State> {
+    implements StateTests<State> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$State]
 

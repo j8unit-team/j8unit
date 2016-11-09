@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLRecoverableExceptionTest
-implements FactoryBasedJ8UnitTest<SQLRecoverableException>, org.j8unit.repository.java.sql.SQLRecoverableExceptionTests<SQLRecoverableException> {
+implements FactoryBasedJ8UnitTest<SQLRecoverableException>, SQLRecoverableExceptionTests<SQLRecoverableException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLRecoverableException]
 

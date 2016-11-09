@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.swing.plaf.metal;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.metal.MetalComboBoxIcon;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.IconClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxIconTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalComboBoxIconTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxIconClassTests<SUT extends MetalComboBoxIcon>
-extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends IconClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxIcon]
     /**

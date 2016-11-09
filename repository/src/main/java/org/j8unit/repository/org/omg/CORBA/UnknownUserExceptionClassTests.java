@@ -18,7 +18,7 @@ import org.omg.CORBA.UnknownUserException;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionTests}.
+ * {@link UnknownUserExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.UnknownUserException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownUserExceptionClassTests<SUT extends UnknownUserException>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UnknownUserException]
     /**

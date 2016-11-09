@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.imageio.stream;
 import static org.junit.Assert.assertTrue;
 import javax.imageio.stream.ImageOutputStream;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.DataOutputClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.imageio.stream.ImageOutputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ImageOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageOutputStreamClassTests<SUT extends ImageOutputStream>
-extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamClassTests<SUT>, org.j8unit.repository.java.io.DataOutputClassTests<SUT> {
+extends ImageInputStreamClassTests<SUT>, DataOutputClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.stream.ImageOutputStream]
     /**

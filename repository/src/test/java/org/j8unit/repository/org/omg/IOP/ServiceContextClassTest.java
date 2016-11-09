@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.ServiceContext;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceContext} (by simply reusing the
+ * J8Unit test interface {@link ServiceContextClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceContextClassTest
-implements org.j8unit.repository.org.omg.IOP.ServiceContextClassTests<ServiceContext> {
+implements ServiceContextClassTests<ServiceContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ServiceContext]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.PolicyError;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PolicyErrorTest
-implements FactoryBasedJ8UnitTest<PolicyError>, org.j8unit.repository.org.omg.CORBA.PolicyErrorTests<PolicyError> {
+implements FactoryBasedJ8UnitTest<PolicyError>, PolicyErrorTests<PolicyError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PolicyError]
 

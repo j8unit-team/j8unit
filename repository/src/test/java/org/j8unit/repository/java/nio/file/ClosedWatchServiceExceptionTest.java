@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClosedWatchServiceExceptionTest
-implements FactoryBasedJ8UnitTest<ClosedWatchServiceException>,
-org.j8unit.repository.java.nio.file.ClosedWatchServiceExceptionTests<ClosedWatchServiceException> {
+implements FactoryBasedJ8UnitTest<ClosedWatchServiceException>, ClosedWatchServiceExceptionTests<ClosedWatchServiceException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ClosedWatchServiceException]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BrokenBarrierException} (by simply
+ * reusing the J8Unit test interface {@link BrokenBarrierExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BrokenBarrierExceptionClassTest
-implements org.j8unit.repository.java.util.concurrent.BrokenBarrierExceptionClassTests<BrokenBarrierException> {
+implements BrokenBarrierExceptionClassTests<BrokenBarrierException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.BrokenBarrierException]
 

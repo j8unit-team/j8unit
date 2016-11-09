@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CharSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CharSeqHelper} (by simply reusing the
+ * J8Unit test interface {@link CharSeqHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CharSeqHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.CharSeqHelperClassTests<CharSeqHelper> {
+implements CharSeqHelperClassTests<CharSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CharSeqHelper]
 

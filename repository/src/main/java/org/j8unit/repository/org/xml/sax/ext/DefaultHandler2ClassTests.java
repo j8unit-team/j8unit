@@ -2,6 +2,7 @@ package org.j8unit.repository.org.xml.sax.ext;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.ext.DefaultHandler2;
@@ -17,8 +18,7 @@ import org.xml.sax.ext.DefaultHandler2;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.ext.DefaultHandler2Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultHandler2Tests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.xml.sax.ext.DefaultHandler2;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultHandler2ClassTests<SUT extends DefaultHandler2>
-extends org.j8unit.repository.org.xml.sax.ext.LexicalHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ext.DeclHandlerClassTests<SUT>,
-org.j8unit.repository.org.xml.sax.ext.EntityResolver2ClassTests<SUT>, org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerClassTests<SUT> {
+extends LexicalHandlerClassTests<SUT>, DeclHandlerClassTests<SUT>, EntityResolver2ClassTests<SUT>, DefaultHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.DefaultHandler2]
     /**

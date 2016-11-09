@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.security.sasl.AuthenticationExceptionTests}.
+ * {@link AuthenticationExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AuthenticationExceptionClassTests<SUT extends AuthenticationException>
-extends org.j8unit.repository.javax.security.sasl.SaslExceptionClassTests<SUT> {
+extends SaslExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.AuthenticationException]
     /**

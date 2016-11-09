@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InternationalFormatter} (by simply
+ * reusing the J8Unit test interface {@link InternationalFormatterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InternationalFormatterClassTest
-implements org.j8unit.repository.javax.swing.text.InternationalFormatterClassTests<InternationalFormatter> {
+implements InternationalFormatterClassTests<InternationalFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.InternationalFormatter]
 

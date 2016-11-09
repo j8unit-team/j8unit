@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.events.UIEvent;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link UIEvent} (by simply reusing the
+ * J8Unit test interface {@link UIEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UIEventTest
-implements org.j8unit.repository.org.w3c.dom.events.UIEventTests<UIEvent> {
+implements UIEventTests<UIEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.events.UIEvent]
 

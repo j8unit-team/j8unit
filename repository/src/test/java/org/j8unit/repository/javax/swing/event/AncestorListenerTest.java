@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AncestorListener} (by simply reusing
+ * the J8Unit test interface {@link AncestorListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AncestorListenerTest
-implements org.j8unit.repository.javax.swing.event.AncestorListenerTests<AncestorListener> {
+implements AncestorListenerTests<AncestorListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.AncestorListener]
 

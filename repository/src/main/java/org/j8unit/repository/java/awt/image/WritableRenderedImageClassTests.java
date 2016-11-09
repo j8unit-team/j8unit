@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.WritableRenderedImageTests}.
+ * {@link WritableRenderedImageTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WritableRenderedImageClassTests<SUT extends WritableRenderedImage>
-extends org.j8unit.repository.java.awt.image.RenderedImageClassTests<SUT> {
+extends RenderedImageClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.WritableRenderedImage]
     /**

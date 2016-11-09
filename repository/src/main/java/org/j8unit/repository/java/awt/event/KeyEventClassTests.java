@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.event.KeyEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link KeyEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyEventClassTests<SUT extends KeyEvent>
-extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
+extends InputEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.KeyEvent]
     /**

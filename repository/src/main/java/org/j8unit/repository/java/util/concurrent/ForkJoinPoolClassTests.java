@@ -6,6 +6,8 @@ import java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory;
 import java.util.concurrent.ForkJoinPool.ManagedBlocker;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ForkJoinWorkerThreadFactoryTests;
+import org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ManagedBlockerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,8 +23,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ForkJoinPoolTests}.
  * </p>
  *
  * <p>
@@ -51,7 +52,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForkJoinPoolClassTests<SUT extends ForkJoinPool>
-extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests<SUT> {
+extends AbstractExecutorServiceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ForkJoinPool]
     /**
@@ -88,7 +89,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ForkJoinWorkerThreadFactoryTests}.
+     * {@link ForkJoinWorkerThreadFactoryTests}.
      * </p>
      *
      * <p>
@@ -153,8 +154,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ManagedBlockerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ManagedBlockerTests}.
      * </p>
      *
      * <p>

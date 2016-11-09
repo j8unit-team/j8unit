@@ -18,8 +18,7 @@ import org.xml.sax.ErrorHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.ErrorHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ErrorHandlerTests}.
  * </p>
  *
  * <p>

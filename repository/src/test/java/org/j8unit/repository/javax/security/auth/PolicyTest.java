@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Policy} (by simply reusing the J8Unit
+ * test interface {@link PolicyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyTest
-implements org.j8unit.repository.javax.security.auth.PolicyTests<Policy> {
+implements PolicyTests<Policy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.Policy]
 

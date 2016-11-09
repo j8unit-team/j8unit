@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MenuSelectionManagerTest
-implements FactoryBasedJ8UnitTest<MenuSelectionManager>, org.j8unit.repository.javax.swing.MenuSelectionManagerTests<MenuSelectionManager> {
+implements FactoryBasedJ8UnitTest<MenuSelectionManager>, MenuSelectionManagerTests<MenuSelectionManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.MenuSelectionManager]
 

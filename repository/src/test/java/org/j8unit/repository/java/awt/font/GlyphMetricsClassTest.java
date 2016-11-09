@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GlyphMetrics} (by simply reusing the
+ * J8Unit test interface {@link GlyphMetricsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GlyphMetricsClassTest
-implements org.j8unit.repository.java.awt.font.GlyphMetricsClassTests<GlyphMetrics> {
+implements GlyphMetricsClassTests<GlyphMetrics> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.GlyphMetrics]
 

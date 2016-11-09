@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicSplitPaneDivider;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ContainerClassTests;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneDividerTests}.
+ * {@link BasicSplitPaneDividerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSplitPaneDividerClassTests<SUT extends BasicSplitPaneDivider>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
+extends PropertyChangeListenerClassTests<SUT>, ContainerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneDivider]
     /**

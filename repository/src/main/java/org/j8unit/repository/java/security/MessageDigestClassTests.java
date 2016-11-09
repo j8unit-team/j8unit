@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.MessageDigestTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MessageDigestTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MessageDigestClassTests<SUT extends MessageDigest>
-extends org.j8unit.repository.java.security.MessageDigestSpiClassTests<SUT> {
+extends MessageDigestSpiClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.MessageDigest]
     /**

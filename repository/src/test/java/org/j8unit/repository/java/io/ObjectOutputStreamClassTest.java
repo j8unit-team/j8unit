@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectOutputStream} (by simply reusing
+ * the J8Unit test interface {@link ObjectOutputStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectOutputStreamClassTest
-implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutputStream> {
+implements ObjectOutputStreamClassTests<ObjectOutputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutputStream]
 
@@ -48,9 +53,14 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests<ObjectOutp
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectOutputStream]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PutField} (by simply reusing the
+     * J8Unit test interface {@link PutFieldClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PutFieldClassTest
-    implements org.j8unit.repository.java.io.ObjectOutputStreamClassTests.PutFieldClassTests<PutField> {
+    implements PutFieldClassTests<PutField> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutputStream$PutField]
 

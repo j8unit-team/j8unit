@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.security.cert.CertificateExpiredExceptionTests}.
+ * {@link CertificateExpiredExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertificateExpiredExceptionClassTests<SUT extends CertificateExpiredException>
-extends org.j8unit.repository.javax.security.cert.CertificateExceptionClassTests<SUT> {
+extends CertificateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.cert.CertificateExpiredException]
     /**

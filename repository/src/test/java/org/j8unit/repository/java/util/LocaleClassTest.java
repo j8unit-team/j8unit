@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Locale} (by simply reusing the J8Unit
+ * test interface {@link LocaleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LocaleClassTest
-implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
+implements LocaleClassTests<Locale> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale]
 
@@ -386,9 +391,14 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link LanguageRange} (by simply reusing the
+     * J8Unit test interface {@link LanguageRangeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LanguageRangeClassTest
-    implements org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests<LanguageRange> {
+    implements LanguageRangeClassTests<LanguageRange> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$LanguageRange]
 
@@ -516,9 +526,14 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link java.util.Locale.Category} (by simply
+     * reusing the J8Unit test interface {@link CategoryClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CategoryClassTest
-    implements org.j8unit.repository.java.util.LocaleClassTests.CategoryClassTests<java.util.Locale.Category> {
+    implements CategoryClassTests<java.util.Locale.Category> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$Category]
 
@@ -573,9 +588,14 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FilteringMode} (by simply reusing the
+     * J8Unit test interface {@link FilteringModeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FilteringModeClassTest
-    implements org.j8unit.repository.java.util.LocaleClassTests.FilteringModeClassTests<FilteringMode> {
+    implements FilteringModeClassTests<FilteringMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Locale$FilteringMode]
 
@@ -629,6 +649,11 @@ implements org.j8unit.repository.java.util.LocaleClassTests<Locale> {
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Locale$FilteringMode]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.util.LocaleClassTests.BuilderClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest

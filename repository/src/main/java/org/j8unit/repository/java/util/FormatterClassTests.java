@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import java.util.Formatter;
 import java.util.Formatter.BigDecimalLayoutForm;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.CloseableClassTests;
+import org.j8unit.repository.java.io.FlushableClassTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -49,8 +54,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormatterClassTests<SUT extends Formatter>
-extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.io.FlushableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Formatter]
     /**
@@ -86,7 +90,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests}.
+     * {@link BigDecimalLayoutFormTests}.
      * </p>
      *
      * <p>
@@ -115,7 +119,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BigDecimalLayoutFormClassTests<SUT extends BigDecimalLayoutForm>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Formatter$BigDecimalLayoutForm]
         /**

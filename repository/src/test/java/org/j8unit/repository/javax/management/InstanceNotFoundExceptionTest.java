@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InstanceNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<InstanceNotFoundException>, org.j8unit.repository.javax.management.InstanceNotFoundExceptionTests<InstanceNotFoundException> {
+implements FactoryBasedJ8UnitTest<InstanceNotFoundException>, InstanceNotFoundExceptionTests<InstanceNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InstanceNotFoundException]
 

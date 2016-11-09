@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.naming.directory;
 import static org.junit.Assert.assertTrue;
 import javax.naming.directory.DirContext;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.naming.ContextClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.directory.DirContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DirContextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirContextClassTests<SUT extends DirContext>
-extends org.j8unit.repository.javax.naming.ContextClassTests<SUT> {
+extends ContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.DirContext]
     /**

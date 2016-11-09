@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ObjectStreamField} (by simply reusing
+ * the J8Unit test interface {@link ObjectStreamFieldTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectStreamFieldTest
-implements org.j8unit.repository.java.io.ObjectStreamFieldTests<ObjectStreamField> {
+implements ObjectStreamFieldTests<ObjectStreamField> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectStreamField]
 

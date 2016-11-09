@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AEADBadTagExceptionTest
-implements FactoryBasedJ8UnitTest<AEADBadTagException>, org.j8unit.repository.javax.crypto.AEADBadTagExceptionTests<AEADBadTagException> {
+implements FactoryBasedJ8UnitTest<AEADBadTagException>, AEADBadTagExceptionTests<AEADBadTagException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.AEADBadTagException]
 

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AudioFileFormat} (by simply reusing the
+ * J8Unit test interface {@link AudioFileFormatClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AudioFileFormatClassTest
-implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<AudioFileFormat> {
+implements AudioFileFormatClassTests<AudioFileFormat> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.AudioFileFormat]
 
@@ -74,6 +79,11 @@ implements org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests<A
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.AudioFileFormat]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.AudioFileFormat]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.sound.sampled.AudioFileFormatClassTests.TypeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeClassTest

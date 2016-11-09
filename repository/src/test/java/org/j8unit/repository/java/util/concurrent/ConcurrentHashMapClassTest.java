@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ConcurrentHashMap} (by simply reusing the
+ * J8Unit test interface {@link ConcurrentHashMapClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class ConcurrentHashMapClassTest
-implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests<ConcurrentHashMap> {
+implements ConcurrentHashMapClassTests<ConcurrentHashMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
 
@@ -182,10 +186,14 @@ implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTest
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeySetView} (by simply reusing the
+     * J8Unit test interface {@link KeySetViewClassTests}).
+     */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class KeySetViewClassTest
-    implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests.KeySetViewClassTests<KeySetView> {
+    implements KeySetViewClassTests<KeySetView> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 

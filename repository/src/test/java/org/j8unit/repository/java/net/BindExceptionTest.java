@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BindExceptionTest
-implements FactoryBasedJ8UnitTest<BindException>, org.j8unit.repository.java.net.BindExceptionTests<BindException> {
+implements FactoryBasedJ8UnitTest<BindException>, BindExceptionTests<BindException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.BindException]
 

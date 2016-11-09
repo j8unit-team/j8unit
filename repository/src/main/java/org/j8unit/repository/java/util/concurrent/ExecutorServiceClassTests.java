@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ExecutorServiceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ExecutorServiceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExecutorServiceClassTests<SUT extends ExecutorService>
-extends org.j8unit.repository.java.util.concurrent.ExecutorClassTests<SUT> {
+extends ExecutorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ExecutorService]
     /**

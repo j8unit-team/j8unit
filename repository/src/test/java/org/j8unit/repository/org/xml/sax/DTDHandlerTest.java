@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.xml.sax.DTDHandler;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DTDHandler} (by simply reusing the
+ * J8Unit test interface {@link DTDHandlerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DTDHandlerTest
-implements org.j8unit.repository.org.xml.sax.DTDHandlerTests<DTDHandler> {
+implements DTDHandlerTests<DTDHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.DTDHandler]
 

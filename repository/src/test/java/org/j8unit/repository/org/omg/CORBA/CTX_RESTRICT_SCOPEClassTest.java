@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CTX_RESTRICT_SCOPE;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CTX_RESTRICT_SCOPE} (by simply reusing
+ * the J8Unit test interface {@link CTX_RESTRICT_SCOPEClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CTX_RESTRICT_SCOPEClassTest
-implements org.j8unit.repository.org.omg.CORBA.CTX_RESTRICT_SCOPEClassTests<CTX_RESTRICT_SCOPE> {
+implements CTX_RESTRICT_SCOPEClassTests<CTX_RESTRICT_SCOPE> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CTX_RESTRICT_SCOPE]
 

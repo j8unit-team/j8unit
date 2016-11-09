@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BufferedWriter} (by simply reusing the
+ * J8Unit test interface {@link BufferedWriterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BufferedWriterClassTest
-implements org.j8unit.repository.java.io.BufferedWriterClassTests<BufferedWriter> {
+implements BufferedWriterClassTests<BufferedWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.BufferedWriter]
 

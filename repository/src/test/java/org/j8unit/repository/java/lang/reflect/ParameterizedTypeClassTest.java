@@ -4,9 +4,14 @@ import java.lang.reflect.ParameterizedType;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ParameterizedType} (by simply reusing the
+ * J8Unit test interface {@link ParameterizedTypeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParameterizedTypeClassTest
-implements org.j8unit.repository.java.lang.reflect.ParameterizedTypeClassTests<ParameterizedType> {
+implements ParameterizedTypeClassTests<ParameterizedType> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.ParameterizedType]
 

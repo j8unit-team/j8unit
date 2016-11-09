@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MalformedLinkExceptionTest
-implements FactoryBasedJ8UnitTest<MalformedLinkException>, org.j8unit.repository.javax.naming.MalformedLinkExceptionTests<MalformedLinkException> {
+implements FactoryBasedJ8UnitTest<MalformedLinkException>, MalformedLinkExceptionTests<MalformedLinkException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.MalformedLinkException]
 

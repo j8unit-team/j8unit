@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Exchanger} (by simply reusing the J8Unit
+ * test interface {@link ExchangerClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class ExchangerClassTest
-implements org.j8unit.repository.java.util.concurrent.ExchangerClassTests<Exchanger> {
+implements ExchangerClassTests<Exchanger> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.Exchanger]
 

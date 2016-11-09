@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PKCS8EncodedKeySpecTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKCS8EncodedKeySpecClassTests<SUT extends PKCS8EncodedKeySpec>
-extends org.j8unit.repository.java.security.spec.EncodedKeySpecClassTests<SUT> {
+extends EncodedKeySpecClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.PKCS8EncodedKeySpec]
     /**

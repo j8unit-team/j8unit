@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Instant} (by simply reusing the J8Unit
+ * test interface {@link InstantClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InstantClassTest
-implements org.j8unit.repository.java.time.InstantClassTests<Instant> {
+implements InstantClassTests<Instant> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.Instant]
 
@@ -122,26 +127,6 @@ implements org.j8unit.repository.java.time.InstantClassTests<Instant> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.Instant#ofEpochSecond(long, long) public
-     * static java.time.Instant java.time.Instant.ofEpochSecond(long,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_ofEpochSecond_long_long()
-    throws Exception {
-        // write some test for {@link java.time.Instant#ofEpochSecond(long, long)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.Instant#ofEpochSecond(long) public static
      * java.time.Instant java.time.Instant.ofEpochSecond(long)}.
      *
@@ -158,6 +143,26 @@ implements org.j8unit.repository.java.time.InstantClassTests<Instant> {
     public void test_ofEpochSecond_long()
     throws Exception {
         // write some test for {@link java.time.Instant#ofEpochSecond(long)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.Instant#ofEpochSecond(long, long) public
+     * static java.time.Instant java.time.Instant.ofEpochSecond(long,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_ofEpochSecond_long_long()
+    throws Exception {
+        // write some test for {@link java.time.Instant#ofEpochSecond(long, long)}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.Instant]

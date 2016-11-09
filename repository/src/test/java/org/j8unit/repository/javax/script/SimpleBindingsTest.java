@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SimpleBindingsTest
-implements FactoryBasedJ8UnitTest<SimpleBindings>, org.j8unit.repository.javax.script.SimpleBindingsTests<SimpleBindings> {
+implements FactoryBasedJ8UnitTest<SimpleBindings>, SimpleBindingsTests<SimpleBindings> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.SimpleBindings]
 

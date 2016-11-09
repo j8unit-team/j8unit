@@ -3,6 +3,7 @@ package org.j8unit.repository.java.rmi.activation;
 import static org.junit.Assert.assertTrue;
 import java.rmi.activation.ActivationGroup;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.activation.ActivationGroupTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ActivationGroupTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationGroupClassTests<SUT extends ActivationGroup>
-extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTests<SUT>,
-org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
+extends ActivationInstantiatorClassTests<SUT>, UnicastRemoteObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroup]
     /**

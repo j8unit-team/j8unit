@@ -4,6 +4,8 @@ import javax.swing.tree.AbstractLayoutCache;
 import javax.swing.tree.AbstractLayoutCache.NodeDimensions;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests}).
+ * {@link AbstractLayoutCacheClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractLayoutCacheTests<SUT extends AbstractLayoutCache>
-extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends RowMapperTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.AbstractLayoutCache]
 
@@ -127,6 +129,28 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.AbstractLayoutCache#getModel()
+     * public javax.swing.tree.TreeModel javax.swing.tree.AbstractLayoutCache.getModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.AbstractLayoutCache#treeStructureChanged(javax.swing.event.TreeModelEvent) public
      * abstract void javax.swing.tree.AbstractLayoutCache.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
@@ -142,28 +166,6 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_treeStructureChanged_TreeModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.tree.AbstractLayoutCache#getModel()
-     * public javax.swing.tree.TreeModel javax.swing.tree.AbstractLayoutCache.getModel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -357,29 +359,6 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.AbstractLayoutCache#setExpandedState(javax.swing.tree.TreePath, boolean) public abstract
-     * void javax.swing.tree.AbstractLayoutCache.setExpandedState(javax.swing.tree.TreePath,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExpandedState_TreePath_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.AbstractLayoutCache#setModel(javax.swing.tree.TreeModel) public void
      * javax.swing.tree.AbstractLayoutCache.setModel(javax.swing.tree.TreeModel)}.
      *
@@ -394,6 +373,29 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_setModel_TreeModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#setExpandedState(javax.swing.tree.TreePath, boolean) public abstract
+     * void javax.swing.tree.AbstractLayoutCache.setExpandedState(javax.swing.tree.TreePath,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setExpandedState_TreePath_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -493,29 +495,6 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.AbstractLayoutCache#treeNodesRemoved(javax.swing.event.TreeModelEvent) public abstract
-     * void javax.swing.tree.AbstractLayoutCache.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_treeNodesRemoved_TreeModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.AbstractLayoutCache#invalidateSizes() public abstract void
      * javax.swing.tree.AbstractLayoutCache.invalidateSizes()}.
      *
@@ -530,6 +509,29 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_invalidateSizes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.AbstractLayoutCache#treeNodesRemoved(javax.swing.event.TreeModelEvent) public abstract
+     * void javax.swing.tree.AbstractLayoutCache.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_treeNodesRemoved_TreeModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -713,7 +715,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests}).
+     * (see {@link NodeDimensionsClassTests}).
      * </p>
      *
      * @param SUT
@@ -724,7 +726,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NodeDimensionsTests<SUT extends NodeDimensions>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
 

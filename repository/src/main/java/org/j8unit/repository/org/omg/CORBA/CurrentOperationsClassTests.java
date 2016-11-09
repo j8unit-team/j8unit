@@ -18,8 +18,7 @@ import org.omg.CORBA.CurrentOperations;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CurrentOperationsTests}.
  * </p>
  *
  * <p>

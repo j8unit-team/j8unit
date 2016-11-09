@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ThreadDeathTest
-implements FactoryBasedJ8UnitTest<ThreadDeath>, org.j8unit.repository.java.lang.ThreadDeathTests<ThreadDeath> {
+implements FactoryBasedJ8UnitTest<ThreadDeath>, ThreadDeathTests<ThreadDeath> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ThreadDeath]
 

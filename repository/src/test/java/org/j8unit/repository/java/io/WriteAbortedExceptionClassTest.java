@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WriteAbortedException} (by simply reusing
+ * the J8Unit test interface {@link WriteAbortedExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WriteAbortedExceptionClassTest
-implements org.j8unit.repository.java.io.WriteAbortedExceptionClassTests<WriteAbortedException> {
+implements WriteAbortedExceptionClassTests<WriteAbortedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.WriteAbortedException]
 

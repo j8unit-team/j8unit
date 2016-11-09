@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalThreadStateExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalThreadStateException>, org.j8unit.repository.java.lang.IllegalThreadStateExceptionTests<IllegalThreadStateException> {
+implements FactoryBasedJ8UnitTest<IllegalThreadStateException>, IllegalThreadStateExceptionTests<IllegalThreadStateException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IllegalThreadStateException]
 

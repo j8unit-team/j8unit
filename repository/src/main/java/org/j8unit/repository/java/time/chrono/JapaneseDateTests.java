@@ -3,6 +3,8 @@ package org.j8unit.repository.java.time.chrono;
 import java.time.chrono.JapaneseDate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.time.chrono.JapaneseDateClassTests}).
+ * {@link JapaneseDateClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JapaneseDateTests<SUT extends JapaneseDate>
-extends org.j8unit.repository.java.time.chrono.ChronoLocalDateTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ChronoLocalDateTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.JapaneseDate]
 
@@ -483,8 +484,8 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     public default void test_toString()
     throws Exception {
-        org.j8unit.repository.java.lang.ObjectTests.super.test_toString();
-        org.j8unit.repository.java.time.chrono.ChronoLocalDateTests.super.test_toString();
+        ObjectTests.super.test_toString();
+        ChronoLocalDateTests.super.test_toString();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.time.chrono.JapaneseDate]

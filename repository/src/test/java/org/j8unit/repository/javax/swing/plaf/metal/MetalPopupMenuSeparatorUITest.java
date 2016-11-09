@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalPopupMenuSeparatorUITest
-implements FactoryBasedJ8UnitTest<MetalPopupMenuSeparatorUI>,
-org.j8unit.repository.javax.swing.plaf.metal.MetalPopupMenuSeparatorUITests<MetalPopupMenuSeparatorUI> {
+implements FactoryBasedJ8UnitTest<MetalPopupMenuSeparatorUI>, MetalPopupMenuSeparatorUITests<MetalPopupMenuSeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalPopupMenuSeparatorUI]
 

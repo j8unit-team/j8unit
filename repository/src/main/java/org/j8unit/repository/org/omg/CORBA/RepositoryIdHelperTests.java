@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.RepositoryIdHelper;
 
@@ -14,7 +15,7 @@ import org.omg.CORBA.RepositoryIdHelper;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.RepositoryIdHelperClassTests}).
+ * {@link RepositoryIdHelperClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.CORBA.RepositoryIdHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RepositoryIdHelperTests<SUT extends RepositoryIdHelper>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.RepositoryIdHelper]
 

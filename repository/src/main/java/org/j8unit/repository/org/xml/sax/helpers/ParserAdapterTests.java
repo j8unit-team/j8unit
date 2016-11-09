@@ -2,6 +2,9 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.xml.sax.DocumentHandlerTests;
+import org.j8unit.repository.org.xml.sax.XMLReaderTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +20,7 @@ import org.xml.sax.helpers.ParserAdapter;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests}).
+ * {@link ParserAdapterClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +31,7 @@ import org.xml.sax.helpers.ParserAdapter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParserAdapterTests<SUT extends ParserAdapter>
-extends org.j8unit.repository.org.xml.sax.XMLReaderTests<SUT>, org.j8unit.repository.org.xml.sax.DocumentHandlerTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends XMLReaderTests<SUT>, DocumentHandlerTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.ParserAdapter]
 
@@ -105,29 +107,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.ParserAdapter#getDTDHandler()
-     * public org.xml.sax.DTDHandler org.xml.sax.helpers.ParserAdapter.getDTDHandler()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDTDHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.ParserAdapter#setContentHandler(org.xml.sax.ContentHandler) public void
      * org.xml.sax.helpers.ParserAdapter.setContentHandler(org.xml.sax.ContentHandler)}.
@@ -177,6 +156,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.xml.sax.helpers.ParserAdapter#getDTDHandler()
+     * public org.xml.sax.DTDHandler org.xml.sax.helpers.ParserAdapter.getDTDHandler()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDTDHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.ParserAdapter#setProperty(String, Object) public void
      * org.xml.sax.helpers.ParserAdapter.setProperty(java.lang.String,java.lang.Object) throws
@@ -203,30 +205,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link org.xml.sax.helpers.ParserAdapter#setErrorHandler(org.xml.sax.ErrorHandler) public void
-     * org.xml.sax.helpers.ParserAdapter.setErrorHandler(org.xml.sax.ErrorHandler)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setErrorHandler_ErrorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link org.xml.sax.helpers.ParserAdapter#getContentHandler() public org.xml.sax.ContentHandler
      * org.xml.sax.helpers.ParserAdapter.getContentHandler()}.
      *
@@ -242,6 +220,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getContentHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link org.xml.sax.helpers.ParserAdapter#setErrorHandler(org.xml.sax.ErrorHandler) public void
+     * org.xml.sax.helpers.ParserAdapter.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setErrorHandler_ErrorHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

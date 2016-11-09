@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLTableElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLTableElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLTableElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLTableElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLTableElementTests<HTMLTableElement> {
+implements HTMLTableElementTests<HTMLTableElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLTableElement]
 

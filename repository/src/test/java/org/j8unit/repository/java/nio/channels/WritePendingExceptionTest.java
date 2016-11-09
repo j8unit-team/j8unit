@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WritePendingExceptionTest
-implements FactoryBasedJ8UnitTest<WritePendingException>, org.j8unit.repository.java.nio.channels.WritePendingExceptionTests<WritePendingException> {
+implements FactoryBasedJ8UnitTest<WritePendingException>, WritePendingExceptionTests<WritePendingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.WritePendingException]
 

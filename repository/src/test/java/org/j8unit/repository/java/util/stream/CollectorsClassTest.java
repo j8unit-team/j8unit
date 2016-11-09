@@ -8,15 +8,44 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Collectors} (by simply reusing the J8Unit
+ * test interface {@link CollectorsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CollectorsClassTest
-implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collectors> {
+implements CollectorsClassTests<Collectors> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.Collectors]
 
     @Override
     public Class<Collectors> createNewSUT() {
         return Collectors.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#toConcurrentMap(java.util.function.Function, java.util.function.Function, java.util.function.BinaryOperator)
+     * public static <T,K,U> java.util.stream.Collector<T, ?, java.util.concurrent.ConcurrentMap<K, U>>
+     * java.util.stream.Collectors.toConcurrentMap(java.util.function.Function<? super T, ? extends
+     * K>,java.util.function.Function<? super T, ? extends U>,java.util.function.BinaryOperator<U>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_toConcurrentMap_Function_Function_BinaryOperator()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#toConcurrentMap(java.util.function.Function,
+        // java.util.function.Function, java.util.function.BinaryOperator)}
     }
 
     /**
@@ -42,30 +71,6 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     throws Exception {
         // write some test for {@link java.util.stream.Collectors#toConcurrentMap(java.util.function.Function,
         // java.util.function.Function, java.util.function.BinaryOperator, java.util.function.Supplier)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#toConcurrentMap(java.util.function.Function, java.util.function.Function, java.util.function.BinaryOperator)
-     * public static <T,K,U> java.util.stream.Collector<T, ?, java.util.concurrent.ConcurrentMap<K, U>>
-     * java.util.stream.Collectors.toConcurrentMap(java.util.function.Function<? super T, ? extends
-     * K>,java.util.function.Function<? super T, ? extends U>,java.util.function.BinaryOperator<U>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_toConcurrentMap_Function_Function_BinaryOperator()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#toConcurrentMap(java.util.function.Function,
-        // java.util.function.Function, java.util.function.BinaryOperator)}
     }
 
     /**
@@ -138,28 +143,6 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#reducing(Object, java.util.function.BinaryOperator) public static <T>
-     * java.util.stream.Collector<T, ?, T>
-     * java.util.stream.Collectors.reducing(T,java.util.function.BinaryOperator<T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_reducing_Object_BinaryOperator()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#reducing(Object, java.util.function.BinaryOperator)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.Collectors#reducing(java.util.function.BinaryOperator) public static <T>
      * java.util.stream.Collector<T, ?, java.util.Optional<T>>
      * java.util.stream.Collectors.reducing(java.util.function.BinaryOperator<T>)}.
@@ -201,6 +184,28 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     throws Exception {
         // write some test for {@link java.util.stream.Collectors#reducing(Object, java.util.function.Function,
         // java.util.function.BinaryOperator)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#reducing(Object, java.util.function.BinaryOperator) public static <T>
+     * java.util.stream.Collector<T, ?, T>
+     * java.util.stream.Collectors.reducing(T,java.util.function.BinaryOperator<T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_reducing_Object_BinaryOperator()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#reducing(Object, java.util.function.BinaryOperator)}
     }
 
     /**
@@ -339,28 +344,6 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#groupingByConcurrent(java.util.function.Function) public static <T,K>
-     * java.util.stream.Collector<T, ?, java.util.concurrent.ConcurrentMap<K, java.util.List<T>>>
-     * java.util.stream.Collectors.groupingByConcurrent(java.util.function.Function<? super T, ? extends K>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_groupingByConcurrent_Function()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#groupingByConcurrent(java.util.function.Function)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.Collectors#groupingByConcurrent(java.util.function.Function, java.util.stream.Collector)
      * public static <T,K,A,D> java.util.stream.Collector<T, ?, java.util.concurrent.ConcurrentMap<K, D>>
      * java.util.stream.Collectors.groupingByConcurrent(java.util.function.Function<? super T, ? extends
@@ -380,6 +363,28 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     throws Exception {
         // write some test for {@link java.util.stream.Collectors#groupingByConcurrent(java.util.function.Function,
         // java.util.stream.Collector)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#groupingByConcurrent(java.util.function.Function) public static <T,K>
+     * java.util.stream.Collector<T, ?, java.util.concurrent.ConcurrentMap<K, java.util.List<T>>>
+     * java.util.stream.Collectors.groupingByConcurrent(java.util.function.Function<? super T, ? extends K>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_groupingByConcurrent_Function()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#groupingByConcurrent(java.util.function.Function)}
     }
 
     /**
@@ -543,6 +548,28 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#partitioningBy(java.util.function.Predicate) public static <T>
+     * java.util.stream.Collector<T, ?, java.util.Map<java.lang.Boolean, java.util.List<T>>>
+     * java.util.stream.Collectors.partitioningBy(java.util.function.Predicate<? super T>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_partitioningBy_Predicate()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#partitioningBy(java.util.function.Predicate)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.Collectors#partitioningBy(java.util.function.Predicate, java.util.stream.Collector)
      * public static <T,D,A> java.util.stream.Collector<T, ?, java.util.Map<java.lang.Boolean, D>>
      * java.util.stream.Collectors.partitioningBy(java.util.function.Predicate<? super T>,java.util.stream.Collector<?
@@ -567,28 +594,6 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#partitioningBy(java.util.function.Predicate) public static <T>
-     * java.util.stream.Collector<T, ?, java.util.Map<java.lang.Boolean, java.util.List<T>>>
-     * java.util.stream.Collectors.partitioningBy(java.util.function.Predicate<? super T>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_partitioningBy_Predicate()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#partitioningBy(java.util.function.Predicate)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.util.stream.Collectors#averagingLong(java.util.function.ToLongFunction) public static <T>
      * java.util.stream.Collector<T, ?, java.lang.Double>
      * java.util.stream.Collectors.averagingLong(java.util.function.ToLongFunction<? super T>)}.
@@ -606,6 +611,98 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     public void test_averagingLong_ToLongFunction()
     throws Exception {
         // write some test for {@link java.util.stream.Collectors#averagingLong(java.util.function.ToLongFunction)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#groupingBy(java.util.function.Function) public static <T,K>
+     * java.util.stream.Collector<T, ?, java.util.Map<K, java.util.List<T>>>
+     * java.util.stream.Collectors.groupingBy(java.util.function.Function<? super T, ? extends K>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_groupingBy_Function()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#groupingBy(java.util.function.Function)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#groupingBy(java.util.function.Function, java.util.stream.Collector) public
+     * static <T,K,A,D> java.util.stream.Collector<T, ?, java.util.Map<K, D>>
+     * java.util.stream.Collectors.groupingBy(java.util.function.Function<? super T, ? extends
+     * K>,java.util.stream.Collector<? super T, A, D>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_groupingBy_Function_Collector()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#groupingBy(java.util.function.Function,
+        // java.util.stream.Collector)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#groupingBy(java.util.function.Function, java.util.function.Supplier, java.util.stream.Collector)
+     * public static <T,K,D,A,M> java.util.stream.Collector<T, ?, M>
+     * java.util.stream.Collectors.groupingBy(java.util.function.Function<? super T, ? extends
+     * K>,java.util.function.Supplier<M>,java.util.stream.Collector<? super T, A, D>)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_groupingBy_Function_Supplier_Collector()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#groupingBy(java.util.function.Function,
+        // java.util.function.Supplier, java.util.stream.Collector)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.util.stream.Collectors#joining(CharSequence, CharSequence, CharSequence) public static
+     * java.util.stream.Collector<java.lang.CharSequence, ?, java.lang.String>
+     * java.util.stream.Collectors.joining(java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_joining_CharSequence_CharSequence_CharSequence()
+    throws Exception {
+        // write some test for {@link java.util.stream.Collectors#joining(CharSequence, CharSequence, CharSequence)}
     }
 
     /**
@@ -647,98 +744,6 @@ implements org.j8unit.repository.java.util.stream.CollectorsClassTests<Collector
     public void test_joining_CharSequence()
     throws Exception {
         // write some test for {@link java.util.stream.Collectors#joining(CharSequence)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#joining(CharSequence, CharSequence, CharSequence) public static
-     * java.util.stream.Collector<java.lang.CharSequence, ?, java.lang.String>
-     * java.util.stream.Collectors.joining(java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_joining_CharSequence_CharSequence_CharSequence()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#joining(CharSequence, CharSequence, CharSequence)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#groupingBy(java.util.function.Function, java.util.function.Supplier, java.util.stream.Collector)
-     * public static <T,K,D,A,M> java.util.stream.Collector<T, ?, M>
-     * java.util.stream.Collectors.groupingBy(java.util.function.Function<? super T, ? extends
-     * K>,java.util.function.Supplier<M>,java.util.stream.Collector<? super T, A, D>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_groupingBy_Function_Supplier_Collector()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#groupingBy(java.util.function.Function,
-        // java.util.function.Supplier, java.util.stream.Collector)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#groupingBy(java.util.function.Function, java.util.stream.Collector) public
-     * static <T,K,A,D> java.util.stream.Collector<T, ?, java.util.Map<K, D>>
-     * java.util.stream.Collectors.groupingBy(java.util.function.Function<? super T, ? extends
-     * K>,java.util.stream.Collector<? super T, A, D>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_groupingBy_Function_Collector()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#groupingBy(java.util.function.Function,
-        // java.util.stream.Collector)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.util.stream.Collectors#groupingBy(java.util.function.Function) public static <T,K>
-     * java.util.stream.Collector<T, ?, java.util.Map<K, java.util.List<T>>>
-     * java.util.stream.Collectors.groupingBy(java.util.function.Function<? super T, ? extends K>)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_groupingBy_Function()
-    throws Exception {
-        // write some test for {@link java.util.stream.Collectors#groupingBy(java.util.function.Function)}
     }
 
     /**

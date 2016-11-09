@@ -4,9 +4,14 @@ import java.io.DataInput;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DataInput} (by simply reusing the J8Unit
+ * test interface {@link DataInputClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DataInputClassTest
-implements org.j8unit.repository.java.io.DataInputClassTests<DataInput> {
+implements DataInputClassTests<DataInput> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.DataInput]
 

@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.imageio.stream.FileImageOutputStreamClassTests}).
+ * {@link FileImageOutputStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileImageOutputStreamTests<SUT extends FileImageOutputStream>
-extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SUT> {
+extends ImageOutputStreamImplTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.stream.FileImageOutputStream]
 

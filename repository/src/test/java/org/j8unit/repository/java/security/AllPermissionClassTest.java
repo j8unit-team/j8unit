@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AllPermission} (by simply reusing the
+ * J8Unit test interface {@link AllPermissionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AllPermissionClassTest
-implements org.j8unit.repository.java.security.AllPermissionClassTests<AllPermission> {
+implements AllPermissionClassTests<AllPermission> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.AllPermission]
 

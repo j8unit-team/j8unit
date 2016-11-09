@@ -4,9 +4,14 @@ import javax.swing.SwingConstants;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SwingConstants} (by simply reusing the
+ * J8Unit test interface {@link SwingConstantsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SwingConstantsClassTest
-implements org.j8unit.repository.javax.swing.SwingConstantsClassTests<SwingConstants> {
+implements SwingConstantsClassTests<SwingConstants> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SwingConstants]
 

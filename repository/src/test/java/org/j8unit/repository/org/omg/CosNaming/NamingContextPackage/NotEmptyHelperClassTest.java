@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NotEmptyHelper} (by simply reusing the
+ * J8Unit test interface {@link NotEmptyHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NotEmptyHelperClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHelperClassTests<NotEmptyHelper> {
+implements NotEmptyHelperClassTests<NotEmptyHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]
 

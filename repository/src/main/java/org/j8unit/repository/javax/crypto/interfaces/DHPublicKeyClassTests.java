@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.crypto.interfaces;
 import static org.junit.Assert.assertTrue;
 import javax.crypto.interfaces.DHPublicKey;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.PublicKeyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.crypto.interfaces.DHPublicKeyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DHPublicKeyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DHPublicKeyClassTests<SUT extends DHPublicKey>
-extends org.j8unit.repository.javax.crypto.interfaces.DHKeyClassTests<SUT>, org.j8unit.repository.java.security.PublicKeyClassTests<SUT> {
+extends DHKeyClassTests<SUT>, PublicKeyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.interfaces.DHPublicKey]
     /**

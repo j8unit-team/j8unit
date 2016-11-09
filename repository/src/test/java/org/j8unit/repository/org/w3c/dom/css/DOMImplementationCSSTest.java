@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.css.DOMImplementationCSS;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DOMImplementationCSS} (by simply
+ * reusing the J8Unit test interface {@link DOMImplementationCSSTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DOMImplementationCSSTest
-implements org.j8unit.repository.org.w3c.dom.css.DOMImplementationCSSTests<DOMImplementationCSS> {
+implements DOMImplementationCSSTests<DOMImplementationCSS> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.DOMImplementationCSS]
 

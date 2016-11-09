@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ChoiceTest
-implements FactoryBasedJ8UnitTest<Choice>, org.j8unit.repository.java.awt.ChoiceTests<Choice> {
+implements FactoryBasedJ8UnitTest<Choice>, ChoiceTests<Choice> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Choice]
 

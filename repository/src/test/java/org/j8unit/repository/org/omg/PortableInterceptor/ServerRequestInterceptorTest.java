@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ServerRequestInterceptor;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServerRequestInterceptor} (by simply
+ * reusing the J8Unit test interface {@link ServerRequestInterceptorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerRequestInterceptorTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorTests<ServerRequestInterceptor> {
+implements ServerRequestInterceptorTests<ServerRequestInterceptor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ServerRequestInterceptor]
 

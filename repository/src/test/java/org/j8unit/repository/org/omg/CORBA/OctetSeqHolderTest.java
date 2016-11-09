@@ -14,7 +14,7 @@ import org.omg.CORBA.OctetSeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class OctetSeqHolderTest
-implements FactoryBasedJ8UnitTest<OctetSeqHolder>, org.j8unit.repository.org.omg.CORBA.OctetSeqHolderTests<OctetSeqHolder> {
+implements FactoryBasedJ8UnitTest<OctetSeqHolder>, OctetSeqHolderTests<OctetSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OctetSeqHolder]
 

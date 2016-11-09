@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynEnumOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynEnumOperations} (by simply reusing
+ * the J8Unit test interface {@link DynEnumOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynEnumOperationsTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynEnumOperationsTests<DynEnumOperations> {
+implements DynEnumOperationsTests<DynEnumOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynEnumOperations]
 

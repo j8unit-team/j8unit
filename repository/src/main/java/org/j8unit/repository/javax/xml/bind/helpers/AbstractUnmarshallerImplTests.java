@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.bind.helpers;
 import javax.xml.bind.helpers.AbstractUnmarshallerImpl;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.xml.bind.UnmarshallerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.bind.helpers.AbstractUnmarshallerImplClassTests}).
+ * {@link AbstractUnmarshallerImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractUnmarshallerImplTests<SUT extends AbstractUnmarshallerImpl>
-extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends UnmarshallerTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
 
@@ -157,31 +159,6 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#getEventHandler() public
-     * javax.xml.bind.ValidationEventHandler javax.xml.bind.helpers.AbstractUnmarshallerImpl.getEventHandler() throws
-     * javax.xml.bind.JAXBException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getEventHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#setAdapter(Class, javax.xml.bind.annotation.adapters.XmlAdapter)
      * public <A> void javax.xml.bind.helpers.AbstractUnmarshallerImpl.setAdapter(java.lang.Class<A>,A)}.
      *
@@ -222,6 +199,31 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_setAdapter_XmlAdapter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#getEventHandler() public
+     * javax.xml.bind.ValidationEventHandler javax.xml.bind.helpers.AbstractUnmarshallerImpl.getEventHandler() throws
+     * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -354,9 +356,9 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(org.xml.sax.InputSource) public final
-     * java.lang.Object javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(org.xml.sax.InputSource) throws
-     * javax.xml.bind.JAXBException}.
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLStreamReader) public
+     * java.lang.Object javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLStreamReader)
+     * throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -369,7 +371,7 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_unmarshal_InputSource()
+    public default void test_unmarshal_XMLStreamReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -394,32 +396,6 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_unmarshal_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.transform.Source, Class) public <T>
-     * javax.xml.bind.JAXBElement<T>
-     * javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.transform.Source,java.lang.Class<T>) throws
-     * javax.xml.bind.JAXBException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_unmarshal_Source_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -455,8 +431,35 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLEventReader) public
-     * java.lang.Object javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLEventReader)
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.transform.Source, Class) public <T>
+     * javax.xml.bind.JAXBElement<T>
+     * javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.transform.Source,java.lang.Class<T>) throws
+     * javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_unmarshal_Source_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLStreamReader, Class) public
+     * <T> javax.xml.bind.JAXBElement<T>
+     * javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLStreamReader,java.lang.Class<T>)
      * throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -470,7 +473,33 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_unmarshal_XMLEventReader()
+    public default void test_unmarshal_XMLStreamReader_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLEventReader, Class) public
+     * <T> javax.xml.bind.JAXBElement<T>
+     * javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLEventReader,java.lang.Class<T>)
+     * throws javax.xml.bind.JAXBException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_unmarshal_XMLEventReader_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -495,31 +524,6 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_unmarshal_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLStreamReader) public
-     * java.lang.Object javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLStreamReader)
-     * throws javax.xml.bind.JAXBException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_unmarshal_XMLStreamReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -578,9 +582,8 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLEventReader, Class) public
-     * <T> javax.xml.bind.JAXBElement<T>
-     * javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLEventReader,java.lang.Class<T>)
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLEventReader) public
+     * java.lang.Object javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLEventReader)
      * throws javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -594,7 +597,7 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_unmarshal_XMLEventReader_Class()
+    public default void test_unmarshal_XMLEventReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -604,10 +607,9 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(javax.xml.stream.XMLStreamReader, Class) public
-     * <T> javax.xml.bind.JAXBElement<T>
-     * javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(javax.xml.stream.XMLStreamReader,java.lang.Class<T>)
-     * throws javax.xml.bind.JAXBException}.
+     * {@link javax.xml.bind.helpers.AbstractUnmarshallerImpl#unmarshal(org.xml.sax.InputSource) public final
+     * java.lang.Object javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(org.xml.sax.InputSource) throws
+     * javax.xml.bind.JAXBException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -620,7 +622,7 @@ extends org.j8unit.repository.javax.xml.bind.UnmarshallerTests<SUT>, org.j8unit.
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_unmarshal_XMLStreamReader_Class()
+    public default void test_unmarshal_InputSource()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

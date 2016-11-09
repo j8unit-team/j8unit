@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PreferenceChangeListener} (by simply
+ * reusing the J8Unit test interface {@link PreferenceChangeListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PreferenceChangeListenerTest
-implements org.j8unit.repository.java.util.prefs.PreferenceChangeListenerTests<PreferenceChangeListener> {
+implements PreferenceChangeListenerTests<PreferenceChangeListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.prefs.PreferenceChangeListener]
 

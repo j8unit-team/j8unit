@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.LifespanPolicyOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LifespanPolicyOperations} (by simply
+ * reusing the J8Unit test interface {@link LifespanPolicyOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LifespanPolicyOperationsTest
-implements org.j8unit.repository.org.omg.PortableServer.LifespanPolicyOperationsTests<LifespanPolicyOperations> {
+implements LifespanPolicyOperationsTests<LifespanPolicyOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.LifespanPolicyOperations]
 

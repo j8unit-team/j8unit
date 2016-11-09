@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA._PolicyStub;
@@ -17,8 +18,7 @@ import org.omg.CORBA._PolicyStub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA._PolicyStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link _PolicyStubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA._PolicyStub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _PolicyStubClassTests<SUT extends _PolicyStub>
-extends org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
+extends PolicyClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA._PolicyStub]
     /**

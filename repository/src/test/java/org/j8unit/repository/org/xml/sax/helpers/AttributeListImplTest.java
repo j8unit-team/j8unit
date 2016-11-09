@@ -14,7 +14,7 @@ import org.xml.sax.helpers.AttributeListImpl;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributeListImplTest
-implements FactoryBasedJ8UnitTest<AttributeListImpl>, org.j8unit.repository.org.xml.sax.helpers.AttributeListImplTests<AttributeListImpl> {
+implements FactoryBasedJ8UnitTest<AttributeListImpl>, AttributeListImplTests<AttributeListImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.AttributeListImpl]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ZipError} (by simply reusing the J8Unit
+ * test interface {@link ZipErrorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ZipErrorClassTest
-implements org.j8unit.repository.java.util.zip.ZipErrorClassTests<ZipError> {
+implements ZipErrorClassTests<ZipError> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.ZipError]
 

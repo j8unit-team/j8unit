@@ -4,6 +4,10 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.SwingWorker;
 import javax.swing.SwingWorker.StateValue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests;
+import org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +23,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.SwingWorkerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SwingWorkerTests}.
  * </p>
  *
  * <p>
@@ -49,7 +52,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SwingWorkerClassTests<SUT extends SwingWorker>
-extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends RunnableFutureClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SwingWorker]
     /**
@@ -84,8 +87,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link StateValueTests}.
      * </p>
      *
      * <p>
@@ -114,7 +116,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateValueClassTests<SUT extends StateValue>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SwingWorker$StateValue]
         /**

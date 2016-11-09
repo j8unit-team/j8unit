@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.channels;
 import static org.junit.Assert.assertTrue;
 import java.nio.channels.DatagramChannel;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.DatagramChannelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DatagramChannelTests}.
  * </p>
  *
  * <p>
@@ -47,9 +47,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DatagramChannelClassTests<SUT extends DatagramChannel>
-extends org.j8unit.repository.java.nio.channels.ByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
-org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.MulticastChannelClassTests<SUT>,
-org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
+extends ByteChannelClassTests<SUT>, ScatteringByteChannelClassTests<SUT>, GatheringByteChannelClassTests<SUT>, MulticastChannelClassTests<SUT>,
+AbstractSelectableChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.DatagramChannel]
     /**

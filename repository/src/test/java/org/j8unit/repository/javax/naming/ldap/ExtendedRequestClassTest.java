@@ -4,9 +4,14 @@ import javax.naming.ldap.ExtendedRequest;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ExtendedRequest} (by simply reusing the
+ * J8Unit test interface {@link ExtendedRequestClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ExtendedRequestClassTest
-implements org.j8unit.repository.javax.naming.ldap.ExtendedRequestClassTests<ExtendedRequest> {
+implements ExtendedRequestClassTests<ExtendedRequest> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.ExtendedRequest]
 

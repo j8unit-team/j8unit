@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.lang.model.util.SimpleAnnotationValueVisitor6ClassTests}).
+ * {@link SimpleAnnotationValueVisitor6ClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleAnnotationValueVisitor6Tests<SUT extends SimpleAnnotationValueVisitor6<R, P>, R, P>
-extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor6Tests<SUT, R, P> {
+extends AbstractAnnotationValueVisitor6Tests<SUT, R, P> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.util.SimpleAnnotationValueVisitor6]
 
@@ -301,6 +301,30 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitString(String, Object) public R
+     * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitString(java.lang.String,P)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_visitString_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitAnnotation(javax.lang.model.element.AnnotationMirror, Object)
      * public R
      * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitAnnotation(javax.lang.model.element.AnnotationMirror,P)}.
@@ -317,30 +341,6 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisit
     @Test
     @Category(Draft.class)
     public default void test_visitAnnotation_AnnotationMirror_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.lang.model.util.SimpleAnnotationValueVisitor6#visitString(String, Object) public R
-     * javax.lang.model.util.SimpleAnnotationValueVisitor6.visitString(java.lang.String,P)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_visitString_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

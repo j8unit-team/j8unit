@@ -4,9 +4,14 @@ import javax.net.ssl.X509ExtendedKeyManager;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link X509ExtendedKeyManager} (by simply
+ * reusing the J8Unit test interface {@link X509ExtendedKeyManagerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class X509ExtendedKeyManagerClassTest
-implements org.j8unit.repository.javax.net.ssl.X509ExtendedKeyManagerClassTests<X509ExtendedKeyManager> {
+implements X509ExtendedKeyManagerClassTests<X509ExtendedKeyManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.X509ExtendedKeyManager]
 

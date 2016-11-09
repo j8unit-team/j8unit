@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.CharHolder;
@@ -17,8 +19,7 @@ import org.omg.CORBA.CharHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.CharHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CharHolderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CORBA.CharHolder;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharHolderClassTests<SUT extends CharHolder>
-extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends StreamableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CharHolder]
     /**

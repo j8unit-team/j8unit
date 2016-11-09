@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalClassFormatExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalClassFormatException>,
-org.j8unit.repository.java.lang.instrument.IllegalClassFormatExceptionTests<IllegalClassFormatException> {
+implements FactoryBasedJ8UnitTest<IllegalClassFormatException>, IllegalClassFormatExceptionTests<IllegalClassFormatException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.instrument.IllegalClassFormatException]
 

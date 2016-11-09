@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.datatransfer.FlavorTableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FlavorTableTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlavorTableClassTests<SUT extends FlavorTable>
-extends org.j8unit.repository.java.awt.datatransfer.FlavorMapClassTests<SUT> {
+extends FlavorMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.datatransfer.FlavorTable]
     /**

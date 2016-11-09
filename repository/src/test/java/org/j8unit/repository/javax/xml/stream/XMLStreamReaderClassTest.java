@@ -4,9 +4,14 @@ import javax.xml.stream.XMLStreamReader;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XMLStreamReader} (by simply reusing the
+ * J8Unit test interface {@link XMLStreamReaderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLStreamReaderClassTest
-implements org.j8unit.repository.javax.xml.stream.XMLStreamReaderClassTests<XMLStreamReader> {
+implements XMLStreamReaderClassTests<XMLStreamReader> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.XMLStreamReader]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.INTERNAL;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.INTERNALTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link INTERNALTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.INTERNAL;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INTERNALClassTests<SUT extends INTERNAL>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INTERNAL]
     /**

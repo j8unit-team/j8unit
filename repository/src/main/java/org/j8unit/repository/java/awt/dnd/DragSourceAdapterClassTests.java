@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.dnd;
 import static org.junit.Assert.assertTrue;
 import java.awt.dnd.DragSourceAdapter;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.dnd.DragSourceAdapterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DragSourceAdapterTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DragSourceAdapterClassTests<SUT extends DragSourceAdapter>
-extends org.j8unit.repository.java.awt.dnd.DragSourceListenerClassTests<SUT>, org.j8unit.repository.java.awt.dnd.DragSourceMotionListenerClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends DragSourceListenerClassTests<SUT>, DragSourceMotionListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.DragSourceAdapter]
     /**

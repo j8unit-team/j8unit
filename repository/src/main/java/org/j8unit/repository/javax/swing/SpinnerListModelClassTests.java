@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.SpinnerListModelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SpinnerListModelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpinnerListModelClassTests<SUT extends SpinnerListModel>
-extends org.j8unit.repository.javax.swing.AbstractSpinnerModelClassTests<SUT> {
+extends AbstractSpinnerModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SpinnerListModel]
     /**

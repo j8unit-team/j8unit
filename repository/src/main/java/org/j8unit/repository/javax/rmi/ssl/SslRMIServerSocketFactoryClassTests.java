@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.rmi.ssl;
 import static org.junit.Assert.assertTrue;
 import javax.rmi.ssl.SslRMIServerSocketFactory;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryTests}.
+ * {@link SslRMIServerSocketFactoryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SslRMIServerSocketFactoryClassTests<SUT extends SslRMIServerSocketFactory>
-extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends RMIServerSocketFactoryClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.rmi.ssl.SslRMIServerSocketFactory]
     /**

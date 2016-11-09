@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultTreeCellEditor} (by simply
+ * reusing the J8Unit test interface {@link DefaultTreeCellEditorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultTreeCellEditorTest
-implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<DefaultTreeCellEditor> {
+implements DefaultTreeCellEditorTests<DefaultTreeCellEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
@@ -22,9 +27,14 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<Def
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link EditorContainer} (by simply
+     * reusing the J8Unit test interface {@link EditorContainerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class EditorContainerTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests<EditorContainer> {
+    implements EditorContainerTests<EditorContainer> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
 
@@ -39,9 +49,14 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests<Def
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultTextField} (by simply
+     * reusing the J8Unit test interface {@link DefaultTextFieldTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DefaultTextFieldTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests<DefaultTextField> {
+    implements DefaultTextFieldTests<DefaultTextField> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
 

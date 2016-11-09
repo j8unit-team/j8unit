@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JTable} (by simply reusing the J8Unit
+ * test interface {@link JTableClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JTableClassTest
-implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
+implements JTableClassTests<JTable> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable]
 
@@ -205,9 +210,14 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JTable]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
+     * J8Unit test interface {@link DropLocationClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests<DropLocation> {
+    implements DropLocationClassTests<DropLocation> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$DropLocation]
 
@@ -222,9 +232,14 @@ implements org.j8unit.repository.javax.swing.JTableClassTests<JTable> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PrintMode} (by simply reusing the
+     * J8Unit test interface {@link PrintModeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PrintModeClassTest
-    implements org.j8unit.repository.javax.swing.JTableClassTests.PrintModeClassTests<PrintMode> {
+    implements PrintModeClassTests<PrintMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$PrintMode]
 

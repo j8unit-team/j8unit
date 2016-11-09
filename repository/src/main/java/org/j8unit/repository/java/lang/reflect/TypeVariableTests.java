@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.lang.reflect.TypeVariableClassTests}).
+ * {@link TypeVariableClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeVariableTests<SUT extends TypeVariable<D>, D extends GenericDeclaration>
-extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT> {
+extends TypeTests<SUT>, AnnotatedElementTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.TypeVariable]
 

@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link WatchEvent} (by simply reusing the
+ * J8Unit test interface {@link WatchEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WatchEventTest<T>
-implements org.j8unit.repository.java.nio.file.WatchEventTests<WatchEvent<T>, T> {
+implements WatchEventTests<WatchEvent<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent]
 
@@ -22,9 +27,14 @@ implements org.j8unit.repository.java.nio.file.WatchEventTests<WatchEvent<T>, T>
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.WatchEvent]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Modifier} (by simply reusing the
+     * J8Unit test interface {@link ModifierTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ModifierTest
-    implements org.j8unit.repository.java.nio.file.WatchEventTests.ModifierTests<Modifier> {
+    implements ModifierTests<Modifier> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Modifier]
 
@@ -39,9 +49,14 @@ implements org.j8unit.repository.java.nio.file.WatchEventTests<WatchEvent<T>, T>
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Kind} (by simply reusing the
+     * J8Unit test interface {@link KindTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class KindTest<T>
-    implements org.j8unit.repository.java.nio.file.WatchEventTests.KindTests<Kind<T>, T> {
+    implements KindTests<Kind<T>, T> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.WatchEvent$Kind]
 

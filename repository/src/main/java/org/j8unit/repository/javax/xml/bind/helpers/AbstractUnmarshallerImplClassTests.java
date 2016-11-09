@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.bind.helpers;
 import static org.junit.Assert.assertTrue;
 import javax.xml.bind.helpers.AbstractUnmarshallerImpl;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.helpers.AbstractUnmarshallerImplTests}.
+ * {@link AbstractUnmarshallerImplTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractUnmarshallerImplClassTests<SUT extends AbstractUnmarshallerImpl>
-extends org.j8unit.repository.javax.xml.bind.UnmarshallerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends UnmarshallerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
     /**

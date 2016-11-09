@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CharArrayWriter} (by simply reusing the
+ * J8Unit test interface {@link CharArrayWriterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CharArrayWriterClassTest
-implements org.j8unit.repository.java.io.CharArrayWriterClassTests<CharArrayWriter> {
+implements CharArrayWriterClassTests<CharArrayWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.CharArrayWriter]
 

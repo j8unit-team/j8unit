@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultMetalThemeTest
-implements FactoryBasedJ8UnitTest<DefaultMetalTheme>, org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<DefaultMetalTheme> {
+implements FactoryBasedJ8UnitTest<DefaultMetalTheme>, DefaultMetalThemeTests<DefaultMetalTheme> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.DefaultMetalTheme]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.StructMemberHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StructMemberHelper} (by simply reusing
+ * the J8Unit test interface {@link StructMemberHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StructMemberHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.StructMemberHelperClassTests<StructMemberHelper> {
+implements StructMemberHelperClassTests<StructMemberHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.StructMemberHelper]
 

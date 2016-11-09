@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CompoundControl} (by simply reusing
+ * the J8Unit test interface {@link CompoundControlTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompoundControlTest
-implements org.j8unit.repository.javax.sound.sampled.CompoundControlTests<CompoundControl> {
+implements CompoundControlTests<CompoundControl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.CompoundControl]
 
@@ -20,6 +25,11 @@ implements org.j8unit.repository.javax.sound.sampled.CompoundControlTests<Compou
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.CompoundControl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.CompoundControl]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.CompoundControlTests.TypeTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeTest

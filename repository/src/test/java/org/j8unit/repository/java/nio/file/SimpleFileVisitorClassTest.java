@@ -4,10 +4,14 @@ import java.nio.file.SimpleFileVisitor;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleFileVisitor} (by simply reusing the
+ * J8Unit test interface {@link SimpleFileVisitorClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class SimpleFileVisitorClassTest
-implements org.j8unit.repository.java.nio.file.SimpleFileVisitorClassTests<SimpleFileVisitor> {
+implements SimpleFileVisitorClassTests<SimpleFileVisitor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.SimpleFileVisitor]
 

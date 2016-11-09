@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.event.PrintJobEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrintJobEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintJobEventClassTests<SUT extends PrintJobEvent>
-extends org.j8unit.repository.javax.print.event.PrintEventClassTests<SUT> {
+extends PrintEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.event.PrintJobEvent]
     /**

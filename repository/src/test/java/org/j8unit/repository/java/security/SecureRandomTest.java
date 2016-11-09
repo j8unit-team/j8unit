@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SecureRandomTest
-implements FactoryBasedJ8UnitTest<SecureRandom>, org.j8unit.repository.java.security.SecureRandomTests<SecureRandom> {
+implements FactoryBasedJ8UnitTest<SecureRandom>, SecureRandomTests<SecureRandom> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.SecureRandom]
 

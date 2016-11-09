@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAOperations;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link POAOperations} (by simply reusing the
+ * J8Unit test interface {@link POAOperationsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class POAOperationsClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAOperationsClassTests<POAOperations> {
+implements POAOperationsClassTests<POAOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAOperations]
 

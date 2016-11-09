@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Pipe} (by simply reusing the J8Unit test
+ * interface {@link PipeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PipeClassTest
-implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
+implements PipeClassTests<Pipe> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe]
 
@@ -45,9 +50,14 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.Pipe]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SourceChannel} (by simply reusing the
+     * J8Unit test interface {@link SourceChannelClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SourceChannelClassTest
-    implements org.j8unit.repository.java.nio.channels.PipeClassTests.SourceChannelClassTests<SourceChannel> {
+    implements SourceChannelClassTests<SourceChannel> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
 
@@ -62,9 +72,14 @@ implements org.j8unit.repository.java.nio.channels.PipeClassTests<Pipe> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SinkChannel} (by simply reusing the
+     * J8Unit test interface {@link SinkChannelClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SinkChannelClassTest
-    implements org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests<SinkChannel> {
+    implements SinkChannelClassTests<SinkChannel> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
 

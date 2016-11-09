@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.UnionMemberHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UnionMemberHelper} (by simply reusing the
+ * J8Unit test interface {@link UnionMemberHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnionMemberHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.UnionMemberHelperClassTests<UnionMemberHelper> {
+implements UnionMemberHelperClassTests<UnionMemberHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UnionMemberHelper]
 

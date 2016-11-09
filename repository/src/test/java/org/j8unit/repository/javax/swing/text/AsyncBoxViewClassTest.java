@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AsyncBoxView} (by simply reusing the
+ * J8Unit test interface {@link AsyncBoxViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AsyncBoxViewClassTest
-implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBoxView> {
+implements AsyncBoxViewClassTests<AsyncBoxView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AsyncBoxView]
 
@@ -48,49 +53,14 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView]
 
-    @RunWith(J8Unit4.class)
-    public static class ChildStateClassTest
-    implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests.ChildStateClassTests<ChildState> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
-
-        @Override
-        public Class<ChildState> createNewSUT() {
-            return ChildState.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.AsyncBoxView.ChildState#ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View)
-         * public javax.swing.text.AsyncBoxView$ChildState(javax.swing.text.AsyncBoxView,javax.swing.text.View)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ChildState_AsyncBoxView_View()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ChildState sut = null; // = new ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ChildLocator} (by simply reusing the
+     * J8Unit test interface {@link ChildLocatorClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ChildLocatorClassTest
-    implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests.ChildLocatorClassTests<ChildLocator> {
+    implements ChildLocatorClassTests<ChildLocator> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
 
@@ -125,6 +95,51 @@ implements org.j8unit.repository.javax.swing.text.AsyncBoxViewClassTests<AsyncBo
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildLocator]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ChildState} (by simply reusing the
+     * J8Unit test interface {@link ChildStateClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ChildStateClassTest
+    implements ChildStateClassTests<ChildState> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
+
+        @Override
+        public Class<ChildState> createNewSUT() {
+            return ChildState.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.AsyncBoxView.ChildState#ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View)
+         * public javax.swing.text.AsyncBoxView$ChildState(javax.swing.text.AsyncBoxView,javax.swing.text.View)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ChildState_AsyncBoxView_View()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ChildState sut = null; // = new ChildState(javax.swing.text.AsyncBoxView, javax.swing.text.View);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AsyncBoxView$ChildState]
 
     }
 

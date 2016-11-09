@@ -4,10 +4,14 @@ import java.nio.file.attribute.FileAttribute;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileAttribute} (by simply reusing the
+ * J8Unit test interface {@link FileAttributeClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class FileAttributeClassTest
-implements org.j8unit.repository.java.nio.file.attribute.FileAttributeClassTests<FileAttribute> {
+implements FileAttributeClassTests<FileAttribute> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.FileAttribute]
 

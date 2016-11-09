@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JCheckBoxMenuItemTest
-implements FactoryBasedJ8UnitTest<JCheckBoxMenuItem>, org.j8unit.repository.javax.swing.JCheckBoxMenuItemTests<JCheckBoxMenuItem> {
+implements FactoryBasedJ8UnitTest<JCheckBoxMenuItem>, JCheckBoxMenuItemTests<JCheckBoxMenuItem> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JCheckBoxMenuItem]
 

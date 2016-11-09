@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SyncProviderExceptionTest
-implements FactoryBasedJ8UnitTest<SyncProviderException>, org.j8unit.repository.javax.sql.rowset.spi.SyncProviderExceptionTests<SyncProviderException> {
+implements FactoryBasedJ8UnitTest<SyncProviderException>, SyncProviderExceptionTests<SyncProviderException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.spi.SyncProviderException]
 

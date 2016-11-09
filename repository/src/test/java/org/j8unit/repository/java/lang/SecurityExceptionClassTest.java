@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SecurityException} (by simply reusing the
+ * J8Unit test interface {@link SecurityExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SecurityExceptionClassTest
-implements org.j8unit.repository.java.lang.SecurityExceptionClassTests<SecurityException> {
+implements SecurityExceptionClassTests<SecurityException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.SecurityException]
 

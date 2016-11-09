@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security;
 import static org.junit.Assert.assertTrue;
 import java.security.DigestInputStream;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.FilterInputStreamClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.DigestInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DigestInputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DigestInputStreamClassTests<SUT extends DigestInputStream>
-extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
+extends FilterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.DigestInputStream]
     /**

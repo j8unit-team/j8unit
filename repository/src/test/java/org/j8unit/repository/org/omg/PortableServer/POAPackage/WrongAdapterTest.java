@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAPackage.WrongAdapter;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WrongAdapterTest
-implements FactoryBasedJ8UnitTest<WrongAdapter>, org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterTests<WrongAdapter> {
+implements FactoryBasedJ8UnitTest<WrongAdapter>, WrongAdapterTests<WrongAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongAdapter]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WebServiceExceptionTest
-implements FactoryBasedJ8UnitTest<WebServiceException>, org.j8unit.repository.javax.xml.ws.WebServiceExceptionTests<WebServiceException> {
+implements FactoryBasedJ8UnitTest<WebServiceException>, WebServiceExceptionTests<WebServiceException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.WebServiceException]
 

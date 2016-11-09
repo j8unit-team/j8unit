@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.imageio.event;
 import static org.junit.Assert.assertTrue;
 import javax.imageio.event.IIOReadUpdateListener;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.imageio.event.IIOReadUpdateListenerTests}.
+ * {@link IIOReadUpdateListenerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOReadUpdateListenerClassTests<SUT extends IIOReadUpdateListener>
-extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
+extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.event.IIOReadUpdateListener]
     /**

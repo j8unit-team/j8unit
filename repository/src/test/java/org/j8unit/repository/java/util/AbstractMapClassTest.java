@@ -10,10 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractMap} (by simply reusing the
+ * J8Unit test interface {@link AbstractMapClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class AbstractMapClassTest
-implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
+implements AbstractMapClassTests<AbstractMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap]
 
@@ -26,10 +30,14 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.AbstractMap]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleImmutableEntry} (by simply
+     * reusing the J8Unit test interface {@link SimpleImmutableEntryClassTests}).
+     */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class SimpleImmutableEntryClassTest
-    implements org.j8unit.repository.java.util.AbstractMapClassTests.SimpleImmutableEntryClassTests<SimpleImmutableEntry> {
+    implements SimpleImmutableEntryClassTests<SimpleImmutableEntry> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap$SimpleImmutableEntry]
 
@@ -90,10 +98,14 @@ implements org.j8unit.repository.java.util.AbstractMapClassTests<AbstractMap> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleEntry} (by simply reusing the
+     * J8Unit test interface {@link SimpleEntryClassTests}).
+     */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class SimpleEntryClassTest
-    implements org.j8unit.repository.java.util.AbstractMapClassTests.SimpleEntryClassTests<SimpleEntry> {
+    implements SimpleEntryClassTests<SimpleEntry> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractMap$SimpleEntry]
 

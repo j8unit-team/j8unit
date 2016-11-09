@@ -14,7 +14,7 @@ import org.omg.CORBA.TIMEOUT;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TIMEOUTTest
-implements FactoryBasedJ8UnitTest<TIMEOUT>, org.j8unit.repository.org.omg.CORBA.TIMEOUTTests<TIMEOUT> {
+implements FactoryBasedJ8UnitTest<TIMEOUT>, TIMEOUTTests<TIMEOUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TIMEOUT]
 

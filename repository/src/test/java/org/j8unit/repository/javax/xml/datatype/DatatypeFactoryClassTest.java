@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DatatypeFactory} (by simply reusing the
+ * J8Unit test interface {@link DatatypeFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DatatypeFactoryClassTest
-implements org.j8unit.repository.javax.xml.datatype.DatatypeFactoryClassTests<DatatypeFactory> {
+implements DatatypeFactoryClassTests<DatatypeFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.datatype.DatatypeFactory]
 

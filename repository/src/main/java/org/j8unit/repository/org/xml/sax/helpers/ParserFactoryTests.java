@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.xml.sax.helpers;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.ParserFactory;
 
@@ -14,7 +15,7 @@ import org.xml.sax.helpers.ParserFactory;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.xml.sax.helpers.ParserFactoryClassTests}).
+ * {@link ParserFactoryClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.xml.sax.helpers.ParserFactory;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParserFactoryTests<SUT extends ParserFactory>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.ParserFactory]
 

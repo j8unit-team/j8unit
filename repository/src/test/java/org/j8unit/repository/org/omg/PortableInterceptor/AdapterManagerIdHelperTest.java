@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.AdapterManagerIdHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AdapterManagerIdHelper} (by simply
+ * reusing the J8Unit test interface {@link AdapterManagerIdHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterManagerIdHelperTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterManagerIdHelperTests<AdapterManagerIdHelper> {
+implements AdapterManagerIdHelperTests<AdapterManagerIdHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.AdapterManagerIdHelper]
 

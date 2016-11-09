@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleRelationTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AccessibleRelationTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleRelationClassTests<SUT extends AccessibleRelation>
-extends org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests<SUT> {
+extends AccessibleBundleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleRelation]
     /**

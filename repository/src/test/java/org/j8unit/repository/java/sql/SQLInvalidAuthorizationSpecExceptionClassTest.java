@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SQLInvalidAuthorizationSpecException} (by
+ * simply reusing the J8Unit test interface {@link SQLInvalidAuthorizationSpecExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SQLInvalidAuthorizationSpecExceptionClassTest
-implements org.j8unit.repository.java.sql.SQLInvalidAuthorizationSpecExceptionClassTests<SQLInvalidAuthorizationSpecException> {
+implements SQLInvalidAuthorizationSpecExceptionClassTests<SQLInvalidAuthorizationSpecException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLInvalidAuthorizationSpecException]
 

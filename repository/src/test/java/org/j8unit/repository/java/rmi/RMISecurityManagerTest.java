@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RMISecurityManagerTest
-implements FactoryBasedJ8UnitTest<RMISecurityManager>, org.j8unit.repository.java.rmi.RMISecurityManagerTests<RMISecurityManager> {
+implements FactoryBasedJ8UnitTest<RMISecurityManager>, RMISecurityManagerTests<RMISecurityManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RMISecurityManager]
 

@@ -4,10 +4,14 @@ import javax.tools.DiagnosticListener;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DiagnosticListener} (by simply reusing
+ * the J8Unit test interface {@link DiagnosticListenerClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class DiagnosticListenerClassTest
-implements org.j8unit.repository.javax.tools.DiagnosticListenerClassTests<DiagnosticListener> {
+implements DiagnosticListenerClassTests<DiagnosticListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DiagnosticListener]
 

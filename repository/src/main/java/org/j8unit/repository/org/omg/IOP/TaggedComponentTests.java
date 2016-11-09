@@ -1,6 +1,8 @@
 package org.j8unit.repository.org.omg.IOP;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.TaggedComponent;
 
@@ -14,7 +16,7 @@ import org.omg.IOP.TaggedComponent;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.IOP.TaggedComponentClassTests}).
+ * {@link TaggedComponentClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +27,7 @@ import org.omg.IOP.TaggedComponent;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TaggedComponentTests<SUT extends TaggedComponent>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends IDLEntityTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TaggedComponent]
 

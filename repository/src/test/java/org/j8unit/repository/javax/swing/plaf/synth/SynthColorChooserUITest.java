@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthColorChooserUITest
-implements FactoryBasedJ8UnitTest<SynthColorChooserUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthColorChooserUITests<SynthColorChooserUI> {
+implements FactoryBasedJ8UnitTest<SynthColorChooserUI>, SynthColorChooserUITests<SynthColorChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthColorChooserUI]
 

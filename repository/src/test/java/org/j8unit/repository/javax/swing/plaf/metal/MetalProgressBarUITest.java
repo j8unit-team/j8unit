@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalProgressBarUITest
-implements FactoryBasedJ8UnitTest<MetalProgressBarUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalProgressBarUITests<MetalProgressBarUI> {
+implements FactoryBasedJ8UnitTest<MetalProgressBarUI>, MetalProgressBarUITests<MetalProgressBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalProgressBarUI]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PixelInterleavedSampleModel} (by simply
+ * reusing the J8Unit test interface {@link PixelInterleavedSampleModelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PixelInterleavedSampleModelClassTest
-implements org.j8unit.repository.java.awt.image.PixelInterleavedSampleModelClassTests<PixelInterleavedSampleModel> {
+implements PixelInterleavedSampleModelClassTests<PixelInterleavedSampleModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.PixelInterleavedSampleModel]
 

@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicScrollBarUITest
-implements FactoryBasedJ8UnitTest<BasicScrollBarUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests<BasicScrollBarUI> {
+implements FactoryBasedJ8UnitTest<BasicScrollBarUI>, BasicScrollBarUITests<BasicScrollBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI]
 
@@ -37,6 +37,12 @@ implements FactoryBasedJ8UnitTest<BasicScrollBarUI>, org.j8unit.repository.javax
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollBarUI]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests.PropertyChangeHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest

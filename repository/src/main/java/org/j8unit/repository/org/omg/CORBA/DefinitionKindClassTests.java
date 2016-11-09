@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.DefinitionKind;
@@ -17,8 +19,7 @@ import org.omg.CORBA.DefinitionKind;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.DefinitionKindTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DefinitionKindTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CORBA.DefinitionKind;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefinitionKindClassTests<SUT extends DefinitionKind>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends IDLEntityClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DefinitionKind]
     /**

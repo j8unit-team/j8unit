@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer.CurrentPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.CurrentPackage.NoContext;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NoContextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NoContextClassTests<SUT extends NoContext>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.CurrentPackage.NoContext]
     /**

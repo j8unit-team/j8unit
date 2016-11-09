@@ -14,7 +14,7 @@ import org.omg.CORBA.INV_POLICY;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.INV_POLICYClassTests}).
+ * {@link INV_POLICYClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.INV_POLICY;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_POLICYTests<SUT extends INV_POLICY>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_POLICY]
 

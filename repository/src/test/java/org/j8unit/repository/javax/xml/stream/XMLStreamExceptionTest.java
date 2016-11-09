@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class XMLStreamExceptionTest
-implements FactoryBasedJ8UnitTest<XMLStreamException>, org.j8unit.repository.javax.xml.stream.XMLStreamExceptionTests<XMLStreamException> {
+implements FactoryBasedJ8UnitTest<XMLStreamException>, XMLStreamExceptionTests<XMLStreamException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.XMLStreamException]
 

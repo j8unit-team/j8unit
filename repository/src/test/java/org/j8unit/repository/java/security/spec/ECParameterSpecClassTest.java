@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ECParameterSpec} (by simply reusing the
+ * J8Unit test interface {@link ECParameterSpecClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ECParameterSpecClassTest
-implements org.j8unit.repository.java.security.spec.ECParameterSpecClassTests<ECParameterSpec> {
+implements ECParameterSpecClassTests<ECParameterSpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.ECParameterSpec]
 

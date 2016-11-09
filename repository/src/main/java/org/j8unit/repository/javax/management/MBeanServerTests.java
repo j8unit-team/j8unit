@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.MBeanServerClassTests}).
+ * {@link MBeanServerClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanServerTests<SUT extends MBeanServer>
-extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
+extends MBeanServerConnectionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanServer]
 
@@ -101,29 +101,6 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getClassLoaderFor_ObjectName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanServer#getMBeanCount() public
-     * abstract java.lang.Integer javax.management.MBeanServer.getMBeanCount()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMBeanCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -205,6 +182,29 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.management.MBeanServer#getMBeanCount() public
+     * abstract java.lang.Integer javax.management.MBeanServer.getMBeanCount()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMBeanCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServer#unregisterMBean(javax.management.ObjectName) public abstract void
      * javax.management.MBeanServer.unregisterMBean(javax.management.ObjectName) throws
@@ -222,6 +222,54 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unregisterMBean_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServer#instantiate(String, Object[], String[]) public abstract java.lang.Object
+     * javax.management.MBeanServer.instantiate(java.lang.String,java.lang.Object[],java.lang.String[]) throws
+     * javax.management.ReflectionException,javax.management.MBeanException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_instantiate_String_ObjectArray_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServer#instantiate(String, javax.management.ObjectName) public abstract
+     * java.lang.Object javax.management.MBeanServer.instantiate(java.lang.String,javax.management.ObjectName) throws
+     * javax.management.ReflectionException,javax.management.MBeanException,javax.management.InstanceNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_instantiate_String_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -271,54 +319,6 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_instantiate_String_ObjectName_ObjectArray_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.MBeanServer#instantiate(String, Object[], String[]) public abstract java.lang.Object
-     * javax.management.MBeanServer.instantiate(java.lang.String,java.lang.Object[],java.lang.String[]) throws
-     * javax.management.ReflectionException,javax.management.MBeanException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_instantiate_String_ObjectArray_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.MBeanServer#instantiate(String, javax.management.ObjectName) public abstract
-     * java.lang.Object javax.management.MBeanServer.instantiate(java.lang.String,javax.management.ObjectName) throws
-     * javax.management.ReflectionException,javax.management.MBeanException,javax.management.InstanceNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_instantiate_String_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -478,9 +478,9 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.MBeanServer#removeNotificationListener(javax.management.ObjectName, javax.management.ObjectName, javax.management.NotificationFilter, Object)
+     * {@link javax.management.MBeanServer#removeNotificationListener(javax.management.ObjectName, javax.management.NotificationListener)
      * public abstract void
-     * javax.management.MBeanServer.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.management.NotificationFilter,java.lang.Object)
+     * javax.management.MBeanServer.removeNotificationListener(javax.management.ObjectName,javax.management.NotificationListener)
      * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -494,7 +494,7 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_removeNotificationListener_ObjectName_ObjectName_NotificationFilter_Object()
+    public default void test_removeNotificationListener_ObjectName_NotificationListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -530,32 +530,6 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.MBeanServer#removeNotificationListener(javax.management.ObjectName, javax.management.NotificationListener)
-     * public abstract void
-     * javax.management.MBeanServer.removeNotificationListener(javax.management.ObjectName,javax.management.NotificationListener)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNotificationListener_ObjectName_NotificationListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServer#removeNotificationListener(javax.management.ObjectName, javax.management.ObjectName)
      * public abstract void
      * javax.management.MBeanServer.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName)
@@ -573,6 +547,32 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeNotificationListener_ObjectName_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServer#removeNotificationListener(javax.management.ObjectName, javax.management.ObjectName, javax.management.NotificationFilter, Object)
+     * public abstract void
+     * javax.management.MBeanServer.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.management.NotificationFilter,java.lang.Object)
+     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotificationListener_ObjectName_ObjectName_NotificationFilter_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -730,33 +730,6 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.management.MBeanServer#createMBean(String, javax.management.ObjectName, Object[], String[]) public
-     * abstract javax.management.ObjectInstance
-     * javax.management.MBeanServer.createMBean(java.lang.String,javax.management.ObjectName,java.lang.Object[],java.lang.String[])
-     * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_createMBean_String_ObjectName_ObjectArray_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.management.MBeanServer#createMBean(String, javax.management.ObjectName, javax.management.ObjectName)
      * public abstract javax.management.ObjectInstance
      * javax.management.MBeanServer.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName)
@@ -775,6 +748,33 @@ extends org.j8unit.repository.javax.management.MBeanServerConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createMBean_String_ObjectName_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.management.MBeanServer#createMBean(String, javax.management.ObjectName, Object[], String[]) public
+     * abstract javax.management.ObjectInstance
+     * javax.management.MBeanServer.createMBean(java.lang.String,javax.management.ObjectName,java.lang.Object[],java.lang.String[])
+     * throws
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_createMBean_String_ObjectName_ObjectArray_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

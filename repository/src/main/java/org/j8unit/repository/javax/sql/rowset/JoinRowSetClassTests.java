@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sql.rowset.JoinRowSetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JoinRowSetTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JoinRowSetClassTests<SUT extends JoinRowSet>
-extends org.j8unit.repository.javax.sql.rowset.WebRowSetClassTests<SUT> {
+extends WebRowSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.JoinRowSet]
     /**

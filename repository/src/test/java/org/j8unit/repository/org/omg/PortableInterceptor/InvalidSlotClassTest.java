@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.InvalidSlot;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidSlot} (by simply reusing the
+ * J8Unit test interface {@link InvalidSlotClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidSlotClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotClassTests<InvalidSlot> {
+implements InvalidSlotClassTests<InvalidSlot> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.InvalidSlot]
 

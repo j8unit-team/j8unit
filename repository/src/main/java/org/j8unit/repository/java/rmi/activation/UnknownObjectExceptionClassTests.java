@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.activation.UnknownObjectExceptionTests}.
+ * {@link UnknownObjectExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownObjectExceptionClassTests<SUT extends UnknownObjectException>
-extends org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTests<SUT> {
+extends ActivationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.UnknownObjectException]
     /**

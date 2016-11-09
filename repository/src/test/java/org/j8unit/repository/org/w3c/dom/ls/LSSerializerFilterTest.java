@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.ls.LSSerializerFilter;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LSSerializerFilter} (by simply
+ * reusing the J8Unit test interface {@link LSSerializerFilterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LSSerializerFilterTest
-implements org.j8unit.repository.org.w3c.dom.ls.LSSerializerFilterTests<LSSerializerFilter> {
+implements LSSerializerFilterTests<LSSerializerFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.ls.LSSerializerFilter]
 

@@ -4,9 +4,14 @@ import java.awt.dnd.peer.DropTargetContextPeer;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DropTargetContextPeer} (by simply reusing
+ * the J8Unit test interface {@link DropTargetContextPeerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DropTargetContextPeerClassTest
-implements org.j8unit.repository.java.awt.dnd.peer.DropTargetContextPeerClassTests<DropTargetContextPeer> {
+implements DropTargetContextPeerClassTests<DropTargetContextPeer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.dnd.peer.DropTargetContextPeer]
 

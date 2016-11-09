@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GraphicsDevice} (by simply reusing the
+ * J8Unit test interface {@link GraphicsDeviceClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GraphicsDeviceClassTest
-implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevice> {
+implements GraphicsDeviceClassTests<GraphicsDevice> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.GraphicsDevice]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests<GraphicsDevic
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.GraphicsDevice]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link WindowTranslucency} (by simply
+     * reusing the J8Unit test interface {@link WindowTranslucencyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class WindowTranslucencyClassTest
-    implements org.j8unit.repository.java.awt.GraphicsDeviceClassTests.WindowTranslucencyClassTests<WindowTranslucency> {
+    implements WindowTranslucencyClassTests<WindowTranslucency> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.GraphicsDevice$WindowTranslucency]
 

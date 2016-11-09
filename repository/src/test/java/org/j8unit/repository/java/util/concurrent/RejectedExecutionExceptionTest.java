@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RejectedExecutionExceptionTest
-implements FactoryBasedJ8UnitTest<RejectedExecutionException>,
-org.j8unit.repository.java.util.concurrent.RejectedExecutionExceptionTests<RejectedExecutionException> {
+implements FactoryBasedJ8UnitTest<RejectedExecutionException>, RejectedExecutionExceptionTests<RejectedExecutionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.RejectedExecutionException]
 

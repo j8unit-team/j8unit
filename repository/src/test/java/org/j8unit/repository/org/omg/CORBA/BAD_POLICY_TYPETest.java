@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.BAD_POLICY_TYPE;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BAD_POLICY_TYPE} (by simply reusing
+ * the J8Unit test interface {@link BAD_POLICY_TYPETests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BAD_POLICY_TYPETest
-implements org.j8unit.repository.org.omg.CORBA.BAD_POLICY_TYPETests<BAD_POLICY_TYPE> {
+implements BAD_POLICY_TYPETests<BAD_POLICY_TYPE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_POLICY_TYPE]
 

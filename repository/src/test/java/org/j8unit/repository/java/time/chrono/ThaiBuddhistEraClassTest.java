@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ThaiBuddhistEra} (by simply reusing the
+ * J8Unit test interface {@link ThaiBuddhistEraClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThaiBuddhistEraClassTest
-implements org.j8unit.repository.java.time.chrono.ThaiBuddhistEraClassTests<ThaiBuddhistEra> {
+implements ThaiBuddhistEraClassTests<ThaiBuddhistEra> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.ThaiBuddhistEra]
 

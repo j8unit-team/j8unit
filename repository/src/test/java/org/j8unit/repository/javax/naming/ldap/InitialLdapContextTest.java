@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InitialLdapContextTest
-implements FactoryBasedJ8UnitTest<InitialLdapContext>, org.j8unit.repository.javax.naming.ldap.InitialLdapContextTests<InitialLdapContext> {
+implements FactoryBasedJ8UnitTest<InitialLdapContext>, InitialLdapContextTests<InitialLdapContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.InitialLdapContext]
 

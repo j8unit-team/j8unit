@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JToggleButton} (by simply reusing the
+ * J8Unit test interface {@link JToggleButtonClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JToggleButtonClassTest
-implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButton> {
+implements JToggleButtonClassTests<JToggleButton> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToggleButton]
 
@@ -205,9 +210,14 @@ implements org.j8unit.repository.javax.swing.JToggleButtonClassTests<JToggleButt
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JToggleButton]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ToggleButtonModel} (by simply reusing
+     * the J8Unit test interface {@link ToggleButtonModelClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ToggleButtonModelClassTest
-    implements org.j8unit.repository.javax.swing.JToggleButtonClassTests.ToggleButtonModelClassTests<ToggleButtonModel> {
+    implements ToggleButtonModelClassTests<ToggleButtonModel> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToggleButton$ToggleButtonModel]
 

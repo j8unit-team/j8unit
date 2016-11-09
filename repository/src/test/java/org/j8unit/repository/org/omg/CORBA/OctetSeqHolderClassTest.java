@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.OctetSeqHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OctetSeqHolder} (by simply reusing the
+ * J8Unit test interface {@link OctetSeqHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OctetSeqHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.OctetSeqHolderClassTests<OctetSeqHolder> {
+implements OctetSeqHolderClassTests<OctetSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.OctetSeqHolder]
 

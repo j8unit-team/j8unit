@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ChronoZonedDateTime} (by simply
+ * reusing the J8Unit test interface {@link ChronoZonedDateTimeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ChronoZonedDateTimeTest<D extends ChronoLocalDate>
-implements org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeTests<ChronoZonedDateTime<D>, D> {
+implements ChronoZonedDateTimeTests<ChronoZonedDateTime<D>, D> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.ChronoZonedDateTime]
 

@@ -5,6 +5,14 @@ import javax.swing.JTable;
 import javax.swing.JTable.DropLocation;
 import javax.swing.JTable.PrintMode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
+import org.j8unit.repository.javax.swing.JTableTests.PrintModeTests;
+import org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests;
+import org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests;
+import org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests;
+import org.j8unit.repository.javax.swing.event.TableColumnModelListenerClassTests;
+import org.j8unit.repository.javax.swing.event.TableModelListenerClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +28,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JTableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JTableTests}.
  * </p>
  *
  * <p>
@@ -50,10 +57,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTableClassTests<SUT extends JTable>
-extends org.j8unit.repository.javax.swing.event.TableModelListenerClassTests<SUT>, org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>,
-org.j8unit.repository.javax.swing.event.TableColumnModelListenerClassTests<SUT>, org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests<SUT>,
-org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
-org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends TableModelListenerClassTests<SUT>, ScrollableClassTests<SUT>, TableColumnModelListenerClassTests<SUT>, ListSelectionListenerClassTests<SUT>,
+CellEditorListenerClassTests<SUT>, AccessibleClassTests<SUT>, RowSorterListenerClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable]
     /**
@@ -88,8 +93,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.JTableTests.DropLocationTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link DropLocationTests}.
      * </p>
      *
      * <p>
@@ -155,8 +159,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.JTableTests.PrintModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link PrintModeTests}.
      * </p>
      *
      * <p>
@@ -185,7 +188,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintModeClassTests<SUT extends PrintMode>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JTable$PrintMode]
         /**

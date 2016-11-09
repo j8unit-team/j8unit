@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CellEditor} (by simply reusing the
+ * J8Unit test interface {@link CellEditorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CellEditorTest
-implements org.j8unit.repository.javax.swing.CellEditorTests<CellEditor> {
+implements CellEditorTests<CellEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.CellEditor]
 

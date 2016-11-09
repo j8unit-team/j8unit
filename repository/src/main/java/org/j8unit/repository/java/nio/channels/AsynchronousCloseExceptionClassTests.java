@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.AsynchronousCloseExceptionTests}.
+ * {@link AsynchronousCloseExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AsynchronousCloseExceptionClassTests<SUT extends AsynchronousCloseException>
-extends org.j8unit.repository.java.nio.channels.ClosedChannelExceptionClassTests<SUT> {
+extends ClosedChannelExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.AsynchronousCloseException]
     /**

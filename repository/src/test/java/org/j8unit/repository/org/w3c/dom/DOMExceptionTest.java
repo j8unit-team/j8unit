@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.DOMException;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DOMException} (by simply reusing the
+ * J8Unit test interface {@link DOMExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DOMExceptionTest
-implements org.j8unit.repository.org.w3c.dom.DOMExceptionTests<DOMException> {
+implements DOMExceptionTests<DOMException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.DOMException]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.event;
 import static org.junit.Assert.assertTrue;
 import javax.swing.event.MenuKeyListener;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.event.MenuKeyListenerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MenuKeyListenerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuKeyListenerClassTests<SUT extends MenuKeyListener>
-extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {
+extends EventListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.MenuKeyListener]
     /**

@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Ellipse2D} (by simply reusing the J8Unit
+ * test interface {@link Ellipse2DClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Ellipse2DClassTest
-implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<Ellipse2D> {
+implements Ellipse2DClassTests<Ellipse2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D]
 
@@ -25,15 +30,41 @@ implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<Ellipse2D> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Ellipse2D]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
+     * test interface {@link DoubleClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
-    implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests.DoubleClassTests<Double> {
+    implements DoubleClassTests<Double> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D$Double]
 
         @Override
         public Class<Double> createNewSUT() {
             return Double.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Ellipse2D.Double#Double()
+         * public java.awt.geom.Ellipse2D$Double()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_Double()
+        throws Exception {
+            // create new instance
+            final Double sut = new Double();
         }
 
         /**
@@ -59,36 +90,20 @@ implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<Ellipse2D> {
             final Double sut = null; // = new Double(double, double, double, double);
         }
 
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test {@link java.awt.geom.Ellipse2D.Double#Double()
-         * public java.awt.geom.Ellipse2D$Double()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_Double()
-        throws Exception {
-            // create new instance
-            final Double sut = new Double();
-        }
-
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Ellipse2D$Double]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Ellipse2D$Double]
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
+     * test interface {@link FloatClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
-    implements org.j8unit.repository.java.awt.geom.Ellipse2DClassTests.FloatClassTests<Float> {
+    implements FloatClassTests<Float> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D$Float]
 

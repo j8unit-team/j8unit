@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class GeneralPathTest
-implements FactoryBasedJ8UnitTest<GeneralPath>, org.j8unit.repository.java.awt.geom.GeneralPathTests<GeneralPath> {
+implements FactoryBasedJ8UnitTest<GeneralPath>, GeneralPathTests<GeneralPath> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.GeneralPath]
 

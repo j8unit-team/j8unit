@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CompoundBorderTest
-implements FactoryBasedJ8UnitTest<CompoundBorder>, org.j8unit.repository.javax.swing.border.CompoundBorderTests<CompoundBorder> {
+implements FactoryBasedJ8UnitTest<CompoundBorder>, CompoundBorderTests<CompoundBorder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.border.CompoundBorder]
 

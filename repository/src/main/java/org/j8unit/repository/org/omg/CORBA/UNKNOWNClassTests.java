@@ -17,8 +17,7 @@ import org.omg.CORBA.UNKNOWN;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.UNKNOWNTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link UNKNOWNTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.UNKNOWN;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UNKNOWNClassTests<SUT extends UNKNOWN>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UNKNOWN]
     /**

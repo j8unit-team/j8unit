@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HashPrintServiceAttributeSetTest
-implements FactoryBasedJ8UnitTest<HashPrintServiceAttributeSet>,
-org.j8unit.repository.javax.print.attribute.HashPrintServiceAttributeSetTests<HashPrintServiceAttributeSet> {
+implements FactoryBasedJ8UnitTest<HashPrintServiceAttributeSet>, HashPrintServiceAttributeSetTests<HashPrintServiceAttributeSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.HashPrintServiceAttributeSet]
 

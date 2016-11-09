@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.NotLinkExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NotLinkExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotLinkExceptionClassTests<SUT extends NotLinkException>
-extends org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests<SUT> {
+extends FileSystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.NotLinkException]
     /**

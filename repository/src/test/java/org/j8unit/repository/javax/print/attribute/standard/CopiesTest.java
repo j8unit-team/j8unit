@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Copies} (by simply reusing the J8Unit
+ * test interface {@link CopiesTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CopiesTest
-implements org.j8unit.repository.javax.print.attribute.standard.CopiesTests<Copies> {
+implements CopiesTests<Copies> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Copies]
 

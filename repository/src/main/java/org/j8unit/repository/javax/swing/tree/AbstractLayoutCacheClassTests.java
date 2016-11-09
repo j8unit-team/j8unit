@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.tree.AbstractLayoutCache;
 import javax.swing.tree.AbstractLayoutCache.NodeDimensions;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests.NodeDimensionsTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AbstractLayoutCacheTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractLayoutCacheClassTests<SUT extends AbstractLayoutCache>
-extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends RowMapperClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.AbstractLayoutCache]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests.NodeDimensionsTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link NodeDimensionsTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperClassTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NodeDimensionsClassTests<SUT extends NodeDimensions>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.AbstractLayoutCache$NodeDimensions]
         /**

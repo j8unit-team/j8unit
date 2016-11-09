@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IdentityHashMapTest<K, V>
-implements FactoryBasedJ8UnitTest<IdentityHashMap<K, V>>, org.j8unit.repository.java.util.IdentityHashMapTests<IdentityHashMap<K, V>, K, V> {
+implements FactoryBasedJ8UnitTest<IdentityHashMap<K, V>>, IdentityHashMapTests<IdentityHashMap<K, V>, K, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IdentityHashMap]
 

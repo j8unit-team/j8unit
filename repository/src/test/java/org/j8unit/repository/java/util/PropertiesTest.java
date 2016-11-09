@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PropertiesTest
-implements FactoryBasedJ8UnitTest<Properties>, org.j8unit.repository.java.util.PropertiesTests<Properties> {
+implements FactoryBasedJ8UnitTest<Properties>, PropertiesTests<Properties> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Properties]
 

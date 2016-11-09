@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.ls.LSException;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LSException} (by simply reusing the
+ * J8Unit test interface {@link LSExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LSExceptionTest
-implements org.j8unit.repository.org.w3c.dom.ls.LSExceptionTests<LSException> {
+implements LSExceptionTests<LSException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.ls.LSException]
 

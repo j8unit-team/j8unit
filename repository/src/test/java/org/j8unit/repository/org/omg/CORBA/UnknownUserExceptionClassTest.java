@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.UnknownUserException;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownUserException} (by simply reusing
+ * the J8Unit test interface {@link UnknownUserExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnknownUserExceptionClassTest
-implements org.j8unit.repository.org.omg.CORBA.UnknownUserExceptionClassTests<UnknownUserException> {
+implements UnknownUserExceptionClassTests<UnknownUserException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UnknownUserException]
 

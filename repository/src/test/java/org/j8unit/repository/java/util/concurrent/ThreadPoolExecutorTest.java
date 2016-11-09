@@ -18,9 +18,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ThreadPoolExecutor} (by simply
+ * reusing the J8Unit test interface {@link ThreadPoolExecutorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThreadPoolExecutorTest
-implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<ThreadPoolExecutor> {
+implements ThreadPoolExecutorTests<ThreadPoolExecutor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor]
 
@@ -36,7 +41,7 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DiscardPolicyTest
-    implements FactoryBasedJ8UnitTest<DiscardPolicy>, org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardPolicyTests<DiscardPolicy> {
+    implements FactoryBasedJ8UnitTest<DiscardPolicy>, DiscardPolicyTests<DiscardPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
@@ -62,7 +67,7 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AbortPolicyTest
-    implements FactoryBasedJ8UnitTest<AbortPolicy>, org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.AbortPolicyTests<AbortPolicy> {
+    implements FactoryBasedJ8UnitTest<AbortPolicy>, AbortPolicyTests<AbortPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
@@ -88,8 +93,7 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CallerRunsPolicyTest
-    implements FactoryBasedJ8UnitTest<CallerRunsPolicy>,
-    org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.CallerRunsPolicyTests<CallerRunsPolicy> {
+    implements FactoryBasedJ8UnitTest<CallerRunsPolicy>, CallerRunsPolicyTests<CallerRunsPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
@@ -115,8 +119,7 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests<Th
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DiscardOldestPolicyTest
-    implements FactoryBasedJ8UnitTest<DiscardOldestPolicy>,
-    org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorTests.DiscardOldestPolicyTests<DiscardOldestPolicy> {
+    implements FactoryBasedJ8UnitTest<DiscardOldestPolicy>, DiscardOldestPolicyTests<DiscardOldestPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 

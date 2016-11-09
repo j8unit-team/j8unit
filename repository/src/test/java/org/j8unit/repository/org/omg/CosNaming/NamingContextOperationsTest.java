@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NamingContextOperations} (by simply
+ * reusing the J8Unit test interface {@link NamingContextOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NamingContextOperationsTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<NamingContextOperations> {
+implements NamingContextOperationsTests<NamingContextOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextOperations]
 

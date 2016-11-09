@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccessibleRelationSetTest
-implements FactoryBasedJ8UnitTest<AccessibleRelationSet>, org.j8unit.repository.javax.accessibility.AccessibleRelationSetTests<AccessibleRelationSet> {
+implements FactoryBasedJ8UnitTest<AccessibleRelationSet>, AccessibleRelationSetTests<AccessibleRelationSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleRelationSet]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.StringValueHelper;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringValueHelperTest
-implements FactoryBasedJ8UnitTest<StringValueHelper>, org.j8unit.repository.org.omg.CORBA.StringValueHelperTests<StringValueHelper> {
+implements FactoryBasedJ8UnitTest<StringValueHelper>, StringValueHelperTests<StringValueHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.StringValueHelper]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReadOnlyFileSystemExceptionTest
-implements FactoryBasedJ8UnitTest<ReadOnlyFileSystemException>,
-org.j8unit.repository.java.nio.file.ReadOnlyFileSystemExceptionTests<ReadOnlyFileSystemException> {
+implements FactoryBasedJ8UnitTest<ReadOnlyFileSystemException>, ReadOnlyFileSystemExceptionTests<ReadOnlyFileSystemException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ReadOnlyFileSystemException]
 

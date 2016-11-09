@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServiceRegistry} (by simply reusing
+ * the J8Unit test interface {@link ServiceRegistryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceRegistryTest
-implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests<ServiceRegistry> {
+implements ServiceRegistryTests<ServiceRegistry> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.ServiceRegistry]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests<ServiceR
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.imageio.spi.ServiceRegistry]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Filter} (by simply reusing the
+     * J8Unit test interface {@link FilterTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FilterTest
-    implements org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests.FilterTests<Filter> {
+    implements FilterTests<Filter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.spi.ServiceRegistry$Filter]
 

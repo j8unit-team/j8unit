@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoClassDefFoundErrorTest
-implements FactoryBasedJ8UnitTest<NoClassDefFoundError>, org.j8unit.repository.java.lang.NoClassDefFoundErrorTests<NoClassDefFoundError> {
+implements FactoryBasedJ8UnitTest<NoClassDefFoundError>, NoClassDefFoundErrorTests<NoClassDefFoundError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NoClassDefFoundError]
 

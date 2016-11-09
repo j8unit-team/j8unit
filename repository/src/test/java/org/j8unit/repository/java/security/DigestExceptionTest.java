@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DigestExceptionTest
-implements FactoryBasedJ8UnitTest<DigestException>, org.j8unit.repository.java.security.DigestExceptionTests<DigestException> {
+implements FactoryBasedJ8UnitTest<DigestException>, DigestExceptionTests<DigestException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.DigestException]
 

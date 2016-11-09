@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.CDATASection;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CDATASection} (by simply reusing the
+ * J8Unit test interface {@link CDATASectionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CDATASectionTest
-implements org.j8unit.repository.org.w3c.dom.CDATASectionTests<CDATASection> {
+implements CDATASectionTests<CDATASection> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.CDATASection]
 

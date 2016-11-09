@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CertificateEncodingExceptionTest
-implements FactoryBasedJ8UnitTest<CertificateEncodingException>,
-org.j8unit.repository.java.security.cert.CertificateEncodingExceptionTests<CertificateEncodingException> {
+implements FactoryBasedJ8UnitTest<CertificateEncodingException>, CertificateEncodingExceptionTests<CertificateEncodingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertificateEncodingException]
 

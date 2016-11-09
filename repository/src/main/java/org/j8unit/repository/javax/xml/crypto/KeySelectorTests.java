@@ -4,6 +4,8 @@ import javax.xml.crypto.KeySelector;
 import javax.xml.crypto.KeySelector.Purpose;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests.PurposeClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests}).
+ * {@link KeySelectorClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeySelectorTests<SUT extends KeySelector>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.KeySelector]
 
@@ -71,7 +73,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests.PurposeClassTests}).
+     * (see {@link PurposeClassTests}).
      * </p>
      *
      * @param SUT
@@ -82,7 +84,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PurposeTests<SUT extends Purpose>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.KeySelector$Purpose]
 

@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTableUI} (by simply reusing the
+ * J8Unit test interface {@link BasicTableUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicTableUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<BasicTableUI> {
+implements BasicTableUIClassTests<BasicTableUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI]
 
@@ -68,49 +73,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<B
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI]
 
-    @RunWith(J8Unit4.class)
-    public static class MouseInputHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
-
-        @Override
-        public Class<MouseInputHandler> createNewSUT() {
-            return MouseInputHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicTableUI)
-         * public javax.swing.plaf.basic.BasicTableUI$MouseInputHandler(javax.swing.plaf.basic.BasicTableUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_MouseInputHandler_BasicTableUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final MouseInputHandler sut = null; // = new MouseInputHandler(javax.swing.plaf.basic.BasicTableUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FocusHandler} (by simply reusing the
+     * J8Unit test interface {@link FocusHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.FocusHandlerClassTests<FocusHandler> {
+    implements FocusHandlerClassTests<FocusHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$FocusHandler]
 
@@ -148,9 +118,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<B
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyHandler} (by simply reusing the
+     * J8Unit test interface {@link KeyHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class KeyHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.KeyHandlerClassTests<KeyHandler> {
+    implements KeyHandlerClassTests<KeyHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
 
@@ -185,6 +160,51 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests<B
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$KeyHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MouseInputHandler} (by simply reusing
+     * the J8Unit test interface {@link MouseInputHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class MouseInputHandlerClassTest
+    implements MouseInputHandlerClassTests<MouseInputHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
+
+        @Override
+        public Class<MouseInputHandler> createNewSUT() {
+            return MouseInputHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicTableUI.MouseInputHandler#MouseInputHandler(javax.swing.plaf.basic.BasicTableUI)
+         * public javax.swing.plaf.basic.BasicTableUI$MouseInputHandler(javax.swing.plaf.basic.BasicTableUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_MouseInputHandler_BasicTableUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final MouseInputHandler sut = null; // = new MouseInputHandler(javax.swing.plaf.basic.BasicTableUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTableUI$MouseInputHandler]
 
     }
 

@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.ServerRequestInterceptorOperations;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorOperationsClassTests}).
+ * {@link ServerRequestInterceptorOperationsClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +29,7 @@ import org.omg.PortableInterceptor.ServerRequestInterceptorOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerRequestInterceptorOperationsTests<SUT extends ServerRequestInterceptorOperations>
-extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsTests<SUT> {
+extends InterceptorOperationsTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ServerRequestInterceptorOperations]
 

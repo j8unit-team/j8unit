@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.RootPaneUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RootPaneUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RootPaneUIClassTests<SUT extends RootPaneUI>
-extends org.j8unit.repository.javax.swing.plaf.ComponentUIClassTests<SUT> {
+extends ComponentUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.RootPaneUI]
     /**

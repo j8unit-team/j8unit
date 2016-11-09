@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JMXServerErrorException} (by simply
+ * reusing the J8Unit test interface {@link JMXServerErrorExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMXServerErrorExceptionClassTest
-implements org.j8unit.repository.javax.management.remote.JMXServerErrorExceptionClassTests<JMXServerErrorException> {
+implements JMXServerErrorExceptionClassTests<JMXServerErrorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXServerErrorException]
 

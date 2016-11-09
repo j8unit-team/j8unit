@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.AdapterNonExistent;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterNonExistent} (by simply reusing
+ * the J8Unit test interface {@link AdapterNonExistentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterNonExistentClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExistentClassTests<AdapterNonExistent> {
+implements AdapterNonExistentClassTests<AdapterNonExistent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterNonExistent]
 

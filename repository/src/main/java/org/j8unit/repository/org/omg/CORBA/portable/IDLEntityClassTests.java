@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA.portable;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.portable.IDLEntity;
@@ -17,8 +18,7 @@ import org.omg.CORBA.portable.IDLEntity;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IDLEntityTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.portable.IDLEntity;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IDLEntityClassTests<SUT extends IDLEntity>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
+extends SerializableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.IDLEntity]
     /**

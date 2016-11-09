@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.PortableServer.ImplicitActivationPolicyValue;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ImplicitActivationPolicyValue} (by
+ * simply reusing the J8Unit test interface {@link ImplicitActivationPolicyValueTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ImplicitActivationPolicyValueTest
-implements org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyValueTests<ImplicitActivationPolicyValue> {
+implements ImplicitActivationPolicyValueTests<ImplicitActivationPolicyValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ImplicitActivationPolicyValue]
 

@@ -28,7 +28,7 @@ import org.omg.PortableServer.DynamicImplementation;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynamicImplementationTests<SUT extends DynamicImplementation>
-extends org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
+extends ServantTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.DynamicImplementation]
 

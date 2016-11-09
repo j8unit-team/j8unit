@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LayoutQueueTest
-implements FactoryBasedJ8UnitTest<LayoutQueue>, org.j8unit.repository.javax.swing.text.LayoutQueueTests<LayoutQueue> {
+implements FactoryBasedJ8UnitTest<LayoutQueue>, LayoutQueueTests<LayoutQueue> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.LayoutQueue]
 

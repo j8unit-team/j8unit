@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ConcurrentSkipListMapTest<K, V>
-implements FactoryBasedJ8UnitTest<ConcurrentSkipListMap<K, V>>,
-org.j8unit.repository.java.util.concurrent.ConcurrentSkipListMapTests<ConcurrentSkipListMap<K, V>, K, V> {
+implements FactoryBasedJ8UnitTest<ConcurrentSkipListMap<K, V>>, ConcurrentSkipListMapTests<ConcurrentSkipListMap<K, V>, K, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentSkipListMap]
 

@@ -7,6 +7,11 @@ import java.util.Spliterators.AbstractLongSpliterator;
 import java.util.Spliterators.AbstractSpliterator;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests;
+import org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractIntSpliteratorClassTests;
+import org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests;
+import org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.SpliteratorsClassTests}).
+ * {@link SpliteratorsClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,7 +37,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorsTests<SUT extends Spliterators>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators]
 
@@ -49,7 +54,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests}).
+     * (see {@link AbstractDoubleSpliteratorClassTests}).
      * </p>
      *
      * @param SUT
@@ -60,7 +65,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractDoubleSpliteratorTests<SUT extends AbstractDoubleSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractDoubleSpliterator]
 
@@ -151,7 +156,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests}).
+     * (see {@link AbstractSpliteratorClassTests}).
      * </p>
      *
      * @param SUT
@@ -162,7 +167,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractSpliteratorTests<SUT extends AbstractSpliterator<T>, T>
-    extends org.j8unit.repository.java.util.SpliteratorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends SpliteratorTests<SUT, T>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractSpliterator]
 
@@ -253,7 +258,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests}).
+     * (see {@link AbstractLongSpliteratorClassTests}).
      * </p>
      *
      * @param SUT
@@ -264,7 +269,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractLongSpliteratorTests<SUT extends AbstractLongSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorTests.OfLongTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.util.SpliteratorTests.OfLongTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractLongSpliterator]
 
@@ -355,7 +360,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractIntSpliteratorClassTests}).
+     * (see {@link AbstractIntSpliteratorClassTests}).
      * </p>
      *
      * @param SUT
@@ -366,7 +371,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractIntSpliteratorTests<SUT extends AbstractIntSpliterator>
-    extends org.j8unit.repository.java.util.SpliteratorTests.OfIntTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.util.SpliteratorTests.OfIntTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractIntSpliterator]
 

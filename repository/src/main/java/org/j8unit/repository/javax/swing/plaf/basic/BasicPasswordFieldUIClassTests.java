@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicPasswordFieldUITests}.
+ * {@link BasicPasswordFieldUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicPasswordFieldUIClassTests<SUT extends BasicPasswordFieldUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicTextFieldUIClassTests<SUT> {
+extends BasicTextFieldUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicPasswordFieldUI]
     /**

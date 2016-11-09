@@ -4,9 +4,14 @@ import javax.management.modelmbean.ModelMBeanNotificationBroadcaster;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ModelMBeanNotificationBroadcaster} (by
+ * simply reusing the J8Unit test interface {@link ModelMBeanNotificationBroadcasterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ModelMBeanNotificationBroadcasterClassTest
-implements org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcasterClassTests<ModelMBeanNotificationBroadcaster> {
+implements ModelMBeanNotificationBroadcasterClassTests<ModelMBeanNotificationBroadcaster> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationBroadcaster]
 

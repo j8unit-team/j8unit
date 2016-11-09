@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CosNaming.NamingContextPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
@@ -17,8 +18,7 @@ import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NotEmptyHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CosNaming.NamingContextPackage.NotEmptyHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotEmptyHelperClassTests<SUT extends NotEmptyHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotEmptyHelper]
     /**

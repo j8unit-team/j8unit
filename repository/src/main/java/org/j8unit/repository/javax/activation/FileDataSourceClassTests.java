@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.activation;
 import static org.junit.Assert.assertTrue;
 import javax.activation.FileDataSource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.activation.FileDataSourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FileDataSourceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileDataSourceClassTests<SUT extends FileDataSource>
-extends org.j8unit.repository.javax.activation.DataSourceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends DataSourceClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.FileDataSource]
     /**

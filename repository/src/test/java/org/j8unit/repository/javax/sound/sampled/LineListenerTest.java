@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LineListener} (by simply reusing the
+ * J8Unit test interface {@link LineListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LineListenerTest
-implements org.j8unit.repository.javax.sound.sampled.LineListenerTests<LineListener> {
+implements LineListenerTests<LineListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.LineListener]
 

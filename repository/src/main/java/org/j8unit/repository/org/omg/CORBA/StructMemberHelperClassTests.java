@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.StructMemberHelper;
@@ -17,8 +18,7 @@ import org.omg.CORBA.StructMemberHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.StructMemberHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StructMemberHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.StructMemberHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StructMemberHelperClassTests<SUT extends StructMemberHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.StructMemberHelper]
     /**

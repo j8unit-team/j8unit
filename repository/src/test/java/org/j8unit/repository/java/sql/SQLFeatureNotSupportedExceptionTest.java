@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLFeatureNotSupportedExceptionTest
-implements FactoryBasedJ8UnitTest<SQLFeatureNotSupportedException>,
-org.j8unit.repository.java.sql.SQLFeatureNotSupportedExceptionTests<SQLFeatureNotSupportedException> {
+implements FactoryBasedJ8UnitTest<SQLFeatureNotSupportedException>, SQLFeatureNotSupportedExceptionTests<SQLFeatureNotSupportedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLFeatureNotSupportedException]
 

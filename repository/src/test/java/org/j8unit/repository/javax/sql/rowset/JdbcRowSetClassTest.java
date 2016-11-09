@@ -4,9 +4,14 @@ import javax.sql.rowset.JdbcRowSet;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JdbcRowSet} (by simply reusing the J8Unit
+ * test interface {@link JdbcRowSetClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JdbcRowSetClassTest
-implements org.j8unit.repository.javax.sql.rowset.JdbcRowSetClassTests<JdbcRowSet> {
+implements JdbcRowSetClassTests<JdbcRowSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.JdbcRowSet]
 

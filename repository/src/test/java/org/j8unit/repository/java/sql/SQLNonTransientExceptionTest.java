@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLNonTransientExceptionTest
-implements FactoryBasedJ8UnitTest<SQLNonTransientException>, org.j8unit.repository.java.sql.SQLNonTransientExceptionTests<SQLNonTransientException> {
+implements FactoryBasedJ8UnitTest<SQLNonTransientException>, SQLNonTransientExceptionTests<SQLNonTransientException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLNonTransientException]
 

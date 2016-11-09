@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ListenerNotFoundException} (by simply
+ * reusing the J8Unit test interface {@link ListenerNotFoundExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ListenerNotFoundExceptionClassTest
-implements org.j8unit.repository.javax.management.ListenerNotFoundExceptionClassTests<ListenerNotFoundException> {
+implements ListenerNotFoundExceptionClassTests<ListenerNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.ListenerNotFoundException]
 

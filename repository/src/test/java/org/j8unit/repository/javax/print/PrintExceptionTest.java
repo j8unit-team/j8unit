@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PrintExceptionTest
-implements FactoryBasedJ8UnitTest<PrintException>, org.j8unit.repository.javax.print.PrintExceptionTests<PrintException> {
+implements FactoryBasedJ8UnitTest<PrintException>, PrintExceptionTests<PrintException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.PrintException]
 

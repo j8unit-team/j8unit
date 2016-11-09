@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringMonitorTest
-implements FactoryBasedJ8UnitTest<StringMonitor>, org.j8unit.repository.javax.management.monitor.StringMonitorTests<StringMonitor> {
+implements FactoryBasedJ8UnitTest<StringMonitor>, StringMonitorTests<StringMonitor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.StringMonitor]
 

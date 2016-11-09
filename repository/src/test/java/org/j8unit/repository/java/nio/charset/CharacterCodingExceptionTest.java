@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CharacterCodingExceptionTest
-implements FactoryBasedJ8UnitTest<CharacterCodingException>, org.j8unit.repository.java.nio.charset.CharacterCodingExceptionTests<CharacterCodingException> {
+implements FactoryBasedJ8UnitTest<CharacterCodingException>, CharacterCodingExceptionTests<CharacterCodingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CharacterCodingException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultTableModelTest
-implements FactoryBasedJ8UnitTest<DefaultTableModel>, org.j8unit.repository.javax.swing.table.DefaultTableModelTests<DefaultTableModel> {
+implements FactoryBasedJ8UnitTest<DefaultTableModel>, DefaultTableModelTests<DefaultTableModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.DefaultTableModel]
 

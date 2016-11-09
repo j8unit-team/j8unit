@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.xml.sax.ext.Attributes2;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Attributes2} (by simply reusing the
+ * J8Unit test interface {@link Attributes2ClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Attributes2ClassTest
-implements org.j8unit.repository.org.xml.sax.ext.Attributes2ClassTests<Attributes2> {
+implements Attributes2ClassTests<Attributes2> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.Attributes2]
 

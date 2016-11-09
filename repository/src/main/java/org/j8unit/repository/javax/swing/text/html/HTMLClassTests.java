@@ -6,6 +6,10 @@ import javax.swing.text.html.HTML.Attribute;
 import javax.swing.text.html.HTML.Tag;
 import javax.swing.text.html.HTML.UnknownTag;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests;
+import org.j8unit.repository.javax.swing.text.html.HTMLTests.UnknownTagTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,8 +25,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.html.HTMLTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLTests}.
  * </p>
  *
  * <p>
@@ -51,7 +54,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLClassTests<SUT extends HTML>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML]
     /**
@@ -77,16 +80,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
-     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link UnknownTag public static class javax.swing.text.html.HTML$UnknownTag}.
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link Tag
+     * public static class javax.swing.text.html.HTML$Tag}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.UnknownTagTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link TagTests}.
      * </p>
      *
      * <p>
@@ -114,10 +116,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface UnknownTagClassTests<SUT extends UnknownTag>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests<SUT> {
+    public static abstract interface TagClassTests<SUT extends Tag>
+    extends ObjectClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Tag]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -131,13 +133,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UnknownTag.class!",
-                              UnknownTag.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Tag.class!",
+                              Tag.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Tag]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Tag]
 
     }
 
@@ -182,7 +184,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeClassTests<SUT extends Attribute>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Attribute]
         /**
@@ -211,16 +213,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the type relevant aspects &ndash;&nbsp;i.&thinsp;e., runtime
-     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test {@link Tag
-     * public static class javax.swing.text.html.HTML$Tag}.
+     * constraints and further type specific requirements&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link UnknownTag public static class javax.swing.text.html.HTML$UnknownTag}.
      *
      * (In addition, the runtime type of this j8unit test interface's generic type is verified by
      * {@link #verifyGenericType()}).
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link UnknownTagTests}.
      * </p>
      *
      * <p>
@@ -248,10 +249,10 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
-    public static abstract interface TagClassTests<SUT extends Tag>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface UnknownTagClassTests<SUT extends UnknownTag>
+    extends SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests<SUT> {
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
         /**
          * @see Class#isAssignableFrom(Class) public native boolean java.lang.Class.isAssignableFrom(java.lang.Class<?>)
          *      (the hereby targeted method-under-test)
@@ -265,13 +266,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // create new instance
             final Class<SUT> sut = createNewSUT();
             // assert assignability
-            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to Tag.class!",
-                              Tag.class.isAssignableFrom(sut));
+            Assert.assertTrue("This j8unit test interface is used with a generic type that is illegaly not assignable to UnknownTag.class!",
+                              UnknownTag.class.isAssignableFrom(sut));
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$Tag]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.HTML$UnknownTag]
 
     }
 

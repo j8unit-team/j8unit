@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicProgressBarUI} (by simply reusing
+ * the J8Unit test interface {@link BasicProgressBarUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicProgressBarUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassTests<BasicProgressBarUI> {
+implements BasicProgressBarUIClassTests<BasicProgressBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
 
@@ -66,6 +71,12 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassT
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicProgressBarUI]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ChangeHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassTests.ChangeHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.PopupMenuTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PopupMenuTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PopupMenuClassTests<SUT extends PopupMenu>
-extends org.j8unit.repository.java.awt.MenuClassTests<SUT> {
+extends MenuClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PopupMenu]
     /**

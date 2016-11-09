@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.InterruptibleChannelTests}.
+ * {@link InterruptibleChannelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InterruptibleChannelClassTests<SUT extends InterruptibleChannel>
-extends org.j8unit.repository.java.nio.channels.ChannelClassTests<SUT> {
+extends ChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.InterruptibleChannel]
     /**

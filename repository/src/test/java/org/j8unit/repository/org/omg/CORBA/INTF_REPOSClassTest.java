@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.INTF_REPOS;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link INTF_REPOS} (by simply reusing the J8Unit
+ * test interface {@link INTF_REPOSClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class INTF_REPOSClassTest
-implements org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests<INTF_REPOS> {
+implements INTF_REPOSClassTests<INTF_REPOS> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INTF_REPOS]
 

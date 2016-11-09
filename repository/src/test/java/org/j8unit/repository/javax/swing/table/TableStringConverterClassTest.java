@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TableStringConverter} (by simply reusing
+ * the J8Unit test interface {@link TableStringConverterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TableStringConverterClassTest
-implements org.j8unit.repository.javax.swing.table.TableStringConverterClassTests<TableStringConverter> {
+implements TableStringConverterClassTests<TableStringConverter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.TableStringConverter]
 

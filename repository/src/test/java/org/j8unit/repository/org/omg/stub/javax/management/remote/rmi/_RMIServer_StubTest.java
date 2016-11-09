@@ -14,7 +14,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _RMIServer_StubTest
-implements FactoryBasedJ8UnitTest<_RMIServer_Stub>, org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServer_StubTests<_RMIServer_Stub> {
+implements FactoryBasedJ8UnitTest<_RMIServer_Stub>, _RMIServer_StubTests<_RMIServer_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.javax.management.remote.rmi._RMIServer_Stub]
 

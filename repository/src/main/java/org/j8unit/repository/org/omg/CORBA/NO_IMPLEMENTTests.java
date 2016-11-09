@@ -14,7 +14,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTClassTests}).
+ * {@link NO_IMPLEMENTClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NO_IMPLEMENTTests<SUT extends NO_IMPLEMENT>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_IMPLEMENT]
 

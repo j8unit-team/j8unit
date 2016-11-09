@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.LocatorImpl;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LocatorImpl} (by simply reusing the
+ * J8Unit test interface {@link LocatorImplClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LocatorImplClassTest
-implements org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests<LocatorImpl> {
+implements LocatorImplClassTests<LocatorImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.LocatorImpl]
 

@@ -14,7 +14,7 @@ import org.omg.IOP.CodecPackage.InvalidTypeForEncoding;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidTypeForEncodingTest
-implements FactoryBasedJ8UnitTest<InvalidTypeForEncoding>, org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingTests<InvalidTypeForEncoding> {
+implements FactoryBasedJ8UnitTest<InvalidTypeForEncoding>, InvalidTypeForEncodingTests<InvalidTypeForEncoding> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecPackage.InvalidTypeForEncoding]
 

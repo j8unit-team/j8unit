@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CompositeView} (by simply reusing the
+ * J8Unit test interface {@link CompositeViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompositeViewClassTest
-implements org.j8unit.repository.javax.swing.text.CompositeViewClassTests<CompositeView> {
+implements CompositeViewClassTests<CompositeView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.CompositeView]
 

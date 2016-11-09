@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LimitExceededExceptionTest
-implements FactoryBasedJ8UnitTest<LimitExceededException>, org.j8unit.repository.javax.naming.LimitExceededExceptionTests<LimitExceededException> {
+implements FactoryBasedJ8UnitTest<LimitExceededException>, LimitExceededExceptionTests<LimitExceededException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.LimitExceededException]
 

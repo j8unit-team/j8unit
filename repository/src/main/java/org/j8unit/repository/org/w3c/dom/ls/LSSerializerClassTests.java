@@ -18,8 +18,7 @@ import org.w3c.dom.ls.LSSerializer;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.ls.LSSerializerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LSSerializerTests}.
  * </p>
  *
  * <p>

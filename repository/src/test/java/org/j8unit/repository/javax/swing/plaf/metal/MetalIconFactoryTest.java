@@ -23,7 +23,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalIconFactoryTest
-implements FactoryBasedJ8UnitTest<MetalIconFactory>, org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests<MetalIconFactory> {
+implements FactoryBasedJ8UnitTest<MetalIconFactory>, MetalIconFactoryTests<MetalIconFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory]
 
@@ -47,7 +47,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, org.j8unit.repository.javax
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FileIcon16Test
-    implements FactoryBasedJ8UnitTest<FileIcon16>, org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FileIcon16Tests<FileIcon16> {
+    implements FactoryBasedJ8UnitTest<FileIcon16>, FileIcon16Tests<FileIcon16> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
 
@@ -72,35 +72,8 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, org.j8unit.repository.javax
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-    public static class PaletteCloseIconTest
-    implements FactoryBasedJ8UnitTest<PaletteCloseIcon>,
-    org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.PaletteCloseIconTests<PaletteCloseIcon> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-        @Parameters(name = "{index}: {0}")
-        public static Iterable<Object[]> sutData() {
-            return TestParametersUtil.testParametersOf(PaletteCloseIcon::new);
-        }
-
-        @Parameter(0)
-        public Callable<PaletteCloseIcon> sutFactory;
-
-        @Override
-        public Callable<PaletteCloseIcon> getSUTFactory() {
-            return this.sutFactory;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-    }
-
-    @RunWith(J8Parameterized.class)
-    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TreeFolderIconTest
-    implements FactoryBasedJ8UnitTest<TreeFolderIcon>, org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeFolderIconTests<TreeFolderIcon> {
+    implements FactoryBasedJ8UnitTest<TreeFolderIcon>, TreeFolderIconTests<TreeFolderIcon> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
 
@@ -126,7 +99,7 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, org.j8unit.repository.javax
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FolderIcon16Test
-    implements FactoryBasedJ8UnitTest<FolderIcon16>, org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FolderIcon16Tests<FolderIcon16> {
+    implements FactoryBasedJ8UnitTest<FolderIcon16>, FolderIcon16Tests<FolderIcon16> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
 
@@ -149,27 +122,10 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, org.j8unit.repository.javax
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class TreeControlIconTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeControlIconTests<TreeControlIcon> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
-
-        @Override
-        public TreeControlIcon createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
-
-    }
-
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TreeLeafIconTest
-    implements FactoryBasedJ8UnitTest<TreeLeafIcon>, org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeLeafIconTests<TreeLeafIcon> {
+    implements FactoryBasedJ8UnitTest<TreeLeafIcon>, TreeLeafIconTests<TreeLeafIcon> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
 
@@ -189,6 +145,54 @@ implements FactoryBasedJ8UnitTest<MetalIconFactory>, org.j8unit.repository.javax
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+
+    }
+
+    @RunWith(J8Parameterized.class)
+    @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+    public static class PaletteCloseIconTest
+    implements FactoryBasedJ8UnitTest<PaletteCloseIcon>, PaletteCloseIconTests<PaletteCloseIcon> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+        @Parameters(name = "{index}: {0}")
+        public static Iterable<Object[]> sutData() {
+            return TestParametersUtil.testParametersOf(PaletteCloseIcon::new);
+        }
+
+        @Parameter(0)
+        public Callable<PaletteCloseIcon> sutFactory;
+
+        @Override
+        public Callable<PaletteCloseIcon> getSUTFactory() {
+            return this.sutFactory;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TreeControlIcon} (by simply
+     * reusing the J8Unit test interface {@link TreeControlIconTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TreeControlIconTest
+    implements TreeControlIconTests<TreeControlIcon> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
+
+        @Override
+        public TreeControlIcon createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
 
     }
 

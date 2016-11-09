@@ -8,6 +8,11 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ORBPackage.InvalidName;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidName} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.ORBPackage.InvalidNameClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidNameClassTest
 implements org.j8unit.repository.org.omg.CORBA.ORBPackage.InvalidNameClassTests<InvalidName> {

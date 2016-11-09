@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MBeanServerNotificationFilterTest
-implements FactoryBasedJ8UnitTest<MBeanServerNotificationFilter>,
-org.j8unit.repository.javax.management.relation.MBeanServerNotificationFilterTests<MBeanServerNotificationFilter> {
+implements FactoryBasedJ8UnitTest<MBeanServerNotificationFilter>, MBeanServerNotificationFilterTests<MBeanServerNotificationFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.MBeanServerNotificationFilter]
 

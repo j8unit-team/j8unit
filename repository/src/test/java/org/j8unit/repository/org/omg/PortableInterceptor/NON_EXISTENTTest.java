@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.NON_EXISTENT;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NON_EXISTENT} (by simply reusing the
+ * J8Unit test interface {@link NON_EXISTENTTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NON_EXISTENTTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.NON_EXISTENTTests<NON_EXISTENT> {
+implements NON_EXISTENTTests<NON_EXISTENT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.NON_EXISTENT]
 

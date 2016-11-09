@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AtomicIntegerTest
-implements FactoryBasedJ8UnitTest<AtomicInteger>, org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerTests<AtomicInteger> {
+implements FactoryBasedJ8UnitTest<AtomicInteger>, AtomicIntegerTests<AtomicInteger> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicInteger]
 

@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchMethodErrorTest
-implements FactoryBasedJ8UnitTest<NoSuchMethodError>, org.j8unit.repository.java.lang.NoSuchMethodErrorTests<NoSuchMethodError> {
+implements FactoryBasedJ8UnitTest<NoSuchMethodError>, NoSuchMethodErrorTests<NoSuchMethodError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NoSuchMethodError]
 

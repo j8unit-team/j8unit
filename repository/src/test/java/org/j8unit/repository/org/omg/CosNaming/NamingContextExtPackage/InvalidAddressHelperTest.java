@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InvalidAddressHelper} (by simply
+ * reusing the J8Unit test interface {@link InvalidAddressHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidAddressHelperTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelperTests<InvalidAddressHelper> {
+implements InvalidAddressHelperTests<InvalidAddressHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHelper]
 

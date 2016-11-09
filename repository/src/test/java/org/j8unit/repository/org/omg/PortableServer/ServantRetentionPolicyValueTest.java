@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.PortableServer.ServantRetentionPolicyValue;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantRetentionPolicyValue} (by
+ * simply reusing the J8Unit test interface {@link ServantRetentionPolicyValueTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServantRetentionPolicyValueTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyValueTests<ServantRetentionPolicyValue> {
+implements ServantRetentionPolicyValueTests<ServantRetentionPolicyValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicyValue]
 

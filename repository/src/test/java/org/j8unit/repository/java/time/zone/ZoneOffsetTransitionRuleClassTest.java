@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ZoneOffsetTransitionRule} (by simply
+ * reusing the J8Unit test interface {@link ZoneOffsetTransitionRuleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ZoneOffsetTransitionRuleClassTest
-implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests<ZoneOffsetTransitionRule> {
+implements ZoneOffsetTransitionRuleClassTests<ZoneOffsetTransitionRule> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
 
@@ -48,9 +53,14 @@ implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTes
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TimeDefinition} (by simply reusing
+     * the J8Unit test interface {@link TimeDefinitionClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class TimeDefinitionClassTest
-    implements org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleClassTests.TimeDefinitionClassTests<TimeDefinition> {
+    implements TimeDefinitionClassTests<TimeDefinition> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.zone.ZoneOffsetTransitionRule$TimeDefinition]
 

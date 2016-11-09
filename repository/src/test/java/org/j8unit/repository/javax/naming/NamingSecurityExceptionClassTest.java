@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NamingSecurityException} (by simply
+ * reusing the J8Unit test interface {@link NamingSecurityExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NamingSecurityExceptionClassTest
-implements org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<NamingSecurityException> {
+implements NamingSecurityExceptionClassTests<NamingSecurityException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.NamingSecurityException]
 

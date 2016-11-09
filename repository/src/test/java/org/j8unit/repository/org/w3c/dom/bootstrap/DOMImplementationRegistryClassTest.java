@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.w3c.dom.bootstrap.DOMImplementationRegistry;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DOMImplementationRegistry} (by simply
+ * reusing the J8Unit test interface {@link DOMImplementationRegistryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DOMImplementationRegistryClassTest
-implements org.j8unit.repository.org.w3c.dom.bootstrap.DOMImplementationRegistryClassTests<DOMImplementationRegistry> {
+implements DOMImplementationRegistryClassTests<DOMImplementationRegistry> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.bootstrap.DOMImplementationRegistry]
 

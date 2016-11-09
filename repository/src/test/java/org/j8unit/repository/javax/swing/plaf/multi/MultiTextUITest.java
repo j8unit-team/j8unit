@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiTextUITest
-implements FactoryBasedJ8UnitTest<MultiTextUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiTextUITests<MultiTextUI> {
+implements FactoryBasedJ8UnitTest<MultiTextUI>, MultiTextUITests<MultiTextUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiTextUI]
 

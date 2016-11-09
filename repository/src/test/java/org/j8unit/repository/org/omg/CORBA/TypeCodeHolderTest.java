@@ -14,7 +14,7 @@ import org.omg.CORBA.TypeCodeHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TypeCodeHolderTest
-implements FactoryBasedJ8UnitTest<TypeCodeHolder>, org.j8unit.repository.org.omg.CORBA.TypeCodeHolderTests<TypeCodeHolder> {
+implements FactoryBasedJ8UnitTest<TypeCodeHolder>, TypeCodeHolderTests<TypeCodeHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TypeCodeHolder]
 

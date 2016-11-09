@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer.POAManagerPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.AdapterInactiveTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AdapterInactiveTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AdapterInactiveClassTests<SUT extends AdapterInactive>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAManagerPackage.AdapterInactive]
     /**

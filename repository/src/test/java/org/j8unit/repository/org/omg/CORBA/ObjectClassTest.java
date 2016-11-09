@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.Object;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Object} (by simply reusing the J8Unit
+ * test interface {@link ObjectClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectClassTest
-implements org.j8unit.repository.org.omg.CORBA.ObjectClassTests<Object> {
+implements ObjectClassTests<Object> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.Object]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ComponentInputMapUIResource} (by simply
+ * reusing the J8Unit test interface {@link ComponentInputMapUIResourceClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ComponentInputMapUIResourceClassTest
-implements org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceClassTests<ComponentInputMapUIResource> {
+implements ComponentInputMapUIResourceClassTests<ComponentInputMapUIResource> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.ComponentInputMapUIResource]
 

@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CloneNotSupportedExceptionTest
-implements FactoryBasedJ8UnitTest<CloneNotSupportedException>, org.j8unit.repository.java.lang.CloneNotSupportedExceptionTests<CloneNotSupportedException> {
+implements FactoryBasedJ8UnitTest<CloneNotSupportedException>, CloneNotSupportedExceptionTests<CloneNotSupportedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.CloneNotSupportedException]
 

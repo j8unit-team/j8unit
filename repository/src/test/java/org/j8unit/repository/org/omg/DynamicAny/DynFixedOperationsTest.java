@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynFixedOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynFixedOperations} (by simply
+ * reusing the J8Unit test interface {@link DynFixedOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynFixedOperationsTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynFixedOperationsTests<DynFixedOperations> {
+implements DynFixedOperationsTests<DynFixedOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynFixedOperations]
 

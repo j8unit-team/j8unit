@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DTD} (by simply reusing the J8Unit
+ * test interface {@link DTDTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DTDTest
-implements org.j8unit.repository.javax.swing.text.html.parser.DTDTests<DTD> {
+implements DTDTests<DTD> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.DTD]
 

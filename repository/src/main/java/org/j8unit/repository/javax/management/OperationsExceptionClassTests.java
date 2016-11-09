@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.OperationsExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link OperationsExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OperationsExceptionClassTests<SUT extends OperationsException>
-extends org.j8unit.repository.javax.management.JMExceptionClassTests<SUT> {
+extends JMExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.OperationsException]
     /**

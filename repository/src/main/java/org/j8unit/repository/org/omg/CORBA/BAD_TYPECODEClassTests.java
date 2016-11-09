@@ -17,8 +17,7 @@ import org.omg.CORBA.BAD_TYPECODE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.BAD_TYPECODETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_TYPECODETests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.BAD_TYPECODE;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_TYPECODEClassTests<SUT extends BAD_TYPECODE>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.BAD_TYPECODE]
     /**

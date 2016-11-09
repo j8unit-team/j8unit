@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PipedOutputStreamClassTests<SUT extends PipedOutputStream>
-extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
+extends OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PipedOutputStream]
     /**

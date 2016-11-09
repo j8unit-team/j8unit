@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextPackage.InvalidNameHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InvalidNameHelper} (by simply reusing
+ * the J8Unit test interface {@link InvalidNameHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidNameHelperTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameHelperTests<InvalidNameHelper> {
+implements InvalidNameHelperTests<InvalidNameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.InvalidNameHelper]
 

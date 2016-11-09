@@ -7,10 +7,14 @@ import java.util.PrimitiveIterator.OfLong;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PrimitiveIterator} (by simply reusing the
+ * J8Unit test interface {@link PrimitiveIteratorClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class PrimitiveIteratorClassTest
-implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<PrimitiveIterator> {
+implements PrimitiveIteratorClassTests<PrimitiveIterator> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.PrimitiveIterator]
 
@@ -22,6 +26,11 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.PrimitiveIterator]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link OfLong} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class OfLongClassTest
@@ -40,6 +49,11 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link OfDouble} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OfDoubleClassTest
     implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests<OfDouble> {
@@ -56,6 +70,11 @@ implements org.j8unit.repository.java.util.PrimitiveIteratorClassTests<Primitive
         // J8UNIT-MARKER-[END]-[CLASS]-[java.util.PrimitiveIterator$OfDouble]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link OfInt} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfIntClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class OfIntClassTest

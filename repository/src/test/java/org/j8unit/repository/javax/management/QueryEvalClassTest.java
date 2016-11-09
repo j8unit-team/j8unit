@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link QueryEval} (by simply reusing the J8Unit
+ * test interface {@link QueryEvalClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class QueryEvalClassTest
-implements org.j8unit.repository.javax.management.QueryEvalClassTests<QueryEval> {
+implements QueryEvalClassTests<QueryEval> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.QueryEval]
 

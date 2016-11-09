@@ -14,7 +14,7 @@ import org.omg.CORBA.BAD_QOS;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BAD_QOSTest
-implements FactoryBasedJ8UnitTest<BAD_QOS>, org.j8unit.repository.org.omg.CORBA.BAD_QOSTests<BAD_QOS> {
+implements FactoryBasedJ8UnitTest<BAD_QOS>, BAD_QOSTests<BAD_QOS> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_QOS]
 

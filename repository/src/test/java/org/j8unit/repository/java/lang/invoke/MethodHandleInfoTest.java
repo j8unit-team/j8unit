@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MethodHandleInfo} (by simply reusing
+ * the J8Unit test interface {@link MethodHandleInfoTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MethodHandleInfoTest
-implements org.j8unit.repository.java.lang.invoke.MethodHandleInfoTests<MethodHandleInfo> {
+implements MethodHandleInfoTests<MethodHandleInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.MethodHandleInfo]
 

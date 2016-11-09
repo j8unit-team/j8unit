@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnknownErrorTest
-implements FactoryBasedJ8UnitTest<UnknownError>, org.j8unit.repository.java.lang.UnknownErrorTests<UnknownError> {
+implements FactoryBasedJ8UnitTest<UnknownError>, UnknownErrorTests<UnknownError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnknownError]
 

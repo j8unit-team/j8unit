@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.TAG_POLICIES;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TAG_POLICIES} (by simply reusing the
+ * J8Unit test interface {@link TAG_POLICIESTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TAG_POLICIESTest
-implements org.j8unit.repository.org.omg.IOP.TAG_POLICIESTests<TAG_POLICIES> {
+implements TAG_POLICIESTests<TAG_POLICIES> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TAG_POLICIES]
 

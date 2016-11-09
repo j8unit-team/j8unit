@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.InvalidPolicy;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidPolicy} (by simply reusing the
+ * J8Unit test interface {@link InvalidPolicyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidPolicyClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicyClassTests<InvalidPolicy> {
+implements InvalidPolicyClassTests<InvalidPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
 

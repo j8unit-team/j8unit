@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthPanelUITest
-implements FactoryBasedJ8UnitTest<SynthPanelUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthPanelUITests<SynthPanelUI> {
+implements FactoryBasedJ8UnitTest<SynthPanelUI>, SynthPanelUITests<SynthPanelUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthPanelUI]
 

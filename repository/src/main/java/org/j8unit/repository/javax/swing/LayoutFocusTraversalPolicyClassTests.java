@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.LayoutFocusTraversalPolicy;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.LayoutFocusTraversalPolicyTests}.
+ * {@link LayoutFocusTraversalPolicyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayoutFocusTraversalPolicyClassTests<SUT extends LayoutFocusTraversalPolicy>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.SortingFocusTraversalPolicyClassTests<SUT> {
+extends SerializableClassTests<SUT>, SortingFocusTraversalPolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.LayoutFocusTraversalPolicy]
     /**

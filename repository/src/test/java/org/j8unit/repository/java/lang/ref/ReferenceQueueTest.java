@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReferenceQueueTest<T>
-implements FactoryBasedJ8UnitTest<ReferenceQueue<T>>, org.j8unit.repository.java.lang.ref.ReferenceQueueTests<ReferenceQueue<T>, T> {
+implements FactoryBasedJ8UnitTest<ReferenceQueue<T>>, ReferenceQueueTests<ReferenceQueue<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ref.ReferenceQueue]
 

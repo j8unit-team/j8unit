@@ -14,7 +14,7 @@ import org.omg.CORBA.INV_OBJREF;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INV_OBJREFTest
-implements FactoryBasedJ8UnitTest<INV_OBJREF>, org.j8unit.repository.org.omg.CORBA.INV_OBJREFTests<INV_OBJREF> {
+implements FactoryBasedJ8UnitTest<INV_OBJREF>, INV_OBJREFTests<INV_OBJREF> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_OBJREF]
 

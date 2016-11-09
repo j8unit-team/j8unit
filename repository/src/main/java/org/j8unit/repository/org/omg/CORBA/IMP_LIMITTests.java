@@ -14,7 +14,7 @@ import org.omg.CORBA.IMP_LIMIT;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.IMP_LIMITClassTests}).
+ * {@link IMP_LIMITClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.IMP_LIMIT;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IMP_LIMITTests<SUT extends IMP_LIMIT>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IMP_LIMIT]
 

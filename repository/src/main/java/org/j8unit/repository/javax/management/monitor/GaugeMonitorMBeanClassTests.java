@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.monitor.GaugeMonitorMBeanTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link GaugeMonitorMBeanTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GaugeMonitorMBeanClassTests<SUT extends GaugeMonitorMBean>
-extends org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests<SUT> {
+extends MonitorMBeanClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.monitor.GaugeMonitorMBean]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class X509CRLSelectorTest
-implements FactoryBasedJ8UnitTest<X509CRLSelector>, org.j8unit.repository.java.security.cert.X509CRLSelectorTests<X509CRLSelector> {
+implements FactoryBasedJ8UnitTest<X509CRLSelector>, X509CRLSelectorTests<X509CRLSelector> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.X509CRLSelector]
 

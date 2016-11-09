@@ -8,37 +8,20 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MidiSystem} (by simply reusing the J8Unit
+ * test interface {@link MidiSystemClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MidiSystemClassTest
-implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSystem> {
+implements MidiSystemClassTests<MidiSystem> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.MidiSystem]
 
     @Override
     public Class<MidiSystem> createNewSUT() {
         return MidiSystem.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.MidiSystem#getMidiDevice(javax.sound.midi.MidiDevice.Info) public static
-     * javax.sound.midi.MidiDevice javax.sound.midi.MidiSystem.getMidiDevice(javax.sound.midi.MidiDevice$Info) throws
-     * javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getMidiDevice_Info()
-    throws Exception {
-        // write some test for {@link javax.sound.midi.MidiSystem#getMidiDevice(javax.sound.midi.MidiDevice.Info)}
     }
 
     /**
@@ -84,6 +67,28 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.MidiSystem#getMidiDevice(javax.sound.midi.MidiDevice.Info) public static
+     * javax.sound.midi.MidiDevice javax.sound.midi.MidiSystem.getMidiDevice(javax.sound.midi.MidiDevice$Info) throws
+     * javax.sound.midi.MidiUnavailableException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getMidiDevice_Info()
+    throws Exception {
+        // write some test for {@link javax.sound.midi.MidiSystem#getMidiDevice(javax.sound.midi.MidiDevice.Info)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#getReceiver() public
      * static javax.sound.midi.Receiver javax.sound.midi.MidiSystem.getReceiver() throws
      * javax.sound.midi.MidiUnavailableException}.
@@ -105,26 +110,6 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int)
-     * public static boolean javax.sound.midi.MidiSystem.isFileTypeSupported(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_isFileTypeSupported_int()
-    throws Exception {
-        // write some test for {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int, javax.sound.midi.Sequence) public static boolean
      * javax.sound.midi.MidiSystem.isFileTypeSupported(int,javax.sound.midi.Sequence)}.
@@ -142,6 +127,26 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
     public void test_isFileTypeSupported_int_Sequence()
     throws Exception {
         // write some test for {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int, javax.sound.midi.Sequence)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int)
+     * public static boolean javax.sound.midi.MidiSystem.isFileTypeSupported(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_isFileTypeSupported_int()
+    throws Exception {
+        // write some test for {@link javax.sound.midi.MidiSystem#isFileTypeSupported(int)}
     }
 
     /**
@@ -187,27 +192,6 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#getSequencer(boolean)
-     * public static javax.sound.midi.Sequencer javax.sound.midi.MidiSystem.getSequencer(boolean) throws
-     * javax.sound.midi.MidiUnavailableException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getSequencer_boolean()
-    throws Exception {
-        // write some test for {@link javax.sound.midi.MidiSystem#getSequencer(boolean)}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#getSequencer() public
      * static javax.sound.midi.Sequencer javax.sound.midi.MidiSystem.getSequencer() throws
      * javax.sound.midi.MidiUnavailableException}.
@@ -229,10 +213,9 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.InputStream) public static
-     * javax.sound.midi.MidiFileFormat javax.sound.midi.MidiSystem.getMidiFileFormat(java.io.InputStream) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#getSequencer(boolean)
+     * public static javax.sound.midi.Sequencer javax.sound.midi.MidiSystem.getSequencer(boolean) throws
+     * javax.sound.midi.MidiUnavailableException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -244,9 +227,9 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getMidiFileFormat_InputStream()
+    public void test_getSequencer_boolean()
     throws Exception {
-        // write some test for {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.InputStream)}
+        // write some test for {@link javax.sound.midi.MidiSystem#getSequencer(boolean)}
     }
 
     /**
@@ -296,8 +279,8 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.MidiSystem#getSoundbank(java.net.URL) public static javax.sound.midi.Soundbank
-     * javax.sound.midi.MidiSystem.getSoundbank(java.net.URL) throws
+     * {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.InputStream) public static
+     * javax.sound.midi.MidiFileFormat javax.sound.midi.MidiSystem.getMidiFileFormat(java.io.InputStream) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
@@ -310,9 +293,9 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getSoundbank_URL()
+    public void test_getMidiFileFormat_InputStream()
     throws Exception {
-        // write some test for {@link javax.sound.midi.MidiSystem#getSoundbank(java.net.URL)}
+        // write some test for {@link javax.sound.midi.MidiSystem#getMidiFileFormat(java.io.InputStream)}
     }
 
     /**
@@ -361,6 +344,28 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.MidiSystem#getSoundbank(java.net.URL) public static javax.sound.midi.Soundbank
+     * javax.sound.midi.MidiSystem.getSoundbank(java.net.URL) throws
+     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getSoundbank_URL()
+    throws Exception {
+        // write some test for {@link javax.sound.midi.MidiSystem#getSoundbank(java.net.URL)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sound.midi.MidiSystem#getTransmitter() public
      * static javax.sound.midi.Transmitter javax.sound.midi.MidiSystem.getTransmitter() throws
      * javax.sound.midi.MidiUnavailableException}.
@@ -383,28 +388,6 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.sound.midi.MidiSystem#getSequence(java.io.File) public static javax.sound.midi.Sequence
-     * javax.sound.midi.MidiSystem.getSequence(java.io.File) throws
-     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getSequence_File()
-    throws Exception {
-        // write some test for {@link javax.sound.midi.MidiSystem#getSequence(java.io.File)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.MidiSystem#getSequence(java.net.URL) public static javax.sound.midi.Sequence
      * javax.sound.midi.MidiSystem.getSequence(java.net.URL) throws
      * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
@@ -422,6 +405,28 @@ implements org.j8unit.repository.javax.sound.midi.MidiSystemClassTests<MidiSyste
     public void test_getSequence_URL()
     throws Exception {
         // write some test for {@link javax.sound.midi.MidiSystem#getSequence(java.net.URL)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.sound.midi.MidiSystem#getSequence(java.io.File) public static javax.sound.midi.Sequence
+     * javax.sound.midi.MidiSystem.getSequence(java.io.File) throws
+     * javax.sound.midi.InvalidMidiDataException,java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getSequence_File()
+    throws Exception {
+        // write some test for {@link javax.sound.midi.MidiSystem#getSequence(java.io.File)}
     }
 
     /**

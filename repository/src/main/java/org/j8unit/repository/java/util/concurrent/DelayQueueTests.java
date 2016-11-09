@@ -4,6 +4,7 @@ import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.AbstractQueueTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.concurrent.DelayQueueClassTests}).
+ * {@link DelayQueueClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DelayQueueTests<SUT extends DelayQueue<E>, E extends Delayed>
-extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {
+extends BlockingQueueTests<SUT, E>, AbstractQueueTests<SUT, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.DelayQueue]
 
@@ -451,8 +452,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Category(Draft.class)
     public default void test_contains_Object()
     throws Exception {
-        org.j8unit.repository.java.util.concurrent.BlockingQueueTests.super.test_contains_Object();
-        org.j8unit.repository.java.util.AbstractQueueTests.super.test_contains_Object();
+        BlockingQueueTests.super.test_contains_Object();
+        AbstractQueueTests.super.test_contains_Object();
     }
 
     /**
@@ -479,8 +480,8 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
     @Category(Draft.class)
     public default void test_add_Object()
     throws Exception {
-        org.j8unit.repository.java.util.concurrent.BlockingQueueTests.super.test_add_Object();
-        org.j8unit.repository.java.util.AbstractQueueTests.super.test_add_Object();
+        BlockingQueueTests.super.test_add_Object();
+        AbstractQueueTests.super.test_add_Object();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.concurrent.DelayQueue]

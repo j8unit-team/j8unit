@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Chronology} (by simply reusing the J8Unit
+ * test interface {@link ChronologyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ChronologyClassTest
-implements org.j8unit.repository.java.time.chrono.ChronologyClassTests<Chronology> {
+implements ChronologyClassTests<Chronology> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.Chronology]
 

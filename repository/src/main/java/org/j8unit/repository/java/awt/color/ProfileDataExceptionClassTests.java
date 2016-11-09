@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.color;
 import static org.junit.Assert.assertTrue;
 import java.awt.color.ProfileDataException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.RuntimeExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.color.ProfileDataExceptionTests}.
+ * {@link ProfileDataExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProfileDataExceptionClassTests<SUT extends ProfileDataException>
-extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
+extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.color.ProfileDataException]
     /**

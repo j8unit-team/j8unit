@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UnsupportedClassVersionError} (by simply
+ * reusing the J8Unit test interface {@link UnsupportedClassVersionErrorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnsupportedClassVersionErrorClassTest
-implements org.j8unit.repository.java.lang.UnsupportedClassVersionErrorClassTests<UnsupportedClassVersionError> {
+implements UnsupportedClassVersionErrorClassTests<UnsupportedClassVersionError> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.UnsupportedClassVersionError]
 

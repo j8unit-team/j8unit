@@ -14,7 +14,7 @@ import org.omg.DynamicAny._DynValueStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _DynValueStubTest
-implements FactoryBasedJ8UnitTest<_DynValueStub>, org.j8unit.repository.org.omg.DynamicAny._DynValueStubTests<_DynValueStub> {
+implements FactoryBasedJ8UnitTest<_DynValueStub>, _DynValueStubTests<_DynValueStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynValueStub]
 

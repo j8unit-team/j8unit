@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.text;
 import static org.junit.Assert.assertTrue;
 import javax.swing.text.ChangedCharSetException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.IOExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.ChangedCharSetExceptionTests}.
+ * {@link ChangedCharSetExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChangedCharSetExceptionClassTests<SUT extends ChangedCharSetException>
-extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
+extends IOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.ChangedCharSetException]
     /**

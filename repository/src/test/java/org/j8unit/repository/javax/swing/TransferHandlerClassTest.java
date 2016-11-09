@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TransferHandler} (by simply reusing the
+ * J8Unit test interface {@link TransferHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TransferHandlerClassTest
-implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferHandler> {
+implements TransferHandlerClassTests<TransferHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler]
 
@@ -107,6 +112,12 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.TransferHandler]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DropLocationClassTest
     implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<DropLocation> {
@@ -124,9 +135,14 @@ implements org.j8unit.repository.javax.swing.TransferHandlerClassTests<TransferH
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TransferSupport} (by simply reusing
+     * the J8Unit test interface {@link TransferSupportClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class TransferSupportClassTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerClassTests.TransferSupportClassTests<TransferSupport> {
+    implements TransferSupportClassTests<TransferSupport> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.TransferHandler$TransferSupport]
 

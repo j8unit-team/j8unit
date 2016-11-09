@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ActionMap} (by simply reusing the J8Unit
+ * test interface {@link ActionMapClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActionMapClassTest
-implements org.j8unit.repository.javax.swing.ActionMapClassTests<ActionMap> {
+implements ActionMapClassTests<ActionMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ActionMap]
 

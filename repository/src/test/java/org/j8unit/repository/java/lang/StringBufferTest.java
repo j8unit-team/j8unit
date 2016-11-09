@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringBufferTest
-implements FactoryBasedJ8UnitTest<StringBuffer>, org.j8unit.repository.java.lang.StringBufferTests<StringBuffer> {
+implements FactoryBasedJ8UnitTest<StringBuffer>, StringBufferTests<StringBuffer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.StringBuffer]
 

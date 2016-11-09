@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AtomicBooleanTest
-implements FactoryBasedJ8UnitTest<AtomicBoolean>, org.j8unit.repository.java.util.concurrent.atomic.AtomicBooleanTests<AtomicBoolean> {
+implements FactoryBasedJ8UnitTest<AtomicBoolean>, AtomicBooleanTests<AtomicBoolean> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicBoolean]
 

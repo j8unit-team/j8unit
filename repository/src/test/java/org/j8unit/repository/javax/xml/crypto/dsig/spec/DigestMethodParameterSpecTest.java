@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DigestMethodParameterSpec} (by simply
+ * reusing the J8Unit test interface {@link DigestMethodParameterSpecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DigestMethodParameterSpecTest
-implements org.j8unit.repository.javax.xml.crypto.dsig.spec.DigestMethodParameterSpecTests<DigestMethodParameterSpec> {
+implements DigestMethodParameterSpecTests<DigestMethodParameterSpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.spec.DigestMethodParameterSpec]
 

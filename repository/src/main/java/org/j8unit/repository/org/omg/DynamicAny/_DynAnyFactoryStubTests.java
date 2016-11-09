@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.omg.DynamicAny._DynAnyFactoryStub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.DynamicAny._DynAnyFactoryStubClassTests}).
+ * {@link _DynAnyFactoryStubClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.omg.DynamicAny._DynAnyFactoryStub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynAnyFactoryStubTests<SUT extends _DynAnyFactoryStub>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {
+extends DynAnyFactoryTests<SUT>, ObjectImplTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynAnyFactoryStub]
 
@@ -60,6 +61,29 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests<SUT>, org.j8
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynAnyFactoryStub#_ids() public
+     * java.lang.String[] org.omg.DynamicAny._DynAnyFactoryStub._ids()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test__ids()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.DynamicAny._DynAnyFactoryStub#create_dyn_any(org.omg.CORBA.Any) public org.omg.DynamicAny.DynAny
      * org.omg.DynamicAny._DynAnyFactoryStub.create_dyn_any(org.omg.CORBA.Any) throws
@@ -77,29 +101,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_create_dyn_any_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.DynamicAny._DynAnyFactoryStub#_ids() public
-     * java.lang.String[] org.omg.DynamicAny._DynAnyFactoryStub._ids()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test__ids()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ZoneRules} (by simply reusing the J8Unit
+ * test interface {@link ZoneRulesClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ZoneRulesClassTest
-implements org.j8unit.repository.java.time.zone.ZoneRulesClassTests<ZoneRules> {
+implements ZoneRulesClassTests<ZoneRules> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.zone.ZoneRules]
 

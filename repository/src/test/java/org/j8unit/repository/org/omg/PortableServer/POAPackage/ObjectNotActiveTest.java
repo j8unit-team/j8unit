@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAPackage.ObjectNotActive;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ObjectNotActiveTest
-implements FactoryBasedJ8UnitTest<ObjectNotActive>, org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActiveTests<ObjectNotActive> {
+implements FactoryBasedJ8UnitTest<ObjectNotActive>, ObjectNotActiveTests<ObjectNotActive> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.ObjectNotActive]
 

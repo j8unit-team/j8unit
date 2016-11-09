@@ -14,7 +14,7 @@ import org.omg.CORBA.ServiceInformationHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServiceInformationHolderTest
-implements FactoryBasedJ8UnitTest<ServiceInformationHolder>, org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderTests<ServiceInformationHolder> {
+implements FactoryBasedJ8UnitTest<ServiceInformationHolder>, ServiceInformationHolderTests<ServiceInformationHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ServiceInformationHolder]
 

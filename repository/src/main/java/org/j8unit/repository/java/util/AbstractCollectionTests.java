@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util;
 import java.util.AbstractCollection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.AbstractCollectionClassTests}).
+ * {@link AbstractCollectionClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractCollectionTests<SUT extends AbstractCollection<E>, E>
-extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends CollectionTests<SUT, E>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractCollection]
 
@@ -382,8 +383,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
     @Category(Draft.class)
     public default void test_hashCode()
     throws Exception {
-        org.j8unit.repository.java.util.CollectionTests.super.test_hashCode();
-        org.j8unit.repository.java.lang.ObjectTests.super.test_hashCode();
+        CollectionTests.super.test_hashCode();
+        ObjectTests.super.test_hashCode();
     }
 
     /**
@@ -410,8 +411,8 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
     @Category(Draft.class)
     public default void test_equals_Object()
     throws Exception {
-        org.j8unit.repository.java.util.CollectionTests.super.test_equals_Object();
-        org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
+        CollectionTests.super.test_equals_Object();
+        ObjectTests.super.test_equals_Object();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractCollection]

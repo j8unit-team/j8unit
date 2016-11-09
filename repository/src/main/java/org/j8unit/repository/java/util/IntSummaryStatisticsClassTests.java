@@ -3,6 +3,8 @@ package org.j8unit.repository.java.util;
 import static org.junit.Assert.assertTrue;
 import java.util.IntSummaryStatistics;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.function.IntConsumerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.IntSummaryStatisticsTests}.
+ * {@link IntSummaryStatisticsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntSummaryStatisticsClassTests<SUT extends IntSummaryStatistics>
-extends org.j8unit.repository.java.util.function.IntConsumerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends IntConsumerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.IntSummaryStatistics]
     /**

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServerRuntimeException} (by simply
+ * reusing the J8Unit test interface {@link ServerRuntimeExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerRuntimeExceptionTest
-implements org.j8unit.repository.java.rmi.ServerRuntimeExceptionTests<ServerRuntimeException> {
+implements ServerRuntimeExceptionTests<ServerRuntimeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.ServerRuntimeException]
 

@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AddressingFeatureTest
-implements FactoryBasedJ8UnitTest<AddressingFeature>, org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests<AddressingFeature> {
+implements FactoryBasedJ8UnitTest<AddressingFeature>, AddressingFeatureTests<AddressingFeature> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
@@ -37,10 +37,15 @@ implements FactoryBasedJ8UnitTest<AddressingFeature>, org.j8unit.repository.java
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Responses} (by simply reusing the
+     * J8Unit test interface {@link ResponsesTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ResponsesTest
-    implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests<Responses> {
+    implements ResponsesTests<Responses> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 

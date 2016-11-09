@@ -13,7 +13,7 @@ import org.omg.Dynamic.Parameter;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ParameterTest
-implements FactoryBasedJ8UnitTest<Parameter>, org.j8unit.repository.org.omg.Dynamic.ParameterTests<Parameter> {
+implements FactoryBasedJ8UnitTest<Parameter>, ParameterTests<Parameter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.Dynamic.Parameter]
 

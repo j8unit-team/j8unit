@@ -17,8 +17,7 @@ import org.omg.DynamicAny.DynFixed;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynFixedTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynFixedTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.DynamicAny.DynFixed;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynFixedClassTests<SUT extends DynFixed>
-extends org.j8unit.repository.org.omg.DynamicAny.DynFixedOperationsClassTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyClassTests<SUT> {
+extends DynFixedOperationsClassTests<SUT>, DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynFixed]
     /**

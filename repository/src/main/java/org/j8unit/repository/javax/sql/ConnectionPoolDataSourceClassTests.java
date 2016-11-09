@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sql.ConnectionPoolDataSourceTests}.
+ * {@link ConnectionPoolDataSourceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConnectionPoolDataSourceClassTests<SUT extends ConnectionPoolDataSource>
-extends org.j8unit.repository.javax.sql.CommonDataSourceClassTests<SUT> {
+extends CommonDataSourceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.ConnectionPoolDataSource]
     /**

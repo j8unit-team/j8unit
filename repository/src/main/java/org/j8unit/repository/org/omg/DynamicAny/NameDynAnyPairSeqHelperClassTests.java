@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.NameDynAnyPairSeqHelper;
@@ -18,7 +19,7 @@ import org.omg.DynamicAny.NameDynAnyPairSeqHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairSeqHelperTests}.
+ * {@link NameDynAnyPairSeqHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.DynamicAny.NameDynAnyPairSeqHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameDynAnyPairSeqHelperClassTests<SUT extends NameDynAnyPairSeqHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPairSeqHelper]
     /**

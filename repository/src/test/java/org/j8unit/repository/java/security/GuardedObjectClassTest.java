@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GuardedObject} (by simply reusing the
+ * J8Unit test interface {@link GuardedObjectClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GuardedObjectClassTest
-implements org.j8unit.repository.java.security.GuardedObjectClassTests<GuardedObject> {
+implements GuardedObjectClassTests<GuardedObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.GuardedObject]
 

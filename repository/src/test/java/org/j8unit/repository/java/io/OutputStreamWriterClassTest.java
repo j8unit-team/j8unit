@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OutputStreamWriter} (by simply reusing
+ * the J8Unit test interface {@link OutputStreamWriterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OutputStreamWriterClassTest
-implements org.j8unit.repository.java.io.OutputStreamWriterClassTests<OutputStreamWriter> {
+implements OutputStreamWriterClassTests<OutputStreamWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.OutputStreamWriter]
 

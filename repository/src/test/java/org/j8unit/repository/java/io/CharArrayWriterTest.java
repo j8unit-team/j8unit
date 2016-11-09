@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CharArrayWriterTest
-implements FactoryBasedJ8UnitTest<CharArrayWriter>, org.j8unit.repository.java.io.CharArrayWriterTests<CharArrayWriter> {
+implements FactoryBasedJ8UnitTest<CharArrayWriter>, CharArrayWriterTests<CharArrayWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.CharArrayWriter]
 

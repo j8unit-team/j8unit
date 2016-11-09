@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicToggleButtonUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicToggleButtonUIClassTests<SUT extends BasicToggleButtonUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUIClassTests<SUT> {
+extends BasicButtonUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToggleButtonUI]
     /**

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Composite} (by simply reusing the
+ * J8Unit test interface {@link CompositeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompositeTest
-implements org.j8unit.repository.java.awt.CompositeTests<Composite> {
+implements CompositeTests<Composite> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Composite]
 

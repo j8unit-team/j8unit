@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.stream.util;
 import javax.xml.stream.util.EventReaderDelegate;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.xml.stream.XMLEventReaderTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateClassTests}).
+ * {@link EventReaderDelegateClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventReaderDelegateTests<SUT extends EventReaderDelegate>
-extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.repository.java.lang.ObjectTests {
+extends XMLEventReaderTests, ObjectTests {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.util.EventReaderDelegate]
 

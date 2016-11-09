@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio;
 import static org.junit.Assert.assertTrue;
 import java.nio.FloatBuffer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ComparableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.FloatBufferTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FloatBufferTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FloatBufferClassTests<SUT extends FloatBuffer>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
+extends ComparableClassTests<SUT>, BufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.FloatBuffer]
     /**

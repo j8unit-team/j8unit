@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IntrospectionExceptionTest
-implements FactoryBasedJ8UnitTest<IntrospectionException>, org.j8unit.repository.javax.management.IntrospectionExceptionTests<IntrospectionException> {
+implements FactoryBasedJ8UnitTest<IntrospectionException>, IntrospectionExceptionTests<IntrospectionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.IntrospectionException]
 

@@ -2,6 +2,7 @@ package org.j8unit.repository.org.w3c.dom.ranges;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.RuntimeExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.ranges.RangeException;
@@ -17,8 +18,7 @@ import org.w3c.dom.ranges.RangeException;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.ranges.RangeExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RangeExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.w3c.dom.ranges.RangeException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RangeExceptionClassTests<SUT extends RangeException>
-extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
+extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.ranges.RangeException]
     /**

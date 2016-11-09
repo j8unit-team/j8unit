@@ -4,6 +4,7 @@ import javax.xml.bind.annotation.W3CDomHandler;
 import javax.xml.transform.dom.DOMResult;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +20,7 @@ import org.w3c.dom.Element;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTests}).
+ * {@link W3CDomHandlerClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +31,7 @@ import org.w3c.dom.Element;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface W3CDomHandlerTests<SUT extends W3CDomHandler>
-extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, Element, DOMResult>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends DomHandlerTests<SUT, Element, DOMResult>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.W3CDomHandler]
 

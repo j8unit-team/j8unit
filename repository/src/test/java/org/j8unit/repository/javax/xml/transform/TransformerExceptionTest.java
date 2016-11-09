@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TransformerException} (by simply
+ * reusing the J8Unit test interface {@link TransformerExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TransformerExceptionTest
-implements org.j8unit.repository.javax.xml.transform.TransformerExceptionTests<TransformerException> {
+implements TransformerExceptionTests<TransformerException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.TransformerException]
 

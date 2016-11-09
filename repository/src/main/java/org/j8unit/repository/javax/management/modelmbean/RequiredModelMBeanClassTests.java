@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.management.modelmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.modelmbean.RequiredModelMBean;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.management.MBeanRegistrationClassTests;
+import org.j8unit.repository.javax.management.NotificationEmitterClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RequiredModelMBeanTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RequiredModelMBeanClassTests<SUT extends RequiredModelMBean>
-extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanClassTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>,
-org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ModelMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, NotificationEmitterClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.RequiredModelMBean]
     /**

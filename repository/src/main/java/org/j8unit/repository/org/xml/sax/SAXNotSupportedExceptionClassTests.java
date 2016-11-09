@@ -18,7 +18,7 @@ import org.xml.sax.SAXNotSupportedException;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.SAXNotSupportedExceptionTests}.
+ * {@link SAXNotSupportedExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.xml.sax.SAXNotSupportedException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXNotSupportedExceptionClassTests<SUT extends SAXNotSupportedException>
-extends org.j8unit.repository.org.xml.sax.SAXExceptionClassTests<SUT> {
+extends SAXExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.SAXNotSupportedException]
     /**

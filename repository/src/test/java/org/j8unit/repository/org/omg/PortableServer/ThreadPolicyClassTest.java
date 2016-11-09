@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ThreadPolicy;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ThreadPolicy} (by simply reusing the
+ * J8Unit test interface {@link ThreadPolicyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThreadPolicyClassTest
-implements org.j8unit.repository.org.omg.PortableServer.ThreadPolicyClassTests<ThreadPolicy> {
+implements ThreadPolicyClassTests<ThreadPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ThreadPolicy]
 

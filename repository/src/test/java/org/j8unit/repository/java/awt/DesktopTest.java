@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Desktop} (by simply reusing the
+ * J8Unit test interface {@link DesktopTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DesktopTest
-implements org.j8unit.repository.java.awt.DesktopTests<Desktop> {
+implements DesktopTests<Desktop> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Desktop]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.java.awt.DesktopTests<Desktop> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Desktop]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Action} (by simply reusing the
+     * J8Unit test interface {@link ActionTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ActionTest
-    implements org.j8unit.repository.java.awt.DesktopTests.ActionTests<Action> {
+    implements ActionTests<Action> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Desktop$Action]
 

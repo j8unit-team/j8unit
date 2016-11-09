@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LineUnavailableExceptionTest
-implements FactoryBasedJ8UnitTest<LineUnavailableException>, org.j8unit.repository.javax.sound.sampled.LineUnavailableExceptionTests<LineUnavailableException> {
+implements FactoryBasedJ8UnitTest<LineUnavailableException>, LineUnavailableExceptionTests<LineUnavailableException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.LineUnavailableException]
 

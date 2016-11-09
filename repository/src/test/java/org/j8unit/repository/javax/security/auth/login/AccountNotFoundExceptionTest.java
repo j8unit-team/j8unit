@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccountNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<AccountNotFoundException>,
-org.j8unit.repository.javax.security.auth.login.AccountNotFoundExceptionTests<AccountNotFoundException> {
+implements FactoryBasedJ8UnitTest<AccountNotFoundException>, AccountNotFoundExceptionTests<AccountNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountNotFoundException]
 

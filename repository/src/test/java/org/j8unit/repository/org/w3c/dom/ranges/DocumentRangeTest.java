@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.ranges.DocumentRange;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentRange} (by simply reusing the
+ * J8Unit test interface {@link DocumentRangeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentRangeTest
-implements org.j8unit.repository.org.w3c.dom.ranges.DocumentRangeTests<DocumentRange> {
+implements DocumentRangeTests<DocumentRange> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.ranges.DocumentRange]
 

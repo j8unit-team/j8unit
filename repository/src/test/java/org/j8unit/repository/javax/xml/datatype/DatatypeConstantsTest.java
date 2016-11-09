@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DatatypeConstants} (by simply reusing
+ * the J8Unit test interface {@link DatatypeConstantsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DatatypeConstantsTest
-implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<DatatypeConstants> {
+implements DatatypeConstantsTests<DatatypeConstants> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests<Datat
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Field} (by simply reusing the
+     * J8Unit test interface {@link FieldTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FieldTest
-    implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsTests.FieldTests<Field> {
+    implements FieldTests<Field> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConstants$Field]
 

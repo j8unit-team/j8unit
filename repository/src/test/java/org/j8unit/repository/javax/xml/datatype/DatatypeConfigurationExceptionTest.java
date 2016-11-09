@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DatatypeConfigurationExceptionTest
-implements FactoryBasedJ8UnitTest<DatatypeConfigurationException>,
-org.j8unit.repository.javax.xml.datatype.DatatypeConfigurationExceptionTests<DatatypeConfigurationException> {
+implements FactoryBasedJ8UnitTest<DatatypeConfigurationException>, DatatypeConfigurationExceptionTests<DatatypeConfigurationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.datatype.DatatypeConfigurationException]
 

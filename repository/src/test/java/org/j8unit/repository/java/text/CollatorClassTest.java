@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Collator} (by simply reusing the J8Unit
+ * test interface {@link CollatorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CollatorClassTest
-implements org.j8unit.repository.java.text.CollatorClassTests<Collator> {
+implements CollatorClassTests<Collator> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.Collator]
 

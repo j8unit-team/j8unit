@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MulticastSocketTest
-implements FactoryBasedJ8UnitTest<MulticastSocket>, org.j8unit.repository.java.net.MulticastSocketTests<MulticastSocket> {
+implements FactoryBasedJ8UnitTest<MulticastSocket>, MulticastSocketTests<MulticastSocket> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.MulticastSocket]
 

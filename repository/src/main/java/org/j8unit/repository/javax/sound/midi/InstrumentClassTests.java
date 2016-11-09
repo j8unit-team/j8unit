@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.midi.InstrumentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InstrumentTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InstrumentClassTests<SUT extends Instrument>
-extends org.j8unit.repository.javax.sound.midi.SoundbankResourceClassTests<SUT> {
+extends SoundbankResourceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Instrument]
     /**

@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.w3c.dom.css.CSSRule;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CSSRule} (by simply reusing the J8Unit
+ * test interface {@link CSSRuleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CSSRuleClassTest
-implements org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<CSSRule> {
+implements CSSRuleClassTests<CSSRule> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSRule]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthToggleButtonUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SynthToggleButtonUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthToggleButtonUIClassTests<SUT extends SynthToggleButtonUI>
-extends org.j8unit.repository.javax.swing.plaf.synth.SynthButtonUIClassTests<SUT> {
+extends SynthButtonUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthToggleButtonUI]
     /**

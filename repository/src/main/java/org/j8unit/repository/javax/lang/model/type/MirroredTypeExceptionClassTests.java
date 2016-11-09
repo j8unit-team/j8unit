@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.type.MirroredTypeExceptionTests}.
+ * {@link MirroredTypeExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MirroredTypeExceptionClassTests<SUT extends MirroredTypeException>
-extends org.j8unit.repository.javax.lang.model.type.MirroredTypesExceptionClassTests<SUT> {
+extends MirroredTypesExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.type.MirroredTypeException]
     /**

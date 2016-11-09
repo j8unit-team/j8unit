@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ORBInitInfo;
@@ -17,8 +19,7 @@ import org.omg.PortableInterceptor.ORBInitInfo;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ORBInitInfoTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.omg.PortableInterceptor.ORBInitInfo;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ORBInitInfoClassTests<SUT extends ORBInitInfo>
-extends org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
+extends ORBInitInfoOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfo]
     /**

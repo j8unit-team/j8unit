@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributeNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<AttributeNotFoundException>,
-org.j8unit.repository.javax.management.AttributeNotFoundExceptionTests<AttributeNotFoundException> {
+implements FactoryBasedJ8UnitTest<AttributeNotFoundException>, AttributeNotFoundExceptionTests<AttributeNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeNotFoundException]
 

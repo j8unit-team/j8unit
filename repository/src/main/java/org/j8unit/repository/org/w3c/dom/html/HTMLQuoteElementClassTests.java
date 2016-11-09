@@ -17,8 +17,7 @@ import org.w3c.dom.html.HTMLQuoteElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLQuoteElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLQuoteElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.html.HTMLQuoteElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLQuoteElementClassTests<SUT extends HTMLQuoteElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLQuoteElement]
     /**

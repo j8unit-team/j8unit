@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JComboBoxTest<E>
-implements FactoryBasedJ8UnitTest<JComboBox<E>>, org.j8unit.repository.javax.swing.JComboBoxTests<JComboBox<E>, E> {
+implements FactoryBasedJ8UnitTest<JComboBox<E>>, JComboBoxTests<JComboBox<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComboBox]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<JComboBox<E>>, org.j8unit.repository.javax.swi
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComboBox]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeySelectionManager} (by simply
+     * reusing the J8Unit test interface {@link KeySelectionManagerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class KeySelectionManagerTest
-    implements org.j8unit.repository.javax.swing.JComboBoxTests.KeySelectionManagerTests<KeySelectionManager> {
+    implements KeySelectionManagerTests<KeySelectionManager> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComboBox$KeySelectionManager]
 

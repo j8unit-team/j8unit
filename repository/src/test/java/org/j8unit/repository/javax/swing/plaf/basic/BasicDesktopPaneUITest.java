@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicDesktopPaneUITest
-implements FactoryBasedJ8UnitTest<BasicDesktopPaneUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopPaneUITests<BasicDesktopPaneUI> {
+implements FactoryBasedJ8UnitTest<BasicDesktopPaneUI>, BasicDesktopPaneUITests<BasicDesktopPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicDesktopPaneUI]
 

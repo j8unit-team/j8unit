@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.file.attribute;
 import static org.junit.Assert.assertTrue;
 import java.nio.file.attribute.AclEntryType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.attribute.AclEntryTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AclEntryTypeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryTypeClassTests<SUT extends AclEntryType>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+extends EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.AclEntryType]
     /**

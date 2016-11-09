@@ -9,9 +9,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Spliterator} (by simply reusing the
+ * J8Unit test interface {@link SpliteratorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SpliteratorTest<T>
-implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
+implements SpliteratorTests<Spliterator<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterator]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link OfPrimitive} (by simply reusing
+     * the J8Unit test interface {@link OfPrimitiveTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OfPrimitiveTest<T, T_CONS, T_SPLITR extends OfPrimitive<T, T_CONS, T_SPLITR>>
-    implements org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests<OfPrimitive<T, T_CONS, T_SPLITR>, T, T_CONS, T_SPLITR> {
+    implements OfPrimitiveTests<OfPrimitive<T, T_CONS, T_SPLITR>, T, T_CONS, T_SPLITR> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfPrimitive]
 
@@ -41,9 +51,14 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link OfLong} (by simply reusing the
+     * J8Unit test interface {@link OfLongTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OfLongTest
-    implements org.j8unit.repository.java.util.SpliteratorTests.OfLongTests<OfLong> {
+    implements OfLongTests<OfLong> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfLong]
 
@@ -58,9 +73,14 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link OfInt} (by simply reusing the
+     * J8Unit test interface {@link OfIntTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OfIntTest
-    implements org.j8unit.repository.java.util.SpliteratorTests.OfIntTests<OfInt> {
+    implements OfIntTests<OfInt> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfInt]
 
@@ -75,9 +95,14 @@ implements org.j8unit.repository.java.util.SpliteratorTests<Spliterator<T>, T> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link OfDouble} (by simply reusing the
+     * J8Unit test interface {@link OfDoubleTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OfDoubleTest
-    implements org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests<OfDouble> {
+    implements OfDoubleTests<OfDouble> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterator$OfDouble]
 

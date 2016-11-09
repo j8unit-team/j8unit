@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DateTimeAtCreation} (by simply
+ * reusing the J8Unit test interface {@link DateTimeAtCreationTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DateTimeAtCreationTest
-implements org.j8unit.repository.javax.print.attribute.standard.DateTimeAtCreationTests<DateTimeAtCreation> {
+implements DateTimeAtCreationTests<DateTimeAtCreation> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.DateTimeAtCreation]
 

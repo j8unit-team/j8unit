@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AtomicReferenceTest<V>
-implements FactoryBasedJ8UnitTest<AtomicReference<V>>, org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceTests<AtomicReference<V>, V> {
+implements FactoryBasedJ8UnitTest<AtomicReference<V>>, AtomicReferenceTests<AtomicReference<V>, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicReference]
 

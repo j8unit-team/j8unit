@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ClosedWatchServiceException} (by simply
+ * reusing the J8Unit test interface {@link ClosedWatchServiceExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ClosedWatchServiceExceptionClassTest
-implements org.j8unit.repository.java.nio.file.ClosedWatchServiceExceptionClassTests<ClosedWatchServiceException> {
+implements ClosedWatchServiceExceptionClassTests<ClosedWatchServiceException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.ClosedWatchServiceException]
 

@@ -14,7 +14,7 @@ import org.xml.sax.SAXNotSupportedException;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SAXNotSupportedExceptionTest
-implements FactoryBasedJ8UnitTest<SAXNotSupportedException>, org.j8unit.repository.org.xml.sax.SAXNotSupportedExceptionTests<SAXNotSupportedException> {
+implements FactoryBasedJ8UnitTest<SAXNotSupportedException>, SAXNotSupportedExceptionTests<SAXNotSupportedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXNotSupportedException]
 

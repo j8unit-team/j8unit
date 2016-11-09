@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PaperTest
-implements FactoryBasedJ8UnitTest<Paper>, org.j8unit.repository.java.awt.print.PaperTests<Paper> {
+implements FactoryBasedJ8UnitTest<Paper>, PaperTests<Paper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.Paper]
 

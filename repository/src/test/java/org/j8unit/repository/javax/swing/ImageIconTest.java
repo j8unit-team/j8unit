@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ImageIconTest
-implements FactoryBasedJ8UnitTest<ImageIcon>, org.j8unit.repository.javax.swing.ImageIconTests<ImageIcon> {
+implements FactoryBasedJ8UnitTest<ImageIcon>, ImageIconTests<ImageIcon> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.ImageIcon]
 

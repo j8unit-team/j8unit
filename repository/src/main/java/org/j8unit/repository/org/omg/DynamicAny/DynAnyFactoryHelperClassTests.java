@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.DynAnyFactoryHelper;
@@ -17,8 +18,7 @@ import org.omg.DynamicAny.DynAnyFactoryHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynAnyFactoryHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.DynamicAny.DynAnyFactoryHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnyFactoryHelperClassTests<SUT extends DynAnyFactoryHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryHelper]
     /**

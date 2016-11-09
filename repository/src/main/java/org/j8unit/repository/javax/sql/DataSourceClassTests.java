@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.sql;
 import static org.junit.Assert.assertTrue;
 import javax.sql.DataSource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.sql.WrapperClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sql.DataSourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DataSourceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataSourceClassTests<SUT extends DataSource>
-extends org.j8unit.repository.javax.sql.CommonDataSourceClassTests<SUT>, org.j8unit.repository.java.sql.WrapperClassTests<SUT> {
+extends CommonDataSourceClassTests<SUT>, WrapperClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.DataSource]
     /**

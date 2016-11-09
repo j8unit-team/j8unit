@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming._BindingIteratorImplBase;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _BindingIteratorImplBase} (by simply
+ * reusing the J8Unit test interface {@link _BindingIteratorImplBaseClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _BindingIteratorImplBaseClassTest
-implements org.j8unit.repository.org.omg.CosNaming._BindingIteratorImplBaseClassTests<_BindingIteratorImplBase> {
+implements _BindingIteratorImplBaseClassTests<_BindingIteratorImplBase> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming._BindingIteratorImplBase]
 

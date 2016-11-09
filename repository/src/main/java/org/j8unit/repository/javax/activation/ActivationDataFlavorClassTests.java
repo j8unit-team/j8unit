@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.activation;
 import static org.junit.Assert.assertTrue;
 import javax.activation.ActivationDataFlavor;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.activation.ActivationDataFlavorTests}.
+ * {@link ActivationDataFlavorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationDataFlavorClassTests<SUT extends ActivationDataFlavor>
-extends org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<SUT> {
+extends DataFlavorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.ActivationDataFlavor]
     /**

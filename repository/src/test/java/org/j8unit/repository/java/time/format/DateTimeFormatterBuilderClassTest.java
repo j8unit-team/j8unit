@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DateTimeFormatterBuilder} (by simply
+ * reusing the J8Unit test interface {@link DateTimeFormatterBuilderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DateTimeFormatterBuilderClassTest
-implements org.j8unit.repository.java.time.format.DateTimeFormatterBuilderClassTests<DateTimeFormatterBuilder> {
+implements DateTimeFormatterBuilderClassTests<DateTimeFormatterBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.format.DateTimeFormatterBuilder]
 

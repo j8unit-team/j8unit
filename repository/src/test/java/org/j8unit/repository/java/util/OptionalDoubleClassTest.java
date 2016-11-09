@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OptionalDouble} (by simply reusing the
+ * J8Unit test interface {@link OptionalDoubleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OptionalDoubleClassTest
-implements org.j8unit.repository.java.util.OptionalDoubleClassTests<OptionalDouble> {
+implements OptionalDoubleClassTests<OptionalDouble> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.OptionalDouble]
 

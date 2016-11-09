@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.naming.directory;
 import static org.junit.Assert.assertTrue;
 import javax.naming.directory.AttributeInUseException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.naming.NamingExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.directory.AttributeInUseExceptionTests}.
+ * {@link AttributeInUseExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeInUseExceptionClassTests<SUT extends AttributeInUseException>
-extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
+extends NamingExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.AttributeInUseException]
     /**

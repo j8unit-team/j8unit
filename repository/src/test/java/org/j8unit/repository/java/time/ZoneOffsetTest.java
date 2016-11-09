@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ZoneOffset} (by simply reusing the
+ * J8Unit test interface {@link ZoneOffsetTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ZoneOffsetTest
-implements org.j8unit.repository.java.time.ZoneOffsetTests<ZoneOffset> {
+implements ZoneOffsetTests<ZoneOffset> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.ZoneOffset]
 

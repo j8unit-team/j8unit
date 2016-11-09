@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ImplicitActivationPolicyOperations;
@@ -19,7 +20,7 @@ import org.omg.PortableServer.ImplicitActivationPolicyOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyOperationsTests}.
+ * {@link ImplicitActivationPolicyOperationsTests}.
  * </p>
  *
  * <p>
@@ -48,7 +49,7 @@ import org.omg.PortableServer.ImplicitActivationPolicyOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImplicitActivationPolicyOperationsClassTests<SUT extends ImplicitActivationPolicyOperations>
-extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsClassTests<SUT> {
+extends PolicyOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ImplicitActivationPolicyOperations]
     /**

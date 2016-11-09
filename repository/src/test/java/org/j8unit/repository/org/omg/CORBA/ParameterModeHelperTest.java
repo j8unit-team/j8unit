@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ParameterModeHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ParameterModeHelper} (by simply
+ * reusing the J8Unit test interface {@link ParameterModeHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParameterModeHelperTest
-implements org.j8unit.repository.org.omg.CORBA.ParameterModeHelperTests<ParameterModeHelper> {
+implements ParameterModeHelperTests<ParameterModeHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ParameterModeHelper]
 

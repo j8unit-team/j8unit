@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.VM_TRUNCATABLE;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link VM_TRUNCATABLE} (by simply reusing
+ * the J8Unit test interface {@link VM_TRUNCATABLETests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VM_TRUNCATABLETest
-implements org.j8unit.repository.org.omg.CORBA.VM_TRUNCATABLETests<VM_TRUNCATABLE> {
+implements VM_TRUNCATABLETests<VM_TRUNCATABLE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.VM_TRUNCATABLE]
 

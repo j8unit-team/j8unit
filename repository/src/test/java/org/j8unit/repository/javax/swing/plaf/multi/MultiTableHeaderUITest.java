@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiTableHeaderUITest
-implements FactoryBasedJ8UnitTest<MultiTableHeaderUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiTableHeaderUITests<MultiTableHeaderUI> {
+implements FactoryBasedJ8UnitTest<MultiTableHeaderUI>, MultiTableHeaderUITests<MultiTableHeaderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiTableHeaderUI]
 

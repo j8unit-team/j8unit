@@ -10,10 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RowSorter} (by simply reusing the J8Unit
+ * test interface {@link RowSorterClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class RowSorterClassTest
-implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
+implements RowSorterClassTests<RowSorter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.RowSorter]
 
@@ -46,9 +50,14 @@ implements org.j8unit.repository.javax.swing.RowSorterClassTests<RowSorter> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.RowSorter]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SortKey} (by simply reusing the
+     * J8Unit test interface {@link SortKeyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SortKeyClassTest
-    implements org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests<SortKey> {
+    implements SortKeyClassTests<SortKey> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.RowSorter$SortKey]
 

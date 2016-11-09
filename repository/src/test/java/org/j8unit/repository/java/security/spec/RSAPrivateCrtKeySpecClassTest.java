@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RSAPrivateCrtKeySpec} (by simply reusing
+ * the J8Unit test interface {@link RSAPrivateCrtKeySpecClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RSAPrivateCrtKeySpecClassTest
-implements org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecClassTests<RSAPrivateCrtKeySpec> {
+implements RSAPrivateCrtKeySpecClassTests<RSAPrivateCrtKeySpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.RSAPrivateCrtKeySpec]
 

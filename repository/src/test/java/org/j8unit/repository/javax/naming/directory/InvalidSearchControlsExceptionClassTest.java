@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidSearchControlsException} (by
+ * simply reusing the J8Unit test interface {@link InvalidSearchControlsExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidSearchControlsExceptionClassTest
-implements org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExceptionClassTests<InvalidSearchControlsException> {
+implements InvalidSearchControlsExceptionClassTests<InvalidSearchControlsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.InvalidSearchControlsException]
 

@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CosNaming;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextHolder;
@@ -17,8 +19,7 @@ import org.omg.CosNaming.NamingContextHolder;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextHolderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NamingContextHolderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CosNaming.NamingContextHolder;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingContextHolderClassTests<SUT extends NamingContextHolder>
-extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends StreamableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextHolder]
     /**

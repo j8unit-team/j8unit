@@ -5,6 +5,10 @@ import java.nio.channels.Pipe;
 import java.nio.channels.Pipe.SinkChannel;
 import java.nio.channels.Pipe.SourceChannel;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests;
+import org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests;
+import org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.PipeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PipeTests}.
  * </p>
  *
  * <p>
@@ -50,7 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PipeClassTests<SUT extends Pipe>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe]
     /**
@@ -84,8 +87,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SourceChannelTests}.
      * </p>
      *
      * <p>
@@ -114,8 +116,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SourceChannelClassTests<SUT extends SourceChannel>
-    extends org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
-    org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
+    extends ScatteringByteChannelClassTests<SUT>, AbstractSelectableChannelClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe$SourceChannel]
         /**
@@ -152,8 +153,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SinkChannelTests}.
      * </p>
      *
      * <p>
@@ -182,8 +182,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SinkChannelClassTests<SUT extends SinkChannel>
-    extends org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>,
-    org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
+    extends GatheringByteChannelClassTests<SUT>, AbstractSelectableChannelClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.Pipe$SinkChannel]
         /**

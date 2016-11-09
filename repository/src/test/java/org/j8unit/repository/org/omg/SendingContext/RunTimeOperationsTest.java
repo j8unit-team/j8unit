@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.SendingContext.RunTimeOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RunTimeOperations} (by simply reusing
+ * the J8Unit test interface {@link RunTimeOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RunTimeOperationsTest
-implements org.j8unit.repository.org.omg.SendingContext.RunTimeOperationsTests<RunTimeOperations> {
+implements RunTimeOperationsTests<RunTimeOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.SendingContext.RunTimeOperations]
 

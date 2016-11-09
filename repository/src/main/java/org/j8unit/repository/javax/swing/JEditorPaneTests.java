@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import javax.swing.JEditorPane;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.text.JTextComponentTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.JEditorPaneClassTests}).
+ * {@link JEditorPaneClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,32 +29,9 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JEditorPaneTests<SUT extends JEditorPane>
-extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
+extends JTextComponentTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JEditorPane]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JEditorPane#getEditorKitForContentType(String) public javax.swing.text.EditorKit
-     * javax.swing.JEditorPane.getEditorKitForContentType(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEditorKitForContentType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -80,8 +58,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JEditorPane#removeHyperlinkListener(javax.swing.event.HyperlinkListener) public synchronized
-     * void javax.swing.JEditorPane.removeHyperlinkListener(javax.swing.event.HyperlinkListener)}.
+     * {@link javax.swing.JEditorPane#getEditorKitForContentType(String) public javax.swing.text.EditorKit
+     * javax.swing.JEditorPane.getEditorKitForContentType(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -93,7 +71,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeHyperlinkListener_HyperlinkListener()
+    public default void test_getEditorKitForContentType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -117,6 +95,29 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_fireHyperlinkUpdate_HyperlinkEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JEditorPane#removeHyperlinkListener(javax.swing.event.HyperlinkListener) public synchronized
+     * void javax.swing.JEditorPane.removeHyperlinkListener(javax.swing.event.HyperlinkListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeHyperlinkListener_HyperlinkListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,28 +193,6 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setPage(java.net.URL) public
-     * void javax.swing.JEditorPane.setPage(java.net.URL) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPage_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setPage(String) public void
      * javax.swing.JEditorPane.setPage(java.lang.String) throws java.io.IOException}.
      *
@@ -236,9 +215,8 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JEditorPane#addHyperlinkListener(javax.swing.event.HyperlinkListener) public synchronized void
-     * javax.swing.JEditorPane.addHyperlinkListener(javax.swing.event.HyperlinkListener)}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JEditorPane#setPage(java.net.URL) public
+     * void javax.swing.JEditorPane.setPage(java.net.URL) throws java.io.IOException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -250,7 +228,7 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addHyperlinkListener_HyperlinkListener()
+    public default void test_setPage_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -274,6 +252,29 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPreferredSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JEditorPane#addHyperlinkListener(javax.swing.event.HyperlinkListener) public synchronized void
+     * javax.swing.JEditorPane.addHyperlinkListener(javax.swing.event.HyperlinkListener)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addHyperlinkListener_HyperlinkListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

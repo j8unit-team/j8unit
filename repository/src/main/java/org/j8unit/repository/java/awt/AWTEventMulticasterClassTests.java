@@ -3,6 +3,24 @@ package org.j8unit.repository.java.awt;
 import static org.junit.Assert.assertTrue;
 import java.awt.AWTEventMulticaster;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.ActionListenerClassTests;
+import org.j8unit.repository.java.awt.event.AdjustmentListenerClassTests;
+import org.j8unit.repository.java.awt.event.ComponentListenerClassTests;
+import org.j8unit.repository.java.awt.event.ContainerListenerClassTests;
+import org.j8unit.repository.java.awt.event.FocusListenerClassTests;
+import org.j8unit.repository.java.awt.event.HierarchyBoundsListenerClassTests;
+import org.j8unit.repository.java.awt.event.HierarchyListenerClassTests;
+import org.j8unit.repository.java.awt.event.InputMethodListenerClassTests;
+import org.j8unit.repository.java.awt.event.ItemListenerClassTests;
+import org.j8unit.repository.java.awt.event.KeyListenerClassTests;
+import org.j8unit.repository.java.awt.event.MouseListenerClassTests;
+import org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests;
+import org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests;
+import org.j8unit.repository.java.awt.event.TextListenerClassTests;
+import org.j8unit.repository.java.awt.event.WindowFocusListenerClassTests;
+import org.j8unit.repository.java.awt.event.WindowListenerClassTests;
+import org.j8unit.repository.java.awt.event.WindowStateListenerClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +35,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.AWTEventMulticasterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AWTEventMulticasterTests}.
  * </p>
  *
  * <p>
@@ -47,15 +64,11 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AWTEventMulticasterClassTests<SUT extends AWTEventMulticaster>
-extends org.j8unit.repository.java.awt.event.ComponentListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.ContainerListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.KeyListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.MouseListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.WindowListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.WindowFocusListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.WindowStateListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.ItemListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.AdjustmentListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.TextListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.InputMethodListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.HierarchyListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.HierarchyBoundsListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ComponentListenerClassTests<SUT>, ContainerListenerClassTests<SUT>, FocusListenerClassTests<SUT>, KeyListenerClassTests<SUT>,
+MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, WindowListenerClassTests<SUT>, WindowFocusListenerClassTests<SUT>,
+WindowStateListenerClassTests<SUT>, ActionListenerClassTests<SUT>, ItemListenerClassTests<SUT>, AdjustmentListenerClassTests<SUT>, TextListenerClassTests<SUT>,
+InputMethodListenerClassTests<SUT>, HierarchyListenerClassTests<SUT>, HierarchyBoundsListenerClassTests<SUT>, MouseWheelListenerClassTests<SUT>,
+ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.AWTEventMulticaster]
     /**

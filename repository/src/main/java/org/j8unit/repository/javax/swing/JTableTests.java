@@ -5,6 +5,14 @@ import javax.swing.JTable.DropLocation;
 import javax.swing.JTable.PrintMode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
+import org.j8unit.repository.javax.swing.JTableClassTests.PrintModeClassTests;
+import org.j8unit.repository.javax.swing.event.CellEditorListenerTests;
+import org.j8unit.repository.javax.swing.event.ListSelectionListenerTests;
+import org.j8unit.repository.javax.swing.event.RowSorterListenerTests;
+import org.j8unit.repository.javax.swing.event.TableColumnModelListenerTests;
+import org.j8unit.repository.javax.swing.event.TableModelListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +27,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.JTableClassTests}).
+ * {@link JTableClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,10 +38,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTableTests<SUT extends JTable>
-extends org.j8unit.repository.javax.swing.event.TableModelListenerTests<SUT>, org.j8unit.repository.javax.swing.ScrollableTests<SUT>,
-org.j8unit.repository.javax.swing.event.TableColumnModelListenerTests<SUT>, org.j8unit.repository.javax.swing.event.ListSelectionListenerTests<SUT>,
-org.j8unit.repository.javax.swing.event.CellEditorListenerTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,
-org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.repository.javax.swing.JComponentTests<SUT> {
+extends TableModelListenerTests<SUT>, ScrollableTests<SUT>, TableColumnModelListenerTests<SUT>, ListSelectionListenerTests<SUT>, CellEditorListenerTests<SUT>,
+AccessibleTests<SUT>, RowSorterListenerTests<SUT>, JComponentTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable]
 
@@ -487,28 +493,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#editCellAt(int, int) public
-     * boolean javax.swing.JTable.editCellAt(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_editCellAt_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTable#editCellAt(int, int, java.util.EventObject) public boolean
      * javax.swing.JTable.editCellAt(int,int,java.util.EventObject)}.
@@ -524,6 +508,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_editCellAt_int_int_EventObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#editCellAt(int, int) public
+     * boolean javax.swing.JTable.editCellAt(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_editCellAt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -937,11 +943,8 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTable#print(javax.swing.JTable.PrintMode, java.text.MessageFormat, java.text.MessageFormat, boolean, javax.print.attribute.PrintRequestAttributeSet, boolean)
-     * public boolean
-     * javax.swing.JTable.print(javax.swing.JTable$PrintMode,java.text.MessageFormat,java.text.MessageFormat,boolean,javax.print.attribute.PrintRequestAttributeSet,boolean)
-     * throws java.awt.print.PrinterException,java.awt.HeadlessException}.
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#print() public boolean
+     * javax.swing.JTable.print() throws java.awt.print.PrinterException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -953,7 +956,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print_PrintMode_MessageFormat_MessageFormat_boolean_PrintRequestAttributeSet_boolean()
+    public default void test_print()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -987,8 +990,11 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#print() public boolean
-     * javax.swing.JTable.print() throws java.awt.print.PrinterException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTable#print(javax.swing.JTable.PrintMode, java.text.MessageFormat, java.text.MessageFormat, boolean, javax.print.attribute.PrintRequestAttributeSet, boolean)
+     * public boolean
+     * javax.swing.JTable.print(javax.swing.JTable$PrintMode,java.text.MessageFormat,java.text.MessageFormat,boolean,javax.print.attribute.PrintRequestAttributeSet,boolean)
+     * throws java.awt.print.PrinterException,java.awt.HeadlessException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1000,7 +1006,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print()
+    public default void test_print_PrintMode_MessageFormat_MessageFormat_boolean_PrintRequestAttributeSet_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1146,28 +1152,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellRect(int, int, boolean)
-     * public java.awt.Rectangle javax.swing.JTable.getCellRect(int,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellRect_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#isCellEditable(int, int) public
      * boolean javax.swing.JTable.isCellEditable(int,int)}.
      *
@@ -1190,6 +1174,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellRect(int, int, boolean)
+     * public java.awt.Rectangle javax.swing.JTable.getCellRect(int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellRect_int_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#addRowSelectionInterval(int, int)
      * public void javax.swing.JTable.addRowSelectionInterval(int,int)}.
      *
@@ -1204,30 +1210,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_addRowSelectionInterval_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTable#getPreferredScrollableViewportSize() public java.awt.Dimension
-     * javax.swing.JTable.getPreferredScrollableViewportSize()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreferredScrollableViewportSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1280,8 +1262,9 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#rowAtPoint(java.awt.Point) public
-     * int javax.swing.JTable.rowAtPoint(java.awt.Point)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTable#getPreferredScrollableViewportSize() public java.awt.Dimension
+     * javax.swing.JTable.getPreferredScrollableViewportSize()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -1291,9 +1274,10 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_rowAtPoint_Point()
+    public default void test_getPreferredScrollableViewportSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1317,6 +1301,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#rowAtPoint(java.awt.Point) public
+     * int javax.swing.JTable.rowAtPoint(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowAtPoint_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1531,6 +1537,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getValueAt(int, int) public
+     * java.lang.Object javax.swing.JTable.getValueAt(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getValueAt_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTable#setRowSorter(javax.swing.RowSorter) public void
      * javax.swing.JTable.setRowSorter(javax.swing.RowSorter<? extends javax.swing.table.TableModel>)}.
@@ -1546,28 +1574,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_setRowSorter_RowSorter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getValueAt(int, int) public
-     * java.lang.Object javax.swing.JTable.getValueAt(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getValueAt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1622,6 +1628,29 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTable#setColumnModel(javax.swing.table.TableColumnModel) public void
+     * javax.swing.JTable.setColumnModel(javax.swing.table.TableColumnModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setColumnModel_TableColumnModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTable#getScrollableBlockIncrement(java.awt.Rectangle, int, int) public int
      * javax.swing.JTable.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
      *
@@ -1637,29 +1666,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getScrollableBlockIncrement_Rectangle_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTable#setColumnModel(javax.swing.table.TableColumnModel) public void
-     * javax.swing.JTable.setColumnModel(javax.swing.table.TableColumnModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setColumnModel_TableColumnModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1783,28 +1789,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getRowHeight(int) public int
-     * javax.swing.JTable.getRowHeight(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowHeight_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getRowHeight() public int
      * javax.swing.JTable.getRowHeight()}.
      *
@@ -1819,6 +1803,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getRowHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getRowHeight(int) public int
+     * javax.swing.JTable.getRowHeight(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowHeight_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1939,6 +1945,29 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JTable#setSelectionModel(javax.swing.ListSelectionModel) public void
+     * javax.swing.JTable.setSelectionModel(javax.swing.ListSelectionModel)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectionModel_ListSelectionModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#setShowVerticalLines(boolean)
      * public void javax.swing.JTable.setShowVerticalLines(boolean)}.
      *
@@ -1975,29 +2004,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getGridColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JTable#setSelectionModel(javax.swing.ListSelectionModel) public void
-     * javax.swing.JTable.setSelectionModel(javax.swing.ListSelectionModel)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectionModel_ListSelectionModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2163,28 +2169,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#isCellSelected(int, int) public
-     * boolean javax.swing.JTable.isCellSelected(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCellSelected_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JTable#editingStopped(javax.swing.event.ChangeEvent) public void
      * javax.swing.JTable.editingStopped(javax.swing.event.ChangeEvent)}.
@@ -2201,6 +2185,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_editingStopped_ChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#isCellSelected(int, int) public
+     * boolean javax.swing.JTable.isCellSelected(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCellSelected_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2275,28 +2281,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellSelectionEnabled() public
-     * boolean javax.swing.JTable.getCellSelectionEnabled()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellSelectionEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getDropLocation() public final
      * javax.swing.JTable$DropLocation javax.swing.JTable.getDropLocation()}.
      *
@@ -2311,6 +2295,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getDropLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellSelectionEnabled() public
+     * boolean javax.swing.JTable.getCellSelectionEnabled()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellSelectionEnabled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2952,28 +2958,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellEditor() public
-     * javax.swing.table.TableCellEditor javax.swing.JTable.getCellEditor()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellEditor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellEditor(int, int) public
      * javax.swing.table.TableCellEditor javax.swing.JTable.getCellEditor(int,int)}.
      *
@@ -2988,6 +2972,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getCellEditor_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getCellEditor() public
+     * javax.swing.table.TableCellEditor javax.swing.JTable.getCellEditor()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellEditor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3172,28 +3178,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#columnAtPoint(java.awt.Point)
-     * public int javax.swing.JTable.columnAtPoint(java.awt.Point)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_columnAtPoint_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#getSelectionForeground() public
      * java.awt.Color javax.swing.JTable.getSelectionForeground()}.
      *
@@ -3208,6 +3192,28 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_getSelectionForeground()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JTable#columnAtPoint(java.awt.Point)
+     * public int javax.swing.JTable.columnAtPoint(java.awt.Point)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_columnAtPoint_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -3249,7 +3255,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests}).
+     * (see {@link DropLocationClassTests}).
      * </p>
      *
      * @param SUT
@@ -3390,7 +3396,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JTableClassTests.PrintModeClassTests}).
+     * (see {@link PrintModeClassTests}).
      * </p>
      *
      * @param SUT
@@ -3401,7 +3407,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintModeTests<SUT extends PrintMode>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, PrintMode> {
+    extends EnumTests<SUT, PrintMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$PrintMode]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.CodecPackage.FormatMismatchHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FormatMismatchHelper} (by simply reusing
+ * the J8Unit test interface {@link FormatMismatchHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FormatMismatchHelperClassTest
-implements org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchHelperClassTests<FormatMismatchHelper> {
+implements FormatMismatchHelperClassTests<FormatMismatchHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.CodecPackage.FormatMismatchHelper]
 

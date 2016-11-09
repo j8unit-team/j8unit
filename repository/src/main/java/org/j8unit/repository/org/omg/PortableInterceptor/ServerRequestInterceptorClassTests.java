@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.ServerRequestInterceptor;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorTests}.
+ * {@link ServerRequestInterceptorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.omg.PortableInterceptor.ServerRequestInterceptor;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerRequestInterceptorClassTests<SUT extends ServerRequestInterceptor>
-extends org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.PortableInterceptor.InterceptorClassTests<SUT> {
+extends ServerRequestInterceptorOperationsClassTests<SUT>, InterceptorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ServerRequestInterceptor]
     /**

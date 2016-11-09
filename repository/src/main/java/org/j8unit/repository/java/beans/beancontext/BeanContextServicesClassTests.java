@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.beancontext.BeanContextServicesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BeanContextServicesTests}.
  * </p>
  *
  * <p>
@@ -47,8 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextServicesClassTests<SUT extends BeanContextServices>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests<SUT>,
-org.j8unit.repository.java.beans.beancontext.BeanContextServicesListenerClassTests<SUT> {
+extends BeanContextClassTests<SUT>, BeanContextServicesListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContextServices]
     /**

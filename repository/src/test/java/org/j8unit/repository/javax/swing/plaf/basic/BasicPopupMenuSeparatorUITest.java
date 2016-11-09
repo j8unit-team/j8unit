@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicPopupMenuSeparatorUITest
-implements FactoryBasedJ8UnitTest<BasicPopupMenuSeparatorUI>,
-org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuSeparatorUITests<BasicPopupMenuSeparatorUI> {
+implements FactoryBasedJ8UnitTest<BasicPopupMenuSeparatorUI>, BasicPopupMenuSeparatorUITests<BasicPopupMenuSeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicPopupMenuSeparatorUI]
 

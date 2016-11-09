@@ -4,9 +4,14 @@ import java.sql.PreparedStatement;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PreparedStatement} (by simply reusing the
+ * J8Unit test interface {@link PreparedStatementClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PreparedStatementClassTest
-implements org.j8unit.repository.java.sql.PreparedStatementClassTests<PreparedStatement> {
+implements PreparedStatementClassTests<PreparedStatement> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.PreparedStatement]
 

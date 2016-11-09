@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ServantLocator;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantLocator} (by simply reusing
+ * the J8Unit test interface {@link ServantLocatorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantLocatorTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests<ServantLocator> {
+implements ServantLocatorTests<ServantLocator> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantLocator]
 

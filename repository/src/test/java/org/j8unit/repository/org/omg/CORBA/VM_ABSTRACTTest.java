@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.VM_ABSTRACT;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link VM_ABSTRACT} (by simply reusing the
+ * J8Unit test interface {@link VM_ABSTRACTTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VM_ABSTRACTTest
-implements org.j8unit.repository.org.omg.CORBA.VM_ABSTRACTTests<VM_ABSTRACT> {
+implements VM_ABSTRACTTests<VM_ABSTRACT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.VM_ABSTRACT]
 

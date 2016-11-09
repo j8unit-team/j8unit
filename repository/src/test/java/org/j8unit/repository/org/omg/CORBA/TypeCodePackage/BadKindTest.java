@@ -14,7 +14,7 @@ import org.omg.CORBA.TypeCodePackage.BadKind;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BadKindTest
-implements FactoryBasedJ8UnitTest<BadKind>, org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BadKindTests<BadKind> {
+implements FactoryBasedJ8UnitTest<BadKind>, BadKindTests<BadKind> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TypeCodePackage.BadKind]
 

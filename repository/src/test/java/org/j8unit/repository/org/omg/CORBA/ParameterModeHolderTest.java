@@ -14,7 +14,7 @@ import org.omg.CORBA.ParameterModeHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ParameterModeHolderTest
-implements FactoryBasedJ8UnitTest<ParameterModeHolder>, org.j8unit.repository.org.omg.CORBA.ParameterModeHolderTests<ParameterModeHolder> {
+implements FactoryBasedJ8UnitTest<ParameterModeHolder>, ParameterModeHolderTests<ParameterModeHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ParameterModeHolder]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.modelmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.modelmbean.ModelMBeanNotificationBroadcaster;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.NotificationBroadcasterClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -19,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationBroadcasterTests}.
+ * {@link ModelMBeanNotificationBroadcasterTests}.
  * </p>
  *
  * <p>
@@ -48,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModelMBeanNotificationBroadcasterClassTests<SUT extends ModelMBeanNotificationBroadcaster>
-extends org.j8unit.repository.javax.management.NotificationBroadcasterClassTests<SUT> {
+extends NotificationBroadcasterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationBroadcaster]
     /**

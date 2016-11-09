@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ArrayDequeTest<E>
-implements FactoryBasedJ8UnitTest<ArrayDeque<E>>, org.j8unit.repository.java.util.ArrayDequeTests<ArrayDeque<E>, E> {
+implements FactoryBasedJ8UnitTest<ArrayDeque<E>>, ArrayDequeTests<ArrayDeque<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ArrayDeque]
 

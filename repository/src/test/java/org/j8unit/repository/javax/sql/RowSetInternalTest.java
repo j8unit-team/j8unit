@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RowSetInternal} (by simply reusing
+ * the J8Unit test interface {@link RowSetInternalTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RowSetInternalTest
-implements org.j8unit.repository.javax.sql.RowSetInternalTests<RowSetInternal> {
+implements RowSetInternalTests<RowSetInternal> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.RowSetInternal]
 

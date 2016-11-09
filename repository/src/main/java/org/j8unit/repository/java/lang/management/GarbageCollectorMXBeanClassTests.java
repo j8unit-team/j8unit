@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.management.GarbageCollectorMXBeanTests}.
+ * {@link GarbageCollectorMXBeanTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GarbageCollectorMXBeanClassTests<SUT extends GarbageCollectorMXBean>
-extends org.j8unit.repository.java.lang.management.MemoryManagerMXBeanClassTests<SUT> {
+extends MemoryManagerMXBeanClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.GarbageCollectorMXBean]
     /**

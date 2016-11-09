@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.relation.RelationServiceNotRegisteredExceptionTests}.
+ * {@link RelationServiceNotRegisteredExceptionTests}.
  * </p>
  *
  * <p>
@@ -48,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationServiceNotRegisteredExceptionClassTests<SUT extends RelationServiceNotRegisteredException>
-extends org.j8unit.repository.javax.management.relation.RelationExceptionClassTests<SUT> {
+extends RelationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationServiceNotRegisteredException]
     /**

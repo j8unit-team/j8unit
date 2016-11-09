@@ -4,6 +4,9 @@ import java.net.URLClassLoader;
 import javax.management.loading.MLet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.ExternalizableTests;
+import org.j8unit.repository.java.net.URLClassLoaderTests;
+import org.j8unit.repository.javax.management.MBeanRegistrationTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.loading.MLetClassTests}).
+ * {@link MLetClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MLetTests<SUT extends MLet>
-extends org.j8unit.repository.javax.management.loading.MLetMBeanTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationTests<SUT>,
-org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.java.net.URLClassLoaderTests<SUT> {
+extends MLetMBeanTests<SUT>, MBeanRegistrationTests<SUT>, ExternalizableTests<SUT>, URLClassLoaderTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.MLet]
 
@@ -108,6 +110,30 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.management.loading.MLet#getMBeansFromURL(java.net.URL) public java.util.Set<java.lang.Object>
+     * javax.management.loading.MLet.getMBeansFromURL(java.net.URL) throws javax.management.ServiceNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getMBeansFromURL_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.management.loading.MLet#getMBeansFromURL(String) public java.util.Set<java.lang.Object>
      * javax.management.loading.MLet.getMBeansFromURL(java.lang.String) throws
      * javax.management.ServiceNotFoundException}.
@@ -124,30 +150,6 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getMBeansFromURL_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.management.loading.MLet#getMBeansFromURL(java.net.URL) public java.util.Set<java.lang.Object>
-     * javax.management.loading.MLet.getMBeansFromURL(java.net.URL) throws javax.management.ServiceNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getMBeansFromURL_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -375,10 +377,10 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ClassLoader#getResources(String) class java.lang.ClassLoader} (via parent node(s)
-     * {@link URLClassLoader URLClassLoader})</li>
      * <li>{@link javax.management.loading.MLetMBean#getResources(String) interface
      * javax.management.loading.MLetMBean}</li>
+     * <li>{@link ClassLoader#getResources(String) class java.lang.ClassLoader} (via parent node(s)
+     * {@link URLClassLoader URLClassLoader})</li>
      * </ul>
      *
      * <p>
@@ -395,8 +397,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResources_String()
     throws Exception {
-        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResources_String();
-        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResources_String();
+        MLetMBeanTests.super.test_getResources_String();
+        URLClassLoaderTests.super.test_getResources_String();
     }
 
     /**
@@ -405,9 +407,9 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link java.net.URLClassLoader#getResourceAsStream(String) class java.net.URLClassLoader}</li>
      * <li>{@link javax.management.loading.MLetMBean#getResourceAsStream(String) interface
      * javax.management.loading.MLetMBean}</li>
+     * <li>{@link java.net.URLClassLoader#getResourceAsStream(String) class java.net.URLClassLoader}</li>
      * </ul>
      *
      * <p>
@@ -424,8 +426,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResourceAsStream_String()
     throws Exception {
-        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResourceAsStream_String();
-        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResourceAsStream_String();
+        MLetMBeanTests.super.test_getResourceAsStream_String();
+        URLClassLoaderTests.super.test_getResourceAsStream_String();
     }
 
     /**
@@ -434,10 +436,10 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link ClassLoader#getResource(String) class java.lang.ClassLoader} (via parent node(s) {@link URLClassLoader
-     * URLClassLoader})</li>
      * <li>{@link javax.management.loading.MLetMBean#getResource(String) interface
      * javax.management.loading.MLetMBean}</li>
+     * <li>{@link ClassLoader#getResource(String) class java.lang.ClassLoader} (via parent node(s) {@link URLClassLoader
+     * URLClassLoader})</li>
      * </ul>
      *
      * <p>
@@ -454,8 +456,8 @@ org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     public default void test_getResource_String()
     throws Exception {
-        org.j8unit.repository.java.net.URLClassLoaderTests.super.test_getResource_String();
-        org.j8unit.repository.javax.management.loading.MLetMBeanTests.super.test_getResource_String();
+        MLetMBeanTests.super.test_getResource_String();
+        URLClassLoaderTests.super.test_getResource_String();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.loading.MLet]

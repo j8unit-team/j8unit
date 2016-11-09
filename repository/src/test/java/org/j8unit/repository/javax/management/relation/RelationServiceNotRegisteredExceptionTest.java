@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RelationServiceNotRegisteredExceptionTest
-implements FactoryBasedJ8UnitTest<RelationServiceNotRegisteredException>,
-org.j8unit.repository.javax.management.relation.RelationServiceNotRegisteredExceptionTests<RelationServiceNotRegisteredException> {
+implements FactoryBasedJ8UnitTest<RelationServiceNotRegisteredException>, RelationServiceNotRegisteredExceptionTests<RelationServiceNotRegisteredException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationServiceNotRegisteredException]
 

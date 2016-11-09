@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CommunicationExceptionTest
-implements FactoryBasedJ8UnitTest<CommunicationException>, org.j8unit.repository.javax.naming.CommunicationExceptionTests<CommunicationException> {
+implements FactoryBasedJ8UnitTest<CommunicationException>, CommunicationExceptionTests<CommunicationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CommunicationException]
 

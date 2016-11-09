@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynAnyFactoryHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DynAnyFactoryHelper} (by simply reusing
+ * the J8Unit test interface {@link DynAnyFactoryHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynAnyFactoryHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryHelperClassTests<DynAnyFactoryHelper> {
+implements DynAnyFactoryHelperClassTests<DynAnyFactoryHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryHelper]
 

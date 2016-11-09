@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RMIConnectionImpl_Stub} (by simply
+ * reusing the J8Unit test interface {@link RMIConnectionImpl_StubTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RMIConnectionImpl_StubTest
-implements org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImpl_StubTests<RMIConnectionImpl_Stub> {
+implements RMIConnectionImpl_StubTests<RMIConnectionImpl_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi.RMIConnectionImpl_Stub]
 

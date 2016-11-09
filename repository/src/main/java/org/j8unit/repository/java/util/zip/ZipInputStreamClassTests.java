@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.zip.ZipInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ZipInputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZipInputStreamClassTests<SUT extends ZipInputStream>
-extends org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<SUT> {
+extends InflaterInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.ZipInputStream]
     /**

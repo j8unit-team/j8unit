@@ -14,7 +14,7 @@ import org.omg.CORBA.ACTIVITY_REQUIRED;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ACTIVITY_REQUIREDTest
-implements FactoryBasedJ8UnitTest<ACTIVITY_REQUIRED>, org.j8unit.repository.org.omg.CORBA.ACTIVITY_REQUIREDTests<ACTIVITY_REQUIRED> {
+implements FactoryBasedJ8UnitTest<ACTIVITY_REQUIRED>, ACTIVITY_REQUIREDTests<ACTIVITY_REQUIRED> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ACTIVITY_REQUIRED]
 

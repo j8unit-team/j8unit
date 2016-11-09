@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ObjectOutputStream} (by simply
+ * reusing the J8Unit test interface {@link ObjectOutputStreamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectOutputStreamTest
-implements org.j8unit.repository.java.io.ObjectOutputStreamTests<ObjectOutputStream> {
+implements ObjectOutputStreamTests<ObjectOutputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutputStream]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.java.io.ObjectOutputStreamTests<ObjectOutputStr
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.io.ObjectOutputStream]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PutField} (by simply reusing the
+     * J8Unit test interface {@link PutFieldTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PutFieldTest
-    implements org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests<PutField> {
+    implements PutFieldTests<PutField> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ObjectOutputStream$PutField]
 

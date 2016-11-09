@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServerNotActiveExceptionTest
-implements FactoryBasedJ8UnitTest<ServerNotActiveException>, org.j8unit.repository.java.rmi.server.ServerNotActiveExceptionTests<ServerNotActiveException> {
+implements FactoryBasedJ8UnitTest<ServerNotActiveException>, ServerNotActiveExceptionTests<ServerNotActiveException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.ServerNotActiveException]
 

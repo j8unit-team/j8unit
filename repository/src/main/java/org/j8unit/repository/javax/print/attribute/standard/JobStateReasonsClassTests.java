@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.JobStateReasons;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.HashSetClassTests;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.JobStateReasonsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JobStateReasonsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobStateReasonsClassTests<SUT extends JobStateReasons>
-extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>, org.j8unit.repository.java.util.HashSetClassTests<SUT> {
+extends PrintJobAttributeClassTests<SUT>, HashSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.JobStateReasons]
     /**

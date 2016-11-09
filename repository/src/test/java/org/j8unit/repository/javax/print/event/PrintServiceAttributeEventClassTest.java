@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PrintServiceAttributeEvent} (by simply
+ * reusing the J8Unit test interface {@link PrintServiceAttributeEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrintServiceAttributeEventClassTest
-implements org.j8unit.repository.javax.print.event.PrintServiceAttributeEventClassTests<PrintServiceAttributeEvent> {
+implements PrintServiceAttributeEventClassTests<PrintServiceAttributeEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.event.PrintServiceAttributeEvent]
 

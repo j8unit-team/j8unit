@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import javax.swing.plaf.basic.BasicDirectoryModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.PropertyChangeListenerTests;
+import org.j8unit.repository.javax.swing.AbstractListModelTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicDirectoryModelClassTests}).
+ * {@link BasicDirectoryModelClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicDirectoryModelTests<SUT extends BasicDirectoryModel>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, Object> {
+extends PropertyChangeListenerTests<SUT>, AbstractListModelTests<SUT, Object> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicDirectoryModel]
 

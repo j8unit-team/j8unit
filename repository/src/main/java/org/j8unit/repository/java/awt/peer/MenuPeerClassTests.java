@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.peer.MenuPeerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MenuPeerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuPeerClassTests<SUT extends MenuPeer>
-extends org.j8unit.repository.java.awt.peer.MenuItemPeerClassTests<SUT> {
+extends MenuItemPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.MenuPeer]
     /**

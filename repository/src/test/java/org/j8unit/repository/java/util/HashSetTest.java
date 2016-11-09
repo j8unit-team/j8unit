@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HashSetTest<E>
-implements FactoryBasedJ8UnitTest<HashSet<E>>, org.j8unit.repository.java.util.HashSetTests<HashSet<E>, E> {
+implements FactoryBasedJ8UnitTest<HashSet<E>>, HashSetTests<HashSet<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.HashSet]
 

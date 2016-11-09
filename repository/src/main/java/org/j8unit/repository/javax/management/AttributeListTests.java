@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management;
 import javax.management.AttributeList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.ArrayListTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeListTests<SUT extends AttributeList>
-extends org.j8unit.repository.java.util.ArrayListTests<SUT, Object> {
+extends ArrayListTests<SUT, Object> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeList]
 

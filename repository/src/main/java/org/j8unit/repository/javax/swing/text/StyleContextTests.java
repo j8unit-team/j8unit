@@ -5,6 +5,11 @@ import javax.swing.text.StyleContext.NamedStyle;
 import javax.swing.text.StyleContext.SmallAttributeSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests;
+import org.j8unit.repository.javax.swing.text.StyleContextClassTests.NamedStyleClassTests;
+import org.j8unit.repository.javax.swing.text.StyleContextClassTests.SmallAttributeSetClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +24,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.text.StyleContextClassTests}).
+ * {@link StyleContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,8 +35,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleContextTests<SUT extends StyleContext>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AttributeContextTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends SerializableTests<SUT>, AttributeContextTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext]
 
@@ -201,6 +205,52 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleContext#getFont(javax.swing.text.AttributeSet) public java.awt.Font
+     * javax.swing.text.StyleContext.getFont(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFont_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleContext#getFont(String, int, int) public java.awt.Font
+     * javax.swing.text.StyleContext.getFont(java.lang.String,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFont_String_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.text.StyleContext#removeStyle(String)
      * public void javax.swing.text.StyleContext.removeStyle(java.lang.String)}.
      *
@@ -247,8 +297,9 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleContext#getFont(String, int, int) public java.awt.Font
-     * javax.swing.text.StyleContext.getFont(java.lang.String,int,int)}.
+     * {@link javax.swing.text.StyleContext#removeAttributes(javax.swing.text.AttributeSet, javax.swing.text.AttributeSet)
+     * public synchronized javax.swing.text.AttributeSet
+     * javax.swing.text.StyleContext.removeAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -258,32 +309,10 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
     @Category(Draft.class)
-    public default void test_getFont_String_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleContext#getFont(javax.swing.text.AttributeSet) public java.awt.Font
-     * javax.swing.text.StyleContext.getFont(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFont_AttributeSet()
+    public default void test_removeAttributes_AttributeSet_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -318,31 +347,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleContext#removeAttributes(javax.swing.text.AttributeSet, javax.swing.text.AttributeSet)
-     * public synchronized javax.swing.text.AttributeSet
-     * javax.swing.text.StyleContext.removeAttributes(javax.swing.text.AttributeSet,javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAttributes_AttributeSet_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleContext#removeAttribute(javax.swing.text.AttributeSet, Object) public synchronized
      * javax.swing.text.AttributeSet
      * javax.swing.text.StyleContext.removeAttribute(javax.swing.text.AttributeSet,java.lang.Object)}.
@@ -368,29 +372,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleContext#addStyle(String, javax.swing.text.Style) public javax.swing.text.Style
-     * javax.swing.text.StyleContext.addStyle(java.lang.String,javax.swing.text.Style)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addStyle_String_Style()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleContext#getBackground(javax.swing.text.AttributeSet) public java.awt.Color
      * javax.swing.text.StyleContext.getBackground(javax.swing.text.AttributeSet)}.
      *
@@ -405,6 +386,29 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBackground_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleContext#addStyle(String, javax.swing.text.Style) public javax.swing.text.Style
+     * javax.swing.text.StyleContext.addStyle(java.lang.String,javax.swing.text.Style)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addStyle_String_Style()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -565,7 +569,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.StyleContextClassTests.NamedStyleClassTests}).
+     * (see {@link NamedStyleClassTests}).
      * </p>
      *
      * @param SUT
@@ -576,8 +580,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NamedStyleTests<SUT extends NamedStyle>
-    extends org.j8unit.repository.javax.swing.text.StyleTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends StyleTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
 
@@ -800,30 +803,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.StyleContext.NamedStyle#containsAttributes(javax.swing.text.AttributeSet) public
-         * boolean javax.swing.text.StyleContext$NamedStyle.containsAttributes(javax.swing.text.AttributeSet)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_containsAttributes_AttributeSet()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.StyleContext.NamedStyle#getAttributeNames() public java.util.Enumeration<?>
          * javax.swing.text.StyleContext$NamedStyle.getAttributeNames()}.
          *
@@ -839,6 +818,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getAttributeNames()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyleContext.NamedStyle#containsAttributes(javax.swing.text.AttributeSet) public
+         * boolean javax.swing.text.StyleContext$NamedStyle.containsAttributes(javax.swing.text.AttributeSet)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_containsAttributes_AttributeSet()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -1061,30 +1064,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.StyleContext.NamedStyle#addAttributes(javax.swing.text.AttributeSet) public void
-         * javax.swing.text.StyleContext$NamedStyle.addAttributes(javax.swing.text.AttributeSet)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_addAttributes_AttributeSet()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.StyleContext.NamedStyle#isEqual(javax.swing.text.AttributeSet) public boolean
          * javax.swing.text.StyleContext$NamedStyle.isEqual(javax.swing.text.AttributeSet)}.
          *
@@ -1106,6 +1085,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyleContext.NamedStyle#addAttributes(javax.swing.text.AttributeSet) public void
+         * javax.swing.text.StyleContext$NamedStyle.addAttributes(javax.swing.text.AttributeSet)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_addAttributes_AttributeSet()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.StyleContext$NamedStyle]
@@ -1121,7 +1124,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.StyleContextClassTests.SmallAttributeSetClassTests}).
+     * (see {@link SmallAttributeSetClassTests}).
      * </p>
      *
      * @param SUT
@@ -1132,7 +1135,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SmallAttributeSetTests<SUT extends SmallAttributeSet>
-    extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends AttributeSetTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StyleContext$SmallAttributeSet]
 
@@ -1354,6 +1357,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.StyleContext.SmallAttributeSet#getAttributeNames() public java.util.Enumeration<?>
+         * javax.swing.text.StyleContext$SmallAttributeSet.getAttributeNames()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
+        @Test
+        @Category(Draft.class)
+        public default void test_getAttributeNames()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.text.StyleContext.SmallAttributeSet#containsAttributes(javax.swing.text.AttributeSet)
          * public boolean
          * javax.swing.text.StyleContext$SmallAttributeSet.containsAttributes(javax.swing.text.AttributeSet)}.
@@ -1370,30 +1397,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_containsAttributes_AttributeSet()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.StyleContext.SmallAttributeSet#getAttributeNames() public java.util.Enumeration<?>
-         * javax.swing.text.StyleContext$SmallAttributeSet.getAttributeNames()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Override
-        @Test
-        @Category(Draft.class)
-        public default void test_getAttributeNames()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

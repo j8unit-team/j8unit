@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JToolBarTest
-implements FactoryBasedJ8UnitTest<JToolBar>, org.j8unit.repository.javax.swing.JToolBarTests<JToolBar> {
+implements FactoryBasedJ8UnitTest<JToolBar>, JToolBarTests<JToolBar> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolBar]
 
@@ -40,7 +40,7 @@ implements FactoryBasedJ8UnitTest<JToolBar>, org.j8unit.repository.javax.swing.J
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class SeparatorTest
-    implements FactoryBasedJ8UnitTest<Separator>, org.j8unit.repository.javax.swing.JToolBarTests.SeparatorTests<Separator> {
+    implements FactoryBasedJ8UnitTest<Separator>, SeparatorTests<Separator> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToolBar$Separator]
 

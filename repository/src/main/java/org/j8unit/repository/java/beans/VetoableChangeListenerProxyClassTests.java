@@ -3,6 +3,7 @@ package org.j8unit.repository.java.beans;
 import static org.junit.Assert.assertTrue;
 import java.beans.VetoableChangeListenerProxy;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerProxyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.VetoableChangeListenerProxyTests}.
+ * {@link VetoableChangeListenerProxyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VetoableChangeListenerProxyClassTests<SUT extends VetoableChangeListenerProxy>
-extends org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>, org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT> {
+extends VetoableChangeListenerClassTests<SUT>, EventListenerProxyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.VetoableChangeListenerProxy]
     /**

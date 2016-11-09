@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.MultipleComponentProfileHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MultipleComponentProfileHelper} (by
+ * simply reusing the J8Unit test interface {@link MultipleComponentProfileHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultipleComponentProfileHelperClassTest
-implements org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHelperClassTests<MultipleComponentProfileHelper> {
+implements MultipleComponentProfileHelperClassTests<MultipleComponentProfileHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.MultipleComponentProfileHelper]
 

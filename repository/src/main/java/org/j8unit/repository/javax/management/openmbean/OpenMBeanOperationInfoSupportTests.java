@@ -4,6 +4,7 @@ import javax.management.MBeanOperationInfo;
 import javax.management.openmbean.OpenMBeanOperationInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanOperationInfoTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoSupportClassTests}).
+ * {@link OpenMBeanOperationInfoSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanOperationInfoSupportTests<SUT extends OpenMBeanOperationInfoSupport>
-extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanOperationInfoTests<SUT> {
+extends OpenMBeanOperationInfoTests<SUT>, MBeanOperationInfoTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]
 
@@ -136,9 +137,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanOperationInfo#getSignature() class javax.management.MBeanOperationInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanOperationInfo#getSignature() interface
      * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link javax.management.MBeanOperationInfo#getSignature() class javax.management.MBeanOperationInfo}</li>
      * </ul>
      *
      * <p>
@@ -155,8 +156,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
     @Category(Draft.class)
     public default void test_getSignature()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getSignature();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getSignature();
+        OpenMBeanOperationInfoTests.super.test_getSignature();
+        MBeanOperationInfoTests.super.test_getSignature();
     }
 
     /**
@@ -165,10 +166,10 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
-     * node(s) {@link MBeanOperationInfo MBeanOperationInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanOperationInfo#getName() interface
      * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
+     * node(s) {@link MBeanOperationInfo MBeanOperationInfo})</li>
      * </ul>
      *
      * <p>
@@ -185,8 +186,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
     @Category(Draft.class)
     public default void test_getName()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getName();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getName();
+        OpenMBeanOperationInfoTests.super.test_getName();
+        MBeanOperationInfoTests.super.test_getName();
     }
 
     /**
@@ -195,10 +196,10 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
-     * parent node(s) {@link MBeanOperationInfo MBeanOperationInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanOperationInfo#getDescription() interface
      * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
+     * parent node(s) {@link MBeanOperationInfo MBeanOperationInfo})</li>
      * </ul>
      *
      * <p>
@@ -215,8 +216,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getDescription();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getDescription();
+        OpenMBeanOperationInfoTests.super.test_getDescription();
+        MBeanOperationInfoTests.super.test_getDescription();
     }
 
     /**
@@ -225,9 +226,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanOperationInfo#getReturnType() class javax.management.MBeanOperationInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanOperationInfo#getReturnType() interface
      * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link javax.management.MBeanOperationInfo#getReturnType() class javax.management.MBeanOperationInfo}</li>
      * </ul>
      *
      * <p>
@@ -244,8 +245,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
     @Category(Draft.class)
     public default void test_getReturnType()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getReturnType();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getReturnType();
+        OpenMBeanOperationInfoTests.super.test_getReturnType();
+        MBeanOperationInfoTests.super.test_getReturnType();
     }
 
     /**
@@ -254,9 +255,9 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanOperationInfo#getImpact() class javax.management.MBeanOperationInfo}</li>
      * <li>{@link javax.management.openmbean.OpenMBeanOperationInfo#getImpact() interface
      * javax.management.openmbean.OpenMBeanOperationInfo}</li>
+     * <li>{@link javax.management.MBeanOperationInfo#getImpact() class javax.management.MBeanOperationInfo}</li>
      * </ul>
      *
      * <p>
@@ -273,8 +274,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoT
     @Category(Draft.class)
     public default void test_getImpact()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanOperationInfoTests.super.test_getImpact();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanOperationInfoTests.super.test_getImpact();
+        OpenMBeanOperationInfoTests.super.test_getImpact();
+        MBeanOperationInfoTests.super.test_getImpact();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanOperationInfoSupport]

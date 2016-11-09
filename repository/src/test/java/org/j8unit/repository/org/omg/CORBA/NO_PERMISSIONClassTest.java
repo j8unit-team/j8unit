@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.NO_PERMISSION;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NO_PERMISSION} (by simply reusing the
+ * J8Unit test interface {@link NO_PERMISSIONClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NO_PERMISSIONClassTest
-implements org.j8unit.repository.org.omg.CORBA.NO_PERMISSIONClassTests<NO_PERMISSION> {
+implements NO_PERMISSIONClassTests<NO_PERMISSION> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.NO_PERMISSION]
 

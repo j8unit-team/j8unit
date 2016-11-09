@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SimpleScriptContextTest
-implements FactoryBasedJ8UnitTest<SimpleScriptContext>, org.j8unit.repository.javax.script.SimpleScriptContextTests<SimpleScriptContext> {
+implements FactoryBasedJ8UnitTest<SimpleScriptContext>, SimpleScriptContextTests<SimpleScriptContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.SimpleScriptContext]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.BAD_QOS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.BAD_QOSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BAD_QOSTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.BAD_QOS;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_QOSClassTests<SUT extends BAD_QOS>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.BAD_QOS]
     /**

@@ -14,7 +14,7 @@ import org.omg.CORBA.INV_FLAG;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INV_FLAGTest
-implements FactoryBasedJ8UnitTest<INV_FLAG>, org.j8unit.repository.org.omg.CORBA.INV_FLAGTests<INV_FLAG> {
+implements FactoryBasedJ8UnitTest<INV_FLAG>, INV_FLAGTests<INV_FLAG> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_FLAG]
 

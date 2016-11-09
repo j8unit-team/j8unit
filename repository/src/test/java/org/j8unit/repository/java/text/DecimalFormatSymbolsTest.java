@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DecimalFormatSymbolsTest
-implements FactoryBasedJ8UnitTest<DecimalFormatSymbols>, org.j8unit.repository.java.text.DecimalFormatSymbolsTests<DecimalFormatSymbols> {
+implements FactoryBasedJ8UnitTest<DecimalFormatSymbols>, DecimalFormatSymbolsTests<DecimalFormatSymbols> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DecimalFormatSymbols]
 

@@ -14,8 +14,7 @@ import org.omg.PortableServer.POAPackage.AdapterAlreadyExists;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AdapterAlreadyExistsTest
-implements FactoryBasedJ8UnitTest<AdapterAlreadyExists>,
-org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlreadyExistsTests<AdapterAlreadyExists> {
+implements FactoryBasedJ8UnitTest<AdapterAlreadyExists>, AdapterAlreadyExistsTests<AdapterAlreadyExists> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExists]
 

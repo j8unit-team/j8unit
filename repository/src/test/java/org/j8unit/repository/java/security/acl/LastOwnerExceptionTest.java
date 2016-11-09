@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LastOwnerExceptionTest
-implements FactoryBasedJ8UnitTest<LastOwnerException>, org.j8unit.repository.java.security.acl.LastOwnerExceptionTests<LastOwnerException> {
+implements FactoryBasedJ8UnitTest<LastOwnerException>, LastOwnerExceptionTests<LastOwnerException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.acl.LastOwnerException]
 

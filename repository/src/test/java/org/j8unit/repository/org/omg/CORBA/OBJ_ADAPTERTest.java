@@ -14,7 +14,7 @@ import org.omg.CORBA.OBJ_ADAPTER;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class OBJ_ADAPTERTest
-implements FactoryBasedJ8UnitTest<OBJ_ADAPTER>, org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERTests<OBJ_ADAPTER> {
+implements FactoryBasedJ8UnitTest<OBJ_ADAPTER>, OBJ_ADAPTERTests<OBJ_ADAPTER> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OBJ_ADAPTER]
 

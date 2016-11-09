@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SynthColorChooserUI} (by simply reusing
+ * the J8Unit test interface {@link SynthColorChooserUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SynthColorChooserUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.synth.SynthColorChooserUIClassTests<SynthColorChooserUI> {
+implements SynthColorChooserUIClassTests<SynthColorChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthColorChooserUI]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JPEGImageReadParamTest
-implements FactoryBasedJ8UnitTest<JPEGImageReadParam>, org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageReadParamTests<JPEGImageReadParam> {
+implements FactoryBasedJ8UnitTest<JPEGImageReadParam>, JPEGImageReadParamTests<JPEGImageReadParam> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.jpeg.JPEGImageReadParam]
 

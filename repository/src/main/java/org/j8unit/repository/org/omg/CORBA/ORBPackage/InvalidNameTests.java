@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CORBA.ORBPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.ORBPackage.InvalidName;
 
@@ -25,7 +26,7 @@ import org.omg.CORBA.ORBPackage.InvalidName;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidNameTests<SUT extends InvalidName>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ORBPackage.InvalidName]
 

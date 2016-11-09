@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.beancontext.BeanContextServiceAvailableEventTests}.
+ * {@link BeanContextServiceAvailableEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextServiceAvailableEventClassTests<SUT extends BeanContextServiceAvailableEvent>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextEventClassTests<SUT> {
+extends BeanContextEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContextServiceAvailableEvent]
     /**

@@ -5,6 +5,8 @@ import javax.tools.JavaFileManager;
 import javax.tools.JavaFileManager.Location;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.CloseableClassTests;
+import org.j8unit.repository.java.io.FlushableClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.tools.JavaFileManagerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JavaFileManagerTests}.
  * </p>
  *
  * <p>
@@ -50,8 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaFileManagerClassTests<SUT extends JavaFileManager>
-extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.io.FlushableClassTests<SUT>,
-org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
+extends CloseableClassTests<SUT>, FlushableClassTests<SUT>, OptionCheckerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaFileManager]
     /**

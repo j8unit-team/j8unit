@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiColorChooserUITest
-implements FactoryBasedJ8UnitTest<MultiColorChooserUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiColorChooserUITests<MultiColorChooserUI> {
+implements FactoryBasedJ8UnitTest<MultiColorChooserUI>, MultiColorChooserUITests<MultiColorChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiColorChooserUI]
 

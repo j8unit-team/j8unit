@@ -14,7 +14,7 @@ import org.omg.CORBA.CharHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CharHolderTest
-implements FactoryBasedJ8UnitTest<CharHolder>, org.j8unit.repository.org.omg.CORBA.CharHolderTests<CharHolder> {
+implements FactoryBasedJ8UnitTest<CharHolder>, CharHolderTests<CharHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CharHolder]
 

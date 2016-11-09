@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.IMP_LIMIT;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IMP_LIMIT} (by simply reusing the J8Unit
+ * test interface {@link IMP_LIMITClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IMP_LIMITClassTest
-implements org.j8unit.repository.org.omg.CORBA.IMP_LIMITClassTests<IMP_LIMIT> {
+implements IMP_LIMITClassTests<IMP_LIMIT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IMP_LIMIT]
 

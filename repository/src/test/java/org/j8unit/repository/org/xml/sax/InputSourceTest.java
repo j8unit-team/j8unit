@@ -14,7 +14,7 @@ import org.xml.sax.InputSource;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InputSourceTest
-implements FactoryBasedJ8UnitTest<InputSource>, org.j8unit.repository.org.xml.sax.InputSourceTests<InputSource> {
+implements FactoryBasedJ8UnitTest<InputSource>, InputSourceTests<InputSource> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.InputSource]
 

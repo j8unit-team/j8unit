@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class GaugeMonitorTest
-implements FactoryBasedJ8UnitTest<GaugeMonitor>, org.j8unit.repository.javax.management.monitor.GaugeMonitorTests<GaugeMonitor> {
+implements FactoryBasedJ8UnitTest<GaugeMonitor>, GaugeMonitorTests<GaugeMonitor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.GaugeMonitor]
 

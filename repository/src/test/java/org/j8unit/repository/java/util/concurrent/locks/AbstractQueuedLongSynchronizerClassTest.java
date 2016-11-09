@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractQueuedLongSynchronizer} (by
+ * simply reusing the J8Unit test interface {@link AbstractQueuedLongSynchronizerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractQueuedLongSynchronizerClassTest
-implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests<AbstractQueuedLongSynchronizer> {
+implements AbstractQueuedLongSynchronizerClassTests<AbstractQueuedLongSynchronizer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSy
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ConditionObject} (by simply reusing
+     * the J8Unit test interface {@link ConditionObjectClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ConditionObjectClassTest
-    implements org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests.ConditionObjectClassTests<ConditionObject> {
+    implements ConditionObjectClassTests<ConditionObject> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]
 

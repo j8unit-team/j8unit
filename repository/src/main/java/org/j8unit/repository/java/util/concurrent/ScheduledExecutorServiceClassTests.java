@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceTests}.
+ * {@link ScheduledExecutorServiceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScheduledExecutorServiceClassTests<SUT extends ScheduledExecutorService>
-extends org.j8unit.repository.java.util.concurrent.ExecutorServiceClassTests<SUT> {
+extends ExecutorServiceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ScheduledExecutorService]
     /**

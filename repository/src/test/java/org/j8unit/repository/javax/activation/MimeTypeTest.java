@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MimeTypeTest
-implements FactoryBasedJ8UnitTest<MimeType>, org.j8unit.repository.javax.activation.MimeTypeTests<MimeType> {
+implements FactoryBasedJ8UnitTest<MimeType>, MimeTypeTests<MimeType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.MimeType]
 

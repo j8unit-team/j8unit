@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.Codec;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Codec} (by simply reusing the J8Unit
+ * test interface {@link CodecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CodecTest
-implements org.j8unit.repository.org.omg.IOP.CodecTests<Codec> {
+implements CodecTests<Codec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.Codec]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.TaggedProfileHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TaggedProfileHelper} (by simply reusing
+ * the J8Unit test interface {@link TaggedProfileHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TaggedProfileHelperClassTest
-implements org.j8unit.repository.org.omg.IOP.TaggedProfileHelperClassTests<TaggedProfileHelper> {
+implements TaggedProfileHelperClassTests<TaggedProfileHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.FontUIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.FontClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.FontUIResourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FontUIResourceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FontUIResourceClassTests<SUT extends FontUIResource>
-extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.java.awt.FontClassTests<SUT> {
+extends UIResourceClassTests<SUT>, FontClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.FontUIResource]
     /**

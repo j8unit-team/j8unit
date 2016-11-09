@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultTreeCellRendererTest
-implements FactoryBasedJ8UnitTest<DefaultTreeCellRenderer>, org.j8unit.repository.javax.swing.tree.DefaultTreeCellRendererTests<DefaultTreeCellRenderer> {
+implements FactoryBasedJ8UnitTest<DefaultTreeCellRenderer>, DefaultTreeCellRendererTests<DefaultTreeCellRenderer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellRenderer]
 

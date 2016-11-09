@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Proxy} (by simply reusing the J8Unit test
+ * interface {@link ProxyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ProxyClassTest
-implements org.j8unit.repository.java.lang.reflect.ProxyClassTests<Proxy> {
+implements ProxyClassTests<Proxy> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.Proxy]
 

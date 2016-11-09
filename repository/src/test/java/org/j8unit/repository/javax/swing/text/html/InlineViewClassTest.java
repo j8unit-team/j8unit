@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InlineView} (by simply reusing the J8Unit
+ * test interface {@link InlineViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InlineViewClassTest
-implements org.j8unit.repository.javax.swing.text.html.InlineViewClassTests<InlineView> {
+implements InlineViewClassTests<InlineView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.InlineView]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.midi.ShortMessageTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ShortMessageTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShortMessageClassTests<SUT extends ShortMessage>
-extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
+extends MidiMessageClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.ShortMessage]
     /**

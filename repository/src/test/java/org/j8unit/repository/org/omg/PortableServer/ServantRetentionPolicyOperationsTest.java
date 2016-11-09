@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ServantRetentionPolicyOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantRetentionPolicyOperations} (by
+ * simply reusing the J8Unit test interface {@link ServantRetentionPolicyOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantRetentionPolicyOperationsTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyOperationsTests<ServantRetentionPolicyOperations> {
+implements ServantRetentionPolicyOperationsTests<ServantRetentionPolicyOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantRetentionPolicyOperations]
 

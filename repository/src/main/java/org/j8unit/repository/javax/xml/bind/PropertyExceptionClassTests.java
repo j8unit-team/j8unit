@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.PropertyExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PropertyExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertyExceptionClassTests<SUT extends PropertyException>
-extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
+extends JAXBExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.PropertyException]
     /**

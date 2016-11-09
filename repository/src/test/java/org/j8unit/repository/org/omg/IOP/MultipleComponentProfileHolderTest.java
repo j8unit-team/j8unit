@@ -14,8 +14,7 @@ import org.omg.IOP.MultipleComponentProfileHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultipleComponentProfileHolderTest
-implements FactoryBasedJ8UnitTest<MultipleComponentProfileHolder>,
-org.j8unit.repository.org.omg.IOP.MultipleComponentProfileHolderTests<MultipleComponentProfileHolder> {
+implements FactoryBasedJ8UnitTest<MultipleComponentProfileHolder>, MultipleComponentProfileHolderTests<MultipleComponentProfileHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.MultipleComponentProfileHolder]
 

@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.IdAssignmentPolicy;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.IdAssignmentPolicy;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IdAssignmentPolicyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.IdAssignmentPolicy;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdAssignmentPolicyClassTests<SUT extends IdAssignmentPolicy>
-extends org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT> {
+extends IdAssignmentPolicyOperationsClassTests<SUT>, PolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.IdAssignmentPolicy]
     /**

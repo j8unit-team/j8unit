@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.PublicKeyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PublicKeyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PublicKeyClassTests<SUT extends PublicKey>
-extends org.j8unit.repository.java.security.KeyClassTests<SUT> {
+extends KeyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.PublicKey]
     /**

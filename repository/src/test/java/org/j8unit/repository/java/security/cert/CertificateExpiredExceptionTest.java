@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CertificateExpiredExceptionTest
-implements FactoryBasedJ8UnitTest<CertificateExpiredException>,
-org.j8unit.repository.java.security.cert.CertificateExpiredExceptionTests<CertificateExpiredException> {
+implements FactoryBasedJ8UnitTest<CertificateExpiredException>, CertificateExpiredExceptionTests<CertificateExpiredException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertificateExpiredException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PopupMenuTest
-implements FactoryBasedJ8UnitTest<PopupMenu>, org.j8unit.repository.java.awt.PopupMenuTests<PopupMenu> {
+implements FactoryBasedJ8UnitTest<PopupMenu>, PopupMenuTests<PopupMenu> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.PopupMenu]
 

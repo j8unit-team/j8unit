@@ -2,6 +2,9 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.xml.sax.ContentHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.ParserClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.XMLReaderAdapter;
@@ -17,8 +20,7 @@ import org.xml.sax.helpers.XMLReaderAdapter;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLReaderAdapterTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.xml.sax.helpers.XMLReaderAdapter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLReaderAdapterClassTests<SUT extends XMLReaderAdapter>
-extends org.j8unit.repository.org.xml.sax.ParserClassTests<SUT>, org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ParserClassTests<SUT>, ContentHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.XMLReaderAdapter]
     /**

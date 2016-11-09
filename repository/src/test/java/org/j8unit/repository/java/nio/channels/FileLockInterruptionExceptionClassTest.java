@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileLockInterruptionException} (by simply
+ * reusing the J8Unit test interface {@link FileLockInterruptionExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileLockInterruptionExceptionClassTest
-implements org.j8unit.repository.java.nio.channels.FileLockInterruptionExceptionClassTests<FileLockInterruptionException> {
+implements FileLockInterruptionExceptionClassTests<FileLockInterruptionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.FileLockInterruptionException]
 

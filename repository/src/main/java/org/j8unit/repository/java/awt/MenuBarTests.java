@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt;
 import java.awt.MenuBar;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.MenuBarClassTests}).
+ * {@link MenuBarClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuBarTests<SUT extends MenuBar>
-extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,
-org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
+extends MenuContainerTests<SUT>, AccessibleTests<SUT>, MenuComponentTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MenuBar]
 
@@ -103,6 +103,28 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#countMenus() public int
+     * java.awt.MenuBar.countMenus()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countMenus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#getAccessibleContext() public
      * javax.accessibility.AccessibleContext java.awt.MenuBar.getAccessibleContext()}.
      *
@@ -118,28 +140,6 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.MenuBar#countMenus() public int
-     * java.awt.MenuBar.countMenus()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_countMenus()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -370,8 +370,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
     @Category(Draft.class)
     public default void test_getFont()
     throws Exception {
-        org.j8unit.repository.java.awt.MenuComponentTests.super.test_getFont();
-        org.j8unit.repository.java.awt.MenuContainerTests.super.test_getFont();
+        MenuComponentTests.super.test_getFont();
+        MenuContainerTests.super.test_getFont();
     }
 
     /**
@@ -398,8 +398,8 @@ org.j8unit.repository.java.awt.MenuComponentTests<SUT> {
     @Category(Draft.class)
     public default void test_postEvent_Event()
     throws Exception {
-        org.j8unit.repository.java.awt.MenuComponentTests.super.test_postEvent_Event();
-        org.j8unit.repository.java.awt.MenuContainerTests.super.test_postEvent_Event();
+        MenuComponentTests.super.test_postEvent_Event();
+        MenuContainerTests.super.test_postEvent_Event();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.MenuBar]

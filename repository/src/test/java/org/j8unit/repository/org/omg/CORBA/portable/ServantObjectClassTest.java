@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.ServantObject;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServantObject} (by simply reusing the
+ * J8Unit test interface {@link ServantObjectClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantObjectClassTest
-implements org.j8unit.repository.org.omg.CORBA.portable.ServantObjectClassTests<ServantObject> {
+implements ServantObjectClassTests<ServantObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.ServantObject]
 

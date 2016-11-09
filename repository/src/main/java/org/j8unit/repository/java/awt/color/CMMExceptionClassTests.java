@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.color;
 import static org.junit.Assert.assertTrue;
 import java.awt.color.CMMException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.RuntimeExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.color.CMMExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CMMExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CMMExceptionClassTests<SUT extends CMMException>
-extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
+extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.color.CMMException]
     /**

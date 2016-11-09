@@ -2,6 +2,8 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.xml.sax.LocatorTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.xml.sax.helpers.LocatorImpl;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.xml.sax.helpers.LocatorImplClassTests}).
+ * {@link LocatorImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.xml.sax.helpers.LocatorImpl;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocatorImplTests<SUT extends LocatorImpl>
-extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends LocatorTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.LocatorImpl]
 

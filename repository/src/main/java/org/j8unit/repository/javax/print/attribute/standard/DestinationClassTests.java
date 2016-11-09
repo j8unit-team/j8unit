@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.Destination;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests;
+import org.j8unit.repository.javax.print.attribute.URISyntaxClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.DestinationTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DestinationTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DestinationClassTests<SUT extends Destination>
-extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>,
-org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.URISyntaxClassTests<SUT> {
+extends PrintJobAttributeClassTests<SUT>, PrintRequestAttributeClassTests<SUT>, URISyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.Destination]
     /**

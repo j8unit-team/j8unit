@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UID} (by simply reusing the J8Unit test
+ * interface {@link UIDClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UIDClassTest
-implements org.j8unit.repository.java.rmi.server.UIDClassTests<UID> {
+implements UIDClassTests<UID> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.UID]
 

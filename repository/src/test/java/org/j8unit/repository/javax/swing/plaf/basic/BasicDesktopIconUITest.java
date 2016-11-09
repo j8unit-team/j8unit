@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicDesktopIconUITest
-implements FactoryBasedJ8UnitTest<BasicDesktopIconUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests<BasicDesktopIconUI> {
+implements FactoryBasedJ8UnitTest<BasicDesktopIconUI>, BasicDesktopIconUITests<BasicDesktopIconUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicDesktopIconUI]
 
@@ -37,6 +37,12 @@ implements FactoryBasedJ8UnitTest<BasicDesktopIconUI>, org.j8unit.repository.jav
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicDesktopIconUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicDesktopIconUI]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MouseInputHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests.MouseInputHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest

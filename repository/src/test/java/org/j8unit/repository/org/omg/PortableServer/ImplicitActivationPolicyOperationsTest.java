@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ImplicitActivationPolicyOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ImplicitActivationPolicyOperations}
+ * (by simply reusing the J8Unit test interface {@link ImplicitActivationPolicyOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ImplicitActivationPolicyOperationsTest
-implements org.j8unit.repository.org.omg.PortableServer.ImplicitActivationPolicyOperationsTests<ImplicitActivationPolicyOperations> {
+implements ImplicitActivationPolicyOperationsTests<ImplicitActivationPolicyOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ImplicitActivationPolicyOperations]
 

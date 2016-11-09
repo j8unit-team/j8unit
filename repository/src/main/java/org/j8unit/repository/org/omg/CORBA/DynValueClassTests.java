@@ -17,8 +17,7 @@ import org.omg.CORBA.DynValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.DynValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynValueTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.DynValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueClassTests<SUT extends DynValue>
-extends org.j8unit.repository.org.omg.CORBA.DynAnyClassTests<SUT> {
+extends DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DynValue]
     /**

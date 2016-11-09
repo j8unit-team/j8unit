@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TrustAnchor} (by simply reusing the
+ * J8Unit test interface {@link TrustAnchorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TrustAnchorClassTest
-implements org.j8unit.repository.java.security.cert.TrustAnchorClassTests<TrustAnchor> {
+implements TrustAnchorClassTests<TrustAnchor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.TrustAnchor]
 

@@ -4,9 +4,14 @@ import java.awt.peer.ListPeer;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ListPeer} (by simply reusing the J8Unit
+ * test interface {@link ListPeerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ListPeerClassTest
-implements org.j8unit.repository.java.awt.peer.ListPeerClassTests<ListPeer> {
+implements ListPeerClassTests<ListPeer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.ListPeer]
 

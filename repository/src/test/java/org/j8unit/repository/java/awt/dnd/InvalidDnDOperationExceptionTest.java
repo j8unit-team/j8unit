@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidDnDOperationExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidDnDOperationException>,
-org.j8unit.repository.java.awt.dnd.InvalidDnDOperationExceptionTests<InvalidDnDOperationException> {
+implements FactoryBasedJ8UnitTest<InvalidDnDOperationException>, InvalidDnDOperationExceptionTests<InvalidDnDOperationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.InvalidDnDOperationException]
 

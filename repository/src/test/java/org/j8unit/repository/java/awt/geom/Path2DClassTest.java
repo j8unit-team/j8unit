@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Path2D} (by simply reusing the J8Unit
+ * test interface {@link Path2DClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Path2DClassTest
-implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
+implements Path2DClassTests<Path2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Path2D]
 
@@ -155,6 +160,11 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.Path2DClassTests.DoubleClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
     implements org.j8unit.repository.java.awt.geom.Path2DClassTests.DoubleClassTests<Double> {
@@ -282,6 +292,11 @@ implements org.j8unit.repository.java.awt.geom.Path2DClassTests<Path2D> {
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Path2D$Double]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.Path2DClassTests.FloatClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FloatClassTest

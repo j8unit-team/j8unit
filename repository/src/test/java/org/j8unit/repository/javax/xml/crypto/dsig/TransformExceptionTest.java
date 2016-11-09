@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TransformExceptionTest
-implements FactoryBasedJ8UnitTest<TransformException>, org.j8unit.repository.javax.xml.crypto.dsig.TransformExceptionTests<TransformException> {
+implements FactoryBasedJ8UnitTest<TransformException>, TransformExceptionTests<TransformException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.TransformException]
 

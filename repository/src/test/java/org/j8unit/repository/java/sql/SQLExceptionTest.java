@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLExceptionTest
-implements FactoryBasedJ8UnitTest<SQLException>, org.j8unit.repository.java.sql.SQLExceptionTests<SQLException> {
+implements FactoryBasedJ8UnitTest<SQLException>, SQLExceptionTests<SQLException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLException]
 

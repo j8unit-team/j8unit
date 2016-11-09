@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.TextAreaTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TextAreaTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextAreaClassTests<SUT extends TextArea>
-extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
+extends TextComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.TextArea]
     /**

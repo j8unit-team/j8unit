@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PipedReaderTest
-implements FactoryBasedJ8UnitTest<PipedReader>, org.j8unit.repository.java.io.PipedReaderTests<PipedReader> {
+implements FactoryBasedJ8UnitTest<PipedReader>, PipedReaderTests<PipedReader> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.PipedReader]
 

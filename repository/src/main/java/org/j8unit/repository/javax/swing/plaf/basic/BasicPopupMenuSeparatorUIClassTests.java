@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuSeparatorUITests}.
+ * {@link BasicPopupMenuSeparatorUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicPopupMenuSeparatorUIClassTests<SUT extends BasicPopupMenuSeparatorUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<SUT> {
+extends BasicSeparatorUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicPopupMenuSeparatorUI]
     /**

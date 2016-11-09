@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicTextAreaUITest
-implements FactoryBasedJ8UnitTest<BasicTextAreaUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextAreaUITests<BasicTextAreaUI> {
+implements FactoryBasedJ8UnitTest<BasicTextAreaUI>, BasicTextAreaUITests<BasicTextAreaUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextAreaUI]
 

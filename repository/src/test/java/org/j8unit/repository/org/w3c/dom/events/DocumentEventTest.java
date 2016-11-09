@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.events.DocumentEvent;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentEvent} (by simply reusing the
+ * J8Unit test interface {@link DocumentEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentEventTest
-implements org.j8unit.repository.org.w3c.dom.events.DocumentEventTests<DocumentEvent> {
+implements DocumentEventTests<DocumentEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.events.DocumentEvent]
 

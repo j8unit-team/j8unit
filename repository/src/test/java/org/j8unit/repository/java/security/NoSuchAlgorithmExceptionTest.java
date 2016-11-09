@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchAlgorithmExceptionTest
-implements FactoryBasedJ8UnitTest<NoSuchAlgorithmException>, org.j8unit.repository.java.security.NoSuchAlgorithmExceptionTests<NoSuchAlgorithmException> {
+implements FactoryBasedJ8UnitTest<NoSuchAlgorithmException>, NoSuchAlgorithmExceptionTests<NoSuchAlgorithmException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.NoSuchAlgorithmException]
 

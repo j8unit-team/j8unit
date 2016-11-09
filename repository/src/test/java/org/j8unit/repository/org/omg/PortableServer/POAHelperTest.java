@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link POAHelper} (by simply reusing the
+ * J8Unit test interface {@link POAHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class POAHelperTest
-implements org.j8unit.repository.org.omg.PortableServer.POAHelperTests<POAHelper> {
+implements POAHelperTests<POAHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAHelper]
 

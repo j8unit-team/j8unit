@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MenuKeyEvent} (by simply reusing the
+ * J8Unit test interface {@link MenuKeyEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MenuKeyEventClassTest
-implements org.j8unit.repository.javax.swing.event.MenuKeyEventClassTests<MenuKeyEvent> {
+implements MenuKeyEventClassTests<MenuKeyEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.MenuKeyEvent]
 

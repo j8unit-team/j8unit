@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractMap} (by simply reusing the
+ * J8Unit test interface {@link AbstractMapTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractMapTest<K, V>
-implements org.j8unit.repository.java.util.AbstractMapTests<AbstractMap<K, V>, K, V> {
+implements AbstractMapTests<AbstractMap<K, V>, K, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractMap]
 
@@ -22,9 +27,14 @@ implements org.j8unit.repository.java.util.AbstractMapTests<AbstractMap<K, V>, K
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.AbstractMap]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SimpleImmutableEntry} (by simply
+     * reusing the J8Unit test interface {@link SimpleImmutableEntryTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SimpleImmutableEntryTest<K, V>
-    implements org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests<SimpleImmutableEntry<K, V>, K, V> {
+    implements SimpleImmutableEntryTests<SimpleImmutableEntry<K, V>, K, V> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractMap$SimpleImmutableEntry]
 
@@ -39,9 +49,14 @@ implements org.j8unit.repository.java.util.AbstractMapTests<AbstractMap<K, V>, K
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SimpleEntry} (by simply reusing
+     * the J8Unit test interface {@link SimpleEntryTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SimpleEntryTest<K, V>
-    implements org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests<SimpleEntry<K, V>, K, V> {
+    implements SimpleEntryTests<SimpleEntry<K, V>, K, V> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractMap$SimpleEntry]
 

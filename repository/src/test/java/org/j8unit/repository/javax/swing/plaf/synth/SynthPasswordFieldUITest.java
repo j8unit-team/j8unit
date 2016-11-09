@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthPasswordFieldUITest
-implements FactoryBasedJ8UnitTest<SynthPasswordFieldUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthPasswordFieldUITests<SynthPasswordFieldUI> {
+implements FactoryBasedJ8UnitTest<SynthPasswordFieldUI>, SynthPasswordFieldUITests<SynthPasswordFieldUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthPasswordFieldUI]
 

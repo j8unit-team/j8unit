@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.sound.midi.Sequencer;
 import javax.sound.midi.Sequencer.SyncMode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.sound.midi.SequencerTests.SyncModeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.midi.SequencerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SequencerTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SequencerClassTests<SUT extends Sequencer>
-extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
+extends MidiDeviceClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Sequencer]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.sound.midi.SequencerTests.SyncModeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SyncModeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SyncModeClassTests<SUT extends SyncMode>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.Sequencer$SyncMode]
         /**

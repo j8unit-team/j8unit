@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ActivityCompletedExceptionTest
-implements FactoryBasedJ8UnitTest<ActivityCompletedException>,
-org.j8unit.repository.javax.activity.ActivityCompletedExceptionTests<ActivityCompletedException> {
+implements FactoryBasedJ8UnitTest<ActivityCompletedException>, ActivityCompletedExceptionTests<ActivityCompletedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityCompletedException]
 

@@ -12,9 +12,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StyleConstants} (by simply reusing the
+ * J8Unit test interface {@link StyleConstantsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StyleConstantsClassTest
-implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<StyleConstants> {
+implements StyleConstantsClassTests<StyleConstants> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants]
 
@@ -133,6 +138,27 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleConstants#getTabSet(javax.swing.text.AttributeSet) public static
+     * javax.swing.text.TabSet javax.swing.text.StyleConstants.getTabSet(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getTabSet_AttributeSet()
+    throws Exception {
+        // write some test for {@link javax.swing.text.StyleConstants#getTabSet(javax.swing.text.AttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleConstants#setBackground(javax.swing.text.MutableAttributeSet, java.awt.Color) public
      * static void javax.swing.text.StyleConstants.setBackground(javax.swing.text.MutableAttributeSet,java.awt.Color)}.
      *
@@ -150,27 +176,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     throws Exception {
         // write some test for {@link
         // javax.swing.text.StyleConstants#setBackground(javax.swing.text.MutableAttributeSet, java.awt.Color)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#getTabSet(javax.swing.text.AttributeSet) public static
-     * javax.swing.text.TabSet javax.swing.text.StyleConstants.getTabSet(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getTabSet_AttributeSet()
-    throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#getTabSet(javax.swing.text.AttributeSet)}
     }
 
     /**
@@ -220,6 +225,27 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleConstants#getLineSpacing(javax.swing.text.AttributeSet) public static float
+     * javax.swing.text.StyleConstants.getLineSpacing(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getLineSpacing_AttributeSet()
+    throws Exception {
+        // write some test for {@link javax.swing.text.StyleConstants#getLineSpacing(javax.swing.text.AttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleConstants#setAlignment(javax.swing.text.MutableAttributeSet, int) public static void
      * javax.swing.text.StyleConstants.setAlignment(javax.swing.text.MutableAttributeSet,int)}.
      *
@@ -237,27 +263,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     throws Exception {
         // write some test for {@link javax.swing.text.StyleConstants#setAlignment(javax.swing.text.MutableAttributeSet,
         // int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#getLineSpacing(javax.swing.text.AttributeSet) public static float
-     * javax.swing.text.StyleConstants.getLineSpacing(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getLineSpacing_AttributeSet()
-    throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#getLineSpacing(javax.swing.text.AttributeSet)}
     }
 
     /**
@@ -412,27 +417,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#getBidiLevel(javax.swing.text.AttributeSet) public static int
-     * javax.swing.text.StyleConstants.getBidiLevel(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getBidiLevel_AttributeSet()
-    throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#getBidiLevel(javax.swing.text.AttributeSet)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleConstants#setSpaceBelow(javax.swing.text.MutableAttributeSet, float) public static
      * void javax.swing.text.StyleConstants.setSpaceBelow(javax.swing.text.MutableAttributeSet,float)}.
      *
@@ -450,6 +434,27 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     throws Exception {
         // write some test for {@link
         // javax.swing.text.StyleConstants#setSpaceBelow(javax.swing.text.MutableAttributeSet, float)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleConstants#getBidiLevel(javax.swing.text.AttributeSet) public static int
+     * javax.swing.text.StyleConstants.getBidiLevel(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getBidiLevel_AttributeSet()
+    throws Exception {
+        // write some test for {@link javax.swing.text.StyleConstants#getBidiLevel(javax.swing.text.AttributeSet)}
     }
 
     /**
@@ -563,6 +568,28 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleConstants#setFontSize(javax.swing.text.MutableAttributeSet, int) public static void
+     * javax.swing.text.StyleConstants.setFontSize(javax.swing.text.MutableAttributeSet,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_setFontSize_MutableAttributeSet_int()
+    throws Exception {
+        // write some test for {@link javax.swing.text.StyleConstants#setFontSize(javax.swing.text.MutableAttributeSet,
+        // int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleConstants#setLeftIndent(javax.swing.text.MutableAttributeSet, float) public static
      * void javax.swing.text.StyleConstants.setLeftIndent(javax.swing.text.MutableAttributeSet,float)}.
      *
@@ -601,28 +628,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     public void test_getIcon_AttributeSet()
     throws Exception {
         // write some test for {@link javax.swing.text.StyleConstants#getIcon(javax.swing.text.AttributeSet)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#setFontSize(javax.swing.text.MutableAttributeSet, int) public static void
-     * javax.swing.text.StyleConstants.setFontSize(javax.swing.text.MutableAttributeSet,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_setFontSize_MutableAttributeSet_int()
-    throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#setFontSize(javax.swing.text.MutableAttributeSet,
-        // int)}
     }
 
     /**
@@ -671,28 +676,6 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#setSubscript(javax.swing.text.MutableAttributeSet, boolean) public static
-     * void javax.swing.text.StyleConstants.setSubscript(javax.swing.text.MutableAttributeSet,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_setSubscript_MutableAttributeSet_boolean()
-    throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#setSubscript(javax.swing.text.MutableAttributeSet,
-        // boolean)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleConstants#setSuperscript(javax.swing.text.MutableAttributeSet, boolean) public
      * static void javax.swing.text.StyleConstants.setSuperscript(javax.swing.text.MutableAttributeSet,boolean)}.
      *
@@ -715,8 +698,8 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#getComponent(javax.swing.text.AttributeSet) public static
-     * java.awt.Component javax.swing.text.StyleConstants.getComponent(javax.swing.text.AttributeSet)}.
+     * {@link javax.swing.text.StyleConstants#setSubscript(javax.swing.text.MutableAttributeSet, boolean) public static
+     * void javax.swing.text.StyleConstants.setSubscript(javax.swing.text.MutableAttributeSet,boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -728,9 +711,10 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getComponent_AttributeSet()
+    public void test_setSubscript_MutableAttributeSet_boolean()
     throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#getComponent(javax.swing.text.AttributeSet)}
+        // write some test for {@link javax.swing.text.StyleConstants#setSubscript(javax.swing.text.MutableAttributeSet,
+        // boolean)}
     }
 
     /**
@@ -758,6 +742,27 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleConstants#getComponent(javax.swing.text.AttributeSet) public static
+     * java.awt.Component javax.swing.text.StyleConstants.getComponent(javax.swing.text.AttributeSet)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getComponent_AttributeSet()
+    throws Exception {
+        // write some test for {@link javax.swing.text.StyleConstants#getComponent(javax.swing.text.AttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.StyleConstants#getBackground(javax.swing.text.AttributeSet) public static java.awt.Color
      * javax.swing.text.StyleConstants.getBackground(javax.swing.text.AttributeSet)}.
      *
@@ -779,8 +784,8 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#setSpaceAbove(javax.swing.text.MutableAttributeSet, float) public static
-     * void javax.swing.text.StyleConstants.setSpaceAbove(javax.swing.text.MutableAttributeSet,float)}.
+     * {@link javax.swing.text.StyleConstants#setFontFamily(javax.swing.text.MutableAttributeSet, String) public static
+     * void javax.swing.text.StyleConstants.setFontFamily(javax.swing.text.MutableAttributeSet,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -792,31 +797,10 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_setSpaceAbove_MutableAttributeSet_float()
+    public void test_setFontFamily_MutableAttributeSet_String()
     throws Exception {
         // write some test for {@link
-        // javax.swing.text.StyleConstants#setSpaceAbove(javax.swing.text.MutableAttributeSet, float)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#getForeground(javax.swing.text.AttributeSet) public static java.awt.Color
-     * javax.swing.text.StyleConstants.getForeground(javax.swing.text.AttributeSet)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getForeground_AttributeSet()
-    throws Exception {
-        // write some test for {@link javax.swing.text.StyleConstants#getForeground(javax.swing.text.AttributeSet)}
+        // javax.swing.text.StyleConstants#setFontFamily(javax.swing.text.MutableAttributeSet, String)}
     }
 
     /**
@@ -844,8 +828,8 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.StyleConstants#setFontFamily(javax.swing.text.MutableAttributeSet, String) public static
-     * void javax.swing.text.StyleConstants.setFontFamily(javax.swing.text.MutableAttributeSet,java.lang.String)}.
+     * {@link javax.swing.text.StyleConstants#getForeground(javax.swing.text.AttributeSet) public static java.awt.Color
+     * javax.swing.text.StyleConstants.getForeground(javax.swing.text.AttributeSet)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -857,10 +841,31 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_setFontFamily_MutableAttributeSet_String()
+    public void test_getForeground_AttributeSet()
+    throws Exception {
+        // write some test for {@link javax.swing.text.StyleConstants#getForeground(javax.swing.text.AttributeSet)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.StyleConstants#setSpaceAbove(javax.swing.text.MutableAttributeSet, float) public static
+     * void javax.swing.text.StyleConstants.setSpaceAbove(javax.swing.text.MutableAttributeSet,float)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_setSpaceAbove_MutableAttributeSet_float()
     throws Exception {
         // write some test for {@link
-        // javax.swing.text.StyleConstants#setFontFamily(javax.swing.text.MutableAttributeSet, String)}
+        // javax.swing.text.StyleConstants#setSpaceAbove(javax.swing.text.MutableAttributeSet, float)}
     }
 
     /**
@@ -932,26 +937,14 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleConstants]
 
-    @RunWith(J8Unit4.class)
-    public static class ParagraphConstantsClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests<ParagraphConstants> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
-
-        @Override
-        public Class<ParagraphConstants> createNewSUT() {
-            return ParagraphConstants.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FontConstants} (by simply reusing the
+     * J8Unit test interface {@link FontConstantsClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FontConstantsClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.FontConstantsClassTests<FontConstants> {
+    implements FontConstantsClassTests<FontConstants> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$FontConstants]
 
@@ -966,9 +959,14 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CharacterConstants} (by simply
+     * reusing the J8Unit test interface {@link CharacterConstantsClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CharacterConstantsClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.CharacterConstantsClassTests<CharacterConstants> {
+    implements CharacterConstantsClassTests<CharacterConstants> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$CharacterConstants]
 
@@ -983,9 +981,36 @@ implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests<Style
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ParagraphConstants} (by simply
+     * reusing the J8Unit test interface {@link ParagraphConstantsClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ParagraphConstantsClassTest
+    implements ParagraphConstantsClassTests<ParagraphConstants> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+        @Override
+        public Class<ParagraphConstants> createNewSUT() {
+            return ParagraphConstants.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleConstants$ParagraphConstants]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ColorConstants} (by simply reusing
+     * the J8Unit test interface {@link ColorConstantsClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ColorConstantsClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ColorConstantsClassTests<ColorConstants> {
+    implements ColorConstantsClassTests<ColorConstants> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleConstants$ColorConstants]
 

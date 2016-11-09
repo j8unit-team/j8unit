@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.INVALID_ACTIVITY;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link INVALID_ACTIVITY} (by simply reusing the
+ * J8Unit test interface {@link INVALID_ACTIVITYClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class INVALID_ACTIVITYClassTest
-implements org.j8unit.repository.org.omg.CORBA.INVALID_ACTIVITYClassTests<INVALID_ACTIVITY> {
+implements INVALID_ACTIVITYClassTests<INVALID_ACTIVITY> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INVALID_ACTIVITY]
 

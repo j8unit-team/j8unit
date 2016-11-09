@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.im.spi;
 import static org.junit.Assert.assertTrue;
 import java.awt.im.spi.InputMethodContext;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.im.InputMethodRequestsClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.im.spi.InputMethodContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InputMethodContextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputMethodContextClassTests<SUT extends InputMethodContext>
-extends org.j8unit.repository.java.awt.im.InputMethodRequestsClassTests<SUT> {
+extends InputMethodRequestsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.im.spi.InputMethodContext]
     /**

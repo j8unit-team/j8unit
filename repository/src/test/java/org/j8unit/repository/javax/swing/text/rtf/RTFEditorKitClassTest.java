@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RTFEditorKit} (by simply reusing the
+ * J8Unit test interface {@link RTFEditorKitClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RTFEditorKitClassTest
-implements org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitClassTests<RTFEditorKit> {
+implements RTFEditorKitClassTests<RTFEditorKit> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.rtf.RTFEditorKit]
 

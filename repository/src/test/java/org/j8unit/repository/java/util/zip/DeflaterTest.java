@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DeflaterTest
-implements FactoryBasedJ8UnitTest<Deflater>, org.j8unit.repository.java.util.zip.DeflaterTests<Deflater> {
+implements FactoryBasedJ8UnitTest<Deflater>, DeflaterTests<Deflater> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Deflater]
 

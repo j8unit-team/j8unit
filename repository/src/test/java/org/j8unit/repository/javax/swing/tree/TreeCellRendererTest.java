@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TreeCellRenderer} (by simply reusing
+ * the J8Unit test interface {@link TreeCellRendererTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TreeCellRendererTest
-implements org.j8unit.repository.javax.swing.tree.TreeCellRendererTests<TreeCellRenderer> {
+implements TreeCellRendererTests<TreeCellRenderer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.TreeCellRenderer]
 

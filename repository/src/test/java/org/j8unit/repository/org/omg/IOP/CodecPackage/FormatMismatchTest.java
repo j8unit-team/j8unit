@@ -14,7 +14,7 @@ import org.omg.IOP.CodecPackage.FormatMismatch;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FormatMismatchTest
-implements FactoryBasedJ8UnitTest<FormatMismatch>, org.j8unit.repository.org.omg.IOP.CodecPackage.FormatMismatchTests<FormatMismatch> {
+implements FactoryBasedJ8UnitTest<FormatMismatch>, FormatMismatchTests<FormatMismatch> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecPackage.FormatMismatch]
 

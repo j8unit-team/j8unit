@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BufferUnderflowExceptionTest
-implements FactoryBasedJ8UnitTest<BufferUnderflowException>, org.j8unit.repository.java.nio.BufferUnderflowExceptionTests<BufferUnderflowException> {
+implements FactoryBasedJ8UnitTest<BufferUnderflowException>, BufferUnderflowExceptionTests<BufferUnderflowException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.BufferUnderflowException]
 

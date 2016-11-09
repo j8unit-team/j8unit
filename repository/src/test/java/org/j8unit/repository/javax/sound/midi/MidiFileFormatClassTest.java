@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MidiFileFormat} (by simply reusing the
+ * J8Unit test interface {@link MidiFileFormatClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MidiFileFormatClassTest
-implements org.j8unit.repository.javax.sound.midi.MidiFileFormatClassTests<MidiFileFormat> {
+implements MidiFileFormatClassTests<MidiFileFormat> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.MidiFileFormat]
 

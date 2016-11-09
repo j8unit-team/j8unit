@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BeanContextChildSupportTest
-implements FactoryBasedJ8UnitTest<BeanContextChildSupport>, org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportTests<BeanContextChildSupport> {
+implements FactoryBasedJ8UnitTest<BeanContextChildSupport>, BeanContextChildSupportTests<BeanContextChildSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.beancontext.BeanContextChildSupport]
 

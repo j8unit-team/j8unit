@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.xml.sax.HandlerBase;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HandlerBase} (by simply reusing the
+ * J8Unit test interface {@link HandlerBaseClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HandlerBaseClassTest
-implements org.j8unit.repository.org.xml.sax.HandlerBaseClassTests<HandlerBase> {
+implements HandlerBaseClassTests<HandlerBase> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.HandlerBase]
 

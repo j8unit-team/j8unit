@@ -13,9 +13,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentEvent} (by simply reusing the
+ * J8Unit test interface {@link DocumentEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentEventTest
-implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEvent> {
+implements DocumentEventTests<DocumentEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
@@ -27,6 +32,11 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.event.DocumentEvent]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.DocumentEvent]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link EventType} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.event.DocumentEventTests.EventTypeTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
@@ -56,9 +66,14 @@ implements org.j8unit.repository.javax.swing.event.DocumentEventTests<DocumentEv
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementChange} (by simply reusing
+     * the J8Unit test interface {@link ElementChangeTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ElementChangeTest
-    implements org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests<ElementChange> {
+    implements ElementChangeTests<ElementChange> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.DocumentEvent$ElementChange]
 

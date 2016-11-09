@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.smartcardio.CardNotPresentExceptionTests}.
+ * {@link CardNotPresentExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CardNotPresentExceptionClassTests<SUT extends CardNotPresentException>
-extends org.j8unit.repository.javax.smartcardio.CardExceptionClassTests<SUT> {
+extends CardExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardNotPresentException]
     /**

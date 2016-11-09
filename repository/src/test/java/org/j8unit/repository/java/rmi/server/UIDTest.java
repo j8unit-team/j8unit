@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UIDTest
-implements FactoryBasedJ8UnitTest<UID>, org.j8unit.repository.java.rmi.server.UIDTests<UID> {
+implements FactoryBasedJ8UnitTest<UID>, UIDTests<UID> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.UID]
 

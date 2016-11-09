@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing.plaf.synth;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.synth.SynthScrollPaneUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthScrollPaneUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SynthScrollPaneUITests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthScrollPaneUIClassTests<SUT extends SynthScrollPaneUI>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SUT>,
-org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests<SUT> {
+extends PropertyChangeListenerClassTests<SUT>, SynthUIClassTests<SUT>, BasicScrollPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthScrollPaneUI]
     /**

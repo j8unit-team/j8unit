@@ -18,8 +18,7 @@ import org.omg.IOP.ENCODING_CDR_ENCAPS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.ENCODING_CDR_ENCAPSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ENCODING_CDR_ENCAPSTests}.
  * </p>
  *
  * <p>

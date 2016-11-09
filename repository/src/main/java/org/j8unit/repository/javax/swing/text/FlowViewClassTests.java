@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.text.FlowView;
 import javax.swing.text.FlowView.FlowStrategy;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.text.FlowViewTests.FlowStrategyTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.FlowViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FlowViewTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlowViewClassTests<SUT extends FlowView>
-extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
+extends BoxViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.FlowView]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.FlowViewTests.FlowStrategyTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link FlowStrategyTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FlowStrategyClassTests<SUT extends FlowStrategy>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.FlowView$FlowStrategy]
         /**

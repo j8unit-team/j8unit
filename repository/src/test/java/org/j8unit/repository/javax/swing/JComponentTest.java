@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link JComponent} (by simply reusing the
+ * J8Unit test interface {@link JComponentTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JComponentTest
-implements org.j8unit.repository.javax.swing.JComponentTests<JComponent> {
+implements JComponentTests<JComponent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComponent]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.swing.JComponentTests<JComponent> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JComponent]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AccessibleJComponent} (by simply
+     * reusing the J8Unit test interface {@link AccessibleJComponentTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AccessibleJComponentTest
-    implements org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests<AccessibleJComponent> {
+    implements AccessibleJComponentTests<AccessibleJComponent> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JComponent$AccessibleJComponent]
 

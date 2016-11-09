@@ -14,7 +14,7 @@ import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CookieHolderTest
-implements FactoryBasedJ8UnitTest<CookieHolder>, org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.CookieHolderTests<CookieHolder> {
+implements FactoryBasedJ8UnitTest<CookieHolder>, CookieHolderTests<CookieHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantLocatorPackage.CookieHolder]
 

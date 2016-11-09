@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CardTerminals} (by simply reusing the
+ * J8Unit test interface {@link CardTerminalsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CardTerminalsClassTest
-implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardTerminals> {
+implements CardTerminalsClassTests<CardTerminals> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.smartcardio.CardTerminals]
 
@@ -23,6 +28,11 @@ implements org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests<CardT
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.smartcardio.CardTerminals]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.smartcardio.CardTerminals]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link State} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.smartcardio.CardTerminalsClassTests.StateClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class StateClassTest

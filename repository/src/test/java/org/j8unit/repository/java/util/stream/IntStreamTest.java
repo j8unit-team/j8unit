@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IntStream} (by simply reusing the
+ * J8Unit test interface {@link IntStreamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IntStreamTest
-implements org.j8unit.repository.java.util.stream.IntStreamTests<IntStream> {
+implements IntStreamTests<IntStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.IntStream]
 
@@ -20,6 +25,11 @@ implements org.j8unit.repository.java.util.stream.IntStreamTests<IntStream> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.stream.IntStream]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.IntStream]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Builder} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.util.stream.IntStreamTests.BuilderTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class BuilderTest

@@ -3,6 +3,9 @@ package org.j8unit.repository.java.util.concurrent;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.ConcurrentLinkedDeque;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.util.AbstractCollectionClassTests;
+import org.j8unit.repository.java.util.DequeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ConcurrentLinkedDequeTests}.
+ * {@link ConcurrentLinkedDequeTests}.
  * </p>
  *
  * <p>
@@ -47,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentLinkedDequeClassTests<SUT extends ConcurrentLinkedDeque>
-extends org.j8unit.repository.java.util.DequeClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT> {
+extends DequeClassTests<SUT>, SerializableClassTests<SUT>, AbstractCollectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentLinkedDeque]
     /**

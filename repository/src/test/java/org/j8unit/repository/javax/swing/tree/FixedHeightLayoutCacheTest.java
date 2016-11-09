@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FixedHeightLayoutCacheTest
-implements FactoryBasedJ8UnitTest<FixedHeightLayoutCache>, org.j8unit.repository.javax.swing.tree.FixedHeightLayoutCacheTests<FixedHeightLayoutCache> {
+implements FactoryBasedJ8UnitTest<FixedHeightLayoutCache>, FixedHeightLayoutCacheTests<FixedHeightLayoutCache> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.FixedHeightLayoutCache]
 

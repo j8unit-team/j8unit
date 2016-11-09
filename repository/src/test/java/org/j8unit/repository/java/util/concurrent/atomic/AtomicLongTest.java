@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AtomicLongTest
-implements FactoryBasedJ8UnitTest<AtomicLong>, org.j8unit.repository.java.util.concurrent.atomic.AtomicLongTests<AtomicLong> {
+implements FactoryBasedJ8UnitTest<AtomicLong>, AtomicLongTests<AtomicLong> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.AtomicLong]
 

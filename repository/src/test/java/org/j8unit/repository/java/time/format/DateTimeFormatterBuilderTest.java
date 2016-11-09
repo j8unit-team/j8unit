@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DateTimeFormatterBuilderTest
-implements FactoryBasedJ8UnitTest<DateTimeFormatterBuilder>, org.j8unit.repository.java.time.format.DateTimeFormatterBuilderTests<DateTimeFormatterBuilder> {
+implements FactoryBasedJ8UnitTest<DateTimeFormatterBuilder>, DateTimeFormatterBuilderTests<DateTimeFormatterBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.DateTimeFormatterBuilder]
 

@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.annotation.Resource;
 import javax.annotation.Resource.AuthenticationType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
+import org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.annotation.ResourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ResourceTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResourceClassTests<SUT extends Resource>
-extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
+extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.Resource]
     /**
@@ -85,7 +87,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.annotation.ResourceTests.AuthenticationTypeTests}.
+     * {@link AuthenticationTypeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +116,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AuthenticationTypeClassTests<SUT extends AuthenticationType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.Resource$AuthenticationType]
         /**

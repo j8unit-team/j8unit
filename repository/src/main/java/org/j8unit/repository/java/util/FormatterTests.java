@@ -4,6 +4,11 @@ import java.util.Formatter;
 import java.util.Formatter.BigDecimalLayoutForm;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.CloseableTests;
+import org.j8unit.repository.java.io.FlushableTests;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -29,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormatterTests<SUT extends Formatter>
-extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends CloseableTests<SUT>, FlushableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter]
 
@@ -226,7 +231,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests}).
+     * (see {@link BigDecimalLayoutFormClassTests}).
      * </p>
      *
      * @param SUT
@@ -237,7 +242,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BigDecimalLayoutFormTests<SUT extends BigDecimalLayoutForm>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, BigDecimalLayoutForm> {
+    extends EnumTests<SUT, BigDecimalLayoutForm> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 

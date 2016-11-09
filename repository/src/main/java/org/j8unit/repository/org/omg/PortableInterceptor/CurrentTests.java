@@ -25,7 +25,7 @@ import org.omg.PortableInterceptor.Current;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrentTests<SUT extends Current>
-extends org.j8unit.repository.org.omg.PortableInterceptor.CurrentOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.CurrentTests<SUT> {
+extends CurrentOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.CurrentTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.Current]
 

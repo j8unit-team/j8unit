@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.WrappedPlainViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WrappedPlainViewTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WrappedPlainViewClassTests<SUT extends WrappedPlainView>
-extends org.j8unit.repository.javax.swing.text.TabExpanderClassTests<SUT>, org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
+extends TabExpanderClassTests<SUT>, BoxViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.WrappedPlainView]
     /**

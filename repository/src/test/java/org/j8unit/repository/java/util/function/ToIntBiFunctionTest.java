@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ToIntBiFunction} (by simply reusing
+ * the J8Unit test interface {@link ToIntBiFunctionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ToIntBiFunctionTest<T, U>
-implements org.j8unit.repository.java.util.function.ToIntBiFunctionTests<ToIntBiFunction<T, U>, T, U> {
+implements ToIntBiFunctionTests<ToIntBiFunction<T, U>, T, U> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.function.ToIntBiFunction]
 

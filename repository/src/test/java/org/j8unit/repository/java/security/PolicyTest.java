@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Policy} (by simply reusing the J8Unit
+ * test interface {@link PolicyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyTest
-implements org.j8unit.repository.java.security.PolicyTests<Policy> {
+implements PolicyTests<Policy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Policy]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.java.security.PolicyTests<Policy> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.Policy]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Parameters} (by simply reusing
+     * the J8Unit test interface {@link ParametersTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ParametersTest
-    implements org.j8unit.repository.java.security.PolicyTests.ParametersTests<Parameters> {
+    implements ParametersTests<Parameters> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Policy$Parameters]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SizeSequenceTest
-implements FactoryBasedJ8UnitTest<SizeSequence>, org.j8unit.repository.javax.swing.SizeSequenceTests<SizeSequence> {
+implements FactoryBasedJ8UnitTest<SizeSequence>, SizeSequenceTests<SizeSequence> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SizeSequence]
 

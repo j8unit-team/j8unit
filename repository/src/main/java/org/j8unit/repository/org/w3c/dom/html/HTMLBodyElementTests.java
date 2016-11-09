@@ -17,7 +17,7 @@ import org.w3c.dom.html.HTMLBodyElement;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLBodyElementClassTests}).
+ * {@link HTMLBodyElementClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.html.HTMLBodyElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLBodyElementTests<SUT extends HTMLBodyElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
+extends HTMLElementTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLBodyElement]
 
@@ -48,28 +48,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getVLink()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setALink(String)
-     * public abstract void org.w3c.dom.html.HTMLBodyElement.setALink(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setALink_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,8 +100,8 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getALink() public
-     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getALink()}.
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#setALink(String)
+     * public abstract void org.w3c.dom.html.HTMLBodyElement.setALink(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -135,7 +113,7 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getALink()
+    public default void test_setALink_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -181,6 +159,28 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setBackground_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link org.w3c.dom.html.HTMLBodyElement#getALink() public
+     * abstract java.lang.String org.w3c.dom.html.HTMLBodyElement.getALink()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getALink()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

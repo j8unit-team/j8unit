@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RoleInfo} (by simply reusing the J8Unit
+ * test interface {@link RoleInfoClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RoleInfoClassTest
-implements org.j8unit.repository.javax.management.relation.RoleInfoClassTests<RoleInfo> {
+implements RoleInfoClassTests<RoleInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RoleInfo]
 

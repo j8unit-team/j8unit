@@ -3,6 +3,7 @@ package org.j8unit.repository.java.time.chrono;
 import static org.junit.Assert.assertTrue;
 import java.time.chrono.AbstractChronology;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.chrono.AbstractChronologyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AbstractChronologyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractChronologyClassTests<SUT extends AbstractChronology>
-extends org.j8unit.repository.java.time.chrono.ChronologyClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ChronologyClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.AbstractChronology]
     /**

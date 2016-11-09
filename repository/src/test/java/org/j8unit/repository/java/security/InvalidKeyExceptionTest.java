@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidKeyExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidKeyException>, org.j8unit.repository.java.security.InvalidKeyExceptionTests<InvalidKeyException> {
+implements FactoryBasedJ8UnitTest<InvalidKeyException>, InvalidKeyExceptionTests<InvalidKeyException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.InvalidKeyException]
 

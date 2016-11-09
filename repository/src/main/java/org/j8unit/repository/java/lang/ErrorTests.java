@@ -13,7 +13,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.lang.ErrorClassTests}).
+ * {@link ErrorClassTests}).
  * </p>
  *
  * @param SUT
@@ -24,7 +24,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ErrorTests<SUT extends Error>
-extends org.j8unit.repository.java.lang.ThrowableTests<SUT> {
+extends ThrowableTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Error]
 

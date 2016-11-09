@@ -5,6 +5,7 @@ import java.lang.Thread.State;
 import java.lang.Thread.UncaughtExceptionHandler;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.ThreadTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ThreadTests}.
  * </p>
  *
  * <p>
@@ -50,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadClassTests<SUT extends Thread>
-extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends RunnableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread]
     /**
@@ -86,7 +86,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests}.
+     * {@link UncaughtExceptionHandlerTests}.
      * </p>
      *
      * <p>
@@ -151,8 +151,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.lang.ThreadTests.StateTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link StateTests}.
      * </p>
      *
      * <p>
@@ -181,7 +180,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateClassTests<SUT extends State>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Thread$State]
         /**

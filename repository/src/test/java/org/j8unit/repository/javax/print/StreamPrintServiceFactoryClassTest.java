@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StreamPrintServiceFactory} (by simply
+ * reusing the J8Unit test interface {@link StreamPrintServiceFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StreamPrintServiceFactoryClassTest
-implements org.j8unit.repository.javax.print.StreamPrintServiceFactoryClassTests<StreamPrintServiceFactory> {
+implements StreamPrintServiceFactoryClassTests<StreamPrintServiceFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.StreamPrintServiceFactory]
 

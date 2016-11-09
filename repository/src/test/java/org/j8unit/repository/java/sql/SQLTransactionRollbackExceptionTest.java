@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLTransactionRollbackExceptionTest
-implements FactoryBasedJ8UnitTest<SQLTransactionRollbackException>,
-org.j8unit.repository.java.sql.SQLTransactionRollbackExceptionTests<SQLTransactionRollbackException> {
+implements FactoryBasedJ8UnitTest<SQLTransactionRollbackException>, SQLTransactionRollbackExceptionTests<SQLTransactionRollbackException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLTransactionRollbackException]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.peer.FileDialogPeerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FileDialogPeerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileDialogPeerClassTests<SUT extends FileDialogPeer>
-extends org.j8unit.repository.java.awt.peer.DialogPeerClassTests<SUT> {
+extends DialogPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.FileDialogPeer]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SAXParserFactory} (by simply reusing the
+ * J8Unit test interface {@link SAXParserFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SAXParserFactoryClassTest
-implements org.j8unit.repository.javax.xml.parsers.SAXParserFactoryClassTests<SAXParserFactory> {
+implements SAXParserFactoryClassTests<SAXParserFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.parsers.SAXParserFactory]
 

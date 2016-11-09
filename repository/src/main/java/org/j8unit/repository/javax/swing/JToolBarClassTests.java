@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.JToolBar;
 import javax.swing.JToolBar.Separator;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JToolBarTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JToolBarTests}.
  * </p>
  *
  * <p>
@@ -49,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JToolBarClassTests<SUT extends JToolBar>
-extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
-org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends SwingConstantsClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToolBar]
     /**
@@ -85,8 +84,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.JToolBarTests.SeparatorTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SeparatorTests}.
      * </p>
      *
      * <p>
@@ -115,7 +113,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SeparatorClassTests<SUT extends Separator>
-    extends org.j8unit.repository.javax.swing.JSeparatorClassTests<SUT> {
+    extends JSeparatorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToolBar$Separator]
         /**

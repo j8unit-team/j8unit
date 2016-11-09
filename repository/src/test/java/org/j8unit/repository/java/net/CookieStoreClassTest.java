@@ -4,9 +4,14 @@ import java.net.CookieStore;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CookieStore} (by simply reusing the
+ * J8Unit test interface {@link CookieStoreClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CookieStoreClassTest
-implements org.j8unit.repository.java.net.CookieStoreClassTests<CookieStore> {
+implements CookieStoreClassTests<CookieStore> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.CookieStore]
 

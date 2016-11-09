@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IvParameterSpec} (by simply reusing
+ * the J8Unit test interface {@link IvParameterSpecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IvParameterSpecTest
-implements org.j8unit.repository.javax.crypto.spec.IvParameterSpecTests<IvParameterSpec> {
+implements IvParameterSpecTests<IvParameterSpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.IvParameterSpec]
 

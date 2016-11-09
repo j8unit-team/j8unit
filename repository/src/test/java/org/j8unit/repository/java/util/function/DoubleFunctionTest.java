@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DoubleFunction} (by simply reusing
+ * the J8Unit test interface {@link DoubleFunctionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DoubleFunctionTest<R>
-implements org.j8unit.repository.java.util.function.DoubleFunctionTests<DoubleFunction<R>, R> {
+implements DoubleFunctionTests<DoubleFunction<R>, R> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.function.DoubleFunction]
 

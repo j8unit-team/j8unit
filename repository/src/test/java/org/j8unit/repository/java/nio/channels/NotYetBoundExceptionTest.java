@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotYetBoundExceptionTest
-implements FactoryBasedJ8UnitTest<NotYetBoundException>, org.j8unit.repository.java.nio.channels.NotYetBoundExceptionTests<NotYetBoundException> {
+implements FactoryBasedJ8UnitTest<NotYetBoundException>, NotYetBoundExceptionTests<NotYetBoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.NotYetBoundException]
 

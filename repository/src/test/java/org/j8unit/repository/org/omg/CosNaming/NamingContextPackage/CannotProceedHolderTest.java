@@ -14,8 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceedHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CannotProceedHolderTest
-implements FactoryBasedJ8UnitTest<CannotProceedHolder>,
-org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedHolderTests<CannotProceedHolder> {
+implements FactoryBasedJ8UnitTest<CannotProceedHolder>, CannotProceedHolderTests<CannotProceedHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.CannotProceedHolder]
 

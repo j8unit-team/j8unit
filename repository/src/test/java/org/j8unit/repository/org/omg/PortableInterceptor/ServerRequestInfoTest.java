@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ServerRequestInfo;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServerRequestInfo} (by simply reusing
+ * the J8Unit test interface {@link ServerRequestInfoTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerRequestInfoTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInfoTests<ServerRequestInfo> {
+implements ServerRequestInfoTests<ServerRequestInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ServerRequestInfo]
 

@@ -4,9 +4,14 @@ import javax.security.sasl.SaslServer;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SaslServer} (by simply reusing the J8Unit
+ * test interface {@link SaslServerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SaslServerClassTest
-implements org.j8unit.repository.javax.security.sasl.SaslServerClassTests<SaslServer> {
+implements SaslServerClassTests<SaslServer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.SaslServer]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MTOMFeatureTest
-implements FactoryBasedJ8UnitTest<MTOMFeature>, org.j8unit.repository.javax.xml.ws.soap.MTOMFeatureTests<MTOMFeature> {
+implements FactoryBasedJ8UnitTest<MTOMFeature>, MTOMFeatureTests<MTOMFeature> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.MTOMFeature]
 

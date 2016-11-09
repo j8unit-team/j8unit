@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.bind.helpers;
 import static org.junit.Assert.assertTrue;
 import javax.xml.bind.helpers.ValidationEventLocatorImpl;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests}.
+ * {@link ValidationEventLocatorImplTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValidationEventLocatorImplClassTests<SUT extends ValidationEventLocatorImpl>
-extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ValidationEventLocatorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.ValidationEventLocatorImpl]
     /**

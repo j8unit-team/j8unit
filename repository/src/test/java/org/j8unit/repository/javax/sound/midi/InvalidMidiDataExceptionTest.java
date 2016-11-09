@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidMidiDataExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidMidiDataException>, org.j8unit.repository.javax.sound.midi.InvalidMidiDataExceptionTests<InvalidMidiDataException> {
+implements FactoryBasedJ8UnitTest<InvalidMidiDataException>, InvalidMidiDataExceptionTests<InvalidMidiDataException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.InvalidMidiDataException]
 

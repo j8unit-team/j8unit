@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.FileOutputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FileOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileOutputStreamClassTests<SUT extends FileOutputStream>
-extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
+extends OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.FileOutputStream]
     /**

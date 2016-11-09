@@ -14,7 +14,7 @@ import org.omg.CORBA.portable.ServantObject;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServantObjectTest
-implements FactoryBasedJ8UnitTest<ServantObject>, org.j8unit.repository.org.omg.CORBA.portable.ServantObjectTests<ServantObject> {
+implements FactoryBasedJ8UnitTest<ServantObject>, ServantObjectTests<ServantObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ServantObject]
 

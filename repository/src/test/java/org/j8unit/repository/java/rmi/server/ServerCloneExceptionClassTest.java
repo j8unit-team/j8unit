@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServerCloneException} (by simply reusing
+ * the J8Unit test interface {@link ServerCloneExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerCloneExceptionClassTest
-implements org.j8unit.repository.java.rmi.server.ServerCloneExceptionClassTests<ServerCloneException> {
+implements ServerCloneExceptionClassTests<ServerCloneException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.ServerCloneException]
 

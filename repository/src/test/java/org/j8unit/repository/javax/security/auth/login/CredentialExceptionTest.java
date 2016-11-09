@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CredentialExceptionTest
-implements FactoryBasedJ8UnitTest<CredentialException>, org.j8unit.repository.javax.security.auth.login.CredentialExceptionTests<CredentialException> {
+implements FactoryBasedJ8UnitTest<CredentialException>, CredentialExceptionTests<CredentialException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.CredentialException]
 

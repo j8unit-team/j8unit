@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.LongLongSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LongLongSeqHelper} (by simply reusing the
+ * J8Unit test interface {@link LongLongSeqHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LongLongSeqHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.LongLongSeqHelperClassTests<LongLongSeqHelper> {
+implements LongLongSeqHelperClassTests<LongLongSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.LongLongSeqHelper]
 

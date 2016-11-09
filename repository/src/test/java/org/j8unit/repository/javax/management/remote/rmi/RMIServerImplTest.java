@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RMIServerImpl} (by simply reusing the
+ * J8Unit test interface {@link RMIServerImplTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RMIServerImplTest
-implements org.j8unit.repository.javax.management.remote.rmi.RMIServerImplTests<RMIServerImpl> {
+implements RMIServerImplTests<RMIServerImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi.RMIServerImpl]
 

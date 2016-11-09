@@ -17,8 +17,7 @@ import org.omg.CORBA.INV_FLAG;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.INV_FLAGTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link INV_FLAGTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.INV_FLAG;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_FLAGClassTests<SUT extends INV_FLAG>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INV_FLAG]
     /**

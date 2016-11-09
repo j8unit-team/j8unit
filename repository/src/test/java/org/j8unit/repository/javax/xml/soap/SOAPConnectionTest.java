@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link SOAPConnection} (by simply reusing
+ * the J8Unit test interface {@link SOAPConnectionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SOAPConnectionTest
-implements org.j8unit.repository.javax.xml.soap.SOAPConnectionTests<SOAPConnection> {
+implements SOAPConnectionTests<SOAPConnection> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPConnection]
 

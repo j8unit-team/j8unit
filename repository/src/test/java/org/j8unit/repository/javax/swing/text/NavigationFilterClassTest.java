@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NavigationFilter} (by simply reusing the
+ * J8Unit test interface {@link NavigationFilterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NavigationFilterClassTest
-implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests<NavigationFilter> {
+implements NavigationFilterClassTests<NavigationFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.NavigationFilter]
 
@@ -45,6 +50,12 @@ implements org.j8unit.repository.javax.swing.text.NavigationFilterClassTests<Nav
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.NavigationFilter]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.NavigationFilter]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FilterBypass} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.NavigationFilterClassTests.FilterBypassClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FilterBypassClassTest

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.activation.MimetypesFileTypeMapTests}.
+ * {@link MimetypesFileTypeMapTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MimetypesFileTypeMapClassTests<SUT extends MimetypesFileTypeMap>
-extends org.j8unit.repository.javax.activation.FileTypeMapClassTests<SUT> {
+extends FileTypeMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.MimetypesFileTypeMap]
     /**

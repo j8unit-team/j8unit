@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSACTION_MODE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TRANSACTION_MODETest
-implements FactoryBasedJ8UnitTest<TRANSACTION_MODE>, org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODETests<TRANSACTION_MODE> {
+implements FactoryBasedJ8UnitTest<TRANSACTION_MODE>, TRANSACTION_MODETests<TRANSACTION_MODE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_MODE]
 

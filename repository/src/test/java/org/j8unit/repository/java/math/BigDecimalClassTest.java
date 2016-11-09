@@ -8,60 +8,20 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BigDecimal} (by simply reusing the J8Unit
+ * test interface {@link BigDecimalClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BigDecimalClassTest
-implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
+implements BigDecimalClassTests<BigDecimal> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.math.BigDecimal]
 
     @Override
     public Class<BigDecimal> createNewSUT() {
         return BigDecimal.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.math.BigDecimal#BigDecimal(double) public
-     * java.math.BigDecimal(double)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BigDecimal_double()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(double);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.math.BigDecimal#BigDecimal(long, java.math.MathContext) public
-     * java.math.BigDecimal(long,java.math.MathContext)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BigDecimal_long_MathContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(long, java.math.MathContext);
     }
 
     /**
@@ -90,6 +50,74 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigDecimal#BigDecimal(long, java.math.MathContext) public
+     * java.math.BigDecimal(long,java.math.MathContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BigDecimal_long_MathContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BigDecimal sut = null; // = new BigDecimal(long, java.math.MathContext);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigDecimal#BigDecimal(double) public
+     * java.math.BigDecimal(double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BigDecimal_double()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BigDecimal sut = null; // = new BigDecimal(double);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger, java.math.MathContext) public
+     * java.math.BigDecimal(java.math.BigInteger,java.math.MathContext)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BigDecimal_BigInteger_MathContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger, java.math.MathContext);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
      * {@link java.math.BigDecimal#BigDecimal(double, java.math.MathContext) public
      * java.math.BigDecimal(double,java.math.MathContext)}.
      *
@@ -108,29 +136,6 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
         // create new instance
         @SuppressWarnings("unused")
         final BigDecimal sut = null; // = new BigDecimal(double, java.math.MathContext);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger, int) public
-     * java.math.BigDecimal(java.math.BigInteger,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BigDecimal_BigInteger_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger, int);
     }
 
     /**
@@ -157,28 +162,6 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.math.BigDecimal#BigDecimal(String) public
-     * java.math.BigDecimal(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BigDecimal_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(String);
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted constructor-under-test
      * {@link java.math.BigDecimal#BigDecimal(char[], int, int, java.math.MathContext) public
      * java.math.BigDecimal(char[],int,int,java.math.MathContext)}.
@@ -198,28 +181,6 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
         // create new instance
         @SuppressWarnings("unused")
         final BigDecimal sut = null; // = new BigDecimal(char[], int, int, java.math.MathContext);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger) public java.math.BigDecimal(java.math.BigInteger)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_BigDecimal_BigInteger()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger);
     }
 
     /**
@@ -269,8 +230,8 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.math.BigDecimal#BigDecimal(long) public
-     * java.math.BigDecimal(long)}.
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger) public java.math.BigDecimal(java.math.BigInteger)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -282,11 +243,34 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BigDecimal_long()
+    public void create_BigDecimal_BigInteger()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(long);
+        final BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger, int) public
+     * java.math.BigDecimal(java.math.BigInteger,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BigDecimal_BigInteger_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger, int);
     }
 
     /**
@@ -314,9 +298,8 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
 
     /**
      * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger, java.math.MathContext) public
-     * java.math.BigDecimal(java.math.BigInteger,java.math.MathContext)}.
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigDecimal#BigDecimal(String) public
+     * java.math.BigDecimal(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -328,11 +311,33 @@ implements org.j8unit.repository.java.math.BigDecimalClassTests<BigDecimal> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_BigDecimal_BigInteger_MathContext()
+    public void create_BigDecimal_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger, java.math.MathContext);
+        final BigDecimal sut = null; // = new BigDecimal(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.math.BigDecimal#BigDecimal(long) public
+     * java.math.BigDecimal(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_BigDecimal_long()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final BigDecimal sut = null; // = new BigDecimal(long);
     }
 
     /**

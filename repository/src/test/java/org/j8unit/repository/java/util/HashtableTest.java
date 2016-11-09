@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HashtableTest<K, V>
-implements FactoryBasedJ8UnitTest<Hashtable<K, V>>, org.j8unit.repository.java.util.HashtableTests<Hashtable<K, V>, K, V> {
+implements FactoryBasedJ8UnitTest<Hashtable<K, V>>, HashtableTests<Hashtable<K, V>, K, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Hashtable]
 

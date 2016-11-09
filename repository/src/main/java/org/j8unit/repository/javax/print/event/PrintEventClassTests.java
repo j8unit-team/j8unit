@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.print.event;
 import static org.junit.Assert.assertTrue;
 import javax.print.event.PrintEvent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.event.PrintEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrintEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintEventClassTests<SUT extends PrintEvent>
-extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
+extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.event.PrintEvent]
     /**

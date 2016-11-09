@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ReferenceQueue} (by simply reusing the
+ * J8Unit test interface {@link ReferenceQueueClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class ReferenceQueueClassTest
-implements org.j8unit.repository.java.lang.ref.ReferenceQueueClassTests<ReferenceQueue> {
+implements ReferenceQueueClassTests<ReferenceQueue> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ref.ReferenceQueue]
 

@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DiagnosticCollector} (by simply reusing
+ * the J8Unit test interface {@link DiagnosticCollectorClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class DiagnosticCollectorClassTest
-implements org.j8unit.repository.javax.tools.DiagnosticCollectorClassTests<DiagnosticCollector> {
+implements DiagnosticCollectorClassTests<DiagnosticCollector> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DiagnosticCollector]
 

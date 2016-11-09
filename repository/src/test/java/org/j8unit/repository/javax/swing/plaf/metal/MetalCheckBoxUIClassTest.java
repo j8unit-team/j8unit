@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MetalCheckBoxUI} (by simply reusing the
+ * J8Unit test interface {@link MetalCheckBoxUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MetalCheckBoxUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.MetalCheckBoxUIClassTests<MetalCheckBoxUI> {
+implements MetalCheckBoxUIClassTests<MetalCheckBoxUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalCheckBoxUI]
 

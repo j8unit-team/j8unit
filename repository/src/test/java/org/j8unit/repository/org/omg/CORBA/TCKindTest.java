@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.CORBA.TCKind;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TCKind} (by simply reusing the J8Unit
+ * test interface {@link TCKindTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TCKindTest
-implements org.j8unit.repository.org.omg.CORBA.TCKindTests<TCKind> {
+implements TCKindTests<TCKind> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TCKind]
 

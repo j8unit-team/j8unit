@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.DOMImplementationList;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DOMImplementationList} (by simply
+ * reusing the J8Unit test interface {@link DOMImplementationListTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DOMImplementationListTest
-implements org.j8unit.repository.org.w3c.dom.DOMImplementationListTests<DOMImplementationList> {
+implements DOMImplementationListTests<DOMImplementationList> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.DOMImplementationList]
 

@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.stub.java.rmi;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteTests;
+import org.j8unit.repository.javax.rmi.CORBA.StubTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.omg.stub.java.rmi._Remote_Stub;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests}).
+ * {@link _Remote_StubClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.omg.stub.java.rmi._Remote_Stub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _Remote_StubTests<SUT extends _Remote_Stub>
-extends org.j8unit.repository.java.rmi.RemoteTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubTests<SUT> {
+extends RemoteTests<SUT>, StubTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.stub.java.rmi._Remote_Stub]
 

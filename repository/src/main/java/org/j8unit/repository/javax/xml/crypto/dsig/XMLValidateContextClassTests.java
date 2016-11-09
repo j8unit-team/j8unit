@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.crypto.dsig;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.XMLValidateContext;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.XMLValidateContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLValidateContextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLValidateContextClassTests<SUT extends XMLValidateContext>
-extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests<SUT> {
+extends XMLCryptoContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.XMLValidateContext]
     /**

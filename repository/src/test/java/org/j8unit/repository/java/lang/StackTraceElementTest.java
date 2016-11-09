@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link StackTraceElement} (by simply reusing
+ * the J8Unit test interface {@link StackTraceElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StackTraceElementTest
-implements org.j8unit.repository.java.lang.StackTraceElementTests<StackTraceElement> {
+implements StackTraceElementTests<StackTraceElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.StackTraceElement]
 

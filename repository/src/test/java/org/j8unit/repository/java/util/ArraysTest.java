@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Arrays} (by simply reusing the J8Unit
+ * test interface {@link ArraysTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ArraysTest
-implements org.j8unit.repository.java.util.ArraysTests<Arrays> {
+implements ArraysTests<Arrays> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Arrays]
 

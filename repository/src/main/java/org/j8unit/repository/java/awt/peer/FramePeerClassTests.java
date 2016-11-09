@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.peer.FramePeerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FramePeerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FramePeerClassTests<SUT extends FramePeer>
-extends org.j8unit.repository.java.awt.peer.WindowPeerClassTests<SUT> {
+extends WindowPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.FramePeer]
     /**

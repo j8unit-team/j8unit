@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidMarkExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidMarkException>, org.j8unit.repository.java.nio.InvalidMarkExceptionTests<InvalidMarkException> {
+implements FactoryBasedJ8UnitTest<InvalidMarkException>, InvalidMarkExceptionTests<InvalidMarkException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.InvalidMarkException]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.ServiceContextListHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceContextListHelper} (by simply
+ * reusing the J8Unit test interface {@link ServiceContextListHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceContextListHelperClassTest
-implements org.j8unit.repository.org.omg.IOP.ServiceContextListHelperClassTests<ServiceContextListHelper> {
+implements ServiceContextListHelperClassTests<ServiceContextListHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ServiceContextListHelper]
 

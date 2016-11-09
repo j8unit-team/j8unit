@@ -18,8 +18,7 @@ import org.omg.CORBA.portable.InvokeHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InvokeHandlerTests}.
  * </p>
  *
  * <p>

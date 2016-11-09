@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link SSLContext} (by simply reusing the
+ * J8Unit test interface {@link SSLContextTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SSLContextTest
-implements org.j8unit.repository.javax.net.ssl.SSLContextTests<SSLContext> {
+implements SSLContextTests<SSLContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLContext]
 

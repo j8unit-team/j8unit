@@ -4,9 +4,14 @@ import java.sql.ParameterMetaData;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ParameterMetaData} (by simply reusing the
+ * J8Unit test interface {@link ParameterMetaDataClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParameterMetaDataClassTest
-implements org.j8unit.repository.java.sql.ParameterMetaDataClassTests<ParameterMetaData> {
+implements ParameterMetaDataClassTests<ParameterMetaData> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.ParameterMetaData]
 

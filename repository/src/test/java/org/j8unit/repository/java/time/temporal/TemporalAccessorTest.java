@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TemporalAccessor} (by simply reusing
+ * the J8Unit test interface {@link TemporalAccessorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TemporalAccessorTest
-implements org.j8unit.repository.java.time.temporal.TemporalAccessorTests<TemporalAccessor> {
+implements TemporalAccessorTests<TemporalAccessor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.TemporalAccessor]
 

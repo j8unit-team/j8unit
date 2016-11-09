@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PrintConversionEventImpl} (by simply
+ * reusing the J8Unit test interface {@link PrintConversionEventImplTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrintConversionEventImplTest
-implements org.j8unit.repository.javax.xml.bind.helpers.PrintConversionEventImplTests<PrintConversionEventImpl> {
+implements PrintConversionEventImplTests<PrintConversionEventImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.PrintConversionEventImpl]
 

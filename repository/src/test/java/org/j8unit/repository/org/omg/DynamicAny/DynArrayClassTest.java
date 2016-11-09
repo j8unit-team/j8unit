@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynArray;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DynArray} (by simply reusing the J8Unit
+ * test interface {@link DynArrayClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynArrayClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynArrayClassTests<DynArray> {
+implements DynArrayClassTests<DynArray> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynArray]
 

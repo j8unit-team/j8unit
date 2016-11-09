@@ -16,8 +16,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.VirtualMachineErrorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link VirtualMachineErrorTests}.
  * </p>
  *
  * <p>
@@ -46,7 +45,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VirtualMachineErrorClassTests<SUT extends VirtualMachineError>
-extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
+extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.VirtualMachineError]
     /**

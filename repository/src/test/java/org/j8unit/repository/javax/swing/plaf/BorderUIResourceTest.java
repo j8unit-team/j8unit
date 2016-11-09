@@ -20,9 +20,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BorderUIResource} (by simply reusing
+ * the J8Unit test interface {@link BorderUIResourceTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BorderUIResourceTest
-implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<BorderUIResource> {
+implements BorderUIResourceTests<BorderUIResource> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource]
 
@@ -35,45 +40,76 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<BorderUI
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource]
 
-    @RunWith(J8Unit4.class)
-    public static class MatteBorderUIResourceTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.MatteBorderUIResourceTests<MatteBorderUIResource> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BevelBorderUIResource} (by simply
+     * reusing the J8Unit test interface {@link BevelBorderUIResourceTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
+    @RunWith(J8Unit4.class)
+    public static class BevelBorderUIResourceTest
+    implements BevelBorderUIResourceTests<BevelBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
 
         @Override
-        public MatteBorderUIResource createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.MatteBorderUIResource], j8unit does not support a generic way to provide instances.");
+        public BevelBorderUIResource createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.BevelBorderUIResource], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class CompoundBorderUIResourceTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.CompoundBorderUIResourceTests<CompoundBorderUIResource> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TitledBorderUIResource} (by
+     * simply reusing the J8Unit test interface {@link TitledBorderUIResourceTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+    @RunWith(J8Unit4.class)
+    public static class TitledBorderUIResourceTest
+    implements TitledBorderUIResourceTests<TitledBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
 
         @Override
-        public CompoundBorderUIResource createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.CompoundBorderUIResource], j8unit does not support a generic way to provide instances.");
+        public TitledBorderUIResource createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.TitledBorderUIResource], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link LineBorderUIResource} (by simply
+     * reusing the J8Unit test interface {@link LineBorderUIResourceTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class LineBorderUIResourceTest
+    implements LineBorderUIResourceTests<LineBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+
+        @Override
+        public LineBorderUIResource createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.LineBorderUIResource], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
 
     }
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class EtchedBorderUIResourceTest
-    implements FactoryBasedJ8UnitTest<EtchedBorderUIResource>,
-    org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.EtchedBorderUIResourceTests<EtchedBorderUIResource> {
+    implements FactoryBasedJ8UnitTest<EtchedBorderUIResource>, EtchedBorderUIResourceTests<EtchedBorderUIResource> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EtchedBorderUIResource]
 
@@ -96,60 +132,58 @@ implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests<BorderUI
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class TitledBorderUIResourceTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.TitledBorderUIResourceTests<TitledBorderUIResource> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link CompoundBorderUIResource} (by
+     * simply reusing the J8Unit test interface {@link CompoundBorderUIResourceTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+    @RunWith(J8Unit4.class)
+    public static class CompoundBorderUIResourceTest
+    implements CompoundBorderUIResourceTests<CompoundBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
 
         @Override
-        public TitledBorderUIResource createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.TitledBorderUIResource], j8unit does not support a generic way to provide instances.");
+        public CompoundBorderUIResource createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.CompoundBorderUIResource], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$TitledBorderUIResource]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$CompoundBorderUIResource]
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class LineBorderUIResourceTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.LineBorderUIResourceTests<LineBorderUIResource> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MatteBorderUIResource} (by simply
+     * reusing the J8Unit test interface {@link MatteBorderUIResourceTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+    @RunWith(J8Unit4.class)
+    public static class MatteBorderUIResourceTest
+    implements MatteBorderUIResourceTests<MatteBorderUIResource> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
 
         @Override
-        public LineBorderUIResource createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.LineBorderUIResource], j8unit does not support a generic way to provide instances.");
+        public MatteBorderUIResource createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.MatteBorderUIResource], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$LineBorderUIResource]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$MatteBorderUIResource]
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class BevelBorderUIResourceTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.BevelBorderUIResourceTests<BevelBorderUIResource> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
-
-        @Override
-        public BevelBorderUIResource createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.BorderUIResource.BevelBorderUIResource], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$BevelBorderUIResource]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link EmptyBorderUIResource} (by simply
+     * reusing the J8Unit test interface {@link EmptyBorderUIResourceTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class EmptyBorderUIResourceTest
-    implements org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.EmptyBorderUIResourceTests<EmptyBorderUIResource> {
+    implements EmptyBorderUIResourceTests<EmptyBorderUIResource> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.BorderUIResource$EmptyBorderUIResource]
 

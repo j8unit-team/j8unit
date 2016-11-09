@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ConsoleHandlerTest
-implements FactoryBasedJ8UnitTest<ConsoleHandler>, org.j8unit.repository.java.util.logging.ConsoleHandlerTests<ConsoleHandler> {
+implements FactoryBasedJ8UnitTest<ConsoleHandler>, ConsoleHandlerTests<ConsoleHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.ConsoleHandler]
 

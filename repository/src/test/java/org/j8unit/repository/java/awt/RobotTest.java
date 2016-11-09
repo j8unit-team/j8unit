@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RobotTest
-implements FactoryBasedJ8UnitTest<Robot>, org.j8unit.repository.java.awt.RobotTests<Robot> {
+implements FactoryBasedJ8UnitTest<Robot>, RobotTests<Robot> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Robot]
 

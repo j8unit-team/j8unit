@@ -4,9 +4,14 @@ import java.awt.datatransfer.FlavorTable;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FlavorTable} (by simply reusing the
+ * J8Unit test interface {@link FlavorTableClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FlavorTableClassTest
-implements org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<FlavorTable> {
+implements FlavorTableClassTests<FlavorTable> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.datatransfer.FlavorTable]
 

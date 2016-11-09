@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.UShortSeqHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UShortSeqHolder} (by simply reusing the
+ * J8Unit test interface {@link UShortSeqHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UShortSeqHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.UShortSeqHolderClassTests<UShortSeqHolder> {
+implements UShortSeqHolderClassTests<UShortSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.UShortSeqHolder]
 

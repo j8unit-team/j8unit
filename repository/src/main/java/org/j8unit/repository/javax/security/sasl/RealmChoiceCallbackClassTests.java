@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.security.sasl;
 import static org.junit.Assert.assertTrue;
 import javax.security.sasl.RealmChoiceCallback;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.security.sasl.RealmChoiceCallbackTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RealmChoiceCallbackTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RealmChoiceCallbackClassTests<SUT extends RealmChoiceCallback>
-extends org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackClassTests<SUT> {
+extends ChoiceCallbackClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.sasl.RealmChoiceCallback]
     /**

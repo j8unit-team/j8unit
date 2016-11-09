@@ -18,8 +18,7 @@ import org.omg.PortableInterceptor.TRANSPORT_RETRY;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.TRANSPORT_RETRYTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TRANSPORT_RETRYTests}.
  * </p>
  *
  * <p>

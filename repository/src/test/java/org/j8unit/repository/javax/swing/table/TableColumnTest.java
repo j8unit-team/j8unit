@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TableColumnTest
-implements FactoryBasedJ8UnitTest<TableColumn>, org.j8unit.repository.javax.swing.table.TableColumnTests<TableColumn> {
+implements FactoryBasedJ8UnitTest<TableColumn>, TableColumnTests<TableColumn> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.TableColumn]
 

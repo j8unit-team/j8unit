@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FileHandlerTest
-implements FactoryBasedJ8UnitTest<FileHandler>, org.j8unit.repository.java.util.logging.FileHandlerTests<FileHandler> {
+implements FactoryBasedJ8UnitTest<FileHandler>, FileHandlerTests<FileHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.FileHandler]
 

@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TableRowSorterTest<M extends TableModel>
-implements FactoryBasedJ8UnitTest<TableRowSorter<M>>, org.j8unit.repository.javax.swing.table.TableRowSorterTests<TableRowSorter<M>, M> {
+implements FactoryBasedJ8UnitTest<TableRowSorter<M>>, TableRowSorterTests<TableRowSorter<M>, M> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.TableRowSorter]
 

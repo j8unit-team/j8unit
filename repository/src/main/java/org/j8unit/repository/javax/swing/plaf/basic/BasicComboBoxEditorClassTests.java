@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicComboBoxEditor;
 import javax.swing.plaf.basic.BasicComboBoxEditor.UIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.FocusListenerClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.ComboBoxEditorClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicComboBoxEditorTests}.
  * </p>
  *
  * <p>
@@ -49,8 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxEditorClassTests<SUT extends BasicComboBoxEditor>
-extends org.j8unit.repository.javax.swing.ComboBoxEditorClassTests<SUT>, org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ComboBoxEditorClassTests<SUT>, FocusListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicComboBoxEditor]
     /**

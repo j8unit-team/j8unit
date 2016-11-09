@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LongStream} (by simply reusing the
+ * J8Unit test interface {@link LongStreamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LongStreamTest
-implements org.j8unit.repository.java.util.stream.LongStreamTests<LongStream> {
+implements LongStreamTests<LongStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.LongStream]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.java.util.stream.LongStreamTests<LongStream> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.stream.LongStream]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Builder} (by simply reusing the
+     * J8Unit test interface {@link BuilderTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BuilderTest
-    implements org.j8unit.repository.java.util.stream.LongStreamTests.BuilderTests<Builder> {
+    implements BuilderTests<Builder> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.LongStream$Builder]
 

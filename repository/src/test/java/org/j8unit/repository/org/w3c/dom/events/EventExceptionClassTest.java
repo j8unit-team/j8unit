@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.w3c.dom.events.EventException;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link EventException} (by simply reusing the
+ * J8Unit test interface {@link EventExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EventExceptionClassTest
-implements org.j8unit.repository.org.w3c.dom.events.EventExceptionClassTests<EventException> {
+implements EventExceptionClassTests<EventException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.events.EventException]
 

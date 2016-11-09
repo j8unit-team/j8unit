@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CommandMap} (by simply reusing the
+ * J8Unit test interface {@link CommandMapTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CommandMapTest
-implements org.j8unit.repository.javax.activation.CommandMapTests<CommandMap> {
+implements CommandMapTests<CommandMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.CommandMap]
 

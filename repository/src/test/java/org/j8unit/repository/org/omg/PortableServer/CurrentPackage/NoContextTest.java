@@ -14,7 +14,7 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoContextTest
-implements FactoryBasedJ8UnitTest<NoContext>, org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContextTests<NoContext> {
+implements FactoryBasedJ8UnitTest<NoContext>, NoContextTests<NoContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.CurrentPackage.NoContext]
 

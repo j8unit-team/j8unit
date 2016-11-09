@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.invoke.ConstantCallSiteTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ConstantCallSiteTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConstantCallSiteClassTests<SUT extends ConstantCallSite>
-extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
+extends CallSiteClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.ConstantCallSite]
     /**

@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link UnknownEncoding} (by simply reusing the
+ * J8Unit test interface {@link UnknownEncodingClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UnknownEncodingClassTest
-implements org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingClassTests<UnknownEncoding> {
+implements UnknownEncodingClassTests<UnknownEncoding> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.CodecFactoryPackage.UnknownEncoding]
 

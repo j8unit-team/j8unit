@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalComponentStateExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalComponentStateException>,
-org.j8unit.repository.java.awt.IllegalComponentStateExceptionTests<IllegalComponentStateException> {
+implements FactoryBasedJ8UnitTest<IllegalComponentStateException>, IllegalComponentStateExceptionTests<IllegalComponentStateException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.IllegalComponentStateException]
 

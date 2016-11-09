@@ -3,6 +3,10 @@ package org.j8unit.repository.javax.management.openmbean;
 import javax.management.openmbean.TabularDataSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.util.MapTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.openmbean.TabularDataSupportClassTests}).
+ * {@link TabularDataSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TabularDataSupportTests<SUT extends TabularDataSupport>
-extends org.j8unit.repository.javax.management.openmbean.TabularDataTests<SUT>, org.j8unit.repository.java.util.MapTests<SUT, Object, Object>,
-org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends TabularDataTests<SUT>, MapTests<SUT, Object, Object>, CloneableTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.TabularDataSupport]
 

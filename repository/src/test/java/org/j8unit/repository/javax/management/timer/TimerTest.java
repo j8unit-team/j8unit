@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TimerTest
-implements FactoryBasedJ8UnitTest<Timer>, org.j8unit.repository.javax.management.timer.TimerTests<Timer> {
+implements FactoryBasedJ8UnitTest<Timer>, TimerTests<Timer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.timer.Timer]
 

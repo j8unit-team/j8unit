@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA.portable;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +29,7 @@ import org.omg.CORBA.portable.ObjectImpl;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectImplTests<SUT extends ObjectImpl>
-extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ObjectImpl]
 

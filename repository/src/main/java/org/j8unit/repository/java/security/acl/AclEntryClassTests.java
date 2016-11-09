@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.acl;
 import static org.junit.Assert.assertTrue;
 import java.security.acl.AclEntry;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.acl.AclEntryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AclEntryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryClassTests<SUT extends AclEntry>
-extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
+extends CloneableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.acl.AclEntry]
     /**

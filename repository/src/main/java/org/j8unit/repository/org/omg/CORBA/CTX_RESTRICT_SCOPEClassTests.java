@@ -18,8 +18,7 @@ import org.omg.CORBA.CTX_RESTRICT_SCOPE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.CTX_RESTRICT_SCOPETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CTX_RESTRICT_SCOPETests}.
  * </p>
  *
  * <p>

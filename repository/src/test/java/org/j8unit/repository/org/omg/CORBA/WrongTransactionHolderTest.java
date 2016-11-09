@@ -14,7 +14,7 @@ import org.omg.CORBA.WrongTransactionHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WrongTransactionHolderTest
-implements FactoryBasedJ8UnitTest<WrongTransactionHolder>, org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderTests<WrongTransactionHolder> {
+implements FactoryBasedJ8UnitTest<WrongTransactionHolder>, WrongTransactionHolderTests<WrongTransactionHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.WrongTransactionHolder]
 

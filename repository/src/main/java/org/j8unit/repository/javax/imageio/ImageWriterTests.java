@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.imageio;
 import javax.imageio.ImageWriter;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.imageio.ImageWriterClassTests}).
+ * {@link ImageWriterClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageWriterTests<SUT extends ImageWriter>
-extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ImageTranscoderTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.ImageWriter]
 
@@ -583,30 +584,6 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.Raster, javax.imageio.ImageWriteParam) public void
-     * javax.imageio.ImageWriter.replacePixels(java.awt.image.Raster,javax.imageio.ImageWriteParam) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replacePixels_Raster_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.RenderedImage, javax.imageio.ImageWriteParam)
      * public void javax.imageio.ImageWriter.replacePixels(java.awt.image.RenderedImage,javax.imageio.ImageWriteParam)
      * throws java.io.IOException}.
@@ -622,6 +599,30 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     @Test
     @Category(Draft.class)
     public default void test_replacePixels_RenderedImage_ImageWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.Raster, javax.imageio.ImageWriteParam) public void
+     * javax.imageio.ImageWriter.replacePixels(java.awt.image.Raster,javax.imageio.ImageWriteParam) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replacePixels_Raster_ImageWriteParam()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -767,6 +768,29 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageWriter#write(java.awt.image.RenderedImage) public void
+     * javax.imageio.ImageWriter.write(java.awt.image.RenderedImage) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_RenderedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageWriter#write(javax.imageio.metadata.IIOMetadata, javax.imageio.IIOImage, javax.imageio.ImageWriteParam)
      * public abstract void
      * javax.imageio.ImageWriter.write(javax.imageio.metadata.IIOMetadata,javax.imageio.IIOImage,javax.imageio.ImageWriteParam)
@@ -783,29 +807,6 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     @Test
     @Category(Draft.class)
     public default void test_write_IIOMetadata_IIOImage_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageWriter#write(java.awt.image.RenderedImage) public void
-     * javax.imageio.ImageWriter.write(java.awt.image.RenderedImage) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_RenderedImage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

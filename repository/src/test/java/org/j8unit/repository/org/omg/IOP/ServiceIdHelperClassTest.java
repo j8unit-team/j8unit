@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.ServiceIdHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceIdHelper} (by simply reusing the
+ * J8Unit test interface {@link ServiceIdHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceIdHelperClassTest
-implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperClassTests<ServiceIdHelper> {
+implements ServiceIdHelperClassTests<ServiceIdHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ServiceIdHelper]
 

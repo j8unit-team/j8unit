@@ -3,6 +3,7 @@ package org.j8unit.repository.java.time.format;
 import static org.junit.Assert.assertTrue;
 import java.time.format.DateTimeParseException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.time.DateTimeExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.format.DateTimeParseExceptionTests}.
+ * {@link DateTimeParseExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateTimeParseExceptionClassTests<SUT extends DateTimeParseException>
-extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {
+extends DateTimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.format.DateTimeParseException]
     /**

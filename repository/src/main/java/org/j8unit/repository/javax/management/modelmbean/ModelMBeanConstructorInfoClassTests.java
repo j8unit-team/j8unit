@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.modelmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.modelmbean.ModelMBeanConstructorInfo;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.DescriptorAccessClassTests;
+import org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanConstructorInfoTests}.
+ * {@link ModelMBeanConstructorInfoTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModelMBeanConstructorInfoClassTests<SUT extends ModelMBeanConstructorInfo>
-extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, org.j8unit.repository.javax.management.MBeanConstructorInfoClassTests<SUT> {
+extends DescriptorAccessClassTests<SUT>, MBeanConstructorInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanConstructorInfo]
     /**

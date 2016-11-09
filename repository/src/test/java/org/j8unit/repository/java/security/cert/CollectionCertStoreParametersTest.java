@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CollectionCertStoreParametersTest
-implements FactoryBasedJ8UnitTest<CollectionCertStoreParameters>,
-org.j8unit.repository.java.security.cert.CollectionCertStoreParametersTests<CollectionCertStoreParameters> {
+implements FactoryBasedJ8UnitTest<CollectionCertStoreParameters>, CollectionCertStoreParametersTests<CollectionCertStoreParameters> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CollectionCertStoreParameters]
 

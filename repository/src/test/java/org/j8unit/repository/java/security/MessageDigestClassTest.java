@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MessageDigest} (by simply reusing the
+ * J8Unit test interface {@link MessageDigestClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MessageDigestClassTest
-implements org.j8unit.repository.java.security.MessageDigestClassTests<MessageDigest> {
+implements MessageDigestClassTests<MessageDigest> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.MessageDigest]
 

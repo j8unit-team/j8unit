@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InstanceNotFoundException} (by simply
+ * reusing the J8Unit test interface {@link InstanceNotFoundExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InstanceNotFoundExceptionClassTest
-implements org.j8unit.repository.javax.management.InstanceNotFoundExceptionClassTests<InstanceNotFoundException> {
+implements InstanceNotFoundExceptionClassTests<InstanceNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.InstanceNotFoundException]
 

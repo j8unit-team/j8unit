@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BadPaddingExceptionTest
-implements FactoryBasedJ8UnitTest<BadPaddingException>, org.j8unit.repository.javax.crypto.BadPaddingExceptionTests<BadPaddingException> {
+implements FactoryBasedJ8UnitTest<BadPaddingException>, BadPaddingExceptionTests<BadPaddingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.BadPaddingException]
 

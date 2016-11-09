@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicDesktopIconUI;
 import javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.event.MouseInputAdapterClassTests;
+import org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicDesktopIconUITests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicDesktopIconUIClassTests<SUT extends BasicDesktopIconUI>
-extends org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests<SUT> {
+extends DesktopIconUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI]
     /**
@@ -114,7 +115,7 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerClassTests<SUT extends MouseInputHandler>
-    extends org.j8unit.repository.javax.swing.event.MouseInputAdapterClassTests<SUT> {
+    extends MouseInputAdapterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicDesktopIconUI$MouseInputHandler]
         /**

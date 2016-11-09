@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class VerifyErrorTest
-implements FactoryBasedJ8UnitTest<VerifyError>, org.j8unit.repository.java.lang.VerifyErrorTests<VerifyError> {
+implements FactoryBasedJ8UnitTest<VerifyError>, VerifyErrorTests<VerifyError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.VerifyError]
 

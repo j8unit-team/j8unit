@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ServantRetentionPolicy;
@@ -18,7 +19,7 @@ import org.omg.PortableServer.ServantRetentionPolicy;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyTests}.
+ * {@link ServantRetentionPolicyTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.omg.PortableServer.ServantRetentionPolicy;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantRetentionPolicyClassTests<SUT extends ServantRetentionPolicy>
-extends org.j8unit.repository.org.omg.PortableServer.ServantRetentionPolicyOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT> {
+extends ServantRetentionPolicyOperationsClassTests<SUT>, PolicyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantRetentionPolicy]
     /**

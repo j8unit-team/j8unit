@@ -14,7 +14,7 @@ import org.omg.CORBA.ServiceDetail;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServiceDetailTest
-implements FactoryBasedJ8UnitTest<ServiceDetail>, org.j8unit.repository.org.omg.CORBA.ServiceDetailTests<ServiceDetail> {
+implements FactoryBasedJ8UnitTest<ServiceDetail>, ServiceDetailTests<ServiceDetail> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ServiceDetail]
 

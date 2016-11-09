@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BMPImageWriteParamTest
-implements FactoryBasedJ8UnitTest<BMPImageWriteParam>, org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamTests<BMPImageWriteParam> {
+implements FactoryBasedJ8UnitTest<BMPImageWriteParam>, BMPImageWriteParamTests<BMPImageWriteParam> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
 

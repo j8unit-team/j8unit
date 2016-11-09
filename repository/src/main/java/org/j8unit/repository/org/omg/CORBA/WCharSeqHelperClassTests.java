@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.WCharSeqHelper;
@@ -17,8 +18,7 @@ import org.omg.CORBA.WCharSeqHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.WCharSeqHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WCharSeqHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.WCharSeqHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WCharSeqHelperClassTests<SUT extends WCharSeqHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.WCharSeqHelper]
     /**

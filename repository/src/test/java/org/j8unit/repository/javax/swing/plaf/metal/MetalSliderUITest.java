@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalSliderUITest
-implements FactoryBasedJ8UnitTest<MetalSliderUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalSliderUITests<MetalSliderUI> {
+implements FactoryBasedJ8UnitTest<MetalSliderUI>, MetalSliderUITests<MetalSliderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalSliderUI]
 

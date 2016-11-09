@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidPreferencesFormatException} (by
+ * simply reusing the J8Unit test interface {@link InvalidPreferencesFormatExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidPreferencesFormatExceptionClassTest
-implements org.j8unit.repository.java.util.prefs.InvalidPreferencesFormatExceptionClassTests<InvalidPreferencesFormatException> {
+implements InvalidPreferencesFormatExceptionClassTests<InvalidPreferencesFormatException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.prefs.InvalidPreferencesFormatException]
 

@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RowSorterEvent} (by simply reusing
+ * the J8Unit test interface {@link RowSorterEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RowSorterEventTest
-implements org.j8unit.repository.javax.swing.event.RowSorterEventTests<RowSorterEvent> {
+implements RowSorterEventTests<RowSorterEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.RowSorterEvent]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventTests<RowSorter
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.event.RowSorterEvent]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+     * J8Unit test interface {@link TypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class TypeTest
-    implements org.j8unit.repository.javax.swing.event.RowSorterEventTests.TypeTests<Type> {
+    implements TypeTests<Type> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.RowSorterEvent$Type]
 

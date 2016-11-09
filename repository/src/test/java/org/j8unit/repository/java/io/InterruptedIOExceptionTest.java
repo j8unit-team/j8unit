@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InterruptedIOExceptionTest
-implements FactoryBasedJ8UnitTest<InterruptedIOException>, org.j8unit.repository.java.io.InterruptedIOExceptionTests<InterruptedIOException> {
+implements FactoryBasedJ8UnitTest<InterruptedIOException>, InterruptedIOExceptionTests<InterruptedIOException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.InterruptedIOException]
 

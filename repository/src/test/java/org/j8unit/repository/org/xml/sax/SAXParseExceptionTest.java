@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.xml.sax.SAXParseException;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link SAXParseException} (by simply reusing
+ * the J8Unit test interface {@link SAXParseExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SAXParseExceptionTest
-implements org.j8unit.repository.org.xml.sax.SAXParseExceptionTests<SAXParseException> {
+implements SAXParseExceptionTests<SAXParseException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXParseException]
 

@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.text.GlyphView;
 import javax.swing.text.GlyphView.GlyphPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.text.GlyphViewTests.GlyphPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.GlyphViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link GlyphViewTests}.
  * </p>
  *
  * <p>
@@ -49,8 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GlyphViewClassTests<SUT extends GlyphView>
-extends org.j8unit.repository.javax.swing.text.TabableViewClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
+extends TabableViewClassTests<SUT>, CloneableClassTests<SUT>, ViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.GlyphView]
     /**
@@ -85,8 +86,7 @@ org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.GlyphViewTests.GlyphPainterTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link GlyphPainterTests}.
      * </p>
      *
      * <p>
@@ -115,7 +115,7 @@ org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GlyphPainterClassTests<SUT extends GlyphPainter>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.GlyphView$GlyphPainter]
         /**

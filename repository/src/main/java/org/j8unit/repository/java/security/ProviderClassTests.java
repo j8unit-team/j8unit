@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import java.security.Provider;
 import java.security.Provider.Service;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.PropertiesClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.ProviderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ProviderTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProviderClassTests<SUT extends Provider>
-extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
+extends PropertiesClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Provider]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.ProviderTests.ServiceTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ServiceTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ServiceClassTests<SUT extends Service>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Provider$Service]
         /**

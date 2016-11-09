@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.jar;
 import static org.junit.Assert.assertTrue;
 import java.util.jar.JarException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.zip.ZipExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.jar.JarExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JarExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JarExceptionClassTests<SUT extends JarException>
-extends org.j8unit.repository.java.util.zip.ZipExceptionClassTests<SUT> {
+extends ZipExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.JarException]
     /**

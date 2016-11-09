@@ -7,6 +7,14 @@ import javax.swing.JSpinner.ListEditor;
 import javax.swing.JSpinner.NumberEditor;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.LayoutManagerTests;
+import org.j8unit.repository.java.beans.PropertyChangeListenerTests;
+import org.j8unit.repository.javax.accessibility.AccessibleTests;
+import org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests;
+import org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests;
+import org.j8unit.repository.javax.swing.JSpinnerClassTests.ListEditorClassTests;
+import org.j8unit.repository.javax.swing.JSpinnerClassTests.NumberEditorClassTests;
+import org.j8unit.repository.javax.swing.event.ChangeListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +29,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.JSpinnerClassTests}).
+ * {@link JSpinnerClassTests}).
  * </p>
  *
  * @param SUT
@@ -32,31 +40,9 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JSpinnerTests<SUT extends JSpinner>
-extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.JComponentTests<SUT> {
+extends AccessibleTests<SUT>, JComponentTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JSpinner#getModel() public
-     * javax.swing.SpinnerModel javax.swing.JSpinner.getModel()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -74,6 +60,28 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getChangeListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JSpinner#getModel() public
+     * javax.swing.SpinnerModel javax.swing.JSpinner.getModel()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -424,6 +432,58 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ListEditor
+     * public static class javax.swing.JSpinner$ListEditor}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link ListEditorClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ListEditorTests<SUT extends ListEditor>
+    extends org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JSpinner.ListEditor#getModel()
+         * public javax.swing.SpinnerListModel javax.swing.JSpinner$ListEditor.getModel()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getModel()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
      * {@link DefaultEditor public static class javax.swing.JSpinner$DefaultEditor}.
      * </p>
@@ -431,7 +491,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests}).
+     * (see {@link DefaultEditorClassTests}).
      * </p>
      *
      * @param SUT
@@ -442,8 +502,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultEditorTests<SUT extends DefaultEditor>
-    extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>,
-    org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.javax.swing.JPanelTests<SUT> {
+    extends ChangeListenerTests<SUT>, PropertyChangeListenerTests<SUT>, LayoutManagerTests<SUT>, JPanelTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$DefaultEditor]
 
@@ -520,28 +579,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
         /**
          * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.swing.JSpinner.DefaultEditor#getSpinner()
-         * public javax.swing.JSpinner javax.swing.JSpinner$DefaultEditor.getSpinner()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getSpinner()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
          * Test method for the hereby targeted method-under-test
          * {@link javax.swing.JSpinner.DefaultEditor#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
          * javax.swing.JSpinner$DefaultEditor.preferredLayoutSize(java.awt.Container)}.
@@ -558,6 +595,28 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         @Test
         @Category(Draft.class)
         public default void test_preferredLayoutSize_Container()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test {@link javax.swing.JSpinner.DefaultEditor#getSpinner()
+         * public javax.swing.JSpinner javax.swing.JSpinner$DefaultEditor.getSpinner()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getSpinner()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -639,29 +698,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.JSpinner.DefaultEditor#dismiss(javax.swing.JSpinner) public void
-         * javax.swing.JSpinner$DefaultEditor.dismiss(javax.swing.JSpinner)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_dismiss_JSpinner()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link javax.swing.JSpinner.DefaultEditor#addLayoutComponent(String, java.awt.Component) public void
          * javax.swing.JSpinner$DefaultEditor.addLayoutComponent(java.lang.String,java.awt.Component)}.
          *
@@ -677,6 +713,29 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
         @Test
         @Category(Draft.class)
         public default void test_addLayoutComponent_String_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.JSpinner.DefaultEditor#dismiss(javax.swing.JSpinner) public void
+         * javax.swing.JSpinner$DefaultEditor.dismiss(javax.swing.JSpinner)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_dismiss_JSpinner()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -761,58 +820,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ListEditor
-     * public static class javax.swing.JSpinner$ListEditor}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.ListEditorClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ListEditorTests<SUT extends ListEditor>
-    extends org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test {@link javax.swing.JSpinner.ListEditor#getModel()
-         * public javax.swing.SpinnerListModel javax.swing.JSpinner$ListEditor.getModel()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getModel()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JSpinner$ListEditor]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link DateEditor
      * public static class javax.swing.JSpinner$DateEditor}.
      * </p>
@@ -820,7 +827,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.DateEditorClassTests}).
+     * (see {@link DateEditorClassTests}).
      * </p>
      *
      * @param SUT
@@ -894,7 +901,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.JSpinnerClassTests.NumberEditorClassTests}).
+     * (see {@link NumberEditorClassTests}).
      * </p>
      *
      * @param SUT

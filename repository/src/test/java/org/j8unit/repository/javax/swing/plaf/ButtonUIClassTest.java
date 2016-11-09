@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonUI} (by simply reusing the J8Unit
+ * test interface {@link ButtonUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ButtonUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.ButtonUIClassTests<ButtonUI> {
+implements ButtonUIClassTests<ButtonUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.ButtonUI]
 

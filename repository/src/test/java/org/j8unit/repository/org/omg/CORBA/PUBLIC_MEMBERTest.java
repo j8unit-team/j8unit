@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.PUBLIC_MEMBER;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PUBLIC_MEMBER} (by simply reusing the
+ * J8Unit test interface {@link PUBLIC_MEMBERTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PUBLIC_MEMBERTest
-implements org.j8unit.repository.org.omg.CORBA.PUBLIC_MEMBERTests<PUBLIC_MEMBER> {
+implements PUBLIC_MEMBERTests<PUBLIC_MEMBER> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PUBLIC_MEMBER]
 

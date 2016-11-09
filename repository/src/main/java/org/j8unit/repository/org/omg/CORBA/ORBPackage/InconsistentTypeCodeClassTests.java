@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA.ORBPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.ORBPackage.InconsistentTypeCode;
@@ -47,7 +48,7 @@ import org.omg.CORBA.ORBPackage.InconsistentTypeCode;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InconsistentTypeCodeClassTests<SUT extends InconsistentTypeCode>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ORBPackage.InconsistentTypeCode]
     /**

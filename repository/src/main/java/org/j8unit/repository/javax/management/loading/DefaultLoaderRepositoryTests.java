@@ -2,6 +2,7 @@ package org.j8unit.repository.javax.management.loading;
 
 import javax.management.loading.DefaultLoaderRepository;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultLoaderRepositoryTests<SUT extends DefaultLoaderRepository>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.DefaultLoaderRepository]
 

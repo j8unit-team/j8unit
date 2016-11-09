@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.security.auth.login.FailedLoginExceptionTests}.
+ * {@link FailedLoginExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FailedLoginExceptionClassTests<SUT extends FailedLoginException>
-extends org.j8unit.repository.javax.security.auth.login.LoginExceptionClassTests<SUT> {
+extends LoginExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.FailedLoginException]
     /**

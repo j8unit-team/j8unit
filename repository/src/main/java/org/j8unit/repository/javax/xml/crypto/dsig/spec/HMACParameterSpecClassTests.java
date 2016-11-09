@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.crypto.dsig.spec;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.spec.HMACParameterSpec;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.HMACParameterSpecTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HMACParameterSpecTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HMACParameterSpecClassTests<SUT extends HMACParameterSpec>
-extends org.j8unit.repository.javax.xml.crypto.dsig.spec.SignatureMethodParameterSpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends SignatureMethodParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.spec.HMACParameterSpec]
     /**

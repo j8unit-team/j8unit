@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringWriterTest
-implements FactoryBasedJ8UnitTest<StringWriter>, org.j8unit.repository.java.io.StringWriterTests<StringWriter> {
+implements FactoryBasedJ8UnitTest<StringWriter>, StringWriterTests<StringWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.StringWriter]
 

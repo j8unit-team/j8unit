@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ConfigurationExceptionTest
-implements FactoryBasedJ8UnitTest<ConfigurationException>, org.j8unit.repository.javax.naming.ConfigurationExceptionTests<ConfigurationException> {
+implements FactoryBasedJ8UnitTest<ConfigurationException>, ConfigurationExceptionTests<ConfigurationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ConfigurationException]
 

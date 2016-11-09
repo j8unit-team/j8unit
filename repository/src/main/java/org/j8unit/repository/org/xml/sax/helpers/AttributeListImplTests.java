@@ -2,6 +2,8 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.xml.sax.AttributeListTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.xml.sax.helpers.AttributeListImpl;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests}).
+ * {@link AttributeListImplClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.xml.sax.helpers.AttributeListImpl;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeListImplTests<SUT extends AttributeListImpl>
-extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends AttributeListTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.AttributeListImpl]
 

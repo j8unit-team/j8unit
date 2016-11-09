@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.zip;
 import static org.junit.Assert.assertTrue;
 import java.util.zip.CheckedOutputStream;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.FilterOutputStreamClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.zip.CheckedOutputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CheckedOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CheckedOutputStreamClassTests<SUT extends CheckedOutputStream>
-extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
+extends FilterOutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.CheckedOutputStream]
     /**

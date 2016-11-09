@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GlyphView} (by simply reusing the J8Unit
+ * test interface {@link GlyphViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GlyphViewClassTest
-implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView> {
+implements GlyphViewClassTests<GlyphView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.GlyphView]
 
@@ -48,9 +53,14 @@ implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests<GlyphView>
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.GlyphView]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link GlyphPainter} (by simply reusing the
+     * J8Unit test interface {@link GlyphPainterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class GlyphPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.GlyphViewClassTests.GlyphPainterClassTests<GlyphPainter> {
+    implements GlyphPainterClassTests<GlyphPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.GlyphView$GlyphPainter]
 

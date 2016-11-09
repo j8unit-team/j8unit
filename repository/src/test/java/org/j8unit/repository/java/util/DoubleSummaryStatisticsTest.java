@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DoubleSummaryStatisticsTest
-implements FactoryBasedJ8UnitTest<DoubleSummaryStatistics>, org.j8unit.repository.java.util.DoubleSummaryStatisticsTests<DoubleSummaryStatistics> {
+implements FactoryBasedJ8UnitTest<DoubleSummaryStatistics>, DoubleSummaryStatisticsTests<DoubleSummaryStatistics> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.DoubleSummaryStatistics]
 

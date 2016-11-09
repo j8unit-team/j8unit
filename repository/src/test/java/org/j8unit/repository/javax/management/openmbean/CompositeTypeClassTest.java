@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CompositeType} (by simply reusing the
+ * J8Unit test interface {@link CompositeTypeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompositeTypeClassTest
-implements org.j8unit.repository.javax.management.openmbean.CompositeTypeClassTests<CompositeType> {
+implements CompositeTypeClassTests<CompositeType> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.CompositeType]
 

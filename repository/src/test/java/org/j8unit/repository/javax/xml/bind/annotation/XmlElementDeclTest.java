@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlElementDecl} (by simply reusing
+ * the J8Unit test interface {@link XmlElementDeclTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XmlElementDeclTest
-implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclTests<XmlElementDecl> {
+implements XmlElementDeclTests<XmlElementDecl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl]
 
@@ -32,7 +37,7 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclTests<X
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class GLOBALTest
-    implements FactoryBasedJ8UnitTest<GLOBAL>, org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclTests.GLOBALTests<GLOBAL> {
+    implements FactoryBasedJ8UnitTest<GLOBAL>, GLOBALTests<GLOBAL> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 

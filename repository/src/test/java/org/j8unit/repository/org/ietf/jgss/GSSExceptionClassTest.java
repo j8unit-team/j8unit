@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GSSException} (by simply reusing the
+ * J8Unit test interface {@link GSSExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GSSExceptionClassTest
-implements org.j8unit.repository.org.ietf.jgss.GSSExceptionClassTests<GSSException> {
+implements GSSExceptionClassTests<GSSException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.ietf.jgss.GSSException]
 

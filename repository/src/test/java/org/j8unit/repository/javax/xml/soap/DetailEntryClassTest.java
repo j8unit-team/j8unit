@@ -4,9 +4,14 @@ import javax.xml.soap.DetailEntry;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DetailEntry} (by simply reusing the
+ * J8Unit test interface {@link DetailEntryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DetailEntryClassTest
-implements org.j8unit.repository.javax.xml.soap.DetailEntryClassTests<DetailEntry> {
+implements DetailEntryClassTests<DetailEntry> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.DetailEntry]
 

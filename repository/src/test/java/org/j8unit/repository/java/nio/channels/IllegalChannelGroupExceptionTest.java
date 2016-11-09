@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalChannelGroupExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalChannelGroupException>,
-org.j8unit.repository.java.nio.channels.IllegalChannelGroupExceptionTests<IllegalChannelGroupException> {
+implements FactoryBasedJ8UnitTest<IllegalChannelGroupException>, IllegalChannelGroupExceptionTests<IllegalChannelGroupException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.IllegalChannelGroupException]
 

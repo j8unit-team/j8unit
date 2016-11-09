@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link JarEntry} (by simply reusing the
+ * J8Unit test interface {@link JarEntryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JarEntryTest
-implements org.j8unit.repository.java.util.jar.JarEntryTests<JarEntry> {
+implements JarEntryTests<JarEntry> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.JarEntry]
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link WebServiceRef} (by simply reusing the
+ * J8Unit test interface {@link WebServiceRefTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WebServiceRefTest
-implements org.j8unit.repository.javax.xml.ws.WebServiceRefTests<WebServiceRef> {
+implements WebServiceRefTests<WebServiceRef> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.WebServiceRef]
 

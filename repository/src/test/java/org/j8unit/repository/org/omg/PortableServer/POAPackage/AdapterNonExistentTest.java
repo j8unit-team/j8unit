@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAPackage.AdapterNonExistent;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AdapterNonExistentTest
-implements FactoryBasedJ8UnitTest<AdapterNonExistent>, org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExistentTests<AdapterNonExistent> {
+implements FactoryBasedJ8UnitTest<AdapterNonExistent>, AdapterNonExistentTests<AdapterNonExistent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterNonExistent]
 

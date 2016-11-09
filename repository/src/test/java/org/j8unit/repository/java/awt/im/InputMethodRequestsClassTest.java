@@ -4,9 +4,14 @@ import java.awt.im.InputMethodRequests;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InputMethodRequests} (by simply reusing
+ * the J8Unit test interface {@link InputMethodRequestsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InputMethodRequestsClassTest
-implements org.j8unit.repository.java.awt.im.InputMethodRequestsClassTests<InputMethodRequests> {
+implements InputMethodRequestsClassTests<InputMethodRequests> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.im.InputMethodRequests]
 

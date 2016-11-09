@@ -14,7 +14,7 @@ import org.omg.CORBA.BAD_CONTEXT;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BAD_CONTEXTTest
-implements FactoryBasedJ8UnitTest<BAD_CONTEXT>, org.j8unit.repository.org.omg.CORBA.BAD_CONTEXTTests<BAD_CONTEXT> {
+implements FactoryBasedJ8UnitTest<BAD_CONTEXT>, BAD_CONTEXTTests<BAD_CONTEXT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_CONTEXT]
 

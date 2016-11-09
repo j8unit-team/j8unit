@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.lang.model.element;
 import static org.junit.Assert.assertTrue;
 import javax.lang.model.element.UnknownAnnotationValueException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.element.UnknownAnnotationValueExceptionTests}.
+ * {@link UnknownAnnotationValueExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownAnnotationValueExceptionClassTests<SUT extends UnknownAnnotationValueException>
-extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTests<SUT> {
+extends UnknownEntityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.UnknownAnnotationValueException]
     /**

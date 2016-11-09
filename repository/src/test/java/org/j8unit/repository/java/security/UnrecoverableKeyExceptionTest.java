@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnrecoverableKeyExceptionTest
-implements FactoryBasedJ8UnitTest<UnrecoverableKeyException>, org.j8unit.repository.java.security.UnrecoverableKeyExceptionTests<UnrecoverableKeyException> {
+implements FactoryBasedJ8UnitTest<UnrecoverableKeyException>, UnrecoverableKeyExceptionTests<UnrecoverableKeyException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.UnrecoverableKeyException]
 

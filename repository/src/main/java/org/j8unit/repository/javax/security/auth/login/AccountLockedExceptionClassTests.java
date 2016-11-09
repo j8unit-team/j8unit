@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.security.auth.login.AccountLockedExceptionTests}.
+ * {@link AccountLockedExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccountLockedExceptionClassTests<SUT extends AccountLockedException>
-extends org.j8unit.repository.javax.security.auth.login.AccountExceptionClassTests<SUT> {
+extends AccountExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.AccountLockedException]
     /**

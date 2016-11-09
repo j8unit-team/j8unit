@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultFocusTraversalPolicyTest
-implements FactoryBasedJ8UnitTest<DefaultFocusTraversalPolicy>, org.j8unit.repository.java.awt.DefaultFocusTraversalPolicyTests<DefaultFocusTraversalPolicy> {
+implements FactoryBasedJ8UnitTest<DefaultFocusTraversalPolicy>, DefaultFocusTraversalPolicyTests<DefaultFocusTraversalPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.DefaultFocusTraversalPolicy]
 

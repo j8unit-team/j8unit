@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ThreadLocalTest<T>
-implements FactoryBasedJ8UnitTest<ThreadLocal<T>>, org.j8unit.repository.java.lang.ThreadLocalTests<ThreadLocal<T>, T> {
+implements FactoryBasedJ8UnitTest<ThreadLocal<T>>, ThreadLocalTests<ThreadLocal<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ThreadLocal]
 

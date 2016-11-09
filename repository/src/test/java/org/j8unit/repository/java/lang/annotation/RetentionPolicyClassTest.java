@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RetentionPolicy} (by simply reusing the
+ * J8Unit test interface {@link RetentionPolicyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RetentionPolicyClassTest
-implements org.j8unit.repository.java.lang.annotation.RetentionPolicyClassTests<RetentionPolicy> {
+implements RetentionPolicyClassTests<RetentionPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.annotation.RetentionPolicy]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JRadioButtonTest
-implements FactoryBasedJ8UnitTest<JRadioButton>, org.j8unit.repository.javax.swing.JRadioButtonTests<JRadioButton> {
+implements FactoryBasedJ8UnitTest<JRadioButton>, JRadioButtonTests<JRadioButton> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JRadioButton]
 

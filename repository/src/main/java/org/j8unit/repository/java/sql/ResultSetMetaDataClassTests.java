@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.ResultSetMetaDataTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ResultSetMetaDataTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResultSetMetaDataClassTests<SUT extends ResultSetMetaData>
-extends org.j8unit.repository.java.sql.WrapperClassTests<SUT> {
+extends WrapperClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.ResultSetMetaData]
     /**

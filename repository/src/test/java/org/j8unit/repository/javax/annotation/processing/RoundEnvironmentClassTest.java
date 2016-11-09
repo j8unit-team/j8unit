@@ -4,9 +4,14 @@ import javax.annotation.processing.RoundEnvironment;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RoundEnvironment} (by simply reusing the
+ * J8Unit test interface {@link RoundEnvironmentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RoundEnvironmentClassTest
-implements org.j8unit.repository.javax.annotation.processing.RoundEnvironmentClassTests<RoundEnvironment> {
+implements RoundEnvironmentClassTests<RoundEnvironment> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.processing.RoundEnvironment]
 

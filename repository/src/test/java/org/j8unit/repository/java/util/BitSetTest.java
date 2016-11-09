@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BitSetTest
-implements FactoryBasedJ8UnitTest<BitSet>, org.j8unit.repository.java.util.BitSetTests<BitSet> {
+implements FactoryBasedJ8UnitTest<BitSet>, BitSetTests<BitSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.BitSet]
 

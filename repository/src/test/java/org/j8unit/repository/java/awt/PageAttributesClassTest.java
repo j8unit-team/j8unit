@@ -13,9 +13,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PageAttributes} (by simply reusing the
+ * J8Unit test interface {@link PageAttributesClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PageAttributesClassTest
-implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttributes> {
+implements PageAttributesClassTests<PageAttributes> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes]
 
@@ -100,9 +105,14 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.PageAttributes]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PrintQualityType} (by simply reusing
+     * the J8Unit test interface {@link PrintQualityTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PrintQualityTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests<PrintQualityType> {
+    implements PrintQualityTypeClassTests<PrintQualityType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$PrintQualityType]
 
@@ -117,9 +127,14 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ColorType} (by simply reusing the
+     * J8Unit test interface {@link ColorTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ColorTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.ColorTypeClassTests<ColorType> {
+    implements ColorTypeClassTests<ColorType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$ColorType]
 
@@ -134,9 +149,14 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link OriginType} (by simply reusing the
+     * J8Unit test interface {@link OriginTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OriginTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.OriginTypeClassTests<OriginType> {
+    implements OriginTypeClassTests<OriginType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$OriginType]
 
@@ -151,9 +171,14 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MediaType} (by simply reusing the
+     * J8Unit test interface {@link MediaTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MediaTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.MediaTypeClassTests<MediaType> {
+    implements MediaTypeClassTests<MediaType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$MediaType]
 
@@ -168,9 +193,14 @@ implements org.j8unit.repository.java.awt.PageAttributesClassTests<PageAttribute
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link OrientationRequestedType} (by simply
+     * reusing the J8Unit test interface {@link OrientationRequestedTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class OrientationRequestedTypeClassTest
-    implements org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests<OrientationRequestedType> {
+    implements OrientationRequestedTypeClassTests<OrientationRequestedType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.PageAttributes$OrientationRequestedType]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SyncFailedException} (by simply reusing
+ * the J8Unit test interface {@link SyncFailedExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SyncFailedExceptionClassTest
-implements org.j8unit.repository.java.io.SyncFailedExceptionClassTests<SyncFailedException> {
+implements SyncFailedExceptionClassTests<SyncFailedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.SyncFailedException]
 

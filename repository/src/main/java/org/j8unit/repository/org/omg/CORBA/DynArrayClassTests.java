@@ -47,7 +47,7 @@ import org.omg.CORBA.DynArray;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynArrayClassTests<SUT extends DynArray>
-extends org.j8unit.repository.org.omg.CORBA.DynAnyClassTests<SUT> {
+extends DynAnyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DynArray]
     /**

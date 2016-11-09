@@ -3,6 +3,8 @@ package org.j8unit.repository.java.nio.channels.spi;
 import static org.junit.Assert.assertTrue;
 import java.nio.channels.spi.AbstractInterruptibleChannel;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.nio.channels.InterruptibleChannelClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelTests}.
+ * {@link AbstractInterruptibleChannelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractInterruptibleChannelClassTests<SUT extends AbstractInterruptibleChannel>
-extends org.j8unit.repository.java.nio.channels.InterruptibleChannelClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends InterruptibleChannelClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.spi.AbstractInterruptibleChannel]
     /**

@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AppConfigurationEntry} (by simply
+ * reusing the J8Unit test interface {@link AppConfigurationEntryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AppConfigurationEntryTest
-implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests<AppConfigurationEntry> {
+implements AppConfigurationEntryTests<AppConfigurationEntry> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AppConfigurationEntry]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.security.auth.login.AppConfigurationEntry]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link LoginModuleControlFlag} (by
+     * simply reusing the J8Unit test interface {@link LoginModuleControlFlagTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class LoginModuleControlFlagTest
-    implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryTests.LoginModuleControlFlagTests<LoginModuleControlFlag> {
+    implements LoginModuleControlFlagTests<LoginModuleControlFlag> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TableColumnModelListener} (by simply
+ * reusing the J8Unit test interface {@link TableColumnModelListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TableColumnModelListenerTest
-implements org.j8unit.repository.javax.swing.event.TableColumnModelListenerTests<TableColumnModelListener> {
+implements TableColumnModelListenerTests<TableColumnModelListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.TableColumnModelListener]
 

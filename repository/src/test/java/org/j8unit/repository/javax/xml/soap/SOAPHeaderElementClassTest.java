@@ -4,9 +4,14 @@ import javax.xml.soap.SOAPHeaderElement;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SOAPHeaderElement} (by simply reusing the
+ * J8Unit test interface {@link SOAPHeaderElementClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SOAPHeaderElementClassTest
-implements org.j8unit.repository.javax.xml.soap.SOAPHeaderElementClassTests<SOAPHeaderElement> {
+implements SOAPHeaderElementClassTests<SOAPHeaderElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SOAPHeaderElement]
 

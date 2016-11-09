@@ -17,7 +17,7 @@ import org.w3c.dom.events.MutationEvent;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.events.MutationEventClassTests}).
+ * {@link MutationEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.events.MutationEvent;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MutationEventTests<SUT extends MutationEvent>
-extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
+extends EventTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.events.MutationEvent]
 

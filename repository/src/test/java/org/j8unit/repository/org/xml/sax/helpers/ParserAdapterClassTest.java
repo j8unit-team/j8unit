@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.ParserAdapter;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ParserAdapter} (by simply reusing the
+ * J8Unit test interface {@link ParserAdapterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParserAdapterClassTest
-implements org.j8unit.repository.org.xml.sax.helpers.ParserAdapterClassTests<ParserAdapter> {
+implements ParserAdapterClassTests<ParserAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.ParserAdapter]
 

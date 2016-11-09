@@ -5,6 +5,8 @@ import java.util.stream.Collector.Characteristics;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.util.stream.CollectorClassTests.CharacteristicsClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.stream.CollectorClassTests}).
+ * {@link CollectorClassTests}).
  * </p>
  *
  * @param SUT
@@ -157,7 +159,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.stream.CollectorClassTests.CharacteristicsClassTests}).
+     * (see {@link CharacteristicsClassTests}).
      * </p>
      *
      * @param SUT
@@ -168,7 +170,7 @@ extends RepositoryTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacteristicsTests<SUT extends Characteristics>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, Characteristics> {
+    extends EnumTests<SUT, Characteristics> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.stream.Collector$Characteristics]
 

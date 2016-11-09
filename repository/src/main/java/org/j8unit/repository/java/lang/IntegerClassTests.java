@@ -16,8 +16,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.IntegerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IntegerTests}.
  * </p>
  *
  * <p>
@@ -46,7 +45,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntegerClassTests<SUT extends Integer>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends ComparableClassTests<SUT>, NumberClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Integer]
     /**

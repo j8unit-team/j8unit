@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.CosNaming.NamingContextPackage.NotFoundReason;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NotFoundReason} (by simply reusing
+ * the J8Unit test interface {@link NotFoundReasonTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotFoundReasonTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundReasonTests<NotFoundReason> {
+implements NotFoundReasonTests<NotFoundReason> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotFoundReason]
 

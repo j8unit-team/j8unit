@@ -17,8 +17,7 @@ import org.omg.PortableServer.ServantLocator;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantLocatorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServantLocatorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +46,7 @@ import org.omg.PortableServer.ServantLocator;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantLocatorClassTests<SUT extends ServantLocator>
-extends org.j8unit.repository.org.omg.PortableServer.ServantLocatorOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.PortableServer.ServantManagerClassTests<SUT> {
+extends ServantLocatorOperationsClassTests<SUT>, ServantManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantLocator]
     /**

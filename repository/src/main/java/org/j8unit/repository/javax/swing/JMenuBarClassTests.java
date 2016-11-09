@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.JMenuBar;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JMenuBarTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JMenuBarTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMenuBarClassTests<SUT extends JMenuBar>
-extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.MenuElementClassTests<SUT>,
-org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends AccessibleClassTests<SUT>, MenuElementClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JMenuBar]
     /**

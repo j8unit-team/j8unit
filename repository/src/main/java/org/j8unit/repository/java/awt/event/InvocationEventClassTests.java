@@ -3,6 +3,8 @@ package org.j8unit.repository.java.awt.event;
 import static org.junit.Assert.assertTrue;
 import java.awt.event.InvocationEvent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.AWTEventClassTests;
+import org.j8unit.repository.java.awt.ActiveEventClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.event.InvocationEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InvocationEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvocationEventClassTests<SUT extends InvocationEvent>
-extends org.j8unit.repository.java.awt.ActiveEventClassTests<SUT>, org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
+extends ActiveEventClassTests<SUT>, AWTEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.InvocationEvent]
     /**

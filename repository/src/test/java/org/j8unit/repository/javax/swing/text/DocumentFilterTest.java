@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DocumentFilterTest
-implements FactoryBasedJ8UnitTest<DocumentFilter>, org.j8unit.repository.javax.swing.text.DocumentFilterTests<DocumentFilter> {
+implements FactoryBasedJ8UnitTest<DocumentFilter>, DocumentFilterTests<DocumentFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DocumentFilter]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<DocumentFilter>, org.j8unit.repository.javax.s
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DocumentFilter]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FilterBypass} (by simply reusing
+     * the J8Unit test interface {@link FilterBypassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FilterBypassTest
-    implements org.j8unit.repository.javax.swing.text.DocumentFilterTests.FilterBypassTests<FilterBypass> {
+    implements FilterBypassTests<FilterBypass> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DocumentFilter$FilterBypass]
 

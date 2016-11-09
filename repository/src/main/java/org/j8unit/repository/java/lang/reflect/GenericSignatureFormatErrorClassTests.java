@@ -3,6 +3,7 @@ package org.j8unit.repository.java.lang.reflect;
 import static org.junit.Assert.assertTrue;
 import java.lang.reflect.GenericSignatureFormatError;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ClassFormatErrorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.reflect.GenericSignatureFormatErrorTests}.
+ * {@link GenericSignatureFormatErrorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GenericSignatureFormatErrorClassTests<SUT extends GenericSignatureFormatError>
-extends org.j8unit.repository.java.lang.ClassFormatErrorClassTests<SUT> {
+extends ClassFormatErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.GenericSignatureFormatError]
     /**

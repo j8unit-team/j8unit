@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AnnotatedElement} (by simply reusing
+ * the J8Unit test interface {@link AnnotatedElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AnnotatedElementTest
-implements org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<AnnotatedElement> {
+implements AnnotatedElementTests<AnnotatedElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.AnnotatedElement]
 

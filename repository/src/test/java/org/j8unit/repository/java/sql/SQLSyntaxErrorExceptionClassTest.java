@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SQLSyntaxErrorException} (by simply
+ * reusing the J8Unit test interface {@link SQLSyntaxErrorExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SQLSyntaxErrorExceptionClassTest
-implements org.j8unit.repository.java.sql.SQLSyntaxErrorExceptionClassTests<SQLSyntaxErrorException> {
+implements SQLSyntaxErrorExceptionClassTests<SQLSyntaxErrorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLSyntaxErrorException]
 

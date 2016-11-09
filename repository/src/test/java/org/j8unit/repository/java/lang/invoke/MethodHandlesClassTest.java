@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MethodHandles} (by simply reusing the
+ * J8Unit test interface {@link MethodHandlesClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MethodHandlesClassTest
-implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<MethodHandles> {
+implements MethodHandlesClassTests<MethodHandles> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.MethodHandles]
 
@@ -508,9 +513,14 @@ implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests<Method
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.invoke.MethodHandles]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Lookup} (by simply reusing the J8Unit
+     * test interface {@link LookupClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LookupClassTest
-    implements org.j8unit.repository.java.lang.invoke.MethodHandlesClassTests.LookupClassTests<Lookup> {
+    implements LookupClassTests<Lookup> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.invoke.MethodHandles$Lookup]
 

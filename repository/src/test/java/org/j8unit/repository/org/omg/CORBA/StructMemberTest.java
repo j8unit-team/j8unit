@@ -14,7 +14,7 @@ import org.omg.CORBA.StructMember;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StructMemberTest
-implements FactoryBasedJ8UnitTest<StructMember>, org.j8unit.repository.org.omg.CORBA.StructMemberTests<StructMember> {
+implements FactoryBasedJ8UnitTest<StructMember>, StructMemberTests<StructMember> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.StructMember]
 

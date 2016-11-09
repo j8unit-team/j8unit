@@ -14,7 +14,7 @@ import org.omg.CORBA.NO_IMPLEMENT;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NO_IMPLEMENTTest
-implements FactoryBasedJ8UnitTest<NO_IMPLEMENT>, org.j8unit.repository.org.omg.CORBA.NO_IMPLEMENTTests<NO_IMPLEMENT> {
+implements FactoryBasedJ8UnitTest<NO_IMPLEMENT>, NO_IMPLEMENTTests<NO_IMPLEMENT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_IMPLEMENT]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PlainView} (by simply reusing the J8Unit
+ * test interface {@link PlainViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PlainViewClassTest
-implements org.j8unit.repository.javax.swing.text.PlainViewClassTests<PlainView> {
+implements PlainViewClassTests<PlainView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.PlainView]
 

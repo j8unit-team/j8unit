@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SpringLayoutTest
-implements FactoryBasedJ8UnitTest<SpringLayout>, org.j8unit.repository.javax.swing.SpringLayoutTests<SpringLayout> {
+implements FactoryBasedJ8UnitTest<SpringLayout>, SpringLayoutTests<SpringLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpringLayout]
 
@@ -40,7 +40,7 @@ implements FactoryBasedJ8UnitTest<SpringLayout>, org.j8unit.repository.javax.swi
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ConstraintsTest
-    implements FactoryBasedJ8UnitTest<Constraints>, org.j8unit.repository.javax.swing.SpringLayoutTests.ConstraintsTests<Constraints> {
+    implements FactoryBasedJ8UnitTest<Constraints>, ConstraintsTests<Constraints> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpringLayout$Constraints]
 

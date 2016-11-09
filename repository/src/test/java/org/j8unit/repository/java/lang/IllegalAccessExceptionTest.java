@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalAccessExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalAccessException>, org.j8unit.repository.java.lang.IllegalAccessExceptionTests<IllegalAccessException> {
+implements FactoryBasedJ8UnitTest<IllegalAccessException>, IllegalAccessExceptionTests<IllegalAccessException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IllegalAccessException]
 

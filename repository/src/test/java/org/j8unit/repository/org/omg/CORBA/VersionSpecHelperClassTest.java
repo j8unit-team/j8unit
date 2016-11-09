@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.VersionSpecHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link VersionSpecHelper} (by simply reusing the
+ * J8Unit test interface {@link VersionSpecHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VersionSpecHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.VersionSpecHelperClassTests<VersionSpecHelper> {
+implements VersionSpecHelperClassTests<VersionSpecHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.VersionSpecHelper]
 

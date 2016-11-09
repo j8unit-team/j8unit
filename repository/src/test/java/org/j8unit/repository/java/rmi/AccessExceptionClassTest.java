@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AccessException} (by simply reusing the
+ * J8Unit test interface {@link AccessExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AccessExceptionClassTest
-implements org.j8unit.repository.java.rmi.AccessExceptionClassTests<AccessException> {
+implements AccessExceptionClassTests<AccessException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.AccessException]
 

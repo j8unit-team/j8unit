@@ -4,9 +4,14 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XmlAccessorType} (by simply reusing the
+ * J8Unit test interface {@link XmlAccessorTypeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XmlAccessorTypeClassTest
-implements org.j8unit.repository.javax.xml.bind.annotation.XmlAccessorTypeClassTests<XmlAccessorType> {
+implements XmlAccessorTypeClassTests<XmlAccessorType> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlAccessorType]
 

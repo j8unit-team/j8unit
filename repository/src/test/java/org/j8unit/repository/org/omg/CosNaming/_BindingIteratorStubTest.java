@@ -14,7 +14,7 @@ import org.omg.CosNaming._BindingIteratorStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _BindingIteratorStubTest
-implements FactoryBasedJ8UnitTest<_BindingIteratorStub>, org.j8unit.repository.org.omg.CosNaming._BindingIteratorStubTests<_BindingIteratorStub> {
+implements FactoryBasedJ8UnitTest<_BindingIteratorStub>, _BindingIteratorStubTests<_BindingIteratorStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming._BindingIteratorStub]
 

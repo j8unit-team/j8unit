@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MultipleGradientPaint} (by simply reusing
+ * the J8Unit test interface {@link MultipleGradientPaintClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultipleGradientPaintClassTest
-implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<MultipleGradientPaint> {
+implements MultipleGradientPaintClassTests<MultipleGradientPaint> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.MultipleGradientPaint]
 
@@ -25,9 +30,14 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.MultipleGradientPaint]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ColorSpaceType} (by simply reusing
+     * the J8Unit test interface {@link ColorSpaceTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ColorSpaceTypeClassTest
-    implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests<ColorSpaceType> {
+    implements ColorSpaceTypeClassTests<ColorSpaceType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
@@ -85,9 +95,14 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<Multip
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CycleMethod} (by simply reusing the
+     * J8Unit test interface {@link CycleMethodClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CycleMethodClassTest
-    implements org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests<CycleMethod> {
+    implements CycleMethodClassTests<CycleMethod> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]
 

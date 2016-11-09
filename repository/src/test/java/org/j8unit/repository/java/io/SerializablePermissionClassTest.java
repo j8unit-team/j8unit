@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SerializablePermission} (by simply
+ * reusing the J8Unit test interface {@link SerializablePermissionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SerializablePermissionClassTest
-implements org.j8unit.repository.java.io.SerializablePermissionClassTests<SerializablePermission> {
+implements SerializablePermissionClassTests<SerializablePermission> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.SerializablePermission]
 

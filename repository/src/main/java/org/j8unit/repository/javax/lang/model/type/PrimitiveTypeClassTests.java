@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.type.PrimitiveTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrimitiveTypeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrimitiveTypeClassTests<SUT extends PrimitiveType>
-extends org.j8unit.repository.javax.lang.model.type.TypeMirrorClassTests<SUT> {
+extends TypeMirrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.type.PrimitiveType]
     /**

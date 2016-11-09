@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Ref} (by simply reusing the J8Unit
+ * test interface {@link RefTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RefTest
-implements org.j8unit.repository.java.sql.RefTests<Ref> {
+implements RefTests<Ref> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.Ref]
 

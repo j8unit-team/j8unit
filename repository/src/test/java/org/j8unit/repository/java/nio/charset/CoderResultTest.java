@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CoderResult} (by simply reusing the
+ * J8Unit test interface {@link CoderResultTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CoderResultTest
-implements org.j8unit.repository.java.nio.charset.CoderResultTests<CoderResult> {
+implements CoderResultTests<CoderResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.charset.CoderResult]
 

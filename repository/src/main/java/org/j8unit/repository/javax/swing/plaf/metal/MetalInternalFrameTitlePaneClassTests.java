@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.metal;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.metal.MetalInternalFrameTitlePane;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalInternalFrameTitlePaneTests}.
+ * {@link MetalInternalFrameTitlePaneTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalInternalFrameTitlePaneClassTests<SUT extends MetalInternalFrameTitlePane>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneClassTests<SUT> {
+extends BasicInternalFrameTitlePaneClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalInternalFrameTitlePane]
     /**

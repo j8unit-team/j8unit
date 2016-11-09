@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MimetypesFileTypeMapTest
-implements FactoryBasedJ8UnitTest<MimetypesFileTypeMap>, org.j8unit.repository.javax.activation.MimetypesFileTypeMapTests<MimetypesFileTypeMap> {
+implements FactoryBasedJ8UnitTest<MimetypesFileTypeMap>, MimetypesFileTypeMapTests<MimetypesFileTypeMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.MimetypesFileTypeMap]
 

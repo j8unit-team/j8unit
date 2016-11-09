@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiOptionPaneUITest
-implements FactoryBasedJ8UnitTest<MultiOptionPaneUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiOptionPaneUITests<MultiOptionPaneUI> {
+implements FactoryBasedJ8UnitTest<MultiOptionPaneUI>, MultiOptionPaneUITests<MultiOptionPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiOptionPaneUI]
 

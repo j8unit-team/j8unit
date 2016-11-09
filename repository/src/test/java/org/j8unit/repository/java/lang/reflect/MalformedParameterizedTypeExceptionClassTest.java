@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MalformedParameterizedTypeException} (by
+ * simply reusing the J8Unit test interface {@link MalformedParameterizedTypeExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MalformedParameterizedTypeExceptionClassTest
-implements org.j8unit.repository.java.lang.reflect.MalformedParameterizedTypeExceptionClassTests<MalformedParameterizedTypeException> {
+implements MalformedParameterizedTypeExceptionClassTests<MalformedParameterizedTypeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.MalformedParameterizedTypeException]
 

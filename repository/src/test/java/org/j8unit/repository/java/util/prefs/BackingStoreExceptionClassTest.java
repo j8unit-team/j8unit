@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BackingStoreException} (by simply reusing
+ * the J8Unit test interface {@link BackingStoreExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BackingStoreExceptionClassTest
-implements org.j8unit.repository.java.util.prefs.BackingStoreExceptionClassTests<BackingStoreException> {
+implements BackingStoreExceptionClassTests<BackingStoreException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.prefs.BackingStoreException]
 

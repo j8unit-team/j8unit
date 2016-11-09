@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ServiceDetailHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServiceDetailHelper} (by simply
+ * reusing the J8Unit test interface {@link ServiceDetailHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceDetailHelperTest
-implements org.j8unit.repository.org.omg.CORBA.ServiceDetailHelperTests<ServiceDetailHelper> {
+implements ServiceDetailHelperTests<ServiceDetailHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ServiceDetailHelper]
 

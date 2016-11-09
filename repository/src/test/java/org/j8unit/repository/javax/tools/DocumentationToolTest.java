@@ -13,9 +13,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentationTool} (by simply reusing
+ * the J8Unit test interface {@link DocumentationToolTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentationToolTest
-implements org.j8unit.repository.javax.tools.DocumentationToolTests<DocumentationTool> {
+implements DocumentationToolTests<DocumentationTool> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DocumentationTool]
 
@@ -28,10 +33,37 @@ implements org.j8unit.repository.javax.tools.DocumentationToolTests<Documentatio
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DocumentationTool]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentationTask} (by simply
+     * reusing the J8Unit test interface {@link DocumentationTaskTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DocumentationTaskTest
+    implements DocumentationTaskTests<DocumentationTask> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DocumentationTool$DocumentationTask]
+
+        @Override
+        public DocumentationTask createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.DocumentationTool.DocumentationTask], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.DocumentationTool$DocumentationTask]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DocumentationTool$DocumentationTask]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Location} (by simply reusing the
+     * J8Unit test interface {@link LocationTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class LocationTest
-    implements org.j8unit.repository.javax.tools.DocumentationToolTests.LocationTests<Location> {
+    implements LocationTests<Location> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DocumentationTool$Location]
 
@@ -51,23 +83,6 @@ implements org.j8unit.repository.javax.tools.DocumentationToolTests<Documentatio
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.DocumentationTool$Location]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DocumentationTool$Location]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DocumentationTaskTest
-    implements org.j8unit.repository.javax.tools.DocumentationToolTests.DocumentationTaskTests<DocumentationTask> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.DocumentationTool$DocumentationTask]
-
-        @Override
-        public DocumentationTask createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.tools.DocumentationTool.DocumentationTask], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.tools.DocumentationTool$DocumentationTask]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.tools.DocumentationTool$DocumentationTask]
 
     }
 

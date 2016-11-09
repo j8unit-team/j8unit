@@ -4,9 +4,14 @@ import javax.xml.stream.events.Comment;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Comment} (by simply reusing the J8Unit
+ * test interface {@link CommentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CommentClassTest
-implements org.j8unit.repository.javax.xml.stream.events.CommentClassTests<Comment> {
+implements CommentClassTests<Comment> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.events.Comment]
 

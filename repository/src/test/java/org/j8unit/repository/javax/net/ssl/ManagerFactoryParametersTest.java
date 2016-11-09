@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ManagerFactoryParameters} (by simply
+ * reusing the J8Unit test interface {@link ManagerFactoryParametersTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ManagerFactoryParametersTest
-implements org.j8unit.repository.javax.net.ssl.ManagerFactoryParametersTests<ManagerFactoryParameters> {
+implements ManagerFactoryParametersTests<ManagerFactoryParameters> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.ManagerFactoryParameters]
 

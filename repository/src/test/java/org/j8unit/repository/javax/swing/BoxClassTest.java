@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Box} (by simply reusing the J8Unit test
+ * interface {@link BoxClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BoxClassTest
-implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
+implements BoxClassTests<Box> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.Box]
 
@@ -206,9 +211,14 @@ implements org.j8unit.repository.javax.swing.BoxClassTests<Box> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.Box]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Filler} (by simply reusing the J8Unit
+     * test interface {@link FillerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FillerClassTest
-    implements org.j8unit.repository.javax.swing.BoxClassTests.FillerClassTests<Filler> {
+    implements FillerClassTests<Filler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.Box$Filler]
 

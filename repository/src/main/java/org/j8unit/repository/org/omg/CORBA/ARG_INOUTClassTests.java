@@ -18,8 +18,7 @@ import org.omg.CORBA.ARG_INOUT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.ARG_INOUTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ARG_INOUTTests}.
  * </p>
  *
  * <p>

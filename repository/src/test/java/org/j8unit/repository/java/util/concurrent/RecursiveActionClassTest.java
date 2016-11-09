@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RecursiveAction} (by simply reusing the
+ * J8Unit test interface {@link RecursiveActionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RecursiveActionClassTest
-implements org.j8unit.repository.java.util.concurrent.RecursiveActionClassTests<RecursiveAction> {
+implements RecursiveActionClassTests<RecursiveAction> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.RecursiveAction]
 

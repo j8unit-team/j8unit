@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.annotation.RetentionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RetentionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RetentionClassTests<SUT extends Retention>
-extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
+extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.annotation.Retention]
     /**

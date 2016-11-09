@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicToggleButtonUITest
-implements FactoryBasedJ8UnitTest<BasicToggleButtonUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests<BasicToggleButtonUI> {
+implements FactoryBasedJ8UnitTest<BasicToggleButtonUI>, BasicToggleButtonUITests<BasicToggleButtonUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToggleButtonUI]
 

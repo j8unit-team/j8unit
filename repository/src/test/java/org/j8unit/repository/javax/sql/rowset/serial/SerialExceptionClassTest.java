@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SerialException} (by simply reusing the
+ * J8Unit test interface {@link SerialExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SerialExceptionClassTest
-implements org.j8unit.repository.javax.sql.rowset.serial.SerialExceptionClassTests<SerialException> {
+implements SerialExceptionClassTests<SerialException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sql.rowset.serial.SerialException]
 

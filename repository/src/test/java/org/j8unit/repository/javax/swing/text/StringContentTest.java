@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringContentTest
-implements FactoryBasedJ8UnitTest<StringContent>, org.j8unit.repository.javax.swing.text.StringContentTests<StringContent> {
+implements FactoryBasedJ8UnitTest<StringContent>, StringContentTests<StringContent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.StringContent]
 

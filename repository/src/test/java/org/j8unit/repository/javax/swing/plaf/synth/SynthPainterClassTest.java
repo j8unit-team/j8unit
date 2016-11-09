@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SynthPainter} (by simply reusing the
+ * J8Unit test interface {@link SynthPainterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SynthPainterClassTest
-implements org.j8unit.repository.javax.swing.plaf.synth.SynthPainterClassTests<SynthPainter> {
+implements SynthPainterClassTests<SynthPainter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthPainter]
 

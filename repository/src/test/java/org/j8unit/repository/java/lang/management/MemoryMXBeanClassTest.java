@@ -4,9 +4,14 @@ import java.lang.management.MemoryMXBean;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MemoryMXBean} (by simply reusing the
+ * J8Unit test interface {@link MemoryMXBeanClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MemoryMXBeanClassTest
-implements org.j8unit.repository.java.lang.management.MemoryMXBeanClassTests<MemoryMXBean> {
+implements MemoryMXBeanClassTests<MemoryMXBean> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.MemoryMXBean]
 

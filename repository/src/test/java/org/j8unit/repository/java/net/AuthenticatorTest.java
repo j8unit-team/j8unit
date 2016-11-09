@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Authenticator} (by simply reusing the
+ * J8Unit test interface {@link AuthenticatorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AuthenticatorTest
-implements org.j8unit.repository.java.net.AuthenticatorTests<Authenticator> {
+implements AuthenticatorTests<Authenticator> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Authenticator]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.java.net.AuthenticatorTests<Authenticator> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.net.Authenticator]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link RequestorType} (by simply reusing
+     * the J8Unit test interface {@link RequestorTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RequestorTypeTest
-    implements org.j8unit.repository.java.net.AuthenticatorTests.RequestorTypeTests<RequestorType> {
+    implements RequestorTypeTests<RequestorType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Authenticator$RequestorType]
 

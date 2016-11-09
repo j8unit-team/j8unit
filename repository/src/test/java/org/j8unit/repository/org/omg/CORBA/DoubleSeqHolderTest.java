@@ -14,7 +14,7 @@ import org.omg.CORBA.DoubleSeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DoubleSeqHolderTest
-implements FactoryBasedJ8UnitTest<DoubleSeqHolder>, org.j8unit.repository.org.omg.CORBA.DoubleSeqHolderTests<DoubleSeqHolder> {
+implements FactoryBasedJ8UnitTest<DoubleSeqHolder>, DoubleSeqHolderTests<DoubleSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHolder]
 

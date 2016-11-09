@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InterruptedExceptionTest
-implements FactoryBasedJ8UnitTest<InterruptedException>, org.j8unit.repository.java.lang.InterruptedExceptionTests<InterruptedException> {
+implements FactoryBasedJ8UnitTest<InterruptedException>, InterruptedExceptionTests<InterruptedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InterruptedException]
 

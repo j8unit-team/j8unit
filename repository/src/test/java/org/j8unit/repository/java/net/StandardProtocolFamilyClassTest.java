@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StandardProtocolFamily} (by simply
+ * reusing the J8Unit test interface {@link StandardProtocolFamilyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StandardProtocolFamilyClassTest
-implements org.j8unit.repository.java.net.StandardProtocolFamilyClassTests<StandardProtocolFamily> {
+implements StandardProtocolFamilyClassTests<StandardProtocolFamily> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.StandardProtocolFamily]
 

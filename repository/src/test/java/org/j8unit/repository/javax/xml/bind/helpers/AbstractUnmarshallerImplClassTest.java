@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractUnmarshallerImpl} (by simply
+ * reusing the J8Unit test interface {@link AbstractUnmarshallerImplClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractUnmarshallerImplClassTest
-implements org.j8unit.repository.javax.xml.bind.helpers.AbstractUnmarshallerImplClassTests<AbstractUnmarshallerImpl> {
+implements AbstractUnmarshallerImplClassTests<AbstractUnmarshallerImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.helpers.AbstractUnmarshallerImpl]
 

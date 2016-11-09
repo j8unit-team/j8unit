@@ -14,7 +14,7 @@ import org.omg.DynamicAny._DynFixedStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _DynFixedStubTest
-implements FactoryBasedJ8UnitTest<_DynFixedStub>, org.j8unit.repository.org.omg.DynamicAny._DynFixedStubTests<_DynFixedStub> {
+implements FactoryBasedJ8UnitTest<_DynFixedStub>, _DynFixedStubTests<_DynFixedStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynFixedStub]
 

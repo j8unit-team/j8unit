@@ -14,7 +14,7 @@ import org.omg.CORBA.Principal;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PrincipalTest
-implements FactoryBasedJ8UnitTest<Principal>, org.j8unit.repository.org.omg.CORBA.PrincipalTests<Principal> {
+implements FactoryBasedJ8UnitTest<Principal>, PrincipalTests<Principal> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.Principal]
 

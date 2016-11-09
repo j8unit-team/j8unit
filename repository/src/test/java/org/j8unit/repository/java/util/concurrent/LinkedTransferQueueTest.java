@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LinkedTransferQueueTest<E>
-implements FactoryBasedJ8UnitTest<LinkedTransferQueue<E>>, org.j8unit.repository.java.util.concurrent.LinkedTransferQueueTests<LinkedTransferQueue<E>, E> {
+implements FactoryBasedJ8UnitTest<LinkedTransferQueue<E>>, LinkedTransferQueueTests<LinkedTransferQueue<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.LinkedTransferQueue]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributeChangeNotificationFilterTest
-implements FactoryBasedJ8UnitTest<AttributeChangeNotificationFilter>,
-org.j8unit.repository.javax.management.AttributeChangeNotificationFilterTests<AttributeChangeNotificationFilter> {
+implements FactoryBasedJ8UnitTest<AttributeChangeNotificationFilter>, AttributeChangeNotificationFilterTests<AttributeChangeNotificationFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.AttributeChangeNotificationFilter]
 

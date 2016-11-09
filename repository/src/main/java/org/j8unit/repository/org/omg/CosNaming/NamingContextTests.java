@@ -1,6 +1,8 @@
 package org.j8unit.repository.org.omg.CosNaming;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContext;
 
@@ -14,7 +16,7 @@ import org.omg.CosNaming.NamingContext;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextClassTests}).
+ * {@link NamingContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,8 +27,7 @@ import org.omg.CosNaming.NamingContext;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingContextTests<SUT extends NamingContext>
-extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends NamingContextOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContext]
 

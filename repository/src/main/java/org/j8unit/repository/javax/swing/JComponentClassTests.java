@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.JComponent;
 import javax.swing.JComponent.AccessibleJComponent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ContainerClassTests;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.javax.accessibility.AccessibleContextClassTests;
+import org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentClassTests;
+import org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JComponentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JComponentTests}.
  * </p>
  *
  * <p>
@@ -49,7 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JComponentClassTests<SUT extends JComponent>
-extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
+extends ContainerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComponent]
     /**
@@ -85,7 +89,7 @@ extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.JComponentTests.AccessibleJComponentTests}.
+     * {@link AccessibleJComponentTests}.
      * </p>
      *
      * <p>
@@ -114,8 +118,7 @@ extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AccessibleJComponentClassTests<SUT extends AccessibleJComponent>
-    extends org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.javax.accessibility.AccessibleContextClassTests<SUT> {
+    extends AccessibleExtendedComponentClassTests<SUT>, SerializableClassTests<SUT>, AccessibleContextClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
         /**

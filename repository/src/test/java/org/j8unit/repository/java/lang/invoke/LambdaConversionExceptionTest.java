@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LambdaConversionExceptionTest
-implements FactoryBasedJ8UnitTest<LambdaConversionException>, org.j8unit.repository.java.lang.invoke.LambdaConversionExceptionTests<LambdaConversionException> {
+implements FactoryBasedJ8UnitTest<LambdaConversionException>, LambdaConversionExceptionTests<LambdaConversionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.LambdaConversionException]
 

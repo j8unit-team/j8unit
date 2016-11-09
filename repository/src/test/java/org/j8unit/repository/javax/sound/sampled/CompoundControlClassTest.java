@@ -5,9 +5,14 @@ import javax.sound.sampled.CompoundControl.Type;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CompoundControl} (by simply reusing the
+ * J8Unit test interface {@link CompoundControlClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompoundControlClassTest
-implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests<CompoundControl> {
+implements CompoundControlClassTests<CompoundControl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.CompoundControl]
 
@@ -19,6 +24,11 @@ implements org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests<C
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.CompoundControl]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.CompoundControl]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests.TypeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeClassTest

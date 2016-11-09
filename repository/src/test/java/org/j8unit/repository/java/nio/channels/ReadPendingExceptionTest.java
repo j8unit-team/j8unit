@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReadPendingExceptionTest
-implements FactoryBasedJ8UnitTest<ReadPendingException>, org.j8unit.repository.java.nio.channels.ReadPendingExceptionTests<ReadPendingException> {
+implements FactoryBasedJ8UnitTest<ReadPendingException>, ReadPendingExceptionTests<ReadPendingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.ReadPendingException]
 

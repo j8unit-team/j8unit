@@ -14,7 +14,7 @@ import org.omg.IOP.TaggedComponent;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TaggedComponentTest
-implements FactoryBasedJ8UnitTest<TaggedComponent>, org.j8unit.repository.org.omg.IOP.TaggedComponentTests<TaggedComponent> {
+implements FactoryBasedJ8UnitTest<TaggedComponent>, TaggedComponentTests<TaggedComponent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TaggedComponent]
 

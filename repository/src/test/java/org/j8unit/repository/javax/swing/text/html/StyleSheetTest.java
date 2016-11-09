@@ -18,7 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StyleSheetTest
-implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing.text.html.StyleSheetTests<StyleSheet> {
+implements FactoryBasedJ8UnitTest<StyleSheet>, StyleSheetTests<StyleSheet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
 
@@ -39,9 +39,14 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.StyleSheet]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ListPainter} (by simply reusing
+     * the J8Unit test interface {@link ListPainterTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ListPainterTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests<ListPainter> {
+    implements ListPainterTests<ListPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$ListPainter]
 
@@ -56,9 +61,14 @@ implements FactoryBasedJ8UnitTest<StyleSheet>, org.j8unit.repository.javax.swing
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BoxPainter} (by simply reusing
+     * the J8Unit test interface {@link BoxPainterTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BoxPainterTest
-    implements org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests<BoxPainter> {
+    implements BoxPainterTests<BoxPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.StyleSheet$BoxPainter]
 

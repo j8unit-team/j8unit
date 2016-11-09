@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LineUnavailableException} (by simply
+ * reusing the J8Unit test interface {@link LineUnavailableExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LineUnavailableExceptionClassTest
-implements org.j8unit.repository.javax.sound.sampled.LineUnavailableExceptionClassTests<LineUnavailableException> {
+implements LineUnavailableExceptionClassTests<LineUnavailableException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.LineUnavailableException]
 

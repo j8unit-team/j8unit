@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaCompiler.CompilationTask;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.concurrent.CallableClassTests;
+import org.j8unit.repository.javax.tools.JavaCompilerTests.CompilationTaskTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.tools.JavaCompilerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JavaCompilerTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaCompilerClassTests<SUT extends JavaCompiler>
-extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
+extends ToolClassTests<SUT>, OptionCheckerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaCompiler]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.tools.JavaCompilerTests.CompilationTaskTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link CompilationTaskTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CompilationTaskClassTests<SUT extends CompilationTask>
-    extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT> {
+    extends CallableClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.JavaCompiler$CompilationTask]
         /**

@@ -14,7 +14,7 @@ import org.omg.CORBA.INVALID_TRANSACTION;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONClassTests}).
+ * {@link INVALID_TRANSACTIONClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.INVALID_TRANSACTION;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INVALID_TRANSACTIONTests<SUT extends INVALID_TRANSACTION>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INVALID_TRANSACTION]
 

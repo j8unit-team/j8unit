@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt;
 import static org.junit.Assert.assertTrue;
 import java.awt.Checkbox;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.CheckboxTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CheckboxTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CheckboxClassTests<SUT extends Checkbox>
-extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
-org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
+extends ItemSelectableClassTests<SUT>, AccessibleClassTests<SUT>, ComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Checkbox]
     /**

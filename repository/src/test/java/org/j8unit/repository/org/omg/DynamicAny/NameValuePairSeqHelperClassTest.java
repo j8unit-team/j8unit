@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.NameValuePairSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NameValuePairSeqHelper} (by simply
+ * reusing the J8Unit test interface {@link NameValuePairSeqHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NameValuePairSeqHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.NameValuePairSeqHelperClassTests<NameValuePairSeqHelper> {
+implements NameValuePairSeqHelperClassTests<NameValuePairSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.NameValuePairSeqHelper]
 

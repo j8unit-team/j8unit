@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InterruptedNamingExceptionTest
-implements FactoryBasedJ8UnitTest<InterruptedNamingException>, org.j8unit.repository.javax.naming.InterruptedNamingExceptionTests<InterruptedNamingException> {
+implements FactoryBasedJ8UnitTest<InterruptedNamingException>, InterruptedNamingExceptionTests<InterruptedNamingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InterruptedNamingException]
 

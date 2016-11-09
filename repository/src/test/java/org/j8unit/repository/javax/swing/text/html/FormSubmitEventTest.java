@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FormSubmitEvent} (by simply reusing
+ * the J8Unit test interface {@link FormSubmitEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FormSubmitEventTest
-implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests<FormSubmitEvent> {
+implements FormSubmitEventTests<FormSubmitEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests<Form
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MethodType} (by simply reusing
+     * the J8Unit test interface {@link MethodTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MethodTypeTest
-    implements org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests.MethodTypeTests<MethodType> {
+    implements MethodTypeTests<MethodType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 

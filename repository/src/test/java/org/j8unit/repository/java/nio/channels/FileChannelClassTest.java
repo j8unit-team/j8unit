@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileChannel} (by simply reusing the
+ * J8Unit test interface {@link FileChannelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileChannelClassTest
-implements org.j8unit.repository.java.nio.channels.FileChannelClassTests<FileChannel> {
+implements FileChannelClassTests<FileChannel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.FileChannel]
 
@@ -70,9 +75,14 @@ implements org.j8unit.repository.java.nio.channels.FileChannelClassTests<FileCha
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.channels.FileChannel]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MapMode} (by simply reusing the
+     * J8Unit test interface {@link MapModeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MapModeClassTest
-    implements org.j8unit.repository.java.nio.channels.FileChannelClassTests.MapModeClassTests<MapMode> {
+    implements MapModeClassTests<MapMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.FileChannel$MapMode]
 

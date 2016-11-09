@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthSpinnerUITest
-implements FactoryBasedJ8UnitTest<SynthSpinnerUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthSpinnerUITests<SynthSpinnerUI> {
+implements FactoryBasedJ8UnitTest<SynthSpinnerUI>, SynthSpinnerUITests<SynthSpinnerUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthSpinnerUI]
 

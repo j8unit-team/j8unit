@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.relation;
 import static org.junit.Assert.assertTrue;
 import javax.management.relation.RelationException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.JMExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.relation.RelationExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RelationExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationExceptionClassTests<SUT extends RelationException>
-extends org.j8unit.repository.javax.management.JMExceptionClassTests<SUT> {
+extends JMExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.relation.RelationException]
     /**

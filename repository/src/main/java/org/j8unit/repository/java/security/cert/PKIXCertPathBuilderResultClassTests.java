@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.cert.PKIXCertPathBuilderResultTests}.
+ * {@link PKIXCertPathBuilderResultTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXCertPathBuilderResultClassTests<SUT extends PKIXCertPathBuilderResult>
-extends org.j8unit.repository.java.security.cert.CertPathBuilderResultClassTests<SUT>,
-org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultClassTests<SUT> {
+extends CertPathBuilderResultClassTests<SUT>, PKIXCertPathValidatorResultClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXCertPathBuilderResult]
     /**

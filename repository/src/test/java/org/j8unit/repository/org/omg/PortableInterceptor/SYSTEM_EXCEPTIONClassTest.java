@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SYSTEM_EXCEPTION} (by simply reusing the
+ * J8Unit test interface {@link SYSTEM_EXCEPTIONClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SYSTEM_EXCEPTIONClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.SYSTEM_EXCEPTIONClassTests<SYSTEM_EXCEPTION> {
+implements SYSTEM_EXCEPTIONClassTests<SYSTEM_EXCEPTION> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.SYSTEM_EXCEPTION]
 

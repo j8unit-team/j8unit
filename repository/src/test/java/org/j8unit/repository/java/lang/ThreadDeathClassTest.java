@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ThreadDeath} (by simply reusing the
+ * J8Unit test interface {@link ThreadDeathClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThreadDeathClassTest
-implements org.j8unit.repository.java.lang.ThreadDeathClassTests<ThreadDeath> {
+implements ThreadDeathClassTests<ThreadDeath> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ThreadDeath]
 

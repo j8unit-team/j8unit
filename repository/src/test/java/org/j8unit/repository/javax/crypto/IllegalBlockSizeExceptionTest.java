@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalBlockSizeExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalBlockSizeException>, org.j8unit.repository.javax.crypto.IllegalBlockSizeExceptionTests<IllegalBlockSizeException> {
+implements FactoryBasedJ8UnitTest<IllegalBlockSizeException>, IllegalBlockSizeExceptionTests<IllegalBlockSizeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.IllegalBlockSizeException]
 

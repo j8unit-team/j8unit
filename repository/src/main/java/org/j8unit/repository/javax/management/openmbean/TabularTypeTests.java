@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.openmbean.TabularTypeClassTests}).
+ * {@link TabularTypeClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TabularTypeTests<SUT extends TabularType>
-extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, TabularData> {
+extends OpenTypeTests<SUT, TabularData> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.TabularType]
 

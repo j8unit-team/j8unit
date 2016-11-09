@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.omg.PortableServer.ServantActivatorPOA;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorPOAClassTests}).
+ * {@link ServantActivatorPOAClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +29,7 @@ import org.omg.PortableServer.ServantActivatorPOA;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorPOATests<SUT extends ServantActivatorPOA>
-extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT>,
-org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
+extends ServantActivatorOperationsTests<SUT>, InvokeHandlerTests<SUT>, ServantTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorPOA]
 

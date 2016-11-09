@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Resource} (by simply reusing the J8Unit
+ * test interface {@link ResourceClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ResourceClassTest
-implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
+implements ResourceClassTests<Resource> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.Resource]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.javax.annotation.ResourceClassTests<Resource> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.annotation.Resource]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link AuthenticationType} (by simply
+     * reusing the J8Unit test interface {@link AuthenticationTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AuthenticationTypeClassTest
-    implements org.j8unit.repository.javax.annotation.ResourceClassTests.AuthenticationTypeClassTests<AuthenticationType> {
+    implements AuthenticationTypeClassTests<AuthenticationType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.Resource$AuthenticationType]
 

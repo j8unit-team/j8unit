@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.swing.table;
 import static org.junit.Assert.assertTrue;
 import javax.swing.table.JTableHeader;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
+import org.j8unit.repository.javax.swing.JComponentClassTests;
+import org.j8unit.repository.javax.swing.event.TableColumnModelListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.table.JTableHeaderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JTableHeaderTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTableHeaderClassTests<SUT extends JTableHeader>
-extends org.j8unit.repository.javax.swing.event.TableColumnModelListenerClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
-org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends TableColumnModelListenerClassTests<SUT>, AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.JTableHeader]
     /**

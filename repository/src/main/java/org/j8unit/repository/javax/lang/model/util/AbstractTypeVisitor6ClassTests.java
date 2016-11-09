@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.lang.model.util;
 import static org.junit.Assert.assertTrue;
 import javax.lang.model.util.AbstractTypeVisitor6;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.lang.model.type.TypeVisitorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests}.
+ * {@link AbstractTypeVisitor6Tests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractTypeVisitor6ClassTests<SUT extends AbstractTypeVisitor6>
-extends org.j8unit.repository.javax.lang.model.type.TypeVisitorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends TypeVisitorClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.util.AbstractTypeVisitor6]
     /**

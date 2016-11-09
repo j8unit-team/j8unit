@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ScriptEngineManagerTest
-implements FactoryBasedJ8UnitTest<ScriptEngineManager>, org.j8unit.repository.javax.script.ScriptEngineManagerTests<ScriptEngineManager> {
+implements FactoryBasedJ8UnitTest<ScriptEngineManager>, ScriptEngineManagerTests<ScriptEngineManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.ScriptEngineManager]
 

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link SaslServer} (by simply reusing the
+ * J8Unit test interface {@link SaslServerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SaslServerTest
-implements org.j8unit.repository.javax.security.sasl.SaslServerTests<SaslServer> {
+implements SaslServerTests<SaslServer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.SaslServer]
 

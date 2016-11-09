@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LanguageCallbackTest
-implements FactoryBasedJ8UnitTest<LanguageCallback>, org.j8unit.repository.javax.security.auth.callback.LanguageCallbackTests<LanguageCallback> {
+implements FactoryBasedJ8UnitTest<LanguageCallback>, LanguageCallbackTests<LanguageCallback> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.callback.LanguageCallback]
 

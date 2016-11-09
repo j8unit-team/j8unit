@@ -4,6 +4,9 @@ import javax.xml.ws.handler.MessageContext;
 import javax.xml.ws.handler.MessageContext.Scope;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.util.MapTests;
+import org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests.ScopeClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests}).
+ * {@link MessageContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MessageContextTests<SUT extends MessageContext>
-extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
+extends MapTests<SUT, String, Object> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.handler.MessageContext]
 
@@ -93,7 +96,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests.ScopeClassTests}).
+     * (see {@link ScopeClassTests}).
      * </p>
      *
      * @param SUT
@@ -104,7 +107,7 @@ extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScopeTests<SUT extends Scope>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, Scope> {
+    extends EnumTests<SUT, Scope> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.handler.MessageContext$Scope]
 

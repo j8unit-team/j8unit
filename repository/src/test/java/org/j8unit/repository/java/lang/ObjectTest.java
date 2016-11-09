@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ObjectTest
-implements FactoryBasedJ8UnitTest<Object>, org.j8unit.repository.java.lang.ObjectTests<Object> {
+implements FactoryBasedJ8UnitTest<Object>, ObjectTests<Object> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Object]
 

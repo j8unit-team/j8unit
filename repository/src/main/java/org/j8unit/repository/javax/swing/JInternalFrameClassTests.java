@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.JInternalFrame;
 import javax.swing.JInternalFrame.JDesktopIcon;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
+import org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JInternalFrameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JInternalFrameTests}.
  * </p>
  *
  * <p>
@@ -49,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JInternalFrameClassTests<SUT extends JInternalFrame>
-extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.WindowConstantsClassTests<SUT>,
-org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends AccessibleClassTests<SUT>, WindowConstantsClassTests<SUT>, RootPaneContainerClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JInternalFrame]
     /**
@@ -85,8 +85,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link JDesktopIconTests}.
      * </p>
      *
      * <p>
@@ -115,7 +114,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface JDesktopIconClassTests<SUT extends JDesktopIcon>
-    extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+    extends AccessibleClassTests<SUT>, JComponentClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JInternalFrame$JDesktopIcon]
         /**

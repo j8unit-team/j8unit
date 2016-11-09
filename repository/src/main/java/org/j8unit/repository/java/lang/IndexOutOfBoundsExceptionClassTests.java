@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionTests}.
+ * {@link IndexOutOfBoundsExceptionTests}.
  * </p>
  *
  * <p>
@@ -46,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndexOutOfBoundsExceptionClassTests<SUT extends IndexOutOfBoundsException>
-extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
+extends RuntimeExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.IndexOutOfBoundsException]
     /**

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security;
 import static org.junit.Assert.assertTrue;
 import java.security.AlgorithmParameterGeneratorSpi;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.AlgorithmParameterGeneratorSpiTests}.
+ * {@link AlgorithmParameterGeneratorSpiTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlgorithmParameterGeneratorSpiClassTests<SUT extends AlgorithmParameterGeneratorSpi>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.AlgorithmParameterGeneratorSpi]
     /**

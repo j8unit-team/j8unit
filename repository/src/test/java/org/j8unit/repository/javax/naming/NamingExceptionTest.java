@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NamingExceptionTest
-implements FactoryBasedJ8UnitTest<NamingException>, org.j8unit.repository.javax.naming.NamingExceptionTests<NamingException> {
+implements FactoryBasedJ8UnitTest<NamingException>, NamingExceptionTests<NamingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NamingException]
 

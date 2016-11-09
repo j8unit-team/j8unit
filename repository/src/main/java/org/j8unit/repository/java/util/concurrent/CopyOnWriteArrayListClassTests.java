@@ -3,6 +3,11 @@ package org.j8unit.repository.java.util.concurrent;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.CopyOnWriteArrayList;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.ListClassTests;
+import org.j8unit.repository.java.util.RandomAccessClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +23,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.CopyOnWriteArrayListTests}.
+ * {@link CopyOnWriteArrayListTests}.
  * </p>
  *
  * <p>
@@ -47,9 +52,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CopyOnWriteArrayListClassTests<SUT extends CopyOnWriteArrayList>
-extends org.j8unit.repository.java.util.ListClassTests<SUT>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,
-org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ListClassTests<SUT>, RandomAccessClassTests<SUT>, CloneableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.CopyOnWriteArrayList]
     /**

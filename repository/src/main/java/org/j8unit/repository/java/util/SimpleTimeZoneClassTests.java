@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.SimpleTimeZoneTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleTimeZoneTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleTimeZoneClassTests<SUT extends SimpleTimeZone>
-extends org.j8unit.repository.java.util.TimeZoneClassTests<SUT> {
+extends TimeZoneClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.SimpleTimeZone]
     /**

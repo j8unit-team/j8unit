@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiViewportUITest
-implements FactoryBasedJ8UnitTest<MultiViewportUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiViewportUITests<MultiViewportUI> {
+implements FactoryBasedJ8UnitTest<MultiViewportUI>, MultiViewportUITests<MultiViewportUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiViewportUI]
 

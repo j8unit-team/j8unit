@@ -3,6 +3,7 @@ package org.j8unit.repository.java.sql;
 import static org.junit.Assert.assertTrue;
 import java.sql.Statement;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.AutoCloseableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.StatementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StatementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StatementClassTests<SUT extends Statement>
-extends org.j8unit.repository.java.sql.WrapperClassTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
+extends WrapperClassTests<SUT>, AutoCloseableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.Statement]
     /**

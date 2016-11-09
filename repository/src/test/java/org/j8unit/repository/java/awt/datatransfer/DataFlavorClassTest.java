@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DataFlavor} (by simply reusing the J8Unit
+ * test interface {@link DataFlavorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DataFlavorClassTest
-implements org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<DataFlavor> {
+implements DataFlavorClassTests<DataFlavor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.datatransfer.DataFlavor]
 

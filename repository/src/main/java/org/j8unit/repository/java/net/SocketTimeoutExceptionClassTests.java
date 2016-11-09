@@ -3,6 +3,7 @@ package org.j8unit.repository.java.net;
 import static org.junit.Assert.assertTrue;
 import java.net.SocketTimeoutException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.InterruptedIOExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.net.SocketTimeoutExceptionTests}.
+ * {@link SocketTimeoutExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SocketTimeoutExceptionClassTests<SUT extends SocketTimeoutException>
-extends org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<SUT> {
+extends InterruptedIOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.SocketTimeoutException]
     /**

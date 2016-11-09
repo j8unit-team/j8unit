@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalSplitPaneUITest
-implements FactoryBasedJ8UnitTest<MetalSplitPaneUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalSplitPaneUITests<MetalSplitPaneUI> {
+implements FactoryBasedJ8UnitTest<MetalSplitPaneUI>, MetalSplitPaneUITests<MetalSplitPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalSplitPaneUI]
 

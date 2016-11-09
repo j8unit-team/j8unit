@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringBuilderTest
-implements FactoryBasedJ8UnitTest<StringBuilder>, org.j8unit.repository.java.lang.StringBuilderTests<StringBuilder> {
+implements FactoryBasedJ8UnitTest<StringBuilder>, StringBuilderTests<StringBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.StringBuilder]
 

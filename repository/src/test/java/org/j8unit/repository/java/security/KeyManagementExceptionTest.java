@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class KeyManagementExceptionTest
-implements FactoryBasedJ8UnitTest<KeyManagementException>, org.j8unit.repository.java.security.KeyManagementExceptionTests<KeyManagementException> {
+implements FactoryBasedJ8UnitTest<KeyManagementException>, KeyManagementExceptionTests<KeyManagementException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyManagementException]
 

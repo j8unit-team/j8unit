@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.stream.XMLStreamReaderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XMLStreamReaderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLStreamReaderClassTests<SUT extends XMLStreamReader>
-extends org.j8unit.repository.javax.xml.stream.XMLStreamConstantsClassTests<SUT> {
+extends XMLStreamConstantsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.XMLStreamReader]
     /**

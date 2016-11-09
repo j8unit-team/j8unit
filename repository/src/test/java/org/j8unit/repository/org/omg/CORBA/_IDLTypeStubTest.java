@@ -14,7 +14,7 @@ import org.omg.CORBA._IDLTypeStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _IDLTypeStubTest
-implements FactoryBasedJ8UnitTest<_IDLTypeStub>, org.j8unit.repository.org.omg.CORBA._IDLTypeStubTests<_IDLTypeStub> {
+implements FactoryBasedJ8UnitTest<_IDLTypeStub>, _IDLTypeStubTests<_IDLTypeStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA._IDLTypeStub]
 

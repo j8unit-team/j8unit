@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import java.security.cert.PKIXRevocationChecker;
 import java.security.cert.PKIXRevocationChecker.Option;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +21,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests}.
+ * {@link PKIXRevocationCheckerTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXRevocationCheckerClassTests<SUT extends PKIXRevocationChecker>
-extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<SUT> {
+extends PKIXCertPathCheckerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXRevocationChecker]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link OptionTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OptionClassTests<SUT extends Option>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXRevocationChecker$Option]
         /**

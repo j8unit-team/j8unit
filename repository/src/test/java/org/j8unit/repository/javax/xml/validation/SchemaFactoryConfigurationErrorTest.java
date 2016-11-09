@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SchemaFactoryConfigurationErrorTest
-implements FactoryBasedJ8UnitTest<SchemaFactoryConfigurationError>,
-org.j8unit.repository.javax.xml.validation.SchemaFactoryConfigurationErrorTests<SchemaFactoryConfigurationError> {
+implements FactoryBasedJ8UnitTest<SchemaFactoryConfigurationError>, SchemaFactoryConfigurationErrorTests<SchemaFactoryConfigurationError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.validation.SchemaFactoryConfigurationError]
 

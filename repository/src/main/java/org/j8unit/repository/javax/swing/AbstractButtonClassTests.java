@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.AbstractButton;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ItemSelectableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.AbstractButtonTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AbstractButtonTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractButtonClassTests<SUT extends AbstractButton>
-extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>,
-org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends ItemSelectableClassTests<SUT>, SwingConstantsClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.AbstractButton]
     /**

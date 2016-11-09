@@ -14,7 +14,7 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnknownEncodingTest
-implements FactoryBasedJ8UnitTest<UnknownEncoding>, org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingTests<UnknownEncoding> {
+implements FactoryBasedJ8UnitTest<UnknownEncoding>, UnknownEncodingTests<UnknownEncoding> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecFactoryPackage.UnknownEncoding]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccessibleResourceBundleTest
-implements FactoryBasedJ8UnitTest<AccessibleResourceBundle>, org.j8unit.repository.javax.accessibility.AccessibleResourceBundleTests<AccessibleResourceBundle> {
+implements FactoryBasedJ8UnitTest<AccessibleResourceBundle>, AccessibleResourceBundleTests<AccessibleResourceBundle> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleResourceBundle]
 

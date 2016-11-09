@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Expression} (by simply reusing the
+ * J8Unit test interface {@link ExpressionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ExpressionTest
-implements org.j8unit.repository.java.beans.ExpressionTests<Expression> {
+implements ExpressionTests<Expression> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.Expression]
 

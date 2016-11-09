@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextPackage.NotFoundHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NotFoundHolder} (by simply reusing the
+ * J8Unit test interface {@link NotFoundHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NotFoundHolderClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundHolderClassTests<NotFoundHolder> {
+implements NotFoundHolderClassTests<NotFoundHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFoundHolder]
 

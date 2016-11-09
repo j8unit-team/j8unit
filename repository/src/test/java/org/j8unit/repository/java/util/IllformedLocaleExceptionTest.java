@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllformedLocaleExceptionTest
-implements FactoryBasedJ8UnitTest<IllformedLocaleException>, org.j8unit.repository.java.util.IllformedLocaleExceptionTests<IllformedLocaleException> {
+implements FactoryBasedJ8UnitTest<IllformedLocaleException>, IllformedLocaleExceptionTests<IllformedLocaleException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IllformedLocaleException]
 

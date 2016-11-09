@@ -4,9 +4,14 @@ import javax.swing.ListSelectionModel;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ListSelectionModel} (by simply reusing
+ * the J8Unit test interface {@link ListSelectionModelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ListSelectionModelClassTest
-implements org.j8unit.repository.javax.swing.ListSelectionModelClassTests<ListSelectionModel> {
+implements ListSelectionModelClassTests<ListSelectionModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.ListSelectionModel]
 

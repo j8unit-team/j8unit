@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TreeUI} (by simply reusing the J8Unit
+ * test interface {@link TreeUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TreeUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<TreeUI> {
+implements TreeUIClassTests<TreeUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.TreeUI]
 

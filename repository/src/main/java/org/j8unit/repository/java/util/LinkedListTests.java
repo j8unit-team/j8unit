@@ -3,6 +3,8 @@ package org.j8unit.repository.java.util;
 import java.util.LinkedList;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.LinkedListClassTests}).
+ * {@link LinkedListClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkedListTests<SUT extends LinkedList<E>, E>
-extends org.j8unit.repository.java.util.DequeTests<SUT, E>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
-org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.AbstractSequentialListTests<SUT, E> {
+extends DequeTests<SUT, E>, CloneableTests<SUT>, SerializableTests<SUT>, AbstractSequentialListTests<SUT, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.LinkedList]
 
@@ -977,8 +978,8 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     @Category(Draft.class)
     public default void test_iterator()
     throws Exception {
-        org.j8unit.repository.java.util.DequeTests.super.test_iterator();
-        org.j8unit.repository.java.util.AbstractSequentialListTests.super.test_iterator();
+        DequeTests.super.test_iterator();
+        AbstractSequentialListTests.super.test_iterator();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.LinkedList]

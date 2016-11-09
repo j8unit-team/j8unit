@@ -14,7 +14,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.security.auth.login.AccountLockedExceptionClassTests}).
+ * {@link AccountLockedExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccountLockedExceptionTests<SUT extends AccountLockedException>
-extends org.j8unit.repository.javax.security.auth.login.AccountExceptionTests<SUT> {
+extends AccountExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountLockedException]
 

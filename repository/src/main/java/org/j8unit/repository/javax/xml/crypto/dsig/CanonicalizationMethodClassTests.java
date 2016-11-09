@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.CanonicalizationMethodTests}.
+ * {@link CanonicalizationMethodTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CanonicalizationMethodClassTests<SUT extends CanonicalizationMethod>
-extends org.j8unit.repository.javax.xml.crypto.dsig.TransformClassTests<SUT> {
+extends TransformClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.CanonicalizationMethod]
     /**

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.spec;
 import static org.junit.Assert.assertTrue;
 import java.security.spec.MGF1ParameterSpec;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.spec.MGF1ParameterSpecTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MGF1ParameterSpecTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MGF1ParameterSpecClassTests<SUT extends MGF1ParameterSpec>
-extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends AlgorithmParameterSpecClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.MGF1ParameterSpec]
     /**

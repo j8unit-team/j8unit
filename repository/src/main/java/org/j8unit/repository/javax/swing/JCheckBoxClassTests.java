@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JCheckBoxTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JCheckBoxTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JCheckBoxClassTests<SUT extends JCheckBox>
-extends org.j8unit.repository.javax.swing.JToggleButtonClassTests<SUT> {
+extends JToggleButtonClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JCheckBox]
     /**

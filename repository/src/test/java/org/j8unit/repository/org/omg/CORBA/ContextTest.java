@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.Context;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Context} (by simply reusing the
+ * J8Unit test interface {@link ContextTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ContextTest
-implements org.j8unit.repository.org.omg.CORBA.ContextTests<Context> {
+implements ContextTests<Context> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.Context]
 

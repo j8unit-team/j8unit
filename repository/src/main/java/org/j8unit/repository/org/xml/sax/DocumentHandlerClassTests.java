@@ -18,8 +18,7 @@ import org.xml.sax.DocumentHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.DocumentHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentHandlerTests}.
  * </p>
  *
  * <p>

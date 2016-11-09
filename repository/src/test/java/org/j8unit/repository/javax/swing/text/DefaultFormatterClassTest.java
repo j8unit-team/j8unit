@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultFormatter} (by simply reusing the
+ * J8Unit test interface {@link DefaultFormatterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultFormatterClassTest
-implements org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests<DefaultFormatter> {
+implements DefaultFormatterClassTests<DefaultFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultFormatter]
 

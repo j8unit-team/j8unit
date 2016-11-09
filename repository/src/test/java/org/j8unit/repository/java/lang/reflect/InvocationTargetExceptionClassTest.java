@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvocationTargetException} (by simply
+ * reusing the J8Unit test interface {@link InvocationTargetExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvocationTargetExceptionClassTest
-implements org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionClassTests<InvocationTargetException> {
+implements InvocationTargetExceptionClassTests<InvocationTargetException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.InvocationTargetException]
 

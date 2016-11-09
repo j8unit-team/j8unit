@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.sound.midi;
 import static org.junit.Assert.assertTrue;
 import javax.sound.midi.InvalidMidiDataException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.midi.InvalidMidiDataExceptionTests}.
+ * {@link InvalidMidiDataExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidMidiDataExceptionClassTests<SUT extends InvalidMidiDataException>
-extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
+extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.InvalidMidiDataException]
     /**

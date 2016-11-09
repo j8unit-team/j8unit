@@ -18,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sql.RowSetReaderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RowSetReaderTests}.
  * </p>
  *
  * <p>

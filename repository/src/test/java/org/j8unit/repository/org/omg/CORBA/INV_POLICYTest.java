@@ -14,7 +14,7 @@ import org.omg.CORBA.INV_POLICY;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INV_POLICYTest
-implements FactoryBasedJ8UnitTest<INV_POLICY>, org.j8unit.repository.org.omg.CORBA.INV_POLICYTests<INV_POLICY> {
+implements FactoryBasedJ8UnitTest<INV_POLICY>, INV_POLICYTests<INV_POLICY> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_POLICY]
 

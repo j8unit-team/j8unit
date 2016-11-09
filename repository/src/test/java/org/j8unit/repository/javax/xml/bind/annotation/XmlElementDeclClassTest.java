@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XmlElementDecl} (by simply reusing the
+ * J8Unit test interface {@link XmlElementDeclClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XmlElementDeclClassTest
-implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests<XmlElementDecl> {
+implements XmlElementDeclClassTests<XmlElementDecl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTe
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link GLOBAL} (by simply reusing the J8Unit
+     * test interface {@link GLOBALClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class GLOBALClassTest
-    implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests<GLOBAL> {
+    implements GLOBALClassTests<GLOBAL> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 

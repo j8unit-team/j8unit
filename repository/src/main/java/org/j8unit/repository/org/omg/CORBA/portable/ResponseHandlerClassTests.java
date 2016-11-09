@@ -18,8 +18,7 @@ import org.omg.CORBA.portable.ResponseHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.ResponseHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ResponseHandlerTests}.
  * </p>
  *
  * <p>

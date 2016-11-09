@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DatagramSocketImpl} (by simply reusing
+ * the J8Unit test interface {@link DatagramSocketImplClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DatagramSocketImplClassTest
-implements org.j8unit.repository.java.net.DatagramSocketImplClassTests<DatagramSocketImpl> {
+implements DatagramSocketImplClassTests<DatagramSocketImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.DatagramSocketImpl]
 

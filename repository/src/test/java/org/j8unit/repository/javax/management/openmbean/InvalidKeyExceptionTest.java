@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidKeyExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidKeyException>, org.j8unit.repository.javax.management.openmbean.InvalidKeyExceptionTests<InvalidKeyException> {
+implements FactoryBasedJ8UnitTest<InvalidKeyException>, InvalidKeyExceptionTests<InvalidKeyException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.InvalidKeyException]
 

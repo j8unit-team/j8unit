@@ -19,7 +19,7 @@ import org.omg.CORBA.DomainManagerOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.DomainManagerOperationsTests}.
+ * {@link DomainManagerOperationsTests}.
  * </p>
  *
  * <p>

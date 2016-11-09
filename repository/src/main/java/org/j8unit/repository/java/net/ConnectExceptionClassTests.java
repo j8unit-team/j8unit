@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConnectExceptionClassTests<SUT extends ConnectException>
-extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
+extends SocketExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.ConnectException]
     /**

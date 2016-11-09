@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LinkExceptionTest
-implements FactoryBasedJ8UnitTest<LinkException>, org.j8unit.repository.javax.naming.LinkExceptionTests<LinkException> {
+implements FactoryBasedJ8UnitTest<LinkException>, LinkExceptionTests<LinkException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.LinkException]
 

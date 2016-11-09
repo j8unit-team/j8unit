@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JTableHeaderTest
-implements FactoryBasedJ8UnitTest<JTableHeader>, org.j8unit.repository.javax.swing.table.JTableHeaderTests<JTableHeader> {
+implements FactoryBasedJ8UnitTest<JTableHeader>, JTableHeaderTests<JTableHeader> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.table.JTableHeader]
 

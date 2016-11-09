@@ -14,6 +14,15 @@ import java.security.KeyStore.SecretKeyEntry;
 import java.security.KeyStore.TrustedCertificateEntry;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests;
+import org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests;
+import org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests;
+import org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests;
+import org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests;
+import org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests;
+import org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests;
+import org.j8unit.repository.javax.security.auth.DestroyableClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -29,8 +38,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.KeyStoreTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link KeyStoreTests}.
  * </p>
  *
  * <p>
@@ -59,7 +67,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyStoreClassTests<SUT extends KeyStore>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore]
     /**
@@ -94,8 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link PrivateKeyEntryTests}.
      * </p>
      *
      * <p>
@@ -124,7 +131,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrivateKeyEntryClassTests<SUT extends PrivateKeyEntry>
-    extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$PrivateKeyEntry]
         /**
@@ -161,8 +168,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SecretKeyEntryTests}.
      * </p>
      *
      * <p>
@@ -191,7 +197,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SecretKeyEntryClassTests<SUT extends SecretKeyEntry>
-    extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$SecretKeyEntry]
         /**
@@ -258,7 +264,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Builder>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$Builder]
         /**
@@ -295,8 +301,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.EntryTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link EntryTests}.
      * </p>
      *
      * <p>
@@ -428,7 +433,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests}.
+     * {@link TrustedCertificateEntryTests}.
      * </p>
      *
      * <p>
@@ -457,7 +462,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrustedCertificateEntryClassTests<SUT extends TrustedCertificateEntry>
-    extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$TrustedCertificateEntry]
         /**
@@ -495,7 +500,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests}.
+     * {@link PasswordProtectionTests}.
      * </p>
      *
      * <p>
@@ -524,8 +529,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasswordProtectionClassTests<SUT extends PasswordProtection>
-    extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>,
-    org.j8unit.repository.javax.security.auth.DestroyableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, DestroyableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$PasswordProtection]
         /**
@@ -563,7 +567,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests}.
+     * {@link LoadStoreParameterTests}.
      * </p>
      *
      * <p>
@@ -629,7 +633,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests}.
+     * {@link ProtectionParameterTests}.
      * </p>
      *
      * <p>
@@ -695,7 +699,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests}.
+     * {@link CallbackHandlerProtectionTests}.
      * </p>
      *
      * <p>
@@ -724,7 +728,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallbackHandlerProtectionClassTests<SUT extends CallbackHandlerProtection>
-    extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyStore$CallbackHandlerProtection]
         /**

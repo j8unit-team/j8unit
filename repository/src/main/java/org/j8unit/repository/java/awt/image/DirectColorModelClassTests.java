@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.DirectColorModelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DirectColorModelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirectColorModelClassTests<SUT extends DirectColorModel>
-extends org.j8unit.repository.java.awt.image.PackedColorModelClassTests<SUT> {
+extends PackedColorModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.DirectColorModel]
     /**

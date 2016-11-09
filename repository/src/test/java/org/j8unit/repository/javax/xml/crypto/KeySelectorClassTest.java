@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeySelector} (by simply reusing the
+ * J8Unit test interface {@link KeySelectorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeySelectorClassTest
-implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<KeySelector> {
+implements KeySelectorClassTests<KeySelector> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.KeySelector]
 
@@ -45,9 +50,14 @@ implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests<KeySelec
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.crypto.KeySelector]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Purpose} (by simply reusing the
+     * J8Unit test interface {@link PurposeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PurposeClassTest
-    implements org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests.PurposeClassTests<Purpose> {
+    implements PurposeClassTests<Purpose> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.KeySelector$Purpose]
 

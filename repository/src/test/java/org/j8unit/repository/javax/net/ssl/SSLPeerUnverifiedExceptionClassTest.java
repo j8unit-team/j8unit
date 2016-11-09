@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SSLPeerUnverifiedException} (by simply
+ * reusing the J8Unit test interface {@link SSLPeerUnverifiedExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SSLPeerUnverifiedExceptionClassTest
-implements org.j8unit.repository.javax.net.ssl.SSLPeerUnverifiedExceptionClassTests<SSLPeerUnverifiedException> {
+implements SSLPeerUnverifiedExceptionClassTests<SSLPeerUnverifiedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLPeerUnverifiedException]
 

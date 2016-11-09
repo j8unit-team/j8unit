@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.AbstractListClassTests}).
+ * {@link AbstractListClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractListTests<SUT extends AbstractList<E>, E>
-extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
+extends ListTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractList]
 
@@ -402,8 +402,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_removeAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_removeAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_removeAll_Collection();
+        ListTests.super.test_removeAll_Collection();
+        AbstractCollectionTests.super.test_removeAll_Collection();
     }
 
     /**
@@ -430,8 +430,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_contains_Object()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_contains_Object();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_contains_Object();
+        ListTests.super.test_contains_Object();
+        AbstractCollectionTests.super.test_contains_Object();
     }
 
     /**
@@ -458,8 +458,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_size()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_size();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_size();
+        ListTests.super.test_size();
+        AbstractCollectionTests.super.test_size();
     }
 
     /**
@@ -486,8 +486,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_addAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_addAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_addAll_Collection();
+        ListTests.super.test_addAll_Collection();
+        AbstractCollectionTests.super.test_addAll_Collection();
     }
 
     /**
@@ -514,8 +514,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_toArray()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_toArray();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray();
+        ListTests.super.test_toArray();
+        AbstractCollectionTests.super.test_toArray();
     }
 
     /**
@@ -542,8 +542,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_toArray_ObjectArray()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_toArray_ObjectArray();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray_ObjectArray();
+        ListTests.super.test_toArray_ObjectArray();
+        AbstractCollectionTests.super.test_toArray_ObjectArray();
     }
 
     /**
@@ -570,8 +570,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_retainAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_retainAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_retainAll_Collection();
+        ListTests.super.test_retainAll_Collection();
+        AbstractCollectionTests.super.test_retainAll_Collection();
     }
 
     /**
@@ -599,8 +599,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_containsAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_containsAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_containsAll_Collection();
+        ListTests.super.test_containsAll_Collection();
+        AbstractCollectionTests.super.test_containsAll_Collection();
     }
 
     /**
@@ -627,8 +627,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_isEmpty()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_isEmpty();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_isEmpty();
+        ListTests.super.test_isEmpty();
+        AbstractCollectionTests.super.test_isEmpty();
     }
 
     /**
@@ -655,8 +655,8 @@ extends org.j8unit.repository.java.util.ListTests<SUT, E>, org.j8unit.repository
     @Category(Draft.class)
     public default void test_remove_Object()
     throws Exception {
-        org.j8unit.repository.java.util.ListTests.super.test_remove_Object();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_remove_Object();
+        ListTests.super.test_remove_Object();
+        AbstractCollectionTests.super.test_remove_Object();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractList]

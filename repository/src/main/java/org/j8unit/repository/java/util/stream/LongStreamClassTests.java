@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.stream.LongStream;
 import java.util.stream.LongStream.Builder;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.function.LongConsumerClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.stream.LongStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LongStreamTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongStreamClassTests<SUT extends LongStream>
-extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
+extends BaseStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.LongStream]
     /**
@@ -84,8 +84,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.stream.LongStreamTests.BuilderTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link BuilderTests}.
      * </p>
      *
      * <p>
@@ -114,7 +113,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Builder>
-    extends org.j8unit.repository.java.util.function.LongConsumerClassTests<SUT> {
+    extends LongConsumerClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.LongStream$Builder]
         /**

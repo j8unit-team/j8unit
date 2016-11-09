@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.INTERNAL;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link INTERNAL} (by simply reusing the J8Unit
+ * test interface {@link INTERNALClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class INTERNALClassTest
-implements org.j8unit.repository.org.omg.CORBA.INTERNALClassTests<INTERNAL> {
+implements INTERNALClassTests<INTERNAL> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INTERNAL]
 

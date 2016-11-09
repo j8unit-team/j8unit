@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentFilter} (by simply reusing the
+ * J8Unit test interface {@link DocumentFilterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentFilterClassTest
-implements org.j8unit.repository.javax.swing.text.DocumentFilterClassTests<DocumentFilter> {
+implements DocumentFilterClassTests<DocumentFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DocumentFilter]
 
@@ -46,9 +51,14 @@ implements org.j8unit.repository.javax.swing.text.DocumentFilterClassTests<Docum
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DocumentFilter]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FilterBypass} (by simply reusing the
+     * J8Unit test interface {@link FilterBypassClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FilterBypassClassTest
-    implements org.j8unit.repository.javax.swing.text.DocumentFilterClassTests.FilterBypassClassTests<FilterBypass> {
+    implements FilterBypassClassTests<FilterBypass> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DocumentFilter$FilterBypass]
 

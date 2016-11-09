@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link X500PrivateCredential} (by simply reusing
+ * the J8Unit test interface {@link X500PrivateCredentialClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class X500PrivateCredentialClassTest
-implements org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialClassTests<X500PrivateCredential> {
+implements X500PrivateCredentialClassTests<X500PrivateCredential> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.x500.X500PrivateCredential]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DHPublicKeySpec} (by simply reusing the
+ * J8Unit test interface {@link DHPublicKeySpecClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DHPublicKeySpecClassTest
-implements org.j8unit.repository.javax.crypto.spec.DHPublicKeySpecClassTests<DHPublicKeySpec> {
+implements DHPublicKeySpecClassTests<DHPublicKeySpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.DHPublicKeySpec]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.IMP_LIMIT;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IMP_LIMITTest
-implements FactoryBasedJ8UnitTest<IMP_LIMIT>, org.j8unit.repository.org.omg.CORBA.IMP_LIMITTests<IMP_LIMIT> {
+implements FactoryBasedJ8UnitTest<IMP_LIMIT>, IMP_LIMITTests<IMP_LIMIT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IMP_LIMIT]
 

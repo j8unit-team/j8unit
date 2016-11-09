@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BatchUpdateExceptionTest
-implements FactoryBasedJ8UnitTest<BatchUpdateException>, org.j8unit.repository.java.sql.BatchUpdateExceptionTests<BatchUpdateException> {
+implements FactoryBasedJ8UnitTest<BatchUpdateException>, BatchUpdateExceptionTests<BatchUpdateException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.BatchUpdateException]
 

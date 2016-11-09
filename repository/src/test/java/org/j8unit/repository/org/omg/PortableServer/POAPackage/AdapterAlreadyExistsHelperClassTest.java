@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterAlreadyExistsHelper} (by simply
+ * reusing the J8Unit test interface {@link AdapterAlreadyExistsHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterAlreadyExistsHelperClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelperClassTests<AdapterAlreadyExistsHelper> {
+implements AdapterAlreadyExistsHelperClassTests<AdapterAlreadyExistsHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper]
 

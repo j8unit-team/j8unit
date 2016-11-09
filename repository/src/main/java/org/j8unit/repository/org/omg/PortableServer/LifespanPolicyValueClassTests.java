@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.LifespanPolicyValue;
@@ -17,8 +19,7 @@ import org.omg.PortableServer.LifespanPolicyValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.LifespanPolicyValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LifespanPolicyValueTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.PortableServer.LifespanPolicyValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LifespanPolicyValueClassTests<SUT extends LifespanPolicyValue>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends IDLEntityClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.LifespanPolicyValue]
     /**

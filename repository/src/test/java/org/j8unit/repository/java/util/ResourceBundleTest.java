@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ResourceBundle} (by simply reusing
+ * the J8Unit test interface {@link ResourceBundleTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ResourceBundleTest
-implements org.j8unit.repository.java.util.ResourceBundleTests<ResourceBundle> {
+implements ResourceBundleTests<ResourceBundle> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ResourceBundle]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.java.util.ResourceBundleTests<ResourceBundle> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.ResourceBundle]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Control} (by simply reusing the
+     * J8Unit test interface {@link ControlTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ControlTest
-    implements org.j8unit.repository.java.util.ResourceBundleTests.ControlTests<Control> {
+    implements ControlTests<Control> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.ResourceBundle$Control]
 

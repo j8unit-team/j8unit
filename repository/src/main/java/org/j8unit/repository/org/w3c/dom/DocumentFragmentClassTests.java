@@ -17,8 +17,7 @@ import org.w3c.dom.DocumentFragment;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.DocumentFragmentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentFragmentTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.DocumentFragment;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentFragmentClassTests<SUT extends DocumentFragment>
-extends org.j8unit.repository.org.w3c.dom.NodeClassTests<SUT> {
+extends NodeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.DocumentFragment]
     /**

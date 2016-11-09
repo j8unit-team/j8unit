@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Base64} (by simply reusing the J8Unit
+ * test interface {@link Base64Tests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Base64Test
-implements org.j8unit.repository.java.util.Base64Tests<Base64> {
+implements Base64Tests<Base64> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64]
 
@@ -22,9 +27,14 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Base64]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Encoder} (by simply reusing the
+     * J8Unit test interface {@link EncoderTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class EncoderTest
-    implements org.j8unit.repository.java.util.Base64Tests.EncoderTests<Encoder> {
+    implements EncoderTests<Encoder> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Encoder]
 
@@ -39,9 +49,14 @@ implements org.j8unit.repository.java.util.Base64Tests<Base64> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Decoder} (by simply reusing the
+     * J8Unit test interface {@link DecoderTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DecoderTest
-    implements org.j8unit.repository.java.util.Base64Tests.DecoderTests<Decoder> {
+    implements DecoderTests<Decoder> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Base64$Decoder]
 

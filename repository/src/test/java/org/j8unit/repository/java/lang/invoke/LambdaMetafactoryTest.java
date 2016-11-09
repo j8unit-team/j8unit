@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LambdaMetafactoryTest
-implements FactoryBasedJ8UnitTest<LambdaMetafactory>, org.j8unit.repository.java.lang.invoke.LambdaMetafactoryTests<LambdaMetafactory> {
+implements FactoryBasedJ8UnitTest<LambdaMetafactory>, LambdaMetafactoryTests<LambdaMetafactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.LambdaMetafactory]
 

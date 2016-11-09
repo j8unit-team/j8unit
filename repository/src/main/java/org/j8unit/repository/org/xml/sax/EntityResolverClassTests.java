@@ -18,8 +18,7 @@ import org.xml.sax.EntityResolver;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.EntityResolverTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link EntityResolverTests}.
  * </p>
  *
  * <p>

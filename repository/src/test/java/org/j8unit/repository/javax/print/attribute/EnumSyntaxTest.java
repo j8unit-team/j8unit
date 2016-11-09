@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link EnumSyntax} (by simply reusing the
+ * J8Unit test interface {@link EnumSyntaxTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EnumSyntaxTest
-implements org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<EnumSyntax> {
+implements EnumSyntaxTests<EnumSyntax> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.EnumSyntax]
 

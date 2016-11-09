@@ -18,8 +18,7 @@ import org.w3c.dom.css.CSSRuleList;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSRuleListTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSRuleListTests}.
  * </p>
  *
  * <p>

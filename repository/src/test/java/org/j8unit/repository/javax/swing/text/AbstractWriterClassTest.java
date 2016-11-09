@@ -4,9 +4,14 @@ import javax.swing.text.AbstractWriter;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractWriter} (by simply reusing the
+ * J8Unit test interface {@link AbstractWriterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractWriterClassTest
-implements org.j8unit.repository.javax.swing.text.AbstractWriterClassTests<AbstractWriter> {
+implements AbstractWriterClassTests<AbstractWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AbstractWriter]
 

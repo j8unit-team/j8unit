@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiDesktopIconUITest
-implements FactoryBasedJ8UnitTest<MultiDesktopIconUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiDesktopIconUITests<MultiDesktopIconUI> {
+implements FactoryBasedJ8UnitTest<MultiDesktopIconUI>, MultiDesktopIconUITests<MultiDesktopIconUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiDesktopIconUI]
 

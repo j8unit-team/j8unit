@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Kernel} (by simply reusing the J8Unit
+ * test interface {@link KernelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KernelClassTest
-implements org.j8unit.repository.java.awt.image.KernelClassTests<Kernel> {
+implements KernelClassTests<Kernel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.Kernel]
 

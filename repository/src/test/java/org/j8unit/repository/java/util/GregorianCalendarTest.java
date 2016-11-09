@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class GregorianCalendarTest
-implements FactoryBasedJ8UnitTest<GregorianCalendar>, org.j8unit.repository.java.util.GregorianCalendarTests<GregorianCalendar> {
+implements FactoryBasedJ8UnitTest<GregorianCalendar>, GregorianCalendarTests<GregorianCalendar> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.GregorianCalendar]
 

@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Base64} (by simply reusing the J8Unit
+ * test interface {@link Base64ClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Base64ClassTest
-implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
+implements Base64ClassTests<Base64> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Base64]
 
@@ -83,26 +88,6 @@ implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.util.Base64#getMimeEncoder(int, byte[]) public
-     * static java.util.Base64$Encoder java.util.Base64.getMimeEncoder(int,byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getMimeEncoder_int_byteArray()
-    throws Exception {
-        // write some test for {@link java.util.Base64#getMimeEncoder(int, byte[])}
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.util.Base64#getMimeEncoder() public static
      * java.util.Base64$Encoder java.util.Base64.getMimeEncoder()}.
      *
@@ -119,6 +104,26 @@ implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
     public void test_getMimeEncoder()
     throws Exception {
         // write some test for {@link java.util.Base64#getMimeEncoder()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.util.Base64#getMimeEncoder(int, byte[]) public
+     * static java.util.Base64$Encoder java.util.Base64.getMimeEncoder(int,byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getMimeEncoder_int_byteArray()
+    throws Exception {
+        // write some test for {@link java.util.Base64#getMimeEncoder(int, byte[])}
     }
 
     /**
@@ -165,9 +170,14 @@ implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Base64]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Encoder} (by simply reusing the
+     * J8Unit test interface {@link EncoderClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class EncoderClassTest
-    implements org.j8unit.repository.java.util.Base64ClassTests.EncoderClassTests<Encoder> {
+    implements EncoderClassTests<Encoder> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Base64$Encoder]
 
@@ -182,9 +192,14 @@ implements org.j8unit.repository.java.util.Base64ClassTests<Base64> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Decoder} (by simply reusing the
+     * J8Unit test interface {@link DecoderClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DecoderClassTest
-    implements org.j8unit.repository.java.util.Base64ClassTests.DecoderClassTests<Decoder> {
+    implements DecoderClassTests<Decoder> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Base64$Decoder]
 

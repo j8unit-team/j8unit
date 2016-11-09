@@ -5,6 +5,10 @@ import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests;
+import org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.WriteLockClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests}).
+ * {@link ReentrantReadWriteLockClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,8 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReentrantReadWriteLockTests<SUT extends ReentrantReadWriteLock>
-extends org.j8unit.repository.java.util.concurrent.locks.ReadWriteLockTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ReadWriteLockTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
@@ -376,8 +379,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests}).
+     * (see {@link ReadLockClassTests}).
      * </p>
      *
      * @param SUT
@@ -388,8 +390,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReadLockTests<SUT extends ReadLock>
-    extends org.j8unit.repository.java.util.concurrent.locks.LockTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends LockTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
@@ -580,8 +581,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.WriteLockClassTests}).
+     * (see {@link WriteLockClassTests}).
      * </p>
      *
      * @param SUT
@@ -592,8 +592,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface WriteLockTests<SUT extends WriteLock>
-    extends org.j8unit.repository.java.util.concurrent.locks.LockTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends LockTests<SUT>, SerializableTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 

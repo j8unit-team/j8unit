@@ -3,6 +3,7 @@ package org.j8unit.repository.java.time.chrono;
 import static org.junit.Assert.assertTrue;
 import java.time.chrono.ChronoPeriod;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.time.temporal.TemporalAmountClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.chrono.ChronoPeriodTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ChronoPeriodTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronoPeriodClassTests<SUT extends ChronoPeriod>
-extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT> {
+extends TemporalAmountClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.ChronoPeriod]
     /**

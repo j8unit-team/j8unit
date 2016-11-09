@@ -4,9 +4,14 @@ import java.awt.event.HierarchyListener;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HierarchyListener} (by simply reusing the
+ * J8Unit test interface {@link HierarchyListenerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HierarchyListenerClassTest
-implements org.j8unit.repository.java.awt.event.HierarchyListenerClassTests<HierarchyListener> {
+implements HierarchyListenerClassTests<HierarchyListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.HierarchyListener]
 

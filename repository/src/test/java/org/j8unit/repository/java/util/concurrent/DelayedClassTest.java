@@ -4,9 +4,14 @@ import java.util.concurrent.Delayed;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Delayed} (by simply reusing the J8Unit
+ * test interface {@link DelayedClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DelayedClassTest
-implements org.j8unit.repository.java.util.concurrent.DelayedClassTests<Delayed> {
+implements DelayedClassTests<Delayed> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.Delayed]
 

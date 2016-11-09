@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ECFieldF2m} (by simply reusing the J8Unit
+ * test interface {@link ECFieldF2mClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ECFieldF2mClassTest
-implements org.j8unit.repository.java.security.spec.ECFieldF2mClassTests<ECFieldF2m> {
+implements ECFieldF2mClassTests<ECFieldF2m> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.ECFieldF2m]
 

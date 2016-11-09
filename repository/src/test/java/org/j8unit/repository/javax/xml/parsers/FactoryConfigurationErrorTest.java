@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FactoryConfigurationErrorTest
-implements FactoryBasedJ8UnitTest<FactoryConfigurationError>,
-org.j8unit.repository.javax.xml.parsers.FactoryConfigurationErrorTests<FactoryConfigurationError> {
+implements FactoryBasedJ8UnitTest<FactoryConfigurationError>, FactoryConfigurationErrorTests<FactoryConfigurationError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.parsers.FactoryConfigurationError]
 

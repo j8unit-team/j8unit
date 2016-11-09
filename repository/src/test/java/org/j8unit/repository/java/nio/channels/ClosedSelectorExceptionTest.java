@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClosedSelectorExceptionTest
-implements FactoryBasedJ8UnitTest<ClosedSelectorException>, org.j8unit.repository.java.nio.channels.ClosedSelectorExceptionTests<ClosedSelectorException> {
+implements FactoryBasedJ8UnitTest<ClosedSelectorException>, ClosedSelectorExceptionTests<ClosedSelectorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.ClosedSelectorException]
 

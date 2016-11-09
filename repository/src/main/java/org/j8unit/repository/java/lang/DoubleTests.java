@@ -27,7 +27,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleTests<SUT extends Double>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, Double>, org.j8unit.repository.java.lang.NumberTests<SUT> {
+extends ComparableTests<SUT, Double>, NumberTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Double]
 

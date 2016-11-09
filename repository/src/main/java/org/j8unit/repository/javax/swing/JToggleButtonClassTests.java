@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.JToggleButton;
 import javax.swing.JToggleButton.ToggleButtonModel;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
+import org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JToggleButtonTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JToggleButtonTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JToggleButtonClassTests<SUT extends JToggleButton>
-extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
+extends AccessibleClassTests<SUT>, AbstractButtonClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToggleButton]
     /**
@@ -85,7 +86,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests}.
+     * {@link ToggleButtonModelTests}.
      * </p>
      *
      * <p>
@@ -114,7 +115,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToggleButtonModelClassTests<SUT extends ToggleButtonModel>
-    extends org.j8unit.repository.javax.swing.DefaultButtonModelClassTests<SUT> {
+    extends DefaultButtonModelClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JToggleButton$ToggleButtonModel]
         /**

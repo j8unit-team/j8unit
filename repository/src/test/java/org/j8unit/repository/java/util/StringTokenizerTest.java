@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link StringTokenizer} (by simply reusing
+ * the J8Unit test interface {@link StringTokenizerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StringTokenizerTest
-implements org.j8unit.repository.java.util.StringTokenizerTests<StringTokenizer> {
+implements StringTokenizerTests<StringTokenizer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.StringTokenizer]
 

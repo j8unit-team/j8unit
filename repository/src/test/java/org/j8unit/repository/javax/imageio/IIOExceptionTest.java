@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IIOException} (by simply reusing the
+ * J8Unit test interface {@link IIOExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IIOExceptionTest
-implements org.j8unit.repository.javax.imageio.IIOExceptionTests<IIOException> {
+implements IIOExceptionTests<IIOException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.imageio.IIOException]
 

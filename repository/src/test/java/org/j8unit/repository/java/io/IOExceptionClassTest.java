@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IOException} (by simply reusing the
+ * J8Unit test interface {@link IOExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IOExceptionClassTest
-implements org.j8unit.repository.java.io.IOExceptionClassTests<IOException> {
+implements IOExceptionClassTests<IOException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.IOException]
 

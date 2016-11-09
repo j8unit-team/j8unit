@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny._DynAnyFactoryStub;
@@ -17,8 +18,7 @@ import org.omg.DynamicAny._DynAnyFactoryStub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny._DynAnyFactoryStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link _DynAnyFactoryStubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.DynamicAny._DynAnyFactoryStub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynAnyFactoryStubClassTests<SUT extends _DynAnyFactoryStub>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
+extends DynAnyFactoryClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynAnyFactoryStub]
     /**

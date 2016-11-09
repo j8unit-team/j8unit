@@ -17,8 +17,7 @@ import org.omg.CORBA.IMP_LIMIT;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.IMP_LIMITTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link IMP_LIMITTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.IMP_LIMIT;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IMP_LIMITClassTests<SUT extends IMP_LIMIT>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.IMP_LIMIT]
     /**

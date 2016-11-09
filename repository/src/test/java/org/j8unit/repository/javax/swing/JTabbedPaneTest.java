@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JTabbedPaneTest
-implements FactoryBasedJ8UnitTest<JTabbedPane>, org.j8unit.repository.javax.swing.JTabbedPaneTests<JTabbedPane> {
+implements FactoryBasedJ8UnitTest<JTabbedPane>, JTabbedPaneTests<JTabbedPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTabbedPane]
 

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHighlighter} (by simply reusing
+ * the J8Unit test interface {@link DefaultHighlighterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultHighlighterClassTest
-implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<DefaultHighlighter> {
+implements DefaultHighlighterClassTests<DefaultHighlighter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultHighlighter]
 
@@ -45,9 +50,14 @@ implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<D
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.DefaultHighlighter]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultHighlightPainter} (by simply
+     * reusing the J8Unit test interface {@link DefaultHighlightPainterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DefaultHighlightPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests.DefaultHighlightPainterClassTests<DefaultHighlightPainter> {
+    implements DefaultHighlightPainterClassTests<DefaultHighlightPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 

@@ -4,9 +4,14 @@ import java.security.cert.PKIXCertPathChecker;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PKIXCertPathChecker} (by simply reusing
+ * the J8Unit test interface {@link PKIXCertPathCheckerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PKIXCertPathCheckerClassTest
-implements org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<PKIXCertPathChecker> {
+implements PKIXCertPathCheckerClassTests<PKIXCertPathChecker> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.PKIXCertPathChecker]
 

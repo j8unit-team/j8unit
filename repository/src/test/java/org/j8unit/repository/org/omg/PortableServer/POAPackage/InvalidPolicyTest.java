@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAPackage.InvalidPolicy;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidPolicyTest
-implements FactoryBasedJ8UnitTest<InvalidPolicy>, org.j8unit.repository.org.omg.PortableServer.POAPackage.InvalidPolicyTests<InvalidPolicy> {
+implements FactoryBasedJ8UnitTest<InvalidPolicy>, InvalidPolicyTests<InvalidPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.InvalidPolicy]
 

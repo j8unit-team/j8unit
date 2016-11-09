@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Character} (by simply reusing the J8Unit
+ * test interface {@link CharacterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CharacterClassTest
-implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
+implements CharacterClassTests<Character> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character]
 
@@ -1668,9 +1673,14 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.Character]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UnicodeScript} (by simply reusing the
+     * J8Unit test interface {@link UnicodeScriptClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class UnicodeScriptClassTest
-    implements org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests<UnicodeScript> {
+    implements UnicodeScriptClassTests<UnicodeScript> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeScript]
 
@@ -1765,9 +1775,14 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Subset} (by simply reusing the J8Unit
+     * test interface {@link SubsetClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SubsetClassTest
-    implements org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<Subset> {
+    implements SubsetClassTests<Subset> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$Subset]
 
@@ -1782,9 +1797,14 @@ implements org.j8unit.repository.java.lang.CharacterClassTests<Character> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UnicodeBlock} (by simply reusing the
+     * J8Unit test interface {@link UnicodeBlockClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class UnicodeBlockClassTest
-    implements org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests<UnicodeBlock> {
+    implements UnicodeBlockClassTests<UnicodeBlock> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeBlock]
 

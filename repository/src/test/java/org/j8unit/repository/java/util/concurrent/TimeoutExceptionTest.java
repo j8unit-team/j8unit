@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TimeoutExceptionTest
-implements FactoryBasedJ8UnitTest<TimeoutException>, org.j8unit.repository.java.util.concurrent.TimeoutExceptionTests<TimeoutException> {
+implements FactoryBasedJ8UnitTest<TimeoutException>, TimeoutExceptionTests<TimeoutException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.TimeoutException]
 

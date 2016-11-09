@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RowSetMetaDataImplTest
-implements FactoryBasedJ8UnitTest<RowSetMetaDataImpl>, org.j8unit.repository.javax.sql.rowset.RowSetMetaDataImplTests<RowSetMetaDataImpl> {
+implements FactoryBasedJ8UnitTest<RowSetMetaDataImpl>, RowSetMetaDataImplTests<RowSetMetaDataImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetMetaDataImpl]
 

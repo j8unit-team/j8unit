@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Character} (by simply reusing the
+ * J8Unit test interface {@link CharacterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CharacterTest
-implements org.j8unit.repository.java.lang.CharacterTests<Character> {
+implements CharacterTests<Character> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character]
 
@@ -29,10 +34,15 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Character]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicodeScript} (by simply reusing
+     * the J8Unit test interface {@link UnicodeScriptTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UnicodeScriptTest
-    implements org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests<UnicodeScript> {
+    implements UnicodeScriptTests<UnicodeScript> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeScript]
 
@@ -55,9 +65,14 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Subset} (by simply reusing the
+     * J8Unit test interface {@link SubsetTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SubsetTest
-    implements org.j8unit.repository.java.lang.CharacterTests.SubsetTests<Subset> {
+    implements SubsetTests<Subset> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$Subset]
 
@@ -72,10 +87,15 @@ implements org.j8unit.repository.java.lang.CharacterTests<Character> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link UnicodeBlock} (by simply reusing
+     * the J8Unit test interface {@link UnicodeBlockTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class UnicodeBlockTest
-    implements org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests<UnicodeBlock> {
+    implements UnicodeBlockTests<UnicodeBlock> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Character$UnicodeBlock]
 

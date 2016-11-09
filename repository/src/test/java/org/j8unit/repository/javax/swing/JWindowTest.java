@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JWindowTest
-implements FactoryBasedJ8UnitTest<JWindow>, org.j8unit.repository.javax.swing.JWindowTests<JWindow> {
+implements FactoryBasedJ8UnitTest<JWindow>, JWindowTests<JWindow> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JWindow]
 

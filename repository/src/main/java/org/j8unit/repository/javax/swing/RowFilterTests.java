@@ -5,6 +5,9 @@ import javax.swing.RowFilter.ComparisonType;
 import javax.swing.RowFilter.Entry;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.RowFilterClassTests.ComparisonTypeClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.RowFilterClassTests}).
+ * {@link RowFilterClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowFilterTests<SUT extends RowFilter<M, I>, M, I>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter]
 
@@ -63,6 +66,36 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ComparisonType public static final enum javax.swing.RowFilter$ComparisonType}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link ComparisonTypeClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ComparisonTypeTests<SUT extends ComparisonType>
+    extends EnumTests<SUT, ComparisonType> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Entry
      * public abstract static class javax.swing.RowFilter$Entry<M,I>}.
      * </p>
@@ -70,7 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.RowFilterClassTests.EntryClassTests}).
+     * (see {@link EntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -81,7 +114,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryTests<SUT extends Entry<M, I>, M, I>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter$Entry]
 
@@ -198,36 +231,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowFilter$Entry]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter$Entry]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ComparisonType public static final enum javax.swing.RowFilter$ComparisonType}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.RowFilterClassTests.ComparisonTypeClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ComparisonTypeTests<SUT extends ComparisonType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, ComparisonType> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowFilter$ComparisonType]
     }
 
 }

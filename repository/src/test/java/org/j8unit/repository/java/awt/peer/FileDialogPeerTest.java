@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FileDialogPeer} (by simply reusing
+ * the J8Unit test interface {@link FileDialogPeerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileDialogPeerTest
-implements org.j8unit.repository.java.awt.peer.FileDialogPeerTests<FileDialogPeer> {
+implements FileDialogPeerTests<FileDialogPeer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.peer.FileDialogPeer]
 

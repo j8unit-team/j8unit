@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSACTION_ROLLEDBACK;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_ROLLEDBACKClassTests}).
+ * {@link TRANSACTION_ROLLEDBACKClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.TRANSACTION_ROLLEDBACK;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TRANSACTION_ROLLEDBACKTests<SUT extends TRANSACTION_ROLLEDBACK>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_ROLLEDBACK]
 

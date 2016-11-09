@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.stub.java.rmi._Remote_Stub;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _Remote_Stub} (by simply reusing the
+ * J8Unit test interface {@link _Remote_StubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _Remote_StubClassTest
-implements org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubClassTests<_Remote_Stub> {
+implements _Remote_StubClassTests<_Remote_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.stub.java.rmi._Remote_Stub]
 

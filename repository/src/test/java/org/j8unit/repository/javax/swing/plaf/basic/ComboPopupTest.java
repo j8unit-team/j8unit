@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ComboPopup} (by simply reusing the
+ * J8Unit test interface {@link ComboPopupTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ComboPopupTest
-implements org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<ComboPopup> {
+implements ComboPopupTests<ComboPopup> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.ComboPopup]
 

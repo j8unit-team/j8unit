@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.multi;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.multi.MultiTableUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.TableUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.multi.MultiTableUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MultiTableUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiTableUIClassTests<SUT extends MultiTableUI>
-extends org.j8unit.repository.javax.swing.plaf.TableUIClassTests<SUT> {
+extends TableUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiTableUI]
     /**

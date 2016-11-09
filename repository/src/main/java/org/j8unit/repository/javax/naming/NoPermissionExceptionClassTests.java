@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.NoPermissionExceptionTests}.
+ * {@link NoPermissionExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NoPermissionExceptionClassTests<SUT extends NoPermissionException>
-extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT> {
+extends NamingSecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.NoPermissionException]
     /**

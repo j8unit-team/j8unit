@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link JMXServerErrorException} (by simply
+ * reusing the J8Unit test interface {@link JMXServerErrorExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMXServerErrorExceptionTest
-implements org.j8unit.repository.javax.management.remote.JMXServerErrorExceptionTests<JMXServerErrorException> {
+implements JMXServerErrorExceptionTests<JMXServerErrorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.JMXServerErrorException]
 

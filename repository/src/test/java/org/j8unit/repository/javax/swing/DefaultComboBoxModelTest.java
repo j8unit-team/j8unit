@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultComboBoxModelTest<E>
-implements FactoryBasedJ8UnitTest<DefaultComboBoxModel<E>>, org.j8unit.repository.javax.swing.DefaultComboBoxModelTests<DefaultComboBoxModel<E>, E> {
+implements FactoryBasedJ8UnitTest<DefaultComboBoxModel<E>>, DefaultComboBoxModelTests<DefaultComboBoxModel<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultComboBoxModel]
 

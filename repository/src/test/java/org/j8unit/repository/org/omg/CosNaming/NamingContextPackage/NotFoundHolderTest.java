@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.NotFoundHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotFoundHolderTest
-implements FactoryBasedJ8UnitTest<NotFoundHolder>, org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundHolderTests<NotFoundHolder> {
+implements FactoryBasedJ8UnitTest<NotFoundHolder>, NotFoundHolderTests<NotFoundHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotFoundHolder]
 

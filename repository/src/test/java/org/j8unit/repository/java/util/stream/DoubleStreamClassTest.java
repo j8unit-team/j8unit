@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DoubleStream} (by simply reusing the
+ * J8Unit test interface {@link DoubleStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DoubleStreamClassTest
-implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleStream> {
+implements DoubleStreamClassTests<DoubleStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.DoubleStream]
 
@@ -170,6 +175,11 @@ implements org.j8unit.repository.java.util.stream.DoubleStreamClassTests<DoubleS
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.util.stream.DoubleStream]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.stream.DoubleStream]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Builder} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.util.stream.DoubleStreamClassTests.BuilderClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class BuilderClassTest

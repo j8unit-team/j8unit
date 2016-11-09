@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ForkJoinTask} (by simply reusing the
+ * J8Unit test interface {@link ForkJoinTaskClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class ForkJoinTaskClassTest
-implements org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<ForkJoinTask> {
+implements ForkJoinTaskClassTests<ForkJoinTask> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ForkJoinTask]
 

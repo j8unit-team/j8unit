@@ -14,7 +14,7 @@ import org.omg.CORBA.INV_FLAG;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests}).
+ * {@link INV_FLAGClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.INV_FLAG;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_FLAGTests<SUT extends INV_FLAG>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INV_FLAG]
 

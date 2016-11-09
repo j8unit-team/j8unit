@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
@@ -17,8 +18,7 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidValueTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidValueClassTests<SUT extends InvalidValue>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.InvalidValue]
     /**

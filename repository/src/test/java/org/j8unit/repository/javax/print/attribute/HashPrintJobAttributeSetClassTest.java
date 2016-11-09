@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HashPrintJobAttributeSet} (by simply
+ * reusing the J8Unit test interface {@link HashPrintJobAttributeSetClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HashPrintJobAttributeSetClassTest
-implements org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetClassTests<HashPrintJobAttributeSet> {
+implements HashPrintJobAttributeSetClassTests<HashPrintJobAttributeSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.HashPrintJobAttributeSet]
 

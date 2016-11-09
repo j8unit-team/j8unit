@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAPackage.WrongPolicy;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WrongPolicyTest
-implements FactoryBasedJ8UnitTest<WrongPolicy>, org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongPolicyTests<WrongPolicy> {
+implements FactoryBasedJ8UnitTest<WrongPolicy>, WrongPolicyTests<WrongPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.WrongPolicy]
 

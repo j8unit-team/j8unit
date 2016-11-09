@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileTypeMap} (by simply reusing the
+ * J8Unit test interface {@link FileTypeMapClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileTypeMapClassTest
-implements org.j8unit.repository.javax.activation.FileTypeMapClassTests<FileTypeMap> {
+implements FileTypeMapClassTests<FileTypeMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.FileTypeMap]
 

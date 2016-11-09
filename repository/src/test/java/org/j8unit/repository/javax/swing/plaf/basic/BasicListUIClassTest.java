@@ -13,9 +13,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicListUI} (by simply reusing the
+ * J8Unit test interface {@link BasicListUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicListUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<BasicListUI> {
+implements BasicListUIClassTests<BasicListUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI]
 
@@ -70,6 +75,103 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<Ba
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListSelectionHandler} (by simply
+     * reusing the J8Unit test interface {@link ListSelectionHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ListSelectionHandlerClassTest
+    implements ListSelectionHandlerClassTests<ListSelectionHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
+
+        @Override
+        public Class<ListSelectionHandler> createNewSUT() {
+            return ListSelectionHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#ListSelectionHandler(javax.swing.plaf.basic.BasicListUI)
+         * public javax.swing.plaf.basic.BasicListUI$ListSelectionHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ListSelectionHandler_BasicListUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ListSelectionHandler sut = null; // = new ListSelectionHandler(javax.swing.plaf.basic.BasicListUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FocusHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class FocusHandlerClassTest
+    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests<FocusHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$FocusHandler]
+
+        @Override
+        public Class<FocusHandler> createNewSUT() {
+            return FocusHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicListUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicListUI)
+         * public javax.swing.plaf.basic.BasicListUI$FocusHandler(javax.swing.plaf.basic.BasicListUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_FocusHandler_BasicListUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicListUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$FocusHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$FocusHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MouseInputHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.MouseInputHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.MouseInputHandlerClassTests<MouseInputHandler> {
@@ -110,45 +212,11 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<Ba
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ListSelectionHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListSelectionHandlerClassTests<ListSelectionHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
-
-        @Override
-        public Class<ListSelectionHandler> createNewSUT() {
-            return ListSelectionHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicListUI.ListSelectionHandler#ListSelectionHandler(javax.swing.plaf.basic.BasicListUI)
-         * public javax.swing.plaf.basic.BasicListUI$ListSelectionHandler(javax.swing.plaf.basic.BasicListUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ListSelectionHandler_BasicListUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ListSelectionHandler sut = null; // = new ListSelectionHandler(javax.swing.plaf.basic.BasicListUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListSelectionHandler]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.PropertyChangeHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
@@ -190,9 +258,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<Ba
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ListDataHandler} (by simply reusing
+     * the J8Unit test interface {@link ListDataHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ListDataHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.ListDataHandlerClassTests<ListDataHandler> {
+    implements ListDataHandlerClassTests<ListDataHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
 
@@ -227,46 +300,6 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests<Ba
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$ListDataHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class FocusHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicListUIClassTests.FocusHandlerClassTests<FocusHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$FocusHandler]
-
-        @Override
-        public Class<FocusHandler> createNewSUT() {
-            return FocusHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicListUI.FocusHandler#FocusHandler(javax.swing.plaf.basic.BasicListUI)
-         * public javax.swing.plaf.basic.BasicListUI$FocusHandler(javax.swing.plaf.basic.BasicListUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_FocusHandler_BasicListUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final FocusHandler sut = null; // = new FocusHandler(javax.swing.plaf.basic.BasicListUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$FocusHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicListUI$FocusHandler]
 
     }
 

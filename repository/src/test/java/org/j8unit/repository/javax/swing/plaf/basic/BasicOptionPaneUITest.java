@@ -19,7 +19,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicOptionPaneUITest
-implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests<BasicOptionPaneUI> {
+implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, BasicOptionPaneUITests<BasicOptionPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
@@ -40,6 +40,34 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, org.j8unit.repository.java
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ButtonAreaLayout} (by simply
+     * reusing the J8Unit test interface {@link ButtonAreaLayoutTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ButtonAreaLayoutTest
+    implements ButtonAreaLayoutTests<ButtonAreaLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
+        @Override
+        public ButtonAreaLayout createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
@@ -57,26 +85,14 @@ implements FactoryBasedJ8UnitTest<BasicOptionPaneUI>, org.j8unit.repository.java
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ButtonAreaLayoutTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonAreaLayoutTests<ButtonAreaLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
-
-        @Override
-        public ButtonAreaLayout createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ButtonActionListener} (by simply
+     * reusing the J8Unit test interface {@link ButtonActionListenerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ButtonActionListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests<ButtonActionListener> {
+    implements ButtonActionListenerTests<ButtonActionListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
 

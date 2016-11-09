@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.SpinnerDateModelClassTests}).
+ * {@link SpinnerDateModelClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpinnerDateModelTests<SUT extends SpinnerDateModel>
-extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
+extends AbstractSpinnerModelTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpinnerDateModel]
 
@@ -236,28 +236,6 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getCalendarField()
-     * public int javax.swing.SpinnerDateModel.getCalendarField()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCalendarField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#setEnd(Comparable)
      * public void javax.swing.SpinnerDateModel.setEnd(java.lang.Comparable)}.
      *
@@ -272,6 +250,28 @@ extends org.j8unit.repository.javax.swing.AbstractSpinnerModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setEnd_Comparable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.SpinnerDateModel#getCalendarField()
+     * public int javax.swing.SpinnerDateModel.getCalendarField()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCalendarField()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

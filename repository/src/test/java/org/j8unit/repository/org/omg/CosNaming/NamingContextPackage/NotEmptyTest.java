@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.NotEmpty;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotEmptyTest
-implements FactoryBasedJ8UnitTest<NotEmpty>, org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyTests<NotEmpty> {
+implements FactoryBasedJ8UnitTest<NotEmpty>, NotEmptyTests<NotEmpty> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotEmpty]
 

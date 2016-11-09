@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MaskFormatterClassTests<SUT extends MaskFormatter>
-extends org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests<SUT> {
+extends DefaultFormatterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.MaskFormatter]
     /**

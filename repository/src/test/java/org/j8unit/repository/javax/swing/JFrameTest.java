@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JFrameTest
-implements FactoryBasedJ8UnitTest<JFrame>, org.j8unit.repository.javax.swing.JFrameTests<JFrame> {
+implements FactoryBasedJ8UnitTest<JFrame>, JFrameTests<JFrame> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFrame]
 

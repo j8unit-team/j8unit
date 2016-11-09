@@ -17,8 +17,7 @@ import org.w3c.dom.html.HTMLSelectElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLSelectElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLSelectElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.html.HTMLSelectElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLSelectElementClassTests<SUT extends HTMLSelectElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLSelectElement]
     /**

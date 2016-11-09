@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileTime} (by simply reusing the J8Unit
+ * test interface {@link FileTimeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileTimeClassTest
-implements org.j8unit.repository.java.nio.file.attribute.FileTimeClassTests<FileTime> {
+implements FileTimeClassTests<FileTime> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.FileTime]
 

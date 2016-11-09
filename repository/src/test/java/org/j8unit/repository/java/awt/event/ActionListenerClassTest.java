@@ -4,9 +4,14 @@ import java.awt.event.ActionListener;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ActionListener} (by simply reusing the
+ * J8Unit test interface {@link ActionListenerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActionListenerClassTest
-implements org.j8unit.repository.java.awt.event.ActionListenerClassTests<ActionListener> {
+implements ActionListenerClassTests<ActionListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.ActionListener]
 

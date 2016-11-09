@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NoSuchObjectException} (by simply reusing
+ * the J8Unit test interface {@link NoSuchObjectExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NoSuchObjectExceptionClassTest
-implements org.j8unit.repository.java.rmi.NoSuchObjectExceptionClassTests<NoSuchObjectException> {
+implements NoSuchObjectExceptionClassTests<NoSuchObjectException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.NoSuchObjectException]
 

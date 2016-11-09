@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.VisibilityHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link VisibilityHelper} (by simply reusing the
+ * J8Unit test interface {@link VisibilityHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VisibilityHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.VisibilityHelperClassTests<VisibilityHelper> {
+implements VisibilityHelperClassTests<VisibilityHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.VisibilityHelper]
 

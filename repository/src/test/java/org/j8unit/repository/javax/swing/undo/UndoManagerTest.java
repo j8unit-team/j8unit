@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UndoManagerTest
-implements FactoryBasedJ8UnitTest<UndoManager>, org.j8unit.repository.javax.swing.undo.UndoManagerTests<UndoManager> {
+implements FactoryBasedJ8UnitTest<UndoManager>, UndoManagerTests<UndoManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.UndoManager]
 

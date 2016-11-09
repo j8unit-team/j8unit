@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MidiSystem} (by simply reusing the
+ * J8Unit test interface {@link MidiSystemTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MidiSystemTest
-implements org.j8unit.repository.javax.sound.midi.MidiSystemTests<MidiSystem> {
+implements MidiSystemTests<MidiSystem> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MidiSystem]
 

@@ -4,6 +4,9 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.FileChannel.MapMode;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.nio.channels.FileChannelClassTests.MapModeClassTests;
+import org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.nio.channels.FileChannelClassTests}).
+ * {@link FileChannelClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileChannelTests<SUT extends FileChannel>
-extends org.j8unit.repository.java.nio.channels.SeekableByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.GatheringByteChannelTests<SUT>,
-org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelTests<SUT> {
+extends SeekableByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, ScatteringByteChannelTests<SUT>, AbstractInterruptibleChannelTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileChannel]
 
@@ -513,7 +515,7 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.nio.channels.FileChannelClassTests.MapModeClassTests}).
+     * (see {@link MapModeClassTests}).
      * </p>
      *
      * @param SUT
@@ -524,7 +526,7 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MapModeTests<SUT extends MapMode>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileChannel$MapMode]
 

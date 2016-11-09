@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RowSorterEvent} (by simply reusing the
+ * J8Unit test interface {@link RowSorterEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RowSorterEventClassTest
-implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowSorterEvent> {
+implements RowSorterEventClassTests<RowSorterEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.RowSorterEvent]
 
@@ -71,9 +76,14 @@ implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests<RowS
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.event.RowSorterEvent]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
+     * test interface {@link TypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class TypeClassTest
-    implements org.j8unit.repository.javax.swing.event.RowSorterEventClassTests.TypeClassTests<Type> {
+    implements TypeClassTests<Type> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.RowSorterEvent$Type]
 

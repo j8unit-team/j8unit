@@ -5,10 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BeanContext} (by simply reusing the
+ * J8Unit test interface {@link BeanContextTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class BeanContextTest
-implements org.j8unit.repository.java.beans.beancontext.BeanContextTests<BeanContext> {
+implements BeanContextTests<BeanContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.beancontext.BeanContext]
 

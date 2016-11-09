@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ReentrantReadWriteLock} (by simply
+ * reusing the J8Unit test interface {@link ReentrantReadWriteLockClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ReentrantReadWriteLockClassTest
-implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
+implements ReentrantReadWriteLockClassTests<ReentrantReadWriteLock> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
@@ -70,9 +75,14 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ReadLock} (by simply reusing the
+     * J8Unit test interface {@link ReadLockClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ReadLockClassTest
-    implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.ReadLockClassTests<ReadLock> {
+    implements ReadLockClassTests<ReadLock> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
@@ -87,9 +97,14 @@ implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLo
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link WriteLock} (by simply reusing the
+     * J8Unit test interface {@link WriteLockClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class WriteLockClassTest
-    implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockClassTests.WriteLockClassTests<WriteLock> {
+    implements WriteLockClassTests<WriteLock> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 

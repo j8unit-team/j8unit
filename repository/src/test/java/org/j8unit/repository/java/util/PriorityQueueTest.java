@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PriorityQueueTest<E>
-implements FactoryBasedJ8UnitTest<PriorityQueue<E>>, org.j8unit.repository.java.util.PriorityQueueTests<PriorityQueue<E>, E> {
+implements FactoryBasedJ8UnitTest<PriorityQueue<E>>, PriorityQueueTests<PriorityQueue<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.PriorityQueue]
 

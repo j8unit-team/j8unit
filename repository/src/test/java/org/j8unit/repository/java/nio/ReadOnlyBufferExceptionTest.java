@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReadOnlyBufferExceptionTest
-implements FactoryBasedJ8UnitTest<ReadOnlyBufferException>, org.j8unit.repository.java.nio.ReadOnlyBufferExceptionTests<ReadOnlyBufferException> {
+implements FactoryBasedJ8UnitTest<ReadOnlyBufferException>, ReadOnlyBufferExceptionTests<ReadOnlyBufferException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.ReadOnlyBufferException]
 

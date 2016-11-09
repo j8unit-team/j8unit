@@ -3,6 +3,7 @@ package org.j8unit.repository.java.sql;
 import static org.junit.Assert.assertTrue;
 import java.sql.Time;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.DateClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.TimeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TimeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimeClassTests<SUT extends Time>
-extends org.j8unit.repository.java.util.DateClassTests<SUT> {
+extends DateClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.Time]
     /**

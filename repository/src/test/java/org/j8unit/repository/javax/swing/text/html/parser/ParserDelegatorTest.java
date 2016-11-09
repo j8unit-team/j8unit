@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ParserDelegatorTest
-implements FactoryBasedJ8UnitTest<ParserDelegator>, org.j8unit.repository.javax.swing.text.html.parser.ParserDelegatorTests<ParserDelegator> {
+implements FactoryBasedJ8UnitTest<ParserDelegator>, ParserDelegatorTests<ParserDelegator> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.ParserDelegator]
 

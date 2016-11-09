@@ -14,7 +14,7 @@ import org.omg.CORBA.NO_RESOURCES;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NO_RESOURCESTest
-implements FactoryBasedJ8UnitTest<NO_RESOURCES>, org.j8unit.repository.org.omg.CORBA.NO_RESOURCESTests<NO_RESOURCES> {
+implements FactoryBasedJ8UnitTest<NO_RESOURCES>, NO_RESOURCESTests<NO_RESOURCES> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_RESOURCES]
 

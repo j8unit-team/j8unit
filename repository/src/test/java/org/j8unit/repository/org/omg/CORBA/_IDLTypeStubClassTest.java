@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA._IDLTypeStub;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _IDLTypeStub} (by simply reusing the
+ * J8Unit test interface {@link _IDLTypeStubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _IDLTypeStubClassTest
-implements org.j8unit.repository.org.omg.CORBA._IDLTypeStubClassTests<_IDLTypeStub> {
+implements _IDLTypeStubClassTests<_IDLTypeStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA._IDLTypeStub]
 

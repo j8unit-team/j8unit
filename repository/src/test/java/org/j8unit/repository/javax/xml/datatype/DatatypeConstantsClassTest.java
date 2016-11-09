@@ -5,9 +5,14 @@ import javax.xml.datatype.DatatypeConstants.Field;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DatatypeConstants} (by simply reusing the
+ * J8Unit test interface {@link DatatypeConstantsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DatatypeConstantsClassTest
-implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests<DatatypeConstants> {
+implements DatatypeConstantsClassTests<DatatypeConstants> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.datatype.DatatypeConstants]
 
@@ -20,9 +25,14 @@ implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests<
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.datatype.DatatypeConstants]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Field} (by simply reusing the J8Unit
+     * test interface {@link FieldClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FieldClassTest
-    implements org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests.FieldClassTests<Field> {
+    implements FieldClassTests<Field> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.datatype.DatatypeConstants$Field]
 

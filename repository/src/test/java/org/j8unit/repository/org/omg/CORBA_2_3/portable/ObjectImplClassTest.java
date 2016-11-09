@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA_2_3.portable.ObjectImpl;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectImpl} (by simply reusing the J8Unit
+ * test interface {@link ObjectImplClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectImplClassTest
-implements org.j8unit.repository.org.omg.CORBA_2_3.portable.ObjectImplClassTests<ObjectImpl> {
+implements ObjectImplClassTests<ObjectImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA_2_3.portable.ObjectImpl]
 

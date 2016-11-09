@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CannotProceedExceptionTest
-implements FactoryBasedJ8UnitTest<CannotProceedException>, org.j8unit.repository.javax.naming.CannotProceedExceptionTests<CannotProceedException> {
+implements FactoryBasedJ8UnitTest<CannotProceedException>, CannotProceedExceptionTests<CannotProceedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CannotProceedException]
 

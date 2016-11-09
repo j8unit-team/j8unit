@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSACTION_REQUIRED;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TRANSACTION_REQUIREDTest
-implements FactoryBasedJ8UnitTest<TRANSACTION_REQUIRED>, org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDTests<TRANSACTION_REQUIRED> {
+implements FactoryBasedJ8UnitTest<TRANSACTION_REQUIRED>, TRANSACTION_REQUIREDTests<TRANSACTION_REQUIRED> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_REQUIRED]
 

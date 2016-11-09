@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AuthenticationExceptionTest
-implements FactoryBasedJ8UnitTest<AuthenticationException>, org.j8unit.repository.javax.security.sasl.AuthenticationExceptionTests<AuthenticationException> {
+implements FactoryBasedJ8UnitTest<AuthenticationException>, AuthenticationExceptionTests<AuthenticationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.AuthenticationException]
 

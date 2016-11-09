@@ -3,6 +3,9 @@ package org.j8unit.repository.java.awt.image.renderable;
 import static org.junit.Assert.assertTrue;
 import java.awt.image.renderable.RenderableImageProducer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.image.ImageProducerClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.lang.RunnableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.renderable.RenderableImageProducerTests}.
+ * {@link RenderableImageProducerTests}.
  * </p>
  *
  * <p>
@@ -47,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RenderableImageProducerClassTests<SUT extends RenderableImageProducer>
-extends org.j8unit.repository.java.awt.image.ImageProducerClassTests<SUT>, org.j8unit.repository.java.lang.RunnableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ImageProducerClassTests<SUT>, RunnableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.renderable.RenderableImageProducer]
     /**

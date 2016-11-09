@@ -14,7 +14,7 @@ import org.omg.CORBA.CODESET_INCOMPATIBLE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CODESET_INCOMPATIBLETest
-implements FactoryBasedJ8UnitTest<CODESET_INCOMPATIBLE>, org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLETests<CODESET_INCOMPATIBLE> {
+implements FactoryBasedJ8UnitTest<CODESET_INCOMPATIBLE>, CODESET_INCOMPATIBLETests<CODESET_INCOMPATIBLE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CODESET_INCOMPATIBLE]
 

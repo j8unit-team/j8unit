@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.IOR;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IOR} (by simply reusing the J8Unit test
+ * interface {@link IORClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IORClassTest
-implements org.j8unit.repository.org.omg.IOP.IORClassTests<IOR> {
+implements IORClassTests<IOR> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.IOR]
 

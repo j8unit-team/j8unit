@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.Streamable;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Streamable} (by simply reusing the
+ * J8Unit test interface {@link StreamableTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StreamableTest
-implements org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<Streamable> {
+implements StreamableTests<Streamable> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.Streamable]
 

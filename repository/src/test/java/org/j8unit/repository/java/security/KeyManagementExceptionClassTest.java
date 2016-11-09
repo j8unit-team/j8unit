@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyManagementException} (by simply
+ * reusing the J8Unit test interface {@link KeyManagementExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyManagementExceptionClassTest
-implements org.j8unit.repository.java.security.KeyManagementExceptionClassTests<KeyManagementException> {
+implements KeyManagementExceptionClassTests<KeyManagementException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.KeyManagementException]
 

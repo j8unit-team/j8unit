@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotBoundExceptionTest
-implements FactoryBasedJ8UnitTest<NotBoundException>, org.j8unit.repository.java.rmi.NotBoundExceptionTests<NotBoundException> {
+implements FactoryBasedJ8UnitTest<NotBoundException>, NotBoundExceptionTests<NotBoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.NotBoundException]
 

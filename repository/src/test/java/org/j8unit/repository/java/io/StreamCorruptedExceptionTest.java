@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StreamCorruptedExceptionTest
-implements FactoryBasedJ8UnitTest<StreamCorruptedException>, org.j8unit.repository.java.io.StreamCorruptedExceptionTests<StreamCorruptedException> {
+implements FactoryBasedJ8UnitTest<StreamCorruptedException>, StreamCorruptedExceptionTests<StreamCorruptedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.StreamCorruptedException]
 

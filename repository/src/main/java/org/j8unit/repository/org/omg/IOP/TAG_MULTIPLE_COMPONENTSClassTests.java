@@ -19,7 +19,7 @@ import org.omg.IOP.TAG_MULTIPLE_COMPONENTS;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.TAG_MULTIPLE_COMPONENTSTests}.
+ * {@link TAG_MULTIPLE_COMPONENTSTests}.
  * </p>
  *
  * <p>

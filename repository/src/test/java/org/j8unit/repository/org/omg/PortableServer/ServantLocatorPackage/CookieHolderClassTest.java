@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ServantLocatorPackage.CookieHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CookieHolder} (by simply reusing the
+ * J8Unit test interface {@link CookieHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CookieHolderClassTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantLocatorPackage.CookieHolderClassTests<CookieHolder> {
+implements CookieHolderClassTests<CookieHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantLocatorPackage.CookieHolder]
 

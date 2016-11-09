@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AclNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<AclNotFoundException>, org.j8unit.repository.java.security.acl.AclNotFoundExceptionTests<AclNotFoundException> {
+implements FactoryBasedJ8UnitTest<AclNotFoundException>, AclNotFoundExceptionTests<AclNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.acl.AclNotFoundException]
 

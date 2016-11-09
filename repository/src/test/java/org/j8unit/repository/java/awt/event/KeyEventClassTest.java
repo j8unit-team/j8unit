@@ -8,15 +8,43 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyEvent} (by simply reusing the J8Unit
+ * test interface {@link KeyEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyEventClassTest
-implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
+implements KeyEventClassTests<KeyEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.KeyEvent]
 
     @Override
     public Class<KeyEvent> createNewSUT() {
         return KeyEvent.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component, int, long, int, int) public
+     * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_KeyEvent_Component_int_long_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final KeyEvent sut = null; // = new KeyEvent(java.awt.Component, int, long, int, int);
     }
 
     /**
@@ -63,29 +91,6 @@ implements org.j8unit.repository.java.awt.event.KeyEventClassTests<KeyEvent> {
         // create new instance
         @SuppressWarnings("unused")
         final KeyEvent sut = null; // = new KeyEvent(java.awt.Component, int, long, int, int, char, int);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component, int, long, int, int) public
-     * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_KeyEvent_Component_int_long_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final KeyEvent sut = null; // = new KeyEvent(java.awt.Component, int, long, int, int);
     }
 
     /**

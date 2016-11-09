@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ValueBaseHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ValueBaseHelper} (by simply reusing the
+ * J8Unit test interface {@link ValueBaseHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ValueBaseHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.ValueBaseHelperClassTests<ValueBaseHelper> {
+implements ValueBaseHelperClassTests<ValueBaseHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ValueBaseHelper]
 

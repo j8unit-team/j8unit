@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ZipExceptionTest
-implements FactoryBasedJ8UnitTest<ZipException>, org.j8unit.repository.java.util.zip.ZipExceptionTests<ZipException> {
+implements FactoryBasedJ8UnitTest<ZipException>, ZipExceptionTests<ZipException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.ZipException]
 

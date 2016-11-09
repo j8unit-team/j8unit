@@ -14,7 +14,7 @@ import org.omg.PortableServer.ServantActivator;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorClassTests}).
+ * {@link ServantActivatorClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,8 +25,7 @@ import org.omg.PortableServer.ServantActivator;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorTests<SUT extends ServantActivator>
-extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsTests<SUT>,
-org.j8unit.repository.org.omg.PortableServer.ServantManagerTests<SUT> {
+extends ServantActivatorOperationsTests<SUT>, ServantManagerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantActivator]
 

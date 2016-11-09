@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TreeExpansionEvent} (by simply reusing
+ * the J8Unit test interface {@link TreeExpansionEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TreeExpansionEventClassTest
-implements org.j8unit.repository.javax.swing.event.TreeExpansionEventClassTests<TreeExpansionEvent> {
+implements TreeExpansionEventClassTests<TreeExpansionEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.TreeExpansionEvent]
 

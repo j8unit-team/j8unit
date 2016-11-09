@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SystemTray} (by simply reusing the J8Unit
+ * test interface {@link SystemTrayClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SystemTrayClassTest
-implements org.j8unit.repository.java.awt.SystemTrayClassTests<SystemTray> {
+implements SystemTrayClassTests<SystemTray> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.SystemTray]
 

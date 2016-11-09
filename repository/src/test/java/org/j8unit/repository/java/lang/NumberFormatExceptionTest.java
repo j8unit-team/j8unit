@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NumberFormatExceptionTest
-implements FactoryBasedJ8UnitTest<NumberFormatException>, org.j8unit.repository.java.lang.NumberFormatExceptionTests<NumberFormatException> {
+implements FactoryBasedJ8UnitTest<NumberFormatException>, NumberFormatExceptionTests<NumberFormatException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NumberFormatException]
 

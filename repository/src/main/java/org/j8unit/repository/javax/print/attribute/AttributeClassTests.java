@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.print.attribute;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.Attribute;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeClassTests<SUT extends Attribute>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
+extends SerializableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.Attribute]
     /**

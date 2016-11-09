@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.ListResourceBundleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ListResourceBundleTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ListResourceBundleClassTests<SUT extends ListResourceBundle>
-extends org.j8unit.repository.java.util.ResourceBundleClassTests<SUT> {
+extends ResourceBundleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ListResourceBundle]
     /**

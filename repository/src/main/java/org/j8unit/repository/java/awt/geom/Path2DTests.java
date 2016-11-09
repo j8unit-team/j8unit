@@ -5,6 +5,10 @@ import java.awt.geom.Path2D.Double;
 import java.awt.geom.Path2D.Float;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ShapeTests;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.geom.Path2DClassTests}).
+ * {@link Path2DClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Path2DTests<SUT extends Path2D>
-extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ShapeTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Path2D]
 
@@ -82,28 +86,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#setWindingRule(int) public
-     * final void java.awt.geom.Path2D.setWindingRule(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWindingRule_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#lineTo(double, double) public
      * abstract void java.awt.geom.Path2D.lineTo(double,double)}.
      *
@@ -118,6 +100,28 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_lineTo_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.Path2D#setWindingRule(int) public
+     * final void java.awt.geom.Path2D.setWindingRule(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWindingRule_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -560,7 +564,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleTests<SUT extends Double>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Path2DTests<SUT> {
+    extends SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Path2DTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Path2D$Double]
 
@@ -804,7 +808,7 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatTests<SUT extends Float>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Path2DTests<SUT> {
+    extends SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Path2DTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Path2D$Float]
 
@@ -1044,6 +1048,29 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
+         * {@link java.awt.geom.Path2D.Float#curveTo(float, float, float, float, float, float) public final synchronized
+         * void java.awt.geom.Path2D$Float.curveTo(float,float,float,float,float,float)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_curveTo_float_float_float_float_float_float()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
          * {@link java.awt.geom.Path2D.Float#curveTo(double, double, double, double, double, double) public final
          * synchronized void java.awt.geom.Path2D$Float.curveTo(double,double,double,double,double,double)}.
          *
@@ -1059,29 +1086,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
         @Test
         @Category(Draft.class)
         public default void test_curveTo_double_double_double_double_double_double()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link java.awt.geom.Path2D.Float#curveTo(float, float, float, float, float, float) public final synchronized
-         * void java.awt.geom.Path2D$Float.curveTo(float,float,float,float,float,float)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_curveTo_float_float_float_float_float_float()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

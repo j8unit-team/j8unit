@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class W3CEndpointReferenceBuilderTest
-implements FactoryBasedJ8UnitTest<W3CEndpointReferenceBuilder>,
-org.j8unit.repository.javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilderTests<W3CEndpointReferenceBuilder> {
+implements FactoryBasedJ8UnitTest<W3CEndpointReferenceBuilder>, W3CEndpointReferenceBuilderTests<W3CEndpointReferenceBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder]
 

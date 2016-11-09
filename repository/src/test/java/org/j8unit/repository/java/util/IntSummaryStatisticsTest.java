@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IntSummaryStatisticsTest
-implements FactoryBasedJ8UnitTest<IntSummaryStatistics>, org.j8unit.repository.java.util.IntSummaryStatisticsTests<IntSummaryStatistics> {
+implements FactoryBasedJ8UnitTest<IntSummaryStatistics>, IntSummaryStatisticsTests<IntSummaryStatistics> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.IntSummaryStatistics]
 

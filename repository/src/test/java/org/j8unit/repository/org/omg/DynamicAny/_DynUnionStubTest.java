@@ -14,7 +14,7 @@ import org.omg.DynamicAny._DynUnionStub;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _DynUnionStubTest
-implements FactoryBasedJ8UnitTest<_DynUnionStub>, org.j8unit.repository.org.omg.DynamicAny._DynUnionStubTests<_DynUnionStub> {
+implements FactoryBasedJ8UnitTest<_DynUnionStub>, _DynUnionStubTests<_DynUnionStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny._DynUnionStub]
 

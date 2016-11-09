@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InputMapTest
-implements FactoryBasedJ8UnitTest<InputMap>, org.j8unit.repository.javax.swing.InputMapTests<InputMap> {
+implements FactoryBasedJ8UnitTest<InputMap>, InputMapTests<InputMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.InputMap]
 

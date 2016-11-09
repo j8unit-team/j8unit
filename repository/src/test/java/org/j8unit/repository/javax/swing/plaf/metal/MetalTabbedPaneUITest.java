@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalTabbedPaneUITest
-implements FactoryBasedJ8UnitTest<MetalTabbedPaneUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUITests<MetalTabbedPaneUI> {
+implements FactoryBasedJ8UnitTest<MetalTabbedPaneUI>, MetalTabbedPaneUITests<MetalTabbedPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
 
@@ -37,6 +37,12 @@ implements FactoryBasedJ8UnitTest<MetalTabbedPaneUI>, org.j8unit.repository.java
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TabbedPaneLayout} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUITests.TabbedPaneLayoutTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutTest

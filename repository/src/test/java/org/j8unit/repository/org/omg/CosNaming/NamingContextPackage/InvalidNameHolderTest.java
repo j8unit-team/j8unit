@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.InvalidNameHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidNameHolderTest
-implements FactoryBasedJ8UnitTest<InvalidNameHolder>, org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.InvalidNameHolderTests<InvalidNameHolder> {
+implements FactoryBasedJ8UnitTest<InvalidNameHolder>, InvalidNameHolderTests<InvalidNameHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.InvalidNameHolder]
 

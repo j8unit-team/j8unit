@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLBaseElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLBaseElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLBaseElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLBaseElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLBaseElementTests<HTMLBaseElement> {
+implements HTMLBaseElementTests<HTMLBaseElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLBaseElement]
 

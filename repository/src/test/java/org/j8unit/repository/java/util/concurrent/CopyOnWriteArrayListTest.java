@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CopyOnWriteArrayListTest<E>
-implements FactoryBasedJ8UnitTest<CopyOnWriteArrayList<E>>, org.j8unit.repository.java.util.concurrent.CopyOnWriteArrayListTests<CopyOnWriteArrayList<E>, E> {
+implements FactoryBasedJ8UnitTest<CopyOnWriteArrayList<E>>, CopyOnWriteArrayListTests<CopyOnWriteArrayList<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CopyOnWriteArrayList]
 

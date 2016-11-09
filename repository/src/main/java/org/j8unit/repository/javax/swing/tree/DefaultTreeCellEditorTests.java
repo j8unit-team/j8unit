@@ -5,6 +5,13 @@ import javax.swing.tree.DefaultTreeCellEditor.DefaultTextField;
 import javax.swing.tree.DefaultTreeCellEditor.EditorContainer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ContainerTests;
+import org.j8unit.repository.java.awt.event.ActionListenerTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.JTextFieldTests;
+import org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests;
+import org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests;
+import org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests}).
+ * {@link DefaultTreeCellEditorClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,8 +37,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTreeCellEditorTests<SUT extends DefaultTreeCellEditor>
-extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeCellEditorTests<SUT>,
-org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ActionListenerTests<SUT>, TreeCellEditorTests<SUT>, TreeSelectionListenerTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor]
 
@@ -156,29 +162,6 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.DefaultTreeCellEditor#setFont(java.awt.Font) public void
-     * javax.swing.tree.DefaultTreeCellEditor.setFont(java.awt.Font)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFont_Font()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.DefaultTreeCellEditor#setBorderSelectionColor(java.awt.Color) public void
      * javax.swing.tree.DefaultTreeCellEditor.setBorderSelectionColor(java.awt.Color)}.
      *
@@ -193,6 +176,29 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_setBorderSelectionColor_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.DefaultTreeCellEditor#setFont(java.awt.Font) public void
+     * javax.swing.tree.DefaultTreeCellEditor.setFont(java.awt.Font)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFont_Font()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -404,7 +410,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests}).
+     * (see {@link EditorContainerClassTests}).
      * </p>
      *
      * @param SUT
@@ -415,7 +421,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EditorContainerTests<SUT extends EditorContainer>
-    extends org.j8unit.repository.java.awt.ContainerTests<SUT> {
+    extends ContainerTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
 
@@ -529,7 +535,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests}).
+     * (see {@link DefaultTextFieldClassTests}).
      * </p>
      *
      * @param SUT
@@ -540,7 +546,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultTextFieldTests<SUT extends DefaultTextField>
-    extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
+    extends JTextFieldTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
 

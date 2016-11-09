@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.loading.PrivateMLetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrivateMLetTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrivateMLetClassTests<SUT extends PrivateMLet>
-extends org.j8unit.repository.javax.management.loading.PrivateClassLoaderClassTests<SUT>, org.j8unit.repository.javax.management.loading.MLetClassTests<SUT> {
+extends PrivateClassLoaderClassTests<SUT>, MLetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.loading.PrivateMLet]
     /**

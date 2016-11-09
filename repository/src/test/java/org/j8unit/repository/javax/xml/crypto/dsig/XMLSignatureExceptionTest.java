@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class XMLSignatureExceptionTest
-implements FactoryBasedJ8UnitTest<XMLSignatureException>, org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureExceptionTests<XMLSignatureException> {
+implements FactoryBasedJ8UnitTest<XMLSignatureException>, XMLSignatureExceptionTests<XMLSignatureException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.XMLSignatureException]
 

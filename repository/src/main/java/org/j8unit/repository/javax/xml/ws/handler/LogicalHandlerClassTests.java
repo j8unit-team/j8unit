@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.ws.handler.LogicalHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LogicalHandlerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LogicalHandlerClassTests<SUT extends LogicalHandler>
-extends org.j8unit.repository.javax.xml.ws.handler.HandlerClassTests<SUT> {
+extends HandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.handler.LogicalHandler]
     /**

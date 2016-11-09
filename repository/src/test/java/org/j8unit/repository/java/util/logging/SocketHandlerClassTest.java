@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SocketHandler} (by simply reusing the
+ * J8Unit test interface {@link SocketHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SocketHandlerClassTest
-implements org.j8unit.repository.java.util.logging.SocketHandlerClassTests<SocketHandler> {
+implements SocketHandlerClassTests<SocketHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.SocketHandler]
 

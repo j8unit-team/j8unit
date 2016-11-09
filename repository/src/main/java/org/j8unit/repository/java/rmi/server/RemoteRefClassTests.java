@@ -3,6 +3,7 @@ package org.j8unit.repository.java.rmi.server;
 import static org.junit.Assert.assertTrue;
 import java.rmi.server.RemoteRef;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.ExternalizableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.server.RemoteRefTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RemoteRefTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteRefClassTests<SUT extends RemoteRef>
-extends org.j8unit.repository.java.io.ExternalizableClassTests<SUT> {
+extends ExternalizableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.RemoteRef]
     /**

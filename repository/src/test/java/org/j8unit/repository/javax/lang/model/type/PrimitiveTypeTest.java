@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PrimitiveType} (by simply reusing the
+ * J8Unit test interface {@link PrimitiveTypeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrimitiveTypeTest
-implements org.j8unit.repository.javax.lang.model.type.PrimitiveTypeTests<PrimitiveType> {
+implements PrimitiveTypeTests<PrimitiveType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.type.PrimitiveType]
 

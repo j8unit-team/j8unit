@@ -3,6 +3,8 @@ package org.j8unit.repository.java.beans.beancontext;
 import static org.junit.Assert.assertTrue;
 import java.beans.beancontext.BeanContextSupport;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.java.beans.VetoableChangeListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.beancontext.BeanContextSupportTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BeanContextSupportTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextSupportClassTests<SUT extends BeanContextSupport>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
-org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>, org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests<SUT> {
+extends BeanContextClassTests<SUT>, PropertyChangeListenerClassTests<SUT>, VetoableChangeListenerClassTests<SUT>, BeanContextChildSupportClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContextSupport]
     /**

@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
@@ -17,8 +18,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InvalidNameTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidNameClassTests<SUT extends InvalidName>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName]
     /**

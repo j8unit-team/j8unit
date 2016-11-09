@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.net.BindExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BindExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BindExceptionClassTests<SUT extends BindException>
-extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
+extends SocketExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.BindException]
     /**

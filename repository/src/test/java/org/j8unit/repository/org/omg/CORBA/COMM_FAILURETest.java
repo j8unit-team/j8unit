@@ -14,7 +14,7 @@ import org.omg.CORBA.COMM_FAILURE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class COMM_FAILURETest
-implements FactoryBasedJ8UnitTest<COMM_FAILURE>, org.j8unit.repository.org.omg.CORBA.COMM_FAILURETests<COMM_FAILURE> {
+implements FactoryBasedJ8UnitTest<COMM_FAILURE>, COMM_FAILURETests<COMM_FAILURE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.COMM_FAILURE]
 

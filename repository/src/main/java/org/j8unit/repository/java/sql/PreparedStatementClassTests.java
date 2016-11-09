@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.PreparedStatementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PreparedStatementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PreparedStatementClassTests<SUT extends PreparedStatement>
-extends org.j8unit.repository.java.sql.StatementClassTests<SUT> {
+extends StatementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.PreparedStatement]
     /**

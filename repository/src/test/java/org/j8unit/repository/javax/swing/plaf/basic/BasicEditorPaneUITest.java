@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicEditorPaneUITest
-implements FactoryBasedJ8UnitTest<BasicEditorPaneUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicEditorPaneUITests<BasicEditorPaneUI> {
+implements FactoryBasedJ8UnitTest<BasicEditorPaneUI>, BasicEditorPaneUITests<BasicEditorPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicEditorPaneUI]
 

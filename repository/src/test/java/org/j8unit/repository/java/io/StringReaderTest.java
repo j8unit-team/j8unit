@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link StringReader} (by simply reusing the
+ * J8Unit test interface {@link StringReaderTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StringReaderTest
-implements org.j8unit.repository.java.io.StringReaderTests<StringReader> {
+implements StringReaderTests<StringReader> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.StringReader]
 

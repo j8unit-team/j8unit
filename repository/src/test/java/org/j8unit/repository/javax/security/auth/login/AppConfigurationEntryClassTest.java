@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AppConfigurationEntry} (by simply reusing
+ * the J8Unit test interface {@link AppConfigurationEntryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AppConfigurationEntryClassTest
-implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryClassTests<AppConfigurationEntry> {
+implements AppConfigurationEntryClassTests<AppConfigurationEntry> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
 
@@ -51,9 +56,14 @@ implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntry
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link LoginModuleControlFlag} (by simply
+     * reusing the J8Unit test interface {@link LoginModuleControlFlagClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LoginModuleControlFlagClassTest
-    implements org.j8unit.repository.javax.security.auth.login.AppConfigurationEntryClassTests.LoginModuleControlFlagClassTests<LoginModuleControlFlag> {
+    implements LoginModuleControlFlagClassTests<LoginModuleControlFlag> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag]
 

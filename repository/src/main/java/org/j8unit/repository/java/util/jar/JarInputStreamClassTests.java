@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.jar;
 import static org.junit.Assert.assertTrue;
 import java.util.jar.JarInputStream;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.zip.ZipInputStreamClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.jar.JarInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JarInputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JarInputStreamClassTests<SUT extends JarInputStream>
-extends org.j8unit.repository.java.util.zip.ZipInputStreamClassTests<SUT> {
+extends ZipInputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.JarInputStream]
     /**

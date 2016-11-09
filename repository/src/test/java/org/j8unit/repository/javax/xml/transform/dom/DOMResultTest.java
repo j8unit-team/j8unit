@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DOMResultTest
-implements FactoryBasedJ8UnitTest<DOMResult>, org.j8unit.repository.javax.xml.transform.dom.DOMResultTests<DOMResult> {
+implements FactoryBasedJ8UnitTest<DOMResult>, DOMResultTests<DOMResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.dom.DOMResult]
 

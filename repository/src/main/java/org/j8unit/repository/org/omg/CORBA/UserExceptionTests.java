@@ -1,6 +1,8 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ExceptionTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.UserException;
 
@@ -14,7 +16,7 @@ import org.omg.CORBA.UserException;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests}).
+ * {@link UserExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +27,7 @@ import org.omg.CORBA.UserException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UserExceptionTests<SUT extends UserException>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8unit.repository.java.lang.ExceptionTests<SUT> {
+extends IDLEntityTests<SUT>, ExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UserException]
 

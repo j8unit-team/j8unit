@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AbstractMethodErrorTest
-implements FactoryBasedJ8UnitTest<AbstractMethodError>, org.j8unit.repository.java.lang.AbstractMethodErrorTests<AbstractMethodError> {
+implements FactoryBasedJ8UnitTest<AbstractMethodError>, AbstractMethodErrorTests<AbstractMethodError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.AbstractMethodError]
 

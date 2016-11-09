@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ValueMember;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ValueMember} (by simply reusing the
+ * J8Unit test interface {@link ValueMemberClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ValueMemberClassTest
-implements org.j8unit.repository.org.omg.CORBA.ValueMemberClassTests<ValueMember> {
+implements ValueMemberClassTests<ValueMember> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ValueMember]
 

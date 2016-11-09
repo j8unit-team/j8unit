@@ -14,7 +14,7 @@ import org.xml.sax.helpers.ParserAdapter;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ParserAdapterTest
-implements FactoryBasedJ8UnitTest<ParserAdapter>, org.j8unit.repository.org.xml.sax.helpers.ParserAdapterTests<ParserAdapter> {
+implements FactoryBasedJ8UnitTest<ParserAdapter>, ParserAdapterTests<ParserAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.ParserAdapter]
 

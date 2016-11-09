@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.AdapterNonExistentHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AdapterNonExistentHelper} (by simply
+ * reusing the J8Unit test interface {@link AdapterNonExistentHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterNonExistentHelperTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterNonExistentHelperTests<AdapterNonExistentHelper> {
+implements AdapterNonExistentHelperTests<AdapterNonExistentHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterNonExistentHelper]
 

@@ -8,6 +8,13 @@ import java.awt.JobAttributes.MultipleDocumentHandlingType;
 import java.awt.JobAttributes.SidesType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests;
+import org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests;
+import org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests;
+import org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests;
+import org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +29,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.JobAttributesClassTests}).
+ * {@link JobAttributesClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,7 +40,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobAttributesTests<SUT extends JobAttributes>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends CloneableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes]
 
@@ -808,7 +815,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests}).
+     * (see {@link SidesTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -819,7 +826,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SidesTypeTests<SUT extends SidesType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
@@ -838,7 +845,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests}).
+     * (see {@link DialogTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -849,7 +856,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DialogTypeTests<SUT extends DialogType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
@@ -868,7 +875,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests}).
+     * (see {@link DestinationTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -879,7 +886,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DestinationTypeTests<SUT extends DestinationType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
@@ -899,7 +906,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests}).
+     * (see {@link MultipleDocumentHandlingTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -910,7 +917,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MultipleDocumentHandlingTypeTests<SUT extends MultipleDocumentHandlingType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
@@ -929,7 +936,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests}).
+     * (see {@link DefaultSelectionTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -940,7 +947,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultSelectionTypeTests<SUT extends DefaultSelectionType>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 

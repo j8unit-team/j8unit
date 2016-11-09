@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.remote;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.JMXConnectionNotification;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.NotificationClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.JMXConnectionNotificationTests}.
+ * {@link JMXConnectionNotificationTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMXConnectionNotificationClassTests<SUT extends JMXConnectionNotification>
-extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
+extends NotificationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectionNotification]
     /**

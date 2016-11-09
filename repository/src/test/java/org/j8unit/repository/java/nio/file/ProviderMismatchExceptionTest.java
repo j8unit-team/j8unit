@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ProviderMismatchExceptionTest
-implements FactoryBasedJ8UnitTest<ProviderMismatchException>, org.j8unit.repository.java.nio.file.ProviderMismatchExceptionTests<ProviderMismatchException> {
+implements FactoryBasedJ8UnitTest<ProviderMismatchException>, ProviderMismatchExceptionTests<ProviderMismatchException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ProviderMismatchException]
 

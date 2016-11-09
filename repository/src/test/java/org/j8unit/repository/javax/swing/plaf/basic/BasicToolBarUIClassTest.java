@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicToolBarUI} (by simply reusing the
+ * J8Unit test interface {@link BasicToolBarUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicToolBarUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests<BasicToolBarUI> {
+implements BasicToolBarUIClassTests<BasicToolBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI]
 
@@ -66,9 +71,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DockingListener} (by simply reusing
+     * the J8Unit test interface {@link DockingListenerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DockingListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests.DockingListenerClassTests<DockingListener> {
+    implements DockingListenerClassTests<DockingListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
 

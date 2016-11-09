@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DropTargetTest
-implements FactoryBasedJ8UnitTest<DropTarget>, org.j8unit.repository.java.awt.dnd.DropTargetTests<DropTarget> {
+implements FactoryBasedJ8UnitTest<DropTarget>, DropTargetTests<DropTarget> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.dnd.DropTarget]
 

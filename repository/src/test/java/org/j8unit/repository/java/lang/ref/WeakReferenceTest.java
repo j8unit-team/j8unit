@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link WeakReference} (by simply reusing the
+ * J8Unit test interface {@link WeakReferenceTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WeakReferenceTest<T>
-implements org.j8unit.repository.java.lang.ref.WeakReferenceTests<WeakReference<T>, T> {
+implements WeakReferenceTests<WeakReference<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ref.WeakReference]
 

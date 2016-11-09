@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicMenuUI} (by simply reusing the
+ * J8Unit test interface {@link BasicMenuUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicMenuUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<BasicMenuUI> {
+implements BasicMenuUIClassTests<BasicMenuUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
 
@@ -65,6 +70,12 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests<Ba
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicMenuUI]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ChangeHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUIClassTests.ChangeHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerClassTest

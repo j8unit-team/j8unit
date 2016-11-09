@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ShortHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ShortHolder} (by simply reusing the
+ * J8Unit test interface {@link ShortHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ShortHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.ShortHolderClassTests<ShortHolder> {
+implements ShortHolderClassTests<ShortHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ShortHolder]
 

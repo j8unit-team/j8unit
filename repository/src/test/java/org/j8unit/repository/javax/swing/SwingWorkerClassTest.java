@@ -10,10 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SwingWorker} (by simply reusing the
+ * J8Unit test interface {@link SwingWorkerClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class SwingWorkerClassTest
-implements org.j8unit.repository.javax.swing.SwingWorkerClassTests<SwingWorker> {
+implements SwingWorkerClassTests<SwingWorker> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SwingWorker]
 
@@ -46,9 +50,14 @@ implements org.j8unit.repository.javax.swing.SwingWorkerClassTests<SwingWorker> 
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.SwingWorker]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link StateValue} (by simply reusing the
+     * J8Unit test interface {@link StateValueClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class StateValueClassTest
-    implements org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests<StateValue> {
+    implements StateValueClassTests<StateValue> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SwingWorker$StateValue]
 

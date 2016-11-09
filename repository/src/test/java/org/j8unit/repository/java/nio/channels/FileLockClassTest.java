@@ -4,9 +4,14 @@ import java.nio.channels.FileLock;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileLock} (by simply reusing the J8Unit
+ * test interface {@link FileLockClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileLockClassTest
-implements org.j8unit.repository.java.nio.channels.FileLockClassTests<FileLock> {
+implements FileLockClassTests<FileLock> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.FileLock]
 

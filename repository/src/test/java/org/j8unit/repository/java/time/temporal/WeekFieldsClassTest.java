@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WeekFields} (by simply reusing the J8Unit
+ * test interface {@link WeekFieldsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WeekFieldsClassTest
-implements org.j8unit.repository.java.time.temporal.WeekFieldsClassTests<WeekFields> {
+implements WeekFieldsClassTests<WeekFields> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.temporal.WeekFields]
 

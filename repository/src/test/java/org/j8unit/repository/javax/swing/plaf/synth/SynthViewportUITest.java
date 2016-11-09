@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthViewportUITest
-implements FactoryBasedJ8UnitTest<SynthViewportUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthViewportUITests<SynthViewportUI> {
+implements FactoryBasedJ8UnitTest<SynthViewportUI>, SynthViewportUITests<SynthViewportUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthViewportUI]
 

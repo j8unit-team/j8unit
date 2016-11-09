@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.XMLFilterImpl;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XMLFilterImpl} (by simply reusing the
+ * J8Unit test interface {@link XMLFilterImplClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLFilterImplClassTest
-implements org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplClassTests<XMLFilterImpl> {
+implements XMLFilterImplClassTests<XMLFilterImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.XMLFilterImpl]
 

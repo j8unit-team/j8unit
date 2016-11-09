@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ReferenceType} (by simply reusing the
+ * J8Unit test interface {@link ReferenceTypeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ReferenceTypeTest
-implements org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<ReferenceType> {
+implements ReferenceTypeTests<ReferenceType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.type.ReferenceType]
 

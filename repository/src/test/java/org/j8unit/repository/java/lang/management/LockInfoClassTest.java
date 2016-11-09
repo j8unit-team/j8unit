@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LockInfo} (by simply reusing the J8Unit
+ * test interface {@link LockInfoClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LockInfoClassTest
-implements org.j8unit.repository.java.lang.management.LockInfoClassTests<LockInfo> {
+implements LockInfoClassTests<LockInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.LockInfo]
 

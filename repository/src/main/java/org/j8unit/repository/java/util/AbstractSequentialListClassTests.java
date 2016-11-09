@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.AbstractSequentialListTests}.
+ * {@link AbstractSequentialListTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractSequentialListClassTests<SUT extends AbstractSequentialList>
-extends org.j8unit.repository.java.util.AbstractListClassTests<SUT> {
+extends AbstractListClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.AbstractSequentialList]
     /**

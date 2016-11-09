@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.IdUniquenessPolicy;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IdUniquenessPolicy} (by simply
+ * reusing the J8Unit test interface {@link IdUniquenessPolicyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IdUniquenessPolicyTest
-implements org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyTests<IdUniquenessPolicy> {
+implements IdUniquenessPolicyTests<IdUniquenessPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.IdUniquenessPolicy]
 

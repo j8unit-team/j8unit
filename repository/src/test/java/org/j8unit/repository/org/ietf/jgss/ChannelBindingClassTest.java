@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ChannelBinding} (by simply reusing the
+ * J8Unit test interface {@link ChannelBindingClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ChannelBindingClassTest
-implements org.j8unit.repository.org.ietf.jgss.ChannelBindingClassTests<ChannelBinding> {
+implements ChannelBindingClassTests<ChannelBinding> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.ietf.jgss.ChannelBinding]
 

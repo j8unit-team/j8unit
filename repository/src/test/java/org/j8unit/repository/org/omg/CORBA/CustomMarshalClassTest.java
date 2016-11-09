@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CustomMarshal;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CustomMarshal} (by simply reusing the
+ * J8Unit test interface {@link CustomMarshalClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CustomMarshalClassTest
-implements org.j8unit.repository.org.omg.CORBA.CustomMarshalClassTests<CustomMarshal> {
+implements CustomMarshalClassTests<CustomMarshal> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CustomMarshal]
 

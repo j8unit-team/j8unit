@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JMXConnectorServer} (by simply reusing
+ * the J8Unit test interface {@link JMXConnectorServerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMXConnectorServerClassTest
-implements org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTests<JMXConnectorServer> {
+implements JMXConnectorServerClassTests<JMXConnectorServer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectorServer]
 

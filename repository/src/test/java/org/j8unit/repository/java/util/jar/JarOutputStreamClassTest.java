@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JarOutputStream} (by simply reusing the
+ * J8Unit test interface {@link JarOutputStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JarOutputStreamClassTest
-implements org.j8unit.repository.java.util.jar.JarOutputStreamClassTests<JarOutputStream> {
+implements JarOutputStreamClassTests<JarOutputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.JarOutputStream]
 

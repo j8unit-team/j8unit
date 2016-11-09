@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Normalizer} (by simply reusing the J8Unit
+ * test interface {@link NormalizerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NormalizerClassTest
-implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
+implements NormalizerClassTests<Normalizer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.Normalizer]
 
@@ -66,9 +71,14 @@ implements org.j8unit.repository.java.text.NormalizerClassTests<Normalizer> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.text.Normalizer]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Form} (by simply reusing the J8Unit
+     * test interface {@link FormClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FormClassTest
-    implements org.j8unit.repository.java.text.NormalizerClassTests.FormClassTests<Form> {
+    implements FormClassTests<Form> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.text.Normalizer$Form]
 

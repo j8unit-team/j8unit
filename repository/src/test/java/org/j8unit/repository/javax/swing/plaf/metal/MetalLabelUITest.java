@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalLabelUITest
-implements FactoryBasedJ8UnitTest<MetalLabelUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalLabelUITests<MetalLabelUI> {
+implements FactoryBasedJ8UnitTest<MetalLabelUI>, MetalLabelUITests<MetalLabelUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalLabelUI]
 

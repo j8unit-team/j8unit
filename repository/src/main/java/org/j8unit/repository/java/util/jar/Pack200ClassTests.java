@@ -6,6 +6,9 @@ import java.util.jar.Pack200.Packer;
 import java.util.jar.Pack200.Unpacker;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.jar.Pack200Tests.PackerTests;
+import org.j8unit.repository.java.util.jar.Pack200Tests.UnpackerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.jar.Pack200Tests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link Pack200Tests}.
  * </p>
  *
  * <p>
@@ -51,7 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Pack200ClassTests<SUT extends Pack200>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.jar.Pack200]
     /**
@@ -86,8 +88,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.jar.Pack200Tests.PackerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link PackerTests}.
      * </p>
      *
      * <p>
@@ -152,8 +153,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.jar.Pack200Tests.UnpackerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link UnpackerTests}.
      * </p>
      *
      * <p>

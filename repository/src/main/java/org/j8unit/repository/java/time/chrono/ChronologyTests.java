@@ -3,6 +3,7 @@ package org.j8unit.repository.java.time.chrono;
 import java.time.chrono.Chronology;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ComparableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.time.chrono.ChronologyClassTests}).
+ * {@link ChronologyClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronologyTests<SUT extends Chronology>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
+extends ComparableTests<SUT, Chronology> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.Chronology]
 
@@ -145,6 +146,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#getCalendarType() public
+     * abstract java.lang.String java.time.chrono.Chronology.getCalendarType()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCalendarType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.Chronology#dateYearDay(java.time.chrono.Era, int, int) public default
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateYearDay(java.time.chrono.Era,int,int)}.
@@ -182,28 +205,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
     @Test
     @Category(Draft.class)
     public default void test_dateYearDay_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#getCalendarType() public
-     * abstract java.lang.String java.time.chrono.Chronology.getCalendarType()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCalendarType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -374,8 +375,9 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#date(int, int, int)
-     * public abstract java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(int,int,int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.Chronology#date(java.time.temporal.TemporalAccessor) public abstract
+     * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(java.time.temporal.TemporalAccessor)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -387,7 +389,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_date_int_int_int()
+    public default void test_date_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -419,9 +421,8 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.Chronology#date(java.time.temporal.TemporalAccessor) public abstract
-     * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(java.time.temporal.TemporalAccessor)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#date(int, int, int)
+     * public abstract java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.date(int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -433,7 +434,7 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_date_TemporalAccessor()
+    public default void test_date_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -534,28 +535,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#dateNow(java.time.Clock)
-     * public default java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateNow(java.time.Clock)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dateNow_Clock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#dateNow() public default
      * java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateNow()}.
      *
@@ -593,6 +572,28 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, Chronology> {
     @Test
     @Category(Draft.class)
     public default void test_dateNow_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.chrono.Chronology#dateNow(java.time.Clock)
+     * public default java.time.chrono.ChronoLocalDate java.time.chrono.Chronology.dateNow(java.time.Clock)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dateNow_Clock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

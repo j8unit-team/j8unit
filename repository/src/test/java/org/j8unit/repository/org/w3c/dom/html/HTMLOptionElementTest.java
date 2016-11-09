@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLOptionElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLOptionElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLOptionElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLOptionElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLOptionElementTests<HTMLOptionElement> {
+implements HTMLOptionElementTests<HTMLOptionElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLOptionElement]
 

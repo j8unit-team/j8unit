@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.multi;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.multi.MultiInternalFrameUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.multi.MultiInternalFrameUITests}.
+ * {@link MultiInternalFrameUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiInternalFrameUIClassTests<SUT extends MultiInternalFrameUI>
-extends org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests<SUT> {
+extends InternalFrameUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiInternalFrameUI]
     /**

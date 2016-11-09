@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.PortableServer.ThreadPolicyValue;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ThreadPolicyValue} (by simply reusing
+ * the J8Unit test interface {@link ThreadPolicyValueTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ThreadPolicyValueTest
-implements org.j8unit.repository.org.omg.PortableServer.ThreadPolicyValueTests<ThreadPolicyValue> {
+implements ThreadPolicyValueTests<ThreadPolicyValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ThreadPolicyValue]
 

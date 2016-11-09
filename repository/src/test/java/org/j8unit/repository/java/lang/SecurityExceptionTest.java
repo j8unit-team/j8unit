@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SecurityExceptionTest
-implements FactoryBasedJ8UnitTest<SecurityException>, org.j8unit.repository.java.lang.SecurityExceptionTests<SecurityException> {
+implements FactoryBasedJ8UnitTest<SecurityException>, SecurityExceptionTests<SecurityException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.SecurityException]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.text.html.parser;
 import javax.swing.text.html.parser.Parser;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParserTests<SUT extends Parser>
-extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends DTDConstantsTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.parser.Parser]
 

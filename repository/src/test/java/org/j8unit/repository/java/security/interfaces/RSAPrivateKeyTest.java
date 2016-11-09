@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RSAPrivateKey} (by simply reusing the
+ * J8Unit test interface {@link RSAPrivateKeyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RSAPrivateKeyTest
-implements org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<RSAPrivateKey> {
+implements RSAPrivateKeyTests<RSAPrivateKey> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.interfaces.RSAPrivateKey]
 

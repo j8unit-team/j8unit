@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MalformedObjectNameExceptionTest
-implements FactoryBasedJ8UnitTest<MalformedObjectNameException>,
-org.j8unit.repository.javax.management.MalformedObjectNameExceptionTests<MalformedObjectNameException> {
+implements FactoryBasedJ8UnitTest<MalformedObjectNameException>, MalformedObjectNameExceptionTests<MalformedObjectNameException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MalformedObjectNameException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SizeLimitExceededExceptionTest
-implements FactoryBasedJ8UnitTest<SizeLimitExceededException>, org.j8unit.repository.javax.naming.SizeLimitExceededExceptionTests<SizeLimitExceededException> {
+implements FactoryBasedJ8UnitTest<SizeLimitExceededException>, SizeLimitExceededExceptionTests<SizeLimitExceededException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.SizeLimitExceededException]
 

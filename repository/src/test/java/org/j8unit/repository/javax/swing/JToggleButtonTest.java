@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JToggleButtonTest
-implements FactoryBasedJ8UnitTest<JToggleButton>, org.j8unit.repository.javax.swing.JToggleButtonTests<JToggleButton> {
+implements FactoryBasedJ8UnitTest<JToggleButton>, JToggleButtonTests<JToggleButton> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton]
 
@@ -40,7 +40,7 @@ implements FactoryBasedJ8UnitTest<JToggleButton>, org.j8unit.repository.javax.sw
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ToggleButtonModelTest
-    implements FactoryBasedJ8UnitTest<ToggleButtonModel>, org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests<ToggleButtonModel> {
+    implements FactoryBasedJ8UnitTest<ToggleButtonModel>, ToggleButtonModelTests<ToggleButtonModel> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JToggleButton$ToggleButtonModel]
 

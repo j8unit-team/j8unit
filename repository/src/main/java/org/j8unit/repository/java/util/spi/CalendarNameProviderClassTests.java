@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.spi.CalendarNameProviderTests}.
+ * {@link CalendarNameProviderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CalendarNameProviderClassTests<SUT extends CalendarNameProvider>
-extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {
+extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.spi.CalendarNameProvider]
     /**

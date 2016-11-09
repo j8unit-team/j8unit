@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.IOP;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.TaggedProfileHelper;
@@ -17,8 +18,7 @@ import org.omg.IOP.TaggedProfileHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.TaggedProfileHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TaggedProfileHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.IOP.TaggedProfileHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TaggedProfileHelperClassTests<SUT extends TaggedProfileHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.TaggedProfileHelper]
     /**

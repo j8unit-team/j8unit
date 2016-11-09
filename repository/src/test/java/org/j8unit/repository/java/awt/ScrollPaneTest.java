@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ScrollPaneTest
-implements FactoryBasedJ8UnitTest<ScrollPane>, org.j8unit.repository.java.awt.ScrollPaneTests<ScrollPane> {
+implements FactoryBasedJ8UnitTest<ScrollPane>, ScrollPaneTests<ScrollPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.ScrollPane]
 

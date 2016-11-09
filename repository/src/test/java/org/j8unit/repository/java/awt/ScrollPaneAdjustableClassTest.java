@@ -4,9 +4,14 @@ import java.awt.ScrollPaneAdjustable;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ScrollPaneAdjustable} (by simply reusing
+ * the J8Unit test interface {@link ScrollPaneAdjustableClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ScrollPaneAdjustableClassTest
-implements org.j8unit.repository.java.awt.ScrollPaneAdjustableClassTests<ScrollPaneAdjustable> {
+implements ScrollPaneAdjustableClassTests<ScrollPaneAdjustable> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.ScrollPaneAdjustable]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiTreeUITest
-implements FactoryBasedJ8UnitTest<MultiTreeUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiTreeUITests<MultiTreeUI> {
+implements FactoryBasedJ8UnitTest<MultiTreeUI>, MultiTreeUITests<MultiTreeUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiTreeUI]
 

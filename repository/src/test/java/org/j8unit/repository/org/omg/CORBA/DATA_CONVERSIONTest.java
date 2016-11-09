@@ -14,7 +14,7 @@ import org.omg.CORBA.DATA_CONVERSION;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DATA_CONVERSIONTest
-implements FactoryBasedJ8UnitTest<DATA_CONVERSION>, org.j8unit.repository.org.omg.CORBA.DATA_CONVERSIONTests<DATA_CONVERSION> {
+implements FactoryBasedJ8UnitTest<DATA_CONVERSION>, DATA_CONVERSIONTests<DATA_CONVERSION> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DATA_CONVERSION]
 

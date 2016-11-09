@@ -17,7 +17,7 @@ import org.w3c.dom.css.CSSPrimitiveValue;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSPrimitiveValueClassTests}).
+ * {@link CSSPrimitiveValueClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.css.CSSPrimitiveValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSPrimitiveValueTests<SUT extends CSSPrimitiveValue>
-extends org.j8unit.repository.org.w3c.dom.css.CSSValueTests<SUT> {
+extends CSSValueTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.CSSPrimitiveValue]
 

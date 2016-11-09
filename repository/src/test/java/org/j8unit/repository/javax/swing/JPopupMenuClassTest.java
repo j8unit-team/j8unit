@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JPopupMenu} (by simply reusing the J8Unit
+ * test interface {@link JPopupMenuClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JPopupMenuClassTest
-implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
+implements JPopupMenuClassTests<JPopupMenu> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JPopupMenu]
 
@@ -108,6 +113,11 @@ implements org.j8unit.repository.javax.swing.JPopupMenuClassTests<JPopupMenu> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JPopupMenu]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JPopupMenu]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Separator} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.JPopupMenuClassTests.SeparatorClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class SeparatorClassTest

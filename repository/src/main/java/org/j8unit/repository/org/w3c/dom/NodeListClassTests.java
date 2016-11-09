@@ -18,8 +18,7 @@ import org.w3c.dom.NodeList;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.NodeListTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NodeListTests}.
  * </p>
  *
  * <p>

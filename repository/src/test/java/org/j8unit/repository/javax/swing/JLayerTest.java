@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JLayerTest<V extends Component>
-implements FactoryBasedJ8UnitTest<JLayer<V>>, org.j8unit.repository.javax.swing.JLayerTests<JLayer<V>, V> {
+implements FactoryBasedJ8UnitTest<JLayer<V>>, JLayerTests<JLayer<V>, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JLayer]
 

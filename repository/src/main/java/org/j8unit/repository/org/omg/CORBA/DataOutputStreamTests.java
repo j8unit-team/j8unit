@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.omg.CORBA.DataOutputStream;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.DataOutputStreamClassTests}).
+ * {@link DataOutputStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.omg.CORBA.DataOutputStream;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataOutputStreamTests<SUT extends DataOutputStream>
-extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {
+extends ValueBaseTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DataOutputStream]
 

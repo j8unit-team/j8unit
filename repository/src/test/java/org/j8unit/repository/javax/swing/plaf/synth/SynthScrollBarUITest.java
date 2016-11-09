@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthScrollBarUITest
-implements FactoryBasedJ8UnitTest<SynthScrollBarUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthScrollBarUITests<SynthScrollBarUI> {
+implements FactoryBasedJ8UnitTest<SynthScrollBarUI>, SynthScrollBarUITests<SynthScrollBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthScrollBarUI]
 

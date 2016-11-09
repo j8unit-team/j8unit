@@ -17,8 +17,7 @@ import org.omg.DynamicAny.DynValueBox;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynValueBoxTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynValueBoxTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.DynamicAny.DynValueBox;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueBoxClassTests<SUT extends DynValueBox>
-extends org.j8unit.repository.org.omg.DynamicAny.DynValueBoxOperationsClassTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynValueCommonClassTests<SUT> {
+extends DynValueBoxOperationsClassTests<SUT>, DynValueCommonClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynValueBox]
     /**

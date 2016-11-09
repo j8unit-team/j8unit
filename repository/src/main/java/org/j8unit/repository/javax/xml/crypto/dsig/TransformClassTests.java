@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.crypto.dsig;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.Transform;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.crypto.AlgorithmMethodClassTests;
+import org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.TransformTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TransformTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransformClassTests<SUT extends Transform>
-extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT>, org.j8unit.repository.javax.xml.crypto.AlgorithmMethodClassTests<SUT> {
+extends XMLStructureClassTests<SUT>, AlgorithmMethodClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.Transform]
     /**

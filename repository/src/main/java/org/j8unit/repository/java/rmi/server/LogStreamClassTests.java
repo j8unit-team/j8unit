@@ -3,6 +3,7 @@ package org.j8unit.repository.java.rmi.server;
 import static org.junit.Assert.assertTrue;
 import java.rmi.server.LogStream;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.PrintStreamClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.server.LogStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LogStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LogStreamClassTests<SUT extends LogStream>
-extends org.j8unit.repository.java.io.PrintStreamClassTests<SUT> {
+extends PrintStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.LogStream]
     /**

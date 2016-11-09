@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.concurrent.RecursiveTaskClassTests}).
+ * {@link RecursiveTaskClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RecursiveTaskTests<SUT extends RecursiveTask<V>, V>
-extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests<SUT, V> {
+extends ForkJoinTaskTests<SUT, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.RecursiveTask]
 

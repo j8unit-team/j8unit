@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.DebugGraphics;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.GraphicsClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.DebugGraphicsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DebugGraphicsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DebugGraphicsClassTests<SUT extends DebugGraphics>
-extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
+extends GraphicsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DebugGraphics]
     /**

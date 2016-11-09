@@ -17,8 +17,7 @@ import org.omg.DynamicAny.DynEnumOperations;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynEnumOperationsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynEnumOperationsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.DynamicAny.DynEnumOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynEnumOperationsClassTests<SUT extends DynEnumOperations>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsClassTests<SUT> {
+extends DynAnyOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynEnumOperations]
     /**

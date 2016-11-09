@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.UNSUPPORTED_POLICY;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link UNSUPPORTED_POLICY} (by simply
+ * reusing the J8Unit test interface {@link UNSUPPORTED_POLICYTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UNSUPPORTED_POLICYTest
-implements org.j8unit.repository.org.omg.CORBA.UNSUPPORTED_POLICYTests<UNSUPPORTED_POLICY> {
+implements UNSUPPORTED_POLICYTests<UNSUPPORTED_POLICY> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UNSUPPORTED_POLICY]
 

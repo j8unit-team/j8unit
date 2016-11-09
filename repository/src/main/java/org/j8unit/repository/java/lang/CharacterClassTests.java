@@ -5,6 +5,10 @@ import java.lang.Character.Subset;
 import java.lang.Character.UnicodeBlock;
 import java.lang.Character.UnicodeScript;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CharacterTests.SubsetTests;
+import org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests;
+import org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.CharacterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CharacterTests}.
  * </p>
  *
  * <p>
@@ -50,8 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterClassTests<SUT extends Character>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends SerializableClassTests<SUT>, ComparableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character]
     /**
@@ -86,8 +88,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeScriptTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link UnicodeScriptTests}.
      * </p>
      *
      * <p>
@@ -116,7 +117,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeScriptClassTests<SUT extends UnicodeScript>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$UnicodeScript]
         /**
@@ -153,8 +154,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.lang.CharacterTests.SubsetTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SubsetTests}.
      * </p>
      *
      * <p>
@@ -183,7 +183,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SubsetClassTests<SUT extends Subset>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Character$Subset]
         /**
@@ -220,8 +220,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.lang.CharacterTests.UnicodeBlockTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link UnicodeBlockTests}.
      * </p>
      *
      * <p>

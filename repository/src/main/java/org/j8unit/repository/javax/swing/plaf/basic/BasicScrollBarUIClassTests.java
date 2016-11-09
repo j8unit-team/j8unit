@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.LayoutManagerClassTests;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.SwingConstantsClassTests;
+import org.j8unit.repository.javax.swing.plaf.ScrollBarUIClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicScrollBarUITests}.
  * </p>
  *
  * <p>
@@ -49,8 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicScrollBarUIClassTests<SUT extends BasicScrollBarUI>
-extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>,
-org.j8unit.repository.javax.swing.plaf.ScrollBarUIClassTests<SUT> {
+extends LayoutManagerClassTests<SUT>, SwingConstantsClassTests<SUT>, ScrollBarUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI]
     /**
@@ -115,7 +118,7 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUIClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends PropertyChangeHandler>
-    extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicScrollBarUI$PropertyChangeHandler]
         /**

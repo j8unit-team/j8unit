@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FileNameMap} (by simply reusing the
+ * J8Unit test interface {@link FileNameMapTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileNameMapTest
-implements org.j8unit.repository.java.net.FileNameMapTests<FileNameMap> {
+implements FileNameMapTests<FileNameMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.FileNameMap]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import javax.swing.Action;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.ActionListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActionTests<SUT extends Action>
-extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT> {
+extends ActionListenerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.Action]
 

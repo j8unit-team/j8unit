@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.PortableServer;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.PolicyTests;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ThreadPolicy;
 
@@ -14,7 +15,7 @@ import org.omg.PortableServer.ThreadPolicy;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableServer.ThreadPolicyClassTests}).
+ * {@link ThreadPolicyClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.PortableServer.ThreadPolicy;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadPolicyTests<SUT extends ThreadPolicy>
-extends org.j8unit.repository.org.omg.PortableServer.ThreadPolicyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT> {
+extends ThreadPolicyOperationsTests<SUT>, PolicyTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ThreadPolicy]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OffsetDateTime} (by simply reusing the
+ * J8Unit test interface {@link OffsetDateTimeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OffsetDateTimeClassTest
-implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTime> {
+implements OffsetDateTimeClassTests<OffsetDateTime> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.OffsetDateTime]
 
@@ -42,8 +47,8 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#now(java.time.Clock) public
-     * static java.time.OffsetDateTime java.time.OffsetDateTime.now(java.time.Clock)}.
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#now() public static
+     * java.time.OffsetDateTime java.time.OffsetDateTime.now()}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -55,9 +60,9 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now_Clock()
+    public void test_now()
     throws Exception {
-        // write some test for {@link java.time.OffsetDateTime#now(java.time.Clock)}
+        // write some test for {@link java.time.OffsetDateTime#now()}
     }
 
     /**
@@ -82,8 +87,8 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#now() public static
-     * java.time.OffsetDateTime java.time.OffsetDateTime.now()}.
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#now(java.time.Clock) public
+     * static java.time.OffsetDateTime java.time.OffsetDateTime.now(java.time.Clock)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -95,9 +100,9 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_now()
+    public void test_now_Clock()
     throws Exception {
-        // write some test for {@link java.time.OffsetDateTime#now()}
+        // write some test for {@link java.time.OffsetDateTime#now(java.time.Clock)}
     }
 
     /**
@@ -210,6 +215,26 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#timeLineOrder() public
+     * static java.util.Comparator<java.time.OffsetDateTime> java.time.OffsetDateTime.timeLineOrder()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_timeLineOrder()
+    throws Exception {
+        // write some test for {@link java.time.OffsetDateTime#timeLineOrder()}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.time.OffsetDateTime#from(java.time.temporal.TemporalAccessor) public static java.time.OffsetDateTime
      * java.time.OffsetDateTime.from(java.time.temporal.TemporalAccessor)}.
@@ -227,26 +252,6 @@ implements org.j8unit.repository.java.time.OffsetDateTimeClassTests<OffsetDateTi
     public void test_from_TemporalAccessor()
     throws Exception {
         // write some test for {@link java.time.OffsetDateTime#from(java.time.temporal.TemporalAccessor)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.time.OffsetDateTime#timeLineOrder() public
-     * static java.util.Comparator<java.time.OffsetDateTime> java.time.OffsetDateTime.timeLineOrder()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_timeLineOrder()
-    throws Exception {
-        // write some test for {@link java.time.OffsetDateTime#timeLineOrder()}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.time.OffsetDateTime]

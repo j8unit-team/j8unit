@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.text.html.FormSubmitEvent;
 import javax.swing.text.html.FormSubmitEvent.MethodType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link FormSubmitEventTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormSubmitEventClassTests<SUT extends FormSubmitEvent>
-extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClassTests<SUT> {
+extends HTMLFrameHyperlinkEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.FormSubmitEvent]
     /**
@@ -84,8 +84,7 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventTests.MethodTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link MethodTypeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +113,7 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MethodTypeClassTests<SUT extends MethodType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.FormSubmitEvent$MethodType]
         /**

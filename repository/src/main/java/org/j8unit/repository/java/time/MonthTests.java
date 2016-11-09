@@ -3,6 +3,9 @@ package org.j8unit.repository.java.time;
 import java.time.Month;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.time.temporal.TemporalAccessorTests;
+import org.j8unit.repository.java.time.temporal.TemporalAdjusterTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.time.MonthClassTests}).
+ * {@link MonthClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MonthTests<SUT extends Month>
-extends org.j8unit.repository.java.time.temporal.TemporalAccessorTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterTests<SUT>,
-org.j8unit.repository.java.lang.EnumTests<SUT, Month> {
+extends TemporalAccessorTests<SUT>, TemporalAdjusterTests<SUT>, EnumTests<SUT, Month> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.Month]
 

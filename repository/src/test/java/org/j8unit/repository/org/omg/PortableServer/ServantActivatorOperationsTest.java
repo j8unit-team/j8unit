@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ServantActivatorOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServantActivatorOperations} (by
+ * simply reusing the J8Unit test interface {@link ServantActivatorOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantActivatorOperationsTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsTests<ServantActivatorOperations> {
+implements ServantActivatorOperationsTests<ServantActivatorOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ServantActivatorOperations]
 

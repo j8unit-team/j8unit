@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.AdapterActivator;
@@ -17,8 +19,7 @@ import org.omg.PortableServer.AdapterActivator;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.AdapterActivatorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AdapterActivatorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.omg.PortableServer.AdapterActivator;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AdapterActivatorClassTests<SUT extends AdapterActivator>
-extends org.j8unit.repository.org.omg.PortableServer.AdapterActivatorOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
+extends AdapterActivatorOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.AdapterActivator]
     /**

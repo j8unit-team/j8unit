@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TextLayout} (by simply reusing the J8Unit
+ * test interface {@link TextLayoutClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TextLayoutClassTest
-implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> {
+implements TextLayoutClassTests<TextLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.TextLayout]
 
@@ -95,9 +100,14 @@ implements org.j8unit.repository.java.awt.font.TextLayoutClassTests<TextLayout> 
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.TextLayout]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CaretPolicy} (by simply reusing the
+     * J8Unit test interface {@link CaretPolicyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CaretPolicyClassTest
-    implements org.j8unit.repository.java.awt.font.TextLayoutClassTests.CaretPolicyClassTests<CaretPolicy> {
+    implements CaretPolicyClassTests<CaretPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.TextLayout$CaretPolicy]
 

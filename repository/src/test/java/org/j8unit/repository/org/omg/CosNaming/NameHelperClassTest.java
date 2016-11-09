@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NameHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NameHelper} (by simply reusing the J8Unit
+ * test interface {@link NameHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NameHelperClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NameHelperClassTests<NameHelper> {
+implements NameHelperClassTests<NameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NameHelper]
 

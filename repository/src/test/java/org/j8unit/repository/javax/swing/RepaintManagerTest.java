@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RepaintManagerTest
-implements FactoryBasedJ8UnitTest<RepaintManager>, org.j8unit.repository.javax.swing.RepaintManagerTests<RepaintManager> {
+implements FactoryBasedJ8UnitTest<RepaintManager>, RepaintManagerTests<RepaintManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RepaintManager]
 

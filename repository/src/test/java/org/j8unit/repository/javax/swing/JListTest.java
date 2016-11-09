@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JListTest<E>
-implements FactoryBasedJ8UnitTest<JList<E>>, org.j8unit.repository.javax.swing.JListTests<JList<E>, E> {
+implements FactoryBasedJ8UnitTest<JList<E>>, JListTests<JList<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JList]
 
@@ -37,6 +37,11 @@ implements FactoryBasedJ8UnitTest<JList<E>>, org.j8unit.repository.javax.swing.J
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.JList]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JList]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.JListTests.DropLocationTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DropLocationTest

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.naming.ldap;
 import static org.junit.Assert.assertTrue;
 import javax.naming.ldap.ExtendedResponse;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ExtendedResponseTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExtendedResponseClassTests<SUT extends ExtendedResponse>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT> {
+extends SerializableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.ExtendedResponse]
     /**

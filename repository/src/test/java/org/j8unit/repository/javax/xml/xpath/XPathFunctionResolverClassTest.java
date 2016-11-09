@@ -4,9 +4,14 @@ import javax.xml.xpath.XPathFunctionResolver;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XPathFunctionResolver} (by simply reusing
+ * the J8Unit test interface {@link XPathFunctionResolverClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XPathFunctionResolverClassTest
-implements org.j8unit.repository.javax.xml.xpath.XPathFunctionResolverClassTests<XPathFunctionResolver> {
+implements XPathFunctionResolverClassTests<XPathFunctionResolver> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.xpath.XPathFunctionResolver]
 

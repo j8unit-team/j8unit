@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Stub} (by simply reusing the J8Unit test
+ * interface {@link StubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StubClassTest
-implements org.j8unit.repository.javax.rmi.CORBA.StubClassTests<Stub> {
+implements StubClassTests<Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.rmi.CORBA.Stub]
 

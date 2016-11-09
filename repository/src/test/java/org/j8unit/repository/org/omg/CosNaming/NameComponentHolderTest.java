@@ -14,7 +14,7 @@ import org.omg.CosNaming.NameComponentHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NameComponentHolderTest
-implements FactoryBasedJ8UnitTest<NameComponentHolder>, org.j8unit.repository.org.omg.CosNaming.NameComponentHolderTests<NameComponentHolder> {
+implements FactoryBasedJ8UnitTest<NameComponentHolder>, NameComponentHolderTests<NameComponentHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NameComponentHolder]
 

@@ -4,6 +4,9 @@ import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlElementDecl.GLOBAL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.lang.annotation.AnnotationTests;
+import org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests}).
+ * {@link XmlElementDeclClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlElementDeclTests<SUT extends XmlElementDecl>
-extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
+extends AnnotationTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl]
 
@@ -181,7 +184,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests}).
+     * (see {@link GLOBALClassTests}).
      * </p>
      *
      * @param SUT
@@ -192,7 +195,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GLOBALTests<SUT extends GLOBAL>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementDecl$GLOBAL]
 

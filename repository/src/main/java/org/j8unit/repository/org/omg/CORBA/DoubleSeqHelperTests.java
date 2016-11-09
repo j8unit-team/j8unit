@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.DoubleSeqHelper;
 
@@ -14,7 +15,7 @@ import org.omg.CORBA.DoubleSeqHelper;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.DoubleSeqHelperClassTests}).
+ * {@link DoubleSeqHelperClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.CORBA.DoubleSeqHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleSeqHelperTests<SUT extends DoubleSeqHelper>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHelper]
 

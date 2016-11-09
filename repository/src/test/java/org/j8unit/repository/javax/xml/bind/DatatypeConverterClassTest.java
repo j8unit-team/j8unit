@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DatatypeConverter} (by simply reusing the
+ * J8Unit test interface {@link DatatypeConverterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DatatypeConverterClassTest
-implements org.j8unit.repository.javax.xml.bind.DatatypeConverterClassTests<DatatypeConverter> {
+implements DatatypeConverterClassTests<DatatypeConverter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.DatatypeConverter]
 

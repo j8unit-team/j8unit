@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.metal;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.metal.MetalRadioButtonUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalRadioButtonUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalRadioButtonUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalRadioButtonUIClassTests<SUT extends MetalRadioButtonUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicRadioButtonUIClassTests<SUT> {
+extends BasicRadioButtonUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalRadioButtonUI]
     /**

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.UnknownHostExceptionTests}.
+ * {@link UnknownHostExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownHostExceptionClassTests<SUT extends UnknownHostException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
+extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.UnknownHostException]
     /**

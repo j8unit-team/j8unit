@@ -1,6 +1,8 @@
 package org.j8unit.repository.org.omg.IOP;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.CodecFactory;
 
@@ -14,7 +16,7 @@ import org.omg.IOP.CodecFactory;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryClassTests}).
+ * {@link CodecFactoryClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,8 +27,7 @@ import org.omg.IOP.CodecFactory;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CodecFactoryTests<SUT extends CodecFactory>
-extends org.j8unit.repository.org.omg.IOP.CodecFactoryOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends CodecFactoryOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecFactory]
 

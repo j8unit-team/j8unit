@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MalformedObjectNameException} (by simply
+ * reusing the J8Unit test interface {@link MalformedObjectNameExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MalformedObjectNameExceptionClassTest
-implements org.j8unit.repository.javax.management.MalformedObjectNameExceptionClassTests<MalformedObjectNameException> {
+implements MalformedObjectNameExceptionClassTests<MalformedObjectNameException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MalformedObjectNameException]
 

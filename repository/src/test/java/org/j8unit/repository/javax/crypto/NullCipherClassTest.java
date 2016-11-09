@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NullCipher} (by simply reusing the J8Unit
+ * test interface {@link NullCipherClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NullCipherClassTest
-implements org.j8unit.repository.javax.crypto.NullCipherClassTests<NullCipher> {
+implements NullCipherClassTests<NullCipher> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.NullCipher]
 

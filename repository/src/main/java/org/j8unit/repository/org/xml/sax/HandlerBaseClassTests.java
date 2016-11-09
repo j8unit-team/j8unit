@@ -2,6 +2,7 @@ package org.j8unit.repository.org.xml.sax;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.HandlerBase;
@@ -17,8 +18,7 @@ import org.xml.sax.HandlerBase;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.HandlerBaseTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HandlerBaseTests}.
  * </p>
  *
  * <p>
@@ -47,9 +47,7 @@ import org.xml.sax.HandlerBase;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HandlerBaseClassTests<SUT extends HandlerBase>
-extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT>, org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT>,
-org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends EntityResolverClassTests<SUT>, DTDHandlerClassTests<SUT>, DocumentHandlerClassTests<SUT>, ErrorHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.HandlerBase]
     /**

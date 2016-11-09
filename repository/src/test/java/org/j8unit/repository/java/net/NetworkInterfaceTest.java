@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NetworkInterface} (by simply reusing
+ * the J8Unit test interface {@link NetworkInterfaceTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NetworkInterfaceTest
-implements org.j8unit.repository.java.net.NetworkInterfaceTests<NetworkInterface> {
+implements NetworkInterfaceTests<NetworkInterface> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.NetworkInterface]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.MARSHAL;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.MARSHALTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MARSHALTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.MARSHAL;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MARSHALClassTests<SUT extends MARSHAL>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.MARSHAL]
     /**

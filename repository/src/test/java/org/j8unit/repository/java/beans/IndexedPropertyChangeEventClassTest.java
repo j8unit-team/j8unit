@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IndexedPropertyChangeEvent} (by simply
+ * reusing the J8Unit test interface {@link IndexedPropertyChangeEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IndexedPropertyChangeEventClassTest
-implements org.j8unit.repository.java.beans.IndexedPropertyChangeEventClassTests<IndexedPropertyChangeEvent> {
+implements IndexedPropertyChangeEventClassTests<IndexedPropertyChangeEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.IndexedPropertyChangeEvent]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnsupportedAudioFileExceptionTest
-implements FactoryBasedJ8UnitTest<UnsupportedAudioFileException>,
-org.j8unit.repository.javax.sound.sampled.UnsupportedAudioFileExceptionTests<UnsupportedAudioFileException> {
+implements FactoryBasedJ8UnitTest<UnsupportedAudioFileException>, UnsupportedAudioFileExceptionTests<UnsupportedAudioFileException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.UnsupportedAudioFileException]
 

@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Vector} (by simply reusing the J8Unit
+ * test interface {@link VectorClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class VectorClassTest
-implements org.j8unit.repository.java.util.VectorClassTests<Vector> {
+implements VectorClassTests<Vector> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Vector]
 

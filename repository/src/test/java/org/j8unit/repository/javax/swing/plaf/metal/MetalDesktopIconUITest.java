@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalDesktopIconUITest
-implements FactoryBasedJ8UnitTest<MetalDesktopIconUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalDesktopIconUITests<MetalDesktopIconUI> {
+implements FactoryBasedJ8UnitTest<MetalDesktopIconUI>, MetalDesktopIconUITests<MetalDesktopIconUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalDesktopIconUI]
 

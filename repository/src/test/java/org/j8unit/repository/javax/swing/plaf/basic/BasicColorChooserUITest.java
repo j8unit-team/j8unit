@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicColorChooserUITest
-implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests<BasicColorChooserUI> {
+implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, BasicColorChooserUITests<BasicColorChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<BasicColorChooserUI>, org.j8unit.repository.ja
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyHandler} (by simply
+     * reusing the J8Unit test interface {@link PropertyHandlerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests.PropertyHandlerTests<PropertyHandler> {
+    implements PropertyHandlerTests<PropertyHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicColorChooserUI$PropertyHandler]
 

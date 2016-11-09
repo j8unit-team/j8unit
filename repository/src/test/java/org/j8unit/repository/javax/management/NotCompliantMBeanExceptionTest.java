@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotCompliantMBeanExceptionTest
-implements FactoryBasedJ8UnitTest<NotCompliantMBeanException>,
-org.j8unit.repository.javax.management.NotCompliantMBeanExceptionTests<NotCompliantMBeanException> {
+implements FactoryBasedJ8UnitTest<NotCompliantMBeanException>, NotCompliantMBeanExceptionTests<NotCompliantMBeanException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotCompliantMBeanException]
 

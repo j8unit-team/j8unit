@@ -5,6 +5,10 @@ import java.awt.MultipleGradientPaint;
 import java.awt.MultipleGradientPaint.ColorSpaceType;
 import java.awt.MultipleGradientPaint.CycleMethod;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests;
+import org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +25,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests}.
+ * {@link MultipleGradientPaintTests}.
  * </p>
  *
  * <p>
@@ -50,7 +54,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultipleGradientPaintClassTests<SUT extends MultipleGradientPaint>
-extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends PaintClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.MultipleGradientPaint]
     /**
@@ -85,8 +89,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ColorSpaceTypeTests}.
      * </p>
      *
      * <p>
@@ -115,7 +118,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorSpaceTypeClassTests<SUT extends ColorSpaceType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.MultipleGradientPaint$ColorSpaceType]
         /**
@@ -152,8 +155,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link CycleMethodTests}.
      * </p>
      *
      * <p>
@@ -182,7 +184,7 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CycleMethodClassTests<SUT extends CycleMethod>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.MultipleGradientPaint$CycleMethod]
         /**

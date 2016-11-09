@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.net.ssl;
 import static org.junit.Assert.assertTrue;
 import javax.net.ssl.HttpsURLConnection;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.net.HttpURLConnectionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.net.ssl.HttpsURLConnectionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HttpsURLConnectionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HttpsURLConnectionClassTests<SUT extends HttpsURLConnection>
-extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
+extends HttpURLConnectionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.HttpsURLConnection]
     /**

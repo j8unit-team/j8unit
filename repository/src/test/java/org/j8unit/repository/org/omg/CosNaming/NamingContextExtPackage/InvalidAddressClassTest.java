@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidAddress} (by simply reusing the
+ * J8Unit test interface {@link InvalidAddressClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidAddressClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressClassTests<InvalidAddress> {
+implements InvalidAddressClassTests<InvalidAddress> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddress]
 

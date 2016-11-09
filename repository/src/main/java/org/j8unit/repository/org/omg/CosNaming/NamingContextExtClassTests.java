@@ -17,8 +17,7 @@ import org.omg.CosNaming.NamingContextExt;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextExtTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NamingContextExtTests}.
  * </p>
  *
  * <p>
@@ -47,8 +46,7 @@ import org.omg.CosNaming.NamingContextExt;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingContextExtClassTests<SUT extends NamingContextExt>
-extends org.j8unit.repository.org.omg.CosNaming.NamingContextExtOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.CosNaming.NamingContextClassTests<SUT> {
+extends NamingContextExtOperationsClassTests<SUT>, NamingContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExt]
     /**

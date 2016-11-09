@@ -8,10 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MarshalledObject} (by simply reusing the
+ * J8Unit test interface {@link MarshalledObjectClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class MarshalledObjectClassTest
-implements org.j8unit.repository.java.rmi.MarshalledObjectClassTests<MarshalledObject> {
+implements MarshalledObjectClassTests<MarshalledObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.MarshalledObject]
 

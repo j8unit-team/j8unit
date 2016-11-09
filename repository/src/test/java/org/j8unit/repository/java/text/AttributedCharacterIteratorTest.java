@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributedCharacterIterator} (by
+ * simply reusing the J8Unit test interface {@link AttributedCharacterIteratorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AttributedCharacterIteratorTest
-implements org.j8unit.repository.java.text.AttributedCharacterIteratorTests<AttributedCharacterIterator> {
+implements AttributedCharacterIteratorTests<AttributedCharacterIterator> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.AttributedCharacterIterator]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.java.text.AttributedCharacterIteratorTests<Attr
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.AttributedCharacterIterator]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Attribute} (by simply reusing the
+     * J8Unit test interface {@link AttributeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class AttributeTest
-    implements org.j8unit.repository.java.text.AttributedCharacterIteratorTests.AttributeTests<Attribute> {
+    implements AttributeTests<Attribute> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.AttributedCharacterIterator$Attribute]
 

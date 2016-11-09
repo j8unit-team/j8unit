@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JSliderTest
-implements FactoryBasedJ8UnitTest<JSlider>, org.j8unit.repository.javax.swing.JSliderTests<JSlider> {
+implements FactoryBasedJ8UnitTest<JSlider>, JSliderTests<JSlider> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSlider]
 

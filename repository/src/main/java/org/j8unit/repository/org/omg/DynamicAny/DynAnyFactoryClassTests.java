@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.DynAnyFactory;
@@ -17,8 +19,7 @@ import org.omg.DynamicAny.DynAnyFactory;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynAnyFactoryTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.omg.DynamicAny.DynAnyFactory;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnyFactoryClassTests<SUT extends DynAnyFactory>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
+extends DynAnyFactoryOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyFactory]
     /**

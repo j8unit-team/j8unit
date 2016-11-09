@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.BindingHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BindingHelper} (by simply reusing the
+ * J8Unit test interface {@link BindingHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BindingHelperClassTest
-implements org.j8unit.repository.org.omg.CosNaming.BindingHelperClassTests<BindingHelper> {
+implements BindingHelperClassTests<BindingHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.BindingHelper]
 

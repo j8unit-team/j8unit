@@ -14,7 +14,7 @@ import org.omg.CORBA.ByteHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ByteHolderTest
-implements FactoryBasedJ8UnitTest<ByteHolder>, org.j8unit.repository.org.omg.CORBA.ByteHolderTests<ByteHolder> {
+implements FactoryBasedJ8UnitTest<ByteHolder>, ByteHolderTests<ByteHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ByteHolder]
 

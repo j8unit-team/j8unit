@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DoubleAdderTest
-implements FactoryBasedJ8UnitTest<DoubleAdder>, org.j8unit.repository.java.util.concurrent.atomic.DoubleAdderTests<DoubleAdder> {
+implements FactoryBasedJ8UnitTest<DoubleAdder>, DoubleAdderTests<DoubleAdder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.DoubleAdder]
 

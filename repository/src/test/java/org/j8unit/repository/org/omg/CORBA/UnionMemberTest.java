@@ -14,7 +14,7 @@ import org.omg.CORBA.UnionMember;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnionMemberTest
-implements FactoryBasedJ8UnitTest<UnionMember>, org.j8unit.repository.org.omg.CORBA.UnionMemberTests<UnionMember> {
+implements FactoryBasedJ8UnitTest<UnionMember>, UnionMemberTests<UnionMember> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UnionMember]
 

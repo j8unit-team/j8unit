@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ULongLongSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ULongLongSeqHelper} (by simply
+ * reusing the J8Unit test interface {@link ULongLongSeqHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ULongLongSeqHelperTest
-implements org.j8unit.repository.org.omg.CORBA.ULongLongSeqHelperTests<ULongLongSeqHelper> {
+implements ULongLongSeqHelperTests<ULongLongSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ULongLongSeqHelper]
 

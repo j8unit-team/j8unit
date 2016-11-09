@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSIENT;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TRANSIENTTest
-implements FactoryBasedJ8UnitTest<TRANSIENT>, org.j8unit.repository.org.omg.CORBA.TRANSIENTTests<TRANSIENT> {
+implements FactoryBasedJ8UnitTest<TRANSIENT>, TRANSIENTTests<TRANSIENT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSIENT]
 

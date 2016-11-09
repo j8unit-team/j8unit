@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Operations;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0OperationsClassTests}).
+ * {@link IORInterceptor_3_0OperationsClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +29,7 @@ import org.omg.PortableInterceptor.IORInterceptor_3_0Operations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInterceptor_3_0OperationsTests<SUT extends IORInterceptor_3_0Operations>
-extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperationsTests<SUT> {
+extends IORInterceptorOperationsTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.IORInterceptor_3_0Operations]
 

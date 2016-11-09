@@ -14,9 +14,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MetalIconFactory} (by simply reusing the
+ * J8Unit test interface {@link MetalIconFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MetalIconFactoryClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests<MetalIconFactory> {
+implements MetalIconFactoryClassTests<MetalIconFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory]
 
@@ -50,27 +55,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.plaf.metal.MetalIconFactory#getCheckBoxIcon() public static javax.swing.Icon
-     * javax.swing.plaf.metal.MetalIconFactory.getCheckBoxIcon()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getCheckBoxIcon()
-    throws Exception {
-        // write some test for {@link javax.swing.plaf.metal.MetalIconFactory#getCheckBoxIcon()}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.plaf.metal.MetalIconFactory#getFileChooserUpFolderIcon() public static javax.swing.Icon
      * javax.swing.plaf.metal.MetalIconFactory.getFileChooserUpFolderIcon()}.
      *
@@ -87,6 +71,27 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
     public void test_getFileChooserUpFolderIcon()
     throws Exception {
         // write some test for {@link javax.swing.plaf.metal.MetalIconFactory#getFileChooserUpFolderIcon()}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.plaf.metal.MetalIconFactory#getCheckBoxIcon() public static javax.swing.Icon
+     * javax.swing.plaf.metal.MetalIconFactory.getCheckBoxIcon()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getCheckBoxIcon()
+    throws Exception {
+        // write some test for {@link javax.swing.plaf.metal.MetalIconFactory#getCheckBoxIcon()}
     }
 
     /**
@@ -576,9 +581,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FileIcon16} (by simply reusing the
+     * J8Unit test interface {@link FileIcon16ClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FileIcon16ClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FileIcon16ClassTests<FileIcon16> {
+    implements FileIcon16ClassTests<FileIcon16> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$FileIcon16]
 
@@ -615,48 +625,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class PaletteCloseIconClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.PaletteCloseIconClassTests<PaletteCloseIcon> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-        @Override
-        public Class<PaletteCloseIcon> createNewSUT() {
-            return PaletteCloseIcon.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#PaletteCloseIcon() public
-         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_PaletteCloseIcon()
-        throws Exception {
-            // create new instance
-            final PaletteCloseIcon sut = new PaletteCloseIcon();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TreeFolderIcon} (by simply reusing
+     * the J8Unit test interface {@link TreeFolderIconClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TreeFolderIconClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeFolderIconClassTests<TreeFolderIcon> {
+    implements TreeFolderIconClassTests<TreeFolderIcon> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeFolderIcon]
 
@@ -693,9 +669,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FolderIcon16} (by simply reusing the
+     * J8Unit test interface {@link FolderIcon16ClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FolderIcon16ClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FolderIcon16ClassTests<FolderIcon16> {
+    implements FolderIcon16ClassTests<FolderIcon16> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$FolderIcon16]
 
@@ -732,9 +713,102 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TreeLeafIcon} (by simply reusing the
+     * J8Unit test interface {@link TreeLeafIconClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TreeLeafIconClassTest
+    implements TreeLeafIconClassTests<TreeLeafIcon> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+
+        @Override
+        public Class<TreeLeafIcon> createNewSUT() {
+            return TreeLeafIcon.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon#TreeLeafIcon() public
+         * javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_TreeLeafIcon()
+        throws Exception {
+            // create new instance
+            final TreeLeafIcon sut = new TreeLeafIcon();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PaletteCloseIcon} (by simply reusing
+     * the J8Unit test interface {@link PaletteCloseIconClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class PaletteCloseIconClassTest
+    implements PaletteCloseIconClassTests<PaletteCloseIcon> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+        @Override
+        public Class<PaletteCloseIcon> createNewSUT() {
+            return PaletteCloseIcon.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon#PaletteCloseIcon() public
+         * javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_PaletteCloseIcon()
+        throws Exception {
+            // create new instance
+            final PaletteCloseIcon sut = new PaletteCloseIcon();
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$PaletteCloseIcon]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TreeControlIcon} (by simply reusing
+     * the J8Unit test interface {@link TreeControlIconClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class TreeControlIconClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeControlIconClassTests<TreeControlIcon> {
+    implements TreeControlIconClassTests<TreeControlIcon> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
 
@@ -769,45 +843,6 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTes
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeControlIcon]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class TreeLeafIconClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.TreeLeafIconClassTests<TreeLeafIcon> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
-
-        @Override
-        public Class<TreeLeafIcon> createNewSUT() {
-            return TreeLeafIcon.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon#TreeLeafIcon() public
-         * javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_TreeLeafIcon()
-        throws Exception {
-            // create new instance
-            final TreeLeafIcon sut = new TreeLeafIcon();
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalIconFactory$TreeLeafIcon]
 
     }
 

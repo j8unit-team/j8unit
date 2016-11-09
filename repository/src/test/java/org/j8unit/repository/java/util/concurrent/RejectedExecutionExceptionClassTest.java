@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RejectedExecutionException} (by simply
+ * reusing the J8Unit test interface {@link RejectedExecutionExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RejectedExecutionExceptionClassTest
-implements org.j8unit.repository.java.util.concurrent.RejectedExecutionExceptionClassTests<RejectedExecutionException> {
+implements RejectedExecutionExceptionClassTests<RejectedExecutionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.RejectedExecutionException]
 

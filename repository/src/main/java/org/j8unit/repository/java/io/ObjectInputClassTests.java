@@ -3,6 +3,7 @@ package org.j8unit.repository.java.io;
 import static org.junit.Assert.assertTrue;
 import java.io.ObjectInput;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.AutoCloseableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.ObjectInputTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectInputTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectInputClassTests<SUT extends ObjectInput>
-extends org.j8unit.repository.java.io.DataInputClassTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
+extends DataInputClassTests<SUT>, AutoCloseableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInput]
     /**

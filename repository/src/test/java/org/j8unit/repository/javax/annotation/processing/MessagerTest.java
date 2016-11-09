@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Messager} (by simply reusing the
+ * J8Unit test interface {@link MessagerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MessagerTest
-implements org.j8unit.repository.javax.annotation.processing.MessagerTests<Messager> {
+implements MessagerTests<Messager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.annotation.processing.Messager]
 

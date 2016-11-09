@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import java.awt.Component;
 import java.awt.Component.BaselineResizeBehavior;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ComponentTests.BaselineResizeBehaviorTests;
+import org.j8unit.repository.java.awt.image.ImageObserverClassTests;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.ComponentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ComponentTests}.
  * </p>
  *
  * <p>
@@ -49,8 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentClassTests<SUT extends Component>
-extends org.j8unit.repository.java.awt.image.ImageObserverClassTests<SUT>, org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ImageObserverClassTests<SUT>, MenuContainerClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Component]
     /**
@@ -86,7 +89,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.ComponentTests.BaselineResizeBehaviorTests}.
+     * {@link BaselineResizeBehaviorTests}.
      * </p>
      *
      * <p>
@@ -115,7 +118,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BaselineResizeBehaviorClassTests<SUT extends BaselineResizeBehavior>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Component$BaselineResizeBehavior]
         /**

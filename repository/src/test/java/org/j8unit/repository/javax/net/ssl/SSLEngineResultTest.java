@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link SSLEngineResult} (by simply reusing
+ * the J8Unit test interface {@link SSLEngineResultTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SSLEngineResultTest
-implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests<SSLEngineResult> {
+implements SSLEngineResultTests<SSLEngineResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
 
@@ -29,10 +34,15 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests<SSLEngineRes
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.net.ssl.SSLEngineResult]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link HandshakeStatus} (by simply
+     * reusing the J8Unit test interface {@link HandshakeStatusTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class HandshakeStatusTest
-    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests<HandshakeStatus> {
+    implements HandshakeStatusTests<HandshakeStatus> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$HandshakeStatus]
 
@@ -55,10 +65,15 @@ implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests<SSLEngineRes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Status} (by simply reusing the
+     * J8Unit test interface {@link StatusTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StatusTest
-    implements org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests<Status> {
+    implements StatusTests<Status> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLEngineResult$Status]
 

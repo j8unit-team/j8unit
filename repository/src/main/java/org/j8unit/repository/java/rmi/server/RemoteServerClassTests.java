@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.server.RemoteServerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RemoteServerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteServerClassTests<SUT extends RemoteServer>
-extends org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<SUT> {
+extends RemoteObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.RemoteServer]
     /**

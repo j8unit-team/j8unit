@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.image;
 import java.awt.image.ConvolveOp;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.image.ConvolveOpClassTests}).
+ * {@link ConvolveOpClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConvolveOpTests<SUT extends ConvolveOp>
-extends org.j8unit.repository.java.awt.image.BufferedImageOpTests<SUT>, org.j8unit.repository.java.awt.image.RasterOpTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends BufferedImageOpTests<SUT>, RasterOpTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.ConvolveOp]
 

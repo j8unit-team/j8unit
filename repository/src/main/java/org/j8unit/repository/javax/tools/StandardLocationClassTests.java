@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.tools;
 import static org.junit.Assert.assertTrue;
 import javax.tools.StandardLocation;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.tools.StandardLocationTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StandardLocationTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardLocationClassTests<SUT extends StandardLocation>
-extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+extends LocationClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.StandardLocation]
     /**

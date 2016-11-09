@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Window} (by simply reusing the J8Unit
+ * test interface {@link WindowTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WindowTest
-implements org.j8unit.repository.java.awt.WindowTests<Window> {
+implements WindowTests<Window> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Window]
 
@@ -26,6 +31,11 @@ implements org.j8unit.repository.java.awt.WindowTests<Window> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.Window]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Window]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.WindowTests.TypeTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

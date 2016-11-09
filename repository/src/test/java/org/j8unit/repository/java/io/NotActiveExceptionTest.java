@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotActiveExceptionTest
-implements FactoryBasedJ8UnitTest<NotActiveException>, org.j8unit.repository.java.io.NotActiveExceptionTests<NotActiveException> {
+implements FactoryBasedJ8UnitTest<NotActiveException>, NotActiveExceptionTests<NotActiveException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.NotActiveException]
 

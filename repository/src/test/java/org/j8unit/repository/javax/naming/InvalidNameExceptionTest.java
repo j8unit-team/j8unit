@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidNameExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidNameException>, org.j8unit.repository.javax.naming.InvalidNameExceptionTests<InvalidNameException> {
+implements FactoryBasedJ8UnitTest<InvalidNameException>, InvalidNameExceptionTests<InvalidNameException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InvalidNameException]
 

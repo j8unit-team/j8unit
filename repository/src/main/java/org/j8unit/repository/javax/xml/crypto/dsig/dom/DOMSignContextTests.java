@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.crypto.dsig.dom;
 import javax.xml.crypto.dsig.dom.DOMSignContext;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextTests;
+import org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMSignContextClassTests}).
+ * {@link DOMSignContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMSignContextTests<SUT extends DOMSignContext>
-extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextTests<SUT> {
+extends XMLSignContextTests<SUT>, DOMCryptoContextTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.dom.DOMSignContext]
 

@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.modelmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.modelmbean.ModelMBeanNotificationInfo;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.DescriptorAccessClassTests;
+import org.j8unit.repository.javax.management.MBeanNotificationInfoClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationInfoTests}.
+ * {@link ModelMBeanNotificationInfoTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModelMBeanNotificationInfoClassTests<SUT extends ModelMBeanNotificationInfo>
-extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, org.j8unit.repository.javax.management.MBeanNotificationInfoClassTests<SUT> {
+extends DescriptorAccessClassTests<SUT>, MBeanNotificationInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanNotificationInfo]
     /**

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.event;
 import static org.junit.Assert.assertTrue;
 import javax.swing.event.MenuDragMouseEvent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.MouseEventClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.event.MenuDragMouseEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MenuDragMouseEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuDragMouseEventClassTests<SUT extends MenuDragMouseEvent>
-extends org.j8unit.repository.java.awt.event.MouseEventClassTests<SUT> {
+extends MouseEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.MenuDragMouseEvent]
     /**

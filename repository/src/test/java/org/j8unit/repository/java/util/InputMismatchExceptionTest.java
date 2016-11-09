@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InputMismatchExceptionTest
-implements FactoryBasedJ8UnitTest<InputMismatchException>, org.j8unit.repository.java.util.InputMismatchExceptionTests<InputMismatchException> {
+implements FactoryBasedJ8UnitTest<InputMismatchException>, InputMismatchExceptionTests<InputMismatchException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.InputMismatchException]
 

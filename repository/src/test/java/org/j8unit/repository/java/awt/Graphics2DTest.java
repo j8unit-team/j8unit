@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Graphics2D} (by simply reusing the
+ * J8Unit test interface {@link Graphics2DTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Graphics2DTest
-implements org.j8unit.repository.java.awt.Graphics2DTests<Graphics2D> {
+implements Graphics2DTests<Graphics2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Graphics2D]
 

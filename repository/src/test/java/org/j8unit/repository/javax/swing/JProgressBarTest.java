@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JProgressBarTest
-implements FactoryBasedJ8UnitTest<JProgressBar>, org.j8unit.repository.javax.swing.JProgressBarTests<JProgressBar> {
+implements FactoryBasedJ8UnitTest<JProgressBar>, JProgressBarTests<JProgressBar> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JProgressBar]
 

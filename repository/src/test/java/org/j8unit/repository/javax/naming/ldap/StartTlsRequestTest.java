@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StartTlsRequestTest
-implements FactoryBasedJ8UnitTest<StartTlsRequest>, org.j8unit.repository.javax.naming.ldap.StartTlsRequestTests<StartTlsRequest> {
+implements FactoryBasedJ8UnitTest<StartTlsRequest>, StartTlsRequestTests<StartTlsRequest> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ldap.StartTlsRequest]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ORBIdHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ORBIdHelper} (by simply reusing the
+ * J8Unit test interface {@link ORBIdHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ORBIdHelperTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ORBIdHelperTests<ORBIdHelper> {
+implements ORBIdHelperTests<ORBIdHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ORBIdHelper]
 

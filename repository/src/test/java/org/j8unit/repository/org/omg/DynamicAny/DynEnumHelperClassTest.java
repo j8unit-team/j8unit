@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynEnumHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DynEnumHelper} (by simply reusing the
+ * J8Unit test interface {@link DynEnumHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynEnumHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynEnumHelperClassTests<DynEnumHelper> {
+implements DynEnumHelperClassTests<DynEnumHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynEnumHelper]
 

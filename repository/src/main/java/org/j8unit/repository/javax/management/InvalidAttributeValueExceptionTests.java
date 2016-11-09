@@ -25,7 +25,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidAttributeValueExceptionTests<SUT extends InvalidAttributeValueException>
-extends org.j8unit.repository.javax.management.OperationsExceptionTests<SUT> {
+extends OperationsExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InvalidAttributeValueException]
 

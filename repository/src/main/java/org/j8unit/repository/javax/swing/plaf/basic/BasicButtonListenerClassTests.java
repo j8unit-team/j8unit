@@ -3,6 +3,12 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicButtonListener;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.event.FocusListenerClassTests;
+import org.j8unit.repository.java.awt.event.MouseListenerClassTests;
+import org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.event.ChangeListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +23,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicButtonListenerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicButtonListenerTests}.
  * </p>
  *
  * <p>
@@ -47,9 +52,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicButtonListenerClassTests<SUT extends BasicButtonListener>
-extends org.j8unit.repository.java.awt.event.MouseListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>,
-org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>,
-org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends MouseListenerClassTests<SUT>, MouseMotionListenerClassTests<SUT>, FocusListenerClassTests<SUT>, ChangeListenerClassTests<SUT>,
+PropertyChangeListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicButtonListener]
     /**

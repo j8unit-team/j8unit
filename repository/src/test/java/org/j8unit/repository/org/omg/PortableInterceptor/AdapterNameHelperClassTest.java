@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.AdapterNameHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterNameHelper} (by simply reusing the
+ * J8Unit test interface {@link AdapterNameHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterNameHelperClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterNameHelperClassTests<AdapterNameHelper> {
+implements AdapterNameHelperClassTests<AdapterNameHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.AdapterNameHelper]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TreeMapTest<K, V>
-implements FactoryBasedJ8UnitTest<TreeMap<K, V>>, org.j8unit.repository.java.util.TreeMapTests<TreeMap<K, V>, K, V> {
+implements FactoryBasedJ8UnitTest<TreeMap<K, V>>, TreeMapTests<TreeMap<K, V>, K, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.TreeMap]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ContextNotEmptyExceptionTest
-implements FactoryBasedJ8UnitTest<ContextNotEmptyException>, org.j8unit.repository.javax.naming.ContextNotEmptyExceptionTests<ContextNotEmptyException> {
+implements FactoryBasedJ8UnitTest<ContextNotEmptyException>, ContextNotEmptyExceptionTests<ContextNotEmptyException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ContextNotEmptyException]
 

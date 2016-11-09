@@ -4,10 +4,14 @@ import java.util.function.ToLongFunction;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ToLongFunction} (by simply reusing the
+ * J8Unit test interface {@link ToLongFunctionClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class ToLongFunctionClassTest
-implements org.j8unit.repository.java.util.function.ToLongFunctionClassTests<ToLongFunction> {
+implements ToLongFunctionClassTests<ToLongFunction> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.function.ToLongFunction]
 

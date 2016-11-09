@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RemoteExceptionTest
-implements FactoryBasedJ8UnitTest<RemoteException>, org.j8unit.repository.java.rmi.RemoteExceptionTests<RemoteException> {
+implements FactoryBasedJ8UnitTest<RemoteException>, RemoteExceptionTests<RemoteException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RemoteException]
 

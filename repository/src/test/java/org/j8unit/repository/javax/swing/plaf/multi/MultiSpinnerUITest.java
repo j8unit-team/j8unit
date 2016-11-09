@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiSpinnerUITest
-implements FactoryBasedJ8UnitTest<MultiSpinnerUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiSpinnerUITests<MultiSpinnerUI> {
+implements FactoryBasedJ8UnitTest<MultiSpinnerUI>, MultiSpinnerUITests<MultiSpinnerUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiSpinnerUI]
 

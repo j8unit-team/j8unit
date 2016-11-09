@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SimpleFormatterTest
-implements FactoryBasedJ8UnitTest<SimpleFormatter>, org.j8unit.repository.java.util.logging.SimpleFormatterTests<SimpleFormatter> {
+implements FactoryBasedJ8UnitTest<SimpleFormatter>, SimpleFormatterTests<SimpleFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.SimpleFormatter]
 

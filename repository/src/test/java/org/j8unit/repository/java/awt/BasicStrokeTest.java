@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicStrokeTest
-implements FactoryBasedJ8UnitTest<BasicStroke>, org.j8unit.repository.java.awt.BasicStrokeTests<BasicStroke> {
+implements FactoryBasedJ8UnitTest<BasicStroke>, BasicStrokeTests<BasicStroke> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.BasicStroke]
 

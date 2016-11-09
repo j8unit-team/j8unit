@@ -7,9 +7,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TransferHandler} (by simply reusing
+ * the J8Unit test interface {@link TransferHandlerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TransferHandlerTest
-implements org.j8unit.repository.javax.swing.TransferHandlerTests<TransferHandler> {
+implements TransferHandlerTests<TransferHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.TransferHandler]
 
@@ -21,6 +26,11 @@ implements org.j8unit.repository.javax.swing.TransferHandlerTests<TransferHandle
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.TransferHandler]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.TransferHandler]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
+     * the J8Unit test interface {@link org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
@@ -39,9 +49,14 @@ implements org.j8unit.repository.javax.swing.TransferHandlerTests<TransferHandle
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TransferSupport} (by simply
+     * reusing the J8Unit test interface {@link TransferSupportTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class TransferSupportTest
-    implements org.j8unit.repository.javax.swing.TransferHandlerTests.TransferSupportTests<TransferSupport> {
+    implements TransferSupportTests<TransferSupport> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.TransferHandler$TransferSupport]
 

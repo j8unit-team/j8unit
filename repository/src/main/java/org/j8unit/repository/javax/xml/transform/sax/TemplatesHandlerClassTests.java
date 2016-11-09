@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.transform.sax;
 import static org.junit.Assert.assertTrue;
 import javax.xml.transform.sax.TemplatesHandler;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.ContentHandlerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.transform.sax.TemplatesHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TemplatesHandlerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TemplatesHandlerClassTests<SUT extends TemplatesHandler>
-extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT> {
+extends ContentHandlerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.sax.TemplatesHandler]
     /**

@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NullPointerExceptionTest
-implements FactoryBasedJ8UnitTest<NullPointerException>, org.j8unit.repository.java.lang.NullPointerExceptionTests<NullPointerException> {
+implements FactoryBasedJ8UnitTest<NullPointerException>, NullPointerExceptionTests<NullPointerException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.NullPointerException]
 

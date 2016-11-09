@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnsupportedDataTypeExceptionTest
-implements FactoryBasedJ8UnitTest<UnsupportedDataTypeException>,
-org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionTests<UnsupportedDataTypeException> {
+implements FactoryBasedJ8UnitTest<UnsupportedDataTypeException>, UnsupportedDataTypeExceptionTests<UnsupportedDataTypeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.UnsupportedDataTypeException]
 

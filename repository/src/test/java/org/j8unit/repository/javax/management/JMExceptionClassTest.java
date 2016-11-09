@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JMException} (by simply reusing the
+ * J8Unit test interface {@link JMExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMExceptionClassTest
-implements org.j8unit.repository.javax.management.JMExceptionClassTests<JMException> {
+implements JMExceptionClassTests<JMException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.JMException]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.COMM_FAILURE;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.COMM_FAILURETests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link COMM_FAILURETests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.COMM_FAILURE;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface COMM_FAILUREClassTests<SUT extends COMM_FAILURE>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.COMM_FAILURE]
     /**

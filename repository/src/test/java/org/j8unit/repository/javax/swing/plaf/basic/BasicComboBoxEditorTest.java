@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicComboBoxEditorTest
-implements FactoryBasedJ8UnitTest<BasicComboBoxEditor>, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests<BasicComboBoxEditor> {
+implements FactoryBasedJ8UnitTest<BasicComboBoxEditor>, BasicComboBoxEditorTests<BasicComboBoxEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicComboBoxEditor]
 

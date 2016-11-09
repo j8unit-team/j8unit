@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.IndexedPropertyDescriptorTests}.
+ * {@link IndexedPropertyDescriptorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndexedPropertyDescriptorClassTests<SUT extends IndexedPropertyDescriptor>
-extends org.j8unit.repository.java.beans.PropertyDescriptorClassTests<SUT> {
+extends PropertyDescriptorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.IndexedPropertyDescriptor]
     /**

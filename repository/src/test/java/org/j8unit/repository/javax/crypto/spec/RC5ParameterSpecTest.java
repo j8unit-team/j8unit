@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RC5ParameterSpec} (by simply reusing
+ * the J8Unit test interface {@link RC5ParameterSpecTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RC5ParameterSpecTest
-implements org.j8unit.repository.javax.crypto.spec.RC5ParameterSpecTests<RC5ParameterSpec> {
+implements RC5ParameterSpecTests<RC5ParameterSpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.spec.RC5ParameterSpec]
 

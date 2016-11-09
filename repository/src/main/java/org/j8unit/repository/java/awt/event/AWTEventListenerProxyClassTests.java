@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.event;
 import static org.junit.Assert.assertTrue;
 import java.awt.event.AWTEventListenerProxy;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventListenerProxyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.event.AWTEventListenerProxyTests}.
+ * {@link AWTEventListenerProxyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AWTEventListenerProxyClassTests<SUT extends AWTEventListenerProxy>
-extends org.j8unit.repository.java.awt.event.AWTEventListenerClassTests<SUT>, org.j8unit.repository.java.util.EventListenerProxyClassTests<SUT> {
+extends AWTEventListenerClassTests<SUT>, EventListenerProxyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.event.AWTEventListenerProxy]
     /**

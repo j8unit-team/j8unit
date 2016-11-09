@@ -14,7 +14,7 @@ import org.omg.CORBA.TypeCodePackage.Bounds;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BoundsTest
-implements FactoryBasedJ8UnitTest<Bounds>, org.j8unit.repository.org.omg.CORBA.TypeCodePackage.BoundsTests<Bounds> {
+implements FactoryBasedJ8UnitTest<Bounds>, BoundsTests<Bounds> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TypeCodePackage.Bounds]
 

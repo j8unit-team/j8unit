@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DataFormatExceptionTest
-implements FactoryBasedJ8UnitTest<DataFormatException>, org.j8unit.repository.java.util.zip.DataFormatExceptionTests<DataFormatException> {
+implements FactoryBasedJ8UnitTest<DataFormatException>, DataFormatExceptionTests<DataFormatException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.DataFormatException]
 

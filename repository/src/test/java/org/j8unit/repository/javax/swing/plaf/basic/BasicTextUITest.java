@@ -16,9 +16,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicTextUI} (by simply reusing the
+ * J8Unit test interface {@link BasicTextUITests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicTextUITest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTextUI> {
+implements BasicTextUITests<BasicTextUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI]
 
@@ -34,7 +39,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicHighlighterTest
-    implements FactoryBasedJ8UnitTest<BasicHighlighter>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests<BasicHighlighter> {
+    implements FactoryBasedJ8UnitTest<BasicHighlighter>, BasicHighlighterTests<BasicHighlighter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
 
@@ -60,7 +65,7 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests<BasicTe
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicCaretTest
-    implements FactoryBasedJ8UnitTest<BasicCaret>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests<BasicCaret> {
+    implements FactoryBasedJ8UnitTest<BasicCaret>, BasicCaretTests<BasicCaret> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
 

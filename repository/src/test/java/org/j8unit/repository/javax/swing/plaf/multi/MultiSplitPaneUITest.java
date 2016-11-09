@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiSplitPaneUITest
-implements FactoryBasedJ8UnitTest<MultiSplitPaneUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiSplitPaneUITests<MultiSplitPaneUI> {
+implements FactoryBasedJ8UnitTest<MultiSplitPaneUI>, MultiSplitPaneUITests<MultiSplitPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiSplitPaneUI]
 

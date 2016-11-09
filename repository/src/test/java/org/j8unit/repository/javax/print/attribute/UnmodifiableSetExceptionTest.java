@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnmodifiableSetExceptionTest
-implements FactoryBasedJ8UnitTest<UnmodifiableSetException>,
-org.j8unit.repository.javax.print.attribute.UnmodifiableSetExceptionTests<UnmodifiableSetException> {
+implements FactoryBasedJ8UnitTest<UnmodifiableSetException>, UnmodifiableSetExceptionTests<UnmodifiableSetException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.UnmodifiableSetException]
 

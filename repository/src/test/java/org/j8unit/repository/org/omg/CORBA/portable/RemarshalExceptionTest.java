@@ -14,7 +14,7 @@ import org.omg.CORBA.portable.RemarshalException;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RemarshalExceptionTest
-implements FactoryBasedJ8UnitTest<RemarshalException>, org.j8unit.repository.org.omg.CORBA.portable.RemarshalExceptionTests<RemarshalException> {
+implements FactoryBasedJ8UnitTest<RemarshalException>, RemarshalExceptionTests<RemarshalException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.RemarshalException]
 

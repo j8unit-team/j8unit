@@ -13,9 +13,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JobAttributes} (by simply reusing the
+ * J8Unit test interface {@link JobAttributesClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JobAttributesClassTest
-implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes> {
+implements JobAttributesClassTests<JobAttributes> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes]
 
@@ -99,9 +104,14 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.JobAttributes]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SidesType} (by simply reusing the
+     * J8Unit test interface {@link SidesTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SidesTypeClassTest
-    implements org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests<SidesType> {
+    implements SidesTypeClassTests<SidesType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$SidesType]
 
@@ -116,9 +126,14 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DialogType} (by simply reusing the
+     * J8Unit test interface {@link DialogTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DialogTypeClassTest
-    implements org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests<DialogType> {
+    implements DialogTypeClassTests<DialogType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DialogType]
 
@@ -133,9 +148,14 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DestinationType} (by simply reusing
+     * the J8Unit test interface {@link DestinationTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DestinationTypeClassTest
-    implements org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests<DestinationType> {
+    implements DestinationTypeClassTests<DestinationType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DestinationType]
 
@@ -150,9 +170,14 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link MultipleDocumentHandlingType} (by
+     * simply reusing the J8Unit test interface {@link MultipleDocumentHandlingTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class MultipleDocumentHandlingTypeClassTest
-    implements org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests<MultipleDocumentHandlingType> {
+    implements MultipleDocumentHandlingTypeClassTests<MultipleDocumentHandlingType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
@@ -167,9 +192,14 @@ implements org.j8unit.repository.java.awt.JobAttributesClassTests<JobAttributes>
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultSelectionType} (by simply
+     * reusing the J8Unit test interface {@link DefaultSelectionTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DefaultSelectionTypeClassTest
-    implements org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests<DefaultSelectionType> {
+    implements DefaultSelectionTypeClassTests<DefaultSelectionType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
 

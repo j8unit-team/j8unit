@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CannotRedoExceptionTest
-implements FactoryBasedJ8UnitTest<CannotRedoException>, org.j8unit.repository.javax.swing.undo.CannotRedoExceptionTests<CannotRedoException> {
+implements FactoryBasedJ8UnitTest<CannotRedoException>, CannotRedoExceptionTests<CannotRedoException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.CannotRedoException]
 

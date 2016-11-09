@@ -5,6 +5,11 @@ import javax.swing.text.html.StyleSheet;
 import javax.swing.text.html.StyleSheet.BoxPainter;
 import javax.swing.text.html.StyleSheet.ListPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.text.StyleContextClassTests;
+import org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests;
+import org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +25,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StyleSheetTests}.
  * </p>
  *
  * <p>
@@ -50,7 +54,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleSheetClassTests<SUT extends StyleSheet>
-extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
+extends StyleContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet]
     /**
@@ -85,8 +89,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ListPainterTests}.
      * </p>
      *
      * <p>
@@ -115,7 +118,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListPainterClassTests<SUT extends ListPainter>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$ListPainter]
         /**
@@ -152,8 +155,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link BoxPainterTests}.
      * </p>
      *
      * <p>
@@ -182,7 +184,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BoxPainterClassTests<SUT extends BoxPainter>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.StyleSheet$BoxPainter]
         /**

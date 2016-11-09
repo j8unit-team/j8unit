@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.AsynchronousByteChannelTests}.
+ * {@link AsynchronousByteChannelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AsynchronousByteChannelClassTests<SUT extends AsynchronousByteChannel>
-extends org.j8unit.repository.java.nio.channels.AsynchronousChannelClassTests<SUT> {
+extends AsynchronousChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.AsynchronousByteChannel]
     /**

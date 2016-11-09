@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.accessibility.AccessibleHypertextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AccessibleHypertextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleHypertextClassTests<SUT extends AccessibleHypertext>
-extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT> {
+extends AccessibleTextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.accessibility.AccessibleHypertext]
     /**

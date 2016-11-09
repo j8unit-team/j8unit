@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.remote.rmi;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.rmi.RMIServer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.rmi.RMIServerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RMIServerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIServerClassTests<SUT extends RMIServer>
-extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {
+extends RemoteClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi.RMIServer]
     /**

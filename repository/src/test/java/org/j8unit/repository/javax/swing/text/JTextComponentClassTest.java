@@ -12,9 +12,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JTextComponent} (by simply reusing the
+ * J8Unit test interface {@link JTextComponentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JTextComponentClassTest
-implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<JTextComponent> {
+implements JTextComponentClassTests<JTextComponent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent]
 
@@ -131,9 +136,82 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<JText
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DropLocation} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.text.JTextComponentClassTests.DropLocationClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DropLocationClassTest
+    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.DropLocationClassTests<DropLocation> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
+
+        @Override
+        public Class<DropLocation> createNewSUT() {
+            return DropLocation.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyBinding} (by simply reusing the
+     * J8Unit test interface {@link KeyBindingClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyBindingClassTest
+    implements KeyBindingClassTests<KeyBinding> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
+
+        @Override
+        public Class<KeyBinding> createNewSUT() {
+            return KeyBinding.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.text.JTextComponent.KeyBinding#KeyBinding(javax.swing.KeyStroke, String) public
+         * javax.swing.text.JTextComponent$KeyBinding(javax.swing.KeyStroke,java.lang.String)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_KeyBinding_KeyStroke_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final KeyBinding sut = null; // = new KeyBinding(javax.swing.KeyStroke, String);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link AccessibleJTextComponent} (by simply
+     * reusing the J8Unit test interface {@link AccessibleJTextComponentClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AccessibleJTextComponentClassTest
-    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.AccessibleJTextComponentClassTests<AccessibleJTextComponent> {
+    implements AccessibleJTextComponentClassTests<AccessibleJTextComponent> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
 
@@ -169,63 +247,6 @@ implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests<JText
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$AccessibleJTextComponent]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DropLocationClassTest
-    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.DropLocationClassTests<DropLocation> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
-
-        @Override
-        public Class<DropLocation> createNewSUT() {
-            return DropLocation.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$DropLocation]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyBindingClassTest
-    implements org.j8unit.repository.javax.swing.text.JTextComponentClassTests.KeyBindingClassTests<KeyBinding> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
-
-        @Override
-        public Class<KeyBinding> createNewSUT() {
-            return KeyBinding.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.text.JTextComponent.KeyBinding#KeyBinding(javax.swing.KeyStroke, String) public
-         * javax.swing.text.JTextComponent$KeyBinding(javax.swing.KeyStroke,java.lang.String)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_KeyBinding_KeyStroke_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final KeyBinding sut = null; // = new KeyBinding(javax.swing.KeyStroke, String);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.JTextComponent$KeyBinding]
 
     }
 

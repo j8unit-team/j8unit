@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AudioInputStream} (by simply reusing the
+ * J8Unit test interface {@link AudioInputStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AudioInputStreamClassTest
-implements org.j8unit.repository.javax.sound.sampled.AudioInputStreamClassTests<AudioInputStream> {
+implements AudioInputStreamClassTests<AudioInputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.AudioInputStream]
 

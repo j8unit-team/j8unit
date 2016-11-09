@@ -4,9 +4,14 @@ import javax.transaction.xa.XAResource;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XAResource} (by simply reusing the J8Unit
+ * test interface {@link XAResourceClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XAResourceClassTest
-implements org.j8unit.repository.javax.transaction.xa.XAResourceClassTests<XAResource> {
+implements XAResourceClassTests<XAResource> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.transaction.xa.XAResource]
 

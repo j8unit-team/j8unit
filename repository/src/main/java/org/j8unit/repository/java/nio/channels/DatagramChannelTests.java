@@ -4,6 +4,7 @@ import java.nio.channels.DatagramChannel;
 import java.nio.channels.spi.AbstractSelectableChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.nio.channels.DatagramChannelClassTests}).
+ * {@link DatagramChannelClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,9 +30,8 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DatagramChannelTests<SUT extends DatagramChannel>
-extends org.j8unit.repository.java.nio.channels.ByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>,
-org.j8unit.repository.java.nio.channels.GatheringByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.MulticastChannelTests<SUT>,
-org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> {
+extends ByteChannelTests<SUT>, ScatteringByteChannelTests<SUT>, GatheringByteChannelTests<SUT>, MulticastChannelTests<SUT>,
+AbstractSelectableChannelTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.DatagramChannel]
 
@@ -461,8 +461,8 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
     @Category(Draft.class)
     public default void test_close()
     throws Exception {
-        org.j8unit.repository.java.nio.channels.MulticastChannelTests.super.test_close();
-        org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests.super.test_close();
+        MulticastChannelTests.super.test_close();
+        AbstractSelectableChannelTests.super.test_close();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.channels.DatagramChannel]

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.OptionalDataExceptionTests}.
+ * {@link OptionalDataExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OptionalDataExceptionClassTests<SUT extends OptionalDataException>
-extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
+extends ObjectStreamExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.OptionalDataException]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CoderResult} (by simply reusing the
+ * J8Unit test interface {@link CoderResultClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CoderResultClassTest
-implements org.j8unit.repository.java.nio.charset.CoderResultClassTests<CoderResult> {
+implements CoderResultClassTests<CoderResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.charset.CoderResult]
 

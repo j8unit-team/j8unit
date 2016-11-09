@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SignatureExceptionTest
-implements FactoryBasedJ8UnitTest<SignatureException>, org.j8unit.repository.java.security.SignatureExceptionTests<SignatureException> {
+implements FactoryBasedJ8UnitTest<SignatureException>, SignatureExceptionTests<SignatureException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.SignatureException]
 

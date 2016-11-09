@@ -14,6 +14,15 @@ import java.security.KeyStore.TrustedCertificateEntry;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests;
+import org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests;
+import org.j8unit.repository.javax.security.auth.DestroyableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +37,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.security.KeyStoreClassTests}).
+ * {@link KeyStoreClassTests}).
  * </p>
  *
  * @param SUT
@@ -39,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyStoreTests<SUT extends KeyStore>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore]
 
@@ -533,6 +542,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.security.KeyStore#setKeyEntry(String, byte[], java.security.cert.Certificate[]) public final void
+     * java.security.KeyStore.setKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
+     * java.security.KeyStoreException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setKeyEntry_String_byteArray_CertificateArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.security.KeyStore#setKeyEntry(String, java.security.Key, char[], java.security.cert.Certificate[])
      * public final void
      * java.security.KeyStore.setKeyEntry(java.lang.String,java.security.Key,char[],java.security.cert.Certificate[])
@@ -555,30 +588,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.security.KeyStore#setKeyEntry(String, byte[], java.security.cert.Certificate[]) public final void
-     * java.security.KeyStore.setKeyEntry(java.lang.String,byte[],java.security.cert.Certificate[]) throws
-     * java.security.KeyStoreException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setKeyEntry_String_byteArray_CertificateArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.KeyStore]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.KeyStore]
@@ -592,7 +601,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.PrivateKeyEntryClassTests}).
+     * (see {@link PrivateKeyEntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -603,7 +612,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrivateKeyEntryTests<SUT extends PrivateKeyEntry>
-    extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$PrivateKeyEntry]
 
@@ -740,7 +749,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.SecretKeyEntryClassTests}).
+     * (see {@link SecretKeyEntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -751,7 +760,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SecretKeyEntryTests<SUT extends SecretKeyEntry>
-    extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$SecretKeyEntry]
 
@@ -851,7 +860,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends Builder>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$Builder]
 
@@ -918,7 +927,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests}).
+     * (see {@link EntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -1048,7 +1057,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.TrustedCertificateEntryClassTests}).
+     * (see {@link TrustedCertificateEntryClassTests}).
      * </p>
      *
      * @param SUT
@@ -1059,7 +1068,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrustedCertificateEntryTests<SUT extends TrustedCertificateEntry>
-    extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$TrustedCertificateEntry]
 
@@ -1150,7 +1159,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.PasswordProtectionClassTests}).
+     * (see {@link PasswordProtectionClassTests}).
      * </p>
      *
      * @param SUT
@@ -1161,8 +1170,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasswordProtectionTests<SUT extends PasswordProtection>
-    extends org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests<SUT>, org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests<SUT>, DestroyableTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$PasswordProtection]
 
@@ -1193,29 +1201,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.security.KeyStore.PasswordProtection#getPassword() public synchronized char[]
-         * java.security.KeyStore$PasswordProtection.getPassword()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getPassword()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
          * {@link java.security.KeyStore.PasswordProtection#getProtectionParameters() public
          * java.security.spec.AlgorithmParameterSpec
          * java.security.KeyStore$PasswordProtection.getProtectionParameters()}.
@@ -1231,6 +1216,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getProtectionParameters()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link java.security.KeyStore.PasswordProtection#getPassword() public synchronized char[]
+         * java.security.KeyStore$PasswordProtection.getPassword()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getPassword()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -1299,7 +1307,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.LoadStoreParameterClassTests}).
+     * (see {@link LoadStoreParameterClassTests}).
      * </p>
      *
      * @param SUT
@@ -1353,7 +1361,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests}).
+     * (see {@link ProtectionParameterClassTests}).
      * </p>
      *
      * @param SUT
@@ -1383,7 +1391,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.security.KeyStoreClassTests.CallbackHandlerProtectionClassTests}).
+     * (see {@link CallbackHandlerProtectionClassTests}).
      * </p>
      *
      * @param SUT
@@ -1394,7 +1402,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallbackHandlerProtectionTests<SUT extends CallbackHandlerProtection>
-    extends org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests<SUT>, ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.KeyStore$CallbackHandlerProtection]
 

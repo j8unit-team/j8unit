@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RelationNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<RelationNotFoundException>,
-org.j8unit.repository.javax.management.relation.RelationNotFoundExceptionTests<RelationNotFoundException> {
+implements FactoryBasedJ8UnitTest<RelationNotFoundException>, RelationNotFoundExceptionTests<RelationNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationNotFoundException]
 

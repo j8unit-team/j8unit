@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CertStore} (by simply reusing the J8Unit
+ * test interface {@link CertStoreClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CertStoreClassTest
-implements org.j8unit.repository.java.security.cert.CertStoreClassTests<CertStore> {
+implements CertStoreClassTests<CertStore> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertStore]
 

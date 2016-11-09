@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DataInputStream;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DataInputStream} (by simply reusing the
+ * J8Unit test interface {@link DataInputStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DataInputStreamClassTest
-implements org.j8unit.repository.org.omg.CORBA.DataInputStreamClassTests<DataInputStream> {
+implements DataInputStreamClassTests<DataInputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DataInputStream]
 

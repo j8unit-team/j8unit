@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.sound.midi.ShortMessageClassTests}).
+ * {@link ShortMessageClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShortMessageTests<SUT extends ShortMessage>
-extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
+extends MidiMessageTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.ShortMessage]
 
@@ -146,6 +146,28 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.ShortMessage#setMessage(int) public
+     * void javax.sound.midi.ShortMessage.setMessage(int) throws javax.sound.midi.InvalidMidiDataException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMessage_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sound.midi.ShortMessage#setMessage(int, int, int) public void
      * javax.sound.midi.ShortMessage.setMessage(int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
@@ -161,28 +183,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMessage_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sound.midi.ShortMessage#setMessage(int) public
-     * void javax.sound.midi.ShortMessage.setMessage(int) throws javax.sound.midi.InvalidMidiDataException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMessage_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

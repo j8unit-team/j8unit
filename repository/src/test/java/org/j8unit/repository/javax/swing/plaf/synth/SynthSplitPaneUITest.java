@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthSplitPaneUITest
-implements FactoryBasedJ8UnitTest<SynthSplitPaneUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthSplitPaneUITests<SynthSplitPaneUI> {
+implements FactoryBasedJ8UnitTest<SynthSplitPaneUI>, SynthSplitPaneUITests<SynthSplitPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthSplitPaneUI]
 

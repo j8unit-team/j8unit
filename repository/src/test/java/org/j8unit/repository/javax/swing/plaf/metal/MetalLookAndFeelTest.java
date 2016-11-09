@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalLookAndFeelTest
-implements FactoryBasedJ8UnitTest<MetalLookAndFeel>, org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelTests<MetalLookAndFeel> {
+implements FactoryBasedJ8UnitTest<MetalLookAndFeel>, MetalLookAndFeelTests<MetalLookAndFeel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalLookAndFeel]
 

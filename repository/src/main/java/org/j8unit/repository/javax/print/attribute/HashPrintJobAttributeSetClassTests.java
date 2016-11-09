@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetTests}.
+ * {@link HashPrintJobAttributeSetTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HashPrintJobAttributeSetClassTests<SUT extends HashPrintJobAttributeSet>
-extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetClassTests<SUT>,
-org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
+extends PrintJobAttributeSetClassTests<SUT>, HashAttributeSetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.HashPrintJobAttributeSet]
     /**

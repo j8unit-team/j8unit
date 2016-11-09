@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiFileChooserUITest
-implements FactoryBasedJ8UnitTest<MultiFileChooserUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiFileChooserUITests<MultiFileChooserUI> {
+implements FactoryBasedJ8UnitTest<MultiFileChooserUI>, MultiFileChooserUITests<MultiFileChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiFileChooserUI]
 

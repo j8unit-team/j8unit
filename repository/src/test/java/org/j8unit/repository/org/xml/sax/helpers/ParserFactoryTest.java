@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.xml.sax.helpers.ParserFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ParserFactory} (by simply reusing the
+ * J8Unit test interface {@link ParserFactoryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ParserFactoryTest
-implements org.j8unit.repository.org.xml.sax.helpers.ParserFactoryTests<ParserFactory> {
+implements ParserFactoryTests<ParserFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.ParserFactory]
 

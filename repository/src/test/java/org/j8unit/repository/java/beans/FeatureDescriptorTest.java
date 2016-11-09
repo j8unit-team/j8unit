@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FeatureDescriptorTest
-implements FactoryBasedJ8UnitTest<FeatureDescriptor>, org.j8unit.repository.java.beans.FeatureDescriptorTests<FeatureDescriptor> {
+implements FactoryBasedJ8UnitTest<FeatureDescriptor>, FeatureDescriptorTests<FeatureDescriptor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.FeatureDescriptor]
 

@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DirectoryStream} (by simply reusing
+ * the J8Unit test interface {@link DirectoryStreamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DirectoryStreamTest<T>
-implements org.j8unit.repository.java.nio.file.DirectoryStreamTests<DirectoryStream<T>, T> {
+implements DirectoryStreamTests<DirectoryStream<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.DirectoryStream]
 
@@ -20,6 +25,11 @@ implements org.j8unit.repository.java.nio.file.DirectoryStreamTests<DirectoryStr
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.nio.file.DirectoryStream]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.nio.file.DirectoryStream]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Filter} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.nio.file.DirectoryStreamTests.FilterTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FilterTest<T>

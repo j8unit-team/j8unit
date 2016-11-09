@@ -3,6 +3,8 @@ package org.j8unit.repository.java.util;
 import java.util.Vector;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.VectorClassTests}).
+ * {@link VectorClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VectorTests<SUT extends Vector<E>, E>
-extends org.j8unit.repository.java.util.RandomAccessTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
-org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
+extends RandomAccessTests<SUT>, CloneableTests<SUT>, SerializableTests<SUT>, AbstractListTests<SUT, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Vector]
 

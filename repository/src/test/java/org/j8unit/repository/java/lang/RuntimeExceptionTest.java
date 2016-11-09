@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RuntimeExceptionTest
-implements FactoryBasedJ8UnitTest<RuntimeException>, org.j8unit.repository.java.lang.RuntimeExceptionTests<RuntimeException> {
+implements FactoryBasedJ8UnitTest<RuntimeException>, RuntimeExceptionTests<RuntimeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.RuntimeException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JPasswordFieldTest
-implements FactoryBasedJ8UnitTest<JPasswordField>, org.j8unit.repository.javax.swing.JPasswordFieldTests<JPasswordField> {
+implements FactoryBasedJ8UnitTest<JPasswordField>, JPasswordFieldTests<JPasswordField> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JPasswordField]
 

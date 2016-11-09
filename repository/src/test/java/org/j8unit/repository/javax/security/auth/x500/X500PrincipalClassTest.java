@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link X500Principal} (by simply reusing the
+ * J8Unit test interface {@link X500PrincipalClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class X500PrincipalClassTest
-implements org.j8unit.repository.javax.security.auth.x500.X500PrincipalClassTests<X500Principal> {
+implements X500PrincipalClassTests<X500Principal> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.x500.X500Principal]
 

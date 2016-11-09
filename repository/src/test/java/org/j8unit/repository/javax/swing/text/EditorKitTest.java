@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link EditorKit} (by simply reusing the
+ * J8Unit test interface {@link EditorKitTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EditorKitTest
-implements org.j8unit.repository.javax.swing.text.EditorKitTests<EditorKit> {
+implements EditorKitTests<EditorKit> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.EditorKit]
 

@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.remote.rmi;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.rmi.RMIConnectionImpl;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.rmi.server.UnreferencedClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectionImplTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RMIConnectionImplTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIConnectionImplClassTests<SUT extends RMIConnectionImpl>
-extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionClassTests<SUT>, org.j8unit.repository.java.rmi.server.UnreferencedClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends RMIConnectionClassTests<SUT>, UnreferencedClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi.RMIConnectionImpl]
     /**

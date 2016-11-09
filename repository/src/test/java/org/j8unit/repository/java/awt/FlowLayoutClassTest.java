@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FlowLayout} (by simply reusing the J8Unit
+ * test interface {@link FlowLayoutClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FlowLayoutClassTest
-implements org.j8unit.repository.java.awt.FlowLayoutClassTests<FlowLayout> {
+implements FlowLayoutClassTests<FlowLayout> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.FlowLayout]
 

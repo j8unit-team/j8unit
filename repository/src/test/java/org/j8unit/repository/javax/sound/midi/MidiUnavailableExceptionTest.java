@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MidiUnavailableExceptionTest
-implements FactoryBasedJ8UnitTest<MidiUnavailableException>, org.j8unit.repository.javax.sound.midi.MidiUnavailableExceptionTests<MidiUnavailableException> {
+implements FactoryBasedJ8UnitTest<MidiUnavailableException>, MidiUnavailableExceptionTests<MidiUnavailableException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.MidiUnavailableException]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ContextList;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ContextList} (by simply reusing the
+ * J8Unit test interface {@link ContextListTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ContextListTest
-implements org.j8unit.repository.org.omg.CORBA.ContextListTests<ContextList> {
+implements ContextListTests<ContextList> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ContextList]
 

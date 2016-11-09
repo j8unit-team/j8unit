@@ -12,9 +12,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ThreadPoolExecutor} (by simply reusing
+ * the J8Unit test interface {@link ThreadPoolExecutorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThreadPoolExecutorClassTest
-implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
+implements ThreadPoolExecutorClassTests<ThreadPoolExecutor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
 
@@ -129,9 +134,14 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DiscardPolicy} (by simply reusing the
+     * J8Unit test interface {@link DiscardPolicyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DiscardPolicyClassTest
-    implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardPolicyClassTests<DiscardPolicy> {
+    implements DiscardPolicyClassTests<DiscardPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardPolicy]
 
@@ -168,9 +178,14 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link AbortPolicy} (by simply reusing the
+     * J8Unit test interface {@link AbortPolicyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AbortPolicyClassTest
-    implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.AbortPolicyClassTests<AbortPolicy> {
+    implements AbortPolicyClassTests<AbortPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$AbortPolicy]
 
@@ -207,9 +222,14 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CallerRunsPolicy} (by simply reusing
+     * the J8Unit test interface {@link CallerRunsPolicyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class CallerRunsPolicyClassTest
-    implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.CallerRunsPolicyClassTests<CallerRunsPolicy> {
+    implements CallerRunsPolicyClassTests<CallerRunsPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy]
 
@@ -246,9 +266,14 @@ implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DiscardOldestPolicy} (by simply
+     * reusing the J8Unit test interface {@link DiscardOldestPolicyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DiscardOldestPolicyClassTest
-    implements org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests.DiscardOldestPolicyClassTests<DiscardOldestPolicy> {
+    implements DiscardOldestPolicyClassTests<DiscardOldestPolicy> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy]
 

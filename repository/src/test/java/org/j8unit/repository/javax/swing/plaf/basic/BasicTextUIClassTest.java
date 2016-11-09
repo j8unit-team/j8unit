@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicTextUI} (by simply reusing the
+ * J8Unit test interface {@link BasicTextUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicTextUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests<BasicTextUI> {
+implements BasicTextUIClassTests<BasicTextUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI]
 
@@ -46,9 +51,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests<Ba
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BasicHighlighter} (by simply reusing
+     * the J8Unit test interface {@link BasicHighlighterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BasicHighlighterClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests.BasicHighlighterClassTests<BasicHighlighter> {
+    implements BasicHighlighterClassTests<BasicHighlighter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI$BasicHighlighter]
 
@@ -85,9 +95,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests<Ba
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BasicCaret} (by simply reusing the
+     * J8Unit test interface {@link BasicCaretClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BasicCaretClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicTextUIClassTests.BasicCaretClassTests<BasicCaret> {
+    implements BasicCaretClassTests<BasicCaret> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTextUI$BasicCaret]
 

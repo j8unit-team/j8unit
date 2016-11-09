@@ -4,9 +4,14 @@ import java.lang.management.ClassLoadingMXBean;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ClassLoadingMXBean} (by simply reusing
+ * the J8Unit test interface {@link ClassLoadingMXBeanClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ClassLoadingMXBeanClassTest
-implements org.j8unit.repository.java.lang.management.ClassLoadingMXBeanClassTests<ClassLoadingMXBean> {
+implements ClassLoadingMXBeanClassTests<ClassLoadingMXBean> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.ClassLoadingMXBean]
 

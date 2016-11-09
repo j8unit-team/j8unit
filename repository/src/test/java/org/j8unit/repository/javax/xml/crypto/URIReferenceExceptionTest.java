@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class URIReferenceExceptionTest
-implements FactoryBasedJ8UnitTest<URIReferenceException>, org.j8unit.repository.javax.xml.crypto.URIReferenceExceptionTests<URIReferenceException> {
+implements FactoryBasedJ8UnitTest<URIReferenceException>, URIReferenceExceptionTests<URIReferenceException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.URIReferenceException]
 

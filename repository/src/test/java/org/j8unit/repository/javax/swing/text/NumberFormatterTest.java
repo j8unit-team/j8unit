@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NumberFormatterTest
-implements FactoryBasedJ8UnitTest<NumberFormatter>, org.j8unit.repository.javax.swing.text.NumberFormatterTests<NumberFormatter> {
+implements FactoryBasedJ8UnitTest<NumberFormatter>, NumberFormatterTests<NumberFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.NumberFormatter]
 

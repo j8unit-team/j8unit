@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.CodeSets;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CodeSets} (by simply reusing the
+ * J8Unit test interface {@link CodeSetsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CodeSetsTest
-implements org.j8unit.repository.org.omg.IOP.CodeSetsTests<CodeSets> {
+implements CodeSetsTests<CodeSets> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodeSets]
 

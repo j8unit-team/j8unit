@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TransactionRequiredExceptionTest
-implements FactoryBasedJ8UnitTest<TransactionRequiredException>,
-org.j8unit.repository.javax.transaction.TransactionRequiredExceptionTests<TransactionRequiredException> {
+implements FactoryBasedJ8UnitTest<TransactionRequiredException>, TransactionRequiredExceptionTests<TransactionRequiredException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.transaction.TransactionRequiredException]
 

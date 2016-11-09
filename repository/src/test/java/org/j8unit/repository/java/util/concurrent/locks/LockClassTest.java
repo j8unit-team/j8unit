@@ -4,9 +4,14 @@ import java.util.concurrent.locks.Lock;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Lock} (by simply reusing the J8Unit test
+ * interface {@link LockClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LockClassTest
-implements org.j8unit.repository.java.util.concurrent.locks.LockClassTests<Lock> {
+implements LockClassTests<Lock> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.Lock]
 

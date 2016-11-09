@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NullPointerException} (by simply reusing
+ * the J8Unit test interface {@link NullPointerExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NullPointerExceptionClassTest
-implements org.j8unit.repository.java.lang.NullPointerExceptionClassTests<NullPointerException> {
+implements NullPointerExceptionClassTests<NullPointerException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.NullPointerException]
 

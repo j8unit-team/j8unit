@@ -27,7 +27,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FloatTests<SUT extends Float>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, Float>, org.j8unit.repository.java.lang.NumberTests<SUT> {
+extends ComparableTests<SUT, Float>, NumberTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Float]
 

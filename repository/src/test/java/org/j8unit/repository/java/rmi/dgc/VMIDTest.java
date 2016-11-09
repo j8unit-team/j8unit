@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class VMIDTest
-implements FactoryBasedJ8UnitTest<VMID>, org.j8unit.repository.java.rmi.dgc.VMIDTests<VMID> {
+implements FactoryBasedJ8UnitTest<VMID>, VMIDTests<VMID> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.dgc.VMID]
 

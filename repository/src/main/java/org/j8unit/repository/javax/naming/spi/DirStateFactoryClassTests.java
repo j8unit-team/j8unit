@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.naming.spi.DirStateFactory;
 import javax.naming.spi.DirStateFactory.Result;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DirStateFactoryTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirStateFactoryClassTests<SUT extends DirStateFactory>
-extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
+extends StateFactoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.DirStateFactory]
     /**
@@ -84,8 +84,7 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.naming.spi.DirStateFactoryTests.ResultTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ResultTests}.
      * </p>
      *
      * <p>
@@ -114,7 +113,7 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ResultClassTests<SUT extends Result>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.DirStateFactory$Result]
         /**

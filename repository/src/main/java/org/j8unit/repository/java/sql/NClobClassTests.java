@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.NClobTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NClobTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NClobClassTests<SUT extends NClob>
-extends org.j8unit.repository.java.sql.ClobClassTests<SUT> {
+extends ClobClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.NClob]
     /**

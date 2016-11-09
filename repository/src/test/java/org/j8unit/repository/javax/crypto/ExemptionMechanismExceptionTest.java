@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ExemptionMechanismExceptionTest
-implements FactoryBasedJ8UnitTest<ExemptionMechanismException>,
-org.j8unit.repository.javax.crypto.ExemptionMechanismExceptionTests<ExemptionMechanismException> {
+implements FactoryBasedJ8UnitTest<ExemptionMechanismException>, ExemptionMechanismExceptionTests<ExemptionMechanismException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ExemptionMechanismException]
 

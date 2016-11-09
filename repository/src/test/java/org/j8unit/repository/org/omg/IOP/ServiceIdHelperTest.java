@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.ServiceIdHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServiceIdHelper} (by simply reusing
+ * the J8Unit test interface {@link ServiceIdHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceIdHelperTest
-implements org.j8unit.repository.org.omg.IOP.ServiceIdHelperTests<ServiceIdHelper> {
+implements ServiceIdHelperTests<ServiceIdHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.ServiceIdHelper]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.rmi;
 import static org.junit.Assert.assertTrue;
 import java.rmi.RMISecurityException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.SecurityExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.RMISecurityExceptionTests}.
+ * {@link RMISecurityExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMISecurityExceptionClassTests<SUT extends RMISecurityException>
-extends org.j8unit.repository.java.lang.SecurityExceptionClassTests<SUT> {
+extends SecurityExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.RMISecurityException]
     /**

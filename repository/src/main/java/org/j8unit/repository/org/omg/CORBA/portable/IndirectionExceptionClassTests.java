@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA.portable;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.portable.IndirectionException;
@@ -18,7 +19,7 @@ import org.omg.CORBA.portable.IndirectionException;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.IndirectionExceptionTests}.
+ * {@link IndirectionExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CORBA.portable.IndirectionException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndirectionExceptionClassTests<SUT extends IndirectionException>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.IndirectionException]
     /**

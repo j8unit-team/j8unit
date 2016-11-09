@@ -3,6 +3,8 @@ package org.j8unit.repository.java.util;
 import static org.junit.Assert.assertTrue;
 import java.util.Scanner;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.CloseableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.ScannerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ScannerTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScannerClassTests<SUT extends Scanner>
-extends org.j8unit.repository.java.util.IteratorClassTests<SUT>, org.j8unit.repository.java.io.CloseableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends IteratorClassTests<SUT>, CloseableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Scanner]
     /**

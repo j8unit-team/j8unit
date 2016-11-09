@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _RMIConnection_Stub} (by simply reusing
+ * the J8Unit test interface {@link _RMIConnection_StubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _RMIConnection_StubClassTest
-implements org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIConnection_StubClassTests<_RMIConnection_Stub> {
+implements _RMIConnection_StubClassTests<_RMIConnection_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIConnection_Stub]
 

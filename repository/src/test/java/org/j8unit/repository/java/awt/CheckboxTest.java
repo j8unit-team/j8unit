@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CheckboxTest
-implements FactoryBasedJ8UnitTest<Checkbox>, org.j8unit.repository.java.awt.CheckboxTests<Checkbox> {
+implements FactoryBasedJ8UnitTest<Checkbox>, CheckboxTests<Checkbox> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Checkbox]
 

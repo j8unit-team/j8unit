@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.color.ICC_ProfileGrayTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ICC_ProfileGrayTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ICC_ProfileGrayClassTests<SUT extends ICC_ProfileGray>
-extends org.j8unit.repository.java.awt.color.ICC_ProfileClassTests<SUT> {
+extends ICC_ProfileClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.color.ICC_ProfileGray]
     /**

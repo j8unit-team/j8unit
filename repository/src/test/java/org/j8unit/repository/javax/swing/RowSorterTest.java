@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RowSorter} (by simply reusing the
+ * J8Unit test interface {@link RowSorterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RowSorterTest<M>
-implements org.j8unit.repository.javax.swing.RowSorterTests<RowSorter<M>, M> {
+implements RowSorterTests<RowSorter<M>, M> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowSorter]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.swing.RowSorterTests<RowSorter<M>, M> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.RowSorter]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SortKey} (by simply reusing the
+     * J8Unit test interface {@link SortKeyTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SortKeyTest
-    implements org.j8unit.repository.javax.swing.RowSorterTests.SortKeyTests<SortKey> {
+    implements SortKeyTests<SortKey> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.RowSorter$SortKey]
 

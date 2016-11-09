@@ -3,6 +3,10 @@ package org.j8unit.repository.javax.management.remote.rmi;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.rmi.RMIConnector;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.management.remote.JMXAddressableClassTests;
+import org.j8unit.repository.javax.management.remote.JMXConnectorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.rmi.RMIConnectorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RMIConnectorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIConnectorClassTests<SUT extends RMIConnector>
-extends org.j8unit.repository.javax.management.remote.JMXConnectorClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.javax.management.remote.JMXAddressableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends JMXConnectorClassTests<SUT>, SerializableClassTests<SUT>, JMXAddressableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi.RMIConnector]
     /**

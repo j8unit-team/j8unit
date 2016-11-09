@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BufferOverflowExceptionTest
-implements FactoryBasedJ8UnitTest<BufferOverflowException>, org.j8unit.repository.java.nio.BufferOverflowExceptionTests<BufferOverflowException> {
+implements FactoryBasedJ8UnitTest<BufferOverflowException>, BufferOverflowExceptionTests<BufferOverflowException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.BufferOverflowException]
 

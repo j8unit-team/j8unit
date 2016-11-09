@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableCellRenderer.UIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.JLabelClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +21,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests}.
+ * {@link DefaultTableCellRendererTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTableCellRendererClassTests<SUT extends DefaultTableCellRenderer>
-extends org.j8unit.repository.javax.swing.table.TableCellRendererClassTests<SUT>, org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
+extends TableCellRendererClassTests<SUT>, JLabelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
     /**

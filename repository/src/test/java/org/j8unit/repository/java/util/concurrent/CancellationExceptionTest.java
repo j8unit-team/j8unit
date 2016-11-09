@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CancellationExceptionTest
-implements FactoryBasedJ8UnitTest<CancellationException>, org.j8unit.repository.java.util.concurrent.CancellationExceptionTests<CancellationException> {
+implements FactoryBasedJ8UnitTest<CancellationException>, CancellationExceptionTests<CancellationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CancellationException]
 

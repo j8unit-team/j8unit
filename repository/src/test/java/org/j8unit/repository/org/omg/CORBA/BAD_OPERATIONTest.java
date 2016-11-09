@@ -14,7 +14,7 @@ import org.omg.CORBA.BAD_OPERATION;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BAD_OPERATIONTest
-implements FactoryBasedJ8UnitTest<BAD_OPERATION>, org.j8unit.repository.org.omg.CORBA.BAD_OPERATIONTests<BAD_OPERATION> {
+implements FactoryBasedJ8UnitTest<BAD_OPERATION>, BAD_OPERATIONTests<BAD_OPERATION> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_OPERATION]
 

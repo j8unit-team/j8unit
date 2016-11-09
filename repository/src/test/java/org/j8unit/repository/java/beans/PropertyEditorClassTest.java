@@ -4,9 +4,14 @@ import java.beans.PropertyEditor;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyEditor} (by simply reusing the
+ * J8Unit test interface {@link PropertyEditorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PropertyEditorClassTest
-implements org.j8unit.repository.java.beans.PropertyEditorClassTests<PropertyEditor> {
+implements PropertyEditorClassTests<PropertyEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.PropertyEditor]
 

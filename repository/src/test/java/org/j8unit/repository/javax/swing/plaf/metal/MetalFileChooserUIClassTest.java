@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MetalFileChooserUI} (by simply reusing
+ * the J8Unit test interface {@link MetalFileChooserUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MetalFileChooserUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests<MetalFileChooserUI> {
+implements MetalFileChooserUIClassTests<MetalFileChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
 
@@ -68,9 +73,14 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassT
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FilterComboBoxRenderer} (by simply
+     * reusing the J8Unit test interface {@link FilterComboBoxRendererClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FilterComboBoxRendererClassTest
-    implements org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests<FilterComboBoxRenderer> {
+    implements FilterComboBoxRendererClassTests<FilterComboBoxRenderer> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FileLockInterruptionExceptionTest
-implements FactoryBasedJ8UnitTest<FileLockInterruptionException>,
-org.j8unit.repository.java.nio.channels.FileLockInterruptionExceptionTests<FileLockInterruptionException> {
+implements FactoryBasedJ8UnitTest<FileLockInterruptionException>, FileLockInterruptionExceptionTests<FileLockInterruptionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.FileLockInterruptionException]
 

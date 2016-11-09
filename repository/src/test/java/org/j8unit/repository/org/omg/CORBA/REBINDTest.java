@@ -14,7 +14,7 @@ import org.omg.CORBA.REBIND;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class REBINDTest
-implements FactoryBasedJ8UnitTest<REBIND>, org.j8unit.repository.org.omg.CORBA.REBINDTests<REBIND> {
+implements FactoryBasedJ8UnitTest<REBIND>, REBINDTests<REBIND> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.REBIND]
 

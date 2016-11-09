@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.openmbean.CompositeTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CompositeTypeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeTypeClassTests<SUT extends CompositeType>
-extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT> {
+extends OpenTypeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.CompositeType]
     /**

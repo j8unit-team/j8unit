@@ -1,6 +1,8 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.NameValuePair;
 
@@ -25,7 +27,7 @@ import org.omg.CORBA.NameValuePair;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameValuePairTests<SUT extends NameValuePair>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends IDLEntityTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NameValuePair]
 

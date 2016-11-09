@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Compression} (by simply reusing the
+ * J8Unit test interface {@link CompressionTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CompressionTest
-implements org.j8unit.repository.javax.print.attribute.standard.CompressionTests<Compression> {
+implements CompressionTests<Compression> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.Compression]
 

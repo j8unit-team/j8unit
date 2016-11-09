@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultSingleSelectionModel} (by simply
+ * reusing the J8Unit test interface {@link DefaultSingleSelectionModelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultSingleSelectionModelClassTest
-implements org.j8unit.repository.javax.swing.DefaultSingleSelectionModelClassTests<DefaultSingleSelectionModel> {
+implements DefaultSingleSelectionModelClassTests<DefaultSingleSelectionModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.DefaultSingleSelectionModel]
 

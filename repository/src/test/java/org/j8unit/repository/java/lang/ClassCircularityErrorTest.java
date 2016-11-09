@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClassCircularityErrorTest
-implements FactoryBasedJ8UnitTest<ClassCircularityError>, org.j8unit.repository.java.lang.ClassCircularityErrorTests<ClassCircularityError> {
+implements FactoryBasedJ8UnitTest<ClassCircularityError>, ClassCircularityErrorTests<ClassCircularityError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ClassCircularityError]
 

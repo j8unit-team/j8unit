@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InitialContextTest
-implements FactoryBasedJ8UnitTest<InitialContext>, org.j8unit.repository.javax.naming.InitialContextTests<InitialContext> {
+implements FactoryBasedJ8UnitTest<InitialContext>, InitialContextTests<InitialContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InitialContext]
 

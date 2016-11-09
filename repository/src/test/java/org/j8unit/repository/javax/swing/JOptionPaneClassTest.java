@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JOptionPane} (by simply reusing the
+ * J8Unit test interface {@link JOptionPaneClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JOptionPaneClassTest
-implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> {
+implements JOptionPaneClassTests<JOptionPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JOptionPane]
 
@@ -200,6 +205,51 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object) public static int
+     * javax.swing.JOptionPane.showConfirmDialog(java.awt.Component,java.lang.Object) throws
+     * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showConfirmDialog_Component_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object, String, int) public static int
+     * javax.swing.JOptionPane.showConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int) throws
+     * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showConfirmDialog_Component_Object_String_int()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object, String,
+        // int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object, String, int, int, javax.swing.Icon)
      * public static int
      * javax.swing.JOptionPane.showConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int,int,javax.swing.Icon)
@@ -242,51 +292,6 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     throws Exception {
         // write some test for {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object, String, int,
         // int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object, String, int) public static int
-     * javax.swing.JOptionPane.showConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int) throws
-     * java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showConfirmDialog_Component_Object_String_int()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object, String,
-        // int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object) public static int
-     * javax.swing.JOptionPane.showConfirmDialog(java.awt.Component,java.lang.Object) throws
-     * java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showConfirmDialog_Component_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showConfirmDialog(java.awt.Component, Object)}
     }
 
     /**
@@ -382,6 +387,27 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showInternalMessageDialog(java.awt.Component, Object) public static void
+     * javax.swing.JOptionPane.showInternalMessageDialog(java.awt.Component,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showInternalMessageDialog_Component_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showInternalMessageDialog(java.awt.Component, Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JOptionPane#showInternalMessageDialog(java.awt.Component, Object, String, int, javax.swing.Icon)
      * public static void
      * javax.swing.JOptionPane.showInternalMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int,javax.swing.Icon)}.
@@ -405,8 +431,9 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showInternalMessageDialog(java.awt.Component, Object) public static void
-     * javax.swing.JOptionPane.showInternalMessageDialog(java.awt.Component,java.lang.Object)}.
+     * {@link javax.swing.JOptionPane#showInternalConfirmDialog(java.awt.Component, Object, String, int, int) public
+     * static int
+     * javax.swing.JOptionPane.showInternalConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -418,9 +445,10 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_showInternalMessageDialog_Component_Object()
+    public void test_showInternalConfirmDialog_Component_Object_String_int_int()
     throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showInternalMessageDialog(java.awt.Component, Object)}
+        // write some test for {@link javax.swing.JOptionPane#showInternalConfirmDialog(java.awt.Component, Object,
+        // String, int, int)}
     }
 
     /**
@@ -471,29 +499,6 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showInternalConfirmDialog(java.awt.Component, Object, String, int, int) public
-     * static int
-     * javax.swing.JOptionPane.showInternalConfirmDialog(java.awt.Component,java.lang.Object,java.lang.String,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showInternalConfirmDialog_Component_Object_String_int_int()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showInternalConfirmDialog(java.awt.Component, Object,
-        // String, int, int)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JOptionPane#showInternalConfirmDialog(java.awt.Component, Object) public static int
      * javax.swing.JOptionPane.showInternalConfirmDialog(java.awt.Component,java.lang.Object)}.
      *
@@ -510,51 +515,6 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     public void test_showInternalConfirmDialog_Component_Object()
     throws Exception {
         // write some test for {@link javax.swing.JOptionPane#showInternalConfirmDialog(java.awt.Component, Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#showInputDialog(Object)
-     * public static java.lang.String javax.swing.JOptionPane.showInputDialog(java.lang.Object) throws
-     * java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showInputDialog_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showInputDialog(Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object, String, int, javax.swing.Icon, Object[], Object)
-     * public static java.lang.Object
-     * javax.swing.JOptionPane.showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int,javax.swing.Icon,java.lang.Object[],java.lang.Object)
-     * throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showInputDialog_Component_Object_String_int_Icon_ObjectArray_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object, String, int,
-        // javax.swing.Icon, Object[], Object)}
     }
 
     /**
@@ -583,27 +543,6 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showInputDialog(Object, Object) public static java.lang.String
-     * javax.swing.JOptionPane.showInputDialog(java.lang.Object,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showInputDialog_Object_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showInputDialog(Object, Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object, Object) public static java.lang.String
      * javax.swing.JOptionPane.showInputDialog(java.awt.Component,java.lang.Object,java.lang.Object)}.
      *
@@ -625,6 +564,72 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object, String, int, javax.swing.Icon, Object[], Object)
+     * public static java.lang.Object
+     * javax.swing.JOptionPane.showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int,javax.swing.Icon,java.lang.Object[],java.lang.Object)
+     * throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showInputDialog_Component_Object_String_int_Icon_ObjectArray_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object, String, int,
+        // javax.swing.Icon, Object[], Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.swing.JOptionPane#showInputDialog(Object)
+     * public static java.lang.String javax.swing.JOptionPane.showInputDialog(java.lang.Object) throws
+     * java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showInputDialog_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showInputDialog(Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showInputDialog(Object, Object) public static java.lang.String
+     * javax.swing.JOptionPane.showInputDialog(java.lang.Object,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showInputDialog_Object_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showInputDialog(Object, Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object) public static java.lang.String
      * javax.swing.JOptionPane.showInputDialog(java.awt.Component,java.lang.Object) throws java.awt.HeadlessException}.
      *
@@ -641,27 +646,6 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     public void test_showInputDialog_Component_Object()
     throws Exception {
         // write some test for {@link javax.swing.JOptionPane#showInputDialog(java.awt.Component, Object)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showInternalInputDialog(java.awt.Component, Object) public static java.lang.String
-     * javax.swing.JOptionPane.showInternalInputDialog(java.awt.Component,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showInternalInputDialog_Component_Object()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showInternalInputDialog(java.awt.Component, Object)}
     }
 
     /**
@@ -713,6 +697,27 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showInternalInputDialog(java.awt.Component, Object) public static java.lang.String
+     * javax.swing.JOptionPane.showInternalInputDialog(java.awt.Component,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showInternalInputDialog_Component_Object()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showInternalInputDialog(java.awt.Component, Object)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.JOptionPane#getFrameForComponent(java.awt.Component) public static java.awt.Frame
      * javax.swing.JOptionPane.getFrameForComponent(java.awt.Component) throws java.awt.HeadlessException}.
      *
@@ -749,30 +754,6 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     public void test_setRootFrame_Frame()
     throws Exception {
         // write some test for {@link javax.swing.JOptionPane#setRootFrame(java.awt.Frame)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.JOptionPane#showMessageDialog(java.awt.Component, Object, String, int, javax.swing.Icon)
-     * public static void
-     * javax.swing.JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int,javax.swing.Icon)
-     * throws java.awt.HeadlessException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_showMessageDialog_Component_Object_String_int_Icon()
-    throws Exception {
-        // write some test for {@link javax.swing.JOptionPane#showMessageDialog(java.awt.Component, Object, String, int,
-        // javax.swing.Icon)}
     }
 
     /**
@@ -818,6 +799,30 @@ implements org.j8unit.repository.javax.swing.JOptionPaneClassTests<JOptionPane> 
     throws Exception {
         // write some test for {@link javax.swing.JOptionPane#showMessageDialog(java.awt.Component, Object, String,
         // int)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.JOptionPane#showMessageDialog(java.awt.Component, Object, String, int, javax.swing.Icon)
+     * public static void
+     * javax.swing.JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int,javax.swing.Icon)
+     * throws java.awt.HeadlessException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_showMessageDialog_Component_Object_String_int_Icon()
+    throws Exception {
+        // write some test for {@link javax.swing.JOptionPane#showMessageDialog(java.awt.Component, Object, String, int,
+        // javax.swing.Icon)}
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.JOptionPane]

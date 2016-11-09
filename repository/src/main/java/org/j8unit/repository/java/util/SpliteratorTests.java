@@ -11,6 +11,7 @@ import java.util.function.LongConsumer;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.SpliteratorClassTests}).
+ * {@link SpliteratorClassTests}).
  * </p>
  *
  * @param SUT
@@ -231,7 +232,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfPrimitiveClassTests}).
+     * (see {@link OfPrimitiveClassTests}).
      * </p>
      *
      * @param SUT
@@ -330,7 +331,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests}).
+     * (see {@link OfLongClassTests}).
      * </p>
      *
      * @param SUT
@@ -477,7 +478,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests}).
+     * (see {@link OfIntClassTests}).
      * </p>
      *
      * @param SUT
@@ -624,7 +625,7 @@ extends RepositoryTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests}).
+     * (see {@link OfDoubleClassTests}).
      * </p>
      *
      * @param SUT

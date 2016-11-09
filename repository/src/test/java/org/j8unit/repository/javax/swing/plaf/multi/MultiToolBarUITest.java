@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiToolBarUITest
-implements FactoryBasedJ8UnitTest<MultiToolBarUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiToolBarUITests<MultiToolBarUI> {
+implements FactoryBasedJ8UnitTest<MultiToolBarUI>, MultiToolBarUITests<MultiToolBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiToolBarUI]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RespectBindingFeatureTest
-implements FactoryBasedJ8UnitTest<RespectBindingFeature>, org.j8unit.repository.javax.xml.ws.RespectBindingFeatureTests<RespectBindingFeature> {
+implements FactoryBasedJ8UnitTest<RespectBindingFeature>, RespectBindingFeatureTests<RespectBindingFeature> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.RespectBindingFeature]
 

@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.stream.DoubleStream;
 import java.util.stream.DoubleStream.Builder;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.function.DoubleConsumerClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.stream.DoubleStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DoubleStreamTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleStreamClassTests<SUT extends DoubleStream>
-extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
+extends BaseStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.DoubleStream]
     /**
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Builder>
-    extends org.j8unit.repository.java.util.function.DoubleConsumerClassTests<SUT> {
+    extends DoubleConsumerClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.stream.DoubleStream$Builder]
         /**

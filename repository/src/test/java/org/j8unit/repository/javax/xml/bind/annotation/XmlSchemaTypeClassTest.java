@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XmlSchemaType} (by simply reusing the
+ * J8Unit test interface {@link XmlSchemaTypeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XmlSchemaTypeClassTest
-implements org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests<XmlSchemaType> {
+implements XmlSchemaTypeClassTests<XmlSchemaType> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType]
 
@@ -23,6 +28,12 @@ implements org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTes
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.annotation.XmlSchemaType]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DEFAULT} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests.DEFAULTClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DEFAULTClassTest

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ForwardRequestHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ForwardRequestHelper} (by simply reusing
+ * the J8Unit test interface {@link ForwardRequestHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ForwardRequestHelperClassTest
-implements org.j8unit.repository.org.omg.PortableServer.ForwardRequestHelperClassTests<ForwardRequestHelper> {
+implements ForwardRequestHelperClassTests<ForwardRequestHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ForwardRequestHelper]
 

@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.modelmbean;
 import static org.junit.Assert.assertTrue;
 import javax.management.modelmbean.ModelMBeanAttributeInfo;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.DescriptorAccessClassTests;
+import org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.modelmbean.ModelMBeanAttributeInfoTests}.
+ * {@link ModelMBeanAttributeInfoTests}.
  * </p>
  *
  * <p>
@@ -47,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModelMBeanAttributeInfoClassTests<SUT extends ModelMBeanAttributeInfo>
-extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<SUT> {
+extends DescriptorAccessClassTests<SUT>, MBeanAttributeInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.modelmbean.ModelMBeanAttributeInfo]
     /**

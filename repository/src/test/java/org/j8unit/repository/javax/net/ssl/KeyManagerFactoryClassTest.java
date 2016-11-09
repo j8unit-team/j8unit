@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyManagerFactory} (by simply reusing the
+ * J8Unit test interface {@link KeyManagerFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyManagerFactoryClassTest
-implements org.j8unit.repository.javax.net.ssl.KeyManagerFactoryClassTests<KeyManagerFactory> {
+implements KeyManagerFactoryClassTests<KeyManagerFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.KeyManagerFactory]
 

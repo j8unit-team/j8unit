@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultTreeCellEditor} (by simply reusing
+ * the J8Unit test interface {@link DefaultTreeCellEditorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultTreeCellEditorClassTest
-implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests<DefaultTreeCellEditor> {
+implements DefaultTreeCellEditorClassTests<DefaultTreeCellEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor]
 
@@ -75,9 +80,14 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link EditorContainer} (by simply reusing
+     * the J8Unit test interface {@link EditorContainerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class EditorContainerClassTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.EditorContainerClassTests<EditorContainer> {
+    implements EditorContainerClassTests<EditorContainer> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$EditorContainer]
 
@@ -115,9 +125,14 @@ implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTest
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultTextField} (by simply reusing
+     * the J8Unit test interface {@link DefaultTextFieldClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DefaultTextFieldClassTest
-    implements org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorClassTests.DefaultTextFieldClassTests<DefaultTextField> {
+    implements DefaultTextFieldClassTests<DefaultTextField> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.DefaultTreeCellEditor$DefaultTextField]
 

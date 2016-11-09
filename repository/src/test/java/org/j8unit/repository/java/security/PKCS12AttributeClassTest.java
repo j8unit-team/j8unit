@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PKCS12Attribute} (by simply reusing the
+ * J8Unit test interface {@link PKCS12AttributeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PKCS12AttributeClassTest
-implements org.j8unit.repository.java.security.PKCS12AttributeClassTests<PKCS12Attribute> {
+implements PKCS12AttributeClassTests<PKCS12Attribute> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.PKCS12Attribute]
 

@@ -4,9 +4,14 @@ import javax.naming.spi.ObjectFactoryBuilder;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectFactoryBuilder} (by simply reusing
+ * the J8Unit test interface {@link ObjectFactoryBuilderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectFactoryBuilderClassTest
-implements org.j8unit.repository.javax.naming.spi.ObjectFactoryBuilderClassTests<ObjectFactoryBuilder> {
+implements ObjectFactoryBuilderClassTests<ObjectFactoryBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.ObjectFactoryBuilder]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CellRendererPaneTest
-implements FactoryBasedJ8UnitTest<CellRendererPane>, org.j8unit.repository.javax.swing.CellRendererPaneTests<CellRendererPane> {
+implements FactoryBasedJ8UnitTest<CellRendererPane>, CellRendererPaneTests<CellRendererPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.CellRendererPane]
 

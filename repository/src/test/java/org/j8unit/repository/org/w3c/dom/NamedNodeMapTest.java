@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.NamedNodeMap;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NamedNodeMap} (by simply reusing the
+ * J8Unit test interface {@link NamedNodeMapTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NamedNodeMapTest
-implements org.j8unit.repository.org.w3c.dom.NamedNodeMapTests<NamedNodeMap> {
+implements NamedNodeMapTests<NamedNodeMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.NamedNodeMap]
 

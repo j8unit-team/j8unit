@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny._DynStructStub;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link _DynStructStub} (by simply reusing the
+ * J8Unit test interface {@link _DynStructStubClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class _DynStructStubClassTest
-implements org.j8unit.repository.org.omg.DynamicAny._DynStructStubClassTests<_DynStructStub> {
+implements _DynStructStubClassTests<_DynStructStub> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynStructStub]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.lang.reflect;
 import static org.junit.Assert.assertTrue;
 import java.lang.reflect.ReflectPermission;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.BasicPermissionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.reflect.ReflectPermissionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ReflectPermissionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReflectPermissionClassTests<SUT extends ReflectPermission>
-extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
+extends BasicPermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.ReflectPermission]
     /**

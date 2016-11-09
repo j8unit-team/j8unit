@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class URLDecoderTest
-implements FactoryBasedJ8UnitTest<URLDecoder>, org.j8unit.repository.java.net.URLDecoderTests<URLDecoder> {
+implements FactoryBasedJ8UnitTest<URLDecoder>, URLDecoderTests<URLDecoder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.URLDecoder]
 

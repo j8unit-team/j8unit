@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoSuchPaddingExceptionTest
-implements FactoryBasedJ8UnitTest<NoSuchPaddingException>, org.j8unit.repository.javax.crypto.NoSuchPaddingExceptionTests<NoSuchPaddingException> {
+implements FactoryBasedJ8UnitTest<NoSuchPaddingException>, NoSuchPaddingExceptionTests<NoSuchPaddingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NoSuchPaddingException]
 

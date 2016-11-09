@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServiceUnavailableExceptionTest
-implements FactoryBasedJ8UnitTest<ServiceUnavailableException>,
-org.j8unit.repository.javax.naming.ServiceUnavailableExceptionTests<ServiceUnavailableException> {
+implements FactoryBasedJ8UnitTest<ServiceUnavailableException>, ServiceUnavailableExceptionTests<ServiceUnavailableException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.ServiceUnavailableException]
 

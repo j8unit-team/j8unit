@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CookieManagerTest
-implements FactoryBasedJ8UnitTest<CookieManager>, org.j8unit.repository.java.net.CookieManagerTests<CookieManager> {
+implements FactoryBasedJ8UnitTest<CookieManager>, CookieManagerTests<CookieManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.CookieManager]
 

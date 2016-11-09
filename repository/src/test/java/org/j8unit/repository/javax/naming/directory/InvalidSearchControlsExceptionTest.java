@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidSearchControlsExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidSearchControlsException>,
-org.j8unit.repository.javax.naming.directory.InvalidSearchControlsExceptionTests<InvalidSearchControlsException> {
+implements FactoryBasedJ8UnitTest<InvalidSearchControlsException>, InvalidSearchControlsExceptionTests<InvalidSearchControlsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InvalidSearchControlsException]
 

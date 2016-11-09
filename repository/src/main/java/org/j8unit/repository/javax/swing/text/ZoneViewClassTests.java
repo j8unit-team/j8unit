@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.ZoneViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ZoneViewTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneViewClassTests<SUT extends ZoneView>
-extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
+extends BoxViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.ZoneView]
     /**

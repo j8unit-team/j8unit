@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.MBeanServerNotificationTests}.
+ * {@link MBeanServerNotificationTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanServerNotificationClassTests<SUT extends MBeanServerNotification>
-extends org.j8unit.repository.javax.management.NotificationClassTests<SUT> {
+extends NotificationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.MBeanServerNotification]
     /**

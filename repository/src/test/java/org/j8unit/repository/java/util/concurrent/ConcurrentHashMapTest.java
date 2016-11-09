@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ConcurrentHashMapTest<K, V>
-implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests<ConcurrentHashMap<K, V>, K, V> {
+implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, ConcurrentHashMapTests<ConcurrentHashMap<K, V>, K, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<ConcurrentHashMap<K, V>>, org.j8unit.repositor
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link KeySetView} (by simply reusing
+     * the J8Unit test interface {@link KeySetViewTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class KeySetViewTest<K, V>
-    implements org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests<KeySetView<K, V>, K, V> {
+    implements KeySetViewTests<KeySetView<K, V>, K, V> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
 

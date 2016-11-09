@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotContextExceptionTest
-implements FactoryBasedJ8UnitTest<NotContextException>, org.j8unit.repository.javax.naming.NotContextExceptionTests<NotContextException> {
+implements FactoryBasedJ8UnitTest<NotContextException>, NotContextExceptionTests<NotContextException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NotContextException]
 

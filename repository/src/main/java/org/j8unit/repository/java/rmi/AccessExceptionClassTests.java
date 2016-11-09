@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.AccessExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AccessExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessExceptionClassTests<SUT extends AccessException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
+extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.AccessException]
     /**

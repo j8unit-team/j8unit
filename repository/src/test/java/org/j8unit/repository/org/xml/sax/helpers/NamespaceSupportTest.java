@@ -14,7 +14,7 @@ import org.xml.sax.helpers.NamespaceSupport;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NamespaceSupportTest
-implements FactoryBasedJ8UnitTest<NamespaceSupport>, org.j8unit.repository.org.xml.sax.helpers.NamespaceSupportTests<NamespaceSupport> {
+implements FactoryBasedJ8UnitTest<NamespaceSupport>, NamespaceSupportTests<NamespaceSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.NamespaceSupport]
 

@@ -29,7 +29,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HTMLDocumentTest
-implements FactoryBasedJ8UnitTest<HTMLDocument>, org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests<HTMLDocument> {
+implements FactoryBasedJ8UnitTest<HTMLDocument>, HTMLDocumentTests<HTMLDocument> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
 
@@ -50,26 +50,14 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, org.j8unit.repository.javax.swi
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument]
 
-    @RunWith(J8Unit4.class)
-    public static class BlockElementTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests<BlockElement> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
-
-        @Override
-        public BlockElement createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.BlockElement], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLReader} (by simply reusing
+     * the J8Unit test interface {@link HTMLReaderTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class HTMLReaderTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests<HTMLReader> {
+    implements HTMLReaderTests<HTMLReader> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader]
 
@@ -82,145 +70,14 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, org.j8unit.repository.javax.swi
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader]
 
-        @RunWith(J8Unit4.class)
-        public static class PreActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests<PreAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
-            @Override
-            public PreAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.PreAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class IsindexActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests<IsindexAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-            @Override
-            public IsindexAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class FormActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests<FormAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
-
-            @Override
-            public FormAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.FormAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class HiddenActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests<HiddenAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
-
-            @Override
-            public HiddenAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class TagActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests<TagAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
-
-            @Override
-            public TagAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.TagAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class CharacterActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests<CharacterAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
-
-            @Override
-            public CharacterAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class SpecialActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests<SpecialAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
-
-            @Override
-            public SpecialAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
-
-        }
-
-        @RunWith(J8Unit4.class)
-        public static class ParagraphActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests<ParagraphAction> {
-
-            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
-
-            @Override
-            public ParagraphAction createNewSUT() {
-                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction], j8unit does not support a generic way to provide instances.");
-            }
-
-            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
-
-            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
-
-        }
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link BlockAction} (by simply
+         * reusing the J8Unit test interface {@link BlockActionTests}).
+         */
 
         @RunWith(J8Unit4.class)
         public static class BlockActionTest
-        implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests<BlockAction> {
+        implements BlockActionTests<BlockAction> {
 
             // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction]
 
@@ -235,28 +92,214 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, org.j8unit.repository.javax.swi
 
         }
 
-    }
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link ParagraphAction} (by simply
+         * reusing the J8Unit test interface {@link ParagraphActionTests}).
+         */
 
-    @RunWith(J8Unit4.class)
-    public static class IteratorTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests<Iterator> {
+        @RunWith(J8Unit4.class)
+        public static class ParagraphActionTest
+        implements ParagraphActionTests<ParagraphAction> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
 
-        @Override
-        public Iterator createNewSUT() {
-            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.html.HTMLDocument.Iterator], j8unit does not support a generic way to provide instances.");
+            @Override
+            public ParagraphAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction]
+
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link TagAction} (by simply reusing
+         * the J8Unit test interface {@link TagActionTests}).
+         */
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+        @RunWith(J8Unit4.class)
+        public static class TagActionTest
+        implements TagActionTests<TagAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+
+            @Override
+            public TagAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.TagAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$TagAction]
+
+        }
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link PreAction} (by simply reusing
+         * the J8Unit test interface {@link PreActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class PreActionTest
+        implements PreActionTests<PreAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
+
+            @Override
+            public PreAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.PreAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$PreAction]
+
+        }
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link IsindexAction} (by simply
+         * reusing the J8Unit test interface {@link IsindexActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class IsindexActionTest
+        implements IsindexActionTests<IsindexAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
+
+            @Override
+            public IsindexAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction]
+
+        }
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link SpecialAction} (by simply
+         * reusing the J8Unit test interface {@link SpecialActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class SpecialActionTest
+        implements SpecialActionTests<SpecialAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
+
+            @Override
+            public SpecialAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction]
+
+        }
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link HiddenAction} (by simply
+         * reusing the J8Unit test interface {@link HiddenActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class HiddenActionTest
+        implements HiddenActionTests<HiddenAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+
+            @Override
+            public HiddenAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction]
+
+        }
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link FormAction} (by simply
+         * reusing the J8Unit test interface {@link FormActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class FormActionTest
+        implements FormActionTests<FormAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+
+            @Override
+            public FormAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.FormAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$FormAction]
+
+        }
+
+        /**
+         * Specific JUnit test class to proof the instance relevant aspects of type {@link CharacterAction} (by simply
+         * reusing the J8Unit test interface {@link CharacterActionTests}).
+         */
+
+        @RunWith(J8Unit4.class)
+        public static class CharacterActionTest
+        implements CharacterActionTests<CharacterAction> {
+
+            // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
+            @Override
+            public CharacterAction createNewSUT() {
+                throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction], j8unit does not support a generic way to provide instances.");
+            }
+
+            // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
+            // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$HTMLReader$CharacterAction]
+
+        }
 
     }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BlockElement} (by simply reusing
+     * the J8Unit test interface {@link BlockElementTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class BlockElementTest
+    implements BlockElementTests<BlockElement> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
+
+        @Override
+        public BlockElement createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.html.HTMLDocument.BlockElement], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$BlockElement]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link RunElement} (by simply reusing
+     * the J8Unit test interface {@link RunElementTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class RunElementTest
-    implements org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests<RunElement> {
+    implements RunElementTests<RunElement> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
 
@@ -268,6 +311,28 @@ implements FactoryBasedJ8UnitTest<HTMLDocument>, org.j8unit.repository.javax.swi
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$RunElement]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Iterator} (by simply reusing the
+     * J8Unit test interface {@link IteratorTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class IteratorTest
+    implements IteratorTests<Iterator> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+
+        @Override
+        public Iterator createNewSUT() {
+            throw new AssumptionViolatedException("Due to the abstract modifier of this type-under-test [javax.swing.text.html.HTMLDocument.Iterator], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.HTMLDocument$Iterator]
 
     }
 

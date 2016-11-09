@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicTableHeaderUITest
-implements FactoryBasedJ8UnitTest<BasicTableHeaderUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests<BasicTableHeaderUI> {
+implements FactoryBasedJ8UnitTest<BasicTableHeaderUI>, BasicTableHeaderUITests<BasicTableHeaderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableHeaderUI]
 
@@ -37,6 +37,12 @@ implements FactoryBasedJ8UnitTest<BasicTableHeaderUI>, org.j8unit.repository.jav
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableHeaderUI]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicTableHeaderUI]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MouseInputHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests.MouseInputHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class MouseInputHandlerTest

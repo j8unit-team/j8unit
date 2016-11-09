@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ImageTypeSpecifier} (by simply reusing
+ * the J8Unit test interface {@link ImageTypeSpecifierClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ImageTypeSpecifierClassTest
-implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<ImageTypeSpecifier> {
+implements ImageTypeSpecifierClassTests<ImageTypeSpecifier> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.ImageTypeSpecifier]
 
@@ -161,27 +166,6 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean) public static
-     * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createGrayscale(int,int,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_createGrayscale_int_int_boolean()
-    throws Exception {
-        // write some test for {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean, boolean) public static
      * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createGrayscale(int,int,boolean,boolean)}.
      *
@@ -198,6 +182,27 @@ implements org.j8unit.repository.javax.imageio.ImageTypeSpecifierClassTests<Imag
     public void test_createGrayscale_int_int_boolean_boolean()
     throws Exception {
         // write some test for {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean, boolean)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean) public static
+     * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createGrayscale(int,int,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_createGrayscale_int_int_boolean()
+    throws Exception {
+        // write some test for {@link javax.imageio.ImageTypeSpecifier#createGrayscale(int, int, boolean)}
     }
 
     /**

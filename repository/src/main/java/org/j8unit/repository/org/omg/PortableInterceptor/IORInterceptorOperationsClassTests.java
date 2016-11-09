@@ -18,7 +18,7 @@ import org.omg.PortableInterceptor.IORInterceptorOperations;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperationsTests}.
+ * {@link IORInterceptorOperationsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableInterceptor.IORInterceptorOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInterceptorOperationsClassTests<SUT extends IORInterceptorOperations>
-extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsClassTests<SUT> {
+extends InterceptorOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.IORInterceptorOperations]
     /**

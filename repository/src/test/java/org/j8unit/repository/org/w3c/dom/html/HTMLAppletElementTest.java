@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLAppletElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLAppletElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLAppletElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLAppletElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLAppletElementTests<HTMLAppletElement> {
+implements HTMLAppletElementTests<HTMLAppletElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLAppletElement]
 

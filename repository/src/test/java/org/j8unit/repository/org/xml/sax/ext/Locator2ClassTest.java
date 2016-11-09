@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.xml.sax.ext.Locator2;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Locator2} (by simply reusing the J8Unit
+ * test interface {@link Locator2ClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Locator2ClassTest
-implements org.j8unit.repository.org.xml.sax.ext.Locator2ClassTests<Locator2> {
+implements Locator2ClassTests<Locator2> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.Locator2]
 

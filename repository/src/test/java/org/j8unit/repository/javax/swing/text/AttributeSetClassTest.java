@@ -8,9 +8,14 @@ import javax.swing.text.AttributeSet.ParagraphAttribute;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AttributeSet} (by simply reusing the
+ * J8Unit test interface {@link AttributeSetClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AttributeSetClassTest
-implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<AttributeSet> {
+implements AttributeSetClassTests<AttributeSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet]
 
@@ -23,26 +28,14 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<Attribu
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet]
 
-    @RunWith(J8Unit4.class)
-    public static class ColorAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ColorAttributeClassTests<ColorAttribute> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        @Override
-        public Class<ColorAttribute> createNewSUT() {
-            return ColorAttribute.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FontAttribute} (by simply reusing the
+     * J8Unit test interface {@link FontAttributeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FontAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.FontAttributeClassTests<FontAttribute> {
+    implements FontAttributeClassTests<FontAttribute> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$FontAttribute]
 
@@ -57,26 +50,36 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<Attribu
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class CharacterAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.CharacterAttributeClassTests<CharacterAttribute> {
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ColorAttribute} (by simply reusing
+     * the J8Unit test interface {@link ColorAttributeClassTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+    @RunWith(J8Unit4.class)
+    public static class ColorAttributeClassTest
+    implements ColorAttributeClassTests<ColorAttribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
         @Override
-        public Class<CharacterAttribute> createNewSUT() {
-            return CharacterAttribute.class;
+        public Class<ColorAttribute> createNewSUT() {
+            return ColorAttribute.class;
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ColorAttribute]
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ParagraphAttribute} (by simply
+     * reusing the J8Unit test interface {@link ParagraphAttributeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ParagraphAttributeClassTest
-    implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests.ParagraphAttributeClassTests<ParagraphAttribute> {
+    implements ParagraphAttributeClassTests<ParagraphAttribute> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$ParagraphAttribute]
 
@@ -88,6 +91,28 @@ implements org.j8unit.repository.javax.swing.text.AttributeSetClassTests<Attribu
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$ParagraphAttribute]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$ParagraphAttribute]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link CharacterAttribute} (by simply
+     * reusing the J8Unit test interface {@link CharacterAttributeClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class CharacterAttributeClassTest
+    implements CharacterAttributeClassTests<CharacterAttribute> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        @Override
+        public Class<CharacterAttribute> createNewSUT() {
+            return CharacterAttribute.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.AttributeSet$CharacterAttribute]
 
     }
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SaslExceptionTest
-implements FactoryBasedJ8UnitTest<SaslException>, org.j8unit.repository.javax.security.sasl.SaslExceptionTests<SaslException> {
+implements FactoryBasedJ8UnitTest<SaslException>, SaslExceptionTests<SaslException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.sasl.SaslException]
 

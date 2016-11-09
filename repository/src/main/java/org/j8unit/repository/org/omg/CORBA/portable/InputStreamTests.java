@@ -639,6 +639,28 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.InputStream#read_Object()
+     * public abstract org.omg.CORBA.Object org.omg.CORBA.portable.InputStream.read_Object()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link org.omg.CORBA.portable.InputStream#read_Object(Class) public org.omg.CORBA.Object
      * org.omg.CORBA.portable.InputStream.read_Object(java.lang.Class)}.
@@ -654,28 +676,6 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_Object_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link org.omg.CORBA.portable.InputStream#read_Object()
-     * public abstract org.omg.CORBA.Object org.omg.CORBA.portable.InputStream.read_Object()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

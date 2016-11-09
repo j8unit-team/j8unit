@@ -4,9 +4,14 @@ import javax.naming.RefAddr;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RefAddr} (by simply reusing the J8Unit
+ * test interface {@link RefAddrClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RefAddrClassTest
-implements org.j8unit.repository.javax.naming.RefAddrClassTests<RefAddr> {
+implements RefAddrClassTests<RefAddr> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.RefAddr]
 

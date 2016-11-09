@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ConcurrentSkipListSetTest<E>
-implements FactoryBasedJ8UnitTest<ConcurrentSkipListSet<E>>,
-org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetTests<ConcurrentSkipListSet<E>, E> {
+implements FactoryBasedJ8UnitTest<ConcurrentSkipListSet<E>>, ConcurrentSkipListSetTests<ConcurrentSkipListSet<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.ConcurrentSkipListSet]
 

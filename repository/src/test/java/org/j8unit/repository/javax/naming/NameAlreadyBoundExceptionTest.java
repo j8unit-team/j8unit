@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NameAlreadyBoundExceptionTest
-implements FactoryBasedJ8UnitTest<NameAlreadyBoundException>, org.j8unit.repository.javax.naming.NameAlreadyBoundExceptionTests<NameAlreadyBoundException> {
+implements FactoryBasedJ8UnitTest<NameAlreadyBoundException>, NameAlreadyBoundExceptionTests<NameAlreadyBoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NameAlreadyBoundException]
 

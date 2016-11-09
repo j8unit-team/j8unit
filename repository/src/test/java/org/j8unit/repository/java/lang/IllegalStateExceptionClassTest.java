@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IllegalStateException} (by simply reusing
+ * the J8Unit test interface {@link IllegalStateExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IllegalStateExceptionClassTest
-implements org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<IllegalStateException> {
+implements IllegalStateExceptionClassTests<IllegalStateException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.IllegalStateException]
 

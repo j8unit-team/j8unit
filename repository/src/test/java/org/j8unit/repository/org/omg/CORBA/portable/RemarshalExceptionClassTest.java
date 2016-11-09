@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.RemarshalException;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RemarshalException} (by simply reusing
+ * the J8Unit test interface {@link RemarshalExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RemarshalExceptionClassTest
-implements org.j8unit.repository.org.omg.CORBA.portable.RemarshalExceptionClassTests<RemarshalException> {
+implements RemarshalExceptionClassTests<RemarshalException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.RemarshalException]
 

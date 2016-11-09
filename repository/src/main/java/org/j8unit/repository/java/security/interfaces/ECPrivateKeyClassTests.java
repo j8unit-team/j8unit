@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.interfaces;
 import static org.junit.Assert.assertTrue;
 import java.security.interfaces.ECPrivateKey;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.PrivateKeyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.interfaces.ECPrivateKeyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ECPrivateKeyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECPrivateKeyClassTests<SUT extends ECPrivateKey>
-extends org.j8unit.repository.java.security.PrivateKeyClassTests<SUT>, org.j8unit.repository.java.security.interfaces.ECKeyClassTests<SUT> {
+extends PrivateKeyClassTests<SUT>, ECKeyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.interfaces.ECPrivateKey]
     /**

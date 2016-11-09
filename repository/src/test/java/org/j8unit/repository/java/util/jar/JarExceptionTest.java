@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JarExceptionTest
-implements FactoryBasedJ8UnitTest<JarException>, org.j8unit.repository.java.util.jar.JarExceptionTests<JarException> {
+implements FactoryBasedJ8UnitTest<JarException>, JarExceptionTests<JarException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.jar.JarException]
 

@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CosNaming.NamingContextPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextPackage.NotFound;
 
@@ -14,7 +15,7 @@ import org.omg.CosNaming.NamingContextPackage.NotFound;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundClassTests}).
+ * {@link NotFoundClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.CosNaming.NamingContextPackage.NotFound;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotFoundTests<SUT extends NotFound>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotFound]
 

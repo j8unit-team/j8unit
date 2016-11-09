@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NumericShaper} (by simply reusing the
+ * J8Unit test interface {@link NumericShaperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NumericShaperTest
-implements org.j8unit.repository.java.awt.font.NumericShaperTests<NumericShaper> {
+implements NumericShaperTests<NumericShaper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.NumericShaper]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.java.awt.font.NumericShaperTests<NumericShaper>
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.font.NumericShaper]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Range} (by simply reusing the
+     * J8Unit test interface {@link RangeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class RangeTest
-    implements org.j8unit.repository.java.awt.font.NumericShaperTests.RangeTests<Range> {
+    implements RangeTests<Range> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.NumericShaper$Range]
 

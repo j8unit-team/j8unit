@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MetalTabbedPaneUI} (by simply reusing the
+ * J8Unit test interface {@link MetalTabbedPaneUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MetalTabbedPaneUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTests<MetalTabbedPaneUI> {
+implements MetalTabbedPaneUIClassTests<MetalTabbedPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
 
@@ -66,6 +71,12 @@ implements org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTe
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.metal.MetalTabbedPaneUI]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link TabbedPaneLayout} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTests.TabbedPaneLayoutClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TabbedPaneLayoutClassTest

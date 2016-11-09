@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.Servant;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Servant} (by simply reusing the J8Unit
+ * test interface {@link ServantClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantClassTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantClassTests<Servant> {
+implements ServantClassTests<Servant> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.Servant]
 

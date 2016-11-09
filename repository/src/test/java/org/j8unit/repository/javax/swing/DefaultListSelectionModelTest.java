@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultListSelectionModelTest
-implements FactoryBasedJ8UnitTest<DefaultListSelectionModel>, org.j8unit.repository.javax.swing.DefaultListSelectionModelTests<DefaultListSelectionModel> {
+implements FactoryBasedJ8UnitTest<DefaultListSelectionModel>, DefaultListSelectionModelTests<DefaultListSelectionModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListSelectionModel]
 

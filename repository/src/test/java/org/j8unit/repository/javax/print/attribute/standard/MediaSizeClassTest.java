@@ -13,9 +13,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MediaSize} (by simply reusing the J8Unit
+ * test interface {@link MediaSizeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MediaSizeClassTest
-implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests<MediaSize> {
+implements MediaSizeClassTests<MediaSize> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize]
 
@@ -165,26 +170,14 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize]
 
-    @RunWith(J8Unit4.class)
-    public static class NAClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests<NA> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
-
-        @Override
-        public Class<NA> createNewSUT() {
-            return NA.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ISO} (by simply reusing the J8Unit
+     * test interface {@link ISOClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ISOClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.ISOClassTests<ISO> {
+    implements ISOClassTests<ISO> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$ISO]
 
@@ -199,9 +192,36 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link NA} (by simply reusing the J8Unit
+     * test interface {@link NAClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class NAClassTest
+    implements NAClassTests<NA> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
+
+        @Override
+        public Class<NA> createNewSUT() {
+            return NA.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$NA]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link JIS} (by simply reusing the J8Unit
+     * test interface {@link JISClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class JISClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests<JIS> {
+    implements JISClassTests<JIS> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$JIS]
 
@@ -216,26 +236,14 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class OtherClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests<Other> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
-
-        @Override
-        public Class<Other> createNewSUT() {
-            return Other.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Engineering} (by simply reusing the
+     * J8Unit test interface {@link EngineeringClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class EngineeringClassTest
-    implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.EngineeringClassTests<Engineering> {
+    implements EngineeringClassTests<Engineering> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
 
@@ -247,6 +255,28 @@ implements org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTe
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Engineering]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Other} (by simply reusing the J8Unit
+     * test interface {@link OtherClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class OtherClassTest
+    implements OtherClassTests<Other> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+        @Override
+        public Class<Other> createNewSUT() {
+            return Other.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.print.attribute.standard.MediaSize$Other]
 
     }
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.concurrent.atomic;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.atomic.AtomicStampedReference;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.atomic.AtomicStampedReferenceTests}.
+ * {@link AtomicStampedReferenceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AtomicStampedReferenceClassTests<SUT extends AtomicStampedReference>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.atomic.AtomicStampedReference]
     /**

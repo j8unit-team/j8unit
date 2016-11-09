@@ -14,7 +14,7 @@ import org.omg.CORBA.REBIND;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.REBINDClassTests}).
+ * {@link REBINDClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.REBIND;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface REBINDTests<SUT extends REBIND>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.REBIND]
 

@@ -17,8 +17,7 @@ import org.w3c.dom.Text;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.TextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.Text;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextClassTests<SUT extends Text>
-extends org.j8unit.repository.org.w3c.dom.CharacterDataClassTests<SUT> {
+extends CharacterDataClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.Text]
     /**

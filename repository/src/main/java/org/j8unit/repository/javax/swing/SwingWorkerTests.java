@@ -4,6 +4,10 @@ import javax.swing.SwingWorker;
 import javax.swing.SwingWorker.StateValue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.util.concurrent.RunnableFutureTests;
+import org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.SwingWorkerClassTests}).
+ * {@link SwingWorkerClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SwingWorkerTests<SUT extends SwingWorker<T, V>, T, V>
-extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends RunnableFutureTests<SUT, T>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingWorker]
 
@@ -343,7 +347,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests}).
+     * (see {@link StateValueClassTests}).
      * </p>
      *
      * @param SUT
@@ -354,7 +358,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateValueTests<SUT extends StateValue>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, StateValue> {
+    extends EnumTests<SUT, StateValue> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingWorker$StateValue]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PopupFactoryTest
-implements FactoryBasedJ8UnitTest<PopupFactory>, org.j8unit.repository.javax.swing.PopupFactoryTests<PopupFactory> {
+implements FactoryBasedJ8UnitTest<PopupFactory>, PopupFactoryTests<PopupFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.PopupFactory]
 

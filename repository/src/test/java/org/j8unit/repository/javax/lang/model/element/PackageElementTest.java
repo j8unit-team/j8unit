@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PackageElement} (by simply reusing
+ * the J8Unit test interface {@link PackageElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PackageElementTest
-implements org.j8unit.repository.javax.lang.model.element.PackageElementTests<PackageElement> {
+implements PackageElementTests<PackageElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.element.PackageElement]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RenderableImageProducer} (by simply
+ * reusing the J8Unit test interface {@link RenderableImageProducerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RenderableImageProducerClassTest
-implements org.j8unit.repository.java.awt.image.renderable.RenderableImageProducerClassTests<RenderableImageProducer> {
+implements RenderableImageProducerClassTests<RenderableImageProducer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.renderable.RenderableImageProducer]
 

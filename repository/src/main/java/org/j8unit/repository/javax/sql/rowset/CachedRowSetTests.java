@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.sql.rowset;
 import javax.sql.rowset.CachedRowSet;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.sql.RowSetTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.sql.rowset.CachedRowSetClassTests}).
+ * {@link CachedRowSetClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,32 +29,9 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CachedRowSetTests<SUT extends CachedRowSet>
-extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.javax.sql.rowset.JoinableTests<SUT> {
+extends RowSetTests<SUT>, JoinableTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.CachedRowSet]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#toCollection(String)
-     * public abstract java.util.Collection<?> javax.sql.rowset.CachedRowSet.toCollection(java.lang.String) throws
-     * java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toCollection_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -94,6 +72,29 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_toCollection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#toCollection(String)
+     * public abstract java.util.Collection<?> javax.sql.rowset.CachedRowSet.toCollection(java.lang.String) throws
+     * java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toCollection_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,28 +217,6 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#getOriginalRow()
-     * public abstract java.sql.ResultSet javax.sql.rowset.CachedRowSet.getOriginalRow() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOriginalRow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#createShared() public
      * abstract javax.sql.RowSet javax.sql.rowset.CachedRowSet.createShared() throws java.sql.SQLException}.
      *
@@ -252,6 +231,28 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_createShared()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#getOriginalRow()
+     * public abstract java.sql.ResultSet javax.sql.rowset.CachedRowSet.getOriginalRow() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOriginalRow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -436,28 +437,6 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#getOriginal() public
-     * abstract java.sql.ResultSet javax.sql.rowset.CachedRowSet.getOriginal() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOriginal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.CachedRowSet#setSyncProvider(String) public abstract void
      * javax.sql.rowset.CachedRowSet.setSyncProvider(java.lang.String) throws java.sql.SQLException}.
@@ -473,6 +452,28 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_setSyncProvider_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#getOriginal() public
+     * abstract java.sql.ResultSet javax.sql.rowset.CachedRowSet.getOriginal() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOriginal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -705,28 +706,6 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#columnUpdated(int)
-     * public abstract boolean javax.sql.rowset.CachedRowSet.columnUpdated(int) throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_columnUpdated_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#columnUpdated(String)
      * public abstract boolean javax.sql.rowset.CachedRowSet.columnUpdated(java.lang.String) throws
      * java.sql.SQLException}.
@@ -742,6 +721,28 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_columnUpdated_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#columnUpdated(int)
+     * public abstract boolean javax.sql.rowset.CachedRowSet.columnUpdated(int) throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_columnUpdated_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -772,6 +773,28 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#rollback() public
+     * abstract void javax.sql.rowset.CachedRowSet.rollback() throws java.sql.SQLException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rollback()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link javax.sql.rowset.CachedRowSet#rollback(java.sql.Savepoint) public abstract void
      * javax.sql.rowset.CachedRowSet.rollback(java.sql.Savepoint) throws java.sql.SQLException}.
@@ -787,28 +810,6 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_rollback_Savepoint()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.sql.rowset.CachedRowSet#rollback() public
-     * abstract void javax.sql.rowset.CachedRowSet.rollback() throws java.sql.SQLException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rollback()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

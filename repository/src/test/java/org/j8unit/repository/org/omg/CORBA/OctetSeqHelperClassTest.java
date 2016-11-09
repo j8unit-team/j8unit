@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.OctetSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OctetSeqHelper} (by simply reusing the
+ * J8Unit test interface {@link OctetSeqHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OctetSeqHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.OctetSeqHelperClassTests<OctetSeqHelper> {
+implements OctetSeqHelperClassTests<OctetSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.OctetSeqHelper]
 

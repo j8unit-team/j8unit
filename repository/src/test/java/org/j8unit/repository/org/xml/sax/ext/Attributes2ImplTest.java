@@ -14,7 +14,7 @@ import org.xml.sax.ext.Attributes2Impl;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class Attributes2ImplTest
-implements FactoryBasedJ8UnitTest<Attributes2Impl>, org.j8unit.repository.org.xml.sax.ext.Attributes2ImplTests<Attributes2Impl> {
+implements FactoryBasedJ8UnitTest<Attributes2Impl>, Attributes2ImplTests<Attributes2Impl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.ext.Attributes2Impl]
 

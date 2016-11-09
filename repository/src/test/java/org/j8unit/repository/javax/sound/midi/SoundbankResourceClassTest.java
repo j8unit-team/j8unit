@@ -4,9 +4,14 @@ import javax.sound.midi.SoundbankResource;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SoundbankResource} (by simply reusing the
+ * J8Unit test interface {@link SoundbankResourceClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SoundbankResourceClassTest
-implements org.j8unit.repository.javax.sound.midi.SoundbankResourceClassTests<SoundbankResource> {
+implements SoundbankResourceClassTests<SoundbankResource> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.SoundbankResource]
 

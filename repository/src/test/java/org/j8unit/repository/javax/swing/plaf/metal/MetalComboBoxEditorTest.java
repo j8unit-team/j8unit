@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalComboBoxEditorTest
-implements FactoryBasedJ8UnitTest<MetalComboBoxEditor>, org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests<MetalComboBoxEditor> {
+implements FactoryBasedJ8UnitTest<MetalComboBoxEditor>, MetalComboBoxEditorTests<MetalComboBoxEditor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxEditor]
 

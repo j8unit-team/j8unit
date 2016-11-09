@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SAAJResultTest
-implements FactoryBasedJ8UnitTest<SAAJResult>, org.j8unit.repository.javax.xml.soap.SAAJResultTests<SAAJResult> {
+implements FactoryBasedJ8UnitTest<SAAJResult>, SAAJResultTests<SAAJResult> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SAAJResult]
 

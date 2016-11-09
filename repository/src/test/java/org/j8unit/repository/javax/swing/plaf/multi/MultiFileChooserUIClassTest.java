@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MultiFileChooserUI} (by simply reusing
+ * the J8Unit test interface {@link MultiFileChooserUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultiFileChooserUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.multi.MultiFileChooserUIClassTests<MultiFileChooserUI> {
+implements MultiFileChooserUIClassTests<MultiFileChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiFileChooserUI]
 

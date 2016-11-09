@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NullCipherTest
-implements FactoryBasedJ8UnitTest<NullCipher>, org.j8unit.repository.javax.crypto.NullCipherTests<NullCipher> {
+implements FactoryBasedJ8UnitTest<NullCipher>, NullCipherTests<NullCipher> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.NullCipher]
 

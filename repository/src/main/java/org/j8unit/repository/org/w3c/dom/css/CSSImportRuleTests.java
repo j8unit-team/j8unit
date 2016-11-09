@@ -17,7 +17,7 @@ import org.w3c.dom.css.CSSImportRule;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSImportRuleClassTests}).
+ * {@link CSSImportRuleClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.css.CSSImportRule;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSImportRuleTests<SUT extends CSSImportRule>
-extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
+extends CSSRuleTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.css.CSSImportRule]
 

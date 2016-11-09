@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CompoundEditTest
-implements FactoryBasedJ8UnitTest<CompoundEdit>, org.j8unit.repository.javax.swing.undo.CompoundEditTests<CompoundEdit> {
+implements FactoryBasedJ8UnitTest<CompoundEdit>, CompoundEditTests<CompoundEdit> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.CompoundEdit]
 

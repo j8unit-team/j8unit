@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Short} (by simply reusing the J8Unit test
+ * interface {@link ShortClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ShortClassTest
-implements org.j8unit.repository.java.lang.ShortClassTests<Short> {
+implements ShortClassTests<Short> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.Short]
 

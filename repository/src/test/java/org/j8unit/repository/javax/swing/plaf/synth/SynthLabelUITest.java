@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthLabelUITest
-implements FactoryBasedJ8UnitTest<SynthLabelUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthLabelUITests<SynthLabelUI> {
+implements FactoryBasedJ8UnitTest<SynthLabelUI>, SynthLabelUITests<SynthLabelUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthLabelUI]
 

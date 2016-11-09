@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.monitor.StringMonitorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StringMonitorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringMonitorClassTests<SUT extends StringMonitor>
-extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanClassTests<SUT>,
-org.j8unit.repository.javax.management.monitor.MonitorClassTests<SUT> {
+extends StringMonitorMBeanClassTests<SUT>, MonitorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.monitor.StringMonitor]
     /**

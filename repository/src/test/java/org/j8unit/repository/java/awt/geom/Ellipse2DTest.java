@@ -16,9 +16,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Ellipse2D} (by simply reusing the
+ * J8Unit test interface {@link Ellipse2DTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Ellipse2DTest
-implements org.j8unit.repository.java.awt.geom.Ellipse2DTests<Ellipse2D> {
+implements Ellipse2DTests<Ellipse2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Ellipse2D]
 
@@ -34,7 +39,7 @@ implements org.j8unit.repository.java.awt.geom.Ellipse2DTests<Ellipse2D> {
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DoubleTest
-    implements FactoryBasedJ8UnitTest<Double>, org.j8unit.repository.java.awt.geom.Ellipse2DTests.DoubleTests<Double> {
+    implements FactoryBasedJ8UnitTest<Double>, DoubleTests<Double> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Ellipse2D$Double]
 
@@ -60,7 +65,7 @@ implements org.j8unit.repository.java.awt.geom.Ellipse2DTests<Ellipse2D> {
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FloatTest
-    implements FactoryBasedJ8UnitTest<Float>, org.j8unit.repository.java.awt.geom.Ellipse2DTests.FloatTests<Float> {
+    implements FactoryBasedJ8UnitTest<Float>, FloatTests<Float> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Ellipse2D$Float]
 

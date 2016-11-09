@@ -3,6 +3,10 @@ package org.j8unit.repository.java.nio;
 import java.nio.CharBuffer;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.AppendableTests;
+import org.j8unit.repository.java.lang.CharSequenceTests;
+import org.j8unit.repository.java.lang.ComparableTests;
+import org.j8unit.repository.java.lang.ReadableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.nio.CharBufferClassTests}).
+ * {@link CharBufferClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharBufferTests<SUT extends CharBuffer>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT, CharBuffer>, org.j8unit.repository.java.lang.AppendableTests<SUT>,
-org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.java.lang.ReadableTests<SUT>, org.j8unit.repository.java.nio.BufferTests<SUT> {
+extends ComparableTests<SUT, CharBuffer>, AppendableTests<SUT>, CharSequenceTests<SUT>, ReadableTests<SUT>, BufferTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.CharBuffer]
 

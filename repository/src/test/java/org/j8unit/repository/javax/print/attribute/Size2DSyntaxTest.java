@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Size2DSyntax} (by simply reusing the
+ * J8Unit test interface {@link Size2DSyntaxTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Size2DSyntaxTest
-implements org.j8unit.repository.javax.print.attribute.Size2DSyntaxTests<Size2DSyntax> {
+implements Size2DSyntaxTests<Size2DSyntax> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.Size2DSyntax]
 

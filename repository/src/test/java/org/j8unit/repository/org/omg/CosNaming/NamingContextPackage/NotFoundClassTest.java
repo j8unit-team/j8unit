@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextPackage.NotFound;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NotFound} (by simply reusing the J8Unit
+ * test interface {@link NotFoundClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NotFoundClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundClassTests<NotFound> {
+implements NotFoundClassTests<NotFound> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.NotFound]
 

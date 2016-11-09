@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClosedDirectoryStreamExceptionTest
-implements FactoryBasedJ8UnitTest<ClosedDirectoryStreamException>,
-org.j8unit.repository.java.nio.file.ClosedDirectoryStreamExceptionTests<ClosedDirectoryStreamException> {
+implements FactoryBasedJ8UnitTest<ClosedDirectoryStreamException>, ClosedDirectoryStreamExceptionTests<ClosedDirectoryStreamException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ClosedDirectoryStreamException]
 

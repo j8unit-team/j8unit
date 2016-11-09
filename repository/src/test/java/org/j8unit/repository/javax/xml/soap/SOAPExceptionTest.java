@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SOAPExceptionTest
-implements FactoryBasedJ8UnitTest<SOAPException>, org.j8unit.repository.javax.xml.soap.SOAPExceptionTests<SOAPException> {
+implements FactoryBasedJ8UnitTest<SOAPException>, SOAPExceptionTests<SOAPException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.SOAPException]
 

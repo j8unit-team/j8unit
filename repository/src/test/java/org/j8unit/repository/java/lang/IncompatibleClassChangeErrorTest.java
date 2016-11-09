@@ -13,8 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IncompatibleClassChangeErrorTest
-implements FactoryBasedJ8UnitTest<IncompatibleClassChangeError>,
-org.j8unit.repository.java.lang.IncompatibleClassChangeErrorTests<IncompatibleClassChangeError> {
+implements FactoryBasedJ8UnitTest<IncompatibleClassChangeError>, IncompatibleClassChangeErrorTests<IncompatibleClassChangeError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IncompatibleClassChangeError]
 

@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.PortableServer.CurrentPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.CurrentPackage.NoContext;
 
@@ -14,7 +15,7 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableServer.CurrentPackage.NoContextClassTests}).
+ * {@link NoContextClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.PortableServer.CurrentPackage.NoContext;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NoContextTests<SUT extends NoContext>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.CurrentPackage.NoContext]
 

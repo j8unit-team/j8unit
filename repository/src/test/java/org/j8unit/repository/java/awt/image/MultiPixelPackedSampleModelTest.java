@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MultiPixelPackedSampleModel} (by
+ * simply reusing the J8Unit test interface {@link MultiPixelPackedSampleModelTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultiPixelPackedSampleModelTest
-implements org.j8unit.repository.java.awt.image.MultiPixelPackedSampleModelTests<MultiPixelPackedSampleModel> {
+implements MultiPixelPackedSampleModelTests<MultiPixelPackedSampleModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.MultiPixelPackedSampleModel]
 

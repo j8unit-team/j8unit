@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FloatControl} (by simply reusing the
+ * J8Unit test interface {@link FloatControlTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FloatControlTest
-implements org.j8unit.repository.javax.sound.sampled.FloatControlTests<FloatControl> {
+implements FloatControlTests<FloatControl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.sampled.FloatControl]
 
@@ -26,6 +31,11 @@ implements org.j8unit.repository.javax.sound.sampled.FloatControlTests<FloatCont
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.sound.sampled.FloatControl]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.sound.sampled.FloatControl]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Type} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.sound.sampled.FloatControlTests.TypeTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

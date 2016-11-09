@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class GridBagConstraintsTest
-implements FactoryBasedJ8UnitTest<GridBagConstraints>, org.j8unit.repository.java.awt.GridBagConstraintsTests<GridBagConstraints> {
+implements FactoryBasedJ8UnitTest<GridBagConstraints>, GridBagConstraintsTests<GridBagConstraints> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.GridBagConstraints]
 

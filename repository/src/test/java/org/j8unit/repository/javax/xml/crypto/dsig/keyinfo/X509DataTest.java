@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link X509Data} (by simply reusing the
+ * J8Unit test interface {@link X509DataTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class X509DataTest
-implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.X509DataTests<X509Data> {
+implements X509DataTests<X509Data> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.keyinfo.X509Data]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.remote.rmi;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.rmi._RMIConnection_Stub;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.rmi.CORBA.StubClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.rmi._RMIConnection_StubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link _RMIConnection_StubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIConnection_StubClassTests<SUT extends _RMIConnection_Stub>
-extends org.j8unit.repository.javax.management.remote.rmi.RMIConnectionClassTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubClassTests<SUT> {
+extends RMIConnectionClassTests<SUT>, StubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.rmi._RMIConnection_Stub]
     /**

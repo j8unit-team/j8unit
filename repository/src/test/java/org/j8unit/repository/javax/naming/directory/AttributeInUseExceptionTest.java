@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributeInUseExceptionTest
-implements FactoryBasedJ8UnitTest<AttributeInUseException>, org.j8unit.repository.javax.naming.directory.AttributeInUseExceptionTests<AttributeInUseException> {
+implements FactoryBasedJ8UnitTest<AttributeInUseException>, AttributeInUseExceptionTests<AttributeInUseException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.AttributeInUseException]
 

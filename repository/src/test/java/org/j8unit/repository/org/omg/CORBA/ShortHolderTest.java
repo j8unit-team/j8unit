@@ -14,7 +14,7 @@ import org.omg.CORBA.ShortHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ShortHolderTest
-implements FactoryBasedJ8UnitTest<ShortHolder>, org.j8unit.repository.org.omg.CORBA.ShortHolderTests<ShortHolder> {
+implements FactoryBasedJ8UnitTest<ShortHolder>, ShortHolderTests<ShortHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ShortHolder]
 

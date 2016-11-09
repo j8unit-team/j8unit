@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.interfaces;
 import static org.junit.Assert.assertTrue;
 import java.security.interfaces.RSAPrivateKey;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.PrivateKeyClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RSAPrivateKeyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RSAPrivateKeyClassTests<SUT extends RSAPrivateKey>
-extends org.j8unit.repository.java.security.PrivateKeyClassTests<SUT>, org.j8unit.repository.java.security.interfaces.RSAKeyClassTests<SUT> {
+extends PrivateKeyClassTests<SUT>, RSAKeyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.interfaces.RSAPrivateKey]
     /**

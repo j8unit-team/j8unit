@@ -8,6 +8,11 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MaskFormatter} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.MaskFormatterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MaskFormatterClassTest
 implements org.j8unit.repository.javax.swing.text.MaskFormatterClassTests<MaskFormatter> {

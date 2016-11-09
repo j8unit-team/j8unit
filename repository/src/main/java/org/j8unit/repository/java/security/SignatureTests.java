@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.security.SignatureClassTests}).
+ * {@link SignatureClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,31 +28,9 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SignatureTests<SUT extends Signature>
-extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
+extends SignatureSpiTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Signature]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.Signature#sign() public final byte[]
-     * java.security.Signature.sign() throws java.security.SignatureException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sign()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -70,6 +48,28 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_sign_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.Signature#sign() public final byte[]
+     * java.security.Signature.sign() throws java.security.SignatureException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sign()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,6 +233,29 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.security.Signature#setParameter(String, Object)
+     * public final void java.security.Signature.setParameter(java.lang.String,java.lang.Object) throws
+     * java.security.InvalidParameterException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setParameter_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.security.Signature#setParameter(java.security.spec.AlgorithmParameterSpec) public final void
      * java.security.Signature.setParameter(java.security.spec.AlgorithmParameterSpec) throws
@@ -249,29 +272,6 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setParameter_AlgorithmParameterSpec()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.security.Signature#setParameter(String, Object)
-     * public final void java.security.Signature.setParameter(java.lang.String,java.lang.Object) throws
-     * java.security.InvalidParameterException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setParameter_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -393,6 +393,29 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.security.Signature#initSign(java.security.PrivateKey) public final void
+     * java.security.Signature.initSign(java.security.PrivateKey) throws java.security.InvalidKeyException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_initSign_PrivateKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.security.Signature#initSign(java.security.PrivateKey, java.security.SecureRandom) public final void
      * java.security.Signature.initSign(java.security.PrivateKey,java.security.SecureRandom) throws
      * java.security.InvalidKeyException}.
@@ -417,8 +440,8 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.security.Signature#initSign(java.security.PrivateKey) public final void
-     * java.security.Signature.initSign(java.security.PrivateKey) throws java.security.InvalidKeyException}.
+     * {@link java.security.Signature#initVerify(java.security.cert.Certificate) public final void
+     * java.security.Signature.initVerify(java.security.cert.Certificate) throws java.security.InvalidKeyException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -430,7 +453,7 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_initSign_PrivateKey()
+    public default void test_initVerify_Certificate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -454,29 +477,6 @@ extends org.j8unit.repository.java.security.SignatureSpiTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_initVerify_PublicKey()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.security.Signature#initVerify(java.security.cert.Certificate) public final void
-     * java.security.Signature.initVerify(java.security.cert.Certificate) throws java.security.InvalidKeyException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_initVerify_Certificate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

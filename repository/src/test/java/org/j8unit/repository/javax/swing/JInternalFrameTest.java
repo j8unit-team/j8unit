@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JInternalFrameTest
-implements FactoryBasedJ8UnitTest<JInternalFrame>, org.j8unit.repository.javax.swing.JInternalFrameTests<JInternalFrame> {
+implements FactoryBasedJ8UnitTest<JInternalFrame>, JInternalFrameTests<JInternalFrame> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JInternalFrame]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<JInternalFrame>, org.j8unit.repository.javax.s
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JInternalFrame]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link JDesktopIcon} (by simply reusing
+     * the J8Unit test interface {@link JDesktopIconTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class JDesktopIconTest
-    implements org.j8unit.repository.javax.swing.JInternalFrameTests.JDesktopIconTests<JDesktopIcon> {
+    implements JDesktopIconTests<JDesktopIcon> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JInternalFrame$JDesktopIcon]
 

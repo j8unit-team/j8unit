@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CompletableFutureTest<T>
-implements FactoryBasedJ8UnitTest<CompletableFuture<T>>, org.j8unit.repository.java.util.concurrent.CompletableFutureTests<CompletableFuture<T>, T> {
+implements FactoryBasedJ8UnitTest<CompletableFuture<T>>, CompletableFutureTests<CompletableFuture<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CompletableFuture]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<CompletableFuture<T>>, org.j8unit.repository.j
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.CompletableFuture]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AsynchronousCompletionTask} (by
+     * simply reusing the J8Unit test interface {@link AsynchronousCompletionTaskTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AsynchronousCompletionTaskTest
-    implements org.j8unit.repository.java.util.concurrent.CompletableFutureTests.AsynchronousCompletionTaskTests<AsynchronousCompletionTask> {
+    implements AsynchronousCompletionTaskTests<AsynchronousCompletionTask> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.CompletableFuture$AsynchronousCompletionTask]
 

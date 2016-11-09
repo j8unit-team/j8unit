@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FlowView} (by simply reusing the J8Unit
+ * test interface {@link FlowViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FlowViewClassTest
-implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<FlowView> {
+implements FlowViewClassTests<FlowView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.FlowView]
 
@@ -46,9 +51,14 @@ implements org.j8unit.repository.javax.swing.text.FlowViewClassTests<FlowView> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.FlowView]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FlowStrategy} (by simply reusing the
+     * J8Unit test interface {@link FlowStrategyClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class FlowStrategyClassTest
-    implements org.j8unit.repository.javax.swing.text.FlowViewClassTests.FlowStrategyClassTests<FlowStrategy> {
+    implements FlowStrategyClassTests<FlowStrategy> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.FlowView$FlowStrategy]
 

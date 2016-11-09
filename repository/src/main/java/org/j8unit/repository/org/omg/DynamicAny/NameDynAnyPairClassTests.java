@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.NameDynAnyPair;
@@ -17,8 +19,7 @@ import org.omg.DynamicAny.NameDynAnyPair;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.NameDynAnyPairTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NameDynAnyPairTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.DynamicAny.NameDynAnyPair;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameDynAnyPairClassTests<SUT extends NameDynAnyPair>
-extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends IDLEntityClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.NameDynAnyPair]
     /**

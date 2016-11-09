@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.image.IndexColorModelClassTests}).
+ * {@link IndexColorModelClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndexColorModelTests<SUT extends IndexColorModel>
-extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
+extends ColorModelTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.IndexColorModel]
 
@@ -127,30 +127,6 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.IndexColorModel#getDataElement(int[], int) public int
-     * java.awt.image.IndexColorModel.getDataElement(int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElement_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.IndexColorModel#getRed(int) public
      * final int java.awt.image.IndexColorModel.getRed(int)}.
      *
@@ -175,8 +151,8 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.IndexColorModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
-     * java.awt.image.IndexColorModel.createCompatibleSampleModel(int,int)}.
+     * {@link java.awt.image.IndexColorModel#getDataElement(int[], int) public int
+     * java.awt.image.IndexColorModel.getDataElement(int[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -189,7 +165,7 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_createCompatibleSampleModel_int_int()
+    public default void test_getDataElement_intArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -234,6 +210,30 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getGreens_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.IndexColorModel#createCompatibleSampleModel(int, int) public java.awt.image.SampleModel
+     * java.awt.image.IndexColorModel.createCompatibleSampleModel(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_createCompatibleSampleModel_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -310,30 +310,6 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.IndexColorModel#getDataElements(int, Object) public synchronized java.lang.Object
-     * java.awt.image.IndexColorModel.getDataElements(int,java.lang.Object)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElements_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.IndexColorModel#getDataElements(int[], int, Object) public java.lang.Object
      * java.awt.image.IndexColorModel.getDataElements(int[],int,java.lang.Object)}.
      *
@@ -349,6 +325,30 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDataElements_intArray_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.IndexColorModel#getDataElements(int, Object) public synchronized java.lang.Object
+     * java.awt.image.IndexColorModel.getDataElements(int,java.lang.Object)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataElements_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -426,6 +426,28 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.IndexColorModel#getReds(byte[])
+     * public final void java.awt.image.IndexColorModel.getReds(byte[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReds_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.IndexColorModel#isCompatibleRaster(java.awt.image.Raster) public boolean
      * java.awt.image.IndexColorModel.isCompatibleRaster(java.awt.image.Raster)}.
@@ -442,28 +464,6 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isCompatibleRaster_Raster()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.IndexColorModel#getReds(byte[])
-     * public final void java.awt.image.IndexColorModel.getReds(byte[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReds_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

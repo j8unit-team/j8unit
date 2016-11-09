@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.PortableServer;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.CurrentHelper;
 
@@ -25,7 +26,7 @@ import org.omg.PortableServer.CurrentHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrentHelperTests<SUT extends CurrentHelper>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.CurrentHelper]
 

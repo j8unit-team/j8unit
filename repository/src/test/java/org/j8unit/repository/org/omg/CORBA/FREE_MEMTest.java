@@ -14,7 +14,7 @@ import org.omg.CORBA.FREE_MEM;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FREE_MEMTest
-implements FactoryBasedJ8UnitTest<FREE_MEM>, org.j8unit.repository.org.omg.CORBA.FREE_MEMTests<FREE_MEM> {
+implements FactoryBasedJ8UnitTest<FREE_MEM>, FREE_MEMTests<FREE_MEM> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.FREE_MEM]
 

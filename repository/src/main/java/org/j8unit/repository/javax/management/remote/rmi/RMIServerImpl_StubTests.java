@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.remote.rmi;
 import javax.management.remote.rmi.RMIServerImpl_Stub;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.server.RemoteStubTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubClassTests}).
+ * {@link RMIServerImpl_StubClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIServerImpl_StubTests<SUT extends RMIServerImpl_Stub>
-extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteStubTests<SUT> {
+extends RMIServerTests<SUT>, RemoteStubTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi.RMIServerImpl_Stub]
 

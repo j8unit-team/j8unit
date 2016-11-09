@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NormalizedStringAdapterTest
-implements FactoryBasedJ8UnitTest<NormalizedStringAdapter>,
-org.j8unit.repository.javax.xml.bind.annotation.adapters.NormalizedStringAdapterTests<NormalizedStringAdapter> {
+implements FactoryBasedJ8UnitTest<NormalizedStringAdapter>, NormalizedStringAdapterTests<NormalizedStringAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.adapters.NormalizedStringAdapter]
 

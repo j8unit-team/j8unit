@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectInputStream} (by simply reusing the
+ * J8Unit test interface {@link ObjectInputStreamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectInputStreamClassTest
-implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<ObjectInputStream> {
+implements ObjectInputStreamClassTests<ObjectInputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInputStream]
 
@@ -48,9 +53,14 @@ implements org.j8unit.repository.java.io.ObjectInputStreamClassTests<ObjectInput
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.io.ObjectInputStream]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link GetField} (by simply reusing the
+     * J8Unit test interface {@link GetFieldClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class GetFieldClassTest
-    implements org.j8unit.repository.java.io.ObjectInputStreamClassTests.GetFieldClassTests<GetField> {
+    implements GetFieldClassTests<GetField> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInputStream$GetField]
 

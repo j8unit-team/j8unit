@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.reflect.AnnotatedArrayTypeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AnnotatedArrayTypeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedArrayTypeClassTests<SUT extends AnnotatedArrayType>
-extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeClassTests<SUT> {
+extends AnnotatedTypeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.AnnotatedArrayType]
     /**

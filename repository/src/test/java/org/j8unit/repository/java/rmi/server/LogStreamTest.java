@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LogStream} (by simply reusing the
+ * J8Unit test interface {@link LogStreamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LogStreamTest
-implements org.j8unit.repository.java.rmi.server.LogStreamTests<LogStream> {
+implements LogStreamTests<LogStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.LogStream]
 

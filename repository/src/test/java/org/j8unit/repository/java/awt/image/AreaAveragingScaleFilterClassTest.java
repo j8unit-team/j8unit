@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AreaAveragingScaleFilter} (by simply
+ * reusing the J8Unit test interface {@link AreaAveragingScaleFilterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AreaAveragingScaleFilterClassTest
-implements org.j8unit.repository.java.awt.image.AreaAveragingScaleFilterClassTests<AreaAveragingScaleFilter> {
+implements AreaAveragingScaleFilterClassTests<AreaAveragingScaleFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.AreaAveragingScaleFilter]
 

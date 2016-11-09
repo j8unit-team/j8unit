@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.CORBA;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.WStringValueHelper;
@@ -17,8 +19,7 @@ import org.omg.CORBA.WStringValueHelper;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.WStringValueHelperTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WStringValueHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CORBA.WStringValueHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WStringValueHelperClassTests<SUT extends WStringValueHelper>
-extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends BoxedValueHelperClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.WStringValueHelper]
     /**

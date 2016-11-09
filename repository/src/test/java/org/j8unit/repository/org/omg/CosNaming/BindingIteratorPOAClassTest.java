@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.BindingIteratorPOA;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BindingIteratorPOA} (by simply reusing
+ * the J8Unit test interface {@link BindingIteratorPOAClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BindingIteratorPOAClassTest
-implements org.j8unit.repository.org.omg.CosNaming.BindingIteratorPOAClassTests<BindingIteratorPOA> {
+implements BindingIteratorPOAClassTests<BindingIteratorPOA> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.BindingIteratorPOA]
 

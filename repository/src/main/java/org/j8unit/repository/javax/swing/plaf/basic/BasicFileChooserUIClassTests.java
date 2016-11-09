@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicFileChooserUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.FileChooserUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicFileChooserUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicFileChooserUIClassTests<SUT extends BasicFileChooserUI>
-extends org.j8unit.repository.javax.swing.plaf.FileChooserUIClassTests<SUT> {
+extends FileChooserUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicFileChooserUI]
     /**

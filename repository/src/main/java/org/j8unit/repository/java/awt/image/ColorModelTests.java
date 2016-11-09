@@ -3,6 +3,8 @@ package org.j8unit.repository.java.awt.image;
 import java.awt.image.ColorModel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.TransparencyTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.image.ColorModelClassTests}).
+ * {@link ColorModelClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ColorModelTests<SUT extends ColorModel>
-extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends TransparencyTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.ColorModel]
 
@@ -49,29 +51,6 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ColorModel#getNormalizedComponents(int[], int, float[], int) public float[]
-     * java.awt.image.ColorModel.getNormalizedComponents(int[],int,float[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNormalizedComponents_intArray_int_floatArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,8 +82,9 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getGreen(int) public
-     * abstract int java.awt.image.ColorModel.getGreen(int)}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorModel#getNormalizedComponents(int[], int, float[], int) public float[]
+     * java.awt.image.ColorModel.getNormalizedComponents(int[],int,float[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -116,7 +96,7 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGreen_int()
+    public default void test_getNormalizedComponents_intArray_int_floatArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,6 +119,28 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_getGreen_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getGreen(int) public
+     * abstract int java.awt.image.ColorModel.getGreen(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGreen_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -215,8 +217,8 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ColorModel#getDataElements(float[], int, Object) public java.lang.Object
-     * java.awt.image.ColorModel.getDataElements(float[],int,java.lang.Object)}.
+     * {@link java.awt.image.ColorModel#getDataElements(int, Object) public java.lang.Object
+     * java.awt.image.ColorModel.getDataElements(int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -228,7 +230,7 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDataElements_floatArray_int_Object()
+    public default void test_getDataElements_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -261,8 +263,8 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ColorModel#getDataElements(int, Object) public java.lang.Object
-     * java.awt.image.ColorModel.getDataElements(int,java.lang.Object)}.
+     * {@link java.awt.image.ColorModel#getDataElements(float[], int, Object) public java.lang.Object
+     * java.awt.image.ColorModel.getDataElements(float[],int,java.lang.Object)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -274,7 +276,7 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDataElements_int_Object()
+    public default void test_getDataElements_floatArray_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -440,28 +442,6 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getBlue(int) public
-     * abstract int java.awt.image.ColorModel.getBlue(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBlue_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getBlue(Object) public int
      * java.awt.image.ColorModel.getBlue(java.lang.Object)}.
      *
@@ -476,6 +456,28 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_getBlue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getBlue(int) public
+     * abstract int java.awt.image.ColorModel.getBlue(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBlue_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -620,51 +622,6 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getDataElement(int[], int)
-     * public int java.awt.image.ColorModel.getDataElement(int[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElement_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.ColorModel#getDataElement(float[], int) public int
-     * java.awt.image.ColorModel.getDataElement(float[],int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataElement_floatArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getRed(int) public
      * abstract int java.awt.image.ColorModel.getRed(int)}.
      *
@@ -701,6 +658,51 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_getRed_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.ColorModel#getDataElement(float[], int) public int
+     * java.awt.image.ColorModel.getDataElement(float[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataElement_floatArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getDataElement(int[], int)
+     * public int java.awt.image.ColorModel.getDataElement(int[],int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataElement_intArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -754,28 +756,6 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getRGB(int) public int
-     * java.awt.image.ColorModel.getRGB(int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRGB_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getRGB(Object) public int
      * java.awt.image.ColorModel.getRGB(java.lang.Object)}.
      *
@@ -790,6 +770,28 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_getRGB_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.ColorModel#getRGB(int) public int
+     * java.awt.image.ColorModel.getRGB(int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRGB_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

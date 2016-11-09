@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccessibleStateSetTest
-implements FactoryBasedJ8UnitTest<AccessibleStateSet>, org.j8unit.repository.javax.accessibility.AccessibleStateSetTests<AccessibleStateSet> {
+implements FactoryBasedJ8UnitTest<AccessibleStateSet>, AccessibleStateSetTests<AccessibleStateSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.accessibility.AccessibleStateSet]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.peer.TextAreaPeerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TextAreaPeerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextAreaPeerClassTests<SUT extends TextAreaPeer>
-extends org.j8unit.repository.java.awt.peer.TextComponentPeerClassTests<SUT> {
+extends TextComponentPeerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.peer.TextAreaPeer]
     /**

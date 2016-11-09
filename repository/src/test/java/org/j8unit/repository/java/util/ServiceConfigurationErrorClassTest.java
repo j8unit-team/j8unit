@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceConfigurationError} (by simply
+ * reusing the J8Unit test interface {@link ServiceConfigurationErrorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceConfigurationErrorClassTest
-implements org.j8unit.repository.java.util.ServiceConfigurationErrorClassTests<ServiceConfigurationError> {
+implements ServiceConfigurationErrorClassTests<ServiceConfigurationError> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.ServiceConfigurationError]
 

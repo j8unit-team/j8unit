@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.temporal.TemporalTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TemporalTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TemporalClassTests<SUT extends Temporal>
-extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT> {
+extends TemporalAccessorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.temporal.Temporal]
     /**

@@ -14,7 +14,7 @@ import org.omg.CORBA.FloatSeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FloatSeqHolderTest
-implements FactoryBasedJ8UnitTest<FloatSeqHolder>, org.j8unit.repository.org.omg.CORBA.FloatSeqHolderTests<FloatSeqHolder> {
+implements FactoryBasedJ8UnitTest<FloatSeqHolder>, FloatSeqHolderTests<FloatSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.FloatSeqHolder]
 

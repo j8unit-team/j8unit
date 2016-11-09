@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidAttributeIdentifierException} (by
+ * simply reusing the J8Unit test interface {@link InvalidAttributeIdentifierExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidAttributeIdentifierExceptionClassTest
-implements org.j8unit.repository.javax.naming.directory.InvalidAttributeIdentifierExceptionClassTests<InvalidAttributeIdentifierException> {
+implements InvalidAttributeIdentifierExceptionClassTests<InvalidAttributeIdentifierException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.directory.InvalidAttributeIdentifierException]
 

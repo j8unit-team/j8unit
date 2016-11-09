@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LinkedListTest<E>
-implements FactoryBasedJ8UnitTest<LinkedList<E>>, org.j8unit.repository.java.util.LinkedListTests<LinkedList<E>, E> {
+implements FactoryBasedJ8UnitTest<LinkedList<E>>, LinkedListTests<LinkedList<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.LinkedList]
 

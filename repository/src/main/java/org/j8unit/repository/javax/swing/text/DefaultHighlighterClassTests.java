@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.DefaultHighlighter.DefaultHighlightPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DefaultHighlighterTests}.
  * </p>
  *
  * <p>
@@ -49,7 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultHighlighterClassTests<SUT extends DefaultHighlighter>
-extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT> {
+extends LayeredHighlighterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultHighlighter]
     /**
@@ -85,7 +85,7 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT>
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests}.
+     * {@link DefaultHighlightPainterTests}.
      * </p>
      *
      * <p>
@@ -114,7 +114,7 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT>
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultHighlightPainterClassTests<SUT extends DefaultHighlightPainter>
-    extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests.LayerPainterClassTests<SUT> {
+    extends LayerPainterClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
         /**

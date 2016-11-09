@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.INV_FLAG;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link INV_FLAG} (by simply reusing the J8Unit
+ * test interface {@link INV_FLAGClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class INV_FLAGClassTest
-implements org.j8unit.repository.org.omg.CORBA.INV_FLAGClassTests<INV_FLAG> {
+implements INV_FLAGClassTests<INV_FLAG> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INV_FLAG]
 

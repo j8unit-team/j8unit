@@ -3,6 +3,7 @@ package org.j8unit.repository.java.security.cert;
 import static org.junit.Assert.assertTrue;
 import java.security.cert.CertPathBuilderResult;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CloneableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.cert.CertPathBuilderResultTests}.
+ * {@link CertPathBuilderResultTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathBuilderResultClassTests<SUT extends CertPathBuilderResult>
-extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {
+extends CloneableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.cert.CertPathBuilderResult]
     /**

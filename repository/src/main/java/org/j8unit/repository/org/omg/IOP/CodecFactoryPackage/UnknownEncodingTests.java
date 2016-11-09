@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.IOP.CodecFactoryPackage;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionTests;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
 
@@ -14,7 +15,7 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingClassTests}).
+ * {@link UnknownEncodingClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncoding;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownEncodingTests<SUT extends UnknownEncoding>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {
+extends UserExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.CodecFactoryPackage.UnknownEncoding]
 

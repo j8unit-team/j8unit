@@ -14,7 +14,7 @@ import org.omg.CORBA.IntHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IntHolderTest
-implements FactoryBasedJ8UnitTest<IntHolder>, org.j8unit.repository.org.omg.CORBA.IntHolderTests<IntHolder> {
+implements FactoryBasedJ8UnitTest<IntHolder>, IntHolderTests<IntHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.IntHolder]
 

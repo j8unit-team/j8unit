@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ArithmeticException} (by simply reusing
+ * the J8Unit test interface {@link ArithmeticExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ArithmeticExceptionClassTest
-implements org.j8unit.repository.java.lang.ArithmeticExceptionClassTests<ArithmeticException> {
+implements ArithmeticExceptionClassTests<ArithmeticException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ArithmeticException]
 

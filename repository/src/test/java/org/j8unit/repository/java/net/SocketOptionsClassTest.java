@@ -4,9 +4,14 @@ import java.net.SocketOptions;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SocketOptions} (by simply reusing the
+ * J8Unit test interface {@link SocketOptionsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SocketOptionsClassTest
-implements org.j8unit.repository.java.net.SocketOptionsClassTests<SocketOptions> {
+implements SocketOptionsClassTests<SocketOptions> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.SocketOptions]
 

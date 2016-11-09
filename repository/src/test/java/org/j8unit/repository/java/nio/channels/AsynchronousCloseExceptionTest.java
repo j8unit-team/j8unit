@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AsynchronousCloseExceptionTest
-implements FactoryBasedJ8UnitTest<AsynchronousCloseException>,
-org.j8unit.repository.java.nio.channels.AsynchronousCloseExceptionTests<AsynchronousCloseException> {
+implements FactoryBasedJ8UnitTest<AsynchronousCloseException>, AsynchronousCloseExceptionTests<AsynchronousCloseException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.AsynchronousCloseException]
 

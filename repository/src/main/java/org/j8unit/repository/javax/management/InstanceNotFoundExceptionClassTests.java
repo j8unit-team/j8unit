@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.InstanceNotFoundExceptionTests}.
+ * {@link InstanceNotFoundExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InstanceNotFoundExceptionClassTests<SUT extends InstanceNotFoundException>
-extends org.j8unit.repository.javax.management.OperationsExceptionClassTests<SUT> {
+extends OperationsExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.InstanceNotFoundException]
     /**

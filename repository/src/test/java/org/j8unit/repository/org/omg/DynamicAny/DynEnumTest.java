@@ -5,6 +5,11 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynEnum;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynEnum} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.DynamicAny.DynEnumTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynEnumTest
 implements org.j8unit.repository.org.omg.DynamicAny.DynEnumTests<DynEnum> {

@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLIsIndexElement;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link HTMLIsIndexElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLIsIndexElementClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLIsIndexElementClassTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLIsIndexElementClassTests<HTMLIsIndexElement> {
+implements HTMLIsIndexElementClassTests<HTMLIsIndexElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLIsIndexElement]
 

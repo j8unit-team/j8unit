@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynAnyHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynAnyHelper} (by simply reusing the
+ * J8Unit test interface {@link DynAnyHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynAnyHelperTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynAnyHelperTests<DynAnyHelper> {
+implements DynAnyHelperTests<DynAnyHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.DynamicAny.DynAnyHelper]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.ACTIVITY_COMPLETED;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ACTIVITY_COMPLETEDTest
-implements FactoryBasedJ8UnitTest<ACTIVITY_COMPLETED>, org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDTests<ACTIVITY_COMPLETED> {
+implements FactoryBasedJ8UnitTest<ACTIVITY_COMPLETED>, ACTIVITY_COMPLETEDTests<ACTIVITY_COMPLETED> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ACTIVITY_COMPLETED]
 

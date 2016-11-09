@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FocusListener} (by simply reusing the
+ * J8Unit test interface {@link FocusListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FocusListenerTest
-implements org.j8unit.repository.java.awt.event.FocusListenerTests<FocusListener> {
+implements FocusListenerTests<FocusListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.event.FocusListener]
 

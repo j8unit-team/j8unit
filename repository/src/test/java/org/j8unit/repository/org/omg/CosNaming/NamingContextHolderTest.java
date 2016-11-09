@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NamingContextHolderTest
-implements FactoryBasedJ8UnitTest<NamingContextHolder>, org.j8unit.repository.org.omg.CosNaming.NamingContextHolderTests<NamingContextHolder> {
+implements FactoryBasedJ8UnitTest<NamingContextHolder>, NamingContextHolderTests<NamingContextHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextHolder]
 

@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.text.LayeredHighlighter;
 import javax.swing.text.LayeredHighlighter.LayerPainter;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LayeredHighlighterTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayeredHighlighterClassTests<SUT extends LayeredHighlighter>
-extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends HighlighterClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.LayeredHighlighter]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link LayerPainterTests}.
      * </p>
      *
      * <p>
@@ -114,8 +114,7 @@ extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LayerPainterClassTests<SUT extends LayerPainter>
-    extends org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightPainterClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends HighlightPainterClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.LayeredHighlighter$LayerPainter]
         /**

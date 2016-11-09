@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.soap.DetailEntryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DetailEntryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DetailEntryClassTests<SUT extends DetailEntry>
-extends org.j8unit.repository.javax.xml.soap.SOAPElementClassTests<SUT> {
+extends SOAPElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.DetailEntry]
     /**

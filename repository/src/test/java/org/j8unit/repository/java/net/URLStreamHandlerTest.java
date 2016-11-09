@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link URLStreamHandler} (by simply reusing
+ * the J8Unit test interface {@link URLStreamHandlerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class URLStreamHandlerTest
-implements org.j8unit.repository.java.net.URLStreamHandlerTests<URLStreamHandler> {
+implements URLStreamHandlerTests<URLStreamHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.URLStreamHandler]
 

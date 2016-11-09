@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StreamReaderDelegateTest
-implements FactoryBasedJ8UnitTest<StreamReaderDelegate>, org.j8unit.repository.javax.xml.stream.util.StreamReaderDelegateTests<StreamReaderDelegate> {
+implements FactoryBasedJ8UnitTest<StreamReaderDelegate>, StreamReaderDelegateTests<StreamReaderDelegate> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.stream.util.StreamReaderDelegate]
 

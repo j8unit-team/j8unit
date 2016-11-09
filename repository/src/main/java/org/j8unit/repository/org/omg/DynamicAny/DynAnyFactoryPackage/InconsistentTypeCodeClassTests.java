@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
@@ -18,7 +19,7 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeTests}.
+ * {@link InconsistentTypeCodeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InconsistentTypeCodeClassTests<SUT extends InconsistentTypeCode>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode]
     /**

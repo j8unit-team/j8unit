@@ -10,6 +10,15 @@ import javax.print.DocFlavor.STRING;
 import javax.print.DocFlavor.URL;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.CloneableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.print.DocFlavorClassTests.BYTE_ARRAYClassTests;
+import org.j8unit.repository.javax.print.DocFlavorClassTests.CHAR_ARRAYClassTests;
+import org.j8unit.repository.javax.print.DocFlavorClassTests.INPUT_STREAMClassTests;
+import org.j8unit.repository.javax.print.DocFlavorClassTests.READERClassTests;
+import org.j8unit.repository.javax.print.DocFlavorClassTests.SERVICE_FORMATTEDClassTests;
+import org.j8unit.repository.javax.print.DocFlavorClassTests.STRINGClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -24,7 +33,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.print.DocFlavorClassTests}).
+ * {@link DocFlavorClassTests}).
  * </p>
  *
  * @param SUT
@@ -35,8 +44,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocFlavorTests<SUT extends DocFlavor>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
-org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends SerializableTests<SUT>, CloneableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor]
 
@@ -225,6 +233,36 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CHAR_ARRAY
+     * public static class javax.print.DocFlavor$CHAR_ARRAY}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link CHAR_ARRAYClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface CHAR_ARRAYTests<SUT extends CHAR_ARRAY>
+    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
      * {@link INPUT_STREAM public static class javax.print.DocFlavor$INPUT_STREAM}.
      * </p>
@@ -232,7 +270,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.INPUT_STREAMClassTests}).
+     * (see {@link INPUT_STREAMClassTests}).
      * </p>
      *
      * @param SUT
@@ -262,7 +300,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.URLClassTests}).
+     * (see {@link URLClassTests}).
      * </p>
      *
      * @param SUT
@@ -285,36 +323,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link READER
-     * public static class javax.print.DocFlavor$READER}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.READERClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface READERTests<SUT extends READER>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$READER]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$READER]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$READER]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link STRING
      * public static class javax.print.DocFlavor$STRING}.
      * </p>
@@ -322,7 +330,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.STRINGClassTests}).
+     * (see {@link STRINGClassTests}).
      * </p>
      *
      * @param SUT
@@ -345,66 +353,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link CHAR_ARRAY
-     * public static class javax.print.DocFlavor$CHAR_ARRAY}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.CHAR_ARRAYClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface CHAR_ARRAYTests<SUT extends CHAR_ARRAY>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$CHAR_ARRAY]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BYTE_ARRAY
-     * public static class javax.print.DocFlavor$BYTE_ARRAY}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.BYTE_ARRAYClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface BYTE_ARRAYTests<SUT extends BYTE_ARRAY>
-    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
      * {@link SERVICE_FORMATTED public static class javax.print.DocFlavor$SERVICE_FORMATTED}.
      * </p>
@@ -412,7 +360,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.DocFlavorClassTests.SERVICE_FORMATTEDClassTests}).
+     * (see {@link SERVICE_FORMATTEDClassTests}).
      * </p>
      *
      * @param SUT
@@ -430,6 +378,66 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$SERVICE_FORMATTED]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link READER
+     * public static class javax.print.DocFlavor$READER}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link READERClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface READERTests<SUT extends READER>
+    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$READER]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$READER]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$READER]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link BYTE_ARRAY
+     * public static class javax.print.DocFlavor$BYTE_ARRAY}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link BYTE_ARRAYClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface BYTE_ARRAYTests<SUT extends BYTE_ARRAY>
+    extends org.j8unit.repository.javax.print.DocFlavorTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.DocFlavor$BYTE_ARRAY]
     }
 
 }

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.RMICustomMaxStreamFormat;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RMICustomMaxStreamFormat} (by simply
+ * reusing the J8Unit test interface {@link RMICustomMaxStreamFormatTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RMICustomMaxStreamFormatTest
-implements org.j8unit.repository.org.omg.IOP.RMICustomMaxStreamFormatTests<RMICustomMaxStreamFormat> {
+implements RMICustomMaxStreamFormatTests<RMICustomMaxStreamFormat> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.RMICustomMaxStreamFormat]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link XMLEncoder} (by simply reusing the J8Unit
+ * test interface {@link XMLEncoderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLEncoderClassTest
-implements org.j8unit.repository.java.beans.XMLEncoderClassTests<XMLEncoder> {
+implements XMLEncoderClassTests<XMLEncoder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.XMLEncoder]
 

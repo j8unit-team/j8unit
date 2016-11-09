@@ -3,6 +3,8 @@ package org.j8unit.repository.java.io;
 import static org.junit.Assert.assertTrue;
 import java.io.Writer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.AppendableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.WriterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WriterTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WriterClassTests<SUT extends Writer>
-extends org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository.java.io.CloseableClassTests<SUT>,
-org.j8unit.repository.java.io.FlushableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends AppendableClassTests<SUT>, CloseableClassTests<SUT>, FlushableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.Writer]
     /**

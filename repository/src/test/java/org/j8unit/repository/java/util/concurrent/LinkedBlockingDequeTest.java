@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LinkedBlockingDequeTest<E>
-implements FactoryBasedJ8UnitTest<LinkedBlockingDeque<E>>, org.j8unit.repository.java.util.concurrent.LinkedBlockingDequeTests<LinkedBlockingDeque<E>, E> {
+implements FactoryBasedJ8UnitTest<LinkedBlockingDeque<E>>, LinkedBlockingDequeTests<LinkedBlockingDeque<E>, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.LinkedBlockingDeque]
 

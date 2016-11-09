@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.MutableComboBoxModelTests}.
+ * {@link MutableComboBoxModelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MutableComboBoxModelClassTests<SUT extends MutableComboBoxModel>
-extends org.j8unit.repository.javax.swing.ComboBoxModelClassTests<SUT> {
+extends ComboBoxModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.MutableComboBoxModel]
     /**

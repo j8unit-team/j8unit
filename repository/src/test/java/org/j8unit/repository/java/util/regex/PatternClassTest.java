@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Pattern} (by simply reusing the J8Unit
+ * test interface {@link PatternClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PatternClassTest
-implements org.j8unit.repository.java.util.regex.PatternClassTests<Pattern> {
+implements PatternClassTests<Pattern> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.regex.Pattern]
 

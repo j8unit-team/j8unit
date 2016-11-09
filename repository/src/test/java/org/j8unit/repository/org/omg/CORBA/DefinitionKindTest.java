@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 import org.omg.CORBA.DefinitionKind;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DefinitionKind} (by simply reusing
+ * the J8Unit test interface {@link DefinitionKindTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefinitionKindTest
-implements org.j8unit.repository.org.omg.CORBA.DefinitionKindTests<DefinitionKind> {
+implements DefinitionKindTests<DefinitionKind> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DefinitionKind]
 

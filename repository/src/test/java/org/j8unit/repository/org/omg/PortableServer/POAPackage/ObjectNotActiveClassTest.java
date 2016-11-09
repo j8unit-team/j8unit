@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.ObjectNotActive;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ObjectNotActive} (by simply reusing the
+ * J8Unit test interface {@link ObjectNotActiveClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ObjectNotActiveClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ObjectNotActiveClassTests<ObjectNotActive> {
+implements ObjectNotActiveClassTests<ObjectNotActive> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.ObjectNotActive]
 

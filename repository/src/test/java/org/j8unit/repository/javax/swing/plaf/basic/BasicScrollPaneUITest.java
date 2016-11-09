@@ -20,7 +20,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicScrollPaneUITest
-implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<BasicScrollPaneUI> {
+implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, BasicScrollPaneUITests<BasicScrollPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI]
 
@@ -41,43 +41,36 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, org.j8unit.repository.java
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI]
 
-    @RunWith(J8Unit4.class)
-    public static class HSBChangeListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.HSBChangeListenerTests<HSBChangeListener> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ViewportChangeHandler} (by simply
+     * reusing the J8Unit test interface {@link ViewportChangeHandlerTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+    @RunWith(J8Unit4.class)
+    public static class ViewportChangeHandlerTest
+    implements ViewportChangeHandlerTests<ViewportChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
 
         @Override
-        public HSBChangeListener createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener], j8unit does not support a generic way to provide instances.");
+        public ViewportChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class PropertyChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests<PropertyChangeHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
-
-        @Override
-        public PropertyChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link VSBChangeListener} (by simply
+     * reusing the J8Unit test interface {@link VSBChangeListenerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class VSBChangeListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests<VSBChangeListener> {
+    implements VSBChangeListenerTests<VSBChangeListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener]
 
@@ -92,20 +85,47 @@ implements FactoryBasedJ8UnitTest<BasicScrollPaneUI>, org.j8unit.repository.java
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ViewportChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.ViewportChangeHandlerTests<ViewportChangeHandler> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link HSBChangeListener} (by simply
+     * reusing the J8Unit test interface {@link HSBChangeListenerTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+    @RunWith(J8Unit4.class)
+    public static class HSBChangeListenerTest
+    implements HSBChangeListenerTests<HSBChangeListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
 
         @Override
-        public ViewportChangeHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler], j8unit does not support a generic way to provide instances.");
+        public HSBChangeListener createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$ViewportChangeHandler]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface {@link PropertyChangeHandlerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class PropertyChangeHandlerTest
+    implements PropertyChangeHandlerTests<PropertyChangeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
+        @Override
+        public PropertyChangeHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler]
 
     }
 

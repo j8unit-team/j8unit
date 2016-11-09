@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicHTMLTest
-implements FactoryBasedJ8UnitTest<BasicHTML>, org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLTests<BasicHTML> {
+implements FactoryBasedJ8UnitTest<BasicHTML>, BasicHTMLTests<BasicHTML> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicHTML]
 

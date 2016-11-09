@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.plaf;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.DimensionUIResource;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.DimensionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.DimensionUIResourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DimensionUIResourceTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DimensionUIResourceClassTests<SUT extends DimensionUIResource>
-extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.java.awt.DimensionClassTests<SUT> {
+extends UIResourceClassTests<SUT>, DimensionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.DimensionUIResource]
     /**

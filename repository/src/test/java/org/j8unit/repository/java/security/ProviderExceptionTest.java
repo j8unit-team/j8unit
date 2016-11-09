@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ProviderExceptionTest
-implements FactoryBasedJ8UnitTest<ProviderException>, org.j8unit.repository.java.security.ProviderExceptionTests<ProviderException> {
+implements FactoryBasedJ8UnitTest<ProviderException>, ProviderExceptionTests<ProviderException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.ProviderException]
 

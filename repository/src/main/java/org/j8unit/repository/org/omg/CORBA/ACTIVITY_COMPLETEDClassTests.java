@@ -17,8 +17,7 @@ import org.omg.CORBA.ACTIVITY_COMPLETED;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.ACTIVITY_COMPLETEDTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ACTIVITY_COMPLETEDTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.ACTIVITY_COMPLETED;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ACTIVITY_COMPLETEDClassTests<SUT extends ACTIVITY_COMPLETED>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ACTIVITY_COMPLETED]
     /**

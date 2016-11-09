@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ProcessBuilder} (by simply reusing the
+ * J8Unit test interface {@link ProcessBuilderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ProcessBuilderClassTest
-implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<ProcessBuilder> {
+implements ProcessBuilderClassTests<ProcessBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ProcessBuilder]
 
@@ -68,9 +73,14 @@ implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<ProcessBuild
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ProcessBuilder]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Redirect} (by simply reusing the
+     * J8Unit test interface {@link RedirectClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class RedirectClassTest
-    implements org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests<Redirect> {
+    implements RedirectClassTests<Redirect> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ProcessBuilder$Redirect]
 
@@ -142,6 +152,12 @@ implements org.j8unit.repository.java.lang.ProcessBuilderClassTests<ProcessBuild
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.ProcessBuilder$Redirect]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.ProcessBuilder$Redirect]
+
+        /**
+         * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the
+         * J8Unit test interface
+         * {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests.TypeClassTests}).
+         */
 
         @RunWith(J8Unit4.class)
         public static class TypeClassTest

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AbstractUndoableEditTest
-implements FactoryBasedJ8UnitTest<AbstractUndoableEdit>, org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<AbstractUndoableEdit> {
+implements FactoryBasedJ8UnitTest<AbstractUndoableEdit>, AbstractUndoableEditTests<AbstractUndoableEdit> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.AbstractUndoableEdit]
 

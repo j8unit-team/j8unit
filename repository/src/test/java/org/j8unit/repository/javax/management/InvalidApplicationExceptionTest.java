@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InvalidApplicationException} (by
+ * simply reusing the J8Unit test interface {@link InvalidApplicationExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidApplicationExceptionTest
-implements org.j8unit.repository.javax.management.InvalidApplicationExceptionTests<InvalidApplicationException> {
+implements InvalidApplicationExceptionTests<InvalidApplicationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InvalidApplicationException]
 

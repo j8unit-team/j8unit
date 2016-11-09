@@ -13,8 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ArrayIndexOutOfBoundsExceptionTest
-implements FactoryBasedJ8UnitTest<ArrayIndexOutOfBoundsException>,
-org.j8unit.repository.java.lang.ArrayIndexOutOfBoundsExceptionTests<ArrayIndexOutOfBoundsException> {
+implements FactoryBasedJ8UnitTest<ArrayIndexOutOfBoundsException>, ArrayIndexOutOfBoundsExceptionTests<ArrayIndexOutOfBoundsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ArrayIndexOutOfBoundsException]
 

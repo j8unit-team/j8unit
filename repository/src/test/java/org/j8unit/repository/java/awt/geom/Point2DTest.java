@@ -16,9 +16,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Point2D} (by simply reusing the
+ * J8Unit test interface {@link Point2DTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Point2DTest
-implements org.j8unit.repository.java.awt.geom.Point2DTests<Point2D> {
+implements Point2DTests<Point2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Point2D]
 

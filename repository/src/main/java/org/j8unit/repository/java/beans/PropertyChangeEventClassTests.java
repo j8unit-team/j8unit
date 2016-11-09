@@ -3,6 +3,7 @@ package org.j8unit.repository.java.beans;
 import static org.junit.Assert.assertTrue;
 import java.beans.PropertyChangeEvent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.EventObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.PropertyChangeEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PropertyChangeEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertyChangeEventClassTests<SUT extends PropertyChangeEvent>
-extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
+extends EventObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.PropertyChangeEvent]
     /**

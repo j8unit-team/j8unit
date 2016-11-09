@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.ValueFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ValueFactory} (by simply reusing the
+ * J8Unit test interface {@link ValueFactoryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ValueFactoryTest
-implements org.j8unit.repository.org.omg.CORBA.portable.ValueFactoryTests<ValueFactory> {
+implements ValueFactoryTests<ValueFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ValueFactory]
 

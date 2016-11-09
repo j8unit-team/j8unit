@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.spi.DirectoryManagerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DirectoryManagerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirectoryManagerClassTests<SUT extends DirectoryManager>
-extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
+extends NamingManagerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.spi.DirectoryManager]
     /**

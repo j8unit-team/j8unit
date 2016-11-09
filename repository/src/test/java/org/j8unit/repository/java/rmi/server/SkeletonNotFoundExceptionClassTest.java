@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SkeletonNotFoundException} (by simply
+ * reusing the J8Unit test interface {@link SkeletonNotFoundExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SkeletonNotFoundExceptionClassTest
-implements org.j8unit.repository.java.rmi.server.SkeletonNotFoundExceptionClassTests<SkeletonNotFoundException> {
+implements SkeletonNotFoundExceptionClassTests<SkeletonNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.SkeletonNotFoundException]
 

@@ -17,8 +17,7 @@ import org.omg.CORBA.INVALID_TRANSACTION;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link INVALID_TRANSACTIONTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.INVALID_TRANSACTION;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INVALID_TRANSACTIONClassTests<SUT extends INVALID_TRANSACTION>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.INVALID_TRANSACTION]
     /**

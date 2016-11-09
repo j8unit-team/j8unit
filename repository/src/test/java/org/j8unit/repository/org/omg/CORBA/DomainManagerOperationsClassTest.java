@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DomainManagerOperations;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DomainManagerOperations} (by simply
+ * reusing the J8Unit test interface {@link DomainManagerOperationsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DomainManagerOperationsClassTest
-implements org.j8unit.repository.org.omg.CORBA.DomainManagerOperationsClassTests<DomainManagerOperations> {
+implements DomainManagerOperationsClassTests<DomainManagerOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DomainManagerOperations]
 

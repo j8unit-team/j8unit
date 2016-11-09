@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InsufficientResourcesExceptionTest
-implements FactoryBasedJ8UnitTest<InsufficientResourcesException>,
-org.j8unit.repository.javax.naming.InsufficientResourcesExceptionTests<InsufficientResourcesException> {
+implements FactoryBasedJ8UnitTest<InsufficientResourcesException>, InsufficientResourcesExceptionTests<InsufficientResourcesException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.InsufficientResourcesException]
 

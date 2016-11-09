@@ -17,8 +17,7 @@ import org.w3c.dom.css.CSSUnknownRule;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSUnknownRuleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSUnknownRuleTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.css.CSSUnknownRule;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSUnknownRuleClassTests<SUT extends CSSUnknownRule>
-extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {
+extends CSSRuleClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSUnknownRule]
     /**

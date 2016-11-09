@@ -3,6 +3,7 @@ package org.j8unit.repository.java.rmi.activation;
 import static org.junit.Assert.assertTrue;
 import java.rmi.activation.ActivationGroup_Stub;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.server.RemoteStubClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.activation.ActivationGroup_StubTests}.
+ * {@link ActivationGroup_StubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationGroup_StubClassTests<SUT extends ActivationGroup_Stub>
-extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteStubClassTests<SUT> {
+extends ActivationInstantiatorClassTests<SUT>, RemoteStubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.activation.ActivationGroup_Stub]
     /**

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MalformedParameterizedTypeExceptionTest
-implements FactoryBasedJ8UnitTest<MalformedParameterizedTypeException>,
-org.j8unit.repository.java.lang.reflect.MalformedParameterizedTypeExceptionTests<MalformedParameterizedTypeException> {
+implements FactoryBasedJ8UnitTest<MalformedParameterizedTypeException>, MalformedParameterizedTypeExceptionTests<MalformedParameterizedTypeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.MalformedParameterizedTypeException]
 

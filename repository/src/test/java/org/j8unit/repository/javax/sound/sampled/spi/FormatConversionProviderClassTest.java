@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FormatConversionProvider} (by simply
+ * reusing the J8Unit test interface {@link FormatConversionProviderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FormatConversionProviderClassTest
-implements org.j8unit.repository.javax.sound.sampled.spi.FormatConversionProviderClassTests<FormatConversionProvider> {
+implements FormatConversionProviderClassTests<FormatConversionProvider> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.spi.FormatConversionProvider]
 

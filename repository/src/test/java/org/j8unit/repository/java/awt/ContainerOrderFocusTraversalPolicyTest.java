@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ContainerOrderFocusTraversalPolicyTest
-implements FactoryBasedJ8UnitTest<ContainerOrderFocusTraversalPolicy>,
-org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyTests<ContainerOrderFocusTraversalPolicy> {
+implements FactoryBasedJ8UnitTest<ContainerOrderFocusTraversalPolicy>, ContainerOrderFocusTraversalPolicyTests<ContainerOrderFocusTraversalPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.ContainerOrderFocusTraversalPolicy]
 

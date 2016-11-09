@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JAXBElement} (by simply reusing the
+ * J8Unit test interface {@link JAXBElementClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class JAXBElementClassTest
-implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElement> {
+implements JAXBElementClassTests<JAXBElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.JAXBElement]
 
@@ -71,9 +75,14 @@ implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests<JAXBElemen
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.bind.JAXBElement]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link GlobalScope} (by simply reusing the
+     * J8Unit test interface {@link GlobalScopeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class GlobalScopeClassTest
-    implements org.j8unit.repository.javax.xml.bind.JAXBElementClassTests.GlobalScopeClassTests<GlobalScope> {
+    implements GlobalScopeClassTests<GlobalScope> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.JAXBElement$GlobalScope]
 

@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Authenticator} (by simply reusing the
+ * J8Unit test interface {@link AuthenticatorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AuthenticatorClassTest
-implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator> {
+implements AuthenticatorClassTests<Authenticator> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.Authenticator]
 
@@ -135,9 +140,14 @@ implements org.j8unit.repository.java.net.AuthenticatorClassTests<Authenticator>
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.net.Authenticator]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link RequestorType} (by simply reusing the
+     * J8Unit test interface {@link RequestorTypeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class RequestorTypeClassTest
-    implements org.j8unit.repository.java.net.AuthenticatorClassTests.RequestorTypeClassTests<RequestorType> {
+    implements RequestorTypeClassTests<RequestorType> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.Authenticator$RequestorType]
 

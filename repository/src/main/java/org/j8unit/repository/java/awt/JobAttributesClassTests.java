@@ -8,6 +8,13 @@ import java.awt.JobAttributes.DialogType;
 import java.awt.JobAttributes.MultipleDocumentHandlingType;
 import java.awt.JobAttributes.SidesType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests;
+import org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests;
+import org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests;
+import org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests;
+import org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -23,8 +30,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.JobAttributesTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JobAttributesTests}.
  * </p>
  *
  * <p>
@@ -53,7 +59,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobAttributesClassTests<SUT extends JobAttributes>
-extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes]
     /**
@@ -88,8 +94,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link SidesTypeTests}.
      * </p>
      *
      * <p>
@@ -118,7 +123,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SidesTypeClassTests<SUT extends SidesType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$SidesType]
         /**
@@ -155,8 +160,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link DialogTypeTests}.
      * </p>
      *
      * <p>
@@ -185,7 +189,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DialogTypeClassTests<SUT extends DialogType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DialogType]
         /**
@@ -222,8 +226,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link DestinationTypeTests}.
      * </p>
      *
      * <p>
@@ -252,7 +255,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DestinationTypeClassTests<SUT extends DestinationType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DestinationType]
         /**
@@ -291,7 +294,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests}.
+     * {@link MultipleDocumentHandlingTypeTests}.
      * </p>
      *
      * <p>
@@ -320,7 +323,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MultipleDocumentHandlingTypeClassTests<SUT extends MultipleDocumentHandlingType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
         /**
@@ -358,7 +361,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests}.
+     * {@link DefaultSelectionTypeTests}.
      * </p>
      *
      * <p>
@@ -387,7 +390,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultSelectionTypeClassTests<SUT extends DefaultSelectionType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.JobAttributes$DefaultSelectionType]
         /**

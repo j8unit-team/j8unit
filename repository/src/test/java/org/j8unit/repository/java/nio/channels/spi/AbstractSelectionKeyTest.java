@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractSelectionKey} (by simply
+ * reusing the J8Unit test interface {@link AbstractSelectionKeyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractSelectionKeyTest
-implements org.j8unit.repository.java.nio.channels.spi.AbstractSelectionKeyTests<AbstractSelectionKey> {
+implements AbstractSelectionKeyTests<AbstractSelectionKey> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.spi.AbstractSelectionKey]
 

@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.IndirectionException;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IndirectionException} (by simply reusing
+ * the J8Unit test interface {@link IndirectionExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IndirectionExceptionClassTest
-implements org.j8unit.repository.org.omg.CORBA.portable.IndirectionExceptionClassTests<IndirectionException> {
+implements IndirectionExceptionClassTests<IndirectionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.IndirectionException]
 

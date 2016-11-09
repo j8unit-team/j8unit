@@ -6,6 +6,12 @@ import javax.swing.text.DefaultStyledDocument.ElementBuffer;
 import javax.swing.text.DefaultStyledDocument.ElementSpec;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableTests;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests;
+import org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests;
+import org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementSpecClassTests;
+import org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +26,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests}).
+ * {@link DefaultStyledDocumentClassTests}).
  * </p>
  *
  * @param SUT
@@ -31,7 +37,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultStyledDocumentTests<SUT extends DefaultStyledDocument>
-extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
+extends StyledDocumentTests<SUT>, AbstractDocumentTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument]
 
@@ -206,8 +212,8 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultStyledDocument#removeDocumentListener(javax.swing.event.DocumentListener) public
-     * void javax.swing.text.DefaultStyledDocument.removeDocumentListener(javax.swing.event.DocumentListener)}.
+     * {@link javax.swing.text.DefaultStyledDocument#getStyle(String) public javax.swing.text.Style
+     * javax.swing.text.DefaultStyledDocument.getStyle(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -220,7 +226,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_removeDocumentListener_DocumentListener()
+    public default void test_getStyle_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -254,8 +260,8 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultStyledDocument#getStyle(String) public javax.swing.text.Style
-     * javax.swing.text.DefaultStyledDocument.getStyle(java.lang.String)}.
+     * {@link javax.swing.text.DefaultStyledDocument#removeDocumentListener(javax.swing.event.DocumentListener) public
+     * void javax.swing.text.DefaultStyledDocument.removeDocumentListener(javax.swing.event.DocumentListener)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -268,7 +274,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_getStyle_String()
+    public default void test_removeDocumentListener_DocumentListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -326,30 +332,6 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultStyledDocument#addStyle(String, javax.swing.text.Style) public
-     * javax.swing.text.Style javax.swing.text.DefaultStyledDocument.addStyle(java.lang.String,javax.swing.text.Style)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_addStyle_String_Style()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.DefaultStyledDocument#getBackground(javax.swing.text.AttributeSet) public java.awt.Color
      * javax.swing.text.DefaultStyledDocument.getBackground(javax.swing.text.AttributeSet)}.
      *
@@ -365,6 +347,30 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_getBackground_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultStyledDocument#addStyle(String, javax.swing.text.Style) public
+     * javax.swing.text.Style javax.swing.text.DefaultStyledDocument.addStyle(java.lang.String,javax.swing.text.Style)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_addStyle_String_Style()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -398,30 +404,6 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.text.DefaultStyledDocument#removeStyle(String) public void
-     * javax.swing.text.DefaultStyledDocument.removeStyle(java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_removeStyle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.text.DefaultStyledDocument#getFont(javax.swing.text.AttributeSet) public java.awt.Font
      * javax.swing.text.DefaultStyledDocument.getFont(javax.swing.text.AttributeSet)}.
      *
@@ -443,9 +425,182 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
         assert sut != null;
     }
 
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.text.DefaultStyledDocument#removeStyle(String) public void
+     * javax.swing.text.DefaultStyledDocument.removeStyle(java.lang.String)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_removeStyle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument]
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
+     * {@link ElementBuffer public class javax.swing.text.DefaultStyledDocument$ElementBuffer}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link ElementBufferClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface ElementBufferTests<SUT extends ElementBuffer>
+    extends SerializableTests<SUT>, ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#remove(int, int, javax.swing.text.AbstractDocument.DefaultDocumentEvent)
+         * public void
+         * javax.swing.text.DefaultStyledDocument$ElementBuffer.remove(int,int,javax.swing.text.AbstractDocument$DefaultDocumentEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_remove_int_int_DefaultDocumentEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#clone(javax.swing.text.Element, javax.swing.text.Element)
+         * public javax.swing.text.Element
+         * javax.swing.text.DefaultStyledDocument$ElementBuffer.clone(javax.swing.text.Element,javax.swing.text.Element)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_clone_Element_Element()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#insert(int, int, javax.swing.text.DefaultStyledDocument.ElementSpec[], javax.swing.text.AbstractDocument.DefaultDocumentEvent)
+         * public void
+         * javax.swing.text.DefaultStyledDocument$ElementBuffer.insert(int,int,javax.swing.text.DefaultStyledDocument$ElementSpec[],javax.swing.text.AbstractDocument$DefaultDocumentEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_insert_int_int_ElementSpecArray_DefaultDocumentEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#change(int, int, javax.swing.text.AbstractDocument.DefaultDocumentEvent)
+         * public void
+         * javax.swing.text.DefaultStyledDocument$ElementBuffer.change(int,int,javax.swing.text.AbstractDocument$DefaultDocumentEvent)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_change_int_int_DefaultDocumentEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted method-under-test
+         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#getRootElement() public javax.swing.text.Element
+         * javax.swing.text.DefaultStyledDocument$ElementBuffer.getRootElement()}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getRootElement()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
+    }
+
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
@@ -456,7 +611,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementSpecClassTests}).
+     * (see {@link ElementSpecClassTests}).
      * </p>
      *
      * @param SUT
@@ -467,7 +622,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementSpecTests<SUT extends ElementSpec>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
 
@@ -688,163 +843,13 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
-     * {@link ElementBuffer public class javax.swing.text.DefaultStyledDocument$ElementBuffer}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface ElementBufferTests<SUT extends ElementBuffer>
-    extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#remove(int, int, javax.swing.text.AbstractDocument.DefaultDocumentEvent)
-         * public void
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer.remove(int,int,javax.swing.text.AbstractDocument$DefaultDocumentEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_remove_int_int_DefaultDocumentEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#clone(javax.swing.text.Element, javax.swing.text.Element)
-         * public javax.swing.text.Element
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer.clone(javax.swing.text.Element,javax.swing.text.Element)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_clone_Element_Element()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#insert(int, int, javax.swing.text.DefaultStyledDocument.ElementSpec[], javax.swing.text.AbstractDocument.DefaultDocumentEvent)
-         * public void
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer.insert(int,int,javax.swing.text.DefaultStyledDocument$ElementSpec[],javax.swing.text.AbstractDocument$DefaultDocumentEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_insert_int_int_ElementSpecArray_DefaultDocumentEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#change(int, int, javax.swing.text.AbstractDocument.DefaultDocumentEvent)
-         * public void
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer.change(int,int,javax.swing.text.AbstractDocument$DefaultDocumentEvent)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_change_int_int_DefaultDocumentEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted method-under-test
-         * {@link javax.swing.text.DefaultStyledDocument.ElementBuffer#getRootElement() public javax.swing.text.Element
-         * javax.swing.text.DefaultStyledDocument$ElementBuffer.getRootElement()}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getRootElement()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test
      * {@link AttributeUndoableEdit public static class javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit}.
      * </p>
      *
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests}).
+     * (see {@link AttributeUndoableEditClassTests}).
      * </p>
      *
      * @param SUT
@@ -855,7 +860,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeUndoableEditTests<SUT extends AttributeUndoableEdit>
-    extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
+    extends AbstractUndoableEditTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.ldap.ManageReferralControlTests}.
+ * {@link ManageReferralControlTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ManageReferralControlClassTests<SUT extends ManageReferralControl>
-extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
+extends BasicControlClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.ManageReferralControl]
     /**

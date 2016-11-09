@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NestingKind} (by simply reusing the
+ * J8Unit test interface {@link NestingKindTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NestingKindTest
-implements org.j8unit.repository.javax.lang.model.element.NestingKindTests<NestingKind> {
+implements NestingKindTests<NestingKind> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.element.NestingKind]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LongAdderTest
-implements FactoryBasedJ8UnitTest<LongAdder>, org.j8unit.repository.java.util.concurrent.atomic.LongAdderTests<LongAdder> {
+implements FactoryBasedJ8UnitTest<LongAdder>, LongAdderTests<LongAdder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.atomic.LongAdder]
 

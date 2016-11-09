@@ -2,6 +2,7 @@ package org.j8unit.repository.java.rmi;
 
 import java.rmi.RMISecurityException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.SecurityExceptionTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -14,7 +15,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.rmi.RMISecurityExceptionClassTests}).
+ * {@link RMISecurityExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMISecurityExceptionTests<SUT extends RMISecurityException>
-extends org.j8unit.repository.java.lang.SecurityExceptionTests<SUT> {
+extends SecurityExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.RMISecurityException]
 

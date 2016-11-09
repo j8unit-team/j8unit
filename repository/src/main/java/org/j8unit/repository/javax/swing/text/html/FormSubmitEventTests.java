@@ -4,6 +4,7 @@ import javax.swing.text.html.FormSubmitEvent;
 import javax.swing.text.html.FormSubmitEvent.MethodType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests}).
+ * {@link FormSubmitEventClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormSubmitEventTests<SUT extends FormSubmitEvent>
-extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests<SUT> {
+extends HTMLFrameHyperlinkEventTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent]
 
@@ -90,7 +91,7 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests.MethodTypeClassTests}).
+     * (see {@link MethodTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -101,7 +102,7 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MethodTypeTests<SUT extends MethodType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, MethodType> {
+    extends EnumTests<SUT, MethodType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.html.FormSubmitEvent$MethodType]
 

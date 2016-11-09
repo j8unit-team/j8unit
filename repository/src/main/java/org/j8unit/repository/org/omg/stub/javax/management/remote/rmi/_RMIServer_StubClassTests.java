@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.stub.javax.management.remote.rmi;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.remote.rmi.RMIServerClassTests;
+import org.j8unit.repository.javax.rmi.CORBA.StubClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
@@ -17,8 +19,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServer_StubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link _RMIServer_StubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.stub.javax.management.remote.rmi._RMIServer_Stub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIServer_StubClassTests<SUT extends _RMIServer_Stub>
-extends org.j8unit.repository.javax.management.remote.rmi.RMIServerClassTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubClassTests<SUT> {
+extends RMIServerClassTests<SUT>, StubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.stub.javax.management.remote.rmi._RMIServer_Stub]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PanelTest
-implements FactoryBasedJ8UnitTest<Panel>, org.j8unit.repository.java.awt.PanelTests<Panel> {
+implements FactoryBasedJ8UnitTest<Panel>, PanelTests<Panel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Panel]
 

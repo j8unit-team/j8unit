@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.AdapterStateHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AdapterStateHelper} (by simply reusing
+ * the J8Unit test interface {@link AdapterStateHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterStateHelperClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.AdapterStateHelperClassTests<AdapterStateHelper> {
+implements AdapterStateHelperClassTests<AdapterStateHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.AdapterStateHelper]
 

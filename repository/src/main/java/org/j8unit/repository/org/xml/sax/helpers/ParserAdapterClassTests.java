@@ -2,6 +2,9 @@ package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests;
+import org.j8unit.repository.org.xml.sax.XMLReaderClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.helpers.ParserAdapter;
@@ -17,8 +20,7 @@ import org.xml.sax.helpers.ParserAdapter;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.helpers.ParserAdapterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ParserAdapterTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.xml.sax.helpers.ParserAdapter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParserAdapterClassTests<SUT extends ParserAdapter>
-extends org.j8unit.repository.org.xml.sax.XMLReaderClassTests<SUT>, org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends XMLReaderClassTests<SUT>, DocumentHandlerClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.helpers.ParserAdapter]
     /**

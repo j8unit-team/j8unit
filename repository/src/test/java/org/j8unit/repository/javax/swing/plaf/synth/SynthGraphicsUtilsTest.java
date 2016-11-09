@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthGraphicsUtilsTest
-implements FactoryBasedJ8UnitTest<SynthGraphicsUtils>, org.j8unit.repository.javax.swing.plaf.synth.SynthGraphicsUtilsTests<SynthGraphicsUtils> {
+implements FactoryBasedJ8UnitTest<SynthGraphicsUtils>, SynthGraphicsUtilsTests<SynthGraphicsUtils> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthGraphicsUtils]
 

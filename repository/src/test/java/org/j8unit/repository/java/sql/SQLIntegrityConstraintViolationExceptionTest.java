@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLIntegrityConstraintViolationExceptionTest
 implements FactoryBasedJ8UnitTest<SQLIntegrityConstraintViolationException>,
-org.j8unit.repository.java.sql.SQLIntegrityConstraintViolationExceptionTests<SQLIntegrityConstraintViolationException> {
+SQLIntegrityConstraintViolationExceptionTests<SQLIntegrityConstraintViolationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLIntegrityConstraintViolationException]
 

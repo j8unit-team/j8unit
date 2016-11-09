@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SearchControlsTest
-implements FactoryBasedJ8UnitTest<SearchControls>, org.j8unit.repository.javax.naming.directory.SearchControlsTests<SearchControls> {
+implements FactoryBasedJ8UnitTest<SearchControls>, SearchControlsTests<SearchControls> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.SearchControls]
 

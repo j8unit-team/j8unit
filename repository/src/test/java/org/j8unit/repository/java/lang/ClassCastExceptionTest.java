@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClassCastExceptionTest
-implements FactoryBasedJ8UnitTest<ClassCastException>, org.j8unit.repository.java.lang.ClassCastExceptionTests<ClassCastException> {
+implements FactoryBasedJ8UnitTest<ClassCastException>, ClassCastExceptionTests<ClassCastException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ClassCastException]
 

@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicOptionPaneUI} (by simply reusing the
+ * J8Unit test interface {@link BasicOptionPaneUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicOptionPaneUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
+implements BasicOptionPaneUIClassTests<BasicOptionPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
@@ -69,6 +74,57 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonAreaLayout} (by simply reusing
+     * the J8Unit test interface {@link ButtonAreaLayoutClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ButtonAreaLayoutClassTest
+    implements ButtonAreaLayoutClassTests<ButtonAreaLayout> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
+        @Override
+        public Class<ButtonAreaLayout> createNewSUT() {
+            return ButtonAreaLayout.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#ButtonAreaLayout(boolean, int) public
+         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout(boolean,int)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_ButtonAreaLayout_boolean_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final ButtonAreaLayout sut = null; // = new ButtonAreaLayout(boolean, int);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests<PropertyChangeHandler> {
@@ -111,49 +167,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTe
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ButtonAreaLayoutClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests<ButtonAreaLayout> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
-
-        @Override
-        public Class<ButtonAreaLayout> createNewSUT() {
-            return ButtonAreaLayout.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout#ButtonAreaLayout(boolean, int) public
-         * javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout(boolean,int)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_ButtonAreaLayout_boolean_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final ButtonAreaLayout sut = null; // = new ButtonAreaLayout(boolean, int);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link ButtonActionListener} (by simply
+     * reusing the J8Unit test interface {@link ButtonActionListenerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ButtonActionListenerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonActionListenerClassTests<ButtonActionListener> {
+    implements ButtonActionListenerClassTests<ButtonActionListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener]
 

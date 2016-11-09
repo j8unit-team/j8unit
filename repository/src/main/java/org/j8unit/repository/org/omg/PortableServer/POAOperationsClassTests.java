@@ -18,8 +18,7 @@ import org.omg.PortableServer.POAOperations;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.POAOperationsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link POAOperationsTests}.
  * </p>
  *
  * <p>

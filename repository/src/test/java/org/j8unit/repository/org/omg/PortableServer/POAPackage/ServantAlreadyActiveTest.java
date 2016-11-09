@@ -14,8 +14,7 @@ import org.omg.PortableServer.POAPackage.ServantAlreadyActive;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServantAlreadyActiveTest
-implements FactoryBasedJ8UnitTest<ServantAlreadyActive>,
-org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantAlreadyActiveTests<ServantAlreadyActive> {
+implements FactoryBasedJ8UnitTest<ServantAlreadyActive>, ServantAlreadyActiveTests<ServantAlreadyActive> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.ServantAlreadyActive]
 

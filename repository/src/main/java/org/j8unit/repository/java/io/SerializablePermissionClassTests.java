@@ -3,6 +3,7 @@ package org.j8unit.repository.java.io;
 import static org.junit.Assert.assertTrue;
 import java.io.SerializablePermission;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.BasicPermissionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.SerializablePermissionTests}.
+ * {@link SerializablePermissionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SerializablePermissionClassTests<SUT extends SerializablePermission>
-extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
+extends BasicPermissionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.SerializablePermission]
     /**

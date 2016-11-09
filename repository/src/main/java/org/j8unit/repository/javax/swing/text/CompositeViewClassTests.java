@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.CompositeViewTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CompositeViewTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeViewClassTests<SUT extends CompositeView>
-extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
+extends ViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.CompositeView]
     /**

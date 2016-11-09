@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.xml.crypto.dsig.dom;
 import static org.junit.Assert.assertTrue;
 import javax.xml.crypto.dsig.dom.DOMSignContext;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests;
+import org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMSignContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DOMSignContextTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMSignContextClassTests<SUT extends DOMSignContext>
-extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextClassTests<SUT>, org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests<SUT> {
+extends XMLSignContextClassTests<SUT>, DOMCryptoContextClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.dom.DOMSignContext]
     /**

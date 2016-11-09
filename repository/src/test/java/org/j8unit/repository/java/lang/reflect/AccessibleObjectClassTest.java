@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AccessibleObject} (by simply reusing the
+ * J8Unit test interface {@link AccessibleObjectClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AccessibleObjectClassTest
-implements org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<AccessibleObject> {
+implements AccessibleObjectClassTests<AccessibleObject> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.AccessibleObject]
 

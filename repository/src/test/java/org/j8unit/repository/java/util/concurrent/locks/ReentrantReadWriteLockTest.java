@@ -18,8 +18,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReentrantReadWriteLockTest
-implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>,
-org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests<ReentrantReadWriteLock> {
+implements FactoryBasedJ8UnitTest<ReentrantReadWriteLock>, ReentrantReadWriteLockTests<ReentrantReadWriteLock> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
@@ -40,9 +39,14 @@ org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests<Ree
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ReadLock} (by simply reusing the
+     * J8Unit test interface {@link ReadLockTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ReadLockTest
-    implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests<ReadLock> {
+    implements ReadLockTests<ReadLock> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock]
 
@@ -57,9 +61,14 @@ org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests<Ree
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link WriteLock} (by simply reusing the
+     * J8Unit test interface {@link WriteLockTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class WriteLockTest
-    implements org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests<WriteLock> {
+    implements WriteLockTests<WriteLock> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock]
 

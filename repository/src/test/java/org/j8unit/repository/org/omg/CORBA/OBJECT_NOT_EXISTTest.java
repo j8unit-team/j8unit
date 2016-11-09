@@ -14,7 +14,7 @@ import org.omg.CORBA.OBJECT_NOT_EXIST;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class OBJECT_NOT_EXISTTest
-implements FactoryBasedJ8UnitTest<OBJECT_NOT_EXIST>, org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTTests<OBJECT_NOT_EXIST> {
+implements FactoryBasedJ8UnitTest<OBJECT_NOT_EXIST>, OBJECT_NOT_EXISTTests<OBJECT_NOT_EXIST> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.OBJECT_NOT_EXIST]
 

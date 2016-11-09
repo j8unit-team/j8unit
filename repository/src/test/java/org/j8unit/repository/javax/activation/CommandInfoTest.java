@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link CommandInfo} (by simply reusing the
+ * J8Unit test interface {@link CommandInfoTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CommandInfoTest
-implements org.j8unit.repository.javax.activation.CommandInfoTests<CommandInfo> {
+implements CommandInfoTests<CommandInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.CommandInfo]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClosedFileSystemExceptionTest
-implements FactoryBasedJ8UnitTest<ClosedFileSystemException>, org.j8unit.repository.java.nio.file.ClosedFileSystemExceptionTests<ClosedFileSystemException> {
+implements FactoryBasedJ8UnitTest<ClosedFileSystemException>, ClosedFileSystemExceptionTests<ClosedFileSystemException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.ClosedFileSystemException]
 

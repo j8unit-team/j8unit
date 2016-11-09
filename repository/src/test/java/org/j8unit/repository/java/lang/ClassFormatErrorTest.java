@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ClassFormatErrorTest
-implements FactoryBasedJ8UnitTest<ClassFormatError>, org.j8unit.repository.java.lang.ClassFormatErrorTests<ClassFormatError> {
+implements FactoryBasedJ8UnitTest<ClassFormatError>, ClassFormatErrorTests<ClassFormatError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ClassFormatError]
 

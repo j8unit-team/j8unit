@@ -17,8 +17,7 @@ import org.omg.CORBA.portable.StreamableValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.StreamableValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link StreamableValueTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.portable.StreamableValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StreamableValueClassTests<SUT extends StreamableValue>
-extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests<SUT> {
+extends StreamableClassTests<SUT>, ValueBaseClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.StreamableValue]
     /**

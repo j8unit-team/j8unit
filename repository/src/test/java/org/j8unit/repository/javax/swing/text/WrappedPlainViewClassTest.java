@@ -8,38 +8,20 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WrappedPlainView} (by simply reusing the
+ * J8Unit test interface {@link WrappedPlainViewClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WrappedPlainViewClassTest
-implements org.j8unit.repository.javax.swing.text.WrappedPlainViewClassTests<WrappedPlainView> {
+implements WrappedPlainViewClassTests<WrappedPlainView> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.WrappedPlainView]
 
     @Override
     public Class<WrappedPlainView> createNewSUT() {
         return WrappedPlainView.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.text.WrappedPlainView#WrappedPlainView(javax.swing.text.Element, boolean) public
-     * javax.swing.text.WrappedPlainView(javax.swing.text.Element,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_WrappedPlainView_Element_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final WrappedPlainView sut = null; // = new WrappedPlainView(javax.swing.text.Element, boolean);
     }
 
     /**
@@ -63,6 +45,29 @@ implements org.j8unit.repository.javax.swing.text.WrappedPlainViewClassTests<Wra
         // create new instance
         @SuppressWarnings("unused")
         final WrappedPlainView sut = null; // = new WrappedPlainView(javax.swing.text.Element);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.text.WrappedPlainView#WrappedPlainView(javax.swing.text.Element, boolean) public
+     * javax.swing.text.WrappedPlainView(javax.swing.text.Element,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_WrappedPlainView_Element_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final WrappedPlainView sut = null; // = new WrappedPlainView(javax.swing.text.Element, boolean);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.WrappedPlainView]

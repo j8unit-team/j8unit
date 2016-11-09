@@ -14,7 +14,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.sql.NClobClassTests}).
+ * {@link NClobClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NClobTests<SUT extends NClob>
-extends org.j8unit.repository.java.sql.ClobTests<SUT> {
+extends ClobTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.NClob]
 

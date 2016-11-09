@@ -8,6 +8,14 @@ import javax.print.attribute.standard.MediaSize.NA;
 import javax.print.attribute.standard.MediaSize.Other;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.javax.print.attribute.AttributeTests;
+import org.j8unit.repository.javax.print.attribute.Size2DSyntaxTests;
+import org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.EngineeringClassTests;
+import org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.ISOClassTests;
+import org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests;
+import org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests;
+import org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -22,7 +30,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests}).
+ * {@link MediaSizeClassTests}).
  * </p>
  *
  * @param SUT
@@ -33,7 +41,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaSizeTests<SUT extends MediaSize>
-extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.Size2DSyntaxTests<SUT> {
+extends AttributeTests<SUT>, Size2DSyntaxTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize]
 
@@ -137,36 +145,6 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
     /**
      * <p>
      * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link NA public
-     * static final class javax.print.attribute.standard.MediaSize$NA}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.NAClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface NATests<SUT extends NA>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
      * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link ISO public
      * static final class javax.print.attribute.standard.MediaSize$ISO}.
      * </p>
@@ -174,7 +152,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.ISOClassTests}).
+     * (see {@link ISOClassTests}).
      * </p>
      *
      * @param SUT
@@ -185,13 +163,43 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ISOTests<SUT extends ISO>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$ISO]
 
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$ISO]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$ISO]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link NA public
+     * static final class javax.print.attribute.standard.MediaSize$NA}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link NAClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface NATests<SUT extends NA>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$NA]
     }
 
     /**
@@ -204,7 +212,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.JISClassTests}).
+     * (see {@link JISClassTests}).
      * </p>
      *
      * @param SUT
@@ -215,43 +223,13 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface JISTests<SUT extends JIS>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$JIS]
 
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$JIS]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$JIS]
-    }
-
-    /**
-     * <p>
-     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
-     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Other
-     * public static final class javax.print.attribute.standard.MediaSize$Other}.
-     * </p>
-     *
-     * <p>
-     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
-     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.OtherClassTests}).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     */
-
-    @FunctionalInterface
-    @Category(J8UnitRepository.class)
-    public static abstract interface OtherTests<SUT extends Other>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
     }
 
     /**
@@ -264,7 +242,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.print.attribute.standard.MediaSizeClassTests.EngineeringClassTests}).
+     * (see {@link EngineeringClassTests}).
      * </p>
      *
      * @param SUT
@@ -275,13 +253,43 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EngineeringTests<SUT extends Engineering>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Engineering]
 
         // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Engineering]
 
         // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Engineering]
+    }
+
+    /**
+     * <p>
+     * Reusable j8unit test interface containing the instance relevant aspects &ndash;&nbsp;i.&thinsp;e., test methods
+     * targeting the non-{@code static} behaviour&nbsp;&ndash; of the hereby targeted type-under-test {@link Other
+     * public static final class javax.print.attribute.standard.MediaSize$Other}.
+     * </p>
+     *
+     * <p>
+     * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
+     * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
+     * (see {@link OtherClassTests}).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     */
+
+    @FunctionalInterface
+    @Category(J8UnitRepository.class)
+    public static abstract interface OtherTests<SUT extends Other>
+    extends ObjectTests<SUT> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.print.attribute.standard.MediaSize$Other]
     }
 
 }

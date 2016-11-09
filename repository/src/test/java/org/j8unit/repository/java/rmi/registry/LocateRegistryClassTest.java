@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LocateRegistry} (by simply reusing the
+ * J8Unit test interface {@link LocateRegistryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LocateRegistryClassTest
-implements org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests<LocateRegistry> {
+implements LocateRegistryClassTests<LocateRegistry> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.registry.LocateRegistry]
 

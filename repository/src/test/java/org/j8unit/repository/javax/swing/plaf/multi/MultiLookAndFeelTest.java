@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiLookAndFeelTest
-implements FactoryBasedJ8UnitTest<MultiLookAndFeel>, org.j8unit.repository.javax.swing.plaf.multi.MultiLookAndFeelTests<MultiLookAndFeel> {
+implements FactoryBasedJ8UnitTest<MultiLookAndFeel>, MultiLookAndFeelTests<MultiLookAndFeel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiLookAndFeel]
 

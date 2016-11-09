@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.util.AbstractSetClassTests}).
+ * {@link AbstractSetClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractSetTests<SUT extends AbstractSet<E>, E>
-extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {
+extends SetTests<SUT, E>, AbstractCollectionTests<SUT, E> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.AbstractSet]
 
@@ -126,8 +126,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_iterator()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_iterator();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_iterator();
+        SetTests.super.test_iterator();
+        AbstractCollectionTests.super.test_iterator();
     }
 
     /**
@@ -154,8 +154,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_contains_Object()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_contains_Object();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_contains_Object();
+        SetTests.super.test_contains_Object();
+        AbstractCollectionTests.super.test_contains_Object();
     }
 
     /**
@@ -182,8 +182,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_size()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_size();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_size();
+        SetTests.super.test_size();
+        AbstractCollectionTests.super.test_size();
     }
 
     /**
@@ -210,8 +210,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_addAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_addAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_addAll_Collection();
+        SetTests.super.test_addAll_Collection();
+        AbstractCollectionTests.super.test_addAll_Collection();
     }
 
     /**
@@ -238,8 +238,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_toArray()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_toArray();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray();
+        SetTests.super.test_toArray();
+        AbstractCollectionTests.super.test_toArray();
     }
 
     /**
@@ -266,8 +266,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_toArray_ObjectArray()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_toArray_ObjectArray();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_toArray_ObjectArray();
+        SetTests.super.test_toArray_ObjectArray();
+        AbstractCollectionTests.super.test_toArray_ObjectArray();
     }
 
     /**
@@ -294,8 +294,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_retainAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_retainAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_retainAll_Collection();
+        SetTests.super.test_retainAll_Collection();
+        AbstractCollectionTests.super.test_retainAll_Collection();
     }
 
     /**
@@ -322,8 +322,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_add_Object()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_add_Object();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_add_Object();
+        SetTests.super.test_add_Object();
+        AbstractCollectionTests.super.test_add_Object();
     }
 
     /**
@@ -351,8 +351,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_containsAll_Collection()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_containsAll_Collection();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_containsAll_Collection();
+        SetTests.super.test_containsAll_Collection();
+        AbstractCollectionTests.super.test_containsAll_Collection();
     }
 
     /**
@@ -379,8 +379,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_isEmpty()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_isEmpty();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_isEmpty();
+        SetTests.super.test_isEmpty();
+        AbstractCollectionTests.super.test_isEmpty();
     }
 
     /**
@@ -407,8 +407,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_clear()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_clear();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_clear();
+        SetTests.super.test_clear();
+        AbstractCollectionTests.super.test_clear();
     }
 
     /**
@@ -435,8 +435,8 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.
     @Category(Draft.class)
     public default void test_remove_Object()
     throws Exception {
-        org.j8unit.repository.java.util.SetTests.super.test_remove_Object();
-        org.j8unit.repository.java.util.AbstractCollectionTests.super.test_remove_Object();
+        SetTests.super.test_remove_Object();
+        AbstractCollectionTests.super.test_remove_Object();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.AbstractSet]

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SynthSplitPaneUI} (by simply reusing the
+ * J8Unit test interface {@link SynthSplitPaneUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SynthSplitPaneUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.synth.SynthSplitPaneUIClassTests<SynthSplitPaneUI> {
+implements SynthSplitPaneUIClassTests<SynthSplitPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthSplitPaneUI]
 

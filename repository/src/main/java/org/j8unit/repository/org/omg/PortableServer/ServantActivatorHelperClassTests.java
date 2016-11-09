@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.ServantActivatorHelper;
@@ -18,7 +19,7 @@ import org.omg.PortableServer.ServantActivatorHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.ServantActivatorHelperTests}.
+ * {@link ServantActivatorHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.PortableServer.ServantActivatorHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorHelperClassTests<SUT extends ServantActivatorHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantActivatorHelper]
     /**

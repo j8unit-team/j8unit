@@ -14,7 +14,7 @@ import org.omg.CORBA.TRANSACTION_REQUIRED;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests}).
+ * {@link TRANSACTION_REQUIREDClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.TRANSACTION_REQUIRED;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TRANSACTION_REQUIREDTests<SUT extends TRANSACTION_REQUIRED>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.TRANSACTION_REQUIRED]
 

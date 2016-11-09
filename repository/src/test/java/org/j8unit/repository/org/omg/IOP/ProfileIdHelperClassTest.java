@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.IOP.ProfileIdHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ProfileIdHelper} (by simply reusing the
+ * J8Unit test interface {@link ProfileIdHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ProfileIdHelperClassTest
-implements org.j8unit.repository.org.omg.IOP.ProfileIdHelperClassTests<ProfileIdHelper> {
+implements ProfileIdHelperClassTests<ProfileIdHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.ProfileIdHelper]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IllegalFormatWidthException} (by simply
+ * reusing the J8Unit test interface {@link IllegalFormatWidthExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IllegalFormatWidthExceptionClassTest
-implements org.j8unit.repository.java.util.IllegalFormatWidthExceptionClassTests<IllegalFormatWidthException> {
+implements IllegalFormatWidthExceptionClassTests<IllegalFormatWidthException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.IllegalFormatWidthException]
 

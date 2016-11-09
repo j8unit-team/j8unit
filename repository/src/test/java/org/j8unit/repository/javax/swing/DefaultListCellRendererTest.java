@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultListCellRendererTest
-implements FactoryBasedJ8UnitTest<DefaultListCellRenderer>, org.j8unit.repository.javax.swing.DefaultListCellRendererTests<DefaultListCellRenderer> {
+implements FactoryBasedJ8UnitTest<DefaultListCellRenderer>, DefaultListCellRendererTests<DefaultListCellRenderer> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultListCellRenderer]
 

@@ -3,6 +3,9 @@ package org.j8unit.repository.java.beans.beancontext;
 import static org.junit.Assert.assertTrue;
 import java.beans.beancontext.BeanContext;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.DesignModeClassTests;
+import org.j8unit.repository.java.beans.VisibilityClassTests;
+import org.j8unit.repository.java.util.CollectionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.beans.beancontext.BeanContextTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BeanContextTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextClassTests<SUT extends BeanContext>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextChildClassTests<SUT>, org.j8unit.repository.java.util.CollectionClassTests<SUT>,
-org.j8unit.repository.java.beans.DesignModeClassTests<SUT>, org.j8unit.repository.java.beans.VisibilityClassTests<SUT> {
+extends BeanContextChildClassTests<SUT>, CollectionClassTests<SUT>, DesignModeClassTests<SUT>, VisibilityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContext]
     /**

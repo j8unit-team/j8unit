@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UTFDataFormatExceptionTest
-implements FactoryBasedJ8UnitTest<UTFDataFormatException>, org.j8unit.repository.java.io.UTFDataFormatExceptionTests<UTFDataFormatException> {
+implements FactoryBasedJ8UnitTest<UTFDataFormatException>, UTFDataFormatExceptionTests<UTFDataFormatException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.UTFDataFormatException]
 

@@ -3,6 +3,8 @@ package org.j8unit.repository.java.awt.image;
 import java.awt.image.BufferedImage;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.ImageTests;
+import org.j8unit.repository.java.awt.TransparencyTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.image.BufferedImageClassTests}).
+ * {@link BufferedImageClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedImageTests<SUT extends BufferedImage>
-extends org.j8unit.repository.java.awt.image.WritableRenderedImageTests<SUT>, org.j8unit.repository.java.awt.TransparencyTests<SUT>,
-org.j8unit.repository.java.awt.ImageTests<SUT> {
+extends WritableRenderedImageTests<SUT>, TransparencyTests<SUT>, ImageTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.BufferedImage]
 
@@ -198,6 +199,29 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getTransparency()
+     * public int java.awt.image.BufferedImage.getTransparency()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransparency()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#copyData(java.awt.image.WritableRaster) public java.awt.image.WritableRaster
      * java.awt.image.BufferedImage.copyData(java.awt.image.WritableRaster)}.
@@ -214,29 +238,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_copyData_WritableRaster()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getTransparency()
-     * public int java.awt.image.BufferedImage.getTransparency()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransparency()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -636,29 +637,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getSources() public
-     * java.util.Vector<java.awt.image.RenderedImage> java.awt.image.BufferedImage.getSources()}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getSources()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.BufferedImage#getWidth(java.awt.image.ImageObserver) public int
      * java.awt.image.BufferedImage.getWidth(java.awt.image.ImageObserver)}.
@@ -698,6 +676,29 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getSources() public
+     * java.util.Vector<java.awt.image.RenderedImage> java.awt.image.BufferedImage.getSources()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getSources()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -822,30 +823,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.BufferedImage#getWritableTile(int, int) public java.awt.image.WritableRaster
-     * java.awt.image.BufferedImage.getWritableTile(int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_getWritableTile_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getHeight() public int
      * java.awt.image.BufferedImage.getHeight()}.
      *
@@ -885,6 +862,30 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getHeight_ImageObserver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImage#getWritableTile(int, int) public java.awt.image.WritableRaster
+     * java.awt.image.BufferedImage.getWritableTile(int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_getWritableTile_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -938,29 +939,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.BufferedImage#getRGB(int, int, int, int, int[], int, int) public int[]
-     * java.awt.image.BufferedImage.getRGB(int,int,int,int,int[],int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRGB_int_int_int_int_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getRGB(int, int) public
      * int java.awt.image.BufferedImage.getRGB(int,int)}.
      *
@@ -983,8 +961,9 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getAlphaRaster() public
-     * java.awt.image.WritableRaster java.awt.image.BufferedImage.getAlphaRaster()}.
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.BufferedImage#getRGB(int, int, int, int, int[], int, int) public int[]
+     * java.awt.image.BufferedImage.getRGB(int,int,int,int,int[],int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -996,7 +975,7 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAlphaRaster()
+    public default void test_getRGB_int_int_int_int_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1044,6 +1023,28 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getData_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.image.BufferedImage#getAlphaRaster() public
+     * java.awt.image.WritableRaster java.awt.image.BufferedImage.getAlphaRaster()}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlphaRaster()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

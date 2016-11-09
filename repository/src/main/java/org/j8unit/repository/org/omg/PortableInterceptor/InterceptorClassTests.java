@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.PortableInterceptor;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.ObjectClassTests;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.Interceptor;
@@ -17,8 +19,7 @@ import org.omg.PortableInterceptor.Interceptor;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.InterceptorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InterceptorTests}.
  * </p>
  *
  * <p>
@@ -47,8 +48,7 @@ import org.omg.PortableInterceptor.Interceptor;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InterceptorClassTests<SUT extends Interceptor>
-extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT> {
+extends InterceptorOperationsClassTests<SUT>, ObjectClassTests<SUT>, IDLEntityClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.Interceptor]
     /**

@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CSS} (by simply reusing the J8Unit test
+ * interface {@link CSSClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CSSClassTest
-implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
+implements CSSClassTests<CSS> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.CSS]
 
@@ -85,6 +90,11 @@ implements org.j8unit.repository.javax.swing.text.html.CSSClassTests<CSS> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.text.html.CSS]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.html.CSS]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Attribute} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.swing.text.html.CSSClassTests.AttributeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class AttributeClassTest

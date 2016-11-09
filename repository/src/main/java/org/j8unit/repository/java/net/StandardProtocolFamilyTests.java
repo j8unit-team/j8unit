@@ -3,6 +3,7 @@ package org.j8unit.repository.java.net;
 import java.net.StandardProtocolFamily;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.net.StandardProtocolFamilyClassTests}).
+ * {@link StandardProtocolFamilyClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardProtocolFamilyTests<SUT extends StandardProtocolFamily>
-extends org.j8unit.repository.java.net.ProtocolFamilyTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, StandardProtocolFamily> {
+extends ProtocolFamilyTests<SUT>, EnumTests<SUT, StandardProtocolFamily> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.StandardProtocolFamily]
 
@@ -56,8 +57,8 @@ extends org.j8unit.repository.java.net.ProtocolFamilyTests<SUT>, org.j8unit.repo
     @Category(Draft.class)
     public default void test_name()
     throws Exception {
-        org.j8unit.repository.java.net.ProtocolFamilyTests.super.test_name();
-        org.j8unit.repository.java.lang.EnumTests.super.test_name();
+        ProtocolFamilyTests.super.test_name();
+        EnumTests.super.test_name();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.net.StandardProtocolFamily]

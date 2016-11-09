@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BackingStoreException} (by simply
+ * reusing the J8Unit test interface {@link BackingStoreExceptionTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BackingStoreExceptionTest
-implements org.j8unit.repository.java.util.prefs.BackingStoreExceptionTests<BackingStoreException> {
+implements BackingStoreExceptionTests<BackingStoreException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.prefs.BackingStoreException]
 

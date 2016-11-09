@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynFixedHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DynFixedHelper} (by simply reusing the
+ * J8Unit test interface {@link DynFixedHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynFixedHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynFixedHelperClassTests<DynFixedHelper> {
+implements DynFixedHelperClassTests<DynFixedHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynFixedHelper]
 

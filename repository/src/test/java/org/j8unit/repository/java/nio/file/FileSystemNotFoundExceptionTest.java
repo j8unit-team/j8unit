@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FileSystemNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<FileSystemNotFoundException>,
-org.j8unit.repository.java.nio.file.FileSystemNotFoundExceptionTests<FileSystemNotFoundException> {
+implements FactoryBasedJ8UnitTest<FileSystemNotFoundException>, FileSystemNotFoundExceptionTests<FileSystemNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.FileSystemNotFoundException]
 

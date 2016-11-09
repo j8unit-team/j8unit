@@ -5,6 +5,10 @@ import java.awt.MultipleGradientPaint.ColorSpaceType;
 import java.awt.MultipleGradientPaint.CycleMethod;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests;
+import org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.MultipleGradientPaintClassTests}).
+ * {@link MultipleGradientPaintClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultipleGradientPaintTests<SUT extends MultipleGradientPaint>
-extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends PaintTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint]
 
@@ -180,7 +184,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests}).
+     * (see {@link ColorSpaceTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -191,7 +195,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorSpaceTypeTests<SUT extends ColorSpaceType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, ColorSpaceType> {
+    extends EnumTests<SUT, ColorSpaceType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
@@ -210,7 +214,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests}).
+     * (see {@link CycleMethodClassTests}).
      * </p>
      *
      * @param SUT
@@ -221,7 +225,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CycleMethodTests<SUT extends CycleMethod>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, CycleMethod> {
+    extends EnumTests<SUT, CycleMethod> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
 

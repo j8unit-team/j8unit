@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SocketHandlerTest
-implements FactoryBasedJ8UnitTest<SocketHandler>, org.j8unit.repository.java.util.logging.SocketHandlerTests<SocketHandler> {
+implements FactoryBasedJ8UnitTest<SocketHandler>, SocketHandlerTests<SocketHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.SocketHandler]
 

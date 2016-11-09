@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TagElement} (by simply reusing the J8Unit
+ * test interface {@link TagElementClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TagElementClassTest
-implements org.j8unit.repository.javax.swing.text.html.parser.TagElementClassTests<TagElement> {
+implements TagElementClassTests<TagElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.html.parser.TagElement]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PageFormatTest
-implements FactoryBasedJ8UnitTest<PageFormat>, org.j8unit.repository.java.awt.print.PageFormatTests<PageFormat> {
+implements FactoryBasedJ8UnitTest<PageFormat>, PageFormatTests<PageFormat> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.print.PageFormat]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.transform.sax;
 import static org.junit.Assert.assertTrue;
 import javax.xml.transform.sax.SAXTransformerFactory;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.transform.sax.SAXTransformerFactoryTests}.
+ * {@link SAXTransformerFactoryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXTransformerFactoryClassTests<SUT extends SAXTransformerFactory>
-extends org.j8unit.repository.javax.xml.transform.TransformerFactoryClassTests<SUT> {
+extends TransformerFactoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.transform.sax.SAXTransformerFactory]
     /**

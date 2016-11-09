@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ListenerNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<ListenerNotFoundException>, org.j8unit.repository.javax.management.ListenerNotFoundExceptionTests<ListenerNotFoundException> {
+implements FactoryBasedJ8UnitTest<ListenerNotFoundException>, ListenerNotFoundExceptionTests<ListenerNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ListenerNotFoundException]
 

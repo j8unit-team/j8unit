@@ -2,6 +2,8 @@ package org.j8unit.repository.org.omg.stub.java.rmi;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteClassTests;
+import org.j8unit.repository.javax.rmi.CORBA.StubClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.stub.java.rmi._Remote_Stub;
@@ -17,8 +19,7 @@ import org.omg.stub.java.rmi._Remote_Stub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link _Remote_StubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.stub.java.rmi._Remote_Stub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _Remote_StubClassTests<SUT extends _Remote_Stub>
-extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubClassTests<SUT> {
+extends RemoteClassTests<SUT>, StubClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.stub.java.rmi._Remote_Stub]
     /**

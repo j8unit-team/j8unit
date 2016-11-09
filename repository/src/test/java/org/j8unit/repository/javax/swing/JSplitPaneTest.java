@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JSplitPaneTest
-implements FactoryBasedJ8UnitTest<JSplitPane>, org.j8unit.repository.javax.swing.JSplitPaneTests<JSplitPane> {
+implements FactoryBasedJ8UnitTest<JSplitPane>, JSplitPaneTests<JSplitPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JSplitPane]
 

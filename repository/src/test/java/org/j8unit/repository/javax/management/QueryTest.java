@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class QueryTest
-implements FactoryBasedJ8UnitTest<Query>, org.j8unit.repository.javax.management.QueryTests<Query> {
+implements FactoryBasedJ8UnitTest<Query>, QueryTests<Query> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.Query]
 

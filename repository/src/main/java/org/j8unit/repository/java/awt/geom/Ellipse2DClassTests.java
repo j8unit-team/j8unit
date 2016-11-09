@@ -5,6 +5,7 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Ellipse2D.Double;
 import java.awt.geom.Ellipse2D.Float;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.geom.Ellipse2DTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link Ellipse2DTests}.
  * </p>
  *
  * <p>
@@ -50,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Ellipse2DClassTests<SUT extends Ellipse2D>
-extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
+extends RectangularShapeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D]
     /**
@@ -85,8 +85,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.geom.Ellipse2DTests.DoubleTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link DoubleTests}.
      * </p>
      *
      * <p>
@@ -115,7 +114,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Double>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<SUT> {
+    extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D$Double]
         /**
@@ -152,8 +151,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.geom.Ellipse2DTests.FloatTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link FloatTests}.
      * </p>
      *
      * <p>
@@ -182,7 +180,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Float>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<SUT> {
+    extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Ellipse2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Ellipse2D$Float]
         /**

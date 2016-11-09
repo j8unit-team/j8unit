@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.management.remote;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.JMXConnectorServer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanRegistrationClassTests;
+import org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.JMXConnectorServerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JMXConnectorServerTests}.
  * </p>
  *
  * <p>
@@ -47,9 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMXConnectorServerClassTests<SUT extends JMXConnectorServer>
-extends org.j8unit.repository.javax.management.remote.JMXConnectorServerMBeanClassTests<SUT>,
-org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>, org.j8unit.repository.javax.management.remote.JMXAddressableClassTests<SUT>,
-org.j8unit.repository.javax.management.NotificationBroadcasterSupportClassTests<SUT> {
+extends JMXConnectorServerMBeanClassTests<SUT>, MBeanRegistrationClassTests<SUT>, JMXAddressableClassTests<SUT>, NotificationBroadcasterSupportClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectorServer]
     /**

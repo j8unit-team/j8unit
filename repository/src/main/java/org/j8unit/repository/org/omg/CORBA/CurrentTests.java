@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.omg.CORBA;
 
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.Current;
 
@@ -25,8 +26,7 @@ import org.omg.CORBA.Current;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrentTests<SUT extends Current>
-extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT> {
+extends CurrentOperationsTests<SUT>, ObjectTests<SUT>, IDLEntityTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.Current]
 

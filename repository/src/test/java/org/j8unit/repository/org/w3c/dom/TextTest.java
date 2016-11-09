@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.Text;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Text} (by simply reusing the J8Unit
+ * test interface {@link TextTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TextTest
-implements org.j8unit.repository.org.w3c.dom.TextTests<Text> {
+implements TextTests<Text> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.Text]
 

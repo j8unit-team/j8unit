@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DoubleSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DoubleSeqHelper} (by simply reusing
+ * the J8Unit test interface {@link DoubleSeqHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DoubleSeqHelperTest
-implements org.j8unit.repository.org.omg.CORBA.DoubleSeqHelperTests<DoubleSeqHelper> {
+implements DoubleSeqHelperTests<DoubleSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DoubleSeqHelper]
 

@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Policy} (by simply reusing the J8Unit
+ * test interface {@link PolicyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyClassTest
-implements org.j8unit.repository.java.security.PolicyClassTests<Policy> {
+implements PolicyClassTests<Policy> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Policy]
 
@@ -154,9 +159,14 @@ implements org.j8unit.repository.java.security.PolicyClassTests<Policy> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.security.Policy]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Parameters} (by simply reusing the
+     * J8Unit test interface {@link ParametersClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ParametersClassTest
-    implements org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests<Parameters> {
+    implements ParametersClassTests<Parameters> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Policy$Parameters]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ActivationExceptionTest
-implements FactoryBasedJ8UnitTest<ActivationException>, org.j8unit.repository.java.rmi.activation.ActivationExceptionTests<ActivationException> {
+implements FactoryBasedJ8UnitTest<ActivationException>, ActivationExceptionTests<ActivationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationException]
 

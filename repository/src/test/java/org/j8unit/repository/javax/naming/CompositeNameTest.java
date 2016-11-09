@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CompositeNameTest
-implements FactoryBasedJ8UnitTest<CompositeName>, org.j8unit.repository.javax.naming.CompositeNameTests<CompositeName> {
+implements FactoryBasedJ8UnitTest<CompositeName>, CompositeNameTests<CompositeName> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.CompositeName]
 

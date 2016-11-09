@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BadPaddingException} (by simply reusing
+ * the J8Unit test interface {@link BadPaddingExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BadPaddingExceptionClassTest
-implements org.j8unit.repository.javax.crypto.BadPaddingExceptionClassTests<BadPaddingException> {
+implements BadPaddingExceptionClassTests<BadPaddingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.BadPaddingException]
 

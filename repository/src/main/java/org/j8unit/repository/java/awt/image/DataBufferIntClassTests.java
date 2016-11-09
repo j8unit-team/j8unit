@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.DataBufferIntTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DataBufferIntTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataBufferIntClassTests<SUT extends DataBufferInt>
-extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
+extends DataBufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.DataBufferInt]
     /**

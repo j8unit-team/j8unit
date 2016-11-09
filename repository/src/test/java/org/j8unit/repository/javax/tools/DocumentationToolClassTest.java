@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentationTool} (by simply reusing the
+ * J8Unit test interface {@link DocumentationToolClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentationToolClassTest
-implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<DocumentationTool> {
+implements DocumentationToolClassTests<DocumentationTool> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool]
 
@@ -25,9 +30,36 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link DocumentationTask} (by simply reusing
+     * the J8Unit test interface {@link DocumentationTaskClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class DocumentationTaskClassTest
+    implements DocumentationTaskClassTests<DocumentationTask> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
+
+        @Override
+        public Class<DocumentationTask> createNewSUT() {
+            return DocumentationTask.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Location} (by simply reusing the
+     * J8Unit test interface {@link LocationClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LocationClassTest
-    implements org.j8unit.repository.javax.tools.DocumentationToolClassTests.LocationClassTests<Location> {
+    implements LocationClassTests<Location> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool$Location]
 
@@ -80,23 +112,6 @@ implements org.j8unit.repository.javax.tools.DocumentationToolClassTests<Documen
         // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$Location]
 
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$Location]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class DocumentationTaskClassTest
-    implements org.j8unit.repository.javax.tools.DocumentationToolClassTests.DocumentationTaskClassTests<DocumentationTask> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
-
-        @Override
-        public Class<DocumentationTask> createNewSUT() {
-            return DocumentationTask.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.tools.DocumentationTool$DocumentationTask]
 
     }
 

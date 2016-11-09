@@ -2,6 +2,7 @@ package org.j8unit.repository.org.w3c.dom.css;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.w3c.dom.views.AbstractViewClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.css.ViewCSS;
@@ -17,8 +18,7 @@ import org.w3c.dom.css.ViewCSS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.ViewCSSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ViewCSSTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.w3c.dom.css.ViewCSS;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ViewCSSClassTests<SUT extends ViewCSS>
-extends org.j8unit.repository.org.w3c.dom.views.AbstractViewClassTests<SUT> {
+extends AbstractViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.ViewCSS]
     /**

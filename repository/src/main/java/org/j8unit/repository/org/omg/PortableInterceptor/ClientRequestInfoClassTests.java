@@ -17,8 +17,7 @@ import org.omg.PortableInterceptor.ClientRequestInfo;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInfoTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ClientRequestInfoTests}.
  * </p>
  *
  * <p>
@@ -47,8 +46,7 @@ import org.omg.PortableInterceptor.ClientRequestInfo;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ClientRequestInfoClassTests<SUT extends ClientRequestInfo>
-extends org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInfoOperationsClassTests<SUT>,
-org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoClassTests<SUT> {
+extends ClientRequestInfoOperationsClassTests<SUT>, RequestInfoClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ClientRequestInfo]
     /**

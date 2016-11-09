@@ -13,8 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IllegalMonitorStateExceptionTest
-implements FactoryBasedJ8UnitTest<IllegalMonitorStateException>,
-org.j8unit.repository.java.lang.IllegalMonitorStateExceptionTests<IllegalMonitorStateException> {
+implements FactoryBasedJ8UnitTest<IllegalMonitorStateException>, IllegalMonitorStateExceptionTests<IllegalMonitorStateException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IllegalMonitorStateException]
 

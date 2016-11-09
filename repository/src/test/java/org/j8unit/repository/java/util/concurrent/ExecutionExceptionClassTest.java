@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ExecutionException} (by simply reusing
+ * the J8Unit test interface {@link ExecutionExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ExecutionExceptionClassTest
-implements org.j8unit.repository.java.util.concurrent.ExecutionExceptionClassTests<ExecutionException> {
+implements ExecutionExceptionClassTests<ExecutionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ExecutionException]
 

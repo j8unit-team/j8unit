@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AttributeModificationExceptionTest
-implements FactoryBasedJ8UnitTest<AttributeModificationException>,
-org.j8unit.repository.javax.naming.directory.AttributeModificationExceptionTests<AttributeModificationException> {
+implements FactoryBasedJ8UnitTest<AttributeModificationException>, AttributeModificationExceptionTests<AttributeModificationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.AttributeModificationException]
 

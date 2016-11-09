@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidRoleValueExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidRoleValueException>,
-org.j8unit.repository.javax.management.relation.InvalidRoleValueExceptionTests<InvalidRoleValueException> {
+implements FactoryBasedJ8UnitTest<InvalidRoleValueException>, InvalidRoleValueExceptionTests<InvalidRoleValueException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.InvalidRoleValueException]
 

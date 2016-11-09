@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JViewportTest
-implements FactoryBasedJ8UnitTest<JViewport>, org.j8unit.repository.javax.swing.JViewportTests<JViewport> {
+implements FactoryBasedJ8UnitTest<JViewport>, JViewportTests<JViewport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JViewport]
 

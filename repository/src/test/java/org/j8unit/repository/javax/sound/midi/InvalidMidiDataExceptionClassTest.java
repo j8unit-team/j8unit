@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidMidiDataException} (by simply
+ * reusing the J8Unit test interface {@link InvalidMidiDataExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidMidiDataExceptionClassTest
-implements org.j8unit.repository.javax.sound.midi.InvalidMidiDataExceptionClassTests<InvalidMidiDataException> {
+implements InvalidMidiDataExceptionClassTests<InvalidMidiDataException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.InvalidMidiDataException]
 

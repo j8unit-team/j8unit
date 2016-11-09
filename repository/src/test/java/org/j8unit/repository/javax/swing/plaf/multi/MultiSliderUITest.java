@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiSliderUITest
-implements FactoryBasedJ8UnitTest<MultiSliderUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiSliderUITests<MultiSliderUI> {
+implements FactoryBasedJ8UnitTest<MultiSliderUI>, MultiSliderUITests<MultiSliderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiSliderUI]
 

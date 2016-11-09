@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiScrollBarUITest
-implements FactoryBasedJ8UnitTest<MultiScrollBarUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiScrollBarUITests<MultiScrollBarUI> {
+implements FactoryBasedJ8UnitTest<MultiScrollBarUI>, MultiScrollBarUITests<MultiScrollBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiScrollBarUI]
 

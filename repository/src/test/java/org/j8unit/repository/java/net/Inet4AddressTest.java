@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Inet4Address} (by simply reusing the
+ * J8Unit test interface {@link Inet4AddressTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Inet4AddressTest
-implements org.j8unit.repository.java.net.Inet4AddressTests<Inet4Address> {
+implements Inet4AddressTests<Inet4Address> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.net.Inet4Address]
 

@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ClassCircularityError} (by simply reusing
+ * the J8Unit test interface {@link ClassCircularityErrorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ClassCircularityErrorClassTest
-implements org.j8unit.repository.java.lang.ClassCircularityErrorClassTests<ClassCircularityError> {
+implements ClassCircularityErrorClassTests<ClassCircularityError> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.ClassCircularityError]
 

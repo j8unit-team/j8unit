@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing.plaf.synth;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.synth.SynthInternalFrameUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.synth.SynthInternalFrameUITests}.
+ * {@link SynthInternalFrameUITests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthInternalFrameUIClassTests<SUT extends SynthInternalFrameUI>
-extends org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
-org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests<SUT> {
+extends SynthUIClassTests<SUT>, PropertyChangeListenerClassTests<SUT>, BasicInternalFrameUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthInternalFrameUI]
     /**

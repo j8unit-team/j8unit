@@ -19,7 +19,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JTableTest
-implements FactoryBasedJ8UnitTest<JTable>, org.j8unit.repository.javax.swing.JTableTests<JTable> {
+implements FactoryBasedJ8UnitTest<JTable>, JTableTests<JTable> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable]
 
@@ -40,9 +40,14 @@ implements FactoryBasedJ8UnitTest<JTable>, org.j8unit.repository.javax.swing.JTa
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.JTable]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DropLocation} (by simply reusing
+     * the J8Unit test interface {@link DropLocationTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DropLocationTest
-    implements org.j8unit.repository.javax.swing.JTableTests.DropLocationTests<DropLocation> {
+    implements DropLocationTests<DropLocation> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$DropLocation]
 
@@ -57,10 +62,15 @@ implements FactoryBasedJ8UnitTest<JTable>, org.j8unit.repository.javax.swing.JTa
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PrintMode} (by simply reusing the
+     * J8Unit test interface {@link PrintModeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class PrintModeTest
-    implements org.j8unit.repository.javax.swing.JTableTests.PrintModeTests<PrintMode> {
+    implements PrintModeTests<PrintMode> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JTable$PrintMode]
 

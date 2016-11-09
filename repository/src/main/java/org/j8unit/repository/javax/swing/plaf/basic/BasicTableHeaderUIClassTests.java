@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicTableHeaderUI;
 import javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests;
+import org.j8unit.repository.javax.swing.plaf.TableHeaderUIClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicTableHeaderUITests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTableHeaderUIClassTests<SUT extends BasicTableHeaderUI>
-extends org.j8unit.repository.javax.swing.plaf.TableHeaderUIClassTests<SUT> {
+extends TableHeaderUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI]
     /**
@@ -114,7 +116,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUIClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerClassTests<SUT extends MouseInputHandler>
-    extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends MouseInputListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler]
         /**

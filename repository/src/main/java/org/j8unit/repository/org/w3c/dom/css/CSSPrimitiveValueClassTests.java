@@ -17,8 +17,7 @@ import org.w3c.dom.css.CSSPrimitiveValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.css.CSSPrimitiveValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CSSPrimitiveValueTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.css.CSSPrimitiveValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSPrimitiveValueClassTests<SUT extends CSSPrimitiveValue>
-extends org.j8unit.repository.org.w3c.dom.css.CSSValueClassTests<SUT> {
+extends CSSValueClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.css.CSSPrimitiveValue]
     /**

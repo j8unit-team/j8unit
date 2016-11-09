@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JDialogTest
-implements FactoryBasedJ8UnitTest<JDialog>, org.j8unit.repository.javax.swing.JDialogTests<JDialog> {
+implements FactoryBasedJ8UnitTest<JDialog>, JDialogTests<JDialog> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JDialog]
 

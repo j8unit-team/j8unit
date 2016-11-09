@@ -14,7 +14,7 @@ import org.omg.CORBA.FixedHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FixedHolderTest
-implements FactoryBasedJ8UnitTest<FixedHolder>, org.j8unit.repository.org.omg.CORBA.FixedHolderTests<FixedHolder> {
+implements FactoryBasedJ8UnitTest<FixedHolder>, FixedHolderTests<FixedHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.FixedHolder]
 

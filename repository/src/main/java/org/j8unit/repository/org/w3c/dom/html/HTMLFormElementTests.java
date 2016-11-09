@@ -17,7 +17,7 @@ import org.w3c.dom.html.HTMLFormElement;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLFormElementClassTests}).
+ * {@link HTMLFormElementClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.html.HTMLFormElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLFormElementTests<SUT extends HTMLFormElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
+extends HTMLElementTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLFormElement]
 

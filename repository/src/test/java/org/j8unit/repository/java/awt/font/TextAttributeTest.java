@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TextAttribute} (by simply reusing the
+ * J8Unit test interface {@link TextAttributeTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TextAttributeTest
-implements org.j8unit.repository.java.awt.font.TextAttributeTests<TextAttribute> {
+implements TextAttributeTests<TextAttribute> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.font.TextAttribute]
 

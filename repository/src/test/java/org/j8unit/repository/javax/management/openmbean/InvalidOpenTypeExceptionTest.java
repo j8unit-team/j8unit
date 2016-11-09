@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidOpenTypeExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidOpenTypeException>,
-org.j8unit.repository.javax.management.openmbean.InvalidOpenTypeExceptionTests<InvalidOpenTypeException> {
+implements FactoryBasedJ8UnitTest<InvalidOpenTypeException>, InvalidOpenTypeExceptionTests<InvalidOpenTypeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.InvalidOpenTypeException]
 

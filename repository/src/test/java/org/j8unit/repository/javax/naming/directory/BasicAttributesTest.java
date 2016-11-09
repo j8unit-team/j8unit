@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicAttributesTest
-implements FactoryBasedJ8UnitTest<BasicAttributes>, org.j8unit.repository.javax.naming.directory.BasicAttributesTests<BasicAttributes> {
+implements FactoryBasedJ8UnitTest<BasicAttributes>, BasicAttributesTests<BasicAttributes> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.BasicAttributes]
 

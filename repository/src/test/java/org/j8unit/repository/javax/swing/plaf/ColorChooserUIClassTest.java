@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ColorChooserUI} (by simply reusing the
+ * J8Unit test interface {@link ColorChooserUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ColorChooserUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<ColorChooserUI> {
+implements ColorChooserUIClassTests<ColorChooserUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.ColorChooserUI]
 

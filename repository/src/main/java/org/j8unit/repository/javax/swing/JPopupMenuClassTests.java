@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.JPopupMenu;
 import javax.swing.JPopupMenu.Separator;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.accessibility.AccessibleClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JPopupMenuTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JPopupMenuTests}.
  * </p>
  *
  * <p>
@@ -49,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPopupMenuClassTests<SUT extends JPopupMenu>
-extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.MenuElementClassTests<SUT>,
-org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
+extends AccessibleClassTests<SUT>, MenuElementClassTests<SUT>, JComponentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JPopupMenu]
     /**
@@ -115,7 +114,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SeparatorClassTests<SUT extends Separator>
-    extends org.j8unit.repository.javax.swing.JSeparatorClassTests<SUT> {
+    extends JSeparatorClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JPopupMenu$Separator]
         /**

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DriverManager} (by simply reusing the
+ * J8Unit test interface {@link DriverManagerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DriverManagerTest
-implements org.j8unit.repository.java.sql.DriverManagerTests<DriverManager> {
+implements DriverManagerTests<DriverManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.DriverManager]
 

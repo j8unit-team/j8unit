@@ -10,15 +10,42 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link QuadCurve2D} (by simply reusing the
+ * J8Unit test interface {@link QuadCurve2DClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class QuadCurve2DClassTest
-implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D> {
+implements QuadCurve2DClassTests<QuadCurve2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.QuadCurve2D]
 
     @Override
     public Class<QuadCurve2D> createNewSUT() {
         return QuadCurve2D.class;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.geom.QuadCurve2D#getFlatness(double, double, double, double, double, double) public static double
+     * java.awt.geom.QuadCurve2D.getFlatness(double,double,double,double,double,double)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getFlatness_double_double_double_double_double_double()
+    throws Exception {
+        // write some test for {@link java.awt.geom.QuadCurve2D#getFlatness(double, double, double, double, double,
+        // double)}
     }
 
     /**
@@ -44,8 +71,8 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.QuadCurve2D#getFlatness(double, double, double, double, double, double) public static double
-     * java.awt.geom.QuadCurve2D.getFlatness(double,double,double,double,double,double)}.
+     * {@link java.awt.geom.QuadCurve2D#getFlatnessSq(double[], int) public static double
+     * java.awt.geom.QuadCurve2D.getFlatnessSq(double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -57,10 +84,9 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getFlatness_double_double_double_double_double_double()
+    public void test_getFlatnessSq_doubleArray_int()
     throws Exception {
-        // write some test for {@link java.awt.geom.QuadCurve2D#getFlatness(double, double, double, double, double,
-        // double)}
+        // write some test for {@link java.awt.geom.QuadCurve2D#getFlatnessSq(double[], int)}
     }
 
     /**
@@ -88,8 +114,8 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.QuadCurve2D#getFlatnessSq(double[], int) public static double
-     * java.awt.geom.QuadCurve2D.getFlatnessSq(double[],int)}.
+     * {@link java.awt.geom.QuadCurve2D#subdivide(double[], int, double[], int, double[], int) public static void
+     * java.awt.geom.QuadCurve2D.subdivide(double[],int,double[],int,double[],int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -101,9 +127,9 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_getFlatnessSq_doubleArray_int()
+    public void test_subdivide_doubleArray_int_doubleArray_int_doubleArray_int()
     throws Exception {
-        // write some test for {@link java.awt.geom.QuadCurve2D#getFlatnessSq(double[], int)}
+        // write some test for {@link java.awt.geom.QuadCurve2D#subdivide(double[], int, double[], int, double[], int)}
     }
 
     /**
@@ -131,9 +157,8 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.geom.QuadCurve2D#subdivide(double[], int, double[], int, double[], int) public static void
-     * java.awt.geom.QuadCurve2D.subdivide(double[],int,double[],int,double[],int)}.
+     * Test method for the hereby targeted method-under-test {@link java.awt.geom.QuadCurve2D#solveQuadratic(double[])
+     * public static int java.awt.geom.QuadCurve2D.solveQuadratic(double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -145,9 +170,9 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void test_subdivide_doubleArray_int_doubleArray_int_doubleArray_int()
+    public void test_solveQuadratic_doubleArray()
     throws Exception {
-        // write some test for {@link java.awt.geom.QuadCurve2D#subdivide(double[], int, double[], int, double[], int)}
+        // write some test for {@link java.awt.geom.QuadCurve2D#solveQuadratic(double[])}
     }
 
     /**
@@ -171,29 +196,14 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
         // write some test for {@link java.awt.geom.QuadCurve2D#solveQuadratic(double[], double[])}
     }
 
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.geom.QuadCurve2D#solveQuadratic(double[])
-     * public static int java.awt.geom.QuadCurve2D.solveQuadratic(double[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_solveQuadratic_doubleArray()
-    throws Exception {
-        // write some test for {@link java.awt.geom.QuadCurve2D#solveQuadratic(double[])}
-    }
-
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.QuadCurve2D]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.QuadCurve2D]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.FloatClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
@@ -255,6 +265,11 @@ implements org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests<QuadCurve2D
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.QuadCurve2D$Float]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.QuadCurve2DClassTests.DoubleClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ExceptionListener} (by simply reusing
+ * the J8Unit test interface {@link ExceptionListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ExceptionListenerTest
-implements org.j8unit.repository.java.beans.ExceptionListenerTests<ExceptionListener> {
+implements ExceptionListenerTests<ExceptionListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.ExceptionListener]
 

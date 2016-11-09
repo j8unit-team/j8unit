@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LongBuffer} (by simply reusing the J8Unit
+ * test interface {@link LongBufferClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LongBufferClassTest
-implements org.j8unit.repository.java.nio.LongBufferClassTests<LongBuffer> {
+implements LongBufferClassTests<LongBuffer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.LongBuffer]
 

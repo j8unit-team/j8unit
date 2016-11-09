@@ -5,6 +5,9 @@ import java.awt.Dialog;
 import java.awt.Dialog.ModalExclusionType;
 import java.awt.Dialog.ModalityType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests;
+import org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +23,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.DialogTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DialogTests}.
  * </p>
  *
  * <p>
@@ -50,7 +52,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DialogClassTests<SUT extends Dialog>
-extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
+extends WindowClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Dialog]
     /**
@@ -86,7 +88,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests}.
+     * {@link ModalExclusionTypeTests}.
      * </p>
      *
      * <p>
@@ -115,7 +117,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalExclusionTypeClassTests<SUT extends ModalExclusionType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Dialog$ModalExclusionType]
         /**
@@ -152,8 +154,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ModalityTypeTests}.
      * </p>
      *
      * <p>
@@ -182,7 +183,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalityTypeClassTests<SUT extends ModalityType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Dialog$ModalityType]
         /**

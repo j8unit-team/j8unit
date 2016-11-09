@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotificationFilterSupportTest
-implements FactoryBasedJ8UnitTest<NotificationFilterSupport>, org.j8unit.repository.javax.management.NotificationFilterSupportTests<NotificationFilterSupport> {
+implements FactoryBasedJ8UnitTest<NotificationFilterSupport>, NotificationFilterSupportTests<NotificationFilterSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotificationFilterSupport]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SSLParametersTest
-implements FactoryBasedJ8UnitTest<SSLParameters>, org.j8unit.repository.javax.net.ssl.SSLParametersTests<SSLParameters> {
+implements FactoryBasedJ8UnitTest<SSLParameters>, SSLParametersTests<SSLParameters> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.SSLParameters]
 

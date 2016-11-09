@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.xml.sax.XMLReader;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XMLReader} (by simply reusing the
+ * J8Unit test interface {@link XMLReaderTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XMLReaderTest
-implements org.j8unit.repository.org.xml.sax.XMLReaderTests<XMLReader> {
+implements XMLReaderTests<XMLReader> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.XMLReader]
 

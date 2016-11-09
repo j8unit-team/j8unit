@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Void} (by simply reusing the J8Unit
+ * test interface {@link VoidTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VoidTest
-implements org.j8unit.repository.java.lang.VoidTests<Void> {
+implements VoidTests<Void> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Void]
 

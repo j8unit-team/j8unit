@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.im;
 import static org.junit.Assert.assertTrue;
 import java.awt.im.InputSubset;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.im.InputSubsetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InputSubsetTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputSubsetClassTests<SUT extends InputSubset>
-extends org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests<SUT> {
+extends SubsetClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.im.InputSubset]
     /**

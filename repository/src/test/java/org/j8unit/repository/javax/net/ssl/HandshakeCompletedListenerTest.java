@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HandshakeCompletedListener} (by
+ * simply reusing the J8Unit test interface {@link HandshakeCompletedListenerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HandshakeCompletedListenerTest
-implements org.j8unit.repository.javax.net.ssl.HandshakeCompletedListenerTests<HandshakeCompletedListener> {
+implements HandshakeCompletedListenerTests<HandshakeCompletedListener> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.net.ssl.HandshakeCompletedListener]
 

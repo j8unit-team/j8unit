@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CosNaming;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.DynamicImplementationClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming._BindingIteratorImplBase;
@@ -18,7 +19,7 @@ import org.omg.CosNaming._BindingIteratorImplBase;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming._BindingIteratorImplBaseTests}.
+ * {@link _BindingIteratorImplBaseTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CosNaming._BindingIteratorImplBase;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _BindingIteratorImplBaseClassTests<SUT extends _BindingIteratorImplBase>
-extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynamicImplementationClassTests<SUT> {
+extends BindingIteratorClassTests<SUT>, DynamicImplementationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming._BindingIteratorImplBase]
     /**

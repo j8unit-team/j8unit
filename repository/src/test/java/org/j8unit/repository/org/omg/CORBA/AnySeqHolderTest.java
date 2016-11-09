@@ -14,7 +14,7 @@ import org.omg.CORBA.AnySeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AnySeqHolderTest
-implements FactoryBasedJ8UnitTest<AnySeqHolder>, org.j8unit.repository.org.omg.CORBA.AnySeqHolderTests<AnySeqHolder> {
+implements FactoryBasedJ8UnitTest<AnySeqHolder>, AnySeqHolderTests<AnySeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.AnySeqHolder]
 

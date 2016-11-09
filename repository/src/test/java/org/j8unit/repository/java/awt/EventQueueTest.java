@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class EventQueueTest
-implements FactoryBasedJ8UnitTest<EventQueue>, org.j8unit.repository.java.awt.EventQueueTests<EventQueue> {
+implements FactoryBasedJ8UnitTest<EventQueue>, EventQueueTests<EventQueue> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.EventQueue]
 

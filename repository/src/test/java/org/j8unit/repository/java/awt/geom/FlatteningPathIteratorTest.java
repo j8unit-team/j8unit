@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FlatteningPathIterator} (by simply
+ * reusing the J8Unit test interface {@link FlatteningPathIteratorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FlatteningPathIteratorTest
-implements org.j8unit.repository.java.awt.geom.FlatteningPathIteratorTests<FlatteningPathIterator> {
+implements FlatteningPathIteratorTests<FlatteningPathIterator> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.FlatteningPathIterator]
 

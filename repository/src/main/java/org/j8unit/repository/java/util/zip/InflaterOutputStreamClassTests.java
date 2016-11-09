@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.zip;
 import static org.junit.Assert.assertTrue;
 import java.util.zip.InflaterOutputStream;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.FilterOutputStreamClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.zip.InflaterOutputStreamTests}.
+ * {@link InflaterOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InflaterOutputStreamClassTests<SUT extends InflaterOutputStream>
-extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
+extends FilterOutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.InflaterOutputStream]
     /**

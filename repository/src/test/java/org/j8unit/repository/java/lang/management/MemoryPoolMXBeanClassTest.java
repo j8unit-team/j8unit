@@ -4,9 +4,14 @@ import java.lang.management.MemoryPoolMXBean;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MemoryPoolMXBean} (by simply reusing the
+ * J8Unit test interface {@link MemoryPoolMXBeanClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MemoryPoolMXBeanClassTest
-implements org.j8unit.repository.java.lang.management.MemoryPoolMXBeanClassTests<MemoryPoolMXBean> {
+implements MemoryPoolMXBeanClassTests<MemoryPoolMXBean> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.management.MemoryPoolMXBean]
 

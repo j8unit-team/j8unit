@@ -3,6 +3,7 @@ package org.j8unit.repository.java.util.concurrent.atomic;
 import static org.junit.Assert.assertTrue;
 import java.util.concurrent.atomic.LongAccumulator;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.NumberClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.atomic.LongAccumulatorTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LongAccumulatorTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongAccumulatorClassTests<SUT extends LongAccumulator>
-extends org.j8unit.repository.java.lang.NumberClassTests<SUT> {
+extends NumberClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.atomic.LongAccumulator]
     /**

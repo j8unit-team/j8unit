@@ -3,6 +3,7 @@ package org.j8unit.repository.java.lang.reflect;
 import static org.junit.Assert.assertTrue;
 import java.lang.reflect.InvocationTargetException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionTests}.
+ * {@link InvocationTargetExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvocationTargetExceptionClassTests<SUT extends InvocationTargetException>
-extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<SUT> {
+extends ReflectiveOperationExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.InvocationTargetException]
     /**

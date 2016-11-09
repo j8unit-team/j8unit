@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultColorSelectionModelTest
-implements FactoryBasedJ8UnitTest<DefaultColorSelectionModel>,
-org.j8unit.repository.javax.swing.colorchooser.DefaultColorSelectionModelTests<DefaultColorSelectionModel> {
+implements FactoryBasedJ8UnitTest<DefaultColorSelectionModel>, DefaultColorSelectionModelTests<DefaultColorSelectionModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.colorchooser.DefaultColorSelectionModel]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ValidationEventLocatorImplTest
-implements FactoryBasedJ8UnitTest<ValidationEventLocatorImpl>,
-org.j8unit.repository.javax.xml.bind.helpers.ValidationEventLocatorImplTests<ValidationEventLocatorImpl> {
+implements FactoryBasedJ8UnitTest<ValidationEventLocatorImpl>, ValidationEventLocatorImplTests<ValidationEventLocatorImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.ValidationEventLocatorImpl]
 

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.RunnableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RunnableTests}.
  * </p>
  *
  * <p>

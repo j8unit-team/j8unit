@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.lang.invoke.MutableCallSiteClassTests}).
+ * {@link MutableCallSiteClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MutableCallSiteTests<SUT extends MutableCallSite>
-extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
+extends CallSiteTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.MutableCallSite]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.management.remote;
 import static org.junit.Assert.assertTrue;
 import javax.management.remote.JMXConnectorFactory;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.management.remote.JMXConnectorFactoryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JMXConnectorFactoryTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMXConnectorFactoryClassTests<SUT extends JMXConnectorFactory>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXConnectorFactory]
     /**

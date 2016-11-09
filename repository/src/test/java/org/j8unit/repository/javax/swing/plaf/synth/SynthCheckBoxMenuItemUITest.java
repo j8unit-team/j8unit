@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthCheckBoxMenuItemUITest
-implements FactoryBasedJ8UnitTest<SynthCheckBoxMenuItemUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthCheckBoxMenuItemUITests<SynthCheckBoxMenuItemUI> {
+implements FactoryBasedJ8UnitTest<SynthCheckBoxMenuItemUI>, SynthCheckBoxMenuItemUITests<SynthCheckBoxMenuItemUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthCheckBoxMenuItemUI]
 

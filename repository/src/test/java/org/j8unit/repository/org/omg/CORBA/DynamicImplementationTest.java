@@ -14,7 +14,7 @@ import org.omg.CORBA.DynamicImplementation;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DynamicImplementationTest
-implements FactoryBasedJ8UnitTest<DynamicImplementation>, org.j8unit.repository.org.omg.CORBA.DynamicImplementationTests<DynamicImplementation> {
+implements FactoryBasedJ8UnitTest<DynamicImplementation>, DynamicImplementationTests<DynamicImplementation> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynamicImplementation]
 

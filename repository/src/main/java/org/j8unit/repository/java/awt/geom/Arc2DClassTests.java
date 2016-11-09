@@ -5,6 +5,7 @@ import java.awt.geom.Arc2D;
 import java.awt.geom.Arc2D.Double;
 import java.awt.geom.Arc2D.Float;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.geom.Arc2DTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link Arc2DTests}.
  * </p>
  *
  * <p>
@@ -50,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Arc2DClassTests<SUT extends Arc2D>
-extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
+extends RectangularShapeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Arc2D]
     /**
@@ -114,7 +114,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Double>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
+    extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Arc2D$Double]
         /**
@@ -181,7 +181,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Float>
-    extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
+    extends SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Arc2D$Float]
         /**

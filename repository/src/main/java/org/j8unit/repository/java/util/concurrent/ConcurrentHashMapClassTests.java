@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentHashMap.KeySetView;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.util.AbstractMapClassTests;
+import org.j8unit.repository.java.util.SetClassTests;
+import org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ConcurrentHashMapTests}.
  * </p>
  *
  * <p>
@@ -49,8 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentHashMapClassTests<SUT extends ConcurrentHashMap>
-extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
+extends ConcurrentMapClassTests<SUT>, SerializableClassTests<SUT>, AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentHashMap]
     /**
@@ -85,8 +88,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.ConcurrentHashMapTests.KeySetViewTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link KeySetViewTests}.
      * </p>
      *
      * <p>
@@ -115,8 +117,7 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeySetViewClassTests<SUT extends KeySetView>
-    extends org.j8unit.repository.java.util.SetClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends SetClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.ConcurrentHashMap$KeySetView]
         /**

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.ValidationExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ValidationExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValidationExceptionClassTests<SUT extends ValidationException>
-extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
+extends JAXBExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.ValidationException]
     /**

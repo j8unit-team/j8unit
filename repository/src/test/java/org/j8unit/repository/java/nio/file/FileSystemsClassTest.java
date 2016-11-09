@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FileSystems} (by simply reusing the
+ * J8Unit test interface {@link FileSystemsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileSystemsClassTest
-implements org.j8unit.repository.java.nio.file.FileSystemsClassTests<FileSystems> {
+implements FileSystemsClassTests<FileSystems> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.FileSystems]
 

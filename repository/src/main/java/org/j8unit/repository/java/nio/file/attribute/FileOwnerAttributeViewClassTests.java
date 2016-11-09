@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests}.
+ * {@link FileOwnerAttributeViewTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileOwnerAttributeViewClassTests<SUT extends FileOwnerAttributeView>
-extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewClassTests<SUT> {
+extends FileAttributeViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.attribute.FileOwnerAttributeView]
     /**

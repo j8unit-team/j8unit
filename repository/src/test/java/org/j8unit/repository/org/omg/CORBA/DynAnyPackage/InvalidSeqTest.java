@@ -14,7 +14,7 @@ import org.omg.CORBA.DynAnyPackage.InvalidSeq;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidSeqTest
-implements FactoryBasedJ8UnitTest<InvalidSeq>, org.j8unit.repository.org.omg.CORBA.DynAnyPackage.InvalidSeqTests<InvalidSeq> {
+implements FactoryBasedJ8UnitTest<InvalidSeq>, InvalidSeqTests<InvalidSeq> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynAnyPackage.InvalidSeq]
 

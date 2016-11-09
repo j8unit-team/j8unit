@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultValidationEventHandlerTest
-implements FactoryBasedJ8UnitTest<DefaultValidationEventHandler>,
-org.j8unit.repository.javax.xml.bind.helpers.DefaultValidationEventHandlerTests<DefaultValidationEventHandler> {
+implements FactoryBasedJ8UnitTest<DefaultValidationEventHandler>, DefaultValidationEventHandlerTests<DefaultValidationEventHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.helpers.DefaultValidationEventHandler]
 

@@ -18,8 +18,7 @@ import org.omg.CORBA.portable.ValueFactory;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.ValueFactoryTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ValueFactoryTests}.
  * </p>
  *
  * <p>

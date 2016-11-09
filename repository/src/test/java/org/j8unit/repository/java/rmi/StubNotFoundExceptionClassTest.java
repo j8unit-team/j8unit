@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StubNotFoundException} (by simply reusing
+ * the J8Unit test interface {@link StubNotFoundExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StubNotFoundExceptionClassTest
-implements org.j8unit.repository.java.rmi.StubNotFoundExceptionClassTests<StubNotFoundException> {
+implements StubNotFoundExceptionClassTests<StubNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.StubNotFoundException]
 

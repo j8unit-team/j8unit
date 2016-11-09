@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Dictionary} (by simply reusing the J8Unit
+ * test interface {@link DictionaryClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class DictionaryClassTest
-implements org.j8unit.repository.java.util.DictionaryClassTests<Dictionary> {
+implements DictionaryClassTests<Dictionary> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Dictionary]
 

@@ -18,7 +18,7 @@ import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.TRANSACTION_UNAVAILABLETests}.
+ * {@link TRANSACTION_UNAVAILABLETests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.TRANSACTION_UNAVAILABLE;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TRANSACTION_UNAVAILABLEClassTests<SUT extends TRANSACTION_UNAVAILABLE>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TRANSACTION_UNAVAILABLE]
     /**

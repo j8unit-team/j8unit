@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.PrintWriterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrintWriterTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintWriterClassTests<SUT extends PrintWriter>
-extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
+extends WriterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PrintWriter]
     /**

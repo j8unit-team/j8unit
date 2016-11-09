@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.BandedSampleModelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BandedSampleModelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BandedSampleModelClassTests<SUT extends BandedSampleModel>
-extends org.j8unit.repository.java.awt.image.ComponentSampleModelClassTests<SUT> {
+extends ComponentSampleModelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.BandedSampleModel]
     /**

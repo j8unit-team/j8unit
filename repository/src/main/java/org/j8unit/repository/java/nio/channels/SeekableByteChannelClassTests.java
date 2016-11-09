@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.channels.SeekableByteChannelTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SeekableByteChannelTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SeekableByteChannelClassTests<SUT extends SeekableByteChannel>
-extends org.j8unit.repository.java.nio.channels.ByteChannelClassTests<SUT> {
+extends ByteChannelClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.channels.SeekableByteChannel]
     /**

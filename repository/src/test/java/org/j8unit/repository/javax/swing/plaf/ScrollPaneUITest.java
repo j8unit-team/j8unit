@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ScrollPaneUI} (by simply reusing the
+ * J8Unit test interface {@link ScrollPaneUITests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ScrollPaneUITest
-implements org.j8unit.repository.javax.swing.plaf.ScrollPaneUITests<ScrollPaneUI> {
+implements ScrollPaneUITests<ScrollPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.ScrollPaneUI]
 

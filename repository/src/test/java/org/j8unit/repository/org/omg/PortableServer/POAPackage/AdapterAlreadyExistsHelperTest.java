@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AdapterAlreadyExistsHelper} (by
+ * simply reusing the J8Unit test interface {@link AdapterAlreadyExistsHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AdapterAlreadyExistsHelperTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelperTests<AdapterAlreadyExistsHelper> {
+implements AdapterAlreadyExistsHelperTests<AdapterAlreadyExistsHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAPackage.AdapterAlreadyExistsHelper]
 

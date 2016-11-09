@@ -14,7 +14,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DuplicateNameTest
-implements FactoryBasedJ8UnitTest<DuplicateName>, org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameTests<DuplicateName> {
+implements FactoryBasedJ8UnitTest<DuplicateName>, DuplicateNameTests<DuplicateName> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName]
 

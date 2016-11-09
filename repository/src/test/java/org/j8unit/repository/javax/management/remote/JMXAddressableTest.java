@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link JMXAddressable} (by simply reusing
+ * the J8Unit test interface {@link JMXAddressableTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMXAddressableTest
-implements org.j8unit.repository.javax.management.remote.JMXAddressableTests<JMXAddressable> {
+implements JMXAddressableTests<JMXAddressable> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.JMXAddressable]
 

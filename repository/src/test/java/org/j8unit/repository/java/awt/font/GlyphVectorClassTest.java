@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GlyphVector} (by simply reusing the
+ * J8Unit test interface {@link GlyphVectorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GlyphVectorClassTest
-implements org.j8unit.repository.java.awt.font.GlyphVectorClassTests<GlyphVector> {
+implements GlyphVectorClassTests<GlyphVector> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.GlyphVector]
 

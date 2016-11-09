@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DateFormatSymbolsTest
-implements FactoryBasedJ8UnitTest<DateFormatSymbols>, org.j8unit.repository.java.text.DateFormatSymbolsTests<DateFormatSymbols> {
+implements FactoryBasedJ8UnitTest<DateFormatSymbols>, DateFormatSymbolsTests<DateFormatSymbols> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.DateFormatSymbols]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidTargetObjectTypeExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidTargetObjectTypeException>,
-org.j8unit.repository.javax.management.modelmbean.InvalidTargetObjectTypeExceptionTests<InvalidTargetObjectTypeException> {
+implements FactoryBasedJ8UnitTest<InvalidTargetObjectTypeException>, InvalidTargetObjectTypeExceptionTests<InvalidTargetObjectTypeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.InvalidTargetObjectTypeException]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OceanTheme} (by simply reusing the J8Unit
+ * test interface {@link OceanThemeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OceanThemeClassTest
-implements org.j8unit.repository.javax.swing.plaf.metal.OceanThemeClassTests<OceanTheme> {
+implements OceanThemeClassTests<OceanTheme> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.OceanTheme]
 

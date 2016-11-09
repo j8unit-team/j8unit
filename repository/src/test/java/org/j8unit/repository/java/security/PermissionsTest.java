@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PermissionsTest
-implements FactoryBasedJ8UnitTest<Permissions>, org.j8unit.repository.java.security.PermissionsTests<Permissions> {
+implements FactoryBasedJ8UnitTest<Permissions>, PermissionsTests<Permissions> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.Permissions]
 

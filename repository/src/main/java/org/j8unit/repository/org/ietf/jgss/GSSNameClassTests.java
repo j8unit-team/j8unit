@@ -18,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.ietf.jgss.GSSNameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link GSSNameTests}.
  * </p>
  *
  * <p>

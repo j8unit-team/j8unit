@@ -4,9 +4,14 @@ import java.sql.RowId;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RowId} (by simply reusing the J8Unit test
+ * interface {@link RowIdClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RowIdClassTest
-implements org.j8unit.repository.java.sql.RowIdClassTests<RowId> {
+implements RowIdClassTests<RowId> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.RowId]
 

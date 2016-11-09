@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SecureRandomSpi} (by simply reusing the
+ * J8Unit test interface {@link SecureRandomSpiClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SecureRandomSpiClassTest
-implements org.j8unit.repository.java.security.SecureRandomSpiClassTests<SecureRandomSpi> {
+implements SecureRandomSpiClassTests<SecureRandomSpi> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.SecureRandomSpi]
 

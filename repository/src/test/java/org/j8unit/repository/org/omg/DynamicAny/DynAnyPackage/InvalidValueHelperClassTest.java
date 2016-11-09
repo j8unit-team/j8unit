@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidValueHelper} (by simply reusing
+ * the J8Unit test interface {@link InvalidValueHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidValueHelperClassTest
-implements org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueHelperClassTests<InvalidValueHelper> {
+implements InvalidValueHelperClassTests<InvalidValueHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper]
 

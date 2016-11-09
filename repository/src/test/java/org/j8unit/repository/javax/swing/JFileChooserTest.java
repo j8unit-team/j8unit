@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JFileChooserTest
-implements FactoryBasedJ8UnitTest<JFileChooser>, org.j8unit.repository.javax.swing.JFileChooserTests<JFileChooser> {
+implements FactoryBasedJ8UnitTest<JFileChooser>, JFileChooserTests<JFileChooser> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JFileChooser]
 

@@ -14,7 +14,7 @@ import org.omg.PortableServer.POAManagerPackage.AdapterInactive;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AdapterInactiveTest
-implements FactoryBasedJ8UnitTest<AdapterInactive>, org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.AdapterInactiveTests<AdapterInactive> {
+implements FactoryBasedJ8UnitTest<AdapterInactive>, AdapterInactiveTests<AdapterInactive> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.POAManagerPackage.AdapterInactive]
 

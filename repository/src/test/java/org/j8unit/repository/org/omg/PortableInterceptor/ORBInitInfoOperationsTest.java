@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ORBInitInfoOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ORBInitInfoOperations} (by simply
+ * reusing the J8Unit test interface {@link ORBInitInfoOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ORBInitInfoOperationsTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoOperationsTests<ORBInitInfoOperations> {
+implements ORBInitInfoOperationsTests<ORBInitInfoOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ORBInitInfoOperations]
 

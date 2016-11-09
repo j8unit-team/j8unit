@@ -13,8 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnsupportedClassVersionErrorTest
-implements FactoryBasedJ8UnitTest<UnsupportedClassVersionError>,
-org.j8unit.repository.java.lang.UnsupportedClassVersionErrorTests<UnsupportedClassVersionError> {
+implements FactoryBasedJ8UnitTest<UnsupportedClassVersionError>, UnsupportedClassVersionErrorTests<UnsupportedClassVersionError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.UnsupportedClassVersionError]
 

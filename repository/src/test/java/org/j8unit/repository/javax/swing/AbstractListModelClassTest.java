@@ -9,10 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractListModel} (by simply reusing the
+ * J8Unit test interface {@link AbstractListModelClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class AbstractListModelClassTest
-implements org.j8unit.repository.javax.swing.AbstractListModelClassTests<AbstractListModel> {
+implements AbstractListModelClassTests<AbstractListModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.AbstractListModel]
 

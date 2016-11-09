@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CredentialNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<CredentialNotFoundException>,
-org.j8unit.repository.javax.security.auth.login.CredentialNotFoundExceptionTests<CredentialNotFoundException> {
+implements FactoryBasedJ8UnitTest<CredentialNotFoundException>, CredentialNotFoundExceptionTests<CredentialNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.CredentialNotFoundException]
 

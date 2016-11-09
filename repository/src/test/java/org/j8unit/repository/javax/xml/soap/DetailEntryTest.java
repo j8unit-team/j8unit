@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DetailEntry} (by simply reusing the
+ * J8Unit test interface {@link DetailEntryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DetailEntryTest
-implements org.j8unit.repository.javax.xml.soap.DetailEntryTests<DetailEntry> {
+implements DetailEntryTests<DetailEntry> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.DetailEntry]
 

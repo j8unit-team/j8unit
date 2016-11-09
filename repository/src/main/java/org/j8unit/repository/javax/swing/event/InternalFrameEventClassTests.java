@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing.event;
 import static org.junit.Assert.assertTrue;
 import javax.swing.event.InternalFrameEvent;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.AWTEventClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.event.InternalFrameEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link InternalFrameEventTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InternalFrameEventClassTests<SUT extends InternalFrameEvent>
-extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
+extends AWTEventClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.InternalFrameEvent]
     /**

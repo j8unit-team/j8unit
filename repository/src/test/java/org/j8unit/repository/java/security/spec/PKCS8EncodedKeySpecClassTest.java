@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PKCS8EncodedKeySpec} (by simply reusing
+ * the J8Unit test interface {@link PKCS8EncodedKeySpecClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PKCS8EncodedKeySpecClassTest
-implements org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecClassTests<PKCS8EncodedKeySpec> {
+implements PKCS8EncodedKeySpecClassTests<PKCS8EncodedKeySpec> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.spec.PKCS8EncodedKeySpec]
 

@@ -3,6 +3,9 @@ package org.j8unit.repository.java.time;
 import static org.junit.Assert.assertTrue;
 import java.time.ZoneOffset;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ComparableClassTests;
+import org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests;
+import org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.ZoneOffsetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ZoneOffsetTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneOffsetClassTests<SUT extends ZoneOffset>
-extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.time.ZoneIdClassTests<SUT> {
+extends TemporalAccessorClassTests<SUT>, TemporalAdjusterClassTests<SUT>, ComparableClassTests<SUT>, ZoneIdClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.ZoneOffset]
     /**

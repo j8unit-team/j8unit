@@ -14,7 +14,7 @@ import org.omg.CORBA.NO_RESPONSE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NO_RESPONSETest
-implements FactoryBasedJ8UnitTest<NO_RESPONSE>, org.j8unit.repository.org.omg.CORBA.NO_RESPONSETests<NO_RESPONSE> {
+implements FactoryBasedJ8UnitTest<NO_RESPONSE>, NO_RESPONSETests<NO_RESPONSE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.NO_RESPONSE]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PointTest
-implements FactoryBasedJ8UnitTest<Point>, org.j8unit.repository.java.awt.PointTests<Point> {
+implements FactoryBasedJ8UnitTest<Point>, PointTests<Point> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Point]
 

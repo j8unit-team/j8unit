@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.lang.reflect.TypeVariableTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TypeVariableTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeVariableClassTests<SUT extends TypeVariable>
-extends org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT>, org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<SUT> {
+extends TypeClassTests<SUT>, AnnotatedElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.TypeVariable]
     /**

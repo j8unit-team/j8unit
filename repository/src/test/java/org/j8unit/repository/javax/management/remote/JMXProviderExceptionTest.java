@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JMXProviderExceptionTest
-implements FactoryBasedJ8UnitTest<JMXProviderException>, org.j8unit.repository.javax.management.remote.JMXProviderExceptionTests<JMXProviderException> {
+implements FactoryBasedJ8UnitTest<JMXProviderException>, JMXProviderExceptionTests<JMXProviderException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.JMXProviderException]
 

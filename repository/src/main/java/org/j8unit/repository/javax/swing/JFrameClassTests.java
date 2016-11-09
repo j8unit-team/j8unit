@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.swing;
 import static org.junit.Assert.assertTrue;
 import javax.swing.JFrame;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.FrameClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JFrameTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JFrameTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JFrameClassTests<SUT extends JFrame>
-extends org.j8unit.repository.javax.swing.WindowConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>,
-org.j8unit.repository.java.awt.FrameClassTests<SUT> {
+extends WindowConstantsClassTests<SUT>, RootPaneContainerClassTests<SUT>, FrameClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JFrame]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ActionMapUIResourceTest
-implements FactoryBasedJ8UnitTest<ActionMapUIResource>, org.j8unit.repository.javax.swing.plaf.ActionMapUIResourceTests<ActionMapUIResource> {
+implements FactoryBasedJ8UnitTest<ActionMapUIResource>, ActionMapUIResourceTests<ActionMapUIResource> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.ActionMapUIResource]
 

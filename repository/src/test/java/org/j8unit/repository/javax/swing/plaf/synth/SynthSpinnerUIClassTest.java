@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SynthSpinnerUI} (by simply reusing the
+ * J8Unit test interface {@link SynthSpinnerUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SynthSpinnerUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.synth.SynthSpinnerUIClassTests<SynthSpinnerUI> {
+implements SynthSpinnerUIClassTests<SynthSpinnerUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.synth.SynthSpinnerUI]
 

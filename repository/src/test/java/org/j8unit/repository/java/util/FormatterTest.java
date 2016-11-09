@@ -37,10 +37,15 @@ implements FactoryBasedJ8UnitTest<Formatter>, org.j8unit.repository.java.util.Fo
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Formatter]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BigDecimalLayoutForm} (by simply
+     * reusing the J8Unit test interface {@link BigDecimalLayoutFormTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BigDecimalLayoutFormTest
-    implements org.j8unit.repository.java.util.FormatterTests.BigDecimalLayoutFormTests<BigDecimalLayoutForm> {
+    implements BigDecimalLayoutFormTests<BigDecimalLayoutForm> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Formatter$BigDecimalLayoutForm]
 

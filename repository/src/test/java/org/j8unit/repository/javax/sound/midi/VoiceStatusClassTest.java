@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link VoiceStatus} (by simply reusing the
+ * J8Unit test interface {@link VoiceStatusClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VoiceStatusClassTest
-implements org.j8unit.repository.javax.sound.midi.VoiceStatusClassTests<VoiceStatus> {
+implements VoiceStatusClassTests<VoiceStatus> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.VoiceStatus]
 

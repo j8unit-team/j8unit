@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MLetTest
-implements FactoryBasedJ8UnitTest<MLet>, org.j8unit.repository.javax.management.loading.MLetTests<MLet> {
+implements FactoryBasedJ8UnitTest<MLet>, MLetTests<MLet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.loading.MLet]
 

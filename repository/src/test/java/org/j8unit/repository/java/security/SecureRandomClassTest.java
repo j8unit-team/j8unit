@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SecureRandom} (by simply reusing the
+ * J8Unit test interface {@link SecureRandomClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SecureRandomClassTest
-implements org.j8unit.repository.java.security.SecureRandomClassTests<SecureRandom> {
+implements SecureRandomClassTests<SecureRandom> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.SecureRandom]
 

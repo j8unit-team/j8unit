@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PrintWriter} (by simply reusing the
+ * J8Unit test interface {@link PrintWriterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PrintWriterClassTest
-implements org.j8unit.repository.java.io.PrintWriterClassTests<PrintWriter> {
+implements PrintWriterClassTests<PrintWriter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.PrintWriter]
 

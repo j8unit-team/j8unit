@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UnsupportedEncodingExceptionTest
-implements FactoryBasedJ8UnitTest<UnsupportedEncodingException>, org.j8unit.repository.java.io.UnsupportedEncodingExceptionTests<UnsupportedEncodingException> {
+implements FactoryBasedJ8UnitTest<UnsupportedEncodingException>, UnsupportedEncodingExceptionTests<UnsupportedEncodingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.UnsupportedEncodingException]
 

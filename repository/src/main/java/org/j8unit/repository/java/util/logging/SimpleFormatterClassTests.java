@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.logging.SimpleFormatterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleFormatterTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleFormatterClassTests<SUT extends SimpleFormatter>
-extends org.j8unit.repository.java.util.logging.FormatterClassTests<SUT> {
+extends FormatterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.logging.SimpleFormatter]
     /**

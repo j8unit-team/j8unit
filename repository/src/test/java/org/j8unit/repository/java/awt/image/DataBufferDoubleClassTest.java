@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DataBufferDouble} (by simply reusing the
+ * J8Unit test interface {@link DataBufferDoubleClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DataBufferDoubleClassTest
-implements org.j8unit.repository.java.awt.image.DataBufferDoubleClassTests<DataBufferDouble> {
+implements DataBufferDoubleClassTests<DataBufferDouble> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.DataBufferDouble]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ReentrantLockTest
-implements FactoryBasedJ8UnitTest<ReentrantLock>, org.j8unit.repository.java.util.concurrent.locks.ReentrantLockTests<ReentrantLock> {
+implements FactoryBasedJ8UnitTest<ReentrantLock>, ReentrantLockTests<ReentrantLock> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.concurrent.locks.ReentrantLock]
 

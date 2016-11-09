@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.activation;
 import static org.junit.Assert.assertTrue;
 import javax.activation.UnsupportedDataTypeException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.IOExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionTests}.
+ * {@link UnsupportedDataTypeExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedDataTypeExceptionClassTests<SUT extends UnsupportedDataTypeException>
-extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
+extends IOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.UnsupportedDataTypeException]
     /**

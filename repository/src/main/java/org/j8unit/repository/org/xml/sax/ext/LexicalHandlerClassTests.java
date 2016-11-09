@@ -18,8 +18,7 @@ import org.xml.sax.ext.LexicalHandler;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.ext.LexicalHandlerTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LexicalHandlerTests}.
  * </p>
  *
  * <p>

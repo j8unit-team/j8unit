@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultFocusManagerTest
-implements FactoryBasedJ8UnitTest<DefaultFocusManager>, org.j8unit.repository.javax.swing.DefaultFocusManagerTests<DefaultFocusManager> {
+implements FactoryBasedJ8UnitTest<DefaultFocusManager>, DefaultFocusManagerTests<DefaultFocusManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.DefaultFocusManager]
 

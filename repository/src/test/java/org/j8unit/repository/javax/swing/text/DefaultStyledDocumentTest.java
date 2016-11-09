@@ -19,7 +19,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultStyledDocumentTest
-implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests<DefaultStyledDocument> {
+implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, DefaultStyledDocumentTests<DefaultStyledDocument> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument]
 
@@ -40,26 +40,14 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, org.j8unit.repository.
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument]
 
-    @RunWith(J8Unit4.class)
-    public static class ElementSpecTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests<ElementSpec> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
-
-        @Override
-        public ElementSpec createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.ElementSpec], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementBuffer} (by simply reusing
+     * the J8Unit test interface {@link ElementBufferTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class ElementBufferTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests<ElementBuffer> {
+    implements ElementBufferTests<ElementBuffer> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementBuffer]
 
@@ -74,9 +62,36 @@ implements FactoryBasedJ8UnitTest<DefaultStyledDocument>, org.j8unit.repository.
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ElementSpec} (by simply reusing
+     * the J8Unit test interface {@link ElementSpecTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ElementSpecTest
+    implements ElementSpecTests<ElementSpec> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
+
+        @Override
+        public ElementSpec createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.text.DefaultStyledDocument.ElementSpec], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$ElementSpec]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AttributeUndoableEdit} (by simply
+     * reusing the J8Unit test interface {@link AttributeUndoableEditTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AttributeUndoableEditTest
-    implements org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests<AttributeUndoableEdit> {
+    implements AttributeUndoableEditTests<AttributeUndoableEdit> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultStyledDocument$AttributeUndoableEdit]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.java.nio.file;
 import static org.junit.Assert.assertTrue;
 import java.nio.file.LinkOption;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.file.LinkOptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LinkOptionTests}.
  * </p>
  *
  * <p>
@@ -47,8 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkOptionClassTests<SUT extends LinkOption>
-extends org.j8unit.repository.java.nio.file.OpenOptionClassTests<SUT>, org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>,
-org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+extends OpenOptionClassTests<SUT>, CopyOptionClassTests<SUT>, EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.LinkOption]
     /**

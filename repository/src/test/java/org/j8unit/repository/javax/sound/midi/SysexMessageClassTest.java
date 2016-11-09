@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SysexMessage} (by simply reusing the
+ * J8Unit test interface {@link SysexMessageClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SysexMessageClassTest
-implements org.j8unit.repository.javax.sound.midi.SysexMessageClassTests<SysexMessage> {
+implements SysexMessageClassTests<SysexMessage> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.midi.SysexMessage]
 

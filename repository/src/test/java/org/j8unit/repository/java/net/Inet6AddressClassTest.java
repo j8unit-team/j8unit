@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Inet6Address} (by simply reusing the
+ * J8Unit test interface {@link Inet6AddressClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Inet6AddressClassTest
-implements org.j8unit.repository.java.net.Inet6AddressClassTests<Inet6Address> {
+implements Inet6AddressClassTests<Inet6Address> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.Inet6Address]
 

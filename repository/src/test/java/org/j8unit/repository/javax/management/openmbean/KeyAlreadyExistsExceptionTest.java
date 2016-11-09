@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class KeyAlreadyExistsExceptionTest
-implements FactoryBasedJ8UnitTest<KeyAlreadyExistsException>,
-org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExceptionTests<KeyAlreadyExistsException> {
+implements FactoryBasedJ8UnitTest<KeyAlreadyExistsException>, KeyAlreadyExistsExceptionTests<KeyAlreadyExistsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.KeyAlreadyExistsException]
 

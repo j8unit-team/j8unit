@@ -2,6 +2,7 @@ package org.j8unit.repository.javax.activity;
 
 import javax.activity.ActivityRequiredException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteExceptionTests;
 import org.junit.experimental.categories.Category;
 
 /**
@@ -14,7 +15,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.activity.ActivityRequiredExceptionClassTests}).
+ * {@link ActivityRequiredExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +26,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivityRequiredExceptionTests<SUT extends ActivityRequiredException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {
+extends RemoteExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activity.ActivityRequiredException]
 

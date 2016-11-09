@@ -5,6 +5,11 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.InputStream;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InputStream} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.org.omg.CORBA.portable.InputStreamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InputStreamTest
 implements org.j8unit.repository.org.omg.CORBA.portable.InputStreamTests<InputStream> {

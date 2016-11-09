@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FlowView} (by simply reusing the
+ * J8Unit test interface {@link FlowViewTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FlowViewTest
-implements org.j8unit.repository.javax.swing.text.FlowViewTests<FlowView> {
+implements FlowViewTests<FlowView> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.FlowView]
 
@@ -32,7 +37,7 @@ implements org.j8unit.repository.javax.swing.text.FlowViewTests<FlowView> {
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class FlowStrategyTest
-    implements FactoryBasedJ8UnitTest<FlowStrategy>, org.j8unit.repository.javax.swing.text.FlowViewTests.FlowStrategyTests<FlowStrategy> {
+    implements FactoryBasedJ8UnitTest<FlowStrategy>, FlowStrategyTests<FlowStrategy> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.FlowView$FlowStrategy]
 

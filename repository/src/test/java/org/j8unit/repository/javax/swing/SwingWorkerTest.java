@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link SwingWorker} (by simply reusing the
+ * J8Unit test interface {@link SwingWorkerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SwingWorkerTest<T, V>
-implements org.j8unit.repository.javax.swing.SwingWorkerTests<SwingWorker<T, V>, T, V> {
+implements SwingWorkerTests<SwingWorker<T, V>, T, V> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingWorker]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.javax.swing.SwingWorkerTests<SwingWorker<T, V>,
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.SwingWorker]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link StateValue} (by simply reusing
+     * the J8Unit test interface {@link StateValueTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class StateValueTest
-    implements org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests<StateValue> {
+    implements StateValueTests<StateValue> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SwingWorker$StateValue]
 

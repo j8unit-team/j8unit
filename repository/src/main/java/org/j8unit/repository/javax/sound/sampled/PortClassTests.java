@@ -19,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.sound.sampled.PortTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PortTests}.
  * </p>
  *
  * <p>
@@ -49,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PortClassTests<SUT extends Port>
-extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
+extends LineClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.Port]
     /**

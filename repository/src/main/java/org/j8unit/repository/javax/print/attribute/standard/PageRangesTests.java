@@ -3,6 +3,10 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import javax.print.attribute.standard.PageRanges;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.DocAttributeTests;
+import org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests;
+import org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests;
+import org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.print.attribute.standard.PageRangesClassTests}).
+ * {@link PageRangesClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PageRangesTests<SUT extends PageRanges>
-extends org.j8unit.repository.javax.print.attribute.DocAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>,
-org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
+extends DocAttributeTests<SUT>, PrintRequestAttributeTests<SUT>, PrintJobAttributeTests<SUT>, SetOfIntegerSyntaxTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.attribute.standard.PageRanges]
 

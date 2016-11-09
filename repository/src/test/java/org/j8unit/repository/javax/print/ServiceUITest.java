@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServiceUITest
-implements FactoryBasedJ8UnitTest<ServiceUI>, org.j8unit.repository.javax.print.ServiceUITests<ServiceUI> {
+implements FactoryBasedJ8UnitTest<ServiceUI>, ServiceUITests<ServiceUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.ServiceUI]
 

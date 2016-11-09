@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FormatStyle} (by simply reusing the
+ * J8Unit test interface {@link FormatStyleTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FormatStyleTest
-implements org.j8unit.repository.java.time.format.FormatStyleTests<FormatStyle> {
+implements FormatStyleTests<FormatStyle> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.FormatStyle]
 

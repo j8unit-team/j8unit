@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultHighlighterTest
-implements FactoryBasedJ8UnitTest<DefaultHighlighter>, org.j8unit.repository.javax.swing.text.DefaultHighlighterTests<DefaultHighlighter> {
+implements FactoryBasedJ8UnitTest<DefaultHighlighter>, DefaultHighlighterTests<DefaultHighlighter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultHighlighter]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<DefaultHighlighter>, org.j8unit.repository.jav
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.DefaultHighlighter]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultHighlightPainter} (by
+     * simply reusing the J8Unit test interface {@link DefaultHighlightPainterTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DefaultHighlightPainterTest
-    implements org.j8unit.repository.javax.swing.text.DefaultHighlighterTests.DefaultHighlightPainterTests<DefaultHighlightPainter> {
+    implements DefaultHighlightPainterTests<DefaultHighlightPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultHighlighter$DefaultHighlightPainter]
 

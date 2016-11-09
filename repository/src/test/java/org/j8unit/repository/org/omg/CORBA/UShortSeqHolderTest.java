@@ -14,7 +14,7 @@ import org.omg.CORBA.UShortSeqHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UShortSeqHolderTest
-implements FactoryBasedJ8UnitTest<UShortSeqHolder>, org.j8unit.repository.org.omg.CORBA.UShortSeqHolderTests<UShortSeqHolder> {
+implements FactoryBasedJ8UnitTest<UShortSeqHolder>, UShortSeqHolderTests<UShortSeqHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UShortSeqHolder]
 

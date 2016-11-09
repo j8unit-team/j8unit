@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.image.WritableRasterClassTests}).
+ * {@link WritableRasterClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WritableRasterTests<SUT extends WritableRaster>
-extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
+extends RasterTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.WritableRaster]
 
@@ -49,6 +49,29 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDataElements_int_int_int_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.WritableRaster#setDataElements(int, int, java.awt.image.Raster) public void
+     * java.awt.image.WritableRaster.setDataElements(int,int,java.awt.image.Raster)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDataElements_int_int_Raster()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,8 +104,8 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRaster#setDataElements(int, int, java.awt.image.Raster) public void
-     * java.awt.image.WritableRaster.setDataElements(int,int,java.awt.image.Raster)}.
+     * {@link java.awt.image.WritableRaster#setSample(int, int, int, int) public void
+     * java.awt.image.WritableRaster.setSample(int,int,int,int)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -94,7 +117,7 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDataElements_int_int_Raster()
+    public default void test_setSample_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -149,29 +172,6 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRaster#setSample(int, int, int, int) public void
-     * java.awt.image.WritableRaster.setSample(int,int,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSample_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.image.WritableRaster#getWritableParent()
      * public java.awt.image.WritableRaster java.awt.image.WritableRaster.getWritableParent()}.
      *
@@ -186,29 +186,6 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getWritableParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRaster#setRect(int, int, java.awt.image.Raster) public void
-     * java.awt.image.WritableRaster.setRect(int,int,java.awt.image.Raster)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRect_int_int_Raster()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -241,8 +218,8 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRaster#setSamples(int, int, int, int, int, double[]) public void
-     * java.awt.image.WritableRaster.setSamples(int,int,int,int,int,double[])}.
+     * {@link java.awt.image.WritableRaster#setRect(int, int, java.awt.image.Raster) public void
+     * java.awt.image.WritableRaster.setRect(int,int,java.awt.image.Raster)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -254,7 +231,7 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSamples_int_int_int_int_int_doubleArray()
+    public default void test_setRect_int_int_Raster()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -310,8 +287,8 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRaster#setPixel(int, int, int[]) public void
-     * java.awt.image.WritableRaster.setPixel(int,int,int[])}.
+     * {@link java.awt.image.WritableRaster#setSamples(int, int, int, int, int, double[]) public void
+     * java.awt.image.WritableRaster.setSamples(int,int,int,int,int,double[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -323,7 +300,7 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPixel_int_int_intArray()
+    public default void test_setSamples_int_int_int_int_int_doubleArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -379,6 +356,29 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.WritableRaster#setPixel(int, int, int[]) public void
+     * java.awt.image.WritableRaster.setPixel(int,int,int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPixel_int_int_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.WritableRaster#createWritableTranslatedChild(int, int) public java.awt.image.WritableRaster
      * java.awt.image.WritableRaster.createWritableTranslatedChild(int,int)}.
      *
@@ -425,29 +425,6 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.awt.image.WritableRaster#setPixels(int, int, int, int, int[]) public void
-     * java.awt.image.WritableRaster.setPixels(int,int,int,int,int[])}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPixels_int_int_int_int_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.awt.image.WritableRaster#setPixels(int, int, int, int, double[]) public void
      * java.awt.image.WritableRaster.setPixels(int,int,int,int,double[])}.
      *
@@ -462,6 +439,29 @@ extends org.j8unit.repository.java.awt.image.RasterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPixels_int_int_int_int_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.awt.image.WritableRaster#setPixels(int, int, int, int, int[]) public void
+     * java.awt.image.WritableRaster.setPixels(int,int,int,int,int[])}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPixels_int_int_int_int_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

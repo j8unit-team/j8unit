@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LineEvent} (by simply reusing the J8Unit
+ * test interface {@link LineEventClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LineEventClassTest
-implements org.j8unit.repository.javax.sound.sampled.LineEventClassTests<LineEvent> {
+implements LineEventClassTests<LineEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.sound.sampled.LineEvent]
 
@@ -47,6 +52,11 @@ implements org.j8unit.repository.javax.sound.sampled.LineEventClassTests<LineEve
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.sound.sampled.LineEvent]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.sound.sampled.LineEvent]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Type} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.javax.sound.sampled.LineEventClassTests.TypeClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class TypeClassTest

@@ -14,8 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AlreadyBoundHolderTest
-implements FactoryBasedJ8UnitTest<AlreadyBoundHolder>,
-org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolderTests<AlreadyBoundHolder> {
+implements FactoryBasedJ8UnitTest<AlreadyBoundHolder>, AlreadyBoundHolderTests<AlreadyBoundHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.AlreadyBoundHolder]
 

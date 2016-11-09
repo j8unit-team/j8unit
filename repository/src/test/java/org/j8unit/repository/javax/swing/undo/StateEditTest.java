@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link StateEdit} (by simply reusing the
+ * J8Unit test interface {@link StateEditTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StateEditTest
-implements org.j8unit.repository.javax.swing.undo.StateEditTests<StateEdit> {
+implements StateEditTests<StateEdit> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.undo.StateEdit]
 

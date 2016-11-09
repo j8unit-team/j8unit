@@ -4,9 +4,14 @@ import javax.swing.tree.TreeCellRenderer;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TreeCellRenderer} (by simply reusing the
+ * J8Unit test interface {@link TreeCellRendererClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TreeCellRendererClassTest
-implements org.j8unit.repository.javax.swing.tree.TreeCellRendererClassTests<TreeCellRenderer> {
+implements TreeCellRendererClassTests<TreeCellRenderer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.tree.TreeCellRenderer]
 

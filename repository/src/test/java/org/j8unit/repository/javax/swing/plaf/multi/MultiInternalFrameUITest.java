@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiInternalFrameUITest
-implements FactoryBasedJ8UnitTest<MultiInternalFrameUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiInternalFrameUITests<MultiInternalFrameUI> {
+implements FactoryBasedJ8UnitTest<MultiInternalFrameUI>, MultiInternalFrameUITests<MultiInternalFrameUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiInternalFrameUI]
 

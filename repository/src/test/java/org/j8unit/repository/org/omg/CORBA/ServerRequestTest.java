@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ServerRequest;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServerRequest} (by simply reusing the
+ * J8Unit test interface {@link ServerRequestTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerRequestTest
-implements org.j8unit.repository.org.omg.CORBA.ServerRequestTests<ServerRequest> {
+implements ServerRequestTests<ServerRequest> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.ServerRequest]
 

@@ -17,8 +17,7 @@ import org.omg.PortableServer.Current;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.CurrentTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CurrentTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.PortableServer.Current;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrentClassTests<SUT extends Current>
-extends org.j8unit.repository.org.omg.PortableServer.CurrentOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.CurrentClassTests<SUT> {
+extends CurrentOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.CurrentClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.Current]
     /**

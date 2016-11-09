@@ -4,9 +4,14 @@ import javax.swing.table.TableColumnModel;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TableColumnModel} (by simply reusing the
+ * J8Unit test interface {@link TableColumnModelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TableColumnModelClassTest
-implements org.j8unit.repository.javax.swing.table.TableColumnModelClassTests<TableColumnModel> {
+implements TableColumnModelClassTests<TableColumnModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.TableColumnModel]
 

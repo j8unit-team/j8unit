@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParagraphViewClassTests<SUT extends ParagraphView>
-extends org.j8unit.repository.javax.swing.text.TabExpanderClassTests<SUT>, org.j8unit.repository.javax.swing.text.FlowViewClassTests<SUT> {
+extends TabExpanderClassTests<SUT>, FlowViewClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.ParagraphView]
     /**

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ActivationDataFlavor} (by simply reusing
+ * the J8Unit test interface {@link ActivationDataFlavorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActivationDataFlavorClassTest
-implements org.j8unit.repository.javax.activation.ActivationDataFlavorClassTests<ActivationDataFlavor> {
+implements ActivationDataFlavorClassTests<ActivationDataFlavor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activation.ActivationDataFlavor]
 

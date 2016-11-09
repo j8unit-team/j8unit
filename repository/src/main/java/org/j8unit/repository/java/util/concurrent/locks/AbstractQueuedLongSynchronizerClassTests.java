@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import java.util.concurrent.locks.AbstractQueuedLongSynchronizer;
 import java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,7 +23,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests}.
+ * {@link AbstractQueuedLongSynchronizerTests}.
  * </p>
  *
  * <p>
@@ -50,7 +52,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractQueuedLongSynchronizerClassTests<SUT extends AbstractQueuedLongSynchronizer>
-extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchronizerClassTests<SUT> {
+extends AbstractOwnableSynchronizerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer]
     /**
@@ -85,8 +87,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerTests.ConditionObjectTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ConditionObjectTests}.
      * </p>
      *
      * <p>
@@ -115,8 +116,7 @@ extends org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchron
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ConditionObjectClassTests<SUT extends ConditionObject>
-    extends org.j8unit.repository.java.util.concurrent.locks.ConditionClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ConditionClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject]
         /**

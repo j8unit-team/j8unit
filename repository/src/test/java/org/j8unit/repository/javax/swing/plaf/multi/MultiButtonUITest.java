@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiButtonUITest
-implements FactoryBasedJ8UnitTest<MultiButtonUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiButtonUITests<MultiButtonUI> {
+implements FactoryBasedJ8UnitTest<MultiButtonUI>, MultiButtonUITests<MultiButtonUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiButtonUI]
 

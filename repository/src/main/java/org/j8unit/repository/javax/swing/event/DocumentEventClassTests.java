@@ -6,6 +6,8 @@ import javax.swing.event.DocumentEvent.ElementChange;
 import javax.swing.event.DocumentEvent.EventType;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,8 +23,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.event.DocumentEventTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DocumentEventTests}.
  * </p>
  *
  * <p>
@@ -115,7 +116,7 @@ extends RepositoryClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EventTypeClassTests<SUT extends EventType>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.event.DocumentEvent$EventType]
         /**
@@ -152,8 +153,7 @@ extends RepositoryClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ElementChangeTests}.
      * </p>
      *
      * <p>

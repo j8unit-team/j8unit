@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.PolicyHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PolicyHelper} (by simply reusing the
+ * J8Unit test interface {@link PolicyHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.PolicyHelperClassTests<PolicyHelper> {
+implements PolicyHelperClassTests<PolicyHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.PolicyHelper]
 

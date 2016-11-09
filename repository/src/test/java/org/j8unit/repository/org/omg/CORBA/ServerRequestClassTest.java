@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ServerRequest;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServerRequest} (by simply reusing the
+ * J8Unit test interface {@link ServerRequestClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerRequestClassTest
-implements org.j8unit.repository.org.omg.CORBA.ServerRequestClassTests<ServerRequest> {
+implements ServerRequestClassTests<ServerRequest> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ServerRequest]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TimeLimitExceededExceptionTest
-implements FactoryBasedJ8UnitTest<TimeLimitExceededException>, org.j8unit.repository.javax.naming.TimeLimitExceededExceptionTests<TimeLimitExceededException> {
+implements FactoryBasedJ8UnitTest<TimeLimitExceededException>, TimeLimitExceededExceptionTests<TimeLimitExceededException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.TimeLimitExceededException]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Charset} (by simply reusing the J8Unit
+ * test interface {@link CharsetClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CharsetClassTest
-implements org.j8unit.repository.java.nio.charset.CharsetClassTests<Charset> {
+implements CharsetClassTests<Charset> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.charset.Charset]
 

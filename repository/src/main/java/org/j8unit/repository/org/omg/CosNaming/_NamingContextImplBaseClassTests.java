@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CosNaming;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.DynamicImplementationClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming._NamingContextImplBase;
@@ -18,7 +19,7 @@ import org.omg.CosNaming._NamingContextImplBase;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming._NamingContextImplBaseTests}.
+ * {@link _NamingContextImplBaseTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.CosNaming._NamingContextImplBase;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _NamingContextImplBaseClassTests<SUT extends _NamingContextImplBase>
-extends org.j8unit.repository.org.omg.CosNaming.NamingContextClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynamicImplementationClassTests<SUT> {
+extends NamingContextClassTests<SUT>, DynamicImplementationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming._NamingContextImplBase]
     /**

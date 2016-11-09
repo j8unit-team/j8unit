@@ -17,9 +17,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BasicSplitPaneUI} (by simply reusing the
+ * J8Unit test interface {@link BasicSplitPaneUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicSplitPaneUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
+implements BasicSplitPaneUIClassTests<BasicSplitPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
@@ -75,6 +80,171 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTes
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyboardDownRightHandler} (by simply
+     * reusing the J8Unit test interface {@link KeyboardDownRightHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardDownRightHandlerClassTest
+    implements KeyboardDownRightHandlerClassTests<KeyboardDownRightHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        @Override
+        public Class<KeyboardDownRightHandler> createNewSUT() {
+            return KeyboardDownRightHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_KeyboardDownRightHandler_BasicSplitPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final KeyboardDownRightHandler sut = null; // = new
+                                                       // KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyboardEndHandler} (by simply
+     * reusing the J8Unit test interface {@link KeyboardEndHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardEndHandlerClassTest
+    implements KeyboardEndHandlerClassTests<KeyboardEndHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        @Override
+        public Class<KeyboardEndHandler> createNewSUT() {
+            return KeyboardEndHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
+         * public javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_KeyboardEndHandler_BasicSplitPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final KeyboardEndHandler sut = null; // = new KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyboardHomeHandler} (by simply
+     * reusing the J8Unit test interface {@link KeyboardHomeHandlerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class KeyboardHomeHandlerClassTest
+    implements KeyboardHomeHandlerClassTests<KeyboardHomeHandler> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        @Override
+        public Class<KeyboardHomeHandler> createNewSUT() {
+            return KeyboardHomeHandler.class;
+        }
+
+        /**
+         * <p>
+         * Test method for the hereby targeted constructor-under-test
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
+         * public javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         *
+         * Up to now, there is no real implementation of this test method. But with your help at
+         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
+         * test methods soon.
+         * </p>
+         *
+         * @since 0.9.0
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public void create_KeyboardHomeHandler_BasicSplitPaneUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final KeyboardHomeHandler sut = null; // = new KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BasicHorizontalLayoutManager} (by
+     * simply reusing the J8Unit test interface {@link BasicHorizontalLayoutManagerClassTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class BasicHorizontalLayoutManagerClassTest
+    implements BasicHorizontalLayoutManagerClassTests<BasicHorizontalLayoutManager> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
+        @Override
+        public Class<BasicHorizontalLayoutManager> createNewSUT() {
+            return BasicHorizontalLayoutManager.class;
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link PropertyHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class PropertyHandlerClassTest
     implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests<PropertyHandler> {
@@ -115,9 +285,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTes
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyboardResizeToggleHandler} (by
+     * simply reusing the J8Unit test interface {@link KeyboardResizeToggleHandlerClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class KeyboardResizeToggleHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardResizeToggleHandlerClassTests<KeyboardResizeToggleHandler> {
+    implements KeyboardResizeToggleHandlerClassTests<KeyboardResizeToggleHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardResizeToggleHandler]
 
@@ -157,150 +332,14 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTes
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class KeyboardEndHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests<KeyboardEndHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-        @Override
-        public Class<KeyboardEndHandler> createNewSUT() {
-            return KeyboardEndHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler#KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
-         * public javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_KeyboardEndHandler_BasicSplitPaneUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final KeyboardEndHandler sut = null; // = new KeyboardEndHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardEndHandler]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class BasicVerticalLayoutManagerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests<BasicVerticalLayoutManager> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
-
-        @Override
-        public Class<BasicVerticalLayoutManager> createNewSUT() {
-            return BasicVerticalLayoutManager.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager#BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI)
-         * public
-         * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_BasicVerticalLayoutManager_BasicSplitPaneUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final BasicVerticalLayoutManager sut = null; // = new
-                                                         // BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class BasicHorizontalLayoutManagerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicHorizontalLayoutManagerClassTests<BasicHorizontalLayoutManager> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
-
-        @Override
-        public Class<BasicHorizontalLayoutManager> createNewSUT() {
-            return BasicHorizontalLayoutManager.class;
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicHorizontalLayoutManager]
-
-    }
-
-    @RunWith(J8Unit4.class)
-    public static class KeyboardDownRightHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests<KeyboardDownRightHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        @Override
-        public Class<KeyboardDownRightHandler> createNewSUT() {
-            return KeyboardDownRightHandler.class;
-        }
-
-        /**
-         * <p>
-         * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler#KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
-         * public
-         * javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
-         *
-         * Up to now, there is no real implementation of this test method. But with your help at
-         * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
-         * test methods soon.
-         * </p>
-         *
-         * @since 0.9.0
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public void create_KeyboardDownRightHandler_BasicSplitPaneUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final KeyboardDownRightHandler sut = null; // = new
-                                                       // KeyboardDownRightHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardDownRightHandler]
-
-    }
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link KeyboardUpLeftHandler} (by simply
+     * reusing the J8Unit test interface {@link KeyboardUpLeftHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class KeyboardUpLeftHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests<KeyboardUpLeftHandler> {
+    implements KeyboardUpLeftHandlerClassTests<KeyboardUpLeftHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
 
@@ -339,6 +378,12 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTes
         // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardUpLeftHandler]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link FocusHandler} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.FocusHandlerClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FocusHandlerClassTest
@@ -380,22 +425,28 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTes
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class KeyboardHomeHandlerClassTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests<KeyboardHomeHandler> {
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BasicVerticalLayoutManager} (by
+     * simply reusing the J8Unit test interface {@link BasicVerticalLayoutManagerClassTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+    @RunWith(J8Unit4.class)
+    public static class BasicVerticalLayoutManagerClassTest
+    implements BasicVerticalLayoutManagerClassTests<BasicVerticalLayoutManager> {
+
+        // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
 
         @Override
-        public Class<KeyboardHomeHandler> createNewSUT() {
-            return KeyboardHomeHandler.class;
+        public Class<BasicVerticalLayoutManager> createNewSUT() {
+            return BasicVerticalLayoutManager.class;
         }
 
         /**
          * <p>
          * Test method for the hereby targeted constructor-under-test
-         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler#KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI)
-         * public javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager#BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -407,16 +458,17 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTes
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public void create_KeyboardHomeHandler_BasicSplitPaneUI()
+        public void create_BasicVerticalLayoutManager_BasicSplitPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final KeyboardHomeHandler sut = null; // = new KeyboardHomeHandler(javax.swing.plaf.basic.BasicSplitPaneUI);
+            final BasicVerticalLayoutManager sut = null; // = new
+                                                         // BasicVerticalLayoutManager(javax.swing.plaf.basic.BasicSplitPaneUI);
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+        // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
 
-        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$KeyboardHomeHandler]
+        // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.plaf.basic.BasicSplitPaneUI$BasicVerticalLayoutManager]
 
     }
 

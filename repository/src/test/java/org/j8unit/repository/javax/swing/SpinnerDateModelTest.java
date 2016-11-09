@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SpinnerDateModelTest
-implements FactoryBasedJ8UnitTest<SpinnerDateModel>, org.j8unit.repository.javax.swing.SpinnerDateModelTests<SpinnerDateModel> {
+implements FactoryBasedJ8UnitTest<SpinnerDateModel>, SpinnerDateModelTests<SpinnerDateModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.SpinnerDateModel]
 

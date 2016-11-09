@@ -4,6 +4,7 @@ import java.lang.ProcessBuilder.Redirect;
 import java.lang.ProcessBuilder.Redirect.Type;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests}).
+ * {@link ProcessBuilderClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProcessBuilderTests<SUT extends ProcessBuilder>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder]
 
@@ -467,7 +468,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests}).
+     * (see {@link RedirectClassTests}).
      * </p>
      *
      * @param SUT
@@ -478,7 +479,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RedirectTests<SUT extends Redirect>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect]
 
@@ -597,7 +598,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface TypeTests<SUT extends Type>
-        extends org.j8unit.repository.java.lang.EnumTests<SUT, Type> {
+        extends EnumTests<SUT, Type> {
 
             // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ProcessBuilder$Redirect$Type]
 

@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.swing.text;
 import static org.junit.Assert.assertTrue;
 import javax.swing.text.SimpleAttributeSet;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +20,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.text.SimpleAttributeSetTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleAttributeSetTests}.
  * </p>
  *
  * <p>
@@ -47,8 +49,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleAttributeSetClassTests<SUT extends SimpleAttributeSet>
-extends org.j8unit.repository.javax.swing.text.MutableAttributeSetClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends MutableAttributeSetClassTests<SUT>, SerializableClassTests<SUT>, CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.SimpleAttributeSet]
     /**

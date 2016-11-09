@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.tree.FixedHeightLayoutCacheClassTests}).
+ * {@link FixedHeightLayoutCacheClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,33 +28,9 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FixedHeightLayoutCacheTests<SUT extends FixedHeightLayoutCache>
-extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<SUT> {
+extends AbstractLayoutCacheTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.FixedHeightLayoutCache]
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.FixedHeightLayoutCache#treeNodesRemoved(javax.swing.event.TreeModelEvent) public void
-     * javax.swing.tree.FixedHeightLayoutCache.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_treeNodesRemoved_TreeModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
 
     /**
      * <p>
@@ -107,8 +83,8 @@ extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.FixedHeightLayoutCache#treeStructureChanged(javax.swing.event.TreeModelEvent) public void
-     * javax.swing.tree.FixedHeightLayoutCache.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
+     * {@link javax.swing.tree.FixedHeightLayoutCache#treeNodesRemoved(javax.swing.event.TreeModelEvent) public void
+     * javax.swing.tree.FixedHeightLayoutCache.treeNodesRemoved(javax.swing.event.TreeModelEvent)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -121,7 +97,7 @@ extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<SUT> {
     @Override
     @Test
     @Category(Draft.class)
-    public default void test_treeStructureChanged_TreeModelEvent()
+    public default void test_treeNodesRemoved_TreeModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,6 +123,30 @@ extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getVisiblePathsFrom_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.FixedHeightLayoutCache#treeStructureChanged(javax.swing.event.TreeModelEvent) public void
+     * javax.swing.tree.FixedHeightLayoutCache.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_treeStructureChanged_TreeModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -397,30 +397,6 @@ extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<SUT> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link javax.swing.tree.FixedHeightLayoutCache#setExpandedState(javax.swing.tree.TreePath, boolean) public void
-     * javax.swing.tree.FixedHeightLayoutCache.setExpandedState(javax.swing.tree.TreePath,boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_setExpandedState_TreePath_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link javax.swing.tree.FixedHeightLayoutCache#setModel(javax.swing.tree.TreeModel) public void
      * javax.swing.tree.FixedHeightLayoutCache.setModel(javax.swing.tree.TreeModel)}.
      *
@@ -436,6 +412,30 @@ extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setModel_TreeModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.swing.tree.FixedHeightLayoutCache#setExpandedState(javax.swing.tree.TreePath, boolean) public void
+     * javax.swing.tree.FixedHeightLayoutCache.setExpandedState(javax.swing.tree.TreePath,boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_setExpandedState_TreePath_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

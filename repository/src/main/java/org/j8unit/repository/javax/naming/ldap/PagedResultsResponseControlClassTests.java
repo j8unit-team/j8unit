@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.ldap.PagedResultsResponseControlTests}.
+ * {@link PagedResultsResponseControlTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PagedResultsResponseControlClassTests<SUT extends PagedResultsResponseControl>
-extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
+extends BasicControlClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.PagedResultsResponseControl]
     /**

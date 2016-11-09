@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.script;
 import javax.script.Bindings;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.MapTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.script.BindingsClassTests}).
+ * {@link BindingsClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BindingsTests<SUT extends Bindings>
-extends org.j8unit.repository.java.util.MapTests<SUT, String, Object> {
+extends MapTests<SUT, String, Object> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.script.Bindings]
 

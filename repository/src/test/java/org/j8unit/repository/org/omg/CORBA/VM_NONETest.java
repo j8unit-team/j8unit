@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.VM_NONE;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link VM_NONE} (by simply reusing the
+ * J8Unit test interface {@link VM_NONETests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class VM_NONETest
-implements org.j8unit.repository.org.omg.CORBA.VM_NONETests<VM_NONE> {
+implements VM_NONETests<VM_NONE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.VM_NONE]
 

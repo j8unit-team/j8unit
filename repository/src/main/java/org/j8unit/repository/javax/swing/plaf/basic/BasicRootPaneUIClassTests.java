@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.swing.plaf.basic;
 import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicRootPaneUI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.beans.PropertyChangeListenerClassTests;
+import org.j8unit.repository.javax.swing.plaf.RootPaneUIClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicRootPaneUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicRootPaneUITests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicRootPaneUIClassTests<SUT extends BasicRootPaneUI>
-extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.RootPaneUIClassTests<SUT> {
+extends PropertyChangeListenerClassTests<SUT>, RootPaneUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicRootPaneUI]
     /**

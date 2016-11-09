@@ -4,6 +4,7 @@ import javax.management.MBeanParameterInfo;
 import javax.management.openmbean.OpenMBeanParameterInfoSupport;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanParameterInfoTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoSupportClassTests}).
+ * {@link OpenMBeanParameterInfoSupportClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanParameterInfoSupportTests<SUT extends OpenMBeanParameterInfoSupport>
-extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanParameterInfoTests<SUT> {
+extends OpenMBeanParameterInfoTests<SUT>, MBeanParameterInfoTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]
 
@@ -351,10 +352,10 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
-     * node(s) {@link MBeanParameterInfo MBeanParameterInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanParameterInfo#getName() interface
      * javax.management.openmbean.OpenMBeanParameterInfo}</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getName() class javax.management.MBeanFeatureInfo} (via parent
+     * node(s) {@link MBeanParameterInfo MBeanParameterInfo})</li>
      * </ul>
      *
      * <p>
@@ -371,8 +372,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     @Category(Draft.class)
     public default void test_getName()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanParameterInfoTests.super.test_getName();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoTests.super.test_getName();
+        OpenMBeanParameterInfoTests.super.test_getName();
+        MBeanParameterInfoTests.super.test_getName();
     }
 
     /**
@@ -381,10 +382,10 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
      * class-under-test:
      * </p>
      * <ul>
-     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
-     * parent node(s) {@link MBeanParameterInfo MBeanParameterInfo})</li>
      * <li>{@link javax.management.openmbean.OpenMBeanParameterInfo#getDescription() interface
      * javax.management.openmbean.OpenMBeanParameterInfo}</li>
+     * <li>{@link javax.management.MBeanFeatureInfo#getDescription() class javax.management.MBeanFeatureInfo} (via
+     * parent node(s) {@link MBeanParameterInfo MBeanParameterInfo})</li>
      * </ul>
      *
      * <p>
@@ -401,8 +402,8 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     @Category(Draft.class)
     public default void test_getDescription()
     throws Exception {
-        org.j8unit.repository.javax.management.MBeanParameterInfoTests.super.test_getDescription();
-        org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoTests.super.test_getDescription();
+        OpenMBeanParameterInfoTests.super.test_getDescription();
+        MBeanParameterInfoTests.super.test_getDescription();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.openmbean.OpenMBeanParameterInfoSupport]

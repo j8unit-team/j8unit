@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PartialResultExceptionTest
-implements FactoryBasedJ8UnitTest<PartialResultException>, org.j8unit.repository.javax.naming.PartialResultExceptionTests<PartialResultException> {
+implements FactoryBasedJ8UnitTest<PartialResultException>, PartialResultExceptionTests<PartialResultException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.PartialResultException]
 

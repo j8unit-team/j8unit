@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class WrongMethodTypeExceptionTest
-implements FactoryBasedJ8UnitTest<WrongMethodTypeException>, org.j8unit.repository.java.lang.invoke.WrongMethodTypeExceptionTests<WrongMethodTypeException> {
+implements FactoryBasedJ8UnitTest<WrongMethodTypeException>, WrongMethodTypeExceptionTests<WrongMethodTypeException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.WrongMethodTypeException]
 

@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InheritableThreadLocalTest<T>
-implements FactoryBasedJ8UnitTest<InheritableThreadLocal<T>>, org.j8unit.repository.java.lang.InheritableThreadLocalTests<InheritableThreadLocal<T>, T> {
+implements FactoryBasedJ8UnitTest<InheritableThreadLocal<T>>, InheritableThreadLocalTests<InheritableThreadLocal<T>, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.InheritableThreadLocal]
 

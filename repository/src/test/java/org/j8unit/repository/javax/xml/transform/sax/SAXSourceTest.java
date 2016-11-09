@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SAXSourceTest
-implements FactoryBasedJ8UnitTest<SAXSource>, org.j8unit.repository.javax.xml.transform.sax.SAXSourceTests<SAXSource> {
+implements FactoryBasedJ8UnitTest<SAXSource>, SAXSourceTests<SAXSource> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.transform.sax.SAXSource]
 

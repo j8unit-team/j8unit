@@ -14,7 +14,7 @@ import org.omg.CORBA.BooleanHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BooleanHolderTest
-implements FactoryBasedJ8UnitTest<BooleanHolder>, org.j8unit.repository.org.omg.CORBA.BooleanHolderTests<BooleanHolder> {
+implements FactoryBasedJ8UnitTest<BooleanHolder>, BooleanHolderTests<BooleanHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BooleanHolder]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Paths} (by simply reusing the J8Unit test
+ * interface {@link PathsClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PathsClassTest
-implements org.j8unit.repository.java.nio.file.PathsClassTests<Paths> {
+implements PathsClassTests<Paths> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.Paths]
 

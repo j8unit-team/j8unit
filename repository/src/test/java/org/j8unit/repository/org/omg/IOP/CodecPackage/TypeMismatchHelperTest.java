@@ -5,6 +5,11 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.IOP.CodecPackage.TypeMismatchHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TypeMismatchHelper} (by simply
+ * reusing the J8Unit test interface {@link org.j8unit.repository.org.omg.IOP.CodecPackage.TypeMismatchHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TypeMismatchHelperTest
 implements org.j8unit.repository.org.omg.IOP.CodecPackage.TypeMismatchHelperTests<TypeMismatchHelper> {

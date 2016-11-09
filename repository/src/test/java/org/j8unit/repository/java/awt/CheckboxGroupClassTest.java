@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CheckboxGroup} (by simply reusing the
+ * J8Unit test interface {@link CheckboxGroupClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CheckboxGroupClassTest
-implements org.j8unit.repository.java.awt.CheckboxGroupClassTests<CheckboxGroup> {
+implements CheckboxGroupClassTests<CheckboxGroup> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.CheckboxGroup]
 

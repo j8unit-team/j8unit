@@ -14,7 +14,7 @@ import org.omg.CosNaming.Binding;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BindingTest
-implements FactoryBasedJ8UnitTest<Binding>, org.j8unit.repository.org.omg.CosNaming.BindingTests<Binding> {
+implements FactoryBasedJ8UnitTest<Binding>, BindingTests<Binding> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.Binding]
 

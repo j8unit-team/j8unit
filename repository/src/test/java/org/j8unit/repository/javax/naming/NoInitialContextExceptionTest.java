@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoInitialContextExceptionTest
-implements FactoryBasedJ8UnitTest<NoInitialContextException>, org.j8unit.repository.javax.naming.NoInitialContextExceptionTests<NoInitialContextException> {
+implements FactoryBasedJ8UnitTest<NoInitialContextException>, NoInitialContextExceptionTests<NoInitialContextException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NoInitialContextException]
 

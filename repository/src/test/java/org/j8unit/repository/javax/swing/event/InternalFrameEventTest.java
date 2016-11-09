@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InternalFrameEvent} (by simply
+ * reusing the J8Unit test interface {@link InternalFrameEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InternalFrameEventTest
-implements org.j8unit.repository.javax.swing.event.InternalFrameEventTests<InternalFrameEvent> {
+implements InternalFrameEventTests<InternalFrameEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.InternalFrameEvent]
 

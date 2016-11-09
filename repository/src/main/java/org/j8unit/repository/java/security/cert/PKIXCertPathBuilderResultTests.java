@@ -17,7 +17,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.security.cert.PKIXCertPathBuilderResultClassTests}).
+ * {@link PKIXCertPathBuilderResultClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXCertPathBuilderResultTests<SUT extends PKIXCertPathBuilderResult>
-extends org.j8unit.repository.java.security.cert.CertPathBuilderResultTests<SUT>,
-org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
+extends CertPathBuilderResultTests<SUT>, PKIXCertPathValidatorResultTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.PKIXCertPathBuilderResult]
 
@@ -107,8 +106,8 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
     @Category(Draft.class)
     public default void test_clone()
     throws Exception {
-        org.j8unit.repository.java.security.cert.CertPathBuilderResultTests.super.test_clone();
-        org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests.super.test_clone();
+        CertPathBuilderResultTests.super.test_clone();
+        PKIXCertPathValidatorResultTests.super.test_clone();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.security.cert.PKIXCertPathBuilderResult]

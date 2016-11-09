@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidAttributesExceptionTest
-implements FactoryBasedJ8UnitTest<InvalidAttributesException>,
-org.j8unit.repository.javax.naming.directory.InvalidAttributesExceptionTests<InvalidAttributesException> {
+implements FactoryBasedJ8UnitTest<InvalidAttributesException>, InvalidAttributesExceptionTests<InvalidAttributesException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.InvalidAttributesException]
 

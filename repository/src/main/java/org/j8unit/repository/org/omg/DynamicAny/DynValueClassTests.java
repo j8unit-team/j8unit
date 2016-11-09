@@ -47,7 +47,7 @@ import org.omg.DynamicAny.DynValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueClassTests<SUT extends DynValue>
-extends org.j8unit.repository.org.omg.DynamicAny.DynValueOperationsClassTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynValueCommonClassTests<SUT> {
+extends DynValueOperationsClassTests<SUT>, DynValueCommonClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynValue]
     /**

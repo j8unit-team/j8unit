@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ImageReaderSpi} (by simply reusing the
+ * J8Unit test interface {@link ImageReaderSpiClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ImageReaderSpiClassTest
-implements org.j8unit.repository.javax.imageio.spi.ImageReaderSpiClassTests<ImageReaderSpi> {
+implements ImageReaderSpiClassTests<ImageReaderSpi> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.spi.ImageReaderSpi]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicGraphicsUtilsTest
-implements FactoryBasedJ8UnitTest<BasicGraphicsUtils>, org.j8unit.repository.javax.swing.plaf.basic.BasicGraphicsUtilsTests<BasicGraphicsUtils> {
+implements FactoryBasedJ8UnitTest<BasicGraphicsUtils>, BasicGraphicsUtilsTests<BasicGraphicsUtils> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicGraphicsUtils]
 

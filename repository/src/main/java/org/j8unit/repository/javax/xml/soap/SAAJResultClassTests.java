@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.soap;
 import static org.junit.Assert.assertTrue;
 import javax.xml.soap.SAAJResult;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.soap.SAAJResultTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SAAJResultTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAAJResultClassTests<SUT extends SAAJResult>
-extends org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests<SUT> {
+extends DOMResultClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.soap.SAAJResult]
     /**

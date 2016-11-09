@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextPackage.NotFound;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotFoundTest
-implements FactoryBasedJ8UnitTest<NotFound>, org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotFoundTests<NotFound> {
+implements FactoryBasedJ8UnitTest<NotFound>, NotFoundTests<NotFound> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextPackage.NotFound]
 

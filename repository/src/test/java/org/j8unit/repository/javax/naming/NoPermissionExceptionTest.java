@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NoPermissionExceptionTest
-implements FactoryBasedJ8UnitTest<NoPermissionException>, org.j8unit.repository.javax.naming.NoPermissionExceptionTests<NoPermissionException> {
+implements FactoryBasedJ8UnitTest<NoPermissionException>, NoPermissionExceptionTests<NoPermissionException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.NoPermissionException]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccountExceptionTest
-implements FactoryBasedJ8UnitTest<AccountException>, org.j8unit.repository.javax.security.auth.login.AccountExceptionTests<AccountException> {
+implements FactoryBasedJ8UnitTest<AccountException>, AccountExceptionTests<AccountException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountException]
 

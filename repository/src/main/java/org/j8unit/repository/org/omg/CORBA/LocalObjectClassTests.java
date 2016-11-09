@@ -17,8 +17,7 @@ import org.omg.CORBA.LocalObject;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.LocalObjectTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LocalObjectTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.LocalObject;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocalObjectClassTests<SUT extends LocalObject>
-extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.LocalObject]
     /**

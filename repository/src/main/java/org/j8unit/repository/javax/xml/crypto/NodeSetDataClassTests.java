@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.crypto.NodeSetDataTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NodeSetDataTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NodeSetDataClassTests<SUT extends NodeSetData>
-extends org.j8unit.repository.javax.xml.crypto.DataClassTests<SUT> {
+extends DataClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.NodeSetData]
     /**

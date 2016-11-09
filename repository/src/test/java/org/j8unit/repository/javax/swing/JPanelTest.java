@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JPanelTest
-implements FactoryBasedJ8UnitTest<JPanel>, org.j8unit.repository.javax.swing.JPanelTests<JPanel> {
+implements FactoryBasedJ8UnitTest<JPanel>, JPanelTests<JPanel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JPanel]
 

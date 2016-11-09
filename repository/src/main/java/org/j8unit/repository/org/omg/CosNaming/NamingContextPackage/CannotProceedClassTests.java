@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CosNaming.NamingContextPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CosNaming.NamingContextPackage.CannotProceed;
@@ -17,8 +18,7 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceed;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CannotProceedTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CosNaming.NamingContextPackage.CannotProceed;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CannotProceedClassTests<SUT extends CannotProceed>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextPackage.CannotProceed]
     /**

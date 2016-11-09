@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DomainManagerOperations;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DomainManagerOperations} (by simply
+ * reusing the J8Unit test interface {@link DomainManagerOperationsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DomainManagerOperationsTest
-implements org.j8unit.repository.org.omg.CORBA.DomainManagerOperationsTests<DomainManagerOperations> {
+implements DomainManagerOperationsTests<DomainManagerOperations> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DomainManagerOperations]
 

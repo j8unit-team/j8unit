@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalSeparatorUITest
-implements FactoryBasedJ8UnitTest<MetalSeparatorUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalSeparatorUITests<MetalSeparatorUI> {
+implements FactoryBasedJ8UnitTest<MetalSeparatorUI>, MetalSeparatorUITests<MetalSeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalSeparatorUI]
 

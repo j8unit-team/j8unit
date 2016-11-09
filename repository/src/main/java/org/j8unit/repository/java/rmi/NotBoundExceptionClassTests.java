@@ -3,6 +3,7 @@ package org.j8unit.repository.java.rmi;
 import static org.junit.Assert.assertTrue;
 import java.rmi.NotBoundException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.NotBoundExceptionTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NotBoundExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotBoundExceptionClassTests<SUT extends NotBoundException>
-extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
+extends ExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.NotBoundException]
     /**

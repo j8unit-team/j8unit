@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.CODESET_INCOMPATIBLE;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CODESET_INCOMPATIBLE} (by simply reusing
+ * the J8Unit test interface {@link CODESET_INCOMPATIBLEClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CODESET_INCOMPATIBLEClassTest
-implements org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLEClassTests<CODESET_INCOMPATIBLE> {
+implements CODESET_INCOMPATIBLEClassTests<CODESET_INCOMPATIBLE> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.CODESET_INCOMPATIBLE]
 

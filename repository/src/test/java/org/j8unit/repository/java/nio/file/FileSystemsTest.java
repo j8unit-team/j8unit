@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link FileSystems} (by simply reusing the
+ * J8Unit test interface {@link FileSystemsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FileSystemsTest
-implements org.j8unit.repository.java.nio.file.FileSystemsTests<FileSystems> {
+implements FileSystemsTests<FileSystems> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.FileSystems]
 

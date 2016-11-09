@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.WeakHashMapTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WeakHashMapTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WeakHashMapClassTests<SUT extends WeakHashMap>
-extends org.j8unit.repository.java.util.AbstractMapClassTests<SUT> {
+extends AbstractMapClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.WeakHashMap]
     /**

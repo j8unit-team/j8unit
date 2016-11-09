@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Proxy} (by simply reusing the J8Unit
+ * test interface {@link ProxyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ProxyTest
-implements org.j8unit.repository.java.lang.reflect.ProxyTests<Proxy> {
+implements ProxyTests<Proxy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.Proxy]
 

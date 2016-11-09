@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorType} (by simply reusing the
+ * J8Unit test interface {@link ColorTypeTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ColorTypeTest
-implements org.j8unit.repository.javax.swing.plaf.synth.ColorTypeTests<ColorType> {
+implements ColorTypeTests<ColorType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.ColorType]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AccountLockedExceptionTest
-implements FactoryBasedJ8UnitTest<AccountLockedException>, org.j8unit.repository.javax.security.auth.login.AccountLockedExceptionTests<AccountLockedException> {
+implements FactoryBasedJ8UnitTest<AccountLockedException>, AccountLockedExceptionTests<AccountLockedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.login.AccountLockedException]
 

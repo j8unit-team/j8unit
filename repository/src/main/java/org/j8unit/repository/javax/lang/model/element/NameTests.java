@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.lang.model.element;
 import javax.lang.model.element.Name;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.CharSequenceTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameTests<SUT extends Name>
-extends org.j8unit.repository.java.lang.CharSequenceTests<SUT> {
+extends CharSequenceTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.lang.model.element.Name]
 

@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DefinitionKindHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefinitionKindHelper} (by simply reusing
+ * the J8Unit test interface {@link DefinitionKindHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefinitionKindHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.DefinitionKindHelperClassTests<DefinitionKindHelper> {
+implements DefinitionKindHelperClassTests<DefinitionKindHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.DefinitionKindHelper]
 

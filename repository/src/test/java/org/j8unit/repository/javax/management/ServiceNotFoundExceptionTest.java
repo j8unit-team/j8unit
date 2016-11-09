@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ServiceNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<ServiceNotFoundException>, org.j8unit.repository.javax.management.ServiceNotFoundExceptionTests<ServiceNotFoundException> {
+implements FactoryBasedJ8UnitTest<ServiceNotFoundException>, ServiceNotFoundExceptionTests<ServiceNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.ServiceNotFoundException]
 

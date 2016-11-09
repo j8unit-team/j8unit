@@ -4,6 +4,11 @@ import java.security.Certificate;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Certificate} (by simply reusing the
+ * J8Unit test interface {@link org.j8unit.repository.java.security.CertificateClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CertificateClassTest
 implements org.j8unit.repository.java.security.CertificateClassTests<Certificate> {

@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.PaintTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PaintTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PaintClassTests<SUT extends Paint>
-extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT> {
+extends TransparencyClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Paint]
     /**

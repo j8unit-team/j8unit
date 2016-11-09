@@ -14,7 +14,7 @@ import org.omg.PortableInterceptor.InvalidSlot;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidSlotTest
-implements FactoryBasedJ8UnitTest<InvalidSlot>, org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotTests<InvalidSlot> {
+implements FactoryBasedJ8UnitTest<InvalidSlot>, InvalidSlotTests<InvalidSlot> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.InvalidSlot]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.INTERNAL;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INTERNALTest
-implements FactoryBasedJ8UnitTest<INTERNAL>, org.j8unit.repository.org.omg.CORBA.INTERNALTests<INTERNAL> {
+implements FactoryBasedJ8UnitTest<INTERNAL>, INTERNALTests<INTERNAL> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INTERNAL]
 

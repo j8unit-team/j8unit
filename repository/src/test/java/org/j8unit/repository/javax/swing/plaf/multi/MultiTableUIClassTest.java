@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MultiTableUI} (by simply reusing the
+ * J8Unit test interface {@link MultiTableUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultiTableUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.multi.MultiTableUIClassTests<MultiTableUI> {
+implements MultiTableUIClassTests<MultiTableUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.multi.MultiTableUI]
 

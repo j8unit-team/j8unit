@@ -14,7 +14,7 @@ import org.omg.CORBA.AnyHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AnyHolderTest
-implements FactoryBasedJ8UnitTest<AnyHolder>, org.j8unit.repository.org.omg.CORBA.AnyHolderTests<AnyHolder> {
+implements FactoryBasedJ8UnitTest<AnyHolder>, AnyHolderTests<AnyHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.AnyHolder]
 

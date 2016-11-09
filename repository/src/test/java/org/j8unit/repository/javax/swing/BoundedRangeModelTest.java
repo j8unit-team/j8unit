@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BoundedRangeModel} (by simply reusing
+ * the J8Unit test interface {@link BoundedRangeModelTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BoundedRangeModelTest
-implements org.j8unit.repository.javax.swing.BoundedRangeModelTests<BoundedRangeModel> {
+implements BoundedRangeModelTests<BoundedRangeModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.BoundedRangeModel]
 

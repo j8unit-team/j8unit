@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.ResponseHandler;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ResponseHandler} (by simply reusing
+ * the J8Unit test interface {@link ResponseHandlerTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ResponseHandlerTest
-implements org.j8unit.repository.org.omg.CORBA.portable.ResponseHandlerTests<ResponseHandler> {
+implements ResponseHandlerTests<ResponseHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.portable.ResponseHandler]
 

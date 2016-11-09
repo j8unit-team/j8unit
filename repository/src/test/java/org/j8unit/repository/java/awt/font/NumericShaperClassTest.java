@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NumericShaper} (by simply reusing the
+ * J8Unit test interface {@link NumericShaperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NumericShaperClassTest
-implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericShaper> {
+implements NumericShaperClassTests<NumericShaper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.NumericShaper]
 
@@ -150,9 +155,14 @@ implements org.j8unit.repository.java.awt.font.NumericShaperClassTests<NumericSh
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.font.NumericShaper]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Range} (by simply reusing the J8Unit
+     * test interface {@link RangeClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class RangeClassTest
-    implements org.j8unit.repository.java.awt.font.NumericShaperClassTests.RangeClassTests<Range> {
+    implements RangeClassTests<Range> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.NumericShaper$Range]
 

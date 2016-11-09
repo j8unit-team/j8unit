@@ -17,8 +17,7 @@ import org.omg.DynamicAny.DynUnionOperations;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny.DynUnionOperationsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link DynUnionOperationsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.DynamicAny.DynUnionOperations;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynUnionOperationsClassTests<SUT extends DynUnionOperations>
-extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsClassTests<SUT> {
+extends DynAnyOperationsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny.DynUnionOperations]
     /**

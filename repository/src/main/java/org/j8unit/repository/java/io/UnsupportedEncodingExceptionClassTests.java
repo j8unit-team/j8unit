@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.UnsupportedEncodingExceptionTests}.
+ * {@link UnsupportedEncodingExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedEncodingExceptionClassTests<SUT extends UnsupportedEncodingException>
-extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
+extends IOExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.UnsupportedEncodingException]
     /**

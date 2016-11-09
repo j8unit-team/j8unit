@@ -3,6 +3,8 @@ package org.j8unit.repository.java.awt;
 import static org.junit.Assert.assertTrue;
 import java.awt.Rectangle;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.geom.Rectangle2DClassTests;
+import org.j8unit.repository.java.io.SerializableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.RectangleTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RectangleTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RectangleClassTests<SUT extends Rectangle>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
+extends SerializableClassTests<SUT>, Rectangle2DClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.Rectangle]
     /**

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.UShortSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link UShortSeqHelper} (by simply reusing
+ * the J8Unit test interface {@link UShortSeqHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class UShortSeqHelperTest
-implements org.j8unit.repository.org.omg.CORBA.UShortSeqHelperTests<UShortSeqHelper> {
+implements UShortSeqHelperTests<UShortSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UShortSeqHelper]
 

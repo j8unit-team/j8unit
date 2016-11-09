@@ -28,7 +28,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayTypeTests<SUT extends ArrayType<T>, T>
-extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
+extends OpenTypeTests<SUT, T> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.openmbean.ArrayType]
 

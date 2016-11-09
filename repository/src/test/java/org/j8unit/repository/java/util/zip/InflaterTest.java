@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InflaterTest
-implements FactoryBasedJ8UnitTest<Inflater>, org.j8unit.repository.java.util.zip.InflaterTests<Inflater> {
+implements FactoryBasedJ8UnitTest<Inflater>, InflaterTests<Inflater> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.zip.Inflater]
 

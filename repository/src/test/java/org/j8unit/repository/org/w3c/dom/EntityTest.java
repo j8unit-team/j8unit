@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.Entity;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Entity} (by simply reusing the J8Unit
+ * test interface {@link EntityTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EntityTest
-implements org.j8unit.repository.org.w3c.dom.EntityTests<Entity> {
+implements EntityTests<Entity> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.Entity]
 

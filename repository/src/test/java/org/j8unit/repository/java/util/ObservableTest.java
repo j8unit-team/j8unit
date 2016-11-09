@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ObservableTest
-implements FactoryBasedJ8UnitTest<Observable>, org.j8unit.repository.java.util.ObservableTests<Observable> {
+implements FactoryBasedJ8UnitTest<Observable>, ObservableTests<Observable> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Observable]
 

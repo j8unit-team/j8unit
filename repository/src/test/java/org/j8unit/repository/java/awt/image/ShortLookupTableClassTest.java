@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ShortLookupTable} (by simply reusing the
+ * J8Unit test interface {@link ShortLookupTableClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ShortLookupTableClassTest
-implements org.j8unit.repository.java.awt.image.ShortLookupTableClassTests<ShortLookupTable> {
+implements ShortLookupTableClassTests<ShortLookupTable> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.ShortLookupTable]
 

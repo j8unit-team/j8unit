@@ -19,8 +19,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CertPathValidatorExceptionTest
-implements FactoryBasedJ8UnitTest<CertPathValidatorException>,
-org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPathValidatorException> {
+implements FactoryBasedJ8UnitTest<CertPathValidatorException>, CertPathValidatorExceptionTests<CertPathValidatorException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
@@ -41,9 +40,14 @@ org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPat
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.security.cert.CertPathValidatorException]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Reason} (by simply reusing the
+     * J8Unit test interface {@link ReasonTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ReasonTest
-    implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests<Reason> {
+    implements ReasonTests<Reason> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$Reason]
 
@@ -58,10 +62,15 @@ org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests<CertPat
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicReason} (by simply reusing
+     * the J8Unit test interface {@link BasicReasonTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BasicReasonTest
-    implements org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.BasicReasonTests<BasicReason> {
+    implements BasicReasonTests<BasicReason> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertPathValidatorException$BasicReason]
 

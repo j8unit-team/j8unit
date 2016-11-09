@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JDesktopPane} (by simply reusing the
+ * J8Unit test interface {@link JDesktopPaneClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JDesktopPaneClassTest
-implements org.j8unit.repository.javax.swing.JDesktopPaneClassTests<JDesktopPane> {
+implements JDesktopPaneClassTests<JDesktopPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JDesktopPane]
 

@@ -8,39 +8,20 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Files} (by simply reusing the J8Unit test
+ * interface {@link FilesClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FilesClassTest
-implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
+implements FilesClassTests<Files> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.Files]
 
     @Override
     public Class<Files> createNewSUT() {
         return Files.class;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.Files#createTempDirectory(String, java.nio.file.attribute.FileAttribute...) public static
-     * java.nio.file.Path
-     * java.nio.file.Files.createTempDirectory(java.lang.String,java.nio.file.attribute.FileAttribute<?>...) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_createTempDirectory_String_FileAttributeArray()
-    throws Exception {
-        // write some test for {@link java.nio.file.Files#createTempDirectory(String,
-        // java.nio.file.attribute.FileAttribute...)}
     }
 
     /**
@@ -64,6 +45,30 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     public void test_createTempDirectory_Path_String_FileAttributeArray()
     throws Exception {
         // write some test for {@link java.nio.file.Files#createTempDirectory(java.nio.file.Path, String,
+        // java.nio.file.attribute.FileAttribute...)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.Files#createTempDirectory(String, java.nio.file.attribute.FileAttribute...) public static
+     * java.nio.file.Path
+     * java.nio.file.Files.createTempDirectory(java.lang.String,java.nio.file.attribute.FileAttribute<?>...) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_createTempDirectory_String_FileAttributeArray()
+    throws Exception {
+        // write some test for {@link java.nio.file.Files#createTempDirectory(String,
         // java.nio.file.attribute.FileAttribute...)}
     }
 
@@ -361,28 +366,6 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.Files#walk(java.nio.file.Path, java.nio.file.FileVisitOption...) public static
-     * java.util.stream.Stream<java.nio.file.Path>
-     * java.nio.file.Files.walk(java.nio.file.Path,java.nio.file.FileVisitOption...) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_walk_Path_FileVisitOptionArray()
-    throws Exception {
-        // write some test for {@link java.nio.file.Files#walk(java.nio.file.Path, java.nio.file.FileVisitOption...)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Files#walk(java.nio.file.Path, int, java.nio.file.FileVisitOption...) public static
      * java.util.stream.Stream<java.nio.file.Path>
      * java.nio.file.Files.walk(java.nio.file.Path,int,java.nio.file.FileVisitOption...) throws java.io.IOException}.
@@ -406,6 +389,28 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.Files#walk(java.nio.file.Path, java.nio.file.FileVisitOption...) public static
+     * java.util.stream.Stream<java.nio.file.Path>
+     * java.nio.file.Files.walk(java.nio.file.Path,java.nio.file.FileVisitOption...) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_walk_Path_FileVisitOptionArray()
+    throws Exception {
+        // write some test for {@link java.nio.file.Files#walk(java.nio.file.Path, java.nio.file.FileVisitOption...)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Files#exists(java.nio.file.Path, java.nio.file.LinkOption...) public static boolean
      * java.nio.file.Files.exists(java.nio.file.Path,java.nio.file.LinkOption...)}.
      *
@@ -422,6 +427,27 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     public void test_exists_Path_LinkOptionArray()
     throws Exception {
         // write some test for {@link java.nio.file.Files#exists(java.nio.file.Path, java.nio.file.LinkOption...)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.Files#getFileStore(java.nio.file.Path)
+     * public static java.nio.file.FileStore java.nio.file.Files.getFileStore(java.nio.file.Path) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_getFileStore_Path()
+    throws Exception {
+        // write some test for {@link java.nio.file.Files#getFileStore(java.nio.file.Path)}
     }
 
     /**
@@ -469,27 +495,6 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     throws Exception {
         // write some test for {@link java.nio.file.Files#newByteChannel(java.nio.file.Path, java.util.Set,
         // java.nio.file.attribute.FileAttribute...)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.file.Files#getFileStore(java.nio.file.Path)
-     * public static java.nio.file.FileStore java.nio.file.Files.getFileStore(java.nio.file.Path) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_getFileStore_Path()
-    throws Exception {
-        // write some test for {@link java.nio.file.Files#getFileStore(java.nio.file.Path)}
     }
 
     /**
@@ -558,6 +563,27 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.nio.file.Files#readAllLines(java.nio.file.Path)
+     * public static java.util.List<java.lang.String> java.nio.file.Files.readAllLines(java.nio.file.Path) throws
+     * java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_readAllLines_Path()
+    throws Exception {
+        // write some test for {@link java.nio.file.Files#readAllLines(java.nio.file.Path)}
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Files#readAllLines(java.nio.file.Path, java.nio.charset.Charset) public static
      * java.util.List<java.lang.String> java.nio.file.Files.readAllLines(java.nio.file.Path,java.nio.charset.Charset)
@@ -576,27 +602,6 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     public void test_readAllLines_Path_Charset()
     throws Exception {
         // write some test for {@link java.nio.file.Files#readAllLines(java.nio.file.Path, java.nio.charset.Charset)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.nio.file.Files#readAllLines(java.nio.file.Path)
-     * public static java.util.List<java.lang.String> java.nio.file.Files.readAllLines(java.nio.file.Path) throws
-     * java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_readAllLines_Path()
-    throws Exception {
-        // write some test for {@link java.nio.file.Files#readAllLines(java.nio.file.Path)}
     }
 
     /**
@@ -872,6 +877,27 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path) public static java.io.BufferedReader
+     * java.nio.file.Files.newBufferedReader(java.nio.file.Path) throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_newBufferedReader_Path()
+    throws Exception {
+        // write some test for {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path, java.nio.charset.Charset) public static
      * java.io.BufferedReader java.nio.file.Files.newBufferedReader(java.nio.file.Path,java.nio.charset.Charset) throws
      * java.io.IOException}.
@@ -890,27 +916,6 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     throws Exception {
         // write some test for {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path,
         // java.nio.charset.Charset)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path) public static java.io.BufferedReader
-     * java.nio.file.Files.newBufferedReader(java.nio.file.Path) throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_newBufferedReader_Path()
-    throws Exception {
-        // write some test for {@link java.nio.file.Files#newBufferedReader(java.nio.file.Path)}
     }
 
     /**
@@ -1247,6 +1252,29 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
+     * {@link java.nio.file.Files#readAttributes(java.nio.file.Path, Class, java.nio.file.LinkOption...) public static
+     * <A> A java.nio.file.Files.readAttributes(java.nio.file.Path,java.lang.Class<A>,java.nio.file.LinkOption...)
+     * throws java.io.IOException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void test_readAttributes_Path_Class_LinkOptionArray()
+    throws Exception {
+        // write some test for {@link java.nio.file.Files#readAttributes(java.nio.file.Path, Class,
+        // java.nio.file.LinkOption...)}
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
      * {@link java.nio.file.Files#readAttributes(java.nio.file.Path, String, java.nio.file.LinkOption...) public static
      * java.util.Map<java.lang.String, java.lang.Object>
      * java.nio.file.Files.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...) throws
@@ -1265,29 +1293,6 @@ implements org.j8unit.repository.java.nio.file.FilesClassTests<Files> {
     public void test_readAttributes_Path_String_LinkOptionArray()
     throws Exception {
         // write some test for {@link java.nio.file.Files#readAttributes(java.nio.file.Path, String,
-        // java.nio.file.LinkOption...)}
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link java.nio.file.Files#readAttributes(java.nio.file.Path, Class, java.nio.file.LinkOption...) public static
-     * <A> A java.nio.file.Files.readAttributes(java.nio.file.Path,java.lang.Class<A>,java.nio.file.LinkOption...)
-     * throws java.io.IOException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void test_readAttributes_Path_Class_LinkOptionArray()
-    throws Exception {
-        // write some test for {@link java.nio.file.Files#readAttributes(java.nio.file.Path, Class,
         // java.nio.file.LinkOption...)}
     }
 

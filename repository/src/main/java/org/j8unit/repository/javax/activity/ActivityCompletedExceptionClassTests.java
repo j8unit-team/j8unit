@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.activity;
 import static org.junit.Assert.assertTrue;
 import javax.activity.ActivityCompletedException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.rmi.RemoteExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.activity.ActivityCompletedExceptionTests}.
+ * {@link ActivityCompletedExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivityCompletedExceptionClassTests<SUT extends ActivityCompletedException>
-extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
+extends RemoteExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.activity.ActivityCompletedException]
     /**

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RefreshFailedExceptionTest
-implements FactoryBasedJ8UnitTest<RefreshFailedException>, org.j8unit.repository.javax.security.auth.RefreshFailedExceptionTests<RefreshFailedException> {
+implements FactoryBasedJ8UnitTest<RefreshFailedException>, RefreshFailedExceptionTests<RefreshFailedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.RefreshFailedException]
 

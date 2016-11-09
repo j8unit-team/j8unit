@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.POAPackage.ServantNotActive;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServantNotActive} (by simply reusing the
+ * J8Unit test interface {@link ServantNotActiveClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantNotActiveClassTest
-implements org.j8unit.repository.org.omg.PortableServer.POAPackage.ServantNotActiveClassTests<ServantNotActive> {
+implements ServantNotActiveClassTests<ServantNotActive> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.ServantNotActive]
 

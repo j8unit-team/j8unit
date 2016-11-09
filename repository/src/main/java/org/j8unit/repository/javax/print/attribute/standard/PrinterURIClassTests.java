@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.print.attribute.standard;
 import static org.junit.Assert.assertTrue;
 import javax.print.attribute.standard.PrinterURI;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests;
+import org.j8unit.repository.javax.print.attribute.URISyntaxClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.standard.PrinterURITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PrinterURITests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterURIClassTests<SUT extends PrinterURI>
-extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.URISyntaxClassTests<SUT> {
+extends PrintServiceAttributeClassTests<SUT>, URISyntaxClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.PrinterURI]
     /**

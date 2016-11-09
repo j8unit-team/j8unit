@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.CustomValue;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CustomValue} (by simply reusing the
+ * J8Unit test interface {@link CustomValueClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CustomValueClassTest
-implements org.j8unit.repository.org.omg.CORBA.portable.CustomValueClassTests<CustomValue> {
+implements CustomValueClassTests<CustomValue> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.CustomValue]
 

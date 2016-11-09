@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.print;
 import javax.print.StreamPrintService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.print.StreamPrintServiceClassTests}).
+ * {@link StreamPrintServiceClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StreamPrintServiceTests<SUT extends StreamPrintService>
-extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends PrintServiceTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.print.StreamPrintService]
 
@@ -144,8 +145,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
     @Category(Draft.class)
     public default void test_hashCode()
     throws Exception {
-        org.j8unit.repository.javax.print.PrintServiceTests.super.test_hashCode();
-        org.j8unit.repository.java.lang.ObjectTests.super.test_hashCode();
+        PrintServiceTests.super.test_hashCode();
+        ObjectTests.super.test_hashCode();
     }
 
     /**
@@ -172,8 +173,8 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
     @Category(Draft.class)
     public default void test_equals_Object()
     throws Exception {
-        org.j8unit.repository.javax.print.PrintServiceTests.super.test_equals_Object();
-        org.j8unit.repository.java.lang.ObjectTests.super.test_equals_Object();
+        PrintServiceTests.super.test_equals_Object();
+        ObjectTests.super.test_equals_Object();
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.print.StreamPrintService]

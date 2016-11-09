@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ThreadPolicy;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ThreadPolicy} (by simply reusing the
+ * J8Unit test interface {@link ThreadPolicyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ThreadPolicyTest
-implements org.j8unit.repository.org.omg.PortableServer.ThreadPolicyTests<ThreadPolicy> {
+implements ThreadPolicyTests<ThreadPolicy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableServer.ThreadPolicy]
 

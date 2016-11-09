@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JLayeredPaneTest
-implements FactoryBasedJ8UnitTest<JLayeredPane>, org.j8unit.repository.javax.swing.JLayeredPaneTests<JLayeredPane> {
+implements FactoryBasedJ8UnitTest<JLayeredPane>, JLayeredPaneTests<JLayeredPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JLayeredPane]
 

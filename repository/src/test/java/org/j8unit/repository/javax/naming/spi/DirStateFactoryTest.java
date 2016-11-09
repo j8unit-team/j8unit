@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DirStateFactory} (by simply reusing
+ * the J8Unit test interface {@link DirStateFactoryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DirStateFactoryTest
-implements org.j8unit.repository.javax.naming.spi.DirStateFactoryTests<DirStateFactory> {
+implements DirStateFactoryTests<DirStateFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.spi.DirStateFactory]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.naming.spi.DirStateFactoryTests<DirStateF
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.naming.spi.DirStateFactory]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Result} (by simply reusing the
+     * J8Unit test interface {@link ResultTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ResultTest
-    implements org.j8unit.repository.javax.naming.spi.DirStateFactoryTests.ResultTests<Result> {
+    implements ResultTests<Result> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.spi.DirStateFactory$Result]
 

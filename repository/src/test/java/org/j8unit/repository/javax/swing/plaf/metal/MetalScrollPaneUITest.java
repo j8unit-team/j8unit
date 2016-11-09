@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MetalScrollPaneUITest
-implements FactoryBasedJ8UnitTest<MetalScrollPaneUI>, org.j8unit.repository.javax.swing.plaf.metal.MetalScrollPaneUITests<MetalScrollPaneUI> {
+implements FactoryBasedJ8UnitTest<MetalScrollPaneUI>, MetalScrollPaneUITests<MetalScrollPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalScrollPaneUI]
 

@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NotificationBroadcasterSupportTest
-implements FactoryBasedJ8UnitTest<NotificationBroadcasterSupport>,
-org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<NotificationBroadcasterSupport> {
+implements FactoryBasedJ8UnitTest<NotificationBroadcasterSupport>, NotificationBroadcasterSupportTests<NotificationBroadcasterSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.NotificationBroadcasterSupport]
 

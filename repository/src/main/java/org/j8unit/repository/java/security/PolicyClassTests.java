@@ -5,6 +5,7 @@ import java.security.Policy;
 import java.security.Policy.Parameters;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.security.PolicyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PolicyTests}.
  * </p>
  *
  * <p>
@@ -50,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyClassTests<SUT extends Policy>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.Policy]
     /**
@@ -85,8 +85,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.security.PolicyTests.ParametersTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ParametersTests}.
      * </p>
      *
      * <p>

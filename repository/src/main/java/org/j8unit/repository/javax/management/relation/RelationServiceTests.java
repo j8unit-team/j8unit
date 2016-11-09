@@ -3,6 +3,9 @@ package org.j8unit.repository.javax.management.relation;
 import javax.management.relation.RelationService;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.management.MBeanRegistrationTests;
+import org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests;
+import org.j8unit.repository.javax.management.NotificationListenerTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.management.relation.RelationServiceClassTests}).
+ * {@link RelationServiceClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,8 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationServiceTests<SUT extends RelationService>
-extends org.j8unit.repository.javax.management.relation.RelationServiceMBeanTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationTests<SUT>,
-org.j8unit.repository.javax.management.NotificationListenerTests<SUT>, org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> {
+extends RelationServiceMBeanTests<SUT>, MBeanRegistrationTests<SUT>, NotificationListenerTests<SUT>, NotificationBroadcasterSupportTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RelationService]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DestroyFailedException} (by simply
+ * reusing the J8Unit test interface {@link DestroyFailedExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DestroyFailedExceptionClassTest
-implements org.j8unit.repository.javax.security.auth.DestroyFailedExceptionClassTests<DestroyFailedException> {
+implements DestroyFailedExceptionClassTests<DestroyFailedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.DestroyFailedException]
 

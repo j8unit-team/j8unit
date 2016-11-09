@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.html.HTMLOListElement;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link HTMLOListElement} (by simply reusing
+ * the J8Unit test interface {@link HTMLOListElementTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class HTMLOListElementTest
-implements org.j8unit.repository.org.w3c.dom.html.HTMLOListElementTests<HTMLOListElement> {
+implements HTMLOListElementTests<HTMLOListElement> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLOListElement]
 

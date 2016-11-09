@@ -17,8 +17,7 @@ import org.w3c.dom.html.HTMLDivElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLDivElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLDivElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.html.HTMLDivElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLDivElementClassTests<SUT extends HTMLDivElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLDivElement]
     /**

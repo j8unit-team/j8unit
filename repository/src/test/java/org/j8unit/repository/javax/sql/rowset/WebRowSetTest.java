@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link WebRowSet} (by simply reusing the
+ * J8Unit test interface {@link WebRowSetTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WebRowSetTest
-implements org.j8unit.repository.javax.sql.rowset.WebRowSetTests<WebRowSet> {
+implements WebRowSetTests<WebRowSet> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.WebRowSet]
 

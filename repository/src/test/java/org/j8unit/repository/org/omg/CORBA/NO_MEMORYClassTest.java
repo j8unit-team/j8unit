@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.NO_MEMORY;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link NO_MEMORY} (by simply reusing the J8Unit
+ * test interface {@link NO_MEMORYClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NO_MEMORYClassTest
-implements org.j8unit.repository.org.omg.CORBA.NO_MEMORYClassTests<NO_MEMORY> {
+implements NO_MEMORYClassTests<NO_MEMORY> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.NO_MEMORY]
 

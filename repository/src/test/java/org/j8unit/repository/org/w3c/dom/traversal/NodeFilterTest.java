@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.traversal.NodeFilter;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NodeFilter} (by simply reusing the
+ * J8Unit test interface {@link NodeFilterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NodeFilterTest
-implements org.j8unit.repository.org.w3c.dom.traversal.NodeFilterTests<NodeFilter> {
+implements NodeFilterTests<NodeFilter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.traversal.NodeFilter]
 

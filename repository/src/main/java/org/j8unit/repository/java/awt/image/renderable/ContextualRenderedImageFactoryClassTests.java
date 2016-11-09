@@ -19,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.image.renderable.ContextualRenderedImageFactoryTests}.
+ * {@link ContextualRenderedImageFactoryTests}.
  * </p>
  *
  * <p>
@@ -48,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ContextualRenderedImageFactoryClassTests<SUT extends ContextualRenderedImageFactory>
-extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryClassTests<SUT> {
+extends RenderedImageFactoryClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.image.renderable.ContextualRenderedImageFactory]
     /**

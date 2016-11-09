@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.spi.TimeZoneNameProviderTests}.
+ * {@link TimeZoneNameProviderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimeZoneNameProviderClassTests<SUT extends TimeZoneNameProvider>
-extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {
+extends LocaleServiceProviderClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.spi.TimeZoneNameProvider]
     /**

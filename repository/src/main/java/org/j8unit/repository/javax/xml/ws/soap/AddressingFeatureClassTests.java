@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import javax.xml.ws.soap.AddressingFeature;
 import javax.xml.ws.soap.AddressingFeature.Responses;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests;
+import org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link AddressingFeatureTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AddressingFeatureClassTests<SUT extends AddressingFeature>
-extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
+extends WebServiceFeatureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
     /**
@@ -84,8 +86,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link ResponsesTests}.
      * </p>
      *
      * <p>
@@ -114,7 +115,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ResponsesClassTests<SUT extends Responses>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]
         /**

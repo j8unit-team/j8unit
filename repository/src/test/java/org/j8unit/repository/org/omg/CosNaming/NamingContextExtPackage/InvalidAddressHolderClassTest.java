@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link InvalidAddressHolder} (by simply reusing
+ * the J8Unit test interface {@link InvalidAddressHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InvalidAddressHolderClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolderClassTests<InvalidAddressHolder> {
+implements InvalidAddressHolderClassTests<InvalidAddressHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddressHolder]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.PolicyHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PolicyHelper} (by simply reusing the
+ * J8Unit test interface {@link PolicyHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyHelperTest
-implements org.j8unit.repository.org.omg.CORBA.PolicyHelperTests<PolicyHelper> {
+implements PolicyHelperTests<PolicyHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PolicyHelper]
 

@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AbstractScriptEngine} (by simply reusing
+ * the J8Unit test interface {@link AbstractScriptEngineClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AbstractScriptEngineClassTest
-implements org.j8unit.repository.javax.script.AbstractScriptEngineClassTests<AbstractScriptEngine> {
+implements AbstractScriptEngineClassTests<AbstractScriptEngine> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.script.AbstractScriptEngine]
 

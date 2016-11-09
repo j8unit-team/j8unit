@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.script;
 import static org.junit.Assert.assertTrue;
 import javax.script.SimpleBindings;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.script.SimpleBindingsTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleBindingsTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleBindingsClassTests<SUT extends SimpleBindings>
-extends org.j8unit.repository.javax.script.BindingsClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends BindingsClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.script.SimpleBindings]
     /**

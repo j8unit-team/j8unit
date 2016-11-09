@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link EndpointContext} (by simply reusing the
+ * J8Unit test interface {@link EndpointContextClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class EndpointContextClassTest
-implements org.j8unit.repository.javax.xml.ws.EndpointContextClassTests<EndpointContext> {
+implements EndpointContextClassTests<EndpointContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.EndpointContext]
 

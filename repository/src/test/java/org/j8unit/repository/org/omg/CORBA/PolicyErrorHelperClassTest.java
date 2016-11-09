@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.PolicyErrorHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link PolicyErrorHelper} (by simply reusing the
+ * J8Unit test interface {@link PolicyErrorHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PolicyErrorHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.PolicyErrorHelperClassTests<PolicyErrorHelper> {
+implements PolicyErrorHelperClassTests<PolicyErrorHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.PolicyErrorHelper]
 

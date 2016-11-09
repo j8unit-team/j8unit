@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MonitorSettingExceptionTest
-implements FactoryBasedJ8UnitTest<MonitorSettingException>,
-org.j8unit.repository.javax.management.monitor.MonitorSettingExceptionTests<MonitorSettingException> {
+implements FactoryBasedJ8UnitTest<MonitorSettingException>, MonitorSettingExceptionTests<MonitorSettingException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.monitor.MonitorSettingException]
 

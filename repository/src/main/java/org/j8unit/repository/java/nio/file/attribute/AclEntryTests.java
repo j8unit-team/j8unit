@@ -4,6 +4,7 @@ import java.nio.file.attribute.AclEntry;
 import java.nio.file.attribute.AclEntry.Builder;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -29,7 +30,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryTests<SUT extends AclEntry>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.attribute.AclEntry]
 
@@ -214,7 +215,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends Builder>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    extends ObjectTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.file.attribute.AclEntry$Builder]
 
@@ -269,9 +270,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.nio.file.attribute.AclEntry.Builder#setPermissions(java.util.Set) public
+         * {@link java.nio.file.attribute.AclEntry.Builder#setType(java.nio.file.attribute.AclEntryType) public
          * java.nio.file.attribute.AclEntry$Builder
-         * java.nio.file.attribute.AclEntry$Builder.setPermissions(java.util.Set<java.nio.file.attribute.AclEntryPermission>)}.
+         * java.nio.file.attribute.AclEntry$Builder.setType(java.nio.file.attribute.AclEntryType)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -283,7 +284,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_setPermissions_Set()
+        public default void test_setType_AclEntryType()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -317,9 +318,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         /**
          * <p>
          * Test method for the hereby targeted method-under-test
-         * {@link java.nio.file.attribute.AclEntry.Builder#setType(java.nio.file.attribute.AclEntryType) public
+         * {@link java.nio.file.attribute.AclEntry.Builder#setPermissions(java.util.Set) public
          * java.nio.file.attribute.AclEntry$Builder
-         * java.nio.file.attribute.AclEntry$Builder.setType(java.nio.file.attribute.AclEntryType)}.
+         * java.nio.file.attribute.AclEntry$Builder.setPermissions(java.util.Set<java.nio.file.attribute.AclEntryPermission>)}.
          *
          * Up to now, there is no real implementation of this test method. But with your help at
          * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful
@@ -331,7 +332,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_setType_AclEntryType()
+        public default void test_setPermissions_Set()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MultiProgressBarUITest
-implements FactoryBasedJ8UnitTest<MultiProgressBarUI>, org.j8unit.repository.javax.swing.plaf.multi.MultiProgressBarUITests<MultiProgressBarUI> {
+implements FactoryBasedJ8UnitTest<MultiProgressBarUI>, MultiProgressBarUITests<MultiProgressBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.multi.MultiProgressBarUI]
 

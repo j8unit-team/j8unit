@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicToolBarUITest
-implements FactoryBasedJ8UnitTest<BasicToolBarUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<BasicToolBarUI> {
+implements FactoryBasedJ8UnitTest<BasicToolBarUI>, BasicToolBarUITests<BasicToolBarUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI]
 
@@ -38,9 +38,14 @@ implements FactoryBasedJ8UnitTest<BasicToolBarUI>, org.j8unit.repository.javax.s
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DockingListener} (by simply
+     * reusing the J8Unit test interface {@link DockingListenerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class DockingListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests.DockingListenerTests<DockingListener> {
+    implements DockingListenerTests<DockingListener> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
 

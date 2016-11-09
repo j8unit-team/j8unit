@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt.font;
 import static org.junit.Assert.assertTrue;
 import java.awt.font.TextAttribute;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.AttributeClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.font.TextAttributeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TextAttributeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextAttributeClassTests<SUT extends TextAttribute>
-extends org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.AttributeClassTests<SUT> {
+extends AttributeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.TextAttribute]
     /**

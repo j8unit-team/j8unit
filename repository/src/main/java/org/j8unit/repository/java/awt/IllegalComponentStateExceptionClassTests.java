@@ -3,6 +3,7 @@ package org.j8unit.repository.java.awt;
 import static org.junit.Assert.assertTrue;
 import java.awt.IllegalComponentStateException;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.IllegalStateExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.IllegalComponentStateExceptionTests}.
+ * {@link IllegalComponentStateExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalComponentStateExceptionClassTests<SUT extends IllegalComponentStateException>
-extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {
+extends IllegalStateExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.IllegalComponentStateException]
     /**

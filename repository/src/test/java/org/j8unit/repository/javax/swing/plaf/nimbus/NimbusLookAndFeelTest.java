@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class NimbusLookAndFeelTest
-implements FactoryBasedJ8UnitTest<NimbusLookAndFeel>, org.j8unit.repository.javax.swing.plaf.nimbus.NimbusLookAndFeelTests<NimbusLookAndFeel> {
+implements FactoryBasedJ8UnitTest<NimbusLookAndFeel>, NimbusLookAndFeelTests<NimbusLookAndFeel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.nimbus.NimbusLookAndFeel]
 

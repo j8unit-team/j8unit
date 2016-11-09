@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import java.awt.TrayIcon;
 import java.awt.TrayIcon.MessageType;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.TrayIconTests.MessageTypeTests;
+import org.j8unit.repository.java.lang.EnumClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.TrayIconTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TrayIconTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TrayIconClassTests<SUT extends TrayIcon>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.TrayIcon]
     /**
@@ -84,8 +86,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.TrayIconTests.MessageTypeTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link MessageTypeTests}.
      * </p>
      *
      * <p>
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MessageTypeClassTests<SUT extends MessageType>
-    extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+    extends EnumClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.TrayIcon$MessageType]
         /**

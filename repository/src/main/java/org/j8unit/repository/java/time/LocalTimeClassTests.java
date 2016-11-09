@@ -3,6 +3,11 @@ package org.j8unit.repository.java.time;
 import static org.junit.Assert.assertTrue;
 import java.time.LocalTime;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ComparableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests;
+import org.j8unit.repository.java.time.temporal.TemporalClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.time.LocalTimeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LocalTimeTests}.
  * </p>
  *
  * <p>
@@ -47,9 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocalTimeClassTests<SUT extends LocalTime>
-extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
-org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends TemporalClassTests<SUT>, TemporalAdjusterClassTests<SUT>, ComparableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.LocalTime]
     /**

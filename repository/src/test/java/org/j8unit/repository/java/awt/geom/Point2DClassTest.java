@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Point2D} (by simply reusing the J8Unit
+ * test interface {@link Point2DClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Point2DClassTest
-implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
+implements Point2DClassTests<Point2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Point2D]
 
@@ -66,6 +71,11 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Point2D]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.Point2DClassTests.DoubleClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest
@@ -127,6 +137,11 @@ implements org.j8unit.repository.java.awt.geom.Point2DClassTests<Point2D> {
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Point2D$Double]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.Point2DClassTests.FloatClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FloatClassTest

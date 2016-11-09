@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MBeanServerBuilderTest
-implements FactoryBasedJ8UnitTest<MBeanServerBuilder>, org.j8unit.repository.javax.management.MBeanServerBuilderTests<MBeanServerBuilder> {
+implements FactoryBasedJ8UnitTest<MBeanServerBuilder>, MBeanServerBuilderTests<MBeanServerBuilder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.MBeanServerBuilder]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class _RMIConnection_StubTest
-implements FactoryBasedJ8UnitTest<_RMIConnection_Stub>, org.j8unit.repository.javax.management.remote.rmi._RMIConnection_StubTests<_RMIConnection_Stub> {
+implements FactoryBasedJ8UnitTest<_RMIConnection_Stub>, _RMIConnection_StubTests<_RMIConnection_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.remote.rmi._RMIConnection_Stub]
 

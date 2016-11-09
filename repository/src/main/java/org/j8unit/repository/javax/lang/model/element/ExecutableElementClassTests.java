@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.lang.model.element.ExecutableElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ExecutableElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExecutableElementClassTests<SUT extends ExecutableElement>
-extends org.j8unit.repository.javax.lang.model.element.ParameterizableClassTests<SUT> {
+extends ParameterizableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.lang.model.element.ExecutableElement]
     /**

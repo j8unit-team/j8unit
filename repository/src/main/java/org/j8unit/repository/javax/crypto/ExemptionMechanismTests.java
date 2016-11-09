@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.crypto;
 import javax.crypto.ExemptionMechanism;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.crypto.ExemptionMechanismClassTests}).
+ * {@link ExemptionMechanismClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExemptionMechanismTests<SUT extends ExemptionMechanism>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.ExemptionMechanism]
 
@@ -173,10 +174,9 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test
-     * {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[]) public final int
-     * javax.crypto.ExemptionMechanism.genExemptionBlob(byte[]) throws
-     * java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException}.
+     * Test method for the hereby targeted method-under-test {@link javax.crypto.ExemptionMechanism#genExemptionBlob()
+     * public final byte[] javax.crypto.ExemptionMechanism.genExemptionBlob() throws
+     * java.lang.IllegalStateException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -188,7 +188,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_genExemptionBlob_byteArray()
+    public default void test_genExemptionBlob()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -221,9 +221,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link javax.crypto.ExemptionMechanism#genExemptionBlob()
-     * public final byte[] javax.crypto.ExemptionMechanism.genExemptionBlob() throws
-     * java.lang.IllegalStateException,javax.crypto.ExemptionMechanismException}.
+     * Test method for the hereby targeted method-under-test
+     * {@link javax.crypto.ExemptionMechanism#genExemptionBlob(byte[]) public final int
+     * javax.crypto.ExemptionMechanism.genExemptionBlob(byte[]) throws
+     * java.lang.IllegalStateException,javax.crypto.ShortBufferException,javax.crypto.ExemptionMechanismException}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -235,7 +236,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_genExemptionBlob()
+    public default void test_genExemptionBlob_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

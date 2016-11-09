@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicTextFieldUITest
-implements FactoryBasedJ8UnitTest<BasicTextFieldUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextFieldUITests<BasicTextFieldUI> {
+implements FactoryBasedJ8UnitTest<BasicTextFieldUI>, BasicTextFieldUITests<BasicTextFieldUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicTextFieldUI]
 

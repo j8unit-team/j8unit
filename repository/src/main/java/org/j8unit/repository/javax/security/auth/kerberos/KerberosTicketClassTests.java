@@ -3,6 +3,10 @@ package org.j8unit.repository.javax.security.auth.kerberos;
 import static org.junit.Assert.assertTrue;
 import javax.security.auth.kerberos.KerberosTicket;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.SerializableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.security.auth.DestroyableClassTests;
+import org.j8unit.repository.javax.security.auth.RefreshableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.security.auth.kerberos.KerberosTicketTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link KerberosTicketTests}.
  * </p>
  *
  * <p>
@@ -47,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KerberosTicketClassTests<SUT extends KerberosTicket>
-extends org.j8unit.repository.javax.security.auth.DestroyableClassTests<SUT>, org.j8unit.repository.javax.security.auth.RefreshableClassTests<SUT>,
-org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends DestroyableClassTests<SUT>, RefreshableClassTests<SUT>, SerializableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.security.auth.kerberos.KerberosTicket]
     /**

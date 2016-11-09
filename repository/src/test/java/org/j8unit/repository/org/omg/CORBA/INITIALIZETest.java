@@ -14,7 +14,7 @@ import org.omg.CORBA.INITIALIZE;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class INITIALIZETest
-implements FactoryBasedJ8UnitTest<INITIALIZE>, org.j8unit.repository.org.omg.CORBA.INITIALIZETests<INITIALIZE> {
+implements FactoryBasedJ8UnitTest<INITIALIZE>, INITIALIZETests<INITIALIZE> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.INITIALIZE]
 

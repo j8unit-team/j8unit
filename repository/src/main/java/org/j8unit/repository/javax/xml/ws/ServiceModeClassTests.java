@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.ws;
 import static org.junit.Assert.assertTrue;
 import javax.xml.ws.ServiceMode;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.annotation.AnnotationClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.ws.ServiceModeTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ServiceModeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServiceModeClassTests<SUT extends ServiceMode>
-extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
+extends AnnotationClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.ServiceMode]
     /**

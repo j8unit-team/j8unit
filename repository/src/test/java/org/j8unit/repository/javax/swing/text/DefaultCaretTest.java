@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultCaretTest
-implements FactoryBasedJ8UnitTest<DefaultCaret>, org.j8unit.repository.javax.swing.text.DefaultCaretTests<DefaultCaret> {
+implements FactoryBasedJ8UnitTest<DefaultCaret>, DefaultCaretTests<DefaultCaret> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultCaret]
 

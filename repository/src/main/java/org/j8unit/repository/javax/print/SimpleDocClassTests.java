@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.print;
 import static org.junit.Assert.assertTrue;
 import javax.print.SimpleDoc;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.SimpleDocTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SimpleDocTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleDocClassTests<SUT extends SimpleDoc>
-extends org.j8unit.repository.javax.print.DocClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends DocClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.SimpleDoc]
     /**

@@ -6,10 +6,14 @@ import java.nio.file.WatchEvent.Modifier;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WatchEvent} (by simply reusing the J8Unit
+ * test interface {@link WatchEventClassTests}).
+ */
 @SuppressWarnings("rawtypes")
 @RunWith(J8Unit4.class)
 public class WatchEventClassTest
-implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> {
+implements WatchEventClassTests<WatchEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.WatchEvent]
 
@@ -22,9 +26,14 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.nio.file.WatchEvent]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Modifier} (by simply reusing the
+     * J8Unit test interface {@link ModifierClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ModifierClassTest
-    implements org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests<Modifier> {
+    implements ModifierClassTests<Modifier> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.WatchEvent$Modifier]
 
@@ -39,10 +48,14 @@ implements org.j8unit.repository.java.nio.file.WatchEventClassTests<WatchEvent> 
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Kind} (by simply reusing the J8Unit
+     * test interface {@link KindClassTests}).
+     */
     @SuppressWarnings("rawtypes")
     @RunWith(J8Unit4.class)
     public static class KindClassTest
-    implements org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests<Kind> {
+    implements KindClassTests<Kind> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.file.WatchEvent$Kind]
 

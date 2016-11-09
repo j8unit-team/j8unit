@@ -4,6 +4,9 @@ import static org.junit.Assert.assertTrue;
 import java.awt.font.TextLayout;
 import java.awt.font.TextLayout.CaretPolicy;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.font.TextLayoutTests.CaretPolicyTests;
+import org.j8unit.repository.java.lang.CloneableClassTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +22,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.awt.font.TextLayoutTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TextLayoutTests}.
  * </p>
  *
  * <p>
@@ -49,7 +51,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextLayoutClassTests<SUT extends TextLayout>
-extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends CloneableClassTests<SUT>, ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.TextLayout]
     /**
@@ -84,8 +86,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.awt.font.TextLayoutTests.CaretPolicyTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link CaretPolicyTests}.
      * </p>
      *
      * <p>
@@ -114,7 +115,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CaretPolicyClassTests<SUT extends CaretPolicy>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.font.TextLayout$CaretPolicy]
         /**

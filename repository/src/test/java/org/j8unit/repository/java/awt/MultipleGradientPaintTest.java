@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link MultipleGradientPaint} (by simply
+ * reusing the J8Unit test interface {@link MultipleGradientPaintTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MultipleGradientPaintTest
-implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGradientPaint> {
+implements MultipleGradientPaintTests<MultipleGradientPaint> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint]
 
@@ -29,10 +34,15 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.MultipleGradientPaint]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ColorSpaceType} (by simply
+     * reusing the J8Unit test interface {@link ColorSpaceTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class ColorSpaceTypeTest
-    implements org.j8unit.repository.java.awt.MultipleGradientPaintTests.ColorSpaceTypeTests<ColorSpaceType> {
+    implements ColorSpaceTypeTests<ColorSpaceType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$ColorSpaceType]
 
@@ -55,10 +65,15 @@ implements org.j8unit.repository.java.awt.MultipleGradientPaintTests<MultipleGra
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link CycleMethod} (by simply reusing
+     * the J8Unit test interface {@link CycleMethodTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class CycleMethodTest
-    implements org.j8unit.repository.java.awt.MultipleGradientPaintTests.CycleMethodTests<CycleMethod> {
+    implements CycleMethodTests<CycleMethod> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.MultipleGradientPaint$CycleMethod]
 

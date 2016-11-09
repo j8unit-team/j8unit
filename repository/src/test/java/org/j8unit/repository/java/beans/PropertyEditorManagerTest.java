@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class PropertyEditorManagerTest
-implements FactoryBasedJ8UnitTest<PropertyEditorManager>, org.j8unit.repository.java.beans.PropertyEditorManagerTests<PropertyEditorManager> {
+implements FactoryBasedJ8UnitTest<PropertyEditorManager>, PropertyEditorManagerTests<PropertyEditorManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.beans.PropertyEditorManager]
 

@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Deflater} (by simply reusing the J8Unit
+ * test interface {@link DeflaterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DeflaterClassTest
-implements org.j8unit.repository.java.util.zip.DeflaterClassTests<Deflater> {
+implements DeflaterClassTests<Deflater> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.zip.Deflater]
 

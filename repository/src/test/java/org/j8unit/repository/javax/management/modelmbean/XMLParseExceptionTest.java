@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class XMLParseExceptionTest
-implements FactoryBasedJ8UnitTest<XMLParseException>, org.j8unit.repository.javax.management.modelmbean.XMLParseExceptionTests<XMLParseException> {
+implements FactoryBasedJ8UnitTest<XMLParseException>, XMLParseExceptionTests<XMLParseException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.modelmbean.XMLParseException]
 

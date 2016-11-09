@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SpinnerListModel} (by simply reusing the
+ * J8Unit test interface {@link SpinnerListModelClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SpinnerListModelClassTest
-implements org.j8unit.repository.javax.swing.SpinnerListModelClassTests<SpinnerListModel> {
+implements SpinnerListModelClassTests<SpinnerListModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.SpinnerListModel]
 

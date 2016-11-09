@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.net.ssl.SSLHandshakeExceptionTests}.
+ * {@link SSLHandshakeExceptionTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLHandshakeExceptionClassTests<SUT extends SSLHandshakeException>
-extends org.j8unit.repository.javax.net.ssl.SSLExceptionClassTests<SUT> {
+extends SSLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.net.ssl.SSLHandshakeException]
     /**

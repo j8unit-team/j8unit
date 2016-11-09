@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class AreaTest
-implements FactoryBasedJ8UnitTest<Area>, org.j8unit.repository.java.awt.geom.AreaTests<Area> {
+implements FactoryBasedJ8UnitTest<Area>, AreaTests<Area> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.geom.Area]
 

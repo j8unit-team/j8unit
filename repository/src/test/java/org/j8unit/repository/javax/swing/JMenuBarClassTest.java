@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JMenuBar} (by simply reusing the J8Unit
+ * test interface {@link JMenuBarClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMenuBarClassTest
-implements org.j8unit.repository.javax.swing.JMenuBarClassTests<JMenuBar> {
+implements JMenuBarClassTests<JMenuBar> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JMenuBar]
 

@@ -14,7 +14,7 @@ import org.omg.CORBA.UNKNOWN;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class UNKNOWNTest
-implements FactoryBasedJ8UnitTest<UNKNOWN>, org.j8unit.repository.org.omg.CORBA.UNKNOWNTests<UNKNOWN> {
+implements FactoryBasedJ8UnitTest<UNKNOWN>, UNKNOWNTests<UNKNOWN> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.UNKNOWN]
 

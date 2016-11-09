@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Rectangle2D} (by simply reusing the
+ * J8Unit test interface {@link Rectangle2DClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class Rectangle2DClassTest
-implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D> {
+implements Rectangle2DClassTests<Rectangle2D> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.awt.geom.Rectangle2D]
 
@@ -70,6 +75,11 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.awt.geom.Rectangle2D]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Float} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.Rectangle2DClassTests.FloatClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FloatClassTest
@@ -131,6 +141,11 @@ implements org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<Rectangle2D
         // J8UNIT-MARKER-[END]-[CLASS]-[java.awt.geom.Rectangle2D$Float]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Double} (by simply reusing the J8Unit
+     * test interface {@link org.j8unit.repository.java.awt.geom.Rectangle2DClassTests.DoubleClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class DoubleClassTest

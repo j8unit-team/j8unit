@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DefaultTableCellRenderer} (by simply
+ * reusing the J8Unit test interface {@link DefaultTableCellRendererClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DefaultTableCellRendererClassTest
-implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
+implements DefaultTableCellRendererClassTests<DefaultTableCellRenderer> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
 
@@ -45,6 +50,12 @@ implements org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClass
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.table.DefaultTableCellRenderer]
+
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link UIResource} (by simply reusing the
+     * J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests.UIResourceClassTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class UIResourceClassTest

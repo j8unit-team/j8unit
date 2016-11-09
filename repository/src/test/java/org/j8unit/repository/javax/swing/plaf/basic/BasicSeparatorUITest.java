@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BasicSeparatorUITest
-implements FactoryBasedJ8UnitTest<BasicSeparatorUI>, org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUITests<BasicSeparatorUI> {
+implements FactoryBasedJ8UnitTest<BasicSeparatorUI>, BasicSeparatorUITests<BasicSeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSeparatorUI]
 

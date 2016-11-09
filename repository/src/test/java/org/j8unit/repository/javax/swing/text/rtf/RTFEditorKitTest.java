@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RTFEditorKitTest
-implements FactoryBasedJ8UnitTest<RTFEditorKit>, org.j8unit.repository.javax.swing.text.rtf.RTFEditorKitTests<RTFEditorKit> {
+implements FactoryBasedJ8UnitTest<RTFEditorKit>, RTFEditorKitTests<RTFEditorKit> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.rtf.RTFEditorKit]
 

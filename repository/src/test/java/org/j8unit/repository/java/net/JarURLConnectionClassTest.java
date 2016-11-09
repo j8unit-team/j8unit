@@ -4,9 +4,14 @@ import java.net.JarURLConnection;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JarURLConnection} (by simply reusing the
+ * J8Unit test interface {@link JarURLConnectionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JarURLConnectionClassTest
-implements org.j8unit.repository.java.net.JarURLConnectionClassTests<JarURLConnection> {
+implements JarURLConnectionClassTests<JarURLConnection> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.net.JarURLConnection]
 

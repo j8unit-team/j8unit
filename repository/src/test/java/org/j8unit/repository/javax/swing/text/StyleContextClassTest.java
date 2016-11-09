@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StyleContext} (by simply reusing the
+ * J8Unit test interface {@link StyleContextClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StyleContextClassTest
-implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<StyleContext> {
+implements StyleContextClassTests<StyleContext> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleContext]
 
@@ -178,9 +183,14 @@ implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<StyleCo
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.StyleContext]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link NamedStyle} (by simply reusing the
+     * J8Unit test interface {@link NamedStyleClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class NamedStyleClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextClassTests.NamedStyleClassTests<NamedStyle> {
+    implements NamedStyleClassTests<NamedStyle> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleContext$NamedStyle]
 
@@ -266,9 +276,14 @@ implements org.j8unit.repository.javax.swing.text.StyleContextClassTests<StyleCo
 
     }
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link SmallAttributeSet} (by simply reusing
+     * the J8Unit test interface {@link SmallAttributeSetClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class SmallAttributeSetClassTest
-    implements org.j8unit.repository.javax.swing.text.StyleContextClassTests.SmallAttributeSetClassTests<SmallAttributeSet> {
+    implements SmallAttributeSetClassTests<SmallAttributeSet> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.StyleContext$SmallAttributeSet]
 

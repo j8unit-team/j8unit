@@ -11,9 +11,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link LayeredHighlighter} (by simply reusing
+ * the J8Unit test interface {@link LayeredHighlighterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LayeredHighlighterClassTest
-implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<LayeredHighlighter> {
+implements LayeredHighlighterClassTests<LayeredHighlighter> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.LayeredHighlighter]
 
@@ -46,9 +51,14 @@ implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<L
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.text.LayeredHighlighter]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link LayerPainter} (by simply reusing the
+     * J8Unit test interface {@link LayerPainterClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LayerPainterClassTest
-    implements org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests.LayerPainterClassTests<LayerPainter> {
+    implements LayerPainterClassTests<LayerPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.text.LayeredHighlighter$LayerPainter]
 

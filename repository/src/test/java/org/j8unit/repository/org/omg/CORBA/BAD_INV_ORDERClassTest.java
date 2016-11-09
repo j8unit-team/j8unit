@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.BAD_INV_ORDER;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BAD_INV_ORDER} (by simply reusing the
+ * J8Unit test interface {@link BAD_INV_ORDERClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BAD_INV_ORDERClassTest
-implements org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERClassTests<BAD_INV_ORDER> {
+implements BAD_INV_ORDERClassTests<BAD_INV_ORDER> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.BAD_INV_ORDER]
 

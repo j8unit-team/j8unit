@@ -6,6 +6,11 @@ import javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager;
 import javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup;
 import javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -21,8 +26,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalComboBoxUITests}.
  * </p>
  *
  * <p>
@@ -51,7 +55,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxUIClassTests<SUT extends MetalComboBoxUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<SUT> {
+extends BasicComboBoxUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI]
     /**
@@ -86,8 +90,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link MetalComboPopupTests}.
      * </p>
      *
      * <p>
@@ -116,7 +119,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboPopupClassTests<SUT extends MetalComboPopup>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests<SUT> {
+    extends BasicComboPopupClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
         /**
@@ -155,7 +158,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests}.
+     * {@link MetalPropertyChangeListenerTests}.
      * </p>
      *
      * <p>
@@ -184,7 +187,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalPropertyChangeListenerClassTests<SUT extends MetalPropertyChangeListener>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<SUT> {
+    extends PropertyChangeHandlerClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
         /**
@@ -223,7 +226,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      *
      * <p>
      * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests}.
+     * {@link MetalComboBoxLayoutManagerTests}.
      * </p>
      *
      * <p>
@@ -252,7 +255,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends MetalComboBoxLayoutManager>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests<SUT> {
+    extends ComboBoxLayoutManagerClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
         /**

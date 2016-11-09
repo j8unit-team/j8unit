@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SQLWarningTest
-implements FactoryBasedJ8UnitTest<SQLWarning>, org.j8unit.repository.java.sql.SQLWarningTests<SQLWarning> {
+implements FactoryBasedJ8UnitTest<SQLWarning>, SQLWarningTests<SQLWarning> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.sql.SQLWarning]
 

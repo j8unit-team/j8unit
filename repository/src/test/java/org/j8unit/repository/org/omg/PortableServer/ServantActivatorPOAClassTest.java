@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableServer.ServantActivatorPOA;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServantActivatorPOA} (by simply reusing
+ * the J8Unit test interface {@link ServantActivatorPOAClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServantActivatorPOAClassTest
-implements org.j8unit.repository.org.omg.PortableServer.ServantActivatorPOAClassTests<ServantActivatorPOA> {
+implements ServantActivatorPOAClassTests<ServantActivatorPOA> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.ServantActivatorPOA]
 

@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import java.io.ObjectOutputStream;
 import java.io.ObjectOutputStream.PutField;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.ObjectOutputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectOutputStreamTests}.
  * </p>
  *
  * <p>
@@ -49,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectOutputStreamClassTests<SUT extends ObjectOutputStream>
-extends org.j8unit.repository.java.io.ObjectOutputClassTests<SUT>, org.j8unit.repository.java.io.ObjectStreamConstantsClassTests<SUT>,
-org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
+extends ObjectOutputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, OutputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutputStream]
     /**
@@ -85,8 +85,7 @@ org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link PutFieldTests}.
      * </p>
      *
      * <p>
@@ -115,7 +114,7 @@ org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PutFieldClassTests<SUT extends PutField>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectOutputStream$PutField]
         /**

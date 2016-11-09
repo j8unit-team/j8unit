@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RenderingHints} (by simply reusing
+ * the J8Unit test interface {@link RenderingHintsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RenderingHintsTest
-implements org.j8unit.repository.java.awt.RenderingHintsTests<RenderingHints> {
+implements RenderingHintsTests<RenderingHints> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.RenderingHints]
 
@@ -20,6 +25,11 @@ implements org.j8unit.repository.java.awt.RenderingHintsTests<RenderingHints> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.awt.RenderingHints]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.RenderingHints]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Key} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.awt.RenderingHintsTests.KeyTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class KeyTest

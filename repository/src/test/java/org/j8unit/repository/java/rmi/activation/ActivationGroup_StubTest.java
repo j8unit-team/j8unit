@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ActivationGroup_Stub} (by simply
+ * reusing the J8Unit test interface {@link ActivationGroup_StubTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActivationGroup_StubTest
-implements org.j8unit.repository.java.rmi.activation.ActivationGroup_StubTests<ActivationGroup_Stub> {
+implements ActivationGroup_StubTests<ActivationGroup_Stub> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationGroup_Stub]
 

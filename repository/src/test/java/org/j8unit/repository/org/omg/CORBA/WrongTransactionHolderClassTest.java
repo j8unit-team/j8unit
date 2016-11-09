@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.WrongTransactionHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link WrongTransactionHolder} (by simply
+ * reusing the J8Unit test interface {@link WrongTransactionHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class WrongTransactionHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.WrongTransactionHolderClassTests<WrongTransactionHolder> {
+implements WrongTransactionHolderClassTests<WrongTransactionHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.WrongTransactionHolder]
 

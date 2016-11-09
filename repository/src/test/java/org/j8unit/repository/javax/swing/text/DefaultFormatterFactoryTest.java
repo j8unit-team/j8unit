@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultFormatterFactoryTest
-implements FactoryBasedJ8UnitTest<DefaultFormatterFactory>, org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryTests<DefaultFormatterFactory> {
+implements FactoryBasedJ8UnitTest<DefaultFormatterFactory>, DefaultFormatterFactoryTests<DefaultFormatterFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.DefaultFormatterFactory]
 

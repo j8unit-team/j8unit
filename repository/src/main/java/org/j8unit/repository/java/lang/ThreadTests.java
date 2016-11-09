@@ -5,6 +5,7 @@ import java.lang.Thread.UncaughtExceptionHandler;
 import org.j8unit.repository.RepositoryTests;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.lang.ThreadClassTests}).
+ * {@link ThreadClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadTests<SUT extends Thread>
-extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends RunnableTests<SUT>, ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread]
 
@@ -709,7 +710,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests}).
+     * (see {@link UncaughtExceptionHandlerClassTests}).
      * </p>
      *
      * @param SUT
@@ -762,7 +763,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests}).
+     * (see {@link StateClassTests}).
      * </p>
      *
      * @param SUT
@@ -773,7 +774,7 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateTests<SUT extends State>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, State> {
+    extends EnumTests<SUT, State> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Thread$State]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RectangleTest
-implements FactoryBasedJ8UnitTest<Rectangle>, org.j8unit.repository.java.awt.RectangleTests<Rectangle> {
+implements FactoryBasedJ8UnitTest<Rectangle>, RectangleTests<Rectangle> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Rectangle]
 

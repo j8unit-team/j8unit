@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import java.io.ObjectInputStream;
 import java.io.ObjectInputStream.GetField;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.io.ObjectInputStreamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ObjectInputStreamTests}.
  * </p>
  *
  * <p>
@@ -49,8 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectInputStreamClassTests<SUT extends ObjectInputStream>
-extends org.j8unit.repository.java.io.ObjectInputClassTests<SUT>, org.j8unit.repository.java.io.ObjectStreamConstantsClassTests<SUT>,
-org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
+extends ObjectInputClassTests<SUT>, ObjectStreamConstantsClassTests<SUT>, InputStreamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInputStream]
     /**
@@ -85,8 +85,7 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link GetFieldTests}.
      * </p>
      *
      * <p>
@@ -115,7 +114,7 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GetFieldClassTests<SUT extends GetField>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.io.ObjectInputStream$GetField]
         /**

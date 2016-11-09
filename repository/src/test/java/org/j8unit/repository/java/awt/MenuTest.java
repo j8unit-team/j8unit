@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MenuTest
-implements FactoryBasedJ8UnitTest<Menu>, org.j8unit.repository.java.awt.MenuTests<Menu> {
+implements FactoryBasedJ8UnitTest<Menu>, MenuTests<Menu> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Menu]
 

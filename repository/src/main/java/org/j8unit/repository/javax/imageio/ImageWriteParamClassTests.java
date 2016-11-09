@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.imageio.ImageWriteParamTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link ImageWriteParamTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageWriteParamClassTests<SUT extends ImageWriteParam>
-extends org.j8unit.repository.javax.imageio.IIOParamClassTests<SUT> {
+extends IIOParamClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.ImageWriteParam]
     /**

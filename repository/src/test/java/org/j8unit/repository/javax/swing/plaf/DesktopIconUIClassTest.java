@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DesktopIconUI} (by simply reusing the
+ * J8Unit test interface {@link DesktopIconUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DesktopIconUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.DesktopIconUIClassTests<DesktopIconUI> {
+implements DesktopIconUIClassTests<DesktopIconUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.DesktopIconUI]
 

@@ -6,9 +6,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LayeredHighlighter} (by simply
+ * reusing the J8Unit test interface {@link LayeredHighlighterTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LayeredHighlighterTest
-implements org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<LayeredHighlighter> {
+implements LayeredHighlighterTests<LayeredHighlighter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.LayeredHighlighter]
 
@@ -21,9 +26,14 @@ implements org.j8unit.repository.javax.swing.text.LayeredHighlighterTests<Layere
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.LayeredHighlighter]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link LayerPainter} (by simply reusing
+     * the J8Unit test interface {@link LayerPainterTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class LayerPainterTest
-    implements org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests<LayerPainter> {
+    implements LayerPainterTests<LayerPainter> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.LayeredHighlighter$LayerPainter]
 

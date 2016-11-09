@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RoleListTest
-implements FactoryBasedJ8UnitTest<RoleList>, org.j8unit.repository.javax.management.relation.RoleListTests<RoleList> {
+implements FactoryBasedJ8UnitTest<RoleList>, RoleListTests<RoleList> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleList]
 

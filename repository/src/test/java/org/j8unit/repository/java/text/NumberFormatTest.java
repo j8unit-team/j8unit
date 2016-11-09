@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link NumberFormat} (by simply reusing the
+ * J8Unit test interface {@link NumberFormatTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class NumberFormatTest
-implements org.j8unit.repository.java.text.NumberFormatTests<NumberFormat> {
+implements NumberFormatTests<NumberFormat> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.text.NumberFormat]
 
@@ -26,6 +31,11 @@ implements org.j8unit.repository.java.text.NumberFormatTests<NumberFormat> {
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.text.NumberFormat]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.text.NumberFormat]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Field} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.java.text.NumberFormatTests.FieldTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

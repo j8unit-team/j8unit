@@ -2,6 +2,7 @@ package org.j8unit.repository.org.w3c.dom.ls;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.w3c.dom.traversal.NodeFilterClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.w3c.dom.ls.LSSerializerFilter;
@@ -17,8 +18,7 @@ import org.w3c.dom.ls.LSSerializerFilter;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.ls.LSSerializerFilterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LSSerializerFilterTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.w3c.dom.ls.LSSerializerFilter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LSSerializerFilterClassTests<SUT extends LSSerializerFilter>
-extends org.j8unit.repository.org.w3c.dom.traversal.NodeFilterClassTests<SUT> {
+extends NodeFilterClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.ls.LSSerializerFilter]
     /**

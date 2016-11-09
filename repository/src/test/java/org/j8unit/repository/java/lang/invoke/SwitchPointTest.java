@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SwitchPointTest
-implements FactoryBasedJ8UnitTest<SwitchPoint>, org.j8unit.repository.java.lang.invoke.SwitchPointTests<SwitchPoint> {
+implements FactoryBasedJ8UnitTest<SwitchPoint>, SwitchPointTests<SwitchPoint> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.invoke.SwitchPoint]
 

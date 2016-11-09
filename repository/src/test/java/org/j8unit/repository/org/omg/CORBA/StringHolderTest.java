@@ -14,7 +14,7 @@ import org.omg.CORBA.StringHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class StringHolderTest
-implements FactoryBasedJ8UnitTest<StringHolder>, org.j8unit.repository.org.omg.CORBA.StringHolderTests<StringHolder> {
+implements FactoryBasedJ8UnitTest<StringHolder>, StringHolderTests<StringHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.StringHolder]
 

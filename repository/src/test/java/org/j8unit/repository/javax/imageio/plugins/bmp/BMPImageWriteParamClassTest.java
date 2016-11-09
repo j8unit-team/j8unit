@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BMPImageWriteParam} (by simply reusing
+ * the J8Unit test interface {@link BMPImageWriteParamClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BMPImageWriteParamClassTest
-implements org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamClassTests<BMPImageWriteParam> {
+implements BMPImageWriteParamClassTests<BMPImageWriteParam> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.imageio.plugins.bmp.BMPImageWriteParam]
 

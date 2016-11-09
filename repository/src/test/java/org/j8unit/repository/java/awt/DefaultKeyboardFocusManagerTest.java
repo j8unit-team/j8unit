@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultKeyboardFocusManagerTest
-implements FactoryBasedJ8UnitTest<DefaultKeyboardFocusManager>, org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerTests<DefaultKeyboardFocusManager> {
+implements FactoryBasedJ8UnitTest<DefaultKeyboardFocusManager>, DefaultKeyboardFocusManagerTests<DefaultKeyboardFocusManager> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.DefaultKeyboardFocusManager]
 

@@ -14,7 +14,7 @@ import org.xml.sax.SAXException;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SAXExceptionTest
-implements FactoryBasedJ8UnitTest<SAXException>, org.j8unit.repository.org.xml.sax.SAXExceptionTests<SAXException> {
+implements FactoryBasedJ8UnitTest<SAXException>, SAXExceptionTests<SAXException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXException]
 

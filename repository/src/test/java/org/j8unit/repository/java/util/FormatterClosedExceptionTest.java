@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class FormatterClosedExceptionTest
-implements FactoryBasedJ8UnitTest<FormatterClosedException>, org.j8unit.repository.java.util.FormatterClosedExceptionTests<FormatterClosedException> {
+implements FactoryBasedJ8UnitTest<FormatterClosedException>, FormatterClosedExceptionTests<FormatterClosedException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.FormatterClosedException]
 

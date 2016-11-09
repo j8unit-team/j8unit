@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.CallableStatementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CallableStatementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CallableStatementClassTests<SUT extends CallableStatement>
-extends org.j8unit.repository.java.sql.PreparedStatementClassTests<SUT> {
+extends PreparedStatementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.CallableStatement]
     /**

@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableServer.POAPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableServer.POAPackage.WrongAdapter;
@@ -17,8 +18,7 @@ import org.omg.PortableServer.POAPackage.WrongAdapter;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableServer.POAPackage.WrongAdapterTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link WrongAdapterTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.PortableServer.POAPackage.WrongAdapter;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WrongAdapterClassTests<SUT extends WrongAdapter>
-extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {
+extends UserExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableServer.POAPackage.WrongAdapter]
     /**

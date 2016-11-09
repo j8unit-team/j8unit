@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Component} (by simply reusing the
+ * J8Unit test interface {@link ComponentTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ComponentTest
-implements org.j8unit.repository.java.awt.ComponentTests<Component> {
+implements ComponentTests<Component> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Component]
 
@@ -27,10 +32,15 @@ implements org.j8unit.repository.java.awt.ComponentTests<Component> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.Component]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link BaselineResizeBehavior} (by
+     * simply reusing the J8Unit test interface {@link BaselineResizeBehaviorTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class BaselineResizeBehaviorTest
-    implements org.j8unit.repository.java.awt.ComponentTests.BaselineResizeBehaviorTests<BaselineResizeBehavior> {
+    implements BaselineResizeBehaviorTests<BaselineResizeBehavior> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Component$BaselineResizeBehavior]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.DynStruct;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DynStruct} (by simply reusing the
+ * J8Unit test interface {@link DynStructTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DynStructTest
-implements org.j8unit.repository.org.omg.CORBA.DynStructTests<DynStruct> {
+implements DynStructTests<DynStruct> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynStruct]
 

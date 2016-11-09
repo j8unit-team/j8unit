@@ -18,8 +18,7 @@ import org.omg.IOP.TAG_CODE_SETS;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.TAG_CODE_SETSTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link TAG_CODE_SETSTests}.
  * </p>
  *
  * <p>

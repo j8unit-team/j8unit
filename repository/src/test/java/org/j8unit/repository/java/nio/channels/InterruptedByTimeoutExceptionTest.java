@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InterruptedByTimeoutExceptionTest
-implements FactoryBasedJ8UnitTest<InterruptedByTimeoutException>,
-org.j8unit.repository.java.nio.channels.InterruptedByTimeoutExceptionTests<InterruptedByTimeoutException> {
+implements FactoryBasedJ8UnitTest<InterruptedByTimeoutException>, InterruptedByTimeoutExceptionTests<InterruptedByTimeoutException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.InterruptedByTimeoutException]
 

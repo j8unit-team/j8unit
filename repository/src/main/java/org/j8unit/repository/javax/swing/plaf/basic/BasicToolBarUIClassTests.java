@@ -4,6 +4,11 @@ import static org.junit.Assert.assertTrue;
 import javax.swing.plaf.basic.BasicToolBarUI;
 import javax.swing.plaf.basic.BasicToolBarUI.DockingListener;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.swing.SwingConstantsClassTests;
+import org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests;
+import org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests.DockingListenerTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +24,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link BasicToolBarUITests}.
  * </p>
  *
  * <p>
@@ -49,7 +53,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicToolBarUIClassTests<SUT extends BasicToolBarUI>
-extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests<SUT> {
+extends SwingConstantsClassTests<SUT>, ToolBarUIClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI]
     /**
@@ -84,8 +88,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests.DockingListenerTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link DockingListenerTests}.
      * </p>
      *
      * <p>
@@ -114,7 +117,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DockingListenerClassTests<SUT extends DockingListener>
-    extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    extends MouseInputListenerClassTests<SUT>, ObjectClassTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.basic.BasicToolBarUI$DockingListener]
         /**

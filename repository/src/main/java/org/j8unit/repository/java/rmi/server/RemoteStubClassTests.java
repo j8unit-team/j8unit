@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.rmi.server.RemoteStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link RemoteStubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteStubClassTests<SUT extends RemoteStub>
-extends org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<SUT> {
+extends RemoteObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.rmi.server.RemoteStub]
     /**

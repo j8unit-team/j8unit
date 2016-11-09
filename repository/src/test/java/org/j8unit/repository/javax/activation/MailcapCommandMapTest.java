@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MailcapCommandMapTest
-implements FactoryBasedJ8UnitTest<MailcapCommandMap>, org.j8unit.repository.javax.activation.MailcapCommandMapTests<MailcapCommandMap> {
+implements FactoryBasedJ8UnitTest<MailcapCommandMap>, MailcapCommandMapTests<MailcapCommandMap> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.activation.MailcapCommandMap]
 

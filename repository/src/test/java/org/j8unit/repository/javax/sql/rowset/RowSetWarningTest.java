@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RowSetWarningTest
-implements FactoryBasedJ8UnitTest<RowSetWarning>, org.j8unit.repository.javax.sql.rowset.RowSetWarningTests<RowSetWarning> {
+implements FactoryBasedJ8UnitTest<RowSetWarning>, RowSetWarningTests<RowSetWarning> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sql.rowset.RowSetWarning]
 

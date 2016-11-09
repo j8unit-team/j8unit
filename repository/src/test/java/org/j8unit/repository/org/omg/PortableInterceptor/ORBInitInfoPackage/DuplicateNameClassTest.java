@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DuplicateName} (by simply reusing the
+ * J8Unit test interface {@link DuplicateNameClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DuplicateNameClassTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameClassTests<DuplicateName> {
+implements DuplicateNameClassTests<DuplicateName> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName]
 

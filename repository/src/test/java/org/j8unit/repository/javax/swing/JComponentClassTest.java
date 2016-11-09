@@ -10,9 +10,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JComponent} (by simply reusing the J8Unit
+ * test interface {@link JComponentClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JComponentClassTest
-implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
+implements JComponentClassTests<JComponent> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComponent]
 
@@ -107,9 +112,14 @@ implements org.j8unit.repository.javax.swing.JComponentClassTests<JComponent> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.swing.JComponent]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link AccessibleJComponent} (by simply
+     * reusing the J8Unit test interface {@link AccessibleJComponentClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AccessibleJComponentClassTest
-    implements org.j8unit.repository.javax.swing.JComponentClassTests.AccessibleJComponentClassTests<AccessibleJComponent> {
+    implements AccessibleJComponentClassTests<AccessibleJComponent> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JComponent$AccessibleJComponent]
 

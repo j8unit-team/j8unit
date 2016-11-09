@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.IORInfo;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link IORInfo} (by simply reusing the
+ * J8Unit test interface {@link IORInfoTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IORInfoTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.IORInfoTests<IORInfo> {
+implements IORInfoTests<IORInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.IORInfo]
 

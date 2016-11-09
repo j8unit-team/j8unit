@@ -18,8 +18,7 @@ import org.omg.PortableInterceptor.LOCATION_FORWARD;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.PortableInterceptor.LOCATION_FORWARDTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link LOCATION_FORWARDTests}.
  * </p>
  *
  * <p>

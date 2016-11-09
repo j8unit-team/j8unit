@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.bind.annotation;
 import static org.junit.Assert.assertTrue;
 import javax.xml.bind.annotation.XmlAccessOrder;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +18,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.xml.bind.annotation.XmlAccessOrderTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link XmlAccessOrderTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlAccessOrderClassTests<SUT extends XmlAccessOrder>
-extends org.j8unit.repository.java.lang.EnumClassTests<SUT> {
+extends EnumClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.bind.annotation.XmlAccessOrder]
     /**

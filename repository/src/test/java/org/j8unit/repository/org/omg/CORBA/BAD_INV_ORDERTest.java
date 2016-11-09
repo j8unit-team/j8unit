@@ -14,7 +14,7 @@ import org.omg.CORBA.BAD_INV_ORDER;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BAD_INV_ORDERTest
-implements FactoryBasedJ8UnitTest<BAD_INV_ORDER>, org.j8unit.repository.org.omg.CORBA.BAD_INV_ORDERTests<BAD_INV_ORDER> {
+implements FactoryBasedJ8UnitTest<BAD_INV_ORDER>, BAD_INV_ORDERTests<BAD_INV_ORDER> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.BAD_INV_ORDER]
 

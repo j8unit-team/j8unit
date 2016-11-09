@@ -14,7 +14,7 @@ import org.omg.CORBA.CurrentHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CurrentHolderTest
-implements FactoryBasedJ8UnitTest<CurrentHolder>, org.j8unit.repository.org.omg.CORBA.CurrentHolderTests<CurrentHolder> {
+implements FactoryBasedJ8UnitTest<CurrentHolder>, CurrentHolderTests<CurrentHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.CurrentHolder]
 

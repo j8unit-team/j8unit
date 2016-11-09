@@ -9,10 +9,15 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DateTimeFormatter} (by simply reusing
+ * the J8Unit test interface {@link DateTimeFormatterTests}).
+ */
+
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DateTimeFormatterTest
-implements org.j8unit.repository.java.time.format.DateTimeFormatterTests<DateTimeFormatter> {
+implements DateTimeFormatterTests<DateTimeFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.format.DateTimeFormatter]
 

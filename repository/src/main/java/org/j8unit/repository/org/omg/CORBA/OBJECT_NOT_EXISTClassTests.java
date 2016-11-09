@@ -17,8 +17,7 @@ import org.omg.CORBA.OBJECT_NOT_EXIST;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link OBJECT_NOT_EXISTTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.OBJECT_NOT_EXIST;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OBJECT_NOT_EXISTClassTests<SUT extends OBJECT_NOT_EXIST>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.OBJECT_NOT_EXIST]
     /**

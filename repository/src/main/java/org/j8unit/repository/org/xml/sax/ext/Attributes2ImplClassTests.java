@@ -2,6 +2,7 @@ package org.j8unit.repository.org.xml.sax.ext;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.xml.sax.helpers.AttributesImplClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.xml.sax.ext.Attributes2Impl;
@@ -17,8 +18,7 @@ import org.xml.sax.ext.Attributes2Impl;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.xml.sax.ext.Attributes2ImplTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link Attributes2ImplTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.xml.sax.ext.Attributes2Impl;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Attributes2ImplClassTests<SUT extends Attributes2Impl>
-extends org.j8unit.repository.org.xml.sax.ext.Attributes2ClassTests<SUT>, org.j8unit.repository.org.xml.sax.helpers.AttributesImplClassTests<SUT> {
+extends Attributes2ClassTests<SUT>, AttributesImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.xml.sax.ext.Attributes2Impl]
     /**

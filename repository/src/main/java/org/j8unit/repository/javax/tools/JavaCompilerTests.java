@@ -4,6 +4,8 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaCompiler.CompilationTask;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.util.concurrent.CallableTests;
+import org.j8unit.repository.javax.tools.JavaCompilerClassTests.CompilationTaskClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.tools.JavaCompilerClassTests}).
+ * {@link JavaCompilerClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaCompilerTests<SUT extends JavaCompiler>
-extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerTests<SUT> {
+extends ToolTests<SUT>, OptionCheckerTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaCompiler]
 
@@ -98,7 +100,7 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.tools.JavaCompilerClassTests.CompilationTaskClassTests}).
+     * (see {@link CompilationTaskClassTests}).
      * </p>
      *
      * @param SUT
@@ -109,7 +111,7 @@ extends org.j8unit.repository.javax.tools.ToolTests<SUT>, org.j8unit.repository.
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CompilationTaskTests<SUT extends CompilationTask>
-    extends org.j8unit.repository.java.util.concurrent.CallableTests<SUT, Boolean> {
+    extends CallableTests<SUT, Boolean> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.tools.JavaCompiler$CompilationTask]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.xml.stream;
 import static org.junit.Assert.assertTrue;
 import javax.xml.stream.FactoryConfigurationError;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ErrorClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FactoryConfigurationErrorClassTests<SUT extends FactoryConfigurationError>
-extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
+extends ErrorClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.stream.FactoryConfigurationError]
     /**

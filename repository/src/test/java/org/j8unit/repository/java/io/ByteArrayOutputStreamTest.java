@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ByteArrayOutputStreamTest
-implements FactoryBasedJ8UnitTest<ByteArrayOutputStream>, org.j8unit.repository.java.io.ByteArrayOutputStreamTests<ByteArrayOutputStream> {
+implements FactoryBasedJ8UnitTest<ByteArrayOutputStream>, ByteArrayOutputStreamTests<ByteArrayOutputStream> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.ByteArrayOutputStream]
 

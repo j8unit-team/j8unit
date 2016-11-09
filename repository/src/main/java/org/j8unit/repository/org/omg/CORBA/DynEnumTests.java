@@ -17,7 +17,7 @@ import org.omg.CORBA.DynEnum;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.DynEnumClassTests}).
+ * {@link DynEnumClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.omg.CORBA.DynEnum;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynEnumTests<SUT extends DynEnum>
-extends org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
+extends DynAnyTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.DynEnum]
 

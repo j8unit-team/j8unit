@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SeparatorUI} (by simply reusing the
+ * J8Unit test interface {@link SeparatorUIClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SeparatorUIClassTest
-implements org.j8unit.repository.javax.swing.plaf.SeparatorUIClassTests<SeparatorUI> {
+implements SeparatorUIClassTests<SeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.plaf.SeparatorUI]
 

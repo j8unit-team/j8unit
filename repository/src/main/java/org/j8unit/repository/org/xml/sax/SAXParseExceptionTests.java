@@ -17,7 +17,7 @@ import org.xml.sax.SAXParseException;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests}).
+ * {@link SAXParseExceptionClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.xml.sax.SAXParseException;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXParseExceptionTests<SUT extends SAXParseException>
-extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
+extends SAXExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.SAXParseException]
 

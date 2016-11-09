@@ -17,8 +17,7 @@ import org.omg.CORBA.NO_MEMORY;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.NO_MEMORYTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link NO_MEMORYTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.omg.CORBA.NO_MEMORY;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NO_MEMORYClassTests<SUT extends NO_MEMORY>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
+extends SystemExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.NO_MEMORY]
     /**

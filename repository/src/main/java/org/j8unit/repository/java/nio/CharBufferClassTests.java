@@ -3,6 +3,10 @@ package org.j8unit.repository.java.nio;
 import static org.junit.Assert.assertTrue;
 import java.nio.CharBuffer;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.AppendableClassTests;
+import org.j8unit.repository.java.lang.CharSequenceClassTests;
+import org.j8unit.repository.java.lang.ComparableClassTests;
+import org.j8unit.repository.java.lang.ReadableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.nio.CharBufferTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CharBufferTests}.
  * </p>
  *
  * <p>
@@ -47,9 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharBufferClassTests<SUT extends CharBuffer>
-extends org.j8unit.repository.java.lang.ComparableClassTests<SUT>, org.j8unit.repository.java.lang.AppendableClassTests<SUT>,
-org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.repository.java.lang.ReadableClassTests<SUT>,
-org.j8unit.repository.java.nio.BufferClassTests<SUT> {
+extends ComparableClassTests<SUT>, AppendableClassTests<SUT>, CharSequenceClassTests<SUT>, ReadableClassTests<SUT>, BufferClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.nio.CharBuffer]
     /**

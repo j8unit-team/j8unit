@@ -12,9 +12,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BasicSliderUI} (by simply reusing the
+ * J8Unit test interface {@link BasicSliderUITests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BasicSliderUITest
-implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<BasicSliderUI> {
+implements BasicSliderUITests<BasicSliderUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI]
 
@@ -27,22 +32,33 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI]
 
-    @RunWith(J8Unit4.class)
-    public static class ScrollListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ScrollListenerTests<ScrollListener> {
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ActionScroller} (by simply
+     * reusing the J8Unit test interface {@link ActionScrollerTests}).
+     */
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+    @RunWith(J8Unit4.class)
+    public static class ActionScrollerTest
+    implements ActionScrollerTests<ActionScroller> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
 
         @Override
-        public ScrollListener createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ScrollListener], j8unit does not support a generic way to provide instances.");
+        public ActionScroller createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ActionScroller], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
 
     }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link PropertyChangeHandler} (by simply
+     * reusing the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.PropertyChangeHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class PropertyChangeHandlerTest
@@ -61,9 +77,58 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ScrollListener} (by simply
+     * reusing the J8Unit test interface {@link ScrollListenerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class ScrollListenerTest
+    implements ScrollListenerTests<ScrollListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+
+        @Override
+        public ScrollListener createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ScrollListener], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ScrollListener]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link TrackListener} (by simply reusing
+     * the J8Unit test interface {@link TrackListenerTests}).
+     */
+
+    @RunWith(J8Unit4.class)
+    public static class TrackListenerTest
+    implements TrackListenerTests<TrackListener> {
+
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+
+        @Override
+        public TrackListener createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.TrackListener], j8unit does not support a generic way to provide instances.");
+        }
+
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+
+    }
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ChangeHandler} (by simply reusing
+     * the J8Unit test interface {@link ChangeHandlerTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ChangeHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ChangeHandlerTests<ChangeHandler> {
+    implements ChangeHandlerTests<ChangeHandler> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ChangeHandler]
 
@@ -78,22 +143,11 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ComponentHandlerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ComponentHandlerTests<ComponentHandler> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-        @Override
-        public ComponentHandler createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ComponentHandler], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link FocusHandler} (by simply reusing
+     * the J8Unit test interface
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.FocusHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
     public static class FocusHandlerTest
@@ -112,37 +166,25 @@ implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<Basic
 
     }
 
-    @RunWith(J8Unit4.class)
-    public static class ActionScrollerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.ActionScrollerTests<ActionScroller> {
-
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
-
-        @Override
-        public ActionScroller createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ActionScroller], j8unit does not support a generic way to provide instances.");
-        }
-
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
-
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ActionScroller]
-
-    }
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link ComponentHandler} (by simply
+     * reusing the J8Unit test interface {@link ComponentHandlerTests}).
+     */
 
     @RunWith(J8Unit4.class)
-    public static class TrackListenerTest
-    implements org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests.TrackListenerTests<TrackListener> {
+    public static class ComponentHandlerTest
+    implements ComponentHandlerTests<ComponentHandler> {
 
-        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+        // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
         @Override
-        public TrackListener createNewSUT() {
-            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.TrackListener], j8unit does not support a generic way to provide instances.");
+        public ComponentHandler createNewSUT() {
+            throw new AssumptionViolatedException("Due to the absence of a default constructor of this non-abstract type-under-test [javax.swing.plaf.basic.BasicSliderUI.ComponentHandler], j8unit does not support a generic way to provide instances.");
         }
 
-        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+        // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
-        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$TrackListener]
+        // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.plaf.basic.BasicSliderUI$ComponentHandler]
 
     }
 

@@ -9,6 +9,11 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link Formatter} (by simply reusing the J8Unit
+ * test interface {@link org.j8unit.repository.java.util.FormatterClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FormatterClassTest
 implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
@@ -40,30 +45,6 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
         // create new instance
         @SuppressWarnings("unused")
         final Formatter sut = null; // = new Formatter(java.io.OutputStream);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.Formatter#Formatter(java.io.File, String) public
-     * java.util.Formatter(java.io.File,java.lang.String) throws
-     * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Formatter_File_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(java.io.File, String);
     }
 
     /**
@@ -114,6 +95,30 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.File, String) public
+     * java.util.Formatter(java.io.File,java.lang.String) throws
+     * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Formatter_File_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Formatter sut = null; // = new Formatter(java.io.File, String);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(java.io.File)
      * public java.util.Formatter(java.io.File) throws java.io.FileNotFoundException}.
      *
@@ -132,51 +137,6 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
         // create new instance
         @SuppressWarnings("unused")
         final Formatter sut = null; // = new Formatter(java.io.File);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(String) public
-     * java.util.Formatter(java.lang.String) throws java.io.FileNotFoundException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Formatter_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link java.util.Formatter#Formatter(java.io.OutputStream, String) public
-     * java.util.Formatter(java.io.OutputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_Formatter_OutputStream_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final Formatter sut = null; // = new Formatter(java.io.OutputStream, String);
     }
 
     /**
@@ -200,6 +160,29 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
         // create new instance
         @SuppressWarnings("unused")
         final Formatter sut = null; // = new Formatter(String, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link java.util.Formatter#Formatter(java.io.OutputStream, String) public
+     * java.util.Formatter(java.io.OutputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Formatter_OutputStream_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Formatter sut = null; // = new Formatter(java.io.OutputStream, String);
     }
 
     /**
@@ -273,6 +256,28 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
     /**
      * <p>
+     * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(String) public
+     * java.util.Formatter(java.lang.String) throws java.io.FileNotFoundException}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_Formatter_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final Formatter sut = null; // = new Formatter(String);
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted constructor-under-test {@link java.util.Formatter#Formatter(Appendable)
      * public java.util.Formatter(java.lang.Appendable)}.
      *
@@ -342,9 +347,14 @@ implements org.j8unit.repository.java.util.FormatterClassTests<Formatter> {
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.util.Formatter]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link BigDecimalLayoutForm} (by simply
+     * reusing the J8Unit test interface {@link BigDecimalLayoutFormClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class BigDecimalLayoutFormClassTest
-    implements org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests<BigDecimalLayoutForm> {
+    implements BigDecimalLayoutFormClassTests<BigDecimalLayoutForm> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.Formatter$BigDecimalLayoutForm]
 

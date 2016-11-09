@@ -14,7 +14,7 @@ import org.xml.sax.helpers.XMLReaderAdapter;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class XMLReaderAdapterTest
-implements FactoryBasedJ8UnitTest<XMLReaderAdapter>, org.j8unit.repository.org.xml.sax.helpers.XMLReaderAdapterTests<XMLReaderAdapter> {
+implements FactoryBasedJ8UnitTest<XMLReaderAdapter>, XMLReaderAdapterTests<XMLReaderAdapter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.XMLReaderAdapter]
 

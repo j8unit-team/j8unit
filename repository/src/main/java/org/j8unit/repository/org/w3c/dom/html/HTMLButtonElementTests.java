@@ -17,7 +17,7 @@ import org.w3c.dom.html.HTMLButtonElement;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLButtonElementClassTests}).
+ * {@link HTMLButtonElementClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +28,7 @@ import org.w3c.dom.html.HTMLButtonElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLButtonElementTests<SUT extends HTMLButtonElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
+extends HTMLElementTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.html.HTMLButtonElement]
 

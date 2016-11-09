@@ -4,9 +4,14 @@ import java.time.chrono.MinguoChronology;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link MinguoChronology} (by simply reusing the
+ * J8Unit test interface {@link MinguoChronologyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class MinguoChronologyClassTest
-implements org.j8unit.repository.java.time.chrono.MinguoChronologyClassTests<MinguoChronology> {
+implements MinguoChronologyClassTests<MinguoChronology> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.time.chrono.MinguoChronology]
 

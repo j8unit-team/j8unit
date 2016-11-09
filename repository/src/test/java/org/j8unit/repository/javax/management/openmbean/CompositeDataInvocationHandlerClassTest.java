@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link CompositeDataInvocationHandler} (by
+ * simply reusing the J8Unit test interface {@link CompositeDataInvocationHandlerClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class CompositeDataInvocationHandlerClassTest
-implements org.j8unit.repository.javax.management.openmbean.CompositeDataInvocationHandlerClassTests<CompositeDataInvocationHandler> {
+implements CompositeDataInvocationHandlerClassTests<CompositeDataInvocationHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.openmbean.CompositeDataInvocationHandler]
 

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.w3c.dom.traversal.DocumentTraversal;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DocumentTraversal} (by simply reusing
+ * the J8Unit test interface {@link DocumentTraversalTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DocumentTraversalTest
-implements org.j8unit.repository.org.w3c.dom.traversal.DocumentTraversalTests<DocumentTraversal> {
+implements DocumentTraversalTests<DocumentTraversal> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.w3c.dom.traversal.DocumentTraversal]
 

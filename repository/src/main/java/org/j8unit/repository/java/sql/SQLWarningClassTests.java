@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.sql.SQLWarningTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SQLWarningTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLWarningClassTests<SUT extends SQLWarning>
-extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
+extends SQLExceptionClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.sql.SQLWarning]
     /**

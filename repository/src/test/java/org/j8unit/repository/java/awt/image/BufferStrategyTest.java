@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link BufferStrategy} (by simply reusing
+ * the J8Unit test interface {@link BufferStrategyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BufferStrategyTest
-implements org.j8unit.repository.java.awt.image.BufferStrategyTests<BufferStrategy> {
+implements BufferStrategyTests<BufferStrategy> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.BufferStrategy]
 

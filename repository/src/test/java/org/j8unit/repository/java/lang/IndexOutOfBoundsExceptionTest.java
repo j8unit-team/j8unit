@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class IndexOutOfBoundsExceptionTest
-implements FactoryBasedJ8UnitTest<IndexOutOfBoundsException>, org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionTests<IndexOutOfBoundsException> {
+implements FactoryBasedJ8UnitTest<IndexOutOfBoundsException>, IndexOutOfBoundsExceptionTests<IndexOutOfBoundsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.IndexOutOfBoundsException]
 

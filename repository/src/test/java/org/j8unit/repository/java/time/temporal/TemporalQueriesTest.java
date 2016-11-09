@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TemporalQueries} (by simply reusing
+ * the J8Unit test interface {@link TemporalQueriesTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TemporalQueriesTest
-implements org.j8unit.repository.java.time.temporal.TemporalQueriesTests<TemporalQueries> {
+implements TemporalQueriesTests<TemporalQueries> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.temporal.TemporalQueries]
 

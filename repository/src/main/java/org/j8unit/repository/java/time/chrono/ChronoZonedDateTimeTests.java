@@ -4,6 +4,8 @@ import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.ChronoZonedDateTime;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ComparableTests;
+import org.j8unit.repository.java.time.temporal.TemporalTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +20,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests}).
+ * {@link ChronoZonedDateTimeClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +31,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronoZonedDateTimeTests<SUT extends ChronoZonedDateTime<D>, D extends ChronoLocalDate>
-extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, ChronoZonedDateTime<?>> {
+extends TemporalTests<SUT>, ComparableTests<SUT, ChronoZonedDateTime<?>> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.time.chrono.ChronoZonedDateTime]
 
@@ -58,31 +60,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.ChronoZonedDateTime#with(java.time.temporal.TemporalField, long) public abstract
-     * java.time.chrono.ChronoZonedDateTime<D>
-     * java.time.chrono.ChronoZonedDateTime.with(java.time.temporal.TemporalField,long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_with_TemporalField_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.ChronoZonedDateTime#with(java.time.temporal.TemporalAdjuster) public default
      * java.time.chrono.ChronoZonedDateTime<D>
      * java.time.chrono.ChronoZonedDateTime.with(java.time.temporal.TemporalAdjuster)}.
@@ -99,6 +76,31 @@ extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_with_TemporalAdjuster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ChronoZonedDateTime#with(java.time.temporal.TemporalField, long) public abstract
+     * java.time.chrono.ChronoZonedDateTime<D>
+     * java.time.chrono.ChronoZonedDateTime.with(java.time.temporal.TemporalField,long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_with_TemporalField_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -292,30 +294,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.ChronoZonedDateTime#isSupported(java.time.temporal.TemporalUnit) public default boolean
-     * java.time.chrono.ChronoZonedDateTime.isSupported(java.time.temporal.TemporalUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_isSupported_TemporalUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.ChronoZonedDateTime#isSupported(java.time.temporal.TemporalField) public abstract boolean
      * java.time.chrono.ChronoZonedDateTime.isSupported(java.time.temporal.TemporalField)}.
      *
@@ -331,6 +309,30 @@ extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_isSupported_TemporalField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ChronoZonedDateTime#isSupported(java.time.temporal.TemporalUnit) public default boolean
+     * java.time.chrono.ChronoZonedDateTime.isSupported(java.time.temporal.TemporalUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_isSupported_TemporalUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -385,31 +387,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.
     /**
      * <p>
      * Test method for the hereby targeted method-under-test
-     * {@link java.time.chrono.ChronoZonedDateTime#plus(long, java.time.temporal.TemporalUnit) public abstract
-     * java.time.chrono.ChronoZonedDateTime<D>
-     * java.time.chrono.ChronoZonedDateTime.plus(long,java.time.temporal.TemporalUnit)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Override
-    @Test
-    @Category(Draft.class)
-    public default void test_plus_long_TemporalUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test
      * {@link java.time.chrono.ChronoZonedDateTime#plus(java.time.temporal.TemporalAmount) public default
      * java.time.chrono.ChronoZonedDateTime<D>
      * java.time.chrono.ChronoZonedDateTime.plus(java.time.temporal.TemporalAmount)}.
@@ -426,6 +403,31 @@ extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     public default void test_plus_TemporalAmount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test
+     * {@link java.time.chrono.ChronoZonedDateTime#plus(long, java.time.temporal.TemporalUnit) public abstract
+     * java.time.chrono.ChronoZonedDateTime<D>
+     * java.time.chrono.ChronoZonedDateTime.plus(long,java.time.temporal.TemporalUnit)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
+    @Test
+    @Category(Draft.class)
+    public default void test_plus_long_TemporalUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.PRIVATE_MEMBER;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link PRIVATE_MEMBER} (by simply reusing
+ * the J8Unit test interface {@link PRIVATE_MEMBERTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class PRIVATE_MEMBERTest
-implements org.j8unit.repository.org.omg.CORBA.PRIVATE_MEMBERTests<PRIVATE_MEMBER> {
+implements PRIVATE_MEMBERTests<PRIVATE_MEMBER> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.PRIVATE_MEMBER]
 

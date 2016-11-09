@@ -5,6 +5,9 @@ import java.awt.Dialog.ModalExclusionType;
 import java.awt.Dialog.ModalityType;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.awt.DialogClassTests.ModalExclusionTypeClassTests;
+import org.j8unit.repository.java.awt.DialogClassTests.ModalityTypeClassTests;
+import org.j8unit.repository.java.lang.EnumTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +22,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.awt.DialogClassTests}).
+ * {@link DialogClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +33,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DialogTests<SUT extends Dialog>
-extends org.j8unit.repository.java.awt.WindowTests<SUT> {
+extends WindowTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog]
 
@@ -103,6 +106,28 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
 
     /**
      * <p>
+     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setUndecorated(boolean) public void
+     * java.awt.Dialog.setUndecorated(boolean)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUndecorated_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#addNotify() public void
      * java.awt.Dialog.addNotify()}.
      *
@@ -118,28 +143,6 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted method-under-test {@link java.awt.Dialog#setUndecorated(boolean) public void
-     * java.awt.Dialog.setUndecorated(boolean)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUndecorated_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -475,7 +478,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.DialogClassTests.ModalExclusionTypeClassTests}).
+     * (see {@link ModalExclusionTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -486,7 +489,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalExclusionTypeTests<SUT extends ModalExclusionType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, ModalExclusionType> {
+    extends EnumTests<SUT, ModalExclusionType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalExclusionType]
 
@@ -505,7 +508,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.awt.DialogClassTests.ModalityTypeClassTests}).
+     * (see {@link ModalityTypeClassTests}).
      * </p>
      *
      * @param SUT
@@ -516,7 +519,7 @@ extends org.j8unit.repository.java.awt.WindowTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalityTypeTests<SUT extends ModalityType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, ModalityType> {
+    extends EnumTests<SUT, ModalityType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Dialog$ModalityType]
 

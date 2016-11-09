@@ -14,7 +14,7 @@ import org.xml.sax.HandlerBase;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class HandlerBaseTest
-implements FactoryBasedJ8UnitTest<HandlerBase>, org.j8unit.repository.org.xml.sax.HandlerBaseTests<HandlerBase> {
+implements FactoryBasedJ8UnitTest<HandlerBase>, HandlerBaseTests<HandlerBase> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.HandlerBase]
 

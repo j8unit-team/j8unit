@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class MimeHeadersTest
-implements FactoryBasedJ8UnitTest<MimeHeaders>, org.j8unit.repository.javax.xml.soap.MimeHeadersTests<MimeHeaders> {
+implements FactoryBasedJ8UnitTest<MimeHeaders>, MimeHeadersTests<MimeHeaders> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.soap.MimeHeaders]
 

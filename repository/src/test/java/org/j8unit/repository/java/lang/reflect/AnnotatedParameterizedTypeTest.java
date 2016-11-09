@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link AnnotatedParameterizedType} (by
+ * simply reusing the J8Unit test interface {@link AnnotatedParameterizedTypeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AnnotatedParameterizedTypeTest
-implements org.j8unit.repository.java.lang.reflect.AnnotatedParameterizedTypeTests<AnnotatedParameterizedType> {
+implements AnnotatedParameterizedTypeTests<AnnotatedParameterizedType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.reflect.AnnotatedParameterizedType]
 

@@ -3,6 +3,7 @@ package org.j8unit.repository.javax.naming.ldap;
 import static org.junit.Assert.assertTrue;
 import javax.naming.ldap.UnsolicitedNotificationListener;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.naming.event.NamingListenerClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,7 +19,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationListenerTests}.
+ * {@link UnsolicitedNotificationListenerTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsolicitedNotificationListenerClassTests<SUT extends UnsolicitedNotificationListener>
-extends org.j8unit.repository.javax.naming.event.NamingListenerClassTests<SUT> {
+extends NamingListenerClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.UnsolicitedNotificationListener]
     /**

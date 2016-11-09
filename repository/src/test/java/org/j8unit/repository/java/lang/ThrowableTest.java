@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ThrowableTest
-implements FactoryBasedJ8UnitTest<Throwable>, org.j8unit.repository.java.lang.ThrowableTests<Throwable> {
+implements FactoryBasedJ8UnitTest<Throwable>, ThrowableTests<Throwable> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.Throwable]
 

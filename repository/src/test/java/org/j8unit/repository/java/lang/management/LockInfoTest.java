@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link LockInfo} (by simply reusing the
+ * J8Unit test interface {@link LockInfoTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class LockInfoTest
-implements org.j8unit.repository.java.lang.management.LockInfoTests<LockInfo> {
+implements LockInfoTests<LockInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.management.LockInfo]
 

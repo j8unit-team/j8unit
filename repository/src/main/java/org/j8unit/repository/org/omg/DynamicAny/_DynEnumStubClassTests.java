@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.DynamicAny;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.DynamicAny._DynEnumStub;
@@ -17,8 +18,7 @@ import org.omg.DynamicAny._DynEnumStub;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.DynamicAny._DynEnumStubTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link _DynEnumStubTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.DynamicAny._DynEnumStub;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynEnumStubClassTests<SUT extends _DynEnumStub>
-extends org.j8unit.repository.org.omg.DynamicAny.DynEnumClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {
+extends DynEnumClassTests<SUT>, ObjectImplClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.DynamicAny._DynEnumStub]
     /**

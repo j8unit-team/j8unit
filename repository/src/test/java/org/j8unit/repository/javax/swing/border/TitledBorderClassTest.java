@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TitledBorder} (by simply reusing the
+ * J8Unit test interface {@link TitledBorderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TitledBorderClassTest
-implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<TitledBorder> {
+implements TitledBorderClassTests<TitledBorder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.border.TitledBorder]
 
@@ -22,9 +27,8 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font, java.awt.Color)
-     * public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}.
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String) public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -36,12 +40,34 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TitledBorder_Border_String_int_int_Font_Color()
+    public void create_TitledBorder_Border_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font,
-                                       // java.awt.Color);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border) public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TitledBorder_Border()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border);
     }
 
     /**
@@ -65,6 +91,29 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
         // create new instance
         @SuppressWarnings("unused")
         final TitledBorder sut = null; // = new TitledBorder(String);
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted constructor-under-test
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int) public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public void create_TitledBorder_Border_String_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int);
     }
 
     /**
@@ -94,8 +143,9 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     /**
      * <p>
      * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border) public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border)}.
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font, java.awt.Color)
+     * public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -107,57 +157,12 @@ implements org.j8unit.repository.javax.swing.border.TitledBorderClassTests<Title
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public void create_TitledBorder_Border()
+    public void create_TitledBorder_Border_String_int_int_Font_Color()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String) public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TitledBorder_Border_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String);
-    }
-
-    /**
-     * <p>
-     * Test method for the hereby targeted constructor-under-test
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border, String, int, int) public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public void create_TitledBorder_Border_String_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int);
+        final TitledBorder sut = null; // = new TitledBorder(javax.swing.border.Border, String, int, int, java.awt.Font,
+                                       // java.awt.Color);
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[javax.swing.border.TitledBorder]

@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link RMIServerSocketFactory} (by simply
+ * reusing the J8Unit test interface {@link RMIServerSocketFactoryTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RMIServerSocketFactoryTest
-implements org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<RMIServerSocketFactory> {
+implements RMIServerSocketFactoryTests<RMIServerSocketFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.server.RMIServerSocketFactory]
 

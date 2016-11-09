@@ -9,9 +9,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AddressingFeature} (by simply reusing the
+ * J8Unit test interface {@link AddressingFeatureClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AddressingFeatureClassTest
-implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<AddressingFeature> {
+implements AddressingFeatureClassTests<AddressingFeature> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
 
@@ -115,9 +120,14 @@ implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests<A
 
     // J8UNIT-MARKER-[END]-[CLASS]-[javax.xml.ws.soap.AddressingFeature]
 
+    /**
+     * Specific JUnit test class to proof the type relevant aspects of type {@link Responses} (by simply reusing the
+     * J8Unit test interface {@link ResponsesClassTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class ResponsesClassTest
-    implements org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests<Responses> {
+    implements ResponsesClassTests<Responses> {
 
         // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.ws.soap.AddressingFeature$Responses]
 

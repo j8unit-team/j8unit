@@ -7,9 +7,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link IllegalAccessError} (by simply reusing
+ * the J8Unit test interface {@link IllegalAccessErrorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class IllegalAccessErrorClassTest
-implements org.j8unit.repository.java.lang.IllegalAccessErrorClassTests<IllegalAccessError> {
+implements IllegalAccessErrorClassTests<IllegalAccessError> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.IllegalAccessError]
 

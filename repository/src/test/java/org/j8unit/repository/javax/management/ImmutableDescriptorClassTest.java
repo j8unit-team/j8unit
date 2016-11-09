@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ImmutableDescriptor} (by simply reusing
+ * the J8Unit test interface {@link ImmutableDescriptorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ImmutableDescriptorClassTest
-implements org.j8unit.repository.javax.management.ImmutableDescriptorClassTests<ImmutableDescriptor> {
+implements ImmutableDescriptorClassTests<ImmutableDescriptor> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.ImmutableDescriptor]
 

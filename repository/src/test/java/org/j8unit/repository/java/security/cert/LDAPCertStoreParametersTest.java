@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class LDAPCertStoreParametersTest
-implements FactoryBasedJ8UnitTest<LDAPCertStoreParameters>, org.j8unit.repository.java.security.cert.LDAPCertStoreParametersTests<LDAPCertStoreParameters> {
+implements FactoryBasedJ8UnitTest<LDAPCertStoreParameters>, LDAPCertStoreParametersTests<LDAPCertStoreParameters> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.LDAPCertStoreParameters]
 

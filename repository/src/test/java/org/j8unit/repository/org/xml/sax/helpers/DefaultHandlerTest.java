@@ -14,7 +14,7 @@ import org.xml.sax.helpers.DefaultHandler;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultHandlerTest
-implements FactoryBasedJ8UnitTest<DefaultHandler>, org.j8unit.repository.org.xml.sax.helpers.DefaultHandlerTests<DefaultHandler> {
+implements FactoryBasedJ8UnitTest<DefaultHandler>, DefaultHandlerTests<DefaultHandler> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.DefaultHandler]
 

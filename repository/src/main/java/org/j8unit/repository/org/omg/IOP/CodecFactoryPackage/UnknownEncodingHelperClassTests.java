@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.IOP.CodecFactoryPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper;
@@ -18,7 +19,7 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelperTests}.
+ * {@link UnknownEncodingHelperTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownEncodingHelperClassTests<SUT extends UnknownEncodingHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.IOP.CodecFactoryPackage.UnknownEncodingHelper]
     /**

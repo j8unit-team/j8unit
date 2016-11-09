@@ -12,9 +12,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XPathType} (by simply reusing the
+ * J8Unit test interface {@link XPathTypeTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XPathTypeTest
-implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests<XPathType> {
+implements XPathTypeTests<XPathType> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.crypto.dsig.spec.XPathType]
 
@@ -26,6 +31,11 @@ implements org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests<XPath
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.xml.crypto.dsig.spec.XPathType]
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.xml.crypto.dsig.spec.XPathType]
+
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link Filter} (by simply reusing the
+     * J8Unit test interface {@link org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests.FilterTests}).
+     */
 
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)

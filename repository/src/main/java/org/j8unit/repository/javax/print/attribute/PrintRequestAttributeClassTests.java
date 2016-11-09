@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests}.
+ * {@link PrintRequestAttributeTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintRequestAttributeClassTests<SUT extends PrintRequestAttribute>
-extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT> {
+extends AttributeClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.PrintRequestAttribute]
     /**

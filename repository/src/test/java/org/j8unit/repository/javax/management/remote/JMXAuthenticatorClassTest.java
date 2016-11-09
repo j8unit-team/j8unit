@@ -4,9 +4,14 @@ import javax.management.remote.JMXAuthenticator;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link JMXAuthenticator} (by simply reusing the
+ * J8Unit test interface {@link JMXAuthenticatorClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class JMXAuthenticatorClassTest
-implements org.j8unit.repository.javax.management.remote.JMXAuthenticatorClassTests<JMXAuthenticator> {
+implements JMXAuthenticatorClassTests<JMXAuthenticator> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.management.remote.JMXAuthenticator]
 

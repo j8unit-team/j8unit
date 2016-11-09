@@ -4,6 +4,9 @@ import javax.xml.ws.soap.AddressingFeature;
 import javax.xml.ws.soap.AddressingFeature.Responses;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.EnumTests;
+import org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests;
+import org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -18,7 +21,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests}).
+ * {@link AddressingFeatureClassTests}).
  * </p>
  *
  * @param SUT
@@ -29,7 +32,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AddressingFeatureTests<SUT extends AddressingFeature>
-extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
+extends WebServiceFeatureTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature]
 
@@ -113,7 +116,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests}).
+     * (see {@link ResponsesClassTests}).
      * </p>
      *
      * @param SUT
@@ -124,7 +127,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ResponsesTests<SUT extends Responses>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, Responses> {
+    extends EnumTests<SUT, Responses> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.ws.soap.AddressingFeature$Responses]
 

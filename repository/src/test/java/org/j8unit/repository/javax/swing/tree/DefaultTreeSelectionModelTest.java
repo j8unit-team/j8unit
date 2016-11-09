@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class DefaultTreeSelectionModelTest
-implements FactoryBasedJ8UnitTest<DefaultTreeSelectionModel>, org.j8unit.repository.javax.swing.tree.DefaultTreeSelectionModelTests<DefaultTreeSelectionModel> {
+implements FactoryBasedJ8UnitTest<DefaultTreeSelectionModel>, DefaultTreeSelectionModelTests<DefaultTreeSelectionModel> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.tree.DefaultTreeSelectionModel]
 

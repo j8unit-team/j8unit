@@ -4,9 +4,14 @@ import java.lang.reflect.GenericArrayType;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link GenericArrayType} (by simply reusing the
+ * J8Unit test interface {@link GenericArrayTypeClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class GenericArrayTypeClassTest
-implements org.j8unit.repository.java.lang.reflect.GenericArrayTypeClassTests<GenericArrayType> {
+implements GenericArrayTypeClassTests<GenericArrayType> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.GenericArrayType]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ContainerTest
-implements FactoryBasedJ8UnitTest<Container>, org.j8unit.repository.java.awt.ContainerTests<Container> {
+implements FactoryBasedJ8UnitTest<Container>, ContainerTests<Container> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.Container]
 

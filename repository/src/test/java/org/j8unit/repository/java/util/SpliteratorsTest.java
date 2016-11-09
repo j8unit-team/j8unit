@@ -9,9 +9,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link Spliterators} (by simply reusing the
+ * J8Unit test interface {@link SpliteratorsTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SpliteratorsTest
-implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
+implements SpliteratorsTests<Spliterators> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators]
 
@@ -24,9 +29,14 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Spliterators]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractDoubleSpliterator} (by
+     * simply reusing the J8Unit test interface {@link AbstractDoubleSpliteratorTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AbstractDoubleSpliteratorTest
-    implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests<AbstractDoubleSpliterator> {
+    implements AbstractDoubleSpliteratorTests<AbstractDoubleSpliterator> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractDoubleSpliterator]
 
@@ -41,9 +51,14 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractSpliterator} (by simply
+     * reusing the J8Unit test interface {@link AbstractSpliteratorTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AbstractSpliteratorTest<T>
-    implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests<AbstractSpliterator<T>, T> {
+    implements AbstractSpliteratorTests<AbstractSpliterator<T>, T> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractSpliterator]
 
@@ -58,9 +73,14 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractLongSpliterator} (by
+     * simply reusing the J8Unit test interface {@link AbstractLongSpliteratorTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AbstractLongSpliteratorTest
-    implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests<AbstractLongSpliterator> {
+    implements AbstractLongSpliteratorTests<AbstractLongSpliterator> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractLongSpliterator]
 
@@ -75,9 +95,14 @@ implements org.j8unit.repository.java.util.SpliteratorsTests<Spliterators> {
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link AbstractIntSpliterator} (by
+     * simply reusing the J8Unit test interface {@link AbstractIntSpliteratorTests}).
+     */
+
     @RunWith(J8Unit4.class)
     public static class AbstractIntSpliteratorTest
-    implements org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests<AbstractIntSpliterator> {
+    implements AbstractIntSpliteratorTests<AbstractIntSpliterator> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Spliterators$AbstractIntSpliterator]
 

@@ -14,7 +14,7 @@ import org.omg.IOP.TaggedProfileHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TaggedProfileHolderTest
-implements FactoryBasedJ8UnitTest<TaggedProfileHolder>, org.j8unit.repository.org.omg.IOP.TaggedProfileHolderTests<TaggedProfileHolder> {
+implements FactoryBasedJ8UnitTest<TaggedProfileHolder>, TaggedProfileHolderTests<TaggedProfileHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.IOP.TaggedProfileHolder]
 

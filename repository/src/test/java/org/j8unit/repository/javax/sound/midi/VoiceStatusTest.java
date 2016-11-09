@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class VoiceStatusTest
-implements FactoryBasedJ8UnitTest<VoiceStatus>, org.j8unit.repository.javax.sound.midi.VoiceStatusTests<VoiceStatus> {
+implements FactoryBasedJ8UnitTest<VoiceStatus>, VoiceStatusTests<VoiceStatus> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.sound.midi.VoiceStatus]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ParameterBlockTest
-implements FactoryBasedJ8UnitTest<ParameterBlock>, org.j8unit.repository.java.awt.image.renderable.ParameterBlockTests<ParameterBlock> {
+implements FactoryBasedJ8UnitTest<ParameterBlock>, ParameterBlockTests<ParameterBlock> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.image.renderable.ParameterBlock]
 

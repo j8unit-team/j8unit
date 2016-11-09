@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.CORBA.portable;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.org.omg.CORBA.CustomMarshalClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.CORBA.portable.CustomValue;
@@ -17,8 +18,7 @@ import org.omg.CORBA.portable.CustomValue;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.omg.CORBA.portable.CustomValueTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link CustomValueTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.omg.CORBA.portable.CustomValue;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CustomValueClassTests<SUT extends CustomValue>
-extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.CustomMarshalClassTests<SUT> {
+extends ValueBaseClassTests<SUT>, CustomMarshalClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.CustomValue]
     /**

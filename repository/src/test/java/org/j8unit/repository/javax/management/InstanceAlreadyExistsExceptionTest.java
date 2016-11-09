@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InstanceAlreadyExistsExceptionTest
-implements FactoryBasedJ8UnitTest<InstanceAlreadyExistsException>,
-org.j8unit.repository.javax.management.InstanceAlreadyExistsExceptionTests<InstanceAlreadyExistsException> {
+implements FactoryBasedJ8UnitTest<InstanceAlreadyExistsException>, InstanceAlreadyExistsExceptionTests<InstanceAlreadyExistsException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.InstanceAlreadyExistsException]
 

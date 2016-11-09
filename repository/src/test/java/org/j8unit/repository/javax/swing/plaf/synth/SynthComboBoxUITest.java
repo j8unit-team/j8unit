@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthComboBoxUITest
-implements FactoryBasedJ8UnitTest<SynthComboBoxUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthComboBoxUITests<SynthComboBoxUI> {
+implements FactoryBasedJ8UnitTest<SynthComboBoxUI>, SynthComboBoxUITests<SynthComboBoxUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthComboBoxUI]
 

@@ -4,9 +4,14 @@ import javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link KeyInfo} (by simply reusing the J8Unit
+ * test interface {@link KeyInfoClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class KeyInfoClassTest
-implements org.j8unit.repository.javax.xml.crypto.dsig.keyinfo.KeyInfoClassTests<KeyInfo> {
+implements KeyInfoClassTests<KeyInfo> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.xml.crypto.dsig.keyinfo.KeyInfo]
 

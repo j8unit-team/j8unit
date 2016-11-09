@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JOptionPaneTest
-implements FactoryBasedJ8UnitTest<JOptionPane>, org.j8unit.repository.javax.swing.JOptionPaneTests<JOptionPane> {
+implements FactoryBasedJ8UnitTest<JOptionPane>, JOptionPaneTests<JOptionPane> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.JOptionPane]
 

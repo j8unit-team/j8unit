@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link FilerException} (by simply reusing the
+ * J8Unit test interface {@link FilerExceptionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class FilerExceptionClassTest
-implements org.j8unit.repository.javax.annotation.processing.FilerExceptionClassTests<FilerException> {
+implements FilerExceptionClassTests<FilerException> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.annotation.processing.FilerException]
 

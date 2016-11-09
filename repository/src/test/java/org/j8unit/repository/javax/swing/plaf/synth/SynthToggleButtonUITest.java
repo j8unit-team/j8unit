@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthToggleButtonUITest
-implements FactoryBasedJ8UnitTest<SynthToggleButtonUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthToggleButtonUITests<SynthToggleButtonUI> {
+implements FactoryBasedJ8UnitTest<SynthToggleButtonUI>, SynthToggleButtonUITests<SynthToggleButtonUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthToggleButtonUI]
 

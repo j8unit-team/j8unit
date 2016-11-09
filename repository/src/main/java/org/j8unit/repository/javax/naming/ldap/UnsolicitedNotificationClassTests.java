@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationTests}.
+ * {@link UnsolicitedNotificationTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsolicitedNotificationClassTests<SUT extends UnsolicitedNotification>
-extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseClassTests<SUT>, org.j8unit.repository.javax.naming.ldap.HasControlsClassTests<SUT> {
+extends ExtendedResponseClassTests<SUT>, HasControlsClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.UnsolicitedNotification]
     /**

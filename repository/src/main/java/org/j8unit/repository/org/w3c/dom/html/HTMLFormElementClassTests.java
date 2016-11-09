@@ -17,8 +17,7 @@ import org.w3c.dom.html.HTMLFormElement;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.org.w3c.dom.html.HTMLFormElementTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link HTMLFormElementTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.w3c.dom.html.HTMLFormElement;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLFormElementClassTests<SUT extends HTMLFormElement>
-extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {
+extends HTMLElementClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.w3c.dom.html.HTMLFormElement]
     /**

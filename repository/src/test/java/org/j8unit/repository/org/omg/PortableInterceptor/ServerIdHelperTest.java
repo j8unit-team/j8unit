@@ -5,9 +5,14 @@ import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 import org.omg.PortableInterceptor.ServerIdHelper;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ServerIdHelper} (by simply reusing
+ * the J8Unit test interface {@link ServerIdHelperTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServerIdHelperTest
-implements org.j8unit.repository.org.omg.PortableInterceptor.ServerIdHelperTests<ServerIdHelper> {
+implements ServerIdHelperTests<ServerIdHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.PortableInterceptor.ServerIdHelper]
 

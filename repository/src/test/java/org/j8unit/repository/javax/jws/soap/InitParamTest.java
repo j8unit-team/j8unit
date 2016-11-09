@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link InitParam} (by simply reusing the
+ * J8Unit test interface {@link InitParamTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class InitParamTest
-implements org.j8unit.repository.javax.jws.soap.InitParamTests<InitParam> {
+implements InitParamTests<InitParam> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.jws.soap.InitParam]
 

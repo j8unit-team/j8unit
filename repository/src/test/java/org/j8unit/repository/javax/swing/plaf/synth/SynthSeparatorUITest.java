@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthSeparatorUITest
-implements FactoryBasedJ8UnitTest<SynthSeparatorUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthSeparatorUITests<SynthSeparatorUI> {
+implements FactoryBasedJ8UnitTest<SynthSeparatorUI>, SynthSeparatorUITests<SynthSeparatorUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthSeparatorUI]
 

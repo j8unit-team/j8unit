@@ -14,7 +14,7 @@ import org.omg.CORBA.COMM_FAILURE;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.CORBA.COMM_FAILUREClassTests}).
+ * {@link COMM_FAILUREClassTests}).
  * </p>
  *
  * @param SUT
@@ -25,7 +25,7 @@ import org.omg.CORBA.COMM_FAILURE;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface COMM_FAILURETests<SUT extends COMM_FAILURE>
-extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {
+extends SystemExceptionTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CORBA.COMM_FAILURE]
 

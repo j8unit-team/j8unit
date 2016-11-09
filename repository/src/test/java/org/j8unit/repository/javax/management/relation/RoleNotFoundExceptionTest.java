@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RoleNotFoundExceptionTest
-implements FactoryBasedJ8UnitTest<RoleNotFoundException>, org.j8unit.repository.javax.management.relation.RoleNotFoundExceptionTests<RoleNotFoundException> {
+implements FactoryBasedJ8UnitTest<RoleNotFoundException>, RoleNotFoundExceptionTests<RoleNotFoundException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.management.relation.RoleNotFoundException]
 

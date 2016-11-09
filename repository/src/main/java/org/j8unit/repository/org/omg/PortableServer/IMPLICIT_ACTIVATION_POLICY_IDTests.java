@@ -15,7 +15,7 @@ import org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_ID;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.org.omg.PortableServer.IMPLICIT_ACTIVATION_POLICY_IDClassTests}).
+ * {@link IMPLICIT_ACTIVATION_POLICY_IDClassTests}).
  * </p>
  *
  * @param SUT

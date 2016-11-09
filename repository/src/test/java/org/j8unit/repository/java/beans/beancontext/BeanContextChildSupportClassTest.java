@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BeanContextChildSupport} (by simply
+ * reusing the J8Unit test interface {@link BeanContextChildSupportClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BeanContextChildSupportClassTest
-implements org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests<BeanContextChildSupport> {
+implements BeanContextChildSupportClassTests<BeanContextChildSupport> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.beans.beancontext.BeanContextChildSupport]
 

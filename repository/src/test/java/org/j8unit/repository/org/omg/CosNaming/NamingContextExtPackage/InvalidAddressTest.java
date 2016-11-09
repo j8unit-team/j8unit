@@ -14,7 +14,7 @@ import org.omg.CosNaming.NamingContextExtPackage.InvalidAddress;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InvalidAddressTest
-implements FactoryBasedJ8UnitTest<InvalidAddress>, org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressTests<InvalidAddress> {
+implements FactoryBasedJ8UnitTest<InvalidAddress>, InvalidAddressTests<InvalidAddress> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.NamingContextExtPackage.InvalidAddress]
 

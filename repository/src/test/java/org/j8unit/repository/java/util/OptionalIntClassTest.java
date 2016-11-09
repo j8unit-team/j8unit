@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link OptionalInt} (by simply reusing the
+ * J8Unit test interface {@link OptionalIntClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class OptionalIntClassTest
-implements org.j8unit.repository.java.util.OptionalIntClassTests<OptionalInt> {
+implements OptionalIntClassTests<OptionalInt> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.OptionalInt]
 

@@ -4,9 +4,14 @@ import java.security.interfaces.RSAPrivateCrtKey;
 import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link RSAPrivateCrtKey} (by simply reusing the
+ * J8Unit test interface {@link RSAPrivateCrtKeyClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class RSAPrivateCrtKeyClassTest
-implements org.j8unit.repository.java.security.interfaces.RSAPrivateCrtKeyClassTests<RSAPrivateCrtKey> {
+implements RSAPrivateCrtKeyClassTests<RSAPrivateCrtKey> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.security.interfaces.RSAPrivateCrtKey]
 

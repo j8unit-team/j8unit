@@ -3,6 +3,7 @@ package org.j8unit.repository.java.io;
 import java.io.PrintStream;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.AppendableTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -17,7 +18,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.io.PrintStreamClassTests}).
+ * {@link PrintStreamClassTests}).
  * </p>
  *
  * @param SUT
@@ -28,7 +29,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintStreamTests<SUT extends PrintStream>
-extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
+extends AppendableTests<SUT>, FilterOutputStreamTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.io.PrintStream]
 
@@ -79,8 +80,8 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(String) public void
-     * java.io.PrintStream.print(java.lang.String)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(char[]) public void
+     * java.io.PrintStream.print(char[])}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -92,7 +93,7 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print_String()
+    public default void test_print_charArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,8 +124,8 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(char[]) public void
-     * java.io.PrintStream.print(char[])}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(String) public void
+     * java.io.PrintStream.print(java.lang.String)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -136,7 +137,7 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print_charArray()
+    public default void test_print_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,28 +212,6 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(long) public void
-     * java.io.PrintStream.print(long)}.
-     *
-     * Up to now, there is no real implementation of this test method. But with your help at
-     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
-     * methods soon.
-     * </p>
-     *
-     * @since 0.9.0
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_print_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(int) public void
      * java.io.PrintStream.print(int)}.
      *
@@ -247,6 +226,28 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_print_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#print(long) public void
+     * java.io.PrintStream.print(long)}.
+     *
+     * Up to now, there is no real implementation of this test method. But with your help at
+     * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
+     * methods soon.
+     * </p>
+     *
+     * @since 0.9.0
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_print_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -413,8 +414,8 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#println(char) public void
-     * java.io.PrintStream.println(char)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#println(boolean) public void
+     * java.io.PrintStream.println(boolean)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -426,7 +427,7 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_println_char()
+    public default void test_println_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -457,8 +458,8 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#println(boolean) public void
-     * java.io.PrintStream.println(boolean)}.
+     * Test method for the hereby targeted method-under-test {@link java.io.PrintStream#println(char) public void
+     * java.io.PrintStream.println(char)}.
      *
      * Up to now, there is no real implementation of this test method. But with your help at
      * <a href="http://www.j8unit.org">http://www.j8unit.org</a> this marker method will be replaced by meaningful test
@@ -470,7 +471,7 @@ extends org.j8unit.repository.java.lang.AppendableTests<SUT>, org.j8unit.reposit
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_println_boolean()
+    public default void test_println_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

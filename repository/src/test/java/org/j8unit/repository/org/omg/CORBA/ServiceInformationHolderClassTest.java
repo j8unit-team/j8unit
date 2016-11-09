@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.ServiceInformationHolder;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ServiceInformationHolder} (by simply
+ * reusing the J8Unit test interface {@link ServiceInformationHolderClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ServiceInformationHolderClassTest
-implements org.j8unit.repository.org.omg.CORBA.ServiceInformationHolderClassTests<ServiceInformationHolder> {
+implements ServiceInformationHolderClassTests<ServiceInformationHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.ServiceInformationHolder]
 

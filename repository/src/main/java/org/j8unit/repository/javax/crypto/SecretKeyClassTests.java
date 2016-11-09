@@ -3,6 +3,8 @@ package org.j8unit.repository.javax.crypto;
 import static org.junit.Assert.assertTrue;
 import javax.crypto.SecretKey;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.security.KeyClassTests;
+import org.j8unit.repository.javax.security.auth.DestroyableClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,8 +19,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.crypto.SecretKeyTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link SecretKeyTests}.
  * </p>
  *
  * <p>
@@ -47,7 +48,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SecretKeyClassTests<SUT extends SecretKey>
-extends org.j8unit.repository.java.security.KeyClassTests<SUT>, org.j8unit.repository.javax.security.auth.DestroyableClassTests<SUT> {
+extends KeyClassTests<SUT>, DestroyableClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.SecretKey]
     /**

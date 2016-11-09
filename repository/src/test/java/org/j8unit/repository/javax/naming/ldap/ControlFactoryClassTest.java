@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ControlFactory} (by simply reusing the
+ * J8Unit test interface {@link ControlFactoryClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ControlFactoryClassTest
-implements org.j8unit.repository.javax.naming.ldap.ControlFactoryClassTests<ControlFactory> {
+implements ControlFactoryClassTests<ControlFactory> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.naming.ldap.ControlFactory]
 

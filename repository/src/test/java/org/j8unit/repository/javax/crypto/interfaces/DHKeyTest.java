@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link DHKey} (by simply reusing the J8Unit
+ * test interface {@link DHKeyTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DHKeyTest
-implements org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<DHKey> {
+implements DHKeyTests<DHKey> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.crypto.interfaces.DHKey]
 

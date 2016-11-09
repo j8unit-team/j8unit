@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class CertificateNotYetValidExceptionTest
-implements FactoryBasedJ8UnitTest<CertificateNotYetValidException>,
-org.j8unit.repository.java.security.cert.CertificateNotYetValidExceptionTests<CertificateNotYetValidException> {
+implements FactoryBasedJ8UnitTest<CertificateNotYetValidException>, CertificateNotYetValidExceptionTests<CertificateNotYetValidException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.security.cert.CertificateNotYetValidException]
 

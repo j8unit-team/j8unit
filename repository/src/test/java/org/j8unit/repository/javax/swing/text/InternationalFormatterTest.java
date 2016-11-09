@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class InternationalFormatterTest
-implements FactoryBasedJ8UnitTest<InternationalFormatter>, org.j8unit.repository.javax.swing.text.InternationalFormatterTests<InternationalFormatter> {
+implements FactoryBasedJ8UnitTest<InternationalFormatter>, InternationalFormatterTests<InternationalFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.text.InternationalFormatter]
 

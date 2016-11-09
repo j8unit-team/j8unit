@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link ReflectPermission} (by simply reusing the
+ * J8Unit test interface {@link ReflectPermissionClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ReflectPermissionClassTest
-implements org.j8unit.repository.java.lang.reflect.ReflectPermissionClassTests<ReflectPermission> {
+implements ReflectPermissionClassTests<ReflectPermission> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.lang.reflect.ReflectPermission]
 

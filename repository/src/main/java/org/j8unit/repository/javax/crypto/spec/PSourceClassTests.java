@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 import javax.crypto.spec.PSource;
 import javax.crypto.spec.PSource.PSpecified;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
+import org.j8unit.repository.javax.crypto.spec.PSourceTests.PSpecifiedTests;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,8 +21,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.crypto.spec.PSourceTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link PSourceTests}.
  * </p>
  *
  * <p>
@@ -49,7 +50,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PSourceClassTests<SUT extends PSource>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.crypto.spec.PSource]
     /**
@@ -84,8 +85,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * </p>
      *
      * <p>
-     * The complementary j8unit test interface containing the instance relevant aspects is
-     * {@link org.j8unit.repository.javax.crypto.spec.PSourceTests.PSpecifiedTests}.
+     * The complementary j8unit test interface containing the instance relevant aspects is {@link PSpecifiedTests}.
      * </p>
      *
      * <p>

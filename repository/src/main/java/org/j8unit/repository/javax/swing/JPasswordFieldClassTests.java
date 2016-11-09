@@ -17,8 +17,7 @@ import org.junit.experimental.categories.Category;
  * </p>
  *
  * <p>
- * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.javax.swing.JPasswordFieldTests}.
+ * The complementary j8unit test interface containing the instance relevant aspects is {@link JPasswordFieldTests}.
  * </p>
  *
  * <p>
@@ -47,7 +46,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPasswordFieldClassTests<SUT extends JPasswordField>
-extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
+extends JTextFieldClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.swing.JPasswordField]
     /**

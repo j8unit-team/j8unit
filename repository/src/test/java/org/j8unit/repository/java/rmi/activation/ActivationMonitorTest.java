@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link ActivationMonitor} (by simply reusing
+ * the J8Unit test interface {@link ActivationMonitorTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class ActivationMonitorTest
-implements org.j8unit.repository.java.rmi.activation.ActivationMonitorTests<ActivationMonitor> {
+implements ActivationMonitorTests<ActivationMonitor> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.rmi.activation.ActivationMonitor]
 

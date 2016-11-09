@@ -20,7 +20,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class JobAttributesTest
-implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt.JobAttributesTests<JobAttributes> {
+implements FactoryBasedJ8UnitTest<JobAttributes>, JobAttributesTests<JobAttributes> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes]
 
@@ -41,10 +41,15 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.awt.JobAttributes]
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link SidesType} (by simply reusing the
+     * J8Unit test interface {@link SidesTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class SidesTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.SidesTypeTests<SidesType> {
+    implements SidesTypeTests<SidesType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$SidesType]
 
@@ -69,10 +74,15 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DialogType} (by simply reusing
+     * the J8Unit test interface {@link DialogTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DialogTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.DialogTypeTests<DialogType> {
+    implements DialogTypeTests<DialogType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DialogType]
 
@@ -97,10 +107,15 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DestinationType} (by simply
+     * reusing the J8Unit test interface {@link DestinationTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DestinationTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.DestinationTypeTests<DestinationType> {
+    implements DestinationTypeTests<DestinationType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DestinationType]
 
@@ -124,10 +139,15 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link MultipleDocumentHandlingType} (by
+     * simply reusing the J8Unit test interface {@link MultipleDocumentHandlingTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class MultipleDocumentHandlingTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.MultipleDocumentHandlingTypeTests<MultipleDocumentHandlingType> {
+    implements MultipleDocumentHandlingTypeTests<MultipleDocumentHandlingType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$MultipleDocumentHandlingType]
 
@@ -151,10 +171,15 @@ implements FactoryBasedJ8UnitTest<JobAttributes>, org.j8unit.repository.java.awt
 
     }
 
+    /**
+     * Specific JUnit test class to proof the instance relevant aspects of type {@link DefaultSelectionType} (by simply
+     * reusing the J8Unit test interface {@link DefaultSelectionTypeTests}).
+     */
+
     @RunWith(J8Parameterized.class)
     @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
     public static class DefaultSelectionTypeTest
-    implements org.j8unit.repository.java.awt.JobAttributesTests.DefaultSelectionTypeTests<DefaultSelectionType> {
+    implements DefaultSelectionTypeTests<DefaultSelectionType> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.awt.JobAttributes$DefaultSelectionType]
 

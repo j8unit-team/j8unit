@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.StringSeqHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link StringSeqHelper} (by simply reusing the
+ * J8Unit test interface {@link StringSeqHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class StringSeqHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.StringSeqHelperClassTests<StringSeqHelper> {
+implements StringSeqHelperClassTests<StringSeqHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.StringSeqHelper]
 

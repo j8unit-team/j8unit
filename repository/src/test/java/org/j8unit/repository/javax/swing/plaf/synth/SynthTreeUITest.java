@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthTreeUITest
-implements FactoryBasedJ8UnitTest<SynthTreeUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthTreeUITests<SynthTreeUI> {
+implements FactoryBasedJ8UnitTest<SynthTreeUI>, SynthTreeUITests<SynthTreeUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthTreeUI]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SubjectTest
-implements FactoryBasedJ8UnitTest<Subject>, org.j8unit.repository.javax.security.auth.SubjectTests<Subject> {
+implements FactoryBasedJ8UnitTest<Subject>, SubjectTests<Subject> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.security.auth.Subject]
 

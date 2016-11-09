@@ -14,8 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SchemaViolationExceptionTest
-implements FactoryBasedJ8UnitTest<SchemaViolationException>,
-org.j8unit.repository.javax.naming.directory.SchemaViolationExceptionTests<SchemaViolationException> {
+implements FactoryBasedJ8UnitTest<SchemaViolationException>, SchemaViolationExceptionTests<SchemaViolationException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.naming.directory.SchemaViolationException]
 

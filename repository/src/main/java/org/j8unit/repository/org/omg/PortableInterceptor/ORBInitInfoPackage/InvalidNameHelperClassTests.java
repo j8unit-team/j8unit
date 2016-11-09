@@ -2,6 +2,7 @@ package org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage;
 
 import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectClassTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameHelper;
@@ -47,7 +48,7 @@ import org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameHelper;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidNameHelperClassTests<SUT extends InvalidNameHelper>
-extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+extends ObjectClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameHelper]
     /**

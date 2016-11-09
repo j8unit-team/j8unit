@@ -6,6 +6,11 @@ import javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup;
 import javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests;
+import org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboPopupClassTests;
+import org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -20,7 +25,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests}).
+ * {@link MetalComboBoxUIClassTests}).
  * </p>
  *
  * @param SUT
@@ -31,7 +36,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxUITests<SUT extends MetalComboBoxUI>
-extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
+extends BasicComboBoxUITests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI]
 
@@ -263,7 +268,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboPopupClassTests}).
+     * (see {@link MetalComboPopupClassTests}).
      * </p>
      *
      * @param SUT
@@ -274,7 +279,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboPopupTests<SUT extends MetalComboPopup>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<SUT> {
+    extends BasicComboPopupTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboPopup]
 
@@ -317,8 +322,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests}).
+     * (see {@link MetalPropertyChangeListenerClassTests}).
      * </p>
      *
      * @param SUT
@@ -329,7 +333,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalPropertyChangeListenerTests<SUT extends MetalPropertyChangeListener>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests<SUT> {
+    extends PropertyChangeHandlerTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalPropertyChangeListener]
 
@@ -374,8 +378,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see
-     * {@link org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests}).
+     * (see {@link MetalComboBoxLayoutManagerClassTests}).
      * </p>
      *
      * @param SUT
@@ -386,7 +389,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboBoxLayoutManagerTests<SUT extends MetalComboBoxLayoutManager>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ComboBoxLayoutManagerTests<SUT> {
+    extends ComboBoxLayoutManagerTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager]
 

@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class RandomTest
-implements FactoryBasedJ8UnitTest<Random>, org.j8unit.repository.java.util.RandomTests<Random> {
+implements FactoryBasedJ8UnitTest<Random>, RandomTests<Random> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.Random]
 

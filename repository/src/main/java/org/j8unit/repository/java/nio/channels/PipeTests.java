@@ -5,6 +5,10 @@ import java.nio.channels.Pipe.SinkChannel;
 import java.nio.channels.Pipe.SourceChannel;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
+import org.j8unit.repository.java.lang.ObjectTests;
+import org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests;
+import org.j8unit.repository.java.nio.channels.PipeClassTests.SourceChannelClassTests;
+import org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
@@ -19,7 +23,7 @@ import org.junit.experimental.categories.Category;
  * <p>
  * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints. For
  * this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects (see
- * {@link org.j8unit.repository.java.nio.channels.PipeClassTests}).
+ * {@link PipeClassTests}).
  * </p>
  *
  * @param SUT
@@ -30,7 +34,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PipeTests<SUT extends Pipe>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+extends ObjectTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe]
 
@@ -91,7 +95,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.nio.channels.PipeClassTests.SourceChannelClassTests}).
+     * (see {@link SourceChannelClassTests}).
      * </p>
      *
      * @param SUT
@@ -102,8 +106,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SourceChannelTests<SUT extends SourceChannel>
-    extends org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>,
-    org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> {
+    extends ScatteringByteChannelTests<SUT>, AbstractSelectableChannelTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SourceChannel]
 
@@ -145,7 +148,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * <p>
      * j8unit strongly encourages you to not only test the instances behaviour but also to test the type constraints.
      * For this purpose, j8unit also provides a complementary test interface containing the class/type relevant aspects
-     * (see {@link org.j8unit.repository.java.nio.channels.PipeClassTests.SinkChannelClassTests}).
+     * (see {@link SinkChannelClassTests}).
      * </p>
      *
      * @param SUT
@@ -156,8 +159,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SinkChannelTests<SUT extends SinkChannel>
-    extends org.j8unit.repository.java.nio.channels.GatheringByteChannelTests<SUT>,
-    org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> {
+    extends GatheringByteChannelTests<SUT>, AbstractSelectableChannelTests<SUT> {
 
         // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.nio.channels.Pipe$SinkChannel]
 

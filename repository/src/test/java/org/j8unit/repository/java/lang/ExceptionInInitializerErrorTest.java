@@ -13,7 +13,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ExceptionInInitializerErrorTest
-implements FactoryBasedJ8UnitTest<ExceptionInInitializerError>, org.j8unit.repository.java.lang.ExceptionInInitializerErrorTests<ExceptionInInitializerError> {
+implements FactoryBasedJ8UnitTest<ExceptionInInitializerError>, ExceptionInInitializerErrorTests<ExceptionInInitializerError> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.lang.ExceptionInInitializerError]
 

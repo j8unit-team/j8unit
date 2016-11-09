@@ -8,9 +8,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.TRANSACTION_REQUIRED;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link TRANSACTION_REQUIRED} (by simply reusing
+ * the J8Unit test interface {@link TRANSACTION_REQUIREDClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TRANSACTION_REQUIREDClassTest
-implements org.j8unit.repository.org.omg.CORBA.TRANSACTION_REQUIREDClassTests<TRANSACTION_REQUIRED> {
+implements TRANSACTION_REQUIREDClassTests<TRANSACTION_REQUIRED> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.TRANSACTION_REQUIRED]
 

@@ -18,7 +18,7 @@ import org.junit.experimental.categories.Category;
  *
  * <p>
  * The complementary j8unit test interface containing the instance relevant aspects is
- * {@link org.j8unit.repository.java.util.concurrent.RunnableScheduledFutureTests}.
+ * {@link RunnableScheduledFutureTests}.
  * </p>
  *
  * <p>
@@ -47,7 +47,7 @@ import org.junit.experimental.categories.Category;
 @FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RunnableScheduledFutureClassTests<SUT extends RunnableScheduledFuture>
-extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT>, org.j8unit.repository.java.util.concurrent.ScheduledFutureClassTests<SUT> {
+extends RunnableFutureClassTests<SUT>, ScheduledFutureClassTests<SUT> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.concurrent.RunnableScheduledFuture]
     /**

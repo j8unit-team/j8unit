@@ -14,7 +14,7 @@ import org.xml.sax.helpers.XMLFilterImpl;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class XMLFilterImplTest
-implements FactoryBasedJ8UnitTest<XMLFilterImpl>, org.j8unit.repository.org.xml.sax.helpers.XMLFilterImplTests<XMLFilterImpl> {
+implements FactoryBasedJ8UnitTest<XMLFilterImpl>, XMLFilterImplTests<XMLFilterImpl> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.xml.sax.helpers.XMLFilterImpl]
 

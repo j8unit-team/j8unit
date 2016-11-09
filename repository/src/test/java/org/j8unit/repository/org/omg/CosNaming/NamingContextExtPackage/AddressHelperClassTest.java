@@ -9,9 +9,14 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.omg.CosNaming.NamingContextExtPackage.AddressHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link AddressHelper} (by simply reusing the
+ * J8Unit test interface {@link AddressHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class AddressHelperClassTest
-implements org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.AddressHelperClassTests<AddressHelper> {
+implements AddressHelperClassTests<AddressHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CosNaming.NamingContextExtPackage.AddressHelper]
 

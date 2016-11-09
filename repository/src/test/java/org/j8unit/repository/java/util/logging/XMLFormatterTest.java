@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class XMLFormatterTest
-implements FactoryBasedJ8UnitTest<XMLFormatter>, org.j8unit.repository.java.util.logging.XMLFormatterTests<XMLFormatter> {
+implements FactoryBasedJ8UnitTest<XMLFormatter>, XMLFormatterTests<XMLFormatter> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.logging.XMLFormatter]
 

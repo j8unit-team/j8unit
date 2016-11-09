@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SynthTabbedPaneUITest
-implements FactoryBasedJ8UnitTest<SynthTabbedPaneUI>, org.j8unit.repository.javax.swing.plaf.synth.SynthTabbedPaneUITests<SynthTabbedPaneUI> {
+implements FactoryBasedJ8UnitTest<SynthTabbedPaneUI>, SynthTabbedPaneUITests<SynthTabbedPaneUI> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.plaf.synth.SynthTabbedPaneUI]
 

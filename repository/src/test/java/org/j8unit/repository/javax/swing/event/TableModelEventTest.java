@@ -5,9 +5,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link TableModelEvent} (by simply reusing
+ * the J8Unit test interface {@link TableModelEventTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class TableModelEventTest
-implements org.j8unit.repository.javax.swing.event.TableModelEventTests<TableModelEvent> {
+implements TableModelEventTests<TableModelEvent> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.swing.event.TableModelEvent]
 

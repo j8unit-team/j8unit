@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link SimpleTimeZone} (by simply reusing the
+ * J8Unit test interface {@link SimpleTimeZoneClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class SimpleTimeZoneClassTest
-implements org.j8unit.repository.java.util.SimpleTimeZoneClassTests<SimpleTimeZone> {
+implements SimpleTimeZoneClassTests<SimpleTimeZone> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[java.util.SimpleTimeZone]
 

@@ -14,7 +14,7 @@ import org.omg.CosNaming.BindingListHolder;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class BindingListHolderTest
-implements FactoryBasedJ8UnitTest<BindingListHolder>, org.j8unit.repository.org.omg.CosNaming.BindingListHolderTests<BindingListHolder> {
+implements FactoryBasedJ8UnitTest<BindingListHolder>, BindingListHolderTests<BindingListHolder> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[org.omg.CosNaming.BindingListHolder]
 

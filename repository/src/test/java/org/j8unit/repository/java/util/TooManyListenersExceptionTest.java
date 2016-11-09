@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class TooManyListenersExceptionTest
-implements FactoryBasedJ8UnitTest<TooManyListenersException>, org.j8unit.repository.java.util.TooManyListenersExceptionTests<TooManyListenersException> {
+implements FactoryBasedJ8UnitTest<TooManyListenersException>, TooManyListenersExceptionTests<TooManyListenersException> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[java.util.TooManyListenersException]
 

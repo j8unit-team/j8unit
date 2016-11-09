@@ -14,9 +14,14 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
+/**
+ * Specific JUnit test class to proof the instance relevant aspects of type {@link XmlElementRef} (by simply reusing the
+ * J8Unit test interface {@link XmlElementRefTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class XmlElementRefTest
-implements org.j8unit.repository.javax.xml.bind.annotation.XmlElementRefTests<XmlElementRef> {
+implements XmlElementRefTests<XmlElementRef> {
 
     // J8UNIT-MARKER-[BEGIN]-[INSTANCE]-[javax.xml.bind.annotation.XmlElementRef]
 

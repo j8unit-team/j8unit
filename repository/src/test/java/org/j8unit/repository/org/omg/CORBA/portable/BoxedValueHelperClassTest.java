@@ -4,9 +4,14 @@ import org.j8unit.runners.J8Unit4;
 import org.junit.runner.RunWith;
 import org.omg.CORBA.portable.BoxedValueHelper;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link BoxedValueHelper} (by simply reusing the
+ * J8Unit test interface {@link BoxedValueHelperClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class BoxedValueHelperClassTest
-implements org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTests<BoxedValueHelper> {
+implements BoxedValueHelperClassTests<BoxedValueHelper> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[org.omg.CORBA.portable.BoxedValueHelper]
 

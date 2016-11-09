@@ -8,9 +8,14 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
+/**
+ * Specific JUnit test class to proof the type relevant aspects of type {@link DateTimeAtCompleted} (by simply reusing
+ * the J8Unit test interface {@link DateTimeAtCompletedClassTests}).
+ */
+
 @RunWith(J8Unit4.class)
 public class DateTimeAtCompletedClassTest
-implements org.j8unit.repository.javax.print.attribute.standard.DateTimeAtCompletedClassTests<DateTimeAtCompleted> {
+implements DateTimeAtCompletedClassTests<DateTimeAtCompleted> {
 
     // J8UNIT-MARKER-[BEGIN]-[CLASS]-[javax.print.attribute.standard.DateTimeAtCompleted]
 
