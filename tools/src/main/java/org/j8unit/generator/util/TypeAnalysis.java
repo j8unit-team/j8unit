@@ -11,6 +11,7 @@ import static java.util.Spliterator.ORDERED;
 import static java.util.Spliterators.spliteratorUnknownSize;
 import static java.util.stream.Collectors.toMap;
 import static java.util.stream.Collectors.toSet;
+import static java.util.stream.Stream.concat;
 import static org.j8unit.generator.analysis.AccessModifier.PUBLIC;
 import static org.j8unit.generator.util.Consumers.NOOP;
 import static org.j8unit.generator.util.Iterators.iterate;
@@ -96,6 +97,13 @@ public enum TypeAnalysis {
      */
     public static final Iterator<Class<?>> classHierarchy(final Class<?> entity) {
         return iterate(entity, Class::getSuperclass, Objects::nonNull);
+    }
+
+    /**
+     * TODO: JavaDoc!
+     */
+    public static final Stream<Class<?>> scopedTypes(final Class<?> entity) {
+        return concat(Stream.of(entity), stream(entity.getDeclaredClasses()).flatMap(TypeAnalysis::scopedTypes));
     }
 
     /**
