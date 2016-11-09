@@ -58,6 +58,22 @@ implements J8UnitCodeGenerator {
 
     INSTANCE_TEST_EXECUTION(INSTANCE) {
 
+        private final StringBuilder javadoc(final Class<?> type, final OriginRenderer renderer, final TargetRenderer complementary, final int depth) {
+            // data preparations
+            final String indt = indent(depth);
+            final String originTypeUnderTest = renderer.originCanonicalNameOf(type);
+            final String j8unitTestInterface = complementary.targetCanonicalNameOf(type);
+            // content storage
+            final StringBuilder out = new StringBuilder();
+            // content creation
+            out.append(format("%s/**%n", indt));
+            out.append(format("%s * Specific JUnit test class to proof the instance relevant aspects of type {@link %s}%n", indt, originTypeUnderTest));
+            out.append(format("%s * (by simply reusing the J8Unit test interface {@link %s}).%n", indt, j8unitTestInterface));
+            out.append(format("%s */%n", indt));
+            // finish
+            return out;
+        }
+
         @Override
         public final <Renderer extends OriginRenderer & TargetRenderer> String generateTestContent(final Class<?> type, final GeneratorUseControler control,
                                                                                                    final Renderer renderer, final TargetRenderer complementary,
@@ -101,8 +117,7 @@ implements J8UnitCodeGenerator {
         }
 
         private final <Renderer extends OriginRenderer & TargetRenderer> StringBuilder asJ8UnitTest(final Class<?> type, final GeneratorUseControler control,
-                                                                                                    final Renderer renderer,
-                                                                                                    final TargetRenderer complementaryBehaviour,
+                                                                                                    final Renderer renderer, final TargetRenderer complementary,
                                                                                                     final int depth, final StringBuilder sutCreation) {
             // data preparations
             final String indt = indent(depth);
@@ -110,11 +125,13 @@ implements J8UnitCodeGenerator {
             final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = diamond(renderer.listOfTypeParameterDefinitionsOf(type));
-            final String testClassInterfaceType = complementaryBehaviour.targetCanonicalNameOf(type);
+            final String testClassInterfaceType = complementary.targetCanonicalNameOf(type);
             final String testClassInterfaceGenerics = diamond(renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)
                                                               + ofEmptyable(csv(renderer.listOfTypeParameterNamesOf(type))).prepend(", ").orEmpty());
             // content storage
             final StringBuilder out = new StringBuilder();
+            // content creation: JavaDoc
+            out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
             out.append(modusOperandi.renderWarnings(depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
@@ -138,7 +155,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
-                out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
+                out.append(this.generateTestContent(enveloped, control, renderer, complementary, depth + 1));
                 out.append(format("%n"));
             }
             out.append(format("%s}%n", indt));
@@ -146,26 +163,31 @@ implements J8UnitCodeGenerator {
             return out;
         }
 
-        private final <Renderer extends OriginRenderer & TargetRenderer> StringBuilder asParameterizedJ8UnitTest(final Class<?> type, final GeneratorUseControler control,
-                                                                                                    final Renderer renderer,
-                                                                                                    final TargetRenderer complementaryBehaviour,
-                                                                                                    final int depth, final StringBuilder sutCreation) {
+        private final <Renderer extends OriginRenderer & TargetRenderer> StringBuilder asParameterizedJ8UnitTest(final Class<?> type,
+                                                                                                                 final GeneratorUseControler control,
+                                                                                                                 final Renderer renderer,
+                                                                                                                 final TargetRenderer complementary,
+                                                                                                                 final int depth,
+                                                                                                                 final StringBuilder sutCreation) {
             // data preparations
             final String indt = indent(depth);
             final ModusOperandi modusOperandi = this.modusOperandi(type);
             final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = diamond(renderer.listOfTypeParameterDefinitionsOf(type));
-            final String testClassInterfaceType = complementaryBehaviour.targetCanonicalNameOf(type);
+            final String testClassInterfaceType = complementary.targetCanonicalNameOf(type);
             final String testClassInterfaceGenerics = diamond(renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)
                                                               + ofEmptyable(csv(renderer.listOfTypeParameterNamesOf(type))).prepend(", ").orEmpty());
             // content storage
             final StringBuilder out = new StringBuilder();
+            // content creation: JavaDoc
+            out.append(this.javadoc(type, renderer, complementary, depth));
             // content creation: @SuppressWarnings(...)
             out.append(modusOperandi.renderWarnings(depth, renderer));
             // content creation: @RunWith(J8Unit4.class)
             out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(RunWith.class), renderer.originCanonicalClassOf(J8Parameterized.class)));
-            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class), renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
+            out.append(format("%s@%s(%s)%n", indt, renderer.originCanonicalNameOf(UseParametersRunnerFactory.class),
+                              renderer.originCanonicalClassOf(J8BlockJUnit4ClassRunnerWithParametersFactory.class)));
             // content creation: J8Unit Test Interface Declaration
             out.append(format("%spublic %s class %s%s%n", indt, optionalModifiers, j8unitName, j8unitGenerics));
             out.append(format("%simplements %s%s%n", indt, testClassInterfaceType, testClassInterfaceGenerics));
@@ -185,7 +207,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
-                out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
+                out.append(this.generateTestContent(enveloped, control, renderer, complementary, depth + 1));
                 out.append(format("%n"));
             }
             out.append(format("%s}%n", indt));
@@ -271,7 +293,7 @@ implements J8UnitCodeGenerator {
         private final <Renderer extends OriginRenderer & TargetRenderer> StringBuilder asFactoryBasedJ8UnitTest(final Class<?> type,
                                                                                                                 final GeneratorUseControler control,
                                                                                                                 final Renderer renderer,
-                                                                                                                final TargetRenderer complementaryBehaviour,
+                                                                                                                final TargetRenderer complementary,
                                                                                                                 final int depth,
                                                                                                                 final StringBuilder sutCreation) {
             // data preparations
@@ -280,7 +302,7 @@ implements J8UnitCodeGenerator {
             final String optionalModifiers = join(" ", this.optionalModifiers(depth));
             final String j8unitName = renderer.targetSimpleNameOf(type);
             final String j8unitGenerics = diamond(renderer.listOfTypeParameterDefinitionsOf(type));
-            final String testClassInterfaceType = complementaryBehaviour.targetCanonicalNameOf(type);
+            final String testClassInterfaceType = complementary.targetCanonicalNameOf(type);
             final String testClassInterfaceGenerics = diamond(renderer.originCanonicalNameOf(type, renderer::listOfTypeParameterNamesOf)
                                                               + ofEmptyable(csv(renderer.listOfTypeParameterNamesOf(type))).prepend(", ").orEmpty());
             // content storage
@@ -312,7 +334,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
-                out.append(this.generateTestContent(enveloped, control, renderer, complementaryBehaviour, depth + 1));
+                out.append(this.generateTestContent(enveloped, control, renderer, complementary, depth + 1));
                 out.append(format("%n"));
             }
             out.append(format("%s}%n", indt));
@@ -366,11 +388,16 @@ implements J8UnitCodeGenerator {
 
         private final StringBuilder javadoc(final Class<?> type, final OriginRenderer renderer, final TargetRenderer complementary, final int depth) {
             // data preparations
-            // final String indt = indent(depth);
+            final String indt = indent(depth);
+            final String originTypeUnderTest = renderer.originCanonicalNameOf(type);
+            final String j8unitTestInterface = complementary.targetCanonicalNameOf(type);
             // content storage
             final StringBuilder out = new StringBuilder();
             // content creation
-            // ... TODO ... create some documentation ...
+            out.append(format("%s/**%n", indt));
+            out.append(format("%s * Specific JUnit test class to proof the type relevant aspects of type {@link %s}%n", indt, originTypeUnderTest));
+            out.append(format("%s * (by simply reusing the J8Unit test interface {@link %s}).%n", indt, j8unitTestInterface));
+            out.append(format("%s */%n", indt));
             // finish
             return out;
         }
