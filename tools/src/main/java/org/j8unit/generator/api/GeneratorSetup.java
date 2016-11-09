@@ -41,7 +41,7 @@ import org.j8unit.generator.api.control.GeneratorInputControler;
 import org.j8unit.generator.api.control.GeneratorOutputControler;
 import org.j8unit.generator.api.control.GeneratorUseControler;
 import org.j8unit.generator.api.render.FancyOriginRenderer;
-import org.j8unit.generator.api.render.TargetRenderer;
+import org.j8unit.generator.api.render.FancyTargetRenderer;
 import org.j8unit.generator.util.Java;
 import org.j8unit.generator.util.Optionals;
 import org.j8unit.generator.util.TypeAnalysis;
@@ -50,13 +50,18 @@ import org.j8unit.generator.util.TypeAnalysis;
  * <em>Immutable</em> container class of all {@linkplain Generator generator}-specific configuration data.
  */
 public final class GeneratorSetup
-implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputControler, FancyOriginRenderer, TargetRenderer {
+implements GeneratorInputControler, GeneratorUseControler, GeneratorOutputControler, FancyOriginRenderer, FancyTargetRenderer {
 
     private ImportMemory memory = new ImportMemory();
 
     @Override
+    public void setImportMemory(final ImportMemory memory) {
+        this.memory = memory;
+    }
+
+    @Override
     public void resetImportMemory() {
-        this.memory = new ImportMemory();
+        this.setImportMemory(new ImportMemory());
     }
 
     @Override

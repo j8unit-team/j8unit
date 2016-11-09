@@ -5,7 +5,10 @@ import static org.j8unit.generator.analysis.AccessScope.CLASS;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
 import static org.j8unit.generator.util.BiFunctions.curryFirst;
 import static org.j8unit.generator.util.TypeAnalysis.getInterfaces;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 import java.lang.reflect.Type;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -16,7 +19,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
 import java.util.function.Function;
-import org.j8unit.generator.api.GeneratorSetup;
 import org.junit.Before;
 import org.junit.Test;
 import com.sun.net.httpserver.Headers;
@@ -43,7 +45,7 @@ public class GeneratorSetupTest {
     private static final GeneratorSetup JAVA_LANG_INTO_SUBBED = GeneratorSetup.similarTo(JAVA_LANG_INTO) //
                                                                               .asSubPackageOf("foo.bar") //
                                                                               .build();
-    
+
     @Before
     public void testName()
     throws Exception {
@@ -53,35 +55,36 @@ public class GeneratorSetupTest {
     @Test
     public void get_INSTANCE_TestClassSuperTypesMapper()
     throws Exception {
-        final Function<? super Entry<? extends Class<?>, ? extends Type>, ? extends String> mapper = curryFirst(INSTANCE::getTestInterfaceSuperTypeDefinition, JAVA_LANG);
+        final Function<? super Entry<? extends Class<?>, ? extends Type>, ? extends String> mapper = curryFirst(INSTANCE::getTestInterfaceSuperTypeDefinition,
+                                                                                                                JAVA_LANG);
         {
             final Entry<? extends Class<?>, ? extends Type> e = getInterfaces(Enum.class).entrySet().iterator().next();
             final String r = mapper.apply(e);
-            assertEquals("java.lang.ComparableTest<SUT, E>", r);
+            assertEquals("ComparableTest<SUT, E>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(Comparable.class, getInterfaces(String.class).get(Comparable.class));
             final String r = mapper.apply(e);
-            assertEquals("java.lang.ComparableTest<SUT, String>", r);
+            assertEquals("ComparableTest<SUT, String>", r);
         }
         {
             JAVA_LANG.resetImportMemory();
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(DayOfWeek.class.getSuperclass(),
                                                                                            DayOfWeek.class.getGenericSuperclass());
             final String r = mapper.apply(e);
-            assertEquals("java.lang.EnumTest<SUT, DayOfWeek>", r);
-            assertEquals(format("import java.time.DayOfWeek;%n"),  JAVA_LANG.renderImport("java.lang"));
+            assertEquals("EnumTest<SUT, DayOfWeek>", r);
+            assertEquals(format("import java.time.DayOfWeek;%n"), JAVA_LANG.renderImport("java.lang"));
             JAVA_LANG.resetImportMemory();
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(String.class, String.class);
             final String r = mapper.apply(e);
-            assertEquals("java.lang.StringTest<SUT>", r);
+            assertEquals("StringTest<SUT>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = getInterfaces(Collection.class).entrySet().iterator().next();
             final String r = mapper.apply(e);
-            assertEquals("java.lang.IterableTest<SUT, E>", r);
+            assertEquals("IterableTest<SUT, E>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(Map.class, Map.class);
@@ -99,7 +102,7 @@ public class GeneratorSetupTest {
             final Entry<? extends Class<?>, ? extends Type> e = getInterfaces(Headers.class).entrySet().iterator().next();
             final String r = mapper.apply(e);
             assertEquals("java.util.MapTest<SUT, String, List<String>>", r);
-            assertEquals(format("import java.util.List;%n"),  JAVA_LANG.renderImport("java.lang"));
+            assertEquals(format("import java.util.List;%n"), JAVA_LANG.renderImport("java.lang"));
             JAVA_LANG.resetImportMemory();
         }
     }
@@ -107,32 +110,33 @@ public class GeneratorSetupTest {
     @Test
     public void get_CLASS_TestClassSuperTypesMapper()
     throws Exception {
-        final Function<? super Entry<? extends Class<?>, ? extends Type>, ? extends String> mapper = curryFirst(CLASS::getTestInterfaceSuperTypeDefinition, JAVA_LANG);
+        final Function<? super Entry<? extends Class<?>, ? extends Type>, ? extends String> mapper = curryFirst(CLASS::getTestInterfaceSuperTypeDefinition,
+                                                                                                                JAVA_LANG);
         {
             final Entry<? extends Class<?>, ? extends Type> e = getInterfaces(Enum.class).entrySet().iterator().next();
             final String r = mapper.apply(e);
-            assertEquals("java.lang.ComparableTest<SUT>", r);
+            assertEquals("ComparableTest<SUT>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(Comparable.class, getInterfaces(String.class).get(Comparable.class));
             final String r = mapper.apply(e);
-            assertEquals("java.lang.ComparableTest<SUT>", r);
+            assertEquals("ComparableTest<SUT>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(DayOfWeek.class.getSuperclass(),
                                                                                            DayOfWeek.class.getGenericSuperclass());
             final String r = mapper.apply(e);
-            assertEquals("java.lang.EnumTest<SUT>", r);
+            assertEquals("EnumTest<SUT>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(String.class, String.class);
             final String r = mapper.apply(e);
-            assertEquals("java.lang.StringTest<SUT>", r);
+            assertEquals("StringTest<SUT>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = getInterfaces(Collection.class).entrySet().iterator().next();
             final String r = mapper.apply(e);
-            assertEquals("java.lang.IterableTest<SUT>", r);
+            assertEquals("IterableTest<SUT>", r);
         }
         {
             final Entry<? extends Class<?>, ? extends Type> e = new SimpleImmutableEntry<>(Map.class, Map.class);
@@ -231,16 +235,16 @@ public class GeneratorSetupTest {
     @Test
     public void test_targetCanonicalNameOf()
     throws Exception {
-        assertEquals("java.lang.ObjectTest", JAVA_LANG.targetCanonicalNameOf(Object.class));
-        assertEquals("java.lang.ObjectTest", JAVA_LANG_INTO.targetCanonicalNameOf(Object.class));
+        assertEquals("ObjectTest", JAVA_LANG.targetCanonicalNameOf(Object.class));
+        assertEquals("ObjectTest", JAVA_LANG_INTO.targetCanonicalNameOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest", JAVA_LANG_SUBBED.targetCanonicalNameOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest", JAVA_LANG_INTO_SUBBED.targetCanonicalNameOf(Object.class));
         assertEquals("java.util.MapTest.EntryTest", JAVA_LANG.targetCanonicalNameOf(Map.Entry.class));
         assertEquals("java.util.MapTest.EntryTest", JAVA_LANG_INTO.targetCanonicalNameOf(Map.Entry.class));
         assertEquals("foo.bar.java.util.MapTest.EntryTest", JAVA_LANG_SUBBED.targetCanonicalNameOf(Map.Entry.class));
         assertEquals("foo.bar.java.util.MapTest.EntryTest", JAVA_LANG_INTO_SUBBED.targetCanonicalNameOf(Map.Entry.class));
-        assertEquals("java.lang.ObjectTest", JAVA_LANG.targetCanonicalNameOf(Object.class));
-        assertEquals("java.lang.ObjectTest", JAVA_LANG_INTO.targetCanonicalNameOf(Object.class));
+        assertEquals("ObjectTest", JAVA_LANG.targetCanonicalNameOf(Object.class));
+        assertEquals("ObjectTest", JAVA_LANG_INTO.targetCanonicalNameOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest", JAVA_LANG_SUBBED.targetCanonicalNameOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest", JAVA_LANG_INTO_SUBBED.targetCanonicalNameOf(Object.class));
         assertEquals("java.util.MapTest.EntryTest", JAVA_LANG.targetCanonicalNameOf(Map.Entry.class));
@@ -277,16 +281,16 @@ public class GeneratorSetupTest {
     @Test
     public void test_targetCanonicalClassOf()
     throws Exception {
-        assertEquals("java.lang.ObjectTest.class", JAVA_LANG.targetCanonicalClassOf(Object.class));
-        assertEquals("java.lang.ObjectTest.class", JAVA_LANG_INTO.targetCanonicalClassOf(Object.class));
+        assertEquals("ObjectTest.class", JAVA_LANG.targetCanonicalClassOf(Object.class));
+        assertEquals("ObjectTest.class", JAVA_LANG_INTO.targetCanonicalClassOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest.class", JAVA_LANG_SUBBED.targetCanonicalClassOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest.class", JAVA_LANG_INTO_SUBBED.targetCanonicalClassOf(Object.class));
         assertEquals("java.util.MapTest.EntryTest.class", JAVA_LANG.targetCanonicalClassOf(Map.Entry.class));
         assertEquals("java.util.MapTest.EntryTest.class", JAVA_LANG_INTO.targetCanonicalClassOf(Map.Entry.class));
         assertEquals("foo.bar.java.util.MapTest.EntryTest.class", JAVA_LANG_SUBBED.targetCanonicalClassOf(Map.Entry.class));
         assertEquals("foo.bar.java.util.MapTest.EntryTest.class", JAVA_LANG_INTO_SUBBED.targetCanonicalClassOf(Map.Entry.class));
-        assertEquals("java.lang.ObjectTest.class", JAVA_LANG.targetCanonicalClassOf(Object.class));
-        assertEquals("java.lang.ObjectTest.class", JAVA_LANG_INTO.targetCanonicalClassOf(Object.class));
+        assertEquals("ObjectTest.class", JAVA_LANG.targetCanonicalClassOf(Object.class));
+        assertEquals("ObjectTest.class", JAVA_LANG_INTO.targetCanonicalClassOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest.class", JAVA_LANG_SUBBED.targetCanonicalClassOf(Object.class));
         assertEquals("foo.bar.java.lang.ObjectTest.class", JAVA_LANG_INTO_SUBBED.targetCanonicalClassOf(Object.class));
         assertEquals("java.util.MapTest.EntryTest.class", JAVA_LANG.targetCanonicalClassOf(Map.Entry.class));
@@ -382,8 +386,10 @@ public class GeneratorSetupTest {
         assertEquals(Paths.get("foo", "bar", "java", "lang").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(Object.class));
         assertEquals(Paths.get("src", "main", "java", "foo", "bar", "java", "lang").toAbsolutePath(), JAVA_LANG_INTO_SUBBED.targetFolderFor(Object.class));
         assertEquals(Paths.get("org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG.targetFolderFor(PackagePrivateClass.class));
-        assertEquals(Paths.get("src", "main", "java", "org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG_INTO.targetFolderFor(PackagePrivateClass.class));
-        assertEquals(Paths.get("foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(), JAVA_LANG_SUBBED.targetFolderFor(PackagePrivateClass.class));
+        assertEquals(Paths.get("src", "main", "java", "org", "j8unit", "generator", "api").toAbsolutePath(),
+                     JAVA_LANG_INTO.targetFolderFor(PackagePrivateClass.class));
+        assertEquals(Paths.get("foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(),
+                     JAVA_LANG_SUBBED.targetFolderFor(PackagePrivateClass.class));
         assertEquals(Paths.get("src", "main", "java", "foo", "bar", "org", "j8unit", "generator", "api").toAbsolutePath(),
                      JAVA_LANG_INTO_SUBBED.targetFolderFor(PackagePrivateClass.class));
     }
@@ -477,11 +483,11 @@ public class GeneratorSetupTest {
     throws Exception {
         assertEquals("ObjectTest", JAVA_LANG.targetSimpleNameOf(Object.class));
         assertEquals("ObjectTest", JAVA_LANG.targetBasicNameOf(Object.class));
-        assertEquals("java.lang.ObjectTest", JAVA_LANG.targetCanonicalNameOf(Object.class));
+        assertEquals("ObjectTest", JAVA_LANG.targetCanonicalNameOf(Object.class));
 
         assertEquals("StringTest", JAVA_LANG.targetSimpleNameOf(String.class));
         assertEquals("StringTest", JAVA_LANG.targetBasicNameOf(String.class));
-        assertEquals("java.lang.StringTest", JAVA_LANG.targetCanonicalNameOf(String.class));
+        assertEquals("StringTest", JAVA_LANG.targetCanonicalNameOf(String.class));
 
         assertEquals("MapTest", JAVA_LANG.targetSimpleNameOf(Map.class));
         assertEquals("MapTest", JAVA_LANG.targetBasicNameOf(Map.class));
@@ -493,7 +499,7 @@ public class GeneratorSetupTest {
 
         assertEquals("TypeTest", JAVA_LANG.targetSimpleNameOf(ProcessBuilder.Redirect.Type.class));
         assertEquals("ProcessBuilderTest.RedirectTest.TypeTest", JAVA_LANG.targetBasicNameOf(ProcessBuilder.Redirect.Type.class));
-        assertEquals("java.lang.ProcessBuilderTest.RedirectTest.TypeTest", JAVA_LANG.targetCanonicalNameOf(ProcessBuilder.Redirect.Type.class));
+        assertEquals("ProcessBuilderTest.RedirectTest.TypeTest", JAVA_LANG.targetCanonicalNameOf(ProcessBuilder.Redirect.Type.class));
     }
 
     @Test
@@ -501,11 +507,11 @@ public class GeneratorSetupTest {
     throws Exception {
         assertEquals("ObjectTest.class", JAVA_LANG.targetSimpleClassOf(Object.class));
         assertEquals("ObjectTest.class", JAVA_LANG.targetBasicClassOf(Object.class));
-        assertEquals("java.lang.ObjectTest.class", JAVA_LANG.targetCanonicalClassOf(Object.class));
+        assertEquals("ObjectTest.class", JAVA_LANG.targetCanonicalClassOf(Object.class));
 
         assertEquals("StringTest.class", JAVA_LANG.targetSimpleClassOf(String.class));
         assertEquals("StringTest.class", JAVA_LANG.targetBasicClassOf(String.class));
-        assertEquals("java.lang.StringTest.class", JAVA_LANG.targetCanonicalClassOf(String.class));
+        assertEquals("StringTest.class", JAVA_LANG.targetCanonicalClassOf(String.class));
 
         assertEquals("MapTest.class", JAVA_LANG.targetSimpleClassOf(Map.class));
         assertEquals("MapTest.class", JAVA_LANG.targetBasicClassOf(Map.class));
@@ -517,7 +523,7 @@ public class GeneratorSetupTest {
 
         assertEquals("TypeTest.class", JAVA_LANG.targetSimpleClassOf(ProcessBuilder.Redirect.Type.class));
         assertEquals("ProcessBuilderTest.RedirectTest.TypeTest.class", JAVA_LANG.targetBasicClassOf(ProcessBuilder.Redirect.Type.class));
-        assertEquals("java.lang.ProcessBuilderTest.RedirectTest.TypeTest.class", JAVA_LANG.targetCanonicalClassOf(ProcessBuilder.Redirect.Type.class));
+        assertEquals("ProcessBuilderTest.RedirectTest.TypeTest.class", JAVA_LANG.targetCanonicalClassOf(ProcessBuilder.Redirect.Type.class));
     }
 
 }

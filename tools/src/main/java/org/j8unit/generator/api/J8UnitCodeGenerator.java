@@ -3,6 +3,7 @@ package org.j8unit.generator.api;
 import static java.lang.String.format;
 import static java.util.Arrays.stream;
 import static java.util.Objects.requireNonNull;
+import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
 import static org.j8unit.generator.analysis.TypePosition.TOP_LEVEL;
 import static org.j8unit.generator.api.LoggingMessagesKeys.ABORT_FILE;
@@ -13,6 +14,7 @@ import static org.j8unit.generator.api.LoggingMessagesKeys.FINISH_ENTITY;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_FILE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.SKIP_TYPE;
 import static org.j8unit.generator.api.LoggingMessagesKeys.START_ENTITY;
+import static org.j8unit.generator.util.TypeAnalysis.scopedTypes;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -85,6 +87,7 @@ extends J8UnitGenerator, EnvelopedTypeModifiers, GeneratorMarkers {
                 if (!target.exists() || control.doOverwrite(type)) {
                     // generate test class' content
                     renderer.resetImportMemory();
+                    renderer.setClaimedNames(scopedTypes(type).map(st -> renderer.targetSimpleNameOf(st)).collect(toList()));
                     final String content = this.generateSourceCode(type, control, renderer, complementary);
                     // // create target folder (unless existing) and target file
                     logger().info(CREATE_FILE, type, target);

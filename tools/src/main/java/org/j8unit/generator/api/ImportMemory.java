@@ -1,10 +1,13 @@
 package org.j8unit.generator.api;
 
 import static java.lang.String.format;
+import static java.util.Collections.emptyList;
 import static java.util.Objects.requireNonNull;
 import static org.j8unit.generator.analysis.TypePosition.TOP_LEVEL;
 import static org.j8unit.generator.util.Arrays.baseComponentTypeOf;
+import static org.j8unit.generator.util.Java.JAVA_LANG_PACKAGE;
 import java.util.Collection;
+import java.util.List;
 import java.util.Map.Entry;
 import java.util.SortedMap;
 import java.util.SortedSet;
@@ -13,17 +16,36 @@ import java.util.TreeSet;
 
 public final class ImportMemory {
 
+    private List<String> claimed = emptyList();
+
+    public void setClaimedNames(final List<String> claimed) {
+        this.claimed = requireNonNull(claimed);
+    }
+
     private final SortedSet<Class<?>> importAccu = new TreeSet<>((x, y) -> x.getCanonicalName().compareTo(y.getCanonicalName()));
 
     private final SortedMap<Class<?>, SortedSet<String>> staticImportAccu = new TreeMap<>((x, y) -> x.getCanonicalName().compareTo(y.getCanonicalName()));
 
+    public final boolean add(final String name) {
+        requireNonNull(name);
+        try {
+            // return false;
+            return this.add(Class.forName(name));
+        } catch (final Throwable e) {
+            e.printStackTrace(System.err);
+            return false;
+        }
+    }
+
     public final boolean add(final Class<?> type) {
         requireNonNull(type);
-        if (type.isPrimitive()) {
+        if (this.claimed.contains(type.getSimpleName())) {
+            return false;
+        } else if (type.isPrimitive()) {
             return false;
         } else if (type.isArray()) {
             return this.add(baseComponentTypeOf(type));
-        } else if (Object.class.getPackage().equals(type.getPackage()) && TOP_LEVEL.matches(type)) {
+        } else if (JAVA_LANG_PACKAGE.equals(type.getPackage()) && TOP_LEVEL.matches(type)) {
             return true;
         } else if (this.importAccu.contains(type)) {
             return true;
