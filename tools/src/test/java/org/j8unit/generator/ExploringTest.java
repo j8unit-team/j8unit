@@ -5,7 +5,7 @@ import static java.util.Collections.singleton;
 import static java.util.function.UnaryOperator.identity;
 import static java.util.stream.Collectors.toMap;
 import static org.j8unit.generator.analysis.AccessScope.INSTANCE;
-import static org.j8unit.generator.api.J8UnitRepositoryGeneratorApp.INSTANCE_TESTS_SETUP;
+import static org.j8unit.generator.api.RepositoryApp.INSTANCE_TESTS_SETUP;
 import static org.j8unit.generator.util.TypeAnalysis.calculateNearestDeclaringParents;
 import static org.j8unit.generator.util.TypeAnalysis.getDeclaredMethod;
 import static org.j8unit.generator.util.TypeAnalysis.getMethod;
