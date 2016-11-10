@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.j8unit.repository.java.io.SerializableTests;
@@ -190,6 +191,48 @@ extends ComparableTests<SUT, E>, SerializableTests<SUT>, ObjectTests<SUT> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.lang.Enum]
+
+    /**
+     * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
+     *      targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void getDeclaringClassMustBeAssignableFromGetClass() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Class<E> declaringClazz = sut.getDeclaringClass();
+        final Class<? extends Enum> clazz = sut.getClass();
+        assertTrue(declaringClazz.isAssignableFrom(clazz));
+    }
+
+    /**
+     * @see Enum#getDeclaringClass() public final java.lang.Class java.lang.Enum.getDeclaringClass() (the hereby
+     *      targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void getDeclaringClassMustBeEnum() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Class<E> declaringClazz = sut.getDeclaringClass();
+        assertTrue(declaringClazz.isEnum());
+    }
+
+    /**
+     * @see Enum#ordinal() public final int java.lang.Enum.ordinal() (the hereby targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void ordinalMustBePositive()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertTrue(sut.ordinal() >= 0);
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.lang.Enum]
 }
