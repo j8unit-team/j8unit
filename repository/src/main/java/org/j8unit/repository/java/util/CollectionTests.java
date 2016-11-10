@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.util;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 import java.util.Collection;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
@@ -457,5 +461,74 @@ extends IterableTests<SUT, E> {
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[java.util.Collection]
 
+    /**
+     * @see java.util.Collection#iterator() public abstract java.util.Iterator java.util.Collection.iterator() (the
+     *      hereby targeted method-under-test)
+     * @see java.util.Collection#isEmpty() public abstract boolean java.util.Collection.isEmpty() (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void testIteratorAccordingToIsEmpty() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final java.util.Iterator<E> iterator = sut.iterator();
+        if (sut.isEmpty()) {
+            assertFalse(iterator.hasNext());
+        } else {
+            assertTrue(iterator.hasNext());
+        }
+    }
+
+    /**
+     * @see java.util.Collection#size() public abstract int java.util.Collection.size() (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void testNonNegativeSize() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertFalse(sut.size() < 0);
+    }
+
+    /**
+     * @see java.util.Collection#size() public abstract int java.util.Collection.size() (the hereby targeted
+     *      method-under-test)
+     * @see java.util.Collection#isEmpty() public abstract boolean java.util.Collection.isEmpty() (the hereby targeted
+     *      method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void testSizeAccordingToIsEmpty() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        if (sut.isEmpty()) {
+            assertEquals(0, sut.size());
+        } else {
+            assertNotEquals(0, sut.size());
+        }
+    }
+
+    /**
+     * @see java.util.Collection#size() public abstract int java.util.Collection.size() (the hereby targeted
+     *      method-under-test)
+     * @see java.util.Collection#toArray() public abstract java.lang.Object[] java.util.Collection.toArray() (the hereby
+     *      targeted method-under-test)
+     *
+     * @since 2.0.0
+     */
+    @Test
+    public default void testToArraySize() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Object[] array = sut.toArray();
+        assertEquals(sut.size(), array.length);
+    }
+
     // J8UNIT-MARKER-[END]-[INSTANCE]-[java.util.Collection]
+
 }
