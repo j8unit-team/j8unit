@@ -49,7 +49,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
- 
+
 public enum J8UnitRepositoryGenerators
 implements J8UnitCodeGenerator {
 
@@ -131,6 +131,7 @@ implements J8UnitCodeGenerator {
             out.append(format("%s%s// %s%n", indt, indent(), this.marker(MANUAL, modusOperandi, type)));
             out.append(format("%n"));
             out.append(format("%s%s// %s%n", indt, indent(), this.marker(END, modusOperandi, type)));
+            out.append(format("%n"));
             // content creation: Enveloped Types
             for (final Class<?> enveloped : this.exploreEnvelopedTypes(type, control)) {
                 out.append(this.generateTestContent(enveloped, control, renderer, complementary, depth + 1));
