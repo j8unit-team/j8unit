@@ -1,7 +1,9 @@
 package org.j8unit.repository.java.lang.annotation;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
 import org.j8unit.repository.RepositoryClassTests;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Test;
@@ -68,6 +70,72 @@ extends RepositoryClassTests<SUT> {
     }
 
     // J8UNIT-MARKER-[MANUAL]-[CLASS]-[java.lang.annotation.Annotation]
+
+    /**
+     * @since 2.0.0
+     */
+    @Test
+    public default void declaredMethodsCannotHaveFormalParameters() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final Class<?>[] formals = method.getParameterTypes();
+                assert formals != null;
+                assertEquals(0, formals.length);
+            }
+        }
+    }
+
+    /**
+     * @since 2.0.0
+     */
+    @Test
+    public default void declaredMethodsCannotHaveThrowsClause() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final Class<?>[] exceptions = method.getExceptionTypes();
+                assert exceptions != null;
+                assertEquals(0, exceptions.length);
+            }
+        }
+    }
+
+    /**
+     * @since 2.0.0
+     */
+    @Test
+    public default void declaredMethodsCannotHaveTypeParameters() {
+        final Class<SUT> sut = createNewSUT();
+        assert sut != null;
+        final Method[] methods = sut.getDeclaredMethods();
+        assert methods != null;
+        for (final Method method : methods) {
+            try {
+                final Method origin = Object.class.getMethod(method.getName(), method.getParameterTypes());
+                assert origin != null;
+                continue;
+            } catch (final NoSuchMethodException ignore) {
+                final java.lang.reflect.TypeVariable<Method>[] types = method.getTypeParameters();
+                assert types != null;
+                assertEquals(0, types.length);
+            }
+        }
+    }
 
     // J8UNIT-MARKER-[END]-[CLASS]-[java.lang.annotation.Annotation]
 
