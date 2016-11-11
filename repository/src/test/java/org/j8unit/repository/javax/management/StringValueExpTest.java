@@ -4,8 +4,10 @@ import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.concurrent.Callable;
 import javax.management.StringValueExp;
 import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -32,6 +34,12 @@ implements FactoryBasedJ8UnitTest<StringValueExp>, StringValueExpTests<StringVal
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.management.StringValueExp]
+
+    @Category(JavaBug.class)
+    @Override
+    public void toStringMustReturnNotNull() {
+        StringValueExpTests.super.toStringMustReturnNotNull();
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.management.StringValueExp]
 

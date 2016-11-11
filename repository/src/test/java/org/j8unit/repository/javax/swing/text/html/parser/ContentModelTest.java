@@ -4,8 +4,10 @@ import static org.j8unit.util.TestParametersUtil.testParametersOf;
 import java.util.concurrent.Callable;
 import javax.swing.text.html.parser.ContentModel;
 import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -32,6 +34,12 @@ implements FactoryBasedJ8UnitTest<ContentModel>, ContentModelTests<ContentModel>
     }
 
     // J8UNIT-MARKER-[MANUAL]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
+
+    @Category(JavaBug.class)
+    @Override
+    public void toStringMustReturnNotNull() {
+        ContentModelTests.super.toStringMustReturnNotNull();
+    }
 
     // J8UNIT-MARKER-[END]-[INSTANCE]-[javax.swing.text.html.parser.ContentModel]
 

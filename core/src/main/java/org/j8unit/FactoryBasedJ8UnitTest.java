@@ -1,6 +1,7 @@
 package org.j8unit;
 
 import java.util.concurrent.Callable;
+import org.junit.AssumptionViolatedException;
 
 /**
  * <p>
@@ -58,6 +59,8 @@ extends J8UnitTest<SUT> {
             final SUT sut = factory.call();
             assert sut != null;
             return sut;
+        } catch (final AssumptionViolatedException assumption) {
+            throw assumption;
         } catch (final Exception any) {
             throw new AssertionError("Failed to create new subject-under-test instance!", any);
         }

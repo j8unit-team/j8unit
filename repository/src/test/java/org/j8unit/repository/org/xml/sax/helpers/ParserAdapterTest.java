@@ -1,6 +1,7 @@
 package org.j8unit.repository.org.xml.sax.helpers;
 
 import static org.j8unit.util.TestParametersUtil.testParametersOf;
+import static org.junit.Assume.assumeTrue;
 import java.util.concurrent.Callable;
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
@@ -28,6 +29,7 @@ implements FactoryBasedJ8UnitTest<ParserAdapter>, ParserAdapterTests<ParserAdapt
 
     @Override
     public Callable<ParserAdapter> getSUTFactory() {
+        assumeTrue("Somebody needs to specify/setup the 'org.xml.sax.parser' property at first.", false);
         return this.sutFactory;
     }
 
